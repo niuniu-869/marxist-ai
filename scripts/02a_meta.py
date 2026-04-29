@@ -20,7 +20,8 @@ sys.path.insert(0, str(Path(__file__).parent))
 from llm_client import call_llm_json  # noqa: E402
 from prompts import load_prompt, PROMPT_VERSION  # noqa: E402
 
-MAX_WORKERS = int(os.environ.get("MAX_WORKERS", "10"))
+MAX_WORKERS = int(os.environ.get("MAX_WORKERS", "20"))
+MANIFEST_PATH = ROOT / "data" / "raw" / "manifest.json"
 
 AUTHOR_NAMES = {"marx": "马克思", "engels": "恩格斯", "lenin": "列宁", "stalin": "斯大林"}
 
@@ -91,11 +92,31 @@ def process_one(doc_path: Path) -> tuple[str, int, int]:
     return slug, ok, fail
 
 
+def _build_priority_index() -> dict:
+    """从 manifest.json 读取每个 url 的 priority"""
+    if not MANIFEST_PATH.exists():
+        return {}
+    try:
+        items = json.loads(MANIFEST_PATH.read_text("utf-8"))
+        # key = url; 也按 local_path 文件名做映射
+        idx = {}
+        for it in items:
+            lp = it.get("local_path", "")
+            stem = Path(lp).stem
+            idx[stem] = it.get("priority", 1)
+        return idx
+    except Exception:
+        return {}
+
+
 def main():
     if not IN_DIR.exists():
         print("ERR: 先跑 01d_segment.py")
         sys.exit(1)
-    files = sorted(IN_DIR.rglob("*.json"))
+    pidx = _build_priority_index()
+    files = list(IN_DIR.rglob("*.json"))
+    # 按优先级排序：priority 0 (核心) 在前
+    files.sort(key=lambda f: (pidx.get(f.stem, 1), str(f)))
     print(f"02a_meta: {len(files)} files, MAX_WORKERS={MAX_WORKERS}")
     total_ok, total_fail = 0, 0
     with ThreadPoolExecutor(max_workers=MAX_WORKERS) as ex:

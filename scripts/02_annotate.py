@@ -21,6 +21,7 @@ ROOT = Path(__file__).resolve().parent.parent
 SEG_DIR = ROOT / "data" / "intermediate" / "01d_segment"
 META_DIR = ROOT / "data" / "intermediate" / "02a_meta"
 OUT_DIR = ROOT / "data" / "intermediate" / "02_annotate"
+MANIFEST_PATH = ROOT / "data" / "raw" / "manifest.json"
 
 sys.path.insert(0, str(Path(__file__).parent))
 from llm_client import call_llm_json  # noqa: E402
@@ -157,8 +158,20 @@ def process_subdoc(seg_path: Path, sub: dict, meta_payload: dict) -> tuple[int, 
     return ok, fail
 
 
+def _build_priority_index() -> dict:
+    if not MANIFEST_PATH.exists():
+        return {}
+    try:
+        items = json.loads(MANIFEST_PATH.read_text("utf-8"))
+        return {Path(it.get("local_path", "")).stem: it.get("priority", 1) for it in items}
+    except Exception:
+        return {}
+
+
 def main():
-    files = sorted(SEG_DIR.rglob("*.json"))
+    pidx = _build_priority_index()
+    files = list(SEG_DIR.rglob("*.json"))
+    files.sort(key=lambda f: (pidx.get(f.stem, 1), str(f)))
     print(f"02_annotate: {len(files)} segment files, MAX_WORKERS={MAX_WORKERS}")
     total_ok, total_fail = 0, 0
     for i, seg_path in enumerate(files):
