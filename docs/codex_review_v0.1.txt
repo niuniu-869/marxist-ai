@@ -1,0 +1,503 @@
+下面按 reviewer 视角给结构化问题。重点放在可落地修订，不做泛泛评价。
+
+## (1) 致命缺陷
+
+### 1. 版权边界与实际 schema 冲突
+**问题：** 文档第 8 条说“原文不公开存储，前端只展示 plain_rewrite + 注释 + 引用片段”，但 schema 和前端设计明确保存并展示 `original` / `original_html` / `original_plain`，且 `raw HTML` 落盘。
+
+**为什么：** 如果中央编译局译文受版权保护，当前方案等于完整复制、结构化、再发布译文。即使 marxists.org 可访问，也不自动意味着可二次分发。这个问题不解决，后续技术方案都可能白做。
+
+**可执行修订建议：**
+- 把 `raw/`、`original_html`、`original_plain` 标为 **private build artifact**，加入 `.gitignore`，不得进入公开产物。
+- public document 中只保留：
+  - `source_url`
+  - `source_anchor`
+  - `quote_snippets`，每段限制短引用
+  - `plain_rewrite`
+  - `notes`
+- 前端默认不展示完整原译文，只展示短引文 + 来源链接。
+- 增加 `rights` 字段：
+```json
+"rights": {
+  "source_url": "...",
+  "translation_rights_status": "unknown | public_domain | permitted | restricted",
+  "public_display_original": false,
+  "max_quote_chars": 120,
+  "review_required": true
+}
+```
+
+### 2. LLM 生成事实缺少证据链
+**问题：** `historical_context`、`legacy`、`polemic_target`、`key_arguments`、人物关系、思想史定位大量依赖事实，但方案只要求 LLM 输出 JSON，没有要求来源、证据、置信度。
+
+**为什么：** M2 “不准发明事实”靠 prompt 不能保证。马列文本涉及版本史、论战对象、发表史、不同译本差异，LLM 很容易写出看似正确但无出处的内容。
+
+**可执行修订建议：**
+- 所有篇章级事实字段增加 `evidence`：
+```json
+"historical_context": {
+  "text": "...",
+  "evidence": [
+    {
+      "source": "provenance_block | glossary_seed | manual_ref | external_ref",
+      "quote": "卡·马克思写于1845年春...",
+      "confidence": "high"
+    }
+  ]
+}
+```
+- `02a_meta.py` 分成两层：
+  - deterministic parser：解析文末 provenance、脚注、索引。
+  - LLM editor：只把已解析证据组织成可读文本。
+- 无证据字段必须输出 `null` 或 `needs_review: true`，不能让 LLM 补齐。
+
+### 3. “M1 不改观点”无法靠关键词机检完成
+**问题：** `03_validate.py` 计划用关键词检查 M1-M7，但“不改观点”“不混淆论敌观点”“不弱化范畴”本质是语义一致性问题。
+
+**为什么：** 例如把“打碎资产阶级国家机器”改成“重组国家机器”，关键词可能还在，但观点已变。反过来，合法改写也可能触发关键词误报。
+
+**可执行修订建议：**
+- `03_validate.py` 只做硬规则：
+  - 禁用词检测
+  - 核心术语保留检测
+  - JSON/schema/reference 检测
+  - 长度检测
+- 新增 `04_semantic_review.py`，对每段做 LLM judge，输出结构化判定：
+```json
+{
+  "stance_preserved": true,
+  "polemic_target_preserved": true,
+  "core_terms_weakened": false,
+  "invented_fact": false,
+  "issues": []
+}
+```
+- 高风险术语建立 `must_preserve_terms`，例如：
+```json
+["无产阶级专政", "暴力革命", "阶级斗争", "剩余价值", "生产资料", "国家机器"]
+```
+
+### 4. 原文句子切分交给 LLM，后续对齐会崩
+**问题：** `02b_modernize` 要求 LLM 返回 `sentences[].original` 且“与输入完全一致”，但没有先做确定性句子切分。
+
+**为什么：** 马列译文长句多、分号多、破折号多、脚注多、引号多。让 LLM 自行切句，会导致 original 漂移，后续 `terms`、高亮、脚注、emphasis span 都难以稳定对齐。
+
+**可执行修订建议：**
+- 在 LLM 前增加 `01d_segment.py`：
+```json
+"sentences": [
+  {
+    "sid": "p1s1",
+    "original": "...",
+    "char_start": 0,
+    "char_end": 86
+  }
+]
+```
+- `02b` 输入固定 `sid + original`，只允许返回：
+```json
+{
+  "sid": "p1s1",
+  "plain": "..."
+}
+```
+- 禁止 LLM 生成或改写 `original`。
+
+---
+
+## (2) 高优修订
+
+### 1. `notes[].type` 枚举与实际方案冲突
+**问题：** 枚举表没有 `translator_note`、`footnote_ref`，但后文要求使用这两个类型。
+
+**为什么：** 这是 schema 级硬冲突，会导致 validator 无法判断合法性。
+
+**可执行修订建议：**
+- 枚举补齐：
+```txt
+translator_note
+editor_note
+footnote_ref
+index_entry_ref
+```
+- 或者把脚注引用独立出 `footnote_refs`，不要混入 `notes`。
+
+### 2. `phase` 设计过粗且作者耦合
+**问题：** `phase` 混合了作者、时期和思想史判断，例如 `marx_early_to_mature`、`engels_late`、`lenin_late`。
+
+**为什么：** 后续扩展到同一作者不同主题、合著文本、多版本文本时会不稳定，而且 `phase` 容易变成带解释色彩的判断。
+
+**可执行修订建议：**
+拆成三个字段：
+```json
+"author_period": "marx_1845_1848",
+"historical_period": "pre_1848_revolutions",
+"thematic_domain": ["philosophy", "praxis_theory"]
+```
+
+### 3. `category` 单值不够
+**问题：** 一篇文本可能同时是哲学、政治经济学、论战文本。
+
+**为什么：** 《反杜林论》《国家与革命》《德意志意识形态》都不是单分类能覆盖的。
+
+**可执行修订建议：**
+改为：
+```json
+"categories": ["philosophy", "polemic"],
+"primary_category": "philosophy"
+```
+
+### 4. `plain_rewrite` 80%-200% 字数硬约束过机械
+**问题：** 短句、格言、标题、目录项、脚注段都不适合这个比例。
+
+**为什么：** “全世界无产者，联合起来！”合法改写可能需要注释，但原句必须保留；目录标题也不该强行扩写。
+
+**可执行修订建议：**
+按段落类型分级：
+```json
+"length_policy": {
+  "normal_paragraph": "80%-180%",
+  "aphorism": "preserve_plus_note",
+  "title": "no_rewrite_or_minimal",
+  "footnote": "summarize_allowed",
+  "quote": "preserve"
+}
+```
+
+### 5. `legacy` 字段容易违反 M7
+**问题：** “当代价值”“后世视为经典”容易滑向评价性、意识形态性语言。
+
+**为什么：** M7 要求客观中立，但 `legacy` 天然鼓励评价。
+
+**可执行修订建议：**
+把 `legacy` 改名为 `reception_history`，只写可验证接受史：
+```json
+"reception_history": [
+  {
+    "claim": "第十一条常被作为马克思实践哲学的代表表述引用。",
+    "evidence": [...]
+  }
+]
+```
+
+### 6. `glossary` 缺少作用域与语义版本
+**问题：** 同一术语在马克思早期、成熟期、列宁文本中含义可能变化。
+
+**为什么：** 一个全局定义容易误导。例如“异化”“国家”“民主”“专政”“党”在不同文本中不能只靠一个现代解释覆盖。
+
+**可执行修订建议：**
+术语卡增加：
+```json
+"sense_by_context": [
+  {
+    "scope": "marx_1844",
+    "definition": "...",
+    "applies_to": ["marx_1844_economic_philosophical_manuscripts"]
+  }
+]
+```
+
+---
+
+## (3) 过度工程
+
+### 1. 试点前不应先搭完整 02d/前端/Skill 化链路
+**问题：** v0.1 同时设计抓取、schema、glossary、前端模式、LLM judge、Skill 化。
+
+**为什么：** 最大风险不是工程链路，而是“改写是否可信、版权是否可发布、术语是否稳定”。先搭全链路会放大返工。
+
+**可执行修订建议：**
+MVP 只做：
+1. 私有抓取缓存
+2. 3 篇 deterministic split
+3. 手工确认 schema
+4. 02b 改写
+5. 人工审 100 段
+6. 再做 glossary 自动化
+
+### 2. `02d_glossary.py` 自动生成新词条风险大
+**问题：** 自动把未定义术语生成 glossary，容易把误识别、普通词、错误人物都固化。
+
+**为什么：** glossary 是跨篇基础设施，污染后会影响所有文章。
+
+**可执行修订建议：**
+- `02d` 只生成 `glossary_candidates.json`。
+- 人工审核后才进入 `glossary.json`。
+- 字段：
+```json
+"status": "candidate | approved | rejected"
+```
+
+### 3. 双版本并列展示先不要做完整前端
+**问题：** `versions` 是正确方向，但“并列显示两个版本”会显著增加 UI 和对齐复杂度。
+
+**为什么：** pilot 目标是验证标注质量，不是版本比较产品。
+
+**可执行修订建议：**
+- schema 支持 `versions`。
+- pilot 前端只默认渲染 `canonical_version`。
+- 双版本 diff 作为 M2 以后任务。
+
+---
+
+## (4) 被忽略的边角
+
+### 1. 译者注、编者注、作者脚注需要分层
+**问题：** 当前只粗分 `[译注]`、`[1]`、`〔编者注〕`。
+
+**为什么：** 作者原注、恩格斯后注、中央编译局注、网站整理者注的权威等级不同，不能混在一起。
+
+**可执行修订建议：**
+```json
+"notes_apparatus": [
+  {
+    "id": "fn1",
+    "kind": "author_note | editor_note | translator_note | website_note",
+    "author": "marx | engels | translator | editor | unknown",
+    "text": "...",
+    "source_location": "endnote"
+  }
+]
+```
+
+### 2. HTML emphasis span 与纯文本 offset 容易失配
+**问题：** `original_html` 清洗后再计算 `emphasis_spans`，实体、空白、全角标点都会影响 offset。
+
+**为什么：** 一旦 offset 错，前端高亮会错位。
+
+**可执行修订建议：**
+- 先把 HTML 转为 token stream：
+```json
+[
+  {"type": "text", "text": "问题在于"},
+  {"type": "em", "text": "改变"},
+  {"type": "text", "text": "世界"}
+]
+```
+- 再从 token stream 派生 plain text 和 spans。
+
+### 3. 人名索引不能直接当 glossary 真值
+**问题：** 自带人名索引质量高，但可能服务于某个版本、某个卷册，且带时代性评价。
+
+**为什么：** 直接复用会把原书编辑立场和术语带入现代卡片。
+
+**可执行修订建议：**
+- 索引抽取进入 `seed_source`，不是最终 `definition_modern`。
+- `definition_modern` 仍需编辑化，但必须引用 seed。
+
+### 4. 多译名、异名、旧译名需要统一策略
+**问题：** 文档提到 aliases，但没有全局消歧规则。
+
+**为什么：** 马列文本中人名、组织、著作译名高度不稳定，例如考茨基/ kautsky、倍倍尔/贝倍尔等。
+
+**可执行修订建议：**
+增加 alias resolver：
+```json
+"aliases": [
+  {"surface": "考茨基", "lang": "zh", "status": "preferred"},
+  {"surface": "Karl Kautsky", "lang": "de", "status": "original"}
+]
+```
+
+### 5. 引用嵌套引用未处理
+**问题：** 列宁文本大量引用马克思、恩格斯、考茨基，再进行批判。
+
+**为什么：** 如果不标明“谁在说”，很容易违反 M3，把被批判观点当成作者观点。
+
+**可执行修订建议：**
+句子级增加：
+```json
+"speaker": "author | quoted_marx | quoted_engels | quoted_opponent | editor",
+"stance": "endorsed | criticized | neutral_citation"
+```
+
+---
+
+## (5) M1-M7 是否抓住关键
+
+### M1 不准改观点：抓住关键，但需可检测化
+**问题：** 规则正确，但缺少术语保真清单和语义审查。
+
+**建议：** 增加 `must_preserve_terms`、`forbidden_substitutions`、LLM judge 三层。
+
+### M2 不准发明事实：抓住关键，但和 meta 设计冲突
+**问题：** 方案大量要求 LLM 补背景、定位、legacy，却没有证据字段。
+
+**建议：** 所有事实字段必须带 evidence；无证据输出 `needs_review`。
+
+### M3 论战对象显名：非常关键，但粒度还不够
+**问题：** 仅 `polemic_target` 不足以处理段内引用、转述、反讽。
+
+**建议：** 增加句子级 `speaker/stance/polemic_target_ref`。
+
+### M4 时空指代不得抽象化：正确，但不能每次都展开
+**问题：** 每次遇到“当前形势”都展开会造成重复和注水。
+
+**建议：** 首次出现建 note，后续引用同一 `event_id`。
+
+### M5 比喻保留：正确，但必须清单化
+**问题：** 让 LLM 自判“核心比喻”不稳定。
+
+**建议：** 建 `metaphor_registry.json`，命中后强制保留原句。
+
+### M6 晦涩词现代等价：正确，但不要只靠 02c
+**问题：** 现代改写阶段若替换掉老译词，02c 已经失去标注目标。
+
+**建议：** `02b` 输入中标注候选老译词，要求原句保留、改写解释，但 notes 由 `02c` 落结构。
+
+### M7 客观中立：必要，但应禁止评价字段漂移
+**问题：** `legacy`、`当代价值`、`赏析`类字段天然高风险。
+
+**建议：** 改成 `reception_history`、`reading_guide`，禁止“伟大、光辉、深刻、科学地证明”等评价词。
+
+---
+
+## (6) pilot 3 篇选择是否合理
+
+### 总体判断
+合理，覆盖了哲学短文、政治纲领文本、列宁论战文本三类核心风险。但第 2 篇选择需要调整。
+
+### 1. 《关于费尔巴哈的提纲》
+**合理。**  
+验证双版本、哲学术语、格言保留、强调保真，非常适合作为 schema 压力测试。
+
+**修订建议：** 同时跑 1845 原稿和 1888 整理稿，但只选择 1888 版作为默认 `canonical_version`。
+
+### 2. 《共产党宣言》第一章
+**部分合理。**  
+第一章代表性强，但它的主要风险是纲领性表述、阶级范畴、历史叙述，不是“资产阶级经济学家”论战。文档说“有论战目标（资产阶级经济学家）”不准确。
+
+**修订建议：**
+- `polemic_target` 不要硬写成资产阶级经济学家。
+- 更合适：
+```json
+"polemic_target": {
+  "person": null,
+  "group": "资产阶级社会及其意识形态辩护",
+  "doctrine": "把资本主义社会关系视为自然、永恒的观点",
+  "summary": "本章主要不是针对单一人物，而是历史地说明资产阶级和无产阶级的形成及其冲突。"
+}
+```
+
+### 3. 《国家与革命》第一章
+**合理，但难度高。**  
+能验证列宁引用马恩、反驳机会主义、国家理论术语，非常有价值。
+
+**修订建议：** 必须优先做 `speaker/stance`，否则引用马克思恩格斯与列宁自己的判断会混。
+
+### pilot 可补一个替代候选
+如果要降低首轮风险，可把《共产党宣言》第一章换成《哥达纲领批判》短篇。它更集中测试“概念精确性 + 论战对象 + 政治术语保真”。
+
+---
+
+## (7) schema diff 级建议
+
+建议直接按下面方向改 v0.2。
+
+```diff
+ documents/**/*.json
+ {
+   "_prompt_version": "marx-v0.1",
+   "id": "...",
++  "schema_version": "marx-doc-v0.2",
++  "source": {
++    "source_url": "...",
++    "source_url_accessed_at": "2026-04-30",
++    "source_site": "marxists.org/chinese",
++    "raw_cache_path": "private/raw/...",
++    "public_display_original": false
++  },
++  "rights": {
++    "translation_rights_status": "unknown",
++    "public_display_original": false,
++    "max_quote_chars": 120,
++    "review_required": true
++  },
+-  "category": "philosophy",
++  "primary_category": "philosophy",
++  "categories": ["philosophy", "polemic"],
+-  "phase": "marx_early_to_mature",
++  "author_period": "marx_1845_1848",
++  "historical_period": "pre_1848_revolutions",
+   "polemic_target": {...},
++  "evidence": [],
+   "versions": [
+     {
+       "version_id": "1888_engels",
+       "label": "...",
+       "provenance": {...},
+       "paragraphs": [...]
+     }
+   ]
+ }
+```
+
+```diff
+ paragraphs[]
+ {
+   "n": 1,
+-  "original": "...",
++  "original_plain": "...",
++  "original_html": "...",
++  "tokens": [
++    {"type": "text", "text": "..."},
++    {"type": "em", "text": "改变"}
++  ],
++  "source_quote_public": "...",
+   "gist": "...",
+   "plain_rewrite": "...",
++  "length_policy": "normal_paragraph",
+   "sentences": [...]
+ }
+```
+
+```diff
+ sentences[]
+ {
++  "sid": "p1s1",
+   "original": "...",
++  "char_start": 0,
++  "char_end": 86,
+   "plain": "...",
++  "speaker": "author",
++  "stance": "endorsed",
+   "notes": [...]
+ }
+```
+
+```diff
+ notes[]
+ {
+   "surface": "...",
+-  "type": "concept",
++  "type": "concept | concept_archaic_translation | person | place | event | work | org | quote | metaphor | polemic_ref | translator_note | editor_note | footnote_ref",
+   "target": "...",
++  "confidence": "high | medium | low",
++  "source": "glossary | footnote | index_seed | llm_candidate"
+ }
+```
+
+```diff
+ glossary.json
+ {
+   "concepts": {
+     "alienation": {
+       "id": "alienation",
+       "zh": "异化",
++      "status": "approved",
++      "source_refs": [],
++      "sense_by_context": [
++        {
++          "scope": "marx_1844",
++          "definition": "...",
++          "applies_to": ["..."]
++        }
++      ],
+       "definition_strict": "...",
+       "definition_modern": "..."
+     }
+   }
+ }
+```
+
+核心结论：方案方向是对的，但 v0.1 最大问题不是 prompt，而是 **版权边界、事实证据链、语义保真验证、句子级确定性对齐** 四件事。先把这四个改进进 v0.2，再开始写管线，否则 pilot 结果很难判断是内容问题、schema 问题还是合规问题。
