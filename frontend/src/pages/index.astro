@@ -1,0 +1,83 @@
+---
+import Base from "../layouts/Base.astro";
+import indexData from "../../public/data/index.json";
+
+const base = import.meta.env.BASE_URL;
+const baseSlash = base.endsWith("/") ? base : base + "/";
+const authors = indexData.authors;
+const total = authors.reduce((s: number, a: any) => s + (a.doc_count || 0), 0);
+---
+<Base>
+  {/* hero */}
+  <section class="container-prose pt-24 pb-16 text-center">
+    <p class="font-sans text-sm tracking-widest text-[var(--color-ink-muted)] uppercase mb-6">
+      a reader for marxist classics, made for everyone
+    </p>
+    <h1 class="heading-display text-5xl md:text-6xl leading-tight mb-6">
+      读懂<span class="text-[var(--color-accent)]">经典</span>
+    </h1>
+    <p class="text-xl text-[var(--color-ink-soft)] leading-loose max-w-xl mx-auto">
+      把 19 世纪的哲学论战，<br/>
+      讲成 21 世纪能听懂的话。
+    </p>
+    <p class="font-sans text-sm text-[var(--color-ink-muted)] mt-8">
+      已经标注 <span class="text-[var(--color-ink)] font-medium">{total}</span> 篇 · 来自马克思 · 恩格斯 · 列宁 · 斯大林
+    </p>
+  </section>
+
+  {/* 4 张作者卡 */}
+  <section class="container-wide pb-24">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+      {authors.map((a: any) => (
+        <a href={`${baseSlash}author/${a.id}/`} class="card block group">
+          <div class="flex items-baseline justify-between mb-3">
+            <h2 class="heading-display text-3xl">{a.name}</h2>
+            <span class="font-sans text-xs text-[var(--color-ink-muted)]">{a.lifespan}</span>
+          </div>
+          <p class="font-sans text-xs text-[var(--color-ink-muted)] mb-4 tracking-wide">{a.name_en}</p>
+          <p class="text-base text-[var(--color-ink-soft)] leading-relaxed mb-5">{a.intro}</p>
+          <div class="flex items-center justify-between pt-4 border-t border-[var(--color-line)]">
+            <span class="font-sans text-sm text-[var(--color-ink-muted)]">
+              代表作：{(a.key_works || []).slice(0,2).join(" · ")}
+            </span>
+            <span class="font-sans text-sm font-medium text-[var(--color-accent)] group-hover:translate-x-1 transition-transform inline-block">
+              {a.doc_count} 篇 →
+            </span>
+          </div>
+        </a>
+      ))}
+    </div>
+  </section>
+
+  {/* 这是给谁看的 */}
+  <section id="about" class="border-t border-[var(--color-line)] py-20 bg-[var(--color-paper-warm)]">
+    <div class="container-prose">
+      <h3 class="heading-display text-2xl mb-8 accent-rule">这是给谁看的</h3>
+      <div class="space-y-6 text-lg leading-loose text-[var(--color-ink-soft)]">
+        <p>
+          <strong class="font-sans text-[var(--color-ink)]">给刚考上大学的小朋友</strong>——
+          老师让你读《关于费尔巴哈的提纲》，你打开第一句就懵了：「从前的一切唯物主义……」<br/>
+          这里有「先看摘要」按钮：30 秒读完一段在讲什么、批评谁、为什么重要。
+        </p>
+        <p>
+          <strong class="font-sans text-[var(--color-ink)]">给 80 岁的老奶奶</strong>——
+          你年轻时候读过这些书，那时候记的都是口号。<br/>
+          这里左边是原文一字不改，右边是大白话改写，对着读，过去几十年没看懂的话，今天能看懂了。
+        </p>
+        <p>
+          <strong class="font-sans text-[var(--color-ink)]">给所有不甘心只看口号的人</strong>——
+          每个生僻人名、每个哲学术语、每个比喻，都有一张卡片告诉你：他是谁、它是什么意思、为什么这里要提它。
+        </p>
+      </div>
+
+      <h3 class="heading-display text-2xl mt-16 mb-8 accent-rule">我们承诺什么</h3>
+      <ul class="space-y-4 text-base text-[var(--color-ink-soft)] leading-relaxed">
+        <li>· <strong class="text-[var(--color-ink)]">原文一字不改</strong>。所有「说人话」都另起一栏标明「白话」。</li>
+        <li>· <strong class="text-[var(--color-ink)]">立场不替换</strong>。「无产阶级」不会变成「打工人」，「专政」不会变成「治理」，「革命」不会变成「改革」。</li>
+        <li>· <strong class="text-[var(--color-ink)]">不发明事实</strong>。模糊的史实留空，不让 AI 编一个。</li>
+        <li>· <strong class="text-[var(--color-ink)]">不夹评论</strong>。不说「伟大」「光辉」「精辟」。讲事实、讲来由、讲反对的是谁。</li>
+        <li>· <strong class="text-[var(--color-ink)]">不做现代类比</strong>。不会把巴黎公社和今天某事件并列。</li>
+      </ul>
+    </div>
+  </section>
+</Base>

@@ -1,0 +1,57 @@
+---
+import "../styles/global.css";
+
+interface Props {
+  title?: string;
+  desc?: string;
+}
+
+const { title = "读懂经典 — 马克思主义经典文献阅读器", desc = "让 21 世纪读者真的看懂 19 世纪的哲学论战。" } = Astro.props;
+const base = import.meta.env.BASE_URL;
+const baseSlash = base.endsWith("/") ? base : base + "/";
+---
+<!doctype html>
+<html lang="zh-cn">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={desc} />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700&family=Noto+Serif+SC:wght@400;500;700&display=swap" rel="stylesheet" />
+    <title>{title}</title>
+  </head>
+  <body>
+    <header class="border-b border-[var(--color-line)] bg-[var(--color-paper)]">
+      <div class="container-wide flex items-center justify-between py-5">
+        <a href={base} class="font-sans font-bold text-lg tracking-tight">
+          <span class="text-[var(--color-accent)]">读</span>懂经典
+        </a>
+        <nav class="flex gap-6 text-sm font-sans text-[var(--color-ink-muted)]">
+          <a href={`${baseSlash}#about`} class="hover:text-[var(--color-ink)]">关于</a>
+          <a href="https://www.marxists.org/chinese/index.html" target="_blank" rel="noopener" class="hover:text-[var(--color-ink)]">原始文库 ↗</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <slot />
+    </main>
+
+    <footer class="mt-32 border-t border-[var(--color-line)] py-12">
+      <div class="container-prose text-sm text-[var(--color-ink-muted)] font-sans space-y-3">
+        <p>
+          本站基于
+          <a href="https://www.marxists.org/chinese/index.html" target="_blank" rel="noopener" class="underline">中文马克思主义文库</a>
+          中央编译局译本，由 AI 辅助生成段意速读、白话改写与术语注释。
+        </p>
+        <p>
+          只是辅助阅读，不替代权威译本。原文一字未改，所有改写都标注在「白话」一栏，便于对照。
+        </p>
+        <p class="text-xs">
+          管线开源于 GitHub · 标注由 mimo-v2.5 生成 · 段落级改写遵守 M1-M7「说人话硬约束」。
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>

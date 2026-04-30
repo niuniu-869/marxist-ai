@@ -1,0 +1,99 @@
+---
+import Base from "../../../layouts/Base.astro";
+
+import marxList from "../../../../public/data/marx/list.json";
+import engelsList from "../../../../public/data/engels/list.json";
+import leninList from "../../../../public/data/lenin/list.json";
+import stalinList from "../../../../public/data/stalin/list.json";
+
+const lists: Record<string, any> = {
+  marx: marxList,
+  engels: engelsList,
+  lenin: leninList,
+  stalin: stalinList,
+};
+
+export function getStaticPaths() {
+  return [
+    { params: { authorId: "marx" } },
+    { params: { authorId: "engels" } },
+    { params: { authorId: "lenin" } },
+    { params: { authorId: "stalin" } },
+  ];
+}
+
+const { authorId } = Astro.params;
+const data = lists[authorId!];
+const author = data.author;
+const items = data.items;
+const base = import.meta.env.BASE_URL;
+const baseSlash = base.endsWith("/") ? base : base + "/";
+
+// 按十年分组
+function groupByDecade(arr: any[]) {
+  const m = new Map<string, any[]>();
+  for (const it of arr) {
+    const y = it.year || 0;
+    let key: string;
+    if (!y || y < 1800) key = "其它";
+    else key = `${Math.floor(y / 10) * 10}s`;
+    if (!m.has(key)) m.set(key, []);
+    m.get(key)!.push(it);
+  }
+  return Array.from(m.entries()).sort(([a], [b]) => {
+    if (a === "其它") return 1;
+    if (b === "其它") return -1;
+    return parseInt(a) - parseInt(b);
+  });
+}
+
+const groups = groupByDecade(items);
+---
+<Base title={`${author.name} — 读懂经典`} desc={author.intro}>
+  <section class="container-prose pt-16 pb-12">
+    <a href={base} class="font-sans text-sm text-[var(--color-ink-muted)] hover:text-[var(--color-ink)]">← 返回</a>
+    <h1 class="heading-display text-5xl mt-6 accent-rule">{author.name}</h1>
+    <p class="font-sans text-sm text-[var(--color-ink-muted)] mt-3 tracking-wide">
+      {author.name_en} · {author.lifespan}
+    </p>
+    <p class="text-lg text-[var(--color-ink-soft)] leading-loose mt-6 max-w-2xl">{author.intro}</p>
+    <p class="font-sans text-sm text-[var(--color-ink-muted)] mt-6">
+      已收录 <span class="text-[var(--color-ink)] font-medium">{items.length}</span> 篇文献
+    </p>
+  </section>
+
+  <section class="container-prose pb-24">
+    {groups.map(([decade, list]) => (
+      <div class="mb-16">
+        <div class="flex items-baseline gap-4 mb-6 sticky top-0 bg-[var(--color-paper)] py-3 z-10">
+          <h2 class="heading-display text-2xl text-[var(--color-accent)]">{decade}</h2>
+          <span class="font-sans text-xs text-[var(--color-ink-muted)]">{(list as any[]).length} 篇</span>
+        </div>
+        <ul class="space-y-1">
+          {(list as any[]).map((it: any) => (
+            <li>
+              <a
+                href={`${baseSlash}doc/${authorId}/${it.file}/`}
+                class="block py-4 px-4 -mx-4 hover:bg-[var(--color-paper-warm)] rounded transition-colors group"
+              >
+                <div class="flex items-baseline gap-4">
+                  <span class="font-sans text-sm text-[var(--color-ink-muted)] tabular-nums shrink-0 w-14">
+                    {it.year || "—"}
+                  </span>
+                  <span class="font-serif text-lg text-[var(--color-ink)] group-hover:text-[var(--color-accent)] transition-colors">
+                    {it.title}
+                  </span>
+                </div>
+                {it.tldr_modern && (
+                  <p class="ml-[4.5rem] mt-2 text-sm text-[var(--color-ink-muted)] leading-relaxed line-clamp-2">
+                    {it.tldr_modern}
+                  </p>
+                )}
+              </a>
+            </li>
+          ))}
+        </ul>
+      </div>
+    ))}
+  </section>
+</Base>

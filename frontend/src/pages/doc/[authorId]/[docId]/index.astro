@@ -1,0 +1,72 @@
+---
+import Base from "../../../../layouts/Base.astro";
+import Reader from "../../../../components/Reader";
+import fs from "node:fs";
+import path from "node:path";
+
+export async function getStaticPaths() {
+  const dataDir = path.resolve("public/data");
+  const authors = ["marx", "engels", "lenin", "stalin"];
+  const paths: any[] = [];
+  for (const a of authors) {
+    const dir = path.join(dataDir, a);
+    if (!fs.existsSync(dir)) continue;
+    for (const f of fs.readdirSync(dir)) {
+      if (f === "list.json") continue;
+      if (!f.endsWith(".json")) continue;
+      const id = f.replace(/\.json$/, "");
+      const doc = JSON.parse(fs.readFileSync(path.join(dir, f), "utf-8"));
+      paths.push({
+        params: { authorId: a, docId: id },
+        props: { doc, authorId: a },
+      });
+    }
+  }
+  return paths;
+}
+
+const { doc, authorId } = Astro.props as any;
+const base = import.meta.env.BASE_URL;
+const baseSlash = base.endsWith("/") ? base : base + "/";
+const meta = doc.meta || {};
+const author_name = ({
+  marx: "马克思",
+  engels: "恩格斯",
+  lenin: "列宁",
+  stalin: "斯大林",
+} as any)[authorId];
+---
+<Base title={`${doc.title} — ${author_name}`} desc={meta.tldr_modern || ""}>
+  <article class="container-prose pt-12 pb-20">
+    <a href={`${baseSlash}author/${authorId}/`} class="font-sans text-sm text-[var(--color-ink-muted)] hover:text-[var(--color-ink)]">
+      ← {author_name}
+    </a>
+
+    <header class="mt-6 mb-12">
+      <h1 class="heading-display text-4xl md:text-5xl leading-tight">
+        {doc.title}
+      </h1>
+      <div class="flex flex-wrap gap-x-6 gap-y-2 mt-5 font-sans text-sm text-[var(--color-ink-muted)]">
+        <span>{author_name}</span>
+        {doc.year && <span>{doc.year} 年</span>}
+        {meta.provenance?.original_language && (
+          <span>原文 · {({ de: "德文", ru: "俄文", en: "英文", fr: "法文" } as any)[meta.provenance.original_language] || meta.provenance.original_language}</span>
+        )}
+        {meta.primary_category && (
+          <span class="text-[var(--color-accent)]">{({
+            philosophy: "哲学",
+            political_economy: "政治经济学",
+            scientific_socialism: "科学社会主义",
+            history: "历史",
+            polemic: "论战",
+            letter: "书信",
+            speech: "演讲",
+            program: "纲领",
+          } as any)[meta.primary_category] || meta.primary_category}</span>
+        )}
+      </div>
+    </header>
+
+    <Reader doc={doc} client:load />
+  </article>
+</Base>

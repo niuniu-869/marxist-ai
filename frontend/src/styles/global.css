@@ -1,0 +1,143 @@
+@import "tailwindcss";
+
+/* ===== 设计 token ===== */
+@theme {
+  --font-serif: "Noto Serif SC", "Source Han Serif SC", "Songti SC", "Songti TC",
+    serif;
+  --font-sans: "Noto Sans SC", "Source Han Sans SC", "PingFang SC", "Hiragino Sans GB",
+    "Microsoft YaHei", system-ui, sans-serif;
+
+  --color-ink: #1a1a1a;
+  --color-ink-soft: #2c2c2c;
+  --color-ink-muted: #666666;
+  --color-paper: #fafaf7;
+  --color-paper-warm: #f5f1e8;
+  --color-line: #e8e4d8;
+  --color-accent: #a82a23;        /* 砖红，克制 */
+  --color-accent-soft: #f4e4e1;
+}
+
+/* ===== 全站基线（大气、可阅读、奶奶友好）===== */
+:root {
+  font-size: 18px;            /* 基础字号大 */
+  -webkit-font-smoothing: antialiased;
+}
+
+@media (min-width: 768px) {
+  :root { font-size: 19px; }
+}
+
+html, body {
+  background: var(--color-paper);
+  color: var(--color-ink);
+  font-family: var(--font-serif);
+  line-height: 1.85;
+}
+
+button, a {
+  cursor: pointer;
+}
+
+/* 通用容器 */
+.container-prose {
+  max-width: 760px;
+  margin-inline: auto;
+  padding-inline: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .container-prose { padding-inline: 2.5rem; }
+}
+
+.container-wide {
+  max-width: 1200px;
+  margin-inline: auto;
+  padding-inline: 1.5rem;
+}
+
+/* 正文段落（文章页对照阅读用）*/
+.prose-paragraph {
+  font-size: 1.125rem;
+  line-height: 2;
+  color: var(--color-ink-soft);
+  margin-block: 1.25rem;
+}
+
+/* 大标题 */
+.heading-display {
+  font-family: var(--font-sans);
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  color: var(--color-ink);
+}
+
+/* 砖红强调下划线（标题装饰）*/
+.accent-rule::after {
+  content: "";
+  display: block;
+  width: 3rem;
+  height: 3px;
+  background: var(--color-accent);
+  margin-top: 0.75rem;
+}
+
+/* 注释卡片浮层 */
+.note-popover {
+  background: #fffdf7;
+  border: 1px solid var(--color-line);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+  padding: 0.75rem 1rem;
+  border-radius: 4px;
+  font-size: 0.95rem;
+  line-height: 1.7;
+}
+
+/* 高亮：被注释的词 */
+.term-highlight {
+  background: linear-gradient(transparent 60%, var(--color-accent-soft) 60%);
+  cursor: help;
+  transition: background 200ms;
+}
+.term-highlight:hover {
+  background: linear-gradient(transparent 60%, var(--color-accent-soft) 60%, var(--color-accent-soft) 100%);
+}
+
+/* 比喻高亮（更醒目）*/
+.metaphor-highlight {
+  background: linear-gradient(transparent 60%, #ffe6c2 60%);
+  font-weight: 500;
+}
+
+/* tab 按钮 */
+.tab-btn {
+  font-family: var(--font-sans);
+  font-size: 1rem;
+  padding: 0.6rem 1.25rem;
+  color: var(--color-ink-muted);
+  border-bottom: 2px solid transparent;
+  transition: color 150ms, border-color 150ms;
+}
+.tab-btn[data-active="true"] {
+  color: var(--color-accent);
+  border-bottom-color: var(--color-accent);
+  font-weight: 500;
+}
+.tab-btn:hover {
+  color: var(--color-ink);
+}
+
+/* 卡片 */
+.card {
+  background: #fff;
+  border: 1px solid var(--color-line);
+  border-radius: 6px;
+  padding: 1.5rem;
+  transition: box-shadow 200ms, transform 200ms;
+}
+.card:hover {
+  box-shadow: 0 4px 16px rgba(0,0,0,0.06);
+  transform: translateY(-1px);
+}
+
+/* 老奶奶滚动友好：选中状态明显 */
+::selection { background: var(--color-accent-soft); color: var(--color-ink); }
