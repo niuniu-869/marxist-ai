@@ -1,0 +1,146 @@
+**(1) 诊断准确性**
+
+1. 问题：复盘抓到了两个主因，但还没抓到“产品目标失焦”这个根因。  
+为什么：v0.1 不是单纯字段设计失败，而是把“帮助理解经典文本”误实现成了“替用户解释每个局部词句”。这会自然导向同义改写、过度高亮、低价值注释。  
+可执行修订建议：在 plan B 开头补一条总诊断：目标从“降低文本难度”改为“降低进入论证的门槛”，产物只服务三件事：背景、论证链、概念边界。
+
+2. 问题：对 `plain_rewrite` 的否定是准确的，但“删除”还不够。  
+为什么：如果后续 `what`、`gist`、`prereading` 没有强任务边界，它们会接管原来 `plain_rewrite` 的同义改写功能。  
+可执行修订建议：所有解释型字段都加禁止项：不得逐句改写，不得替换原文词序，不得把原文重复一遍；必须回答“读者缺哪块信息”。
+
+3. 问题：notes 翻车诊断准确，但缺少“展示层放大伤害”的诊断。  
+为什么：同样 4 条注释，如果前端全部高亮、全部弹窗，会比数据本身更打扰阅读。  
+可执行修订建议：plan B 增加展示策略：默认只显示段级支架；inline notes 默认轻量，下钻展开；同段重复 surface 前端不再重复标。
+
+4. 问题：没有定义“好标注”的验收标准。  
+为什么：现在只有反例统计，没有正向 rubric。pilot 后仍可能靠主观判断。  
+可执行修订建议：给 pilot 加人工验收表：每段只问四项：是否帮助理解论证、是否引入错误、是否啰嗦、是否比不看注释更清楚。每项 0-2 分。
+
+---
+
+**(2) plan B 致命缺陷**
+
+1. 问题：字段数量膨胀，可能从“同义改写污染”变成“解释文本污染”。  
+为什么：`gist + prereading + hard_sentences + polemic + argument_link + notes` 对普通段落过重。  
+可执行修订建议：改成按需 schema：默认只产 `gist`、`argument_link`、少量 notes；只有触发条件满足才产 `prereading` / `hard_sentences` / `polemic_in_paragraph`。
+
+2. 问题：`prereading` 和 `hard_sentences` 缺少触发器。  
+为什么：“真正难懂”是模糊判断，LLM 会倾向多写以显得有用。  
+可执行修订建议：加触发条件：术语首次出现、历史实体未解释、代词指代跨段、句子超过 X 字且含多层限定、明显论敌观点。否则输出空数组。
+
+3. 问题：没有处理“错解释比不解释更坏”。  
+为什么：马列文本的概念、论敌、历史背景都容易被模型编造或现代化误读。  
+可执行修订建议：每个解释字段增加 `confidence: high|medium|low` 和 `source_basis: text|metadata|known_context`，低置信内容不展示或进入 rework。
+
+4. 问题：pilot 5 篇太少且可能选得太顺。  
+为什么：宣言、提纲、哥达、国家与革命都比较典型，但不能覆盖斯大林拒答、经济学术语、书信/序言/纲领条文、长篇论战。  
+可执行修订建议：pilot 选 8-10 篇，按类型分层：哲学、政经、纲领、论战、历史事件、序言/脚注、斯大林高风险、长篇章节。
+
+---
+
+**(3) 新字段会不会变成新形式的“装样子文本”**
+
+1. 问题：会，尤其是 `hard_sentences.what`。  
+为什么：`what` 很容易退化成“这句话是说……”的转述。  
+可执行修订建议：把 `what` 改成结构化拆解：`subject`、`predicate`、`object_or_claim`、`qualifiers`、`contrast`，再生成一句说明。
+
+2. 问题：`why` 最容易空话化。  
+为什么：模型会写“这是为了说明作者的观点”这种无信息句。  
+可执行修订建议：`why` 必须引用上下文关系模板之一：承接上段、反驳某观点、推出下一步、定义术语、限定范围。否则为空。
+
+3. 问题：`prereading` 会重复。  
+为什么：同一概念在一篇或同一作者 corpus 内反复出现。  
+可执行修订建议：引入篇章级 `local_glossary`，段级 prereading 只允许引用 glossary ID，首次出现可展开，后续只写“见 alienation_concept”。
+
+4. 问题：`argument_link` 会流水账。  
+为什么：很多段落只是并列例证或过渡，不一定有强推理关系。  
+可执行修订建议：允许枚举类型：`continues`、`contrasts`、`example`、`conclusion`、`transition`、`none`，只有非 `none` 才写自然语言说明。
+
+---
+
+**(4) reading_path / essential_paragraphs 让 LLM 选靠谱吗**
+
+1. 问题：不能直接让 LLM 一次性选。  
+为什么：LLM 会偏向标题、名句、总结段，漏掉论证关键转折段。  
+可执行修订建议：改为两阶段：段级输出 `importance_score: 0-3`、`importance_reason`、`role_in_work`；后处理按分数、章节覆盖、段落类型选 top-N。
+
+2. 问题：`skippable_paragraphs` 风险高。  
+为什么：经典文本里“看似编者注/重复”的段落可能包含版本、论敌、限定条件。  
+可执行修订建议：字段改名为 `optional_for_first_reading`，禁止说“可跳过”，只表示“首次抓主线可后读”。
+
+3. 问题：`estimated_minutes` 很可能瞎估。  
+为什么：阅读时间取决于字数、难度、读者背景。  
+可执行修订建议：用规则计算：中文字符数 / 每分钟字数，再按 difficulty 乘系数；LLM 不直接估时间。
+
+---
+
+**(5) concept 边界 + 白名单够不够**
+
+1. 问题：白名单必要，但不够。  
+为什么：马列术语有时期差异、译名差异、普通词术语化三类问题。只靠 80 个词会漏，放宽又会回到 v0.1。  
+可执行修订建议：采用“白名单 + 候选区 + 黑名单短语形态”。白名单直接放行；候选区必须满足“反复出现 + 在本段承担论证功能”；动宾短语、因果短语、整句默认拒绝。
+
+2. 问题：`concept` 不应只按词面判断。  
+为什么：“国家”“劳动”“价值”有时是普通词，有时是术语。  
+可执行修订建议：concept 输出必须带 `sense_id`，例如 `value_political_economy`、`state_marxist_theory`，没有 sense 就降级为普通 note 或不标。
+
+3. 问题：`modern` 防循环规则还不够。  
+为什么：模型可以不以“指/即/是”开头，但仍然复述。  
+可执行修订建议：增加相似度校验：`modern` 与 `surface` 或原句 n-gram 重合过高判失败；解释必须包含“在本文中承担什么作用”。
+
+---
+
+**(6) 第 6 节 8 个问题逐一回答**
+
+1. `hard_sentences` 会装样子。收紧方式：只在触发条件命中时生成；`what` 做句法拆解，`why` 必须绑定上下文关系，`implication` 无明确推出就为空。
+
+2. `prereading` 会重复。用篇章级 `local_glossary` 和段级引用解决；段级只补“本段特有”的历史、指代、论战背景。
+
+3. `essential_paragraphs` 不应直接由 LLM 选。让 LLM 给每段 0-3 分和段落角色，程序按章节覆盖、分数、文本长度做后处理。
+
+4. concept 白名单不能全闭合。需要三层：核心白名单、作品局部术语表、候选审核区；再配黑名单形态规则防短语冒充概念。
+
+5. 前端对照阅读应保留，但改为“支架阅读”。左原文，右侧只显示本段 `gist`、必要 prereading、hard sentence；inline notes 作为轻量悬浮层，不再做主体验。
+
+6. 模型建议不要一次性全换。pilot 阶段并行抽样比较 mimo / deepseek / claude haiku，重点看拒答率、术语准确率、啰嗦率；斯大林高风险段单独兜底。
+
+7. 需要 LLM-as-judge，但不应留到 v0.3。至少 pilot 阶段就加轻量 judge，检查三项：是否改写立场、是否编造背景、是否解释比原文更空。全量阶段可先只对高风险段抽检。
+
+8. token 膨胀是实质风险。解决方式不是赌模型，而是按需输出、限制 hard_sentences 数量、notes 上限、字段为空优先；单段输出目标控制在 1200-1800 tokens，而不是 2500-3000。
+
+---
+
+**(7) 我会怎么改 plan B：一条 diff 级建议**
+
+```diff
+- v0.2：原文 + 段意 + 段前预备 + 难句解读 + inline 注释（精简）+ 论敌点名
++ v0.2：原文 + 最小读懂支架。默认只生成 gist / argument_role / 精简 notes；
++ 只有触发条件命中时才生成 prereading / hard_sentences / polemic_in_paragraph。
+
++ paragraph_gates:
++   needs_prereading: true|false
++   needs_hard_sentence: true|false
++   needs_polemic: true|false
++   reason: "术语首次出现 | 历史背景缺失 | 跨段指代 | 长难句 | 论敌观点 | none"
+
+- prereading: ["1-3 条..."]
++ prereading_refs: ["glossary_id 或 context_id"]
++ prereading_inline: ["仅限本段独有前置信息；可空；不得重复篇章 glossary"]
+
+- hard_sentences[].what / why / implication
++ hard_sentences[].parse:
++   claim: "这句主张什么"
++   qualifiers: "限定条件"
++   contrast_or_target: "反驳/区别对象，可空"
++ hard_sentences[].why:
++   relation: "continues | contrasts | example | conclusion | definition | polemic"
++   explanation: "必须说明它在论证链中的作用"
+
++ 04_validate:
++   - 空字段优先：无触发器却生成 prereading/hard_sentences 判失败
++   - 重复 prereading 判失败
++   - why 未绑定 relation 判失败
++   - concept 无 sense_id 判失败
+```
+
+核心修改：先让模型判断“这段需不需要支架”，再让它生成支架。否则 plan B 只是把 v0.1 的同义改写，换成更长、更像解释的文本。
