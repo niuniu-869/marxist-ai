@@ -50,9 +50,31 @@ button, a {
 }
 
 .container-wide {
-  max-width: 1200px;
+  max-width: 1280px;
   margin-inline: auto;
   padding-inline: 1.5rem;
+}
+
+/* 超宽容器（对照阅读：左右两栏需要呼吸感）*/
+.container-ultra {
+  max-width: 1600px;
+  margin-inline: auto;
+  padding-inline: 1.5rem;
+}
+
+@media (min-width: 1024px) {
+  .container-wide { padding-inline: 2.5rem; }
+  .container-ultra { padding-inline: 3rem; }
+}
+
+@media (min-width: 1440px) {
+  .container-ultra { padding-inline: 4rem; }
+}
+
+/* 阅读窄列（在 ultra 容器内居中阅读时用）*/
+.reading-narrow {
+  max-width: 760px;
+  margin-inline: auto;
 }
 
 /* 正文段落（文章页对照阅读用）*/
@@ -106,6 +128,36 @@ button, a {
 .metaphor-highlight {
   background: linear-gradient(transparent 60%, #ffe6c2 60%);
   font-weight: 500;
+  cursor: pointer;
+  border: none;
+  font: inherit;
+  color: inherit;
+  padding: 0;
+}
+
+/* 老译晦涩词高亮 */
+.archaic-highlight {
+  background: linear-gradient(transparent 60%, #e6e8ff 60%);
+  cursor: pointer;
+  border: none;
+  font: inherit;
+  color: inherit;
+  padding: 0;
+}
+
+button.term-highlight, button.metaphor-highlight, button.archaic-highlight {
+  display: inline;
+  text-align: inherit;
+  line-height: inherit;
+}
+
+/* 注释弹卡 */
+.note-popover-pop {
+  background: #fffdf7;
+  border: 1px solid var(--color-line);
+  box-shadow: 0 12px 32px rgba(0,0,0,0.12);
+  padding: 1rem 1.25rem;
+  border-radius: 6px;
 }
 
 /* tab 按钮 */

@@ -1,0 +1,71 @@
+{
+  "_prompt_version": "marxist-v0.1-2026-04-30",
+  "n": 55,
+  "annotation": {
+    "gist": "本段说明编译《新莱茵报》时，对已收入《马恩全集》的译文采取的处理原则：直接采用，但需重新注释、补充注释，并对错译和关键不准确处进行更正。",
+    "plain_rewrite": "已经收录在《马克思恩格斯全集》中文第一版里的、马克思或恩格斯发表在《新莱茵报》上的文章，虽然是从俄文翻译过来的，但总体翻译质量不错。这次编译《新莱茵报》，我们直接采用这些已有的中文译文，但需要对其中的人名、地名和事件重新做注释，并补充新的注释；对于个别的翻译错误要予以更正，对于关键地方不够准确的译文则需要适当重新翻译。举个例子，恩格斯在《新莱茵报》第3号发表的关于丹麦-德国战争的新闻中，引用了一家报纸的报道：“在阿尔森城外执行警戒任务的联邦军队……”（《马克思恩格斯全集》第43卷，人民出版社，1982年）。阿尔森是一个岛屿，不是城市，“阿尔森城外”的原文是“Alfenaufden Vorposten”，中文翻译有误，因此我们将其纠正为“阿尔森岛前线”。",
+    "block_type": "author_text",
+    "length_policy": "normal_paragraph",
+    "sentences": [
+      {
+        "sid": "p55s1",
+        "plain": "已经收录在《马克思恩格斯全集》中文第一版里的、马克思或恩格斯发表在《新莱茵报》上的文章，虽然是从俄文翻译过来的，但总体翻译质量不错。",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "从俄译文转译",
+            "type": "translator_note",
+            "target": null,
+            "modern": "指《马恩全集》早期中文版很多是从俄文版转译，而非直接从德文原文翻译。",
+            "highlight": "archaic"
+          }
+        ]
+      },
+      {
+        "sid": "p55s2",
+        "plain": "这次编译《新莱茵报》，我们直接采用这些已有的中文译文，但需要对其中的人名、地名和事件重新做注释，并补充新的注释；",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "直接移到中文版里",
+            "type": "translator_note",
+            "target": null,
+            "modern": "指将《马恩全集》中已有的中文译文直接纳入新的《新莱茵报》编译版本，而非重新翻译。",
+            "highlight": null
+          }
+        ]
+      },
+      {
+        "sid": "p55s3",
+        "plain": "对于个别的翻译错误要予以更正，对于关键地方不够准确的译文则需要适当重新翻译。",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p55s4",
+        "plain": "举个例子，恩格斯在《新莱茵报》第3号发表的关于丹麦-德国战争的新闻中，引用了一家报纸的报道：“在阿尔森城外执行警戒任务的联邦军队……”（《马克思恩格斯全集》第43卷，人民出版社，1982年）。阿尔森是一个岛屿，不是城市，“阿尔森城外”的原文是“Alfenaufden Vorposten”，中文翻译有误，因此我们将其纠正为“阿尔森岛前线”。",
+        "speaker": "quoted_engels",
+        "stance": "endorsed",
+        "notes": [
+          {
+            "surface": "阿尔森",
+            "type": "place",
+            "target": null,
+            "modern": "指阿尔森岛（Als），位于丹麦日德兰半岛与菲英岛之间，是历史上的战略要地。",
+            "highlight": null
+          },
+          {
+            "surface": "阿尔森城外",
+            "type": "concept_archaic_translation",
+            "target": null,
+            "modern": "旧译将“Alfenaufden Vorposten”误译为“阿尔森城外”，实则应为“阿尔森岛前线”。",
+            "highlight": "archaic"
+          }
+        ]
+      }
+    ]
+  }
+}

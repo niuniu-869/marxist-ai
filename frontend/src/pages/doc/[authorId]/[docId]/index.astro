@@ -37,35 +37,37 @@ const author_name = ({
 } as any)[authorId];
 ---
 <Base title={`${doc.title} — ${author_name}`} desc={meta.tldr_modern || ""}>
-  <article class="container-prose pt-12 pb-20">
-    <a href={`${baseSlash}author/${authorId}/`} class="font-sans text-sm text-[var(--color-ink-muted)] hover:text-[var(--color-ink)]">
-      ← {author_name}
-    </a>
+  <article class="container-ultra pt-12 pb-20">
+    <div class="reading-narrow">
+      <a href={`${baseSlash}author/${authorId}/`} class="font-sans text-sm text-[var(--color-ink-muted)] hover:text-[var(--color-ink)]">
+        ← {author_name}
+      </a>
 
-    <header class="mt-6 mb-12">
-      <h1 class="heading-display text-4xl md:text-5xl leading-tight">
-        {doc.title}
-      </h1>
-      <div class="flex flex-wrap gap-x-6 gap-y-2 mt-5 font-sans text-sm text-[var(--color-ink-muted)]">
-        <span>{author_name}</span>
-        {doc.year && <span>{doc.year} 年</span>}
-        {meta.provenance?.original_language && (
-          <span>原文 · {({ de: "德文", ru: "俄文", en: "英文", fr: "法文" } as any)[meta.provenance.original_language] || meta.provenance.original_language}</span>
-        )}
-        {meta.primary_category && (
-          <span class="text-[var(--color-accent)]">{({
-            philosophy: "哲学",
-            political_economy: "政治经济学",
-            scientific_socialism: "科学社会主义",
-            history: "历史",
-            polemic: "论战",
-            letter: "书信",
-            speech: "演讲",
-            program: "纲领",
-          } as any)[meta.primary_category] || meta.primary_category}</span>
-        )}
-      </div>
-    </header>
+      <header class="mt-6 mb-12">
+        <h1 class="heading-display text-4xl md:text-5xl leading-tight">
+          {doc.title}
+        </h1>
+        <div class="flex flex-wrap gap-x-6 gap-y-2 mt-5 font-sans text-sm text-[var(--color-ink-muted)]">
+          <span>{author_name}</span>
+          {doc.year && <span>{doc.year} 年</span>}
+          {meta.provenance?.original_language && (
+            <span>原文 · {({ de: "德文", ru: "俄文", en: "英文", fr: "法文" } as any)[meta.provenance.original_language] || meta.provenance.original_language}</span>
+          )}
+          {meta.primary_category && (
+            <span class="text-[var(--color-accent)]">{({
+              philosophy: "哲学",
+              political_economy: "政治经济学",
+              scientific_socialism: "科学社会主义",
+              history: "历史",
+              polemic: "论战",
+              letter: "书信",
+              speech: "演讲",
+              program: "纲领",
+            } as any)[meta.primary_category] || meta.primary_category}</span>
+          )}
+        </div>
+      </header>
+    </div>
 
     <Reader doc={doc} client:load />
   </article>
