@@ -1,0 +1,101 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 135,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "运用民间谚语作比，批评罗莎·卢森堡因过度关注“弗腊克派”的民族主义而视野受限。",
+    "importance_score": 1,
+    "importance_reason": "对论敌思维局限的修辞性批评，非核心论点，但服务于论战。",
+    "argument_role": "continues",
+    "argument_link": "延续上段对罗莎·卢森堡回避核心问题的质问，转而用比喻刻画其论战中的思维盲点。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p135s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p135s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "弗腊克派",
+            "type": "org",
+            "modern": "波兰社会党中革命派别的俗称，其立场带有民族主义色彩。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p135s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "波兰社会党",
+            "type": "org",
+            "modern": "波兰的一个社会主义政党，内部存在不同派别，其中“弗腊克派”主张通过革命手段争取波兰独立。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p135s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "头昏眼花",
+            "type": "metaphor",
+            "modern": "形容罗莎·卢森堡因过度专注于与“弗腊克派”斗争，导致判断力失衡，无法看清其他问题。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 3,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_metaphor_12>8",
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

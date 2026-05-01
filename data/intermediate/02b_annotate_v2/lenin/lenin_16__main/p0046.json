@@ -1,0 +1,112 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 46,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段分析6月9日布尔什维克示威计划遭联合反对的事件，揭示小资产阶级政党在政策上转向与反革命资产阶级联盟的阶级动向。",
+    "importance_score": 3,
+    "importance_reason": "本段是核心批判，通过具体事件分析，论证了小资产阶级政党在革命关键节点上的阶级转向，为后续结论提供直接论据。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于反革命资产阶级借助‘社会党人’部长增强实力的判断，本段以6月9日事件为例，具体展示小资产阶级政党如何在实际政治行动中完成这一转向。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "6月9日示威事件",
+        "explain": "1917年6月9日（俄历），布尔什维克党计划在彼得格勒组织示威，旨在有组织地表达群众对临时政府的不满。该计划被当时联合执政的社会革命党和孟什维克强行取消。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "小资产阶级群众",
+        "explain": "在列宁的阶级分析中，主要指农民、手工业者、小商贩等。他们经济地位不稳定，在政治上容易追随小资产阶级政党（如社会革命党），其动向是革命成败的关键。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "社会革命党和孟什维克",
+      "their_view": "反对布尔什维克组织示威，主张维护与资产阶级的协议，继续执行帝国主义战争政策，以保持自身在联合政府中的地位。",
+      "author_response": "列宁指出，这些政党的领袖因自身政策而陷入恐慌，他们反对示威的行为，实质上是将小资产阶级群众推向与反革命资产阶级结盟的道路。",
+      "polemic_kind": "reveals_class_basis",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p46s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p46s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p46s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "沆瀣一气",
+            "type": "archaic",
+            "modern": "形容彼此勾结、联合行动，此处指反革命政党与小资产阶级政党在反对革命示威上立场一致。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p46s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "小资产阶级群众",
+            "type": "social_group",
+            "modern": "在列宁的阶级分析框架中，主要指农民、手工业者等中间阶层，其政治立场具有动摇性。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p46s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

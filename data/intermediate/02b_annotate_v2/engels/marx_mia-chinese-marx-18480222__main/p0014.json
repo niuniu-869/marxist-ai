@@ -1,0 +1,71 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 14,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "通过反问揭露反动派斗争对象的广泛性，暗示其反对社会变革。",
+    "importance_score": 2,
+    "importance_reason": "通过揭露反动派的斗争范围，支撑前段关于政治与社会关联的论点。",
+    "argument_role": "contrasts",
+    "argument_link": "承接上段关于政治与社会关联的论点，通过揭露反动派的实际斗争范围来证明这种关联。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "反动派",
+      "their_view": "我们只反对政治自由主义及伏尔泰主义。",
+      "author_response": "恩格斯通过反问揭露，他们的斗争对象远超此范围。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p14s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p14s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "伏尔泰主义",
+            "type": "concept",
+            "modern": "18世纪法国启蒙思想家伏尔泰所代表的理性主义、反教权思想体系，在19世纪欧洲被视为激进社会变革的思想基础。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "voltaireanism_historical"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

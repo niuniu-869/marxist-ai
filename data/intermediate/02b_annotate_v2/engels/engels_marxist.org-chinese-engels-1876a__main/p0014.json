@@ -1,0 +1,125 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 14,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段将辩证法的第二个形态定位为德国古典哲学，并指出其在自然科学家中的复兴，同时对比了康德与黑格尔在辩证法思想上的价值。",
+    "importance_score": 2,
+    "importance_reason": "本段是恩格斯梳理辩证法发展史的关键环节，为后续批判杜林的形而上学方法提供理论谱系参照。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对希腊朴素辩证法的描述，转而论述辩证法在近代德国哲学中的发展形态及其与自然科学的关联。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "rhetorical_omission",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "康德的两个天才假说",
+        "explain": "指康德在《自然通史和天体论》中提出的关于太阳系起源的星云假说，以及关于地球自转因潮汐摩擦而逐渐变慢的假说。这两个假说在当时是重要的自然科学理论。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "新康德主义",
+        "explain": "19世纪后半叶在德国复兴的哲学流派，主张回到康德，但抛弃了康德哲学中的辩证法因素，保留了其不可知论。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "metadata"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "新康德主义",
+      "their_view": "康德是德国古典哲学的奠基人，其思想中蕴含着有价值的方法论，应当回到康德。",
+      "author_response": "康德的哲学体系中缺乏辩证法思想，从他那里学习辩证法是徒劳的；辩证法的丰富内容存在于黑格尔的著作中。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p14s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p14s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "新康德主义",
+            "type": "concept",
+            "modern": "19世纪后期在德国复兴的哲学流派，主张回到康德，但阉割了康德哲学中的辩证法因素。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "metadata",
+            "sense_id": "neo_kantianism"
+          }
+        ]
+      },
+      {
+        "sid": "p14s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "康德",
+            "type": "person",
+            "modern": "伊曼努尔·康德（1724-1804），德国古典哲学创始人。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "拉普拉斯",
+            "type": "person",
+            "modern": "皮埃尔-西蒙·拉普拉斯（1749-1827），法国数学家、天文学家，曾独立提出太阳系起源的星云假说。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p14s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "黑格尔",
+            "type": "person",
+            "modern": "格奥尔格·威廉·弗里德里希·黑格尔（1770-1831），德国古典哲学集大成者，其辩证法体系是马克思主义的重要理论来源。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 4,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_9>5",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

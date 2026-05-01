@@ -1,0 +1,81 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 295,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "通过假设性例子，展示民族文化自治方案在落后地区会巩固宗教势力统治，从而反驳该方案。",
+    "importance_score": 2,
+    "importance_reason": "通过具体案例揭示民族文化自治的阶级后果，是支撑核心论点的关键例证。",
+    "argument_role": "example",
+    "argument_link": "承接上段对民族文化自治的否定判断，本段通过一个具体案例，展示这种方案在实际中会导致何种有害结果。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "毛拉",
+        "explain": "在南高加索鞑靼人（今阿塞拜疆人等）社会中，毛拉是伊斯兰教的宗教权威和基层教育主持者，常与传统、保守势力联系在一起。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p295s2",
+        "quote": "例如拿南高加索那些识字人数的百分比少到最低限度、学校由支配一切的毛拉主持、文化渗透了宗教精神的鞑靼人来说吧……不难了解，把他们“组织”成民族文化联盟，就是让毛拉骑在他们头上，就是任凭反动的毛拉去宰割他们，就是替鞑靼群众的死敌建立一座在精神上奴役这些群众的新堡垒。",
+        "trigger": "long_nested",
+        "reader_block": "句子包含多个排比结构和“精神奴役”这样的隐喻，读者需要理解“民族文化联盟”如何具体转化为巩固宗教权威的机制。",
+        "parse": {
+          "claim": "将鞑靼人按民族文化组织起来，实际上会巩固宗教势力（毛拉）的统治地位。",
+          "qualifiers": "针对的是识字率极低、学校由宗教势力控制、文化具有浓厚宗教色彩的特定群体。",
+          "contrast_or_target": "民族文化自治理论认为，按民族组织起来能促进本民族文化发展。"
+        },
+        "why": {
+          "relation": "example",
+          "explanation": "本句通过展示民族文化自治在落后地区的实际后果，具体化了前文对其“胡思乱想”的批判，揭露其阶级本质。"
+        },
+        "implication": "这揭示了民族文化自治在阶级社会中无法超越既有权力结构，反而可能被反动势力利用。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "民族文化自治理论",
+      "their_view": "民族文化自治能够促进各民族文化的自由发展，是解决民族问题的良方。",
+      "author_response": "在阶级分化严重、文化教育落后的地区，这种按民族划分的自治组织，只会巩固宗教等旧势力的统治，成为精神奴役的新工具。",
+      "polemic_kind": "reveals_class_basis",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p295s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p295s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "毛拉",
+            "type": "social_group",
+            "modern": "在南高加索鞑靼人社会中主持宗教事务和基层教育的伊斯兰教神职人员，常被视为传统保守势力的代表。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  }
+}

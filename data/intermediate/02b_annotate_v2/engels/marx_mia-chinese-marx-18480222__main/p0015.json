@@ -1,0 +1,95 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 15,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "引用反动作家的坦白，揭露复辟时期政治主张的实质是恢复封建所有制，并以具体经济义务说明其与君主制的依附关系。",
+    "importance_score": 3,
+    "importance_reason": "通过引用论敌自己的话，直接揭露其政治主张背后的经济基础与阶级利益，是核心批判段落。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对反动派讽刺的逻辑，进一步用反动派自己的坦白来坐实其斗争对象远超政治自由主义，直指所有制。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "复辟时期的反动活动家",
+      "their_view": "要恢复旧时代的政治，就必须恢复旧的所有制，即封建的、道德的所有制。对君主的忠诚建立在缴纳什一税和服劳役的基础上。",
+      "author_response": "恩格斯引用反动作家的坦白，指出他们所谓的“形而上学”最终归结为金钱问题，即社会问题，从而揭露其政治主张的实质是维护封建剥削关系。",
+      "polemic_kind": "counter_quotation",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p15s1",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p15s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p15s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "什一税",
+            "type": "social_group",
+            "modern": "中世纪至近代欧洲教会向居民征收的一种宗教税，通常为收入的十分之一。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "劳役",
+            "type": "social_group",
+            "modern": "封建制度下农民为领主无偿提供的强制性劳动。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "君主政体",
+            "type": "concept",
+            "modern": "以君主为国家元首的政治制度，此处特指与封建所有制相适应的封建君主制。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "monarchy_feudal"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 3,
+        "notes_dropped": 3,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix",
+        "note:n1_overflow_concept_6>5"
+      ]
+    }
+  ]
+}

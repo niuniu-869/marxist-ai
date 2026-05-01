@@ -1,0 +1,145 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 10,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "马克思以古罗马平民被剥夺土地后未形成资本主义为例，论证相同过程在不同历史条件下产生不同结果，以此反驳将西欧道路视为普遍规律的理论。",
+    "importance_score": 3,
+    "importance_reason": "本段是马克思对米海洛夫斯基“超历史哲学理论”批判的核心论证，通过具体历史反例揭示其方法论错误。",
+    "argument_role": "example",
+    "argument_link": "承接上段关于俄国可能遵照西欧先例的假设，本段立即提供一个关键反例：古罗马的类似过程并未导向资本主义，从而动摇了“先例”的普遍性。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_polysemy",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "term_polysemy",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "古罗马“无产者”",
+        "explain": "现代读者易将“无产者”等同于工业工人阶级。但在古罗马，它指失去土地、依赖国家救济或富人供养的自由民，与雇佣劳动无关。",
+        "why_needed": "term_polysemy",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "美国“白种贫民”",
+        "explain": "指美国南部各州在奴隶制下处于社会底层的贫困白人，他们虽无奴隶身份，但经济地位低下，常被用作对比。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "尼·康·米海洛夫斯基",
+      "their_view": "马克思关于西欧资本主义起源的概述，是一条适用于所有民族的、超历史的一般发展道路哲学理论。",
+      "author_response": "马克思通过古罗马的历史实例证明，相同性质的剥夺过程在不同历史条件下会产生截然不同的社会形态，因此不存在万能的历史哲学钥匙。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p10s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "《资本论》",
+            "type": "work",
+            "modern": "马克思的政治经济学巨著，系统分析了资本主义生产方式。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p10s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p10s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p10s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p10s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p10s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "无产者",
+            "type": "concept",
+            "modern": "在古罗马语境下，指失去土地、依赖国家或富人供养的自由民，与现代工业无产阶级性质不同。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "proletarian_roman"
+          },
+          {
+            "surface": "poor whites",
+            "type": "social_group",
+            "modern": "美国南部各州在奴隶制下处于社会底层的贫困白人群体。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p10s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p10s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p10s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 3,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

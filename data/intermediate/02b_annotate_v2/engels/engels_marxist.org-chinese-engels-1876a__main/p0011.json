@@ -1,0 +1,64 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 11,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "描述自然科学家在理论书籍中感受到的思维混乱，并指出摆脱这种困境的唯一途径是思维方式的根本转变。",
+    "importance_score": 2,
+    "importance_reason": "本段提出核心论点，即辩证思维是解决理论混乱的唯一出路，为后文阐述辩证法的重要性奠定基础。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对德国思想界理论混乱状况的描述，将问题具体化到自然科学领域，并给出解决方向。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p11s2",
+        "quote": "除了以这种或那种形式从形而上学的思维复归到辨证的思维，在这里没有其任何出路，没有达到思想清晰的任何可能。",
+        "trigger": "inverted_logic",
+        "reader_block": "双重否定结构（“除了……没有……”）加上“其”字指代前文，读者容易误读为存在多种选择，而实际强调唯一性。",
+        "parse": {
+          "claim": "辩证思维是摆脱当前理论混乱、获得思想清晰性的唯一途径。",
+          "qualifiers": "“以这种或那种形式”表明回归辩证思维的具体路径可以多样，但方向是确定的。",
+          "contrast_or_target": "针对当时流行的、无法提供出路的“形而上学的思维”方式。"
+        },
+        "why": {
+          "relation": "conclusion",
+          "explanation": "本句是对前一句所描述困境的总结性回答，明确指出解决问题的唯一方向，从而将论证从描述问题转向提出解决方案。"
+        },
+        "implication": "这为恩格斯在后文系统阐述唯物辩证法及其在自然科学中的应用提供了逻辑起点。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p11s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p11s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 9,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "回应关于开放党可能淹没党的危险，论证布尔什维克党有足够基础防止这种危险。",
+    "importance_score": 2,
+    "importance_reason": "为党的改组提供合理性辩护，反驳对开放可能削弱党的担忧。",
+    "argument_role": "continues",
+    "argument_link": "直接回答上一段提出的“实现改组是否有危险”的问题，具体分析危险并论证其不存在。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p9s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p9s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p9s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p9s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p9s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p9s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "布尔什维克",
+            "type": "org",
+            "modern": "1903年俄国社会民主工党分裂后形成的多数派，列宁是其领袖。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p9s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "纲领",
+            "type": "concept",
+            "modern": "政党公开宣布的奋斗目标和行动路线，是团结党员的思想基础。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "party_program"
+          }
+        ]
+      },
+      {
+        "sid": "p9s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p9s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 4,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "note:n1_overflow_concept_11>5",
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 9,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "马克思通过反问，质疑俄国资本主义拥护者关于俄国必须重复西欧发展道路的论断。",
+    "importance_score": 2,
+    "importance_reason": "本段是马克思对前文提出的公社发展可能性进行具体论证的关键环节，通过反问直接挑战了论敌的核心前提。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段关于公社可直接发展的论断，本段通过反问具体质疑了论敌所坚持的“必须先经历资本主义原始积累”这一前提。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "implicit_target",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "资本主义制度的俄国崇拜者",
+        "explain": "指19世纪后期俄国国内主张资本主义发展道路的自由派民粹主义者。他们认为俄国必须像西欧一样，先经历漫长的资本主义原始积累阶段，农村公社必然解体。",
+        "why_needed": "implicit_target",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "资本主义制度的俄国崇拜者",
+      "their_view": "俄国农村公社必然解体，俄国必须像西欧一样，先经历漫长的资本主义原始积累阶段，才能采用现代工业技术。",
+      "author_response": "马克思通过反问质疑这一前提，指出俄国可以在现有公社基础上，直接吸收和应用西方已有的工业成果，无需重复其历史过程。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p9s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p9s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

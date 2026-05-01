@@ -1,0 +1,64 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 44,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁将假设的某种人与路易·勃朗和考茨基分子类比，指出他们不符合革命马克思主义者的标准。",
+    "importance_score": 2,
+    "importance_reason": "本段通过类比强化对党内错误倾向的批判，支撑列宁关于革命阶段的论点。",
+    "argument_role": "continues",
+    "argument_link": "本段承接上段对小资产阶级倾向的批判，将假设的马克思主义者与路易·勃朗和考茨基分子类比，强调他们不是真正的革命者。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "路易·勃朗",
+        "explain": "19世纪法国社会主义者，主张通过国家调解劳资纠纷实现社会主义，被马克思主义者视为改良主义代表。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "路易·勃朗和考茨基分子",
+      "their_view": "路易·勃朗主张阶级合作和国家调解，考茨基分子则回避无产阶级专政，主张渐进改良。",
+      "author_response": "列宁认为这种人不是革命的马克思主义者，而是带有小资产阶级倾向的机会主义者。",
+      "polemic_kind": "strategic_critique",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p44s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "路易·勃朗",
+            "type": "person",
+            "modern": "19世纪法国社会主义者，主张阶级合作和国家调解。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "考茨基分子",
+            "type": "social_group",
+            "modern": "追随考茨基机会主义路线的社会主义者，回避无产阶级专政。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  }
+}

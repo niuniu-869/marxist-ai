@@ -1,0 +1,123 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 3,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "恩格斯通过转述对巴尔特著作的评论，批评其对唯物史观核心原理的误解，并讽刺那些将理论教条化、作为逃避研究借口的人。",
+    "importance_score": 2,
+    "importance_reason": "本段是核心批判，针对巴尔特的误解和青年著作家的教条化倾向，阐述了唯物史观关于物质与思想关系的辩证原理。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段对巴尔特的提及，具体展开对其著作观点的批评，并引申到对理论滥用者的讽刺。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "唯物史观核心原理",
+        "explain": "历史唯物主义认为，社会的物质生产方式是决定社会结构、政治制度和思想观念的根本基础。但恩格斯强调，这并非机械决定论，思想领域在受物质条件制约的同时，也具有相对独立性并能反作用于物质基础。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p3s3",
+        "quote": "既然这个人还没有发现，物质生存方式虽然是始因，但是这并不排斥思想领域也反过来对这些物质生存方式起作用，然而是第二性的作用，那么，他就决不能了解他所谈论的那个问题了。",
+        "trigger": "inverted_logic",
+        "reader_block": "句子包含“虽然...但是...”的让步转折结构，且“始因”与“第二性作用”构成辩证关系，读者容易忽略“不排斥”这一关键限定，误以为思想领域完全被动。",
+        "parse": {
+          "claim": "物质生产方式是社会发展的根本原因，但思想观念等上层建筑并非完全被动，它们也能对物质基础产生影响，只是这种影响处于从属地位。",
+          "qualifiers": "在承认物质生产方式是“始因”（根本原因）的前提下，讨论思想领域的反作用。",
+          "contrast_or_target": "针对巴尔特认为马克思只强调物质决定作用、忽视思想反作用的片面理解。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "此句直接反驳巴尔特对唯物史观的机械理解，阐明恩格斯与马克思所坚持的辩证关系，即物质决定性与思想能动性的统一，是本段批判的理论核心。"
+        },
+        "implication": "理解唯物史观必须把握其辩证性，任何将其简化为单向决定论的观点都是错误的。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p3s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p3s2",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": [
+          {
+            "surface": "笛卡儿宣称动物是机器",
+            "type": "allusion",
+            "modern": "17世纪法国哲学家笛卡尔提出的机械论自然观，认为动物身体是精密的自动机器，无灵魂。巴尔特以此作为马克思著作中物质决定思想的罕见例证。",
+            "highlight": "allusion",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p3s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p3s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p3s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p3s6",
+        "speaker": "quoted_marx",
+        "stance": "endorsed",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 2,
+        "hs_kept": 1,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_6>5",
+        "note:n2_circular_prefix",
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

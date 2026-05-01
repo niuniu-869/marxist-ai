@@ -1,0 +1,106 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 174,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "以英国农业为例，说明资本通过技术进步和生产调整应对工资上涨，最终导致工人相对过剩。",
+    "importance_score": 2,
+    "importance_reason": "用具体历史案例，反驳韦斯顿关于工资总额固定的观点，展示资本应对工资上涨的典型手段。",
+    "argument_role": "example",
+    "argument_link": "承接上文关于供求规律的讨论，用英国农业的具体案例，说明在资本支配的古老国家，工资上涨会触发资本的系统性应对。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p174s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p174s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p174s3",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p174s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p174s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p174s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "李嘉图",
+            "type": "person",
+            "modern": "19世纪初英国古典政治经济学家，其理论是马克思批判性继承的对象。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p174s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p174s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

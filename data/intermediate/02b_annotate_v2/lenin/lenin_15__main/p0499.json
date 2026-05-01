@@ -1,0 +1,77 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 499,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁用20世纪初的具体经济现实，反驳考茨基“超帝国主义”的抽象概念，并指出其理论客观上为帝国主义辩护。",
+    "importance_score": 3,
+    "importance_reason": "这是列宁对考茨基“超帝国主义论”进行核心批判的关键段落，直接揭示了该理论的反动目的与现实危害。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对“超帝国主义论”抽象性的批判，本段进一步指出其理论服务于掩盖现实矛盾的反动目的，并用具体现实与之对比。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "all_known",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "金融资本",
+        "explain": "列宁在本书中定义的术语，指银行资本与工业资本融合后形成的垄断资本形态，是帝国主义经济基础的核心。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "metadata"
+      },
+      {
+        "topic": "超帝国主义",
+        "explain": "考茨基提出的概念，认为各帝国主义国家可能联合起来共同剥削世界，从而避免战争。列宁视其为脱离现实的幻想。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "metadata"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "考茨基",
+      "their_view": "金融资本的统治能够削弱乃至消除世界经济内部的不平衡和矛盾，从而可能实现一种和平的、联合的“超帝国主义”。",
+      "author_response": "列宁指出，这种议论是毫无内容的，它不仅错误，而且客观上为帝国主义的辩护者提供了说辞，掩盖了金融资本统治实际上加剧世界矛盾的事实。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p499s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p499s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 2,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

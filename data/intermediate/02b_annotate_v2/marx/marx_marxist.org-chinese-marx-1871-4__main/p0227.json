@@ -1,0 +1,93 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 227,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "作者指出《旁观者》杂志在反驳信发表后仍传播错误信息，并引用历史典故讽刺其行为。",
+    "importance_score": 1,
+    "importance_reason": "作为全文结尾，是对具体事件的回应与讽刺，非核心理论阐述。",
+    "argument_role": "continues",
+    "argument_link": "承接前文对《旁观者》错误报道的揭露，进一步指出其无视事实、持续造谣的行为。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "伦敦《旁观者》杂志与茹尔·法夫尔",
+      "their_view": "《旁观者》杂志将“同盟”文件冒充为国际的文件进行引证，其行为比茹尔·法夫尔更完整，且无视已发表的澄清。",
+      "author_response": "作者以“虔诚的告密者”和“玩弄把戏”定性其行为，并引用弗里德里希大帝的话，讽刺其如同最坏的耶稣会会士。",
+      "polemic_kind": "counter_quotation",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p227s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "茹尔·法夫尔",
+            "type": "person",
+            "modern": "时任法国国防政府成员，梯也尔政府的外交部长，曾公开指控国际是巴黎公社的幕后主使。",
+            "highlight": "person",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p227s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p227s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p227s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "耶稣会会士",
+            "type": "social_group",
+            "modern": "天主教修会耶稣会的成员，在18世纪欧洲常被视为善于权谋、为达目的不择手段的代名词。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 3,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

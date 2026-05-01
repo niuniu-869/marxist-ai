@@ -1,0 +1,67 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 38,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段以反问形式质疑新法令的实际效果，并解释法令条文含糊导致未能改善工人处境。",
+    "importance_score": 2,
+    "importance_reason": "本段承接前文质疑，通过反问和解释，为深入批判新法令的虚伪性做铺垫。",
+    "argument_role": "continues",
+    "argument_link": "本段延续前一段对新法令效果的质疑，通过设问引出对法令条文含糊性的具体分析。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "俄国专制政府",
+      "their_view": "政府认为新法令通过缩短工时和规定休息，已经改善了工人的处境。",
+      "author_response": "列宁指出法令条文含糊，实际未改善工人处境，反而听凭厂主胡作非为。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p38s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p38s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p38s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

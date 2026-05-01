@@ -1,0 +1,66 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 25,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "以反问句式提及帖木儿对印度的暴力入侵，用历史事实暗示印度并非没有遭受过残酷统治。",
+    "importance_score": 1,
+    "importance_reason": "作为历史例证，用于支撑对殖民主义辩护的反驳。",
+    "argument_role": "continues",
+    "argument_link": "本段承接上段对无数生灵的提及，具体化这些生灵所遭受的暴力，以历史事实强化论点。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "帖木儿征服印度",
+        "explain": "帖木儿是14世纪中亚征服者，曾率军入侵印度，造成大规模破坏。读者需了解此历史事件以理解反问句的意图。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p25s1",
+        "quote": "曾遭到帖木儿的蹂躏？",
+        "trigger": "inverted_logic",
+        "reader_block": "反问句式，读者可能误以为是疑问，实际是强调印度历史上暴力统治的事实。",
+        "parse": {
+          "claim": "印度历史上曾遭受帖木儿的暴力入侵。",
+          "qualifiers": "",
+          "contrast_or_target": "可能反驳认为印度历史上和平的观点。",
+          "why": {
+            "relation": "continues",
+            "explanation": "承接上段对无数生灵的提及，具体化这些生灵所遭受的暴力。"
+          },
+          "implication": "暗示殖民主义并非印度暴力的唯一来源。",
+          "confidence": "high",
+          "source_basis": "text_evidence"
+        }
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p25s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  }
+}

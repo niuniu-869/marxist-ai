@@ -1,0 +1,99 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 419,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁反驳考茨基将土地国有化方案称为社会主义成分的观点，指出其既非社会主义也非彻底的资产阶级民主革命。",
+    "importance_score": 2,
+    "importance_reason": "本段是列宁批判考茨基机会主义土地观的关键环节，揭示其理论矛盾。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对考茨基回避理论争论的批评，具体剖析其土地国有化主张的实质。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "孟什维克",
+        "explain": "俄国社会民主工党中的一个派别，主张通过资产阶级民主革命建立民主共和国，反对布尔什维克的武装起义和无产阶级专政路线。列宁视其为机会主义者。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "考茨基",
+      "their_view": "将大田庄收归国有再租给农民，可以实现一些社会主义成分；同时认为俄国革命的性质是资产阶级的，布尔什维克试图直接走向社会主义是妄想。",
+      "author_response": "列宁指出这种方案既不包含任何社会主义，也不是彻底的资产阶级民主革命，实质是维护害怕革命的自由派资产阶级。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p419s1",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p419s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p419s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p419s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p419s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p419s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p419s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 160,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段陈述苏维埃的阶级构成与历史作用，并指出考茨基对此有类似表述。",
+    "importance_score": 2,
+    "importance_reason": "通过引述考茨基承认苏维埃作用的言论，为后续批判其理论矛盾做铺垫。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对考茨基帮助马尔托夫的批评，转而引述考茨基本人关于苏维埃作用的言论，为揭露其理论矛盾做准备。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "金融资本",
+        "explain": "列宁在帝国主义理论中用此词指银行资本与工业资本融合形成的垄断资本形态，是其分析资本主义最高阶段的核心概念。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "考茨基",
+      "their_view": "苏维埃这种组织形式不仅在俄国，而且在欧洲未来的阶级决战中都将发挥决定性作用。",
+      "author_response": "列宁引述此言，意在后续揭露考茨基理论中承认苏维埃作用与反对无产阶级专政之间的矛盾。",
+      "polemic_kind": "counter_quotation",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p160s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p160s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "金融资本",
+            "type": "concept",
+            "modern": "列宁在帝国主义理论中用此词指银行资本与工业资本融合形成的垄断资本形态。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "finance_capital"
+          }
+        ]
+      },
+      {
+        "sid": "p160s3",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p160s4",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      }
+    ]
+  }
+}

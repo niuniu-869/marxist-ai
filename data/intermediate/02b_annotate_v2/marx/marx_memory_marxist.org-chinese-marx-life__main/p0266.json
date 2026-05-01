@@ -1,0 +1,76 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 266,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "马克思在对话中批判空想社会主义的改良路径，阐述通过革命政党领导无产阶级推翻资产阶级统治的必要性。",
+    "importance_score": 2,
+    "importance_reason": "本段借马克思之口，集中阐述了其与空想社会主义在革命路径上的根本分歧，是理解其早期政治立场的关键段落。",
+    "argument_role": "continues",
+    "argument_link": "承接上段燕妮对工人苦难的感性描述，马克思在此将其上升为理论回应，指出解决剥削的唯一科学路径。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "term_density",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "空想社会主义者",
+        "explain": "指19世纪初圣西门、傅立叶、欧文等思想家，他们设计了理想社会蓝图，主张通过宣传、示范和劝说来和平改造社会，反对阶级斗争和暴力革命。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "空想社会主义者",
+      "their_view": "可以通过宣传、道德劝说、建立模范社区等和平方式，引导社会自愿放弃剥削，无需进行阶级斗争和暴力革命。",
+      "author_response": "这种方式脱离了现实的阶级矛盾，实质上是引导工人放弃阶级斗争，无法触及剥削的根源。唯一出路是组织无产阶级力量，通过革命推翻资产阶级统治。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p266s1",
+        "speaker": "quoted_marx",
+        "stance": "endorsed",
+        "notes": []
+      },
+      {
+        "sid": "p266s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p266s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_7>5",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

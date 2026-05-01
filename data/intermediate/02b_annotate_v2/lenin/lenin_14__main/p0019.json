@@ -1,0 +1,164 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 19,
+  "annotation": {
+    "block_type": "quote_block",
+    "gist": "本段是马克思对历史唯物主义核心原理的系统阐述，勾勒了社会结构的基本框架及其动态演变规律。",
+    "importance_score": 3,
+    "importance_reason": "这是历史唯物主义的经典定义，构成了理解马克思社会理论的基础框架。",
+    "argument_role": "continues",
+    "argument_link": "本段承接上段关于生产关系与生产力相适应的原理，进一步展开描述了社会结构的基本框架及其动态演变规律。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "经济基础与上层建筑",
+        "explain": "马克思将社会结构分为两层：底层是生产关系的总和构成的经济基础，上层是法律、政治等制度及相应的社会意识形式。上层建筑由经济基础决定并随之变革。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p19s1",
+        "speaker": "quoted_marx",
+        "stance": "endorsed",
+        "notes": [
+          {
+            "surface": "生产关系",
+            "type": "concept",
+            "modern": "在马克思理论中，指人们在物质生产过程中形成的社会关系，其总和构成社会的经济结构。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "production_relations"
+          },
+          {
+            "surface": "上层建筑",
+            "type": "concept",
+            "modern": "建立在经济基础之上的法律、政治等制度以及相应的社会意识形态。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "superstructure"
+          }
+        ]
+      },
+      {
+        "sid": "p19s2",
+        "speaker": "quoted_marx",
+        "stance": "endorsed",
+        "notes": [
+          {
+            "surface": "生产方式",
+            "type": "concept",
+            "modern": "社会获取物质生活资料的方式，包括生产力和生产关系两个方面，它制约着社会生活的各个方面。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "mode_of_production"
+          }
+        ]
+      },
+      {
+        "sid": "p19s3",
+        "speaker": "quoted_marx",
+        "stance": "endorsed",
+        "notes": []
+      },
+      {
+        "sid": "p19s4",
+        "speaker": "quoted_marx",
+        "stance": "endorsed",
+        "notes": [
+          {
+            "surface": "生产力",
+            "type": "concept",
+            "modern": "人类改造自然的能力，包括劳动者、劳动资料和劳动对象，是社会发展的最终决定力量。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "productive_forces"
+          }
+        ]
+      },
+      {
+        "sid": "p19s5",
+        "speaker": "quoted_marx",
+        "stance": "endorsed",
+        "notes": []
+      },
+      {
+        "sid": "p19s6",
+        "speaker": "quoted_marx",
+        "stance": "endorsed",
+        "notes": [
+          {
+            "surface": "社会革命",
+            "type": "concept",
+            "modern": "当生产关系成为生产力发展的桎梏时，通过阶级斗争实现社会形态更替的根本性变革。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "social_revolution"
+          }
+        ]
+      },
+      {
+        "sid": "p19s7",
+        "speaker": "quoted_marx",
+        "stance": "endorsed",
+        "notes": [
+          {
+            "surface": "经济基础",
+            "type": "concept",
+            "modern": "与一定生产力相适应的生产关系的总和，它决定上层建筑并随之变革。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "economic_base"
+          }
+        ]
+      },
+      {
+        "sid": "p19s8",
+        "speaker": "quoted_marx",
+        "stance": "endorsed",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 6,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

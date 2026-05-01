@@ -1,0 +1,73 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 40,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段叙述了七月事件中，布尔什维克试图和平解决但随即遭到反革命武装镇压的具体过程。",
+    "importance_score": 2,
+    "importance_reason": "提供了列宁批判“立宪幻想”的关键事实依据，展示了所谓“合法程序”在现实暴力面前的脆弱性。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于布尔什维克试图和平解决的叙述，具体展开其努力与随后遭遇的镇压，为批判“立宪幻想”提供事实基础。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "社会革命党人和孟什维克",
+      "their_view": "我们支持通过立宪会议和临时政府的合法程序来解决革命问题，我们与反革命势力无关。",
+      "author_response": "列宁指出，正是他们参与或同意了反革命军队进驻彼得格勒，并对这一事实保持沉默，暴露了其阶级立场。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p40s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p40s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p40s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p40s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

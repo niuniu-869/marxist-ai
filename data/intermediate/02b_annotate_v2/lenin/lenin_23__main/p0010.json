@@ -1,0 +1,97 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 10,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段批评了党内未能执行恩格斯关于传播18世纪无神论文献的指示，并驳斥了为这种不作为辩护的各种理由，强调应以多种方式向群众开展无神论宣传。",
+    "importance_score": 2,
+    "importance_reason": "本段承接上段关于杂志任务的论述，具体批评了实践中的不作为和理论上的教条主义，是论证如何有效开展无神论宣传的关键环节。",
+    "argument_role": "continues",
+    "argument_link": "本段紧接上段提出的杂志应承担无神论宣传任务，转而批评这一任务在实践中的缺失，并分析其思想根源，从而深化了对宣传工作必要性和方法论的论述。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "党内某些教条主义者",
+      "their_view": "他们认为，只有通过纯粹的马克思主义理论教育，才能让被偏见束缚的亿万群众摆脱宗教蒙昧。",
+      "author_response": "列宁指出这是严重的错误，会脱离群众实际，必须用多种宣传材料和实际事实去接近和唤醒他们。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p10s1",
+        "speaker": "quoted_engels",
+        "stance": "endorsed",
+        "notes": []
+      },
+      {
+        "sid": "p10s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p10s3",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p10s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p10s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p10s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p10s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p10s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 113,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁指出卡尔·拉狄克对爱尔兰起义的评价与自由派库利舍尔的评价一致，以此揭露其立场问题。",
+    "importance_score": 1,
+    "importance_reason": "本段通过对比揭示论敌观点与自由派的一致性，属于批判性例证。",
+    "argument_role": "example",
+    "argument_link": "本段承接上段对卡尔·拉狄克观点的引用，进一步指出其与自由派观点的相似性，以加强批判。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_density",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "阿·库利舍尔与《言论报》",
+        "explain": "阿·库利舍尔是俄国自由派立宪民主党人，《言论报》是该派别的主要报纸。列宁在此将社会主义者与自由派对同一事件的评价进行对比。",
+        "why_needed": "history_density",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "卡尔·拉狄克",
+      "their_view": "卡尔·拉狄克对爱尔兰起义持否定态度，将其评价为教条式和书呆子式的奇怪行为。",
+      "author_response": "列宁指出，这种评价与自由派库利舍尔的评价一致，从而暴露了其立场问题。",
+      "polemic_kind": "counter_quotation",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p113s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "阿·库利舍尔先生",
+            "type": "person",
+            "modern": "1916年俄国自由派立宪民主党人，在《言论报》发表文章",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "言论报",
+            "type": "work",
+            "modern": "俄国自由派立宪民主党人的主要报刊之一",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "都柏林盲动",
+            "type": "event",
+            "modern": "库利舍尔对1916年爱尔兰复活节起义的贬称",
+            "highlight": "quote",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      }
+    ]
+  }
+}

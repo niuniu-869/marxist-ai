@@ -1,0 +1,73 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 9,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "恩格斯通过对比共产主义与克拉柯夫革命家的目标，反驳反动势力将后者污蔑为共产主义的论调。",
+    "importance_score": 2,
+    "importance_reason": "本段直接支撑了全文核心论点，即反驳对革命的污蔑，通过概念辨析澄清了革命的不同层次。",
+    "argument_role": "contrasts",
+    "argument_link": "承接上段对污蔑逻辑的揭露，本段通过具体对比两种目标，为反驳提供实质论据。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p9s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p9s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p9s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p9s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

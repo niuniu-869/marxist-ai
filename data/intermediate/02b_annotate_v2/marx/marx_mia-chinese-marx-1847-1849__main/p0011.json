@@ -1,0 +1,182 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 11,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "以织布工人为例，论证工资并非来自产品销售收入，而是资本家预先支付的货币，从而说明工人与生产资料的关系。",
+    "importance_score": 2,
+    "importance_reason": "通过具体例子论证工资的本质，支撑前文关于雇佣劳动的抽象论述。",
+    "argument_role": "example",
+    "argument_link": "承接上段关于工人用劳动交换货币的抽象论述，本段用织布工人例子具体说明这种交换中工资的来源和性质。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic, metaphor",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p11s19",
+        "quote": "当然，我们这位善良的织布工人现在也属于劳动工具之列，他也做织布机一样在产品中或在产品价格中是没有份的。",
+        "trigger": "metaphor",
+        "reader_block": "将工人比作织布机，读者可能不理解这种类比的含义，以及它如何说明工人在生产中的地位。",
+        "parse": {
+          "claim": "工人在生产过程中被资本家当作与织布机、纱线一样的生产工具来使用，因此不享有产品的所有权或价值分配权。",
+          "qualifiers": "在资本家组织生产的语境下。",
+          "contrast_or_target": "工人是产品的创造者，理应享有产品价值的观点。"
+        },
+        "why": {
+          "relation": "continues",
+          "explanation": "用隐喻总结前文论证，将工人与生产资料并列，强调在资本主义生产关系中，工人被物化为生产要素，其劳动成果与自身分离。"
+        },
+        "implication": "工人被等同于生产工具，其地位由资本关系决定，而非其劳动本身。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "庸俗政治经济学",
+      "their_view": "工人的工资是其劳动所创造的产品价值的一部分，是其全部劳动的报酬。",
+      "author_response": "马克思通过分析工资支付的时间点和来源，指出工资是资本家预先支付的货币，与产品销售收入无关，工人并不因其劳动而直接获得产品份额。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p11s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p11s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p11s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p11s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p11s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p11s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p11s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p11s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p11s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p11s10",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p11s11",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p11s12",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p11s13",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p11s14",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p11s15",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p11s16",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p11s17",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p11s18",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p11s19",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 1,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

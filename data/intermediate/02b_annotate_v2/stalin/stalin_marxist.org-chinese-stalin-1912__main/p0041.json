@@ -1,0 +1,78 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 41,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段指出奥地利社会民主党理论家将民族性格视为民族唯一本质特征的观点。",
+    "importance_score": 2,
+    "importance_reason": "本段引出奥地利学派的错误观点，为下文系统批判提供靶子。",
+    "argument_role": "continues",
+    "argument_link": "上段得出民族需具备一切特征的结论，本段具体指出一种错误理解该结论的观点。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p41s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p41s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "鲁•施普林格",
+            "type": "person",
+            "modern": "奥地利社会民主党民族理论家，与鲍威尔共同提出唯心主义民族观。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "奥•鲍威尔",
+            "type": "person",
+            "modern": "奥地利社会民主党民族理论家，提出民族是“共同性格”的唯心主义观点。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 36,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "马克思讽刺德国社会主义者用华丽修辞包装其贫乏理论，以吸引小资产阶级受众。",
+    "importance_score": 2,
+    "importance_reason": "本段批判德国社会主义的修辞策略，揭示其理论贫乏和受众定位，支撑对非科学社会主义的论战。",
+    "argument_role": "continues",
+    "argument_link": "本段承接上段对德国小资产阶级社会基础的分析，进一步揭露德国社会主义者如何用思辨和华丽辞藻迎合这一群体。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "德国的社会主义者",
+      "their_view": "他们认为自己的理论是永恒真理，具有思辨深度和华丽表达，能够吸引追随者。",
+      "author_response": "马克思讽刺他们用修辞外衣包装干瘪内容，实质是为增加在小资产阶级中的销路。",
+      "polemic_kind": "strategic_critique",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p36s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "思辨的蛛丝",
+            "type": "metaphor",
+            "modern": "在19世纪德国哲学中，思辨方法常指脱离经验现实的抽象推理，马克思以蛛丝喻其脆弱和空洞。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

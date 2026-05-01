@@ -1,0 +1,110 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 27,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "恩格斯分析《启示录》中对别迦摩教会的描述，指出其作者将新兴的基督教视为犹太教的革新阶段，尚未认识到其未来的革命性。",
+    "importance_score": 2,
+    "importance_reason": "通过分析早期基督教文献的具体内容，支撑了恩格斯关于基督教起源和早期形态的核心论点。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对早期基督教文献中身份界定的讨论，本段具体分析《启示录》对别迦摩教会的描述，以展示早期基督徒的自我认知。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "allusion | history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "巴兰的教训",
+        "explain": "出自《旧约·民数记》。先知巴兰受摩押王巴勒雇佣，试图咒诅以色列人，但上帝使其口出祝福。后被引申为引诱信徒背离正道、拜偶像和行淫乱的象征。",
+        "why_needed": "allusion",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "别迦摩教会",
+        "explain": "《启示录》中提到的亚细亚七个教会之一。别迦摩是当时罗马帝国亚细亚行省的重要城市，以其图书馆和宙斯祭坛闻名。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "犹太教的新阶段",
+        "explain": "恩格斯在此指早期基督教在教义和组织上与传统犹太教的区别，但其信徒（如《启示录》作者）仍自视为犹太教的正统继承者和发展者。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p27s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "别迦摩宗派分子",
+            "type": "org",
+            "modern": "《启示录》中提及的亚细亚别迦摩地区的早期基督徒群体。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p27s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p27s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p27s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p27s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

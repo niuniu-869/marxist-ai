@@ -1,0 +1,128 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 69,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "恩格斯首先肯定美国土地改良运动的历史作用，然后批判克利盖用空洞的共产主义词藻粉饰该运动，而不理解其具体社会背景。",
+    "importance_score": 2,
+    "importance_reason": "本段是第二部分批判的起点，确立了恩格斯对运动本身与克利盖解读的区分，为后续具体批判提供分析框架。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段标题，开始具体展开对克利盖在《人民论坛报》上政治经济学观点的批判。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "美国民族改良派运动",
+        "explain": "指19世纪中叶美国兴起的一系列旨在改革土地制度、反对土地垄断和高额租金的社会运动，是当时美国社会矛盾的一种表现。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "抗租运动",
+        "explain": "特指19世纪40年代美国纽约州等地佃农反抗地主高额租金的斗争，是“民族改良派运动”的重要组成部分。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "青年美国",
+        "explain": "19世纪40年代在美国出现的一个政治与社会改革运动，主张通过土地改革、教育普及等方式推动社会进步，与当时的土地问题密切相关。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "克利盖",
+      "their_view": "克利盖将美国的土地改良运动直接等同于共产主义实践，并用流行的共产主义术语和华丽的词句来美化它，而不去分析运动的具体内容和社会条件。",
+      "author_response": "恩格斯指出，克利盖的做法恰恰证明他不了解“青年美国”运动与美国具体社会环境之间的实际联系，是用空洞口号代替了对运动实质的考察。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p69s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "美国民族改良派运动",
+            "type": "event",
+            "modern": "19世纪中叶美国旨在改革土地制度、反对土地垄断的社会运动总称。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p69s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p69s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "抗租运动",
+            "type": "event",
+            "modern": "19世纪40年代美国纽约州等地佃农反抗地主高额租金的斗争。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p69s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "青年美国",
+            "type": "org",
+            "modern": "19世纪40年代美国的一个政治与社会改革运动，主张土地改革等社会进步措施。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p69s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 3,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

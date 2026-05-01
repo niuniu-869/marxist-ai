@@ -1,0 +1,78 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 69,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段强调苏维埃政权应正视问题，用无产阶级纪律性对抗小资产阶级无政府状态，以防止旧势力复辟。",
+    "importance_score": 2,
+    "importance_reason": "本段支撑了纪律性对社会主义胜利的关键作用，是核心论点的组成部分。",
+    "argument_role": "continues",
+    "argument_link": "本段承接上段对悲观情绪的驳斥，进一步指出必须正视问题并加强斗争，强调纪律性的重要性。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "克伦斯基与科尔尼洛夫",
+        "explain": "克伦斯基是1917年二月革命后俄国临时政府总理，科尔尼洛夫是将军，曾发动叛乱。他们代表资产阶级势力，可能复辟苏维埃政权。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p69s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "资产者和资产阶级知识分子",
+            "type": "social_group",
+            "modern": "在1918年苏俄语境中，指与旧特权阶层相关的知识分子群体，他们反对苏维埃政权。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p69s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_social_group_14>12"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 292,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "通过连续反问，列举高加索地区民族、语言、宗教、文化特征相互交错的实例，来反驳将民族视为单一标准联盟的理论。",
+    "importance_score": 2,
+    "importance_reason": "为前文提出的理论困境提供具体、密集的实例支撑，是核心论证的关键环节。",
+    "argument_role": "example",
+    "argument_link": "承接上一段提出的“如何组织奥塞梯人”的难题，本段将问题扩展到更复杂的阿扎尔人等群体，以更极端的例子强化对奥地利学派民族理论的批判。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "奥地利社会民主党（鲍威尔）",
+      "their_view": "民族是“思想和语言相同的人们的联盟”，可以基于单一标准（如语言或宗教）进行清晰划分和组织。",
+      "author_response": "通过列举语言、文化、宗教特征相互矛盾的群体实例，揭示这种理论在面对复杂现实时的荒谬与不可操作。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p292s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "阿扎尔人",
+            "type": "social_group",
+            "modern": "高加索地区一个语言、文化、宗教特征相互交错的群体，常被用作民族理论反例。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p292s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "民族联盟",
+            "type": "concept",
+            "modern": "鲍威尔等理论家设想的、以单一标准划分的民族共同体。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "national_union_bourgeois_theory"
+          }
+        ]
+      },
+      {
+        "sid": "p292s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_social_group_16>12"
+      ]
+    }
+  ]
+}

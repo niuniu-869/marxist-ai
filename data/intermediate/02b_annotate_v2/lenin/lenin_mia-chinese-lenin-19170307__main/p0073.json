@@ -1,0 +1,61 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 73,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁以反讽口吻，评论一位英国外交官的言行无意中暴露了俄国临时政府的帝国主义本质。",
+    "importance_score": 1,
+    "importance_reason": "作为过渡性评论，承接上文对临时政府的分析，引出对帝国主义势力介入的讽刺。",
+    "argument_role": "transition",
+    "argument_link": "承接上文对临时政府与帝国主义关系的分析，通过讽刺具体人物来例证这种关系。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "英国古契柯夫分子外交官",
+      "their_view": "他们自以为聪明地支持俄国资产阶级临时政府，维护帝国主义利益。",
+      "author_response": "列宁讽刺其行为恰恰暴露了临时政府与帝国主义的勾结，以及其政策的反动实质。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p73s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p73s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 128,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "描述里埃哥纵队的行动如何重新点燃各省的希望，以及在革命形势成熟时，夸大的传闻乃至假消息都足以成为革命的导火索。",
+    "importance_score": 1,
+    "importance_reason": "本段是叙事过渡，描述革命情绪的传播机制，为后文分析革命形势的成熟度做铺垫。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对里埃哥纵队在安达鲁西亚活动的叙述，转而描述其行动在西班牙各省引发的反响和心理效应。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p128s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "里埃哥纵队",
+            "type": "org",
+            "modern": "1820年西班牙自由派起义的领袖里埃哥率领的部队，是当时革命力量的象征。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p128s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p128s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "1812年宪法",
+            "type": "work",
+            "modern": "西班牙自由派在反法独立战争期间制定的自由主义宪法，是19世纪西班牙自由派的纲领性文件。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p128s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p128s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p128s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

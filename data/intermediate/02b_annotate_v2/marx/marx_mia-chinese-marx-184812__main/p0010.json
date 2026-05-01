@@ -1,0 +1,63 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 10,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "通过反问句式，质问康普豪森内阁在波兹南战争中的角色，以此批判其政策。",
+    "importance_score": 2,
+    "importance_reason": "以具体历史事件为例，支撑对康普豪森内阁的批判。",
+    "argument_role": "continues",
+    "argument_link": "上一段列举了康普豪森的具体行为，这段话则聚焦于其中一项——波兹南战争，通过反问强化批判。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "波兹南战争",
+        "explain": "指1848年普鲁士对波兰大公国（波兹南地区）民族起义的军事镇压。康普豪森内阁对此负有责任，马克思以此批判其政策的反动性。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "康普豪森",
+      "their_view": "康普豪森内阁可能辩称其政策是为了维护秩序和法制基础。",
+      "author_response": "马克思通过反问揭露其政策的反动实质，指出其庇护了反革命行动。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p10s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

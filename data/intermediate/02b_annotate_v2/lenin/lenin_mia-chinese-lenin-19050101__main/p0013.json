@@ -1,0 +1,110 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 13,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁直接反驳前文提到的错误观点，强调俄国的自由事业和无产阶级斗争在很大程度上取决于专制制度的军事失败，并阐述了对待战争的辩证态度。",
+    "importance_score": 3,
+    "importance_reason": "本段是列宁核心论点的直接阐述，明确反驳了社会革命党人和新《火星报》的立场，并提出了对待战争的革命策略。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段对军事失败与政治危机必然联系的分析，进一步论证这种失败对革命事业的促进作用，并具体阐述无产阶级应采取的策略。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "饶勒斯",
+        "explain": "让·饶勒斯是法国社会主义运动领袖，第二国际重要人物。他主张通过议会斗争和和平宣传来实现社会主义，反对暴力革命，是列宁批判的“和平主义”与“机会主义”的代表人物之一。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "饶勒斯之流的和平主义",
+      "their_view": "主张通过和平宣传消除战争，谴责资产阶级之间的战争，认为社会主义者应追求普遍和平。",
+      "author_response": "这种和平辞藻对被压迫阶级毫无用处，无产阶级的责任是推翻一切资产阶级，而非在两个交战国间保持中立。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p13s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p13s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p13s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p13s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p13s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "饶勒斯之流",
+            "type": "person",
+            "modern": "以法国社会主义者饶勒斯为代表的第二国际改良派领袖，他们主张通过议会道路和和平手段实现社会主义。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p13s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p13s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 3,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

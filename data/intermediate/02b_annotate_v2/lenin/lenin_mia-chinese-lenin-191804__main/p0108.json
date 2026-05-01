@@ -1,0 +1,89 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 108,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段通过对比苏维埃与资产阶级议会，论证前者因扎根于工农群众而具有生命力，并批判那些向往资产阶级民主形式的人。",
+    "importance_score": 2,
+    "importance_reason": "本段通过对比论证，支撑了苏维埃制度优于资产阶级民主的核心观点。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对苏维埃组织特点的讨论，本段具体阐述其与群众的联系如何成为克服官僚主义的保证。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "allusion",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "谢德曼与马尔托夫",
+        "explain": "谢德曼是德国社会民主党右翼领袖，马尔托夫是俄国孟什维克领袖。列宁将他们都归为厌恶苏维埃、向往资产阶级议会的“社会民主党人”代表。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "屠格涅夫与农夫民主制",
+        "explain": "屠格涅夫是俄国作家，倾向温和改良。杜勃罗留波夫和车尔尼雪夫斯基是革命民主主义者，主张农民（农夫）的激进民主。列宁用此典故类比当时的社会民主党人。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p108s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p108s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p108s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p108s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote",
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

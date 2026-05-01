@@ -1,0 +1,82 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 37,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁指出，民主派和社会党人常用民主口号为反对布尔什维克的立场辩护，并以考茨基为代表，具体阐述了这种论调的内容。",
+    "importance_score": 2,
+    "importance_reason": "本段承接上文，正式引入对“民主”口号的批判，通过树立考茨基这一典型论敌，为后续论证布尔什维克专政的合理性铺垫。",
+    "argument_role": "continues",
+    "argument_link": "本段承接上一段宣布的议题转换，开始具体剖析民主派和社会党人如何利用“民主”口号进行辩护，并点出其主要代表人物考茨基。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p37s5",
+        "quote": "“民主，这是自由，这是平等，这是由多数人作决定；有什么能高于自由、高于平等、高于多数人的决定呢！既然你们布尔什维克违背了这一点，甚至还无耻地公开说，你们既高于自由平等，又高于多数人的决定，那我们把你们叫作篡夺者和暴徒，请你们不要惊讶，也不要埋怨！”",
+        "trigger": "inverted_logic",
+        "reader_block": "这是列宁模拟论敌口吻的反问句式，读者可能误以为是列宁本人在陈述民主的价值，从而混淆作者立场与论敌立场。",
+        "parse": {
+          "claim": "论敌认为，民主、自由、平等和多数决定是至高无上的原则，任何违背这些原则的行为都是篡夺和暴行。",
+          "qualifiers": "论敌将布尔什维克的公开声明（即高于自由平等和多数决定）作为其指控的直接依据。",
+          "contrast_or_target": "论敌将布尔什维克的无产阶级专政实践，与他们所定义的抽象民主原则对立起来，认为前者是对后者的背叛。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "本句是列宁对论敌核心论点的戏剧化呈现，通过模拟其激昂的质问，为下文反驳其抽象民主观树立靶子。"
+        },
+        "implication": "列宁即将论证，这种将民主、自由、平等视为超阶级、超历史的绝对原则的观点，正是机会主义者用以攻击无产阶级专政的理论基础。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "考茨基",
+      "their_view": "布尔什维克选择了违反民主的方法，选择了专政的方法，因此他们的所作所为都是不对的。民主意味着自由、平等和多数决定，布尔什维克违背了这些原则，是篡夺者和暴徒。",
+      "author_response": "列宁指出，这种论调在出版物和知识界被千万次地重复，是民主派和社会党人替其反对立场辩护的最流行方式。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p37s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p37s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p37s3",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p37s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p37s5",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      }
+    ]
+  }
+}

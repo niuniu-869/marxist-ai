@@ -1,0 +1,110 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 22,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段论证俄国农村公社因其独特的历史与现实条件，具备跨越资本主义完整阶段的可能性。",
+    "importance_score": 3,
+    "importance_reason": "这是马克思回应查苏利奇的核心论点，系统阐述了俄国公社可能跨越资本主义卡夫丁峡谷的内外条件。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对公社二重性的分析，转而具体论证其在俄国得以保存并可能走向新形态的现实基础。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "allusion",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "allusion",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "卡夫丁峡谷典故",
+        "explain": "源自古罗马历史，指公元前216年罗马军队在卡夫丁峡谷遭遇的惨败与屈辱。马克思用此比喻资本主义制度下必然经历的苦难与剥削阶段。",
+        "why_needed": "allusion",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "资本主义发展必然论",
+      "their_view": "俄国农村公社必然解体，俄国必须像西欧一样，先经历漫长的资本主义原始积累阶段。",
+      "author_response": "马克思指出，俄国公社的特殊性及其与世界市场的并存，使其有可能吸收资本主义的积极成果，从而避免完整经历资本主义的苦难过程。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p22s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p22s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p22s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p22s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p22s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p22s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p22s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "卡夫丁峡谷",
+            "type": "metaphor",
+            "modern": "马克思借用的古罗马典故，喻指资本主义制度下不可避免的剥削与苦难阶段。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 2,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

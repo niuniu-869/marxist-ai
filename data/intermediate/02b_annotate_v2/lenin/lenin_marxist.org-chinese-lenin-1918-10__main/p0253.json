@@ -1,0 +1,88 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 253,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁延续对考茨基虚构例子的讽刺，批判其将无产阶级专政与剥夺小业主选举权等同的逻辑，揭露考茨基维护剥削者权利的立场。",
+    "importance_score": 2,
+    "importance_reason": "本段通过具体反讽支撑列宁对考茨基机会主义的批判，强化无产阶级专政下选举权的阶级性质。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对考茨基“节俭的阿格尼斯”例子的批判，进一步分析其论证中的矛盾。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "cross_ref_pronoun",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "节俭的阿格尼斯",
+        "explain": "考茨基在《无产阶级专政》中虚构的人物，用于反对剥夺小业主选举权，列宁在前一段已讽刺过此例。",
+        "why_needed": "cross_ref_pronoun",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "考茨基",
+      "their_view": "无产阶级专政会剥夺小业主的选举权，导致工人欺侮他们，因此应该保留剥削者的选举权。",
+      "author_response": "列宁反讽这种观点，指出考茨基宁愿保护剥削者，也不信任工人阶级的自治能力。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p253s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p253s2",
+        "speaker": "quoted_opponent",
+        "stance": "critical",
+        "notes": []
+      },
+      {
+        "sid": "p253s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p253s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p253s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 2,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

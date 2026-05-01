@@ -1,0 +1,65 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 114,
+  "annotation": {
+    "block_type": "quote_block",
+    "gist": "呈现杜林关于研究经济规律的方法论主张，即通过思想实验排除社会历史因素。",
+    "importance_score": 2,
+    "importance_reason": "为恩格斯后续批判杜林的方法论提供直接引文靶子。",
+    "argument_role": "continues",
+    "argument_link": "直接呈现前一段所预告的杜林原话，具体展示其方法论主张。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "refute_quotation"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p114s1",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": [
+          {
+            "surface": "雇佣奴隶制",
+            "type": "concept",
+            "modern": "杜林用此词描述资本主义雇佣劳动关系，强调其强制性。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "labor_economic"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "polemic:eval_word:author_response:历史性"
+      ]
+    }
+  ]
+}

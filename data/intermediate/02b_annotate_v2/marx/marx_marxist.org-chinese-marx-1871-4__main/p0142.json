@@ -1,0 +1,139 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 142,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "分析法国农民政治立场的演变，从支持波拿巴主义到其幻觉破灭，为论证公社能争取农民做铺垫。",
+    "importance_score": 2,
+    "importance_reason": "通过剖析农民与旧政权的关系及其变化，为前文“公社是农民唯一希望”的论断提供历史依据和逻辑支撑。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于公社与农民关系的论断，具体分析农民为何曾支持波拿巴、为何其支持基础已瓦解，从而论证公社主张的吸引力。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p142s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "秩序党",
+            "type": "org",
+            "modern": "1848年革命后法国议会中代表正统派与奥尔良派的保守派联合体，主张恢复旧秩序。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p142s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p142s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "区长对抗政府的省长",
+            "type": "social_group",
+            "modern": "农民通过选举地方行政官员（区长）来抵制中央政府（省长）的控制。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          },
+          {
+            "surface": "学校教师对抗政府的教士",
+            "type": "social_group",
+            "modern": "农民支持世俗教育力量（教师）以对抗天主教会（教士）在乡村的影响力。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p142s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "秩序",
+            "type": "org",
+            "modern": "此处指代前文的“秩序党”及其主导的立法机构。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p142s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "波拿巴派",
+            "type": "social_group",
+            "modern": "支持拿破仑·波拿巴及其家族的政治派别，其社会基础包括部分农民。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p142s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "乡绅议员",
+            "type": "social_group",
+            "modern": "马克思对资产阶级秩序党议员的蔑称，强调其代表土地贵族和金融资产阶级利益。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 6,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

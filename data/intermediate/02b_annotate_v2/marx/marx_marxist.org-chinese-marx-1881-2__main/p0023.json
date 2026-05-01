@@ -1,0 +1,82 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 23,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "马克思用两个反问句，反驳那些认为俄国必须完全复制西方资本主义发展道路才能实现现代化的观点。",
+    "importance_score": 2,
+    "importance_reason": "本段是核心论证的一部分，通过反问揭示论敌观点的内在矛盾，为论证俄国公社可能跨越资本主义阶段提供逻辑支撑。",
+    "argument_role": "contrasts",
+    "argument_link": "承接上段关于俄国公社具有直接进化可能性的论述，转而直接质问并反驳那些否认这种可能性的论敌。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p23s1",
+        "quote": "如果“社会新栋梁”的代言人要否认现代农村公社上述进化的理论上的可能性，那么，可以向他们提出这样的问题:俄国为了获得机器、轮船、铁路等等，是不是一定要像西方那样先经过一段很长的机器工业的孕育期呢？",
+        "trigger": "inverted_logic",
+        "reader_block": "双重反问结构，读者可能不理解这是在反驳什么，以及“社会新栋梁”具体指谁。",
+        "parse": {
+          "claim": "俄国在获取现代工业成果时，未必需要像西方国家那样，先经历一个漫长而痛苦的资本主义原始积累和机器工业发展过程。",
+          "qualifiers": "此问题针对的是“社会新栋梁”的代言人，即那些主张俄国必须走西方老路的人。",
+          "contrast_or_target": "论敌认为，俄国农村公社必然解体，俄国必须像西欧一样，先经历漫长的资本主义原始积累阶段，才能发展出机器工业等现代设施。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "本句通过提出一个反问，直接挑战论敌关于发展路径的必然性前提，旨在揭露其观点的教条性。"
+        },
+        "implication": "俄国可以利用公社的土地公有制等条件，探索一条不同于西方的、更直接的发展道路。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      },
+      {
+        "anchor": "p23s2",
+        "quote": "也可以向他们提出这样的问题：他们怎么能够把西方需要几个世纪才建立起来的一整套交换机构（银行、股份公司等等）一下子就引进到自己这里来呢？",
+        "trigger": "inverted_logic",
+        "reader_block": "反问句式，读者可能未意识到这是在质疑论敌观点的现实可行性，而非真的在问“如何引进”。",
+        "parse": {
+          "claim": "西方那套成熟的、历经数百年才形成的金融与商业交换体系，不可能被一个国家在短时间内完整地移植过来。",
+          "qualifiers": "此问题同样针对那些主张全盘西化的人。",
+          "contrast_or_target": "论敌可能隐含地认为，俄国可以通过简单模仿或引进，快速建立起与西方同等水平的现代经济制度。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "本句是前一反问的递进，从工业硬件转向经济制度软件，进一步论证全盘复制西方道路的不现实性，从而间接支持公社可能走另一条路的论点。"
+        },
+        "implication": "制度与文化有其历史生成过程，无法简单移植，这为探索基于本土条件（如公社）的发展模式提供了依据。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "“社会新栋梁”的代言人",
+      "their_view": "俄国农村公社没有理论上的进化可能性，俄国必须像西方一样，先经历漫长的机器工业孕育期和交换机构建立过程，才能实现发展。",
+      "author_response": "马克思通过两个反问指出，这种观点忽视了俄国可以利用公社现有条件，探索一条不必完全重复西方历史阶段的发展道路。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p23s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p23s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  }
+}

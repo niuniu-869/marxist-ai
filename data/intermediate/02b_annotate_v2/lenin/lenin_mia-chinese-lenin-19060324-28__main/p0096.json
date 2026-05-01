@@ -1,0 +1,170 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 96,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁指出实际政治中斗争与妥协交织，并引用立宪民主党领袖米留可夫的话，揭示其以“革命”为名、实则寻求妥协的策略。",
+    "importance_score": 2,
+    "importance_reason": "通过引用论敌原话，具体展示立宪民主党人的政治算计，为后续批判提供靶子。",
+    "argument_role": "example",
+    "argument_link": "承接上段关于斗争或妥协的抽象二分法，用米留可夫的具体言论作为例证，说明现实政治的复杂性。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "refute_quotation"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "米留可夫与立宪民主党",
+        "explain": "米留可夫是立宪民主党（人民自由党）的主要领袖和理论家。该党代表自由派资产阶级，主张君主立宪，是1905年革命后杜马中的主要反对派。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "希波夫与十月党",
+        "explain": "希波夫是温和保守派“十月十七日同盟”（十月党）的领袖。该党拥护沙皇1905年10月17日宣言，主张在现有体制内进行有限改革。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "十月十七日宣言",
+        "explain": "1905年10月17日沙皇尼古拉二世颁布的宣言，承诺赋予公民自由和成立立法杜马。列宁和布尔什维克视其为骗局，认为它旨在瓦解革命运动。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p96s5",
+        "quote": "先生们，一切都要看实际情况（我们“可爱的辩证论者”是可以教训一下有产者的政权的），要知道，希波夫在10月17日以前也是“革命家”。",
+        "trigger": "inverted_logic",
+        "reader_block": "反讽语气（“可爱的辩证论者”）和历史指涉（希波夫、10月17日）结合，读者不易看出这是在讽刺立宪民主党人自以为能驾驭局势的傲慢。",
+        "parse": {
+          "claim": "立宪民主党人自诩为能根据现实情况灵活运用“辩证法”的政治家，但列宁指出，这种“革命”标签毫无意义，因为连保守的希波夫在沙皇做出让步前也曾被这样称呼。",
+          "qualifiers": "此评论针对米留可夫等人在《言语报》上的言论。",
+          "contrast_or_target": "米留可夫等人认为，他们自称革命家或被宣布为革命家都无济于事，关键在于实际的政治算计和妥协。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "通过历史类比（希波夫）和反讽（“可爱的辩证论者”），揭露立宪民主党人“革命”标签的虚伪性和机会主义本质，为后文批判其妥协路线铺垫。"
+        },
+        "implication": "立宪民主党人的“革命”姿态只是政治策略，其本质是寻求与旧政权的妥协。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      },
+      {
+        "anchor": "p96s7",
+        "quote": "如果你们不愿意，那就不得不对你们用一点来自下面的压力，小小地利用一下革命，吓唬吓唬你们，用革命人民的一些打击来削弱你们，那你们就会变得老实些，——可是很可能，妥协将对我们更有利。",
+        "trigger": "inverted_logic",
+        "reader_block": "长句包含多重条件与转折，且“来自下面的压力”“利用一下革命”等表述隐含了将革命工具化的立场，读者需辨析其真实意图。",
+        "parse": {
+          "claim": "如果旧政权不愿妥协，立宪民主党人将利用革命运动作为施压工具，迫使对方让步，最终目的是达成对他们自身更有利的妥协。",
+          "qualifiers": "此为米留可夫设想的两种情景之一（对方不愿妥协时）。",
+          "contrast_or_target": "米留可夫设想的另一种情景是：如果旧政权愿意“公平地、友好地”妥协，那就是改良而非革命。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "完整引用米留可夫的话，暴露其将革命视为可被资产阶级政党“利用”和“吓唬”对手的工具，而非无产阶级和农民自身解放事业的立场。"
+        },
+        "implication": "立宪民主党人对待革命的态度是纯粹的工具主义，其最终目标是与旧势力达成交易，而非彻底变革。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "立宪民主党（米留可夫）",
+      "their_view": "我们自称或被宣布为革命家都无济于事，一切取决于实际政治情况。如果旧政权愿意友好妥协，那就是改良；如果不愿意，我们可以利用革命来吓唬他们，迫使他们让步，最终达成对我们更有利的妥协。",
+      "author_response": "列宁通过引用此话，揭露立宪民主党人将革命视为可被资产阶级政党操纵和利用的工具，其本质是寻求与旧政权的交易，而非真正代表革命人民的利益。",
+      "polemic_kind": "counter_quotation",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p96s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p96s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p96s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p96s4",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p96s5",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": [
+          {
+            "surface": "辩证论者",
+            "type": "concept",
+            "modern": "此处为反讽，指立宪民主党人自诩能灵活运用辩证法处理政治现实。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "dialectics_general"
+          }
+        ]
+      },
+      {
+        "sid": "p96s6",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p96s7",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": [
+          {
+            "surface": "革命",
+            "type": "concept",
+            "modern": "在米留可夫的语境中，指可被资产阶级政党利用来施加压力的社会运动。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "revolution_bourgeois_utilitarian"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 1,
+        "hs_kept": 2,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

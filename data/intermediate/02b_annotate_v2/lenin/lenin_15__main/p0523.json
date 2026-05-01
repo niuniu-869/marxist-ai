@@ -1,0 +1,63 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 523,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段列举了独立国和半独立国，并附带数字和符号，可能指向具体引用或脚注。",
+    "importance_score": 0,
+    "importance_reason": "本段是文本异常，可能为脚注引用，对核心论证无直接贡献。",
+    "argument_role": "none",
+    "argument_link": "",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "text_anomaly",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "text_anomaly",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "文本异常",
+        "explain": "段落包含数字和符号，可能表示脚注引用或排版残留，影响理解。",
+        "why_needed": "text_anomaly",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p523s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

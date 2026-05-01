@@ -1,0 +1,70 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 11,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段揭露自由派资产阶级言行不一，他们口头支持全民立宪会议，实际准备反人民的咨议会议。",
+    "importance_score": 2,
+    "importance_reason": "这是对自由派资产阶级策略的核心批判，揭示其维护旧权力结构的实质。",
+    "argument_role": "contrasts",
+    "argument_link": "承接上段对全民立宪会议条件的界定，转而揭露自由派资产阶级的实际行动与上述条件背道而驰。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "自由派资产者（解放派）",
+      "their_view": "我们主张召开全民立宪会议，这是解决当前危机的正确道路。",
+      "author_response": "列宁指出，他们所谓的“立宪”道路，实质是让人民屈从于沙皇和大资产阶级的权力，而非实现人民主权。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p11s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "解放派",
+            "type": "person",
+            "modern": "1905年革命时期对自由派资产阶级政治家的特定称呼，源自其创办的《解放》杂志。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p11s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

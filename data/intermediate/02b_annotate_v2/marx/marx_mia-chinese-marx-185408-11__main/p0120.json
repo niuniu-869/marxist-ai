@@ -1,0 +1,69 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 120,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段分析1813年普选中保守派获胜的原因，指出反动阶级利用民众对立宪制度的不满情绪来巩固旧秩序。",
+    "importance_score": 2,
+    "importance_reason": "本段通过具体历史事件，说明反动阶级如何操纵民众情绪以维护自身利益，为理解西班牙革命的阶级动力提供例证。",
+    "argument_role": "continues",
+    "argument_link": "本段承接上文对议会惩办亲法派的描述，进一步揭示反动阶级如何利用民众愤慨来推动政治议程。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_density",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "1812年宪法与1813年普选",
+        "explain": "1812年宪法是西班牙自由派在法国入侵期间制定的自由主义文件，但遭到保守势力反对。1813年普选发生在政治动荡中，结果支持旧制度的派别获胜。",
+        "why_needed": "history_density",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p120s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p120s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

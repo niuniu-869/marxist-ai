@@ -1,0 +1,86 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 3,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "马克思引用黑格尔的辩证法原理，为分析中国与欧洲的相互影响奠定哲学基础。",
+    "importance_score": 2,
+    "importance_reason": "为后文分析中国与欧洲的相互影响提供哲学框架。",
+    "argument_role": "definition",
+    "argument_link": "本段引入黑格尔的辩证法原理，为下文分析中国与欧洲的相互影响提供方法论工具。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "all_known",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p3s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p3s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "对立统一",
+            "type": "concept",
+            "modern": "黑格尔辩证法的核心范畴，指矛盾双方相互依存、相互转化。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "dialectic_hegelian"
+          }
+        ]
+      },
+      {
+        "sid": "p3s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "两极相逢",
+            "type": "metaphor",
+            "modern": "对立面在极端处相遇并转化，是辩证运动的通俗表达。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:eval_word:reader_block:深刻"
+      ]
+    }
+  ]
+}

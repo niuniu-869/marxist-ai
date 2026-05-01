@@ -1,0 +1,88 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 4,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁对无政府主义自产生以来的理论贡献作出总体评价，认为其缺乏实质性内容。",
+    "importance_score": 2,
+    "importance_reason": "核心批判，为全文对无政府主义的定性奠定基调。",
+    "argument_role": "continues",
+    "argument_link": "承接标题提出的论战框架，开始具体阐述对无政府主义的批判。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "巴枯宁与1866年国际",
+        "explain": "巴枯宁是19世纪无政府主义的主要代表人物。1866年国际工人协会（第一国际）日内瓦代表大会是其早期重要会议，巴枯宁派在会上与马克思派存在路线分歧。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "施蒂纳",
+        "explain": "麦克斯·施蒂纳是19世纪德国哲学家，其著作《唯一者及其所有物》被视为无政府主义和个人主义的重要思想源头，早于巴枯宁的活动时期。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p4s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "巴枯宁",
+            "type": "person",
+            "modern": "19世纪俄国革命家，无政府主义理论与实践的重要代表，与马克思在第一国际内激烈论战。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "施蒂纳",
+            "type": "person",
+            "modern": "德国哲学家，其极端个人主义思想被视为无政府主义的哲学先驱之一。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 9,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁论证俄国资产阶级与地主紧密结盟，并指出他们清楚地知道废除土地私有制需要彻底的经济革命，而小资产阶级政党不理解这一点，同时揭露社会革命党人如何安抚农民。",
+    "importance_score": 2,
+    "importance_reason": "本段通过揭示资产阶级与地主的结盟及其对革命必要性的认知，支撑了对小资产阶级政党幻想的批判。",
+    "argument_role": "continues",
+    "argument_link": "本段承接上文对立宪会议无用的论述，转而分析资产阶级与地主的结盟及其对革命必要性的认知，以揭露小资产阶级政党的空谈。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_density",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "辛迪加国有化",
+        "explain": "指将生产同类商品或经营同类业务的大企业联合体（辛迪加）收归国家所有，由国家统一管理。这是列宁在《四月提纲》中提出的关键经济措施之一。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "切尔诺夫",
+        "explain": "维克多·切尔诺夫，社会革命党领袖之一，时任临时政府农业部长。他在土地问题上主张渐进改革，与农民激进要求存在差距。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "农民代表大会与农民苏维埃",
+        "explain": "1917年5-6月召开的全俄农民代表大会及其选举产生的执行委员会，是当时代表农民利益的主要政治机构。社会革命党人在其中占主导地位。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "社会革命党人和左派孟什维克",
+      "their_view": "他们相信可以通过立宪会议、苏维埃多数或临时政府的合法程序解决土地等革命问题，无需进行彻底的经济变革。",
+      "author_response": "列宁指出，他们不理解废除土地私有制必须伴随对银行和资本的彻底革命措施，而资产阶级对此心知肚明。",
+      "polemic_kind": "reveals_class_basis",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p9s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p9s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p9s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p9s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p9s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p9s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 2,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

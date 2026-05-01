@@ -1,0 +1,183 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 22,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁直接反驳反对派，指出他们将革命战争与帝国主义战争混为一谈，实质上是为高尔察克张目，并解释了农民产生困惑的原因。",
+    "importance_score": 3,
+    "importance_reason": "核心论辩段落，直接回应并定性了反对派的指责，阐明了布尔什维克对国内战争性质的立场。",
+    "argument_role": "contrasts",
+    "argument_link": "承接上段反对派的自我辩解，列宁在此直接反驳，指出其言论的实质是混淆战争性质，为反革命服务。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "高尔察克",
+        "explain": "高尔察克是俄国国内战争时期的主要白军首领之一，得到协约国支持。列宁在此用“高尔察克分子”指代一切反对布尔什维克、客观上有利于白军势力的人。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "两种战争的区分",
+        "explain": "列宁区分了“帝国主义战争”（第一次世界大战，各国资产阶级为争夺殖民地而战）和“国内战争”（无产阶级为巩固革命、对抗反革命阶级而进行的阶级战争）。理解这一区分是读懂本段论证的关键。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p22s4",
+        "quote": "我认为：你们中间任何一个人，只要在人民面前这样责备我们，他就是高尔察克分子，因为他不懂得，在我们粉碎了的帝国主义战争和我们招来的国内战争之间，存在着任何一个识字的人都知道的起码的基本的差别。",
+        "trigger": "inverted_logic",
+        "reader_block": "双重否定逻辑（“只要责备…就是…”）加上“高尔察克分子”这个强烈标签，读者可能不理解为何公开批评布尔什维克就等同于支持白军首领。",
+        "parse": {
+          "claim": "任何在民众面前指责布尔什维克带来战争的人，其立场客观上等同于支持高尔察克的反革命势力。",
+          "qualifiers": "此判断基于一个前提：指责者未能区分两种性质不同的战争。",
+          "contrast_or_target": "反对派认为布尔什维克用和平口号欺骗人民，带来了战争，因此与他们自己并无不同。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "这是对反对派指责的直接定性。列宁通过设定一个逻辑前提（必须区分两种战争），将未能做出此区分的批评者划入敌对阵营，从而剥夺其道德制高点。"
+        },
+        "implication": "列宁将政治立场的选择与对战争性质的基本认知挂钩，认为后者是判断政治阵营的试金石。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p22s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p22s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p22s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p22s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "高尔察克分子",
+            "type": "social_group",
+            "modern": "列宁用此标签指代所有在政治上客观上有利于白军反革命势力的人，无论其主观意图如何。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p22s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p22s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p22s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p22s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p22s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p22s10",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p22s11",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p22s12",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p22s13",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p22s14",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p22s15",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 0,
+        "hs_kept": 1,
+        "hs_dropped": 1,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote",
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

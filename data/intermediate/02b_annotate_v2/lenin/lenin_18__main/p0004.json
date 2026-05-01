@@ -1,0 +1,77 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 4,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "基于革命进程的观察，明确拒绝与小资产阶级政党妥协，转向无产阶级革命立场。",
+    "importance_score": 2,
+    "importance_reason": "支撑核心论点，论证与小资产阶级政党决裂的必要性。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段对小资产阶级动摇性的分析，将理论判断转化为对具体政党（社会革命党、孟什维克）的政治结论。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "社会革命党和孟什维克",
+      "their_view": "主张与资产阶级联合、妥协，拖延解决土地、和平等根本问题，寄希望于立宪会议。",
+      "author_response": "必须放弃对这两个政党的任何幻想，转而坚定地走无产阶级革命的道路。",
+      "polemic_kind": "strategic_critique",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p4s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p4s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "社会革命党和孟什维克党",
+            "type": "org",
+            "modern": "1917年俄国代表小资产阶级利益的两大政党，当时在临时政府中占主导。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p4s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 2,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "note:n1_overflow_concept_7>5"
+      ]
+    }
+  ]
+}

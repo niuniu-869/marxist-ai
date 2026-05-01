@@ -1,0 +1,119 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 12,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段叙述1832年英国议会改革的历史过程，说明金融贵族如何被工业资产阶级联合无产阶级和农民推翻。",
+    "importance_score": 1,
+    "importance_reason": "为后文分析工业资产阶级与金融贵族的矛盾及工人阶级在其中的作用提供具体历史背景。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于工业资产阶级确立政治统治的论述，具体展示其在英国如何通过联合其他阶级推翻金融贵族的统治。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p12s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "法国七月革命",
+            "type": "event",
+            "modern": "1830年法国推翻波旁王朝的革命，确立了金融资产阶级的统治。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p12s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p12s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p12s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "资产阶级其余的派别",
+            "type": "social_group",
+            "modern": "工业资产阶级等非金融资本的资产阶级集团。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          },
+          {
+            "surface": "英国无产阶级",
+            "type": "social_group",
+            "modern": "英国的产业工人阶级。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          },
+          {
+            "surface": "爱尔兰农民",
+            "type": "social_group",
+            "modern": "受压迫的爱尔兰农业劳动者。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p12s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p12s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 4,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

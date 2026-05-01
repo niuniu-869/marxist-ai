@@ -1,0 +1,84 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 41,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁通过对比民粹派与“经济唯物主义者”对旧法规残余的不同态度，论证民粹派背离了俄国进步传统，而“学生们”更接近这一传统。",
+    "importance_score": 2,
+    "importance_reason": "本段是论证民粹派背离“遗产”传统的关键环节，通过具体论战焦点（法规问题）揭示双方立场差异。",
+    "argument_role": "contrasts",
+    "argument_link": "承接上段对民粹派割裂上层建筑与阶级利益联系的分析，本段具体展示民粹派在“法规”问题上的立场如何与进步传统相悖。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p41s1",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": [
+          {
+            "surface": "法规",
+            "type": "concept",
+            "modern": "此处特指农奴制及自然经济时代遗留下来的法律规范与制度残余。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "law_residual"
+          }
+        ]
+      },
+      {
+        "sid": "p41s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p41s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p41s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

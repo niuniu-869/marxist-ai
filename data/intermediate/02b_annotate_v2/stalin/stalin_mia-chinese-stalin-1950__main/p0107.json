@@ -1,0 +1,110 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 107,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "批判马尔对语言亲属关系研究的贬斥，肯定这种研究对语言学有益，并澄清“原始语”理论与此无关。",
+    "importance_score": 2,
+    "importance_reason": "通过具体例子反驳马尔对历史比较法的全盘否定，为语言研究方法辩护。",
+    "argument_role": "contrasts",
+    "argument_link": "承接上段对马尔观点的引述，具体展开批判其对语言亲属关系研究的全盘否定。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "原始语理论",
+        "explain": "历史比较语言学的一个概念，指通过比较亲属语言来构拟它们共同的、更早的祖先语言。马尔将任何语言分类研究都与此理论捆绑并加以否定。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p107s1",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": [
+          {
+            "surface": "尼·雅·马尔",
+            "type": "person",
+            "modern": "苏联语言学家，提出语言“新学说”，否定传统语言学方法。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p107s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "各斯拉夫民族语言",
+            "type": "social_group",
+            "modern": "如俄语、乌克兰语、波兰语等有共同起源的语言群。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p107s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p107s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "原始语理论",
+            "type": "concept",
+            "modern": "认为亲属语言由同一祖语分化而来的学说。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "proto_language_theory"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 3,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_6>5",
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

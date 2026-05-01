@@ -1,0 +1,62 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 8,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "马克思以讽刺口吻总结对庸俗经济学家的批评，指出他们连工人和商人都不如。",
+    "importance_score": 1,
+    "importance_reason": "这是信的修辞性结尾，强化对庸俗经济学家的讽刺，但非核心论证。",
+    "argument_role": "continues",
+    "argument_link": "延续上一段对庸俗经济学家的批评，以讽刺口吻总结他们的无知。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "庸俗经济学家",
+      "their_view": "《资本论》的价值理论过于复杂，对他们的理解力要求过高。",
+      "author_response": "马克思讽刺他们连工人和商人都不如，却自诩博学。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p8s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p8s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 2,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_metaphor_9>8",
+        "note:n1_overflow_metaphor_9>8"
+      ]
+    }
+  ]
+}

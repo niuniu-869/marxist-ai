@@ -1,0 +1,73 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 34,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段转述立宪民主党人对工人抵制选举策略的公开反驳，宣称抵制无效且杜马将由他们主导。",
+    "importance_score": 2,
+    "importance_reason": "呈现论敌（立宪民主党人）的具体反驳，为列宁后续的回应提供靶子，支撑全文对选举策略的论辩。",
+    "argument_role": "continues",
+    "argument_link": "本段紧接上段对普列汉诺夫策略的批评，转而呈现论敌（立宪民主党人）对抵制策略的具体反驳，为列宁后续的回应提供靶子。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p34s1",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p34s2",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p34s3",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p34s4",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

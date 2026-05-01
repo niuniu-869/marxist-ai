@@ -1,0 +1,95 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 72,
+  "annotation": {
+    "block_type": "narrative",
+    "gist": "本段是人名索引条目，列举了马拉斯特的生平信息、政治身份及其在1848年法国革命期间担任的职务。",
+    "importance_score": 0,
+    "importance_reason": "作为索引条目，提供人物背景信息，对理解马克思核心论证无直接作用。",
+    "argument_role": "none",
+    "argument_link": null,
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p72s1",
+        "speaker": "editor",
+        "stance": "neutral_citation",
+        "notes": [
+          {
+            "surface": "人权社",
+            "type": "org",
+            "modern": "19世纪法国主张共和制的政治团体，是马拉斯特早期活动的平台。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "《国民报》",
+            "type": "work",
+            "modern": "19世纪法国一份重要的共和派报纸，马拉斯特曾担任其总编辑。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p72s2",
+        "speaker": "editor",
+        "stance": "neutral_citation",
+        "notes": [
+          {
+            "surface": "临时政府",
+            "type": "org",
+            "modern": "1848年法国二月革命后成立的过渡性政府，马拉斯特是其成员之一。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "制宪议会",
+            "type": "org",
+            "modern": "1848年法国为制定新宪法而选举产生的议会，马拉斯特曾任其议长。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 4,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

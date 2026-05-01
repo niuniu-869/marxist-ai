@@ -1,0 +1,131 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 15,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁阐述布尔什维克党在假设立即掌权情况下的革命纲领要点，特别是立即建议媾和与民族解放政策。",
+    "importance_score": 3,
+    "importance_reason": "核心论点段落，阐述了列宁主义革命纲领中关于战争与民族问题的关键主张。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对临时政府的批判，提出布尔什维克党在革命形势下的替代性行动纲领。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "《社会民主党人报》第47号",
+        "explain": "这是布尔什维克党的中央机关报，在1917年二月革命后秘密出版。列宁在此报上系统阐述了党在革命形势下的纲领。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p15s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p15s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "《社会民主党人报》第47号",
+            "type": "work",
+            "modern": "布尔什维克中央机关报，1917年2月革命后秘密出版，列宁在此阐述革命纲领。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p15s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "媾和",
+            "type": "concept",
+            "modern": "结束帝国主义战争的提议，是列宁“变帝国主义战争为国内战争”口号的具体化。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "peace_policy"
+          }
+        ]
+      },
+      {
+        "sid": "p15s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "解放一切殖民地和一切被压迫的或没有充分权利的民族",
+            "type": "program_clause",
+            "modern": "列宁民族自决纲领的核心内容，将民族解放与反对帝国主义战争直接联系。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p15s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "受大俄罗斯人压迫的各民族",
+            "type": "program_clause",
+            "modern": "针对沙俄境内被压迫民族的具体解放承诺，是“民族自决权”原则在俄国的直接应用。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p15s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 4,
+        "notes_dropped": 2,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_14>5",
+        "note:n1_overflow_concept_9>5"
+      ]
+    }
+  ]
+}

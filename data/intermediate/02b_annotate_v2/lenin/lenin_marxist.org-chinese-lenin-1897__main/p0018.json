@@ -1,0 +1,92 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 18,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段反驳激进派分子对社会民主主义者策略的误解，主张将经济与政治斗争结合能强化政治运动。",
+    "importance_score": 2,
+    "importance_reason": "本段是作者对策略误解的直接反驳，支撑核心论点。",
+    "argument_role": "continues",
+    "argument_link": "本段承接上段对错误根源的分析，具体阐述结合经济与政治斗争的必要性。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "allusion",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p18s4",
+        "quote": "可是，如果这里真有所谓后退，那就不过是法国俗话所说的那种后退：“il faut reculer pour mieux sauter！”（为要远跳，必须后退）。",
+        "trigger": "allusion",
+        "reader_block": "读者可能不理解这句法语俗语的含义及其在论证中的作用，需要知道其字面与引申义。",
+        "parse": {
+          "claim": "作者认为，如果社会民主主义者的策略存在暂时的后退，那也是为了将来更有力的前进。",
+          "qualifiers": "如果存在后退。",
+          "contrast_or_target": "针对激进派分子认为社会民主主义者在拖延政治斗争的观点。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "本句用俗语反驳激进派分子对策略的误解，强调暂时的组织准备是为了更有效的政治斗争。"
+        },
+        "implication": "社会民主主义者的策略是辩证的，不是直线式的。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p18s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p18s2",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p18s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p18s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 1,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

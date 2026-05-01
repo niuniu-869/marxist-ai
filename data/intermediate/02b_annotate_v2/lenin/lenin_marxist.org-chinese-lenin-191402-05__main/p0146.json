@@ -1,0 +1,87 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 146,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁划清与“弗腊克派”的界限，肯定波兰社会民主党的无产阶级性质。",
+    "importance_score": 2,
+    "importance_reason": "通过具体案例阐明如何区分不同性质的政党，支撑前文关于团结与原则的论述。",
+    "argument_role": "continues",
+    "argument_link": "承接上段案例，进一步阐明无产阶级团结必须基于共同的阶级立场，而非民族或派别。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "all_known",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "罗莎·卢森堡",
+      "their_view": "罗莎·卢森堡反对俄国党纲第九条关于民族自决权的条款。",
+      "author_response": "列宁认为这些言论是错误的，但波兰社会民主党的功绩在于其无产阶级性质，与此无关。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p146s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p146s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p146s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p146s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p146s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p146s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 2,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_5gram_with_surface",
+        "note:n2_circular_prefix",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

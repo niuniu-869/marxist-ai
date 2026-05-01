@@ -1,0 +1,55 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 22,
+  "annotation": {
+    "block_type": "quote_block",
+    "gist": "列宁引用《火星报》上的一段话，该段话主张马克思恩格斯在民主革命时期会反对社会主义者参加小资产阶级政府，以此作为后续反驳的靶子。",
+    "importance_score": 2,
+    "importance_reason": "作为列宁反驳论敌的核心引文，直接呈现了被批判的观点，是后续论证的靶子。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对普列汉诺夫的反驳，直接引用论敌的原话作为批判对象，使反驳更具针对性。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "refute_quotation"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p22s1",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 81,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段从两个方面论证了从资本主义向社会主义过渡时期必须实行专政的必要性。",
+    "importance_score": 3,
+    "importance_reason": "这是全文核心论点之一，直接论证了无产阶级专政在特定历史阶段的必要性。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段关于强制是专政形式的论断，具体阐释过渡时期需要这种强制的两个根本原因。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "专政的特定含义",
+        "explain": "列宁在此处使用的“专政”特指无产阶级专政，即无产阶级作为统治阶级，对资产阶级和一切剥削者实行的有组织的暴力统治，是过渡时期的国家形式。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p81s4",
+        "quote": "旧社会的一切有害分子——其数量当然非常之多，而且大半都是同小资产阶级有联系的，因为一切战争和一切危机首先使小资产阶级破产和毁灭——在这种深刻变革的时候，自然不能不“大显身手”。",
+        "trigger": "inverted_logic",
+        "reader_block": "“大显身手”是反讽，字面是褒义，实际指这些人在混乱中趁机从事破坏活动。读者若按字面理解，会误判作者态度。",
+        "parse": {
+          "claim": "旧社会遗留的各种破坏分子，在社会剧烈变动时期必然会活跃起来，从事各种坏事。",
+          "qualifiers": "限定于“在这种深刻变革的时候”，即革命与内战造成的混乱状态。",
+          "contrast_or_target": ""
+        },
+        "why": {
+          "relation": "example",
+          "explanation": "本句作为前文“内战造成混乱状态”的具体例证，说明混乱如何催生犯罪与投机，从而支撑了需要“铁的手腕”来消除的结论。"
+        },
+        "implication": "这表明过渡时期的混乱不仅是宏观的，也体现在微观的社会失序层面，强化了专政的现实紧迫性。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p81s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "专政",
+            "type": "concept",
+            "modern": "在本文语境下，特指无产阶级专政，即无产阶级掌握国家政权，对资产阶级实行统治。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "dictatorship_proletarian"
+          }
+        ]
+      },
+      {
+        "sid": "p81s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p81s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p81s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p81s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p81s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 1,
+        "hs_kept": 1,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

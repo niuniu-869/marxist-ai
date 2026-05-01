@@ -1,0 +1,65 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 6,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "叙述比利时工人运动在马尔希延事件后，正努力团结全体无产阶级并寻求国际协会的保护。",
+    "importance_score": 1,
+    "importance_reason": "作为呼吁书的一部分，本段是叙述性内容，展示国际协会在比利时的活动进展，属于辅助信息。",
+    "argument_role": "continues",
+    "argument_link": "从上一段对瑞士工人运动的描述，转向比利时的情况，继续展示国际协会在不同国家的扩展与影响。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "马尔希延大屠杀",
+        "explain": "指1866年发生在比利时列日省马尔希延的一次工人罢工事件。政府出动军队镇压，造成工人死伤。这一事件激化了比利时的阶级矛盾。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p6s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "马尔希延大屠杀",
+            "type": "event",
+            "modern": "1866年比利时列日省工人罢工遭政府镇压的事件",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "无产阶级",
+            "type": "concept",
+            "modern": "马克思主义理论中与资产阶级相对的、丧失生产资料的阶级",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "class_marxist"
+          }
+        ]
+      }
+    ]
+  }
+}

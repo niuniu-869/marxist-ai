@@ -1,0 +1,173 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 28,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁反驳资产阶级关于布尔什维克瓦解军队的指责，通过回顾历史论证军队瓦解早有根源，并批评反对签订和约者是脱离实际的革命空谈。",
+    "importance_score": 3,
+    "importance_reason": "核心段落，系统驳斥了反对批准布列斯特和约的主要论据，阐明了布尔什维克在军队问题上的立场和历史责任。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于革命需经受考验的论述，具体分析军队瓦解的历史原因，以反驳当前对布尔什维克的指责，并论证签订和约的必要性。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "1917年二月革命后至十月革命前",
+        "explain": "1917年3月（俄历二月）沙皇被推翻，政权落入资产阶级临时政府手中，但苏维埃也同时存在。列宁在此指的“3—4月间”正是这个权力并存的过渡期，当时苏维埃若果断行动，有可能提前夺取政权。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "克伦斯基政府",
+        "explain": "亚历山大·克伦斯基是二月革命后资产阶级临时政府的主要领导人，他继续进行第一次世界大战，导致军队进一步崩溃，最终在十月革命中被推翻。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p28s1",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p28s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p28s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p28s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p28s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p28s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p28s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p28s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p28s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p28s10",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p28s11",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p28s12",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p28s13",
+        "speaker": "unknown",
+        "stance": "neutral_citation",
+        "notes": []
+      },
+      {
+        "sid": "p28s14",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p28s15",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "革命空谈",
+            "type": "concept",
+            "modern": "列宁用以批判那些脱离现实力量对比、仅凭革命热情主张继续战争的言论，认为其缺乏实现手段，只会带来实际损害。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "revolutionary_phrasing"
+          }
+        ]
+      },
+      {
+        "sid": "p28s16",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 2,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_person_16>12",
+        "hs:claim_5gram_with_quote",
+        "hs:claim_5gram_with_quote",
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

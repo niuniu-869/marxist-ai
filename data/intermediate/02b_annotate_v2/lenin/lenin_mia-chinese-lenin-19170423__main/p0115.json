@@ -1,0 +1,115 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 115,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁回答关于俄国侨民回国路线的问题，明确反对取道德国，并从道德层面论证其不可取性。",
+    "importance_score": 1,
+    "importance_reason": "作为对具体行动路线的问答，支撑了作者关于革命者立场与道德原则的论述，属于论证的辅助环节。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段关于侨民回国方式的提问，给出明确的否定回答并阐述理由。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "term_polysemy",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "马克西姆·柯瓦列夫斯基",
+        "explain": "俄国自由派历史学家、社会学家和政治活动家，与沙皇政府及上层社会关系密切。列宁在此用他作为‘富人’通过官方渠道办事的例子。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "“左派社会党人”在特定语境下的含义",
+        "explain": "此处指一战期间反对本国政府、主张国际主义的社会主义政党成员。列宁批评的不是其国际主义立场，而是指他们被利用来绕过正式政府渠道进行交换，这在列宁看来是不道德的。",
+        "why_needed": "term_polysemy",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p115s4",
+        "quote": "如果那些富人，譬如自由派教授马克西姆·柯瓦列夫斯基，通过同显贵人物的关系并通过政府，即使是沙皇政府，来交换俄德双方的拘留人员，那就是另外一回事了。",
+        "trigger": "term_polysemy",
+        "reader_block": "读者可能不理解为何通过‘沙皇政府’办事反而被列为‘另外一回事’，这与通常对沙皇政府的批判立场看似矛盾。",
+        "parse": {
+          "claim": "对于富人阶层而言，利用其社会关系并经由官方（哪怕是旧政权）渠道解决个人事务，是一种被允许的、不同性质的行为。",
+          "qualifiers": "限定对象为‘富人’，行为方式为‘通过同显贵人物的关系并通过政府’。",
+          "contrast_or_target": "与本段反对的、通过‘中立国的左派社会党人’进行交换的行为形成对比。"
+        },
+        "why": {
+          "relation": "contrasts",
+          "explanation": "通过设定一个对比案例（富人通过官方渠道），来凸显并反衬后文所批评行为（通过左派社会党人）的特殊不当之处。"
+        },
+        "implication": "列宁在此区分了不同阶级在利用社会资源时的‘规则’，暗示无产阶级革命者不应效仿或利用这种资产阶级式的、有辱身份的手段。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      },
+      {
+        "anchor": "p115s5",
+        "quote": "企图不通过政府，而通过中立国的左派社会党人来进行这种交换是极不道德的。",
+        "trigger": "term_polysemy",
+        "reader_block": "读者可能困惑：为何通过‘左派社会党人’（通常被视为进步力量）反而被指责为‘极不道德’？这需要理解列宁对当时特定政治操作的批判。",
+        "parse": {
+          "claim": "试图绕过正式的国家机构，转而借助外国左翼政党人士来达成人员交换，这种做法在道德上是不可接受的。",
+          "qualifiers": "限定方式为‘不通过政府，而通过中立国的左派社会党人’。",
+          "contrast_or_target": "针对那些主张或实践通过此类非官方、跨国左翼渠道解决战时问题的人。"
+        },
+        "why": {
+          "relation": "conclusion",
+          "explanation": "这是对本段论证的总结性判断，基于前文对‘可耻’‘不道德’的铺垫，明确将特定行为定性为道德错误。"
+        },
+        "implication": "列宁强调革命者行动的道德纯洁性和政治原则性，反对任何可能被视为利用国际同志关系来谋取个人或小团体便利的‘机会主义’做法。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "孟什维克和社会革命党",
+      "their_view": "在战争期间，可以通过中立国的左派社会党人作为中介，来促成俄德双方被拘留人员的交换，这是一种可行的、人道的途径。",
+      "author_response": "列宁认为这种做法抛弃了通过正式国家机器交涉的严肃性，是可耻且不道德的，有辱革命者的身份。",
+      "polemic_kind": "reveals_class_basis",
+      "confidence": "medium"
+    },
+    "sentences": [
+      {
+        "sid": "p115s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p115s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p115s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p115s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p115s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  }
+}

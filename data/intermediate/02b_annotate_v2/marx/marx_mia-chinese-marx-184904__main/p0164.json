@@ -1,0 +1,148 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 164,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段反驳经济学家关于机器排挤工人后能重新就业的说法，指出这种“安慰”只对资本家自身有效，并揭示资本对雇佣劳动的根本依赖。",
+    "importance_score": 2,
+    "importance_reason": "作为对核心论点的具体例证，通过反驳“就业转移”论，强化资本与雇佣劳动关系的分析。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对经济学家“新就业门路”说的引述，本段直接揭露其虚假性，并从资本存续的角度进行反驳。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p164s5",
+        "quote": "资本家老爷们是不会缺少可供剥削的新鲜血肉的，他们让死人们去埋葬自己的尸体。",
+        "trigger": "inverted_logic",
+        "reader_block": "反讽句式，“死人们去埋葬自己的尸体”是隐喻，读者可能不理解其讽刺资本家让工人自生自灭的含义。",
+        "parse": {
+          "claim": "资本家总能找到新的劳动力供其剥削，他们对被机器淘汰的工人的命运漠不关心。",
+          "qualifiers": "在机器排挤工人的背景下。",
+          "contrast_or_target": "针对经济学家声称被解雇工人能找到新工作的安慰论调。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "用尖锐的反讽，揭露经济学家“安慰”的虚伪本质，指出资本家只关心剥削对象的更替，而非工人的实际处境。"
+        },
+        "implication": "资本的增殖逻辑决定了它必须不断寻找和消耗活劳动，工人的个体命运在其眼中无足轻重。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      },
+      {
+        "anchor": "p164s7",
+        "quote": "如果机器消灭了整个雇佣工人阶级，那么这对资本来说将是一件十分可怕的事情，因为资本没有雇佣劳动就不成其为资本了！",
+        "trigger": "inverted_logic",
+        "reader_block": "双重否定逻辑（“不成其为”），且结论看似矛盾（机器消灭工人对资本可怕），需要理清资本与雇佣劳动的依存关系。",
+        "parse": {
+          "claim": "资本的存在完全依赖于雇佣劳动；若雇佣劳动阶级整体消失，资本本身也将不复存在。",
+          "qualifiers": "假设机器发展到极端，消灭了整个雇佣工人阶级。",
+          "contrast_or_target": "反驳那种认为机器发展最终可能完全取代工人而资本仍能繁荣的潜在观点。"
+        },
+        "why": {
+          "relation": "conclusion",
+          "explanation": "从资本定义的角度，推出本段乃至本节的一个关键结论：资本与雇佣劳动是共生关系，一方的彻底消灭意味着另一方的终结。"
+        },
+        "implication": "这揭示了资本主义生产方式的内在界限，即其发展可能走向自身的反面。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "古典政治经济学",
+      "their_view": "机器排挤出的工人可以在新的劳动部门找到工作，这对工人是一种安慰。",
+      "author_response": "这种说法掩盖了资本对活劳动的根本依赖，其“安慰”实质是资本家为自己寻找新剥削对象的庆幸，而非对工人的真正关怀。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p164s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p164s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p164s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p164s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p164s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "新鲜血肉",
+            "type": "metaphor",
+            "modern": "比喻可供资本家剥削的、新的劳动力。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p164s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p164s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "雇佣劳动",
+            "type": "concept",
+            "modern": "马克思政治经济学核心概念，指工人出卖自身劳动力给资本家以换取工资的劳动形式。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "labor_economic"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 2,
+        "hs_kept": 2,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_archaic_6>4",
+        "note:n1_overflow_metaphor_11>8"
+      ]
+    }
+  ]
+}

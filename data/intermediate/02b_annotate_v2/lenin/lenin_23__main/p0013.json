@@ -1,0 +1,113 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 13,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁以维佩尔教授为例，具体展示资产阶级知识分子在批判宗教时如何回避核心斗争，并试图超越哲学基本派别，实质是为资产阶级服务。",
+    "importance_score": 1,
+    "importance_reason": "作为前文论点的具体例证，用以支撑对资产阶级知识分子妥协态度的批判。",
+    "argument_role": "example",
+    "argument_link": "承接上段对资产阶级知识分子在反宗教问题上妥协态度的批判，本段提供一个具体人物及其著作作为实例。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "罗·尤·维佩尔教授",
+      "their_view": "叙述现代科学成就，但回避反对教会这一政治组织的武器（偏见和骗局），并奢望找到一条超越唯心主义和唯物主义这两个“极端”的道路。",
+      "author_response": "列宁认为这种立场是为占统治地位的资产阶级效劳，因为资产阶级正是利用从劳动者身上榨取的利润来扶持宗教。",
+      "polemic_kind": "reveals_class_basis",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p13s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p13s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "《基督教的起源》",
+            "type": "work",
+            "modern": "维佩尔于1918年在莫斯科法罗斯出版社出版的著作，列宁将其作为批判案例。",
+            "highlight": "work",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p13s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "教会",
+            "type": "concept",
+            "modern": "在列宁的论述中，特指作为政治组织、利用偏见和骗局维护统治的机构。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "church_as_political_organization"
+          },
+          {
+            "surface": "唯心主义",
+            "type": "concept",
+            "modern": "哲学基本派别之一，认为精神或意识是第一性的。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "idealism_philosophical"
+          },
+          {
+            "surface": "唯物主义",
+            "type": "concept",
+            "modern": "哲学基本派别之一，认为物质是第一性的，意识是物质的产物。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "materialism_philosophical"
+          }
+        ]
+      },
+      {
+        "sid": "p13s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "资产阶级",
+            "type": "concept",
+            "modern": "马克思主义理论中指占有生产资料、依靠剥削雇佣劳动为生的阶级。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "bourgeoisie_marxist"
+          },
+          {
+            "surface": "利润",
+            "type": "concept",
+            "modern": "在政治经济学中，指资本家通过剥削工人剩余劳动所获得的收入。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "profit_political_economy"
+          }
+        ]
+      }
+    ]
+  }
+}

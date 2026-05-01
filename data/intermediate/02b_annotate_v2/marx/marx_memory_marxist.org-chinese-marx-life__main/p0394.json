@@ -1,0 +1,66 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 394,
+  "annotation": {
+    "block_type": "quote_block",
+    "gist": "马克思评论国民议会应积极巩固革命成果，避免空谈给反革命可乘之机。",
+    "importance_score": 2,
+    "importance_reason": "本段展示马克思对1848年革命后政治形势的判断，强调行动的重要性。",
+    "argument_role": "continues",
+    "argument_link": "本段是马克思在激动状态下对国民议会任务的直接评论，延续了前文对革命形势的讨论。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "text_anomaly",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "1848年德国三月革命",
+        "explain": "1848年3月在德意志邦联爆发的革命运动，旨在推翻封建统治、实现国家统一和民主改革。马克思和恩格斯参与了相关活动。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p394s1",
+        "quote": "“国民议会的任务如果是为了巩固三月革命的成果，并借助于人民的力量建立一个统一的、民主的德国的活，”他说，“那就不应该让这些无个性的民主人士耽于空谈，让反革命有时间积聚力量去镇压革命运动。”",
+        "trigger": "text_anomaly",
+        "reader_block": "原文中‘的活’疑似为‘的话’的排版残留，影响条件句的流畅理解。",
+        "parse": {
+          "claim": "国民议会若以巩固革命成果和建立统一民主德国为目标，则必须阻止空谈，防止反革命镇压。",
+          "qualifiers": "条件限定于国民议会的目标是巩固三月革命成果并建立统一民主德国。",
+          "contrast_or_target": "对比对象是‘无个性的民主人士’，他们耽于空谈而延误行动。"
+        },
+        "why": {
+          "relation": "none",
+          "explanation": ""
+        },
+        "implication": null,
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p394s1",
+        "speaker": "quoted_marx",
+        "stance": "endorsed",
+        "notes": []
+      }
+    ]
+  }
+}

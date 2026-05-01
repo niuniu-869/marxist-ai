@@ -1,0 +1,109 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 24,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "通过比较历史事件，论证布尔什维克正确指出了国内战争的真正敌人，并用科尔尼洛夫叛乱的事实证明群众受骗。",
+    "importance_score": 2,
+    "importance_reason": "用具体历史事件例证，支撑前文关于布尔什维克群众基础和正确路线的论述。",
+    "argument_role": "example",
+    "argument_link": "承接上段关于群众支持布尔什维克的论述，本段用具体历史事件证明布尔什维克在群众中的正确引导作用。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "四月与七月事件",
+        "explain": "指1917年4月20-21日（俄历）和7月3-4日（俄历）在彼得格勒发生的群众示威与武装冲突。前者是自发抗议临时政府的帝国主义政策，后者是布尔什维克领导的武装示威，后被临时政府镇压并嫁祸布尔什维克。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "科尔尼洛夫叛乱",
+        "explain": "1917年8月，俄军总司令科尔尼洛夫发动的反革命军事政变，企图建立军事独裁。叛乱被布尔什维克动员的工人和士兵粉碎，此事件使临时政府威信扫地，布尔什维克影响力大增。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "“野蛮师”",
+        "explain": "指科尔尼洛夫叛乱中一支由高加索山民组成的骑兵师，被宣传为忠诚于他的精锐部队。当他们接近彼得格勒时，发现市民并非如宣传所言是“布尔什维克暴徒”，骗局因此瓦解。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "立宪民主党、孟什维克等",
+      "their_view": "国内战争是可怕的灾难，会带来毁灭和流血，因此必须避免革命深入，与资产阶级妥协。",
+      "author_response": "国内战争的真正敌人是资产阶级、地主和资本家；科尔尼洛夫叛乱的事实证明，受骗的军队一旦接触真相就会醒悟，所谓“恐怖”是吓唬人的谎言。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p24s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "4月20—21日的运动",
+            "type": "event",
+            "modern": "1917年二月革命后，彼得格勒工人和士兵因不满临时政府继续帝国主义战争而自发举行的大规模示威，部分演变为武装冲突。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "7月3—4日的运动",
+            "type": "event",
+            "modern": "1917年7月，彼得格勒工人和士兵在布尔什维克领导下举行的武装示威，要求全部政权归苏维埃，后被临时政府血腥镇压。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p24s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "“野蛮师”",
+            "type": "event",
+            "modern": "科尔尼洛夫叛乱中一支由高加索山民组成的骑兵师，被宣传为精锐部队，但其士兵在接近彼得格勒时发现真相，导致叛乱瓦解。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 3,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_5gram_with_surface"
+      ]
+    }
+  ]
+}

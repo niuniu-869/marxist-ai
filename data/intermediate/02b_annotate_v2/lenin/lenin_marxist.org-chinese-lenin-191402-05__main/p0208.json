@@ -1,0 +1,75 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 208,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段以爱尔兰问题为例，反驳将马克思和恩格斯的民族要求视为空想的观点，强调历史条件与阶级力量对比。",
+    "importance_score": 2,
+    "importance_reason": "通过具体案例反驳对马克思理论的批评，支撑民族自决权的现实性论证。",
+    "argument_role": "continues",
+    "argument_link": "本段延续上段对爱尔兰问题的讨论，从历史条件转向反驳对马克思民族理论的批评。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_density",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "芬尼亚运动与乌尔斯脱问题",
+        "explain": "芬尼亚运动是19世纪爱尔兰小资产阶级民族主义组织，主张暴力独立。乌尔斯脱指北爱尔兰地区，新教徒占多数，与爱尔兰其他地区存在宗教政治冲突。",
+        "why_needed": "history_density",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "批评马克思和恩格斯的人（如罗莎·卢森堡或机会主义者）",
+      "their_view": "马克思和恩格斯是空想家，他们提出的民族要求不能实现，并且受了爱尔兰小资产阶级民族主义者的影响。",
+      "author_response": "列宁指出，这种结论忽视了历史条件和阶级力量对比，不能以当前结果否定理论的正确性。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p208s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p208s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p208s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

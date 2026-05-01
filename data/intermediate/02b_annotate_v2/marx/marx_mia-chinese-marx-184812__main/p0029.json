@@ -1,0 +1,82 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 29,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段通过对比康普豪森与汉泽曼两位资产阶级代表的执政风格，指出前者尚存顾忌，后者则肆无忌惮，但两者本质都是资产阶级利益的无耻维护者。",
+    "importance_score": 2,
+    "importance_reason": "通过对比两个资产阶级代表人物，具体化了前文对资产阶级妥协与背叛的批判，揭示其阶级本质的同一性。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于资产阶级受人民委托却袖手旁观的论述，具体分析其掌权后的表现，揭示其权力的阶级属性。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p29s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p29s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p29s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p29s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "这两个艺术家",
+            "type": "metaphor",
+            "modern": "马克思用此词讽刺康普豪森与汉泽曼，将他们比作表演政治的艺术家，但表演的底色都是资产阶级利益。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

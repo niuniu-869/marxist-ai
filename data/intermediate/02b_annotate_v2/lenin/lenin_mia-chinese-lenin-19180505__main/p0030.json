@@ -1,0 +1,61 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 30,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁预告将批判“左派共产主义者”在国内政策上的观点，并准备引用其提纲词句作为靶子。",
+    "importance_score": 1,
+    "importance_reason": "这是从上段讨论战争与和平问题转向国内政策批判的过渡，通过预告引用对方文本为后续批判做准备。",
+    "argument_role": "transition",
+    "argument_link": "上段讨论在获得无产阶级护国派权利后应如何估计力量，本段则转向批判“左派”在国内政策上的错误观点。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p30s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p30s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "polemic:polemic_their_view_qualifier:被列宁"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 200,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁具体描述资本家阶级为破坏苏维埃所采取的手段，并指出孟什维克和社会革命党人在此过程中扮演了帮凶角色。",
+    "importance_score": 2,
+    "importance_reason": "通过列举资本家的具体反抗行动，为前文关于其反抗力量的论断提供事实支撑，并点明其与机会主义政党的合流。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段关于资本家反抗力量的论断，具体展开其反抗的手段与策略，并引入其政治帮手。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p200s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "苏维埃",
+            "type": "concept",
+            "modern": "1905年革命中出现的工人士兵代表会议，1917年后成为革命权力机构。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "soviet_revolutionary_council"
+          },
+          {
+            "surface": "孟什维克和社会革命党人",
+            "type": "org",
+            "modern": "当时俄国两个主要社会主义政党，在列宁看来是阻碍革命的妥协派。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

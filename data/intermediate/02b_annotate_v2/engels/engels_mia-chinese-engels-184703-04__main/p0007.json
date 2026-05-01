@@ -1,0 +1,133 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 7,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "恩格斯批判“真正的社会主义者”机械照搬法国共产主义者的政治结论，却无视德国具体国情，从而得出反对一切政治进步的错误策略。",
+    "importance_score": 3,
+    "importance_reason": "核心段落，具体展示了“真正的社会主义者”的错误方法论及其与真正革命策略的根本对立。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对“真正的社会主义者”与党对立的定性，本段具体剖析其错误的理论来源和脱离实际的思维模式。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "老卡贝",
+        "explain": "埃蒂耶纳·卡贝，法国空想社会主义者，主张通过和平方式建立“伊加利亚”共产主义社会，是当时法国工人运动中有影响力的代表人物。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "《改革报》",
+        "explain": "19世纪40年代法国的一份共和派报纸，主张选举改革，是当时反对七月王朝、同情工人阶级的重要舆论阵地。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p7s11",
+        "quote": "这样，他们只需使自己的新观点符合于自己的哲学良心就可以在全德国大喊大叫说，政治进步和一切政治都是祸害，正是宪法所规定的自由把对人民危害最大的阶级——资产阶级捧上了王座，不论资产阶级遭到了怎样的攻击，这种攻击还远不算多。",
+        "trigger": "inverted_logic",
+        "reader_block": "句首“这样”指代前文的哲学立场，但结论“政治进步是祸害”是恩格斯在转述并批判“真正的社会主义者”的观点，读者易误认为是作者主张。",
+        "parse": {
+          "claim": "“真正的社会主义者”认为，任何政治层面的改良或进步（如立宪）都毫无益处，反而会巩固资产阶级的统治，因此对资产阶级的任何批判都永远不够。",
+          "qualifiers": "这是“真正的社会主义者”基于其哲学立场得出的结论，而非恩格斯本人的观点。",
+          "contrast_or_target": "与法国共产主义者积极参与具体政治斗争（如选举改革）的策略形成对比。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "本句是恩格斯对“真正的社会主义者”核心政治主张的概括性揭露，将其荒谬结论（反对一切政治）与其脱离实际的哲学方法直接挂钩，完成本段批判的收束。"
+        },
+        "implication": "这种观点在实践中会引导人们放弃任何争取政治权利的斗争，客观上维护了德国现存的封建专制秩序。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "“真正的社会主义者”",
+      "their_view": "我们从法国共产主义者那里得知，代议制只是让资产阶级掌权，而资产阶级是人民的主要敌人。因此，任何政治进步（如立宪）都是祸害，只会帮助资产阶级，对资产阶级的攻击永远不嫌多。",
+      "author_response": "恩格斯指出，他们懒于比较德法国情，不研究德国现实，就生搬硬套法国结论。真正的革命活动家会关注具体政治问题，而他们只追求哲学上的“永恒真理”和抽象的“人”的利益。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p7s1",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p7s2",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p7s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p7s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p7s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p7s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p7s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p7s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p7s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p7s10",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p7s11",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  }
+}

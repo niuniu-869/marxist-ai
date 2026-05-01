@@ -1,0 +1,102 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 181,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段具体描述“德国的或‘真正的’社会主义”的特征：将小资产阶级理想化，为其行为赋予社会主义外衣，同时反对阶级斗争并自诩公正。",
+    "importance_score": 2,
+    "importance_reason": "具体化了前一段对德国社会主义阶级基础的判断，是《宣言》清算各种非科学社会主义流派的组成部分。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段关于德国社会主义代表小资产阶级利益的论断，本段进一步描绘其理论表现和政治姿态。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "all_known",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p181s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "德国小资本家",
+            "type": "social_group",
+            "modern": "19世纪40年代德国社会中，处于大资产阶级与无产阶级之间的中间阶层，经济地位脆弱。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p181s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p181s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "阶级争斗",
+            "type": "concept",
+            "modern": "马克思主义理论的核心范畴，指不同阶级之间基于经济利益的根本对立和冲突。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "class_struggle_marxist"
+          },
+          {
+            "surface": "共产主义",
+            "type": "concept",
+            "modern": "此处指作者所主张的、以消灭私有制为目标的革命理论与运动，被论敌攻击为具有破坏性。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "communism_as_target"
+          }
+        ]
+      },
+      {
+        "sid": "p181s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 3,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_7>5",
+        "polemic:eval_word:their_view:伟大"
+      ]
+    }
+  ]
+}

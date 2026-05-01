@@ -1,0 +1,90 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 16,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段是传单的结尾号召，激励俄国工人团结起来，加入国际无产阶级的共同斗争，以暴力手段推翻压迫。",
+    "importance_score": 2,
+    "importance_reason": "作为传单的结论部分，将前文对欧洲工人运动的描述转化为对俄国工人的直接行动号召，点明斗争的国际性和暴力革命手段。",
+    "argument_role": "conclusion",
+    "argument_link": "承接上一段对欧洲工人五一节庆祝活动的描述，将国际无产阶级的斗争图景作为激励，号召俄国工人加入其中并采取行动。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "term_density",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "红色恐怖",
+        "explain": "此处指工人阶级在革命斗争中对压迫者采取的严厉镇压手段。在1896年的语境下，它并非特指后来法国大革命时期的“恐怖统治”，而是泛指革命暴力。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p16s2",
+        "quote": "我们将用我们工人阶级的强大臂膀摧毁奴隶制的枷锁，俄罗斯的劳苦大众将站起来，用红色恐怖击溃资本家和所有其它阶级敌人的脆弱的心。",
+        "trigger": "term_density",
+        "reader_block": "句中“奴隶制的枷锁”是隐喻，“红色恐怖”是特定革命术语，两者与“阶级敌人”等概念堆叠，读者可能不清楚具体指代什么以及如何实现。",
+        "parse": {
+          "claim": "工人阶级将通过暴力革命推翻资本主义压迫，并对资产阶级及其他压迫阶级实施革命专政。",
+          "qualifiers": "行动的主体是“俄罗斯的劳苦大众”，即俄国的无产阶级。",
+          "contrast_or_target": ""
+        },
+        "why": {
+          "relation": "conclusion",
+          "explanation": "本句是整个传单行动纲领的最终表述，将前文对国际形势的分析和对团结的呼吁，具体化为以暴力推翻现有制度并建立革命权威的明确目标。"
+        },
+        "implication": "这预示了列宁后来关于暴力革命和无产阶级专政的核心思想。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p16s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p16s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "红色恐怖",
+            "type": "concept",
+            "modern": "在1896年俄国革命语境下，指工人阶级在夺取政权过程中及之后，对资产阶级及反革命势力实施的暴力镇压与专政。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "red_terror_revolutionary"
+          },
+          {
+            "surface": "奴隶制的枷锁",
+            "type": "metaphor",
+            "modern": "将资本主义雇佣劳动制度比作一种强制性的、非人的奴役关系。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      }
+    ]
+  }
+}

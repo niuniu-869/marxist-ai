@@ -1,0 +1,75 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 487,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段以比喻方式描述货币或资本在社会中的作用，使年老色衰的寡妇能够重新成为新娘。",
+    "importance_score": 1,
+    "importance_reason": "本段作为例子，支撑前文关于货币力量的论述，展示其社会影响。",
+    "argument_role": "continues",
+    "argument_link": "本段延续上段对货币或资本社会功能的描述，进一步举例说明其颠覆传统社会秩序的能力。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "cross_ref_pronoun",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "archaic",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "货币或资本的指代",
+        "explain": "本段开头的'它'延续上段，指代货币或资本，马克思在此批判其在社会中的异化力量。",
+        "why_needed": "cross_ref_pronoun",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p487s1",
+        "quote": "它可以使鸡皮黄脸的寡妇重作新娘，",
+        "trigger": "archaic",
+        "reader_block": "读者可能不理解'鸡皮黄脸'的含义，这是一个时代用语，形容年老色衰的女性。",
+        "parse": {
+          "claim": "货币或资本能够使年老色衰的寡妇重新获得婚姻机会。",
+          "qualifiers": "无特定限定条件。",
+          "contrast_or_target": "无"
+        },
+        "why": {
+          "relation": "example",
+          "explanation": "本句作为例子，支撑上段关于货币力量的论述，展示其如何改变个人社会地位。"
+        },
+        "implication": "暗示货币在资本主义社会中具有决定性作用，能够颠覆传统社会关系。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p487s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "鸡皮黄脸",
+            "type": "archaic",
+            "modern": "形容年老色衰、皮肤松弛的女性外貌。",
+            "highlight": "archaic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  }
+}

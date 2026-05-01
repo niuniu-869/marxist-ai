@@ -1,0 +1,106 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 86,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段对“自由贸易”进行定义，指出其本质是资本摆脱限制的自由，并断言只要雇佣劳动与资本的关系存在，阶级对立就无法消除。",
+    "importance_score": 3,
+    "importance_reason": "核心论点段落，直接定义了自由贸易的阶级本质，并驳斥了自由贸易能调和阶级矛盾的幻想。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于最低工资规律的结论，进一步从定义上阐明自由贸易的实质，为后续批判奠定基础。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "自由贸易派",
+      "their_view": "只要更有效地运用资本，就可以消除工业资本家和雇佣劳动者之间的对抗。",
+      "author_response": "这种想法是妄想，自由贸易恰恰会使这两个阶级的对立更为显著。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p86s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p86s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "资本的自由",
+            "type": "concept",
+            "modern": "在马克思的分析框架下，指资本主义生产关系中，资本作为主导力量不受阻碍地追求增殖的运动状态。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "freedom_of_capital"
+          }
+        ]
+      },
+      {
+        "sid": "p86s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p86s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "雇佣劳动",
+            "type": "concept",
+            "modern": "劳动者与生产资料分离，只能出卖自身劳动力以换取工资的生存方式，是资本主义生产关系的基础。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "wage_labor"
+          }
+        ]
+      },
+      {
+        "sid": "p86s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p86s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 2,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_10>5",
+        "note:n1_overflow_concept_11>5"
+      ]
+    }
+  ]
+}

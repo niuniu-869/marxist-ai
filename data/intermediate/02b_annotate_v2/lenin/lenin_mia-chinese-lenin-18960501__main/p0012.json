@@ -1,0 +1,122 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 12,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "介绍“工人阶级解放斗争协会”的活动与目的，号召彼得堡工人加入协会，并呼吁与国际工人团结斗争。",
+    "importance_score": 2,
+    "importance_reason": "本段是传单的核心号召部分，从介绍组织转向直接动员，并将斗争提升到国际层面。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对工人罢工成果的叙述，将分散的斗争经验引向有组织的联合行动。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p12s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "工人阶级解放斗争协会",
+            "type": "org",
+            "modern": "19世纪末俄国彼得堡等地出现的早期马克思主义工人组织，旨在领导工人进行经济和政治斗争。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p12s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p12s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p12s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "工人阶级",
+            "type": "concept",
+            "modern": "马克思主义理论中指在资本主义生产关系下，不占有生产资料、依靠出卖劳动力为生的群体。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "class_marxist"
+          }
+        ]
+      },
+      {
+        "sid": "p12s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "枷锁",
+            "type": "metaphor",
+            "modern": "比喻沙皇专制政权与资本主义经济制度共同施加于工人的压迫与束缚。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p12s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "全世界无产者，团结起来！",
+            "type": "slogan",
+            "modern": "《共产党宣言》结尾的著名口号，号召全球工人阶级联合进行阶级斗争。",
+            "highlight": "quote",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 4,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

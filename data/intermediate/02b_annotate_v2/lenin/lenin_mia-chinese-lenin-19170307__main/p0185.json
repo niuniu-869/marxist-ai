@@ -1,0 +1,85 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 185,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段论证资产阶级临时政府领导人受沙皇时期战争条约约束，无法真正独立。",
+    "importance_score": 2,
+    "importance_reason": "支撑列宁关于临时政府资产阶级性质的核心论点，揭示其政策连续性。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于临时政府受英法资本经济约束的论述，进一步指出其在外交和战争政策上也受制于沙皇时期的条约。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "古契柯夫—米留可夫之流",
+      "their_view": "我们承认沙皇缔结的条约，是为了维持与协约国的同盟，继续进行战争。",
+      "author_response": "列宁指出，他们利用工人斗争推翻沙皇，却全盘继承其掠夺性条约，证明其政权的资产阶级本质与政策延续性。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p185s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "资本家强盗集团",
+            "type": "metaphor",
+            "modern": "列宁用此词指代第一次世界大战中的协约国（英、法、意、日等）资产阶级政府，强调其战争的掠夺性质。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p185s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "沙皇尼古拉二世",
+            "type": "person",
+            "modern": "俄国末代沙皇，1917年二月革命中被推翻。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p185s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_event_15>12"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 170,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁援引两个历史决议，论证无产阶级政党在民族问题上同时承认自决权与强调国际团结的立场，并反驳认为二者矛盾的观点。",
+    "importance_score": 2,
+    "importance_reason": "通过引用具体决议和实例，为前文提出的双重任务提供历史依据和逻辑辩护。",
+    "argument_role": "continues",
+    "argument_link": "本段用1896年国际决议和1913年俄国会议决议作为具体例证，承接上段提出的理论框架，并开始反驳可能的误解。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "有些人（指代前文提到的机会主义者、取消派等）",
+      "their_view": "他们认为，决议一方面承认民族自决权（分离权），另一方面又要求工人反对民族主义、实现国际团结，这两条是自相矛盾的。",
+      "author_response": "列宁指出，这种看法是头脑简单的表现，因为捍卫一个民族分离的自由，恰恰能促进各民族无产阶级的统一和阶级团结。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p170s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p170s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p170s3",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p170s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 2,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_8>5",
+        "note:n1_overflow_event_23>12"
+      ]
+    }
+  ]
+}

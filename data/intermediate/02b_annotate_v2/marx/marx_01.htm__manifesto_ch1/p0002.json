@@ -1,0 +1,80 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 2,
+  "annotation": {
+    "block_type": "footnote",
+    "gist": "恩格斯在1888年英文版中加注，说明《宣言》原文所指的“历史”范围，并补充了当时尚未知晓的原始社会研究成果。",
+    "importance_score": 1,
+    "importance_reason": "作为编者注，它澄清了原文论断的历史适用范围，并提供了后续研究的背景，属于辅助性说明。",
+    "argument_role": "none",
+    "argument_link": null,
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p2s1",
+        "speaker": "editor",
+        "stance": "neutral_citation",
+        "notes": [
+          {
+            "surface": "哈克斯特豪森",
+            "type": "person",
+            "modern": "19世纪德国法学家与历史学家，其对俄国农村公社的研究为理解原始社会土地制度提供了重要材料。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "毛勒",
+            "type": "person",
+            "modern": "19世纪德国历史学家，其研究证明了日耳曼民族（条顿族）的原始社会形态以土地公有为基础。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "摩尔根",
+            "type": "person",
+            "modern": "19世纪美国人类学家，其著作《古代社会》系统阐述了氏族制度，揭示了原始社会的内部结构。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 3,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_8>5"
+      ]
+    }
+  ]
+}

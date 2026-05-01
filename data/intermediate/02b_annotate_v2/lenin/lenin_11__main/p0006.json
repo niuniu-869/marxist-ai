@@ -1,0 +1,75 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 6,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "描述马克思主义诞生初期的理论环境，指出当时非科学社会主义思潮的特征。",
+    "importance_score": 2,
+    "importance_reason": "为后续分析马克思主义在三个时期的发展命运提供起点，铺陈其诞生时的理论背景。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段的过渡，具体展开对第一个时期（1848年革命前）理论格局的分析。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "俄国民粹主义",
+        "explain": "19世纪俄国知识分子中的一个流派，主张通过农民村社直接过渡到社会主义，否认资本主义在俄国发展的必然性，带有空想和唯心色彩。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "非科学社会主义思潮",
+      "their_view": "我们主张的社会主义是为全体‘人民’谋‘正义’和‘权力’的，它超越了狭隘的阶级划分。",
+      "author_response": "列宁指出，这类思潮不懂得历史唯物主义，无法分析资本主义社会中各阶级的具体作用，其抽象词句掩盖了民主变革的资产阶级性质。",
+      "polemic_kind": "reveals_class_basis",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p6s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p6s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p6s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_11>5"
+      ]
+    }
+  ]
+}

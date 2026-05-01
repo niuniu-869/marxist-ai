@@ -1,0 +1,128 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 17,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "通过对比两代普鲁士国王的统治风格，讽刺小国王试图用个人意志和情感取代僵化法律的专制倾向。",
+    "importance_score": 2,
+    "importance_reason": "通过具体人物对比，为后文批判德国专制统治提供例证。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段对小国王改革失败的讨论，具体描述其统治风格与老国王的差异，为分析其失败原因铺垫。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "小国王（弗里德里希-威廉四世）",
+      "their_view": "君主应以个人意志、情感和思想直接感染和统治国家，取代僵化的法律。",
+      "author_response": "马克思讽刺这种企图是用个人专断取代制度约束，本质是专制主义的浪漫化表达。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p17s1",
+        "speaker": "editor",
+        "stance": "neutral_citation",
+        "notes": []
+      },
+      {
+        "sid": "p17s2",
+        "speaker": "editor",
+        "stance": "neutral_citation",
+        "notes": []
+      },
+      {
+        "sid": "p17s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "奴仆的国家",
+            "type": "metaphor",
+            "modern": "马克思用来形容普鲁士国家机器及其官僚体系对君主的绝对服从状态。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p17s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p17s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p17s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p17s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p17s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p17s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "国王的活的心灵",
+            "type": "metaphor",
+            "modern": "马克思讽刺小国王试图用个人情感和意志直接统治，取代客观法律。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p17s10",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 2,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_7>5",
+        "note:n1_overflow_metaphor_9>8"
+      ]
+    }
+  ]
+}

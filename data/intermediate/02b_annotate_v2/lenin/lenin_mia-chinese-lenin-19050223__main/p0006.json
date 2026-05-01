@@ -1,0 +1,98 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 6,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁以自由派《解放》杂志对党内派别斗争的评论为例，揭示其与“经济主义”倾向的内在联系。",
+    "importance_score": 2,
+    "importance_reason": "通过具体例子，论证自由派如何利用党内机会主义倾向，为后文批判提供靶子。",
+    "argument_role": "example",
+    "argument_link": "承接上段关于新任务与新力量的论述，本段以具体实例说明党内错误倾向如何被外部势力利用，从而论证整顿组织的紧迫性。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "all_known",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p6s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p6s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "《解放》杂志",
+            "type": "work",
+            "modern": "1902-1905年间由司徒卢威主编的自由派周刊，主张君主立宪，反对革命社会民主党。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p6s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p6s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p6s5",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": [
+          {
+            "surface": "正统马克思主义者",
+            "type": "social_group",
+            "modern": "《解放》杂志对布尔什维克派的称呼，暗指其教条主义。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

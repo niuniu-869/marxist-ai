@@ -1,0 +1,94 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 566,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段承接上文，论述克服意识的对象（即异化）的途径，并指出这会导致对“对象性”概念本身的扬弃，使人不再被视为非对象性的存在。",
+    "importance_score": 2,
+    "importance_reason": "本段是马克思对黑格尔异化观进行批判性改造的关键环节，提出了“扬弃对象性”这一重要论点，为后续论述人的本质的复归奠定理论基础。",
+    "argument_role": "continues",
+    "argument_link": "紧接上段关于意识对象即自我意识的论断，本段进一步探讨如何解决这一问题，即通过“克服”和“重新占有”来扬弃异化。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "对象性与异化",
+        "explain": "在黑格尔哲学中，“对象性”指意识将自身外化为对象，这被视为一种异化。马克思在此批判性地使用该词，认为对象性本身是人的本质的实现，而非异化；异化是对象性在特定历史条件下的扭曲形式。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p566s3",
+        "quote": "因此，重新占有在异化规定下作为异己的东西产生的、人的对象性的本质，这不仅具有扬弃异化的意义，而且有扬弃对象性的意义，这就是说，因此，人被看成非对象性的、唯灵论的存在物。",
+        "trigger": "long_nested",
+        "reader_block": "句子结构嵌套多层，且“扬弃对象性”这一表述易与“扬弃异化”混淆，读者难以理解为何重新占有对象性本质会同时导致对象性被扬弃。",
+        "parse": {
+          "claim": "当人重新获得其被异化为外在物的对象性本质时，这一行动不仅消除了异化状态，也超越了将对象性本身视为异化的旧有理解。",
+          "qualifiers": "这一重新占有是在“异化规定下”发生的，即针对那些已作为异己物存在的对象性本质。",
+          "contrast_or_target": "针对黑格尔将对象性直接等同于异化的观点，马克思认为对象性本质本身需要被重新占有，而非简单抛弃。"
+        },
+        "why": {
+          "relation": "conclusion",
+          "explanation": "本句是前文“克服意识的对象”这一问题的解答方案和逻辑结论，指出了扬弃异化的具体内涵及其哲学后果。"
+        },
+        "implication": "这一论点为马克思后续批判黑格尔将人视为“非对象性的、唯灵论的存在物”提供了理论武器，强调了人的现实性、对象性存在。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p566s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p566s2",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p566s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 1,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

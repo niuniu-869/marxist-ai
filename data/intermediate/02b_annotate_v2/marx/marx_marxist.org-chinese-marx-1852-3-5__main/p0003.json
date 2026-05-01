@@ -1,0 +1,97 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 3,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "马克思在此澄清，其理论贡献并非发现阶级与阶级斗争现象本身，而是阐明了这些现象的历史暂时性、政治归宿与最终目标。",
+    "importance_score": 3,
+    "importance_reason": "本段是马克思对其阶级斗争理论核心贡献的纲领性概括，构成全文论证的理论基石。",
+    "argument_role": "continues",
+    "argument_link": "本段承接上文对资产阶级学者贡献的承认，转而界定自身理论的独特性与超越性。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "无产阶级专政的含义",
+        "explain": "指无产阶级作为统治阶级掌握国家政权，镇压资产阶级反抗并组织社会主义建设的政治形式，是通向无阶级社会的过渡阶段。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "资产阶级历史学家和经济学家",
+      "their_view": "他们认为马克思是发现阶级和阶级斗争现象的第一人。",
+      "author_response": "马克思明确否认这一功劳，指出他们早已叙述和分析过这些现象。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p3s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p3s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p3s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "无产阶级专政",
+            "type": "concept",
+            "modern": "无产阶级作为统治阶级掌握国家政权的政治形式",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "dictatorship_proletariat"
+          }
+        ]
+      },
+      {
+        "sid": "p3s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p3s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:eval_word:explanation:历史性"
+      ]
+    }
+  ]
+}

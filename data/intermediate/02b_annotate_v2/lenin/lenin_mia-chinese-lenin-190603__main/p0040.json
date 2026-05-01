@@ -1,0 +1,76 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 40,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁梳理不同人物对土地纲领修改的态度，指出考茨基虽阐述一般原理但未对具体纲领发表意见。",
+    "importance_score": 1,
+    "importance_reason": "梳理不同人物立场，为论证修改纲领的必要性提供背景。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对普列汉诺夫态度的梳理，转向考茨基对土地问题的立场。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "all_known",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p40s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "卡·考茨基",
+            "type": "person",
+            "modern": "第二国际理论家，考茨基主义代表人物",
+            "highlight": "person",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "国有",
+            "type": "concept",
+            "modern": "土地国有化，即将土地所有权收归国家所有，是列宁主张的土地纲领核心内容之一",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "land_nationalization"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 4,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_5gram_with_surface",
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 159,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段批判基督教社会主义，指出其利用基督教教义的禁欲主义外衣，实质是为贵族阶级服务的工具。",
+    "importance_score": 2,
+    "importance_reason": "core_critique，具体剖析一种被作者归类的社会主义流派的阶级实质。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于宗教社会主义与封建贵族联盟的论断，本段具体剖析基督教社会主义如何利用宗教教义来包装其阶级立场。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "基督教社会主义",
+      "their_view": "基督教教义本身包含反对私有制、婚姻和国家的内容，因此基督教与社会主义天然契合，可以成为无产阶级解放的旗帜。",
+      "author_response": "基督教社会主义只是利用了教义中的禁欲主义片段，其真实功能是为贵族阶级服务，平息他们的不满，与无产阶级的革命目标无关。",
+      "polemic_kind": "reveals_class_basis",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p159s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p159s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p159s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p159s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "圣水",
+            "type": "metaphor",
+            "modern": "在宗教仪式中用于象征净化或祝福的水，此处被作者用作讽刺性比喻。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 2,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

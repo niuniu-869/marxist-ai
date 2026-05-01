@@ -1,0 +1,91 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 373,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段以反问形式指出，德意志人对专偶制的改良及其妇女地位的提升，根植于其氏族制度和母权制残余。",
+    "importance_score": 2,
+    "importance_reason": "本段作为例证，说明氏族习惯对家庭制度的影响，支撑前文论点。",
+    "argument_role": "continues",
+    "argument_link": "本段延续上段对德意志人品质的讨论，具体说明其家庭制度的改革也源于氏族传统。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "专偶制与母权制",
+        "explain": "专偶制指一夫一妻制家庭形式，恩格斯特指其古代形式；母权制是原始社会以女性为中心的氏族制度，与父权制相对。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p373s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "专偶制",
+            "type": "concept",
+            "modern": "古代社会确立的一夫一妻制家庭模式",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "monogamy_historical"
+          },
+          {
+            "surface": "氏族习惯",
+            "type": "concept",
+            "modern": "原始氏族社会中形成的行为规范",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "clan_customs"
+          },
+          {
+            "surface": "母权制",
+            "type": "concept",
+            "modern": "早期社会以母系血缘为纽带的组织形态",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "matriarchy"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 3,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 16,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁直接点名批评立宪民主党，指出他们与沙皇内务部在民族政策原则上一致，却向民众隐瞒这一立场。",
+    "importance_score": 2,
+    "importance_reason": "对核心论敌立宪民主党的直接批判，支撑全文对自由派在民族问题上妥协性的揭露。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段对鲍勃凌斯基的讽刺，将批评范围从个别官员扩大到整个自由派阵营，特别是立宪民主党。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p16s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "普利什凯维奇",
+            "type": "person",
+            "modern": "沙皇俄国右翼政治家，以极端民族主义和反犹立场著称。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "鲍勃凌斯基",
+            "type": "person",
+            "modern": "沙皇政府官员，其演说被列宁反讽为客观上宣传了乌克兰分离主义。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p16s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "内务部",
+            "type": "org",
+            "modern": "沙皇俄国执行民族压迫政策的核心政府部门。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "立宪民主党",
+            "type": "org",
+            "modern": "俄国自由派政党，列宁在此批判其在民族问题上与沙皇政府同流合污。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 4,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

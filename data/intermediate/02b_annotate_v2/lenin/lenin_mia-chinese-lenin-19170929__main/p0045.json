@@ -1,0 +1,92 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 45,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁反驳党内等待苏维埃代表大会的倾向，认为在农民起义被镇压的当下，空谈会议决议和谈判毫无意义，主张必须先击败临时政府首脑克伦斯基。",
+    "importance_score": 2,
+    "importance_reason": "本段是列宁论证武装起义时机成熟的关键环节，直接反驳党内等待派。",
+    "argument_role": "continues",
+    "argument_link": "本段延续上一段对等待苏维埃代表大会的批判，进一步论证在当前形势下空谈会议程序的荒谬性。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p45s1",
+        "quote": "具有“道义上的”意义吗？那才奇怪呢！！",
+        "trigger": "inverted_logic",
+        "reader_block": "反问句式加引号强调，读者可能不理解“道义上的”具体指什么，以及为何列宁认为这很奇怪。",
+        "parse": {
+          "claim": "列宁认为，在当前形势下，追求某种会议程序的道义价值是荒谬的。",
+          "qualifiers": "",
+          "contrast_or_target": "那些主张等待苏维埃代表大会具有道义合法性的人。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "通过反问直接否定等待派的核心论据，即认为通过合法程序夺权具有道义优越性。"
+        },
+        "implication": null,
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "李伯尔唐恩之流",
+      "their_view": "他们主张应等待苏维埃代表大会召开，通过合法程序决定政权问题，认为这具有道义上的意义。",
+      "author_response": "列宁指出在农民起义被镇压的当下，空谈这种程序的意义是荒谬的，会使苏维埃沦为清谈馆。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p45s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p45s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p45s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p45s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 1,
+        "hs_kept": 1,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

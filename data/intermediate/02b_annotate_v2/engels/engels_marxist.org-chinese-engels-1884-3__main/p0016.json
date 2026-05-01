@@ -1,0 +1,140 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 16,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "恩格斯评价巴霍芬对母权制研究的贡献与方法论缺陷，肯定其证明了群婚状态的存在，但批判其将历史变革归因于宗教。",
+    "importance_score": 2,
+    "importance_reason": "本段是恩格斯对巴霍芬研究的辩证评价，既确立其开创性地位，又划清与唯心史观的界限，为后续阐述唯物史观铺垫。",
+    "argument_role": "contrasts",
+    "argument_link": "承接上段对奥列斯特审判的分析，从具体案例转向对研究者巴霍芬方法论的评价，指出其贡献与局限。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "term_density",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p16s6",
+        "quote": "他头一个抛弃了关于性关系杂乱的毫无所知的原始状态的空谈，而证明古代经典著作向我们提出了大量的证据，这些证据表明，在希腊人及亚洲人那里，在个体婚制之前，确实存在过这样的状态，即不但一个男子与几个女子发生性的关系，而且一个女子也与几个男子发生性的关系，都不违反习俗；",
+        "trigger": "term_density",
+        "reader_block": "句子结构复杂，包含多个从句，且“个体婚制”“群婚状态”等概念需要与日常认知区分开，读者可能难以抓住核心论断。",
+        "parse": {
+          "claim": "巴霍芬通过古典文献证据，首次证明了在个体婚姻制度确立之前，存在一种两性关系相对自由、不受习俗谴责的普遍社会状态。",
+          "qualifiers": "此证明基于希腊和亚洲的古代文献，针对的是“个体婚制之前”的历史阶段。",
+          "contrast_or_target": "针对当时流行的、认为原始状态是“性关系杂乱的毫无所知”的空谈。"
+        },
+        "why": {
+          "relation": "example",
+          "explanation": "本句具体阐述了巴霍芬的核心贡献，即用文献证据取代了关于原始状态的臆测，这是恩格斯所肯定的“开辟道路的功绩”的具体内容。"
+        },
+        "implication": "这一发现为理解母权制（世系按母系计算）的社会基础提供了关键前提。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "巴霍芬",
+      "their_view": "历史变革，特别是父权制取代母权制，是由神灵在英雄时代创造的奇迹所推动的。",
+      "author_response": "恩格斯认为，将宗教视为历史发展的决定性力量，最终会陷入神秘主义，无法科学解释社会变迁的真实动力。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p16s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p16s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p16s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p16s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p16s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p16s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p16s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p16s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p16s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p16s10",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p16s11",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p16s12",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 1,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

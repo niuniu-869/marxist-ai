@@ -1,0 +1,67 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 5,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段批判克利盖对美国土地问题的空想观点，并通过引文具体展示这种观点。",
+    "importance_score": 2,
+    "importance_reason": "本段是核心批判的一部分，具体展示并反驳了克利盖的错误前提。",
+    "argument_role": "contrasts",
+    "argument_link": "上段指出美国土地问题在资本主义初期被提上议程，本段则批判克利盖对此问题的错误理解和空想化处理。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "refute_quotation"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "克利盖",
+      "their_view": "只要把国有土地无偿分给穷人，就能让他们成为有用的人并一举消灭贫困。",
+      "author_response": "列宁指出克利盖没有分析美国社会的具体特点，而是用空洞的口号掩盖了土地运动的真实性质。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p5s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p5s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p5s3",
+        "speaker": "quoted_opponent",
+        "stance": "critical",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

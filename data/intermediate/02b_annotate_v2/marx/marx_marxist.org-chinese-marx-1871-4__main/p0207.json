@@ -1,0 +1,131 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 207,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "马克思反驳资产阶级将国际工人协会污蔑为密谋组织的说法，阐明其作为先进工人国际纽带的性质及其产生于现代社会的必然性。",
+    "importance_score": 2,
+    "importance_reason": "直接反驳资产阶级对国际工人协会的污蔑，阐明其阶级斗争先锋队的性质。",
+    "argument_role": "contrasts",
+    "argument_link": "上段赞扬公社委员是协会的优秀成员，本段则为整个协会正名，反驳资产阶级对其性质的歪曲。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "国际工人协会",
+        "explain": "1864年在伦敦成立的国际工人组织，通常被称为“第一国际”。马克思是其创始人之一并参与起草了成立宣言和章程，旨在联合各国工人阶级进行斗争。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "资产阶级",
+      "their_view": "国际工人协会是一个从事密谋活动的组织，其总部在幕后指挥各国的破坏行动。",
+      "author_response": "协会实际上是各国先进工人之间的国际联系，其存在根植于现代社会的阶级斗争现实，无法被暴力消灭。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p207s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "国际工人协会",
+            "type": "org",
+            "modern": "1864年成立的第一国际，旨在联合各国工人阶级",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p207s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "国际纽带",
+            "type": "metaphor",
+            "modern": "比喻协会是连接各国工人的组织桥梁",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p207s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "阶级斗争",
+            "type": "concept",
+            "modern": "不同阶级之间为经济政治利益展开的对抗",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "class_struggle_marxist"
+          }
+        ]
+      },
+      {
+        "sid": "p207s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "现代社会",
+            "type": "concept",
+            "modern": "马克思语境中指资本主义生产方式占主导的社会形态",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "modernity_capitalist"
+          }
+        ]
+      },
+      {
+        "sid": "p207s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p207s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 4,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_10>5"
+      ]
+    }
+  ]
+}

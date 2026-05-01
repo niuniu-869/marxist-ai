@@ -1,0 +1,149 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 11,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "恩格斯以傅立叶为榜样，讽刺德国理论家空谈抽象原则，对比傅立叶基于现实的历史分期与黑格尔唯心主义历史观的牵强附会。",
+    "importance_score": 3,
+    "importance_reason": "核心段落，通过对比傅立叶与黑格尔，集中批判了德国理论脱离现实、空谈体系的弊病，是全文论战的高潮。",
+    "argument_role": "conclusion",
+    "argument_link": "承接上文引用傅立叶片段的意图，将具体引文上升为对德国理论界整体方法论的批判，并以傅立叶与黑格尔的对比作为最终论据。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "commismar-chand",
+        "explain": "法语“店伙计”之意。恩格斯用此词称呼傅立叶，是反讽德国理论家对“非哲学家”的轻视，强调傅立叶的实践性与理论来源的现实性。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      },
+      {
+        "topic": "黑格尔的绝对理念与三分法",
+        "explain": "黑格尔认为历史是“绝对理念”自我展开的过程，并将其划分为东方、希腊罗马、日耳曼三个阶段（三分法）。恩格斯批评这种划分牵强，无视具体历史事实。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "德国理论家",
+      "their_view": "我们通过抽象的哲学思辨和分类法，能够发现社会主义的更高原则，我们的理论发展阶段高于傅立叶等人的实践经验。",
+      "author_response": "傅立叶虽非哲学家，但其基于现实的历史分期比黑格尔的唯心主义体系更合理；德国理论家的抽象结构已无任何实际内容，只是空洞的框架。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p11s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p11s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p11s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p11s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p11s5",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p11s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p11s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p11s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p11s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "绝对理念",
+            "type": "concept",
+            "modern": "黑格尔哲学的核心范畴，指世界的本原和历史发展的终极动力。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "absolute_idea_hegelian"
+          },
+          {
+            "surface": "三分法",
+            "type": "concept",
+            "modern": "黑格尔历史哲学中将世界历史划分为三个阶段（东方、希腊罗马、日耳曼）的模式。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "triadic_scheme_hegelian"
+          }
+        ]
+      },
+      {
+        "sid": "p11s10",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p11s11",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

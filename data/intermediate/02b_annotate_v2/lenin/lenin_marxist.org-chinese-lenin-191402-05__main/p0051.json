@@ -1,0 +1,80 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 51,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "通过反问质疑俄国与奥地利情况的相似性，反驳那种认为俄国“异族人”自愿合并的观点。",
+    "importance_score": 1,
+    "importance_reason": "这是论证中的一个过渡环节，通过反问引出对俄国具体情况的分析。",
+    "argument_role": "contrasts",
+    "argument_link": "承接上段对奥地利情况的分析，转而质疑俄国是否具备类似条件。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p51s1",
+        "quote": "俄国同这种情形有哪点相似的地方呢？",
+        "trigger": "inverted_logic",
+        "reader_block": "反问句式，读者需自行还原为“俄国与此情形并无相似之处”的肯定判断。",
+        "parse": {
+          "claim": "俄国与奥地利那种特定历史条件下的民族合并情形缺乏可比性。",
+          "qualifiers": "",
+          "contrast_or_target": "奥地利某些民族为抵御更强邻国威胁而选择维持多民族国家框架的情形。"
+        },
+        "why": {
+          "relation": "contrasts",
+          "explanation": "通过反问将讨论焦点从奥地利案例转向俄国现实，为后续分析铺垫。"
+        },
+        "implication": "暗示俄国民族问题的性质与奥地利根本不同，不能套用同一逻辑。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "认为俄国情况与奥地利类似的论敌（包括罗莎·卢森堡等）",
+      "their_view": "俄国境内的非大俄罗斯民族因为害怕更严重的民族压迫，所以自愿与大俄罗斯人合并。",
+      "author_response": "列宁通过反问质疑这一前提，指出俄国并不具备奥地利那样的历史条件。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p51s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p51s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 1,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

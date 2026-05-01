@@ -1,0 +1,85 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 153,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "描述巴黎公社时期妇女角色的转变，从依附于旧秩序的女性到积极参与革命的女性。",
+    "importance_score": 1,
+    "importance_reason": "通过妇女角色的转变，侧面展现公社的社会变革性质。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对公社治安的描述，进一步展现公社对社会关系的改造。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p153s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p153s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "古典古代的妇女",
+            "type": "allusion",
+            "modern": "引用古希腊罗马文学中女性英雄的典型形象，用以对比公社妇女的革命精神",
+            "highlight": "allusion",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p153s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "食人者",
+            "type": "metaphor",
+            "modern": "隐喻围困巴黎的凡尔赛军队，强调其残暴性",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

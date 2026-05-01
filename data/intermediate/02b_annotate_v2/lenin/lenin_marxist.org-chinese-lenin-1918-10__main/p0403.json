@@ -1,0 +1,82 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 403,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "揭露考茨基在土地问题上的矛盾立场，既不敢与农民决裂，又赞同孟什维克的错误观点。",
+    "importance_score": 2,
+    "importance_reason": "作为对考茨基机会主义批判的具体例证，支撑核心论点。",
+    "argument_role": "contrasts",
+    "argument_link": "本段通过批判考茨基在农民问题上的矛盾，与上段阐述的布尔什维克工农联盟策略形成对比。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "平均使用土地",
+        "explain": "指俄国资产阶级民主革命中，农民要求废除地主土地所有制，将土地按劳动力或人口平均分配的主张。这是当时俄国农民运动的核心诉求。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "小资产阶级的平等",
+        "explain": "指小生产者（如农民、手工业者）追求的经济平均主义理想，例如土地和生产资料的平均占有。在马克思主义看来，这属于小资产阶级的空想。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p403s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p403s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p403s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

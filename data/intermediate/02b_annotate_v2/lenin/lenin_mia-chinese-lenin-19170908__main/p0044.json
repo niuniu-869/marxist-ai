@@ -1,0 +1,82 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 44,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁承认资产阶级会反抗革命改革，但论证其缺乏发动国内战争的群众基础，因此苏维埃应迅速掌权以瓦解反动武装。",
+    "importance_score": 2,
+    "importance_reason": "核心论证段落，直接反驳“国内战争吓唬论”，为苏维埃迅速夺取全部政权提供理论依据。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于苏维埃力量强大的论述，进一步分析资产阶级反抗的实际能力，论证其不足为惧。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "立宪民主党、孟什维克等用国内战争恐吓民主派的人",
+      "their_view": "国内战争会血流成河、毁掉革命成果，因此必须反对将革命引向深入，反对全部政权归苏维埃。",
+      "author_response": "列宁指出，资产阶级缺乏能打仗并战胜苏维埃的群众，其反抗无法升级为国内战争；苏维埃迅速掌权反而能瓦解反动武装。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p44s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p44s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p44s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p44s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "野蛮师",
+            "type": "event",
+            "modern": "科尔尼洛夫叛乱中使用的反革命武装部队，由所谓‘志愿军’组成。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

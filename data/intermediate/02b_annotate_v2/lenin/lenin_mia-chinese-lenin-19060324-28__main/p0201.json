@@ -1,0 +1,121 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 201,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段论证无产阶级支持资产阶级民主派的前提，是必须区分革命派与自由派，并揭露立宪民主党人的代表性谎言。",
+    "importance_score": 2,
+    "importance_reason": "本段是列宁关于无产阶级革命策略的核心论述之一，具体化了如何对待资产阶级民主派这一关键问题。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于直接革命运动的论述，具体分析在此背景下无产阶级应如何对待资产阶级民主派。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p201s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p201s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p201s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "立宪民主党人",
+            "type": "org",
+            "modern": "1905年成立的俄国自由主义政党，主张君主立宪，是第一届国家杜马中的主要反对派。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p201s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p201s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p201s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p201s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p201s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p201s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "分进合击",
+            "type": "metaphor",
+            "modern": "军事术语，比喻在共同目标下各自行动、相互配合的策略。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 27,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段批判“民族文化”口号的阶级实质，指出每个民族的文化都包含阶级对立，而该口号掩盖了占统治地位的资产阶级文化。",
+    "importance_score": 3,
+    "importance_reason": "这是列宁批判民族文化口号的核心论证，揭示了其阶级基础和政治作用。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对崩得分子歪曲国际文化概念的批判，进一步从阶级分析角度揭露“民族文化”口号的实质。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "崩得分子",
+      "their_view": "他们避而不谈民族文化中的阶级对立，大谈空话，实质上反对揭露文化的阶级底细。",
+      "author_response": "列宁指出，崩得分子的这种做法与资产者的利益一致，因为资产者需要散布超阶级民族文化的信仰来维护自身统治。",
+      "polemic_kind": "reveals_class_basis",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p27s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p27s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "黑帮和教权派的文化",
+            "type": "social_group",
+            "modern": "反动势力的文化表现。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p27s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "民族文化",
+            "type": "slogan",
+            "modern": "被批判的口号，列宁认为其本质是统治阶级的文化。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p27s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "阶级的底细",
+            "type": "concept",
+            "modern": "文化中的阶级对立实质。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "class_analysis"
+          }
+        ]
+      },
+      {
+        "sid": "p27s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "超阶级的民族文化的信仰",
+            "type": "slogan",
+            "modern": "资产阶级为维护自身利益而散布的意识形态。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 4,
+        "notes_dropped": 2,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_14>5",
+        "note:n1_overflow_concept_7>5"
+      ]
+    }
+  ]
+}

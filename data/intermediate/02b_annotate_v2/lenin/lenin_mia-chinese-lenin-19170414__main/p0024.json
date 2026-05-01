@@ -1,0 +1,112 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 24,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "分析“将革命进行到底”口号在当前阶级力量对比下的适用性，指出其已失去意义。",
+    "importance_score": 2,
+    "importance_reason": "对旧策略核心口号的批判，支撑了列宁关于革命阶段转变的新论断。",
+    "argument_role": "contrasts",
+    "argument_link": "承接上段对老布尔什维主义的讨论，具体分析其核心口号在新形势下的失效。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "all_known",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "护国主义",
+        "explain": "指在“保卫祖国”口号下支持继续帝国主义战争的立场，是当时孟什维克和社会革命党等派别的主流观点。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "党内固守旧策略的派别",
+      "their_view": "应当继续套用1905年革命的口号和策略，将资产阶级民主革命进行到底。",
+      "author_response": "列宁指出，当前阶级力量对比已变化，农民转向小资产阶级策略，该口号已失去意义。",
+      "polemic_kind": "strategic_critique",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p24s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "将革命进行到底",
+            "type": "slogan",
+            "modern": "布尔什维克党在二月革命前常用的政治口号",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p24s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p24s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p24s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "护国主义",
+            "type": "concept",
+            "modern": "在“保卫祖国”口号下支持继续帝国主义战争的立场",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "defensism_imperialist_war"
+          }
+        ]
+      },
+      {
+        "sid": "p24s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p24s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 260,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "恩格斯指出，格莱斯顿本人也会承认，在特定条件下，长子继承制实际上名存实亡。",
+    "importance_score": 2,
+    "importance_reason": "本段通过揭露格莱斯顿观点的内在矛盾，支持恩格斯对英雄时代社会结构的批判。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对格莱斯顿论述的引用，进一步指出其自身也隐含承认长子继承制的无效性，从而强化论战。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "格莱斯顿",
+      "their_view": "格莱斯顿可能主张长子继承制在英雄时代希腊社会中具有实质作用和有效性。",
+      "author_response": "恩格斯指出，格莱斯顿本人也会觉得，在特定条件下，这种制度实际上等于没有，从而揭露其观点的不一致。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p260s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

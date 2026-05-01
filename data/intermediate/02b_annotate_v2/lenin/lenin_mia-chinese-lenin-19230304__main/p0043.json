@@ -1,0 +1,70 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 43,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁希望新成立的工农检查院能摒弃一种特定的、适合官僚的装腔作势作风，并点明官僚现象同时存在于苏维埃和党的机关中。",
+    "importance_score": 2,
+    "importance_reason": "具体阐述了对新机构（工农检查院）的文化与作风要求，是改革构想中针对官僚主义弊病的直接批评。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于新经济政策下某些态度的讨论，具体转向对国家机关（工农检查院）应避免何种作风的期望。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "term_polysemy",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "pruderie（法语词）",
+        "explain": "法语词，本意为假正经、拘谨。列宁借用此词，特指一种在官僚体系中常见的、既可笑又自命不凡的做派，这种做派与官僚气质相契合。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p43s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p43s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_8>5",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

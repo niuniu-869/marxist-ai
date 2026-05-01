@@ -1,0 +1,74 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 10,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "通过对比，指出伯恩施坦主义在俄国产生了更坏的变种，而鲍威尔主义则为特定的资产阶级民族主义提供了辩护。",
+    "importance_score": 2,
+    "importance_reason": "通过具体例证，支撑上一段关于俄国机会主义特殊性的论点，揭示其与西欧思想的关联与变异。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于俄国存在将机会主义错误系统化倾向的论断，具体指出伯恩施坦主义和鲍威尔主义在俄国语境下产生的特殊后果。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p10s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "伯恩施坦",
+            "type": "person",
+            "modern": "德国社会民主党人，其著作《社会主义的前提和社会民主党的任务》被视为修正主义的纲领性文件。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "司徒卢威",
+            "type": "person",
+            "modern": "俄国“合法马克思主义”代表人物，后转向资产阶级自由主义阵营。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 2,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "note:n1_overflow_social_group_14>12",
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

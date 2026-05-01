@@ -1,0 +1,91 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 11,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列举俄国旧制度残余，并宣称布尔什维克在短期内彻底清除了它们，比之前的临时政府做得多得多。",
+    "importance_score": 2,
+    "importance_reason": "通过具体列举和对比，为十月革命的资产阶级民主主义成就提供实证支撑。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对俄国革命资产阶级民主主义内容的界定，具体展开说明“清除旧的社会制度”所指为何，并通过对比强调布尔什维克的效率。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "allusion | history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "allusion",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "奥吉亚斯的牛圈",
+        "explain": "希腊神话典故，指希腊英雄赫拉克勒斯一天内清洗了积粪三十年的牛圈，比喻极其肮脏、难以清理的地方。列宁用此比喻俄国旧制度的污秽与顽固。",
+        "why_needed": "allusion",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "解散立宪会议",
+        "explain": "1918年1月5日，全俄立宪会议召开后次日即被布尔什维克主导的全俄中央执行委员会下令解散。此事是布尔什维克巩固政权的关键步骤，也是其与孟什维克、社会革命党等派别决裂的标志。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p11s3",
+        "quote": "试从这些“奥吉亚斯的牛圈”──顺便说一下，一切先进国家在125年和250年前以至更早以前(英国在1649年)完成它们的资产阶级民主革命时，都在很大程度上留下了没有打扫干凈的奥吉亚斯的牛圈──试从这些奥吉亚斯的牛圈拿出任何一间来，你们都会看到，我们已经把它打扫得干干凈凈。",
+        "trigger": "allusion",
+        "reader_block": "希腊神话典故不熟悉，加上插入语打断句子主干，读者可能无法理解“牛圈”比喻的是什么，以及列宁为何要在此处插入对其他国家的比较。",
+        "parse": {
+          "claim": "布尔什维克彻底清除了俄国旧制度的任何一项残余。",
+          "qualifiers": "以“从这些‘牛圈’拿出任何一间”为条件，即针对每一项具体残余进行检验。",
+          "contrast_or_target": "对比对象是历史上其他先进国家的资产阶级民主革命，它们在完成革命时也留下了大量未清理的旧制度残余。"
+        },
+        "why": {
+          "relation": "example",
+          "explanation": "用希腊神话典故作比喻，形象地说明俄国旧制度的污秽与顽固，并通过与历史上其他革命的对比，突出布尔什维克清理工作的彻底性。"
+        },
+        "implication": "布尔什维克领导的革命在完成资产阶级民主革命任务方面，比历史上其他资产阶级革命更为彻底。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "立宪民主党、孟什维克和社会革命党人",
+      "their_view": "我们（指临时政府）执政八个月，已经为俄国的民主化做了很多工作。",
+      "author_response": "列宁指出，布尔什维克在解散立宪会议前后的十周内，在清除旧制度残余方面所做的工作，比这些派别八个月执政的总和还要多出千百倍。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p11s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p11s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p11s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p11s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  }
+}

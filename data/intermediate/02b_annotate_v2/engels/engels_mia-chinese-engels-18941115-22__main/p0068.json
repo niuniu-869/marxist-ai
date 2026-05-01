@@ -1,0 +1,80 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 68,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "作者先部分肯定法国同志关于小农重要性的判断，随即批评其争取农民的具体策略存在偏差。",
+    "importance_score": 2,
+    "importance_reason": "本段在论证中起承转作用，先肯定对手部分正确，再转向对其策略的批判，为后文具体分析做铺垫。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对法国纲领理论脱节的批评，本段具体指出其争取农民的策略方向错误。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p68s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "小农的意志",
+            "type": "concept",
+            "modern": "在法国农业社会背景下，小农作为重要社会力量，其意愿对政治变革具有决定性影响。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "class_marxist"
+          }
+        ]
+      },
+      {
+        "sid": "p68s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "杠杆没有使对",
+            "type": "metaphor",
+            "modern": "作者用机械杠杆比喻策略手段，指法国社会党争取农民的方法未能有效撬动目标。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

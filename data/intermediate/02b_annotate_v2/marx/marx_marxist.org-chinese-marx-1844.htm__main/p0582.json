@@ -1,0 +1,116 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 582,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段论证人的活动是对象性的、自然的，反驳将人的活动视为脱离对象的“纯粹活动”的唯心主义观点。",
+    "importance_score": 3,
+    "importance_reason": "核心论点段落，阐述了马克思关于人的对象性活动的基本原理，是批判黑格尔唯心主义和理解异化劳动理论的哲学基础。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对黑格尔将人的外化等同于物性的批判，进一步从人的自然存在出发，论证人的活动必须是对象性的，从而否定“纯粹活动”的设定。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "term_polysemy",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "对象性与外化",
+        "explain": "在黑格尔和费尔巴哈哲学中，“对象性”指事物作为他者而存在，“外化”指主体将自身本质力量投射到外部世界。马克思在此借用并改造这些术语，强调人的活动必然指向外部对象。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "纯粹的活动",
+        "explain": "这是黑格尔哲学中的概念，指绝对精神或自我意识脱离物质世界的、非对象性的、自我设定的活动。马克思在此明确反对这种唯心主义观点。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "黑格尔",
+      "their_view": "人的自我意识或绝对精神可以通过“纯粹的活动”自我设定，无需依赖外部对象，其外化是精神的自我运动。",
+      "author_response": "人的活动是对象性的自然存在物的活动，其产物只是证实了这种活动的对象性，而非从“纯粹活动”中创造对象。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p582s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p582s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "主体性",
+            "type": "concept",
+            "modern": "此处特指本质力量在对象性关系中所展现的能动性，而非脱离对象的独立意识。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "subjectivity_objective"
+          }
+        ]
+      },
+      {
+        "sid": "p582s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p582s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p582s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "纯粹的活动",
+            "type": "concept",
+            "modern": "黑格尔哲学中指绝对精神或自我意识脱离物质对象的自我设定活动。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "pure_activity_hegelian"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 2,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_8>5",
+        "note:n2_circular_prefix",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

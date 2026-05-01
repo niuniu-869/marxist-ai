@@ -1,0 +1,55 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 42,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁对“左派共产主义者”提出第二点批评，指出其错误在于忽视了小资产阶级自发势力对社会主义的威胁。",
+    "importance_score": 2,
+    "importance_reason": "这是列宁对“左派”错误进行系统批判的组成部分，揭示了其阶级立场问题。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段对“左派”不了解过渡时期性质的批评，本段进一步指出这种不了解的阶级根源。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "all_known",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p42s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

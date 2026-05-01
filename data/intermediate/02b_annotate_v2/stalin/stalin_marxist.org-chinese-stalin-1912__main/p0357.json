@@ -1,0 +1,95 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 357,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段从三个层面具体阐述区域自治相对于民族文化自治的优点。",
+    "importance_score": 2,
+    "importance_reason": "这是对上段提出的区域自治方案的具体论证，通过对比民族文化自治来支撑核心论点。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于区域自治是正确解决方案的结论，具体展开其优点，以对比和反驳民族文化自治纲领。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "民族文化自治",
+      "their_view": "民族可以脱离地域，通过文化纽带联合，其自治应建立在民族共同体而非固定地域之上。",
+      "author_response": "区域自治立足于现实的地域和居民，旨在打破民族壁垒，为按阶级划分开辟道路，并能有效发展生产力，这些是民族文化自治所不具备的。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p357s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "空中楼阁",
+            "type": "metaphor",
+            "modern": "斯大林用此比喻脱离具体地域和居民的抽象民族共同体，暗指民族文化自治纲领的虚幻性。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p357s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "按阶级划分",
+            "type": "concept",
+            "modern": "马克思主义认为阶级划分是更根本的社会结构，区域自治的目的是促进阶级意识的形成。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "class_division"
+          }
+        ]
+      },
+      {
+        "sid": "p357s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "民族文化自治",
+            "type": "program_clause",
+            "modern": "崩得等组织提出的纲领，主张按民族而非地域划分自治单位，是本文主要的论战对象。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "metadata"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 3,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

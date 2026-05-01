@@ -1,0 +1,127 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 10,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "恩格斯描述1848年后德国思想界抛弃古典哲学、理论思维衰退的状况，并指出其后果。",
+    "importance_score": 3,
+    "importance_reason": "本段是核心批判，揭示了问题所在，为后文提出辩证法的重要性做铺垫。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段关于自然科学家不熟悉哲学史的批评，进一步展开德国思想界整体抛弃理论思维的状况。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "柏林老年黑格尔派",
+        "explain": "黑格尔去世后，其学派在柏林分裂。老年派固守其唯心主义体系的保守结论，与青年派（主张革命性解读）对立，被视为僵化。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "福格特与毕希纳",
+        "explain": "19世纪中期德国流行的庸俗唯物主义代表人物，将哲学简化为生理学公式，与社会主义运动有联系但理论粗糙。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "新康德主义",
+        "explain": "19世纪后期复兴康德哲学的思潮，强调‘自在之物’不可知，反对黑格尔的辩证法和唯物主义，常被用作反对社会主义的哲学武器。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p10s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p10s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p10s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p10s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p10s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p10s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p10s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p10s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p10s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 2,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote",
+        "hs:claim_5gram_with_quote",
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

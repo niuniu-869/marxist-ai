@@ -1,0 +1,70 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 15,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段揭露法案的真实意图：将普鲁士旧法重新强加于莱茵省，并引入该省法律中原本不存在的新罪名。",
+    "importance_score": 2,
+    "importance_reason": "作为核心批判的支撑论据，具体指明法案恢复专制控制与添加压迫工具的双重目的。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对法案文本的批判，进一步指出其恢复普鲁士旧法并添加新罪名的具体意图。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "1848年柏林起义",
+        "explain": "文中“3月18日”指1848年3月18日柏林起义，迫使普鲁士国王颁布宪法，但革命成果很快被镇压，宪法也被废除。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "弗里德里希-威廉四世及其政府",
+      "their_view": "这些法案是为了建立统一的法律制度，弥补现有法律的缺陷。",
+      "author_response": "法案的实质是恢复已被革命废除的专制法律，并添加新的压迫性罪名。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p15s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p15s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_5gram_with_surface",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

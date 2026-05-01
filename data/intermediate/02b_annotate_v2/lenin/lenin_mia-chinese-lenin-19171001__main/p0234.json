@@ -1,0 +1,64 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 234,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁在此总结前文论证，指出从布尔什维克策略中得出的教训与《新生活报》的预测相悖。",
+    "importance_score": 1,
+    "importance_reason": "本段作为过渡句，连接前文对防御策略的讨论与后续论证，强调教训支持布尔什维克。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段关于布尔什维克未转入进攻的讨论，列宁指出这一事实得出的教训与《新生活报》的观点相反。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p234s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "《新生活报》",
+            "type": "work",
+            "modern": "1917年俄国一份具有孟什维克倾向的报纸，常发表批评布尔什维克的文章。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

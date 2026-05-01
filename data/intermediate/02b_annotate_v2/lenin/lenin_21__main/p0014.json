@@ -1,0 +1,78 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 14,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁宣称苏俄在意识形态解放方面成就卓著，实质上已经实现了“出版自由”的目标。",
+    "importance_score": 2,
+    "importance_reason": "本段是列宁论证中的一个支撑点，用以反驳米雅斯尼科夫对“出版自由”的抽象诉求，将讨论引向具体实践。",
+    "argument_role": "continues",
+    "argument_link": "",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p14s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "僧侣和地主",
+            "type": "social_group",
+            "modern": "在沙俄语境下，指代精神控制与经济剥削的两大旧势力，是布尔什维克革命的主要对象。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p14s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "出版自由",
+            "type": "concept",
+            "modern": "列宁在此处特指布尔什维克政权通过革命手段，为无产阶级和广大民众创造的、摆脱旧势力思想钳制的客观条件，而非资产阶级法律形式。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "democracy_bourgeois"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 1
+      },
+      "reasons": []
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 44,
+  "annotation": {
+    "block_type": "quote_block",
+    "gist": "引用伯恩施坦关于党报应避免激进、攻击同志的主张，作为批判靶子。",
+    "importance_score": 2,
+    "importance_reason": "作为恩格斯批判党内右倾思潮的具体靶子，展示其主张内容。",
+    "argument_role": "continues",
+    "argument_link": "具体展示上段所述伯恩施坦“官方审查者”姿态下的实际主张内容。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "refute_quotation"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "苏黎世三人团（伯恩施坦）",
+      "their_view": "报纸不应热中于政治激进主义，而应采取原则的社会主义方针，避免攻击同志。",
+      "author_response": "恩格斯引用此话，旨在批判其放弃革命斗争、向资产阶级妥协的倾向。",
+      "polemic_kind": "counter_quotation",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p44s1",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": [
+          {
+            "surface": "原则的社会主义的方针",
+            "type": "slogan",
+            "modern": "伯恩施坦主张的、放弃暴力革命的改良路线。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_6>5"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 156,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "追溯俄国公社所有制思想从发现到被利用、并最终传给特卡乔夫的谱系，为批判其观点做铺垫。",
+    "importance_score": 2,
+    "importance_reason": "为后续批判特卡乔夫的纲领提供思想史背景，揭示其理论来源的局限性。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于合作社与劳动组合的讨论，转而追溯俄国公社所有制这一被论敌推崇的“原型”的思想传播路径。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "哈克斯特豪森与公社发现",
+        "explain": "哈克斯特豪森是普鲁士官员，他在1845年“发现”并宣传俄国农村的村社（公社）土地共同占有制度，将其视为一种独特的、具有社会主义色彩的古老制度。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "赫尔岑与民粹派思想",
+        "explain": "赫尔岑是俄国思想家，他利用哈克斯特豪森的发现，将俄国农民公社理想化，视为俄国可以绕过资本主义直接进入社会主义的基础，这一思想影响了后来的民粹派。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "巴枯宁与特卡乔夫",
+        "explain": "巴枯宁是无政府主义思想家，特卡乔夫是俄国革命民粹派理论家。恩格斯在此指出，特卡乔夫关于俄国公社和革命的观点，其思想源头可追溯至赫尔岑和巴枯宁。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "特卡乔夫及其思想来源（赫尔岑、巴枯宁）",
+      "their_view": "俄国农民通过公社共同占有土地，是天生的共产主义者，其社会形态优于西欧工人阶级需要通过斗争才能争取的社会主义。",
+      "author_response": "恩格斯通过追溯这一观点的传播路径（从一个外国官员的“发现”到俄国流亡者的利用），暗示其理论根基的偶然性和被刻意塑造的性质。",
+      "polemic_kind": "reveals_class_basis",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p156s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "哈克斯特豪森",
+            "type": "person",
+            "modern": "19世纪普鲁士政府顾问，其关于俄国村社的报告在欧洲引发关注。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p156s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "赫尔岑",
+            "type": "person",
+            "modern": "俄国思想家，民粹主义先驱，将俄国农民公社理想化。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p156s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "巴枯宁",
+            "type": "person",
+            "modern": "俄国无政府主义理论家，革命活动家。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "特卡乔夫",
+            "type": "person",
+            "modern": "俄国革命民粹派理论家，主张通过少数革命者密谋夺取政权。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p156s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 4,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

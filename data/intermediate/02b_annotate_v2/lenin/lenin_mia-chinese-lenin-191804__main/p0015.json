@@ -1,0 +1,86 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 15,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁解释新获和平的脆弱性，驳斥苏维埃主动求战的指控，并指出外部帝国主义威胁是根本原因。",
+    "importance_score": 2,
+    "importance_reason": "分析和平性质，为后续转向经济任务提供背景，同时反驳政治对手的攻击。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于和平的讨论，具体分析其不稳固的根源，为论述和平环境下的任务做铺垫。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p15s1",
+        "quote": "俄罗斯苏维埃共和国得到的和平不稳固，自然不是由于它现在想要恢复军事行动；",
+        "trigger": "inverted_logic",
+        "reader_block": "双重否定结构“不是由于它现在想要……”，读者可能误读为苏维埃有此意图，实际是彻底否认。",
+        "parse": {
+          "claim": "苏维埃政权获得的和平之所以不稳定，其原因绝非该政权自身有重新开战的意图。",
+          "qualifiers": "限于“现在”这个时间点，指签订和约后的当下。",
+          "contrast_or_target": ""
+        },
+        "why": {
+          "relation": "continues",
+          "explanation": "紧接上文提及的和平，首先澄清一个可能的误解，即和平不稳并非源于苏维埃政权自身的军事冒险主义，为下文指出真正原因做铺垫。"
+        },
+        "implication": "将和平不稳的责任完全归于外部敌对势力，确立了苏维埃政权作为被动防御者的立场。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "资产阶级反革命分子及其应声虫（孟什维克等等）",
+      "their_view": "苏维埃共和国得到的和平不稳固，是因为它现在想要恢复军事行动。",
+      "author_response": "只有反革命分子及其附庸才会散布这种论调，任何有理智的政治家都不会相信。",
+      "polemic_kind": "reveals_class_basis",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p15s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p15s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p15s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 1,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

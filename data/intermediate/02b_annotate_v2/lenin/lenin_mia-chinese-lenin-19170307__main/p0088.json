@@ -1,0 +1,134 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 88,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁引用并讽刺孟什维克领袖关于革命危险已消除的乐观言论，揭示其政治算计。",
+    "importance_score": 1,
+    "importance_reason": "作为论辩靶子，展示孟什维克在革命初期的妥协立场，为列宁后续批判提供具体例证。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对孟什维克与地主资本家委员会合作的分析，具体引述其言论并加以讽刺。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "克伦斯基",
+        "explain": "亚历山大·克伦斯基，当时是彼得格勒苏维埃副主席，社会革命党人。他以演说家身份活跃，在革命初期被视为能调和各方矛盾的关键人物。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "齐赫泽与古契柯夫分子",
+        "explain": "齐赫泽是孟什维克领袖，时任彼得格勒苏维埃主席。古契柯夫是国家杜马临时委员会主席，代表地主资本家势力。列宁在此对比他们在工人中的影响力。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "3月1日协议",
+        "explain": "指1917年3月1日（俄历2月16日）彼得格勒苏维埃与国家杜马临时委员会达成的协议，规定政权由临时政府掌握，苏维埃对其起“监督”作用。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p88s1",
+        "quote": "值得庆幸的是，这种危险已被消除，——至少目前已被消除〈请注意这个“至少”！〉",
+        "trigger": "inverted_logic",
+        "reader_block": "反讽语气加括号内强调，读者可能误以为列宁认同“危险已消除”的判断，实则讽刺其暂时性。",
+        "parse": {
+          "claim": "列宁指出，孟什维克所宣称的革命危险（指无产阶级与资产阶级的直接冲突）在他们看来已被避免。",
+          "qualifiers": "这种判断仅限于“目前”这个时间点，暗示其脆弱和暂时。",
+          "contrast_or_target": "孟什维克认为通过与资产阶级合作，可以避免无产阶级与资产阶级的直接对抗危险。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "以反讽方式引出孟什维克的乐观论调，为下文揭示其动机做铺垫。"
+        },
+        "implication": "列宁暗示这种“消除”是表面的、暂时的，根本矛盾并未解决。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "孟什维克",
+      "their_view": "革命带来的无产阶级与资产阶级直接对抗的危险已经过去，现在可以通过与资产阶级委员会的合作来稳定局势。",
+      "author_response": "列宁讽刺这种“消除”是暂时的，其基础是克伦斯基等人的政治手腕和对工人选票的算计，而非阶级矛盾的真正解决。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p88s1",
+        "speaker": "quoted_opponent",
+        "stance": "cited",
+        "notes": []
+      },
+      {
+        "sid": "p88s2",
+        "speaker": "quoted_opponent",
+        "stance": "cited",
+        "notes": [
+          {
+            "surface": "克伦斯基",
+            "type": "person",
+            "modern": "时任彼得格勒苏维埃副主席，社会革命党人，以演说才能著称。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "齐赫泽",
+            "type": "person",
+            "modern": "孟什维克领袖，时任彼得格勒苏维埃主席。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p88s3",
+        "speaker": "quoted_opponent",
+        "stance": "cited",
+        "notes": []
+      },
+      {
+        "sid": "p88s4",
+        "speaker": "quoted_opponent",
+        "stance": "cited",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 3,
+        "hs_kept": 1,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

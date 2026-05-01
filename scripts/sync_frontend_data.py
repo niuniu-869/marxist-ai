@@ -14,7 +14,15 @@ import shutil
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-DOCS_DIR = ROOT / "data" / "books" / "marxists" / "documents"
+# v0.3: 切到 marxists_v2/documents（codex-fixed 后 03_merge_v2 产出）
+# 若 v2 目录为空（02b 还在跑），fallback 到 v0.1 marxists/ 让前端能起
+DOCS_DIR_V2 = ROOT / "data" / "books" / "marxists_v2" / "documents"
+DOCS_DIR_V1 = ROOT / "data" / "books" / "marxists" / "documents"
+def _pick_docs_dir():
+    if DOCS_DIR_V2.exists() and any(DOCS_DIR_V2.rglob("*.json")):
+        return DOCS_DIR_V2
+    return DOCS_DIR_V1
+DOCS_DIR = _pick_docs_dir()
 OUT_DIR = ROOT / "frontend" / "public" / "data"
 
 AUTHORS = [
@@ -111,7 +119,8 @@ def main():
         items.sort(key=lambda x: (_y(x), x.get("title") or ""))
         (dst / "list.json").write_text(json.dumps({"author": a, "items": items}, ensure_ascii=False, indent=2), "utf-8")
 
-    print(f"sync_frontend_data: {total_docs} docs synced to {OUT_DIR}")
+    src_label = "v0.3 (marxists_v2)" if DOCS_DIR == DOCS_DIR_V2 else "v0.1 (marxists)"
+    print(f"sync_frontend_data: {total_docs} docs synced to {OUT_DIR} from {src_label}")
 
 
 if __name__ == "__main__":

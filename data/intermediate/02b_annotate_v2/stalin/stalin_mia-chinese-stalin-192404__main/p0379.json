@@ -1,0 +1,132 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 379,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "阐述党的第一个特点：作为工人阶级的先进部队，必须以革命理论武装，引导群众而非追随自发运动。",
+    "importance_score": 3,
+    "importance_reason": "核心论点段，定义了列宁主义建党学说的首要原则，直接针对第二国际的尾巴主义。",
+    "argument_role": "continues",
+    "argument_link": "承接上段提出的“新党有什么特点”的问题，具体阐述第一个特点：党的先进性。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "尾巴主义",
+        "explain": "列宁主义对一种错误倾向的批判，指党放弃领导责任，仅仅追随工人群众的自发情绪和眼前利益，成为运动的“尾巴”。这与党的先进性要求相悖。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "第二国际各党",
+      "their_view": "党的任务是记录和反映工人群众的感觉与思想，做自发运动的“尾巴”，满足于提出口号而不考察阶级现实。",
+      "author_response": "这种党是资产阶级政策的传播者，其路线会把无产阶级变成资产阶级手中的工具，只有能引导群众、提高其阶级认识的党才是真正的无产阶级政党。",
+      "polemic_kind": "reveals_class_basis",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p379s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p379s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p379s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p379s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p379s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p379s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p379s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p379s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "尾巴主义",
+            "type": "concept",
+            "modern": "列宁主义对一种机会主义倾向的批判，指党放弃领导责任，仅仅追随工人群众的自发情绪和眼前利益。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "tailism_opportunism"
+          }
+        ]
+      },
+      {
+        "sid": "p379s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "工联主义",
+            "type": "concept",
+            "modern": "一种局限于经济斗争、否认政治斗争和无产阶级专政必要性的工人运动倾向。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "trade_unionism_economism"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 2,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

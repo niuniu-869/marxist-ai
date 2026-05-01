@@ -1,0 +1,95 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 102,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁列举苏维埃民主制的三个社会主义特征，将其与资产阶级民主制进行对比。",
+    "importance_score": 2,
+    "importance_reason": "本段是列宁对苏维埃政权性质的核心定义之一，为后续论述管理任务提供制度基础。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于苏维埃组织发展的论述，具体阐明其民主形式的社会主义内涵。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "苏维埃民主制",
+        "explain": "列宁用此概念指代十月革命后建立的新型政治制度，其核心是工兵代表苏维埃掌握政权，与议会制的资产阶级民主相对立。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "劳动者先锋队",
+        "explain": "指大工业无产阶级中最具觉悟和组织性的部分，即布尔什维克党及其领导的工会等组织，被视为引导群众走向社会主义的核心力量。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p102s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "资产阶级",
+            "type": "concept",
+            "modern": "在列宁的论述中，指占有生产资料、依靠剥削雇佣劳动为生的阶级，在苏维埃民主中被排除在选举权之外。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "class_bourgeoisie"
+          }
+        ]
+      },
+      {
+        "sid": "p102s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p102s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 4,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_7>5",
+        "note:n2_circular_prefix",
+        "note:n1_overflow_concept_6>5",
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

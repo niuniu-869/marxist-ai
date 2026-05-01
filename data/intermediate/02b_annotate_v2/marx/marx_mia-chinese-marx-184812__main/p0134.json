@@ -1,0 +1,66 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 134,
+  "annotation": {
+    "block_type": "quote_block",
+    "gist": "马克思引用圣经语句，以宗教语言讽刺反革命势力的行为。",
+    "importance_score": 1,
+    "importance_reason": "通过圣经引用，增强讽刺效果，辅助批判反革命势力。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对反革命行为的描述，用圣经语句进行讽刺性评论。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "allusion",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "allusion",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "圣经约伯记引用",
+        "explain": "这句话出自圣经约伯记，表达对命运无常的感叹。马克思用此讽刺反革命势力夺回权力。",
+        "why_needed": "allusion",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p134s1",
+        "quote": "“主给的，主又拿去了，主的圣名遐迩传扬！”",
+        "trigger": "allusion",
+        "reader_block": "读者可能不熟悉圣经典故，无法理解马克思用此讽刺反革命势力的意图。",
+        "parse": {
+          "claim": "反革命势力将权力更迭归因于神意，以宗教语言美化其行为。",
+          "qualifiers": "",
+          "contrast_or_target": ""
+        },
+        "why": {
+          "relation": "continues",
+          "explanation": "引用圣经语句，延续上段对反革命行为的描述，进行讽刺性评论。"
+        },
+        "implication": null,
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p134s1",
+        "speaker": "quoted_marx",
+        "stance": "neutral_citation",
+        "notes": []
+      }
+    ]
+  }
+}

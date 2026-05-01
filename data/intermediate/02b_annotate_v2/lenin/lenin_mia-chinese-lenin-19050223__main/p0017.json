@@ -1,0 +1,128 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 17,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁以法国大革命典故，批评组织者因革命形势高涨而产生的“缺乏人才”错觉，强调应信任并让位给新生的革命力量。",
+    "importance_score": 2,
+    "importance_reason": "核心论点段落，通过历史类比和逻辑剖析，直接批判党内一种消极的组织心态，为前文的组织扩张号召提供理论支撑。",
+    "argument_role": "continues",
+    "argument_link": "",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "allusion",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "罗兰女士与法国大革命",
+        "explain": "罗兰女士是法国大革命时期吉伦特派政治家罗兰的妻子，以在革命恐怖时期哀叹“法国没有人才”而闻名。列宁用此典故，意在讽刺那些在革命高潮中抱怨缺乏干部的组织者。",
+        "why_needed": "allusion",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "“人才很多又很缺”的矛盾",
+        "explain": "指当时俄国社会民主党面临的状况：一方面，革命形势迫切需要大量组织者和干部；另一方面，党内许多旧的组织形式和观念束缚了新生力量的涌现，导致表面的“人才荒”。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p17s5",
+        "quote": "谁这样说，谁就是只见树木不见森林，谁就是承认自己已被事变弄得眼花缭乱，不是他这个革命者在自己的意识和活动中支配着事变，而是事变支配着他，事变压倒了他。",
+        "trigger": "inverted_logic",
+        "reader_block": "双重否定（“不是……而是……”）和反讽结构，读者容易混淆主客体关系，误以为在描述一种正常状态。",
+        "parse": {
+          "claim": "那些抱怨缺乏人才的组织者，实际上已经丧失了革命者的主动性，被迅猛发展的革命形势所裹挟和压倒。",
+          "qualifiers": "特指在革命高潮时期，面对群众自发涌现的组织形式时，仍固守旧有观念的组织者。",
+          "contrast_or_target": "与革命者应有的、主动驾驭事变的立场形成对比。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "本句直接批判了那些陷入“罗兰错觉”的组织者，揭示其抱怨背后是革命意志和能力的衰退，从而为后文提出“让位给年轻人”的结论做铺垫。"
+        },
+        "implication": "真正的革命领导力在于把握和引导事变，而非在事变面前感到无力并抱怨客观条件。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "党内部分组织工作者（尾巴主义倾向）",
+      "their_view": "革命形势虽然高涨，但党组织内部缺乏足够数量和质量的干部人才来应对新局面。",
+      "author_response": "这种抱怨是错觉，它无视了工人阶级中年轻力量正在不断增长的现实，是组织者被事变压倒、丧失主动性的表现。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p17s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p17s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p17s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "罗兰女士",
+            "type": "person",
+            "modern": "法国大革命时期吉伦特派政治家罗兰的妻子，以在革命恐怖时期哀叹“法国没有人才”而闻名。",
+            "highlight": "archaic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p17s4",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p17s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p17s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 0,
+        "hs_kept": 1,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 1
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

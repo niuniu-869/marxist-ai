@@ -1,0 +1,93 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 84,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "通过讽刺“朋友彼得”在反对论战与履行职责间的矛盾，揭露某些流亡者理论脱离实际的倾向。",
+    "importance_score": 1,
+    "importance_reason": "作为讽刺性例证，支撑前文对流亡者脱离实际的批判。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段对流亡者将理论异化为空洞教条的批判，具体展示其在实践中的矛盾表现。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "allusion",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "埃卡尔特典故",
+        "explain": "埃卡尔特是德国中世纪传说中的忠诚守护者形象，常在危急时刻向主人发出警告。恩格斯用此典故讽刺彼得自封为革命运动的保护者。",
+        "why_needed": "allusion",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p84s2",
+        "quote": "他虽然鼓吹团结，反对革命党内部的任何论战、任何“互相指责的抨击性著作”，但是他如果不同样参加论战，当然就不能履行自己的埃卡尔特的责任，如果不同样揭露自己的敌人，当然就不能回答敌人的揭露。",
+        "trigger": "inverted_logic",
+        "reader_block": "双重否定与反讽结构（“如果不……就不能……”），读者可能困惑于“反对论战”与“必须论战”如何并存。",
+        "parse": {
+          "claim": "彼得反对党内论战的公开主张，与他必须通过论战来履行其自封的“守护者”职责的现实需求之间，存在根本性的矛盾。",
+          "qualifiers": "此矛盾特指彼得在履行其自认的“埃卡尔特”（守护者）责任时。",
+          "contrast_or_target": "彼得主张：革命党内部应避免一切论战和相互指责的著作，以维护团结。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "本句通过揭示彼得言行不一的逻辑困境，直接服务于对彼得及其所代表的脱离实际的空谈倾向的讽刺与批判。"
+        },
+        "implication": "这种矛盾表明，脱离实际斗争的“团结”口号在现实面前是站不住脚的。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "朋友彼得",
+      "their_view": "革命党内部应避免任何论战和相互指责的著作，以维护团结。",
+      "author_response": "揭露其自相矛盾：彼得若想履行其自封的“守护者”职责，就必须参与论战、揭露敌人，这与其反对论战的公开主张直接冲突。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p84s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p84s2",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": [
+          {
+            "surface": "埃卡尔特",
+            "type": "metaphor",
+            "modern": "德国中世纪传说中的忠诚守护者形象，恩格斯用此讽刺彼得自封为革命运动的保护者。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p84s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p84s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  }
+}

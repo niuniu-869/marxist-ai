@@ -1,0 +1,86 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 65,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段指出战争给资本家阶级带来经济与政治双重利益，特别是分裂无产阶级，并直接批判考茨基为此行为辩护。",
+    "importance_score": 2,
+    "importance_reason": "本段是核心批判的一部分，具体论证了机会主义理论（考茨基）如何服务于资产阶级的政治利益。",
+    "argument_role": "continues",
+    "argument_link": "上段讽刺考茨基的“超帝国主义”理论脱离现实，本段则具体指出该理论在战争中如何为机会主义辩护，导致无产阶级分裂，从而服务于资产阶级。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [
+      "kautsky",
+      "schippel"
+    ],
+    "prereading_inline": [
+      {
+        "topic": "老党统一的口号",
+        "explain": "指第二国际各社会民主党在战前通过的国际团结决议，承诺在战争爆发时共同反对本国政府。战争爆发后，这一口号被机会主义者扭曲为支持本国政府。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p65s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p65s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p65s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p65s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "hs:claim_5gram_with_quote",
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

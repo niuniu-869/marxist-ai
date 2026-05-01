@@ -1,0 +1,77 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 24,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁明确反对“民族文化自治”口号，并从三个方面阐述其危害。",
+    "importance_score": 3,
+    "importance_reason": "这是列宁系统阐述马克思主义民族纲领、直接批判党内机会主义观点的核心段落之一。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段关于保障少数民族权利的正面要求，本段从反面论证为何必须拒绝“民族文化自治”这一错误方案。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "崩得及党内支持“民族文化自治”的派别",
+      "their_view": "主张在教育等文化领域按民族划分，建立超区域的民族联盟或民族议院，认为这是解决民族问题的方案。",
+      "author_response": "列宁指出该口号根本违反无产阶级斗争的国际主义，易使群众受资产阶级民族主义影响，并会妨碍国家的彻底民主改造。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p24s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "国际主义",
+            "type": "concept",
+            "modern": "在马克思主义语境下，指全世界无产者联合起来，超越民族界限进行共同斗争的原则。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "internationalism_proletarian"
+          }
+        ]
+      },
+      {
+        "sid": "p24s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p24s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_8>5"
+      ]
+    }
+  ]
+}

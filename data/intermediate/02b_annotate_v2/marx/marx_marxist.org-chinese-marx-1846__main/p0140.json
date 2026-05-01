@@ -1,0 +1,114 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 140,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段阐述历史发展的自发性、非同步性及其后果，指出旧利益通过国家法权维持独立权力，这种权力只能通过革命推翻。",
+    "importance_score": 2,
+    "importance_reason": "本段是唯物史观关于社会形态更替复杂性与国家法权相对独立性的关键论述，为理解革命必要性提供理论基础。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于交往形式序列的讨论，具体解释这种发展为何是自发的、缓慢的，以及旧交往形式被取代后其利益如何通过国家法权延续。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p140s5",
+        "quote": "较早时期的利益，在它固有的交往形式已经为属于较晚时期的利益的交往形式排挤之后，仍然在长时间内拥有一种相对于个人而独立的虚假共同体(国家、法)的传统权力，一种归根结底只有通过革命才能被打倒的权力。",
+        "trigger": "long_nested",
+        "reader_block": "句子结构复杂，包含多个从句和插入语，且核心概念“虚假共同体”需要结合马克思对国家的批判来理解，读者容易迷失在修饰成分中。",
+        "parse": {
+          "claim": "旧时代的利益集团在失去其经济基础（交往形式）后，仍能借助国家、法律等看似独立于个人的共同体形式，维持其统治权力。",
+          "qualifiers": "这种权力是“传统”的，意味着它具有历史惯性；它是“相对于个人而独立的”，意味着它表现为一种客观的、压迫性的力量。",
+          "contrast_or_target": "针对青年黑格尔派将国家、法视为纯粹观念产物的观点，马克思强调其物质利益根源和独立性。"
+        },
+        "why": {
+          "relation": "continues",
+          "explanation": "本句是前文“旧交往形式被新交往形式排挤”这一论断的深化，具体说明被排挤的旧利益如何通过上层建筑（国家、法）这一“虚假共同体”继续存在，并点明其最终的解决方式是革命。"
+        },
+        "implication": "这为理解国家作为阶级统治工具的相对独立性，以及社会变革的暴力性质提供了理论依据。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p140s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p140s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p140s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p140s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p140s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "虚假共同体",
+            "type": "concept",
+            "modern": "马克思用此词批判国家、法律等政治上层建筑，它们看似代表普遍利益，实则是特定阶级利益的独立化形式。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "state_marxist_theory"
+          }
+        ]
+      },
+      {
+        "sid": "p140s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 1,
+        "hs_kept": 1,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 12,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段号召俄国工人认清沙皇政府对内压迫、对外侵略的双重罪行，并提出召开人民代表会议作为结束专制统治的唯一途径。",
+    "importance_score": 3,
+    "importance_reason": "本段是全文的核心政治结论，将对殖民战争的批判直接引向推翻沙皇专制的革命任务。",
+    "argument_role": "conclusion",
+    "argument_link": "承接上段对沙皇政府煽动民族仇恨策略的揭露，本段将批判升级，明确指出其政策的阶级本质和国内后果，并提出政治解决方案。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "1849年俄国镇压匈牙利革命",
+        "explain": "1848年欧洲革命期间，匈牙利爆发反哈布斯堡王朝的独立战争。1849年，沙皇俄国应奥地利请求出兵干涉，镇压了这场革命。列宁以此为例，说明沙皇政府历来扮演“欧洲宪兵”角色，镇压他国人民的解放运动。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p12s6",
+        "quote": "要想打碎战争强加在劳动人民身上的新的枷锁，唯一的办法就是召开人民代表会议，以结束政府的专制统治，迫使政府不光是照顾宫廷奸党的利益。",
+        "trigger": "inverted_logic",
+        "reader_block": "句首“要想……唯一的办法”构成一个隐含的让步前提，即承认枷锁存在且必须打碎，然后才提出解决方案。读者可能忽略这个逻辑起点，直接寻找“办法”。",
+        "parse": {
+          "claim": "结束沙皇专制统治、迫使政府为人民利益服务的唯一政治途径，是召开由人民选举产生的代表会议。",
+          "qualifiers": "此方案针对的是“战争强加在劳动人民身上的新的枷锁”，即对外侵略战争带来的国内压迫加剧。",
+          "contrast_or_target": "针对沙皇政府只服务于“宫廷奸党”（即沙皇及其近臣、贵族）利益的现状。"
+        },
+        "why": {
+          "relation": "conclusion",
+          "explanation": "本句是前文所有批判的逻辑归宿：既然沙皇政府的内外政策都是犯罪，那么唯一出路就是通过人民代表会议这一政治形式，从根本上改变国家权力的归属。"
+        },
+        "implication": "此主张将反殖民斗争与国内民主革命任务直接联系起来，为俄国无产阶级指明了斗争方向。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "沙皇政府及其殖民政策",
+      "their_view": "沙皇政府宣称其对华战争是传播文明、毫无私心的义举，旨在维护秩序与和平。",
+      "author_response": "列宁揭露其政策是犯罪，本质是为了一小撮富人和显贵的利益，使本国人民破产并沦为镇压别国人民的工具。",
+      "polemic_kind": "reveals_class_basis",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p12s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p12s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p12s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p12s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p12s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p12s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  }
+}

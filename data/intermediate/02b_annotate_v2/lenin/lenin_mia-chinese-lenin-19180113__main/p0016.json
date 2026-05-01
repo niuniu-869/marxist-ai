@@ -1,0 +1,175 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 16,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁反驳社会主义是空想的说法，通过爱斯兰雇农接管农场和芬兰革命形势的例子，论证革命是战争绝望的普遍产物。",
+    "importance_score": 2,
+    "importance_reason": "用具体实例支撑前文关于革命根源的论述，证明社会主义革命的现实性与普遍性。",
+    "argument_role": "example",
+    "argument_link": "承接上段关于欧洲革命形势的判断，以爱斯兰和芬兰为例，具体说明革命如何从战争绝望中产生。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "爱斯兰",
+        "explain": "爱沙尼亚的旧称，当时是俄国的一个省份。列宁将其作为小国发生社会变革的例子。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "雇农",
+        "explain": "在资本主义农业中，指受雇于农场主、不拥有土地的农业工人，处于社会底层。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "认为社会主义在俄国是空想的论敌",
+      "their_view": "布尔什维克在俄国搞社会主义是虚构的、不可能实现的空想。",
+      "author_response": "如果真是空想，就不可能赢得大多数工农兵的支持；他们的支持源于对战争绝望的亲身体验，这证明革命是现实的。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p16s1",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p16s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p16s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p16s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p16s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "爱斯兰",
+            "type": "place",
+            "modern": "爱沙尼亚的旧称，当时为俄国省份。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p16s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p16s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "雇农",
+            "type": "social_group",
+            "modern": "资本主义农业中受雇于人、不拥有土地的农业工人。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p16s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p16s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p16s10",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p16s11",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p16s12",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p16s13",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "布尔什维克",
+            "type": "org",
+            "modern": "列宁领导的俄国社会民主工党多数派，当时已成为执政党。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p16s14",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 3,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

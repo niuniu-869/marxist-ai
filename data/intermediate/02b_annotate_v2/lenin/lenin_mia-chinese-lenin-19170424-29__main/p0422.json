@@ -1,0 +1,118 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 422,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁回顾布尔什维克党纲通过以来与波兰社会民主党人在民族自决权问题上的长期分歧，并批评其立场。",
+    "importance_score": 2,
+    "importance_reason": "本段通过历史回顾，为当前关于民族问题的论战提供背景，并明确批判一种错误倾向。",
+    "argument_role": "continues",
+    "argument_link": "承接上文关于民族自决权的讨论，通过追溯历史分歧来强化论点，并将当前反对意见定性为一种持续的错误。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "民族自决权",
+        "explain": "布尔什维克党纲（1903年）承认各民族有自决直至分离的权利。这是列宁主义民族理论的核心原则，旨在反对帝国主义压迫和民族沙文主义，与第二国际某些派别（如波兰社会民主党人）的立场对立。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "波兰社会民主党人",
+      "their_view": "民族自决权原则不可接受，应当从党的纲领中排除，因此他们退出了1902年的代表大会。",
+      "author_response": "列宁指出，这种立场无视帝国主义这一时代特征，是一个持续存在的错误，其客观效果是将党的国际主义原则偷换为沙文主义。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p422s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p422s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p422s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "民族自决权",
+            "type": "concept",
+            "modern": "各民族有权自主决定其政治地位，包括建立独立国家或与其他民族联合的权利。在布尔什维克纲领中，这是反对民族压迫和帝国主义的原则。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "national_self_determination_leninist"
+          }
+        ]
+      },
+      {
+        "sid": "p422s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p422s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "帝国主义",
+            "type": "concept",
+            "modern": "资本主义发展的垄断阶段，其特征是金融资本统治、资本输出和瓜分世界。列宁认为这是分析民族问题的时代背景。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "imperialism_lenin"
+          },
+          {
+            "surface": "沙文主义",
+            "type": "concept",
+            "modern": "一种极端的、侵略性的民族主义，主张本民族优越并压迫其他民族。在列宁的语境中，特指大国对弱小民族的压迫政策。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "chauvinism_great_power"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 3,
+        "notes_dropped": 2,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

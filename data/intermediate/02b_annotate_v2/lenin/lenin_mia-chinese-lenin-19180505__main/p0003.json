@@ -1,0 +1,95 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 3,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁指出“左派共产主义者”的刊物与提纲，印证了他此前对苏维埃政权任务的分析，并评价其议论具有代表性与教育意义。",
+    "importance_score": 2,
+    "importance_reason": "引入论战对象，为全文批判定调，点明分析“左派”议论的价值。",
+    "argument_role": "continues",
+    "argument_link": "本段承接前文对苏维埃政权任务的论述，将“左派共产主义者”的新发表材料作为具体例证，开启对他们的直接批判。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "“左派共产主义者”小集团",
+      "their_view": "我们发表的刊物和提纲，提出了正确的革命路线和纲领。",
+      "author_response": "列宁认为，这些材料恰恰以最明显的方式，暴露了他们用“左的”口号掩盖其小资产阶级自由散漫习性的全部幼稚性。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p3s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p3s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p3s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "小资产阶级",
+            "type": "concept",
+            "modern": "在列宁的论战语境中，此概念特指那些在革命中摇摆不定、具有自发散漫习性、缺乏严密组织纪律的阶层，其政治主张常表现为脱离实际的激进口号。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "class_petty_bourgeoisie"
+          }
+        ]
+      },
+      {
+        "sid": "p3s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p3s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p3s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

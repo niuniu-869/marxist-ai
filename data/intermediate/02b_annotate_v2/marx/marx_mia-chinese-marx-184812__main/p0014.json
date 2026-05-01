@@ -1,0 +1,55 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 14,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "马克思揭示康普豪森内阁行为的矛盾性：其以资产阶级名义推行的政策，最终将导致贵族和专制势力的反扑。",
+    "importance_score": 3,
+    "importance_reason": "这是马克思对普鲁士资产阶级在革命中妥协行为后果的核心论断，点明了其行动与结果的背离。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段对康普豪森辞职的评论，进一步从阶级本质和历史后果的角度，剖析其行为的内在矛盾。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "all_known",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "康普豪森",
+      "their_view": "通过与王权协商，可以建立符合资产阶级利益的君主立宪新秩序，这是拯救法制基础的途径。",
+      "author_response": "康普豪森的这种协商路线，其实际效果是为贵族和专制势力的反扑准备了土壤，最终收获的是反动。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p14s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

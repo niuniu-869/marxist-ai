@@ -1,0 +1,68 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 245,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁以反讽口吻描述考茨基，讽刺其脱离实际斗争、主张在革命前制定温和章程的改良主义立场。",
+    "importance_score": 2,
+    "importance_reason": "本段通过反讽刻画考茨基的改良主义形象，服务于对机会主义路线的批判。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对考茨基将无产阶级专政等同于专横的驳斥，进一步讽刺其脱离群众暴力斗争、幻想温和革命的立场。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "考茨基",
+      "their_view": "考茨基认为，真正的社会主义者应当真诚、正直，革命应由有教养的人在群众激烈斗争之前，先制定出一套温和、谨慎的发展规则，避免内战。",
+      "author_response": "列宁以反讽揭露，这种脱离群众暴力斗争、幻想预先制定温和章程的立场，是机会主义的表现，背离了无产阶级革命的实际需要。",
+      "polemic_kind": "strategic_critique",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p245s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p245s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p245s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 2,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

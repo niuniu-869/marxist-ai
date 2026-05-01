@@ -1,0 +1,114 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 177,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "分析“真社会主义”的双重角色：既为专制政府对抗资产阶级，又代表德国小资产阶级的复古利益，并指出它试图同时打击资产阶级和无产阶级。",
+    "importance_score": 2,
+    "importance_reason": "揭示“真社会主义”的阶级基础和政治功能，是批判该流派的关键环节。",
+    "argument_role": "continues",
+    "argument_link": "承接上段，进一步剖析“真社会主义”如何同时服务于专制政府和德国小资产阶级的复古利益。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "term_polysemy",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p177s2",
+        "quote": "在德國這小資本階級，是十六世紀的遺物，時時轉變他的形式，作社會現狀底眞基礎。",
+        "trigger": "term_polysemy",
+        "reader_block": "读者可能将“小资产阶级”理解为一般意义上的小商人或手工业者，但这里特指德国历史上长期存在、形态多变、作为社会现状基础的特定阶级。",
+        "parse": {
+          "claim": "德国的小资产阶级是一个历史遗留的阶级群体，其形态不断变化，构成了德国社会现状的实际基础。",
+          "qualifiers": "特指德国语境下的小资产阶级。",
+          "contrast_or_target": "与一般意义上的小资产阶级概念形成对比。"
+        },
+        "why": {
+          "relation": "definition",
+          "explanation": "这句话为后文论证“真社会主义”代表该阶级利益奠定基础，点明其历史延续性和社会基础作用。"
+        },
+        "implication": "保存这个阶级就是保存德国的现状，因此“真社会主义”必然反对威胁该阶级的力量。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p177s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p177s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "小資本階級",
+            "type": "concept",
+            "modern": "在德国语境下特指一个从十六世纪延续下来、形态多变、作为社会现状基础的阶级群体。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "petty_bourgeoisie_german_specific"
+          }
+        ]
+      },
+      {
+        "sid": "p177s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p177s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p177s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p177s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 0,
+        "hs_kept": 1,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

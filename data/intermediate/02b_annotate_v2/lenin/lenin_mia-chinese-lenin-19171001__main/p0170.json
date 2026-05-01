@@ -1,0 +1,81 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 170,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁直接反驳论敌关于“国内战争”的恐吓，指出那只是反动势力的垂死挣扎，吓不倒觉悟的工人。",
+    "importance_score": 2,
+    "importance_reason": "本段是反驳论敌恐吓的关键段落，通过重新定义冲突性质来瓦解其论据，支撑布尔什维克敢于斗争的论点。",
+    "argument_role": "continues",
+    "argument_link": "直接承接上一段对《人民事业报》“国内战争”说法的驳斥，进一步阐明冲突的实质并否定其恐吓效果。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "维堡事件",
+        "explain": "1917年8-9月，彼得格勒工人和卫戍部队在维堡区集结，以武装力量挫败了科尔尼洛夫将军的叛乱企图，被视为无产阶级力量的一次展示。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p170s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p170s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p170s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p170s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

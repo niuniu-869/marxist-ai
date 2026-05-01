@@ -1,0 +1,191 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 3,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "描述马克思参加《人民报》纪念宴会后的政治影响评估，以及他对几位流亡者人物的观察。",
+    "importance_score": 2,
+    "importance_reason": "本段通过具体事件展示马克思在流亡者中的策略定位和对党内人物的评估。",
+    "argument_role": "continues",
+    "argument_link": "本段具体描述了马克思如何通过一次宴会活动来巩固其在英国宪章派中的盟友地位，并评估了其他流亡者的动态。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "allusion",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "谢尔策尔与行会精神",
+        "explain": "谢尔策尔是德国工人运动中的“大老粗”代表，持狭隘的行会立场，与马克思等“学者”路线对立。他指责知识分子抛弃了工人。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "沙佩尔与维利希",
+        "explain": "沙佩尔曾是共产主义者同盟成员，后与维利希结盟形成宗派。此时他正与维利希疏远，马克思视其为可争取的对象。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p3s4",
+        "quote": "我想达到的牡丹已经达到了。",
+        "trigger": "allusion",
+        "reader_block": "“牡丹”在此处是比喻，读者不熟悉其在此语境下的用法，可能误以为是字面意思或感到突兀。",
+        "parse": {
+          "claim": "马克思认为他通过演说传递的政治信号已经成功传达给了在场的流亡者。",
+          "qualifiers": "",
+          "contrast_or_target": ""
+        },
+        "why": {
+          "relation": "example",
+          "explanation": "此句总结前文所述宴会行动的效果，表明马克思的策略意图已实现。"
+        },
+        "implication": null,
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "谢尔策尔",
+      "their_view": "谢尔策尔指责德国的“学者”和“脑力工作者”抛弃了工人阶级，使他们在国际上丢脸。",
+      "author_response": "马克思认为这种指责体现了狭隘的行会精神，是错误的。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p3s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p3s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p3s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p3s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "牡丹",
+            "type": "metaphor",
+            "modern": "比喻政治目的或预期效果",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "inferred"
+          }
+        ]
+      },
+      {
+        "sid": "p3s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "宪章派",
+            "type": "org",
+            "modern": "19世纪英国工人阶级争取普选权的政治运动",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p3s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p3s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p3s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p3s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "沙佩尔",
+            "type": "person",
+            "modern": "德国工人运动活动家，共产主义者同盟早期成员",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p3s10",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p3s11",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "维利希",
+            "type": "person",
+            "modern": "德国冒险家，共产主义者同盟分裂后与沙佩尔结成宗派",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p3s12",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 4,
+        "notes_dropped": 1,
+        "hs_kept": 1,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_6>5"
+      ]
+    }
+  ]
+}

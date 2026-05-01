@@ -1,0 +1,63 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 52,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段批判由十月党和立宪民主党领导的临时政府，指出他们即使有诚意也无法为人民提供和平、面包和自由。",
+    "importance_score": 2,
+    "importance_reason": "本段通过批判临时政府的无能，为论证无产阶级不能依赖资产阶级政党提供具体依据。",
+    "argument_role": "continues",
+    "argument_link": "上一段强调无产阶级应依靠自身组织和力量，本段具体批判临时政府的无能，说明为何不能依赖他们。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "十月党与立宪民主党",
+        "explain": "十月党是俄国保守政党，支持君主立宪；立宪民主党是自由主义政党，主张议会制。古契柯夫、米留可夫、李沃夫是这些政党的领袖，在二月革命后领导临时政府。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "十月党人和立宪民主党人",
+      "their_view": "临时政府能够为人民带来和平、面包和自由。",
+      "author_response": "列宁认为这个政府即使有诚意也无力实现这些目标，且他们实际上缺乏诚意。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p52s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 46,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "描述工业革命后，工厂制度取代家庭作坊，工人被军事化组织并遭受多重压迫的状况。",
+    "importance_score": 2,
+    "importance_reason": "具体描绘资本主义生产方式下工人的组织形式与受压迫状态，为后文论证提供现实基础。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对劳动过程的描述，进一步展现工厂制度如何将工人组织化并施加系统性压迫。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p46s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "產業軍",
+            "type": "metaphor",
+            "modern": "作者用军事比喻描述工厂中工人的组织形态，强调其纪律性与被支配性。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p46s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p46s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p46s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "專制主義",
+            "type": "concept",
+            "modern": "作者用此词指代工厂内部的管理权威，强调其压迫性与营利目的。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "state_marxist_theory"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 2,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_6>5",
+        "note:n1_overflow_concept_7>5"
+      ]
+    }
+  ]
+}

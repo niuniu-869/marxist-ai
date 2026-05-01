@@ -1,0 +1,88 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 26,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "作者判定，青年黑格尔派的神学批判，其本质是黑格尔哲学中超验性概念的扭曲与终结，历史将通过其腐烂过程来展示哲学的消极解体。",
+    "importance_score": 2,
+    "importance_reason": "本段是作者对青年黑格尔派（批判的神学家）进行定性批判的关键环节，将其思想根源追溯至黑格尔哲学，并预示了其历史命运。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段对批判的神学家未能完成对黑格尔哲学批判的论断，本段进一步揭示其批判的实质与历史结局。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested, metaphor",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p26s1",
+        "quote": "仔细考察起来，神学的批判——尽管在运动之初曾是一个真正的进步因素，归根结底不外是旧哲学的、特别是黑格尔的超验性的已被歪曲为神学漫画的顶点和结果。",
+        "trigger": "long_nested",
+        "reader_block": "句子主干被破折号插入的让步状语隔开，且“旧哲学的、特别是黑格尔的超验性的已被歪曲为神学漫画的”这一长定语修饰“顶点和结果”，结构复杂。",
+        "parse": {
+          "claim": "青年黑格尔派的神学批判，其最终实质是黑格尔哲学中“超验性”概念被扭曲后形成的神学化产物的最终形态。",
+          "qualifiers": "尽管该批判在初期具有进步性。",
+          "contrast_or_target": "青年黑格尔派（批判的神学家）认为他们的批判是彻底的、革命性的哲学批判。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "本句直接反驳青年黑格尔派对其批判性质的自我认知，将其定性为黑格尔哲学的退化产物，而非超越。"
+        },
+        "implication": "这意味着青年黑格尔派的批判并未真正跳出黑格尔哲学的框架，反而走向了其最荒诞的神学化终点。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      },
+      {
+        "anchor": "p26s2",
+        "quote": "历史现在仍然指派神学这个历来的哲学的溃烂区去显示哲学的消极解体，即哲学的腐烂过程。",
+        "trigger": "metaphor",
+        "reader_block": "“溃烂区”“消极解体”“腐烂过程”等比喻性表述，需要理解其指向的是哲学（特别是黑格尔体系）在特定历史阶段的衰败与自我否定。",
+        "parse": {
+          "claim": "历史进程让神学批判这一领域，去充当展示哲学（尤其是黑格尔体系）如何走向衰败和自我瓦解的舞台。",
+          "qualifiers": "“历来的”表明神学与哲学的这种关联有历史延续性。",
+          "contrast_or_target": "青年黑格尔派可能认为他们的神学批判是哲学的新生或革命。"
+        },
+        "why": {
+          "relation": "continues",
+          "explanation": "承接上句对神学批判本质的判定，进一步指出其在历史中的功能：不是建设性的，而是作为哲学体系腐烂过程的展示者。"
+        },
+        "implication": "作者预示，神学批判的最终结局将是哲学的彻底消极解体，而非其宣称的积极变革。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "青年黑格尔派（批判的神学家）",
+      "their_view": "我们的批判是彻底的哲学批判，是真正的进步，能够超越并终结旧哲学。",
+      "author_response": "他们的批判实质上是黑格尔哲学中超验性概念的神学化扭曲，是旧哲学腐烂过程的最终表现，而非超越。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p26s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p26s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p26s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  }
+}

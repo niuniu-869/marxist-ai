@@ -1,0 +1,70 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 21,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁批判小资产阶级民主派（社会革命党人和孟什维克）对“大多数”问题的提法，指出若“大多数”被资产阶级政党控制并欺骗，则其形式上的多数毫无实际价值。",
+    "importance_score": 2,
+    "importance_reason": "本段是列宁对“立宪幻想”核心论点——即对“大多数”政治意义的批判——的集中阐述，属于核心批判。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段对社会革命党人和孟什维克充当资产阶级欺骗工具的定性，本段具体剖析他们所倚重的“大多数”概念的虚幻性。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "路易·勃朗",
+        "explain": "19世纪法国社会主义者，主张通过国家调解劳资矛盾，反对暴力革命。列宁用他来类比社会革命党人和孟什维克，指其社会主义主张带有空想和妥协色彩。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p21s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p21s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote",
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

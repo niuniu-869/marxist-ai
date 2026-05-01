@@ -1,0 +1,114 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 31,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "斯大林以一连串反问，质问孟什维克批评者：若其指责成立，为何在《火星报》编辑部占多数时未纠正方向？",
+    "importance_score": 2,
+    "importance_reason": "支撑核心论点的论辩，通过反问揭露论敌的言行矛盾。",
+    "argument_role": "contrasts",
+    "argument_link": "上段指出《火星报》未能纠正经济主义，本段则转向质问孟什维克批评者，若其批评正确，为何在拥有编辑部多数席位时没有阻止这种偏向。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "孟什维克（少数派）",
+      "their_view": "《火星报》偏离了正确道路，其编辑部成员（如普列汉诺夫等）应为此负责。",
+      "author_response": "反问对方：既然你们在编辑部占多数，为何当时不将报纸引向你们所谓的“真理”？你们自己当时又在做什么？",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p31s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p31s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "查苏利奇",
+            "type": "person",
+            "modern": "薇拉·伊万诺夫娜·查苏利奇，民粹派转向马克思主义的活动家，早期《火星报》编辑之一。",
+            "highlight": "person",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p31s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "马尔托夫",
+            "type": "person",
+            "modern": "尤利·奥西波维奇·策杰尔包姆（笔名马尔托夫），孟什维克主要领袖，《火星报》编辑之一。",
+            "highlight": "person",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "《火星报》",
+            "type": "work",
+            "modern": "列宁创办的全俄马克思主义秘密报纸，是俄国社会民主工党建立统一组织的思想和实践核心。",
+            "highlight": "work",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p31s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p31s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p31s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 3,
+        "notes_dropped": 4,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_5gram_with_surface",
+        "note:n2_5gram_with_surface",
+        "note:n2_5gram_with_surface",
+        "note:n2_5gram_with_surface"
+      ]
+    }
+  ]
+}

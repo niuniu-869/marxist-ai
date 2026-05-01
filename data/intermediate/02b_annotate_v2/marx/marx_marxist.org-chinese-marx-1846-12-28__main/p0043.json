@@ -1,0 +1,168 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 43,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "通过分析蒲鲁东对社会主义温情的厌恶态度，揭示其理论背后的小资产阶级阶级本质与内在矛盾。",
+    "importance_score": 3,
+    "importance_reason": "核心批判段落，直接点明蒲鲁东的阶级立场，是理解马克思对其整体批判的关键。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对蒲鲁东不了解社会现状的批评，进一步从其对社会主义的态度切入，剖析其阶级根源。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "rhetorical",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p43s4",
+        "quote": "他本人感到自己的论据异常空洞，感到完全无力谈论这一切东西，甚至突然忘形地恼怒起来，表示高尚的愤激，嚎叫，发疯发狂，肆口漫骂，指天画日，赌咒发誓，捶胸拍案，满口吹嘘说他丝毫没有沾染社会主义的龌龊！",
+        "trigger": "rhetorical",
+        "reader_block": "一连串夸张的动词排比（嚎叫、发狂、漫骂、赌咒、捶胸），容易让读者迷失在修辞中，而忽略其核心是批评蒲鲁东用情绪化反应掩盖论据空洞。",
+        "parse": {
+          "claim": "蒲鲁东在论证无力时，转而用一系列激烈的情绪化表演来掩饰其理论的贫乏，并标榜自己与社会主义划清界限。",
+          "qualifiers": "",
+          "contrast_or_target": "蒲鲁东自诩的“不偏不倚”与“真正的平衡”，与其实际表现出的失态和偏激形成对比。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "通过描述蒲鲁东的失态，来佐证其理论空洞和小资产阶级的虚伪性，为后续揭示其阶级本质做铺垫。"
+        },
+        "implication": "",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p43s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p43s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p43s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p43s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p43s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p43s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p43s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p43s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "小资产阶级",
+            "type": "concept",
+            "modern": "马克思理论中指介于资产阶级与无产阶级之间，具有两面性的社会阶层。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "class_petty_bourgeoisie"
+          }
+        ]
+      },
+      {
+        "sid": "p43s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p43s10",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p43s11",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p43s12",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p43s13",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p43s14",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p43s15",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 0,
+        "hs_kept": 1,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

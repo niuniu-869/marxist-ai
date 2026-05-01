@@ -1,0 +1,87 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 111,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "作者通过引用马克思的原话，来反驳对手对马克思观点的歪曲。",
+    "importance_score": 2,
+    "importance_reason": "本段是核心论据，通过引用马克思原文来支撑作者对论敌的批判。",
+    "argument_role": "contrasts",
+    "argument_link": "承接上一段对论敌曲解马克思的讽刺，本段直接引用马克思原文以正视听，形成事实对比。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "refute_quotation"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "《雾月十八日》",
+        "explain": "马克思于1852年写成的著作，全名《路易·波拿巴的雾月十八日》。该书分析了1848年法国革命失败和路易·波拿巴政变的原因，其中包含对小资产阶级政治代表与其所代表阶级关系的经典论述。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "论敌（孟什维克或党内其他派别）",
+      "their_view": "他们可能声称马克思的某些论述支持他们的观点，或者将马克思的理论与其阶级分析方法割裂开来。",
+      "author_response": "作者直接引用马克思的原文，证明马克思本人恰恰强调理论观点与阶级利益的直接关联，以此驳斥论敌对马克思的援引或解释。",
+      "polemic_kind": "counter_quotation",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p111s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p111s2",
+        "speaker": "quoted_marx",
+        "stance": "endorsed",
+        "notes": [
+          {
+            "surface": "小资产阶级",
+            "type": "concept",
+            "modern": "在资本主义社会中，处于资产阶级和无产阶级之间的中间阶级，如小业主、小商人、手工业者等。其理论代表往往反映该阶级在政治上的动摇性。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "class_petty_bourgeoisie"
+          },
+          {
+            "surface": "《雾月十八日》",
+            "type": "work",
+            "modern": "马克思1852年著作，分析法国阶级斗争与路易·波拿巴政变。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

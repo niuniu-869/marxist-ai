@@ -1,0 +1,75 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 86,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁指责《新生活报》的理论立场，认为其客观上为立宪民主党人消灭苏维埃提供了借口。",
+    "importance_score": 2,
+    "importance_reason": "本段通过揭露新生活派理论与立宪民主党实践的内在一致性，强化了苏维埃作为新国家机构的必要性。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于无产阶级需要新国家机构（苏维埃）的论述，从反面论证：若否定新机构，则等于为反革命势力消灭苏维埃提供正当性。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "科尔尼洛夫分子",
+        "explain": "指1917年8月支持科尔尼洛夫将军发动反革命叛乱的势力。该叛乱旨在镇压革命，解散苏维埃，恢复旧秩序。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "新生活派",
+      "their_view": "无产阶级和革命民主派不需要任何新的国家机构。",
+      "author_response": "列宁指出，这种理论在实质上与立宪民主党人在政治实践中消灭苏维埃的意图是一致的，为其提供了借口。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p86s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p86s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p86s3",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 20,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁将饥荒与经济破坏的主要原因归咎于怠工者，并指出被剥削阶级必须建立革命政权才能获得解放。",
+    "importance_score": 2,
+    "importance_reason": "本段是报告从政治议题（立宪会议）转向经济危机议题的过渡，并为苏维埃政权的必要性提供论证。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对立宪会议问题的讨论，转而分析当前最紧迫的生存威胁——饥荒，并将问题根源引向阶级斗争。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "里亚布申斯基",
+        "explain": "俄国著名的银行家和工业家，属于大资产阶级。在十月革命后，他是反对苏维埃政权的金融资本势力的代表人物之一。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p20s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p20s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p20s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p20s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "卡列金",
+            "type": "person",
+            "modern": "阿列克谢·卡列金，沙俄将军，十月革命后在顿河流域领导反苏维埃叛乱。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p20s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p20s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "里亚布申斯基",
+            "type": "person",
+            "modern": "俄国大银行家、工业家，十月革命后积极资助反苏维埃活动。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p20s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p20s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p20s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 2,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix",
+        "hs:claim_5gram_with_quote",
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

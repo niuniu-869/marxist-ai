@@ -1,0 +1,94 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 246,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁通过反问，揭露对手在论证布尔什维克不能保持政权时，其前提与论据之间存在矛盾。",
+    "importance_score": 2,
+    "importance_reason": "本段是核心论证的一部分，通过逻辑归谬法，直接攻击对手论证体系的内在矛盾。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对对手言论的嘲讽，本段具体指出其逻辑上的自相矛盾之处。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "国内战争",
+        "explain": "在马克思主义语境中，指阶级斗争激化到武装冲突的程度，是革命形势成熟的标志之一，而非仅指常规意义上的战争。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p246s1",
+        "quote": "如果在客观形势中没有使阶级斗争激化到“国内战争”程度的根据，你们在谈论“苏维埃代表大会和立宪会议”（这里分析的《新生活报》社论的标题就是如此）的时候，为什么要谈到“国内战争”呢？",
+        "trigger": "inverted_logic",
+        "reader_block": "反问句式加上“没有……根据”的否定表述，容易让人忽略其反问的实质，即对手的论据与前提相悖。",
+        "parse": {
+          "claim": "列宁指出，对手既然认为客观形势没有国内战争的基础，就不该在论证中提及国内战争。",
+          "qualifiers": "此推论的前提是对手关于客观形势的判断。",
+          "contrast_or_target": "新生活派认为客观形势没有国内战争的基础，但其社论标题和内容却涉及国内战争。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "本句通过反问，直接攻击对手论证的逻辑起点，揭露其言行不一，为后续归谬做铺垫。"
+        },
+        "implication": "对手要么承认客观形势存在国内战争的基础，要么收回其关于国内战争的论述，否则其论证无效。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p246s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p246s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p246s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 1,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

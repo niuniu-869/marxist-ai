@@ -1,0 +1,101 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 7,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段具体阐述社会民主主义者社会主义工作的核心内容，即在工人中进行理论宣传与日常鼓动，并建立组织联系。",
+    "importance_score": 2,
+    "importance_reason": "本段详细定义了社会主义活动的具体内涵与实践方式，是理解社会民主主义者实际工作的关键支撑。",
+    "argument_role": "definition",
+    "argument_link": "本段承接上一段提出的“社会主义活动”概念，对其具体内容、方法和目标进行系统性展开与界定。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p7s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p7s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "工人阶级解放斗争协会",
+            "type": "org",
+            "modern": "1895年在彼得堡成立的马克思主义组织，列宁是创始人之一，是俄国社会民主工党的前身。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p7s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p7s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p7s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p7s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p7s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 2,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_8>5",
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

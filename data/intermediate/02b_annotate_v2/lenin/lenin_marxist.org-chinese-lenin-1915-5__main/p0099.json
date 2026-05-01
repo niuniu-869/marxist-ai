@@ -1,0 +1,151 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 99,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "总结机会主义派背叛社会主义、倒向沙文主义的事实，并揭示其力量来源于与资产阶级的联盟。",
+    "importance_score": 2,
+    "importance_reason": "支撑核心论点的论证，揭示机会主义力量的阶级根源。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对各国社会党分裂情况的列举，从具体现象上升到对欧洲社会主义运动中机会主义派整体性质的判断，并追问其力量来源。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p99s3",
+        "quote": "考茨基是很善于提出历史问题的，特别是在谈到古罗马之类的同实际生活离得比较远的事情时更是如此，可是现在，当事情涉及他本人的时候，却假惺惺地装作他不明白这是怎么回事。",
+        "trigger": "inverted_logic",
+        "reader_block": "反讽句式，表面夸考茨基擅长历史，实则讽刺其对当下现实问题故意回避，读者需识别“善于”与“假惺惺”的对比。",
+        "parse": {
+          "claim": "考茨基在处理远离现实的历史问题时显得很有能力，但在面对与自己立场直接相关的现实问题时，却故意表现出不理解。",
+          "qualifiers": "限定于考茨基在“古罗马之类”历史问题与“涉及他本人”的现实问题上的不同表现。",
+          "contrast_or_target": "考茨基本人在战争问题上的立场和行为，即他试图为机会主义辩护，却又回避直接面对其后果。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "直接点名考茨基，用反讽揭露其理论与实践的脱节，为下文揭示机会主义力量来源做铺垫。"
+        },
+        "implication": "暗示考茨基的理论能力并非用于分析现实，而是用于为错误立场寻找借口。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "考茨基及机会主义派",
+      "their_view": "机会主义是社会党内部固有的、处于一个极端的派别，其存在是正常的，问题只在于避免走向另一个极端。",
+      "author_response": "机会主义派的力量并非源于其在党内的“正常”地位，而是源于他们与资产阶级、政府和军事机构的联盟，这是一种背叛行为。",
+      "polemic_kind": "reveals_class_basis",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p99s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "机会主义",
+            "type": "concept",
+            "modern": "在本文语境下，特指第二国际内部放弃革命原则、向资产阶级妥协的政治思潮。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "opportunism_international"
+          },
+          {
+            "surface": "沙文主义",
+            "type": "concept",
+            "modern": "极端的、侵略性的民族主义，在战争中表现为支持本国资产阶级政府进行帝国主义战争。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "chauvinism_imperialist"
+          }
+        ]
+      },
+      {
+        "sid": "p99s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p99s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "考茨基",
+            "type": "person",
+            "modern": "卡尔·考茨基，第二国际理论家，中派代表，其“超帝国主义”等理论被列宁视为为机会主义辩护。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p99s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p99s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "资产阶级",
+            "type": "concept",
+            "modern": "占有生产资料、依靠剥削雇佣劳动为生的阶级，在帝国主义战争中是战争的推动者和受益者。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "bourgeoisie_capitalist"
+          }
+        ]
+      },
+      {
+        "sid": "p99s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "庸人的箴言录",
+            "type": "metaphor",
+            "modern": "作者用此讽刺那些将机会主义视为党内正常现象的平庸、保守的流行论调。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 5,
+        "notes_dropped": 0,
+        "hs_kept": 1,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 482,
+  "annotation": {
+    "block_type": "quote_block",
+    "gist": "马克思在信中向恩格斯报告，他与家人拒绝执行政府下达的驱逐令。",
+    "importance_score": 1,
+    "importance_reason": "作为传记叙事的一部分，记录了马克思个人生活与当局冲突的具体事件，属于例证性内容。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段马克思写信的场景，具体说明信件中报告的个人处境与抗争。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p482s1",
+        "speaker": "quoted_marx",
+        "stance": "endorsed",
+        "notes": [
+          {
+            "surface": "摩尔比安",
+            "type": "place",
+            "modern": "法国布列塔尼地区的一个省份，19世纪时是法国政府流放政治犯的地点之一。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 10,
+  "annotation": {
+    "block_type": "narrative",
+    "gist": "叙述马克思等人抵达科隆后，通过股东大会成功取得《新莱茵报》的创办权并确定报名与主编的过程。",
+    "importance_score": 1,
+    "importance_reason": "交代《新莱茵报》创办的具体过程与关键节点，为后续内容提供背景。",
+    "argument_role": "none",
+    "argument_link": null,
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p10s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p10s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p10s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "《莱茵报》",
+            "type": "work",
+            "modern": "马克思于1842至1843年间主编的报纸，因批判普鲁士政府被查封，是《新莱茵报》的前身。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_5gram_with_surface"
+      ]
+    }
+  ]
+}

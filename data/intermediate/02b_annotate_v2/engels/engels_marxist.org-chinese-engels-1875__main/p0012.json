@@ -1,0 +1,161 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 12,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "",
+    "importance_score": 2,
+    "importance_reason": "本段是恩格斯用自然科学史实例，具体论证辩证自然观如何战胜形而上学自然观的关键环节。",
+    "argument_role": "example",
+    "argument_link": "",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic | term_density",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "居维叶的灾变论",
+        "explain": "19世纪初法国博物学家居维叶提出的地质学理论，认为地球历史上发生过多次突然的、全球性的灾变（如大洪水），每次灾变后生物被重新创造，因此地层中出现不连续的化石记录。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "赖尔的均变论",
+        "explain": "19世纪英国地质学家查尔斯·赖尔在《地质学原理》中系统阐述的理论，主张地球的变化是缓慢、持续、渐进的，现今的地质过程可以解释过去的地质历史，无需诉诸超自然的灾变。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p12s5",
+        "quote": "居维叶关于地球经历多次革命的理论在词句上是革命的，而在实质上是反动的。",
+        "trigger": "inverted_logic",
+        "reader_block": "“革命”一词通常指进步变革，但这里说一个“革命”理论实质是“反动”的，这种表面与实质的矛盾需要解释。",
+        "parse": {
+          "claim": "居维叶的理论虽然表面上挑战了单一创造的神学教条，但其核心逻辑仍是神学的。",
+          "qualifiers": "从理论宣称的字面（词句）和其内在逻辑（实质）两个层面进行评价。",
+          "contrast_or_target": "居维叶的理论：地球历史由一系列突然的、剧烈的灾变构成，每次灾变后生物被重新创造。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "本句直接批判居维叶理论的神学本质，为下句揭示其如何用“多次创造”替代“一次创造”做铺垫，是恩格斯反驳该理论的核心论点。"
+        },
+        "implication": "判断一种理论是否进步，不能只看其是否挑战了旧教条，更要看其是否真正摆脱了旧的思维框架。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      },
+      {
+        "anchor": "p12s7",
+        "quote": "只是赖尔才第一次把理性带进地质学中，因为他以地球的缓慢的变化这样一种渐进作用，代替了由于造物主的一时兴发所引起的突然革命。",
+        "trigger": "term_density",
+        "reader_block": "“把理性带进地质学”是一个隐喻，需要理解“理性”在此特指用自然原因而非神意解释自然现象。",
+        "parse": {
+          "claim": "赖尔的贡献在于用地球自身缓慢、连续的自然变化过程，取代了用上帝的突发意志来解释地质突变。",
+          "qualifiers": "“第一次”强调其开创性；“缓慢的变化”与“突然革命”形成方法论对比。",
+          "contrast_or_target": "居维叶等人的观点：地质突变源于造物主的突然干预（“一时兴发”）。"
+        },
+        "why": {
+          "relation": "contrasts",
+          "explanation": "本句通过对比赖尔与居维叶的方法论，阐明恩格斯所赞许的“理性”即辩证的、内在的自然观，与神学外因论的根本对立。"
+        },
+        "implication": "自然科学的进步，关键在于从外部目的论转向对事物内在规律的探寻。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "居维叶",
+      "their_view": "地球历史由一系列突然的、剧烈的灾变构成，每次灾变后生物被上帝重新创造，因此地层化石记录不连续。",
+      "author_response": "居维叶的理论只是用多次神迹替代了一次神迹，其解释框架仍是神学的，本质上是反动的；只有赖尔用地球自身的渐进变化来解释地质历史，才真正引入了科学理性。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p12s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p12s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p12s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p12s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p12s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "居维叶",
+            "type": "person",
+            "modern": "19世纪初法国博物学家，提出地球灾变论和生物多次创造说。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p12s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p12s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "赖尔",
+            "type": "person",
+            "modern": "19世纪英国地质学家，提出均变论，主张用现今的缓慢地质过程解释地球历史。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 1,
+        "hs_kept": 2,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 2
+      },
+      "reasons": [
+        "note:n1_overflow_concept_18>5"
+      ]
+    }
+  ]
+}

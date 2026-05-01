@@ -1,0 +1,89 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 549,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁在霍布森分析基础上，补充说明帝国主义如何通过经济手段在工人运动内部培植机会主义。",
+    "importance_score": 2,
+    "importance_reason": "支撑核心论点，揭示机会主义产生的经济根源与阶级基础。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于帝国主义寄生性的论述，进一步分析其对工人运动内部的腐蚀作用。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "all_known",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "机会主义者",
+      "their_view": "工人运动内部的某些派别，其主张与行动客观上配合了帝国主义瓜分世界与维持垄断利润的进程。",
+      "author_response": "列宁指出，机会主义并非偶然，而是帝国主义经济体系通过收买无产阶级上层而系统性培植、巩固的结果。",
+      "polemic_kind": "reveals_class_basis",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p549s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p549s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p549s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p549s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "机会主义",
+            "type": "concept",
+            "modern": "工人运动中一种背离革命原则、主张与资产阶级妥协的思潮与派别。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "opportunism_marxist"
+          }
+        ]
+      },
+      {
+        "sid": "p549s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

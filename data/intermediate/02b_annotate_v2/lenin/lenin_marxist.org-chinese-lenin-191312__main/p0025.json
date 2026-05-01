@@ -1,0 +1,76 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 25,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁直接反驳取消派谢姆科夫斯基关于民族自决权有利于资产阶级民族主义的论点，并指出否认分离权才对大俄罗斯民族主义有利。",
+    "importance_score": 3,
+    "importance_reason": "本段是核心批判，直接反驳取消派在民族自决权问题上的错误观点。",
+    "argument_role": "continues",
+    "argument_link": "本段承接上段对谢姆科夫斯基的批评，具体反驳其关于民族自决权与资产阶级民族主义关系的论点。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p25s1",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p25s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p25s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "大俄罗斯黑帮分子",
+            "type": "social_group",
+            "modern": "斯托雷平时期代表沙皇专制和大俄罗斯沙文主义的反动势力",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

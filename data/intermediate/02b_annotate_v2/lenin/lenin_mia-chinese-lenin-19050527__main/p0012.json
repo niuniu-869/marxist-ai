@@ -1,0 +1,86 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 12,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁以反讽口吻模仿自由派对“人民专制”和“民主主义”的空洞口号，揭露其论辩的虚伪性。",
+    "importance_score": 3,
+    "importance_reason": "核心批判手法，通过模仿与反问，直接攻击自由派民主主张的实质。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对“解放社”纲领空洞内容的讽刺，此处进一步模仿其口号并加以反诘，强化批判效果。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p12s1",
+        "quote": "于是，政权就会转到人民手里了，代替沙皇专制制度的人民专制万岁。",
+        "trigger": "inverted_logic",
+        "reader_block": "反讽句式，读者易误以为这是列宁的正面主张，实则是在模仿并嘲讽自由派的空洞口号。",
+        "parse": {
+          "claim": "自由派宣称，通过他们的方案，政权将归于全体人民，并以“人民专制”取代沙皇专制。",
+          "qualifiers": "这是列宁转述的自由派逻辑，非作者立场。",
+          "contrast_or_target": "自由派认为，他们的立宪方案能实现政权的和平转移与民主化。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "此句是列宁对自由派纲领核心主张的讽刺性模仿，为后续的反问和揭露其阶级实质做铺垫。"
+        },
+        "implication": "列宁暗示，自由派所谓的“人民专制”是虚伪的，实质是资产阶级专政的伪装。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "俄国自由派资产阶级",
+      "their_view": "通过全民立宪会议与沙皇妥协，可以实现政权和平转移，建立“人民专制”，这正是民主主义的要求。",
+      "author_response": "列宁以反讽模仿其口号，并通过连续反问，揭露这种“民主”主张的空洞与妥协本质，暗示其与真正的人民革命相去甚远。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p12s1",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p12s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p12s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 1,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 23,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段直接否定“民族文化”口号，提出“国际文化”口号作为无产阶级的替代。",
+    "importance_score": 3,
+    "importance_reason": "本段明确对立两种口号，是文章核心论点之一，直接体现作者的国际主义立场。",
+    "argument_role": "conclusion",
+    "argument_link": "基于前一段从阶级斗争视角分析民族问题的立场，本段得出结论：民族文化的口号是资产阶级的工具，而国际文化才是无产阶级的口号。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "黑帮－教权派",
+        "explain": "指20世纪初俄国反动势力中结合了极端民族主义（黑帮）和教会保守势力（教权派）的政治派别，常与沙皇专制合作。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "民族文化口号的支持者",
+      "their_view": "每个民族的工人应首先关心和发展本民族文化，国际文化必须通过民族文化来实现。",
+      "author_response": "列宁指出，这种口号是资产阶级的骗人工具，本质上服务于反动势力，无产阶级应追求民主主义的国际文化。",
+      "polemic_kind": "reveals_class_basis",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p23s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "民族文化",
+            "type": "slogan",
+            "modern": "在论战中指每个民族应独立发展自身文化的口号，被列宁批判为资产阶级工具。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p23s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "国际文化",
+            "type": "slogan",
+            "modern": "列宁提出的口号，主张无产阶级文化应超越民族界限，具有全世界工人运动的共同性。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 3,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

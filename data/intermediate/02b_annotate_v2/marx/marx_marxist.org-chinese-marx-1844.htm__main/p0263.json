@@ -1,0 +1,108 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 263,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段在方法论层面批判国民经济学，指出其论证方式与神学论证的相似性。",
+    "importance_score": 2,
+    "importance_reason": "对国民经济学方法论的批判，支撑了后续对异化劳动的分析。",
+    "argument_role": "contrasts",
+    "argument_link": "上一段提出要弄清楚各种异化关系的本质联系，本段则批判国民经济学无法完成这种分析，因其方法论存在根本缺陷。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "国民经济学",
+      "their_view": "在说明经济现象时，总是先虚构一个理想化的初始状态（如孤立的个人），并以此为起点进行推导。",
+      "author_response": "这种方法无法真正说明问题，只是把需要论证的关系当作既定事实，使问题更加模糊。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p263s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p263s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p263s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "堕入五里雾中",
+            "type": "metaphor",
+            "modern": "形容国民经济学的方法使问题更加模糊不清，而非得到澄清。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p263s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "分工和交换",
+            "type": "concept",
+            "modern": "国民经济学中两个基本经济范畴，作者认为它们之间的必然联系需要被推论而非假定。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "economic_categories"
+          }
+        ]
+      },
+      {
+        "sid": "p263s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "原罪",
+            "type": "concept",
+            "modern": "基督教神学中关于人类堕落起源的概念，作者用以类比国民经济学的论证方式。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "theological_concept"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 3,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_7>5"
+      ]
+    }
+  ]
+}

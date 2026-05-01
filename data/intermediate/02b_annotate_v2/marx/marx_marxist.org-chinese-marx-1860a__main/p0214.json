@@ -1,0 +1,122 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 214,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段摘录巴枯宁对德国社会民主党在国际代表大会上表现的批评，指责其推行资产阶级民族纲领并导致国际分裂。",
+    "importance_score": 2,
+    "importance_reason": "本段通过巴枯宁的指控，具体化了马克思与巴枯宁派在纲领和策略上的分歧。",
+    "argument_role": "continues",
+    "argument_link": "上一段提到德国工人与资产阶级激进派结盟，本段则具体描述这种结盟在国际舞台上的表现及其后果。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "德国社会民主党",
+      "their_view": "德国社会民主党推行的是资产阶级政治纲领，而非人民社会纲领；他们试图将狭隘的民族政治纲领强加于国际协会，导致了国际的分裂。",
+      "author_response": "马克思通过摘录巴枯宁的话来呈现其指控，但并未在本段直接回应，而是让巴枯宁的指控自我呈现。",
+      "polemic_kind": "reveals_class_basis",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p214s1",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p214s2",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p214s3",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p214s4",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p214s5",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p214s6",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": [
+          {
+            "surface": "巴塞尔代表大会",
+            "type": "event",
+            "modern": "1869年第一国际在瑞士巴塞尔召开的代表大会。",
+            "highlight": "event",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p214s7",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p214s8",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p214s9",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": [
+          {
+            "surface": "社会主义民主同盟",
+            "type": "org",
+            "modern": "巴枯宁在第一国际内部建立的国际性组织，后被第一国际解散。",
+            "highlight": "org",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 2,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_5gram_with_surface",
+        "note:n1_overflow_concept_6>5"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 4,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "恩格斯开篇即批判德国社会主义著作界被“真正的社会主义者”主导，指出其思想是德国哲学、庸人情绪与歪曲口号的混合体，因其无害性而判定其为反动因素。",
+    "importance_score": 3,
+    "importance_reason": "这是文章核心批判对象的首次界定，为全文对“真正的社会主义”的系统批判奠定基调。",
+    "argument_role": "definition",
+    "argument_link": "作为第一部分的开篇，本段直接定义了批判对象“真正的社会主义者”的思想特征与政治性质，为后续具体分析其错误策略提供靶子。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "“真正的社会主义者”",
+      "their_view": "将德国哲学、小资产阶级的感伤情绪与一些共产主义口号混合，宣扬一种无害的、和平的社会主义。",
+      "author_response": "这种混合体因其无害性而能通过书报检查，恰恰证明它不是推动变革的革命力量，而是维护德国现存秩序的守旧因素。",
+      "polemic_kind": "strategic_critique",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p4s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p4s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p4s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "德国哲学",
+            "type": "concept",
+            "modern": "19世纪德国唯心主义哲学传统，尤指黑格尔体系及其在知识界的影响。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "philosophy_german_idealism"
+          }
+        ]
+      },
+      {
+        "sid": "p4s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p4s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "德国警察",
+            "type": "social_group",
+            "modern": "德意志各邦国维护现存秩序的执法力量。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p4s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_archaic_7>4"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 81,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "通过描述微积分运算过程，展示数学中矛盾的实际运用，说明矛盾并不妨碍解决问题。",
+    "importance_score": 2,
+    "importance_reason": "用微积分运算的具体例子，支撑上一段关于数学中矛盾可以共存的论点。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段关于0/0可以有确定值的数学证明，本段用微积分运算过程具体展示这种确定值如何在实际计算中运用。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "term_polysemy",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p81s9",
+        "quote": "我象通常那样运算这些公式，把ｄｘ和ｄｙ就当作它们好象是实数一样，而在某一点上我否定了否定，就是说，把微分式加以积分，以实数ｘ和ｙ代替ｄｘ和ｄｙ，这样一来，我并不是又回到了出发点，而是由此解决了普通的几何学和代数学碰得头破血流也无法解决的问题。",
+        "trigger": "term_polysemy",
+        "reader_block": "“否定的否定”是黑格尔辩证法的特定术语，读者可能不理解其在此处指代微积分运算中的一个具体步骤。",
+        "parse": {
+          "claim": "积分运算通过否定微分形式（dx, dy）再否定这种否定（还原为x, y），从而解决普通数学无法处理的问题。",
+          "qualifiers": "",
+          "contrast_or_target": ""
+        },
+        "why": {
+          "relation": "example",
+          "explanation": "此句用微积分运算的具体步骤，展示前文提到的“矛盾”（dx/dy=0/0）如何在实际计算中被运用并产生结果。"
+        },
+        "implication": null,
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p81s1",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p81s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p81s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p81s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p81s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "微分",
+            "type": "concept",
+            "modern": "在微积分中，指将变量视为无限小量的过程。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "calculus_differentiation"
+          }
+        ]
+      },
+      {
+        "sid": "p81s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "矛盾",
+            "type": "concept",
+            "modern": "在辩证法中，指对立面的统一与斗争，是事物发展的动力。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "dialectical_contradiction"
+          }
+        ]
+      },
+      {
+        "sid": "p81s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p81s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p81s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "否定的否定",
+            "type": "concept",
+            "modern": "黑格尔辩证法的三段式过程，指事物经过两次否定后回到自身，但内容更丰富。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "negation_of_negation"
+          }
+        ]
+      }
+    ]
+  }
+}

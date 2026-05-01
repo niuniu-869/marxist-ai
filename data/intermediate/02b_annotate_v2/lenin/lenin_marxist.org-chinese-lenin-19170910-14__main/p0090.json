@@ -1,0 +1,110 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 90,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁批判社会革命党人和孟什维克对监督措施的恐惧，指出他们重复市侩论调，并以法国大革命的历史先例反驳其“乌托邦”指责。",
+    "importance_score": 2,
+    "importance_reason": "本段通过历史类比和直接批判，强化了对孟什维克与社会革命党人机会主义立场的揭露，是支撑核心论点的论据。",
+    "argument_role": "contrasts",
+    "argument_link": "承接上段对真正监督措施的提出，本段转而批判那些反对或拖延实施这些措施的人，揭示其言论的阶级实质。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "法国大革命的革命民主派",
+        "explain": "指18世纪末法国大革命中的雅各宾派等激进力量。他们曾对贵族和富商实行严厉的经济管制与监督，被视为“革命民主”的实践先例。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "社会革命党人和孟什维克",
+      "their_view": "采取严厉的监督措施会吓跑资本家，没有资本家不行，还可能得罪支持我们的英法百万富翁。",
+      "author_response": "列宁指出他们完全被吓倒，重复市侩的论调，并以法国大革命的历史证明，依靠群众可以对富人实行有效的革命监督。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p90s1",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": [
+          {
+            "surface": "被吓倒的民主派",
+            "type": "metaphor",
+            "modern": "列宁用此讽刺社会革命党人和孟什维克在面对资本家时丧失革命勇气，言行退缩。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p90s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p90s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "革命民主派",
+            "type": "concept",
+            "modern": "特指法国大革命时期（如雅各宾派）主张彻底革命、依靠群众的派别，与当时俄国的妥协派形成对比。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "revolutionary_democracy_historical"
+          }
+        ]
+      },
+      {
+        "sid": "p90s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "辛迪加",
+            "type": "concept",
+            "modern": "资本主义垄断组织形式之一，指同类企业联合销售产品的垄断同盟。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "syndicate_economic"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 3,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

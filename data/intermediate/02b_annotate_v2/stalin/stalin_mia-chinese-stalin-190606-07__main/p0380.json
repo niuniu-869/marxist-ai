@@ -1,0 +1,90 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 380,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段引用无政府主义者克鲁泡特金反对一切专政的言论，随后指出社会民主党人主张对无产阶级实行专政，以此反驳无政府主义对专政的全面否定。",
+    "importance_score": 3,
+    "importance_reason": "这是全文核心论战段落之一，直接引用论敌观点并亮出己方立场，构成对无政府主义的正面批判。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段对克鲁泡特金的引用，本段完整呈现其反对专政的论断，并立即引入社会民主党人的对立主张，形成直接论辩。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "refute_quotation"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "克鲁泡特金及其著作",
+        "explain": "彼得·克鲁泡特金是19世纪末至20世纪初著名的无政府主义理论家与活动家。《一个反抗者的话》和《面包和自由》是其阐述无政府主义思想的代表作，在当时的工人运动中有一定影响。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "克鲁泡特金 / 无政府主义",
+      "their_view": "一切形式的专政，无论其宣称的目标如何，本质上都是将政府神圣化，其最终结果必然是维护奴役状态并导致革命失败。",
+      "author_response": "社会民主党人不仅承认革命专政的必要性，而且明确提出要对无产阶级实行专政，其目的是将无产阶级组织成一支有纪律的力量，以夺取并掌握国家机器。",
+      "polemic_kind": "counter_quotation",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p380s1",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": [
+          {
+            "surface": "专政",
+            "type": "concept",
+            "modern": "在马克思主义理论中指一个阶级凭借国家机器对另一个阶级实行的统治。此处是克鲁泡特金批判的对象。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "state_marxist_theory"
+          }
+        ]
+      },
+      {
+        "sid": "p380s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "无产阶级专政",
+            "type": "concept",
+            "modern": "马克思主义关于未来社会政治形式的核心概念，指无产阶级作为统治阶级掌握国家政权。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "state_marxist_theory"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 2,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,152 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 40,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁以比利时等国为例，反驳波兰同志以被兼并国家内资产阶级可能压迫异族为由，反对民族起义的论点。",
+    "importance_score": 2,
+    "importance_reason": "通过具体假设，揭示波兰反对派在民族自决问题上的逻辑矛盾，是核心论战的一部分。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对波兰同志在“保卫祖国”问题上立场的批评，本段进一步用具体例子剖析其反对民族起义的理由。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "德国“国际”派与尤尼乌斯",
+        "explain": "“国际”派是第一次世界大战期间德国社会民主党内的反战左翼派别，主张国际主义。尤尼乌斯是罗莎·卢森堡的笔名，其小册子《社会民主党的危机》批判了战争与机会主义。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "被兼并地区",
+        "explain": "指第一次世界大战中被交战国（如德国、奥匈帝国）武力占领或吞并的领土，如比利时、塞尔维亚等，其民族解放斗争是当时争论焦点。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p40s7",
+        "quote": "假定说，比利时将在1917年被德国兼并，而在1918年举行起义，争取自己的解放，那波兰同志一定会反对起义，因为比利时资产阶级有“压迫异族的权利”呀！",
+        "trigger": "inverted_logic",
+        "reader_block": "这是一个归谬法假设，用波兰同志自己的逻辑推导出一个荒谬结论，读者可能误以为这是列宁的真实预测。",
+        "parse": {
+          "claim": "如果按照波兰同志的逻辑，那么任何被兼并国家未来的解放起义，都会因其国内资产阶级具有潜在的压迫性而被反对。",
+          "qualifiers": "这是一个假设性情景，用于检验波兰同志论点的逻辑一致性。",
+          "contrast_or_target": "波兰同志认为，被兼并国家内资产阶级压迫异族的可能性，构成了反对该国民族起义的理由。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "通过构建一个极端但符合对方逻辑的假设，揭示波兰同志将“资产阶级可能的压迫权利”置于“被压迫民族当前的解放斗争”之上的观点，会导致否定一切民族解放战争的荒谬结论。"
+        },
+        "implication": "评价民族起义的标准应是其当下的实际社会内容（即被压迫民族的解放斗争），而非其国内统治阶级未来可能的行为。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p40s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "德国“国际”派",
+            "type": "org",
+            "modern": "一战期间德国社民党内的反战左翼派别，主张国际主义，反对战争拨款。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "尤尼乌斯",
+            "type": "person",
+            "modern": "罗莎·卢森堡的笔名，其小册子《社会民主党的危机》批判了战争与机会主义。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p40s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p40s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p40s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p40s5",
+        "speaker": "quoted_opponent",
+        "stance": "cited",
+        "notes": [
+          {
+            "surface": "资产阶级",
+            "type": "concept",
+            "modern": "在本段语境下，指被兼并国家内可能成为压迫者的统治阶级。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "class_bourgeois"
+          }
+        ]
+      },
+      {
+        "sid": "p40s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p40s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 3,
+        "notes_dropped": 0,
+        "hs_kept": 1,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

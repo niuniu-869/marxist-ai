@@ -1,0 +1,90 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 23,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段以民族问题为例，论证俄国政治危机已全面成熟，指出临时政府在民族问题上的反动行径与各民族反抗的加剧。",
+    "importance_score": 2,
+    "importance_reason": "作为“危机成熟”的具体例证，从民族问题角度支撑武装起义时机已到的核心论点。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于全国性危机已成熟的总判断，本段具体展开民族问题这一重要维度，用以证明危机的深度与广度。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "策列铁里与民主会议",
+        "explain": "策列铁里是孟什维克领袖。1917年7月，他主持召开了全俄民主会议，列宁认为这是临时政府为延续统治而制造的假民主程序，故称其“伪造”。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "策列铁里及孟什维克",
+      "their_view": "通过召开全俄民主会议，汇集各民族代表团，以合法的民主程序来解决政权问题，建立联合政府。",
+      "author_response": "列宁揭露该会议是临时政府的骗局，其“民族”代表团的投票结果恰恰证明了会议的反联合倾向，从而否定了其合法性。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p23s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p23s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "策列铁里",
+            "type": "person",
+            "modern": "尼古拉·策列铁里，孟什维克领袖，时任全俄苏维埃中央执行委员会副主席。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p23s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p23s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

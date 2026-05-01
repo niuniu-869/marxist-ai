@@ -1,0 +1,105 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 59,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁指出，与饥荒的斗争将团结群众并暴露反革命势力，同时反驳敌人对布列斯特和约的过时批评。",
+    "importance_score": 2,
+    "importance_reason": "本段承接上文对各派发言的评论，转向论证饥荒斗争的政治意义，并反驳敌人对和约的批评。",
+    "argument_role": "continues",
+    "argument_link": "本段承接上文对各派发言的评论，进一步指出与饥荒的斗争将团结群众并暴露反革命势力，同时反驳敌人对布列斯特和约的过时批评。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "捷克斯洛伐克匪帮",
+        "explain": "指1918年夏在西伯利亚和伏尔加河流域发动叛乱的捷克斯洛伐克军团，他们受协约国支持，是反苏维埃武装的重要组成部分。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "布列斯特和约",
+        "explain": "1918年3月苏俄与德国签订的屈辱性和约，使苏俄退出一战，但割让大片领土，当时被许多政治派别攻击为“卖国”。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "孟什维克与右派社会革命党人",
+      "their_view": "他们认为布列斯特和约是错误的，内战证明苏维埃政权无能，因此主张提高粮价、允许自由买卖等政策。",
+      "author_response": "列宁指出，过去三个月的事件已经证明，只有共产党人的策略才能带来和平并为新战争做准备，敌人的论据已经过时。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p59s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p59s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p59s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "布列斯特和约",
+            "type": "event",
+            "modern": "1918年3月苏俄与德国签订的退出一战的和约。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p59s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p59s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 2,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "note:n1_overflow_concept_6>5",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

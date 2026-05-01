@@ -1,0 +1,62 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 286,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "代表会议通过决议，明确拒绝向“革命护国主义”立场妥协，并阐述了党对群众中此类情绪的斗争策略。",
+    "importance_score": 2,
+    "importance_reason": "这是对前段批判的正式决议化，确立了布尔什维克党在战争与和平问题上的原则立场。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对“革命护国主义”阶级基础的分析，将其转化为党内正式决议，并区分了对原则的坚守与对群众情绪的策略。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "革命护国主义",
+      "their_view": "在二月革命后，保卫俄国革命成果的战争具有正义性，因此应继续支持战争。",
+      "author_response": "列宁及代表会议认为，这种立场实质上是背弃国际主义和社会主义，必须坚决斗争。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p286s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p286s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_6>5",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

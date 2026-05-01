@@ -1,0 +1,62 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 91,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "作者直接回应资产阶级对共产主义的指责，承认其目标正是要消灭资产阶级的个性、独立和自由。",
+    "importance_score": 3,
+    "importance_reason": "这是《宣言》中直接阐明共产主义革命目标的关键段落，明确回应了资产阶级的指责。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段对两种社会形态的对比，具体回应资产阶级对共产主义“消灭个性和自由”的指责。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "refute_quotation"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "资产阶级",
+      "their_view": "共产主义要消灭个性和自由。",
+      "author_response": "共产主义的目标正是要消灭资产阶级的个性、独立和自由。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p91s1",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p91s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 2,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_9>5",
+        "note:n1_overflow_concept_20>5"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 111,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "论证苏维埃政权的历史地位，并主张将其作为纲领核心。",
+    "importance_score": 3,
+    "importance_reason": "这是列宁对新型国家理论的纲领性主张，是全文关于国家形式论述的核心部分。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对苏维埃政权初创阶段的评估，进一步论证其历史地位并提出纲领要求。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "allusion",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "巴黎公社与苏维埃",
+        "explain": "巴黎公社是1871年巴黎工人起义后建立的短暂政权，被视为无产阶级专政的首次尝试。列宁将其视为苏维埃政权的原型，强调二者在国家形式上的继承关系。",
+        "why_needed": "allusion",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p111s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p111s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p111s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p111s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p111s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

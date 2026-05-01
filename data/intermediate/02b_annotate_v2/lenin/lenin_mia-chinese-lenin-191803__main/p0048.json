@@ -1,0 +1,89 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 48,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁论证接受苛刻和约的必要性，指出人民情绪转变需要时间，当前代表大会的任务是贯彻这一战略口号。",
+    "importance_score": 2,
+    "importance_reason": "支撑列宁关于战略退却与争取喘息时机的核心论点，解释接受和约的现实逻辑与未来条件。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于喘息时机不确定性的论述，进一步解释为何在可能面临军事失败的情况下，仍需接受和约以等待人民情绪转变的时机。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p48s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p48s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "人民的情绪",
+            "type": "concept",
+            "modern": "在列宁的论述中，特指广大群众对战争与和平问题的集体态度与决心，其转变是采取革命行动的前提。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "mass_sentiment_political"
+          }
+        ]
+      },
+      {
+        "sid": "p48s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p48s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p48s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

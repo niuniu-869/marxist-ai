@@ -1,0 +1,75 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 50,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁讽刺莫斯科派未察觉布尔什维克已成为护国派，因革命后已推翻资产阶级、废除秘密条约并提议媾和。",
+    "importance_score": 2,
+    "importance_reason": "通过反讽揭露莫斯科派的教条主义，支撑列宁立即缔结和约的主张。",
+    "argument_role": "continues",
+    "argument_link": "本段承接上段对莫斯科派顽固坚持旧立场的批评，具体指出他们未注意到布尔什维克已成为护国派。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "cross_ref_pronoun",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "莫斯科派",
+        "explain": "指布尔什维克党内主张立即进行革命战争、反对缔结和约的派别，前文已提及。",
+        "why_needed": "cross_ref_pronoun",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "莫斯科派",
+      "their_view": "莫斯科派认为缔结和约是同帝国主义妥协，主张立即进行革命战争以推动德国革命。",
+      "author_response": "列宁指出，由于已经推翻资产阶级、废除秘密条约并提议媾和，布尔什维克已成为护国派，莫斯科派未看到这一变化。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p50s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p50s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p50s3",
+        "speaker": "editor",
+        "stance": "neutral_citation",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

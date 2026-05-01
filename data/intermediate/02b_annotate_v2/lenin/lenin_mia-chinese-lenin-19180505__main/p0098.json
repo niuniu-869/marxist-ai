@@ -1,0 +1,96 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 98,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "指出“左派共产主义者”阵营中某些知识分子的思想根源，并以奥新斯基为例。",
+    "importance_score": 2,
+    "importance_reason": "揭示论敌思想的阶级基础，支撑对“左派”幼稚性的批判。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对“左派”辩解的驳斥，进一步指出其思想根源在于小资产阶级知识分子的阶级特性。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_polysemy",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "小资产阶级知识分子",
+        "explain": "在马克思主义语境中，“小资产阶级”通常指介于资产阶级和无产阶级之间的经济阶级。但列宁在此用它描述一种思想特性：缺乏稳定的阶级立场，容易摇摆和空谈。",
+        "why_needed": "term_polysemy",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p98s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "小资产阶级",
+            "type": "concept",
+            "modern": "列宁在此特指一种思想特性，即缺乏稳定的阶级立场，容易摇摆和空谈，而非指其经济地位。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "class_petty_bourgeois_ideological"
+          }
+        ]
+      },
+      {
+        "sid": "p98s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "奥新斯基",
+            "type": "person",
+            "modern": "“左派共产主义者”集团的成员之一，其言论被列宁视为小资产阶级知识分子的典型。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "左派共产主义者",
+            "type": "org",
+            "modern": "1918年苏俄党内反对签订《布列斯特和约》、主张继续革命战争的派别。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "metadata"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 3,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "polemic:polemic_empty_field"
+      ]
+    }
+  ]
+}

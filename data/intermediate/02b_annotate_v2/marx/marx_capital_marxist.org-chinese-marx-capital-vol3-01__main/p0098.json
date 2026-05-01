@@ -1,0 +1,66 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 98,
+  "annotation": {
+    "block_type": "narrative",
+    "gist": "本段为排版残留或OCR错误，仅显示章节编号与页码，无实际论述内容。",
+    "importance_score": 0,
+    "importance_reason": "文本异常，无实质内容，可跳过。",
+    "argument_role": "none",
+    "argument_link": "",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "text_anomaly",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "text_anomaly",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "文本异常提示",
+        "explain": "此处原文疑似排版残留或OCR识别错误，仅显示罗马数字“Ⅱ”和页码“921”，未呈现马克思的论述。读者应意识到这是文本问题，而非章节标题或内容缺失。",
+        "why_needed": "text_anomaly",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p98s1",
+        "quote": "Ⅱ …………………………………………………………………………………………………………………………… 921",
+        "trigger": "text_anomaly",
+        "reader_block": "读者会困惑于这串省略号和页码的含义，误以为是章节标题、内容缺失或排版错误，无法从中获取任何理论信息。",
+        "parse": {
+          "claim": "此行文本为排版残留或OCR错误，不包含马克思的任何论述。",
+          "qualifiers": "无。",
+          "contrast_or_target": ""
+        },
+        "why": {
+          "relation": "none",
+          "explanation": ""
+        },
+        "implication": "这可能导致读者在阅读连续文本时产生中断或误解，建议参考其他版本或上下文以确认此处应有内容。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p98s1",
+        "speaker": "unknown",
+        "stance": "neutral_citation",
+        "notes": []
+      }
+    ]
+  }
+}

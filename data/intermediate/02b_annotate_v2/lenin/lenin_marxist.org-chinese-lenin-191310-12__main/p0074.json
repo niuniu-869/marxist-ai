@@ -1,0 +1,111 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 74,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁引述奥国社会民主党内部反对“民族文化自治”的两个历史论据，用以说明该纲领在当时就已暴露出的缺陷。",
+    "importance_score": 2,
+    "importance_reason": "作为历史例证，支撑作者对“民族文化自治”纲领的批判，揭示其固有的教权主义与沙文主义倾向。",
+    "argument_role": "example",
+    "argument_link": "承接上段对“民族文化自治”实质的批判，此处提供具体的历史论据，表明该纲领在实践讨论中就已被指出存在严重问题。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "奥国社民党与布隆大会",
+        "explain": "指奥地利社会民主党，其在1899年布隆（今捷克布尔诺）代表大会上讨论了“民族文化自治”纲领草案。该党是第二国际中主张民族文化自治的代表。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p74s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "布隆代表大会",
+            "type": "event",
+            "modern": "1899年在布隆召开的奥国社民党代表大会，会上讨论了民族文化自治草案",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "民族文化自治草案",
+            "type": "program_clause",
+            "modern": "奥国社民党提出的纲领性主张，要求各民族在文化事务上享有自治权",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p74s2",
+        "speaker": "quoted_opponent",
+        "stance": "neutral_citation",
+        "notes": [
+          {
+            "surface": "教权派",
+            "type": "social_group",
+            "modern": "与教会势力紧密关联、主张教会干预政治的社会政治派别",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p74s3",
+        "speaker": "quoted_opponent",
+        "stance": "neutral_citation",
+        "notes": [
+          {
+            "surface": "沙文主义",
+            "type": "concept",
+            "modern": "一种极端、排他的民族主义情绪与政策倾向",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "chauvinism_national"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 4,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_5gram_with_surface"
+      ]
+    }
+  ]
+}

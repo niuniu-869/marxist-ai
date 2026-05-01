@@ -1,0 +1,112 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 134,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "通过美国总统咨文等事例，论证俄国在西班牙革命中的实际作用，并列举证据证明推翻斐迪南七世统治的必然性。",
+    "importance_score": 2,
+    "importance_reason": "通过国际关系实例和历史证据，具体化前段关于政府与革命关系的论断。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于政府自身引发革命的论断，通过俄国干预的具体事例和历史证据，进一步论证革命的必然性。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "美国总统咨文与俄国",
+        "explain": "1854年，美国总统在国情咨文中提及俄国向其保证，将阻止西班牙干涉其在拉丁美洲的殖民地事务。马克思引用此外交事件，作为俄国介入西班牙事务的旁证。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      },
+      {
+        "topic": "斐迪南七世的统治",
+        "explain": "斐迪南七世是1814年至1833年的西班牙国王，其统治以恢复绝对君主专制、镇压自由派和与教会紧密结盟为特征，被称为“专制的教权的君主制度”。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p134s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p134s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p134s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p134s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p134s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p134s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p134s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p134s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_10>5"
+      ]
+    }
+  ]
+}

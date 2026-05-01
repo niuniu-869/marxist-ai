@@ -1,0 +1,56 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 165,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段陈述一种社会主义流派的结论，即主张恢复制造业的行会组织和农业的家长制关系。",
+    "importance_score": 1,
+    "importance_reason": "本段具体描述被批评的社会主义流派的主张，作为前文批评的例证。",
+    "argument_role": "continues",
+    "argument_link": "本段承接上段对一种社会主义流派的批评，具体陈述该流派的结论性主张。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "cross_ref_pronoun",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "社会主义流派",
+        "explain": "本段中的'他們'指代前文批评的一种社会主义流派，该流派主张恢复旧的生产关系。",
+        "why_needed": "cross_ref_pronoun",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "保守的或资产阶级的社会主义",
+      "their_view": "制造业应该恢复行会制度，农业应该维持家长制关系。",
+      "author_response": "作者认为这种主张是倒退和空想，试图将新方法塞入旧框架。",
+      "polemic_kind": "strategic_critique",
+      "confidence": "medium"
+    },
+    "sentences": [
+      {
+        "sid": "p165s1",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": [
+          {
+            "surface": "同行組合",
+            "type": "archaic",
+            "modern": "在中世纪欧洲，限制同业竞争、维护传统技艺的行业组织。",
+            "highlight": "archaic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  }
+}

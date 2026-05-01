@@ -1,0 +1,110 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 17,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁继续批评普列汉诺夫在革命策略问题上采取机会主义的观望态度，指责其在革命高潮时沉默，低潮时才发表空洞言论。",
+    "importance_score": 2,
+    "importance_reason": "本段是核心批判的延续，通过具体事例（普列汉诺夫对“革命自治”的态度）揭露其机会主义立场，为论证布尔什维克策略的正确性提供反面例证。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对普列汉诺夫回避问题的批评，本段具体展开其在“革命自治”问题上的表现，以时间线对比强化其“马后炮”的论断。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "allusion",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "普列汉诺夫与革命策略分歧",
+        "explain": "普列汉诺夫是俄国马克思主义理论家，早期与列宁合作。1905年革命后，他在是否参加杜马选举、如何评价“革命自治”等问题上与布尔什维克产生策略分歧，常被列宁批评为犹豫和机会主义。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "“革命自治”主张",
+        "explain": "这是孟什维克在1905年革命期间提出的策略，主张工人阶级通过自发的苏维埃等组织进行自治，而非立即夺取政权。布尔什维克则认为这些组织是未来政权的萌芽，但当时软弱无力。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "普列汉诺夫",
+      "their_view": "在革命高潮、问题尖锐时保持沉默，不明确表态；在革命低潮、问题失去现实紧迫性后，才发表一些看似有远见的评论。",
+      "author_response": "列宁认为这是典型的机会主义表现，是政治上的怯懦和理论上的无能，其“远见”只是迎合自由派（司徒卢威之流）的事后诸葛亮。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p17s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p17s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p17s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p17s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p17s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p17s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "苏维埃",
+            "type": "org",
+            "modern": "1905年革命中自发产生的工人、士兵代表会议，是革命政权的雏形。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 2,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

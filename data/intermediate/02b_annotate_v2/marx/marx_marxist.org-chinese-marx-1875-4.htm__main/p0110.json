@@ -1,0 +1,98 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 110,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段批判拉萨尔关于工资的错误观点，阐述马克思对工资本质的科学理解，并指出党内存在倒退到拉萨尔教条的倾向。",
+    "importance_score": 3,
+    "importance_reason": "核心批判段落，直接针对纲领草案的理论错误，阐述了马克思政治经济学的关键发现。",
+    "argument_role": "contrasts",
+    "argument_link": "上段指出纲领中对“铁的工资规律”的讨论并非核心问题，本段则转向批判纲领中更根本的理论倒退，即重新采纳拉萨尔关于工资本质的错误观点。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "劳动力的价值或价格",
+        "explain": "马克思认为，工人出卖的不是“劳动”，而是“劳动力”（即劳动能力）。工资是劳动力这种特殊商品的价值或价格的货币表现，它掩盖了工人在必要劳动时间之外为资本家进行无偿劳动的事实。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p110s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p110s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "剩余价值",
+            "type": "concept",
+            "modern": "在马克思政治经济学中，指雇佣工人创造的超出其劳动力价值的那部分价值，被资本家无偿占有。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "surplus_value"
+          }
+        ]
+      },
+      {
+        "sid": "p110s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p110s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p110s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote",
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

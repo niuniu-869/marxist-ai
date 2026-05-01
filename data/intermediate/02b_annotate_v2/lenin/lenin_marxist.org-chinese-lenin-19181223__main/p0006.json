@@ -1,0 +1,88 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 6,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "引用马克思恩格斯1872年序言的核心观点，以此为据批判考茨基对马克思主义的歪曲，并揭露谢德曼等人赞扬考茨基的阶级本质。",
+    "importance_score": 3,
+    "importance_reason": "本段是全文核心论点之一，通过援引马克思主义经典文献，直接确立了无产阶级必须打碎资产阶级国家机器这一根本原则，并以此为武器批判论敌。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对“纯粹民主”论调的批判，本段通过引用马克思主义创始人的权威论述，为批判提供了更坚实的理论根基，并直接点名批判考茨基和谢德曼。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "1872年《共产党宣言》序言",
+        "explain": "马克思恩格斯在1872年德文版序言中，对《宣言》的核心观点做了重要补充，强调巴黎公社的经验证明工人阶级不能简单掌握旧的国家机器，而必须将其打碎。这是对《宣言》原有结论的修正和发展。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "考茨基",
+      "their_view": "无产阶级可以掌握并运用现成的资产阶级国家机器来实现自己的目的，无需摧毁它。",
+      "author_response": "列宁指出，考茨基在其小册子中对工人隐瞒了马克思恩格斯关于必须打碎旧国家机器这一最重要的真理，是对马克思主义的根本歪曲。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p6s1",
+        "speaker": "quoted_marx",
+        "stance": "endorsed",
+        "notes": [
+          {
+            "surface": "国家机器",
+            "type": "concept",
+            "modern": "在马克思主义理论中，指代资产阶级用以维护其统治的全部政治机构，包括军队、警察、法庭、官僚体系等。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "state_marxist_theory"
+          }
+        ]
+      },
+      {
+        "sid": "p6s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "叛徒考茨基",
+            "type": "person",
+            "modern": "卡尔·考茨基，第二国际理论家，列宁在此批判其背叛了马克思主义关于无产阶级专政的学说。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "metadata"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

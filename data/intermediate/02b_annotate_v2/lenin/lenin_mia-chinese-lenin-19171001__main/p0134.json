@@ -1,0 +1,122 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 134,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁论证新管理机构初期犯错的必然性，类比农民解放后的实践，强调必须通过人民自治的实践来训练群众管理能力，以反驳认为只有旧官吏才能治国的偏见。",
+    "importance_score": 3,
+    "importance_reason": "核心批判段落，直接回应论敌关于布尔什维克无法管理国家的质疑，提出通过实践建立无产阶级管理能力的论点。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于革命民主制具体措施的讨论，进一步论证建立新管理机构的必要性与可行性，并反驳对此的质疑。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic, long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p134s2",
+        "quote": "但是，难道农民从农奴制度下解放出来，开始自己经营的时候没有犯过错误吗？",
+        "trigger": "inverted_logic",
+        "reader_block": "反问句式，读者可能只关注字面疑问，而忽略其作为类比论证的修辞功能，即用历史事实来为新事物的初期错误辩护。",
+        "parse": {
+          "claim": "农民在获得解放、开始独立经营时，同样经历了犯错的过程。",
+          "qualifiers": "特指从农奴制下解放出来的农民在开始自主经营的初期阶段。",
+          "contrast_or_target": "针对认为新管理机构初期犯错就不可行的观点，用历史类比反驳其苛求完美起步的立场。"
+        },
+        "why": {
+          "relation": "example",
+          "explanation": "用历史上农民解放后必然经历实践学习的过程，作为类比，支撑前句关于新机构初期会犯错的论断，说明这是普遍规律而非特例。"
+        },
+        "implication": "因此，要求新管理机构一开始就完美无缺是不现实的，关键在于通过实践学习和改进。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "资产阶级知识分子及旧官僚",
+      "their_view": "只有那些完全依附于资本的特殊官吏才能管理国家；群众没有能力进行自我管理和分配，许多事情在他们看来是办不到的。",
+      "author_response": "必须抛弃这种偏见，通过立刻实行人民自治的实践来训练群众。将管理工作交给无产者和半无产者，能激发他们为自己工作的空前热情和力量，完成旧官僚认为不可能的任务。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p134s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p134s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "农奴制度",
+            "type": "concept",
+            "modern": "沙皇俄国时期束缚农民人身与经济自由的封建剥削制度，1861年改革名义上废除。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "serfdom_russian"
+          }
+        ]
+      },
+      {
+        "sid": "p134s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p134s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p134s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p134s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p134s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 2,
+        "hs_kept": 1,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

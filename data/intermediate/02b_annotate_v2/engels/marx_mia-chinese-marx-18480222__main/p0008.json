@@ -1,0 +1,80 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 8,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "恩格斯通过归谬法，反驳将克拉柯夫革命污蔑为共产主义的论调，指出其指控逻辑的荒谬性。",
+    "importance_score": 2,
+    "importance_reason": "本段是核心批判的一部分，通过归谬法揭露论敌将一切革命主张都贴上“共产主义”标签的逻辑矛盾。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于三大强国污蔑革命主张的论述，本段具体剖析这种污蔑的逻辑基础，并揭示其荒谬。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "将克拉柯夫革命污蔑为共产主义的反动势力",
+      "their_view": "克拉柯夫革命因其复兴波兰民族和建立民主政府的目标，所以是一场共产主义革命。",
+      "author_response": "恩格斯通过归谬法指出，若按此逻辑，欧洲历史上许多公认的反动事件也应被贴上共产主义标签，这证明该指控是荒谬且随意的。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p8s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p8s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p8s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p8s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p8s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 2,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

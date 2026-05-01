@@ -1,0 +1,164 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 12,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段通过兵员构成、训练时间和指挥体系三个维度，评估1794年法国军队的实际战斗力，反驳其仅为狂热志愿兵的简单化看法。",
+    "importance_score": 2,
+    "importance_reason": "为全文评估法国军事潜力提供关键数据支撑，是论证法国能抵御神圣同盟进攻的军事基础之一。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对国内起义军事价值的评估，转而分析法国正规军的构成与素质，为整体战争前景判断提供更全面的军事依据。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "随营学校",
+        "explain": "法军在革命战争时期为快速培训新兵设立的基层训练单位，旨在让士兵在短期内掌握基本战斗技能。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "国民公会议员",
+        "explain": "法国大革命时期（1792-1795）的最高立法机构成员，其中雅各宾派主导的公共安全委员会实际领导了对内对外战争。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "断头台与指挥统一",
+        "explain": "此处“断头台”隐喻雅各宾派的恐怖统治政策。恩格斯认为，这种高压手段消除了军队内部的抗命与分裂，客观上确保了军事命令的绝对执行。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      },
+      {
+        "topic": "圣茹斯特",
+        "explain": "雅各宾派核心领袖之一，以思想激进和手段严厉著称，是恐怖统治的主要理论家和执行者之一。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p12s7",
+        "quote": "但是如果除开国民公会议员们自己作了些蠢事的某些特殊情形以外，断头台则保证了指挥的统一和动作的协调。",
+        "trigger": "inverted_logic",
+        "reader_block": "“断头台”通常象征恐怖与死亡，但此处却说它“保证”了积极的军事效能，这种反直觉的因果关系需要结合历史背景理解。",
+        "parse": {
+          "claim": "在排除国民公会自身决策失误的特例后，恐怖统治的威慑力实际上消除了军队内部的不服从与不协调，确保了军事行动的一致性。",
+          "qualifiers": "限定条件是“除开国民公会议员们自己作了些蠢事的某些特殊情形以外”，即不考虑政治决策层面的错误。",
+          "contrast_or_target": ""
+        },
+        "why": {
+          "relation": "continues",
+          "explanation": "承接上句对法国将军“高明”的评价，进一步解释这种指挥效能得以实现的政治保障，即恐怖政策带来的内部纪律。"
+        },
+        "implication": "恩格斯在此揭示了革命时期军事效率与政治恐怖之间的特定联系，为理解法国军队的组织特性提供了视角。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p12s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p12s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p12s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "随营学校",
+            "type": "work",
+            "modern": "法军革命战争时期为快速培训新兵设立的基层训练单位名称。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p12s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p12s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p12s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p12s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "国民公会议员",
+            "type": "social_group",
+            "modern": "法国大革命时期最高立法机构的成员，此处特指其中主导恐怖政策的雅各宾派。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "断头台",
+            "type": "metaphor",
+            "modern": "此处借指雅各宾派实行的恐怖统治政策及其带来的政治威慑。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p12s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "圣茹斯特",
+            "type": "person",
+            "modern": "雅各宾派领袖，恐怖统治的主要理论家和执行者之一。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  }
+}

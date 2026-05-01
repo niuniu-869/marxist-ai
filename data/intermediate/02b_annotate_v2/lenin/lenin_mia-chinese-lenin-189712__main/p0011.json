@@ -1,0 +1,122 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 11,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "介绍斯卡尔金的著作《在穷乡僻壤和在首都》，并指出其对探讨“遗产”问题的参考价值。",
+    "importance_score": 1,
+    "importance_reason": "本段引入关键文本斯卡尔金的著作，为后续分析“遗产”代表与各派关系提供具体材料。",
+    "argument_role": "transition",
+    "argument_link": "承接上段对“遗产”代表的引子，具体介绍斯卡尔金及其著作，为后续论证提供文本依据。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "allusion",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p11s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p11s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p11s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p11s4",
+        "speaker": "editor",
+        "stance": "neutral_citation",
+        "notes": []
+      },
+      {
+        "sid": "p11s5",
+        "speaker": "editor",
+        "stance": "neutral_citation",
+        "notes": []
+      },
+      {
+        "sid": "p11s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "遗产",
+            "type": "concept",
+            "modern": "在本文语境中特指19世纪60-70年代俄国启蒙思想家所代表的进步思想传统",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "heritage_progressive_1860s"
+          }
+        ]
+      },
+      {
+        "sid": "p11s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p11s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p11s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "希腊作家",
+            "type": "person",
+            "modern": "古希腊文学或哲学中的作者，具体身份不详",
+            "highlight": "archaic",
+            "confidence": "medium",
+            "source_basis": "text_evidence"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

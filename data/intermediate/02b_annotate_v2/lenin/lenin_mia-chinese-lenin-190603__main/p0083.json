@@ -1,0 +1,116 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 83,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁逐条批判马斯洛夫的土地纲领方案，指出其未能解决革命任务、缺乏政治改革指引、脱离现实且非革命。",
+    "importance_score": 3,
+    "importance_reason": "核心批判段落，系统驳斥马斯洛夫方案，为提出替代纲领扫清障碍。",
+    "argument_role": "contrasts",
+    "argument_link": "承接上段提出的纲领三部分要求，具体论证马斯洛夫方案为何不符合这些要求。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p83s5",
+        "quote": "这个纲领既没有规定“第一个步骤”的条件，也没有规定“第二个步骤”的任务，而是把一切混在一起，开始是把皇族土地转交给不存在的“民主国家”掌握，继而是担心中央政权不民主而把地主土地转交给民主的地方自治机关掌握！",
+        "trigger": "long_nested",
+        "reader_block": "句子长且包含两个并列的批判点，中间用“而是”转折，读者容易混淆“第一个步骤”和“第二个步骤”的具体所指，以及“不存在的‘民主国家’”这一讽刺性表述的含义。",
+        "parse": {
+          "claim": "马斯洛夫的纲领混淆了不同革命阶段的任务，其方案在逻辑上自相矛盾：它先将土地交给一个当时并不存在的全国性民主机构，后又因不信任该机构而将土地交给地方机构。",
+          "qualifiers": "针对马斯洛夫纲领的具体内容，即关于皇族土地和地主土地的处理方式。",
+          "contrast_or_target": "马斯洛夫主张将皇族土地转交给“民主国家”，将地主土地转交给地方自治机关。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "具体揭露马斯洛夫纲领内部的逻辑混乱和脱离实际，通过指出其方案中两个步骤的矛盾，来证明该纲领无法作为行动指南。"
+        },
+        "implication": "一个有效的革命纲领必须清晰区分不同阶段的任务，并基于对现实政治力量的准确判断，而非幻想。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "马斯洛夫",
+      "their_view": "马斯洛夫的纲领方案主张：将皇族土地转交给一个全国性的民主国家机构管理；同时，由于不信任中央政权，将地主土地转交给民主的地方自治机关处理。",
+      "author_response": "列宁批判该纲领脱离现实，其设想的“民主国家”在当时并不存在，且方案内部逻辑矛盾，无法解决革命任务，因此不是革命的纲领。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p83s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p83s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p83s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p83s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p83s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p83s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "不是革命的",
+            "type": "concept",
+            "modern": "评价一个纲领或方案的性质，指其不具备推动革命进程、解决革命任务的属性。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "revolutionary_program"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 3,
+        "hs_kept": 1,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix",
+        "note:n1_overflow_metaphor_10>8"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 212,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "马克思摘录并批判巴枯宁对德国社会民主党纲领的指控，揭示其将政治斗争与社会革命割裂的逻辑，实质是为资产阶级服务。",
+    "importance_score": 2,
+    "importance_reason": "本段是马克思对巴枯宁核心论点的集中反驳，展示了双方在政治斗争与社会革命关系上的根本分歧。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对拉萨尔与俾斯麦联合的分析，转而剖析巴枯宁对德国社会民主党（马克思派）的批判，揭示其理论错误。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "refute_quotation"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "李卜克内西与德国社民党",
+        "explain": "威廉·李卜克内西是德国社会民主工党（爱森纳赫派）的主要创始人之一，与马克思、恩格斯关系密切。该党于1869年在爱森纳赫成立，后于1875年与拉萨尔派合并为德国社会主义工人党。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "纽伦堡代表大会",
+        "explain": "指1868年8月在纽伦堡召开的全德工人联合会代表大会。会上，李卜克内西等人推动通过了与第一国际建立联系的决议，这被视为德国社会民主党形成过程中的关键一步。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "第一次日内瓦代表大会",
+        "explain": "指1866年在日内瓦召开的国际工人协会（第一国际）第一次代表大会。会上通过了包含马克思起草的临时章程在内的基本文件，确立了协会的组织原则和初步纲领。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "巴枯宁",
+      "their_view": "德国社会民主党的纲领是马克思强加的，其核心是先进行政治革命（夺取普选权等），但这在社会革命之前进行，本质上就是资产阶级的运动，最终只会让工人阶级屈服于新的剥削。",
+      "author_response": "马克思通过摘录巴枯宁的完整论证，呈现其将政治斗争与社会革命机械对立、并由此否定一切政治行动的逻辑，为后续批判这种无政府主义观点提供文本依据。",
+      "polemic_kind": "counter_quotation",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p212s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p212s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p212s3",
+        "speaker": "editor",
+        "stance": "neutral_citation",
+        "notes": []
+      },
+      {
+        "sid": "p212s4",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p212s5",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": [
+          {
+            "surface": "纽伦堡代表大会",
+            "type": "event",
+            "modern": "1868年8月召开的全德工人联合会代表大会，会上通过了与第一国际联合的决议。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p212s6",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

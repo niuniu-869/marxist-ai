@@ -1,0 +1,129 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 82,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁通过列举具体人物与事件，揭露考茨基为机会主义者开脱的虚伪性，指出他们倒向帝国主义是长期形成的结果。",
+    "importance_score": 3,
+    "importance_reason": "本段是列宁对考茨基“一天之内”论的直接驳斥，通过具体史实论证机会主义的长期性，是核心批判的一部分。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对考茨基回避革命派与机会主义派斗争的批判，本段进一步用具体人物履历证明机会主义的形成是长期过程，而非考茨基所描绘的偶然事件。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_density",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "rhetorical",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "海德门",
+        "explain": "英国社会民主党人，第二国际领袖之一。大战爆发后支持英国参战，是列宁批判的“社会沙文主义”代表人物。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "瓦扬与饶勒斯派",
+        "explain": "瓦扬是法国社会党领袖。饶勒斯派是法国社会党内主张改良、反对革命的派别。列宁指瓦扬曾受该派影响。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "普列汉诺夫与孟什维克",
+        "explain": "普列汉诺夫是俄国马克思主义先驱，后成为孟什维克领袖。孟什维克是俄国社会民主工党内主张改良、反对武装起义的派别。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "盖得派与《社会主义》杂志",
+        "explain": "盖得派是法国工人党中的革命派，但后期思想僵化。《社会主义》杂志是其刊物，列宁批评其死气沉沉。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "米勒兰主义与伯恩施坦主义",
+        "explain": "米勒兰主义指法国社会党人米勒兰加入资产阶级政府，是机会主义实践。伯恩施坦主义是系统修正马克思主义的思潮，主张和平长入社会主义。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p82s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p82s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p82s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p82s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p82s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p82s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p82s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 2,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:eval_word:reader_block:极为",
+        "hs:claim_5gram_with_quote",
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

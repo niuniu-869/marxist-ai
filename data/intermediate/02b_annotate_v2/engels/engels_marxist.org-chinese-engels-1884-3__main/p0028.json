@@ -1,0 +1,147 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 28,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段介绍摩尔根基于亲属制度的新发现，提出通过亲属关系追溯家庭形式的方法，以此挑战麦克伦南的婚姻理论。",
+    "importance_score": 2,
+    "importance_reason": "本段提出通过亲属制度追溯家庭形式的新方法，为后续论证提供方法论基础，并直接针对麦克伦南的理论缺陷。",
+    "argument_role": "continues",
+    "argument_link": "上一段指出麦克伦南理论无法解释群婚制等新事实，本段则提出摩尔根的新方法如何系统性地解决这些缺陷。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "易洛魁人",
+        "explain": "北美印第安人的一支，摩尔根曾长期研究其社会结构，其亲属制度是摩尔根理论的关键经验材料。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "亲属制度",
+        "explain": "社会对亲属关系的分类和称谓体系，摩尔根认为它比婚姻形式更稳定，能反映更古老的社会关系。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      },
+      {
+        "topic": "群婚形式",
+        "explain": "原始社会的婚姻形态，指一群男子与一群女子互为夫妻，是家庭形式演进中的早期阶段。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p28s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "摩尔根",
+            "type": "person",
+            "modern": "美国人类学家，其著作《古代社会》是恩格斯本书的重要理论来源。",
+            "highlight": "person",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p28s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p28s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "美国联邦政府",
+            "type": "org",
+            "modern": "摩尔根借助其行政系统进行跨部落的民族学调查。",
+            "highlight": "org",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p28s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p28s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p28s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "《血亲制度和姻亲制度》",
+            "type": "work",
+            "modern": "摩尔根1871年出版的著作，系统呈现了其关于亲属制度的研究成果。",
+            "highlight": "work",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p28s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p28s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 3,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote",
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

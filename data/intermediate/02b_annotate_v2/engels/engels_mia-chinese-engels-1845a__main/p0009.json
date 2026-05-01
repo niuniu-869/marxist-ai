@@ -1,0 +1,134 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 9,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "恩格斯以法国大革命为例，论证民主和民族友爱等口号在实际运动中已具有社会意义，反驳将其局限于纯政治范畴的观点。",
+    "importance_score": 2,
+    "importance_reason": "用法国大革命的具体史实，论证政治口号的社会内涵，支撑对“真正社会主义”的批判。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对“真正社会主义”脱离实际运动的批判，进一步用历史实例阐明实际运动中的口号具有社会意义。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "法国大革命的社会性",
+        "explain": "法国大革命不仅是政治变革，更涉及粮食分配、限价令、社会平等诉求等社会经济内容。1793年宪法和恐怖统治体现了无产阶级的早期斗争。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "德国的“真正社会主义”者",
+      "their_view": "他们认为民主和民族友爱等口号只具有争取国家形式的政治意义。",
+      "author_response": "恩格斯指出这些口号在实际运动中已具有社会意义，政治意义已溶于社会意义之中。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p9s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p9s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p9s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p9s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p9s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p9s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "1793年宪法",
+            "type": "event",
+            "modern": "法国大革命期间由山岳派主导制定的共和宪法",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "恐怖统治",
+            "type": "event",
+            "modern": "1793-1794年雅各宾派专政时期的激进政策",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "罗伯斯比尔",
+            "type": "person",
+            "modern": "雅各宾派领袖，法国大革命关键人物",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "巴贝夫",
+            "type": "person",
+            "modern": "法国早期共产主义者，主张平等",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p9s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 4,
+        "notes_dropped": 3,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

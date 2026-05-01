@@ -1,0 +1,171 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 48,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段批判不可知论，指出其自然观实质是唯物主义，但不可知论者关于世界之外可能存在最高存在物的说法在现代科学概念下已无意义且自相矛盾。",
+    "importance_score": 2,
+    "importance_reason": "本段通过批判不可知论，强化唯物主义自然观，为科学社会主义提供哲学基础。",
+    "argument_role": "continues",
+    "argument_link": "本段承接上段对宗教怀疑论的讨论，具体分析不可知论的哲学立场，揭露其内在矛盾。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_density",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "拉普拉斯与拿破仑",
+        "explain": "拉普拉斯是18-19世纪法国天文学家，其著作《天体力学》用数学解释天体运动，未提及造物主。拿破仑曾质问为何不提上帝，拉普拉斯以'我不需要这个假说'回应。",
+        "why_needed": "history_density",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p48s5",
+        "quote": "这种说法在拿破仑那个时代也许还有点意思，那时拉普拉斯对拿破仑的关于这位伟大天文学家的《天体力学》［①］为何只字不提造物主这个问题，曾骄傲地回答：“我不需要这个假说”。",
+        "trigger": "allusion",
+        "reader_block": "引用拉普拉斯与拿破仑的对话，读者若不知此典故，难以理解'这种说法'指什么。",
+        "parse": {
+          "claim": "在19世纪初，关于世界之外是否存在造物主的讨论还有一定意义，因为当时科学尚未完全排除神学假设。",
+          "qualifiers": "在拿破仑时代，科学解释还不完备。",
+          "contrast_or_target": "不可知论者认为无法肯定或否定最高存在物，但恩格斯指出这种观点在现代已过时。"
+        },
+        "why": {
+          "relation": "example",
+          "explanation": "本句用历史典故说明不可知论观点的时代局限性，对比现代科学概念。"
+        },
+        "implication": "随着科学发展，造物主假说已无必要。",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p48s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "不可知论",
+            "type": "concept",
+            "modern": "一种哲学立场，认为人类无法确知世界本质或超自然存在",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "agnosticism_philosophical"
+          },
+          {
+            "surface": "唯物主义",
+            "type": "concept",
+            "modern": "主张物质是世界本原的哲学观点",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "materialism_philosophical"
+          },
+          {
+            "surface": "羞羞答答的",
+            "type": "metaphor",
+            "modern": "形容不可知论不愿公开承认其唯物主义实质",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p48s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p48s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p48s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p48s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "拉普拉斯",
+            "type": "person",
+            "modern": "法国天文学家，提出太阳系起源的星云假说",
+            "highlight": "person",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "拿破仑",
+            "type": "person",
+            "modern": "法兰西第一帝国皇帝",
+            "highlight": "person",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "《天体力学》",
+            "type": "work",
+            "modern": "拉普拉斯的天文学著作，用数学描述天体运动",
+            "highlight": "work",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p48s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p48s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 6,
+        "notes_dropped": 1,
+        "hs_kept": 1,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

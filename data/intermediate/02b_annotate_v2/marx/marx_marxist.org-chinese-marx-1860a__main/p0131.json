@@ -1,0 +1,82 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 131,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "转述巴枯宁设想的无国家未来图景，并指出其内在矛盾。",
+    "importance_score": 1,
+    "importance_reason": "转述并讽刺巴枯宁的未来社会设想，服务于对无政府主义的批判。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对巴枯宁经济均等化主张的批判，进一步展示其未来社会设想中的矛盾。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "巴枯宁的无政府主义未来观",
+        "explain": "巴枯宁主张彻底破坏一切国家，在废墟上建立自下而上的自由联合。他认为这种联合能消除一切不平等。马克思在此转述并讽刺这一设想。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "巴枯宁",
+      "their_view": "彻底破坏国家后，人们能自由联合，消除一切不平等。",
+      "author_response": "指出即使在自由联合中，地理优势仍会导致不平等，沿海居民会成为贵族。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p131s1",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": [
+          {
+            "surface": "无政府状态",
+            "type": "concept",
+            "modern": "巴枯宁主张的彻底废除国家、建立自由联合的状态。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "anarchism_theory"
+          },
+          {
+            "surface": "人类的贵族",
+            "type": "metaphor",
+            "modern": "马克思讽刺巴枯宁设想中，沿海居民因地理优势而成为事实上的特权阶层。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_6>5",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

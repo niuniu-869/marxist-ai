@@ -1,0 +1,151 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 5,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段通过引用恩格斯对布朗基派和杜林的批判，阐明工人政党在宗教问题上应采取的策略：反对空洞的反宗教宣战，主张通过阶级斗争使宗教自然消亡。",
+    "importance_score": 3,
+    "importance_reason": "核心段落，通过恩格斯的权威论述，系统批判了在宗教问题上两种错误的“革命”姿态，确立了正确的策略原则。",
+    "argument_role": "continues",
+    "argument_link": "承接上段确立的辩证唯物主义无神论立场，本段转向实践策略层面，论证为何不能将这种哲学立场直接转化为政治纲领上的反宗教宣战。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_density",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "布朗基派",
+        "explain": "以法国革命家布朗基命名的派别，主张少数革命家通过密谋和暴力夺权，常带有强烈的无政府主义和反教权色彩。",
+        "why_needed": "history_density",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "杜林与《反杜林论》",
+        "explain": "恩格斯为批判德国哲学家杜林的折衷主义体系而作，系统阐述了马克思主义哲学、政治经济学和科学社会主义。",
+        "why_needed": "history_density",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "俾斯麦“文化斗争”",
+        "explain": "19世纪70年代，俾斯麦政府为打击天主教会势力、巩固帝国权威而发起的反教权运动，手段包括警察迫害，最终失败并巩固了教权主义。",
+        "why_needed": "history_density",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "爱尔福特纲领",
+        "explain": "1891年德国社会民主党通过的纲领，其中“宣布宗教为私人的事情”成为该党处理宗教问题的著名政治策略原则。",
+        "why_needed": "history_density",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p5s3",
+        "quote": "恩格斯斥责布朗基派不了解只有工人群众的阶级斗争从各方面吸引了最广大的无产阶级群众参加自觉的革命的社会实践，才能真正把被压迫的群众从宗教的压迫下解放出来，因此宣布工人政党的政治任务是同宗教作战，不过是无政府主义的空谈而已。",
+        "trigger": "long_nested",
+        "reader_block": "句子结构复杂，包含多重条件从句和因果判断，读者容易迷失其核心论点，即“解放”与“宣战”的关系。",
+        "parse": {
+          "claim": "将宗教压迫下的群众解放出来的唯一有效途径，是吸引他们广泛参与阶级斗争这一革命实践。",
+          "qualifiers": "解放的条件是群众通过阶级斗争获得自觉的革命实践，而非外部强制。",
+          "contrast_or_target": "布朗基派主张将工人政党的政治任务直接设定为向宗教宣战。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "本句直接批判布朗基派的策略，指出其脱离阶级斗争实际，将反宗教斗争抽象化、政治化，本质上是无政府主义的空谈。"
+        },
+        "implication": "工人政党在宗教问题上的首要任务是组织阶级斗争，而非直接进行政治或思想上的反宗教战争。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "布朗基派、杜林",
+      "their_view": "工人政党应将向宗教宣战作为直接的政治任务；在社会主义社会中应禁止宗教存在，这是革命的。",
+      "author_response": "恩格斯斥责这是无政府主义的空谈和重复俾斯麦的蠢举，真正的解放在于通过阶级斗争吸引群众参与革命实践，使宗教自然消亡。",
+      "polemic_kind": "strategic_critique",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p5s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p5s2",
+        "speaker": "quoted_engels",
+        "stance": "endorsed",
+        "notes": []
+      },
+      {
+        "sid": "p5s3",
+        "speaker": "quoted_engels",
+        "stance": "endorsed",
+        "notes": []
+      },
+      {
+        "sid": "p5s4",
+        "speaker": "quoted_engels",
+        "stance": "endorsed",
+        "notes": []
+      },
+      {
+        "sid": "p5s5",
+        "speaker": "quoted_engels",
+        "stance": "endorsed",
+        "notes": []
+      },
+      {
+        "sid": "p5s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p5s7",
+        "speaker": "quoted_engels",
+        "stance": "endorsed",
+        "notes": []
+      },
+      {
+        "sid": "p5s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p5s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 1,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

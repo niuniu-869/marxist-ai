@@ -1,0 +1,109 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 40,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁在宣布停战建议的同时，向欧洲主要国家的工人阶级发出国际主义呼吁，号召他们支持俄国革命。",
+    "importance_score": 1,
+    "importance_reason": "本段是连接停战建议与国际呼吁的过渡，旨在将俄国革命与欧洲工人运动传统联系起来，但非核心论点。",
+    "argument_role": "continues",
+    "argument_link": "本段延续上一段关于向各国人民呼吁的论述，具体点明了呼吁的对象——欧洲主要国家的工人阶级，并援引其斗争历史以建立共鸣。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "英国宪章运动",
+        "explain": "19世纪30-40年代英国工人阶级为争取普选权等政治权利发起的大规模群众运动，是早期工人运动的重要标志。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "法国工人起义",
+        "explain": "指19世纪法国工人阶级多次发动的武装起义，如1832年、1848年六月起义等，展现了工人阶级的革命力量。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "反社会党人非常法",
+        "explain": "1878-1890年德国俾斯麦政府颁布的旨在镇压社会主义运动和工人组织的特别法令，德国工人在其压迫下坚持斗争并壮大了组织。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p40s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p40s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "宪章运动",
+            "type": "event",
+            "modern": "19世纪30-40年代英国工人阶级要求普选权的全国性政治运动。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "阶级觉悟",
+            "type": "concept",
+            "modern": "工人阶级对自身阶级地位、历史使命及与资产阶级根本对立的认识。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "class_consciousness"
+          },
+          {
+            "surface": "反社会党人非常法",
+            "type": "event",
+            "modern": "1878-1890年德国政府为镇压社会主义运动而实施的特别法令。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 3,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_6>5"
+      ]
+    }
+  ]
+}

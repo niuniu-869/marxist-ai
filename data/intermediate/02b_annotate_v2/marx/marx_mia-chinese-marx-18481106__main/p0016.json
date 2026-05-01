@@ -1,0 +1,104 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 16,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "作者指出维也纳反革命的胜利，其前提是巴黎反革命对革命的镇压，并通过反问引出对巴黎六月事件的分析。",
+    "importance_score": 2,
+    "importance_reason": "本段通过建立维也纳与巴黎事件的因果联系，将奥地利的反革命置于更广阔的欧洲阶级斗争背景下，为后续分析提供关键论据。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对维也纳事件的分析，将视野扩展到欧洲其他革命中心，揭示反革命势力间的相互支持。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "克罗地亚军队与维也纳",
+        "explain": "1848年，奥地利帝国境内的克罗地亚人被反动派利用，其军队成为镇压维也纳革命的主要力量。所谓“秩序和自由”是反动派的口号。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "“正直的”共和国",
+        "explain": "此处是反讽，指1848年法国第二共和国。该共和国政府在同年六月血腥镇压了巴黎工人的起义。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "“六月的日子”",
+        "explain": "特指1848年6月23日至26日的巴黎工人起义及其被资产阶级共和国军队镇压的事件。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p16s1",
+        "quote": "“克罗地亚的秩序和自由”在维也纳的胜利是以“正直的”共和国在巴黎的胜利为先决条件的。",
+        "trigger": "inverted_logic",
+        "reader_block": "反讽用语（“秩序和自由”、“正直的”）与隐含的因果逻辑结合，读者可能无法识别其讽刺意味，也难以理解巴黎事件如何成为维也纳事件的前提。",
+        "parse": {
+          "claim": "维也纳反革命的得逞，其前提是巴黎反革命对革命的镇压。",
+          "qualifiers": "特指1848年10月维也纳起义被镇压与同年6月巴黎工人起义被镇压这两个具体事件。",
+          "contrast_or_target": ""
+        },
+        "why": {
+          "relation": "continues",
+          "explanation": "本句将维也纳的失败与巴黎的事件联系起来，延续了上段对维也纳事件的分析，并将其置于欧洲阶级斗争的整体格局中。"
+        },
+        "implication": "欧洲各国的反革命势力是相互勾结、彼此支持的。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      },
+      {
+        "anchor": "p16s2",
+        "quote": "谁在六月的日子里取得了胜利呢？",
+        "trigger": "inverted_logic",
+        "reader_block": "这是一个反问句，读者需要知道“六月的日子”指代什么事件，并理解作者通过反问要引出的答案（即资产阶级镇压了工人）。",
+        "parse": {
+          "claim": "在巴黎六月起义中取得胜利的是反革命势力。",
+          "qualifiers": "特指1848年6月巴黎的事件。",
+          "contrast_or_target": ""
+        },
+        "why": {
+          "relation": "none",
+          "explanation": ""
+        },
+        "implication": "作者即将揭示巴黎六月事件的阶级本质，即资产阶级对无产阶级的镇压。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "资产阶级",
+      "their_view": "资产阶级能够领导革命取得胜利，并维护包括自身在内的公民自由。",
+      "author_response": "实际上，资产阶级在巴黎六月事件中暴露了其反革命本质，它镇压了工人阶级，从而为欧洲其他地区的反革命铺平了道路。",
+      "polemic_kind": "reveals_class_basis",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p16s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p16s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  }
+}

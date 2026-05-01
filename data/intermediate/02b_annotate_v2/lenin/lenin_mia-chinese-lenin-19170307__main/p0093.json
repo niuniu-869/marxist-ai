@@ -1,0 +1,97 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 93,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁批评某号召书对新政府的描述，指出其本质是帝国主义战争的代理人，旨在巩固地主资本家统治。",
+    "importance_score": 2,
+    "importance_reason": "本段是列宁分析二月革命后临时政府阶级性质的核心论断，为后续策略主张提供前提。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对两种政治主张的概述，具体剖析并批判其中一种主张对新政府的定性。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "孟什维克等派别（通过其号召书）",
+      "their_view": "新政府是由“稳健的人士”组成的，因此是值得信赖和合作的对象。",
+      "author_response": "列宁指出这种描述是自由主义的、非马克思主义的，它掩盖了政府继续帝国主义战争、充当外国资本代理人以及维护国内剥削阶级统治的实质。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p93s1",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p93s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "自由主义",
+            "type": "concept",
+            "modern": "此处特指资产阶级的政治立场与话语体系，与无产阶级的马克思主义分析相对立。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "liberalism_bourgeois"
+          }
+        ]
+      },
+      {
+        "sid": "p93s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "稳健的",
+            "type": "concept",
+            "modern": "列宁在此处承认该词在特定语境下（即革命第一阶段后）的某种合理性，但强调不能用它来掩盖政府的阶级实质。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "moderate_political"
+          }
+        ]
+      },
+      {
+        "sid": "p93s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 4,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "note:n1_overflow_concept_6>5",
+        "note:n1_overflow_concept_8>5",
+        "note:n1_overflow_concept_8>5",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

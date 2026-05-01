@@ -1,0 +1,71 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 96,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段指责拉萨尔为掩盖其与反动势力的联盟而故意曲解《共产党宣言》。",
+    "importance_score": 2,
+    "importance_reason": "揭露拉萨尔策略的虚伪性，是核心批判中对论敌人身与动机的直接攻击。",
+    "argument_role": "continues",
+    "argument_link": "承接上文对拉萨尔主义错误观点的批判，进一步揭露拉萨尔本人为达成政治联盟而故意曲解理论的行为。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "rhetorical",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p96s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "福音书",
+            "type": "metaphor",
+            "modern": "拉萨尔的著作被其信徒奉为绝对真理",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p96s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote",
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

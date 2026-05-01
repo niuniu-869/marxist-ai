@@ -1,0 +1,178 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 7,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "以英国宪章运动的历史成就为例，论证工人政治组织的潜在力量，并批评英国工人依赖其他阶级的现状。",
+    "importance_score": 3,
+    "importance_reason": "核心论证段，通过具体历史事例（宪章运动）支撑上一段关于工人政党必要性的论点，并直接呼吁英国工人行动。",
+    "argument_role": "example",
+    "argument_link": "承接上一段关于工人政党是唯一真正民主政党的论断，本段用英国宪章运动的历史成果作为具体例证，证明工人政治组织即使瓦解也能推动改革，从而强化建立强大工人政党的必要性。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "英国宪章运动",
+        "explain": "19世纪30-40年代英国工人阶级掀起的大规模政治运动，核心诉求是《人民宪章》提出的六点政治改革要求，旨在争取普选权等政治权利。运动虽最终失败，但其纲领的部分内容后来被英国政府逐步采纳。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "激进派",
+        "explain": "19世纪英国议会中主张改革的派别，成员多为中产阶级。恩格斯在此指他们利用工人的支持推动自身议程，却未能真正代表工人阶级的根本利益，是一种政治欺骗。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p7s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p7s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "宪章派",
+            "type": "org",
+            "modern": "19世纪英国工人阶级为争取《人民宪章》而组织的政治运动团体。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "激进派",
+            "type": "social_group",
+            "modern": "19世纪英国议会中主张改革的中产阶级政治派别。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p7s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p7s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "人民宪章的六点",
+            "type": "program_clause",
+            "modern": "英国宪章运动提出的六项核心政治改革要求。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p7s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "户主选举法",
+            "type": "event",
+            "modern": "1867年英国议会改革法案，扩大了部分城市工人的选举权，但保留了财产资格限制。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p7s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p7s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p7s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p7s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p7s10",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p7s11",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p7s12",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p7s13",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 4,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 2,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

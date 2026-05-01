@@ -1,0 +1,73 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 26,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁批评米雅斯尼科夫背离了阶级分析方法，转而采取一种非阶级的、温情主义的立场。",
+    "importance_score": 2,
+    "importance_reason": "本段是列宁对米雅斯尼科夫核心错误的定性，直接点明其思想方法上的根本问题，是论证的关键环节。",
+    "argument_role": "contrasts",
+    "argument_link": "承接上段对出版自由建议的拒绝，本段进一步剖析对方提出该建议时所依据的错误思想方法。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p26s1",
+        "quote": "您怎么会从阶级估量出发，即从估量一切阶级之间的关系出发，堕落到采取温情主义庸人的观点呢？",
+        "trigger": "inverted_logic",
+        "reader_block": "反问句式加上“堕落到”这种强烈贬义，读者可能不理解列宁为何如此严厉，以及“温情主义庸人”具体指什么立场。",
+        "parse": {
+          "claim": "列宁认为，米雅斯尼科夫本应从阶级关系出发分析问题，却背离了这一正确方法。",
+          "qualifiers": "无。",
+          "contrast_or_target": "米雅斯尼科夫可能认为，出版自由是揭露官僚主义的有效工具，其价值超越了阶级限制。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "本句直接反驳米雅斯尼科夫的立场，指出其建议（出版自由）背后的思想方法错误，即放弃了阶级估量这一根本原则。"
+        },
+        "implication": "列宁暗示，任何政治主张（如出版自由）都必须首先置于阶级斗争的框架下评估其对无产阶级专政的影响。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "米雅斯尼科夫",
+      "their_view": "出版自由是揭露和纠正党内弊病的有效工具，其价值不应受阶级立场的限制。",
+      "author_response": "列宁指出，这种观点忽视了出版自由的阶级属性，放弃了阶级估量这一根本方法，会危害无产阶级专政。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p26s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "温情主义庸人",
+            "type": "metaphor",
+            "modern": "列宁用此贬称那些脱离阶级斗争现实、用抽象道德或情感评判政治问题的人。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p26s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  }
+}

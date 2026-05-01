@@ -1,0 +1,258 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 22,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁以讽刺手法，从临时政府不能公布秘密条约这一事实出发，推导出两种截然相反的行动结论，并揭露其战争政策的掠夺本质。",
+    "importance_score": 3,
+    "importance_reason": "核心批判段落，通过逻辑推演和反讽，直接攻击临时政府战争政策的合法性基础，为“变帝国主义战争为国内战争”的口号提供具体论据。",
+    "argument_role": "continues",
+    "argument_link": "承接上段沃多沃佐夫揭露秘密条约的事实，本段进一步分析“不能公布”这一前提所蕴含的两种政治选择，并讽刺临时政府支持者的逻辑。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "米留可夫与领土扩张",
+        "explain": "米留可夫是临时政府外交部长，其著作公开主张俄国应占领君士坦丁堡、海峡、亚美尼亚等地。这与临时政府宣称的“保卫祖国”形成讽刺性对照，是列宁揭露其帝国主义战争性质的关键证据。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "沃多沃佐夫与《日报》",
+        "explain": "沃多沃佐夫是民主派记者，在孟什维克影响的《日报》上撰文揭露了与罗马尼亚的秘密条约。列宁引用他，意在说明连非布尔什维克的诚实民主主义者也承认条约存在，从而孤立临时政府。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p22s1",
+        "quote": "是的，条约是不能公布的，因为你们都是同一伙中的强盗。",
+        "trigger": "inverted_logic",
+        "reader_block": "表面是同意“不能公布”的说法，但理由（“强盗”）完全颠覆了临时政府的辩护逻辑，读者需识别这种反讽。",
+        "parse": {
+          "claim": "列宁同意条约无法公开，但指出其根本原因在于签署者是掠夺成性的同伙。",
+          "qualifiers": "针对临时政府及协约国。",
+          "contrast_or_target": "临时政府以“军事机密”为由拒绝公布条约。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "以反讽方式接受对方前提，但立即注入阶级定性（强盗），为后续推翻其结论做铺垫。"
+        },
+        "implication": "既然签署者是强盗，那么基于他们“不能公布”的说法而采取的任何行动（如继续战争）都是错误的。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "临时政府及其支持者（米留可夫、捷列先科、民粹主义者、孟什维克部长）",
+      "their_view": "条约因军事机密不能公布，因此工人阶级应信任政府，并支持其继续进行战争以保卫祖国。",
+      "author_response": "列宁指出，不能公布恰恰证明了战争的掠夺性，正确的结论不是支持战争，而是推翻进行掠夺战争的资本家政府。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p22s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "强盗",
+            "type": "metaphor",
+            "modern": "列宁用此词定性签署秘密条约的帝国主义政府及其本国资产阶级，强调其掠夺本质。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p22s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "米留可夫",
+            "type": "person",
+            "modern": "时任临时政府外交部长，立宪民主党领袖，主张俄国帝国主义扩张。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "捷列先科",
+            "type": "person",
+            "modern": "时任临时政府财政部长，代表资产阶级利益。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p22s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p22s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p22s5",
+        "speaker": "quoted_opponent",
+        "stance": "cited",
+        "notes": []
+      },
+      {
+        "sid": "p22s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p22s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p22s8",
+        "speaker": "quoted_opponent",
+        "stance": "cited",
+        "notes": [
+          {
+            "surface": "孟什维克",
+            "type": "org",
+            "modern": "俄国社会民主工党内的一派，主张资产阶级民主革命阶段，支持临时政府。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p22s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p22s10",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p22s11",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p22s12",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p22s13",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "沃多沃佐夫",
+            "type": "person",
+            "modern": "民主派记者，在《日报》上揭露了与罗马尼亚的秘密条约。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "《真理报》",
+            "type": "work",
+            "modern": "布尔什维克党中央机关报，当时被临时政府多次查封。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p22s14",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p22s15",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p22s16",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p22s17",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p22s18",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p22s19",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p22s20",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 6,
+        "notes_dropped": 3,
+        "hs_kept": 1,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

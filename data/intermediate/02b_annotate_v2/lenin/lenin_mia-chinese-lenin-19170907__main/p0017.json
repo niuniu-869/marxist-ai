@@ -1,0 +1,89 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 17,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列举1917年俄国革命中的具体事例，论证妥协政策未能触动旧国家机器，反而导致反革命势力坐大，并指出克伦斯基政府在科尔尼洛夫叛乱后仍延续此路线。",
+    "importance_score": 2,
+    "importance_reason": "用具体历史事例支撑上一段对妥协政策的批判，是核心论点的实证环节。",
+    "argument_role": "example",
+    "argument_link": "承接上段对社会革命党人和孟什维克领袖“在旧皮囊里装新酒”的批判，本段用1917年俄国革命中的具体人事变动和军事状况作为例证。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_density",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "切尔诺夫、帕尔钦斯基、彼舍霍诺夫",
+        "explain": "切尔诺夫是社会革命党领袖，曾任临时政府农业部长；帕尔钦斯基是工业家，曾任临时政府工业部长；彼舍霍诺夫是孟什维克，曾任临时政府粮食部长。他们出任部长是妥协派与资产阶级联合执政的体现。",
+        "why_needed": "history_density",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "科尔尼洛夫叛乱与克伦斯基",
+        "explain": "科尔尼洛夫是俄军总司令，1917年8月发动旨在镇压革命的叛乱。克伦斯基是临时政府首脑，叛乱失败后，他非但未清洗叛军，反而继续任用其同僚，被列宁视为纵容反革命。",
+        "why_needed": "history_density",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p17s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p17s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p17s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p17s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote",
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

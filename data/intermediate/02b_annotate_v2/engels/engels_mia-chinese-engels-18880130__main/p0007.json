@@ -1,0 +1,79 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 7,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "恩格斯评价拉萨尔，指出其虽自认马克思弟子，但实际政治主张与《宣言》纲领存在差距。",
+    "importance_score": 1,
+    "importance_reason": "对具体社会主义流派代表人物的定位，为理解德国工人运动内部差异提供参照。",
+    "argument_role": "contrasts",
+    "argument_link": "承接上段对第一国际的讨论，转而评价德国社会主义者拉萨尔，展示其主张与《宣言》纲领的差距。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "拉萨尔及其主张",
+        "explain": "拉萨尔是19世纪德国工人运动领袖，主张通过普选权和国家贷款建立工人生产合作社，以和平方式实现社会主义，其路线与马克思强调的阶级斗争和暴力革命有根本区别。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "共动工场",
+        "explain": "指拉萨尔设想的由国家提供信贷支持、工人自主管理的生产合作社，是其改良主义经济纲领的核心。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "拉萨尔",
+      "their_view": "自认为是马克思的弟子，其政治运动的核心是要求国家通过信用机构提供贷款，以支持建立工人生产合作社。",
+      "author_response": "恩格斯承认拉萨尔在理论基础上与《宣言》有渊源，但指出其具体政治纲领（国家贷款建合作社）与《宣言》的革命主张存在实质差距。",
+      "polemic_kind": "strategic_critique",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p7s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "拉撒尔",
+            "type": "person",
+            "modern": "19世纪德国工人运动领袖，全名斐迪南·拉萨尔，其思想与实践对德国社会民主党有重要影响。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p7s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "共动工场",
+            "type": "concept",
+            "modern": "拉萨尔纲领的核心经济主张，即由国家提供信贷建立工人合作社，以此取代资本主义雇佣劳动。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "cooperative_workshop_state_credit"
+          }
+        ]
+      }
+    ]
+  }
+}

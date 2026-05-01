@@ -1,0 +1,160 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 111,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段定义劳动力价值的构成要素，并批判在雇佣劳动制度下追求工资平等的观点。",
+    "importance_score": 2,
+    "importance_reason": "本段是马克思对劳动力价值进行具体阐述的核心部分，并由此引出对改良主义经济要求的批判。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段对“劳动力的价值是什么”的提问，本段给出了具体答案，并以此为基础展开对工资平等要求的批判。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p111s15",
+        "quote": "问题就在于：一定的生产制度所必需的和不可避免的东西是什么？",
+        "trigger": "inverted_logic",
+        "reader_block": "反问句式。读者可能将其理解为一个开放性问题，但其修辞意图是强调：评判标准不应是主观的“公道”，而应是客观的制度逻辑。",
+        "parse": {
+          "claim": "分析问题的关键，在于揭示特定生产制度（如雇佣劳动制度）客观决定的、必然产生的结果是什么。",
+          "qualifiers": "此判断针对“公道和公平”这类主观道德评价。",
+          "contrast_or_target": "针对那些用“公道”“公平”等道德观念来评判经济关系的观点。"
+        },
+        "why": {
+          "relation": "conclusion",
+          "explanation": "本句是前文批判的总结，将讨论从主观道德评判拉回到对客观经济规律的分析，为后续深入剖析资本主义生产关系奠定方法论基础。"
+        },
+        "implication": "对资本主义的批判应基于对其内在经济规律的科学分析，而非道德谴责。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "要求工资平等的观点",
+      "their_view": "工人应当获得平等的或公平的报酬，这是公道和公平的。",
+      "author_response": "在雇佣劳动制度下，不同劳动力价值不同，价格也应不同；要求平等报酬如同在奴隶制下要求自由，是脱离生产制度的空想。评判标准应是制度本身的必然性，而非主观的公平观念。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p111s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p111s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p111s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p111s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p111s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p111s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p111s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p111s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p111s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p111s10",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p111s11",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p111s12",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p111s13",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p111s14",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p111s15",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 2,
+        "hs_kept": 1,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_6>5",
+        "note:n1_overflow_concept_6>5",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

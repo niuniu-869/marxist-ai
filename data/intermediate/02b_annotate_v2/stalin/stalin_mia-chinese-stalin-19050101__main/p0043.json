@@ -1,0 +1,110 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 43,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段用军队比喻总结前文，论证无产阶级政党必须是团结一致的组织，并据此给出党员的明确定义。",
+    "importance_score": 2,
+    "importance_reason": "本段是前文论证的总结与收束，将抽象的组织原则具体化为党员资格的明确标准，是全文论点的落脚点之一。",
+    "argument_role": "conclusion",
+    "argument_link": "承接上段关于采纳列宁条文的呼吁，本段通过比喻和逻辑推演，最终得出只有在组织中工作的人才是党员的结论，为采纳列宁条文提供了直接的理论依据。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p43s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p43s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "无产者大军",
+            "type": "metaphor",
+            "modern": "在1905年革命前夕，俄国工业无产阶级作为一支独立的政治力量登上历史舞台。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p43s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p43s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "俄国社会民主工党",
+            "type": "org",
+            "modern": "1898年成立的俄国马克思主义政党，1903年分裂为布尔什维克和孟什维克两派。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p43s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p43s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p43s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

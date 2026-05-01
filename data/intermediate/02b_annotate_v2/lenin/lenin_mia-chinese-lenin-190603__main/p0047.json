@@ -1,0 +1,61 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 47,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "概括了两种反对修改土地纲领的立场：一种认为没收分割大地产不符合社会民主党原则，另一种认为纲领中不应提没收。",
+    "importance_score": 2,
+    "importance_reason": "概括了反对修改纲领的两种主要理论依据，为后续反驳做铺垫。",
+    "argument_role": "continues",
+    "argument_link": "承接上段提出的考察任务，具体概括了两种反对修改纲领的立场。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "拥护现行纲领或类似罗日柯夫建议的人",
+      "their_view": "从社会民主党观点看，根本不能支持没收大地产并将其分割；或者，纲领中决不能提没收，只能在策略性决议中提及。",
+      "author_response": "列宁将概括这两种观点，作为他接下来要系统批驳的靶子。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p47s1",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p47s2",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

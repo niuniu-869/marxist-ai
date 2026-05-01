@@ -1,0 +1,115 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 138,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "通过鞋匠的亲身经历，展示小资产阶级梦想破灭后产生无产阶级意向的过程。",
+    "importance_score": 1,
+    "importance_reason": "用具体人物经历例证前段理论观点。",
+    "argument_role": "example",
+    "argument_link": "本段用鞋匠的实例，具体展示了前段提出的“外部条件变化导致意识变化”这一原理。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p138s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p138s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "无产阶级化",
+            "type": "concept",
+            "modern": "从拥有少量生产资料的小生产者沦为完全靠出卖劳动力为生的现代产业工人",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "proletarianization_process"
+          }
+        ]
+      },
+      {
+        "sid": "p138s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "无产阶级化了的鞋匠",
+            "type": "social_group",
+            "modern": "已失去生产资料、靠工资为生的鞋匠",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p138s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p138s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "无产者",
+            "type": "concept",
+            "modern": "现代工业社会中不占有生产资料、依靠出卖劳动力获取工资的劳动者",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "proletarian_modern"
+          }
+        ]
+      },
+      {
+        "sid": "p138s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 3,
+        "notes_dropped": 2,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_8>5",
+        "note:n1_overflow_concept_7>5"
+      ]
+    }
+  ]
+}

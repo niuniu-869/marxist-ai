@@ -1,0 +1,79 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 191,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段作为结论，通过分析立宪民主党报刊对孟什维克的赞扬，论证孟什维克的立场正在偏离无产阶级。",
+    "importance_score": 2,
+    "importance_reason": "这是对前文分析的总结，通过外部反应（资产阶级报刊的赞扬）来论证内部错误，是核心批判的一部分。",
+    "argument_role": "conclusion",
+    "argument_link": "承接上段对布兰克观点的分析，由此推论孟什维克的立场错误，并以资产阶级报刊的反应作为证据。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "孟什维克",
+      "their_view": "主张参加杜马选举，并在选举中保持工人政党的独立性或进行革命自治。",
+      "author_response": "他们的立场正被资产阶级报刊普遍赞扬，这本身就证明他们正在犯或准备犯错误，其政策客观上符合资产阶级利益。",
+      "polemic_kind": "reveals_class_basis",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p191s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p191s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p191s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p191s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p191s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

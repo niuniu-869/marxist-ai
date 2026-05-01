@@ -1,0 +1,132 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 34,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段论证苏维埃是唯一合法的革命政府，并指导布尔什维克在苏维埃中处于少数时的工作方法。",
+    "importance_score": 3,
+    "importance_reason": "核心段落，确立了布尔什维克在二月革命后权力结构中的根本立场和工作路线。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段关于在苏维埃中处于少数时的工作策略，进一步明确苏维埃的政权性质，并具体化如何应对内部的错误倾向。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "allusion",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "巴黎公社",
+        "explain": "1871年巴黎工人起义后建立的政权，是历史上第一个无产阶级政权的尝试，存在时间很短。列宁将其视为苏维埃政权的历史先驱。",
+        "why_needed": "allusion",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "护国派分子",
+        "explain": "指在苏维埃中支持临时政府继续参与第一次世界大战的派别，包括孟什维克和社会革命党的多数成员。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "metadata"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p34s2",
+        "quote": "不这样想就是犯无政府主义错误。",
+        "trigger": "inverted_logic",
+        "reader_block": "双重否定结构（“不这样想”+“犯错误”），且“无政府主义”在此有特定政治含义，读者易误解为字面意义上的无政府状态。",
+        "parse": {
+          "claim": "将工人代表苏维埃视为真正的政府，是唯一正确的政治立场。",
+          "qualifiers": "此判断基于二月革命后苏维埃与临时政府并存的特定权力格局。",
+          "contrast_or_target": "反对那些不承认苏维埃是唯一合法政权，或试图绕过苏维埃去建立其他权力形式的观点。"
+        },
+        "why": {
+          "relation": "definition",
+          "explanation": "为“真正的政府是工人代表苏维埃”这一论断提供反面论证，通过否定错误立场来强化正确立场的唯一性。"
+        },
+        "implication": "任何脱离或轻视苏维埃这一实际权力机构的革命策略，都被列宁视为脱离实际的空想。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "护国派分子",
+      "their_view": "在苏维埃中占据多数的护国派分子认为，他们的革命战术（即支持临时政府和继续战争）是正确的。",
+      "author_response": "列宁认为这种战术是错误的，布尔什维克必须系统地、耐心地向群众解释其错误所在，以争取群众转向支持苏维埃掌权。",
+      "polemic_kind": "strategic_critique",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p34s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p34s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "无政府主义",
+            "type": "concept",
+            "modern": "列宁在此特指脱离苏维埃这一实际权力机构，幻想通过其他方式（如直接起义或建立平行组织）进行革命的错误倾向。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "anarchism_political"
+          }
+        ]
+      },
+      {
+        "sid": "p34s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p34s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p34s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p34s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 4,
+        "hs_kept": 1,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "note:eval_word:伟大",
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

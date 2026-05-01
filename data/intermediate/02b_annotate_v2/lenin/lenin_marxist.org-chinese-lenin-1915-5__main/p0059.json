@@ -1,0 +1,92 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 59,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁批判考茨基将马克思主义庸俗化，用“超帝国主义”理论安抚被压迫群众，实质是为资产阶级服务。",
+    "importance_score": 3,
+    "importance_reason": "本段是列宁对考茨基主义进行理论清算的关键段落，直接攻击其“超帝国主义”论的欺骗性。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对“庸人”的讽刺，具体剖析考茨基如何扮演“牧师”角色，用理论安抚被压迫者。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "all_known",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p59s4",
+        "quote": "有些人维护宗教的理由是宗教可以安慰人，费尔巴哈正确地向他们指出了这种安慰的反动作用，他说：谁要是安慰奴隶，而不去发动他们起来反对奴隶制，谁就是在为奴隶主帮忙。",
+        "trigger": "allusion",
+        "reader_block": "引用费尔巴哈对宗教的批判，将考茨基比作牧师，读者需了解费尔巴哈这一著名论断及其批判对象，才能理解列宁类比的力度。",
+        "parse": {
+          "claim": "费尔巴哈曾批判宗教的“安慰”作用，认为这种安慰麻痹了被压迫者的反抗意志，客观上维护了压迫者的统治。",
+          "qualifiers": "费尔巴哈的批判针对的是宗教的社会功能，列宁将其类比到考茨基的理论。",
+          "contrast_or_target": "被批判的观点是：宗教（或类似理论）因其能提供精神安慰而具有价值。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "列宁借用费尔巴哈对宗教的经典批判，将考茨基的“超帝国主义”理论定性为一种新的“宗教安慰”，旨在揭露其理论在阶级斗争中的实际政治作用——维护现状，而非动员革命。"
+        },
+        "implication": "通过这一类比，列宁将考茨基的理论错误上升到政治立场问题，即其理论客观上服务于资产阶级统治。",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "考茨基",
+      "their_view": "历史发展是辩证的，从自由贸易到垄断帝国主义，再到“超帝国主义”下的新自由贸易是可能的。这种理论可以安抚群众，避免战争。",
+      "author_response": "列宁指出这种“辩证法”是牧师式的安慰，它回避了现实的阶级斗争和帝国主义战争的根源，实质是为资产阶级服务，麻痹无产阶级的革命意志。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p59s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p59s2",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p59s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p59s4",
+        "speaker": "quoted_opponent",
+        "stance": "endorsed",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 1,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 227,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁以反语讽刺考茨基，暗示其相信统治阶级会自愿服从被压迫者的多数意志。",
+    "importance_score": 1,
+    "importance_reason": "通过反语强化对考茨基观点的讽刺，为后文论证无产阶级专政的必要性做铺垫。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段对考茨基言论的引用，以反语进一步讽刺其观点的天真性。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "考茨基",
+      "their_view": "地主和资本家会尊重并服从被压迫者的多数意志，历史和现实观察都证明了这一点。",
+      "author_response": "列宁用反语讽刺这种观点，认为它完全脱离了阶级斗争的现实，是对资产阶级本性的天真幻想。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p227s1",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": [
+          {
+            "surface": "聪明的考茨基",
+            "type": "metaphor",
+            "modern": "此处为反语，讽刺考茨基的“聪明”实则表现为对阶级斗争现实的幼稚幻想。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

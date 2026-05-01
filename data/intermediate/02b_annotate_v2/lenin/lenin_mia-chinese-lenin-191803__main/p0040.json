@@ -1,0 +1,206 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 40,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁回应反对派对和约的批评，承认其屈辱性但强调其必要性，并阐述喘息时机的战略价值。",
+    "importance_score": 2,
+    "importance_reason": "本段是列宁论证签订和约以获得喘息时机必要性的核心部分，直接反驳党内反对意见。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对军队溃败的描述，进一步论证签订和约以获得喘息时机的必要性，并批判反对派的脱离实际。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "喘息时机",
+        "explain": "列宁用此词指通过签订和约获得的暂时和平间隙，用以巩固政权、重组军队，而非幻想永久和平。这是他论证的核心概念。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      },
+      {
+        "topic": "《共产主义者报》",
+        "explain": "当时彼得格勒的一份报纸，是党内“左派共产主义者”集团的喉舌，他们激烈反对签订和约。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "蒂尔西特和约",
+        "explain": "1807年拿破仑强加给战败的普鲁士的苛刻和约，使其丧失大片领土和主权。反对派用此典故形容当前和约的屈辱性。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p40s6",
+        "quote": "当人们说喘息是幻想的时候，当名叫《共产主义者报》[11]的报纸——这名称大概是从公社这个词来的——连篇累牍地批驳喘息论的时候，我说：我经历过许多次派别冲突和分裂，所以我有很多实际经验，而我要说，我看得很清楚，这种病用党内派别分裂的旧办法是治不好的，因为现实生活会先把它治好。",
+        "trigger": "long_nested",
+        "reader_block": "句子结构复杂，包含多个从句和插入语，且将“病”隐喻为党内分歧，读者可能难以快速抓住核心论点。",
+        "parse": {
+          "claim": "列宁认为，党内反对和约的激烈派别斗争（被他比作一种“病”），无法通过传统的党内分裂方式解决，因为客观现实的发展会迫使人们认清形势。",
+          "qualifiers": "此判断基于列宁个人的多次派别斗争经验，以及他对当前现实（军队溃败、和约已签）的观察。",
+          "contrast_or_target": "反对派（以《共产主义者报》为代表）认为喘息是幻想，主张继续革命战争，并试图通过党内斗争推动其路线。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "直接反驳《共产主义者报》等反对派对“喘息论”的批判，指出他们的斗争方式脱离现实，现实本身会教育他们。"
+        },
+        "implication": "暗示反对派的立场是主观幻想，终将被客观进程所淘汰。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      },
+      {
+        "anchor": "p40s13",
+        "quote": "但是，我们将利用这个喘息时机来说服人民团结起来，进行战斗，并告诉俄国的工人和农民：“要建立自觉的纪律，严格的纪律，否则你们还会象现在这样遭受德国人的铁蹄的蹂躏，只要人民还没有学会斗争，没有建立起一支不逃跑而能忍受空前痛苦的军队，就不可避免地要遭受这种蹂躏。”其所以不可避免，是因为德国革命还没有爆发，而且也不能保证它明天一定爆发。",
+        "trigger": "long_nested",
+        "reader_block": "句子包含直接引语和多重条件从句（“只要……就……”），逻辑链条长，且将国内纪律建设与国际革命形势直接挂钩。",
+        "parse": {
+          "claim": "列宁指出，利用喘息时机的核心任务是向人民说明，必须建立严格的革命纪律和能承受苦难的军队，否则将继续被德国侵略者蹂躏。",
+          "qualifiers": "这一任务的紧迫性基于一个关键前提：德国革命尚未爆发，且无法确定其爆发时间，因此不能指望外部援助立即到来。",
+          "contrast_or_target": "反对派可能幻想国际革命会迅速爆发从而解救俄国，列宁则强调必须立足于自身纪律和军队建设。"
+        },
+        "why": {
+          "relation": "conclusion",
+          "explanation": "在论证了喘息时机的必要性后，得出结论：必须利用这个时机进行内部整顿（建立纪律、巩固军队），并点明其根本原因在于国际革命形势的不确定性。"
+        },
+        "implication": "将国内政策（纪律）与国际形势（德国革命）绑定，强调了自力更生的必要性。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "“左派共产主义者”集团 / 《共产主义者报》",
+      "their_view": "我们批准的这个和约是蒂尔西特和约，是空前未有的和约，是比布列斯特和约更屈辱、更具有掠夺性的和约。喘息是幻想，应该继续进行革命战争。",
+      "author_response": "完全正确，和约确实屈辱，但必须签订，因为这是从群众现实处境出发的唯一选择。喘息不是幻想，而是已经到来的事实，反对派的策略是把一国革命胜利时期的幻想搬到世界革命的进程中，注定失败。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p40s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p40s2",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": [
+          {
+            "surface": "蒂尔西特和约",
+            "type": "event",
+            "modern": "1807年拿破仑强加给普鲁士的屈辱性和约，反对派以此类比当前和约。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p40s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p40s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p40s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p40s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "喘息",
+            "type": "concept",
+            "modern": "列宁指通过和约获得的暂时和平间隙，用以巩固政权。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "breathing_space_lenin"
+          }
+        ]
+      },
+      {
+        "sid": "p40s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p40s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p40s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p40s10",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p40s11",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p40s12",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p40s13",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 2,
+        "hs_kept": 2,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_5gram_with_surface",
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

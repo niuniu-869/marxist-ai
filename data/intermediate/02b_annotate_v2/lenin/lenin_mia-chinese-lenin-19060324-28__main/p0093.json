@@ -1,0 +1,55 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 93,
+  "annotation": {
+    "block_type": "quote_block",
+    "gist": "本段引用立宪民主党报纸的报道，展示沙皇政府官员如何看待立宪民主党在杜马选举中的胜利，并透露其制定的应对策略。",
+    "importance_score": 2,
+    "importance_reason": "作为例证，揭示沙皇政府与立宪民主党之间的微妙关系，支撑作者对杜马选举的批判。",
+    "argument_role": "example",
+    "argument_link": "承接上段引用的《我们的生活报》报道，进一步具体化沙皇政府内部的反应和策略，为作者后续批判提供靶子。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "refute_quotation"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p93s1",
+        "speaker": "quoted_opponent",
+        "stance": "neutral_citation",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 163,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "恩格斯批判特卡乔夫将政治革命视为自发、轻易过程的观点，指出其论证的草率。",
+    "importance_score": 3,
+    "importance_reason": "核心论战段落，直接驳斥特卡乔夫对革命动力和形式的错误理解。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对特卡乔夫经济观点的批判，转而批判其政治革命观，指出其同样轻率。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "all_known",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p163s2",
+        "quote": "他说，俄国人民用“教派……抗税……匪帮〈德国工人可以额手称庆了，因为屠夫汉斯竟是德国社会民主党之父〉……放火……暴动”等形式“不断地反抗”奴隶制，“所以俄国人民可以说是本能的革命者”。",
+        "trigger": "inverted_logic",
+        "reader_block": "括号内的讽刺性插入语打断了引文，读者可能困惑“屠夫汉斯”是谁，以及恩格斯为何在此插入一句看似无关的评论。",
+        "parse": {
+          "claim": "恩格斯通过引用特卡乔夫的话并插入讽刺性评论，旨在揭露其论证的荒谬性：将零散、自发的反抗形式等同于有组织的革命本能。",
+          "qualifiers": "特卡乔夫的论证基于对俄国人民各种反抗形式的列举。",
+          "contrast_or_target": "特卡乔夫认为，俄国人民通过各种形式的反抗证明了他们是“本能的革命者”。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "此句通过引用并讽刺特卡乔夫的原话，直接攻击其核心论点——即俄国人民具有自发的革命性。括号内的评论是恩格斯的反讽，用以削弱特卡乔夫类比的严肃性。"
+        },
+        "implication": "恩格斯暗示，特卡乔夫将不同性质、无组织的反抗行为混为一谈，并以此推导出革命结论，是理论上的草率。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "特卡乔夫",
+      "their_view": "俄国人民通过教派、抗税、匪帮、放火、暴动等形式不断反抗奴隶制，这证明他们是本能的革命者。只要在几个地方同时激起人民的积愤和不满，革命力量就会自然而然地团结起来并取得胜利。",
+      "author_response": "恩格斯讽刺特卡乔夫处理政治革命如同处理经济革命一样轻易，其论证将复杂的历史过程简化为情绪的自然爆发和力量的自发联合。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p163s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p163s2",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": [
+          {
+            "surface": "屠夫汉斯",
+            "type": "person",
+            "modern": "海因里希·海涅讽刺诗中的人物，恩格斯用此典故嘲讽特卡乔夫将俄国反抗者与德国社会民主党先驱类比的荒谬。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p163s3",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      }
+    ]
+  }
+}

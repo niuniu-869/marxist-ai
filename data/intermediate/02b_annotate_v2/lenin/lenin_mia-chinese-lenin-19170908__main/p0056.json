@@ -1,0 +1,72 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 56,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "通过对比两种流血的规模，反驳用国内战争恐吓革命派的论调。",
+    "importance_score": 3,
+    "importance_reason": "这是对“国内战争恐怖论”的直接反驳，构成文章核心论点。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对“血流成河”哭叫的分析，通过具体历史对比来反驳这种恐吓。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "克伦斯基攻势",
+        "explain": "1917年6月18日，临时政府发动的对德军事进攻，俄军损失惨重，被视为帝国主义战争的延续。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "立宪民主党、孟什维克等",
+      "their_view": "国内战争会导致血流成河，因此必须避免革命深入。",
+      "author_response": "列宁指出，临时政府继续帝国主义战争造成的伤亡远甚于国内战争，且后者可通过政权转移避免。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p56s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "血流成海",
+            "type": "metaphor",
+            "modern": "用夸张比喻形容临时政府继续帝国主义战争造成的巨大伤亡",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

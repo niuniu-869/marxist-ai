@@ -1,0 +1,64 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 179,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁直接指责社会革命党人及其同伙克伦斯基，断言他们无法欺骗士兵群众。",
+    "importance_score": 2,
+    "importance_reason": "本段直接反驳社会革命党人对布尔什维克的质疑，强调士兵不会被欺骗，为论证布尔什维克能保持政权提供支持。",
+    "argument_role": "continues",
+    "argument_link": "本段延续上段的批评，具体指向社会革命党人，指责他们试图欺骗士兵。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "克伦斯基",
+        "explain": "克伦斯基是俄国临时政府的领导人，在二月革命后执政，与社会革命党有关联。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p179s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_5gram_with_surface",
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

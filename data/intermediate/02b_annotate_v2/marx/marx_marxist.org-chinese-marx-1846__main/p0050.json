@@ -1,0 +1,89 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 50,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段承接上文，指出需要的再生产是第一个历史活动，并以此讽刺德国思辨哲学家在缺乏实证材料时构建虚假历史的做法。",
+    "importance_score": 2,
+    "importance_reason": "本段通过讽刺德国思辨历史观，强化了从物质实践出发理解历史的方法论。",
+    "argument_role": "continues",
+    "argument_link": "本段从“第一个事实”过渡到“第二个事实”，将需要的再生产确立为历史活动，并以此为基点批判德国哲学家的历史观。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "德国人（指青年黑格尔派）",
+      "their_view": "在缺乏实证材料、神学政治文学谬论无法立足的地方，就没有历史，那里只有“史前时期”。他们热衷于在这个领域自由地创立和推翻假说。",
+      "author_response": "马克思指出，这种历史观是脱离物质实践的思辨产物，其“史前历史”概念是荒谬的，且无法解释从“史前”到真正历史的过渡。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p50s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p50s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p50s3",
+        "speaker": "quoted_opponent",
+        "stance": "critical",
+        "notes": [
+          {
+            "surface": "史前时期",
+            "type": "concept",
+            "modern": "在论敌语境中，指缺乏实证材料、无法用神学政治文学谬论解释的时期，是他们构建思辨历史的领域。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "prehistory_idealist"
+          }
+        ]
+      },
+      {
+        "sid": "p50s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p50s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

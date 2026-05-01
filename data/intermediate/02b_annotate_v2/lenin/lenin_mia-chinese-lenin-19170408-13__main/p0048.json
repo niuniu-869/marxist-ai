@@ -1,0 +1,94 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 48,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁直接反驳普列汉诺夫等人对其策略的指责，澄清自己的主张既非布朗基主义也非无政府主义，而是基于苏维埃组织和马克思学说的国家理论。",
+    "importance_score": 2,
+    "importance_reason": "核心论点的直接辩护，通过定义和对比，为列宁的策略路线提供理论合法性，反驳党内主要反对意见。",
+    "argument_role": "contrasts",
+    "argument_link": "承接上段关于在苏维埃内部进行说明工作的论述，本段直接转向反驳针对该策略的错误指控，通过澄清概念来捍卫路线。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "布朗基主义",
+        "explain": "一种革命理论，主张由少数职业革命家通过密谋和武装起义夺取政权，建立革命专政。列宁在此强调其与依靠群众性苏维埃组织的根本区别。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "无政府主义",
+        "explain": "一种政治哲学，主张废除一切形式的国家和权威，认为国家本身就是压迫工具。列宁在此指出其与马克思主义关于过渡时期国家必要性学说的对立。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p48s1",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p48s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p48s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p48s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p48s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

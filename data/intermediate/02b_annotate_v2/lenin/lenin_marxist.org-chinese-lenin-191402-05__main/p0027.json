@@ -1,0 +1,131 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 27,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁直接点名罗莎·卢森堡，指出其对俄国党纲民族自决权条款的批评是空洞的，并要求她用具体历史方法分析俄国的民族问题。",
+    "importance_score": 3,
+    "importance_reason": "这是列宁正面回击罗莎·卢森堡对民族自决权核心批评的关键段落，确立了其论证方法论。",
+    "argument_role": "contrasts",
+    "argument_link": "承接上段关于具体历史分析的主张，本段将这一方法论直接应用于反驳罗莎·卢森堡的抽象批评。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "俄国党纲第九条",
+        "explain": "指1903年俄国社会民主党第二次代表大会通过的党纲中，关于“国内各民族都有自决权”的条款。这是列宁与卢森堡争论的核心文本。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "罗莎·卢森堡",
+      "their_view": "俄国党纲中关于民族自决权的条款是“笼统”“死板”的，属于“形而上学的空谈”，在帝国主义时代不切实际。",
+      "author_response": "列宁指出，卢森堡的批评本身才是空洞抽象的，她应当运用具体历史方法，分析二十世纪初俄国民族问题的特殊性。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p27s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p27s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "厉害字眼",
+            "type": "metaphor",
+            "modern": "此处为反讽，指罗莎·卢森堡用来批评党纲的那些看似尖锐、实则空洞的词语。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p27s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "高明地",
+            "type": "metaphor",
+            "modern": "反讽用语，实际指罗莎·卢森堡自以为高明地批判了形而上学，但其自身论证却缺乏具体性。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p27s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "一定的时代",
+            "type": "concept",
+            "modern": "强调分析问题必须锚定于具体的历史阶段，此处特指二十世纪初的帝国主义时期。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "historical_context_specific"
+          }
+        ]
+      },
+      {
+        "sid": "p27s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "想必应当",
+            "type": "metaphor",
+            "modern": "反问语气，实际意思是罗莎·卢森堡“本应该”这样提出问题，但她没有。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p27s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 4,
+        "notes_dropped": 2,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

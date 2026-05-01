@@ -1,0 +1,70 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 38,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "作者坚决反对党内任何参与民主会议的主张，并指出即使是党的最高机关的决定，也必须接受实践检验。",
+    "importance_score": 2,
+    "importance_reason": "本段是作者对党内错误倾向的直接批判，为后续论证抵制策略的正确性提供原则性依据。",
+    "argument_role": "continues",
+    "argument_link": "承接上段“抵制万岁”的号召，从原则层面论证为何必须抵制，并挑战了党内可能存在的对最高机关决定的盲从。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "党内主张参加民主会议的上层分子",
+      "their_view": "党的最高机关已经做出了参加民主会议的决定，下级组织和党员应当服从这一决定。",
+      "author_response": "即使最高机关做出决定，也必须根据实际斗争经验重新评估其正确性，不能盲目执行。",
+      "polemic_kind": "strategic_critique",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p38s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p38s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "最高机关",
+            "type": "polemic_ref",
+            "modern": "在列宁的论辩语境中，特指当时布尔什维克党内可能支持参加民主会议的领导层或决策机构。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

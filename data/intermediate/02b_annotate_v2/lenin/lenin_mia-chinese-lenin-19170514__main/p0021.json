@@ -1,0 +1,157 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 21,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁引用《日报》上一位非布尔什维克民主主义者的话，揭露协约国秘密条约的帝国主义掠夺本质，并指出临时政府部长们反对公布条约。",
+    "importance_score": 2,
+    "importance_reason": "通过具体例证（罗马尼亚条约）和权威引述（沃多沃佐夫），为前文关于战争起因的论断提供事实支撑，并直接指向临时政府的立场。",
+    "argument_role": "example",
+    "argument_link": "承接上段关于战争起因的分析，本段以具体秘密条约为例，证明战争是帝国主义列强为瓜分世界、扼杀弱小民族而进行的掠夺。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "沃多沃佐夫",
+        "explain": "尼古拉·沃多沃佐夫，俄国孟什维克派记者和政治家，以反对秘密外交著称。列宁特意引用他的话，是为了表明揭露条约的立场并非布尔什维克独有。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "米留可夫与捷列先科",
+        "explain": "帕维尔·米留可夫是二月革命后临时政府首任外交部长（立宪民主党人），保罗·捷列先科是其继任者。两人均代表资产阶级利益，反对公布协约国间的秘密条约。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "协约国秘密条约",
+        "explain": "第一次世界大战期间，英、法、俄等协约国成员之间签订了一系列秘密协定，旨在战后重新划分欧洲及殖民地势力范围，涉及领土吞并和利益交换。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p21s8",
+        "quote": "正是这个缘故，所以前任部长米留可夫和现任部长捷列先科（前者参加的政府没有一个社会党人部长，后者参加的政府有许多准社会党人部长）对于人民群众愈来愈坚决地要求公布条约的呼声，才作出这样的声明：公布条约就意味着与盟国决裂。",
+        "trigger": "long_nested",
+        "reader_block": "句子主干被长括号插入语打断，括号内对比两届政府构成，读者易迷失主谓关系，不清楚“这个缘故”具体指代什么。",
+        "parse": {
+          "claim": "列宁指出，无论是清一色资产阶级的米留可夫政府，还是有社会党人参与的捷列先科政府，其外交部长都反对公布条约，理由是这会导致与盟国关系破裂。",
+          "qualifiers": "针对“人民群众愈来愈坚决地要求公布条约的呼声”这一背景。",
+          "contrast_or_target": "临时政府部长们声称公布条约会破坏与盟国的军事同盟关系。"
+        },
+        "why": {
+          "relation": "example",
+          "explanation": "本句是前文“它们没有条约是不会去扼杀任何民族的”论断的具体例证，通过展示两届政府部长的一致态度，证明帝国主义掠夺政策的连续性，无论政府形式如何变化。"
+        },
+        "implication": "临时政府（包括有社会党人参与的政府）在战争和秘密外交问题上，与纯粹的资产阶级政府立场一致，服务于帝国主义利益。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "临时政府部长（米留可夫、捷列先科）",
+      "their_view": "公布与协约国的秘密条约，将导致俄国与盟国关系破裂，破坏军事同盟。",
+      "author_response": "列宁指出，部长们害怕公布条约，恰恰因为条约内容暴露了战争的帝国主义掠夺性质，这证明临时政府继续进行的是非正义战争。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p21s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p21s2",
+        "speaker": "quoted_opponent",
+        "stance": "endorsed",
+        "notes": [
+          {
+            "surface": "沃多沃佐夫",
+            "type": "person",
+            "modern": "俄国孟什维克派政治家与记者，以反对秘密外交闻名。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p21s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "协约国",
+            "type": "org",
+            "modern": "第一次世界大战中与同盟国作战的国家集团，主要包括英、法、俄。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p21s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p21s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p21s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p21s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p21s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "米留可夫",
+            "type": "person",
+            "modern": "俄国立宪民主党领袖，二月革命后首任临时政府外交部长。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "捷列先科",
+            "type": "person",
+            "modern": "继米留可夫之后的临时政府外交部长。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  }
+}

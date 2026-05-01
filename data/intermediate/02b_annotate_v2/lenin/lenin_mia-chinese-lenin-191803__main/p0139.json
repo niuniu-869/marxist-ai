@@ -1,0 +1,123 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 139,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁回应党内对更改党名可能被敌人利用的担忧，主张恢复《共产党宣言》的命名范例。",
+    "importance_score": 2,
+    "importance_reason": "支撑列宁关于恢复《共产党宣言》命名范例的论证，回应党内具体担忧。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段关于更改党名的讨论，列宁在此回应具体担忧并给出理论依据。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p139s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p139s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p139s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p139s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "《共产党宣言》",
+            "type": "work",
+            "modern": "马克思恩格斯1848年发表的纲领性文献，阐述了阶级斗争和无产阶级革命理论。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p139s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "无产阶级",
+            "type": "concept",
+            "modern": "马克思主义理论中与资产阶级对立的、通过革命推翻资本主义制度的阶级。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "class_marxist"
+          }
+        ]
+      },
+      {
+        "sid": "p139s6",
+        "speaker": "quoted_marx",
+        "stance": "endorsed",
+        "notes": []
+      },
+      {
+        "sid": "p139s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p139s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p139s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 2,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

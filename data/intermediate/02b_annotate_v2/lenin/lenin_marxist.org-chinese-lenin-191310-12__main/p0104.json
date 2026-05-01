@@ -1,0 +1,79 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 104,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁以学校教育为例，论证民族文化自治原则会导致工人被迫容忍用公共资金支持宗教学校，从而暴露其反动性。",
+    "importance_score": 2,
+    "importance_reason": "通过具体领域（教育）的推演，揭示民族文化自治口号的实践后果，是核心批判的例证。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对李普曼观点的概括，本段具体分析其“民族文化自治”主张在教育领域的逻辑推论，以揭露其反动实质。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "李普曼",
+      "their_view": "每个民族的工人应首先关心和发展本民族文化，教育事业应从国家管理中分出来，交给各民族自主办理。",
+      "author_response": "列宁指出，这种原则在实践中意味着工人将被迫允许用公共资金支持宗教学校，从而暴露了民族文化自治的反动本质。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p104s1",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p104s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p104s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p104s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p104s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 32,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "批评容许镇压农民起义的立场，指出这会断送革命并导致群众对政治冷漠。",
+    "importance_score": 3,
+    "importance_reason": "本段是列宁论证武装起义必要性的核心批判部分，直接攻击党内等待派和妥协派。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于国际主义在于行动的论断，具体批判在农民起义问题上缺乏行动、背叛革命的行为。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p32s3",
+        "quote": "既然农民被逼到不得不举行起义的地步，而所谓“革命民主派”又容许对它实行军事镇压，那么群众怎么会不对选举表示冷漠呢！！",
+        "trigger": "inverted_logic",
+        "reader_block": "反问句式，将农民起义与群众政治冷漠直接因果关联，读者可能不理解这种逻辑跳跃。",
+        "parse": {
+          "claim": "当农民因压迫而被迫起义，而自称革命的民主派却允许镇压时，群众对通过选举等合法程序改变现状感到失望是必然的。",
+          "qualifiers": "此处的“群众”主要指受临时政府政策影响的农民和城市底层民众。",
+          "contrast_or_target": "反驳那些指责群众“日益冷漠”或“无政府状态”的论调。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "本句反驳了党内或论敌将群众冷漠归咎于无政府状态的说法，指出冷漠的根源在于“革命民主派”的背叛行为。"
+        },
+        "implication": "群众的政治参与热情取决于革命力量是否真正代表其利益并采取行动，而非空洞的程序。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "布尔什维克党内等待派与妥协派",
+      "their_view": "主张等待苏维埃代表大会召开，通过合法程序决定政权问题，反对立即发动武装起义；认为群众态度冷漠是由于无政府状态。",
+      "author_response": "列宁指出，这种立场实质上是容许临时政府镇压农民起义，背叛了农民阶级，是断送革命的叛徒行为；群众冷漠恰恰是对这种背叛的反应。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p32s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p32s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p32s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 1,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

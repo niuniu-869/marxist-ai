@@ -1,0 +1,64 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 105,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁引用奥国纲领（布隆纲领）的具体条款，指出连崩得分子推崇的这个纲领也未能明确“少数民族”的定义，以此批评“民族文化自治”口号的模糊性。",
+    "importance_score": 2,
+    "importance_reason": "作为具体例证，支撑对“民族文化自治”口号在实践层面不可操作性的批判。",
+    "argument_role": "example",
+    "argument_link": "承接上段通过学校教育例子对“民族文化自治”口号的批判，本段转而引用该口号所依据的“典范”——奥国纲领，从其自身条款的模糊性来进一步揭露该口号的空洞。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "崩得分子及其推崇的奥国纲领",
+      "their_view": "奥国纲领（布隆纲领）是解决民族问题的典范，其第四条通过帝国议会立法保障少数民族权利，是可行的方案。",
+      "author_response": "列宁指出，这个被推崇的纲领本身就没有界定“少数民族”的范围，其条款表述比俄国的方案更简短模糊，恰恰说明了“民族文化自治”这类口号在实践中的不确定性。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p105s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "崩得分子",
+            "type": "social_group",
+            "modern": "崩得（Bund）是俄国犹太工人总联盟的简称，其成员在民族问题上持民族文化自治立场。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

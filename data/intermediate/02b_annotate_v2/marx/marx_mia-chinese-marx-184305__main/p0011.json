@@ -1,0 +1,191 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 11,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段批判德国现存秩序将人贬低为非政治动物，通过虚构的“德国亚里士多德”和楚泊菲尔的国家定义，揭露专制制度使人不成其为人的本质。",
+    "importance_score": 2,
+    "importance_reason": "本段通过具体批判德国现状，为后续提出人的解放命题做铺垫，属于核心批判的组成部分。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对庸人附属状态的描述，本段将批判扩展到整个德国现存秩序，指出其制度原则就是使人不成其为人。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_polysemy | history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic | rhetorical",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "政治动物概念",
+        "explain": "亚里士多德认为人天生是政治动物，需参与城邦生活才能实现本质；马克思反讽地用此描述德国庸人只关心私人事务的状态。",
+        "why_needed": "term_polysemy",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "楚泊菲尔及其定义",
+        "explain": "19世纪德国法学家，其著作将国家定义为以王朝家族为核心的世袭同盟，为普鲁士专制制度提供理论辩护。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p11s1",
+        "quote": "庸人的世界就是政治动物的世界，既然我们必须承认它的存在，那末我们就只得考虑这种status quo〔现状，现存的秩序〕。",
+        "trigger": "inverted_logic",
+        "reader_block": "马克思借用亚里士多德“人天生是政治动物”的命题，但反讽地将其用于描述庸人，读者可能误以为这是正面陈述。",
+        "parse": {
+          "claim": "德国庸人所处的世界，其本质特征是人们只关心私人事务而完全远离公共政治生活。",
+          "qualifiers": "",
+          "contrast_or_target": "与亚里士多德原意形成反讽对比，原意指人通过参与城邦政治实现本质。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "通过反讽地挪用古典概念，揭露德国现存秩序使人丧失政治性的本质。"
+        },
+        "implication": null,
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      },
+      {
+        "anchor": "p11s4",
+        "quote": "如果德国的亚里士多德想根据德国的制度写一本他自己的“政治学”，那末他定会在第一页上写道：“人是一种动物，这种动物虽然是社会的，但完全是非政治的”；",
+        "trigger": "rhetorical",
+        "reader_block": "这是一个反讽的假设句，读者需要理解马克思在讽刺德国思想界为专制制度辩护。",
+        "parse": {
+          "claim": "假如有一位为德国专制制度辩护的学者，他会在其著作中将人定义为社会性但完全非政治的动物。",
+          "qualifiers": "",
+          "contrast_or_target": "与法国大革命后使人获得政治解放的成果形成对比。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "通过虚构“德国亚里士多德”的形象，讽刺德国理论界为现存专制秩序提供辩护。"
+        },
+        "implication": null,
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "楚泊菲尔及其国家定义",
+      "their_view": "国家本质上是各个家族的联盟，这个联盟由王朝家族世袭统治，家族兴旺则国家强盛。",
+      "author_response": "马克思通过虚构“德国亚里士多德”和引用楚泊菲尔的定义，揭露这种国家观将人贬低为非政治动物，为专制制度辩护。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p11s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "政治动物",
+            "type": "concept",
+            "modern": "马克思借用亚里士多德术语，反讽地指德国庸人只关心私人事务而远离公共政治生活。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "political_animal_marxist_critique"
+          }
+        ]
+      },
+      {
+        "sid": "p11s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "野蛮的世纪",
+            "type": "metaphor",
+            "modern": "马克思形容德国历史发展长期停滞、缺乏进步。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p11s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "使人复活",
+            "type": "metaphor",
+            "modern": "马克思将法国大革命视为使人获得政治解放和尊严的历史事件。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p11s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "德国的亚里士多德",
+            "type": "person",
+            "modern": "马克思虚构的、用以讽刺德国思想界为专制制度辩护的学者形象。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p11s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "楚泊菲尔",
+            "type": "person",
+            "modern": "19世纪德国法学家，其著作将国家定义为家族同盟，为普鲁士专制制度提供理论辩护。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p11s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "家族的同盟",
+            "type": "quote",
+            "modern": "楚泊菲尔对国家的定义，将国家视为以王朝家族为核心的世袭同盟。",
+            "highlight": "quote",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p11s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "帝国塔勒",
+            "type": "archaic",
+            "modern": "普鲁士时期的货币单位，用于说明专制国家通过生育奖励强化家族国家观。",
+            "highlight": "archaic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  }
+}

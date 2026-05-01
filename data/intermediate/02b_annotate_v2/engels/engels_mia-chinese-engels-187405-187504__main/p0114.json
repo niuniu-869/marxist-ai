@@ -1,0 +1,97 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 114,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "恩格斯以反讽口吻，通过解释阿基里斯典故，嘲讽特卡乔夫的文化无知。",
+    "importance_score": 1,
+    "importance_reason": "本段是论战中的插曲，通过讽刺对手的无知来削弱其论点的可信度，属于过渡性批判。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段引用海涅诗句对无知状态的讽刺，具体化并升级了这种讽刺，直接指向论战对象特卡乔夫。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "allusion",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "阿基里斯与伊利亚特",
+        "explain": "阿基里斯是希腊神话中的英雄，因与统帅阿伽门农不和而退出战斗，躲入营帐，导致希腊联军战败。此事构成了荷马史诗《伊利亚特》的核心情节。",
+        "why_needed": "allusion",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "特卡乔夫与巴枯宁",
+        "explain": "特卡乔夫是俄国革命民粹派活动家，巴枯宁是无政府主义思想家，两人均与第一国际内部斗争相关。恩格斯在此讽刺特卡乔夫可能连巴枯宁都熟悉的常识都不知道。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p114s5",
+        "quote": "如果我的这个假定是正确的，那末当然，我将不得不声明，特卡乔夫先生不是一个中学生。",
+        "trigger": "inverted_logic",
+        "reader_block": "双重否定式反讽。字面说“不是中学生”，实际是说他连中学生应具备的常识都没有，读者易按字面理解。",
+        "parse": {
+          "claim": "特卡乔夫的文化水平低于一个普通中学生。",
+          "qualifiers": "基于前文关于他可能误解阿基里斯身份的假定。",
+          "contrast_or_target": "特卡乔夫自视为革命理论家，但恩格斯揭示其基础文化知识匮乏。"
+        },
+        "why": {
+          "relation": "conclusion",
+          "explanation": "这是对前文一系列讽刺的总结性论断，通过反语得出结论：特卡乔夫的无知程度令人惊讶。"
+        },
+        "implication": "一个连基本文化典故都不了解的人，其提出的革命理论或纲领的严肃性值得怀疑。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "特卡乔夫",
+      "their_view": "可能将恩格斯提及的“阿基里斯”误解为一个当代的俄国军士或土耳其士兵，并认为恩格斯的提及是一种人身攻击。",
+      "author_response": "恩格斯澄清阿基里斯是希腊史诗英雄，并讽刺特卡乔夫连这一常识都不知道，其无知程度甚至不如中学生。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p114s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p114s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p114s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p114s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p114s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  }
+}

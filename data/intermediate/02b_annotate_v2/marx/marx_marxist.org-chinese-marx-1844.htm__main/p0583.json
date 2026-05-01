@@ -1,0 +1,98 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 583,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "提出一种试图超越传统哲学对立的立场，并宣称其对理解历史的必要性。",
+    "importance_score": 2,
+    "importance_reason": "提出马克思早期思想中的一个核心哲学立场，试图为理解历史提供新的基础。",
+    "argument_role": "continues",
+    "argument_link": "在上一段讨论人的对象性活动的基础上，本段提出一种哲学立场来概括这种活动的性质。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "彻底的自然主义或人道主义",
+        "explain": "这是马克思借用费尔巴哈的术语，指一种承认自然界和人的感性存在的哲学立场，它试图克服唯心主义只讲精神和唯物主义只讲物质的片面性。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p583s1",
+        "quote": "我们在这里看到，彻底的自然主义或人道主义，既不同于唯心主义，也不同于唯物主义，同时又是把这两者结合的真理。",
+        "trigger": "inverted_logic",
+        "reader_block": "读者可能困惑于一个立场如何能同时不同于两个对立面，却又结合了它们，这看似矛盾。",
+        "parse": {
+          "claim": "存在一种哲学立场，它超越了唯心主义和唯物主义的简单对立，并包含了二者的合理因素。",
+          "qualifiers": "在马克思看来",
+          "contrast_or_target": "针对将哲学严格划分为唯心主义和唯物主义两大阵营的传统观点。"
+        },
+        "why": {
+          "relation": "definition",
+          "explanation": "本句为前文讨论的人的对象性活动提供哲学定位，将其归于一种新的综合立场。"
+        },
+        "implication": "这为马克思后来发展历史唯物主义提供了早期的思想萌芽。",
+        "confidence": "high",
+        "source_basis": "known_context"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p583s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p583s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "自然主义",
+            "type": "concept",
+            "modern": "此处的自然主义特指前文提出的那种综合立场，强调从感性活动出发理解历史。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "inferred",
+            "sense_id": "naturalism_early_marx"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 1,
+        "hs_kept": 1,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_12>5"
+      ]
+    }
+  ]
+}

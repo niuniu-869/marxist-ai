@@ -1,0 +1,72 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 140,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段批评俄国的“不断论者”，指出他们低估农民作用和无产阶级领导权，并歪曲了马克思的“不断”革命思想。",
+    "importance_score": 3,
+    "importance_reason": "直接反驳托洛茨基主义，是列宁主义与“不断革命论”论战的关键部分。",
+    "argument_role": "conclusion",
+    "argument_link": "基于前文对马克思和列宁革命思想的阐述，总结出俄国“不断论者”的错误所在。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "不断论者",
+        "explain": "指托洛茨基及其追随者，他们主张“不断革命论”，认为民主革命和社会主义革命之间没有间隔，否定农民作用。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "不断论者（托洛茨基主义者）",
+      "their_view": "农民在革命中作用有限，无产阶级领导权并非关键，马克思的“不断”革命思想需要修改以适应现实。",
+      "author_response": "斯大林指出这种观点过低估计了农民和领导权的意义，并且歪曲了马克思思想，使其失去实用性。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p140s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "不断论者",
+            "type": "polemic_ref",
+            "modern": "在1920年代苏联论战中，特指托洛茨基及其追随者，他们主张“不断革命论”作为革命战略。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_9>5"
+      ]
+    }
+  ]
+}

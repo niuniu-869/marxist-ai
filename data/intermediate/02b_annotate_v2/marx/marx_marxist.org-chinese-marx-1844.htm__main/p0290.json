@@ -1,0 +1,133 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 290,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段从正面阐述劳动如何使人确证自身为类存在物，进而推导出异化劳动剥夺人的类生活，使人丧失其本质力量。",
+    "importance_score": 3,
+    "importance_reason": "这是马克思异化劳动理论的核心论证环节，将劳动与人的类本质直接关联，并为后续批判私有制奠定基础。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于人通过劳动改造自然界的论述，进一步阐明这种改造活动如何构成人的类本质的确证，并由此引出异化劳动的后果。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "term_density",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "类存在物",
+        "explain": "源自费尔巴哈的哲学概念，指人作为一个物种所具有的共同本质。马克思在此基础上强调，人的类本质不是抽象的意识，而是通过能动的、改造世界的实践活动来体现和实现的。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p290s6",
+        "quote": "因此，异化劳动从人那里夺去了他的生产的对象，也就从人那里夺去了他的类生活，即他的现实的类对象性，把人对动物所具有的优点变成缺点，因为从人那里夺走了他的无机的身体即自然界。",
+        "trigger": "term_density",
+        "reader_block": "句中密集出现“异化劳动”“类生活”“类对象性”“无机的身体”等抽象概念，且逻辑链条（剥夺对象→剥夺类生活→优点变缺点→剥夺自然界）层层递进，读者难以一次性把握其完整含义。",
+        "parse": {
+          "claim": "异化劳动剥夺了人通过劳动所创造的产品，这等同于剥夺了人作为类存在物的生活本身，即人通过对象化活动确证自身本质的可能性。",
+          "qualifiers": "此处讨论的是在异化状态下，劳动产品与劳动者相分离的后果。",
+          "contrast_or_target": ""
+        },
+        "why": {
+          "relation": "conclusion",
+          "explanation": "本句是前文关于劳动确证类本质论述的逻辑反面推论：既然劳动是类生活的实现，那么异化劳动（劳动产品的丧失）就必然导致类生活的丧失。这是对异化劳动危害的哲学概括。"
+        },
+        "implication": "这为后续批判私有财产提供了哲学依据：私有财产正是异化劳动的产物和表现，它固化了人与自身类本质的分离。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p290s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "类存在物",
+            "type": "concept",
+            "modern": "马克思借用费尔巴哈术语，指人通过改造世界的实践活动来确证自身物种本质的存在方式。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "feuerbachian_class"
+          }
+        ]
+      },
+      {
+        "sid": "p290s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p290s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p290s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p290s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p290s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "异化劳动",
+            "type": "concept",
+            "modern": "马克思早期核心概念，指劳动者与自己的劳动产品、劳动活动、类本质以及他人相分离的劳动状态。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "alienation_early_marx"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 2,
+        "hs_kept": 1,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

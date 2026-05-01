@@ -1,0 +1,102 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 65,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "通过对比希腊原文与路德译文，论证《启示录》作者同样不知晓后来才出现的圣餐礼仪式。",
+    "importance_score": 1,
+    "importance_reason": "作为文本考据的一部分，支撑了关于早期基督教仪式发展顺序的论点。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段关于洗礼的论证，继续使用文本分析方法，证明《启示录》作者对另一项后来才制度化的圣礼同样陌生。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p65s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "圣礼",
+            "type": "concept",
+            "modern": "基督教中由耶稣设立、具有神圣意义的仪式，如洗礼和圣餐。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "rite_christian"
+          }
+        ]
+      },
+      {
+        "sid": "p65s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "推雅推喇",
+            "type": "place",
+            "modern": "《启示录》中提及的亚细亚七教会之一，位于小亚细亚。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p65s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p65s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "悼念餐",
+            "type": "concept",
+            "modern": "早期基督教信徒为纪念耶稣而举行的聚餐，被视为圣餐礼的前身或早期形式。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "memorial_meal"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 3,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_archaic_6>4"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 7,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "通过引用法兰西伦理与政治科学院的公开主张，对比拉沙特尔出版社封存《资本论》译著的行为，指出其矛盾与荒谬。",
+    "importance_score": 2,
+    "importance_reason": "引用外部权威主张，强化对拉沙特尔不履行出版合同的批判，支撑合同纠纷论点。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于出版合同与财务条款的讨论，进一步通过科学院声明揭露拉沙特尔行为的不合理性。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "拉沙特尔",
+      "their_view": "拉沙特尔出版社的法定管理人将《资本论》法文译著封存在仓库里，未履行出版义务。",
+      "author_response": "马克思指出这种行为与科学院的公开主张相悖，是荒谬且不合理的。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p7s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "《资本论》",
+            "type": "work",
+            "modern": "马克思的政治经济学批判著作，此处指其法文译本在出版过程中的争议。",
+            "highlight": "work",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

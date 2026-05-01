@@ -1,0 +1,112 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 71,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "恩格斯批判法国社会党为争取小农而承诺保护其小块土地所有制的策略，认为这种虚假承诺只会损害党的信誉，并将这类农民推向反犹太主义者等保守势力。",
+    "importance_score": 3,
+    "importance_reason": "本段是恩格斯对南特纲领错误策略的直接批判，明确划清了社会主义政党与小资产阶级保守政治的界限，是全文核心论点之一。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对虚假承诺策略的批评，本段进一步阐明这种策略的后果，并明确社会主义政党应拒绝与这类政治诉求结盟。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic | allusion",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "19世纪末德国反犹太主义",
+        "explain": "19世纪末，德国出现一股将社会问题归咎于犹太人的政治运动，常与保守的小资产阶级、农民诉求结合，反对资本主义和自由主义。恩格斯在此将其作为小农寻求虚假政治庇护的典型。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p71s1",
+        "quote": "但是，我们的利益决不是要今天就把农民吸引到自己方面来，好使他们明天在我们不能实现自己的诺言时又离开我们。",
+        "trigger": "inverted_logic",
+        "reader_block": "双重否定（“决不是要……好使……”）加反讽语气，读者容易误读为正面陈述，需还原其真实意图。",
+        "parse": {
+          "claim": "社会主义政党不应为了短期吸引农民而做出无法兑现的承诺，因为这会导致农民在承诺落空时背弃我们。",
+          "qualifiers": "时间限定：今天吸引，明天背弃。条件限定：承诺无法实现时。",
+          "contrast_or_target": "法国社会党南特纲领所主张的、为争取选票而向小农许诺保护其土地所有制的策略。"
+        },
+        "why": {
+          "relation": "continues",
+          "explanation": "本句直接承接上段对虚假承诺策略的批评，从党的长远利益角度，点明这种策略的自我挫败性质。"
+        },
+        "implication": "党的策略必须建立在科学分析和真实力量基础上，而非机会主义的空头支票。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "法国社会党南特代表大会土地纲领",
+      "their_view": "社会主义政党有责任保护小农的小块土地所有制，甚至保护剥削短工的佃农，以联合农村一切成分对抗封建土地所有制。",
+      "author_response": "这种策略是机会主义的，它用无法兑现的诺言欺骗农民，最终损害党的信誉，并将农民推向反犹太主义者等保守政治势力。",
+      "polemic_kind": "strategic_critique",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p71s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p71s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p71s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p71s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p71s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p71s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 1,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

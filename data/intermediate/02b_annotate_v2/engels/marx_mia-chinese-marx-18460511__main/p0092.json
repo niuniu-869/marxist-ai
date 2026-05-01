@@ -1,0 +1,88 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 92,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段揭露克利盖将共产主义与宗教圣餐仪式混为一谈的错误，并指出其逻辑矛盾。",
+    "importance_score": 2,
+    "importance_reason": "这是对克利盖“共产主义”宗教化倾向的具体批判，展示了其理论的荒谬性。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对克利盖将革命运动宗教化的批判，具体展示其如何将共产主义与圣餐仪式混同。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "cross_ref_pronoun",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "“形而上学的结论”",
+        "explain": "指上一段中克利盖得出的结论，即仅凭精神认识和爱就能实现共产主义团结，无需物质斗争。",
+        "why_needed": "cross_ref_pronoun",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      },
+      {
+        "topic": "圣餐的宗教含义",
+        "explain": "基督教仪式，信徒通过共饮葡萄酒、共食面饼来纪念耶稣，象征与神合一。克利盖借用此仪式比喻共产主义。",
+        "why_needed": "allusion",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "克利盖",
+      "their_view": "共产主义是一种永恒的、无处不在的精神，可以通过类似圣餐的共饮共食仪式来体现和实现。",
+      "author_response": "这种所谓的永恒精神无法解释私有制的长期存在，因此它并非真实的历史力量，而只是克利盖个人的想象。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p92s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p92s2",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p92s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p92s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

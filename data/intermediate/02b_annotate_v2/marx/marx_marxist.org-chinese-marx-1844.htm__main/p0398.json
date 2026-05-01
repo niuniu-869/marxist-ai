@@ -1,0 +1,97 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 398,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段批判了从外在有用性角度理解工业历史和人的心理，主张应从人的本质力量联系来把握工业作为对象化活动的展现。",
+    "importance_score": 3,
+    "importance_reason": "本段是马克思对异化劳动和工业的批判核心，展示人的本质力量在资本主义形式下的呈现与扭曲。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于实践解决理论对立的结论，本段以工业历史为例，说明人的本质力量如何通过对象化活动展现，但当前理解局限于有用性。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "异化劳动",
+        "explain": "马克思早期概念，指工人在资本主义生产中，其劳动产品、劳动过程、类本质及与他人关系都变成异己力量，反过来支配工人。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "国民经济学",
+      "their_view": "国民经济学将人的活动理解为满足一般需要的有用性活动，忽略人的本质联系。",
+      "author_response": "马克思认为，人的活动应从其本质力量的展现来理解，而非仅从外在有用性。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p398s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p398s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "异化",
+            "type": "concept",
+            "modern": "在马克思早期著作中，指人的活动及其产物变成异己力量支配人的过程。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "alienation_early_marx"
+          }
+        ]
+      },
+      {
+        "sid": "p398s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p398s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p398s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

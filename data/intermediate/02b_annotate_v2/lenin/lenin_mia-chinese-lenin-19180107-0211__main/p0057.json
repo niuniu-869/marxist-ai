@@ -1,0 +1,112 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 57,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁逐条驳斥托洛茨基“不战不和”的主张，论证立即签订和约是保存社会主义共和国的必要代价。",
+    "importance_score": 3,
+    "importance_reason": "核心论点段落，直接反驳党内主要反对意见，系统阐述签订和约的战略必要性。",
+    "argument_role": "contrasts",
+    "argument_link": "承接上段关于保卫社会主义共和国具体方式的讨论，转而直接批判并否定党内同志（特别是托洛茨基）提出的替代方案。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "托洛茨基",
+      "their_view": "主张停止战争，不签订和约，同时复员军队，以此作为国际性的政治示威。",
+      "author_response": "列宁指出这种做法是空洞的示威，其直接后果是放弃领土（如爱斯兰），并且在德国进攻时将被迫接受更苛刻的条件。",
+      "polemic_kind": "strategic_critique",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p57s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "国际性的政治示威",
+            "type": "metaphor",
+            "modern": "列宁用此词形容托洛茨基方案缺乏实际军事或政治效力，仅具象征姿态。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p57s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p57s3",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p57s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p57s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p57s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p57s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p57s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p57s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

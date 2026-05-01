@@ -1,0 +1,92 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 43,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁批评一种只幻想农民未来会脱离资产阶级、却无视当前农民实际追随资产阶级的空想倾向，警告这会使马克思主义者沦为小资产阶级的尾巴。",
+    "importance_score": 2,
+    "importance_reason": "本段是列宁对党内“老布尔什维克”及加米涅夫等人在农民与资产阶级关系问题上错误估计的直接批判，是其论证必须立足当前阶级力量对比现实的关键环节。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于农民可能成为革命新阶段动力的论述，转而强调在农民尚未脱离资产阶级的当下，无产阶级政党必须认清并承担自己的现实责任。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "齐赫泽、策列铁里、斯切克洛夫",
+        "explain": "1917年二月革命后，这三人是彼得格勒苏维埃中的孟什维克和社会革命党领袖。他们主导的苏维埃虽代表工兵，却将政权拱手让给资产阶级临时政府，自身沦为“附属品”和“反对派”。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "李沃夫“陛下”",
+        "explain": "指格奥尔基·李沃夫，二月革命后成立的资产阶级临时政府首任总理。列宁用“陛下”一词讽刺其政府虽无沙皇之名，却延续了沙皇式的资产阶级统治实质。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "党内空想者（如加米涅夫）及“老布尔什维克”",
+      "their_view": "可以等待并指望农民在资产阶级民主革命的框架内，最终会与资产阶级分开，从而实现向下一阶段的转变。",
+      "author_response": "列宁指出，这种想法是脱离现实的空想，它实际上是在鼓动无产阶级去信任小资产阶级，而无视农民和左翼政党当前正追随资产阶级的客观事实。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p43s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "小资产者",
+            "type": "concept",
+            "modern": "在列宁的语境中，指那些在政治上动摇于无产阶级与资产阶级之间、其理论和策略反映小生产者（如农民）利益与心态的派别或个人。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "petty_bourgeoisie_political"
+          }
+        ]
+      },
+      {
+        "sid": "p43s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p43s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

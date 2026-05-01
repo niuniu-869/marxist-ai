@@ -1,0 +1,111 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 24,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段批评谢廖金的建议，认为现阶段加剧反对资产阶级和豪绅的斗争是危险的，会把他们推向帝国主义和军阀，强调国民党应爱护盟友。",
+    "importance_score": 2,
+    "importance_reason": "本段具体阐述了维持统一战线的策略，反驳激进主张，是电报核心指导方针的一部分。",
+    "argument_role": "continues",
+    "argument_link": "本段延续上段对激进行动的警告，进一步指出加剧阶级斗争在当前阶段的危险性。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "谢廖金身份",
+        "explain": "共产国际驻华代表，负责指导中国革命策略，其建议被斯大林在电报中直接反驳。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "奉系军阀",
+        "explain": "北洋军阀中以张作霖为首的一派，控制中国东北和华北部分地区，是当时北方主要军事力量。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "谢廖金",
+      "their_view": "谢廖金建议现阶段应加剧反对中国资产阶级和豪绅的斗争。",
+      "author_response": "斯大林认为这种做法为时过早且危险，会把资产阶级推向帝国主义和军阀一方，国民党应爱护盟友。",
+      "polemic_kind": "strategic_critique",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p24s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "资产阶级",
+            "type": "concept",
+            "modern": "1920年代中国语境下，主要指民族资产阶级和买办资产阶级。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "class_bourgeois"
+          }
+        ]
+      },
+      {
+        "sid": "p24s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "奉系军阀",
+            "type": "org",
+            "modern": "以张作霖为首的北洋军阀派系，控制中国东北和华北部分地区。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p24s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "国民党",
+            "type": "org",
+            "modern": "中国国民党的简称，当时与共产党合作进行国民革命。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 3,
+        "notes_dropped": 2,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

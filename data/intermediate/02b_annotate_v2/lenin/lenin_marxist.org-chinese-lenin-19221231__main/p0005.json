@@ -1,0 +1,64 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 5,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段定义压迫民族的国际主义内涵，强调其核心是主动承担额外负担以纠正历史形成的实际不平等，并批判仅满足于形式平等的观点。",
+    "importance_score": 3,
+    "importance_reason": "本段是列宁在民族问题上提出的核心论点，为整个“自治化”争论确立了无产阶级国际主义的判断标准。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段关于大民族历史暴力的承认，将讨论从历史事实提升到国际主义原则的高度，提出压迫民族应如何行动。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "只满足于形式平等的党内同志或理论家",
+      "their_view": "只要在法律和制度上规定了各民族平等，民族问题就解决了，压迫民族无需再做额外的事情。",
+      "author_response": "列宁指出，这种看法忽略了历史造成的实际不平等，不是真正的无产阶级态度，会滑向资产阶级立场。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "medium"
+    },
+    "sentences": [
+      {
+        "sid": "p5s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p5s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 3,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:eval_word:伟大",
+        "note:n1_overflow_concept_7>5",
+        "note:n1_overflow_metaphor_9>8",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

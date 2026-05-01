@@ -1,0 +1,93 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 10,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段论述10小时工作制法案的双重效果：既保障工人健康，又使其脱离与反动派的联合；并指出工人运动由此转向夺取政权的斗争。",
+    "importance_score": 2,
+    "importance_reason": "本段是论证的关键转折，从分析法案的偶然性转向其对工人运动策略的深远影响，提出夺取政权是改造社会的第一步。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于法案通过偶然性的描述，进一步分析该法案在客观上对工人运动产生的积极影响，即促使工人摆脱与反动派的联合，转向独立的政治斗争。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "与反动派联合的工人运动倾向",
+      "their_view": "工人阶级应与贵族、空想家等反动派别联合，以争取局部经济改良（如限制工时）。",
+      "author_response": "这种联合使工人脱离了正确的斗争方向；法案的通过反而证明，工人应集中力量于夺取政权这一根本任务。",
+      "polemic_kind": "strategic_critique",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p10s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p10s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "奥斯特勒",
+            "type": "person",
+            "modern": "理查德·奥斯特勒，19世纪英国工厂改革运动中的重要人物，以鼓吹基于基督教道德的工厂立法和宗法式社会关系著称。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p10s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p10s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "不共戴天的敌人",
+            "type": "metaphor",
+            "modern": "形容贵族和资产阶级反动派别与工人阶级之间不可调和的对立关系。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 3,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

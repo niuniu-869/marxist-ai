@@ -1,0 +1,123 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 17,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁将革命军队与政府视为一体两面，并批判那些自称民主派却不敢与沙皇专制彻底斗争的立宪民主党人。",
+    "importance_score": 3,
+    "importance_reason": "核心论点段，将武装起义与政治纲领统一，并明确论战对象，为后续行动定调。",
+    "argument_role": "continues",
+    "argument_link": "承接上段提出的革命政府纲领，本段将其与革命军队并列，强调二者是实现纲领、巩固起义成果的统一机构，并转向对论敌的批判。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "allusion",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "allusion",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "圣经典故“被召的人多，选上的人少”",
+        "explain": "出自《马太福音》22:14，原意指受邀参加天国宴席的人多，但最终被选中的少。列宁在此借用，反讽当时俄国自称民主派的人很多，但真正能投身彻底革命斗争的人极少。",
+        "why_needed": "allusion",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "立宪民主党",
+        "explain": "1905年成立的俄国自由派政党，代表资产阶级和部分地主利益，主张君主立宪，对沙皇政府态度摇摆，既反对极端专制又害怕彻底革命。",
+        "why_needed": "allusion",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p17s5",
+        "quote": "但是，被召的人多，选上的人少。",
+        "trigger": "allusion",
+        "reader_block": "读者若不知此为圣经典故，会困惑于“被召”与“选上”的具体所指，无法理解列宁的反讽语气。",
+        "parse": {
+          "claim": "在当时的俄国，自称为民主派的人数量众多，但其中真正符合革命要求、能被历史选中的人却很少。",
+          "qualifiers": "特指1905年革命背景下，俄国政治光谱中那些口头上的民主派。",
+          "contrast_or_target": "针对那些空谈民主、实则怯懦的资产阶级民主派（如立宪民主党人）"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "此句是本段论战的核心修辞，通过圣经典故的反讽，为下文具体批判立宪民主党人做铺垫，揭露其虚伪性。"
+        },
+        "implication": "真正的革命力量不在于人数众多，而在于立场坚定和行动彻底。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "立宪民主党",
+      "their_view": "我们是民主派，主张政治改革，但反对暴力和极端手段，应通过温和方式与沙皇政府协商实现宪政。",
+      "author_response": "列宁指出他们只是口头上的民主派，怯懦虚伪，不敢与沙皇专制进行彻底斗争，不是真正的人民专制拥护者。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p17s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p17s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p17s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p17s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "民主派",
+            "type": "concept",
+            "modern": "在1905年俄国语境下，特指那些宣称拥护民主政治，但未必主张彻底推翻沙皇专制的资产阶级及小资产阶级政治派别。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "democracy_bourgeois"
+          }
+        ]
+      },
+      {
+        "sid": "p17s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p17s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "人民专制",
+            "type": "concept",
+            "modern": "列宁在此使用的术语，指由工农群众掌握全部国家权力，对少数剥削者实行专政，是无产阶级专政思想在俄国革命语境下的具体表述。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "dictatorship_proletarian"
+          }
+        ]
+      }
+    ]
+  }
+}

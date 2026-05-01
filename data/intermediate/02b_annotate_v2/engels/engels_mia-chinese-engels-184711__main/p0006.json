@@ -1,0 +1,68 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 6,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段引用《辩论日报》对反对派宴会示威的激烈抨击，以及《国民报》用国王路易-菲力浦早年日记进行的反驳。",
+    "importance_score": 1,
+    "importance_reason": "通过引用论战双方的言论，具体展示法国资产阶级内部围绕选举改革的舆论交锋，是前文所述阶级斗争的实例。",
+    "argument_role": "example",
+    "argument_link": "承接上段对《辩论日报》抨击的简述，本段完整呈现其攻击言论，并引入对手的反驳，具体化了前文所述的论战。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "雅各宾俱乐部",
+        "explain": "法国大革命时期（1789-1799）最著名的激进政治俱乐部，以罗伯斯庇尔为代表，主张共和制，实行恐怖统治。在19世纪法国政治语境中，被保守派用作攻击对手“极端”“革命”的标签。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "《辩论日报》",
+      "their_view": "反对派发起的宴会示威不为国王干杯，这不是疏忽，而是蓄意为之。与会者中包括温和派人士，这证明整个运动是共和主义、革命、社会主义、共产主义乃至无政府主义的宣传，其目标是暴力推翻现有秩序，如同五十年前的雅各宾派。",
+      "author_response": "恩格斯通过引用《国民报》的反驳，揭露了这种指控的荒谬性：连国王路易-菲力浦本人年轻时也曾是雅各宾俱乐部的成员。",
+      "polemic_kind": "counter_quotation",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p6s1",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p6s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p6s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "雅各宾俱乐部",
+            "type": "org",
+            "modern": "法国大革命时期（1789-1799）的激进政治俱乐部，以罗伯斯庇尔为代表，主张共和制，实行恐怖统治。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  }
+}

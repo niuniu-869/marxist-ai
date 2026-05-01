@@ -1,0 +1,164 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 87,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "马克思通过小麦与金子的例子，论证商品价值由生产所耗费的劳动量决定，而非由支付给劳动者的工资决定。",
+    "importance_score": 2,
+    "importance_reason": "核心论证段落，通过具体例子拆解韦斯顿观点的逻辑错误，为后续理论推导奠定基础。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于价值由社会劳动结晶决定的结论，本段通过实例具体阐释这一原理，并直接反驳将价值与工资挂钩的错误观点。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "term_density",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p87s15",
+        "quote": "因此，按商品中凝固的相对劳动量决定商品价值，与按劳动的价值或工资决定商品价值这种同义反复的方法全然不同。",
+        "trigger": "term_density",
+        "reader_block": "句中“同义反复”一词可能让读者困惑：为什么用工资决定价值是同义反复？需要理解工资本身是用商品价值来衡量的。",
+        "parse": {
+          "claim": "用生产商品所耗费的劳动量来衡量其价值，与用工资（即劳动的价格）来衡量其价值，是两种根本不同的方法。",
+          "qualifiers": "无。",
+          "contrast_or_target": "韦斯顿等人的观点：商品价值由工资决定。"
+        },
+        "why": {
+          "relation": "conclusion",
+          "explanation": "本句是前文一系列例证和推理的总结，明确区分了两种价值决定方法，并将后者定性为逻辑错误的“同义反复”。"
+        },
+        "implication": "这为后续批判将工资视为价值尺度的理论错误提供了直接的逻辑武器。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p87s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p87s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p87s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p87s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p87s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p87s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p87s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p87s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p87s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p87s10",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p87s11",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p87s12",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p87s13",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p87s14",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p87s15",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p87s16",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 1,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

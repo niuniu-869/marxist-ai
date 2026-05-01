@@ -1,0 +1,90 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 60,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段反驳党内右倾妥协倾向，强调德国党必须坚持唯一强大反对党的角色，不能向俾斯麦示弱。",
+    "importance_score": 3,
+    "importance_reason": "核心批判段落，直接针对苏黎世三人团的改良路线，捍卫党的无产阶级革命性质。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于在国外活动自由与责任的论述，具体批判放弃反对党角色、向俾斯麦妥协的倾向。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_density",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "《反社会党人法》与俾斯麦",
+        "explain": "《反社会党人法》是1878年德国针对社会民主党的禁令，俾斯麦是推行该法的宰相。《灯笼》是党在国外的温和刊物之一。",
+        "why_needed": "history_density",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p60s3",
+        "quote": "如果党在国外的机关报上对俾斯麦表示感谢，放弃这个唯一强大的反对党的作用，俯首听命，驯顺地挨打，那只是证明，它该挨打。",
+        "trigger": "inverted_logic",
+        "reader_block": "反讽语气，条件句的结论是反话，读者可能误解为正面陈述，实际是批判妥协行为。",
+        "parse": {
+          "claim": "党若在国外刊物上向俾斯麦示弱并放弃反对派角色，这反而证明党缺乏斗争资格。",
+          "qualifiers": "条件是党在国外机关报上的行为。",
+          "contrast_or_target": "针对苏黎世三人团主张放弃革命道路、争取资产阶级同情的倾向。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "本句通过反讽揭露妥协立场的荒谬性，强化党必须坚持反对派角色的论点，直接反驳右倾思潮。"
+        },
+        "implication": null,
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "苏黎世三人团",
+      "their_view": "党应放弃暴力革命道路，走合法改良路线，争取资产阶级同情和合法地位。",
+      "author_response": "党必须保持唯一强大反对党的作用，不能向俾斯麦屈服，否则就丧失斗争资格。",
+      "polemic_kind": "strategic_critique",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p60s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p60s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p60s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p60s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p60s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  }
+}

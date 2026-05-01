@@ -1,0 +1,143 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 20,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁强调布尔什维克已夺取政权，驳斥党内关于单独无法掌权的论调，号召立即行动，认为当前是社会主义革命的开端。",
+    "importance_score": 3,
+    "importance_reason": "核心论点段，直接回应党内妥协派，为新生政权的行动路线定调。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段关于党内可能出现分裂的讨论，转而强调已掌握政权的事实，并驳斥由此产生的动摇思想。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p20s3",
+        "quote": "不是走向“新生”，这是一些无原则性的懦夫：时而同我们站在一起，时而同孟什维克站在一起。",
+        "trigger": "inverted_logic",
+        "reader_block": "句子以否定开头（“不是走向‘新生’”），读者可能困惑其否定对象。冒号后是对“懦夫”的描述，但“新生”一词的引号暗示其特定含义。",
+        "parse": {
+          "claim": "那些立场摇摆、在布尔什维克与孟什维克之间投机的人，是缺乏原则的懦夫，他们追求的并非真正的革命新生。",
+          "qualifiers": "特指党内那些在起义前后态度反复、试图与孟什维克妥协的成员。",
+          "contrast_or_target": "加米涅夫、季诺维也夫等人主张与孟什维克等政治力量达成协议，分享权力。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "直接抨击党内妥协派，将其行为定性为“无原则性的懦夫”，并指出其政治投机性（时而联合布尔什维克，时而联合孟什维克），从而否定其政治主张的正当性。"
+        },
+        "implication": "列宁将政治立场的不坚定与道德上的懦弱联系起来，旨在从道义上瓦解妥协派的论据。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p20s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p20s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "资产阶级",
+            "type": "concept",
+            "modern": "在马克思主义理论中，指占有生产资料、依靠剥削雇佣劳动为生的社会阶级。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "class_bourgeoisie"
+          }
+        ]
+      },
+      {
+        "sid": "p20s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "孟什维克",
+            "type": "org",
+            "modern": "俄国社会民主工党内与布尔什维克对立的派别，主张先发展资本主义，建立资产阶级民主共和国。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p20s4",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p20s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p20s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p20s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p20s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p20s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 1,
+        "hs_kept": 1,
+        "hs_dropped": 1,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_6>5",
+        "hs:claim_5gram_with_quote",
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

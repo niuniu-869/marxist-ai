@@ -1,0 +1,65 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 243,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁以反问形式向《新生活报》的自称马克思主义者确认前文结论。",
+    "importance_score": 1,
+    "importance_reason": "本段通过反问强化前文论证，连接上下文。",
+    "argument_role": "continues",
+    "argument_link": "本段以反问形式呼应前文对新生活派的批判，确认其论点错误。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "新生活派",
+      "their_view": "新生活派认为，无产阶级与其他阶级脱节，无法掌握国家机构，因此布尔什维克不能保持政权。",
+      "author_response": "列宁通过反问指出，新生活派的论点已被事实和论证驳倒，他们应承认错误。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p243s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "《新生活报》",
+            "type": "work",
+            "modern": "1917年俄国左翼孟什维克报纸，列宁常批判其立场。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_5gram_with_surface",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

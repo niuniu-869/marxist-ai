@@ -1,0 +1,76 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 175,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁引用马克思对洛帕廷的提问，指出压迫民族中的社会主义者常忽视对被压迫民族的义务，重复本国资产阶级的偏见。",
+    "importance_score": 2,
+    "importance_reason": "本段通过马克思的具体事例，为上一段提出的“考察社会主义者觉悟性的方法”提供一个历史范例，支撑列宁关于民族问题的核心论点。",
+    "argument_role": "example",
+    "argument_link": "本段承接上一段关于马克思考察社会主义者觉悟性方法的叙述，用马克思与洛帕廷关于波兰问题的通信作为具体例证，展示这种方法如何揭示压迫民族社会主义者的弱点。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "allusion",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "洛帕廷与波兰问题",
+        "explain": "洛帕廷是马克思的俄国通信者。波兰问题指19世纪波兰被俄、普、奥三国瓜分后，争取民族独立的斗争。马克思与恩格斯长期关注并支持波兰的民族解放运动。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p175s1",
+        "speaker": "quoted_marx",
+        "stance": "endorsed",
+        "notes": []
+      },
+      {
+        "sid": "p175s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p175s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote",
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 109,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁阐述选择粮食自由贸易将导致的阶级后果，将其与恢复剥削制度和破坏工农联盟联系起来。",
+    "importance_score": 2,
+    "importance_reason": "通过列举自由贸易的后果，支撑前文提出的政治抉择的严重性。",
+    "argument_role": "continues",
+    "argument_link": "承接上段提出的政治抉择，具体阐述选择自由贸易将导致的阶级后果。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p109s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "粮食自由贸易",
+            "type": "slogan",
+            "modern": "1919年苏俄战时共产主义政策下被禁止的经济主张，主张取消国家粮食征集制，允许私人买卖。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 2,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_9>5",
+        "note:n1_overflow_concept_8>5"
+      ]
+    }
+  ]
+}

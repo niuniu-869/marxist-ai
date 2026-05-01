@@ -1,0 +1,160 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 19,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁通过列举当时报刊立场，证明《信条》思想是倒退，并重申党的政治斗争原则。",
+    "importance_score": 2,
+    "importance_reason": "本段是核心论点的支撑，通过具体报刊立场对比，论证《信条》的倒退性质，并系统阐述党的基本原则。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段关于社会民主党前途的讨论，用具体报刊立场作为证据，证明党内主流观点与《信条》的对立，并由此引出对党的基本原则的重申。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "《工人思想报》所代表的经济主义倾向",
+      "their_view": "工人运动的经济基础可能因为过于强调政治思想而变得模糊不清。",
+      "author_response": "列宁通过列举《圣彼得堡工人小报》和《工人报》的相反主张，以及1898年代表大会的决议，来证明这种观点是错误的，且与党内已达成的共识相悖。",
+      "polemic_kind": "counter_quotation",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p19s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p19s2",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": [
+          {
+            "surface": "工人思想报",
+            "type": "work",
+            "modern": "1897年创刊于彼得堡的工人报纸，其观点被列宁视为与《信条》思想相近。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p19s3",
+        "speaker": "quoted_opponent",
+        "stance": "endorsed",
+        "notes": [
+          {
+            "surface": "圣彼得堡工人小报",
+            "type": "work",
+            "modern": "1897年创刊于彼得堡的另一份工人报纸，其立场与《工人思想报》相反，主张建立政党。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p19s4",
+        "speaker": "quoted_opponent",
+        "stance": "endorsed",
+        "notes": [
+          {
+            "surface": "工人报",
+            "type": "work",
+            "modern": "1897年创刊的工人报纸，其社论明确将争取政治自由列为工人运动任务，并被1898年代表大会承认为党的机关报。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p19s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p19s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p19s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p19s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p19s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p19s10",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p19s11",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p19s12",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p19s13",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p19s14",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 3,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_5gram_with_surface"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 46,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段阐述马克思恩格斯在缺乏独立无产阶级政党的英美两国，对社会党人提出的具体策略要求。",
+    "importance_score": 1,
+    "importance_reason": "为上一段提出的“纠正总路线”提供具体历史例证，说明马克思恩格斯在不同条件下的策略灵活性。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于纠正英美和德国运动总路线的论述，具体说明马克思恩格斯在英美的策略内容。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p46s1",
+        "quote": "在根本没有社会民主工党、根本没有社会民主党的代表参加议会、不论在选举中或报刊上都根本看不到一贯的坚定的社会民主主义政策的国家里，马克思和恩格斯就教导社会党人无论如何要打破狭隘的宗派圈子，参加到工人运动中去，以便使无产阶级在政治上振作起来，因为在19世纪最后三分之一的年代里，无产阶级不论在英国或美国都几乎没有表现出任何政治独立性。",
+        "trigger": "long_nested",
+        "reader_block": "句子结构复杂，包含多个并列条件状语和因果从句，且“社会民主工党”“社会民主主义政策”等术语密集，读者易迷失主干。",
+        "parse": {
+          "claim": "在英美这类缺乏成型无产阶级政党及其政治表现的国家，马克思恩格斯主张社会党人必须融入工人运动，以唤醒无产阶级的政治自觉。",
+          "qualifiers": "限定于19世纪最后三十年的英美两国，当时无产阶级几乎未展现政治独立性。",
+          "contrast_or_target": "针对那些脱离工人运动、固守小圈子的宗派主义倾向。"
+        },
+        "why": {
+          "relation": "example",
+          "explanation": "本句作为例证，具体说明上一段提出的“纠正总路线”在英美是如何体现的，即策略必须适应当地无产阶级缺乏政治组织的现实。"
+        },
+        "implication": "这表明马克思主义的策略原则不是教条，而是根据各国阶级斗争的具体条件灵活调整的。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p46s1",
+        "speaker": "quoted_engels",
+        "stance": "endorsed",
+        "notes": []
+      },
+      {
+        "sid": "p46s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 2,
+        "hs_kept": 1,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_6>5",
+        "note:n1_overflow_concept_12>5"
+      ]
+    }
+  ]
+}

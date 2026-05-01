@@ -1,0 +1,348 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 26,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁通过对比临时政府部长斯柯别列夫的激进空话与布尔什维克温和但务实的监督主张，揭露临时政府经济政策的虚伪性，强调只有苏维埃政权才能真正行动。",
+    "importance_score": 3,
+    "importance_reason": "通过具体对比，揭露临时政府经济政策的空洞性，支撑列宁关于只有苏维埃政权才能真正实行监督的论点。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于俄国革命创造了苏维埃这一组织形式的论述，具体说明苏维埃政权与临时政府在经济监督能力上的根本区别。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "斯柯别列夫部长",
+        "explain": "临时政府的劳动部长，社会革命党人。以发表激进的经济纲领著称，但其主张常被批评为脱离实际的空话。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "《言语报》",
+        "explain": "俄国立宪民主党的主要机关报，代表资产阶级自由派立场，常批评临时政府内部的激进言论。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p26s28",
+        "quote": "地狱是由善良的愿望铺成的。",
+        "trigger": "inverted_logic",
+        "reader_block": "这是一个反讽性谚语，读者可能按字面理解为“善良愿望导致地狱”，但其核心是批判“仅有动机而无行动”的政治空谈。",
+        "parse": {
+          "claim": "良好的主观意图并不能保证良好的政治结果，甚至可能因脱离实际而导向灾难。",
+          "qualifiers": "针对斯柯别列夫等临时政府部长的空头承诺。",
+          "contrast_or_target": "斯柯别列夫声称怀有美好愿望，但其诺言无法兑现。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "用谚语反驳论敌以“动机善良”为自身政策辩护的逻辑，强调政治评价应基于实际效果而非主观意图。"
+        },
+        "implication": "评价政治行动应看其实际执行与阶级基础，而非空洞的承诺。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "斯柯别列夫部长",
+      "their_view": "临时政府应把资本家的全部利润（百分之百）征收过来，并声称自己怀有最美好的愿望。",
+      "author_response": "列宁指出这是说大话，因为斯柯别列夫与资本家代表关系密切，根本无法也无意真正实行。布尔什维克的主张（监督与合理所得税）更温和但更可行。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p26s1",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p26s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p26s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p26s4",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p26s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p26s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p26s7",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p26s8",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p26s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p26s10",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p26s11",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p26s12",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p26s13",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p26s14",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p26s15",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "监督",
+            "type": "concept",
+            "modern": "布尔什维克经济纲领的核心主张，指由国家或代表机构对银行、工厂等经济活动进行审查和控制。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "economic_supervision"
+          }
+        ]
+      },
+      {
+        "sid": "p26s16",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p26s17",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p26s18",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p26s19",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p26s20",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p26s21",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "工兵代表苏维埃",
+            "type": "org",
+            "modern": "1917年革命中由工人和士兵选举产生的权力机构，列宁认为它是无产阶级专政的雏形。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p26s22",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p26s23",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p26s24",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p26s25",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p26s26",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p26s27",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p26s28",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p26s29",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p26s30",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p26s31",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p26s32",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p26s33",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p26s34",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p26s35",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p26s36",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p26s37",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p26s38",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p26s39",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p26s40",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p26s41",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 1,
+        "hs_kept": 1,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_6>5"
+      ]
+    }
+  ]
+}

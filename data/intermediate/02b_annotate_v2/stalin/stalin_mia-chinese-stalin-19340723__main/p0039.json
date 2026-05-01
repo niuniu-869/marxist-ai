@@ -1,0 +1,55 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 39,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "斯大林以十月革命为例，指出即使人们认识到旧制度腐朽，革命后仍需暴力抵抗来保卫成果。",
+    "importance_score": 2,
+    "importance_reason": "用具体历史事例支撑斯大林对威尔斯和平过渡论点的反驳。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段关于推翻沙皇制度需要流血的论述，将论证从旧制度的推翻延伸到新政权的保卫。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "威尔斯",
+      "their_view": "可以通过国家逐步干预经济、依靠技术知识分子来和平过渡到社会主义，不必强调阶级斗争和暴力革命。",
+      "author_response": "十月革命的历史表明，即使人们认识到旧制度的腐朽，革命后依然需要进行巨大的暴力抵抗和流血斗争来保卫革命成果。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p39s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

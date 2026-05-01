@@ -1,0 +1,93 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 34,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段引用巴黎公社的历史教训与俄国革命经验，反驳考茨基的遗忘，并得出必须彻底打碎旧国家暴力机关的结论。",
+    "importance_score": 2,
+    "importance_reason": "本段是列宁论证“不能恢复旧警察和旧军队”这一核心主张的关键历史依据，连接了理论（巴黎公社）与现实（俄国革命）。",
+    "argument_role": "continues",
+    "argument_link": "本段承接上一段关于国家官吏选举与薪金的论述，将其提升到必须彻底改造国家暴力机关（警察、军队）的层面，并以历史教训作为论据。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "巴黎公社的教训",
+        "explain": "1871年巴黎工人起义建立的政权，其核心经验之一是打碎旧的常备军和警察等国家暴力机器，代之以人民武装。列宁在《国家与革命》中对此有详细阐发。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "考茨基的立场",
+        "explain": "第二国际理论家，主张通过议会道路和平过渡到社会主义，反对暴力革命和打碎旧国家机器，列宁视其为机会主义代表。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p34s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "巴黎公社",
+            "type": "event",
+            "modern": "1871年法国巴黎工人阶级建立的革命政权，其存续期间采取的打碎旧国家机器的措施，是马克思主义国家学说的重要实践来源。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "考茨基",
+            "type": "person",
+            "modern": "卡尔·考茨基，第二国际主要理论家，列宁在《国家与革命》等著作中批判其在国家问题上的机会主义立场。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p34s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

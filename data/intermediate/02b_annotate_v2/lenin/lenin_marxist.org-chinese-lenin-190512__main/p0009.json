@@ -1,0 +1,82 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 9,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "通过两个反问句，提出一个关于党的纲领和成员资格的可能疑问，为后续论证做铺垫。",
+    "importance_score": 2,
+    "importance_reason": "这是论证中的过渡环节，通过设问引出对党的纲领和成员资格问题的讨论。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段关于宗教对党而言绝非私人事务的结论，进一步追问为何不在纲领中明确无神论立场。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p9s1",
+        "quote": "既然如此，我们为什么不在自己的党纲里宣布我们是无神论者呢？",
+        "trigger": "inverted_logic",
+        "reader_block": "反问句式，读者可能误以为这是列宁的主张，实际是引出后续论证的设问。",
+        "parse": {
+          "claim": "有人可能会问，既然宗教不是私人事务，那么党为何不在纲领中明确宣告无神论立场。",
+          "qualifiers": "",
+          "contrast_or_target": "党内机会主义认为宗教是私人事务，不应干涉。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "通过设问，引出对党内机会主义观点的进一步反驳，为下文论证党在思想领域的任务做铺垫。"
+        },
+        "implication": null,
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      },
+      {
+        "anchor": "p9s2",
+        "quote": "我们为什么不禁止基督教徒和信奉上帝的人加入我们的党呢？",
+        "trigger": "inverted_logic",
+        "reader_block": "反问句式，读者可能误以为这是列宁的主张，实际是引出后续论证的设问。",
+        "parse": {
+          "claim": "有人可能会问，既然宗教不是私人事务，那么党为何不禁止有宗教信仰的人入党。",
+          "qualifiers": "",
+          "contrast_or_target": "党内机会主义认为宗教是私人事务，不应干涉党员信仰。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "通过设问，引出对党内机会主义观点的进一步反驳，为下文论证党在思想领域的任务做铺垫。"
+        },
+        "implication": null,
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "党内机会主义",
+      "their_view": "宗教对个人而言是私事，党不应干涉成员的信仰选择。",
+      "author_response": "列宁认为宗教问题涉及世界观，与党的任务相关，不能简单视为私人事务。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p9s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p9s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,170 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 48,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "作者回应论敌指控，承认沙皇政权压迫少数民族，但强调社会民主党始终反对这种压迫，并援引党纲条款作为依据。",
+    "importance_score": 2,
+    "importance_reason": "本段是作者对论敌核心指控的直接回应，通过承认事实、表明立场、引用纲领来构建反驳。",
+    "argument_role": "continues",
+    "argument_link": "本段承接上一段对论敌要求的分析，直接回应其关于沙皇暴行的指控，并表明社会民主党的立场。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p48s3",
+        "quote": "难道我们没有看见沙皇专制制度的暴行吗？",
+        "trigger": "inverted_logic",
+        "reader_block": "反问句式，读者可能误以为作者在否认看见暴行，实际是强调看见。",
+        "parse": {
+          "claim": "社会民主党清楚地看到了沙皇政权对少数民族的压迫。",
+          "qualifiers": "",
+          "contrast_or_target": ""
+        },
+        "why": {
+          "relation": "continues",
+          "explanation": "这是对上一段论敌指控的回应，用反问强调己方立场，为下文表明反对态度做铺垫。"
+        },
+        "implication": "作者以此建立与论敌在事实认知上的共同点，为后续论证奠定基础。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      },
+      {
+        "anchor": "p48s4",
+        "quote": "难道我们不是一直在反对这种暴行吗？！",
+        "trigger": "inverted_logic",
+        "reader_block": "双重否定加感叹，语气强烈，读者需转换为肯定陈述才能理解核心主张。",
+        "parse": {
+          "claim": "社会民主党始终在反对沙皇政权的压迫政策。",
+          "qualifiers": "",
+          "contrast_or_target": ""
+        },
+        "why": {
+          "relation": "continues",
+          "explanation": "紧接上句，从“看见”推进到“反对”，强化社会民主党在民族问题上的行动立场。"
+        },
+        "implication": "作者以此反驳论敌暗示社会民主党不作为的潜在指责。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p48s1",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p48s2",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p48s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p48s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p48s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p48s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p48s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p48s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p48s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "党纲第九条",
+            "type": "program_clause",
+            "modern": "1903年俄国社会民主工党第二次代表大会通过的党纲中关于民族自决权的条款。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p48s10",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "党纲第九条",
+            "type": "program_clause",
+            "modern": "1903年俄国社会民主工党第二次代表大会通过的党纲中关于民族自决权的条款。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p48s11",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 0,
+        "hs_kept": 2,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

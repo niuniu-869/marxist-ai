@@ -1,0 +1,80 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 12,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁通过反问质疑沙皇君主制度在二月革命中迅速崩溃的原因，引出对革命动力的探讨。",
+    "importance_score": 1,
+    "importance_reason": "提出问题，为后续分析革命性质和策略做铺垫。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对革命第一阶段结束的陈述，转而追问君主制度崩溃的迅速性。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_density",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "1905年俄国革命",
+        "explain": "1905年爆发的反沙皇革命，包括武装起义和总罢工，迫使沙皇颁布宪法性文件，但革命最终被镇压。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "米留可夫",
+        "explain": "帕维尔·米留可夫，俄国自由派政治家，立宪民主党领袖，二月革命后任临时政府外交部长。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p12s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "米留可夫先生",
+            "type": "person",
+            "modern": "俄国自由派政治家，立宪民主党领袖，时任临时政府外交部长。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_event_14>12",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

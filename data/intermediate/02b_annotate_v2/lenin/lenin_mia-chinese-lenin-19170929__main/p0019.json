@@ -1,0 +1,80 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 19,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁以两个反问句，强调农民起义的事实已证明革命危机成熟，任何犹豫都将导致革命失败。",
+    "importance_score": 2,
+    "importance_reason": "承接上段对农民起义事实的陈述，将其直接论证为武装起义时机成熟的决定性证据，是推动全文核心论点的关键环节。",
+    "argument_role": "continues",
+    "argument_link": "本段直接承接上段描述的农民起义事实，将其作为论据，推导出革命危机已成熟、必须立即行动的结论。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p19s1",
+        "quote": "在这样的事实面前，难道真心诚意拥护无产阶级的人，还能否认危机已经成熟，革命正处在最伟大的转折点吗？",
+        "trigger": "inverted_logic",
+        "reader_block": "双重否定反问句式，读者需转换思维才能把握其肯定含义，即“所有真心拥护无产阶级的人都必须承认危机已成熟”。",
+        "parse": {
+          "claim": "面对农民起义的事实，任何真正支持无产阶级事业的人都必须承认，革命危机已经完全成熟，当前是决定性的历史时刻。",
+          "qualifiers": "以“真心诚意拥护无产阶级”为前提，限定了判断主体的立场。",
+          "contrast_or_target": "针对党内那些对起义时机持怀疑或等待态度的人，他们可能以“拥护无产阶级”自居却否认危机成熟。"
+        },
+        "why": {
+          "relation": "conclusion",
+          "explanation": "本句从上段所述的农民起义事实出发，通过反问句式，得出一个不容置疑的结论：革命危机已成熟。这是对事实的定性判断，旨在统一党内认识。"
+        },
+        "implication": "暗示党内存在否认危机成熟的倾向，这种倾向与无产阶级的根本利益相悖。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "等待苏维埃代表大会的倾向",
+      "their_view": "当前的农民起义只是局部事件，革命的整体时机尚未完全成熟，应等待通过苏维埃代表大会等更正式的程序来决定政权问题，而非立即发动武装起义。",
+      "author_response": "列宁认为，农民起义这一事实本身已无可辩驳地证明了革命危机的全面成熟，任何等待都是对革命的背叛，其结果将是让反革命势力得逞。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p19s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p19s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 1,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

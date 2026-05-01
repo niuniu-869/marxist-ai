@@ -1,0 +1,89 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 12,
+  "annotation": {
+    "block_type": "quote_block",
+    "gist": "本段是恩格斯引用的呼吁书内容，通过历史事例论证波兰对欧洲文明的贡献。",
+    "importance_score": 1,
+    "importance_reason": "作为恩格斯分析的引文材料，提供历史背景。",
+    "argument_role": "none",
+    "argument_link": null,
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p12s1",
+        "speaker": "quoted_opponent",
+        "stance": "neutral_citation",
+        "notes": [
+          {
+            "surface": "波兰",
+            "type": "place",
+            "modern": "19世纪欧洲民族独立运动中的关键国家。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "东北欧",
+            "type": "place",
+            "modern": "地理区域概念，涵盖波兰、波罗的海沿岸等地。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "东方野蛮人",
+            "type": "social_group",
+            "modern": "19世纪欧洲对东方游牧民族的泛称。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "宗教裁判所",
+            "type": "org",
+            "modern": "中世纪至近代早期天主教会设立的审判异端的机构。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 4,
+        "notes_dropped": 2,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

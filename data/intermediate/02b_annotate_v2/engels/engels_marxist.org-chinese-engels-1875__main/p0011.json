@@ -1,0 +1,174 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 11,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段论述康德的星云假说首次打破了僵化的自然观，但当时未受自然科学家重视，直到后来才被天文学发现证实。",
+    "importance_score": 2,
+    "importance_reason": "本段是论证自然观从形而上学转向辩证法的关键历史案例，展示了哲学思维对自然科学的先导作用。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于陈腐自然观在十九世纪上半叶仍占统治地位的论述，具体指出打破这一僵局的第一个关键人物和理论。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "康德的星云假说",
+        "explain": "康德在1755年提出，太阳系由一团旋转的炽热星云逐渐冷却凝聚而成，而非上帝一次性创造。这为天体演化提供了自然主义解释。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "牛顿的警告",
+        "explain": "牛顿在《光学》中警告“物理学，当心形而上学呵！”，意在反对用哲学思辨干预经验科学研究，这代表了当时科学家对哲学的普遍排斥态度。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "牛顿及受其影响的自然科学家",
+      "their_view": "哲学思辨（形而上学）对物理学研究是有害的干扰，科学家应当专注于经验观察和数学计算，避免哲学介入。",
+      "author_response": "恩格斯认为，正是这种对哲学思维的排斥，导致科学家们忽视了康德发现中蕴含的辩证法思想，从而走了弯路，延缓了科学进步。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p11s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p11s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "《自然通史和天体论》",
+            "type": "work",
+            "modern": "康德于1755年匿名出版的著作，提出了关于太阳系起源的星云假说。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p11s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "第一次推动",
+            "type": "concept",
+            "modern": "牛顿力学体系中无法解释的初始动力来源，最终被归因于上帝的推动。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "first_cause_theological"
+          }
+        ]
+      },
+      {
+        "sid": "p11s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p11s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p11s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p11s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p11s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p11s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "拉普拉斯",
+            "type": "person",
+            "modern": "法国天文学家、数学家，其著作《宇宙体系论》独立提出了更完善的星云假说。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "赫舍尔",
+            "type": "person",
+            "modern": "英国天文学家，通过大量观测证实了银河系结构和星云的存在。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "星云假说",
+            "type": "work",
+            "modern": "关于太阳系起源于旋转星云的理论，康德和拉普拉斯是其主要提出者。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p11s10",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p11s11",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 5,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

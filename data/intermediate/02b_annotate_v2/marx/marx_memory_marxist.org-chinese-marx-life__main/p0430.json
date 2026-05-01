@@ -1,0 +1,76 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 430,
+  "annotation": {
+    "block_type": "narrative",
+    "gist": "描述马克思法庭发言后陪审官的反应，并引出其讲话中对国王破坏法律的指控。",
+    "importance_score": 2,
+    "importance_reason": "通过描述听众反应，侧面烘托马克思辩护的力度，并引出其辩护的核心论点。",
+    "argument_role": "continues",
+    "argument_link": "本段承接上一段马克思开始发言的场景，描述听众反应并引出其辩护的核心论点。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p430s4",
+        "quote": "“国王实行了一场革命，他推翻了现存的法律制度，他不能诉诸被他自己司耻地踩躏了的法律!”",
+        "trigger": "inverted_logic",
+        "reader_block": "国王本应是法律的维护者，但马克思指控他破坏了法律，这种反讽和双重否定可能让读者困惑其逻辑。",
+        "parse": {
+          "claim": "国王通过破坏法律来巩固权力，因此无权援引被自己践踏的法律作为审判依据。",
+          "qualifiers": "",
+          "contrast_or_target": ""
+        },
+        "why": {
+          "relation": "continues",
+          "explanation": "这是马克思在法庭上为自己辩护的核心论点，直接反驳了起诉的合法性基础。"
+        },
+        "implication": "马克思的论点挑战了国王行为的合法性，将审判的焦点从自身转向了国王。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p430s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p430s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p430s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p430s4",
+        "speaker": "quoted_marx",
+        "stance": "endorsed",
+        "notes": []
+      }
+    ]
+  }
+}

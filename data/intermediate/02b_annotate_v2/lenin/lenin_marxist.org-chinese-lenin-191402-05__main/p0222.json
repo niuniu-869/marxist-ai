@@ -1,0 +1,96 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 222,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁通过对比俄国自由派政党的纲领与罗莎·卢森堡追随者的主张，揭露后者在民族问题上实际采用了自由派立场。",
+    "importance_score": 2,
+    "importance_reason": "本段通过具体例证，揭示论敌在民族自决权问题上与自由派的趋同，是论证其机会主义性质的关键环节。",
+    "argument_role": "contrasts",
+    "argument_link": "承接上段关于党内无人反对民族自决权的论证，转而对比罗莎·卢森堡的波兰追随者与自由派在纲领上的相似性，以揭露其理论立场的实质。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "cross_ref",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p222s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "立宪民主党",
+            "type": "org",
+            "modern": "1905年后俄国主要的资产阶级自由主义政党，主张君主立宪，其纲领在民族问题上倾向于文化自治。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p222s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "罗莎·卢森堡",
+            "type": "person",
+            "modern": "波兰裔德国马克思主义理论家，第二国际重要成员，对民族自决权持批判态度。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "波兰社会党",
+            "type": "org",
+            "modern": "波兰的社会主义政党，带有较强的民族主义倾向，主张波兰独立。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p222s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 3,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 2,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "hs:claim_5gram_with_quote",
+        "hs:claim_5gram_with_quote",
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

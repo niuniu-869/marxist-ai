@@ -1,0 +1,114 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 314,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "通过文献考证，反驳罗马妇女只能在氏族内结婚的观点，并支持摩尔根的理论。",
+    "importance_score": 2,
+    "importance_reason": "用具体文献证据支撑上一段的假设性推理，反驳蒙森，支持摩尔根关于氏族外婚制的论点。",
+    "argument_role": "continues",
+    "argument_link": "本段通过考证拉丁文献中相关术语的出现频率和语境，为上一段关于决议无法证明自由妇女地位的假设性推理提供了具体的文献学证据。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "蒙森",
+      "their_view": "罗马妇女按照惯例只能在本氏族内部结婚。",
+      "author_response": "恩格斯通过考证相关拉丁术语在文献中的罕见出现，论证这种看法缺乏依据，并指出该决议若适用于自由妇女，反而证明了氏族外婚的通例。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p314s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p314s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p314s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p314s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p314s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "被释女奴隶",
+            "type": "social_group",
+            "modern": "古罗马法律中获得自由的女性奴隶，其婚姻权利受到特定法律限制。",
+            "highlight": "social_group",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p314s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "蒙森",
+            "type": "person",
+            "modern": "德国历史学家，其关于罗马妇女婚姻规则的观点被恩格斯在此反驳。",
+            "highlight": "person",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "摩尔根",
+            "type": "person",
+            "modern": "美国人类学家，其关于古代社会氏族制度的研究成果被恩格斯采纳并用于论证。",
+            "highlight": "person",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 3,
+        "notes_dropped": 4,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_archaic_14>4",
+        "note:n1_overflow_archaic_7>4",
+        "note:n2_circular_prefix",
+        "note:n1_overflow_social_group_17>12"
+      ]
+    }
+  ]
+}

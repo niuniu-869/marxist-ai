@@ -1,0 +1,78 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 122,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁批判自由派与俄国马克思主义者中的机会主义者，指出他们反对民族自决权的阶级实质。",
+    "importance_score": 2,
+    "importance_reason": "通过批判具体论敌，揭示反对民族自决权的阶级基础，支撑全文核心论点。",
+    "argument_role": "continues",
+    "argument_link": "将上段对科科计金个人的批判，扩展到对自由派和党内机会主义者群体的批判，揭示其共同的阶级立场。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "六三政制时代",
+        "explain": "指1907年6月3日沙皇政府解散第二届国家杜马、颁布新选举法后建立的独裁统治时期。这是斯托雷平反动时期的高峰，政治高压与反动政策并行。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p122s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p122s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "六三政制时代",
+            "type": "event",
+            "modern": "1907年6月3日沙皇解散杜马、建立独裁统治的时期，标志着斯托雷平反动时期的开始。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

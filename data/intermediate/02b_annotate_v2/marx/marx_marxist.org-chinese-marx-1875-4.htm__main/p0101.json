@@ -1,0 +1,87 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 101,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "马克思批评纲领草案对国际主义的表述空洞且抄袭资产阶级口号，回避了工人阶级的国际职责。",
+    "importance_score": 2,
+    "importance_reason": "核心批判段落，揭露纲领草案在国际主义问题上的机会主义实质。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对工人阶级斗争国际性的论证，转而具体批判德国工人党纲领草案中对国际主义的错误表述。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "和平和自由同盟",
+        "explain": "1867年在瑞士成立的资产阶级和平主义组织，主张通过裁军和国际仲裁实现和平。马克思在《资本论》等著作中曾批判其空想性质。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "德国工人党（哥达纲领草案）",
+      "their_view": "德国工人党将自身的国际主义归结为：意识到其意图的结果将是“各民族的国际的兄弟联合”。",
+      "author_response": "马克思指出这是从资产阶级和平主义组织那里抄袭来的空洞口号，它完全回避了德国工人阶级在反对本国资产阶级及其国际联合时应承担的具体职责。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p101s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p101s2",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p101s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p101s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p101s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

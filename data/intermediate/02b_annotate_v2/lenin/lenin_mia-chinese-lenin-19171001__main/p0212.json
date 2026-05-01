@@ -1,0 +1,64 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 212,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁指出，彼舍霍诺夫承认布尔什维主义代表多数居民要求，就等于放弃了小资产阶级民主派的立场。",
+    "importance_score": 2,
+    "importance_reason": "通过揭露论敌自相矛盾，支撑布尔什维克夺取政权的合理性。",
+    "argument_role": "continues",
+    "argument_link": "本段承接上段对彼舍霍诺夫的批评，进一步指出其承认布尔什维主义就等于背叛自身阶级立场。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "彼舍霍诺夫的身份",
+        "explain": "彼舍霍诺夫是俄国社会革命党人，曾任临时政府部长，代表小资产阶级利益。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "彼舍霍诺夫",
+      "their_view": "彼舍霍诺夫承认布尔什维主义的要求代表了劳动群众，即多数居民。",
+      "author_response": "列宁指出，这种承认等于放弃了小资产阶级民主派的全部立场。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p212s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 2,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_6>5",
+        "note:n1_overflow_concept_8>5"
+      ]
+    }
+  ]
+}

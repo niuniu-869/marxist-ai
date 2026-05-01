@@ -1,0 +1,55 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 8,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "通过两个反问句，质疑纳粹德国关于其军队无敌的宣传，并引出对红军初期失利原因的反思。",
+    "importance_score": 2,
+    "importance_reason": "本段作为演说中的过渡，通过反问引出对战争性质和红军处境的解释，为后续动员做铺垫。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对战争初期苏军损失和领土沦陷的描述，以反问形式将叙事转向对敌我力量对比的质疑。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "法西斯宣传家",
+      "their_view": "德国法西斯军队是无敌的，能够迅速占领苏联领土并取得胜利。",
+      "author_response": "斯大林通过反问质疑这种宣传，指出红军的英勇抵抗和敌人的实际损失，表明无敌说法不符合事实。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p8s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

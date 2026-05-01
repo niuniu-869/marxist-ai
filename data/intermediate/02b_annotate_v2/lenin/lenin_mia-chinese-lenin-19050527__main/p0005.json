@@ -1,0 +1,99 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 5,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁通过与社会民主党组织的对比，批判自由派资产阶级政党组织涣散、纲领模糊，并揭露其内部有组织的知识分子与无组织的资本家之间的矛盾。",
+    "importance_score": 2,
+    "importance_reason": "本段是列宁对自由派资产阶级组织形态批判的核心例证，揭示其阶级本质。",
+    "argument_role": "contrasts",
+    "argument_link": "承接上段对自由派刊物内容的引用，本段转而对比自由派与社会民主党的组织状况，突出自由派的涣散。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "地方自治派与解放社",
+        "explain": "“地方自治派”指俄国地方自治局（地方行政机构）中的自由派贵族和官僚。“解放社”是1904年成立的自由派政治团体，主张君主立宪。两者是当时俄国自由派资产阶级的主要政治力量，但组织松散，纲领不一。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "俄国自由派资产阶级及其代表司徒卢威",
+      "their_view": "我们自由派通过“解放社”和地方自治派的联合，已经迈出了组织化的关键一步。",
+      "author_response": "列宁指出这种联合只是松散联盟，缺乏政党的基本要素，实质是资产阶级内部不同集团的妥协。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p5s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p5s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p5s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p5s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p5s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p5s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p5s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

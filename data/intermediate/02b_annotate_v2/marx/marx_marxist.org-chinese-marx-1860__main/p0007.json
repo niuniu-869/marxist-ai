@@ -1,0 +1,191 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 7,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "通过历史追溯，论证个人在早期社会中从属于整体，反驳将孤立个人视为历史起点的观点，并批判当代经济学家重拾此错误。",
+    "importance_score": 2,
+    "importance_reason": "核心批判段落，通过历史事实反驳古典政治经济学的抽象个人前提，并点名批判蒲鲁东等人。",
+    "argument_role": "contrasts",
+    "argument_link": "承接上段对斯密、李嘉图“孤立猎人渔夫”虚构的批判，从历史维度正面论证个人与社会的关系，形成鲜明对比。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p7s4",
+        "quote": "但是，产生这种孤立的个人的观点的时代，正是具有迄今为止最发达的社会关系（从这种观点来看是一般关系）的时代。",
+        "trigger": "inverted_logic",
+        "reader_block": "读者会困惑：为什么产生“孤立个人”观点的时代，反而拥有最发达的社会关系？这与直觉相悖。",
+        "parse": {
+          "claim": "市民社会时代催生了孤立个人的观念，但这个时代本身恰恰是社会关系发展程度最高的时代。",
+          "qualifiers": "",
+          "contrast_or_target": "反驳古典政治经济学将孤立个人视为自然起点，暗示其观点与历史事实相反。"
+        },
+        "why": {
+          "relation": "contrasts",
+          "explanation": "此句揭示一个历史悖论：个人看似独立的观念，恰恰产生于社会联系最紧密的时代，从而揭露了古典经济学观点的历史错位。"
+        },
+        "implication": "",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "巴师夏、凯里、蒲鲁东",
+      "their_view": "孤立的个人是历史的自然起点，这种观念自古有之（如对亚当和普罗米修斯而言），后来才被付诸实行。",
+      "author_response": "马克思指出这种观点是18世纪的荒诞虚构，而巴师夏等人将其重新引入经济学是乏味的陈词滥调，他们用编造神话的方法来解释自己不了解其历史来源的经济关系。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p7s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "氏族",
+            "type": "social_group",
+            "modern": "原始社会中基于血缘关系形成的社会组织单位。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p7s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p7s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "市民社会",
+            "type": "concept",
+            "modern": "马克思用此指代资本主义社会，其特征是个人利益至上，社会关系成为实现私人目的的工具。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "civil_society_historical"
+          }
+        ]
+      },
+      {
+        "sid": "p7s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p7s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "社会动物",
+            "type": "concept",
+            "modern": "马克思对人的本质的界定，强调人的独立性以社会性为前提，而非孤立存在。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "human_nature_social"
+          }
+        ]
+      },
+      {
+        "sid": "p7s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p7s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p7s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "巴师夏",
+            "type": "person",
+            "modern": "弗雷德里克·巴师夏，19世纪法国古典自由主义经济学家，主张经济和谐论。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "凯里",
+            "type": "person",
+            "modern": "亨利·凯里，19世纪美国经济学家，主张阶级利益调和论。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "蒲鲁东",
+            "type": "person",
+            "modern": "皮埃尔-约瑟夫·蒲鲁东，法国小资产阶级社会主义者，无政府主义理论家。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p7s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "普罗米修斯",
+            "type": "person",
+            "modern": "希腊神话中为人类盗取火种的神，蒲鲁东等人将其纳入其历史哲学叙事。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p7s10",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 7,
+        "notes_dropped": 1,
+        "hs_kept": 1,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

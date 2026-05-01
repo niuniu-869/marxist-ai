@@ -1,0 +1,76 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 185,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁反驳论敌关于无产阶级专政将被敌对力量消灭的论断，指出其类比的荒谬性。",
+    "importance_score": 2,
+    "importance_reason": "本段是列宁对《新生活报》等论敌核心论点的直接反驳，揭露其逻辑错误。",
+    "argument_role": "contrasts",
+    "argument_link": "承接上段对论敌恐惧心理的描述，具体反驳其关于无产阶级专政将被消灭的论断。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "《新生活报》（新生活派）",
+      "their_view": "各种敌对力量的进攻会消灭无产阶级专政。",
+      "author_response": "列宁指出这种论断基于对阶级阵营的错误划分，其类比如同用不同度量单位比较事物。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p185s1",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p185s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p185s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "旺代叛乱",
+            "type": "event",
+            "modern": "1793年法国西部保王党与共和军之间的内战，此处用来指代反革命的小资产阶级。",
+            "highlight": "allusion",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

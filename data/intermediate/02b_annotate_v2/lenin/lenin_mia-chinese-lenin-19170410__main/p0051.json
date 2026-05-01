@@ -1,0 +1,104 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 51,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段描述俄国政权从暴力压迫转向空话敷衍，并用典故讽刺苏维埃领导人的无效抗议。",
+    "importance_score": 3,
+    "importance_reason": "本段是核心批判，揭露临时政府的欺骗本质和苏维埃领导层的无效抗议。",
+    "argument_role": "continues",
+    "argument_link": "本段承接上段对资产阶级两种统治方法的分析，具体指出俄国政权已转向用空话欺骗人民。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "allusion",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "allusion",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "猫儿瓦西卡典故",
+        "explain": "源自俄罗斯民间故事，讲一只猫一边听老鼠承诺不偷吃，一边继续吃东西。作者用此比喻临时政府对苏维埃领导人的空洞承诺置若罔闻，只顾自身利益。",
+        "why_needed": "allusion",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p51s3",
+        "quote": "米留可夫和古契柯夫把持着政权，维护资本的利润，为了俄国资本和英法资本的利益而进行帝国主义战争，同时用空洞的诺言、堂皇的宣言、娓娓动听的声明来敷衍齐赫泽、策列铁里、斯切克洛夫这类“厨子”的高谈阔论，尽管这些“厨子”在那里不断地威胁、劝告、央求、恳请、要求、慷慨陈词……猫儿瓦西卡边听边吃[87]。",
+        "trigger": "allusion",
+        "reader_block": "读者可能不理解“猫儿瓦西卡”这个比喻，以及它如何讽刺苏维埃领导人的空谈与临时政府的漠视。",
+        "parse": {
+          "claim": "临时政府用各种空话敷衍苏维埃领导人，而后者对此毫无办法，只能继续无效的抗议。",
+          "qualifiers": "",
+          "contrast_or_target": "苏维埃领导人（齐赫泽等）认为通过劝告和要求可以促使临时政府改变政策。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "本句通过“猫儿瓦西卡”的比喻，揭露临时政府与苏维埃妥协派之间互动的虚伪性，批判后者对前者抱有幻想。"
+        },
+        "implication": null,
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p51s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p51s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p51s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "米留可夫和古契柯夫",
+            "type": "person",
+            "modern": "临时政府的外交部长和部长会议主席，代表资产阶级利益。",
+            "highlight": "person",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 1,
+        "hs_kept": 1,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_person_14>12",
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

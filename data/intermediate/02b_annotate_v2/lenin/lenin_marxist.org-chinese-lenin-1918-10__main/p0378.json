@@ -1,0 +1,90 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 378,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁引用考茨基关于小生产和立宪会议的论断，并指出其在俄国的荒谬性，因为工农只认苏维埃权威。",
+    "importance_score": 2,
+    "importance_reason": "本段通过具体引用考茨基的言论，展示其脱离俄国革命实际，为批判其机会主义观点提供例证。",
+    "argument_role": "continues",
+    "argument_link": "本段承接上段对考茨基歪曲法令的批判，直接引用其原话以揭露其论点的反动性。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "捷克斯洛伐克军团",
+        "explain": "第一次世界大战期间在俄国作战的捷克斯洛伐克部队，1918年发动叛乱反对苏维埃政权，与白军合作，成为外国干涉的一部分。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p378s1",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": [
+          {
+            "surface": "立宪会议",
+            "type": "event",
+            "modern": "1917年俄国革命后召开的制宪会议，旨在制定宪法，但被布尔什维克解散。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "生产资料",
+            "type": "concept",
+            "modern": "生产过程中使用的物质要素，如工具和原料，其所有制形式决定生产关系。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "means_of_production"
+          },
+          {
+            "surface": "私有制",
+            "type": "concept",
+            "modern": "生产资料归私人所有的制度，马克思主义认为它是阶级剥削的基础。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "private_ownership"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 3,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,176 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 31,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁以农民实物交换为例，论证了全部政权转交工兵农代表苏维埃是解决经济崩溃和战争危机的唯一现实出路，并阐明了布尔什维克党依靠多数、和平转变的策略。",
+    "importance_score": 3,
+    "importance_reason": "本段是列宁将经济危机分析与政治解决方案直接挂钩的核心段落，明确提出了“全部政权归苏维埃”的政治口号，并阐述了其策略原则。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于货币失效、经济破坏的分析，将农民的自发要求上升为系统的政治解决方案，即政权转移。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "refute_quotation"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p31s17",
+        "quote": "别的组织是臆想不出来的。",
+        "trigger": "inverted_logic",
+        "reader_block": "“臆想”一词带有强烈否定色彩，且句子极短，读者可能不理解其针对的具体论点，即为何其他组织形式不可行。",
+        "parse": {
+          "claim": "在当时的俄国，除了工兵农代表苏维埃，不存在其他能够代表大多数人并解决危机的政治组织形式。",
+          "qualifiers": "限定于1917年俄国革命的具体情境和经济崩溃的现实。",
+          "contrast_or_target": "针对那些认为可以依靠临时政府或其他现有政治机构解决问题的观点。"
+        },
+        "why": {
+          "relation": "conclusion",
+          "explanation": "这是对前文“别的出路是没有的”这一论断的强化和总结，通过否定其他可能性来巩固“政权归苏维埃”的唯一性结论。"
+        },
+        "implication": "暗示任何试图绕过苏维埃、在现有体制内寻找解决方案的尝试都是脱离实际的幻想。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p31s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p31s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p31s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p31s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p31s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p31s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p31s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p31s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p31s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p31s10",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p31s11",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p31s12",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p31s13",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p31s14",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p31s15",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p31s16",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p31s17",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p31s18",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 1,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

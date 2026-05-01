@@ -1,0 +1,173 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 362,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "分析古典古代奴隶制因经济原因衰落，但其遗留的鄙视生产劳动观念导致社会陷入绝境，唯有彻底革命方能打破。",
+    "importance_score": 2,
+    "importance_reason": "作为历史唯物主义分析的具体案例，阐释生产关系（奴隶制）如何因生产力变化而过时，并揭示其意识形态残余如何阻碍社会转型。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对隶农制兴起的描述，转而从宏观上解释奴隶制整体衰落的经济根源与社会后果，为论证新生产关系的必然性铺垫。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p362s14",
+        "quote": "只有一次彻底革命才能摆脱这种绝境。",
+        "trigger": "term_polysemy",
+        "reader_block": "“彻底革命”在马克思主义语境中特指生产关系的根本性变革，而非一般的政治动荡或改良，读者可能按字面理解为暴力推翻政权。",
+        "parse": {
+          "claim": "要解决上述经济与观念的矛盾，必须通过一次根本性的社会形态变革，而非局部调整。",
+          "qualifiers": "针对前文所述的“绝境”提出的唯一出路。",
+          "contrast_or_target": ""
+        },
+        "why": {
+          "relation": "conclusion",
+          "explanation": "本句在揭示矛盾后，直接给出作者的结论：解决之道在于彻底的社会革命，这为后续论述封建制取代奴隶制的历史进程定下基调。"
+        },
+        "implication": "此处的“革命”指向生产关系的质变，预示着一种新的、能容纳更多生产者的社会形态（封建制）将取代奴隶制。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p362s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p362s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p362s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p362s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p362s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p362s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p362s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "隶农",
+            "type": "social_group",
+            "modern": "罗马帝国晚期一种介于自由民与奴隶之间的依附农民，租种土地并缴纳实物，人身依附于地主。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p362s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p362s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p362s10",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p362s11",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p362s12",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p362s13",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p362s14",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "彻底革命",
+            "type": "concept",
+            "modern": "在马克思主义语境中，指对社会经济基础和上层建筑进行根本性、全面性的变革，而非局部改良。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "revolution_marxist"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 2,
+        "hs_kept": 1,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

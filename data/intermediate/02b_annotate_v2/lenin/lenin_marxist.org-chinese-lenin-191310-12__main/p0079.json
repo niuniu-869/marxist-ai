@@ -1,0 +1,117 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 79,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "以东欧国家的反犹政策和奥地利的教育民族化为例，批判“民族文化”口号在实践中导致民族纷争。",
+    "importance_score": 2,
+    "importance_reason": "通过具体历史案例，揭示“民族文化”口号在现实政治中的反动后果，支撑对民族主义纲领的批判。",
+    "argument_role": "example",
+    "argument_link": "承接上段关于美国教育制度差异的例证，进一步以东欧和奥地利的实例，展示“民族化”政策在不同社会条件下的共同危害。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "贝里斯案件",
+        "explain": "指1913年发生在俄国的贝里斯·塔伊茨审判案。一名犹太青年被诬告为 ritual murder（宗教仪式谋杀）的凶手，引发全国性反犹浪潮，是沙皇俄国反动民族政策的典型事件。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "普利什凯维奇",
+        "explain": "指弗拉基米尔·米特罗法诺维奇·普利什凯维奇，俄国极右翼民族主义者、黑帮分子，公开煽动反犹主义，是沙皇反动势力的代表人物之一。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p79s4",
+        "quote": "很幸运的是，这个反动的空想未必能实现，同奥国的小资产者的空想一样，他们对实现彻底的民主主义、对终止民族纷争感到绝望了，因此就在教育事业方面给各民族臆造了一些套子，使它们不会因瓜分学校而发生纷争一然而这样把民族“确立起来”，也就产生了一个“民族文化”反对另一个“民族火化”的永无休止的纷争。",
+        "trigger": "long_nested",
+        "reader_block": "句子结构嵌套多层（比较、因果、转折），且包含“民族文化”与“民族火化”这对需要辨析的特定术语，读者容易迷失论证主线。",
+        "parse": {
+          "claim": "奥地利小资产者因无力解决根本的民主与民族问题，转而通过人为划分教育体系来“固定”民族边界，但这反而制造了新的、持续的民族对立。",
+          "qualifiers": "此判断针对奥地利小资产者的做法，并类比于东欧国家的类似草案。",
+          "contrast_or_target": "奥地利小资产者认为，通过在教育领域为各民族设立固定框架，可以避免学校资源分配上的纷争，从而“解决”民族问题。"
+        },
+        "why": {
+          "relation": "example",
+          "explanation": "本句是核心论点的具体展开，通过剖析奥地利小资产者方案的内在矛盾（旨在止争却制造新争），来证明“民族文化”口号在实践中的破坏性。"
+        },
+        "implication": "任何试图在保留民族壁垒的前提下“管理”民族关系的方案，都只会激化矛盾，而非化解矛盾。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p79s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "贝里斯案件",
+            "type": "event",
+            "modern": "1913年俄国贝里斯·塔伊茨审判案，一桩诬告犹太青年 ritual murder 的冤案，是沙俄反犹浪潮的标志。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p79s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p79s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p79s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 1,
+        "hs_kept": 1,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_5gram_with_surface",
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

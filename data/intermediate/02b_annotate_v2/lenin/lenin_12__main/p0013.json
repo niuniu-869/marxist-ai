@@ -1,0 +1,81 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 13,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段指出马克思将研究重心置于经济基础，并点明其代表作《资本论》的研究对象。",
+    "importance_score": 2,
+    "importance_reason": "作为过渡段，将论述从哲学唯物主义引向政治经济学，为介绍《资本论》做铺垫。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于哲学唯物主义的论述，具体说明马克思如何将这一哲学方法应用于社会分析，即聚焦于经济基础。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p13s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "经济制度",
+            "type": "concept",
+            "modern": "马克思在《资本论》中分析的核心对象，指特定历史阶段的生产关系总和。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "economic_system_marxist"
+          }
+        ]
+      },
+      {
+        "sid": "p13s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "《资本论》",
+            "type": "work",
+            "modern": "马克思倾注毕生心血撰写的巨著，系统剖析了资本主义生产方式的内在矛盾与运动规律。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 2,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_6>5",
+        "note:n1_overflow_concept_6>5"
+      ]
+    }
+  ]
+}

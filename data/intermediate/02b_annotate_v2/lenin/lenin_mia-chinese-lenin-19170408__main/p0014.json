@@ -1,0 +1,85 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 14,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "阐述布尔什维克党的任务与前景，预言小资产阶级政党将因现实而破产。",
+    "importance_score": 2,
+    "importance_reason": "本段承接上文关于无产阶级取得政权的条件，具体化布尔什维克党的任务，并预言小资产阶级政党的破产，为后续策略提供依据。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于无产阶级取得政权条件的论述，具体化布尔什维克党的任务，并预言小资产阶级政党将因现实而破产。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "社会民主党人（孟什维克）与社会革命党人",
+      "their_view": "他们认为可以维持与临时政府的合作，通过渐进改良实现革命目标，而不必立即进行无产阶级革命。",
+      "author_response": "实际生活将打破他们的幻想，布尔什维克应团结无产阶级进行本阶级工作，争取群众。",
+      "polemic_kind": "strategic_critique",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p14s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p14s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p14s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p14s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "社会革命党人",
+            "type": "org",
+            "modern": "代表小农利益的俄国政党，主张土地社会化，但回避无产阶级专政。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 4,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_6>5",
+        "note:n1_overflow_concept_6>5",
+        "note:n1_overflow_concept_10>5",
+        "note:n1_overflow_person_14>12"
+      ]
+    }
+  ]
+}

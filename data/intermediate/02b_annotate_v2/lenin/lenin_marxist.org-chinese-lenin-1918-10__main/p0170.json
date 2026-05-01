@@ -1,0 +1,99 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 170,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁引用马克思和恩格斯的论述，批判考茨基反对无产阶级将自身阶级组织转变为国家组织的观点。",
+    "importance_score": 3,
+    "importance_reason": "本段是列宁批判考茨基核心论点的关键部分，直接引用经典文献反驳其机会主义立场。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段对考茨基在无产阶级专政问题上与马克思主义决裂的指控，本段通过引用马克思和恩格斯的原话，具体论证考茨基的观点如何背离了经典作家的教导。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p170s4",
+        "quote": "我们的这位庸人“同意”说：工人们，斗争吧（对这点资产者也“同意”，因为工人反正都在斗争，需要考虑的只是怎样把他们利剑的锋芒磨去），——斗争吧，但是不得胜利！",
+        "trigger": "inverted_logic",
+        "reader_block": "反讽句式，资产者“同意”工人斗争，但目的是磨去其锋芒，读者可能误读为资产者真心支持工人。",
+        "parse": {
+          "claim": "考茨基表面上支持工人斗争，但其主张的实质是阻止斗争取得最终胜利，这与资产阶级希望削弱工人斗争力量的意图不谋而合。",
+          "qualifiers": "无",
+          "contrast_or_target": "考茨基主张工人应斗争但不应通过破坏旧国家机器来取得胜利。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "本句通过反讽揭示考茨基立场的实质，即其“同意”斗争是空洞的，其主张的后果与资产阶级的利益一致，从而深化对考茨基机会主义的批判。"
+        },
+        "implication": "考茨基的主张在客观效果上服务于资产阶级，削弱无产阶级的革命力量。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p170s1",
+        "speaker": "quoted_marx",
+        "stance": "endorsed",
+        "notes": []
+      },
+      {
+        "sid": "p170s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p170s3",
+        "speaker": "quoted_engels",
+        "stance": "endorsed",
+        "notes": []
+      },
+      {
+        "sid": "p170s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p170s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 1,
+        "hs_dropped": 1,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote",
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

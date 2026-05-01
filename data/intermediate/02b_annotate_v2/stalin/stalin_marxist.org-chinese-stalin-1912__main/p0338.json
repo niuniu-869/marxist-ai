@@ -1,0 +1,75 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 338,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "斯大林引用代表大会主席的答复，指出斯德哥尔摩代表大会未讨论崩得的民族纲领，将其留作悬案，实质上回避了对民族文化自治的立场。",
+    "importance_score": 2,
+    "importance_reason": "本段通过具体事例揭露斯德哥尔摩代表大会在民族问题上的回避态度，为批判崩得的民族文化自治提供事实依据。",
+    "argument_role": "continues",
+    "argument_link": "本段直接回答上段提出的关于‘留作悬案’的疑问，并进一步指出代表大会的实际处理方式，为后续批判铺垫。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "斯德哥尔摩代表大会",
+        "explain": "指1906年俄国社会民主工党第四次（统一）代表大会，在斯德哥尔摩召开。大会处理了崩得的组织问题，但对民族纲领未作明确决定。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p338s1",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p338s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p338s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

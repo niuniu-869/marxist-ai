@@ -1,0 +1,77 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 479,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段直接反驳“资产阶级革命阶段不应讨论社会主义”的论点，主张通过具体经济措施使俄国开始向社会主义过渡。",
+    "importance_score": 2,
+    "importance_reason": "本段是列宁“四月提纲”中关于革命阶段论和经济纲领的核心论证环节，直接反驳党内反对意见。",
+    "argument_role": "contrasts",
+    "argument_link": "上一段从正面提出社会主义是实际出路，本段则从反驳角度，针对“资产阶级革命不谈社会主义”的论点，论证通过具体措施可以开始向社会主义过渡。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "refute_quotation"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "反对者",
+      "their_view": "既然当前革命性质是资产阶级革命，那么就不应该讨论社会主义问题。",
+      "author_response": "列宁认为，正因为资产阶级无力解决当前危机，革命才必须继续前进，通过实际措施开始社会主义进程。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p479s1",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p479s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "社会主义",
+            "type": "concept",
+            "modern": "此处指通过一系列实际措施，使生产资料逐步转归社会所有，开始向社会主义过渡的进程。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "socialism_transitional"
+          }
+        ]
+      },
+      {
+        "sid": "p479s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

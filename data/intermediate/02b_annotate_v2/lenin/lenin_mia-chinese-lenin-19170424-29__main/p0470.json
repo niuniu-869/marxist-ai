@@ -1,0 +1,132 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 470,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段反驳“俄国落后论”，指出战争带来的特殊条件使大资本与小资产阶级并存，一旦政权转移，工人阶级必须坚持阶级斗争。",
+    "importance_score": 2,
+    "importance_reason": "本段是列宁反驳孟什维克等派别“俄国不具备革命条件”论点的关键环节，为论证无产阶级夺取政权的必要性提供前提。",
+    "argument_role": "contrasts",
+    "argument_link": "承接上段关于不能将活动局限于小资产阶级范围的论述，转而直接反驳认为俄国因落后而无法进行社会革命的论调。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "all_known",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [
+      "soviet_of_workers_and_soldiers_deputies"
+    ],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p470s2",
+        "quote": "政权一旦转到工兵代表苏维埃手中，苏维埃将做些什么呢？",
+        "trigger": "inverted_logic",
+        "reader_block": "这是一个修辞性提问，读者可能期待一个具体行动列表，但作者意在引出后续的尖锐反问，迫使读者思考苏维埃的阶级立场选择。",
+        "parse": {
+          "claim": "作者提出一个关于苏维埃掌权后行动方向的设问，旨在引导读者思考其阶级属性。",
+          "qualifiers": "前提是“政权转到工兵代表苏维埃手中”这一假设情境。",
+          "contrast_or_target": ""
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "此问句是反驳“俄国落后论”的论证环节，通过设问将讨论焦点从“能否革命”转向“革命后怎么办”，为下文的阶级立场选择做铺垫。"
+        },
+        "implication": "苏维埃的行动方向并非不言自明，而是取决于其代表的阶级利益。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      },
+      {
+        "anchor": "p470s3",
+        "quote": "转到资产阶级方面去吗？",
+        "trigger": "inverted_logic",
+        "reader_block": "这是一个尖锐的反问，读者需理解其潜台词：苏维埃若代表无产阶级，就不可能转到资产阶级方面。这否定了与资产阶级合作的选项。",
+        "parse": {
+          "claim": "作者以反问形式断言，代表工兵的苏维埃掌权后，其行动方向不可能是倒向资产阶级。",
+          "qualifiers": "此判断基于苏维埃的阶级构成（工兵代表）。",
+          "contrast_or_target": "针对主张与资产阶级临时政府合作或“监督”政府的孟什维克等派别。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "此反问句直接驳斥了当时流行的与资产阶级联合或妥协的主张，通过否定一个选项来强化无产阶级必须独立斗争的结论。"
+        },
+        "implication": "苏维埃的阶级属性决定了其必然与资产阶级处于对立面。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p470s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "社会革命",
+            "type": "concept",
+            "modern": "在马克思主义语境中，指推翻资本主义制度、建立社会主义制度的根本性变革。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "revolution_socialist"
+          }
+        ]
+      },
+      {
+        "sid": "p470s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p470s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p470s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "阶级斗争",
+            "type": "concept",
+            "modern": "马克思主义认为，人类社会历史是阶级斗争的历史，指对立阶级之间围绕经济利益和政治权力展开的斗争。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "class_struggle_marxist"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 0,
+        "hs_kept": 2,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

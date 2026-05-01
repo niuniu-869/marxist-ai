@@ -1,0 +1,102 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 19,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁阐明布尔什维克领导的无产阶级运动的目标，并指出这些目标与近期群众运动的方向一致。",
+    "importance_score": 2,
+    "importance_reason": "本段明确列出了布尔什维克在革命中的具体政治纲领，是理解其行动目标的关键段落。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段关于运动自发性的论述，进一步说明这种自发运动所指向的具体政治目的。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "四月事件与七月事件",
+        "explain": "指1917年俄国的两次重大政治危机。4月20-21日事件是临时政府宣布继续战争引发的示威，7月3-4日事件是工人和士兵自发的武装示威，后被临时政府镇压。了解这两次事件有助于理解列宁所说的‘运动的目的’。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p19s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p19s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "4月20—21日事件",
+            "type": "event",
+            "modern": "临时政府宣布继续帝国主义战争引发的群众示威，其口号与布尔什维克反对战争的主张接近。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "7月3—4日事件",
+            "type": "event",
+            "modern": "工人和士兵自发的武装示威，受布尔什维克口号影响，但超出了党的控制。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p19s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "没收地主土地",
+            "type": "program_clause",
+            "modern": "布尔什维克土地纲领的关键内容，旨在废除封建土地所有制。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 3,
+        "notes_dropped": 2,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_11>5",
+        "note:n1_overflow_slogan_13>12"
+      ]
+    }
+  ]
+}

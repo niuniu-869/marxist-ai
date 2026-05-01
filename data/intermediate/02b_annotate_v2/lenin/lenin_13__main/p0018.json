@@ -1,0 +1,87 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 18,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁揭露取消派照搬西欧政治模式的资产阶级本质，并用俗语讽刺其自相矛盾。",
+    "importance_score": 2,
+    "importance_reason": "直接批判取消派的理论基础，揭露其与自由派的同源性。",
+    "argument_role": "contrasts",
+    "argument_link": "承接上段对俄欧差异的分析，具体指认取消派正是无视这种差异、照搬西欧模式的实践者。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "取消派",
+      "their_view": "主张在俄国建立公开的、合法的政党，通过争取改良来实现任务，认为可以绕过西欧通过革命确立宪制的历史过程。",
+      "author_response": "列宁指出这是资产阶级观点，是照搬西欧模式而不顾俄国实际，与自由派同流合污。",
+      "polemic_kind": "reveals_class_basis",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p18s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "公开的党",
+            "type": "slogan",
+            "modern": "取消派的核心政治口号，主张放弃秘密斗争，建立公开合法的政党。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          },
+          {
+            "surface": "争取合法性的斗争",
+            "type": "slogan",
+            "modern": "取消派主张的斗争方式，强调在沙皇法律框架内活动。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p18s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p18s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 4,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_8>5",
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix",
+        "note:n1_overflow_metaphor_13>8"
+      ]
+    }
+  ]
+}

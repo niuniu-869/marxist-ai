@@ -1,0 +1,157 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 47,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "分析喘息时机的不确定性，强调利用时机进行革命战争的必要性，并为签订和约辩护。",
+    "importance_score": 2,
+    "importance_reason": "本段是列宁为签订和约进行战略辩护的核心论证之一，直接回应党内反对意见。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于和平与战争关系的论述，具体分析当前喘息时机的特点，并论证利用时机进行革命战争的必要性。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "rhetorical",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p47s10",
+        "quote": "每一个这样的革命者，都会为我们辩护，认为签订任何耻辱的条约都是正确的，因为这有利于无产阶级的革命，有利于复兴俄国和治好它有病的器官。",
+        "trigger": "rhetorical",
+        "reader_block": "“辩护”一词通常用于为错误或不当行为开脱，读者可能困惑为何列宁用此词描述革命者的行为，这形成了一种修辞上的张力。",
+        "parse": {
+          "claim": "真正的革命者会支持签订和约，因为这符合无产阶级革命的根本利益，有助于国家的恢复。",
+          "qualifiers": "前提是革命者联系群众、了解战争与群众。",
+          "contrast_or_target": "针对党内认为签订和约是“耻辱”并反对的立场。"
+        },
+        "why": {
+          "relation": "continues",
+          "explanation": "本句延续了上文关于利用喘息时机的论述，将战略选择（签订和约）与革命者的责任和革命的根本利益直接联系起来，为和约的“正确性”提供论证。"
+        },
+        "implication": "列宁将签订和约重新定义为一种积极的、服务于革命长远目标的战略行动，而非消极的投降。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p47s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p47s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p47s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p47s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "霍夫曼",
+            "type": "person",
+            "modern": "马克斯·霍夫曼，一战期间德军东线参谋长，负责对苏俄军事行动。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p47s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p47s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p47s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p47s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p47s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p47s10",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p47s11",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p47s12",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p47s13",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 2,
+        "hs_kept": 1,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "note:n1_overflow_concept_7>5",
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

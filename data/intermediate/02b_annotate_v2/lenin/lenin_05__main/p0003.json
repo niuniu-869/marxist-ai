@@ -1,0 +1,118 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 3,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "回顾马克思主义在欧洲工人运动中确立主导地位的历史过程，强调其统治是通过斗争取得的。",
+    "importance_score": 2,
+    "importance_reason": "提供历史背景，论证马克思主义主导地位的斗争性与过程性，为后文对比俄国情况做铺垫。",
+    "argument_role": "continues",
+    "argument_link": "从交代写作时间转入对马克思主义在欧洲确立主导地位的历史回顾，为后文区分两种社会主义奠定历史认知基础。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "蒲鲁东主义",
+        "explain": "法国思想家蒲鲁东的学说，主张通过互助社等小生产者联合的方式改造社会，反对暴力革命和无产阶级专政，被马克思主义视为小资产阶级社会主义的一种。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "布朗基主义",
+        "explain": "法国革命家布朗基的学说，主张通过少数革命家的密谋和武装起义夺取政权，建立革命专政，但其理论缺乏对无产阶级阶级斗争的科学分析。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p3s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p3s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p3s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p3s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "蒲鲁东主义",
+            "type": "concept",
+            "modern": "法国思想家蒲鲁东的学说，主张通过互助社等小生产者联合的方式改造社会，反对暴力革命和无产阶级专政。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "proudhonism"
+          },
+          {
+            "surface": "布朗基主义",
+            "type": "concept",
+            "modern": "法国革命家布朗基的学说，主张通过少数革命家的密谋和武装起义夺取政权，建立革命专政。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "blanquism"
+          },
+          {
+            "surface": "无政府主义",
+            "type": "concept",
+            "modern": "主张废除一切国家权威和政府，建立绝对自由联合体的学说，在19世纪欧洲工人运动中有一定影响。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "anarchism"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 3,
+        "notes_dropped": 2,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_8>5",
+        "note:n1_overflow_concept_9>5",
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

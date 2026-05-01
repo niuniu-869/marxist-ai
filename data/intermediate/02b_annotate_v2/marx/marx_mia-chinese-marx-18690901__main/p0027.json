@@ -1,0 +1,101 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 27,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "总结罢工失败后的精神影响与组织成果，并解释同期宣传工作受阻的原因。",
+    "importance_score": 1,
+    "importance_reason": "补充说明罢工的组织成果与宣传工作受阻的背景。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对索特维耳-勒-卢昂罢工的叙述，转而评估该罢工虽败犹荣的组织成果，并解释同期国际协会在法国宣传工作停滞的原因。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p27s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "精神影响",
+            "type": "concept",
+            "modern": "罢工在意识形态和组织层面的积极后果",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "effect_spiritual"
+          }
+        ]
+      },
+      {
+        "sid": "p27s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p27s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "工会",
+            "type": "org",
+            "modern": "工人自发组织的经济斗争团体",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p27s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "巴黎委员会",
+            "type": "org",
+            "modern": "国际工人协会在巴黎的分支机构",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 3,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_7>5"
+      ]
+    }
+  ]
+}

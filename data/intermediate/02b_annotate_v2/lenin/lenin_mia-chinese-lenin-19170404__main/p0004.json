@@ -1,0 +1,91 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 4,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁分析二月革命后俄国社会主义运动中护国主义盛行的现象，并定性新政府的帝国主义性质。",
+    "importance_score": 2,
+    "importance_reason": "本段提出对战争态度的核心论点，为后续批判护国主义和孟什维克路线做铺垫。",
+    "argument_role": "continues",
+    "argument_link": "承接上段“作一些说明”的预告，本段具体展开对战争态度的分析。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "护国主义 / 孟什维克",
+      "their_view": "在临时政府领导下保卫祖国是正当的，战争是出于自卫。",
+      "author_response": "列宁指出这是资产阶级的欺骗，新政府是帝国主义政府，宣扬护国主义是背叛无产阶级国际主义。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p4s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p4s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "护国主义",
+            "type": "concept",
+            "modern": "在本文语境中，特指主张在临时政府领导下保卫祖国的立场，被列宁视为对无产阶级国际主义的背叛。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "chauvinism_revolutionary"
+          }
+        ]
+      },
+      {
+        "sid": "p4s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p4s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p4s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 3,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "note:n1_overflow_concept_6>5",
+        "note:n1_overflow_concept_6>5"
+      ]
+    }
+  ]
+}

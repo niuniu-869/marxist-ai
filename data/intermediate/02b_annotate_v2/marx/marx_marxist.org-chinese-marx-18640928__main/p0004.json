@@ -1,0 +1,164 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 4,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "通过官方报告数据，论证工业与贸易的空前增长并未缓解工人贫困，反而揭示了官方承认的、甚至低于“饥饿病”标准的生存状况。",
+    "importance_score": 3,
+    "importance_reason": "核心批判段落，用资产阶级官方数据本身来揭露其繁荣论调与工人阶级悲惨现实的尖锐矛盾。",
+    "argument_role": "continues",
+    "argument_link": "承接上段“工人们！”的呼告，立即用不容争辩的事实展开对资本主义制度下贫困与增长并存现象的系统揭露。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic | long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "refute_quotation"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p4s5",
+        "quote": "可是羊群在这个不幸的地区也在减少，不过不像人减少得那样快罢了。",
+        "trigger": "inverted_logic",
+        "reader_block": "表面陈述羊群减少，实则通过“不像人减少得那样快”的对比，进行尖锐反讽，读者可能忽略其批判性。",
+        "parse": {
+          "claim": "在爱尔兰，人口的减少速度超过了羊群的减少速度。",
+          "qualifiers": "特指爱尔兰地区，作为对上句财政大臣未提及爱尔兰人民的补充。",
+          "contrast_or_target": "针对财政大臣在议会报告中对爱尔兰人民苦难的沉默。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "以冷峻的对比，揭露资产阶级官方统计与言辞中对爱尔兰民族灾难的系统性忽视，强化了作者对官方报告选择性失明的批判。"
+        },
+        "implication": "暗示在资产阶级的经济计算中，牲畜的价值高于人的生命。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "资产阶级政治经济学",
+      "their_view": "只要进出口贸易大幅增长，国家贫困现象就会自然消灭；工业繁荣必然带来普遍福祉。",
+      "author_response": "马克思用英国官方数据证明，贸易额翻倍的同时，工人贫困未减反增，甚至官方报告承认其生存状况低于“防止饥饿病”的最低标准，从而驳斥了增长自动惠及工人的前提。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p4s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p4s2",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p4s3",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p4s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p4s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p4s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p4s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p4s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p4s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p4s10",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p4s11",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p4s12",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p4s13",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p4s14",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p4s15",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p4s16",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 1,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

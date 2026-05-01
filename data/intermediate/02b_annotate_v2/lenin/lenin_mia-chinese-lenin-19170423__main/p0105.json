@@ -1,0 +1,106 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 105,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁定义布尔什维克所主张的国际主义，强调只有坚决反对本国统治阶级的革命者才能组成真正的国际。",
+    "importance_score": 2,
+    "importance_reason": "本段通过定义布尔什维克的国际主义立场，与前文讽刺的各种社会党人“团结”形成对比，支撑从资产阶级民主革命向社会主义革命过渡的纲领。",
+    "argument_role": "contrasts",
+    "argument_link": "本段与上段对各种社会党人“团结”的讽刺形成直接对比，提出布尔什维克所主张的、以坚决反对本国统治阶级为基础的国际主义。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "term_density",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "卡尔·李卜克内西",
+        "explain": "德国社会民主党左派领袖，因在帝国议会投票反对战争拨款而被捕入狱，是国际主义和反战的象征。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p105s2",
+        "quote": "各国人民所需要的，只是那种把真正革命的工人（他们能够制止各民族间的可怕的和罪恶的大厮杀）联合起来的国际，这种国际才能把人类从资本的枷锁下解放出来。",
+        "trigger": "term_density",
+        "reader_block": "句子用“制止大厮杀”和“解放人类”这样宏大的目标来定义国际，但未说明如何实现，读者可能不清楚具体指什么行动。",
+        "parse": {
+          "claim": "只有联合了能够阻止帝国主义战争的革命工人的国际，才能实现人类解放。",
+          "qualifiers": "限定于“各国人民所需要的”国际，即具有特定阶级基础和革命目标的国际。",
+          "contrast_or_target": "与前一段提到的各种社会党人那种成分混杂、脱离革命斗争的“团结”相对比。"
+        },
+        "why": {
+          "relation": "contrasts",
+          "explanation": "本句通过定义真正的国际，与前文讽刺的各种社会党人“团结”形成对比，指出其核心在于阶级基础和革命行动。"
+        },
+        "implication": "列宁将国际主义的实质与无产阶级的革命行动直接挂钩，反对空谈团结。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "前一段提到的各种社会党人（谢德曼之流、普列汉诺夫之流、“中派”）",
+      "their_view": "他们主张建立一个成分混杂、将各种立场的人都联合在内的社会党国际，以“团结一致”为名。",
+      "author_response": "列宁主张，只有坚决反对本国政府、资产阶级和社会沙文主义者等的革命者，才能组成真正需要的国际。",
+      "polemic_kind": "strategic_critique",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p105s1",
+        "speaker": "editor",
+        "stance": "neutral_citation",
+        "notes": []
+      },
+      {
+        "sid": "p105s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p105s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "卡尔·李卜克内西",
+            "type": "person",
+            "modern": "德国社会民主党左派领袖，因反对一战被监禁，是国际主义的象征。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 3,
+        "hs_kept": 1,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "note:n1_overflow_concept_9>5",
+        "note:n1_overflow_concept_6>5",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 15,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "提出工人民主派在民族问题上的正面口号，即国际文化，并指出解决民族问题的唯一方法是彻底的民主主义。",
+    "importance_score": 2,
+    "importance_reason": "核心论点段，正面提出与“民族文化”口号相对立的国际主义纲领，并给出解决方案。",
+    "argument_role": "contrasts",
+    "argument_link": "承接上段对“民族文化”口号的批判，转而正面阐述工人民主派应持有的国际主义立场与具体路径。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p15s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "国际文化",
+            "type": "concept",
+            "modern": "在列宁的论述中，指无产阶级文化应具有的超越民族界限、与全世界工人运动实践相结合的属性。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "international_culture"
+          }
+        ]
+      },
+      {
+        "sid": "p15s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p15s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 2,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "note:n2_5gram_with_surface",
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

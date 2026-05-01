@@ -1,0 +1,98 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 33,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "马克思反驳纲领中关于劳动是财富源泉的命题，指出自然界同样是源泉，并揭示这一命题在资本主义条件下的阶级含义。",
+    "importance_score": 3,
+    "importance_reason": "这是对哥达纲领核心命题的首次正面批判，奠定了全文批判的唯物主义基础。",
+    "argument_role": "contrasts",
+    "argument_link": "承接上段对纲领的总体批判，本段开始逐句剖析其第一个核心命题，揭示其理论错误与阶级实质。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "refute_quotation"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p33s5",
+        "quote": "只有一个人事先就以所有者的身分来对待自然界这个一切劳动资料和劳动对象的第一源泉，把自然界当做隶属于他的东西来处置，他的劳动才成为使用价值的源泉，因而也成为财富的源泉，资产者有很充分的理由给劳动加上一种超自然的创造力，因为正是从劳动所受的自然制约性中才产生出如下的情况：一个除自己的劳动力外没有任何其他财产的人，在任何社会的和文化的状态中，都不得不为占有劳动的物质条件的他人做奴隶。",
+        "trigger": "long_nested",
+        "reader_block": "句子极长，包含多个条件从句和因果解释，读者容易迷失在“只有……才……”的条件结构中，不理解“以所有者的身分”这个前提如何改变了劳动的性质。",
+        "parse": {
+          "claim": "只有当劳动者事先占有生产资料（自然界）时，其劳动才能创造财富；而资产阶级之所以神化劳动，恰恰是因为无产者不占有生产资料，只能出卖劳动力为生。",
+          "qualifiers": "条件限定于“事先就以所有者的身分来对待自然界”；范围限定于“在任何社会的和文化的状态中”。",
+          "contrast_or_target": "针对纲领将劳动抽象为财富源泉的观点，揭示其忽略了生产资料所有权这一根本前提。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "本句通过揭示“劳动创造财富”命题成立的隐含前提（生产资料私有制），直接反驳了纲领的抽象表述，并进一步揭露资产阶级神化劳动的阶级动机。"
+        },
+        "implication": "因此，不变革生产资料所有制，空谈劳动创造财富，实质上是维护资产阶级对生产资料的垄断。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "哥达纲领",
+      "their_view": "劳动是一切财富和文化的源泉。",
+      "author_response": "自然界和劳动一样也是使用价值的源泉，该命题只有在劳动者占有生产资料时才成立，纲领回避了这一关键的阶级条件。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p33s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p33s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "使用价值",
+            "type": "concept",
+            "modern": "在政治经济学中，指物品能满足人们某种需要的属性，是财富的物质内容。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "value_use"
+          }
+        ]
+      },
+      {
+        "sid": "p33s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p33s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p33s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p33s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  }
+}

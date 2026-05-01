@@ -1,0 +1,134 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 112,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段论证家庭形式从群婚向个体婚制的过渡主要由妇女推动，其动因是经济条件变化带来的压迫感，而男子则利用了这一过渡来确立对妇女的单方面专偶制。",
+    "importance_score": 2,
+    "importance_reason": "本段提出了家庭史演变中妇女主动作用的关键论点，并揭示了早期专偶制的阶级压迫性质，是理解私有制与家庭关系的重要环节。",
+    "argument_role": "continues",
+    "argument_link": "本段承接上段关于家庭形式演变的讨论，具体分析从群婚到个体婚制过渡的动力与性质，将论证焦点从历史例证转向社会动力分析。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "淫游婚与污泥生殖",
+        "explain": "巴霍芬用以描述原始社会早期混乱性关系阶段的术语，指代一种缺乏固定配偶、性关系较为随意的状态，是家庭史演进的起点。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      },
+      {
+        "topic": "对偶婚与专偶制",
+        "explain": "对偶婚指一男一女相对固定但易于解除的配偶关系，是群婚向专偶制的过渡形态。专偶制（一夫一妻制）在恩格斯分析中，早期主要约束妇女，男子则常保有事实上的多偶特权。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p112s5",
+        "quote": "只有在由妇女实现了向对偶婚的过渡以后，男子才能实行严格的专偶制——自然，这种专偶制只是对妇女而言的。",
+        "trigger": "inverted_logic",
+        "reader_block": "句末的补充说明“只是对妇女而言的”构成反讽，颠覆了“严格专偶制”表面的平等含义，揭示其单方面约束的本质，读者易忽略此限定。",
+        "parse": {
+          "claim": "男子确立的严格一夫一妻制，其约束对象实际上仅限于妇女，男子自身并不受同等限制。",
+          "qualifiers": "此结论建立在妇女已率先推动婚姻形态向对偶婚转变的历史前提之上。",
+          "contrast_or_target": ""
+        },
+        "why": {
+          "relation": "conclusion",
+          "explanation": "本句是前文论证的总结性论断，点明在家庭形态演变中，妇女争取到的权利（对偶婚）反而被男子利用，转化为对妇女单方面的束缚，揭示了早期专偶制的不平等实质。"
+        },
+        "implication": "这暗示了私有制确立后，家庭关系中的性别压迫与财产继承需求紧密相关。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p112s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "巴霍芬",
+            "type": "person",
+            "modern": "瑞士法学家、人类学家，其著作《母权论》首次系统提出母权制先于父权制的假说，对摩尔根和恩格斯的研究有重要影响。",
+            "highlight": "person",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p112s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p112s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p112s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p112s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "对偶婚",
+            "type": "concept",
+            "modern": "一种介于群婚和专偶制之间的婚姻形态，通常是一男一女结成配偶，但结合相对松散，易于解除。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "pairing_marriage"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 3,
+        "hs_kept": 1,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

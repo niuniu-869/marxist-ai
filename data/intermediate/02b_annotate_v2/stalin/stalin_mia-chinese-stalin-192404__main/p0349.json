@@ -1,0 +1,98 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 349,
+  "annotation": {
+    "block_type": "quote_block",
+    "gist": "列宁论述先锋队不能单独胜利，需要整个阶级和广大群众的支持，而这种支持依赖于群众自身的政治经验。",
+    "importance_score": 3,
+    "importance_reason": "本段是列宁关于革命群众基础的核心论述，强调政治经验的必要性，为列宁主义革命策略提供理论依据。",
+    "argument_role": "continues",
+    "argument_link": "本段承接上段对“左派”共产主义者密谋倾向的批判，通过列宁的话正面阐述革命必须依靠群众政治经验，而非先锋队单独行动。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_density",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "科尔尼洛夫叛乱",
+        "explain": "1917年俄国临时政府时期，由科尔尼洛夫将军领导的反革命军事政变，企图镇压革命，被布尔什维克和工人赤卫队粉碎。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "卡普政变",
+        "explain": "1920年德国反革命政变，由卡普领导，企图推翻魏玛共和国，但被工人的总罢工迅速推翻。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p349s1",
+        "speaker": "quoted_lenin",
+        "stance": "endorsed",
+        "notes": [
+          {
+            "surface": "先锋队",
+            "type": "concept",
+            "modern": "列宁主义中共产党作为无产阶级革命领导核心的术语",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "vanguard_party"
+          },
+          {
+            "surface": "无产阶级专政",
+            "type": "concept",
+            "modern": "马克思主义理论中无产阶级掌握国家政权的过渡阶段",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "dictatorship_of_proletariat"
+          },
+          {
+            "surface": "第二国际",
+            "type": "org",
+            "modern": "19世纪末至20世纪初的国际社会主义联合组织，因战争立场而分裂",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 3,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote",
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

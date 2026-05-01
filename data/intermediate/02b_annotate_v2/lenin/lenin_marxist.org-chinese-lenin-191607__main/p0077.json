@@ -1,0 +1,91 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 77,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁批评波兰社会民主党人未能根据帝国主义时代的新形势调整斗争策略，并强调国际主义原则在当前斗争中的紧迫性。",
+    "importance_score": 2,
+    "importance_reason": "本段是论证民族自决权必要性的关键环节，通过历史对比，具体阐明了无产阶级斗争策略必须随帝国主义时代的变化而调整。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段关于历史形势变化的论述，具体指出波兰社会民主党人忽视了这种变化，并对比了过去与现在斗争对象和策略的不同。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "波兰社会民主党人",
+      "their_view": "他们忽视了帝国主义时代民族压迫与阶级斗争形势的具体变化，未能履行诺言进行具体分析，从而在民族自决权问题上采取了错误立场。",
+      "author_response": "列宁指出，正是这种对形势变化的忽视，导致他们在运用社会主义原则时犯了错误，未能认识到当前斗争对象是帝国主义列强及其统一战线。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p77s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "波兰社会民主党人",
+            "type": "polemic_ref",
+            "modern": "列宁在本文中的主要论战对象，他们反对民族自决权原则。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p77s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p77s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p77s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "压迫其他民族的民族是不能自由的",
+            "type": "quote",
+            "modern": "马克思和恩格斯的名言，强调民族压迫与无产阶级解放的关联，是国际主义的重要原则。",
+            "highlight": "quote",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_7>5"
+      ]
+    }
+  ]
+}

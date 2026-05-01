@@ -1,0 +1,83 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 113,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁从立宪民主党会议结果中，揭示大俄罗斯民族自由主义的胜利，并以此质问党内回避民族自决权问题的机会主义者。",
+    "importance_score": 1,
+    "importance_reason": "承接上文对科科什金立场的批判，并将批判矛头引向党内机会主义者，属于论证链条中的过渡与质问环节。",
+    "argument_role": "continues",
+    "argument_link": "本段延续上一段对科科什金以‘文化’自决对抗‘政治’自决的批判，进一步指出其在党内引发的类似错误倾向。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "科科什金与立宪民主党",
+        "explain": "科科什金是俄国立宪民主党（又称‘人民自由党’）的代表人物。该党是俄国资产阶级自由派政党，主张君主立宪，维护私有制，在民族问题上倾向于维护大俄罗斯民族的主导地位。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "《言论报》",
+        "explain": "《言论报》是俄国立宪民主党的官方日报，是该党宣传其政治主张的主要喉舌。列宁常通过分析该报言论来揭露立宪民主党的真实立场。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p113s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p113s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p113s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote",
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

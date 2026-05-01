@@ -1,0 +1,84 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 17,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "揭示俄国改良主义的特殊性，即混淆俄国与欧洲政治条件，并指出自由派基于此立场反对任何超出改良范围的措施。",
+    "importance_score": 2,
+    "importance_reason": "具体剖析俄国改良主义的特殊表现及其阶级基础，为前文的理论对比提供现实例证。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对改良主义实质的揭示，进一步指出其在俄国语境下的特殊形态，并揭示其与自由派立场的内在联系。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "1905年十月宣言",
+        "explain": "指1905年沙皇尼古拉二世签署的宣言，承诺建立国家杜马和公民自由，但实际未兑现，自由派却视之为立宪的开始。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "自由派",
+      "their_view": "自由派认为俄国已通过十月宣言实现立宪，因此任何超出改良范围的民主措施都是丧失理智、犯罪的行为。",
+      "author_response": "列宁指出自由派的这种立场反映了资产阶级的利益，他们将俄国与欧洲条件混为一谈，实质是维护资产阶级统治。",
+      "polemic_kind": "reveals_class_basis",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p17s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p17s2",
+        "speaker": "quoted_opponent",
+        "stance": "critical",
+        "notes": [
+          {
+            "surface": "谢天谢谢，我们立宪了",
+            "type": "slogan",
+            "modern": "这是自由派对1905年十月宣言的欢呼，他们将沙皇的有限让步视为俄国已建立宪政的标志。",
+            "highlight": "quote",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p17s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

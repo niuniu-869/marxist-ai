@@ -1,0 +1,145 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 49,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁阐述苏维埃政权在经济领域的革命方法：承认改造的长期性，但强调已摧毁资本主义财富分配的基础，并坚持自下而上的改造道路。",
+    "importance_score": 2,
+    "importance_reason": "支撑列宁关于革命道路和经济政策的核心论述，回应了对苏维埃政权经济措施的批评。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段关于占领银行的讨论，进一步阐述革命后的经济改造步骤与方法论。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "批评者",
+      "their_view": "银行等复杂机构可以在几天内被打破或改造，工人监督会把生产分割成单个车间。",
+      "author_response": "列宁承认改造的长期性，但强调已经完成了摧毁财富分配基础的关键步骤，并坚持自下而来的改造道路。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p49s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "银行",
+            "type": "concept",
+            "modern": "资本主义金融体系的核心机构，列宁在此指其作为资本主义经营制度的产物。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "banking_institution"
+          }
+        ]
+      },
+      {
+        "sid": "p49s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p49s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p49s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "无产阶级革命",
+            "type": "concept",
+            "modern": "由无产阶级领导的、旨在推翻资产阶级统治、建立无产阶级专政的社会革命。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "proletarian_revolution"
+          }
+        ]
+      },
+      {
+        "sid": "p49s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p49s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p49s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p49s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p49s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "工人监督",
+            "type": "concept",
+            "modern": "苏维埃政权初期的一项经济政策，由工人组织对企业的生产和财务进行监督，是向全面社会化管理过渡的步骤。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "workers_control"
+          }
+        ]
+      },
+      {
+        "sid": "p49s10",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p49s11",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 3,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_9>5"
+      ]
+    }
+  ]
+}

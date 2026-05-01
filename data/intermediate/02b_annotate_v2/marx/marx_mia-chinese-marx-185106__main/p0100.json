@@ -1,0 +1,176 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 100,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "通过描述法国警察局对工人实施的“小本子”制度，具体展示第二共和国宪法下工人所受的专制控制。",
+    "importance_score": 2,
+    "importance_reason": "作为核心批判的例证，用具体制度细节支撑前文关于法国专制统治的论断。",
+    "argument_role": "example",
+    "argument_link": "承接上段关于法国专制统治的论断，以警察局控制工人的具体制度为例，提供事实支撑。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p100s10",
+        "quote": "无论封建时代的农奴和印度的穷人的地位都不如法国工人的低。",
+        "trigger": "inverted_logic",
+        "reader_block": "读者可能不理解为何将19世纪法国工人与封建农奴、殖民地穷人比较，这种跨时代、跨地域的极端比较意在强调处境之悲惨。",
+        "parse": {
+          "claim": "法国工人在第二共和国宪法下的实际地位，比封建农奴和殖民地被压迫者还要低下。",
+          "qualifiers": "比较对象是“封建时代的农奴”和“印度的穷人”，限定在地位高低这一维度。",
+          "contrast_or_target": ""
+        },
+        "why": {
+          "relation": "conclusion",
+          "explanation": "此句是对前文描述的“小本子”等控制措施的总结性评价，通过极端比较得出工人处境已非人道的结论。"
+        },
+        "implication": "旨在说明，宣称自由平等的共和国，其对工人的压迫程度超过了公开的封建和殖民奴役。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p100s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p100s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p100s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p100s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p100s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p100s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p100s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p100s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p100s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p100s10",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p100s11",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p100s12",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p100s13",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p100s14",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p100s15",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p100s16",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p100s17",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p100s18",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 1,
+        "hs_kept": 1,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_archaic_27>4"
+      ]
+    }
+  ]
+}

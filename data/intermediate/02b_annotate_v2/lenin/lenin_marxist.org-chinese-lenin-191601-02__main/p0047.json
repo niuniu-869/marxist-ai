@@ -1,0 +1,92 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 47,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁以附言形式，通过考茨基在民族自决问题上的双重标准，揭露其机会主义本质。",
+    "importance_score": 2,
+    "importance_reason": "作为对考茨基主义的具体揭露，是核心论战目标的实例化批判，支撑全文对机会主义的批判。",
+    "argument_role": "example",
+    "argument_link": "本段作为附言，以具体事例（考茨基在《新时代》上的言论）来例证前文对考茨基主义在民族自决问题上虚伪性的批判。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "奥斯特尔利茨",
+        "explain": "弗里德里希·奥斯特尔利茨，当时奥地利社会民主党右翼领袖，以极端民族主义和沙文主义立场著称，是列宁批判的‘最卑鄙龌龊的德国沙文主义’在奥地利的代表。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "哈布斯堡王朝与奥匈帝国",
+        "explain": "哈布斯堡王朝是统治奥匈帝国（1867-1918）的皇室。该帝国是一个多民族国家，内部存在捷克、斯拉夫等被压迫民族。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "兴登堡与威廉二世",
+        "explain": "保罗·冯·兴登堡是第一次世界大战期间德军总司令，威廉二世是当时的德意志帝国皇帝。二人是德国军国主义和帝国主义的象征。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "考茨基",
+      "their_view": "在民族自决问题上，可以对不同国家的被压迫民族采取不同标准。例如，否认奥匈帝国内部民族的分离自由，但承认俄国波兰的分离自由。",
+      "author_response": "列宁指出，考茨基这种双重标准的实质是向德国军国主义效忠，是其机会主义立场在民族问题上的具体表现，恰恰自我揭穿了其虚伪性。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p47s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "《新时代》",
+            "type": "work",
+            "modern": "德国社会民主党理论刊物，考茨基曾任编辑，在该杂志发表文章。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p47s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

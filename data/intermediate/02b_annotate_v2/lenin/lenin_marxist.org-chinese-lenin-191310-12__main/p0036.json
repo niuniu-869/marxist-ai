@@ -1,0 +1,72 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 36,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "将民族问题上的两种口号对立起来，指出崩得分子的主张实质是向工人传播资产阶级思想。",
+    "importance_score": 3,
+    "importance_reason": "本段是核心论点，直接揭示“民族文化”口号的阶级属性，并点名批判崩得分子。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段对“民族文化”口号的批判，进一步揭示其阶级本质并点名具体论敌。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "崩得分子",
+      "their_view": "坚持“民族文化”口号，并试图据此制定“民族文化自治”的完整计划和实际纲领。",
+      "author_response": "列宁指出，崩得分子的这种做法，实质上是将资产阶级的民族主义思想传播到工人中间。",
+      "polemic_kind": "reveals_class_basis",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p36s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p36s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "民族文化自治",
+            "type": "program_clause",
+            "modern": "崩得等派别提出的纲领，主张按民族划分居民，建立独立的民族文化机构，管理本民族的文化教育事务。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 3,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_9>5",
+        "note:n1_overflow_concept_9>5",
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

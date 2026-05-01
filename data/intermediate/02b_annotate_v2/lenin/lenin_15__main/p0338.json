@@ -1,0 +1,66 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 338,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段呈现为一串数字序列，疑似文本排版或数字化过程中的残留错误，无法构成可理解的语句。",
+    "importance_score": 0,
+    "importance_reason": "文本异常，无法参与论证，属于可跳过的内容。",
+    "argument_role": "none",
+    "argument_link": null,
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "text_anomaly",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "text_anomaly",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "文本异常",
+        "explain": "本段原文为“37 4 10 51”，这并非连贯的语句，而是数字序列。这很可能是数字化、排版或OCR过程中产生的错误残留，导致内容缺失或乱码。",
+        "why_needed": "text_anomaly",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p338s1",
+        "quote": "37 4 10 51",
+        "trigger": "text_anomaly",
+        "reader_block": "数字序列无法构成可理解的语句，读者会完全困惑于其含义，无法进行任何解读。",
+        "parse": {
+          "claim": "此处文本为数字乱码，无法解析出任何具体主张或陈述。",
+          "qualifiers": "无",
+          "contrast_or_target": null
+        },
+        "why": {
+          "relation": "none",
+          "explanation": ""
+        },
+        "implication": "读者应跳过此段，或参考其他可靠版本以获取此处应有的文本内容。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p338s1",
+        "speaker": "unknown",
+        "stance": "neutral_citation",
+        "notes": []
+      }
+    ]
+  }
+}

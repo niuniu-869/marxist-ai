@@ -1,0 +1,100 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 9,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段批判普鲁士出版法，揭露霍亨索伦王朝自1830年以来的统治是将旧式宗法专制与现代资产阶级压迫手段相结合，其所谓的“自由主义”实为多重奴役的总和。",
+    "importance_score": 2,
+    "importance_reason": "本段是马克思对三个新法案中出版法批判的核心部分，通过历史回顾揭露其专制本质，为后文具体批判提供论据。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对政府借口的嘲讽，转向对更严重的出版法本身的批判，并追溯其历史根源。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "term_density",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "路易-菲力浦与七月王朝",
+        "explain": "路易-菲力浦是法国1830年七月革命后建立的“七月王朝”的国王，代表金融资产阶级利益。马克思用他来指代一种更“精致”、更现代的资产阶级统治形式，与普鲁士旧式专制相对照。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "九月立法",
+        "explain": "指1835年法国七月王朝在镇压共和派起义后颁布的一系列限制出版、结社自由的法律，是资产阶级用法律手段压制反对派的典型。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "弗里德里希-威廉四世及其政府",
+      "their_view": "我们推行的是自由主义，旨在建立统一的法律制度，弥补旧法律的缺陷，以关怀和改进国家。",
+      "author_response": "马克思揭露，这种所谓的“自由主义”实质上是将普鲁士旧式的宗法专制与法国七月王朝那种更精致的资产阶级奴役手段相结合，其结果是让人民同时承受封建、官僚警察和现代资产阶级法律的三重压迫。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p9s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p9s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p9s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p9s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p9s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p9s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

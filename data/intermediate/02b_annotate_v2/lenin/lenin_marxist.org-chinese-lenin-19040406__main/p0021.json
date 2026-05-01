@@ -1,0 +1,118 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 21,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁通过引用圣经典故，揭露科科什金和立宪民主党在民族自决问题上维护的“国家完整”，实质是统治阶级的完整。",
+    "importance_score": 3,
+    "importance_reason": "本段是核心批判，通过揭示论敌政策的阶级本质，深化了对沙皇国家机器和自由派立场的分析。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对科科什金观点的定性，本段进一步揭露其与沙皇内务部政策的一致性，并揭示其阶级实质。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "allusion",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "allusion",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "安息日典故",
+        "explain": "“人不是为安息日而生的，安息日是为人而设的”出自《圣经·马可福音》。列宁用此典故反驳将国家（安息日）置于人民之上的观点，强调国家应服务于人民。",
+        "why_needed": "allusion",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p21s5",
+        "quote": "他们很清楚地知道这句格言：“人不是为安息日而生的，安息日是为人而设的。”人民不是为国家而生的，国家是为人民而设的。",
+        "trigger": "allusion",
+        "reader_block": "读者可能不熟悉这个圣经典故，或不理解列宁为何在此引用它来反驳科科什金的逻辑。",
+        "parse": {
+          "claim": "列宁用一个关于安息日的宗教格言来论证一个政治原则：国家的存在是为了服务人民，而非人民的存在是为了维护国家。",
+          "qualifiers": "此论证针对的是科科什金等人将国家完整性置于人民权利之上的立场。",
+          "contrast_or_target": "科科什金认为，必须小心对待民族自决，以免它“引起国家瓦解”，即国家完整性优先。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "本句通过引用一个广为人知的格言，将科科什金的政策逻辑颠倒过来，为下文揭示其阶级本质做铺垫。"
+        },
+        "implication": "列宁由此推导出，在沙皇俄国，这个“为人民而设”的国家实际上已沦为特定阶级的工具。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "科科什金与立宪民主党",
+      "their_view": "必须谨慎对待民族政治自决，以防止它导致国家的分裂与瓦解。",
+      "author_response": "列宁指出，他们所捍卫的“国家完整”，实质上是普利什凯维奇之流所代表的统治阶级的完整。",
+      "polemic_kind": "reveals_class_basis",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p21s1",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p21s2",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p21s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p21s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p21s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p21s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "国家",
+            "type": "concept",
+            "modern": "在马克思主义理论中，国家被视为阶级统治的工具，而非超阶级的中立机构。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "state_marxist_theory"
+          }
+        ]
+      },
+      {
+        "sid": "p21s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p21s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  }
+}

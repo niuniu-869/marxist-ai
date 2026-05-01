@@ -1,0 +1,76 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 5,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段引述俾斯麦关于“积极”社会措施的言论，并以一个讽刺性比喻对其逻辑前提进行反驳。",
+    "importance_score": 2,
+    "importance_reason": "作为第一部分的开篇，本段通过引述和反驳，确立了恩格斯批判俾斯麦“国家社会主义”政策的论辩起点。",
+    "argument_role": "transition",
+    "argument_link": "承接上段对文章主题的引入，本段具体展开对俾斯麦言论的引述与初步驳斥，为后续分析其政策实质做铺垫。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p5s4",
+        "quote": "这很像一个人说，只要他吃了17年马铃薯，他就精通农学了。",
+        "trigger": "inverted_logic",
+        "reader_block": "读者可能只看到一个日常类比，而未意识到这是对俾斯麦以执政时长自诩专业能力的逻辑进行的讽刺性归谬。",
+        "parse": {
+          "claim": "恩格斯用一个日常经验的类比，来质疑俾斯麦仅凭长期执政就自诩为经济学专家的逻辑。",
+          "qualifiers": "无。",
+          "contrast_or_target": "俾斯麦认为，领导国家事务十七年的经历，足以使其成为政治经济学领域的权威。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "本句通过一个归谬式的类比，直接反驳了俾斯麦在上一句中提出的“执政时长等于专业能力”的论断，揭露其逻辑的荒谬性。"
+        },
+        "implication": "恩格斯暗示，俾斯麦的政策主张并非基于科学的经济学分析，而是基于其个人权力和执政经验的主观臆断。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "俾斯麦政府",
+      "their_view": "俾斯麦声称，仅靠镇压不足以消灭社会主义，必须采取“积极”社会措施来消除社会混乱、保证工作秩序。他以自己领导国家十七年的经验，自认为是政治经济学方面的内行。",
+      "author_response": "恩格斯通过引述俾斯麦的言论，并紧接着用一个讽刺性比喻，质疑其以执政时长来证明经济学专业能力的逻辑前提，从而揭露其“积极”措施主张的非科学性。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p5s1",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p5s2",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p5s3",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p5s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  }
+}

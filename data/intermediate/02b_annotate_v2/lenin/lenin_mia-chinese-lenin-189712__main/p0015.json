@@ -1,0 +1,200 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 15,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁通过引述斯卡尔金对法律制度（连环保、身分证、村社权力）的批判，展示马克思主义者所继承的进步遗产的具体内容，并以此反驳民粹派。",
+    "importance_score": 2,
+    "importance_reason": "本段是列宁用以支撑其论点的核心例证之一，通过详细引述斯卡尔金的观点，具体化了“遗产”的内容，并直接对比了民粹派的反动方案。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对斯卡尔金经济观点的分析，本段转向其法律观点，进一步充实“遗产”的具体内容，并为下文直接对比民粹派方案做铺垫。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "term_polysemy",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "连环保与身分证制度",
+        "explain": "连环保是沙俄时期村社成员相互担保纳税的制度，一人欠税，全村受罚。身分证是农民离开村社外出务工必须持有的官方许可文件，常被地方官吏勒索。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "glebae adscripti",
+        "explain": "拉丁文，意为“被束缚在土地上的人”，是古罗马法律中对依附于土地的农奴的称呼。斯卡尔金用此比喻1861年改革后仍不自由的俄国农民。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      },
+      {
+        "topic": "定居的无产者",
+        "explain": "斯卡尔金对改革后俄国农民的定义，指他们虽有人身自由，但被束缚在村社和份地上，经济上已沦为无产者，却无法自由流动。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p15s7",
+        "quote": "“但是立法把农民从地主的羁绊下面解放出来以后，没有想出什么办法来使农民摆脱村团和注册处的羁绊，这难道应归罪于农民改革吗？……农民既不能决定自己居住的地方，又不能选择自己的职业，公民自由的标志何在呢？”",
+        "trigger": "inverted_logic",
+        "reader_block": "反问句式“这难道应归罪于农民改革吗？”和“公民自由的标志何在呢？”需要读者理解其隐含的否定答案，即改革本身存在缺陷。",
+        "parse": {
+          "claim": "斯卡尔金指出，1861年改革只解除了农民对地主的人身依附，却未解决农民受村社和官僚机构控制的问题，因此农民并未获得真正的居住和职业自由。",
+          "qualifiers": "这是斯卡尔金对改革后农民法律处境的评价。",
+          "contrast_or_target": "反驳那些将农民不自由状态完全归咎于改革本身，或认为改革已足够彻底的观点。"
+        },
+        "why": {
+          "relation": "example",
+          "explanation": "此句通过反问，强调改革的不彻底性，具体指出了农民在法律上仍受束缚的两个方面（居住与职业），是斯卡尔金批判遗产的重要组成部分。"
+        },
+        "implication": "斯卡尔金的批判为马克思主义者提供了论据：进步的遗产恰恰在于认识到改革的局限性，而非像民粹派那样固守村社。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "民粹派",
+      "their_view": "民粹派主张固定农民村社，禁止转让份地，认为这是保护农民、防止资本主义分化的正确道路。",
+      "author_response": "列宁通过引述斯卡尔金，指出这种方案与进步思想家的愿望截然相反，只能恶化农村无产阶级状况，阻碍经济发展。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p15s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p15s2",
+        "speaker": "quoted_opponent",
+        "stance": "endorsed",
+        "notes": []
+      },
+      {
+        "sid": "p15s3",
+        "speaker": "quoted_opponent",
+        "stance": "endorsed",
+        "notes": []
+      },
+      {
+        "sid": "p15s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p15s5",
+        "speaker": "quoted_opponent",
+        "stance": "endorsed",
+        "notes": []
+      },
+      {
+        "sid": "p15s6",
+        "speaker": "quoted_opponent",
+        "stance": "endorsed",
+        "notes": []
+      },
+      {
+        "sid": "p15s7",
+        "speaker": "quoted_opponent",
+        "stance": "endorsed",
+        "notes": []
+      },
+      {
+        "sid": "p15s8",
+        "speaker": "quoted_opponent",
+        "stance": "endorsed",
+        "notes": []
+      },
+      {
+        "sid": "p15s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p15s10",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p15s11",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p15s12",
+        "speaker": "editor",
+        "stance": "neutral_citation",
+        "notes": []
+      },
+      {
+        "sid": "p15s13",
+        "speaker": "quoted_opponent",
+        "stance": "endorsed",
+        "notes": []
+      },
+      {
+        "sid": "p15s14",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p15s15",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p15s16",
+        "speaker": "quoted_opponent",
+        "stance": "endorsed",
+        "notes": []
+      },
+      {
+        "sid": "p15s17",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p15s18",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 2,
+        "hs_kept": 1,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_archaic_16>4",
+        "note:n1_overflow_concept_6>5",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

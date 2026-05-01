@@ -1,0 +1,55 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 167,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段以双重否定句式，强调社会党人若参与帝国主义分赃交易即构成对无产阶级的背叛。",
+    "importance_score": 3,
+    "importance_reason": "本段是列宁对机会主义和社会沙文主义的直接批判，确立布尔什维克党在战争问题上的国际主义原则。",
+    "argument_role": "continues",
+    "argument_link": "本段承接上文对伯格比尔会议的揭露，将批判从具体事件上升到一般原则，指出社会党人参与此类交易的背叛性质。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "社会党人中的机会主义者",
+      "their_view": "他们认为，为了保卫革命成果或本国利益，社会党人可以支持战争或与资产阶级政府合作，参与国际事务。",
+      "author_response": "列宁指出，这种参与本质上是为资本家分赃服务，背叛了无产阶级的国际主义原则。",
+      "polemic_kind": "reveals_class_basis",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p167s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

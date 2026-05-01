@@ -1,0 +1,107 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 76,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段通过对比法令对作者与检查官的不同要求，揭露新检查令在选拔标准上的模糊性与矛盾。",
+    "importance_score": 2,
+    "importance_reason": "本段是马克思对检查令具体条款进行文本分析的核心部分，通过对比揭示其内在矛盾。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对检查官“确定性”与“不确定性”语调的分析，本段具体剖析法令文本中对检查官能力要求的模糊性。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "普鲁士书报检查制度",
+      "their_view": "法令要求检查官必须“思想可靠”、“能力合格”，并具备慎重、洞察力等品质，能区分形式与本质。",
+      "author_response": "马克思指出，法令对检查官的能力要求是空洞、无具体规定的“一般能力”，与对作者明确的“学术才能”要求形成讽刺对比，这使得检查官的权力基础变得模糊不清。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p76s1",
+        "speaker": "quoted_opponent",
+        "stance": "neutral_citation",
+        "notes": [
+          {
+            "surface": "经证明思想可靠",
+            "type": "polemic",
+            "modern": "法令文本中对检查官的资格要求，强调其政治立场的可靠性。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p76s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p76s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p76s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "才能的萌芽",
+            "type": "concept",
+            "modern": "马克思用此词讽刺法令对检查官能力的要求停留在潜在、未发展的状态，而非实际能力。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "ability_germ"
+          }
+        ]
+      },
+      {
+        "sid": "p76s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p76s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 4,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_10>5",
+        "note:n1_overflow_archaic_6>4",
+        "note:n1_overflow_metaphor_21>8",
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

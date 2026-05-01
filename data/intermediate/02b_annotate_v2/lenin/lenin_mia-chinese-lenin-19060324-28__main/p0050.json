@@ -1,0 +1,106 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 50,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "分析1906年杜马选举期间立宪民主党的选民基础变化，指出地主脱离而小资产阶级成为主体。",
+    "importance_score": 3,
+    "importance_reason": "核心分析立宪民主党的阶级基础变化，为判断其政治性质提供依据。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对选民党派分布的分析，进一步剖析立宪民主党内部的阶级构成变化，说明其政治性质的转变。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p50s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p50s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "小资产阶级",
+            "type": "concept",
+            "modern": "在1905年革命中，城市小商人、手工业者等群体开始参与政治。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "class_petty_bourgeoisie_urban"
+          }
+        ]
+      },
+      {
+        "sid": "p50s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p50s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "立宪民主党",
+            "type": "org",
+            "modern": "1905年成立的自由派政党，主张君主立宪和土地改革。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "自由派地主",
+            "type": "social_group",
+            "modern": "主张政治改革但维护土地私有制的地主阶层。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p50s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 3,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_8>5"
+      ]
+    }
+  ]
+}

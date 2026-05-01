@@ -1,0 +1,161 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 106,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段分析梯也尔政府利用法国财政破产的困境，为镇压巴黎公社寻找经济动机和外部条件。",
+    "importance_score": 2,
+    "importance_reason": "本段为作者论证梯也尔政府发动内战的阶级动机提供了经济基础分析，是揭示其反革命本质的关键环节。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对“乡绅议会”反革命性质的定性，本段具体分析其行动的经济动因和外部条件。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "allusion",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "乡绅议会",
+        "explain": "指1871年2月在波尔多召开的法国国民议会，其成员多为保守的农村地产主和正统派，故被马克思称为“乡绅议会”。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "第二帝国",
+        "explain": "指拿破仑三世于1852年建立的法兰西第二帝国，其统治后期财政挥霍并最终因普法战争失败而崩溃。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "普鲁士的夏洛克",
+        "explain": "马克思借用莎士比亚戏剧《威尼斯商人》中放高利贷者夏洛克的形象，讽刺普鲁士在普法战争后对法国索取苛刻赔款。",
+        "why_needed": "allusion",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p106s5",
+        "quote": "造成彻底崩溃的是，普鲁士的夏洛克手持票据勒索供养他在法国土地上的50万军队的粮饷，要求支付他的亿赔款，对其中留待以后分期交付的款额加收5%的利息。由谁来支付呢？",
+        "trigger": "allusion",
+        "reader_block": "“夏洛克”是文学典故，读者若不知《威尼斯商人》情节，无法理解此处用其比喻普鲁士的贪婪与苛刻。",
+        "parse": {
+          "claim": "普鲁士像高利贷者一样，以占领法国领土和军队开销为要挟，向法国索取巨额赔款并附加高额利息。",
+          "qualifiers": "赔款总额达数十亿法郎，其中分期支付部分需额外支付5%利息。",
+          "contrast_or_target": ""
+        },
+        "why": {
+          "relation": "example",
+          "explanation": "此句用具体比喻和数字，例证了前文“战争极度地加重了债负”的论断，说明法国财政崩溃的直接外部压力来源。"
+        },
+        "implication": "这笔巨额赔款最终需要法国人民承担，为下文“转嫁费用”的论点铺垫。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p106s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "乡绅议会",
+            "type": "social_group",
+            "modern": "1871年2月在波尔多召开的法国国民议会，其成员以保守的农村地产主和正统派为主。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p106s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p106s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p106s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p106s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "普鲁士的夏洛克",
+            "type": "metaphor",
+            "modern": "借用《威尼斯商人》中放高利贷者形象，讽刺普法战争后普鲁士对法国索取的苛刻赔款。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p106s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p106s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "奴隶主叛乱",
+            "type": "metaphor",
+            "modern": "将梯也尔政府对巴黎公社的镇压，比喻为维护私有制的统治阶级对劳动者的暴力反扑。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 3,
+        "notes_dropped": 2,
+        "hs_kept": 1,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix",
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

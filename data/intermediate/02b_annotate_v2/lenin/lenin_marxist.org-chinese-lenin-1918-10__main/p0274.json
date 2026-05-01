@@ -1,0 +1,119 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 274,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "批判孟什维克与考茨基对战争的定性是欺骗，并论证结束帝国主义战争的真正途径。",
+    "importance_score": 2,
+    "importance_reason": "本段承接上文对“保卫祖国”口号的批判，具体揭露孟什维克与考茨基的欺骗性，并提出无产阶级革命的替代方案。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对“保卫祖国”口号实质的揭露，本段具体点名孟什维克与考茨基的欺骗行为，并转向如何真正结束战争的论述。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "孟什维克",
+        "explain": "1903年俄国社会民主工党分裂后形成的派别，主张与资产阶级合作进行民主革命，反对无产阶级专政，与布尔什维克对立。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "考茨基与孟什维克",
+      "their_view": "孟什维克将战争定性为防御或革命战争，考茨基赞成这种定性，认为提出相应口号就能改变战争性质。",
+      "author_response": "这种定性是欺骗人民，实质是将工人绑在帝国主义战车上；结束战争不能靠口号，而要靠无产阶级革命打倒相关阶级。",
+      "polemic_kind": "reveals_class_basis",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p274s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "孟什维克",
+            "type": "org",
+            "modern": "1903年俄国社会民主工党分裂后形成的派别，主张渐进改良与资产阶级合作。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "考茨基",
+            "type": "person",
+            "modern": "第二国际理论家，列宁批判其机会主义立场。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p274s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "市侩庸人",
+            "type": "social_group",
+            "modern": "列宁用以形容缺乏革命坚定性、耽于空谈的小资产阶级知识分子。",
+            "highlight": "polemic",
+            "confidence": "medium",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p274s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p274s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p274s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p274s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 3,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

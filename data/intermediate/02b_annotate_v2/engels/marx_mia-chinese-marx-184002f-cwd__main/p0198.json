@@ -1,0 +1,100 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 198,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "作者批判空想社会主义者试图用主观设计取代历史客观进程，指出他们只从同情角度看待无产阶级。",
+    "importance_score": 2,
+    "importance_reason": "本段是《宣言》批判空想社会主义的核心段落之一，具体揭示其方法论错误与阶级立场局限。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对空想社会主义者为何主张理论创新的分析，本段具体批判其试图用主观发明取代历史客观条件的做法。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "空想社会主义者",
+      "their_view": "历史行动、解放条件、社会组织都可以由我们发明和创造；我们为劳动阶级制定社会计划，因为他们是最苦的阶级。",
+      "author_response": "历史行动和解放条件是由历史进程本身造成的，劳动者的阶级组织是自发形成的；他们只从同情角度看待无产阶级，而非理解其历史主动性。",
+      "polemic_kind": "reveals_class_basis",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p198s1",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": [
+          {
+            "surface": "歷史行動",
+            "type": "concept",
+            "modern": "在马克思主义语境下，指由生产力与生产关系矛盾推动的、具有客观规律的社会变革过程。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "historical_action_marxist"
+          }
+        ]
+      },
+      {
+        "sid": "p198s2",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p198s3",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p198s4",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p198s5",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p198s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 6,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

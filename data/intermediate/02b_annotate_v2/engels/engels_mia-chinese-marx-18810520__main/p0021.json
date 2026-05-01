@@ -1,0 +1,112 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 21,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "恩格斯指出，选举改革赋予了工人阶级在议会中直接代表自身的新工具，但工联未能有效运用这一工具，未能履行其作为先锋队的政治责任。",
+    "importance_score": 3,
+    "importance_reason": "核心论点段落，明确提出了工人阶级应利用选举权进行政治斗争的主张，并直接批评了工联的局限性。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于选举改革使工人阶级在城市获得多数的论述，进一步阐明这一政治成果应如何被利用，并转向对工联的批评。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "cross_ref_pronoun",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "allusion | inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "“这项措施”所指",
+        "explain": "指前文提及的1867年英国选举改革法案（迪斯累里法案），该法案扩大了部分城市工人的选举权，使工人阶级在许多工业城市成为选民多数。",
+        "why_needed": "cross_ref_pronoun",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p21s4",
+        "quote": "这个新武器在它们手里已经有十年多了，但是它们几乎从来也没有拔出鞘来用过它。",
+        "trigger": "allusion",
+        "reader_block": "将议会席位比作“武器”，将使用比作“拔出鞘”，是军事隐喻。读者可能不理解“武器”具体指什么，以及“拔出鞘”意味着何种行动。",
+        "parse": {
+          "claim": "工联拥有议会斗争这一工具已超过十年，但几乎从未实际运用它来对抗资本。",
+          "qualifiers": "时间限定为“十年多了”，指从1867年选举改革法案通过至今。",
+          "contrast_or_target": ""
+        },
+        "why": {
+          "relation": "continues",
+          "explanation": "承接上句关于“新武器”的比喻，具体指出工联长期闲置这一政治工具的事实，为下文的批评做铺垫。"
+        },
+        "implication": "工联的行动与其作为工人阶级先锋队的潜在角色严重脱节。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "工联",
+      "their_view": "工联可能认为，其主要职责是进行经济斗争（如调节工资和工时），而将政治代表权交给受过教育的资产阶级专业人士（如律师、编辑）是合理且足够的。",
+      "author_response": "恩格斯批评工联忘记了作为工人阶级先进部队的责任，未能利用选举权这一新武器，导致工人阶级在政治上仍被资本家及其代理人代表，这与其组织地位和历史机遇不符。",
+      "polemic_kind": "strategic_critique",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p21s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p21s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p21s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p21s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p21s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p21s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 1,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

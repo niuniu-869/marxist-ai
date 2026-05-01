@@ -1,0 +1,104 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 18,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "通过追溯挪威农民非农奴的历史背景，论证其小资产阶级与德国小市民在精神特质上的根本差异，并以此例证强调具体研究的重要性。",
+    "importance_score": 2,
+    "importance_reason": "作为核心例证，具体展示历史背景如何塑造不同社会群体的特性，以反驳恩斯特的教条化套用方法。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对德国小市民退化状态的描述，转而以挪威为正面例证，通过对比具体历史条件下的不同发展路径，来反驳恩斯特将德国特性普遍化的错误。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p18s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "加斯梯里亚",
+            "type": "place",
+            "modern": "西班牙历史地区，恩格斯用以类比挪威农民未经历农奴制的特殊历史条件。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p18s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p18s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p18s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "易卜生的戏剧",
+            "type": "work",
+            "modern": "挪威剧作家易卜生的作品，恩格斯视其为反映挪威独特社会精神面貌的例证。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p18s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p18s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 2,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_5gram_with_surface",
+        "note:n1_overflow_concept_7>5"
+      ]
+    }
+  ]
+}

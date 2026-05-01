@@ -1,0 +1,78 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 30,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "恩格斯用反讽手法，通过假设资本家规定煤炭价格永远满意，来讽刺矿工协会要求工人对工资永远满意的规定。",
+    "importance_score": 2,
+    "importance_reason": "本段通过反讽类比，揭露矿工协会规定的荒谬性，批判资本家控制的福利制度。",
+    "argument_role": "contrasts",
+    "argument_link": "本段将上段工人必须满意工资的逻辑，类推到煤炭购买者必须满意价格，以揭露其不合理性。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "allusion",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "allusion",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "莱喀古士典故",
+        "explain": "莱喀古士是古希腊斯巴达的传奇立法者，以制定严苛法律闻名。恩格斯用此称呼煤矿公司的管理者，讽刺他们像古代立法者一样专断地制定规则。",
+        "why_needed": "allusion",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "萨克森煤矿资本家",
+      "their_view": "资本家通过矿工协会向工人提供福利，并要求工人对工资永远满意，以此证明劳资关系和谐。",
+      "author_response": "恩格斯通过类比反问，指出如果资本家可以规定工人满意工资，那么他们也可以规定煤炭购买者满意价格，从而揭露这种规定的专断和不合理。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p30s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "莱喀古士立法者们",
+            "type": "metaphor",
+            "modern": "恩格斯用古希腊立法者莱喀古士比喻煤矿公司管理者，讽刺其制定规则的专断性。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p30s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

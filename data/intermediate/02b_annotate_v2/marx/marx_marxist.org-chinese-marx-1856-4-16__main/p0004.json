@@ -1,0 +1,141 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 4,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段从私人通信事务过渡到对德国革命形势的分析，核心是提出德国革命需要农民战争支持无产阶级革命的构想。",
+    "importance_score": 2,
+    "importance_reason": "本段提出了马克思关于德国革命道路的一个早期重要构想，即无产阶级革命与农民战争的结合，是理解其后续思想发展的关键节点。",
+    "argument_role": "continues",
+    "argument_link": "本段延续了上一段关于工人运动和政治形势的讨论，将话题从公开演讲转向私人通信中的政治判断，并提出了具体的革命策略构想。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "allusion",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "美因兹俱乐部派",
+        "explain": "指1792年法国大革命期间在美因兹建立的民主俱乐部，主张激进共和与普选，后被普鲁士军队镇压。马克思用此典故暗示革命者可能面临的孤立与失败境地。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "再版的农民战争",
+        "explain": "马克思用此比喻指德国可能需要一场类似16世纪闵采尔领导的农民战争，但其性质与目标将服务于无产阶级革命，而非单纯的农民诉求。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p4s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p4s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p4s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p4s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p4s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p4s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p4s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "美因兹俱乐部派",
+            "type": "event",
+            "modern": "1792年法国大革命期间在美因兹建立的激进民主俱乐部，主张共和与普选，后被普鲁士军队镇压。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p4s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p4s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p4s10",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p4s11",
+        "speaker": "editor",
+        "stance": "neutral_citation",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 2,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_5gram_with_surface",
+        "hs:claim_5gram_with_quote",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

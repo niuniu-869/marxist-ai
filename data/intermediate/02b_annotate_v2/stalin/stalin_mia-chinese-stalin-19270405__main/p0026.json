@@ -1,0 +1,118 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 26,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "斯大林分析国民党右派的阶级联系与政治手腕，并以此论证将共产党从国民党中拉出的策略将导致右派独大，直接反驳拉狄克的退出主张。",
+    "importance_score": 2,
+    "importance_reason": "本段是斯大林对党内反对派（拉狄克）具体策略的直接批判，通过分析国民党内部力量对比，为“留在国民党内”的路线提供论据，是核心论战的一部分。",
+    "argument_role": "contrasts",
+    "argument_link": "承接上段对国民党作为“革命议会”的定性，本段进一步分析其内部右派的性质，并推导出退出该“议会”的灾难性后果，与拉狄克的退出主张形成直接对立。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p26s8",
+        "quote": "但究竟是谁，请原谅（笑声），究竟是谁，除了（笑声）（拉狄克插话：“都明白，都明白。”）有谁，除了极其精明的人（笑声）和极其有经验的人，可能提出现在这样的策略？",
+        "trigger": "inverted_logic",
+        "reader_block": "反问句式加现场互动记录（笑声、插话），读者可能困惑于斯大林为何用这种讽刺口吻，以及“极其精明”“极其有经验”在此语境下的真实指向。",
+        "parse": {
+          "claim": "斯大林认为，只有那些自以为是、脱离实际的“精明”与“有经验”者，才会提出让共产党退出国民党这种策略。",
+          "qualifiers": "此判断针对拉狄克在当前中国革命具体形势下提出的退出主张。",
+          "contrast_or_target": "拉狄克认为共产党员应退出国民党，以保持无产阶级政党的独立性。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "本句是斯大林对拉狄克策略的总结性讽刺，通过反问将拉狄克的主张定性为脱离实际的“聪明反被聪明误”，旨在削弱其策略在听众中的严肃性。"
+        },
+        "implication": "斯大林暗示，拉狄克的策略看似精明，实则幼稚，会葬送革命成果。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p26s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p26s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p26s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p26s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p26s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p26s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p26s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p26s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 2,
+        "hs_kept": 1,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix",
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 16,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁将苏维埃政权的爱国性质与国际主义相结合，重新定义了“保卫祖国”的内涵。",
+    "importance_score": 3,
+    "importance_reason": "核心论点段，明确苏维埃政权的阶级属性与国际主义立场，直接回应国内关于爱国与否的论争。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于资本主义发展与群众觉醒的论述，将理论推演至苏维埃政权的具体实践与性质界定。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "allusion",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "allusion",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "蒂尔西特和约",
+        "explain": "1807年普鲁士战败后与法国签订的屈辱性条约，割地赔款。列宁以此类比《布列斯特和约》，意指暂时的、被迫的退却可能孕育未来的复兴。",
+        "why_needed": "allusion",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "1917年10月25日",
+        "explain": "俄历日期，对应公历1917年11月7日，即十月革命爆发、布尔什维克夺取政权的日子。",
+        "why_needed": "allusion",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p16s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "蒂尔西特和约",
+            "type": "event",
+            "modern": "1807年普鲁士战败后与拿破仑法国签订的条约，以割地赔款换取和平，被视为民族耻辱的象征。",
+            "highlight": "archaic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p16s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p16s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 2,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_5gram_with_surface",
+        "note:n1_overflow_concept_6>5",
+        "hs:claim_5gram_with_quote",
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

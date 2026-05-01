@@ -1,0 +1,89 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 9,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁指出资产阶级及其政治盟友在反对苏维埃政权时结成统一战线，并具体说明他们期望借助外部力量来压制布尔什维克。",
+    "importance_score": 2,
+    "importance_reason": "本段是前一段政治集团分析的具体展开，通过点名和举例，论证资产阶级阵营的联合性及其外部依赖。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对俄国政治派别“三大集团”的划分，具体阐述第一个集团（资产阶级）及其盟友的联合行动与目标。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "切尔诺夫之流和策列铁里之流（左派社会革命党人）；乌克兰的朋友（乌克兰的资产阶级民族主义者）",
+      "their_view": "我们应当与德国缔结一项和约，以便能够借助德国军队和本国资产阶级的力量，来推翻布尔什维克在俄国的影响。",
+      "author_response": "列宁指出，这种联合是公开的、有据可查的，其目标就是借助外部刺刀和内部反动势力来压倒苏维埃政权。",
+      "polemic_kind": "reveals_class_basis",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p9s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p9s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p9s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p9s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "契恒凯里",
+            "type": "person",
+            "modern": "阿卡基·契恒凯里，格鲁吉亚孟什维克领导人，当时在高加索地区活动，与德国和土耳其有联系。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p9s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 2,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_social_group_13>12",
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

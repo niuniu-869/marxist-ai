@@ -1,0 +1,66 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 256,
+  "annotation": {
+    "block_type": "footnote",
+    "gist": "本段显示一个数字代码，可能为银行名称或页码的排版残留。",
+    "importance_score": 0,
+    "importance_reason": "本段为文本异常，无实质论证内容。",
+    "argument_role": "none",
+    "argument_link": "",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "text_anomaly",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "text_anomaly",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "文本异常",
+        "explain": "原文数字代码疑似排版残留或OCR错误，可能为银行名称或页码的误植，影响理解。",
+        "why_needed": "text_anomaly",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p256s1",
+        "quote": "711.8",
+        "trigger": "text_anomaly",
+        "reader_block": "数字代码无上下文，读者无法理解其含义，疑似文本错误。",
+        "parse": {
+          "claim": "这是一个数字代码，可能表示银行名称或页码。",
+          "qualifiers": "",
+          "contrast_or_target": ""
+        },
+        "why": {
+          "relation": "none",
+          "explanation": ""
+        },
+        "implication": null,
+        "confidence": "low",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p256s1",
+        "speaker": "unknown",
+        "stance": "neutral_citation",
+        "notes": []
+      }
+    ]
+  }
+}

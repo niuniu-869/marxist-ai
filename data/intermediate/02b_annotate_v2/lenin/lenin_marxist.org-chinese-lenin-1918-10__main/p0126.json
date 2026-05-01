@@ -1,0 +1,70 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 126,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁批判考茨基对民主的理解，指出其将形式平等误认为实质平等，是资产阶级民主派的典型错误。",
+    "importance_score": 2,
+    "importance_reason": "本段是核心批判的一部分，直接针对考茨基对无产阶级专政与民主关系的错误理解。",
+    "argument_role": "contrasts",
+    "argument_link": "承接上段对无产阶级专政具体目的的阐述，转而批判考茨基对民主的抽象、形式化理解，与之形成鲜明对比。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p126s2",
+        "quote": "他迷恋于民主的“纯粹性”，看不见它的资产阶级性，“始终如一地”主张多数既然是多数，就用不着“粉碎”少数的“反抗”，用不着对少数“实行暴力镇压”，只要对破坏民主的情况实行镇压就够了。",
+        "trigger": "inverted_logic",
+        "reader_block": "反讽引号（“始终如一地”）与多重否定（“用不着粉碎”“用不着实行暴力镇压”）交织，读者可能误以为这是列宁在陈述一种可接受的方案，而非批判对象。",
+        "parse": {
+          "claim": "考茨基主张，既然多数派已经占据优势，就不需要对少数派的反抗进行暴力粉碎，只需镇压那些破坏民主程序的行为即可。",
+          "qualifiers": "此主张建立在“民主具有纯粹性”且“多数派天然正确”的前提之上。",
+          "contrast_or_target": "考茨基认为，民主程序本身足以解决冲突，无需超越程序的暴力手段来巩固多数派的统治。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "本句具体转述考茨基的核心论点，即用程序化的“镇压破坏民主者”来替代对阶级敌人的暴力专政，为下文的批判树立靶子。"
+        },
+        "implication": "列宁认为，这种观点忽视了资产阶级民主的阶级本质，无法应对少数剥削阶级为维护自身利益而进行的、超越民主程序的反抗。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "考茨基",
+      "their_view": "民主本身是纯粹的，多数派既然已是多数，就无需对少数派的反抗采取粉碎或暴力镇压手段，只需针对破坏民主规则的行为进行镇压即可。",
+      "author_response": "列宁指出，考茨基这种对民主“纯粹性”的迷恋，使其看不到资产阶级民主的虚伪性，并犯了将法律条文上的平等等同于社会实际平等的根本错误。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p126s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p126s2",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p126s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  }
+}

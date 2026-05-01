@@ -1,0 +1,107 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 110,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁引用德国工会领袖列金小册子中转载的一份文件，该文件表达了德国左派社会民主党人对党的抗议。",
+    "importance_score": 1,
+    "importance_reason": "举例支撑前文关于社会党依赖合法组织的论点，展示党内左翼的抗议声音。",
+    "argument_role": "example",
+    "argument_link": "承接上段对德国党依赖合法组织的分析，提供一个具体实例，说明这种依赖如何导致对战争的妥协以及党内左翼的不满。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p110s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "卡尔·列金",
+            "type": "person",
+            "modern": "德国社会民主党工会领袖，其著作被列宁用作例证。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p110s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p110s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "战时书报检查机关",
+            "type": "org",
+            "modern": "一战期间德国负责审查出版物的官方机构。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p110s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "下巴尼姆区",
+            "type": "place",
+            "modern": "柏林近郊的一个区域，文件的使用场景。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p110s5",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 3,
+        "notes_dropped": 2,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_work_22>16",
+        "note:n2_5gram_with_surface"
+      ]
+    }
+  ]
+}

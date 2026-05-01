@@ -1,0 +1,70 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 87,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁转述并反驳罗莎·卢森堡对民族自决权的两个主要批评。",
+    "importance_score": 2,
+    "importance_reason": "转述并树立论敌的核心论点，为后续系统性反驳提供明确的批判对象。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段引入对机会主义分子态度的分析，具体展开其主要论敌罗莎·卢森堡的论点。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "罗莎·卢森堡",
+      "their_view": "承认民族自决权，就等于支持被压迫民族的资产阶级民族主义。另一方面，如果这种权利仅仅意味着反对一切民族压迫，那么在党纲中就不需要单独列出这一条，因为社会民主党本身就反对一切民族压迫和不平等。",
+      "author_response": "列宁在此转述对方论点，尚未展开直接反驳。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p87s1",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p87s2",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": [
+          {
+            "surface": "社会民主党",
+            "type": "org",
+            "modern": "第二国际时期各国工人阶级政党的通称，列宁领导的布尔什维克是其俄国分支。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_8>5"
+      ]
+    }
+  ]
+}

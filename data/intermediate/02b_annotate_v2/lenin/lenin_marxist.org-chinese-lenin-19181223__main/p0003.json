@@ -1,0 +1,76 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 3,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁通过德奥左翼报刊的报道，肯定了革命无产者对机会主义领导人的反击，并欢迎这些报刊作为第三国际的象征。",
+    "importance_score": 1,
+    "importance_reason": "本段通过具体报刊和人物，将德奥革命后的左翼力量与机会主义领导人对立起来，为后文批判提供实例。",
+    "argument_role": "continues",
+    "argument_link": "本段承接文章开头交代的德奥革命背景，具体指出革命后左翼力量与机会主义领导人的对立。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "谢德曼与艾柏特",
+        "explain": "德国社会民主党右翼领袖。1918年德国革命后，他们主导临时政府，主张议会民主，反对无产阶级专政，被列宁视为机会主义代表。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "奥斯特尔利茨与伦纳",
+        "explain": "奥地利社会民主党右翼领袖。1918年奥地利革命后，他们主导临时政府，同样主张议会民主，与谢德曼等人立场一致。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "《红旗报》与《吶喊报》",
+        "explain": "分别是德国共产党和奥地利共产党的机关报，代表革命左翼立场，与社会民主党右翼报刊对立。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "谢德曼、艾柏特等第二国际机会主义领袖",
+      "their_view": "他们主张通过议会民主道路实现社会主义，反对暴力革命和无产阶级专政，认为应利用资产阶级民主形式。",
+      "author_response": "列宁称他们为“社会主义叛徒”，指出他们背叛了革命无产阶级的利益，其主张是为帝国主义战争服务的。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p3s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "第三国际",
+            "type": "org",
+            "modern": "共产国际，1919年成立的国际共产主义组织，与第二国际相对，主张暴力革命和无产阶级专政。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p3s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  }
+}

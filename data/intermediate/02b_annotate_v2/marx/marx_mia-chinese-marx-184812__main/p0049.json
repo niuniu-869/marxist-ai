@@ -1,0 +1,88 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 49,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段批判普鲁士资产阶级在三月革命后镇压无产阶级，并与军队、官僚等旧势力合作，揭露其反革命本质。",
+    "importance_score": 2,
+    "importance_reason": "本段通过具体事例支撑对普鲁士资产阶级反革命行为的批判。",
+    "argument_role": "continues",
+    "argument_link": "本段承接上段对资产阶级陶醉于幻想的描述，具体说明其在革命后的反动行动。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_density",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "反革命将领",
+        "explain": "文迪施格雷茨、耶拉契奇和韦尔登是1848年革命后镇压革命的反动军事将领，代表旧势力对革命的反扑。",
+        "why_needed": "history_density",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "普鲁士资产阶级",
+      "their_view": "资产阶级认为自己是革命的领导者，通过镇压无产阶级和与旧势力合作来维持秩序。",
+      "author_response": "马克思揭露资产阶级的这种行为是反革命的，他们实际上背叛了革命，与旧势力勾结。",
+      "polemic_kind": "reveals_class_basis",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p49s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p49s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p49s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p49s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p49s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 2,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

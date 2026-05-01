@@ -1,0 +1,92 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 9,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "总结巴枯宁主义“放弃政治”主张在实践中的失败，并揭露其主张的实质是懦弱者伪装成革命者的策略。",
+    "importance_score": 2,
+    "importance_reason": "作为西班牙事件分析的结论段，点明巴枯宁主义路线的虚伪性与危害，是核心批判的收束。",
+    "argument_role": "conclusion",
+    "argument_link": "承接上段对西班牙选举中巴枯宁派决策的分析，将具体事件上升为对其理论主张的定性批判。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p9s3",
+        "quote": "其实，这是胆小如鼠的人乔装为革命者的绝妙手法；",
+        "trigger": "inverted_logic",
+        "reader_block": "反讽句，表面赞扬“绝妙手法”，实际是尖锐讽刺。读者若按字面理解，会完全误解作者立场。",
+        "parse": {
+          "claim": "巴枯宁主义“放弃政治”的主张，是懦弱者伪装成革命者的策略。",
+          "qualifiers": "此判断针对其在和平时期对工人的宣传。",
+          "contrast_or_target": "巴枯宁主义者自诩为彻底的革命者，主张攻击抽象的国家概念。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "直接揭露巴枯宁主义主张的阶级实质与心理动机，将其定性为怯懦的伪装，而非真正的革命路线。"
+        },
+        "implication": "这种伪装会麻痹工人阶级的斗争意识，使其无法认清并攻击真正的压迫来源。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p9s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p9s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p9s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p9s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 1,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "polemic:eval_word:their_view:伟大"
+      ]
+    }
+  ]
+}

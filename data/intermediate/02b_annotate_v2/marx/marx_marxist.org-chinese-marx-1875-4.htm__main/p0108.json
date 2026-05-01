@@ -1,0 +1,143 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 108,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "马克思揭示“铁的工资规律”的理论基础是马尔萨斯人口论，并论证若接受该规律则社会主义无法消除贫困。",
+    "importance_score": 2,
+    "importance_reason": "核心批判段落，通过揭示论敌理论前提的荒谬性，反驳其工资规律的普适性。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对接受“铁的工资规律”后果的讽刺，本段深入剖析该规律的理论根基，并论证其根基将导致社会主义目标的破产。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "马尔萨斯人口论",
+        "explain": "18世纪末英国经济学家马尔萨斯提出的理论，认为人口增长速度必然超过生活资料增长速度，导致贫困和过剩人口是自然规律，无法通过社会变革消除。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p108s7",
+        "quote": "但是，如果这个理论是正确的，那末，我即使把雇佣劳动废除了一百次，也还废除不了这个规律，因为在这种情况下，这个规律不仅支配着雇佣劳动制度，而且支配着一切社会制度。",
+        "trigger": "inverted_logic",
+        "reader_block": "“废除一百次也废除不了”是夸张的反讽，读者可能困惑于为何废除雇佣劳动这一社会主义核心目标会无效，需要理解其背后的逻辑推演。",
+        "parse": {
+          "claim": "若马尔萨斯人口论为真，则工资规律是超越特定社会形态的自然法则，任何社会制度变革（包括废除雇佣劳动）都无法改变它。",
+          "qualifiers": "前提是“如果这个理论（马尔萨斯人口论）是正确的”。",
+          "contrast_or_target": "拉萨尔派认为工资规律是资本主义特有的，可通过国家帮助等手段克服。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "通过归谬法，将拉萨尔工资规律的理论前提（马尔萨斯人口论）推演至极端，揭示其与社会主义革命目标的根本矛盾，从而反驳该规律的合理性。"
+        },
+        "implication": "接受工资规律等于承认社会主义革命本身是徒劳的，因为它无法改变所谓的“自然”贫困。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "拉萨尔、朗格",
+      "their_view": "工资运动受一条铁的规律支配，这条规律的论据是马尔萨斯人口论，即贫困和工资低下是人口增长超过生活资料增长的自然结果。",
+      "author_response": "如果这个论据成立，那么工资规律就成了一切社会制度下的自然法则，社会主义革命废除雇佣劳动也无法消除它，这恰恰证明了该规律及其论据的荒谬性。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p108s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p108s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p108s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p108s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p108s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p108s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "朗格",
+            "type": "person",
+            "modern": "弗里德里希·阿尔伯特·朗格，19世纪德国哲学家、经济学家，曾宣扬马尔萨斯人口论，并与拉萨尔有思想关联。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p108s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "雇佣劳动",
+            "type": "concept",
+            "modern": "工人被迫出卖劳动力给资本家以换取工资的劳动形式，是资本主义生产关系的基础。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "labor_economic"
+          }
+        ]
+      },
+      {
+        "sid": "p108s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 1,
+        "hs_kept": 1,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

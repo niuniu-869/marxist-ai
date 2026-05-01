@@ -1,0 +1,70 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 241,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "斯大林指出，崩得将犹太人未来的“世俗机关”作为条件和保障，而非俄国的民主化。",
+    "importance_score": 2,
+    "importance_reason": "本段是斯大林批判崩得民族纲领的具体例证，揭示其主张的实质。",
+    "argument_role": "contrasts",
+    "argument_link": "承接上段对崩得纲领的介绍，本段具体分析其纲领所依赖的条件，与上段形成对比。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "犹太教公会",
+        "explain": "沙俄时期官方认可的犹太人社区管理机构，兼具宗教与世俗职能，常被视为压迫性制度的一部分。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "杜马",
+        "explain": "沙皇俄国在1905年革命后设立的立法机构，权力有限，常被沙皇政府操控。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p241s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

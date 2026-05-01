@@ -1,0 +1,113 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 65,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "恩格斯批评《前进》杂志呼吁社会主义者团结的虚伪性，指出其本质是向巴枯宁主义者的阴谋妥协，并赞扬了海牙代表大会的果断行动。",
+    "importance_score": 2,
+    "importance_reason": "本段是恩格斯对第一国际内部路线斗争的具体回应，通过反讽揭示了所谓“团结”口号的实质，并叙述了斗争的结果。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对折衷主义者的讽刺，本段具体以《前进》杂志为例，剖析其呼吁“团结”的实质，并叙述了与之对立的正确做法。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "《前进》杂志",
+        "explain": "指德国社会民主党当时的机关报。在第一国际内部斗争中，该报持调和立场，主张避免公开冲突。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "巴枯宁主义者",
+        "explain": "第一国际内部以巴枯宁为首的无政府主义派别，主张通过密谋和暴动立即摧毁国家，反对建立无产阶级政党。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "海牙代表大会",
+        "explain": "1872年在荷兰海牙召开的第一国际第五次代表大会。大会决定将巴枯宁等人开除出国际，并公布了相关文件。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p65s3",
+        "quote": "当然要达到这种团结只有一个办法，即立即让巴枯宁主义者为所欲为，并把国际手脚捆绑起来听凭他们的秘密阴谋去处置。",
+        "trigger": "inverted_logic",
+        "reader_block": "句子以“当然”开头，看似提出一个正面方案，实则是用反讽手法揭露所谓“团结”办法的荒谬本质，读者容易按字面意思理解。",
+        "parse": {
+          "claim": "恩格斯指出，按照《前进》的逻辑，实现团结的唯一途径就是彻底放弃原则，任由巴枯宁派系操控国际工人协会。",
+          "qualifiers": "此判断针对《前进》杂志所呼吁的“团结”而言。",
+          "contrast_or_target": "《前进》杂志呼吁社会主义者保持和睦、避免公开纠纷的观点。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "本句通过归谬法，将《前进》呼吁团结的主张推导至其逻辑终点，从而揭露这种主张的实质是向阴谋活动投降，服务于反驳《前进》的论战目标。"
+        },
+        "implication": "真正的团结不能建立在放弃原则和斗争的基础上，否则将导致组织被敌对势力瓦解。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "《前进》杂志（及其代表的调和立场）",
+      "their_view": "所有社会主义者应当保持和睦，至少要避免公开的纠纷，以维护团结。",
+      "author_response": "这种呼吁在巴枯宁主义者正用阴谋手段企图控制国际的背景下，等同于要求放弃斗争、任人摆布，是虚伪且有害的。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p65s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p65s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p65s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p65s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p65s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "海牙代表大会",
+            "type": "event",
+            "modern": "1872年第一国际在荷兰海牙召开的第五次代表大会，会上通过了开除巴枯宁派的决议。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  }
+}

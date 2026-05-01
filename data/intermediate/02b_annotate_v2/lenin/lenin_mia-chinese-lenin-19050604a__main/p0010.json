@@ -1,0 +1,180 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 10,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁批判俄国解放联盟中央委员会提出的“主动性”口号，指出其在历史上被党内派别利用，并论证严格的无产阶级世界观与纲领只能是马克思主义与国际社会民主党的路线。",
+    "importance_score": 3,
+    "importance_reason": "核心段落，直接批判论敌口号，并正面阐述社会民主党的思想与组织基础。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对俄国解放联盟同情声明的质疑，进一步批判其提出的“主动性”口号，并系统阐述社会民主党的原则立场。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p10s1",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": [
+          {
+            "surface": "俄国解放联盟中央委员会",
+            "type": "org",
+            "modern": "1905年革命中出现的、试图超越党派界限的革命组织。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "主动性",
+            "type": "slogan",
+            "modern": "此处指论敌提出的、强调工人自发创造性的口号，列宁视其为削弱理论指导的工具。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p10s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "经济派",
+            "type": "org",
+            "modern": "19世纪末俄国社会民主党内的一个派别，主张工人运动应局限于经济斗争。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "孟什维克",
+            "type": "org",
+            "modern": "俄国社会民主工党内的一个派别，在1905年革命中主张与资产阶级合作。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p10s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p10s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p10s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "马克思主义",
+            "type": "concept",
+            "modern": "列宁在此将其等同于“严格的无产阶级世界观”，是唯一正确的理论体系。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "marxism_as_worldview"
+          }
+        ]
+      },
+      {
+        "sid": "p10s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p10s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p10s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p10s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p10s10",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "无政府主义",
+            "type": "concept",
+            "modern": "主张立即废除一切国家权力和权威的思潮，列宁视其为与机会主义相对的另一种错误倾向。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "anarchism"
+          }
+        ]
+      },
+      {
+        "sid": "p10s11",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p10s12",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 6,
+        "notes_dropped": 3,
+        "hs_kept": 0,
+        "hs_dropped": 2,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix",
+        "hs:claim_5gram_with_quote",
+        "hs:claim_5gram_with_quote",
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

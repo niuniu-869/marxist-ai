@@ -1,0 +1,97 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 16,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁揭露旧社会革命党在土地问题上的欺骗性，指出其脱离群众、幻想与资产阶级合作的路线已被历史经验否定，只有社会主义学说才具有生命力。",
+    "importance_score": 2,
+    "importance_reason": "本段是列宁对社会革命党错误路线的核心批判，通过历史经验论证了与资产阶级妥协的破产，为苏维埃政权的社会主义方向提供论据。",
+    "argument_role": "contrasts",
+    "argument_link": "上一段强调工农联盟的稳固性，本段则通过批判旧社会革命党的错误路线，从反面论证了只有坚持社会主义方向才能联合农民。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "旧社会革命党",
+      "their_view": "我们提出土地平均使用的口号，这个任务可以联合资产阶级来完成。",
+      "author_response": "列宁指出这是一种欺骗，他们脱离了群众，其路线已被革命、战争和苏维埃自身的痛苦经验所证伪。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p16s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "土地平均使用",
+            "type": "slogan",
+            "modern": "社会革命党提出的核心土地纲领，主张将土地分配给耕种者，但未明确实现手段与领导阶级。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p16s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p16s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "空架子",
+            "type": "metaphor",
+            "modern": "形容该派别已失去群众基础，徒有组织形式而无实际影响力。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p16s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p16s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

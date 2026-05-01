@@ -1,0 +1,95 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 81,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "恩格斯转述并讽刺巴枯宁主义者（以涅恰也夫为代表）对“朋友彼得”的批判，揭示其革命理论的盲动性与不负责任。",
+    "importance_score": 2,
+    "importance_reason": "通过转述论敌观点，具体展示巴枯宁主义革命观的核心主张及其内在矛盾，是作者批判的靶子。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对特卡乔夫个人行为的讽刺，本段深入剖析其背后所代表的巴枯宁主义革命理论的荒谬逻辑。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "涅恰也夫",
+        "explain": "谢尔盖·涅恰也夫是19世纪俄国革命者，以极端密谋手段和“无所顾忌”的革命理论著称，其思想对巴枯宁有影响，后因谋杀案败露而声名狼藉。恩格斯在此引用他，意在讽刺巴枯宁主义者的盲动倾向。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p81s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p81s2",
+        "speaker": "quoted_opponent",
+        "stance": "cited",
+        "notes": []
+      },
+      {
+        "sid": "p81s3",
+        "speaker": "quoted_opponent",
+        "stance": "cited",
+        "notes": []
+      },
+      {
+        "sid": "p81s4",
+        "speaker": "quoted_opponent",
+        "stance": "cited",
+        "notes": []
+      },
+      {
+        "sid": "p81s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p81s6",
+        "speaker": "quoted_opponent",
+        "stance": "cited",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 2,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote",
+        "hs:claim_5gram_with_quote",
+        "polemic:polemic_their_view_qualifier:反动的"
+      ]
+    }
+  ]
+}

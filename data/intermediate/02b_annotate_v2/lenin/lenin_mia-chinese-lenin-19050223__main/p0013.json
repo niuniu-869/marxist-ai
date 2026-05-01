@@ -1,0 +1,109 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 13,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段阐述党在革命高潮中既要扩大组织规模，又要转变教育方式，强调利用革命实践本身作为教育群众的新教材。",
+    "importance_score": 2,
+    "importance_reason": "本段是上一段“战时状态”比喻的延伸，具体阐述了在革命实践中如何进行党的教育工作，是支撑核心策略调整的关键论述。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段关于党必须转入战时状态、扩大组织的论述，本段进一步说明在扩大组织的同时，党的教育工作方法也必须随之改变，以适应群众运动的新形势。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "恐怖手段与群众起义融合",
+        "explain": "在1905年革命语境下，指将针对沙皇官僚的个人恐怖行动（如社会革命党人所为）与无产阶级领导的、有组织的群众武装起义相结合，这是布尔什维克当时提出的具体策略。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "俄国自由派的阶级利益",
+        "explain": "指以《解放》杂志为代表的俄国资产阶级自由派，他们主张君主立宪，其政治诉求本质上反映了俄国资本主义发展和资产阶级寻求政治权力的阶级利益。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p13s7",
+        "quote": "我们是说，现在非常重要的是利用伟大革命事变的实际教材，向群众——已经不是向小组——讲授我们旧的“信条”课程，例如，要讲必须在实际上把恐怖手段和群众起义融合起来，应当善于在俄国有教养的社会的自由主义的背后看到我国资产阶级的阶级利益（参看《前进报》第3号上关于这一问题与社会革命党人的论战［注：见本卷第175—181页。——编者注］）。",
+        "trigger": "long_nested",
+        "reader_block": "句子结构复杂，包含多个插入语和具体策略举例，且“信条”“恐怖手段”等词在特定历史语境下有特定含义，读者容易迷失在长句中，抓不住核心主张。",
+        "parse": {
+          "claim": "当前教育工作的核心方法是利用革命事件本身作为活教材，直接面向广大民众（而非仅限于理论小组）来传授党的基本理论和策略。",
+          "qualifiers": "限定于“现在”这个革命高潮时期；教育对象从“小组”扩展到“群众”；教育内容是“旧的信条”，但要用新的、基于实践的方式来讲授。",
+          "contrast_or_target": "针对那些仍局限于小组内部理论灌输、脱离群众革命实践的教育方式。"
+        },
+        "why": {
+          "relation": "example",
+          "explanation": "本句是前一句“讲授信条的新方法”的具体展开和例证，通过列举“融合恐怖与起义”和“看穿自由派阶级本质”两个实例，说明如何利用革命实践来教育群众。"
+        },
+        "implication": "党的理论教育必须与群众的直接斗争经验相结合，才能有效提升其阶级觉悟和革命能力。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "党内那些仍局限于小组教育、忽视或低估革命实践本身教育意义的观点",
+      "their_view": "党的教育工作主要应依靠系统性的理论学习和小组内部的训练，革命行动本身并非首要的教育形式。",
+      "author_response": "列宁强调，当前革命事变的实践进程本身就是最强有力的教育者，它按照党的方向教育着广大群众，因此必须将这种实践作为教育的核心教材。",
+      "polemic_kind": "strategic_critique",
+      "confidence": "medium"
+    },
+    "sentences": [
+      {
+        "sid": "p13s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p13s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p13s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p13s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p13s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p13s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p13s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  }
+}

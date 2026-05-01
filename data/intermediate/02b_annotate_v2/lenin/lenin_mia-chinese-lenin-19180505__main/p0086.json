@@ -1,0 +1,87 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 86,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "分析十月革命前后党内部分人主张妥协的两种可能动机及其危害。",
+    "importance_score": 2,
+    "importance_reason": "具体剖析了党内错误倾向的动机，为批判“左派”幼稚性提供内部例证。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对“妥协”论调的批判，将分析对象从党外转向党内，具体剖析布尔什维克内部主张妥协者的心理与后果。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "党内主张妥协的‘左派’分子",
+      "their_view": "应当与左派社会革命党人、孟什维克等分享政权，避免无产阶级单独掌权。",
+      "author_response": "列宁指出这种妥协会妨碍在驱散立宪会议、消灭反革命、实行苏维埃制度等根本问题上的斗争。",
+      "polemic_kind": "strategic_critique",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p86s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "克伦斯基时代",
+            "type": "event",
+            "modern": "1917年二月革命后至十月革命前的临时政府时期，由克伦斯基主导。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p86s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "切尔诺夫分子",
+            "type": "social_group",
+            "modern": "以切尔诺夫为首的左派社会革命党人中的一个派别。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "孟什维克",
+            "type": "org",
+            "modern": "俄国社会民主工党中的一个派别，主张资产阶级民主革命阶段。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 3,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_5gram_with_surface"
+      ]
+    }
+  ]
+}

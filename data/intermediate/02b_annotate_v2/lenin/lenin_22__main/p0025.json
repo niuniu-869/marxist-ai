@@ -1,0 +1,82 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 25,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁总结布尔什维克在斗争中养成的两种品质：直面困难的坚韧与根据形势变化调整策略的灵活性。",
+    "importance_score": 2,
+    "importance_reason": "承接上段对经济建设困难的承认，转而强调策略灵活性，为新经济政策的转向提供方法论辩护。",
+    "argument_role": "continues",
+    "argument_link": "紧接上段关于经济建设犯错最多、正通过新经济政策纠正的论述，本段将这种纠正上升为一种革命所必需的斗争艺术。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p25s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p25s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p25s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "硬骨头",
+            "type": "metaphor",
+            "modern": "在列宁的用法中，指布尔什维克在极端逆境中表现出的不屈不挠的斗争意志。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p25s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

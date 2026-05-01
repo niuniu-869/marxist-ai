@@ -1,0 +1,61 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 15,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "马克思指出德国人推卸历史责任，并引用巴枯宁的错误论断作为反面例证。",
+    "importance_score": 1,
+    "importance_reason": "本段通过引用论敌原话，为后续批判提供具体靶子。",
+    "argument_role": "continues",
+    "argument_link": "本段延续了对德国在欧洲政治中角色的分析，并引入巴枯宁的错误判断作为对比。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "巴枯宁",
+      "their_view": "德国社会民主党的首要目标是建立一个泛日耳曼国家，而俄国社会革命党人则要彻底破坏俄罗斯国家。",
+      "author_response": "马克思通过引用这些话，意在暴露巴枯宁对德国和俄国政治力量的错误判断与定性。",
+      "polemic_kind": "counter_quotation",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p15s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p15s2",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_6>5"
+      ]
+    }
+  ]
+}

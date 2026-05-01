@@ -1,0 +1,85 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 178,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁引用马克思1864年的一封信，澄清马克思对民族问题的立场：既强调工人问题的优先性，又绝不忽视民族运动。",
+    "importance_score": 2,
+    "importance_reason": "作为例证，用马克思本人的言行来支撑列宁关于马克思支持民族解放的论断，反驳论敌的曲解。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段关于马克思支持波兰解放的论断，本段提供马克思1864年信件的具体证据，展示其如何在实际工作中处理民族问题与工人问题的关系。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "马志尼的民族主义",
+        "explain": "朱塞佩·马志尼是19世纪意大利民族主义运动领袖，主张通过民族独立和共和革命实现意大利统一。其民族主义强调民族国家优先，与马克思的国际主义立场存在张力。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p178s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p178s2",
+        "speaker": "quoted_marx",
+        "stance": "endorsed",
+        "notes": [
+          {
+            "surface": "国际告工人阶级书",
+            "type": "work",
+            "modern": "第一国际（国际工人协会）的成立宣言，由马克思起草，阐述了国际的政策原则。",
+            "highlight": "work",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p178s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

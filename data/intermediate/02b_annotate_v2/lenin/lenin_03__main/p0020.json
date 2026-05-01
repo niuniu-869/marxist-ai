@@ -1,0 +1,123 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 20,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁反驳反对派对布尔什维克“许诺和平却引起战争”的责备，论证其阶级实质。",
+    "importance_score": 3,
+    "importance_reason": "本段直接回应论敌的核心攻击，揭示其阶级立场，是全文论辩的关键环节。",
+    "argument_role": "contrasts",
+    "argument_link": "本段从解释布尔什维克战争观转向直接驳斥反对派的攻击，将论战焦点从理论阐释转向政治定性。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "以民主派、社会党人自居的反对派（孟什维克、社会革命党人等）",
+      "their_view": "布尔什维克曾许诺和平，但现在却发动并延长了国内战争，这与他们当初的承诺相悖。",
+      "author_response": "列宁指出，这种责备无视战争性质的根本区别，将无产阶级革命战争与帝国主义掠夺战争混为一谈，其实质是为资产阶级服务。",
+      "polemic_kind": "reveals_class_basis",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p20s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p20s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p20s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "凡尔赛和约",
+            "type": "event",
+            "modern": "1919年协约国与德国签订的结束一战的和约，列宁用此指明帝国主义战争的掠夺性质。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p20s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p20s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p20s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p20s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "高尔察克",
+            "type": "person",
+            "modern": "白卫军将领，当时苏俄内战的主要敌人之一。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p20s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p20s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 2,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "hs:claim_5gram_with_quote",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

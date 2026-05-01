@@ -1,0 +1,150 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 205,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁批判考茨基从形式主义角度看待立宪会议，强调革命利益高于形式民主权利，并指出考茨基回避对会议阶级性质的分析。",
+    "importance_score": 3,
+    "importance_reason": "核心批判段落，直接反驳考茨基在立宪会议问题上的机会主义观点。",
+    "argument_role": "continues",
+    "argument_link": "本段承接上段对考茨基机会主义的批判，具体针对其在立宪会议问题上的形式主义立场，深化了对资产阶级民主局限性的揭露。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "立宪会议",
+        "explain": "1917年俄国临时政府召开的议会，旨在制定宪法，但布尔什维克在十月革命后将其解散，认为它是反革命工具。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "立宪民主党人",
+        "explain": "俄国自由主义政党，主张君主立宪，反对社会主义革命，在立宪会议中占据重要席位。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "卡列金分子",
+        "explain": "指阿列克谢·卡列金领导的顿河哥萨克反布尔什维克势力，参与了内战。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "考茨基",
+      "their_view": "考茨基认为应当从形式民主的角度看待立宪会议，强调其程序合法性，而不考虑其阶级实质。",
+      "author_response": "列宁指出，革命利益高于形式权利，考茨基回避了立宪会议作为资产阶级机关的阶级分析，背弃了马克思主义。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p205s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "立宪会议",
+            "type": "concept",
+            "modern": "1917年俄国临时政府召开的制宪议会",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "constituent_assembly_russia"
+          }
+        ]
+      },
+      {
+        "sid": "p205s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "提纲",
+            "type": "work",
+            "modern": "列宁关于无产阶级革命和专政的提纲",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p205s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p205s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p205s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p205s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p205s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "立宪民主党人",
+            "type": "org",
+            "modern": "俄国自由主义政党",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "卡列金分子",
+            "type": "social_group",
+            "modern": "卡列金领导的反布尔什维克势力",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 4,
+        "notes_dropped": 2,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_9>5",
+        "note:n1_overflow_concept_6>5"
+      ]
+    }
+  ]
+}

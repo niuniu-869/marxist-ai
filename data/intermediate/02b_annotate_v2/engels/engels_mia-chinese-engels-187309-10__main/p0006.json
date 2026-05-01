@@ -1,0 +1,163 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 6,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "恩格斯分析西班牙巴枯宁派在共和国成立后，因长期反对政治行动的教条而陷入行动困境。",
+    "importance_score": 2,
+    "importance_reason": "本段是核心例证，具体展示巴枯宁主义理论在真实革命形势下的破产过程。",
+    "argument_role": "example",
+    "argument_link": "承接上段交代的写作目的，以西班牙事件为实例，具体分析巴枯宁派的行动矛盾。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "term_density",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "秘密同盟与国际分裂",
+        "explain": "指巴枯宁在第一国际内部建立的秘密组织“社会主义民主同盟”。1872年海牙大会后，该组织被开除，导致国际在西班牙等国分裂，巴枯宁派在西班牙占据优势。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "巴枯宁主义",
+      "their_view": "不应参加任何不以工人阶级立即完全解放为目的的革命；任何政治行动都等于承认国家；参加选举是死罪。",
+      "author_response": "恩格斯指出，这种教条在西班牙共和国成立、工人渴望行动的现实面前，导致其首领们张皇失措，无法应对。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p6s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "秘密同盟",
+            "type": "org",
+            "modern": "巴枯宁建立的“社会主义民主同盟”，在第一国际内部从事派别活动。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p6s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p6s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p6s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p6s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p6s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p6s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p6s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p6s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p6s10",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p6s11",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p6s12",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p6s13",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p6s14",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p6s15",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p6s16",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_11>5",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

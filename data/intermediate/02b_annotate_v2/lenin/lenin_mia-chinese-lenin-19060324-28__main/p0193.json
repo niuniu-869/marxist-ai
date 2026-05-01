@@ -1,0 +1,88 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 193,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁批评孟什维克在革命策略上的错误，指出他们忽视了反对立宪幻想这一核心任务。",
+    "importance_score": 2,
+    "importance_reason": "本段是列宁对孟什维克策略错误的核心批判，直接服务于全文论点。",
+    "argument_role": "continues",
+    "argument_link": "本段承接上文对孟什维克决议的批评，具体指出其在革命策略上的核心错误。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "allusion",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "立宪幻想",
+        "explain": "指1905年革命后，部分人对沙皇杜马能实现民主改革抱有的过高期望。列宁认为这是资产阶级用来腐蚀无产阶级革命意志的工具。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "社会和平理论",
+        "explain": "19世纪末欧洲社会民主党内部的一种改良主义主张，认为通过议会斗争和劳资合作可以渐进实现社会主义，无需暴力革命。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "孟什维克",
+      "their_view": "工人政党应参加杜马选举，但未强调反对立宪幻想的任务。",
+      "author_response": "列宁指出这是根本性错误，会使无产阶级丧失革命主动性，沦为资产阶级政治议程的追随者。",
+      "polemic_kind": "strategic_critique",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p193s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p193s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p193s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p193s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

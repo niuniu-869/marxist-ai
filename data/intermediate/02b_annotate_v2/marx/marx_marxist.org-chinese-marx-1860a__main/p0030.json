@@ -1,0 +1,82 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 30,
+  "annotation": {
+    "block_type": "quote_block",
+    "gist": "马克思摘录巴枯宁对法国战后局势的分析，指出国家与社会革命的对立，并讽刺法国资产阶级为维护自身利益而牺牲国家尊严。",
+    "importance_score": 1,
+    "importance_reason": "作为论战摘录，呈现巴枯宁对法国阶级斗争的观察，为马克思后续批判提供靶子。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于法国“国祚”已尽的论断，具体分析导致法国无法重振的内部矛盾。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "巴枯宁",
+      "their_view": "法国资产阶级在面临外部威胁时，其行为逻辑并非真正为国家荣誉而战，而是优先考虑自身阶级利益，甚至不惜以国家屈服为代价。",
+      "author_response": "马克思通过摘录巴枯宁的观察，揭示了资产阶级“爱国主义”的虚伪性，其核心是维护私有制和阶级统治，而非民族整体利益。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p30s1",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p30s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p30s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "梯也尔",
+            "type": "person",
+            "modern": "阿道夫·梯也尔，普法战争后法国临时政府首脑，镇压巴黎公社。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p30s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

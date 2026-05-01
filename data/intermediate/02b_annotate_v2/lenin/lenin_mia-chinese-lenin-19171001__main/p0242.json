@@ -1,0 +1,80 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 242,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁总结七月事变的教训，反驳新生活派对革命形势的误判，强调依靠群众和果断行动的必要性。",
+    "importance_score": 2,
+    "importance_reason": "通过具体事件教训反驳论敌，为武装起义的策略提供经验依据。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对社会革命党人和孟什维克垮台的分析，进一步从群众觉悟角度论证布尔什维克获得支持。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "allusion",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p242s2",
+        "quote": "这就是说，得到的“教训”和“新生活派”所说的完全不同，这个“教训”就是：决不能离开沸腾的群众而去迁就“民主派的莫尔恰林们”，如果是起义，那就要趁敌军分散的时候转入进攻，出其不意地袭击他们。",
+        "trigger": "allusion",
+        "reader_block": "“民主派的莫尔恰林们”是俄国文学典故，读者若不知《聪明误》剧情，无法理解列宁对妥协派的讽刺。",
+        "parse": {
+          "claim": "革命策略必须紧密联系群众，不能向那些在政治上怯懦虚伪的妥协分子让步。",
+          "qualifiers": "在起义的具体情境下，行动原则是利用敌人分散的时机。",
+          "contrast_or_target": "新生活派认为，无产阶级政党应当脱离激进的群众运动，转而与温和的民主派力量合作，以维持政权稳定。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "此句直接针对新生活派认为无产阶级应脱离群众、寻求与“民主派”妥协的论点，提出相反的行动原则。"
+        },
+        "implication": "列宁将群众运动视为力量的源泉，而非需要规避的风险，这与新生活派的精英主义或改良主义倾向形成对立。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "新生活派",
+      "their_view": "新生活派认为，无产阶级政党应当脱离激进的群众运动，转而与温和的民主派力量合作，以维持政权稳定。",
+      "author_response": "列宁指出，群众在七月事变中已认清各派真实面目，正确的教训是必须依靠群众力量，在敌人分散时果断发动起义。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p242s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p242s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 1,
+        "hs_kept": 1,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_metaphor_9>8"
+      ]
+    }
+  ]
+}

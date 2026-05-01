@@ -1,0 +1,61 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 28,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段指出，德国人对法国社会主义文献的篡改，使其脱离了阶级斗争的实质，变成了代表抽象“人的本质”的哲学空谈。",
+    "importance_score": 2,
+    "importance_reason": "这是对“德国的或‘真正的’社会主义”批判的核心部分，揭示了其脱离现实、服务于专制政府的实质。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段对德国著作家哲学篡改行为的列举，本段进一步阐明这种篡改的实质后果：文献的阶级斗争内容被抽空，代之以抽象的哲学概念。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "德国的或“真正的”社会主义",
+      "their_view": "我们克服了法国社会主义只关注特定阶级利益的片面性，我们代表的是超越阶级的、普遍的真理和人的本质的利益。",
+      "author_response": "马克思指出，这种观点将无产阶级的特殊斗争需求抽象化，使其脱离现实，实际上服务于德国专制政府反对资产阶级的需要。",
+      "polemic_kind": "reveals_class_basis",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p28s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p28s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_7>5"
+      ]
+    }
+  ]
+}

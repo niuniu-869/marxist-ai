@@ -1,0 +1,117 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 12,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "作者澄清其策略主张并非脱离现实地“跳越阶段”，而是反对用民主专政的前景来恐吓无产阶级，并论证了当前斗争与未来专政的关联。",
+    "importance_score": 2,
+    "importance_reason": "本段承接上文对论敌的批评，进一步界定自身策略的边界，并论证了当前革命成果与未来专政时期镇压反革命能力的辩证关系。",
+    "argument_role": "continues",
+    "argument_link": "本段紧接上段对马尔丁诺夫和普列汉诺夫的批评，旨在澄清自身立场并非主张脱离现实的“跳越”，并正面阐述反对“尾巴主义”恐吓策略的理由。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p12s1",
+        "quote": "希望任何爱挑毛病的读者不要从我们的话中得出这样的结论：仿佛我们不顾社会力量的对比而宣传“规定”必须跳越台阶的“策略”。",
+        "trigger": "inverted_logic",
+        "reader_block": "双重否定（“不要……得出结论：仿佛……”）加上比喻（“跳越台阶”），读者需要先还原其肯定含义，再理解比喻所指的革命阶段论。",
+        "parse": {
+          "claim": "作者的策略主张并非无视客观力量对比，去宣传一种必须超越当前革命阶段的预定计划。",
+          "qualifiers": "针对“爱挑毛病的读者”可能产生的误解进行澄清。",
+          "contrast_or_target": "针对论敌（如马尔丁诺夫）可能指责布尔什维克主张无政府主义式“跳越”的论调。"
+        },
+        "why": {
+          "relation": "continues",
+          "explanation": "承接上段对论敌引用马克思著作的批评，主动澄清自身立场，防止被曲解为脱离现实的激进主义，为下文阐述真正的反对对象做铺垫。"
+        },
+        "implication": "作者承认革命策略必须基于“社会力量的对比”，即客观的阶级力量格局，而非主观臆断。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      },
+      {
+        "anchor": "p12s3",
+        "quote": "我们所反对的仅仅是那些高谈共和国和把革命进行到底，而同时又用参加民主专政的可能性来吓唬自己和别人的人们对无产阶级的影响。",
+        "trigger": "inverted_logic",
+        "reader_block": "句子结构复杂，核心是“反对……影响”，但修饰语“高谈……而同时又用……吓唬”描述了论敌言行不一的矛盾状态，读者需理清这种矛盾。",
+        "parse": {
+          "claim": "作者只反对一种特定的影响，即某些人一方面空谈彻底革命的目标，另一方面却用无产阶级参与民主专政可能带来的危险来制造恐慌。",
+          "qualifiers": "限定了反对的精确对象，不是反对民主专政本身，而是反对用它来恐吓无产阶级的论调。",
+          "contrast_or_target": "针对那些口头支持彻底革命，但行动上却用“危险论”来束缚无产阶级手脚的党内反对派（如马尔丁诺夫、马尔托夫）。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "直接点明本段论战的核心靶子：党内那些用民主专政的“危险”来恐吓无产阶级、限制其斗争范围的“尾巴主义”倾向。"
+        },
+        "implication": "作者认为，这种恐吓策略实质上是削弱无产阶级在革命中的主动性和斗争意志。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "党内反对派（马尔丁诺夫、马尔托夫等）",
+      "their_view": "无产阶级政党参加民主专政会带来危险，可能导致灭亡，因此应该用这种可能性来警告无产阶级，限制其行动。",
+      "author_response": "作者反对的正是这种用民主专政前景来恐吓无产阶级、从而束缚其革命手脚的影响，主张应积极争取并利用这一时期无情镇压反革命。",
+      "polemic_kind": "strategic_critique",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p12s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p12s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p12s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p12s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p12s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 2,
+        "hs_kept": 2,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

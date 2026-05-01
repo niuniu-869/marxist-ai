@@ -1,0 +1,107 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 31,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁总结和约问题上的争论，谴责动摇派别，并指出国际环境危急但西欧革命正在成熟。",
+    "importance_score": 2,
+    "importance_reason": "本段承接上文对和约策略的辩护，具体点名批评动摇派别，并转向对国际形势的判断，为后续论证提供基础。",
+    "argument_role": "continues",
+    "argument_link": "本段承接上段对‘疲惫群众’说法的驳斥，进一步点明这种说法实际上是对布尔什维克策略的肯定，并具体指出哪些派别因此动摇。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "cross_ref",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "左派社会革命党及党内动摇派别",
+      "their_view": "在和约问题上表现出动摇，反对签订和约，认为这是向帝国主义妥协。",
+      "author_response": "列宁谴责这种动摇，认为签订和约是争取喘息时机的正确策略，动摇导致了这些派别与布尔什维克的分离。",
+      "polemic_kind": "strategic_critique",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p31s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p31s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "左派社会革命党",
+            "type": "org",
+            "modern": "1918年俄国小资产阶级政党，曾与布尔什维克联合执政后分裂。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p31s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "喘息时机",
+            "type": "metaphor",
+            "modern": "列宁用此比喻通过和约获得的短暂和平与休整期。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p31s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p31s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "燃料",
+            "type": "metaphor",
+            "modern": "比喻革命所需的客观条件与主观力量正在积累。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 3,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

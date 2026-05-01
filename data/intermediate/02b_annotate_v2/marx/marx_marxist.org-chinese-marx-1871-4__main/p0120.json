@@ -1,0 +1,197 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 120,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "通过列举凡尔赛军队的具体暴行，揭露梯也尔政府的残暴本质及其对公社战士的系统性屠杀。",
+    "importance_score": 2,
+    "importance_reason": "通过具体事例，为作者对梯也尔政府的批判提供事实支撑，是论证链条中的关键证据部分。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段对梯也尔虐待俘虏的描述，进一步用更系统、更残暴的屠杀事例，强化对其反动本质的揭露。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p120s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p120s2",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": [
+          {
+            "surface": "正直人士",
+            "type": "metaphor",
+            "modern": "梯也尔在公报中用以自指的群体，马克思在此反讽其实际构成。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p120s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p120s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p120s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p120s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p120s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "加利费",
+            "type": "person",
+            "modern": "法国将军，在镇压巴黎公社期间指挥骑兵部队。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p120s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p120s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "托伦",
+            "type": "person",
+            "modern": "法国工人运动活动家，蒲鲁东主义者，当时为国民议会议员。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "勒夫洛",
+            "type": "person",
+            "modern": "梯也尔政府的陆军部长。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p120s10",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p120s11",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "穆兰－萨凯",
+            "type": "event",
+            "modern": "巴黎公社时期发生屠杀事件的地点。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          },
+          {
+            "surface": "克拉马",
+            "type": "event",
+            "modern": "巴黎公社时期发生集体枪杀事件的地点。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p120s12",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p120s13",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "勒孔特",
+            "type": "person",
+            "modern": "法国将军，在1870年9月4日革命中被巴黎民众杀死。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "克莱芒·托马",
+            "type": "person",
+            "modern": "法国将军，在1870年9月4日革命中被巴黎民众杀死。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 8,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

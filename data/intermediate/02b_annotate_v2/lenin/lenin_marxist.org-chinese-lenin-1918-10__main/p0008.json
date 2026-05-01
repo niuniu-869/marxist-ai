@@ -1,0 +1,70 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 8,
+  "annotation": {
+    "block_type": "quote_block",
+    "gist": "列宁引用自己1915年的著作，强调无产阶级必须斗争才能革命，并分析考茨基主义的社会根源。",
+    "importance_score": 2,
+    "importance_reason": "引用旧作强化对考茨基主义的批判，分析其社会根源。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对考茨基背叛行为的指责，进一步从理论根源上分析考茨基主义。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p8s1",
+        "quote": "工人阶级不进行无情的战斗，来反对这种叛徒行径、这种没有气节、向机会主义献媚、从理论上把马克思主义空前庸俗化的行为，便不能实现它要进行世界革命的目的。",
+        "trigger": "inverted_logic",
+        "reader_block": "双重否定结构“不……便不能”需要读者在脑中转换为肯定逻辑“只有……才能”，否则容易误读。",
+        "parse": {
+          "claim": "无产阶级要达成世界范围的革命目标，必须坚决斗争以清除那些背叛、妥协并庸俗化理论的倾向。",
+          "qualifiers": "",
+          "contrast_or_target": "针对那些主张向机会主义妥协、背叛革命原则的派别。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "此句通过双重否定强调斗争的必要性，直接针对考茨基等人向机会主义献媚的行为。"
+        },
+        "implication": "暗示不斗争则革命无望。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "考茨基主义",
+      "their_view": "考茨基主义认为，无需进行彻底的斗争，可以通过议会道路或与资产阶级合作来实现社会主义。",
+      "author_response": "列宁指出，这种思想是第二国际内部矛盾的产物，口头上坚持马克思主义，实际上屈服于机会主义。",
+      "polemic_kind": "reveals_class_basis",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p8s1",
+        "speaker": "quoted_lenin",
+        "stance": "endorsed",
+        "notes": []
+      },
+      {
+        "sid": "p8s2",
+        "speaker": "quoted_lenin",
+        "stance": "endorsed",
+        "notes": []
+      },
+      {
+        "sid": "p8s3",
+        "speaker": "editor",
+        "stance": "neutral_citation",
+        "notes": []
+      }
+    ]
+  }
+}

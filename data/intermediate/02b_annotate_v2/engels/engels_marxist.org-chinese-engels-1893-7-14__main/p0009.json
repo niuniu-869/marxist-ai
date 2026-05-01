@@ -1,0 +1,122 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 9,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段批判一种将思想、法律、国家制度视为拥有完全独立发展历史的普遍错觉，并通过多个历史实例论证这些思想领域的变化实质上是经济事实在观念上的反映。",
+    "importance_score": 3,
+    "importance_reason": "核心论点段，直接阐述历史唯物主义关于社会意识与社会存在关系的核心原理，是反驳机械论和唯心史观的关键。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于思想家处理思想材料独立路径的论述，进一步揭示这种独立性外观如何导致对历史进程的普遍误解，并开始用具体实例进行反驳。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "路德、加尔文与宗教改革",
+        "explain": "16世纪欧洲宗教改革的两位核心领袖。路德挑战罗马教廷权威，加尔文在日内瓦建立神权共和国。他们的思想变革是理解近代欧洲思想史的关键节点。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "黑格尔、费希特、康德",
+        "explain": "三位德国古典哲学家。康德奠基批判哲学，费希特发展主观唯心论，黑格尔构建庞大的客观唯心主义体系。恩格斯用他们说明哲学思想的内部演进逻辑。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "重农主义与重商主义",
+        "explain": "17-18世纪欧洲两种对立的经济学派。重商主义强调金银积累和贸易顺差，重农主义则认为农业是财富唯一来源。亚当·斯密的《国富论》标志着对重商主义的系统批判。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p9s2",
+        "quote": "如果说，路德和加尔文“克服了”官方的天主教，黑格尔“克服了”费希特和康德，卢梭以其共和主义的《社会契约论》间接地“克服了”立宪主义者孟德斯鸠，那么，这仍然是神学、哲学、政治学内部的一个过程，它表现为这些思维领域历史中的一个阶段，完全不越出思维领域。",
+        "trigger": "long_nested",
+        "reader_block": "句子通过三个并列的“克服”实例构建复杂类比，读者可能被具体人名和著作淹没，难以抓住其共同指向的论点——即这些变化在外观上仅限于思想领域内部。",
+        "parse": {
+          "claim": "宗教、哲学和政治理论领域内发生的、看似是思想家对前辈的超越与取代，其过程本身完全局限在各自观念体系的范畴之内。",
+          "qualifiers": "当这些变化被孤立地看待时，它们呈现为纯粹的思维领域内部演进。",
+          "contrast_or_target": "与历史唯物主义的观点相对，后者认为这些思想变革背后有更根本的经济事实变动在驱动。"
+        },
+        "why": {
+          "relation": "example",
+          "explanation": "本句通过列举神学、哲学、政治学三个领域的具体思想更替案例，为上句提出的“独立历史外观”提供实例支撑，说明这种外观是如何具体表现的。"
+        },
+        "implication": "这种外观是导致人们忽视经济基础决定作用的直接原因。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      },
+      {
+        "anchor": "p9s5",
+        "quote": "如果狮心理查和菲力浦-奥古斯特实行了自由贸易，而不是卷入了十字军征讨，那我们就可以避免500年的贫穷和愚昧。",
+        "trigger": "inverted_logic",
+        "reader_block": "这是一个反事实的讽刺性假设，用荒谬的推论（中世纪君主实行近代经济政策）来揭露将经济思想胜利归因于纯粹观念进步的逻辑错误。",
+        "parse": {
+          "claim": "按照那种将经济理论进步视为纯粹思想胜利的逻辑推演，其荒谬结论会是：只要中世纪的君主们提前采取近代的自由贸易政策，就能避免数百年的经济落后。",
+          "qualifiers": "这是对前述错误逻辑的归谬推演。",
+          "contrast_or_target": "针对那种认为重商主义被重农主义和斯密克服是“对始终普遍存在的实际条件最终达到的真正理解”的观点。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "本句通过一个明显违背历史常识的反讽假设，尖锐地驳斥了将经济学说演变视为纯粹思想胜利的唯心史观，揭示其逻辑的荒谬性。"
+        },
+        "implication": "经济思想的变革必须被理解为对已经变化了的经济事实的反映，而非相反。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "历史唯心主义与机械经济决定论（隐含论敌）",
+      "their_view": "思想、法律、国家制度等上层建筑拥有自身独立的发展历史，其演变是纯粹的观念内部过程，经济事实的变化只是这些思想达到“真正理解”的结果。",
+      "author_response": "这些领域的独立历史只是一种外观，其变化实质上是改变了的经济事实在思想上的反映，而非思想自身逻辑的必然产物。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p9s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p9s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p9s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p9s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p9s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  }
+}

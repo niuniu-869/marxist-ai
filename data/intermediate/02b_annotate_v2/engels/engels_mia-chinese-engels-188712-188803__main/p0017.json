@@ -1,0 +1,81 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 17,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "通过讽刺某些人在实际利益面前对“祖国”的妥协，揭示其民族主义宣称的虚伪性。",
+    "importance_score": 1,
+    "importance_reason": "作为对前段民族主义宣称的讽刺性例证，属于辅助性论证。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段对民族主义优越性宣称的引用，转而讽刺宣称者在实际利益面前的矛盾行为。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "现金交易的比喻",
+        "explain": "此处“现金交易”并非指字面的货币买卖，而是比喻在具体的政治或经济利益谈判中。恩格斯用此讽刺那些高谈阔论民族统一的人，在实际利益面前却愿意做出让步。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p17s1",
+        "quote": "可是，在现金交易中，他们甘愿同意给这一势将日益变得更辽阔的祖国[9]打一个相当大的折扣——25—30％。",
+        "trigger": "inverted_logic",
+        "reader_block": "句子用“甘愿同意给祖国打折”这种反讽说法，读者初读可能困惑于“祖国”如何能被“打折”，需理解这是对民族主义口号在实际利益面前被妥协的讽刺。",
+        "parse": {
+          "claim": "那些宣扬民族统一的人，在涉及实际利益的谈判中，却愿意牺牲部分国家利益或主权。",
+          "qualifiers": "在“现金交易”（即具体利益谈判）的语境下。",
+          "contrast_or_target": ""
+        },
+        "why": {
+          "relation": "continues",
+          "explanation": "此句用反讽手法，具体化了上一段所引民族主义诗句的虚伪性，指出其宣称与实际行为的矛盾。"
+        },
+        "implication": "暗示民族主义口号在现实政治经济利益面前的脆弱性。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p17s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "现金交易",
+            "type": "metaphor",
+            "modern": "在实际利益或政治交易的语境下",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p17s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  }
+}

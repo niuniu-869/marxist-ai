@@ -1,0 +1,65 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 223,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁引用“民主派”的论点，即在内战中采取防御姿态则不可战胜，主动进攻则会失败，以此作为后续反驳的靶子。",
+    "importance_score": 1,
+    "importance_reason": "作为论辩的引述部分，为下文反驳新生活派等观点提供直接靶子。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对“妙论”的引述，具体展示“民主派”关于内战策略的论点，为后续批判做铺垫。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "refute_quotation"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "七月事件与科尔尼洛夫叛乱",
+        "explain": "指1917年7月彼得格勒工人和士兵的自发示威被临时政府镇压，以及8月将军科尔尼洛夫试图发动军事政变。这两次事件是理解当时俄国政治力量对比和“防御”与“进攻”策略争论的关键背景。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "民主派",
+      "their_view": "拥有人民威信最高机关的民主派，在国内战争中若采取防御立场便不可战胜，若掌握进攻主动权则会失去中间力量而失败。",
+      "author_response": "列宁引用此论点，旨在揭示其为一种阻碍革命主动性的错误策略，为论证布尔什维克必须夺取并保持政权提供反面例证。",
+      "polemic_kind": "counter_quotation",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p223s1",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": [
+          {
+            "surface": "民主派",
+            "type": "social_group",
+            "modern": "在1917年语境下，主要指孟什维克和社会革命党等自称代表民主力量的政党派别。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "国内战争",
+            "type": "concept",
+            "modern": "马克思主义理论中指阶级斗争激化到武装冲突的阶段，此处特指俄国革命中各阶级力量间的武装对抗。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "civil_war_marxist"
+          }
+        ]
+      }
+    ]
+  }
+}

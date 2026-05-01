@@ -1,0 +1,73 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 34,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段列出考茨基主义在各国的代表人物，并表明本书将重点批判这一思潮。",
+    "importance_score": 2,
+    "importance_reason": "为后续批判考茨基主义提供具体靶子，明确论战对象。",
+    "argument_role": "transition",
+    "argument_link": "承接上段对第二国际领袖回避革命内容的批评，具体转向考茨基主义思潮及其代表人物。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_density",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "考茨基主义代表人物",
+        "explain": "奥托·鲍威尔、拉姆赛·麦克唐纳、阿尔伯·托马是第二国际时期的社会民主党领袖，分别代表奥地利、英国、法国的改良主义路线。",
+        "why_needed": "history_density",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p34s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "考茨基主义",
+            "type": "concept",
+            "modern": "在第二国际语境下，指一种主张通过议会改良避免革命的思潮。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "revisionism_kautsky"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

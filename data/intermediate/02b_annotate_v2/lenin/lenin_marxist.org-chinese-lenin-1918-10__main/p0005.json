@@ -1,0 +1,92 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 5,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁陈述自己从战争爆发起就持续批判考茨基背离马克思主义，并列举相关文章和文集作为证据。",
+    "importance_score": 2,
+    "importance_reason": "本段为列宁对考茨基的批判提供历史证据和文献依据，支撑前文对叛徒行径的指控。",
+    "argument_role": "continues",
+    "argument_link": "本段承接上段对考茨基叛徒行径的宣告，具体指出列宁此前已多次批判考茨基与马克思主义决裂。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "all_known",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p5s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p5s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p5s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "《反潮流》文集",
+            "type": "work",
+            "modern": "1918年彼得格勒出版的列宁与季诺维也夫合著文集，收录批判第二国际机会主义的文章",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p5s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "考茨基主义",
+            "type": "concept",
+            "modern": "列宁用来指称考茨基及其追随者的机会主义理论体系",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "kautskyism"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

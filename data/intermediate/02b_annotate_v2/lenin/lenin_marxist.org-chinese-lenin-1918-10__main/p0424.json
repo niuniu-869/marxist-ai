@@ -1,0 +1,84 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 424,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "论证布尔什维克在革命中实际完成了资产阶级民主革命的任务，并以此反驳考茨基的指责。",
+    "importance_score": 2,
+    "importance_reason": "提供具体历史例证，支撑作者关于布尔什维克革命策略的论点，并直接反驳论敌。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对土地国有化历史事实的陈述，进一步用布尔什维克的政策实践来证明其革命路线的正确性，并直接回应考茨基的批评。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_density",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "左派社会革命党人",
+        "explain": "1917年俄国社会革命党中的左翼，代表激进农民利益，主张立即没收地主土地。他们在十月革命后初期与布尔什维克合作，共同颁布了土地法令。",
+        "why_needed": "history_density",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "1917年10月26日",
+        "explain": "公历1917年11月8日，即十月革命武装起义胜利后的第二天。全俄工兵代表苏维埃第二次代表大会通过了《土地法令》，宣布废除土地私有制。",
+        "why_needed": "history_density",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p424s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p424s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p424s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 2,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote",
+        "hs:claim_5gram_with_quote",
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

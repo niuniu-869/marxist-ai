@@ -1,0 +1,104 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 13,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "阐述无产阶级革命必须依靠群众多数，并与少数人夺权的布朗基主义划清界限。",
+    "importance_score": 3,
+    "importance_reason": "核心论点，阐明群众路线与暴力夺权的关系，是布尔什维克策略的基石。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对临时政府的分析，本段转向无产阶级如何取得政权的方法论，强调群众基础。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "布朗基主义者",
+        "explain": "19世纪法国革命家布朗基的追随者，主张由少数职业革命家通过密谋和暴力夺权，列宁在此明确与之划清界限。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "沙文主义",
+        "explain": "极端民族主义，在本文语境中特指“护国主义”，即支持本国资产阶级政府进行帝国主义战争的立场。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p13s1",
+        "quote": "因为在没有对群众使用暴力的时候，没有别的办法可以取得政权。",
+        "trigger": "inverted_logic",
+        "reader_block": "双重否定结构“没有……没有……”，读者容易误读为“必须使用暴力”，实际意在强调争取群众是唯一非暴力途径。",
+        "parse": {
+          "claim": "在不使用暴力强制群众的前提下，争取群众的多数支持是取得政权的唯一方式。",
+          "qualifiers": "限定于“没有对群众使用暴力”的条件，即非强制性地获得政权。",
+          "contrast_or_target": ""
+        },
+        "why": {
+          "relation": "continues",
+          "explanation": "承接前句“必须把大多数群众争取过来”，从反面论证其必要性，构成完整的逻辑链条。"
+        },
+        "implication": "这为下文批判布朗基主义（主张少数人暴力夺权）提供了理论前提。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "布朗基主义者",
+      "their_view": "主张由少数革命家通过密谋和暴力行动夺取政权，无需等待或争取群众多数。",
+      "author_response": "列宁明确表示，马克思主义者不主张这种少数人夺权的方式，必须通过阶级斗争争取大多数群众。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p13s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p13s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "布朗基主义者",
+            "type": "person",
+            "modern": "19世纪法国革命家布朗基的追随者，主张少数革命家通过密谋和暴力夺权。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p13s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "沙文主义",
+            "type": "concept",
+            "modern": "极端民族主义，在本文中特指护国主义，即支持本国资产阶级政府进行帝国主义战争的立场。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "chauvinism_in_context"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 8,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁以法国大革命战争为例，具体阐释战争如何作为特定阶级政治的延续，并批判资产阶级宣传对战争与政治联系的掩盖。",
+    "importance_score": 2,
+    "importance_reason": "用法国大革命战争的案例，具体阐释战争作为阶级政治延续的命题，并批判资产阶级宣传对战争与政治联系的掩盖。",
+    "argument_role": "example",
+    "argument_link": "本段通过法国大革命战争的具体案例，展示革命阶级的政治如何必然表现为战争，从而例证上一段提出的“战争是政治通过另一种手段的继续”这一命题。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "第一次反法同盟",
+        "explain": "1792年，欧洲各君主国为干涉法国大革命、恢复法国君主制而组成的军事同盟。列宁所指的“有名的同盟”即此。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p8s5",
+        "quote": "我认为这个例子值得特别注意，因为它使我们清楚地看到了资产阶级报纸的政论家目前经常忘记的东西，看到了他们是在利用完全不觉悟的人民群众的偏见和庸俗无知，而这些群众不懂得任何战争都与一个国家、一个阶级战前的政治有密切的经济联系和历史联系。",
+        "trigger": "inverted_logic",
+        "reader_block": "“所谓的‘和平’手段”是反讽，读者可能不理解为何“和平”要加引号，以及“未必能称得上是和平的”这种双重否定的含义。",
+        "parse": {
+          "claim": "资产阶级在战前通过被其称为“和平”的手段维持统治，但这些手段本身具有暴力性质。",
+          "qualifiers": "特指资产阶级为“和平地”统治殖民地而采用的镇压手段。",
+          "contrast_or_target": "资产阶级报纸政论家暗示战争可以脱离国家和阶级的政治而独立存在，是偶然的破坏和平的行为。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "本句通过反讽，揭露资产阶级所谓“和平”统治的暴力实质，从而反驳其将战争与政治割裂的宣传，揭示其阶级立场。"
+        },
+        "implication": "资产阶级的“和平”时期与战争时期只是统治手段的变换，其阶级统治的本质不变。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p8s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p8s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "民主共和国",
+            "type": "concept",
+            "modern": "法国大革命后建立的资产阶级共和国政体，区别于之前的君主制。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "democracy_bourgeois"
+          }
+        ]
+      },
+      {
+        "sid": "p8s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p8s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p8s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p8s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p8s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 1,
+        "hs_kept": 1,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_metaphor_9>8",
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

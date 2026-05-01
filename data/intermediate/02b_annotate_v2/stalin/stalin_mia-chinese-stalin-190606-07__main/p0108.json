@@ -1,0 +1,63 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 108,
+  "annotation": {
+    "block_type": "quote_block",
+    "gist": "本段引用马克思的论断，阐述唯物主义理论的核心原理，即社会存在决定意识。",
+    "importance_score": 3,
+    "importance_reason": "本段是唯物主义理论的基本命题，为全文批判无政府主义提供哲学基础。",
+    "argument_role": "definition",
+    "argument_link": "本段直接定义唯物主义理论的核心观点，承接上段'唯物主义理论'的标题。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_polysemy",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "社会存在",
+        "explain": "在马克思主义理论中，'存在'特指人们的社会存在，即物质生产方式和社会关系，而非个人意识或抽象精神。",
+        "why_needed": "term_polysemy",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p108s1",
+        "speaker": "quoted_marx",
+        "stance": "endorsed",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

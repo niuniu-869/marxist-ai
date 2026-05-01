@@ -1,0 +1,94 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 6,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "宣言开篇，以“怪物”比喻引出共产主义，并列举欧洲反动力量联合反对它。",
+    "importance_score": 3,
+    "importance_reason": "这是全文的引子，通过树立一个被共同敌视的“怪物”形象，为后续论证共产主义的历史必然性做铺垫。",
+    "argument_role": "transition",
+    "argument_link": "从编者说明过渡到宣言正文，开启对共产主义的论述。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "19世纪欧洲反动势力",
+        "explain": "“神圣同盟”是拿破仑战败后欧洲君主国的反革命联盟；“梅特涅”是奥地利首相，欧洲反动政策的象征；“基佐”是法国首相，代表资产阶级保守派。了解这些人物和组织有助于理解宣言所针对的现实敌手。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p6s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "怪物",
+            "type": "metaphor",
+            "modern": "作者用此词形容共产主义在当时欧洲统治者眼中的形象，强调其被视为威胁。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p6s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "神聖同盟",
+            "type": "event",
+            "modern": "1815年拿破仑战败后，俄、奥、普等君主国建立的反革命国际联盟，旨在镇压革命运动。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p6s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "梅特湼",
+            "type": "person",
+            "modern": "奥地利帝国首相，19世纪欧洲反动政治的代表人物。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "基佐",
+            "type": "person",
+            "modern": "法国政治家，曾任首相，代表金融资产阶级利益，反对民主改革。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  }
+}

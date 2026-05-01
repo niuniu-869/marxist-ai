@@ -1,0 +1,173 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 7,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁描述社会阶级分裂，反驳“全部政权归立宪会议”的口号，并以顿河区哥萨克支持苏维埃的最新消息作为证据。",
+    "importance_score": 2,
+    "importance_reason": "本段是列宁为解散立宪会议辩护的核心论证之一，通过阶级分析和具体事例，旨在巩固铁路员工对苏维埃政权的支持。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对战争与和平问题的论述，转而直接回应解散立宪会议引发的合法性争议，论证苏维埃政权的阶级基础。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "右派与左派社会革命党",
+        "explain": "社会革命党在1917年分裂。右派主张与资产阶级临时政府合作，支持立宪会议；左派则支持苏维埃政权。列宁指出，选举立宪会议时，许多选民尚无法区分这两派。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "卡列金与顿河叛乱",
+        "explain": "卡列金是沙皇将领，十月革命后在顿河地区组织反苏维埃叛乱，自封“最高阿塔曼”（哥萨克首领）。他代表了军官、地主等反革命势力。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p7s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p7s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "全部政权归立宪会议",
+            "type": "slogan",
+            "modern": "这是右派社会革命党等反对派在解散立宪会议后提出的政治口号，要求恢复其最高权力地位。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          },
+          {
+            "surface": "立宪会议",
+            "type": "org",
+            "modern": "1917年11月选出、1918年1月被苏维埃政权解散的全俄制宪议会，被视为资产阶级民主的象征。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p7s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p7s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p7s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p7s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p7s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "卡列金",
+            "type": "person",
+            "modern": "沙皇将领，十月革命后在顿河地区组织反苏维埃叛乱的哥萨克首领。",
+            "highlight": "person",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "最高阿塔曼",
+            "type": "person",
+            "modern": "哥萨克传统军事首领的称号，卡列金以此自封，意在统率顿河哥萨克反叛苏维埃。",
+            "highlight": "person",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p7s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p7s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p7s10",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p7s11",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p7s12",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 4,
+        "notes_dropped": 2,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "note:n2_5gram_with_surface",
+        "hs:claim_5gram_with_quote",
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 25,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段通过对比罗马帝国时期的地产集中与现代大农场，反驳门格尔将地产集中等同于社会化劳动发展的观点。",
+    "importance_score": 2,
+    "importance_reason": "本段用具体例子支撑对门格尔理论的批判，属于核心论证的一部分。",
+    "argument_role": "example",
+    "argument_link": "本段承接上段对门格尔罗马经济条件论点的反驳，通过三个地产实例具体说明地产集中不等于生产社会化。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p25s5",
+        "quote": "有一个面积为10000英亩的美国大农场，那里的小麦是用大工业的方式来种植的，门格尔先生看过这三个例子后一定会说，前两例生产资料的集中是后一例的5倍。",
+        "trigger": "inverted_logic",
+        "reader_block": "反讽语气，读者可能误以为作者同意门格尔的计算，实际是讽刺门格尔混淆了地产面积集中与生产社会化。",
+        "parse": {
+          "claim": "门格尔会错误地认为，前两个地产例子的生产资料集中程度是第三个例子的五倍。",
+          "qualifiers": "仅限于门格尔对这三个例子的解读。",
+          "contrast_or_target": "门格尔认为地产集中就等同于社会化劳动发展。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "本句通过反讽揭露门格尔论证的荒谬，即简单以地产面积衡量生产社会化程度。"
+        },
+        "implication": null,
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "门格尔",
+      "their_view": "地产集中就等同于大企业中的社会化劳动发展，可以用地产面积来衡量生产社会化程度。",
+      "author_response": "作者通过三个地产例子说明，地产集中可能只是小生产或非生产性用途，并不意味着社会化大生产。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p25s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p25s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p25s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p25s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p25s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  }
+}

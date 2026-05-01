@@ -1,0 +1,80 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 257,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "描述原始部落社会的权力结构特征，指出全民皆兵状态下不存在独立于人民的公共权力，民主制处于全盛。",
+    "importance_score": 2,
+    "importance_reason": "描述国家产生前的社会状态，为后续论证国家起源提供必要背景。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对古希腊社会的描述，从部落社会角度进一步论证权力与人民的关系。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p257s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "公共权力",
+            "type": "concept",
+            "modern": "在恩格斯的国家理论中，指脱离社会全体成员、可能用于压迫的强制性机构，其雏形在原始社会尚未出现。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "state_marxist_theory"
+          }
+        ]
+      },
+      {
+        "sid": "p257s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "巴赛勒斯",
+            "type": "person",
+            "modern": "古希腊部落或军事民主制时期的首领称号，通常译为“王”，但权力受议事会和人民大会制约。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

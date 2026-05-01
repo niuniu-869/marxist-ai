@@ -1,0 +1,65 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 146,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "提出实现有效监督的条件：必须通过革命民主方式组织被压迫阶级，而非官僚手段。",
+    "importance_score": 3,
+    "importance_reason": "提出布尔什维克监督方案的核心原则，与上段批判的官僚监督形成对比。",
+    "argument_role": "contrasts",
+    "argument_link": "针对上段揭露的官僚监督无效性，提出以群众组织为基础的革命民主监督作为替代。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p146s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "革命民主",
+            "type": "concept",
+            "modern": "列宁用此词指代由被压迫阶级直接参与、打破官僚形式的民主实践，与资产阶级议会民主对立。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "democracy_proletarian"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

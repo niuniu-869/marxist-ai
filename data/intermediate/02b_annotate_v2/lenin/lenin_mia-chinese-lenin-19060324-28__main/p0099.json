@@ -1,0 +1,124 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 99,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段剖析立宪民主党人的核心策略，即在专制制度与革命力量之间寻求平衡，以维护自身政治存在。",
+    "importance_score": 3,
+    "importance_reason": "核心批判段落，揭示论敌策略的阶级本质与内在矛盾，是全文论证的关键环节。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对革命任务的阐述，转而分析立宪民主党人作为革命不彻底性的代表，其策略如何与彻底的革命目标相悖。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "基泽韦捷尔",
+        "explain": "立宪民主党理论家，以考据“专政”一词的拉丁文词源来消解其革命内涵，是列宁讽刺的对象。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "别尔嘉耶夫",
+        "explain": "当时活跃的宗教哲学家，其文风被列宁视为立宪民主党人思想混乱的代表。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "立宪民主党",
+      "their_view": "革命人民应当支持我们，但行动必须服从我们的指示，不能太坚决、太激烈，更不能彻底战胜敌人。",
+      "author_response": "列宁指出，这种策略的本质是要求革命力量自我束缚，以维护立宪民主党在专制与革命之间的投机地位，其最终目的是阻止革命的彻底胜利。",
+      "polemic_kind": "reveals_class_basis",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p99s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p99s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p99s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p99s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p99s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p99s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p99s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p99s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p99s9",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p99s10",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

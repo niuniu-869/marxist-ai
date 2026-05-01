@@ -1,0 +1,104 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 85,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "马克思通过反讽手法，揭露汉泽曼对工人阶级的承诺实质上是要求他们放弃政治斗争，以维护资产阶级秩序。",
+    "importance_score": 2,
+    "importance_reason": "本段是核心批判的一部分，具体揭露了资产阶级代表汉泽曼对工人阶级的虚伪承诺及其背后的阶级暴力威胁。",
+    "argument_role": "continues",
+    "argument_link": "本段延续上一段对汉泽曼“加强国家权力”的批判，具体说明这种权力如何针对工人阶级，将其政治参与视为需要消除的“疾病”。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p85s4",
+        "quote": "如果工人阶级听从这一劝告，使信任得到恢复，那末这种神秘的万应灵丹马上就会见效，其所以会见效，只是因为不再需要它了，不必应用它了，因为在这种情况下，疾病本身——破坏资产阶级的秩序的行为将被消除。",
+        "trigger": "inverted_logic",
+        "reader_block": "双重否定加反讽，读者可能误以为万应灵丹真的有效，实际是说其生效条件意味着问题本身被消除。",
+        "parse": {
+          "claim": "汉泽曼承诺的解决方案之所以会生效，恰恰是因为它所要解决的问题（工人对资产阶级秩序的破坏）已经不存在了。",
+          "qualifiers": "前提是工人阶级放弃政治参与，回到旧生活方式。",
+          "contrast_or_target": "汉泽曼的观点：工人放弃政治后，经济问题（信任）会恢复，万应灵丹（解决方案）将见效。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "本句通过逻辑推演，揭露汉泽曼方案的空洞性：其“见效”的条件是问题本身消失，而非方案有效，从而反驳其承诺。"
+        },
+        "implication": "汉泽曼的承诺是空头支票，其真实目的是让工人停止斗争，而非解决他们的实际问题。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "汉泽曼",
+      "their_view": "工人阶级应放弃政治参与，回到旧生活，这样“信任”恢复后，经济问题（万应灵丹）自然解决；若不听从，则需动用国家权力维持秩序。",
+      "author_response": "这是要求工人放弃斗争以维护资产阶级秩序的骗局，其“万应灵丹”是空头支票，而“加强国家权力”则是对人民的暴力威胁。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p85s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p85s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p85s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p85s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p85s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p85s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 1,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

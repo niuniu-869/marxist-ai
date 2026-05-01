@@ -1,0 +1,72 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 60,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "作者用希腊神话典故，将列宁主义的任务概括为对第二国际遗留问题的彻底清理。",
+    "importance_score": 1,
+    "importance_reason": "这是一个承上启下的过渡句，用比喻总结前文对第二国际的批判，并引出列宁主义的历史角色。",
+    "argument_role": "continues",
+    "argument_link": "紧接上一段关于必须“总检查和总清洗”第二国际的论述，本段将这一任务明确归于列宁主义。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "allusion",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "allusion",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "奥吉亚斯的牛圈典故",
+        "explain": "出自希腊神话，指奥吉亚斯王养牛三千头却三十年未打扫的牛圈，后被赫拉克勒斯引来河水一日洗净。此处用以比喻第二国际内部积弊深重、亟待彻底整顿。",
+        "why_needed": "allusion",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p60s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "奥吉亚斯的牛圈",
+            "type": "metaphor",
+            "modern": "作者借用希腊神话中赫拉克勒斯清洗牛圈的故事，将第二国际比作一个长期无人清理、污秽不堪的场所。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

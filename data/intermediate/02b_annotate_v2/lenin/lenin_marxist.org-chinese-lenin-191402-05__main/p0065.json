@@ -1,0 +1,62 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 65,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁回应民族自决权不实际的批评，强调其能保证民主解决，并对比无产阶级与资产阶级在民族问题上的不同利益。",
+    "importance_score": 2,
+    "importance_reason": "本段通过对比无产阶级和资产阶级的需要，支撑了承认自决权但不作具体担保的立场，强化论证。",
+    "argument_role": "continues",
+    "argument_link": "上一段阐明无产阶级在民族问题上承认自决权但不担保具体结果，本段进一步解释这种立场如何保证民主解决，并指出资产阶级只关心自身利益。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p65s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p65s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote",
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

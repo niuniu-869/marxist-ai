@@ -1,0 +1,132 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 618,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段批判黑格尔将人的现实异化等同于意识异化，从而将扬弃异化的过程抽象化为纯粹的逻辑否定。",
+    "importance_score": 3,
+    "importance_reason": "这是马克思对黑格尔异化理论的核心批判，揭示了其唯心主义根基，为后文提出感性活动的异化奠定基础。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对“自我对象化”行动的抽象理解，具体剖析黑格尔如何将这一现实过程转化为纯粹的意识活动。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "黑格尔的“自我意识”",
+        "explain": "在黑格尔哲学中，自我意识是绝对精神发展的一个阶段，是精神认识到自身为精神的环节。黑格尔将现实的人归结为自我意识，人的本质活动被理解为精神的自我运动。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "否定之否定",
+        "explain": "黑格尔辩证法的核心逻辑范畴，指事物通过自我否定（第一次否定）再否定这种否定（第二次否定），从而达到更高统一的过程。马克思在此指出，黑格尔将现实的扬弃过程等同于这一抽象逻辑操作。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p618s1",
+        "quote": "因为黑格尔把人和自我意识等同起来，所以人的异化了的对象，人的异化了的、本质的现实性，不外就是异化的意识，只是异化的思想，是异化的抽象的因而无内容的和非现实的表现，即否定。",
+        "trigger": "long_nested",
+        "reader_block": "句子结构嵌套多层，从“因为”到“所以”再到多个“是”的判断，读者容易迷失在“异化了的对象”、“异化的意识”、“否定”等抽象概念的层层等同关系中。",
+        "parse": {
+          "claim": "黑格尔将现实的人等同于自我意识，因此，人所创造的异化对象以及人的异化现实，都被归结为意识本身的异化，即一种抽象的、没有现实内容的否定性。",
+          "qualifiers": "此推论的前提是“黑格尔把人和自我意识等同起来”。",
+          "contrast_or_target": "黑格尔认为，人的本质是自我意识，现实世界是自我意识的外化与异化。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "本句直接点明黑格尔异化理论的唯心主义前提（人=自我意识），并推导出其结论（现实异化=意识异化），为下文批判其“扬弃”观树立靶子。"
+        },
+        "implication": "如果异化只是意识问题，那么解决异化就只需在思想领域完成，无需触动现实的社会关系。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "黑格尔",
+      "their_view": "人的本质是自我意识，人的现实异化是自我意识的异化，扬弃异化就是自我意识通过否定之否定回归自身。",
+      "author_response": "黑格尔将现实的人及其对象性活动完全消解在意识的逻辑运动中，使得扬弃异化变成对抽象范畴的抽象操作，抽空了其感性、具体的现实内容。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p618s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "自我意识",
+            "type": "concept",
+            "modern": "黑格尔哲学中精神认识自身的核心范畴，马克思在此指出黑格尔用它取代了现实的人。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "self_consciousness_hegelian"
+          },
+          {
+            "surface": "否定",
+            "type": "concept",
+            "modern": "黑格尔逻辑学中表示异化、对立的范畴，此处指异化状态本身。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "negation_hegelian"
+          }
+        ]
+      },
+      {
+        "sid": "p618s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "否定的否定",
+            "type": "concept",
+            "modern": "黑格尔辩证法中表示“扬弃”的逻辑环节，马克思在此批判其将现实扬弃过程抽象化。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "negation_of_negation_hegelian"
+          }
+        ]
+      },
+      {
+        "sid": "p618s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p618s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p618s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p618s6",
+        "speaker": "editor",
+        "stance": "neutral_citation",
+        "notes": []
+      }
+    ]
+  }
+}

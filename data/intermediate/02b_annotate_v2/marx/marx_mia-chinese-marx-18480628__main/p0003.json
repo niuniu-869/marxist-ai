@@ -1,0 +1,131 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 3,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "描述六月起义中，共和派、知识分子等群体普遍背弃工人，站在资产阶级一边，而工人独自抵抗。",
+    "importance_score": 2,
+    "importance_reason": "通过具体群体站队的描述，实证了前段提出的“有产民族与工人民族”分裂的论断。",
+    "argument_role": "continues",
+    "argument_link": "承接上段“民族分裂”的论断，具体描述各群体在起义中的实际站队，以事实支撑阶级对立的判断。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "国民报派与改革报派",
+        "explain": "1848年法国共和主义阵营的两大派别。《国民报》派代表温和共和派，主张建立共和国但维护私有财产；《改革报》派更激进，主张社会改革。两者在二月革命后主导临时政府，但在六月起义中均背弃工人。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "国民报派和改革报派（资产阶级共和派）",
+      "their_view": "他们主张共和制能实现各阶级和解，工人应通过合法政治斗争改善处境。",
+      "author_response": "马克思指出他们在关键时刻背弃工人，证明共和主义掩盖了阶级统治的本质，是虚伪的。",
+      "polemic_kind": "reveals_class_basis",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p3s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "国民报派",
+            "type": "org",
+            "modern": "主张共和制的资产阶级政治派别，以《国民报》为喉舌，二月革命后主导临时政府。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "改革报派",
+            "type": "org",
+            "modern": "比国民报派更激进的资产阶级共和派，以《改革报》为喉舌，主张社会改革。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p3s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p3s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "综合技术学校的学生",
+            "type": "social_group",
+            "modern": "巴黎综合理工学院的学生，当时被视为进步青年的象征。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p3s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p3s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "路易-菲力浦",
+            "type": "person",
+            "modern": "法国七月王朝国王，1848年革命中被推翻。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "马拉斯特",
+            "type": "person",
+            "modern": "阿尔芒·马拉斯特，资产阶级共和派领袖，曾任临时政府主席。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 5,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

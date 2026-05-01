@@ -1,0 +1,92 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 126,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁揭露资产阶级外交家利用社会党人作为幌子来欺骗工人群众的策略，并呼吁揭露这类社会沙文主义者。",
+    "importance_score": 2,
+    "importance_reason": "本段是列宁对帝国主义战争期间资产阶级外交策略的批判，属于其反战和揭露机会主义论述的一部分。",
+    "argument_role": "continues",
+    "argument_link": "承接上文对伯格比尔事件的讨论，进一步分析资产阶级为何选择通过社会党人进行外交活动，深化对沙文主义者的批判。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "丹麦的普列汉诺夫",
+        "explain": "指丹麦社会民主党人，他们在第一次世界大战中支持本国政府的战争政策，立场类似俄国的普列汉诺夫（后者转向社会沙文主义）。列宁用此讽刺性称呼，意指他们是国际机会主义在丹麦的代表。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "资产阶级外交家与社会沙文主义者",
+      "their_view": "通过社会党人作为中介来推行自己的政策，因为直截了当地向工人提出这些政策会遭到反对。",
+      "author_response": "这种做法的本质是欺骗工人群众，必须揭露这些充当资产阶级代理人的社会沙文主义者的真实面目。",
+      "polemic_kind": "reveals_class_basis",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p126s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p126s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p126s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p126s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "德国社会沙文主义者",
+            "type": "social_group",
+            "modern": "第一次世界大战期间支持德国政府战争政策的德国社会民主党人",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 3,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix",
+        "note:n2_5gram_with_surface"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 53,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "通过对比法英报刊对士兵的不同态度，揭示英国工人对国家暴力机器幻想的破灭，并讽刺性地提出人民武装的逻辑推论。",
+    "importance_score": 2,
+    "importance_reason": "通过具体案例揭示国家机器的阶级本质，是报告论证的重要支撑。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对英国屠杀事件的叙述，进一步分析该事件在英国国内舆论和工人认知层面产生的影响。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "骚扰取缔令",
+        "explain": "英国1819年通过的法律，规定了驱散非法集会的程序，要求军队在行动前必须由地方官员宣读命令。工人曾以为这些程序能保护他们免遭军队的任意攻击。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p53s8",
+        "quote": "自由党人大臣忘记补充一句：在这种情况下，为了保卫自己不受士兵的袭击，每个人都应该由国家用后装枪武装起来。",
+        "trigger": "inverted_logic",
+        "reader_block": "表面是建议，实则是反讽。读者可能只看到字面建议，而忽略其揭露国家暴力本质的讽刺意图。",
+        "parse": {
+          "claim": "如果士兵可以随意开枪，那么人民也应该武装起来自卫。",
+          "qualifiers": "在内务大臣宣布的士兵可先开枪的条件下。",
+          "contrast_or_target": "针对自由党政府为士兵开枪辩护的逻辑，将其推向一个荒谬但符合其内在逻辑的结论。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "以反讽方式回应并驳斥了前文所述的自由党政府为士兵开枪辩护的逻辑，通过推导出其逻辑的必然结论（人民武装），来揭露该逻辑的荒谬性和国家机器的暴力本质。"
+        },
+        "implication": "暗示国家机器并非中立，而是资产阶级的暴力工具；工人阶级的真正保障不在于法律程序，而在于自身的武装力量。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "英国资产阶级报刊与自由党政府",
+      "their_view": "报刊应赞许士兵的行动，并对事件中的受害者表示不满；内务大臣宣布，任何地方官员都有权命令军队向其认定的暴动人群开枪，且士兵有权首先开枪自卫。",
+      "author_response": "马克思通过对比法国舆论和英国舆论，指出英国工人的幻想破灭了。他通过反讽，将自由党大臣的逻辑推向极端，暗示如果士兵可以随意开枪，那么人民武装起来自卫就是合理的，从而揭露了国家暴力机器的阶级本质。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p53s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p53s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p53s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p53s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p53s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p53s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p53s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p53s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  }
+}

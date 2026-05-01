@@ -1,0 +1,145 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 47,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "描述法国农民对巴黎无产阶级革命的敌视态度及其原因，包括经济利益受损和资产阶级宣传的影响。",
+    "importance_score": 2,
+    "importance_reason": "提供了对农民阶级立场的具体观察，支撑了前一段关于农民无法认清阶级本质的论点。",
+    "argument_role": "continues",
+    "argument_link": "上一段分析农民陷入经济剥削却不自知，本段则具体描述他们因此对革命产生的敌视反应，展示了这种不自知的外在表现。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p47s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "无产阶级",
+            "type": "concept",
+            "modern": "1848年革命中提出独立政治要求的现代产业工人阶级",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "proletarian_modern"
+          }
+        ]
+      },
+      {
+        "sid": "p47s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p47s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "资产阶级",
+            "type": "concept",
+            "modern": "通过经济剥削和政治宣传影响农民的有产阶级",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "bourgeoisie_marxist"
+          }
+        ]
+      },
+      {
+        "sid": "p47s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p47s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "劳动组织",
+            "type": "concept",
+            "modern": "工人阶级为改善自身状况而建立的集体形式",
+            "highlight": "term",
+            "confidence": "medium",
+            "source_basis": "inferred",
+            "sense_id": "labor_organization"
+          }
+        ]
+      },
+      {
+        "sid": "p47s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p47s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p47s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p47s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p47s10",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p47s11",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 3,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_7>5"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 97,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "通过引用国民经济学的论述并加以反驳，揭示其将劳动商品化的理论实质上是为剥削辩护。",
+    "importance_score": 3,
+    "importance_reason": "本段直接批判了国民经济学的核心命题，是马克思早期异化劳动理论的关键论证环节。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对“劳动是商品”命题的批判，通过具体引文和反问，揭示该理论在现实中的后果及其与奴隶制的内在关联。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "refute_quotation"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "劳动是商品",
+        "explain": "国民经济学将工人的劳动视为可在市场上买卖的商品，其价格（工资）由资本家与工人、工人与工人之间的竞争决定。马克思在此批判这一前提。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "国民经济学",
+      "their_view": "劳动是商品，其价格由供求关系决定；工人是自由的卖者，可以随时出卖自己的劳动；资本家与工人的关系是自由的市场交易关系。",
+      "author_response": "马克思指出，这种理论掩盖了工人被迫出卖劳动的实质，将一种不自由的、维持生命的必需行为包装成自由买卖，其后果与奴隶制无异。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p97s1",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": [
+          {
+            "surface": "劳动",
+            "type": "concept",
+            "modern": "在国民经济学语境下，指工人出卖给资本家以换取工资的活动，被视为一种可定价的商品。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "labor_economic"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

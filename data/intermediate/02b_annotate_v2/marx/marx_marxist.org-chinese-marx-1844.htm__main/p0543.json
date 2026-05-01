@@ -1,0 +1,65 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 543,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "马克思指出费尔巴哈将否定的否定与具体概念理解为思维试图直接成为感性直观、自然界和现实的活动。",
+    "importance_score": 1,
+    "importance_reason": "本段是马克思对费尔巴哈哲学批判的具体展开，属于清理黑格尔辩证法唯心主义残余的论证环节。",
+    "argument_role": "continues",
+    "argument_link": "本段承接上段对否定的否定概念的讨论，转向费尔巴哈对这一概念的具体理解，从而进行针对性批判。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "费尔巴哈与否定的否定",
+        "explain": "费尔巴哈是19世纪德国哲学家，其唯物主义影响了马克思但被批判为不彻底。'否定的否定'是黑格尔辩证法的核心环节，指事物通过自我否定实现发展。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "费尔巴哈",
+      "their_view": "费尔巴哈主张，否定的否定和具体概念是思维超越自身并直接成为感性直观、自然界和现实的思维活动。",
+      "author_response": "马克思认为，费尔巴哈仍停留在唯心主义框架内理解这些概念，未能彻底贯彻唯物主义。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p543s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "费尔巴哈",
+            "type": "person",
+            "modern": "德国哲学家路德维希·费尔巴哈，其唯物主义观点被马克思批判为不彻底",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "否定的否定",
+            "type": "concept",
+            "modern": "黑格尔辩证法中的核心范畴，指事物通过自我否定达到更高阶段的肯定",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "dialectical_negation"
+          }
+        ]
+      }
+    ]
+  }
+}

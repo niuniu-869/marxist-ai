@@ -1,0 +1,118 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 9,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁通过归谬法，将波兰社会民主党人主张的“共同确定”论点与历史上反动派和帝国主义者的做法进行类比，以揭露其反动本质。",
+    "importance_score": 2,
+    "importance_reason": "本段是核心论点的关键支撑，通过具体历史类比，将抽象的理论争论与现实政治实践联系起来，强化了对“共同确定”论点的批判。",
+    "argument_role": "contrasts",
+    "argument_link": "承接上段对论敌规避政治问题的批判，本段进一步通过揭示其论点与反动派主张的同构性，来论证其理论立场的错误。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "十月党人",
+        "explain": "指俄国1905年革命后出现的保守派政党，主张君主立宪，维护沙皇专制和地主利益，是当时俄国政治光谱中的右翼。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "威廉二世与比利时",
+        "explain": "指第一次世界大战期间，德皇威廉二世的军队占领比利时后，在形式上允许比利时人在德国议会中参与“决定”德意志帝国事务，以此作为占领统治的粉饰。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p9s3",
+        "quote": "因为所有反动分子和资产者都是使被强制留在本国疆界以内的民族在下议院内享有“共向确定”国家命运的权利的。",
+        "trigger": "inverted_logic",
+        "reader_block": "句子结构是反讽式的陈述，读者初读可能误以为“共同确定”是某种进步主张，而无法立刻领会列宁是在用反语揭露其与反动派的同源性。",
+        "parse": {
+          "claim": "历史上所有反动势力和资产阶级都支持被压迫民族在议会中享有形式上的参与权，以此作为维持其强制统治的工具。",
+          "qualifiers": "特指在民族被武力或强制手段留在既有国家疆界内的情境下。",
+          "contrast_or_target": "波兰社会民主党人将“共同确定”视为一种优于民族自决的社会主义原则。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "本句通过揭示“共同确定”这一主张在历史上的实际支持者（反动分子和资产者），来论证其阶级本质和政治后果，从而反驳论敌将其标榜为社会主义观点的企图。"
+        },
+        "implication": "论敌所推崇的“共同确定”原则，其历史实践者恰恰是无产阶级的敌人，因此该原则不可能是无产阶级的。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "波兰社会民主党人（反对派）",
+      "their_view": "主张用各民族在议会中“共同确定”国家命运的原则，来取代民族自决权，认为这是更符合社会主义精神的方案。",
+      "author_response": "列宁指出，这一论点在历史上是反动派和资产阶级为维护强制统一而惯用的伎俩，将其重复多次也改变不了其反动本质。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p9s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p9s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p9s3",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p9s4",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": [
+          {
+            "surface": "威廉二世",
+            "type": "person",
+            "modern": "德意志帝国皇帝（1888-1918），第一次世界大战的主要发动者之一。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 2,
+        "hs_kept": 1,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,163 @@
+{
+  "_prompt_version": "marxist-v0.2-2026-04-30-scaffolding",
+  "n": 13,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "恩格斯批评德国理论家忽视傅立叶，并以傅立叶为例说明对现代社会的批评可以不局限于无产阶级问题。",
+    "importance_score": 2,
+    "importance_reason": "通过傅立叶的例子，具体论证德国理论家批评视野的狭隘，支撑全文批判德国理论界自大的主旨。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对德国理论家自夸的批评，具体指出他们忽视傅立叶等外国社会主义者的丰富思想资源。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p13s10",
+        "quote": "他把他们的实践，把受到他的精辟批评的doux commerce〔和气的商业〕，把不能提供享乐的放纵的享乐，把婚姻制度所容许的通奸以及普遍的混乱和这种社会制度作了对比。",
+        "trigger": "long_nested",
+        "parse": {
+          "claim": "傅立叶将资产阶级社会的实践与其标榜的制度进行对比，揭示其内在矛盾。",
+          "qualifiers": "限定条件是傅立叶对“和气的商业”等具体现象的批评。",
+          "contrast_or_target": "对比对象是德国理论家，他们从未谈论过这些现代社会的方面。"
+        },
+        "why": {
+          "relation": "example",
+          "explanation": "具体展示傅立叶如何揭露资产阶级社会的虚伪，为前文“傅立叶能进行这种批评”提供实例。"
+        },
+        "implication": "这些被忽视的批判维度，正是德国理论家需要学习的。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "德国理论家",
+      "their_view": "对现代社会的批评仅限于无产阶级处境。",
+      "author_response": "傅立叶证明，即使不涉及无产阶级问题，也能从对资产阶级的批判中得出改造社会的结论。"
+    },
+    "sentences": [
+      {
+        "sid": "p13s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p13s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p13s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p13s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p13s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p13s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p13s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p13s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "perfection de la perfectibilité perfectibilisante",
+            "type": "quote",
+            "modern": "傅立叶讽刺的法国哲学概念，指不断完善完善能力本身",
+            "highlight": "quote",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p13s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p13s10",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "doux commerce",
+            "type": "quote",
+            "modern": "傅立叶对资产阶级商业的讽刺性称呼",
+            "highlight": "quote",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p13s11",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p13s12",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p13s13",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 2,
+        "hs_kept": 1,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_metaphor_14>8",
+        "note:n1_overflow_concept_7>5",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

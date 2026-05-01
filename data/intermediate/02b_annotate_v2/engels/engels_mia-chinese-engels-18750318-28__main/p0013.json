@@ -1,0 +1,61 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 13,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "恩格斯批评纲领草案对最终目的的表述方式含糊且理论倒退，并提出一个更准确、更有力的替代表述。",
+    "importance_score": 2,
+    "importance_reason": "具体展示了恩格斯如何批判纲领草案的措辞，并示范了他认为正确的无产阶级政党的纲领表述方式。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段对“国家帮助”作为唯一社会要求的批评，进一步指出草案在表述最终目的时的理论含糊性。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "拉萨尔派",
+      "their_view": "社会问题在理论上尚未解决，需要通过“国家帮助”等特殊措施来为其解决“开辟道路”。",
+      "author_response": "马克思主义理论已经科学地阐明了社会问题的根源和解决途径，即消灭雇佣劳动和阶级差别。纲领草案的表述方式背离了这一科学认识。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p13s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p13s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

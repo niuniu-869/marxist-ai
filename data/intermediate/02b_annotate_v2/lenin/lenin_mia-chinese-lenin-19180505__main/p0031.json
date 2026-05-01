@@ -1,0 +1,65 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 31,
+  "annotation": {
+    "block_type": "quote_block",
+    "gist": "列宁直接引用“左派共产主义者”纲领中的核心主张，为后续批判树立靶子。",
+    "importance_score": 2,
+    "importance_reason": "这是列宁在本段集中批判的论敌核心观点原文，是后续论证的直接对象。",
+    "argument_role": "contrasts",
+    "argument_link": "承接上段对“左派”不幸的引出，本段具体展示其在经济政策上的纲领性主张，与列宁主张的渐进、务实路线形成直接对比。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "refute_quotation"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "“左派共产主义者”小集团",
+      "their_view": "只有立即、彻底地推行生产资料公有化，才能有计划地组织经济；必须毫不妥协地打倒资产阶级并粉碎其一切消极抵抗。",
+      "author_response": "列宁认为这种主张脱离苏维埃俄国经济落后、无产阶级管理能力不足的现实，是小资产阶级革命空谈，会导致经济崩溃。",
+      "polemic_kind": "strategic_critique",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p31s1",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": [
+          {
+            "surface": "社会化",
+            "type": "concept",
+            "modern": "在列宁与“左派”的论战中，特指将生产资料从私有制转为公有制的过程。“左派”主张立即、全面、彻底地推行。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "socialization_immediate"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

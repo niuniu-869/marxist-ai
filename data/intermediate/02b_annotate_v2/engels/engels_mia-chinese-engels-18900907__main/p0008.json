@@ -1,0 +1,69 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 8,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "引用“青年派”关于其在党内占多数的宣称，并暗示这种多数地位并不稳固。",
+    "importance_score": 2,
+    "importance_reason": "本段是恩格斯对“青年派”核心论点的直接引用与初步反驳，为后续的批判奠定靶子。",
+    "argument_role": "transition",
+    "argument_link": "从文本分隔符过渡到具体论证，直接引用“青年派”的观点作为批判的起点。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "refute_quotation"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "小资产阶级议会社会主义",
+        "explain": "“青年派”所主张的、通过议会道路实现社会主义的改良主义路线，带有小资产阶级的动摇性和妥协性。恩格斯用此词批判其脱离无产阶级革命立场。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "“青年派”（或“反对派”）",
+      "their_view": "我们“青年派”在德国党内已经占据了多数，代表了正确的方向。",
+      "author_response": "恩格斯指出，这种所谓的多数地位是脆弱的，可能很快就会逆转。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p8s1",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p8s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_11>5"
+      ]
+    }
+  ]
+}

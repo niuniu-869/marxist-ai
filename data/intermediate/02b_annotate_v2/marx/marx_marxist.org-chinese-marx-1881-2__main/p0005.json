@@ -1,0 +1,87 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 5,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "引用《资本论》关于资本起源的论述，并指出该论述的前提与俄国农村公社土地所有制状况不符，从而质疑其直接适用性。",
+    "importance_score": 3,
+    "importance_reason": "核心论点段落。通过揭示《资本论》论述的特定历史前提，为论证俄国公社发展道路的特殊性奠定理论基础。",
+    "argument_role": "contrasts",
+    "argument_link": "承接上段将“历史必然性”限于西欧的论断，本段通过引用《资本论》原文，具体展示该“必然性”论述所依据的西欧历史过程（即私有制形式的更替），并以此为参照，引出对俄国不同情况的分析。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "《资本论》资本原始积累论述",
+        "explain": "马克思在《资本论》第一卷第二十四章描述了资本主义起源的历史过程，即通过暴力剥夺农民土地（圈地运动等），使分散的生产资料集中，劳动者与生产资料分离，从而形成雇佣劳动关系和资本积累。这是理解本段引用的关键背景。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "俄国农村公社土地所有制",
+        "explain": "19世纪俄国的农村公社（米尔）实行土地定期重分、集体占有制度。农民对土地只有使用权，没有法律意义上的私有权，这与西欧农民曾普遍拥有的小块私有土地不同。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p5s1",
+        "speaker": "quoted_marx",
+        "stance": "endorsed",
+        "notes": [
+          {
+            "surface": "私有制",
+            "type": "concept",
+            "modern": "在本段语境下，特指以个人劳动为基础的小农私有制和以雇佣劳动为基础的资本主义私有制这两种形式。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "private_ownership"
+          }
+        ]
+      },
+      {
+        "sid": "p5s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote",
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

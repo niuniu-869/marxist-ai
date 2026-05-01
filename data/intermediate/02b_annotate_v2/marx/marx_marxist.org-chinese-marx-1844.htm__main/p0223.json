@@ -1,0 +1,89 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 223,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "马克思批判斯密关于土地所有者利益与社会利益一致的观点，并运用国民经济学原理进行反驳。",
+    "importance_score": 2,
+    "importance_reason": "这是马克思运用国民经济学原理批判其代表人物斯密的具体例证，展示了其批判方法。",
+    "argument_role": "contrasts",
+    "argument_link": "上一段讨论地租与工业品价格的关系，本段则转向批判斯密由此得出的关于土地所有者利益的结论，从具体经济分析转向理论观点批判。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "斯密",
+      "their_view": "土地所有者的利益始终同社会利益一致。",
+      "author_response": "这种观点是荒谬的，因为根据国民经济学自身的原理，在私有制条件下，个人从社会获取的利益与社会从个人获取的利益成反比。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p223s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "国民经济学",
+            "type": "concept",
+            "modern": "马克思对18-19世纪欧洲主流经济学（如亚当·斯密、大卫·李嘉图学说）的总称，其核心是研究资本主义生产方式下的财富增长规律。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "national_economics_marx_critique"
+          }
+        ]
+      },
+      {
+        "sid": "p223s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "私有制",
+            "type": "concept",
+            "modern": "生产资料归私人所有的制度，是马克思分析资本主义社会矛盾的核心范畴。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "private_property_marxist"
+          },
+          {
+            "surface": "高利贷者",
+            "type": "social_group",
+            "modern": "通过发放贷款收取高额利息为生的人，此处用作类比，说明剥削关系中双方利益的根本对立。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 3,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

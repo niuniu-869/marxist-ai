@@ -1,0 +1,124 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 17,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段论证修正主义的阶级根源及其国际性，列举各国社会主义运动中的对立派别，指出其斗争实质相同，并提及“革命工团主义”这种“来自左面的修正主义”。",
+    "importance_score": 2,
+    "importance_reason": "本段从阶级根源和国际现象两个维度，为前文对修正主义政策实质的批判提供了社会基础和普遍性论证，是核心论点的支撑。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对修正主义政策实质（牺牲根本利益）的定义，本段进一步揭示其产生的社会阶级根源，并论证其作为国际现象的普遍性。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_density",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic, term_polysemy",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "各国社会主义派别",
+        "explain": "列宁列举了当时欧洲主要国家社会主义运动内部的对立派别。这些派别名称反映了当时工人运动的复杂分野，了解它们有助于理解列宁所指的“分化”是普遍现象。",
+        "why_needed": "history_density",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "革命工团主义",
+        "explain": "一种主张工会（工团）通过总罢工等直接行动推翻资本主义的思潮，它否定政党领导和政治斗争，被列宁视为一种“来自左面的修正主义”。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "各国社会主义运动中的改良派与修正主义者（如伯恩施坦派、饶勒斯派、独立工党、王德威尔得、孟什维克等）及革命工团主义",
+      "their_view": "各国社会主义运动内部的分歧只是民族条件和历史因素不同造成的具体策略差异，或者认为通过工会直接行动比政治斗争更革命、更能正确理解马克思。",
+      "author_response": "列宁指出，这些表面上的差异掩盖了实质上的共同点，即它们都是对马克思主义理论基础和革命策略的修正，斗争的实质在国际范围内是相同的。",
+      "polemic_kind": "reveals_class_basis",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p17s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "阶级根源",
+            "type": "concept",
+            "modern": "修正主义思潮的产生与特定阶级（如小资产阶级）的利益和意识相关，而非偶然的理论错误。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "class_marxist"
+          }
+        ]
+      },
+      {
+        "sid": "p17s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "国际现象",
+            "type": "concept",
+            "modern": "修正主义并非某一国特有的问题，而是当时国际工人运动中普遍存在的思潮。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "class_marxist"
+          }
+        ]
+      },
+      {
+        "sid": "p17s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p17s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p17s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "革命工团主义",
+            "type": "org",
+            "modern": "19世纪末20世纪初在法国、意大利等国兴起的工团主义运动，主张工会总罢工，否定政党政治。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 3,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 2,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

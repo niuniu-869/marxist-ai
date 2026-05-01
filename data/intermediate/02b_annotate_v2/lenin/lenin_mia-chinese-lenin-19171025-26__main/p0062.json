@@ -1,0 +1,71 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 62,
+  "annotation": {
+    "block_type": "program_clause",
+    "gist": "本条是土地法令的执行细则，规定保护被没收财产并明确执行机构的职责。",
+    "importance_score": 2,
+    "importance_reason": "作为土地法令的配套执行条款，具体规定财产保护和没收程序，将前条原则转化为可操作措施。",
+    "argument_role": "continues",
+    "argument_link": "本条紧接上条关于没收土地的决定，具体规定如何保护这些财产以及由哪些机构负责执行。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p62s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "全民的财产",
+            "type": "concept",
+            "modern": "在本法令语境下，指通过革命手段从地主、皇族、教会手中没收，转归全体人民共同占有的生产资料与生活资料。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "public_ownership"
+          }
+        ]
+      },
+      {
+        "sid": "p62s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

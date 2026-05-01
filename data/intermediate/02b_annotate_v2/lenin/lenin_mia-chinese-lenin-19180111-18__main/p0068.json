@@ -1,0 +1,71 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 68,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁回应指责，指出议会制拥护者已背叛社会主义，战争中高喊“保卫祖国”的“社会主义者”实为资产阶级仆从。",
+    "importance_score": 2,
+    "importance_reason": "直接反驳论敌对苏维埃政权的攻击，揭露第二国际机会主义者的阶级实质，支撑无产阶级专政的论述。",
+    "argument_role": "contrasts",
+    "argument_link": "承接上一段对“民主”与“无产阶级专政”的辨析，转而具体批判那些自称“社会主义者”却反对无产阶级专政的派别。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p68s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p68s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "保卫祖国",
+            "type": "slogan",
+            "modern": "第一次世界大战期间，第二国际多数社会党支持本国政府参战的口号，列宁视其为社会沙文主义的典型表现。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

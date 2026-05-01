@@ -1,0 +1,136 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 15,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段批判经济学家将生产非历史化，以掩盖资产阶级关系的特殊性，并指出其割裂生产与分配的错误。",
+    "importance_score": 3,
+    "importance_reason": "核心批判段落，直接揭露资产阶级政治经济学将特定历史关系伪装成普遍规律的方法论核心。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对斯密等经济学家研究方法的讨论，转而直接批判其将生产永恒化、割裂生产与分配的根本错误。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "永恒自然规律论",
+        "explain": "19世纪资产阶级经济学的一种倾向，将资本主义生产方式下的规律（如竞争、供求）说成是适用于所有时代、所有社会的自然法则，从而否认其历史暂时性。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p15s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p15s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p15s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p15s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p15s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "生产",
+            "type": "concept",
+            "modern": "人类通过劳动创造物质生活资料的过程，是社会存在和发展的基础。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "production"
+          },
+          {
+            "surface": "分配",
+            "type": "concept",
+            "modern": "社会产品在不同阶级、阶层或成员之间的划分方式，由生产关系决定。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "distribution"
+          }
+        ]
+      },
+      {
+        "sid": "p15s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p15s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p15s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "所有制",
+            "type": "concept",
+            "modern": "人们对生产资料的占有形式，是生产关系的基础，决定社会的性质。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "ownership"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 3,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_6>5",
+        "hs:claim_5gram_with_quote",
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

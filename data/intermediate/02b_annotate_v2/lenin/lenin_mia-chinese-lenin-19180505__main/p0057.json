@@ -1,0 +1,115 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 57,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "分析小资产者的经济行为及其对无产阶级政权的两种可能后果。",
+    "importance_score": 2,
+    "importance_reason": "具体阐述小资产阶级的经济基础及其对政权的威胁，是论证“左派”错误认识的关键环节。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对“左派”小资产阶级性的定性，具体分析小资产者的经济行为及其政治威胁。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "拿破仑与卡芬雅克",
+        "explain": "法国历史上两位通过小资产阶级土壤上台的军事独裁者。拿破仑·波拿巴在法国大革命后建立帝国，路易·卡芬雅克在1848年六月起义后建立军事独裁，两者都镇压了革命。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p57s4",
+        "quote": "或者是我们使这些小资产者服从我们的监督和计算（只有把贫民即多数居民或者说半无产者组织在觉悟的无产阶级先锋队的周围，我们才能做到这一点），或者是这些小资产者必然地、不可避免地推翻我们的工人政权，就象那些正是在这种小私有者土壤上生长起来的拿破仑们和卡芬雅克们推翻了革命一样。问题就是如此。",
+        "trigger": "long_nested",
+        "reader_block": "句子结构复杂，包含条件选择、括号插入和历史类比，读者可能难以把握其逻辑关系和历史指涉。",
+        "parse": {
+          "claim": "无产阶级政权面临两种前途：要么将小资产者纳入监督计算体系，要么被他们推翻。",
+          "qualifiers": "实现第一种前途的条件是，必须将占人口多数的贫民或半无产者组织在无产阶级先锋队周围。",
+          "contrast_or_target": "反驳左派社会革命党人空谈“劳动”农民，看不到小资产阶级的威胁。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "本句通过提出两种截然不同的前途，反驳了左派社会革命党人忽视小资产阶级威胁的空谈，强调了组织群众进行监督的必要性。"
+        },
+        "implication": "强调了无产阶级政权必须主动组织和领导半无产者，否则将面临被小资产阶级势力颠覆的风险。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p57s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p57s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p57s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p57s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p57s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "左派社会革命党人",
+            "type": "polemic_ref",
+            "modern": "1918年俄国小资产阶级政党，主张土地社会化但反对无产阶级专政。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 0,
+        "hs_kept": 1,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

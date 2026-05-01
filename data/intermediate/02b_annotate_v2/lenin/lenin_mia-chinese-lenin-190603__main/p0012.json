@@ -1,0 +1,56 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 12,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁直接批评民粹派和社会革命党人散布与社会民主党相反的土地问题观点，并将这种错误归因于无知或歪曲。",
+    "importance_score": 1,
+    "importance_reason": "本段在论辩中明确点出批评对象，为后续阐述修改纲领的必要性扫清思想障碍。",
+    "argument_role": "contrasts",
+    "argument_link": "本段承接上文对社会民主党传统的叙述，转而指出民粹派和社会革命党人持相反立场，形成直接对比。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "cross_ref_pronoun",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "民粹派与社会革命党人",
+        "explain": "民粹派是19世纪俄国主张农民社会主义的派别；社会革命党人是其继承者，主张土地社会化。他们反对社会民主党的土地国有化纲领。",
+        "why_needed": "cross_ref_pronoun",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "民粹派和社会革命党人",
+      "their_view": "他们主张与社会民主党不同的土地问题解决方案，反对社会民主党的土地纲领。",
+      "author_response": "列宁指责他们的观点源于极端无知或者故意歪曲事实。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p12s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "民粹派和社会革命党人",
+            "type": "social_group",
+            "modern": "19世纪俄国主张农民革命的政治派别及其后继组织",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  }
+}

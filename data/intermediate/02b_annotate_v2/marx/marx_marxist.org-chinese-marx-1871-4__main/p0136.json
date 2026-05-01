@@ -1,0 +1,134 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 136,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段论证公社必须致力于改变生产关系，否则其政治形式就失去意义。",
+    "importance_score": 3,
+    "importance_reason": "核心论点，阐明公社的经济目标与政治形式的内在联系。",
+    "argument_role": "continues",
+    "argument_link": "本段承接上一段关于公社是工人阶级政府的论述，进一步指出这一政治形式必须服务于改变生产关系的经济目标。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "cross_ref_pronoun",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "term_density",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "“最后这个条件”指什么",
+        "explain": "指前一段结尾所说的公社是“生产者阶级同占有者阶级斗争的产物”。本段以此为前提展开论述。",
+        "why_needed": "cross_ref_pronoun",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      },
+      {
+        "topic": "“经济基础”在本段的含义",
+        "explain": "在马克思的理论中，经济基础指特定社会占统治地位的生产关系的总和。本段特指资本主义私有制。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p136s2",
+        "quote": "生产者的政治统治不能与他们永久不变的社会奴隶地位并存。",
+        "trigger": "term_density",
+        "reader_block": "“社会奴隶地位”是比喻，读者可能不理解其具体所指，即资本主义下的雇佣劳动状态。",
+        "parse": {
+          "claim": "掌握政治权力的生产者阶级，不可能同时继续处于被剥削的经济地位。",
+          "qualifiers": "“永久不变”强调这种经济地位的持续性与政治权力的矛盾。",
+          "contrast_or_target": ""
+        },
+        "why": {
+          "relation": "continues",
+          "explanation": "承接上句，具体解释为何没有改变经济基础的条件，公社体制就是空谈。"
+        },
+        "implication": "公社的政治成功必然要求其经济纲领指向消灭剥削。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      },
+      {
+        "anchor": "p136s3",
+        "quote": "所以，公社要成为铲除阶级赖以存在、因而也是阶级统治赖以存在的经济基础的杠杆。",
+        "trigger": "term_density",
+        "reader_block": "句中“阶级”、“经济基础”、“阶级统治”等核心术语密集出现，且构成一个因果推论，需要理解其逻辑链条。",
+        "parse": {
+          "claim": "公社必须充当一种工具，用以摧毁产生阶级及阶级压迫的经济根源。",
+          "qualifiers": "“杠杆”比喻公社是实现这一经济变革的支点或手段。",
+          "contrast_or_target": ""
+        },
+        "why": {
+          "relation": "conclusion",
+          "explanation": "基于前两句的论述，得出公社必须承担的经济使命这一结论。"
+        },
+        "implication": "公社的使命不止于政治夺权，更在于启动社会经济结构的根本变革。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p136s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p136s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "社会奴隶地位",
+            "type": "metaphor",
+            "modern": "在资本主义生产关系下，工人虽有人身自由，但其劳动力被资本支配，经济上处于被剥削的境地。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p136s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p136s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 1,
+        "hs_kept": 2,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 189,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁转述考茨基对他在立宪会议问题上立场的指责，为后续反驳提供具体靶子。",
+    "importance_score": 2,
+    "importance_reason": "本段具体化考茨基的指控，是列宁反驳论敌的关键例证。",
+    "argument_role": "example",
+    "argument_link": "本段举例说明考茨基如何伪造事实，指责列宁在布尔什维克成为少数后才贬低立宪会议。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "cross_ref_pronoun",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "立宪会议背景",
+        "explain": "1917年俄国立宪会议选举中，布尔什维克得票少于社会革命党，列宁随后解散了会议。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "既然如此指代",
+        "explain": "本段开头'既然如此'承接上文列宁对考茨基伪造事实的指责。",
+        "why_needed": "cross_ref_pronoun",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "考茨基",
+      "their_view": "考茨基向德国读者断言，列宁曾激烈要求召集立宪会议，只是布尔什维克在立宪会议中成了少数之后才贬低它。",
+      "author_response": "列宁转述此断言，意在揭露考茨基伪造事实，指责列宁立场前后不一。",
+      "polemic_kind": "counter_quotation",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p189s1",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": [
+          {
+            "surface": "考茨基",
+            "type": "person",
+            "modern": "德国社会民主党理论家，第二国际领袖",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "立宪会议",
+            "type": "event",
+            "modern": "1917年俄国立宪会议，选举后被布尔什维克解散",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "布尔什维克",
+            "type": "org",
+            "modern": "俄国社会民主工党多数派，后成为共产党",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  }
+}

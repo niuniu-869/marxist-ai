@@ -1,0 +1,154 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 26,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁批判普列汉诺夫的“祸首”论，指出其与资产阶级宣传雷同，并揭露其用诡辩术偷换辩证法。",
+    "importance_score": 2,
+    "importance_reason": "对具体论敌（普列汉诺夫）核心辩护逻辑的集中批判，是论证社会沙文主义理论基础浅薄的关键段落。",
+    "argument_role": "contrasts",
+    "argument_link": "承接上段对背叛事实的陈述，转而剖析并驳斥为这种背叛行为辩护的最浅薄理论。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic | term_density",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p26s8",
+        "quote": "辩证法要求从发展中去全面研究某个社会现象，要求把外部的、表面的东西归结于基本的动力，归结于生产力的发展和阶级斗争。",
+        "trigger": "term_density",
+        "reader_block": "句中密集出现“辩证法”“发展”“生产力”“阶级斗争”等核心术语，且构成一个完整的理论要求陈述，读者可能不清楚这些术语在此处的具体关联。",
+        "parse": {
+          "claim": "真正的辩证法研究要求把握现象的根本动力，即生产力与阶级斗争的发展。",
+          "qualifiers": "针对“某个社会现象”的研究。",
+          "contrast_or_target": "与普列汉诺夫只抽取表面“论据”（如某句报纸言论）的做法形成对比。"
+        },
+        "why": {
+          "relation": "definition",
+          "explanation": "本句正面阐述了马克思主义辩证法的研究要求，用以反衬和批判普列汉诺夫方法的片面性与表面性。"
+        },
+        "implication": "确立了评判战争性质的正确方法论标准：必须考察帝国主义经济根源和阶级本质。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "普列汉诺夫",
+      "their_view": "战争中应首先找出并惩罚破坏和平的“祸首”，其他问题留待以后解决。这是基于当前具体形势的辩证分析。",
+      "author_response": "列宁指出这不过是各国政府和资产阶级报刊的陈词滥调，普列汉诺夫只是用“辩证法”的术语加以粉饰，实质是用诡辩术偷换了真正的辩证法。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p26s1",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p26s2",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p26s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "黄色报刊",
+            "type": "archaic",
+            "modern": "19世纪末至20世纪初，指以耸人听闻、低级趣味内容吸引读者的报刊，常与资产阶级立场关联。",
+            "highlight": "archaic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p26s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "辩证法",
+            "type": "concept",
+            "modern": "马克思主义哲学核心方法，强调事物普遍联系、发展和矛盾运动。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "dialectics_marxist"
+          }
+        ]
+      },
+      {
+        "sid": "p26s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p26s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p26s7",
+        "speaker": "unknown",
+        "stance": "neutral_citation",
+        "notes": []
+      },
+      {
+        "sid": "p26s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p26s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p26s10",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p26s11",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 1,
+        "hs_kept": 1,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

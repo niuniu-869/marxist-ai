@@ -1,0 +1,95 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 213,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "通过对比苏维埃与资产阶级召开会议的代表性，以及立宪会议与苏维埃代表大会的群众基础变化，论证苏维埃更能代表大多数居民，且群众已转向布尔什维克。",
+    "importance_score": 2,
+    "importance_reason": "本段提供具体历史数据，支撑苏维埃作为无产阶级专政机关的代表性论点，是核心论证的关键事实依据。",
+    "argument_role": "continues",
+    "argument_link": "延续上一段关于苏维埃优越性的论证，用具体会议数据证明苏维埃在代表性和群众基础上远超资产阶级机构。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_density",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "1917年俄国革命时间线",
+        "explain": "二月革命推翻沙皇，十月革命布尔什维克夺权。本段提及的2月28日至10月25日（俄历）大致对应公历3月至11月，是革命关键期。",
+        "why_needed": "history_density",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "立宪会议与苏维埃",
+        "explain": "立宪会议是资产阶级民主机构，原定在革命后选举产生。苏维埃是工兵代表会议，布尔什维克主张其为最高权力机关。两者代表不同阶级的政权形式。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "孟什维克与社会革命党",
+        "explain": "孟什维克主张资产阶级民主革命分阶段，社会革命党代表农民利益。两者在1917年曾与布尔什维克合作，后因主张妥协而被群众抛弃。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "考茨基",
+      "their_view": "苏维埃不能代表俄国大多数居民，其代表性不如资产阶级民主机构（如立宪会议）。",
+      "author_response": "列宁用苏维埃召开的各级代表大会所代表的工农兵数量，以及立宪会议召开时群众已转向布尔什维克的事实，证明苏维埃才是真正的人民代表机关。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p213s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p213s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p213s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p213s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

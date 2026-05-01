@@ -1,0 +1,79 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 111,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁以反讽方式回答取道英国回国的问题，揭露俄国资本家对反战国际主义者被拘留的暗喜与表面文章。",
+    "importance_score": 1,
+    "importance_reason": "针对具体行动策略的问答，服务于向群众解释各政党阶级实质的总体目标。",
+    "argument_role": "continues",
+    "argument_link": "直接回答上一段提出的具体行动策略问题，并通过反讽揭示相关各方的阶级立场。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "rhetorical",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "托洛茨基被英国拘留",
+        "explain": "1917年3月，托洛茨基从美国取道英国返回俄国时，被英国当局拘留数周。他是反战的国际主义者，与列宁立场相近。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "立宪民主党及其更右翼势力",
+      "their_view": "支持帝国主义战争，反对反战的国际主义者，维护资本家和地主的利益。",
+      "author_response": "列宁通过反讽揭露他们与英国帝国主义在压制国际主义上的一致性，以及其外交姿态的虚伪。",
+      "polemic_kind": "reveals_class_basis",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p111s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p111s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "托洛茨基",
+            "type": "person",
+            "modern": "列夫·托洛茨基，当时知名的国际主义者和反战者，与列宁同属布尔什维克阵营。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

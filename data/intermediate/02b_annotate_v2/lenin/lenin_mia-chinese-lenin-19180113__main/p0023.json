@@ -1,0 +1,128 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 23,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁向铁路员工说明社会主义革命的长期性，强调依靠苏维埃组织和新的劳动纪律来战胜反对力量，最终确立苏维埃政权。",
+    "importance_score": 2,
+    "importance_reason": "本段承接上文关于粉碎怠工的论述，具体阐述了革命后建立新秩序的路径和依靠力量，是列宁阐述政权建设方案的核心段落之一。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段关于必须先粉碎怠工者反抗再谈判的结论，本段具体说明如何通过铁路劳动者掌握政权、依靠苏维埃组织来实现这一目标。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "cross_ref",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "里亚布申斯基之流",
+        "explain": "指当时俄国的大资本家和银行家家族，是十月革命后苏维埃政权的主要经济反对者之一，常被列宁用作资产阶级的代称。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "同志式纪律 vs 兵营式纪律",
+        "explain": "列宁在此对比两种纪律：前者指基于共同阶级觉悟和自愿服从的无产阶级纪律，后者指依靠外部强制和等级服从的旧式纪律。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p23s1",
+        "quote": "同志们，想在一天里完成这种变革是不可能的。",
+        "trigger": "cross_ref",
+        "reader_block": "“这种变革”指代不明，读者不清楚具体指什么变革，需要联系前文关于粉碎怠工、接管银行等论述。",
+        "parse": {
+          "claim": "社会主义革命所要求的全面社会变革无法在极短时间内完成。",
+          "qualifiers": "无。",
+          "contrast_or_target": "无。"
+        },
+        "why": {
+          "relation": "continues",
+          "explanation": "本句是上一段关于“先用武力占领银行，然后谈判”这一具体行动论述的总结，将具体行动上升到对革命进程长期性的总体判断。"
+        },
+        "implication": "革命者需要有耐心和长期斗争的准备，不能期望一蹴而就。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "资本家、怠工者、骗子和里亚布申斯基之流",
+      "their_view": "他们反对人民政权，通过怠工、投机、贿赂和破坏铁路运行来阻挠革命和经济恢复。",
+      "author_response": "列宁主张必须依靠铁路劳动者和苏维埃组织，用武装力量粉碎他们的反抗，并将罪大恶极者按最严厉的方式惩处。",
+      "polemic_kind": "reveals_class_basis",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p23s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p23s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p23s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p23s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p23s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p23s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p23s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 3,
+        "hs_kept": 1,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_6>5",
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

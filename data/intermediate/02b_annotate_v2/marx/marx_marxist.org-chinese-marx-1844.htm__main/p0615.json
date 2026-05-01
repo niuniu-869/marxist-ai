@@ -1,0 +1,100 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 615,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段分析黑格尔辩证法的抽象形式，指出其将人的生命过程等同于神性过程的唯心主义实质。",
+    "importance_score": 2,
+    "importance_reason": "本段是马克思批判黑格尔辩证法唯心主义性质的关键环节，承接上段对黑格尔“扬弃”概念的分析，并引出下文对这种抽象性的进一步批判。",
+    "argument_role": "continues",
+    "argument_link": "本段紧接上段对黑格尔将外化扬弃视为外化确证的分析，进一步指出这种观点在抽象形式上将人的生命过程等同于神性过程，从而揭示其唯心主义本质。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "cross_ref, long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p615s1",
+        "quote": "因此，这个运动在其抽象〔ＸＸＸＩ〕形式上，作为辩证法，被看成真正人的生命；",
+        "trigger": "cross_ref",
+        "reader_block": "句首“这个运动”指代前文的“自我产生、自我对象化的运动”，读者若未联系上段，会不知所指为何物。",
+        "parse": {
+          "claim": "黑格尔辩证法所描述的、作为抽象形式的自我产生与对象化运动，被其视为真正的人的生命表现。",
+          "qualifiers": "限定于“在其抽象形式上”，即剥离了具体内容的纯粹逻辑形式。",
+          "contrast_or_target": "黑格尔认为，这种抽象的辩证运动本身就是人的生命本质。"
+        },
+        "why": {
+          "relation": "continues",
+          "explanation": "本句承接上段结论，具体指出黑格尔辩证法在抽象层面上如何被赋予本体论地位，即被等同于人的生命本身。"
+        },
+        "implication": "这为下一句揭示其神学化倾向做了铺垫：既然这个抽象运动是人的生命，那么它也就成了神性的过程。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "黑格尔",
+      "their_view": "辩证法所描述的抽象运动，就是真正的人的生命；这个运动因其是人的生命的异化，所以表现为一个与人有别的、纯粹绝对的本质（神性）的自我经历过程。",
+      "author_response": "马克思指出，黑格尔将人的现实生命活动抽象化、异化后，反过来将其神化为一个独立于人的神性过程，这恰恰暴露了其辩证法的唯心主义和神学实质。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p615s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "辩证法",
+            "type": "concept",
+            "modern": "在黑格尔哲学中，指绝对精神自我展开、自我否定的逻辑运动规律。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "dialectics_hegelian"
+          }
+        ]
+      },
+      {
+        "sid": "p615s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "异化",
+            "type": "concept",
+            "modern": "在黑格尔语境下，指主体（绝对精神）将自身外化为对象，又在对象中认出自身的过程；马克思此处指人的本质力量变成与人对立的异己力量。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "alienation_hegelian_marxist_critique"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 0,
+        "hs_kept": 1,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

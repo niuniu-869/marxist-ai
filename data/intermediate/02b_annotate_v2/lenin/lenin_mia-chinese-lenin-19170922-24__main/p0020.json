@@ -1,0 +1,63 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 20,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段以反问形式，提出对抵制布里根杜马策略正确性的探讨，承接上段关于抵制问题的讨论。",
+    "importance_score": 1,
+    "importance_reason": "本段作为过渡，引出对抵制布里根杜马策略的论证，连接上段的理论讨论与下段的具体分析。",
+    "argument_role": "continues",
+    "argument_link": "本段承接上段关于抵制问题的理论讨论，具体转向对布里根杜马抵制策略的正确性提问，为后续论证提供切入点。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "布里根杜马",
+        "explain": "1905年沙皇政府为应对革命压力而提议成立的咨询性国家杜马，旨在分化反对派，但未实际召开即被抵制。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p20s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

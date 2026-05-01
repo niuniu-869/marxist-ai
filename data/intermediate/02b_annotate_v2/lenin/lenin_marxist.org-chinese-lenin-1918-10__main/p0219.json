@@ -1,0 +1,64 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 219,
+  "annotation": {
+    "block_type": "narrative",
+    "gist": "本段列出1918年1月10日发生的第三次事件及其统计数据。",
+    "importance_score": 1,
+    "importance_reason": "提供具体历史数据，作为事件列举的一部分，支撑前文论点。",
+    "argument_role": "continues",
+    "argument_link": "继续上一段对事件的列举，给出第三次事件的日期和数据。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "text_anomaly",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "text_anomaly",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "数字异常",
+        "explain": "原文中'71043461％'疑似排版错误或OCR残留，可能本意是其他数字或格式。",
+        "why_needed": "text_anomaly",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p219s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_5gram_with_surface",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

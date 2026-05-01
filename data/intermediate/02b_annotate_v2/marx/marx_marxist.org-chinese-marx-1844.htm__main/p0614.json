@@ -1,0 +1,55 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 614,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "马克思批判黑格尔将自我异化的运动视为人的生命表现，指出这种观点是形式的和抽象的。",
+    "importance_score": 2,
+    "importance_reason": "本段是马克思对黑格尔哲学批判的关键环节，揭示其唯心主义辩证法的抽象性。",
+    "argument_role": "continues",
+    "argument_link": "本段承接上段对黑格尔观点形式性的批判，进一步指出这种抽象性导致外化的扬弃成为外化的确证。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "黑格尔",
+      "their_view": "自我产生、自我对象化的运动，作为自我外化和自我异化的运动，是绝对的、最后的、以自身为目的的人的生命表现。",
+      "author_response": "马克思指出这种观点是形式的和抽象的，外化的扬弃反而确证了外化。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p614s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

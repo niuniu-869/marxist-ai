@@ -1,0 +1,141 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 27,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段从真理的普遍性出发，批判检查令对个人写作风格的强制规定，揭露其剥夺精神表达自由的实质。",
+    "importance_score": 2,
+    "importance_reason": "本段是核心批判的展开，将对“谦逊”的抽象批判具体化为对“指定表情”的讽刺，是论证链条的关键环节。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段对“谦逊”作为“害怕真理的预防剂”的批判，本段进一步指出，这种“谦逊”在实践中表现为对个人表达风格的强制规定。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic | allusion",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p27s2",
+        "quote": "真理占有我，而不是我占有真理。",
+        "trigger": "inverted_logic",
+        "reader_block": "读者可能将“真理占有我”理解为被动接受，但马克思强调真理的客观性和对个人的支配性，与“我占有真理”的主观控制形成对比。",
+        "parse": {
+          "claim": "真理作为客观存在，独立于个人意志并支配着认识者，而非个人可以随意掌控和占有的私有物。",
+          "qualifiers": "",
+          "contrast_or_target": ""
+        },
+        "why": {
+          "relation": "continues",
+          "explanation": "此句是上一段“害怕真理”论点的哲学深化，将真理确立为外在于个人的客观力量，为下文批判“指定表情”提供理论基础。"
+        },
+        "implication": "如果真理是客观的，那么探讨真理的形式（风格）也应是自由的，而非被指定的。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "普鲁士书报检查令",
+      "their_view": "法律允许写作，但写作者必须遵循一种被指定的、符合官方要求的表达方式。",
+      "author_response": "这种要求剥夺了个人精神表达的自由，将写作变成一种虚伪的表演，正直的人应当为此感到羞愧并拒绝配合。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p27s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p27s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p27s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p27s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p27s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p27s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p27s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "罗马式长袍",
+            "type": "allusion",
+            "modern": "古罗马公民或哲学家常穿的外袍，此处用作掩盖真实思想的象征。",
+            "highlight": "allusion",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p27s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "丘必特",
+            "type": "allusion",
+            "modern": "罗马神话中的主神朱庇特，象征智慧与力量，此处比喻被隐藏的真实思想。",
+            "highlight": "allusion",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p27s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 1,
+        "hs_kept": 1,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_archaic_5>4",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

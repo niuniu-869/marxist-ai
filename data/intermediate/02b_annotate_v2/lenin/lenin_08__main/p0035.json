@@ -1,0 +1,132 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 35,
+  "annotation": {
+    "block_type": "quote_block",
+    "gist": "列宁引用恩格斯1889年的信件，描述恩格斯对德国社会民主党内部调和主义倾向的批评，并借默林之口强调马克思恩格斯斗争的坚定性。",
+    "importance_score": 2,
+    "importance_reason": "通过恩格斯的实例，具体展示了马克思主义者对机会主义调和倾向的鲜明态度，为列宁的论战提供历史依据。",
+    "argument_role": "continues",
+    "argument_link": "延续上一段对可能派的批判，进一步用恩格斯的亲身经历和言论，具体说明革命派与调和主义者的斗争。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "德国社会民主党内的调和主义派别",
+      "their_view": "主张在工人运动内部追求“友爱和睦”，避免激烈冲突，试图通过妥协与可能派等团体联合。",
+      "author_response": "列宁借恩格斯之口，指出这种调和主义是幼稚的，其失败是应得的报应，并强调斗争的必要性。",
+      "polemic_kind": "strategic_critique",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p35s1",
+        "speaker": "quoted_engels",
+        "stance": "endorsed",
+        "notes": [
+          {
+            "surface": "倍倍尔",
+            "type": "person",
+            "modern": "奥古斯特·倍倍尔，德国社会民主党主要创始人和领导人之一。",
+            "highlight": "person",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p35s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "可能派",
+            "type": "org",
+            "modern": "法国工人党中的改良派，1880年代后与革命派分裂，主张议会道路。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "工联主义者",
+            "type": "social_group",
+            "modern": "英国工会运动中只关注经济斗争、不主张政治革命的派别。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "社会民主联盟",
+            "type": "org",
+            "modern": "英国早期社会主义组织，后分裂，部分成员转向革命立场。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p35s3",
+        "speaker": "quoted_engels",
+        "stance": "endorsed",
+        "notes": [
+          {
+            "surface": "调和主义",
+            "type": "concept",
+            "modern": "工人运动中主张阶级合作、避免与资产阶级直接对抗的改良主义倾向。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "opportunism_conciliationism"
+          }
+        ]
+      },
+      {
+        "sid": "p35s4",
+        "speaker": "quoted_engels",
+        "stance": "endorsed",
+        "notes": [
+          {
+            "surface": "默林",
+            "type": "person",
+            "modern": "法国社会主义者，与马克思恩格斯有交往，此处引用其对马克思恩格斯性格的描述。",
+            "highlight": "person",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p35s5",
+        "speaker": "quoted_opponent",
+        "stance": "neutral_citation",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 6,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_5gram_with_surface"
+      ]
+    }
+  ]
+}

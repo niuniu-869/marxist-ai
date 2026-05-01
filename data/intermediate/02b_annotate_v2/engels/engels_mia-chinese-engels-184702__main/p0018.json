@@ -1,0 +1,179 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 18,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "分析普鲁士资产阶级掌权对欧洲地缘政治格局的冲击，特别是对德意志诸邦和波兰问题的影响。",
+    "importance_score": 2,
+    "importance_reason": "将普鲁士宪法的国内影响扩展到欧洲国际关系层面，是论证其历史意义的关键环节。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于宪法开启德国政治变革时代的论断，具体阐述这种变革将如何改变欧洲力量对比。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "北方国家同盟",
+        "explain": "指1815年维也纳会议后，由俄国、普鲁士、奥地利等君主制国家组成的保守同盟，旨在维护欧洲旧秩序，镇压革命运动。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "波兰起义",
+        "explain": "指1830-1831年和1846年两次大规模的波兰民族起义，旨在反抗俄、普、奥三国对波兰的瓜分和统治，均遭镇压。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p18s8",
+        "quote": "波兰复仇的日子临近了！",
+        "trigger": "allusion",
+        "reader_block": "“复仇”一词带有强烈的历史情感和政治指向，读者需要知道波兰与俄、普、奥三国的世仇背景，才能理解这句话的分量。",
+        "parse": {
+          "claim": "波兰民族解放斗争即将迎来新的转机。",
+          "qualifiers": "基于前文所述欧洲力量对比将发生根本变化的判断。",
+          "contrast_or_target": ""
+        },
+        "why": {
+          "relation": "conclusion",
+          "explanation": "作为本段分析的结论，将地缘政治变化与波兰民族解放事业直接联系起来，点明其历史意义。"
+        },
+        "implication": "恩格斯将普鲁士的宪政化视为可能削弱瓜分波兰的反动同盟，从而有利于波兰复国。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p18s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p18s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "资产阶级",
+            "type": "concept",
+            "modern": "在19世纪欧洲语境下，指通过工商业和资本积累获得经济实力，要求政治权力的社会集团。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "class_bourgeois"
+          }
+        ]
+      },
+      {
+        "sid": "p18s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "北方国家同盟",
+            "type": "org",
+            "modern": "1815年后由俄、普、奥等君主国组成的保守政治军事同盟，旨在维护维也纳体系，镇压革命。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p18s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p18s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "东欧阵营",
+            "type": "metaphor",
+            "modern": "恩格斯用此比喻以俄、奥为代表的、政治上保守反动、经济上相对停滞的欧洲东部君主专制集团。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          },
+          {
+            "surface": "西欧阵营",
+            "type": "metaphor",
+            "modern": "恩格斯用此比喻以英、法为代表的、政治上推行宪政、经济上资本主义更发达的欧洲西部进步力量。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p18s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p18s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "三级会议",
+            "type": "event",
+            "modern": "普鲁士国王弗里德里希-威廉四世于1847年召开的联合等级会议，由贵族、市民和农民三个等级的代表组成，是宪法的实施机构。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p18s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 5,
+        "notes_dropped": 3,
+        "hs_kept": 1,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

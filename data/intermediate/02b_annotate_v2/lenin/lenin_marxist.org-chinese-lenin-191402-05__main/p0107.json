@@ -1,0 +1,62 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 107,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁批判立宪民主党人拒绝民族分离权的立场，实质是维护封建势力和统治民族的偏见。",
+    "importance_score": 2,
+    "importance_reason": "这是对前段论点的直接展开和定性，揭示了机会主义立场的阶级实质。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对立宪民主党人与封建势力一致性的分析，进一步定性其行为是“迎合”和“保卫”后者。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "立宪民主党人",
+      "their_view": "拒绝赋予各民族分离权，主张维护现有帝国疆界，认为民族自决权是过时或有害的。",
+      "author_response": "列宁指出，这种立场客观上服务于农奴主和统治民族的沙文主义，是向反动势力的投降。",
+      "polemic_kind": "reveals_class_basis",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p107s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p107s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 2,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

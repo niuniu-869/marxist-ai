@@ -1,0 +1,66 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 227,
+  "annotation": {
+    "block_type": "narrative",
+    "gist": "本段为出版信息片段，提及印刷相关内容，但文本不完整，疑似排版残留。",
+    "importance_score": 0,
+    "importance_reason": "本段为出版信息片段，对理解《共产党宣言》的论证内容无直接贡献。",
+    "argument_role": "none",
+    "argument_link": "",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "text_anomaly",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "text_anomaly",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "排版残留",
+        "explain": "原文'印 刷 及'疑似排版残留或OCR错误，可能为'印刷及发行'等出版信息的一部分，但文本不完整。",
+        "why_needed": "text_anomaly",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p227s1",
+        "quote": "印 刷 及",
+        "trigger": "text_anomaly",
+        "reader_block": "文本不完整且有空格，读者会困惑其含义，可能误以为是中文词汇或短语。",
+        "parse": {
+          "claim": "该文本片段疑似印刷相关出版信息。",
+          "qualifiers": "",
+          "contrast_or_target": ""
+        },
+        "why": {
+          "relation": "none",
+          "explanation": ""
+        },
+        "implication": null,
+        "confidence": "low",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p227s1",
+        "speaker": "editor",
+        "stance": "neutral_citation",
+        "notes": []
+      }
+    ]
+  }
+}

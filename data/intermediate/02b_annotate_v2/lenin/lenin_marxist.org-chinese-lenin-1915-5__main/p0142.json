@@ -1,0 +1,122 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 142,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁批评对英国工人政党的比较只重组织形式，并以两种日报为例说明应看实质。",
+    "importance_score": 2,
+    "importance_reason": "通过英国日报的对比，具体说明如何辨别工人政党的革命或机会主义性质。",
+    "argument_role": "continues",
+    "argument_link": "承接上文对民族主义破坏作用的分析，具体到英国工人政党，提出判断其性质的标准。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "英国早期工人政党",
+        "explain": "独立工党成立于1900年，初期独立于自由党，但领导层后来转向改良主义。英国社会党成立于1911年，主张革命，但规模较小。两者在组织形式和实质路线上有差异。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "英国社会主义报刊与派别",
+        "explain": "《每日先驱报》是英国社会党的机关报，宣传革命立场。《每日公民报》是机会主义联盟的机关报，宣传改良主义立场。机会主义联盟指工党内部的改良主义派别，与自由党合作。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p142s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "独立工党",
+            "type": "org",
+            "modern": "1900年成立的英国工人政党，初期独立于自由党，但领导层后来转向改良主义。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "英国社会党",
+            "type": "org",
+            "modern": "1911年成立的英国社会主义政党，主张革命，但规模较小。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p142s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p142s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "每日先驱报",
+            "type": "work",
+            "modern": "英国社会党的机关报，宣传革命立场。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "每日公民报",
+            "type": "work",
+            "modern": "机会主义联盟的机关报，宣传改良主义立场。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p142s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 4,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

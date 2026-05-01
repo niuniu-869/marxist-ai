@@ -1,0 +1,149 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 33,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "界定“布朗基主义者”标签的含义，并批判布朗基的革命策略及其必然导向的少数人专政观念。",
+    "importance_score": 2,
+    "importance_reason": "本段是核心批判的一部分，具体剖析了布朗基主义的策略内核与政治后果，为后文对比无产阶级专政奠定基础。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于流亡者群体分裂的叙述，具体分析其中一派——布朗基主义者——的理论与实践特征。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p33s10",
+        "quote": "由于布朗基把一切革命想像成由少数革命家所实现的突然变革，自然也就产生了起义成功以后实行专政的必要性，当然，这种专政不是整个革命阶级即无产阶级的专政，而是那些实现了变革的少数人的专政，而这些人又事先服从于一个人或者几个人的专政。",
+        "trigger": "long_nested",
+        "reader_block": "句子长且嵌套多层限定，核心是区分两种“专政”，读者易在“不是…而是…”的转折中迷失主干，误以为在讨论无产阶级专政本身。",
+        "parse": {
+          "claim": "布朗基的革命观必然导致一种特定的专政形式，即由少数密谋者实行的、且内部服从于个人独裁的专政。",
+          "qualifiers": "这种专政被明确限定为“不是整个革命阶级即无产阶级的专政”，其主体是“实现了变革的少数人”，且这些人内部存在等级服从。",
+          "contrast_or_target": "与无产阶级专政（整个阶级的专政）形成对比，后者是作者所主张的。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "本句是批判的结论，揭示了布朗基主义策略在政治上的必然归宿：它无法建立无产阶级的阶级统治，只能建立少数革命家的寡头统治乃至个人独裁。"
+        },
+        "implication": "这种专政观因其脱离无产阶级群众基础，本质上是反民主的，且内部易蜕变为个人专断。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "布朗基主义者",
+      "their_view": "我们相信，由组织良好的少数革命家在恰当时机发动突然起义，通过初步胜利就能吸引广大群众，从而完成革命。成功后，必须由我们这些实现变革的少数人来实行专政，以巩固成果。",
+      "author_response": "恩格斯指出，这种策略下的“专政”并非无产阶级作为整个阶级的专政，而是少数密谋者的专政，且这些少数人内部又服从于个人或小集团的独裁，这与无产阶级的阶级统治有本质区别。",
+      "polemic_kind": "strategic_critique",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p33s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p33s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p33s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p33s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "实干家",
+            "type": "concept",
+            "modern": "此处特指布朗基式革命家，强调其注重行动与密谋，而非理论建构。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "revolutionary_bonapartist"
+          }
+        ]
+      },
+      {
+        "sid": "p33s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p33s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p33s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p33s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p33s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p33s10",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "专政",
+            "type": "concept",
+            "modern": "此处特指布朗基主义设想的、由少数密谋者在起义成功后实行的政治统治形式。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "dictatorship_bonapartist"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 2,
+        "hs_kept": 1,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

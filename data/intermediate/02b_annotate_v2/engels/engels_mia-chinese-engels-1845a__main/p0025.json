@@ -1,0 +1,65 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 25,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "基于前文对国际集会的描述，提出一个关于民主主义与共产主义关系的论断。",
+    "importance_score": 2,
+    "importance_reason": "这是对前文观察的总结性论断，提出了一个核心的理论等式。",
+    "argument_role": "conclusion",
+    "argument_link": "承接上段对国际集会氛围的描述，将其作为论据，推导出关于民主主义本质的结论。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p25s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "民主主义",
+            "type": "concept",
+            "modern": "在本文语境下，特指以无产阶级为主体的、追求政治与社会解放的现代运动，区别于资产阶级民主。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "democracy_proletarian"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 12,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "揭露俄国新政府用反德口号掩盖其帝国主义本质，同时拒绝公布掠夺性条约，将战争性质歪曲为防御。",
+    "importance_score": 2,
+    "importance_reason": "核心批判段落，具体分析新政府的欺骗性宣传手法，为后文提出革命任务做铺垫。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于向各国工人传达观点的意图，具体分析俄国新政府如何欺骗本国及国际工人。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "李沃夫与古契柯夫内阁",
+        "explain": "二月革命后成立的俄国临时政府，由自由派君主主义者李沃夫任总理，古契柯夫任陆海军部长。他们代表资产阶级利益，主张继续参与一战。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "沙皇政府的秘密条约",
+        "explain": "指沙皇俄国与英、法等协约国签订的战时秘密协定，规定战后俄国可获得领土补偿。临时政府继承了这些帝国主义条约。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "俄国新政府（李沃夫-古契柯夫内阁）",
+      "their_view": "战争的主要目标是推翻德国的威廉二世，俄国新政府是在进行正义的防御战争以保卫共和国。",
+      "author_response": "列宁指出，新政府自身就是君主派，它回避了本国人民推翻本国压迫者的任务，并且隐瞒了其继承的帝国主义掠夺条约，其战争目的与沙皇政府一脉相承。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p12s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p12s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p12s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

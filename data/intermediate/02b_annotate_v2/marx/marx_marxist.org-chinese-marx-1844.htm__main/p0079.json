@@ -1,0 +1,63 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 79,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段论证即使社会平均收入增长，贫富对立仍可能加剧，因为相对贫困可能增加，并以萨莫耶特人为例说明封闭社会与进步社会的差异。",
+    "importance_score": 2,
+    "importance_reason": "本段通过对比绝对贫困和相对贫困，支撑了作者对资本主义社会中工人状况的批判。",
+    "argument_role": "continues",
+    "argument_link": "本段承接上段关于工资下降的讨论，进一步论证即使收入增长，相对贫困仍可能扩大。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "萨莫耶特人",
+        "explain": "萨莫耶特人是生活在北极地区的民族，以渔猎为生，社会结构封闭，需求简单。作者用他们为例说明在封闭社会中没有相对贫困。",
+        "why_needed": "history_missing",
+        "confidence": "medium",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p79s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

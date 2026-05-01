@@ -1,0 +1,87 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 25,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "对第一类国家（西欧先进资本主义国家和美国）进行分析，指出其民族运动已结束，统治民族无产阶级的任务类似于19世纪英国无产阶级对爱尔兰的任务，并以荷兰、瑞士为例说明小国社会民主党人的错误。",
+    "importance_score": 2,
+    "importance_reason": "作为具体分析的第一类国家，为后续论证提供基础，是支撑性例子。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段对国家的分类，具体展开分析第一类国家（西欧先进资本主义国家和美国）在民族自决问题上的特点与无产阶级任务。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "allusion",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "英国与爱尔兰关系",
+        "explain": "19世纪，爱尔兰是英国的殖民地，其民族解放运动长期存在。马克思、恩格斯认为，英国无产阶级应支持爱尔兰独立，而非维护本国资产阶级的殖民统治。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "荷兰和瑞士的社会民主党人",
+      "their_view": "他们否认民族自决原则，理由是资产阶级利用该口号为参加帝国主义战争辩护。",
+      "author_response": "列宁指出，他们维护了反战的正确政策，但用错误的论据否认自决权，理论上歪曲了马克思主义，实践上表现出小民族狭隘性，忘记了被大国民族奴役的亿万居民。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p25s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p25s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p25s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p25s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p25s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 774,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段为马克思对梯也尔集团的谴责，指出其本质为律师追逐名位的阴谋，并主张国际应向法国工人阶级发出贺信以施加影响。",
+    "importance_score": 2,
+    "importance_reason": "本段直接呈现马克思对梯也尔政府的批判立场及对国际工人运动的策略建议，是传记中展现其政治态度的关键引语。",
+    "argument_role": "none",
+    "argument_link": null,
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "梯也尔政府",
+        "explain": "阿道夫·梯也尔领导的法国资产阶级政府，在1871年巴黎公社革命中扮演镇压角色，是马克思批判的对象。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "国际工人协会",
+        "explain": "即第一国际，1864年成立的国际工人联合组织，马克思是其核心成员，负责协调各国工人运动。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p774s1",
+        "quote": "“梯也尔为首的集团是个什么东西?是个律师追逐名位的阴谋。我们必须影响法国的工人阶级，国际应向他们发出贺信。新政府背叛了，它想毫无抵抗地让出巴黎。”",
+        "trigger": "inverted_logic",
+        "reader_block": "反问句'是个什么东西?'读者可能误以为疑问，实际是强烈谴责，需还原为肯定判断才能理解作者意图。",
+        "parse": {
+          "claim": "梯也尔集团本质上是律师为个人名利而策划的阴谋。",
+          "qualifiers": "无明确限定条件。",
+          "contrast_or_target": "梯也尔集团自视为法国合法政府，准备放弃巴黎。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "本句通过反问揭露梯也尔集团的阶级本质，为后续主张影响工人阶级提供批判前提。"
+        },
+        "implication": null,
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "梯也尔集团",
+      "their_view": "梯也尔集团自认为法国合法政府，意图不抵抗地让出巴黎。",
+      "author_response": "马克思指出该集团是律师追逐名位的阴谋，背叛了法国，必须通过国际向工人阶级发出贺信来施加影响。",
+      "polemic_kind": "reveals_class_basis",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p774s1",
+        "speaker": "quoted_marx",
+        "stance": "endorsed",
+        "notes": [
+          {
+            "surface": "梯也尔",
+            "type": "person",
+            "modern": "阿道夫·梯也尔，法国资产阶级政治家，1871年巴黎公社时期领导凡尔赛政府。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "国际",
+            "type": "org",
+            "modern": "国际工人协会（第一国际），1864年成立的国际工人联合组织，马克思参与创建。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "工人阶级",
+            "type": "concept",
+            "modern": "在马克思主义中指现代工业无产阶级，是资本主义社会中受剥削的阶级。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "class_marxist"
+          }
+        ]
+      }
+    ]
+  }
+}

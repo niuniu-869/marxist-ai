@@ -1,0 +1,73 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 72,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁驳斥波兰马克思主义者对马克思立场的曲解，指出他们未能贯彻自己提出的“具体分析”要求。",
+    "importance_score": 2,
+    "importance_reason": "本段是列宁反驳波兰反对派对马克思引用的关键环节，旨在捍卫马克思立场的统一性，为后续论证铺垫。",
+    "argument_role": "contrasts",
+    "argument_link": "承接上段列宁转述波兰同志的反驳，本段直接批判其理由的荒谬性，并指出其方法论上的自相矛盾。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "波兰马克思主义者（反对派）",
+      "their_view": "马克思在民族问题上的不同表态是自相矛盾的，因此其立场没有价值。",
+      "author_response": "列宁指出，马克思对不同民族运动采取不同态度，恰恰是从统一的社会主义原则出发的具体分析。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p72s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p72s2",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p72s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p72s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

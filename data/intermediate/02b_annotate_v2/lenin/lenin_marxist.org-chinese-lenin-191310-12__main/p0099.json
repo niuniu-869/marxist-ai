@@ -1,0 +1,58 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 99,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "用反讽语气挑战机会主义者，指出其观点无法解释俄国多民族地区的现实。",
+    "importance_score": 2,
+    "importance_reason": "通过具体民族构成数据，反驳机会主义者对“瑞士模式”的否定。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对法国历史经验的总结，转而用俄国具体民族构成数据，反驳机会主义者对“瑞士模式”的适用性质疑。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p99s1",
+        "quote": "因此，现在让谢姆柯夫斯基和李普曼之流的先生们及其他机会主义分子去试试断定说，这个“例外的瑞士的”解决办法，对于俄国的20万居民中就有4万人操着两种方言并且希望在自己的地区内享受语言的完全平等的任何一个县，甚至县的部分地区都不适合吧！",
+        "trigger": "inverted_logic",
+        "reader_block": "反讽句式“让……去试试断定说……都不适合吧”，读者可能误读为邀请对方尝试，实际是挑战其无法自圆其说。",
+        "parse": {
+          "claim": "机会主义者无法证明“瑞士的”语言平等方案在俄国多民族地区不适用。",
+          "qualifiers": "针对俄国20万居民中4万操两种方言的县或地区。",
+          "contrast_or_target": "机会主义者认为“瑞士的”解决办法是例外，不适用于俄国的民族地区。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "通过反讽挑战论敌，揭示其观点在俄国具体民族构成面前的无力。"
+        },
+        "implication": "暗示“瑞士模式”在俄国具有普遍适用性。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "谢姆柯夫斯基、李普曼及其他机会主义者",
+      "their_view": "他们认为“瑞士的”语言平等方案是特殊例外，不适用于俄国的民族地区。",
+      "author_response": "列宁用俄国具体民族构成数据反讽，指出他们无法证明该方案在俄国不适用。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p99s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  }
+}

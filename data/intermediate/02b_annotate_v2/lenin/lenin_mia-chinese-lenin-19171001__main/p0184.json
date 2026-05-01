@@ -1,0 +1,55 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 184,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁指出《新生活报》关于敌对力量进攻的论点中存在一个逻辑和政治上的错误。",
+    "importance_score": 2,
+    "importance_reason": "本段是列宁对《新生活报》具体论点的批判，属于核心批判的组成部分。",
+    "argument_role": "continues",
+    "argument_link": "本段延续上一段对《新生活报》的批判，具体指出其关于敌对力量进攻的论点中的错误。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "《新生活报》",
+      "their_view": "敌对力量的进攻会消灭无产阶级专政。",
+      "author_response": "列宁指出这种看法包含一个逻辑和政治上的错误。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p184s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

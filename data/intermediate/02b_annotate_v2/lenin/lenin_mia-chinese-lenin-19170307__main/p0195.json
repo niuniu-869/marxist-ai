@@ -1,0 +1,86 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 195,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段论证无产阶级和贫苦农民作为革命主力的阶级基础和战争态度，为上一段提出的政权归工人和贫苦农民的主张提供支撑。",
+    "importance_score": 2,
+    "importance_reason": "提供了阶级分析和战争态度的论据，支撑了前一段关于政权归属的核心论点。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于政权应归工人和贫苦农民的论断，具体阐述这一阶级群体的人口优势、战争中的共同利益以及他们追求和平的内在动力。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p195s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p195s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p195s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "资本",
+            "type": "concept",
+            "modern": "在政治经济学中，指能够带来剩余价值的价值，体现为生产资料和货币等形式。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "capital_general"
+          },
+          {
+            "surface": "资本家强盗集团",
+            "type": "metaphor",
+            "modern": "列宁用此词形容相互竞争、为争夺利益而结成暂时同盟的各国资产阶级。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 2,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

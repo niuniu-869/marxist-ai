@@ -1,0 +1,77 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 19,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段指出小资产阶级敌人将斗争焦点转向国内政策和经济建设，其手段是破坏无产阶级的经济计划，并将小资产阶级自发势力定性为无产阶级的敌人。",
+    "importance_score": 2,
+    "importance_reason": "承接上一段关于斗争焦点的论断，具体化斗争场所和敌人性质，支撑核心论点。",
+    "argument_role": "continues",
+    "argument_link": "上一段提出无产阶级纪律与小资产阶级自发势力的斗争是当前焦点，本段具体说明敌人在哪里斗争以及他们的手段。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "小资产阶级反对派",
+      "their_view": "将斗争的主要场所从政治领域转移到国内政策和经济建设领域，试图通过破坏手段来对抗苏维埃政权。",
+      "author_response": "列宁指出，这种斗争方式正是小资产阶级自发势力的表现，其破坏行为旨在阻碍有组织的社会主义经济事业的建立。",
+      "polemic_kind": "reveals_class_basis",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p19s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "小资产阶级",
+            "type": "concept",
+            "modern": "在1918年苏俄语境下，主要指农民、小手工业者、小商贩等拥有少量生产资料的群体，其经济地位和思想倾向介于无产阶级与资产阶级之间。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "class_marxist"
+          }
+        ]
+      },
+      {
+        "sid": "p19s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p19s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

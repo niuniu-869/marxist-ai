@@ -1,0 +1,95 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 208,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段说明共产党在法国的联合与对抗对象，并指出对社会民主党错误观念的批判态度。",
+    "importance_score": 2,
+    "importance_reason": "本段以法国为例，具体阐述共产党在联合其他党派时保持批判立场的策略，支撑上段关于斗争原则的论述。",
+    "argument_role": "continues",
+    "argument_link": "本段延续上段关于共产党与其他党派关系的讨论，通过法国实例展示联合与批判的具体应用。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "法国社会民主党",
+        "explain": "19世纪法国工人运动中的一个派别，主张通过议会改良实现社会主义，与共产党有联合但存在理论分歧。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p208s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "社會民主黨",
+            "type": "org",
+            "modern": "19世纪法国工人运动中的改良主义政党，主张议会道路。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "保守黨",
+            "type": "org",
+            "modern": "法国政治中的保守派政党，维护资产阶级利益。",
+            "highlight": null,
+            "confidence": "medium",
+            "source_basis": "inferred"
+          }
+        ]
+      },
+      {
+        "sid": "p208s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "大革命",
+            "type": "event",
+            "modern": "1789年法国大革命，其原则被社会民主党继承但被共产党批判。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 3,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

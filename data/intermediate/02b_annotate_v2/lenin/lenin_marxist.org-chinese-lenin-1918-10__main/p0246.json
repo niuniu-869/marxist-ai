@@ -1,0 +1,72 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 246,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁以反讽口吻，转述考茨基对德国工人就苏维埃开除反对派代表一事所发表的言论。",
+    "importance_score": 1,
+    "importance_reason": "作为前段批评的具体例证，展示考茨基如何就苏维埃的具体政治行动向外国工人发表议论。",
+    "argument_role": "example",
+    "argument_link": "承接上段对考茨基空谈革命章程的批评，本段举例说明考茨基如何就苏维埃的实际政治行动（开除反对派）进行议论。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "allusion",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "犹杜什卡·戈洛夫廖夫",
+        "explain": "俄国作家冈察洛夫小说《奥勃洛摩夫》中的人物，一个伪善、空谈、脱离实际的典型。列宁用此绰号讽刺考茨基。",
+        "why_needed": "allusion",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "考茨基",
+      "their_view": "考茨基向德国工人表示，对苏维埃政权开除右派社会革命党人和孟什维克代表的做法感到愤慨。",
+      "author_response": "列宁用“犹杜什卡·戈洛夫廖夫”这一伪善空谈者的绰号来称呼考茨基，反讽其“义愤填膺”的姿态。",
+      "polemic_kind": "counter_quotation",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p246s1",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": [
+          {
+            "surface": "犹杜什卡·戈洛夫廖夫",
+            "type": "person",
+            "modern": "俄国文学作品中伪善空谈者的典型，列宁以此讽刺考茨基。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_social_group_13>12"
+      ]
+    }
+  ]
+}

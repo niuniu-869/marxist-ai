@@ -1,0 +1,119 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 7,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "揭示庸俗经济学混乱背后的阶级动机，指出统治阶级需要维持这种思想混乱来维护现存制度。",
+    "importance_score": 2,
+    "importance_reason": "本段将前段对庸俗经济学的批判，从认识论层面推进到阶级利益层面，揭示了论战的深层社会根源。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对庸俗经济学家忽视内部联系的批判，进一步揭示这种忽视并非偶然，而是服务于统治阶级的特定利益。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p7s2",
+        "quote": "内部联系一旦被了解，相信现存制度的永恒必要性的一切理论信仰，还在现存制度实际崩溃以前就会破灭。",
+        "trigger": "inverted_logic",
+        "reader_block": "读者可能不理解为什么“了解内部联系”会导致“理论信仰破灭”，这需要理解马克思的论点是揭示资本主义的历史暂时性。",
+        "parse": {
+          "claim": "一旦把握了社会生产的真实关联，那些为现存制度辩护的永恒性理论就会失去根基。",
+          "qualifiers": "在现存制度实际崩溃以前",
+          "contrast_or_target": ""
+        },
+        "why": {
+          "relation": "continues",
+          "explanation": "这是对前段“内部联系”概念的深化，指出把握这种联系具有颠覆现存意识形态的实践力量。"
+        },
+        "implication": "对政治经济学的科学研究本身，就构成了对资本主义制度合法性的挑战。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      },
+      {
+        "anchor": "p7s4",
+        "quote": "那些造谣中伤的空谈家不凭这一点，又凭什么取得报酬呢？",
+        "trigger": "inverted_logic",
+        "reader_block": "反问句式“不凭这一点，又凭什么……”实际是肯定陈述，读者可能误以为在提问。",
+        "parse": {
+          "claim": "这些空谈家正是依靠维持思想混乱来获取报酬。",
+          "qualifiers": "",
+          "contrast_or_target": ""
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "直接指向论敌的动机，将他们的学术活动与统治阶级的物质利益联系起来。"
+        },
+        "implication": "庸俗经济学的流行并非源于其科学性，而是因为它提供了意识形态服务。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "庸俗经济学家",
+      "their_view": "价值概念需要证明，只抓住现象表面，忽视内部联系。",
+      "author_response": "马克思指出他们制造混乱是为了维护统治阶级利益，其作用是阻止对政治经济学的真正思考。",
+      "polemic_kind": "reveals_class_basis",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p7s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p7s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "内部联系",
+            "type": "concept",
+            "modern": "在政治经济学中，指支配经济现象表面运动的、隐藏的生产关系总和。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "value_political_economy"
+          }
+        ]
+      },
+      {
+        "sid": "p7s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p7s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "空谈家",
+            "type": "social_group",
+            "modern": "此处特指那些为统治阶级利益服务的庸俗经济学家。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p7s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  }
+}

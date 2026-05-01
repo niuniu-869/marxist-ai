@@ -1,0 +1,73 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 40,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁引用恩格斯的观点，强调无产阶级政党应积极参与临时革命政府并发挥军事主动性，以此反驳党内反对参加临时政府的立场。",
+    "importance_score": 2,
+    "importance_reason": "本段通过引用恩格斯的权威论述，为作者关于参加临时革命政府的主张提供直接论据，是论证链条中的重要支撑环节。",
+    "argument_role": "continues",
+    "argument_link": "本段延续上一段对恩格斯观点的引用，从批判无政府主义转向正面阐述恩格斯对参加革命政府和军事主动性的具体主张。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "term_density",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "雅各宾主义者",
+        "explain": "指法国大革命中雅各宾派的革命传统，强调采取果断行动和集中权力。列宁用此标签形容恩格斯，意指其主张无产阶级政党应积极参与革命政府并发挥领导作用。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p40s1",
+        "speaker": "quoted_engels",
+        "stance": "endorsed",
+        "notes": []
+      },
+      {
+        "sid": "p40s2",
+        "speaker": "quoted_engels",
+        "stance": "endorsed",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 3,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_6>5",
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix",
+        "hs:claim_5gram_with_quote",
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

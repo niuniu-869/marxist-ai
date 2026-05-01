@@ -1,0 +1,107 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 121,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁描述革命高潮退去后，转向有计划活动的时期，并评价孟什维克派将组织建设与利用合法机会作为首要任务。",
+    "importance_score": 2,
+    "importance_reason": "承接上文对革命热情消退的描述，引出对孟什维克策略转向的评价，在论证中起承上启下的支撑作用。",
+    "argument_role": "continues",
+    "argument_link": "本段承接上一段关于革命热情如“旋风”般消退的论述，指出随之而来的是需要恢复“自觉的、有计划的”活动阶段。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p121s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p121s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "狂飙突进时期",
+            "type": "event",
+            "modern": "1905年革命的高潮阶段，特征是自发的群众运动和武装起义。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p121s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p121s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "孟什维克",
+            "type": "org",
+            "modern": "俄国社会民主工党内主张参加杜马选举、与自由派合作的派别。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p121s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "合法性",
+            "type": "concept",
+            "modern": "在沙皇法律框架内进行活动的可能性，孟什维克主张利用。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "legality_bourgeois"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 3,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

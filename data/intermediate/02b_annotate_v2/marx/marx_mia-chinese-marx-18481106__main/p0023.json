@@ -1,0 +1,101 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 23,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "作者将巴黎与维也纳的镇压事件比作戏剧的两幕，指出其共同点是利用被收买的流氓无产阶级来对抗真正的无产阶级，并预言柏林将上演第三幕。",
+    "importance_score": 2,
+    "importance_reason": "本段通过戏剧比喻，将不同地点的反革命事件联系起来，揭示了反动势力镇压革命的共同策略，为后续分析柏林局势做铺垫。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于维也纳与法兰克福冲突的分析，将维也纳的失败置于更广阔的欧洲革命与反革命斗争图景中，并指出其与巴黎事件的内在联系。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "“六月的日子”",
+        "explain": "指1848年6月巴黎工人起义被资产阶级临时政府镇压的事件，是法国革命期间无产阶级与资产阶级的首次大规模武装冲突。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "“别动队”与“克罗地亚人”",
+        "explain": "“别动队”是法国资产阶级政府为镇压巴黎起义而招募的流氓无产者武装；“克罗地亚人”指奥地利军队中用于镇压维也纳起义的克罗地亚籍雇佣兵。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p23s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "六月的日子",
+            "type": "event",
+            "modern": "1848年6月巴黎工人起义被镇压的事件，是法国革命进程中的关键转折点。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p23s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "别动队",
+            "type": "social_group",
+            "modern": "1848年法国资产阶级政府为镇压巴黎工人起义而临时招募的武装人员，多为流氓无产者。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p23s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 77,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段批判“民族文化的自治”计划，指出其本质是按民族分割教育事业，并强调其反动性。",
+    "importance_score": 3,
+    "importance_reason": "直接批判崩得的民族文化自治纲领，是全文核心论战点之一。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对按民族分割教育的批判，本段具体剖析“超地域的”民族文化自治计划的实质，并定性其反动。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "崩得（Bund）",
+        "explain": "全称“立陶宛、波兰和俄罗斯犹太工人总联盟”，是俄国社会民主工党内的犹太工人组织。它主张“民族文化自治”，即犹太民族作为一个整体应拥有管理自身文化教育事务的权利，与列宁主张的国际主义原则相冲突。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "崩得",
+      "their_view": "主张通过“超地域的”民族文化自治来解决民族问题，认为犹太工人应首先关心和发展本民族的文化教育事业。",
+      "author_response": "列宁指出，这种计划的本质就是按民族划分教育事业，无论从民主派还是无产阶级阶级斗争的观点看，都具有反动性。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p77s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p77s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "教育事业",
+            "type": "concept",
+            "modern": "在本文语境中，特指由国家或社会提供的公共教育体系，是民族文化自治纲领试图按民族分割的核心领域。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "education_system"
+          }
+        ]
+      },
+      {
+        "sid": "p77s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 2,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_7>5",
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 36,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁引用恩格斯对英国费边派的批评，以揭露其害怕革命、与资产阶级政党妥协的策略，并将其与伯恩施坦派的机会主义联系起来。",
+    "importance_score": 2,
+    "importance_reason": "通过引用恩格斯对具体派别的批判，为反对机会主义、坚持革命策略提供历史论据。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段对德国党内调和主义的批评，将批判范围扩展至英国的费边派，展示机会主义在不同国家的具体表现。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "费边派",
+        "explain": "19世纪末英国的一个社会主义团体，由知识分子组成。他们承认社会变革的必然性，但反对暴力革命，主张通过渐进改良和渗透资产阶级政党（如自由党）来实现社会主义。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "费边派",
+      "their_view": "社会变革不可避免，但不能交给无产阶级单独去做，应由有教养的人来领导。他们害怕革命，主张生产资料归公社所有，并采取与自由党人合作、渗透自由主义的策略。",
+      "author_response": "列宁借恩格斯之口，揭露费边派害怕革命的本质，批判其模糊阶级界限、与资产阶级政党妥协的策略是欺骗社会主义。",
+      "polemic_kind": "reveals_class_basis",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p36s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p36s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "费边派",
+            "type": "social_group",
+            "modern": "19世纪末英国一个由知识分子组成的社会主义团体，主张渐进改良。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p36s3",
+        "speaker": "quoted_engels",
+        "stance": "endorsed",
+        "notes": [
+          {
+            "surface": "野心家",
+            "type": "concept",
+            "modern": "在当时语境下，指有政治野心、企图主导运动的人。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "ambition_political"
+          },
+          {
+            "surface": "粗鲁的无产阶级",
+            "type": "social_group",
+            "modern": "恩格斯的反讽说法，指直接从事体力劳动的工人阶级，费边派认为他们不够‘文明’。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          },
+          {
+            "surface": "用社会主义渗透自由主义",
+            "type": "slogan",
+            "modern": "费边派的策略口号，指不直接对抗自由党，而是推动其接受社会主义结论。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 4,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_8>5"
+      ]
+    }
+  ]
+}

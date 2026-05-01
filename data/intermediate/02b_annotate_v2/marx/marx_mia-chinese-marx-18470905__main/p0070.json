@@ -1,0 +1,63 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 70,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段通过历史类比，指出王权采用路易十六的论调，暴露其统治困境，并暗示法国人民曾以革命回应。",
+    "importance_score": 1,
+    "importance_reason": "本段作为论证过渡，用法国大革命的历史教训强化对王权论调的批判，为后续反驳莱茵观察家铺垫。",
+    "argument_role": "continues",
+    "argument_link": "本段延续上段对国教顾问言论的批判，进一步用路易十六和法国人民的例子，说明王权言辞的危险性。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "法国大革命对路易十六的回应",
+        "explain": "1789年法国大革命中，人民推翻了路易十六的统治，最终导致其被处决。马克思用此历史事件类比王权当前的困境。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "莱茵观察家的国教顾问",
+      "their_view": "王权与人民利益一致，是一个统一的整体。",
+      "author_response": "王权使用路易十六的言辞，表明其处境窘迫，法国人民曾以革命回应路易十六的类似言论。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p70s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

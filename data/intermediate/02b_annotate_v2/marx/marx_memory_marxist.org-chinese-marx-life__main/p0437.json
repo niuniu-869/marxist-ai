@@ -1,0 +1,66 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 437,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "作者指控政府连续实施暴力，违反人身保护令等关键法律，借戒严推行军事专制，驱逐议员，并揭露政府自身违法却苛求议会守规则的虚伪。",
+    "importance_score": 2,
+    "importance_reason": "本段通过列举政府具体违法行为，为作者批判专制政权提供实证支撑。",
+    "argument_role": "continues",
+    "argument_link": "上段讨论检察机关援引法律进行控告，本段转向批评政府自身践踏法律，形成对政府双重标准的揭露。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "人身保护令与市民自卫团法",
+        "explain": "Habeas Corpus Akte是保障公民免于非法拘禁的法律，市民自卫团法涉及地方武装组织。在19世纪德意志邦联时期，这些法律被政府违反，反映其专制倾向。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p437s1",
+        "quote": "“政府接二连三地采取暴力行动。它肆无忌惮地违犯极重要的法律，Habeas Corpus Akte， [21] 市民自卫团法。它在戒严的幌子下任意实行无限制的军事专制。它甚至把人民代表本身都给赶跑了。而当一方蛮横无礼地违犯一切法律的时候，却要求另一方甚至最严格地遵守会议规则!” [22]",
+        "trigger": "inverted_logic",
+        "reader_block": "反讽结构：政府自身无视法律却要求议会守规则，读者可能困惑于这种双重标准的逻辑。",
+        "parse": {
+          "claim": "政府自身肆意违反法律，却要求议会严格遵守程序规则。",
+          "qualifiers": "在政府采取暴力行动、违反人身保护令等法律并实行军事专制的背景下。",
+          "contrast_or_target": "政府作为违法一方，与议会作为被要求守规则的一方形成对比。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "通过对比政府的违法行为和对议会的苛刻要求，揭露其虚伪和专制本质，直接反驳政府的合法性主张。"
+        },
+        "implication": "这暗示政府的法律要求是压制议会的工具，而非真正维护法治。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "政府",
+      "their_view": "政府主张其采取暴力行动和违反法律是必要的，同时要求议会必须遵守会议规则。",
+      "author_response": "作者指出政府自身违法却苛求议会，揭露其双重标准和专制本质。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "medium"
+    },
+    "sentences": [
+      {
+        "sid": "p437s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  }
+}

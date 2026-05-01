@@ -1,0 +1,63 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 221,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "作者揭露法夫尔通告中对国际的指控实为帝国警察言论的翻版，且已被帝国自身法庭证伪。",
+    "importance_score": 1,
+    "importance_reason": "本段举例说明法夫尔攻击国际的具体内容，支撑前文对法夫尔引证章程的批评。",
+    "argument_role": "continues",
+    "argument_link": "本段承接上段关于法夫尔引证章程的叙述，进一步分析其通告的实质。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "text_anomaly",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "text_anomaly",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "排版残留",
+        "explain": "原文‘重 帝国检察官’中‘重’后有空格，可能为‘重复’或‘重述’的残缺，影响阅读流畅性。",
+        "why_needed": "text_anomaly",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "茹尔·法夫尔",
+      "their_view": "法夫尔在通告中指控国际，重复帝国检察官的警察式言论。",
+      "author_response": "作者指出这些言论是帝国法庭都已揭穿的奇谈怪论，法夫尔的反对帝国只是伪装。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p221s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

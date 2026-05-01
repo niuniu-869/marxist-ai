@@ -1,0 +1,112 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 14,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁预言德奥工人将认清机会主义领袖的背叛，并指出只有用新型国家形式才能实现社会主义。",
+    "importance_score": 3,
+    "importance_reason": "本段是全文核心论点之一，直接点明无产阶级专政的历史必然性与实现路径。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段关于无产阶级专政必要性的论证，进一步预言其在德奥革命中的历史必然性，并具体指出实现形式。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "奥斯特尔利茨与伦纳",
+        "explain": "奥斯特尔利茨是奥地利社会民主党领袖，伦纳是奥地利政治家，两人均在1918年德奥革命后主导了资产阶级共和国政府，被列宁视为背叛社会主义事业的代表。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "孟什维克与社会革命党人",
+        "explain": "二者是俄国革命中的小资产阶级政党，主张与资产阶级妥协，反对无产阶级夺取全部政权。列宁在此将其作为已被俄国无产阶级唾弃的先例。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p14s5",
+        "quote": "无产阶级一定会看出，——上述这些“领袖”的统治愈厉害就会愈快地看出，——只有用巴黎公社式的国家（关于这种国家，马克思谈得很多，但谢德曼和考茨基之流歪曲和背叛了马克思）或苏维埃式的国家代替资产阶级的国家（包括最民主的资产阶级共和国在内），才能为社会主义开辟道路。",
+        "trigger": "long_nested",
+        "reader_block": "句子被两层破折号插入语打断，且包含“巴黎公社式的国家”“苏维埃式的国家”“资产阶级的国家”等多个并列概念，读者难以快速抓住主干论断。",
+        "parse": {
+          "claim": "新型的、以巴黎公社或苏维埃为形式的国家，是取代一切资产阶级国家（无论其民主程度如何）并开启社会主义道路的唯一前提。",
+          "qualifiers": "这一认识的清晰程度，与机会主义领袖的统治压迫程度成正比。",
+          "contrast_or_target": "谢德曼和考茨基等人歪曲马克思关于国家形式的论述，主张保留资产阶级国家机器。"
+        },
+        "why": {
+          "relation": "conclusion",
+          "explanation": "本句是前文对机会主义批判的逻辑结论，明确指出了无产阶级革命在国家形式上的具体目标，即打碎旧的国家机器，建立新型国家。"
+        },
+        "implication": "这意味着无产阶级革命不仅是政权更迭，更是国家形式的根本变革，任何保留旧国家机器的改良路线都是对马克思学说的背叛。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "谢德曼、考茨基、奥斯特尔利茨、伦纳",
+      "their_view": "他们自称为社会主义者，却在德奥革命后领导或拥护资产阶级共和国，背叛了社会主义事业，其统治实质是维护资产阶级利益。",
+      "author_response": "列宁断言无产阶级必将认清并唾弃这些“社会叛徒”，历史将证明只有通过无产阶级专政的新型国家才能实现社会主义。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p14s1",
+        "speaker": "quoted_marx",
+        "stance": "endorsed",
+        "notes": []
+      },
+      {
+        "sid": "p14s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p14s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p14s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "社会叛徒",
+            "type": "metaphor",
+            "modern": "列宁对口头宣称社会主义、实际维护资产阶级利益的领袖的定性。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p14s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p14s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  }
+}

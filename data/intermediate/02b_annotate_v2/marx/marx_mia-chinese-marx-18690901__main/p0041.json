@@ -1,0 +1,137 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 41,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段报告奥地利工人运动的进展，并批判奥地利自由资产阶级在自身地位不稳的情况下，仍积极剥夺工人的基本权利。",
+    "importance_score": 2,
+    "importance_reason": "作为报告的一部分，提供了国际工人协会在欧洲大陆扩展的具体案例，并深化了对资产阶级矛盾性的批判。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于各国政府迫害国际协会的叙述，将焦点转向奥地利，具体展示资产阶级的迫害行为及其内在矛盾。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "1866年事件",
+        "explain": "指1866年普奥战争，奥地利战败导致国内政治格局变动，自由派资产阶级借此上台，但帝国面临分裂危机。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "爱森纳赫代表大会",
+        "explain": "1869年8月在德国爱森纳赫召开的代表大会，成立了德国社会民主工党（爱森纳赫派），并宣布加入国际工人协会。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p41s5",
+        "quote": "资产阶级并不是以自己的英勇而只是由于奥军的失败才取得了新的地位[320]，它自己也明明知道，它未必能够保住既得的东西，使之不受王朝、贵族和教会的侵犯；",
+        "trigger": "long_nested",
+        "reader_block": "句子包含两个对比性分句，先否定资产阶级地位的来源（英勇），再肯定其来源（奥军失败），接着转折指出其对自身地位的不安全感，逻辑层次多。",
+        "parse": {
+          "claim": "奥地利资产阶级获得当前政治地位的原因，并非其自身奋斗，而是外部军事失败的偶然结果。",
+          "qualifiers": "特指奥地利自由资产阶级在1866年后的处境。",
+          "contrast_or_target": ""
+        },
+        "why": {
+          "relation": "continues",
+          "explanation": "承接上句对资产阶级“利己本能”的批判，进一步揭露其统治基础的脆弱性，为下文批判其转嫁危机、迫害工人做铺垫。"
+        },
+        "implication": "一个自身统治基础不牢靠的阶级，却将精力用于镇压唯一代表团结力量的工人运动，凸显其行为的短视与反动。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "奥地利自由资产阶级",
+      "their_view": "工人运动是帝国分裂的威胁，必须剥夺其结社、集会和出版自由等权利，以维护秩序。",
+      "author_response": "马克思揭露，资产阶级自身地位源于王朝、贵族和教会的失败，其统治并不稳固；他们迫害工人，恰恰是因为工人阶级主张一切种族和民族的团结，而这正是解决帝国分裂危机的唯一出路。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p41s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p41s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "爱森纳赫代表大会",
+            "type": "org",
+            "modern": "1869年8月在德国成立的德国社会民主工党的成立大会，该党宣布加入国际工人协会。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p41s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "自由资产阶级",
+            "type": "social_group",
+            "modern": "19世纪欧洲主张自由主义、反对封建特权的资产阶级派别，在奥地利指当时执政的自由派内阁。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p41s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p41s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p41s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 1,
+        "hs_kept": 1,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

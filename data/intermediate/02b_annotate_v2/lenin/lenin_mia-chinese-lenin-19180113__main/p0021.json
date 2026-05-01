@@ -1,0 +1,168 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 21,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁回应关于铁路职员薪酬的传言，澄清其非苏维埃政权意图，并以银行职员服从为例，论证粉碎资本家反抗和怠工是解决饥荒与无政府状态的关键。",
+    "importance_score": 2,
+    "importance_reason": "本段是列宁对具体政策质疑的回应，并以银行为例，论证其关于粉碎反抗、争取关键机构服从的核心主张。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段关于饥荒与怠工的讨论，具体化“粉碎资本家反抗”的措施，并以银行职员的服从声明作为争取中间力量的实例。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "芬－叶诺塔耶夫斯基",
+        "explain": "当时一位孟什维克理论家，此处代表银行职员与苏维埃政权接洽。了解其政治派别有助于理解列宁为何强调其声明的“服从”性质。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "《新生活报》",
+        "explain": "当时孟什维克的报纸，常批评苏维埃政权。列宁在此点名反驳其关于怠工未止的报道。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p21s6",
+        "quote": "既然《新生活报》的拥护者和其他所谓的社会主义报刊说，两个半月过去了，怠工并没有停止，那我不禁要问：为什么你们不帮助我们制止这种怠工呢？",
+        "trigger": "inverted_logic",
+        "reader_block": "反问句式，读者可能只看到列宁在质问，但不易察觉其将“怠工未止”的责任从苏维埃政权转移到批评者身上。",
+        "parse": {
+          "claim": "批评者指责苏维埃政权未能制止怠工，但列宁认为，这些批评者自身并未采取行动来帮助制止怠工。",
+          "qualifiers": "时间限定为“两个半月过去了”；对象限定为《新生活报》拥护者及其他所谓社会主义报刊。",
+          "contrast_or_target": "《新生活报》拥护者等认为，苏维埃政权应为怠工持续负责，因为其未能有效制止。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "直接反驳《新生活报》等对苏维埃政权的指责，通过反问揭露批评者自身的不作为，从而转移责任归属。"
+        },
+        "implication": "列宁暗示，真正的社会主义者应协助新政权克服困难，而非仅仅旁观指责。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "《新生活报》的拥护者和其他所谓的社会主义报刊",
+      "their_view": "苏维埃政权成立两个半月了，但怠工现象并未停止，这说明政权无力解决经济破坏问题。",
+      "author_response": "列宁质问这些批评者为何不亲自帮助制止怠工，并以银行职员服从为例，说明政权正在有效争取关键部门，问题的根源在于资本家的反抗。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p21s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p21s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p21s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p21s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p21s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p21s6",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": [
+          {
+            "surface": "《新生活报》",
+            "type": "work",
+            "modern": "1917年在彼得格勒出版的孟什维克日报，常发表批评苏维埃政府的文章。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p21s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p21s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "芬－叶诺塔耶夫斯基",
+            "type": "person",
+            "modern": "当时一位孟什维克理论家，此处作为银行职员代表与列宁会面。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p21s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p21s10",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p21s11",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 1,
+        "hs_kept": 1,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

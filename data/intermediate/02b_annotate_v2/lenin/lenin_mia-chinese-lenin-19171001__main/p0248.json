@@ -1,0 +1,73 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 248,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁反驳论敌对布尔什维克的讥笑，指出对方同样陷入慌乱，并警告党内若沾染此情绪将危及革命。",
+    "importance_score": 2,
+    "importance_reason": "本段直接反驳论敌讥笑，强化革命行动的紧迫性与必要性。",
+    "argument_role": "contrasts",
+    "argument_link": "上段强调国内战争形势的严重性，本段则直接回击论敌对布尔什维克的讥笑，指出对方同样慌乱，从而强化了革命行动的紧迫性。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "立宪民主党人、社会革命党人、新生活派",
+      "their_view": "他们讥笑布尔什维克在斯莫尔尼宫张皇失措，认为布尔什维克不敢或不能夺取并保持政权。",
+      "author_response": "列宁指出论敌自己同样慌乱，用空洞的立宪幻想回避国内战争的严峻问题。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p248s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p248s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p248s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p248s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

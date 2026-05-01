@@ -1,0 +1,66 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 177,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段呈现一个数字片段，可能指代前文内容，但文本本身不完整。",
+    "importance_score": 0,
+    "importance_reason": "文本异常，数字乱码，无法直接纳入论证链。",
+    "argument_role": "none",
+    "argument_link": null,
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "text_anomaly",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "text_anomaly",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "数字乱码",
+        "explain": "原文疑似排版残留或OCR错误，数字'6135 6292'可能为页码或编号，影响理解。",
+        "why_needed": "text_anomaly",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p177s1",
+        "quote": "1852年 6135 6292",
+        "trigger": "text_anomaly",
+        "reader_block": "数字乱码，读者无法理解其指代内容，可能为排版错误。",
+        "parse": {
+          "claim": "文本显示一个年份和两个数字，但含义不明。",
+          "qualifiers": null,
+          "contrast_or_target": null
+        },
+        "why": {
+          "relation": "none",
+          "explanation": ""
+        },
+        "implication": null,
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p177s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  }
+}

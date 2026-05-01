@@ -1,0 +1,100 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 58,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "马克思以连串讽刺比喻，揭露《科伦日报》及其主编勃律盖曼对“法制基础”这一概念的随意操纵与滥用，将其讽刺为一场魔术表演。",
+    "importance_score": 2,
+    "importance_reason": "本段是马克思对普鲁士资产阶级喉舌《科伦日报》进行具体批判的例证，通过讽刺手法揭示其理论的虚伪性与工具性。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对“法制基础”概念的讨论，本段具体展示这一概念如何被《科伦日报》反复摆弄、扭曲，最终沦为该报自身利益的辩护工具。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "rhetorical",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "勃律盖曼与《科伦日报》",
+        "explain": "勃律盖曼是《科伦日报》的主编。该报是普鲁士资产阶级的重要喉舌，在1848年革命期间持保守立场，主张与王权妥协，常以“法制基础”为旗号。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p58s2",
+        "quote": "又把它从法兰克福迁到柏林，把它缩小，又把它扩大，并把它从普通的基础变为镶木地板，又从镶木地板变为双层底（大家知道，这是游艺场上魔术家的主要工具），再从双层底变为无底陷阱，",
+        "trigger": "rhetorical",
+        "reader_block": "一连串比喻（镶木地板、双层底、无底陷阱）层层递进，讽刺意味浓厚，读者需要理解每个比喻所指的“法制基础”被扭曲的程度。",
+        "parse": {
+          "claim": "《科伦日报》对“法制基础”的操纵，如同魔术师的道具，可以随意变换形态，从一个看似稳固的基础，变成一个中空的、具有欺骗性的结构，最终变成一个吞噬一切的陷阱。",
+          "qualifiers": "这是对《科伦日报》行为的讽刺性描述，限定于其对“法制基础”概念的运用方式。",
+          "contrast_or_target": "《科伦日报》声称自己是“法制基础”的坚定维护者和解释者。"
+        },
+        "why": {
+          "relation": "example",
+          "explanation": "本句用一系列递进的比喻，具体举例说明上一句（p58s1）中“破坏了它，又把它修补好”等行为的实质，即对概念的任意扭曲。"
+        },
+        "implication": "这种操纵表明，《科伦日报》所捍卫的并非真正的法制原则，而是其自身可以随意解释和利用的工具。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p58s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p58s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p58s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p58s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 1,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

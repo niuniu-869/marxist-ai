@@ -1,0 +1,110 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 91,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "定义资本的本质，强调其不是物，而是一种特定的资产阶级生产关系。",
+    "importance_score": 3,
+    "importance_reason": "核心论点，将资本从物质实体重新定义为社会关系，是理解全书逻辑的关键。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于生产关系构成社会的论述，将资本明确界定为一种特定的生产关系。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p91s5",
+        "quote": "并且，难道不正是这种一定的社会性质把那些用来进行新生产的产品变为资本的吗？",
+        "trigger": "inverted_logic",
+        "reader_block": "反问句，读者需要理解“这种一定的社会性质”指代前文的社会关系，并还原其肯定含义。",
+        "parse": {
+          "claim": "正是特定的社会关系性质，使产品转变为资本。",
+          "qualifiers": "",
+          "contrast_or_target": "反驳将资本视为产品固有自然属性的观点。"
+        },
+        "why": {
+          "relation": "conclusion",
+          "explanation": "总结前两个反问，得出资本本质在于其社会性质的结论，完成本段核心论证。"
+        },
+        "implication": "资本的定义核心在于其社会关系属性，而非物质属性。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p91s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "资本",
+            "type": "concept",
+            "modern": "马克思在此处将资本界定为一种社会关系，而非单纯的物或货币。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "capital_marxist_theory"
+          }
+        ]
+      },
+      {
+        "sid": "p91s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p91s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p91s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p91s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 2,
+        "hs_kept": 1,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "note:n1_overflow_concept_6>5",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 42,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "通过逻辑推演，揭示新检查令在宗教批评问题上设置的矛盾标准，最终证明其完全禁止任何批评。",
+    "importance_score": 2,
+    "importance_reason": "本段是核心批判的一部分，通过逻辑分析揭露检查令的内在矛盾。",
+    "argument_role": "continues",
+    "argument_link": "延续上一段对检查令将“宗教”改为“基督教”的批判，进一步分析其在宗教批评方式上设置的矛盾标准。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p42s9",
+        "quote": "对于宗教，既不能用敌对的方式去攻击，也不能用轻佻的方式去攻击，既不能一般地去攻击，也不能特殊地去攻击，这就是说，根本不许攻击。",
+        "trigger": "inverted_logic",
+        "reader_block": "连续的“既不能……也不能……”排比结构，读者可能被否定形式绕晕，难以快速抓住最终结论。",
+        "parse": {
+          "claim": "检查令通过禁止所有可能的批评方式，实质上完全禁止对宗教的任何批评。",
+          "qualifiers": "",
+          "contrast_or_target": ""
+        },
+        "why": {
+          "relation": "conclusion",
+          "explanation": "总结前文对“轻佻”和“敌对”两种批评方式的分析，得出检查令完全禁止宗教批评的结论。"
+        },
+        "implication": "直接点明检查令的最终目的，是本段论证的落脚点。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "普鲁士书报检查令",
+      "their_view": "新检查令声称允许对宗教的某些批评，但要求批评必须“严肃和谦逊”，并区分了“轻佻”和“敌对”的攻击方式。",
+      "author_response": "马克思通过逻辑分析指出，这种区分在实践中无法成立，任何严肃批评都会被归为“敌对”，而任何表面批评都是“轻佻”，因此实质上禁止一切批评。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p42s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p42s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p42s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p42s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p42s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p42s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p42s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p42s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p42s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 1,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

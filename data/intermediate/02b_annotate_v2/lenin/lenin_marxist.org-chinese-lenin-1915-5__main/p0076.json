@@ -1,0 +1,111 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 76,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁批判考茨基用“纯粹”概念为机会主义辩护，运用辩证法指出战争本质是帝国主义的，民族词句只是欺骗手段。",
+    "importance_score": 2,
+    "importance_reason": "本段是核心批判的一部分，通过辩证法分析直接驳斥考茨基为战争性质辩护的论点。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段对战争性质的辩证分析，具体批判考茨基如何歪曲这一分析来为机会主义开脱。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p76s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p76s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "辩证法",
+            "type": "concept",
+            "modern": "马克思主义关于事物普遍联系和矛盾运动的哲学方法，强调认识事物的全部复杂性而非孤立、静止的“纯粹”形态。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "dialectics_marxist"
+          }
+        ]
+      },
+      {
+        "sid": "p76s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p76s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p76s5",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p76s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p76s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "帝国主义",
+            "type": "concept",
+            "modern": "列宁理论中资本主义发展的最高阶段，其特征是垄断、金融资本和瓜分世界，是本次战争的根本性质。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "imperialism_lenin"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "polemic:eval_word:their_view:极为"
+      ]
+    }
+  ]
+}

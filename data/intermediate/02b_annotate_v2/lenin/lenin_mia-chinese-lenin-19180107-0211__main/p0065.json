@@ -1,0 +1,85 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 65,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "介绍布尔什维克党中央莫斯科区域局的管辖范围及其在1918年春季前作为左派共产主义者派别中心的角色。",
+    "importance_score": 1,
+    "importance_reason": "提供党内组织背景，解释左派共产主义者的基地。",
+    "argument_role": "none",
+    "argument_link": "",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "莫斯科区域局",
+        "explain": "布尔什维克党中央在莫斯科及周边工业省份的全权代表机关，负责领导地方党组织。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "左派共产主义者",
+        "explain": "1918年初党内反对签订布列斯特和约的激进派别，主张立即进行革命战争。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p65s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p65s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "左派共产主义者",
+            "type": "org",
+            "modern": "1918年党内反对和约的激进派别，以莫斯科区域局为中心。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_org_19>16"
+      ]
+    }
+  ]
+}

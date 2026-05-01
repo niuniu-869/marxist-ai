@@ -1,0 +1,96 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 7,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁指出，反对缔约者客观上帮助了帝国主义者，并阐明了社会主义者在力量不足时应避免决战、等待时机的策略。",
+    "importance_score": 3,
+    "importance_reason": "本段是列宁阐述其核心策略思想的关键段落，直接论证了在力量对比不利时避免决战的必要性。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对“左派”声明的批判，本段从客观效果和战略必要性两个层面，进一步论证反对缔约主张的错误。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "“左派共产主义者”",
+      "their_view": "反对缔结布列斯特和约，主张立即对帝国主义发动进攻，认为这是进行国际革命宣传的实际行动。",
+      "author_response": "列宁指出，这种主张在客观上帮助了帝国主义者，因为社会主义者在力量不足时，直接使命是避免作战、等待帝国主义者相互削弱，从而加速其他国家的革命。",
+      "polemic_kind": "strategic_critique",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p7s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p7s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p7s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p7s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "帝国主义",
+            "type": "concept",
+            "modern": "列宁在此指第一次世界大战期间及战后，由金融资本统治、以瓜分世界和争夺霸权为特征的资本主义最高阶段。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "imperialism_marxist"
+          }
+        ]
+      },
+      {
+        "sid": "p7s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p7s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_6>5",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

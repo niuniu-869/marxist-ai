@@ -1,0 +1,64 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 57,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁主张将党名从“社会民主党”改为“共产党”，理由是该党领袖已背叛社会主义。",
+    "importance_score": 2,
+    "importance_reason": "本段提出具体组织建议，以反映党的新方向和与旧路线的决裂。",
+    "argument_role": "continues",
+    "argument_link": "上段讨论修改最低纲领，本段具体提出更改党名作为修改的一部分，以体现党的性质变化。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "社会民主党领袖（护国派和考茨基派）",
+      "their_view": "社会民主党的领袖们认为保卫祖国是正当的，支持临时政府，维护资产阶级利益。",
+      "author_response": "列宁指出这些领袖已背弃社会主义原则，因此党必须放弃旧名称，改称共产党。",
+      "polemic_kind": "reveals_class_basis",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p57s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "社会民主党",
+            "type": "org",
+            "modern": "19世纪末国际工人政党，在俄国指社会民主工党，1903年分裂为布尔什维克和孟什维克。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

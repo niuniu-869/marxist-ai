@@ -1,0 +1,103 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 12,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "分析农村小资产阶级（农民）革命性的历史暂时性，并论证唯有农村无产阶级才是彻底的革命力量。",
+    "importance_score": 3,
+    "importance_reason": "核心论点段落，阐明了列宁对俄国农村阶级力量的判断，是其土地纲领的阶级分析基础。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于农业雇佣工人阶级无法被消除的论断，进一步从阶级属性上论证其革命性，并与农民的革命性进行对比。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "小资产阶级（农民）",
+        "explain": "在马克思主义阶级分析中，指拥有少量生产资料（如小块土地）、主要依靠自身及家庭劳动、但可能少量雇佣或出卖劳动力的群体。其经济地位不稳定，具有革命与保守的双重性。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "欧洲式农场主",
+        "explain": "指西欧模式下，通过资本主义经营方式（如雇佣劳动、面向市场生产）实现规模化、商品化生产的富裕农民。列宁用此指代俄国农民在资本主义发展下可能分化出的上层。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p12s6",
+        "quote": "贫穷闭塞的农夫变成自由的、精力充沛的欧洲式农场主，是巨大的民主主义成果，但是我们，社会主义者，一刻也不能忘记，只有当觉悟的、自由的、组织起来的农村无产者与农场主相对抗时，也只有在这种情况下，这种成果才会为人类完全摆脱一切压迫的事业带来实际好处。",
+        "trigger": "inverted_logic",
+        "reader_block": "句子先肯定一个“成果”，随即用“但是”和双重条件句（“只有当……时，也只有在这种情况下”）进行限定，读者容易忽略后半部分的严格前提，误以为作者全盘肯定该变化。",
+        "parse": {
+          "claim": "小农转变为资本主义农场主本身具有进步意义，但这一进步只有在农村无产阶级与之形成对抗的条件下，才能服务于最终的解放事业。",
+          "qualifiers": "限定条件是：农村无产阶级必须是“觉悟的、自由的、组织起来的”，并且与农场主形成“对抗”关系。",
+          "contrast_or_target": "隐含对比民粹派将小农经济理想化、忽视其资本主义分化及无产阶级作用的观点。"
+        },
+        "why": {
+          "relation": "conclusion",
+          "explanation": "本句是前文关于农民革命性暂时性、无产阶级彻底革命性论述的总结。它辩证地评价了资本主义在农村的发展（民主成果），同时强调了社会主义者必须坚持的阶级立场和斗争前提。"
+        },
+        "implication": "社会主义者不能抽象地支持或反对农民的资本主义化，而应立足于无产阶级的组织与斗争来评判和利用这一进程。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "民粹派及“社会革命党人”",
+      "their_view": "俄国农民（小农）是天然的革命力量和社会主义的载体，其村社传统可以避免资本主义发展，应将小农经济的利益置于首位。",
+      "author_response": "列宁指出，农民的革命性源于旧制度的压迫，具有历史暂时性；在资本主义新秩序下，农民必然分化，其上层会转向保守。唯有农村无产阶级才是任何条件下都彻底革命的阶级。",
+      "polemic_kind": "reveals_class_basis",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p12s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p12s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p12s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p12s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p12s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p12s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  }
+}

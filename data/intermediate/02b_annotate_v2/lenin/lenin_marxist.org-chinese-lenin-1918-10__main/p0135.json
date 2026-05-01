@@ -1,0 +1,79 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 135,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁用希腊神话典故，批判第二国际各国社会党在长期和平环境中积累的机会主义问题。",
+    "importance_score": 2,
+    "importance_reason": "通过生动比喻，强化了对机会主义历史根源的批判，是论证链条中的形象化例证。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对考茨基言论的斥责，将批判范围从个人扩展到整个第二国际社会党，揭示其机会主义的历史积淀。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "allusion",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "allusion",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "1871-1914年欧洲",
+        "explain": "指从巴黎公社失败到第一次世界大战爆发的时期。欧洲资本主义国家间相对和平，工人运动主要在合法框架内发展，这为改良主义思潮提供了土壤。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "奥吉亚斯的牛圈",
+        "explain": "出自希腊神话。奥吉亚斯王的牛圈三十年未打扫，积粪如山。赫拉克勒斯引来河水一日洗净。列宁用此比喻各国社会党内部问题长期积累、污秽不堪。",
+        "why_needed": "allusion",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "迁就机会主义的各国社会党",
+      "their_view": "在资本主义和平发展时期，可以通过议会斗争等合法途径逐步改良社会，无需进行暴力革命。",
+      "author_response": "列宁指出，这种和平环境恰恰使他们内部充满了庸俗、短视和背叛无产阶级革命原则的思想与行为，如同一个长期未清理的污秽牛圈。",
+      "polemic_kind": "reveals_class_basis",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p135s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "奥吉亚斯的牛圈",
+            "type": "metaphor",
+            "modern": "希腊神话中三十年未清扫、积粪如山的牛圈，赫拉克勒斯引河水一日洗净。列宁用此比喻各国社会党内部问题长期积累、积重难返。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

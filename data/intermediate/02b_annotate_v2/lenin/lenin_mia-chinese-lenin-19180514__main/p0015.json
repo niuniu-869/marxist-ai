@@ -1,0 +1,86 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 15,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁强调，在讨论布列斯特和约的存废问题时，必须从经济根源上理解所有外交协议与中立姿态，并同时把握国际阶级力量对比和帝国主义集团间的矛盾。",
+    "importance_score": 2,
+    "importance_reason": "本段是列宁将具体外交策略（布列斯特和约）与宏观历史分析（帝国主义经济基础、国际阶级斗争）相结合的关键过渡，为后续论证提供分析框架。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于和约脆弱性的论断，进一步指出理解这种脆弱性必须深入到经济基础和国际关系层面，而非停留在表面。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p15s1",
+        "quote": "因此，当我们在谈到对我们来说是最主要的问题——布列斯特和约问题时，在谈到破坏和约的可能性和由此而对我们所造成的后果的问题时，如果我们想守住自己的社会主义阵地，不想让那些贴上不管是什么样的社会主义标签的反革命分子用阴谋和挑拨手段把我们推翻，那么我们一分钟也不应该忘记包括布列斯特－里托夫斯克和约在内的一切和约的经济基础，以及包括我国中立在内的任何中立的经济基础。",
+        "trigger": "long_nested",
+        "reader_block": "句子包含多层条件嵌套（“当……时”、“如果……那么……”），且核心论点被长定语包裹，读者容易迷失在逻辑关系中，抓不住主干。",
+        "parse": {
+          "claim": "保卫苏维埃政权、防止反革命颠覆的根本前提，是清醒认识所有外交协议和中立姿态背后的物质利益关系。",
+          "qualifiers": "此论断的前提是“想守住社会主义阵地”和“不想被反革命推翻”。",
+          "contrast_or_target": ""
+        },
+        "why": {
+          "relation": "continues",
+          "explanation": "本句将上段关于和约随时可能被帝国主义践踏的论断，转化为对苏维埃政权自身行动的警示：必须从经济根源上理解外交，才能有效防守。"
+        },
+        "implication": "列宁将外交策略的选择与对资本主义经济规律的把握直接挂钩，反对脱离经济基础的空谈。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p15s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p15s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p15s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 1,
+        "hs_kept": 1,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_6>5"
+      ]
+    }
+  ]
+}

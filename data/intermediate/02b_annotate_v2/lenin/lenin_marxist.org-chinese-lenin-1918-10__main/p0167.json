@@ -1,0 +1,80 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 167,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁以反讽方式，批判考茨基对阶级斗争的承认流于表面，与自由派无异。",
+    "importance_score": 2,
+    "importance_reason": "直接针对考茨基的核心论点进行讽刺性批判，是全文论战的关键环节。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段对考茨基自相矛盾的揭露，进一步讽刺其承认阶级斗争的虚伪性。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p167s1",
+        "quote": "好极了，妙极了，考茨基先生！",
+        "trigger": "inverted_logic",
+        "reader_block": "表面是赞扬，实际是强烈反讽。读者若不结合下文，会误以为作者在肯定考茨基。",
+        "parse": {
+          "claim": "作者对考茨基的言论表示极度讽刺性的“赞赏”。",
+          "qualifiers": "无。",
+          "contrast_or_target": "考茨基声称承认阶级斗争，但作者认为其承认方式有问题。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "作为对考茨基观点的讽刺性开场，为下一句的具体批判定下基调。"
+        },
+        "implication": "预示作者将揭露考茨基“承认阶级斗争”的实质。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "考茨基",
+      "their_view": "我们承认阶级斗争。",
+      "author_response": "列宁讽刺这种承认与自由派无异，其实质是反对推翻资产阶级。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p167s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p167s2",
+        "speaker": "quoted_opponent",
+        "stance": "critical",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 1,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

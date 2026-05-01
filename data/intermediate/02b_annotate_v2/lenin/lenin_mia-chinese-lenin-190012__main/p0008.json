@@ -1,0 +1,99 @@
+{
+  "_prompt_version": "marxist-v0.2-2026-04-30-scaffolding",
+  "n": 8,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁通过列举具体受益群体，揭露沙皇政府对华政策的阶级本质，反驳其“毫无私心”的官方说辞。",
+    "importance_score": 3,
+    "importance_reason": "本段是核心批判段落，直接揭示了沙皇政府侵略政策的阶级根源，将外交事件与国内阶级结构联系起来。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对“毫无私心”的反讽，具体分析这种政策究竟服务于哪些人的利益，从而完成对官方谎言的驳斥。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "沙皇政府的殖民政策",
+      "their_view": "政府宣称其对华政策是“毫无私心”的，是为了传播文明或平定暴乱。",
+      "author_response": "通过列举政策的具体受益者（资本家、厂主、包工头、贵族官僚），证明该政策是为了一小撮人的私利，牺牲了全国人民的利益。"
+    },
+    "sentences": [
+      {
+        "sid": "p8s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p8s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p8s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "资本家大亨",
+            "type": "concept",
+            "modern": "资产阶级的通俗说法",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "class_bourgeois"
+          }
+        ]
+      },
+      {
+        "sid": "p8s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p8s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p8s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p8s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_6>5"
+      ]
+    }
+  ]
+}

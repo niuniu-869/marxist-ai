@@ -1,0 +1,98 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 46,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁区分了两条应对饥荒的道路：一条是迎合富农和投机商的容易道路，另一条是组织被剥削劳动者的困难道路，并号召走后者。",
+    "importance_score": 2,
+    "importance_reason": "本段提出了苏维埃政权在饥荒面前的两条道路选择，是后续政策论证的起点。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对贫苦农民处境的分析，本段明确提出了与之相对立的、迎合富农的错误路线，并号召走另一条道路。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "孟什维克和右派社会革命党人",
+      "their_view": "提高粮价，允许粮食自由买卖，让商业资本参与粮食工作，认为这是解决饥荒的可行且诱人的方案。",
+      "author_response": "列宁号召愿意跟随苏维埃政权的人走另一条道路，即发动新的阶层，向被剥削劳动者提出新的组织形式来解决任务。",
+      "polemic_kind": "strategic_critique",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p46s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "富农",
+            "type": "social_group",
+            "modern": "在1918年苏俄语境下，指农村中通过雇工、放贷等方式剥削他人、经济地位上升的富裕农民，是当时粮食政策的主要对立面之一。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p46s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p46s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "被剥削阶级",
+            "type": "social_group",
+            "modern": "列宁在此界定苏维埃政权的阶级属性，即它是为无产阶级和全体被剥削劳动者服务的政权，与资产阶级政权相对立。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p46s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p46s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 2,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

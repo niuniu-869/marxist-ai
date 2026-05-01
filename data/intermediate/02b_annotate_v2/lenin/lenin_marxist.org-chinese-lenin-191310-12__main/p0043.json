@@ -1,0 +1,92 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 43,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁通过反问和归谬，指出崩得分子反对的“同化”并非指民族压迫，从而揭露其论点的空洞。",
+    "importance_score": 2,
+    "importance_reason": "对论敌具体论点的直接反驳，通过揭示其概念混乱来支撑核心论点。",
+    "argument_role": "contrasts",
+    "argument_link": "承接上段对资本主义发展趋向的正面阐述，转向具体反驳崩得分子对“同化”一词的误用。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic, text_anomaly",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p43s1",
+        "quote": "试问，当我们的崩得分子呼天抢地地反对“同化”时，他所指的是什么呢？",
+        "trigger": "inverted_logic",
+        "reader_block": "反问句式，读者可能直接寻找“同化”的定义，而忽略列宁意在通过提问暴露对方概念的模糊性。",
+        "parse": {
+          "claim": "崩得分子激烈反对的“同化”一词，其具体所指是模糊不清的。",
+          "qualifiers": "特指崩得分子在民族问题论战中的用法。",
+          "contrast_or_target": "崩得分子认为“同化”是对民族文化的威胁，因此必须反对。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "以反问开启归谬论证，为下文揭示其反对的“同化”并非指民族压迫做铺垫。"
+        },
+        "implication": "如果崩得分子反对的不是民族压迫，那么他们反对的“同化”就失去了正当性。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "崩得分子",
+      "their_view": "我们坚决反对“同化”，因为它威胁到各民族的独特文化和生存。",
+      "author_response": "列宁指出，他们所反对的“同化”并非指民族压迫或特权，这种反对是空洞的，因为马克思主义者一贯谴责民族压迫。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p43s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p43s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p43s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p43s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 1,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 51,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁通过假设一个农民的口吻，阐述其和平政策立场，并反驳那些主张在和平条件上采取更灵活、更妥协方式的观点。",
+    "importance_score": 2,
+    "importance_reason": "支撑核心论点，通过假设性对话反驳党内或盟友中可能存在的妥协倾向，阐明革命手段与最终目标的关系。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段关于公开外交与舆论监督的论述，进一步通过假设性对话，论证为何不能在和平条件上采取最后通牒之外的、更灵活的方式。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "党内或盟友中主张在和平条件上采取更灵活、更妥协方式的人",
+      "their_view": "应该允许各国政府自己提出各种和平条件，让代表们去研究比较，不必一开始就用最后通牒的方式把话说死。",
+      "author_response": "列宁认为，这种“灵活”会模糊斗争焦点，当前首要任务是揭露资产阶级政权的阶级本质和战争罪行，而非在条件细节上与之周旋。",
+      "polemic_kind": "strategic_critique",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p51s1",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p51s2",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p51s3",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p51s4",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p51s5",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p51s6",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p51s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

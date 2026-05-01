@@ -1,0 +1,127 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 5,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段介绍恩格斯的早期活动与著作，包括其成名作、重要著作及报刊撰稿经历。",
+    "importance_score": 1,
+    "importance_reason": "介绍作者早期活动与著作，为后续论述提供背景。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段关于小册子内容来源的说明，进一步介绍作者恩格斯的生平与早期思想成果。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p5s1",
+        "speaker": "editor",
+        "stance": "neutral_citation",
+        "notes": [
+          {
+            "surface": "《德法年鉴》",
+            "type": "work",
+            "modern": "1844年在巴黎出版的德文刊物，由马克思与卢格共同主编，是青年黑格尔派转向唯物主义和共产主义的重要平台。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p5s2",
+        "speaker": "editor",
+        "stance": "neutral_citation",
+        "notes": [
+          {
+            "surface": "科学社会主义",
+            "type": "concept",
+            "modern": "与空想社会主义相对，指建立在对资本主义社会矛盾和历史规律的科学分析基础上的社会主义理论。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "scientific_socialism"
+          }
+        ]
+      },
+      {
+        "sid": "p5s3",
+        "speaker": "editor",
+        "stance": "neutral_citation",
+        "notes": [
+          {
+            "surface": "《资本论》",
+            "type": "work",
+            "modern": "马克思倾注毕生心血撰写的巨著，系统分析了资本主义生产方式的运动规律。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p5s4",
+        "speaker": "editor",
+        "stance": "neutral_citation",
+        "notes": [
+          {
+            "surface": "《北极星报》",
+            "type": "work",
+            "modern": "英国宪章运动的机关报，19世纪30-50年代在伦敦出版，是当时重要的工人阶级喉舌。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "《新道德世界》报",
+            "type": "work",
+            "modern": "英国空想社会主义者罗伯特·欧文创办的报刊，宣传其社会改革主张。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "罗伯特·欧文",
+            "type": "person",
+            "modern": "19世纪初英国空想社会主义的代表人物之一，曾进行社会实验。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 6,
+        "notes_dropped": 2,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_5gram_with_surface",
+        "note:n2_5gram_with_surface"
+      ]
+    }
+  ]
+}

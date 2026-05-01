@@ -1,0 +1,90 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 16,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段以普鲁士国王改革失败为例，论证在旧有社会基础上无法实现真正的政治进步，必须彻底变革社会基础。",
+    "importance_score": 2,
+    "importance_reason": "本段通过具体历史事例，为前一段关于庸人构成君主制材料的论断提供支撑，并引出彻底变革的必要性。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段关于庸人与君主关系的论述，用普鲁士国王改革失败的实例，具体说明在旧有社会基础上进行改良的局限性。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "政治动物与民主人类",
+        "explain": "马克思用“政治动物世界”比喻当时社会仅关注物质利益和生存竞争，缺乏真正的人的联合与自由。“民主的人类世界”则指超越这种状态，实现人的真正社会性的未来。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p16s4",
+        "quote": "既然我们已经沦落到了政治动物世界的水平，那么进一步的反动（转）就不可能了。",
+        "trigger": "inverted_logic",
+        "reader_block": "表面看“沦落”是坏事，但马克思却说这使得“反动”不可能，逻辑转折不易理解。读者可能困惑为何堕落反而限制了倒退。",
+        "parse": {
+          "claim": "社会已堕落到只关心物质利益的水平，因此任何试图在旧框架内进行倒退或改良的举动都失去了意义。",
+          "qualifiers": "此判断基于“我们已经沦落到了政治动物世界的水平”这一前提。",
+          "contrast_or_target": "针对那些认为可以在现有社会基础上进行有限改良或倒退的思路。"
+        },
+        "why": {
+          "relation": "continues",
+          "explanation": "本句延续上一段关于庸人构成君主制材料的论断，指出这种社会基础已使旧式政治操作（反动）失效，为下一句提出彻底变革的方案做铺垫。"
+        },
+        "implication": "既然旧框架内的操作已无可能，那么唯一的出路就是彻底抛弃这个框架本身。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "德国庸人习气与改良思路",
+      "their_view": "他们认为可以在现有的、以物质利益为基础的政治动物世界内，通过国王的理论或有限的改良来改变国家制度。",
+      "author_response": "马克思指出，这种世界的基础本身必须被彻底抛弃，才能过渡到真正的人类世界，任何在旧基础上的修补都注定失败。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p16s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p16s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p16s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p16s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p16s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  }
+}

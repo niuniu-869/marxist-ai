@@ -1,0 +1,69 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 50,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段列宁批判新《火星报》的革命策略，指其重复错误并援引马克思恩格斯的立场进行驳斥。",
+    "importance_score": 2,
+    "importance_reason": "本段是列宁对党内论敌策略的直接批判，构成文章核心论战部分。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对无产阶级政党任务的阐述，转而批判新《火星报》在革命关头采取的相反策略。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "allusion",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "新《火星报》与无政府主义",
+        "explain": "新《火星报》是孟什维克派在1903年后使用的机关报名称，与列宁领导的布尔什维克《火星报》对立。无政府主义在列宁的论战中，常被用来指代那种否定无产阶级政党领导和集中组织、主张自发斗争的倾向。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "新《火星报》",
+      "their_view": "无产阶级政党在革命关头不应主动领导和参加临时革命政府，而应跟在资产阶级民主派后面，只关注无产阶级自身的直接斗争。",
+      "author_response": "列宁认为这种策略是重复历史上的错误，是“注视着无产阶级的后背”，实质上是无政府主义的错误，违背了马克思和恩格斯的教导。",
+      "polemic_kind": "strategic_critique",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p50s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p50s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

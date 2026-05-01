@@ -1,0 +1,89 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 538,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段指出黑格尔哲学的出发点是抽象的、神学的起点，而非现实的感性世界。",
+    "importance_score": 2,
+    "importance_reason": "这是马克思批判黑格尔唯心主义起点的关键段落，为后续从唯物主义立场批判异化奠定基础。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对费尔巴哈解释的提及，具体分析黑格尔哲学的抽象起点，以与费尔巴哈主张的感性出发点形成对比。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "异化（黑格尔语境）",
+        "explain": "在黑格尔哲学中，异化是绝对精神自我实现过程中的一个环节，是精神外化为自然界和人类社会，最终又回归自身的过程。马克思在此借用该词，但批判其起点是抽象的。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "实体（黑格尔语境）",
+        "explain": "在黑格尔哲学中，实体指绝对精神或绝对理念，是世界的本原和本质，是能动的、自我发展的主体。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "黑格尔",
+      "their_view": "哲学体系应从绝对精神、抽象概念出发，通过辩证运动展开，最终达到对绝对真理的认识。",
+      "author_response": "这种从抽象、无限、不变的东西出发的起点，本质上是神学的起点，脱离了现实的、感性的、具体的人与世界。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p538s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "异化",
+            "type": "concept",
+            "modern": "马克思在此指黑格尔哲学体系的逻辑起点，即绝对精神的自我外化过程，而非现实的人的生存状态。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "alienation_early_marx"
+          },
+          {
+            "surface": "实体",
+            "type": "concept",
+            "modern": "黑格尔哲学中的核心范畴，指作为世界本原和本质的绝对精神或绝对理念。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "substance_hegelian"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_14>5"
+      ]
+    }
+  ]
+}

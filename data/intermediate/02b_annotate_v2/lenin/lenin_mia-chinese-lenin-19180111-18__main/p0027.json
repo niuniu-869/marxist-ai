@@ -1,0 +1,86 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 27,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段指出有产阶级为摧毁苏维埃政权将不择手段，并援引法国社会主义史说明统治阶级在面临政权丧失时的暴力反应，以此反驳“打倒国内战争”的口号。",
+    "importance_score": 2,
+    "importance_reason": "支撑核心论点，用历史经验反驳论敌，为国内战争的必要性提供正当性论证。",
+    "argument_role": "continues",
+    "argument_link": "本段承接上一段对“打倒国内战争”口号的质疑，进一步论证有产阶级的暴力反应是历史规律，从而为苏维埃政权的武装斗争提供正当性。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p27s2",
+        "quote": "全部社会主义史，尤其是非常富有革命斗争精神的法国的全部社会主义史，难道没有告诉我们：在劳动群众自己夺取政权的时候，在问题涉及保护统治阶级自己钱袋的时候，统治阶级便会进行空前的罪恶活动和屠杀。",
+        "trigger": "inverted_logic",
+        "reader_block": "反问句式“难道没有告诉我们”可能被误读为疑问，实际是强烈的肯定陈述，需要读者将其还原为“历史已经告诉我们”来理解。",
+        "parse": {
+          "claim": "历史经验表明，当劳动群众试图夺取政权，且这威胁到统治阶级的经济利益时，后者会采取极端暴力的手段进行镇压。",
+          "qualifiers": "限定于劳动群众夺取政权的时刻，以及问题直接涉及统治阶级财产利益的时刻。",
+          "contrast_or_target": "针对那些认为国内战争可以避免或不应发生的论调，指出统治阶级的暴力反应是历史常态。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "通过援引法国社会主义史的例证，反驳“打倒国内战争”口号所隐含的对统治阶级暴力本性的低估，揭示其阶级斗争的残酷性。"
+        },
+        "implication": "因此，苏维埃政权面对的武装反抗并非偶然，而是阶级斗争规律的体现，必须坚决回击。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p27s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p27s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p27s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 1,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,146 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 40,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段批判党内机会主义倾向，指出其只关注抽象政治问题而忽视具体危机，可能导致党在关键时刻束手无策，并以保护关税问题为例说明这种错误。",
+    "importance_score": 3,
+    "importance_reason": "这是恩格斯对机会主义危害的核心批判，直接点明其“真诚的”动机可能比其他机会主义更危险，是全文论证的关键环节。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段对机会主义和平过渡幻想的反驳，进一步论证这种只顾眼前、忘记根本大计的策略，将使党在重大政治危机来临时陷入被动和混乱。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "保护关税问题争论",
+        "explain": "19世纪70-80年代，德国工业资产阶级为保护本国市场，推动提高进口关税。党内曾有人认为此议题仅关乎资产阶级，与工人无关，导致投票立场混乱。恩格斯以此为例，说明忽视具体政治议题的危害。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "科布顿、布莱特与曼彻斯特主义",
+        "explain": "科布顿与布莱特是19世纪英国自由贸易派的代表人物。曼彻斯特主义是他们倡导的自由放任经济理论，主张国家不干预经济。恩格斯用此指代党内一些人将资产阶级的经济主张误当作社会主义来鼓吹的错误。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p40s5",
+        "quote": "当时有人把保护关税宣布为只与资产阶级有关而与工人毫不相干的问题，因此各人可以随自己的意思投票，而现在有许多人陷入了另一个极端，为了同转而热中于保护关税主义的资产者相对立，又端出了科布顿和布莱特的经济诡辩，并且把最纯粹的曼彻斯特主义作为最纯粹的社会主义来鼓吹。",
+        "trigger": "long_nested",
+        "reader_block": "句子长且包含多个历史专名（科布顿、布莱特）和特定经济理论（曼彻斯特主义），读者不熟悉这些背景，难以理解恩格斯所批判的“另一个极端”具体指什么。",
+        "parse": {
+          "claim": "党内对待保护关税问题的态度经历了从漠视到错误拥抱的两个极端：先是认为与工人无关而放任自流，后又为了反对转向保护关税的资产阶级，转而全盘接受其对立面——英国自由贸易派的自由放任理论，并将其错误地等同于社会主义。",
+          "qualifiers": "时间限定在保护关税问题成为党内争论焦点的时期。",
+          "contrast_or_target": "党内一些人认为保护关税是纯粹的资产阶级议题，与工人阶级利益无关，因此党员可以自由投票，不必统一立场。"
+        },
+        "why": {
+          "relation": "example",
+          "explanation": "本句用保护关税问题上党内态度的前后矛盾，具体例证了前文所批判的“把一般的抽象的政治问题提到首要地位”而忽视具体问题的错误策略，展示了这种策略如何导致理论混乱和实践失误。"
+        },
+        "implication": "这种在具体经济政策上摇摆不定、缺乏无产阶级独立立场的表现，正是机会主义在实践中的体现。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "机会主义",
+      "their_view": "在德国现行条件下，可以通过议会斗争和具体政策的改良逐步实现社会主义，因此党应关注眼前的、具体的、抽象的政治问题，以争取暂时利益和成就为优先。",
+      "author_response": "这种只顾眼前、忘记根本大计的做法，会使党在重大政治危机来临时因缺乏准备而束手无策，是典型的机会主义，且其“真诚”的动机使其比其他机会主义更危险。",
+      "polemic_kind": "strategic_critique",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p40s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p40s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p40s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p40s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p40s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "科布顿和布莱特",
+            "type": "person",
+            "modern": "19世纪英国自由贸易派政治家，主张自由放任经济，反对国家干预和保护关税。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p40s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "真诚的",
+            "type": "metaphor",
+            "modern": "加引号表示反讽，指机会主义者自认为动机纯正、出于好意，但这恰恰掩盖了其策略的危害性。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p40s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 3,
+        "hs_kept": 1,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_7>5",
+        "note:n1_overflow_concept_7>5",
+        "note:n1_overflow_concept_6>5",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,174 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 18,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段论证十月革命在反对帝国主义战争问题上的世界历史意义，并批判否认这一意义的派别。",
+    "importance_score": 3,
+    "importance_reason": "核心论点段落，将十月革命的意义从国内提升至国际层面，直接回应帝国主义战争这一时代核心问题。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对十月革命国内意义的肯定，本段将其意义扩展至国际政治领域，具体阐述其在终结帝国主义战争循环中的作用。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p18s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "金融资本",
+            "type": "concept",
+            "modern": "在列宁的帝国主义理论中，指银行资本与工业资本融合后形成的垄断资本形态，它主导了国家的对外扩张政策。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "finance_capital_imperialism"
+          }
+        ]
+      },
+      {
+        "sid": "p18s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p18s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p18s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p18s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "社会革命党人",
+            "type": "org",
+            "modern": "俄国主要的民粹派政党，在1917年后分裂，其左翼曾短暂支持布尔什维克，但主体与孟什维克一同反对十月革命。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "孟什维克",
+            "type": "org",
+            "modern": "俄国社会民主工党中的少数派，主张先完成资产阶级民主革命，反对列宁的武装夺权路线。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p18s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "沙文主义",
+            "type": "concept",
+            "modern": "在战争语境下，特指以“保卫祖国”为名，号召本国无产阶级与资产阶级合作、支持本国政府进行帝国主义战争的立场。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "chauvinism_social"
+          },
+          {
+            "surface": "和平主义",
+            "type": "concept",
+            "modern": "抽象地反对一切战争，但不区分战争的阶级性质，从而模糊了帝国主义战争与革命战争的区别。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "pacifism_critique"
+          }
+        ]
+      },
+      {
+        "sid": "p18s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p18s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "布雷斯特和约",
+            "type": "event",
+            "modern": "1918年3月苏俄与同盟国签订的屈辱性和约，以割让大片领土为代价退出一战，当时被许多人视为布尔什维克的失败。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p18s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "凡尔赛和约",
+            "type": "event",
+            "modern": "1919年结束一战的和约，对德国施加严苛惩罚并重新划分世界，列宁视其为帝国主义分赃和孕育新战争的条约。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p18s10",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 7,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote",
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

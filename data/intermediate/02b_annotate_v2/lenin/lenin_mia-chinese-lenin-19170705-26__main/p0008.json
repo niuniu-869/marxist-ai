@@ -1,0 +1,78 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 8,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁断言立宪会议大概率无法召开或即使召开也无效，主张以阶级斗争为分析框架。",
+    "importance_score": 2,
+    "importance_reason": "通过概率判断和历史类比，支撑对立宪幻想的批判，是论证链条中的关键环节。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对临时政府承诺召开立宪会议的叙述，转而论证这些承诺的虚幻性。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "第一届杜马",
+        "explain": "1906年沙俄召开的首届议会，因反对沙皇专制而很快被解散，以软弱无力著称。列宁用它类比未来可能召开的立宪会议。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "相信立宪会议能解决革命问题的人",
+      "their_view": "立宪会议能够如期召开并有效解决国家问题。",
+      "author_response": "列宁认为这忽视了阶级力量对比，立宪会议要么开不成，开了也无实权。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p8s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p8s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "第一届杜马",
+            "type": "event",
+            "modern": "1906年沙俄召开的首届议会，因反对沙皇专制而很快被解散，以软弱无力著称。",
+            "highlight": "archaic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p8s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "阶级斗争",
+            "type": "concept",
+            "modern": "马克思主义分析社会历史的基本范畴，指不同阶级之间基于经济利益的根本冲突。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "class_struggle_marxist"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 604,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段批判黑格尔辩证法，指出其将现实事物的真正存在归结为哲学思维中的概念，从而在逻辑上否定了现实存在本身。",
+    "importance_score": 2,
+    "importance_reason": "本段是马克思对黑格尔唯心主义辩证法进行批判性分析的关键环节，揭示了其“扬弃”逻辑的内在矛盾。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对黑格尔法哲学中“扬弃”序列的描述，进一步剖析这种逻辑在认识论上的后果，即现实存在被思维概念所取代。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "黑格尔的“扬弃”",
+        "explain": "黑格尔辩证法的核心概念，指事物在发展中既被否定又被保留，并提升到更高阶段。马克思在此批判其唯心主义应用，即现实事物被“扬弃”为思维中的概念。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p604s5",
+        "quote": "但是，如果只有宗教哲学等等对我来说才是真正的宗教存在，那末我就只有作为宗教哲学家才算是真正信教的，而这样一来我就否定了现实的宗教信仰和现实的信教的人。",
+        "trigger": "rhetorical_omission",
+        "reader_block": "条件句“如果……那么……”引导一个归谬推理，读者容易忽略其前提是黑格尔式的，结论是作者用来反驳该前提的。",
+        "parse": {
+          "claim": "若将宗教哲学视为宗教的唯一真实存在，那么只有哲学家的宗教活动才是真实的，这便否定了普通信徒的现实信仰活动。",
+          "qualifiers": "此推论的前提是接受黑格尔将现实存在归结为哲学概念的逻辑。",
+          "contrast_or_target": "黑格尔将现实宗教存在归结为宗教哲学的观点。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "通过归谬法，揭示黑格尔将现实存在等同于其哲学概念这一前提的荒谬后果，即否定了现实本身。"
+        },
+        "implication": "这表明黑格尔的逻辑在应用于现实时，会消解掉它本应解释的现实基础。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p604s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p604s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p604s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p604s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p604s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p604s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 1,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

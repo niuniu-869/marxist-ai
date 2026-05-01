@@ -1,0 +1,127 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 154,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁明确拒绝与组织委员会的党（孟什维克）及齐赫泽、策列铁里等人统一，理由是他们已转向支持战争的护国主义立场。",
+    "importance_score": 2,
+    "importance_reason": "具体阐述了上一段提出的“谈不到统一”的论断，通过列举事实划清了与机会主义派别的界限。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段关于统一问题的结论，本段具体点明了拒绝统一的对象及其转向护国主义的证据。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "李卜克内西",
+        "explain": "卡尔·李卜克内西，德国社会民主党左派领袖，因在帝国议会投票反对战争拨款而被捕入狱，是列宁眼中坚持国际主义原则的榜样。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "组织委员会的党",
+        "explain": "指由组织委员会领导的孟什维克党。组织委员会是1912年孟什维克取消派与护国派联合成立的领导机构。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "齐赫泽与策列铁里",
+        "explain": "尼古拉·齐赫泽和伊拉克利·策列铁里是孟什维克领袖，当时在彼得格勒苏维埃执行委员会中担任领导职务。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "组织委员会的党（孟什维克）",
+      "their_view": "我们应与资产阶级临时政府合作，支持继续进行战争以保卫革命成果。",
+      "author_response": "列宁认为，这种立场是向护国主义的堕落，必须与之彻底决裂，宁可人数极少也要坚持革命无产阶级的国际主义路线。",
+      "polemic_kind": "strategic_critique",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p154s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "李卜克内西",
+            "type": "person",
+            "modern": "德国社会民主党左派领袖，因反战被捕，是列宁心中坚持原则的象征。",
+            "highlight": "person",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "齐赫泽和策列铁里",
+            "type": "person",
+            "modern": "孟什维克领袖，时任彼得格勒苏维埃执行委员会领导。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "波特列索夫",
+            "type": "person",
+            "modern": "孟什维克取消派领袖之一，列宁将其视为机会主义代表。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "《工人报》",
+            "type": "work",
+            "modern": "孟什维克取消派的报纸，代表其政治立场。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "工人代表苏维埃执行委员会",
+            "type": "org",
+            "modern": "彼得格勒苏维埃的常设领导机构，当时由孟什维克和社会革命党主导。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "护国主义",
+            "type": "concept",
+            "modern": "二月革命后，认为战争性质已变、应保卫革命成果而继续参战的立场。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "defensism_revolutionary"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 6,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

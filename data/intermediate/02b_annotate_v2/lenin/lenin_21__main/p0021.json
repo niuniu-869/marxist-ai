@@ -1,0 +1,61 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 21,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁基于国际力量对比，论证在当时的苏俄给予出版自由等于为阶级敌人提供组织武器。",
+    "importance_score": 3,
+    "importance_reason": "本段是列宁反驳米雅斯尼科夫“出版自由”主张的核心论证环节，从力量对比角度揭示其危险性。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段对苏俄特定环境下出版自由实质的判断，进一步从国际阶级力量对比的角度，论证给予出版自由的后果。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "米雅斯尼科夫",
+      "their_view": "应当给予“出版自由”，以便利用它来揭露和纠正党内的官僚主义、营私舞弊等错误。",
+      "author_response": "列宁指出，在资产阶级力量远强于无产阶级的国际背景下，这种自由将直接转化为敌人进行政治组织的武器，从而危害无产阶级专政。",
+      "polemic_kind": "reveals_class_basis",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p21s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p21s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

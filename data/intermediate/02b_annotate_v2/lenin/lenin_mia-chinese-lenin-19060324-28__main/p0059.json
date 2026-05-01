@@ -1,0 +1,249 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 59,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁通过《北极星》杂志的言行和教授们对“专政”一词的歪曲，揭露立宪民主党人在革命与反革命斗争中的虚伪立场，并定义“专政”概念。",
+    "importance_score": 3,
+    "importance_reason": "本段是列宁对“妥协主义者”政治立场的核心批判，通过定义“专政”并揭露其机会主义本质，为布尔什维克的革命路线提供理论依据。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对立宪民主党原则虚伪性的批判，本段具体展示其在策略和概念上的表现，并深入剖析“妥协主义者”在革命斗争中的行为模式。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "十月宣言",
+        "explain": "指1905年10月17日沙皇尼古拉二世签署的宣言，承诺建立国家杜马（议会）并赋予公民自由。列宁在此讽刺“妥协主义者”在革命高潮时才赞美导致该宣言的罢工。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p59s6",
+        "quote": "专政就是（请基泽韦捷尔、司徒卢威、伊兹哥耶夫之流的先生们永远记住）不受限制的、依靠强力而不是依靠法律的政权。",
+        "trigger": "inverted_logic",
+        "reader_block": "读者可能将“专政”理解为现代政治学中的中性概念，或受对方“强化的警卫”这种弱化翻译影响，无法理解列宁为何要如此强调其暴力、非法律的强制性本质。",
+        "parse": {
+          "claim": "“专政”这一概念的本质是不受任何法律约束、完全依靠暴力维持的统治形式。",
+          "qualifiers": "这是在反驳对方将“专政”庸俗化为“强化的警卫”时给出的定义。",
+          "contrast_or_target": "立宪民主党教授基泽韦捷尔等人将“专政”翻译为“强化的警卫”，试图淡化其暴力强制性质。"
+        },
+        "why": {
+          "relation": "definition",
+          "explanation": "本句为全文核心概念“专政”提供明确的马克思主义定义，直接反驳论敌的歪曲，为后续区分不同性质的专政奠定基础。"
+        },
+        "implication": "任何在内战中获胜的政权，其本质都是专政，区别仅在于是少数人对多数人，还是多数人对少数人。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "立宪民主党人（司徒卢威、基泽韦捷尔等）",
+      "their_view": "“专政”应被理解为“强化的警卫”；左派使用暴力和成立罢工委员会是错误的；革命斗争的意义应被贬低。",
+      "author_response": "列宁指出这是对“专政”科学概念的庸俗歪曲，其目的是在反革命暴力肆虐时麻痹革命人民的斗争意识，暴露了他们在激烈斗争中逃避责任、迎合强者的“妥协主义”本质。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p59s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "可爱的特点",
+            "type": "metaphor",
+            "modern": "反讽用语，指立宪民主党人虚伪、怯懦等令人反感的特性。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p59s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "《北极星》杂志",
+            "type": "work",
+            "modern": "俄国自由派刊物，司徒卢威曾参与编辑，是立宪民主党思想的重要宣传阵地。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "司徒卢威",
+            "type": "person",
+            "modern": "立宪民主党理论家，曾参与编辑《北极星》，主张将自由主义与马克思主义结合。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p59s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p59s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "基泽韦捷尔",
+            "type": "person",
+            "modern": "立宪民主党人，历史学家，时任立宪民主党中央委员及杜马候选人。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p59s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "学术界人士",
+            "type": "social_group",
+            "modern": "此处特指为立宪民主党服务的教授、学者群体。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p59s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "专政",
+            "type": "concept",
+            "modern": "马克思主义政治学核心概念，指不受法律约束的、依靠暴力维持的统治。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "dictatorship_marxist_theory"
+          }
+        ]
+      },
+      {
+        "sid": "p59s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p59s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p59s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "妥协主义者",
+            "type": "social_group",
+            "modern": "列宁对立宪民主党人及孟什维克等在革命中立场摇摆、试图调和阶级矛盾的派别的称呼。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p59s10",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p59s11",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p59s12",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p59s13",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p59s14",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p59s15",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p59s16",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "妥协主义者",
+            "type": "social_group",
+            "modern": "同p59s9，此处总结其行为特征。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 8,
+        "notes_dropped": 5,
+        "hs_kept": 1,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix",
+        "note:n1_overflow_concept_10>5",
+        "note:n1_overflow_concept_15>5",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

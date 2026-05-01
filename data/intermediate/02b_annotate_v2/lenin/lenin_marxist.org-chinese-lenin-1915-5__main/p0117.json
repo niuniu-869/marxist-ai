@@ -1,0 +1,95 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 117,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "分析机会主义领袖因长期在合法框架内活动而丧失革命能力，论证建立秘密革命组织的必要性。",
+    "importance_score": 2,
+    "importance_reason": "具体剖析机会主义领袖的思维局限，为提出组织路线转变做铺垫。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对领袖言论的讽刺，进一步分析其思想根源和组织后果。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "第二国际的机会主义领袖",
+      "their_view": "我们现有的合法党组织是经过警察许可的，是领导工人运动的唯一合法形式，在任何情况下都必须保存并依靠它来行动。",
+      "author_response": "列宁指出，这种对合法性的迷信使他们在危机时刻背叛了革命，成为群众革命劲头的扼杀者。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p117s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p117s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p117s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p117s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "机会主义",
+            "type": "concept",
+            "modern": "列宁用此词概括第二国际领袖在战争问题上背叛国际主义、向本国资产阶级靠拢的立场。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "opportunism_marxist"
+          }
+        ]
+      },
+      {
+        "sid": "p117s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p117s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

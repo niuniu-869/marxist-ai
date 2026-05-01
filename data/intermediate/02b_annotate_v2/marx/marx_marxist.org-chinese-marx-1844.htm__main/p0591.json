@@ -1,0 +1,63 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 591,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段指出，将世界视为固定物性的观念是一种假象，与人的能动活动相矛盾，因此这种观念必然被克服。",
+    "importance_score": 1,
+    "importance_reason": "本段是马克思对黑格尔辩证法的批判性应用，说明物性观念的必然否定，为后续论证提供哲学基础。",
+    "argument_role": "continues",
+    "argument_link": "本段承接上段关于历史的有意识形成，进一步指出物性观念的虚幻性及其必然被否定，延续了对黑格尔唯心主义的批判。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_polysemy",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "term_polysemy",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "黑格尔哲学中的物性与活动",
+        "explain": "在黑格尔哲学中，'物性'指事物的固定、静止的属性，而'纯粹活动'指精神的能动性。马克思在此批判将世界视为固定物性的观念。",
+        "why_needed": "term_polysemy",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "黑格尔",
+      "their_view": "黑格尔认为，物性是绝对精神的外化，是现实世界的固定属性。",
+      "author_response": "马克思指出，物性的设定是一种假象，与人的纯粹活动相矛盾，因此必然被扬弃。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p591s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

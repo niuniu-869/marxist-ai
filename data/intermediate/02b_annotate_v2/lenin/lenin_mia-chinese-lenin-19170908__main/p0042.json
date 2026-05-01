@@ -1,0 +1,84 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 42,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁论证在特定条件下俄国革命可能和平发展，并指出苏维埃内部斗争和平进行的条件。",
+    "importance_score": 3,
+    "importance_reason": "核心论点，直接回应论敌关于国内战争不可避免的论调，提出和平发展的具体路径。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段关于通过工农联盟和全部政权归苏维埃可避免国内战争的结论，进一步论证在这些条件下和平发展不仅是可能的，而且是大概率事件。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "“小偷”、“盗窃”行为",
+        "explain": "列宁用此比喻指当时苏维埃代表制中存在的不平等现象，例如士兵代表比例远高于工人代表比例，这违背了民主原则。读者需了解此背景才能理解其批判指向。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p42s2",
+        "quote": "但是在一个农民的国家里，如果无产阶级和农民的联盟能够给被非正义的万恶的战争弄得疲惫不堪的群众以和平，给农民以全部土地，那么在这样的国家里，在这种特殊的历史时机，在全部政权转归苏维埃的条件下，革命的和平发展是可能的而且是很有可能的。",
+        "trigger": "long_nested",
+        "reader_block": "句子包含多个嵌套条件（农民国家、工农联盟提供和平与土地、战争疲惫的群众、全部政权归苏维埃），读者容易迷失在条件与结论的逻辑关系中。",
+        "parse": {
+          "claim": "在俄国这个特定国家，通过满足工农核心诉求并实现政权转移，革命存在和平演进的现实路径。",
+          "qualifiers": "限定于农民占多数的国家；需要无产阶级与农民联盟提供和平与土地；群众因战争而疲惫；必须全部政权转归苏维埃。",
+          "contrast_or_target": "反驳那些认为国内战争不可避免、和平发展纯属空想的观点。"
+        },
+        "why": {
+          "relation": "continues",
+          "explanation": "本句是上一段结论的延伸和具体化，将“避免国内战争”的抽象可能性，落实为在俄国具体历史条件下“和平发展”的具体条件和高概率判断。"
+        },
+        "implication": "这为布尔什维克主张“全部政权归苏维埃”提供了战略依据：这不仅是避免内战的手段，更是开启和平过渡的钥匙。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "立宪民主党、孟什维克等",
+      "their_view": "国内战争是可怕的灾难，会血流成河，因此必须避免革命深入，应与资产阶级妥协以维持秩序。",
+      "author_response": "列宁指出，通过工农联盟满足群众对和平与土地的迫切需求，并将全部政权交给代表工兵农的苏维埃，革命完全可能以和平方式推进，从而反驳了他们的恐吓论调。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p42s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p42s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p42s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p42s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  }
+}

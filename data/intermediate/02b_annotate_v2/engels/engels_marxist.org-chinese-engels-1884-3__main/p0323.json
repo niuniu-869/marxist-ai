@@ -1,0 +1,116 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 323,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段以罗马为例，说明在王政废除前，其社会基础已从血缘关系转变为地区划分与财产差别，国家机器由此形成并服务于有产的武装公民。",
+    "importance_score": 2,
+    "importance_reason": "作为国家起源理论的关键历史例证，具体展示了国家制度如何取代氏族制度。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对罗马政治制度变革的叙述，进一步点明其背后的社会基础已发生根本性转变，即从血缘到地域与财产。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "term_polysemy",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "古罗马“无产者”",
+        "explain": "此处的“无产者”指古罗马社会中无地、无武装的贫民，与现代工业社会中出卖劳动力的无产阶级含义不同。他们不构成军队主体，政治权利受限。",
+        "why_needed": "term_polysemy",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p323s1",
+        "quote": "这样，在罗马也是在所谓王政被废除之前，以个人血缘关系为基础的古代社会制度就已经被炸毁了，代之而起的是一个新的、以地区划分和财产差别为基础的真正的国家制度。",
+        "trigger": "term_polysemy",
+        "reader_block": "“所谓王政”指罗马早期的君主制时期，读者可能不熟悉其具体年代与性质，且“炸毁”一词的比喻需要结合上下文理解其指代社会结构的根本性变革。",
+        "parse": {
+          "claim": "罗马在君主制被推翻之前，其社会结构的基础已不再是血缘纽带，而是居住地域和财产多寡。",
+          "qualifiers": "时间限定在“王政被废除之前”，即变革发生于共和制建立之前。",
+          "contrast_or_target": ""
+        },
+        "why": {
+          "relation": "continues",
+          "explanation": "承接上段对罗马政治制度（库里亚大会、百人团大会）变革的描述，从社会基础层面解释这种政治变革的深层原因，即国家制度的物质基础已变。"
+        },
+        "implication": "这表明国家的产生并非始于政治革命（王政废除），而是更早地根植于社会经济关系的变迁。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      },
+      {
+        "anchor": "p323s2",
+        "quote": "公共权力在这里体现在服兵役的公民身上，它不仅被用来反对奴隶，而且被用来反对不许服兵役和不许有武装的所谓无产者。",
+        "trigger": "term_polysemy",
+        "reader_block": "“所谓无产者”在古罗马语境下指无产贫民，与现代“无产阶级”概念不同，读者易混淆。同时，“公共权力”具体指什么也需要明确。",
+        "parse": {
+          "claim": "国家的武装力量（公共权力）掌握在有资格参军的公民手中，其镇压对象包括奴隶和被剥夺武装权的贫民。",
+          "qualifiers": "“在这里”指代前文所述的、以地区和财产为基础的罗马国家制度。",
+          "contrast_or_target": ""
+        },
+        "why": {
+          "relation": "example",
+          "explanation": "具体说明前句所述“真正的国家制度”的特征：国家机器（公共权力）的阶级性，即它由特定阶级（服兵役的公民）掌握，并用于维护该阶级的利益，压迫其他群体。"
+        },
+        "implication": "揭示了早期国家机器的暴力本质及其鲜明的阶级属性。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p323s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p323s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "无产者",
+            "type": "concept",
+            "modern": "古罗马社会中无地、无武装的贫民阶层，与现代工业无产阶级不同。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "proletarian_roman"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 1,
+        "hs_kept": 2,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

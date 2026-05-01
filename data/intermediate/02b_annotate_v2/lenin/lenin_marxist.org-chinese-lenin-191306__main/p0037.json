@@ -1,0 +1,93 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 37,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段指出崩得取消派的分裂活动及其与非党派的联盟，反而凸显了民族问题的重要性，并强调了各民族无产阶级团结的必要性。",
+    "importance_score": 2,
+    "importance_reason": "本段承接上文对崩得分裂行为的批判，将具体事件上升到民族问题理论与党的建设高度，并发出团结呼吁，是论证中的一个转折与强化点。",
+    "argument_role": "continues",
+    "argument_link": "本段延续上段对崩得历史的回顾，具体点明其近期的分裂行为（与华沙非社会民主党人联盟）如何将民族问题推至前台，并以此强化团结的论点。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "华沙非社会民主党人",
+        "explain": "指当时华沙地区非社会民主党的民族主义组织。崩得与之联盟，被视为违背无产阶级国际主义原则、向民族主义妥协的行为。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p37s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "地域自治",
+            "type": "concept",
+            "modern": "列宁主张的民族纲领，指按地理区域实行自治，与按民族划分的“民族文化自治”相对立。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "regional_autonomy_marxist"
+          }
+        ]
+      },
+      {
+        "sid": "p37s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p37s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p37s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 2,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix",
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

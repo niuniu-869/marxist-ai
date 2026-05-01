@@ -1,0 +1,162 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 66,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "分析1808年西班牙革命中，中央洪达如何错失历史机遇，从革命机构蜕变为反革命工具。",
+    "importance_score": 3,
+    "importance_reason": "核心批判段落，通过洪达案例揭示革命领导机构可能背叛革命的阶级逻辑。",
+    "argument_role": "example",
+    "argument_link": "承接上段关于革命与自由关系的论断，以洪达的具体行动作为反面例证，展示革命力量如何被内部机构扼杀。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_density",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "洪达（Junta）",
+        "explain": "西班牙独立战争期间（1808年起）各地成立的革命委员会，负责组织抵抗和临时治理。中央洪达是其最高领导机构。",
+        "why_needed": "history_density",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "公共安全委员会",
+        "explain": "法国大革命时期（1793-1794）的最高权力机关，以集权和强力手段保卫革命成果，被视为革命专政的典型。",
+        "why_needed": "history_density",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "塞维尔（Seville）",
+        "explain": "西班牙南部重要城市，1808-1810年间中央洪达曾驻扎于此，是其活动的重要地点。",
+        "why_needed": "history_density",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p66s8",
+        "quote": "有人说过，西班牙忍受革命的一切苦难而得不到革命的力量。",
+        "trigger": "inverted_logic",
+        "reader_block": "反讽句式，表面说西班牙“得不到”力量，实则暗示力量被内部人（洪达）主动压制或浪费了。",
+        "parse": {
+          "claim": "西班牙在革命中承受了所有代价，却未能将革命转化为推动社会变革的实际力量。",
+          "qualifiers": "特指1808年革命期间的状况。",
+          "contrast_or_target": "针对将革命苦难视为纯粹外部侵略后果的简单化观点。"
+        },
+        "why": {
+          "relation": "continues",
+          "explanation": "承接上文对洪达反革命行为的描述，用一句流行的评论概括其后果，为下句的致命判决做铺垫。"
+        },
+        "implication": "革命的失败不仅源于外敌，更源于领导机构的阶级背叛。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      },
+      {
+        "anchor": "p66s9",
+        "quote": "假如这个说法还有一部分真理的话，那就是它对中央洪达作了致命的判决。",
+        "trigger": "inverted_logic",
+        "reader_block": "双重否定与让步结构（“假如……还有一部分真理”），实际是强烈的肯定判断，将革命失败的责任完全归咎于洪达。",
+        "parse": {
+          "claim": "如果前述评论有任何正确之处，那么它恰恰证明了中央洪达是革命力量无法生成的根本原因。",
+          "qualifiers": "以让步语气（“假如”）加强论断的确定性。",
+          "contrast_or_target": "反驳将革命失败归因于西班牙民族性或外部压力的论调。"
+        },
+        "why": {
+          "relation": "conclusion",
+          "explanation": "对洪达行为的最终定性，将前文所有描述收束为一个结论：洪达是革命的掘墓人。"
+        },
+        "implication": "革命需要真正的革命领导，而非旧势力的代理人。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p66s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p66s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p66s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p66s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p66s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p66s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p66s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p66s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p66s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 2,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "polemic:eval_word:author_response:深刻"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 370,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "通过回顾巴黎公社因和平妥协而失败的教训，以反问形式强调马克思主张对反革命势力采取坚决行动。",
+    "importance_score": 2,
+    "importance_reason": "以历史实例支撑前文论点，具体展示作者所批判的“和平行动”在革命实践中的后果。",
+    "argument_role": "example",
+    "argument_link": "承接上段关于“选票”的讨论，转而用巴黎公社的历史教训，具体说明放弃武装斗争、对敌人宽大的危险性。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "巴黎公社",
+        "explain": "1871年巴黎工人阶级在普法战争失败后起义建立的革命政权，仅存续72天。其因未果断进军凡尔赛、对敌人过于宽容而最终被镇压。马克思在《法兰西内战》中总结了其经验教训。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "无政府主义",
+      "their_view": "主张通过和平行动、个人直接行动或宽大态度来实现解放，反对集中化的暴力革命和无产阶级专政。",
+      "author_response": "通过马克思对巴黎公社失败教训的总结，指出放弃对反革命势力的进攻、满足于局部胜利和采取宽大态度是错误的，会导致革命失败。",
+      "polemic_kind": "counter_quotation",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p370s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p370s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p370s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p370s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p370s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p370s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

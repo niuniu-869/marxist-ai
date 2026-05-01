@@ -1,0 +1,175 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 133,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "马克思逐一驳斥将巴黎公社视为历史倒退或分裂国家的错误类比，阐明其真正性质是将国家权力归还社会。",
+    "importance_score": 2,
+    "importance_reason": "核心论点的支撑，通过反驳各种错误类比来阐明公社的真正性质与历史意义。",
+    "argument_role": "contrasts",
+    "argument_link": "上段正面阐述公社制度在法国的确立前景，本段转而反驳外界对这一新创举的种种误解，形成论证上的对比与澄清。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "孟德斯鸠和吉伦特派的小邦联盟思想；俾斯麦对公社的误解",
+      "their_view": "孟德斯鸠和吉伦特派梦想将大国分解为许多小邦联盟；俾斯麦认为巴黎公社要仿效普鲁士的市政机制。",
+      "author_response": "公社不是要分裂国家，而是要将国家这个寄生赘瘤夺去的力量归还社会；公社体制与普鲁士市政机制有本质区别，后者是国家警察机器的辅助。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p133s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p133s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p133s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "孟德斯鸠和吉伦特派",
+            "type": "person",
+            "modern": "孟德斯鸠是法国启蒙思想家，主张分权；吉伦特派是法国大革命中的温和派，主张联邦制，反对中央集权。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p133s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p133s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p133s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "国家这个寄生赘瘤",
+            "type": "metaphor",
+            "modern": "马克思将脱离社会、靠社会供养却阻碍社会发展的国家机器比作一种多余的、有害的生长物。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p133s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p133s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "路易－菲利普",
+            "type": "person",
+            "modern": "法国七月王朝（1830-1848）的国王，代表金融资产阶级利益。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p133s9",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p133s10",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p133s11",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p133s12",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "俾斯麦",
+            "type": "person",
+            "modern": "普鲁士王国首相及德意志帝国首任宰相，普法战争中击败法国。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "《喧声》杂志",
+            "type": "work",
+            "modern": "柏林的一家讽刺杂志，类似英国的《笨拙》杂志，此处用以讽刺俾斯麦的言论水平。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p133s13",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 5,
+        "notes_dropped": 5,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_archaic_5>4",
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix",
+        "note:n1_overflow_event_13>12"
+      ]
+    }
+  ]
+}

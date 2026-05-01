@@ -1,0 +1,74 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 28,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁通过反问和类比，论证反对兼并并非因为其使用了暴力，而是因为它违背了民族自决原则。",
+    "importance_score": 2,
+    "importance_reason": "本段是核心论证的延续，通过排除错误理由（暴力本身）来巩固“兼并即违反自决”的结论。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对“兼并”概念的拆解，进一步澄清社会民主党人反对兼并的根本原因，排除将原因简单归结为暴力的错误理解。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "波兰社会民主党反对派等",
+      "their_view": "反对兼并是因为它是一种暴力，或者认为在帝国主义时代任何民族独立斗争都是不可取的。",
+      "author_response": "列宁指出，反对兼并的根本原因在于它违背了居民意志和民族自决原则，而非其暴力形式；同时，不能因此赞成维持现状。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p28s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p28s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p28s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p28s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_archaic_10>4",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

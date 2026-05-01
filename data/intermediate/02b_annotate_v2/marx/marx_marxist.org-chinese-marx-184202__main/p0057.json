@@ -1,0 +1,86 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 57,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段引用普鲁士检查令条款，讽刺其禁止怀疑个人或阶级思想及使用党派名称，并指出党派名称对政治报刊不可或缺。",
+    "importance_score": 2,
+    "importance_reason": "本段通过具体条款的引用和讽刺，支撑对检查令虚伪性的批判，并引入党派名称必要性的论证。",
+    "argument_role": "continues",
+    "argument_link": "本段延续上段对检查令禁止侮辱性判断的批判，进一步揭露其对思想自由和政治讨论的限制。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p57s2",
+        "quote": "可是，人为了要使一切东西对他来说都是存在的，他就必须像亚当那样给它们都起个名称；",
+        "trigger": "allusion",
+        "reader_block": "马克思引用圣经中亚当为万物命名的故事，比喻命名是认识世界的必要行为，读者可能不熟悉此典故。",
+        "parse": {
+          "claim": "人必须通过命名来认识和区分事物。",
+          "qualifiers": "无。",
+          "contrast_or_target": "检查令禁止使用党派名称，但马克思认为命名是必要的。"
+        },
+        "why": {
+          "relation": "contrasts",
+          "explanation": "本句用典故反驳检查令对党派名称的禁止，论证其必要性。"
+        },
+        "implication": "党派名称是政治讨论中不可或缺的工具。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "普鲁士书报检查制度",
+      "their_view": "检查令要求禁止怀疑个人或阶级思想、使用党派名称等，以维护秩序。",
+      "author_response": "马克思讽刺这种限制，并论证党派名称是政治报刊的必要范畴。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p57s1",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p57s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p57s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 1,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

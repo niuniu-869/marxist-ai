@@ -1,0 +1,66 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 97,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "论证监督法律的实施主体和监督力量，强调应由被压迫阶级而非官僚机构来执行和监督。",
+    "importance_score": 2,
+    "importance_reason": "提出了监督实施的具体路径，是论证的核心支撑，将抽象的“监督”原则与阶级力量对比联系起来。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于立即颁布法律的主张，具体阐述该法律应如何实施和由谁监督，将“决心”落实到阶级力量的运用上。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "切尔诺夫的“统计”主张",
+        "explain": "切尔诺夫是社会革命党领袖之一。他主张通过国家设立的统计机关来收集和处理经济数据，以此作为监督的基础。列宁在此批评这种依赖官僚机构的做法。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p97s1",
+        "quote": "为了颁布这样的法律，并不需要任何机构，任何“统计”（切尔诺夫曾想用“统计”来代替农民的革命首创精神），因为这种法律应当由工厂主或工业家本身，由现有的社会力量来实施，并由现有的社会（即不是政府的，不是官僚的）力量加以监督，不过这种社会力量一定要来自所谓“下层等级”，即来自被压迫被剥削阶级，因为这些阶级的英勇精神、自我牺牲精神和集体纪律，在历史上总是比剥削者高出无数倍。",
+        "trigger": "long_nested",
+        "reader_block": "长句嵌套多层逻辑，且包含括号补充说明和特定术语“下层等级”，读者容易迷失论证主线，不清楚“实施”与“监督”的主体分别是谁。",
+        "parse": {
+          "claim": "监督法律的实施和监督应由被压迫阶级直接进行，而非依赖官僚机构或统计机关。",
+          "qualifiers": "法律的实施由工厂主或工业家本身进行，但监督力量必须来自被压迫被剥削阶级。",
+          "contrast_or_target": "批判了依赖国家统计机关等官僚机构来实施监督的主张。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "本句通过对比“官僚的”与“社会的”力量，直接批判了孟什维克和社会革命党人主张的、由国家机关主导的渐进式监督方案，为布尔什维克的直接行动路线提供论证。"
+        },
+        "implication": null,
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "孟什维克和社会革命党人",
+      "their_view": "主张通过国家正规机关和统计机构来逐步实施经济监督，认为这是稳妥和必要的程序。",
+      "author_response": "列宁认为这种依赖官僚机构的做法是拖延和无效的，真正的监督力量必须来自被压迫阶级自身的革命行动和组织。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p97s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 5,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段引用《改革报》对法国历史的概述，强调阶级斗争贯穿始终，为后续批判其调和立场做铺垫。",
+    "importance_score": 2,
+    "importance_reason": "本段展示论敌对阶级斗争的承认，作为作者批判的起点。",
+    "argument_role": "continues",
+    "argument_link": "本段延续上段对《改革报》观点的引用，具体展示其对法国历史的阶级斗争叙述。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_density",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "法国历史事件",
+        "explain": "本段提及第一共和国、帝国时代、波旁王朝复辟和1830年革命，这些是法国从18世纪末到19世纪初的关键政治阶段，涉及资产阶级与贵族的斗争。",
+        "why_needed": "history_density",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p5s1",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": [
+          {
+            "surface": "阶级",
+            "type": "concept",
+            "modern": "在马克思主义中，指在生产关系中处于不同地位的社会集团，其对立是历史发展的动力。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "class_marxist"
+          },
+          {
+            "surface": "第一共和国",
+            "type": "event",
+            "modern": "1792年法国大革命中建立的共和国，标志着资产阶级对贵族的胜利。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

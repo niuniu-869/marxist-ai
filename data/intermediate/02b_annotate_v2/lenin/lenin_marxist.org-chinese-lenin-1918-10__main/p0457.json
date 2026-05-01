@@ -1,0 +1,121 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 457,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段通过对比王德威尔得与考茨基的引用策略，揭露他们系统性地回避马克思恩格斯关于打碎旧国家机器的核心论断。",
+    "importance_score": 2,
+    "importance_reason": "本段是核心批判的具体展开，通过实例论证考茨基主义对马克思主义的阉割。",
+    "argument_role": "continues",
+    "argument_link": "承接上段宣布将列举王德威尔得的论断，本段具体分析其引用马克思恩格斯时的选择性，以支持作者对考茨基主义的批判。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "王德威尔得",
+        "explain": "埃米尔·王德威尔得，比利时工人党领袖，第二国际社会党国际局主席。他与考茨基同属第二国际中派，主张通过议会道路实现社会主义，反对暴力革命。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "《共产党宣言》的补充",
+        "explain": "马克思恩格斯在1872年德文版序言中指出，《宣言》中的一些具体措施已经过时，特别强调了巴黎公社的经验，即工人阶级不能简单地掌握现成的国家机器，而必须打碎它。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p457s2",
+        "quote": "他同考茨基一样，对于马克思和恩格斯的言论，除了资产阶级完全不能接受的以外，除了把革命者和改良主义者区别开来的以外，什么都引用。",
+        "trigger": "inverted_logic",
+        "reader_block": "双重否定结构（“除了……以外，什么都引用”），读者需要先理解被排除的两类内容，才能把握其实际引用范围。",
+        "parse": {
+          "claim": "王德威尔得和考茨基在引用马克思恩格斯时，系统性地排除了那些最激进、最能区分革命与改良的核心内容。",
+          "qualifiers": "排除的范围特指两类：一是资产阶级完全无法接受的论断，二是能明确区分革命者与改良主义者的论断。",
+          "contrast_or_target": "他们主张只引用那些可以被纳入议会斗争框架的温和内容，回避革命性内容。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "本句具体描述了考茨基主义对马克思主义的阉割手法，即选择性引用，为后文指出他们回避“打碎国家机器”这一关键点做铺垫。"
+        },
+        "implication": "这种引用方式旨在将马克思主义改造为适合资产阶级议会政治的改良理论。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      },
+      {
+        "anchor": "p457s5",
+        "quote": "①关于这一点，他却一字不提！",
+        "trigger": "inverted_logic",
+        "reader_block": "强烈的反讽语气，用极简短的句子表达对王德威尔得故意沉默的指控，读者需结合前文理解“这一点”所指。",
+        "parse": {
+          "claim": "王德威尔得完全回避了马克思恩格斯根据巴黎公社经验提出的、关于必须打碎旧国家机器的核心观点。",
+          "qualifiers": "无。",
+          "contrast_or_target": "王德威尔得大量引用关于夺取政权的言论，却对夺取政权后必须采取的关键行动保持沉默。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "这是对前文描述的“选择性引用”策略的致命一击，直接点出他们所回避的正是无产阶级革命与资产阶级改良的根本区别。"
+        },
+        "implication": "这种沉默暴露了他们反对真正无产阶级革命的实质。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "王德威尔得与考茨基",
+      "their_view": "我们应当引用马克思和恩格斯关于夺取政权的论述，因为这可以被解释为在现有国家框架内通过议会斗争取得胜利。",
+      "author_response": "列宁指出，他们故意遗漏了马克思恩格斯在总结巴黎公社经验后强调的真理：工人阶级必须打碎旧的国家机器，而不能简单地接管它。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p457s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p457s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p457s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p457s4",
+        "speaker": "quoted_marx",
+        "stance": "endorsed",
+        "notes": []
+      },
+      {
+        "sid": "p457s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p457s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  }
+}

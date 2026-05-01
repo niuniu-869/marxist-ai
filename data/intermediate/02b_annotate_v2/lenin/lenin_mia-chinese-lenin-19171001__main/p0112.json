@@ -1,0 +1,125 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 112,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁论证，无产阶级国家掌握的经济控制手段（粮食垄断、面包配给制、普遍劳动义务制）是镇压资本家反抗的强力工具，其效能超越历史上的暴力镇压。",
+    "importance_score": 2,
+    "importance_reason": "本段是列宁论证无产阶级国家能力的关键环节，具体阐述了上一段提到的“武器”如何在无产阶级手中发挥威力。",
+    "argument_role": "continues",
+    "argument_link": "",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p112s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "粮食垄断",
+            "type": "concept",
+            "modern": "战时国家对粮食生产、分配的全面统制，是应对短缺和保障供应的极端经济措施。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "economic_control_war"
+          },
+          {
+            "surface": "面包配给制",
+            "type": "concept",
+            "modern": "依据配给券定量供应基本食物的制度，是粮食垄断的具体执行形式。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "economic_control_war"
+          }
+        ]
+      },
+      {
+        "sid": "p112s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "苏维埃",
+            "type": "org",
+            "modern": "1917年俄国革命中出现的工人士兵代表会议，列宁视其为无产阶级专政的政权形式。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "资本家",
+            "type": "concept",
+            "modern": "占有生产资料、雇佣劳动并获取剩余价值的资产阶级成员。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "class_bourgeoisie"
+          }
+        ]
+      },
+      {
+        "sid": "p112s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "法国国民公会",
+            "type": "event",
+            "modern": "1792-1795年法国大革命期间的最高权力机关，以推行恐怖统治和使用断头台著称。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p112s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p112s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 5,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 1
+      },
+      "reasons": [
+        "note:n1_overflow_concept_7>5"
+      ]
+    }
+  ]
+}

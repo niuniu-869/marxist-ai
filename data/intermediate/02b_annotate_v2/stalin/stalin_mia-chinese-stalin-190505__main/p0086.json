@@ -1,0 +1,55 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 86,
+  "annotation": {
+    "block_type": "quote_block",
+    "gist": "斯大林引用考茨基的论述，用以支持布尔什维克关于工人政党发展的观点，并反驳孟什维克的指责。",
+    "importance_score": 2,
+    "importance_reason": "作为论战中的关键引证，用以支撑作者关于无产阶级政党独立性与社会主义意识关系的论证。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段关于无产阶级与资产阶级利益矛盾及建立独立工人政党必然性的论述，进一步用考茨基的话来论证工人政党最终会接受社会主义倾向。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "refute_quotation"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p86s1",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

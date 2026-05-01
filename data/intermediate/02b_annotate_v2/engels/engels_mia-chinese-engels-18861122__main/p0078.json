@@ -1,0 +1,94 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 78,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "通过两个历史类比，讽刺门格尔指控马克思抄袭的逻辑是荒谬的。",
+    "importance_score": 2,
+    "importance_reason": "用具体类比直接反驳门格尔的核心指控，是核心批判的组成部分。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对理论剽窃行为的讽刺，本段用两个具体历史事例展开，直接针对门格尔对马克思的指控。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "威廉·配第",
+        "explain": "17世纪英国经济学家，古典政治经济学的先驱。他在亚当·斯密之前就对分工等问题有过论述，是马克思常引用的早期政治经济学家。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "阿那克西曼德",
+        "explain": "古希腊伊奥尼亚哲学家，约公元前6世纪人。他提出过万物源于“无限者”以及生物从水生形态演变而来的朴素进化思想。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "门格尔",
+      "their_view": "马克思的剩余价值理论是从汤普森等英国社会主义者那里抄袭来的，缺乏独创性。",
+      "author_response": "通过构建一个同样荒谬的类比（指控达尔文抄袭古希腊人），揭露门格尔这种指控方法的逻辑是站不住脚的。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p78s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p78s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p78s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p78s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p78s5",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

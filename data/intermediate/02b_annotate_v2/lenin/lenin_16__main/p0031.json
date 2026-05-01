@@ -1,0 +1,87 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 31,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "描述苏维埃通过联络委员会与临时政府合作，其领袖实际扮演政府角色。",
+    "importance_score": 2,
+    "importance_reason": "具体展示妥协主义在苏维埃内部的运作形式，是核心批判的例证。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对临时政府拉拢苏维埃的描述，具体说明苏维埃方面如何回应并陷入合作。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "社会革命党人和孟什维克领袖",
+      "their_view": "我们通过联络委员会与政府谈判，是在履行对政府的监督和检查职责。",
+      "author_response": "列宁指出，这种谈判使他们实际上成了资本家政府的非正式部长，放弃了独立的监督地位。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p31s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p31s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "联络委员会",
+            "type": "org",
+            "modern": "苏维埃与临时政府间的正式沟通机构，但实际成为妥协渠道。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p31s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "资本家政府",
+            "type": "concept",
+            "modern": "由资产阶级政党主导的临时政府。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "state_bourgeois"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 2,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_social_group_13>12",
+        "note:n1_overflow_metaphor_12>8"
+      ]
+    }
+  ]
+}

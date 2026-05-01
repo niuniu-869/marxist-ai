@@ -1,0 +1,66 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 262,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段列举了8家银行的名称，但文本存在乱码和截断，具体银行名称不完整。",
+    "importance_score": 1,
+    "importance_reason": "本段作为例子，列举具体银行名称，支撑前文关于银行集中的论述。",
+    "argument_role": "continues",
+    "argument_link": "本段继续前文对银行资本的分析，通过列举具体银行名称来例证银行集中现象。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "text_anomaly",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "text_anomaly",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "文本异常",
+        "explain": "原文中'莫斯□E'疑似排版残留或OCR错误，'圣'字后截断，导致银行名称不完整。读者应知这是文本问题，而非内容本身。",
+        "why_needed": "text_anomaly",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p262s1",
+        "quote": "(ｂ)8家银行：莫斯□E商人银行、伏尔加-卡马银行、容克股份银行、圣",
+        "trigger": "text_anomaly",
+        "reader_block": "文本中'莫斯□E'是乱码，'圣'字后截断，读者无法识别完整银行名称，影响理解。",
+        "parse": {
+          "claim": "本句列出一系列银行机构，但文本存在错误导致名称缺失。",
+          "qualifiers": "",
+          "contrast_or_target": ""
+        },
+        "why": {
+          "relation": "none",
+          "explanation": ""
+        },
+        "implication": null,
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p262s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  }
+}

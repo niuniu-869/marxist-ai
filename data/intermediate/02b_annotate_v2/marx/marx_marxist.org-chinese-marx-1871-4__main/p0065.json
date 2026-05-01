@@ -1,0 +1,131 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 65,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段以拿破仑一世对普鲁士的掠夺及其最终失败为例，论证通过割地等“物质保证”来削弱对手的政策在历史上必然招致报应。",
+    "importance_score": 2,
+    "importance_reason": "本段通过历史类比，为前文批判普鲁士对法索取“物质保证”的主张提供核心论据，是论证掠夺政策无效性的关键环节。",
+    "argument_role": "example",
+    "argument_link": "承接上段对以军事理由划定国界的批判，本段用拿破仑一世的历史先例，具体论证这种掠夺性“物质保证”政策的最终无效与反噬。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "蒂尔西特和约",
+        "explain": "1807年拿破仑一世在战胜普鲁士后强迫其签订的和约，割占普鲁士近半领土并索取巨额赔款，旨在彻底削弱普鲁士。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "拿破仑一世与普鲁士",
+        "explain": "拿破仑一世在1806-1807年战争中击败普鲁士，通过蒂尔西特和约对其施加严苛惩罚，但普鲁士随后通过改革复兴，并在1813年参与击败拿破仑。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p65s7",
+        "quote": "普鲁士现在在它最狂妄的幻想中能够或者敢于向法国索取的“物质保证”，难道能够和拿破仑第一曾从德国本身索取过的相比吗？",
+        "trigger": "inverted_logic",
+        "reader_block": "反问句式，读者可能只关注字面比较，而忽略其隐含的否定判断和历史类比的警示意图。",
+        "parse": {
+          "claim": "普鲁士当前可能向法国提出的任何领土要求，其规模与严苛程度都无法与当年拿破仑从德国索取的相比。",
+          "qualifiers": "限定于“最狂妄的幻想中”这一极端假设情境。",
+          "contrast_or_target": "普鲁士政府可能提出的、旨在永久削弱法国的领土割让要求。"
+        },
+        "why": {
+          "relation": "example",
+          "explanation": "此句通过反问，将当前普鲁士的潜在行为与历史上拿破仑的已发生行为进行对比，旨在说明即便当前要求远不及历史先例，其后果也将同样严重。"
+        },
+        "implication": "既然更严苛的掠夺都未能摧毁一个民族，那么当前程度较轻的掠夺更不可能达到永久削弱的目的，反而会激起反抗。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p65s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p65s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p65s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p65s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p65s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p65s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p65s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "物质保证",
+            "type": "concept",
+            "modern": "在普法战争后语境下，特指战胜国通过割占领土、索取赔款等方式，旨在从地理和经济上永久削弱战败国的强制性条款。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "material_guarantee_war"
+          }
+        ]
+      },
+      {
+        "sid": "p65s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p65s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 42,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段预判并反驳对使用非常规手段整顿国家机关的反对意见，强调苏维埃国家的现实需要。",
+    "importance_score": 2,
+    "importance_reason": "本段通过对比西欧与苏维埃国家的反应，为前文提出的“巧计”策略提供合理性辩护，属于核心论证的支撑环节。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段关于使用“巧计”接近官僚主义者的建议，本段预判这种建议可能引发的反对，并论证其在苏维埃语境下的正当性。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "新经济政策",
+        "explain": "1921年起苏俄实行的经济政策，允许一定程度的私人贸易和小企业存在，以恢复被战争破坏的经济。它在党内和国内引发了关于其性质与前途的争论。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "“渣滓”的比喻",
+        "explain": "列宁用此词指代苏维埃国家机关中混入的旧官僚、投机分子、不称职人员等，是需要被清理的对象。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p42s1",
+        "quote": "这样的建议在西欧国家机关中会引起空前的不满、道义上的愤慨等等，但我希望我们还没有官僚化到会采取这种态度的地步。",
+        "trigger": "inverted_logic",
+        "reader_block": "“官僚化到会采取这种态度的地步”是双重否定式表达，读者需先理解“这种态度”指代西欧的愤慨，再反推列宁希望苏维埃官员不要如此。",
+        "parse": {
+          "claim": "列宁希望苏维埃国家机关的工作人员，不会像西欧同行那样，对采用非常规手段整顿机关感到愤怒和抵触。",
+          "qualifiers": "此判断基于苏维埃国家建立不久，尚未完全沾染旧式官僚习气的现状。",
+          "contrast_or_target": "西欧国家机关的官员，他们习惯于按部就班，对任何打破常规的整顿方式都会产生强烈的道德抵触和不满情绪。"
+        },
+        "why": {
+          "relation": "contrasts",
+          "explanation": "本句将苏维埃国家机关与西欧国家机关进行对比，旨在论证在苏维埃语境下，采用前文所述的“巧计”是可行且必要的，因为苏维埃的干部尚未完全官僚化。"
+        },
+        "implication": "如果苏维埃干部也像西欧官僚那样抵触改革，那就意味着他们已经严重官僚化，这是需要警惕的。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      },
+      {
+        "anchor": "p42s3",
+        "quote": "我们的苏维埃共和国建立还不很久，却已积了这样一堆形形色色的渣滓，未必会有人一想到要用某些巧计、有时要用寻根究源或迂回曲折的侦察方法来挖掘这些渣滓就恼怒起来，假如有，那也可以相信，我们大家都会痛快地嘲笑这种人的。",
+        "trigger": "long_nested",
+        "reader_block": "句子长且嵌套了“未必会有人……就恼怒起来”的复杂否定结构，以及“假如有……就……”的假设，核心论点被包裹在层层修饰中。",
+        "parse": {
+          "claim": "苏维埃国家机关中已经混入了大量需要被清除的不良分子，因此，任何对使用巧妙、迂回的方法来清除他们感到愤怒的人，都是可笑的。",
+          "qualifiers": "此判断基于苏维埃共和国建立时间短，但机关内问题已很严重的现实。",
+          "contrast_or_target": "那些对使用“巧计”或“侦察方法”来整顿机关感到愤怒的人，他们可能认为这有损体面或违背原则。"
+        },
+        "why": {
+          "relation": "conclusion",
+          "explanation": "本句是前文论证的总结：正因为机关内“渣滓”众多（前提），所以使用非常规手段（结论）不仅合理，而且反对这种手段的人本身就成了被嘲笑的对象。"
+        },
+        "implication": "对整顿手段的道德洁癖，在现实问题面前是幼稚和可笑的。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "反对使用非常规手段整顿国家机关的人",
+      "their_view": "使用巧计、侦察等非常规手段来整顿国家机关，是不道德的、令人愤慨的，有损苏维埃政权的体面。",
+      "author_response": "苏维埃国家机关已混入大量需要清除的不良分子，现实问题要求必须使用这些务实手段；对这种手段感到愤怒的人，其态度本身是可笑的，反映了严重的官僚主义。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p42s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p42s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p42s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  }
+}

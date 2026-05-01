@@ -1,0 +1,179 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 183,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段剖析立宪民主党人（以布兰克为代表）言论的实质，即试图让无产阶级服从其领导，并用关于起义时机的讨论掩盖其对武装起义的根本否定。",
+    "importance_score": 3,
+    "importance_reason": "核心段落，直接揭露论敌（立宪民主党）对无产阶级革命的根本态度，并阐明作者（布尔什维克）对十二月起义的评价。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对立宪民主党人反对武装起义言论的分析，进一步揭示其言论背后的政治意图和阶级立场，并对比社会民主党内部的不同反应。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "布兰克与《解放》杂志",
+        "explain": "布兰克是立宪民主党理论家。《解放》杂志是立宪民主党前身“解放社”的机关报，由司徒卢威主编，宣传君主立宪主张。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "十二月起义",
+        "explain": "指1905年12月莫斯科工人武装起义，是1905年革命的高潮，后被沙皇军队镇压。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p183s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p183s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p183s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p183s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p183s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p183s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p183s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p183s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "《解放》杂志",
+            "type": "work",
+            "modern": "立宪民主党前身“解放社”的机关报，由司徒卢威主编，是该派别宣传其政治主张的主要阵地。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "司徒卢威",
+            "type": "person",
+            "modern": "立宪民主党主要理论家和领导人之一，曾主编《解放》杂志，后成为“路标派”代表人物。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p183s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p183s10",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p183s11",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "普列汉诺夫",
+            "type": "person",
+            "modern": "俄国马克思主义理论家，早期孟什维克领袖，在1905年革命后对武装起义持消极态度。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p183s12",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p183s13",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "考茨基",
+            "type": "person",
+            "modern": "德国社会民主党理论家，第二国际领袖之一，当时被视为正统马克思主义的代表。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 4,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 2,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote",
+        "hs:claim_5gram_with_quote",
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

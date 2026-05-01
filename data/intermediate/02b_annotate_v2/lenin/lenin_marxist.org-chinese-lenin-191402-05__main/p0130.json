@@ -1,0 +1,63 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 130,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段以反问句式，引出对罗莎·卢森堡所举挪威例子的分析，为后续论证做铺垫。",
+    "importance_score": 1,
+    "importance_reason": "本段作为过渡，引出具体历史例子以支撑对民族自决权的论证。",
+    "argument_role": "continues",
+    "argument_link": "本段承接上一段关于社会民主党纲领中民族自决权的问题，通过反问引出对具体例子的考察。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "挪威独立例子",
+        "explain": "罗莎·卢森堡在论战中引用挪威从瑞典和平分离的事件，以此质疑民族自决权在帝国主义时代的必要性。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p130s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

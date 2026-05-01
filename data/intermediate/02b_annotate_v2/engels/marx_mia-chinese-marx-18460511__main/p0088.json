@@ -1,0 +1,72 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 88,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "恩格斯引用克利盖对共产主义者理想的描述，并通过括号内评论反驳其前提，指出这种理想基于虚幻的怪影。",
+    "importance_score": 2,
+    "importance_reason": "本段通过引用和反驳克利盖的论述，具体展示其错误理想，支撑整体论战。",
+    "argument_role": "continues",
+    "argument_link": "本段延续上段对克利盖论断的否定，具体引用其关于共产主义者理想的描述并加以批判。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "refute_quotation"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "克利盖",
+      "their_view": "共产主义者应带有人类烙印，按照人类目标确定自己目标，并为人类献身。",
+      "author_response": "这种理想是虚幻的，基于一个不存在的‘人类’目标，导致自我牺牲和自卑自贱。",
+      "polemic_kind": "counter_quotation",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p88s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "人类的烙印",
+            "type": "metaphor",
+            "modern": "在克利盖的语境中，指个体与抽象人类本质的联系",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          },
+          {
+            "surface": "虚幻的怪影",
+            "type": "metaphor",
+            "modern": "恩格斯用来形容克利盖理想中不切实际的集体概念",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,159 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 67,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "分析北德意志联邦宪法如何体现普鲁士国王的权力，并指出帝国国会中首次出现社会主义议员这一新现象。",
+    "importance_score": 1,
+    "importance_reason": "本段是恩格斯对德国统一后政治结构的具体分析，为后续论述社会主义运动的发展提供背景，属于支撑性例证。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于俾斯麦利用军事胜利迫使资产阶级服从的论述，具体说明这种服从在宪法和议会制度上的体现。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "凯尼格列茨战役",
+        "explain": "1866年普奥战争中的决定性战役，普鲁士获胜，直接导致奥地利被排除出德意志事务，为北德意志联邦的建立铺平道路。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "宪法冲突",
+        "explain": "指1860年代普鲁士议会（尤其是下院）与国王之间关于军队改革和预算权的斗争，最终以国王的胜利告终，确立了行政权高于立法权的原则。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "北德意志联邦宪法",
+        "explain": "1867年为统一的北德意志联邦制定的宪法，其核心是赋予普鲁士国王及其首相（俾斯麦）不受议会制约的行政权力。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p67s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "凯尼格列茨城下",
+            "type": "event",
+            "modern": "1866年普奥战争中的决定性战役，普鲁士在此战中击败奥地利。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p67s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "宪法冲突",
+            "type": "event",
+            "modern": "1860年代普鲁士议会与国王之间关于军队和预算的权力斗争。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p67s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p67s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p67s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p67s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p67s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "社会主义者",
+            "type": "social_group",
+            "modern": "此处特指德国社会民主党（当时称“社会民主党”）的早期代表人物。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p67s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p67s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p67s10",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 3,
+        "notes_dropped": 2,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_5gram_with_surface",
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

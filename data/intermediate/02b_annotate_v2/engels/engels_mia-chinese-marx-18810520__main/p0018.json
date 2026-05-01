@@ -1,0 +1,130 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 18,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段论证阶级斗争必然发展为政治斗争，工人阶级需要争取政治权力以改变法律，并以英国宪章运动为例说明。",
+    "importance_score": 3,
+    "importance_reason": "核心论点段，明确将经济层面的阶级对抗提升到政治权力斗争的高度，为后文批判工联主义局限性奠定理论基础。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于社会分裂为两大对抗阶级的论述，进一步指出这种对抗在政治领域的必然表现形式。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "人民宪章运动",
+        "explain": "19世纪30-40年代英国工人阶级争取普选权的政治运动，其纲领性文件即《人民宪章》。运动虽失败，但标志着工人阶级作为独立政治力量登上历史舞台。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p18s7",
+        "quote": "它失败了，但是斗争给胜利了的资产阶级留下很深刻的印象，所以从那时起，它就甘愿以不断向工人让步为代价来换取比较长期的休战。",
+        "trigger": "long_nested",
+        "reader_block": "句子包含转折（失败了，但是）和因果（所以）两层逻辑，且“它”指代需回溯前文，读者易混淆失败与让步之间的反直觉关系。",
+        "parse": {
+          "claim": "宪章运动的失败客观上震慑了资产阶级，使其为维持稳定而采取持续让步策略。",
+          "qualifiers": "这是在英国特定历史背景下，资产阶级权衡利弊后的选择。",
+          "contrast_or_target": "工联主义可能认为失败即意味着斗争的终结或无效。"
+        },
+        "why": {
+          "relation": "example",
+          "explanation": "用宪章运动这一具体历史事件的结局，来例证前文提出的“被统治阶级争取政治权力”的斗争如何实际影响了统治阶级的策略。"
+        },
+        "implication": "工人阶级的政治斗争即使未达成直接目标，也能对统治阶级产生威慑，迫使其调整统治方式。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "工联主义",
+      "their_view": "工人运动应局限于经济领域，如争取更高工资、缩短工时，无需也无力进行政治斗争。",
+      "author_response": "恩格斯指出，两大阶级的对抗必然外化为政治权力斗争，工人阶级必须争取政治权力以改变法律，经济斗争无法脱离此背景。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p18s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p18s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "中等阶级",
+            "type": "archaic",
+            "modern": "19世纪英国语境中对资产阶级的常见称呼，强调其相对于旧贵族和新兴无产阶级的中间位置。",
+            "highlight": "archaic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p18s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "政治权力",
+            "type": "concept",
+            "modern": "在马克思主义语境中，指阶级通过国家机器（尤其是立法机关）贯彻自身意志、维护阶级利益的能力。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "political_power_marxist"
+          }
+        ]
+      },
+      {
+        "sid": "p18s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p18s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p18s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "人民宪章",
+            "type": "event",
+            "modern": "1838年英国工人阶级提出的争取普选权的政治纲领，引发了持续十余年的宪章运动。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p18s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  }
+}

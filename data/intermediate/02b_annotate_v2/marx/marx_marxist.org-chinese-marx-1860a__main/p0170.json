@@ -1,0 +1,144 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 170,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "分析无产阶级革命中如何处理农民问题，特别是土地所有制过渡的策略，并直接反驳巴枯宁的方案。",
+    "importance_score": 3,
+    "importance_reason": "本段是马克思对农民问题策略的核心阐述，直接回应巴枯宁，构成对无政府主义革命路线批判的关键部分。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段关于“贱农”可能受城市无产阶级管理的讨论，具体阐述在农民大量存在的地区，无产阶级政府应采取何种措施来争取农民，而非简单管理或排斥他们。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "巴枯宁",
+      "their_view": "革命进军应简单地将大地产转交给农民，以扩大小块土地的方式来巩固小块土地所有制。",
+      "author_response": "这种做法是错误的，因为它巩固了落后的小私有制，而非促进向集体所有制的过渡。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p170s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "土地私有制",
+            "type": "concept",
+            "modern": "在19世纪西欧，农民普遍拥有小块土地并以此为生的经济制度。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "land_private_ownership"
+          }
+        ]
+      },
+      {
+        "sid": "p170s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "无产阶级",
+            "type": "concept",
+            "modern": "在马克思理论中，指丧失生产资料、依靠出卖劳动力为生的现代工业工人阶级。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "proletariat_marxist"
+          }
+        ]
+      },
+      {
+        "sid": "p170s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p170s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "集体所有制",
+            "type": "concept",
+            "modern": "生产资料归集体共同所有，是马克思设想的从私有制向完全公有制过渡的经济形式。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "collective_ownership"
+          }
+        ]
+      },
+      {
+        "sid": "p170s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "租佃资本家",
+            "type": "social_group",
+            "modern": "通过租赁土地进行资本主义农业经营的资本家，他们排挤了传统小农。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          },
+          {
+            "surface": "雇佣工人",
+            "type": "concept",
+            "modern": "完全丧失生产资料，只能靠出卖劳动力为生的劳动者，与城市无产阶级具有共同利益。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "wage_labor"
+          }
+        ]
+      },
+      {
+        "sid": "p170s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "巴枯宁",
+            "type": "person",
+            "modern": "俄国无政府主义思想家，第一国际中马克思的主要论敌。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "metadata"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 6,
+        "notes_dropped": 3,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix",
+        "note:n1_overflow_concept_7>5"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 7,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁引用卡尔·考茨基的论述，以证明马克思主义者对民族独立要求的有条件承认立场。",
+    "importance_score": 2,
+    "importance_reason": "通过引用当时公认的马克思主义权威考茨基的言论，为作者在民族问题上的阶级立场提供论据支撑。",
+    "argument_role": "example",
+    "argument_link": "承接上段对波兰社会党等“无条件独立”主张的批判，本段通过援引考茨基的观点，为“有条件承认”这一核心论点提供权威佐证。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "refute_quotation"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "卡尔·考茨基",
+        "explain": "19世纪末20世纪初德国社会民主党及第二国际的重要理论家，被视为正统马克思主义的代表人物。列宁在早期常引用其著作以增强论证权威性。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "《Fillis Poloniae？》",
+        "explain": "考茨基于1896年发表的一篇关于波兰问题的文章，标题为拉丁文，意为“波兰完了吗？”。列宁引用此文以证明考茨基也持“有条件承认”的立场。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "波兰社会党、俄国社会革命党",
+      "their_view": "主张无条件地、完全地承认民族独立权，将民族自决置于阶级斗争之上。",
+      "author_response": "列宁通过引用考茨基的论述证明，即使在马克思主义阵营内部，对波兰独立的支持也是有条件的，即必须符合国际无产阶级的阶级利益，从而反驳了对手的“无条件”主张。",
+      "polemic_kind": "counter_quotation",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p7s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p7s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p7s3",
+        "speaker": "quoted_opponent",
+        "stance": "endorsed",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

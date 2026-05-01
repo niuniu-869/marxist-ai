@@ -1,0 +1,98 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 6,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段用“量到质的转化”这一规律，批判“机械的”世界观，并讽刺其支持者对此毫无认识。",
+    "importance_score": 2,
+    "importance_reason": "本段是前文论证的延续，具体应用辩证法规律来批判形而上学世界观，属于支撑性论点。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于自然界不存在绝对界限的论证，转而从“量变引起质变”的角度，批判与之对立的机械论世界观。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p6s2",
+        "quote": "这是绅士们从来没有嗅到的！",
+        "trigger": "inverted_logic",
+        "reader_block": "反讽语气加隐喻（“嗅到”），读者可能不理解“绅士们”具体指谁，也不易把握其讽刺的力度。",
+        "parse": {
+          "claim": "那些被称作“绅士们”的人，完全没有认识到量变引起质变这一规律。",
+          "qualifiers": "",
+          "contrast_or_target": "他们持守的“机械的”世界观，认为变化只是量的增减，不会引起质的飞跃。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "这句话以讽刺口吻，直接点明论敌（机械世界观的支持者）在认知上的根本缺陷，强化了前一句的批判。"
+        },
+        "implication": "作者认为，不理解这一规律是形而上学世界观的一个关键盲点。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "绅士们",
+      "their_view": "世界是机械的，事物的变化仅仅是数量的增减，不会发生性质的根本改变。",
+      "author_response": "恩格斯讽刺他们完全没有“嗅到”（即认识到）量变必然引起质变这一辩证规律。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p6s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p6s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "绅士们",
+            "type": "social_group",
+            "modern": "此处讽刺性地指代那些固守机械论、反对辩证法的学者或思想家。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          },
+          {
+            "surface": "嗅到",
+            "type": "metaphor",
+            "modern": "以感官体验比喻对理论规律的领悟和认识。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 2,
+        "hs_kept": 1,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_6>5",
+        "note:n1_overflow_concept_8>5"
+      ]
+    }
+  ]
+}

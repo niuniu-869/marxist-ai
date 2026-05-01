@@ -1,0 +1,129 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 8,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "恩格斯逐条批判纲领草案，本段反驳草案接受的拉萨尔派口号，即其他阶级对工人阶级而言都是反动一帮，并用德国工人运动的实际合作情况揭露其矛盾。",
+    "importance_score": 2,
+    "importance_reason": "这是对纲领草案第一个具体理论错误的集中批判，展示了恩格斯如何运用历史事实反驳教条。",
+    "argument_role": "contrasts",
+    "argument_link": "上一段恩格斯提出合并的条件，本段则具体展示草案内容如何违背这些条件，开始逐条批判。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p8s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "反动的一帮",
+            "type": "slogan",
+            "modern": "拉萨尔派用以描述除无产阶级外所有阶级的口号，意在简化阶级关系。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p8s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "巴黎公社",
+            "type": "event",
+            "modern": "1871年法国无产阶级建立的革命政权，被视为无产阶级专政的首次尝试。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p8s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "人民党",
+            "type": "org",
+            "modern": "德国小资产阶级民主派政党，全德人民党。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p8s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "人民国家报",
+            "type": "work",
+            "modern": "德国社会民主工党的中央机关报。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "法兰克福报",
+            "type": "work",
+            "modern": "代表小资产阶级民主派观点的报纸。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p8s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p8s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 5,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "polemic:polemic_their_view_qualifier:反动的"
+      ]
+    }
+  ]
+}

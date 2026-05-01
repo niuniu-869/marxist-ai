@@ -1,0 +1,79 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 8,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "作者批判改良主义，认为其背离了社会主义革命原则，因此在后续阐述社会主义内容的论文中不值得研究。",
+    "importance_score": 1,
+    "importance_reason": "排除一个讨论对象，为集中论述无政府主义与马克思主义的对立做铺垫。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段对社会主义三大派别的划分，具体说明为何将改良主义排除在本文核心讨论之外。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "改良主义（伯恩施坦等人）",
+      "their_view": "社会主义只是一个遥远的目的，可以通过和平手段建立，主张阶级合作而非阶级斗争。",
+      "author_response": "这种主张实际上否认了社会主义革命，其路线日益丧失社会主义的任何标志。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p8s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "改良主义",
+            "type": "concept",
+            "modern": "19世纪末至20世纪初工人运动中的一种思潮，主张通过议会斗争和改良而非革命来实现社会主义。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "reformism_opportunism"
+          },
+          {
+            "surface": "伯恩施坦等人",
+            "type": "person",
+            "modern": "爱德华·伯恩施坦，德国社会民主党人，修正主义理论家，主张渐进改良。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p8s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_6>5"
+      ]
+    }
+  ]
+}

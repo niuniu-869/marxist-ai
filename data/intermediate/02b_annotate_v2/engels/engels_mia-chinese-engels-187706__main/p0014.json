@@ -1,0 +1,170 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 14,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段叙述马克思在政治经济学领域的理论成果，以及他在意大利战争期间通过报刊进行的政治论战，特别是与福格特的交锋。",
+    "importance_score": 2,
+    "importance_reason": "本段是传记中连接马克思理论创作与政治实践的关键段落，展示了其学术工作与现实斗争的结合。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于马克思转向政治经济学研究和新闻写作的叙述，具体展开其理论成果（《政治经济学批判》）和政治论战（反对波拿巴主义、反击福格特）。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_density",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "意大利战争与波拿巴主义",
+        "explain": "1859年意大利战争是法国与撒丁王国联合对奥地利的战争。波拿巴主义指路易-拿破仑·波拿巴的统治策略，常以民族解放口号掩盖其扩张野心。",
+        "why_needed": "history_density",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "福格特事件",
+        "explain": "卡尔·福格特是德国博物学家和政治活动家。1859年，他受法国政府资助，在德国鼓吹中立政策，反对普鲁士干预意大利战争，并公开诽谤马克思。",
+        "why_needed": "history_density",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "十二月帝国与九月政府",
+        "explain": "“十二月帝国”指1852年路易-拿破仑建立的法兰西第二帝国。“九月政府”指1870年9月4日革命后成立的国防政府，它公布了前帝国的秘密档案。",
+        "why_needed": "history_density",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p14s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p14s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "价值论",
+            "type": "concept",
+            "modern": "马克思政治经济学的核心理论，揭示商品价值的实体是凝结的抽象劳动。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "value_political_economy"
+          }
+        ]
+      },
+      {
+        "sid": "p14s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "波拿巴主义",
+            "type": "concept",
+            "modern": "一种政治统治形式，指路易·波拿巴利用小资产阶级和流氓无产阶级，以民族主义口号掩盖其阶级专政。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "bonapartism"
+          }
+        ]
+      },
+      {
+        "sid": "p14s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "卡尔·福格特",
+            "type": "person",
+            "modern": "德国博物学家，1859年受法国政府资助在德国进行亲法宣传。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p14s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "《福格特先生》",
+            "type": "work",
+            "modern": "马克思于1860年出版的论战性小册子，旨在驳斥福格特的诽谤并揭露其政治背景。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p14s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p14s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "土伊勒里宫",
+            "type": "place",
+            "modern": "巴黎的王宫，曾是法国皇帝的居所，1871年巴黎公社期间被焚毁。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "九月政府",
+            "type": "event",
+            "modern": "1870年9月4日革命后在巴黎成立的国防政府，取代了第二帝国。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 6,
+        "notes_dropped": 2,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_5gram_with_surface",
+        "note:n2_circular_prefix",
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

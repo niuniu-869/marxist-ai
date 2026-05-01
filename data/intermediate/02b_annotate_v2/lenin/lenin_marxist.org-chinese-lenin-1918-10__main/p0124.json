@@ -1,0 +1,119 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 124,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁通过引用马克思和恩格斯的原话，论证无产阶级专政的必要性，并直接对比考茨基的错误观点。",
+    "importance_score": 3,
+    "importance_reason": "核心论证段落，直接引用经典作家原话来批判考茨基，是全文论战的关键支撑。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段关于巴黎公社的讨论，具体引用马克思和恩格斯对公社经验的总结，为批判考茨基提供理论依据。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "cross_ref_pronoun",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "马克思恩格斯论专政引文背景",
+        "explain": "本段引用的马克思和恩格斯的话，主要出自他们对1871年巴黎公社经验的总结。马克思在《法兰西内战》中论述了公社作为无产阶级专政雏形的意义，恩格斯在相关序言和书信中进一步阐发了革命暴力与国家消亡的关系。",
+        "why_needed": "cross_ref_pronoun",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p124s1",
+        "quote": "马克思说：“……如果工人建立起自己的革命专政来代替资产阶级专政……工人……为了粉碎资产阶级的反抗……赋予国家以一种革命的暂时的形式……”①恩格斯说：（在革命中）“……获得胜利的政党迫于必要，不得不凭借它的武器对反动派造成的恐惧，来维持自己的统治。要是巴黎公社不依靠对付资产阶级的武装人民这个权威，它能支持一天以上吗？反过来说，难道我们没有理由责备公社把这个权威用得太少了吗？……”①恩格斯又说：“既然国家只是在斗争中、在革命中用来对敌人实行暴力镇压的一种暂时的机关，那么，说自由的人民国家，就纯粹是无稽之谈了：当无产阶级还需要国家的时候，它需要国家不是为了自由，而是为了镇压自己的敌人，一到有可能谈自由的时候，国家本身就不再存在了……”②考茨基同马克思、恩格斯之间，",
+        "trigger": "long_nested",
+        "reader_block": "句子由三个独立的引文和一个作者评论拼接而成，结构松散，读者难以快速抓住列宁引用这些话的共同目的和内在逻辑。",
+        "parse": {
+          "claim": "马克思和恩格斯认为，无产阶级建立的国家是用于镇压敌人的暂时性革命工具，而非追求抽象自由的永恒机构；巴黎公社的教训是运用革命权威不足。",
+          "qualifiers": "这些论述的语境是无产阶级革命时期和对巴黎公社经验的总结。",
+          "contrast_or_target": "针对考茨基将民主与专政对立、推崇“自由的人民国家”的观点。"
+        },
+        "why": {
+          "relation": "example",
+          "explanation": "本句通过集中引用马克思和恩格斯的原话，为下文直接批判考茨基提供权威的理论依据和对比标尺。"
+        },
+        "implication": "考茨基对国家和民主的理解，与马克思主义经典作家的革命理论存在根本性分歧。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "考茨基",
+      "their_view": "民主方法与专政方法是对立的；无产阶级在拥有多数的情况下，不需要专政，只需要纯粹的民主。",
+      "author_response": "列宁指出，考茨基的观点与马克思、恩格斯的论述有根本区别，其宣扬的“纯粹民主”与“自由的人民国家”一样，都是脱离革命实际的空谈。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p124s1",
+        "speaker": "quoted_marx",
+        "stance": "endorsed",
+        "notes": []
+      },
+      {
+        "sid": "p124s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "天渊之别",
+            "type": "metaphor",
+            "modern": "列宁用此比喻强调考茨基与马克思主义经典作家在国家与革命问题上的立场存在根本性、不可调和的差异。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p124s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "纯粹民主",
+            "type": "concept",
+            "modern": "考茨基等人用来对抗无产阶级专政的概念，列宁认为其本质是资产阶级民主的另一种说法，在阶级社会中不存在。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "democracy_bourgeois"
+          }
+        ]
+      },
+      {
+        "sid": "p124s4",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": [
+          {
+            "surface": "专政",
+            "type": "concept",
+            "modern": "马克思主义理论中指一个阶级凭借暴力对另一个阶级实行的统治。考茨基质疑其在民主（多数统治）条件下的必要性。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "dictatorship_proletarian"
+          }
+        ]
+      },
+      {
+        "sid": "p124s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  }
+}

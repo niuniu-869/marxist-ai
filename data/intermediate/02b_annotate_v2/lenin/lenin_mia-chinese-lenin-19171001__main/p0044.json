@@ -1,0 +1,99 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 44,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁反驳社会革命党人以组阁前景来恐吓布尔什维克的策略，指出他们自身才是被吓倒的，并分析了在特定高层机关中布尔什维克可能被影响的原因。",
+    "importance_score": 2,
+    "importance_reason": "通过分析论敌心理和特定机关环境，支撑布尔什维克能保持政权的核心论点。",
+    "argument_role": "continues",
+    "argument_link": "延续上一段对论敌吓唬策略的分析，具体剖析社会革命党人的心理状态及其在特定机构中的影响。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic, cross_ref",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "社会革命党人",
+      "their_view": "他们暗示布尔什维克应该组阁，但用吓唬的方式，试图阻止布尔什维克夺取政权。",
+      "author_response": "列宁指出社会革命党人自己才是被吓倒的，他们被自由派的幽灵吓得魂不附体，其恐吓源于自身的恐惧。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p44s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "《人民事业报》",
+            "type": "work",
+            "modern": "社会革命党的机关报",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p44s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p44s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p44s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p44s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p44s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 4,
+        "hs_kept": 0,
+        "hs_dropped": 2,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "note:n2_5gram_with_surface",
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix",
+        "hs:claim_5gram_with_quote",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

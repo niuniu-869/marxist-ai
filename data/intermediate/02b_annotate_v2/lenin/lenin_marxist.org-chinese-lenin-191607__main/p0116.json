@@ -1,0 +1,68 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 116,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁论证社会革命的发生离不开各种自发的、不成熟的群众斗争，并讽刺那种将革命简单化为两军对垒的观点。",
+    "importance_score": 2,
+    "importance_reason": "本段是核心论点的支撑性论证，旨在从理论上驳斥将群众性民族斗争贬为“盲动”的论调。",
+    "argument_role": "continues",
+    "argument_link": "承接上段以爱尔兰起义为例的论证，从具体事例上升到一般性理论原则，阐明社会革命与各种群众运动的关系。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "波兰社会民主党反对派等论敌",
+      "their_view": "他们认为民族自决权不适用于社会主义，群众自发的民族斗争是“盲动”，社会革命可以脱离这些斗争而发生。",
+      "author_response": "列宁指出，这种观点实际上放弃了社会革命，因为它无视了革命所必需的、由各种压迫激起的广泛群众运动。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p116s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p116s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p116s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_16>5",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

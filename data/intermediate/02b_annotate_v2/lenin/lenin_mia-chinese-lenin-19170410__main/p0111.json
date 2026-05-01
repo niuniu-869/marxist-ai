@@ -1,0 +1,71 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 111,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁开始列举并定义革命后党内出现的三种错误派别，本段界定第一种：社会沙文主义者。",
+    "importance_score": 2,
+    "importance_reason": "为后文批判党内机会主义路线提供明确的靶子定义，是论证的起点。",
+    "argument_role": "continues",
+    "argument_link": "承接上段“三种派别如下”的提示，开始具体阐述第一种派别的定义与特征。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "社会沙文主义",
+        "explain": "列宁创造的术语，指在第一次世界大战期间，第二国际多数社会党背叛国际主义，转而支持本国资产阶级政府进行战争，其口号是“保卫祖国”。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p111s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p111s2",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 2,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_7>5",
+        "note:n1_overflow_concept_6>5",
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

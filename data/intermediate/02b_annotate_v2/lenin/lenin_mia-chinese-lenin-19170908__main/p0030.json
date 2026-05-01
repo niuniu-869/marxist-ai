@@ -1,0 +1,119 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 30,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁分析哥萨克阶层的社会经济特点，并以科尔尼洛夫-卡列金运动的失败为例，论证反革命势力无法发动群众，而无产阶级运动却能自发兴起。",
+    "importance_score": 2,
+    "importance_reason": "通过具体分析反革命势力的社会基础及其动员失败，为反驳“国内战争恐怖论”提供事实论据，是核心论点的支撑性例证。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对科尔尼洛夫叛乱社会力量的分析，进一步剖析其核心组成部分哥萨克的阶级属性，并用卡列金运动的失败事实，强化反革命势力缺乏群众基础的论断。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "allusion",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "allusion",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "俄国旺代",
+        "explain": "“旺代”指法国大革命期间保王党发动叛乱的地区。列宁用此典故，将哥萨克比作俄国反革命叛乱的社会基础，暗示其保守与反动性质。",
+        "why_needed": "allusion",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "立宪民主党、孟什维克等",
+      "their_view": "国内战争将带来巨大灾难和流血，因此必须避免将革命引向深入，反对无产阶级夺取全部政权。",
+      "author_response": "列宁用卡列金运动的失败证明，反革命势力根本无法发动群众运动；相反，无产阶级的革命运动却能在反布尔什维克势力的中心自发爆发。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p30s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "哥萨克",
+            "type": "social_group",
+            "modern": "1917年俄国特定边疆区的居民阶层，以中小土地占有者为主，保留了较多旧制度特征。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p30s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p30s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p30s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p30s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p30s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "顿河",
+            "type": "place",
+            "modern": "哥萨克的主要聚居区之一，卡列金活动的根据地。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p30s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 2,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_person_16>12",
+        "hs:claim_5gram_with_quote",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

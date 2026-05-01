@@ -1,0 +1,104 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 25,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段叙述同盟在西班牙巷战中的具体战斗经过，包括人数对比和伤亡结果，并引用莎士比亚戏剧人物的箴言进行反讽。",
+    "importance_score": 2,
+    "importance_reason": "作为西班牙事件的具体实例，支撑恩格斯对巴枯宁主义行动破产的揭露。",
+    "argument_role": "continues",
+    "argument_link": "通过提供战斗的具体数据，延续上一段关于斗争受害者数量的讨论，展示同盟的实际行动与理论的矛盾。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "allusion",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "allusion",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "莎士比亚典故",
+        "explain": "福斯泰夫是莎士比亚历史剧中的喜剧角色，以怯懦和狡猾著称。其箴言“慎重是勇敢的最大要素”常被用来讽刺过度谨慎或怯懦的行为。",
+        "why_needed": "allusion",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p25s3",
+        "quote": "看来同盟是硬要自己的信徒相信福斯泰夫的箴言：“慎重是勇敢的最大要素”［注：莎士比亚“亨利四世”前篇第五幕第四场。——编者注］。",
+        "trigger": "allusion",
+        "reader_block": "引用莎士比亚戏剧中人物福斯泰夫的话，读者可能不熟悉该典故及其讽刺含义，导致无法理解作者的反讽意图。",
+        "parse": {
+          "claim": "同盟试图让其成员接受一种将谨慎置于勇敢之上的观念。",
+          "qualifiers": "无",
+          "contrast_or_target": "巴枯宁主义者主张无条件放弃政治行动，但实际战斗中却表现出谨慎。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "通过引用文学典故，讽刺同盟在行动中违背其激进理论，暴露其矛盾。"
+        },
+        "implication": "这表明巴枯宁主义者的实际行动与其宣称的革命性不符。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p25s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "同盟",
+            "type": "org",
+            "modern": "在西班牙起义中活动的巴枯宁主义组织",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p25s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "宪兵",
+            "type": "social_group",
+            "modern": "当时西班牙的武装警察力量",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "资产者",
+            "type": "social_group",
+            "modern": "拥有财产的阶级成员，与工人对立",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p25s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  }
+}

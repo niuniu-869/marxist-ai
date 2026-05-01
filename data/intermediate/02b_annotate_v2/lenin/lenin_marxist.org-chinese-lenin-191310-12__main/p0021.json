@@ -1,0 +1,83 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 21,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段总结自由资产阶级民族主义对工人运动的危害，并指出其危险性在于常以“民族文化”口号为伪装。",
+    "importance_score": 2,
+    "importance_reason": "这是对前文批判的总结性论断，并明确点出“民族文化”口号的危险性，为后文深入批判该口号做铺垫。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对自由资产阶级在民族问题上不彻底性的批评，进一步指出这种不彻底的民族主义对无产阶级事业的具体危害。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "自由资产阶级的民族主义",
+      "their_view": "工人应首先关心和发展本民族文化，国际文化需通过民族文化来实现，反对“同化”。",
+      "author_response": "列宁指出，任何自由资产阶级的民族主义都会腐蚀工人，使无产阶级的阶级斗争事业受损，其危险性在于常被“民族文化”口号所掩盖。",
+      "polemic_kind": "reveals_class_basis",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p21s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p21s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p21s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "“民族文化”的口号",
+            "type": "slogan",
+            "modern": "列宁在本文中重点批判的、被资产阶级用来掩盖其阶级利益和反动目的的口号。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p21s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 2,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_11>5",
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

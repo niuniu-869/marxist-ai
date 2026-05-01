@@ -1,0 +1,86 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 202,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁引用德国教授舒尔采-格弗尼茨美化银行统治的言论，并揭露其掩盖垄断掠夺的实质。",
+    "importance_score": 2,
+    "importance_reason": "本段通过引述并批判具体论敌，具体化了对帝国主义辩护士的揭露。",
+    "argument_role": "contrasts",
+    "argument_link": "上段描述金融交易所地位下降，本段则通过引述论敌言论，揭示银行资本取代交易所成为新统治中心，并批判对此的美化。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p202s1",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p202s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "垄断者",
+            "type": "concept",
+            "modern": "在帝国主义阶段，控制关键经济部门的少数大资本家或资本集团",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "monopoly_capitalism"
+          }
+        ]
+      },
+      {
+        "sid": "p202s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "资产阶级教授",
+            "type": "social_group",
+            "modern": "服务于资产阶级意识形态，为其统治提供理论辩护的知识分子群体",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

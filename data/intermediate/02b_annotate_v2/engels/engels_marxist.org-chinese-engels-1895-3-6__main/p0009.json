@@ -1,0 +1,72 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 9,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "恩格斯指出马克思在该著作中首次明确了“生产资料归社会占有”这一核心公式，并以此为标准，批评了英国社会主义者关于“分配手段”的补充观点。",
+    "importance_score": 3,
+    "importance_reason": "本段是全文核心论点之一，明确界定了现代工人社会主义的根本经济纲领，并划清了与其他社会主义流派的界限。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对马克思著作历史地位的叙述，具体阐明该著作在理论上的首创性贡献，即提出了无产阶级政党的经济改造公式。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "term_polysemy",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p9s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p9s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "劳动权",
+            "type": "concept",
+            "modern": "1848年法国革命中提出的政治口号，马克思在文中将其内涵重新界定为对生产资料的控制。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "labor_right_1848"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote",
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

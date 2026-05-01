@@ -1,0 +1,107 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 18,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁揭露，资产阶级政党与小资产阶级政党正就采用何种形式的军事独裁来镇压革命进行勾结与权衡。",
+    "importance_score": 2,
+    "importance_reason": "本段通过具体政治派别的动向，支撑了上一段关于国家危急状况的判断，并揭示了饥荒背后的政治阴谋。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于国家危急状况的论断，具体描绘了资产阶级与小资产阶级政党为挽救自身统治而进行的政治勾结。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "rhetorical",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "科尔尼洛夫叛乱",
+        "explain": "1917年夏，俄军总司令科尔尼洛夫发动旨在推翻临时政府、建立军事独裁的叛乱。此事件在俄国政治语境中成为反革命军事独裁的象征。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p18s1",
+        "quote": "凡是细心思索政治生活的人都不会不看见，立宪民主党人正在设法同右派社会革命党人和孟什维克达成谅解：究竟是亲德的科尔尼洛夫还是亲日的科尔尼洛夫“更令人称心一些”，究竟是戴王冠的科尔尼洛夫还是实行共和的科尔尼洛夫对于镇压革命更好和更可靠一些。",
+        "trigger": "rhetorical",
+        "reader_block": "读者可能不理解为何要比较“科尔尼洛夫”的不同变体，这实际上是反讽，意在讽刺反革命势力内部关于采用何种形式独裁的争论。",
+        "parse": {
+          "claim": "资产阶级政党与小资产阶级政党正在讨论，选择哪一种形式的军事独裁代理人来更有效地扑灭革命。",
+          "qualifiers": "在1918年5月苏维埃政权面临饥荒与内战的特定政治环境下。",
+          "contrast_or_target": "这些政党表面上可能主张民主或共和，但列宁揭露其实际议程是寻找一个可靠的军事独裁者。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "本句通过反讽的对比，揭露了立宪民主党人等政党声称的民主立场与其实际寻求军事独裁以镇压革命之间的矛盾。"
+        },
+        "implication": "列宁意在说明，这些政党所谓的政治协商，其核心议题是如何更有效地实施资产阶级专政。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "立宪民主党人、右派社会革命党人和孟什维克",
+      "their_view": "需要找到一个合适的、可靠的军事领袖（如科尔尼洛夫的某种变体）来恢复秩序，镇压革命威胁。",
+      "author_response": "列宁揭露，他们所谓的政治协商，实质是在比较哪种形式的军事独裁（亲德或亲日，君主制或共和制）更能有效地扼杀革命。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p18s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "科尔尼洛夫",
+            "type": "person",
+            "modern": "1917年发动叛乱的俄军将领，列宁在此用作反革命军事独裁的象征。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "立宪民主党人",
+            "type": "org",
+            "modern": "俄国主要资产阶级政党，主张君主立宪或议会制共和国。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "孟什维克",
+            "type": "org",
+            "modern": "俄国工人运动中的改良主义派别，主张与资产阶级合作。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 3,
+        "notes_dropped": 1,
+        "hs_kept": 1,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_5gram_with_surface"
+      ]
+    }
+  ]
+}

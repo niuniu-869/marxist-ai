@@ -1,0 +1,116 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 31,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "恩格斯以法国大革命为参照，警告法俄沙文主义若阻碍德国社会主义和平发展，德国无产者将展现革命决心。",
+    "importance_score": 2,
+    "importance_reason": "通过历史类比，将德国无产阶级的斗争与法国大革命传统相联系，强化其革命正当性与国际主义立场。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于德国无产阶级有能力领导抵抗的论断，本段用法国大革命的历史先例来具体化这种能力，并设定明确的对抗场景。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "长裤汉",
+        "explain": "法国大革命时期对激进共和派民众的称呼，因其常穿粗布长裤而得名，象征着革命的底层力量与彻底性。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "孔斯旦先生",
+        "explain": "指当时法国的战争部长，代表法国资产阶级政府。此处用其名代指可能发动对德战争的法国军事力量。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p31s3",
+        "quote": "如果沙皇的征服欲望和法国资产阶级的沙文主义急躁情绪要阻挡德国社会主义者的所向无敌的、但却是和平的前进运动，那末，请放心，德国社会主义者准备向全世界表明，今天的德国无产者无愧于上一世纪的法国长裤汉，1893年能够同1793年媲美。",
+        "trigger": "long_nested",
+        "reader_block": "句子包含多重条件与对比，且将1893年与1793年并列，读者可能不清楚其历史指代与类比意图。",
+        "parse": {
+          "claim": "德国无产阶级将证明自己具备与法国大革命时期激进民众同等的革命精神与能力。",
+          "qualifiers": "这一证明的前提是沙皇与法国资产阶级的沙文主义试图阻碍德国社会主义者的和平发展。",
+          "contrast_or_target": "针对法国资产阶级可能被沙文主义驱使，与沙皇联合对德发动战争的图景。"
+        },
+        "why": {
+          "relation": "example",
+          "explanation": "本句通过设定一个具体的冲突场景（法俄沙文主义阻碍），来例证并强化前文关于德国无产阶级革命能力的论断，将其与公认的历史革命典范相提并论。"
+        },
+        "implication": "若战争爆发，德国社会主义者将把防御性抵抗转化为一场具有革命性质的斗争。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "法国沙文主义和复仇热",
+      "their_view": "法国资产阶级各党派煽动对德国的复仇情绪与沙文主义狂热，可能被沙皇利用，成为发动战争的借口。",
+      "author_response": "恩格斯警告，这种沙文主义若付诸行动阻挡德国社会主义者的和平道路，将遭到德国无产者如同法国长裤汉般的坚决回击。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p31s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p31s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p31s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "长裤汉",
+            "type": "social_group",
+            "modern": "法国大革命中对激进共和派民众的俗称，象征彻底的革命力量。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p31s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 1,
+        "hs_kept": 1,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

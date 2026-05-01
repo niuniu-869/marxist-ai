@@ -1,0 +1,76 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 248,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁以反讽语气，讽刺考茨基试图按照资产阶级民主规则进行无产阶级革命的自相矛盾。",
+    "importance_score": 2,
+    "importance_reason": "本段通过反讽直接批判考茨基的机会主义观点，支撑列宁关于无产阶级专政必须打破旧国家机器的核心论点。",
+    "argument_role": "contrasts",
+    "argument_link": "上一段引用考茨基对苏维埃俄国的批评，本段以反讽回应，揭露其民主观与革命实践的脱节。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "allusion",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "犹杜什卡典故",
+        "explain": "犹杜什卡是犹大·伊斯卡略的俄语昵称，在俄语文化中常用来指代叛徒。列宁用此讽刺考茨基在革命问题上背叛无产阶级立场。",
+        "why_needed": "allusion",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p248s1",
+        "quote": "是的，这的确可怕，这是不可容忍地背弃纯粹民主，而我们这位革命的犹杜什卡·考茨基是要按照这种民主的规则干革命的。",
+        "trigger": "inverted_logic",
+        "reader_block": "反讽语气和典故结合，读者可能误以为列宁在赞同考茨基，实际是讽刺其观点荒谬。",
+        "parse": {
+          "claim": "列宁讽刺考茨基试图用资产阶级民主的框架来指导无产阶级革命，这本身就是对革命的背叛。",
+          "qualifiers": "无特定限定条件。",
+          "contrast_or_target": "考茨基主张革命应遵循民主程序，反对暴力专政。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "本句通过反讽直接反驳考茨基，揭露其民主观与无产阶级革命实践的根本矛盾，强调革命必须突破旧制度束缚。"
+        },
+        "implication": "无产阶级革命不能受资产阶级民主规则制约，必须通过暴力打破旧的国家机器。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "考茨基",
+      "their_view": "革命应当遵循民主规则，通过和平、合法的方式实现，反对使用暴力专政。",
+      "author_response": "列宁指出这种观点是自相矛盾的，无产阶级革命必须抛弃资产阶级民主的虚伪形式，建立自己的专政。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p248s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "纯粹民主",
+            "type": "concept",
+            "modern": "在列宁语境中，指资产阶级民主，考茨基将其视为普世标准。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "democracy_bourgeois"
+          }
+        ]
+      }
+    ]
+  }
+}

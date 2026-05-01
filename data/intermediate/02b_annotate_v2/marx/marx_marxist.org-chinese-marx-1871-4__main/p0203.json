@@ -1,0 +1,74 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 203,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段论证普法战争后，战胜国与战败国军队联合镇压巴黎公社的事件，揭示了资产阶级旧社会的腐朽本质及其民族战争口号的虚伪性。",
+    "importance_score": 2,
+    "importance_reason": "本段是作者对巴黎公社事件核心意义的理论升华，从具体事件中提炼出关于国家、阶级和民族战争的普遍性论断，是全文论证的关键环节。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对镇压阴谋的叙述，将具体历史事件上升到对资产阶级社会本质的批判，指出其联合镇压行为恰恰证明了自身的腐朽。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "all_known",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "俾斯麦",
+      "their_view": "普法战争后，战胜国与战败国军队联合镇压巴黎公社的事件，证明了无产阶级试图建立的新社会已经被彻底摧毁。",
+      "author_response": "马克思指出，这一事件恰恰证明了资产阶级旧社会已经完全腐朽，其统治集团为镇压无产阶级可以抛弃民族对立，联合行动。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p203s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p203s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p203s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p203s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 2,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

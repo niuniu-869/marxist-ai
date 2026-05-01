@@ -1,0 +1,81 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 89,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "恩格斯引用克利盖关于个人与人类关系的表述，并通过反问和讽刺进行驳斥，指出其将具体的人虚幻化。",
+    "importance_score": 2,
+    "importance_reason": "本段是恩格斯对克利盖核心观点的具体批判，通过揭示其表述的空洞与唯心色彩，支撑了全文的论战主题。",
+    "argument_role": "contrasts",
+    "argument_link": "本段承接上段对克利盖“共产主义者理想”的引用，立即转入对其哲学表述的直接驳斥，形成引用-批判的紧密衔接。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "refute_quotation"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p89s2",
+        "quote": "这样说来，具体的人只是虚幻世界“内部”所发生的“运动”的“征兆”和标记。",
+        "trigger": "inverted_logic",
+        "reader_block": "读者需要识别这是恩格斯对克利盖观点的讽刺性推论，而非正面陈述。句子中的引号暗示了其反讽语气。",
+        "parse": {
+          "claim": "按照克利盖的逻辑，现实中的具体个人，其存在意义仅仅是某个虚幻世界内部运动的标记。",
+          "qualifiers": "无。",
+          "contrast_or_target": "克利盖的观点：个人是抽象人类运动的征兆。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "本句是上句反问的逻辑延伸，通过将克利盖的表述推向其荒谬结论（具体的人成为虚幻世界的标记），进一步强化批判效果。"
+        },
+        "implication": "这种观点将导致对现实社会矛盾和阶级斗争的忽视，陷入唯心主义的幻想。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p89s1",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p89s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 1,
+        "hs_dropped": 1,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote",
+        "polemic:eval_word:their_view:伟大"
+      ]
+    }
+  ]
+}

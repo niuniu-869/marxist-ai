@@ -1,0 +1,107 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 488,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段通过王德威尔得对奥斯特罗戈尔斯基言论的转述，批判其未能得出无产阶级专政的结论，并指责考茨基和王德威尔得在阶级镇压问题上的盲视。",
+    "importance_score": 2,
+    "importance_reason": "本段通过具体人物批判，支撑了无产阶级专政必要性的核心论点。",
+    "argument_role": "continues",
+    "argument_link": "本段承接上段对王德威尔得口号的批判，进一步揭露其理论缺陷。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "王德威尔得和考茨基",
+      "their_view": "王德威尔得承认资产阶级民主存在欺骗和压制，但认为这是表面现象，无需改变国家性质。",
+      "author_response": "列宁指出他们未能从现象中得出无产阶级必须镇压资产阶级的结论，是阶级立场的盲视。",
+      "polemic_kind": "reveals_class_basis",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p488s1",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": [
+          {
+            "surface": "奥斯特罗戈尔斯基",
+            "type": "person",
+            "modern": "俄国政论家，其著作揭露了资产阶级民主的虚伪性。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p488s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p488s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "资产阶级民主",
+            "type": "concept",
+            "modern": "以普选权为形式但实质维护资产阶级统治的民主。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "democracy_bourgeois"
+          },
+          {
+            "surface": "无产阶级民主",
+            "type": "concept",
+            "modern": "无产阶级掌握政权、镇压资产阶级的民主。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "democracy_proletarian"
+          }
+        ]
+      },
+      {
+        "sid": "p488s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p488s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 3,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

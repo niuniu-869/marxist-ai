@@ -1,0 +1,110 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 7,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段描述社会主义工人政党的壮大及其在农民问题上的战略转向，强调政党必须深入农村，揭露大地主的虚伪，不能将农民留给其伪保护者。",
+    "importance_score": 2,
+    "importance_reason": "本段是论证的关键环节，连接了前文对小农衰落的分析和后文对具体策略的讨论，提出政党必须主动争取农民。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段关于小农经济在资本主义下必然衰落的分析，转而论述面对这一趋势，已经壮大的社会主义政党应采取何种立场和行动。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p7s6",
+        "quote": "社会党是以明确理解经济原因和政治后果的联系而与其他政党不同，因此它早就揭露了硬要跟农民作朋友的大地主那副掩盖在羊皮下边的豺狼面孔，——这样一个政党能不能心安理得地把注定灭亡的农民留在他们的伪保护者手中，一直到农民从工业工人的消极敌人变成工业工人的积极敌人为止呢？",
+        "trigger": "inverted_logic",
+        "reader_block": "反问句式和“豺狼面孔”“伪保护者”等隐喻，加上长句结构，读者容易困惑其核心论断是肯定还是否定，以及“消极敌人”与“积极敌人”的具体所指。",
+        "parse": {
+          "claim": "社会主义政党不能将农民置于大地主的虚假保护之下，否则最终会导致农民与工业无产阶级为敌。",
+          "qualifiers": "",
+          "contrast_or_target": "大地主试图与农民结盟，将自己伪装成农民的朋友和保护者。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "通过反问句式，恩格斯批判了那种认为社会主义政党可以对农民被大地主控制的状况袖手旁观的态度，从而反驳了南特纲领中保护小农所有制的主张。"
+        },
+        "implication": "",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "法国社会党南特代表大会土地纲领",
+      "their_view": "社会主义有责任保护小农的小块土地所有制，甚至保护有时剥削短工的佃农，以联合农村一切成分对抗封建土地所有制。",
+      "author_response": "恩格斯揭露这是大地主掩盖在羊皮下的豺狼面孔，社会主义政党不能心安理得地把农民留在这些伪保护者手中，任其与工业无产阶级对立。",
+      "polemic_kind": "strategic_critique",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p7s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p7s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p7s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p7s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p7s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p7s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p7s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 1,
+        "hs_kept": 1,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

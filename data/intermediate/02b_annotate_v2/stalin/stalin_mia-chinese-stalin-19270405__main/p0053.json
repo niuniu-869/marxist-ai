@@ -1,0 +1,210 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 53,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "转述反对派领袖拉狄克和托洛茨基关于中国革命的具体主张，为后续的批判做铺垫。",
+    "importance_score": 2,
+    "importance_reason": "提供了反对派关于中国革命策略的具体主张，是理解斯大林批判对象的关键支撑。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于蒋介石被解除职务的叙述，进一步展开反对派对此的反应和具体主张。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "拉狄克与共产主义学院",
+        "explain": "拉狄克是共产国际早期领导人之一，后成为反对派。共产主义学院是苏联理论研究机构。他在该场合的讲话代表了反对派的公开立场。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "托洛茨基的苏维埃方案",
+        "explain": "托洛茨基主张在中国立即建立苏维埃（工兵代表会议），作为与国民党政权并立的革命权力机构，以此来夺取革命领导权。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      },
+      {
+        "topic": "波拿巴主义",
+        "explain": "马克思用来描述军事强人利用阶级矛盾建立个人独裁的政权形式。托洛茨基用此概念警告蒋介石可能走向军事独裁。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p53s10",
+        "quote": "他没有直接要求中国共产党退出国民党，因为他觉得一俟这些苏维埃建立起来，这个问题会自行解决[22]。",
+        "trigger": "inverted_logic",
+        "reader_block": "读者可能困惑于托洛茨基为何不直接要求退出，需要理解他通过建立苏维埃来间接达成目标的策略逻辑。",
+        "parse": {
+          "claim": "托洛茨基认为，建立苏维埃这一新的革命权力中心后，中共与国民党的组织关系问题将自然消解，无需直接提出退出要求。",
+          "qualifiers": "以“一俟这些苏维埃建立起来”为前提。",
+          "contrast_or_target": "与拉狄克直接要求“中共退出国民党”的明确主张形成策略上的对比。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "本句揭示了托洛茨基在“退出国民党”问题上与拉狄克不同的策略考量，其核心是通过创造新的权力机构（苏维埃）来迂回地解决组织路线问题，这本身也是对斯大林维持国共合作政策的一种间接否定。"
+        },
+        "implication": "托洛茨基的策略是通过建立与国民党政权平行的苏维埃，使国共合作框架变得多余，从而实现事实上的分离。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p53s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p53s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "托洛茨基和季诺维也夫",
+            "type": "person",
+            "modern": "联共（布）党内反对斯大林中国政策的主要领袖。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p53s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "拉狄克",
+            "type": "person",
+            "modern": "共产国际早期领导人之一，当时持反对立场。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "共产主义学院",
+            "type": "org",
+            "modern": "苏联理论研究机构，负责马克思主义理论教育。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p53s4",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": [
+          {
+            "surface": "国民革命军",
+            "type": "org",
+            "modern": "第一次国共合作时期，由国民党领导、共产党参与的军队。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p53s5",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p53s6",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": [
+          {
+            "surface": "波拿巴主义",
+            "type": "concept",
+            "modern": "马克思用来描述军事强人利用阶级矛盾建立个人独裁的政权形式。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "bonapartism"
+          },
+          {
+            "surface": "苏维埃",
+            "type": "org",
+            "modern": "俄语“代表会议”音译，指工兵代表会议，作为革命权力机构。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p53s7",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p53s8",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p53s9",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p53s10",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 6,
+        "notes_dropped": 6,
+        "hs_kept": 1,
+        "hs_dropped": 1,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix",
+        "note:n1_overflow_concept_6>5",
+        "note:n1_overflow_concept_7>5",
+        "note:n1_overflow_concept_7>5",
+        "note:n2_circular_prefix",
+        "hs:claim_5gram_with_quote",
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

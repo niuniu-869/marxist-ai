@@ -1,0 +1,134 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 21,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "分析10小时工作制法案被废除的后果，论证工业资产阶级应对危机的手段有限，其内在矛盾将导致无产阶级革命不可避免。",
+    "importance_score": 2,
+    "importance_reason": "本段通过分析经济危机加速，论证无产阶级革命的必然性，是全文论证的关键环节。",
+    "argument_role": "continues",
+    "argument_link": "本段承接上段关于危机加速的论断，进一步分析工业资产阶级应对危机的手段有限，并推导出无产阶级革命的必然性。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p21s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "10小时工作制法案",
+            "type": "event",
+            "modern": "1847年英国议会通过的限制女工和童工每日工作时间的法案，后被工业资产阶级通过法律手段架空。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p21s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p21s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p21s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "科布顿",
+            "type": "person",
+            "modern": "理查德·科布顿，英国曼彻斯特学派代表人物，主张自由贸易和削减政府开支。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p21s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p21s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "生产资料",
+            "type": "concept",
+            "modern": "在马克思主义政治经济学中，指人们在生产过程中所使用的劳动资料和劳动对象的总和。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "means_of_production"
+          },
+          {
+            "surface": "生产力",
+            "type": "concept",
+            "modern": "人类改造自然的能力，包括劳动者、劳动资料和劳动对象，是推动社会发展的最终决定力量。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "productive_forces"
+          }
+        ]
+      },
+      {
+        "sid": "p21s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p21s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 4,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

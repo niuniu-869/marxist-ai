@@ -1,0 +1,161 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 118,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段指出，自然科学领域的唯物主义变革尚未完成时，历史领域已发生重大工人运动，这些事实驳斥了资产阶级经济学的和谐论调，并催生了早期社会主义理论，但旧的唯心史观无法理解这些基于物质利益的阶级斗争。",
+    "importance_score": 2,
+    "importance_reason": "本段是论证从唯心史观转向唯物史观的现实基础，通过列举具体历史事件，为后文阐述科学社会主义的发现做铺垫。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于现代唯物主义在自然观上变革的论述，转而指出历史观的变革有其独立的、更早发生的现实驱动力。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "里昂工人起义",
+        "explain": "1831年法国里昂丝织工人发动的武装起义，是欧洲早期工人阶级独立斗争的重要标志，表明无产阶级开始作为独立政治力量登上历史舞台。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "宪章派运动",
+        "explain": "19世纪30-40年代英国工人阶级为争取普选权而发起的全国性政治运动，因《人民宪章》得名，是世界上第一次群众性的、政治性的无产阶级革命运动。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "自然观的变革",
+        "explain": "指前文所述的、以辩证法和唯物主义为基础的现代自然观，它取代了旧的、形而上学的自然观。此处强调其变革需要自然科学实证材料的积累。",
+        "why_needed": "cross_ref_pronoun",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p118s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p118s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "里昂工人起义",
+            "type": "event",
+            "modern": "1831年法国里昂丝织工人反抗资本家剥削的武装起义，是早期工人阶级独立斗争的标志性事件。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p118s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "宪章派运动",
+            "type": "event",
+            "modern": "19世纪30-40年代英国工人阶级为争取《人民宪章》所规定的政治权利而发起的全国性群众运动。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p118s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "阶级斗争",
+            "type": "concept",
+            "modern": "不同阶级之间基于根本利益对立而产生的斗争，是阶级社会发展的直接动力。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "class_struggle_marxist"
+          }
+        ]
+      },
+      {
+        "sid": "p118s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p118s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p118s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p118s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "文化史",
+            "type": "concept",
+            "modern": "在唯心史观语境下，指将历史发展归结为文化、精神演进的历史叙述框架，经济关系被视为文化的附属。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "cultural_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 4,
+        "notes_dropped": 3,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_7>5",
+        "note:n1_overflow_concept_10>5",
+        "note:n1_overflow_concept_7>5",
+        "hs:claim_5gram_with_quote",
+        "polemic:eval_word:their_view:杰出"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 48,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "马克思引用国教顾问提供的社会贫困数据，通过反问质疑普鲁士政府是否有能力解决该问题，以此揭露其方案的空想性。",
+    "importance_score": 2,
+    "importance_reason": "通过具体数据和反问，直接攻击论敌方案的现实可行性，是核心反驳论证的一部分。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对国教顾问观点的介绍，本段用其提供的数据来反驳其方案的可行性。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "国教顾问",
+      "their_view": "普鲁士政府能够通过补偿来解决大规模的社会贫困问题。",
+      "author_response": "马克思通过反问指出，一个财政困难的政府根本无力承担如此巨大的补偿任务，从而揭露其方案的空想性。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p48s1",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p48s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p48s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 5,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "通过分析1792年瓦尔米战役的具体战例，论证联军失败主要源于自身指挥失误，而非法军的军事优势。",
+    "importance_score": 2,
+    "importance_reason": "作为核心论点的具体例证，用详细战例支撑前段对法国大革命军事胜利传奇性的质疑。",
+    "argument_role": "example",
+    "argument_link": "承接上段对法国大革命军事胜利传奇性的质疑，本段以瓦尔米战役为例，具体展示联军如何因自身失误而错失胜机。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "1792年法国革命战争",
+        "explain": "1792年法国大革命期间，普鲁士、奥地利等君主国组成联军武装干涉，试图镇压革命。瓦尔米战役是初期关键一战，传统叙事常将其描绘为革命军队的辉煌胜利。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p5s7",
+        "quote": "联军本来可以绕过他，让他安然留在原地不动，然后他也许不得不尾随联军之后向巴黎推进，而且只要联军行动稍微正确，他甚至从后方也不会使联军遭受危险。",
+        "trigger": "long_nested",
+        "reader_block": "句子包含多个条件从句（“本来可以”、“然后”、“只要”），描述了一种假设的战术选择及其推演，逻辑链条较长，读者容易迷失在“如果…那么…”的推演中。",
+        "parse": {
+          "claim": "联军存在一种可行的战术选项：无视杜木里埃的阻拦，直接向巴黎进军，这样杜木里埃将陷入被动，无法对联军构成实质威胁。",
+          "qualifiers": "此推演成立的前提是联军后续行动“稍微正确”，即保持基本的军事纪律和方向。",
+          "contrast_or_target": ""
+        },
+        "why": {
+          "relation": "example",
+          "explanation": "此句是恩格斯为联军设想的“正确”战术之一，用以对比实际发生的错误指挥，从而具体说明联军的失败并非不可避免。"
+        },
+        "implication": "联军在战略上拥有主动权和选择余地，其失败是决策层优柔寡断、指挥不统一的结果。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p5s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p5s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p5s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p5s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p5s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p5s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "杜木里埃",
+            "type": "person",
+            "modern": "1792年瓦尔米战役中法军的指挥官。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p5s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p5s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p5s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p5s10",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p5s11",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p5s12",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p5s13",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  }
+}

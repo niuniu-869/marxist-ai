@@ -1,0 +1,104 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 266,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "从劳动产品的异己性出发，定义对象化，并揭示在资本主义条件下对象化如何转变为异化。",
+    "importance_score": 3,
+    "importance_reason": "核心段落，首次系统阐述异化劳动理论中“对象化”与“异化”的辩证关系，是理解马克思早期思想的关键。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对工人贫困化现象的描述，深入分析其哲学本质，即劳动产品作为异己力量与劳动对立。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "term_density",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "对象化",
+        "explain": "在黑格尔哲学中，指精神外化为客观世界。马克思借用此词，指劳动凝结、固定在产品中，使劳动获得物质形态。这是理解本段“对象化”与“异化”对比的基础。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p266s4",
+        "quote": "在被国民经济学作为前提的那种状态下，劳动的这种现实化为工人的非现实化，对象化表现为对象的丧失和被对象奴役，占有表现为异化，外化。",
+        "trigger": "term_density",
+        "reader_block": "句内“现实化”、“对象化”、“非现实化”、“异化”、“外化”等概念密集出现并快速转换对比，读者难以厘清其逻辑关系。",
+        "parse": {
+          "claim": "在资本主义生产关系下，劳动本应实现自身价值的过程，对工人而言却变成了自身价值的丧失；劳动产品本应是工人力量的体现，却反过来成为支配和奴役工人的异己力量。",
+          "qualifiers": "限定于“被国民经济学作为前提的那种状态”，即资本主义私有制下的雇佣劳动状态。",
+          "contrast_or_target": "国民经济学将劳动的现实化等同于对象化，视为财富增长的自然过程，掩盖了其对工人的否定性后果。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "本句直接针对国民经济学的前提，揭露其理论所默认的“劳动现实化”在现实中对工人意味着相反的结果，从而批判其理论的非人道性。"
+        },
+        "implication": "国民经济学所描述的财富增长规律，其基础是工人的非人化过程，这构成了对该学科的根本性批判。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "国民经济学",
+      "their_view": "劳动的现实化就是劳动的对象化，这是财富生产的自然规律，工人在此过程中获得工资，社会财富得以增长。",
+      "author_response": "马克思指出，在资本主义私有制前提下，这一过程对工人而言是颠倒的：现实化成了非现实化，对象化成了被对象奴役，占有成了异化。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p266s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p266s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "对象化",
+            "type": "concept",
+            "modern": "马克思借用黑格尔术语，指人类劳动凝结、固定于外部对象，使劳动获得客观物质形态的过程。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "objectification_marx"
+          }
+        ]
+      },
+      {
+        "sid": "p266s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p266s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "异化",
+            "type": "concept",
+            "modern": "马克思用以描述工人与其劳动产品、劳动活动乃至自身类本质相分离、对立的状态，产品成为统治工人的异己力量。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "alienation_early_marx"
+          }
+        ]
+      }
+    ]
+  }
+}

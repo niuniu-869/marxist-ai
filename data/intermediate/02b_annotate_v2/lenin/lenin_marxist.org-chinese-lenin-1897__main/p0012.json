@@ -1,0 +1,109 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 12,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段阐述社会民主主义者对待其他反政府阶级和集团的原则立场，即支持其反对共同敌人，但绝不与之妥协。",
+    "importance_score": 2,
+    "importance_reason": "本段是全文核心论点之一，明确了社会民主主义者在革命中的策略原则和独立性。",
+    "argument_role": "continues",
+    "argument_link": "承接上段的过渡，开始具体分析社会民主主义者应如何处理与其他社会力量的关系。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p12s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "共产党宣言",
+            "type": "work",
+            "modern": "1848年马克思与恩格斯合著的纲领性文献，系统阐述了科学社会主义的基本原理。",
+            "highlight": "work",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p12s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "资产阶级",
+            "type": "concept",
+            "modern": "在资本主义社会中占有生产资料并剥削雇佣劳动的阶级，此处指其在反封建斗争中的革命性。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "bourgeoisie"
+          },
+          {
+            "surface": "小资产阶级",
+            "type": "concept",
+            "modern": "包括小商人、手工业者、小农等，经济地位介于资产阶级与无产阶级之间，其政治倾向常具动摇性。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "petty_bourgeoisie"
+          },
+          {
+            "surface": "官僚",
+            "type": "social_group",
+            "modern": "沙皇俄国专制体制下形成的行政官吏集团，是专制制度的重要支柱。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p12s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p12s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 4,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_7>5"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 13,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "指出德国批判者虽声称超越黑格尔，但其问题与答案仍源于黑格尔体系，论战局限于体系内部不同方面。",
+    "importance_score": 2,
+    "importance_reason": "核心批判段落，揭示青年黑格尔派未能摆脱其批判对象的哲学框架，为后文提出唯物史观做铺垫。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对一般意识形态的批判，具体剖析“德意志意识形态”的代表——青年黑格尔派——的哲学局限性。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p13s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p13s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p13s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "神秘主义",
+            "type": "concept",
+            "modern": "此处指黑格尔体系将现实关系归结为概念和逻辑范畴的唯心主义方法，使社会历史进程显得像是精神的自我运动。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "mysticism_hegelian"
+          }
+        ]
+      },
+      {
+        "sid": "p13s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p13s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p13s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "实体",
+            "type": "concept",
+            "modern": "黑格尔哲学中的核心范畴，指构成事物本质的、独立自存的实在。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "substance_hegelian"
+          },
+          {
+            "surface": "自我意识",
+            "type": "concept",
+            "modern": "黑格尔哲学中的另一核心范畴，指精神认识到自身是主体的阶段。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "self_consciousness_hegelian"
+          },
+          {
+            "surface": "类",
+            "type": "concept",
+            "modern": "费尔巴哈哲学的核心概念，指人的共同本质，一种抽象的、非历史的“人”的共同体。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "species_being_feuerbach"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 4,
+        "notes_dropped": 3,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix",
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

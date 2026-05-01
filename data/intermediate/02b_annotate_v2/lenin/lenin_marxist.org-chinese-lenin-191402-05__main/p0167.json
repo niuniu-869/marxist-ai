@@ -1,0 +1,71 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 167,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "批评波兰社会党将马克思关于波兰的旧观点教条化，同时肯定波兰社会民主党人强调阶级斗争优先于民族问题的正确立场。",
+    "importance_score": 2,
+    "importance_reason": "通过波兰案例，具体展示如何正确运用而非教条化马克思主义的民族观点。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于马克思波兰观点时代局限性的判断，具体批评试图将该观点固定化的做法。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "波兰社会党（弗腊克派）",
+      "their_view": "马克思关于波兰独立的观点在任何时代都适用，应当作为固定原则坚持。",
+      "author_response": "列宁指出这是用马克思主义词句反对马克思主义精神，因为观点需随历史条件变化。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p167s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p167s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "小资产阶级",
+            "type": "concept",
+            "modern": "在民族问题上表现出狂热、脱离无产阶级国际主义立场的阶层。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "class_petty_bourgeoisie"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_5gram_with_surface"
+      ]
+    }
+  ]
+}

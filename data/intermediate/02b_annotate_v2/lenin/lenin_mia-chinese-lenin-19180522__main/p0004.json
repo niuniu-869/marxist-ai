@@ -1,0 +1,73 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 4,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁分析饥荒的政治根源，指出其并非源于粮食短缺，而是资产阶级和富人破坏粮食垄断与分配制度的结果。",
+    "importance_score": 2,
+    "importance_reason": "本段是全文核心论点的支撑，将饥荒问题从自然现象定性为阶级斗争的表现。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段对饥荒严重性的描述，转而深入剖析其政治与阶级根源，将问题从现象层面引向斗争层面。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "资产阶级和一切富人",
+      "their_view": "饥荒是俄国粮食本身不足造成的自然结果，与阶级斗争无关。",
+      "author_response": "列宁指出，饥荒是资产阶级和富人蓄意破坏粮食垄断与国家分配制度，以此同苏维埃政权进行最后斗争的结果。",
+      "polemic_kind": "reveals_class_basis",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p4s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p4s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p4s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p4s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

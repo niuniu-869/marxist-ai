@@ -1,0 +1,122 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 210,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "巴枯宁在此段批评马克思的革命策略，指责其脱离实际、追求个人专政，并意图与资产阶级激进派合作。",
+    "importance_score": 2,
+    "importance_reason": "这是巴枯宁对马克思革命路线和政治策略的集中批判，构成其无政府主义立场的核心论据。",
+    "argument_role": "continues",
+    "argument_link": "本段延续上段对马克思纲领的批判，具体攻击其革命策略的虚幻性和政治联盟的错误。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p210s1",
+        "quote": "可是，干革命——德国人本身并不相信这一点：《需要别国人民开始革命，或者某种外在的“力量”吸引或者“推动”他们。》",
+        "trigger": "inverted_logic",
+        "reader_block": "巴枯宁用反讽语气转述德国人的心态，读者可能误以为这是客观描述，实则为后续批判马克思策略铺垫。",
+        "parse": {
+          "claim": "巴枯宁认为德国无产阶级缺乏革命主动性，需要外部事件或力量来触发革命。",
+          "qualifiers": "特指德国社会民主党及其影响下的工人运动。",
+          "contrast_or_target": "马克思主张无产阶级应主动进行革命以掌握国家。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "此句作为论辩起点，通过转述论敌（德国社民党）心态，为后续批判马克思的革命策略脱离实际做铺垫。"
+        },
+        "implication": "巴枯宁以此论证马克思的革命理论在德国缺乏现实基础。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p210s1",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p210s2",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p210s3",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p210s4",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p210s5",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p210s6",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p210s7",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p210s8",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p210s9",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 1,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

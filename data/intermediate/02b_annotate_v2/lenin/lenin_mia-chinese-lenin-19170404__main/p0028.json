@@ -1,0 +1,120 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 28,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁确立苏维埃为唯一合法政府，承认布尔什维克在其中处于少数且多数人持护国主义立场的现实，并提出通过耐心说服来改变局面的策略。",
+    "importance_score": 3,
+    "importance_reason": "核心论断，明确了布尔什维克对苏维埃的根本态度和在当时力量对比下的工作方针。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于革命性与分析能力的论述，具体落实到对苏维埃地位的判断和面对党内少数、苏维埃多数护国主义的策略。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "all_known",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p28s2",
+        "quote": "不这样想就等于陷入无政府主义泥潭。",
+        "trigger": "inverted_logic",
+        "reader_block": "双重否定结构（“不这样想就等于”）加上“无政府主义”术语，读者可能不理解为什么否定苏维埃的政府地位会等同于无政府主义。",
+        "parse": {
+          "claim": "承认苏维埃是唯一合法政府，是避免政治混乱和无政府状态的前提。",
+          "qualifiers": "此判断基于二月革命后苏维埃实际掌握群众支持的现实。",
+          "contrast_or_target": "反驳那些不认为苏维埃是真正政府、或试图在苏维埃之外寻找权力基础的观点。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "通过否定一种错误立场（不承认苏维埃的政府地位），来巩固和论证前一句（苏维埃是真正的政府）的正确性，为后续策略讨论奠定基础。"
+        },
+        "implication": "任何试图绕过或轻视苏维埃这一群众组织形式的行动，都将导致革命力量的涣散。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "护国主义",
+      "their_view": "在临时政府领导下保卫祖国是正当的，战争是出于自卫而非侵略，因此应当支持这场战争。",
+      "author_response": "列宁指出，尽管苏维埃中多数人持此立场，但苏维埃本身是唯一可能的政府形式，布尔什维克的任务是系统地说明这种护国主义策略是错误的。",
+      "polemic_kind": "strategic_critique",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p28s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p28s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "无政府主义",
+            "type": "concept",
+            "modern": "在列宁的论述中，特指否定一切权威和集中领导、主张自发行动的政治思潮，此处用以形容脱离苏维埃这一组织形式的混乱状态。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "anarchism_theory"
+          }
+        ]
+      },
+      {
+        "sid": "p28s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p28s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p28s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p28s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p28s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 1,
+        "hs_kept": 1,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

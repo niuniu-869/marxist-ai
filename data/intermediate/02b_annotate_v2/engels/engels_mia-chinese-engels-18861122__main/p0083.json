@@ -1,0 +1,81 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 83,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "作者以讽刺口吻，直接点名批评布伦坦诺和泰勒长期指控马克思伪造引文却一无所获，并反问所谓“伪造”的证据何在。",
+    "importance_score": 2,
+    "importance_reason": "本段是针对具体论敌指控的直接反驳，用事实（长期寻找未果）来削弱对方论点的可信度，属于论战中的具体交锋。",
+    "argument_role": "contrasts",
+    "argument_link": "承接上一段对门格尔指控的概述，本段将矛头具体指向门格尔阵营中的布伦坦诺和泰勒，用他们自身的失败来反驳其指控的普遍性。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p83s2",
+        "quote": "而那种可怕的，40年来一直在顽强进行的，而且还是“非常明显的”伪造——这种伪造由于恩格斯同样长达40年之久的罪恶的合作，已经具有居心叵测的阴谋的性质——究竟何在呢？",
+        "trigger": "inverted_logic",
+        "reader_block": "反问句式，读者需识别出这不是在询问，而是在强烈否定“伪造”的存在。引号内的“非常明显的”是反讽。",
+        "parse": {
+          "claim": "论敌所宣称的那种持续数十年、且因恩格斯参与而带有阴谋性质的所谓“伪造”，实际上并不存在。",
+          "qualifiers": "论敌声称这种伪造是“非常明显的”，且持续了40年。",
+          "contrast_or_target": "论敌（如门格尔、布伦坦诺）认为马克思和恩格斯的著作中存在长期、系统性的伪造，且性质恶劣。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "本句以反问形式，直接驳斥论敌关于“伪造”的核心指控，将其荒谬性暴露出来，是论战中的关键反击。"
+        },
+        "implication": "论敌的指控缺乏事实基础，其长期的、高调的攻击在证据面前站不住脚。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "布伦坦诺、塞德利·泰勒",
+      "their_view": "马克思和恩格斯的著作中存在长期的、系统性的伪造，且性质恶劣，是居心叵测的阴谋。",
+      "author_response": "布伦坦诺等人耗费二十年时间寻找马克思的错误引文都一无所获，他们所谓的“伪造”根本找不到证据。",
+      "polemic_kind": "counter_quotation",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p83s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "布伦坦诺",
+            "type": "person",
+            "modern": "19世纪德国资产阶级经济学家，曾与恩格斯就马克思引文问题进行长期论战。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "塞德利·泰勒",
+            "type": "person",
+            "modern": "英国剑桥大学学者，曾支持布伦坦诺对马克思引文的指控。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p83s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  }
+}

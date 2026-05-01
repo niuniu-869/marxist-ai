@@ -1,0 +1,102 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 125,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "沃尔弗在议会发言，批评多数派宣言过于温和，主张用非法性和暴力革命的语言对抗政府，并宣布摄政王为叛徒。",
+    "importance_score": 2,
+    "importance_reason": "直接展现沃尔弗的革命立场与议会内部分歧，是其政治主张的集中表述。",
+    "argument_role": "contrasts",
+    "argument_link": "承接上段对沃尔弗的引入，本段具体展示其在议会中的激进发言，与多数派的温和路线形成鲜明对比。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "allusion",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p125s1",
+        "quote": "你们应该讲的不是什么合法性、合法的根据等等，而是非法性——就像各邦政府那样地讲，就像俄国人那样地讲，而所谓俄国人我指的是普鲁士人、奥地利人、巴伐利亚人、汉诺威人。",
+        "trigger": "allusion",
+        "reader_block": "将德意志各邦政府称为“俄国人”是反讽隐喻，读者若不知19世纪欧洲政治语境，会困惑于字面含义。",
+        "parse": {
+          "claim": "革命者应放弃对合法性的诉求，转而采用与反动政府相同的暴力逻辑来对抗他们。",
+          "qualifiers": "针对的是当时议会中多数派宣言的温和基调。",
+          "contrast_or_target": "议会多数派主张在合法框架内进行斗争。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "通过将德意志各邦政府比作“俄国人”（当时欧洲反动势力的象征），揭露其统治的暴力本质，并以此反驳多数派对合法性的迷信。"
+        },
+        "implication": "暗示真正的革命行动必须超越现存法律体系，直接对抗国家机器。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      },
+      {
+        "anchor": "p125s1",
+        "quote": "如果一定需要发表宣言的话，那就应该发表这样的宣言：直截了当地宣布帝国摄政王这个人民的主要叛徒不受法律保护。",
+        "trigger": "inverted_logic",
+        "reader_block": "“不受法律保护”是法律术语，指剥夺法律权利，此处被用作革命动员的口号，读者可能不理解其激进含义。",
+        "parse": {
+          "claim": "革命宣言的核心内容应是公开剥夺最高统治者的法律地位，将其定义为人民公敌。",
+          "qualifiers": "这是在议会内部提出的、针对官方宣言的替代方案。",
+          "contrast_or_target": "多数派宣言的温和内容与措辞。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "提出一个比多数派宣言远为激进的行动纲领，直接挑战现存政治权威的合法性，将议会辩论推向革命边缘。"
+        },
+        "implication": "此主张将议会内的言论转化为对国家元首的直接政治指控，具有强烈的煽动性。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "法兰克福议会中的多数派",
+      "their_view": "主张通过合法、温和的宣言向人民呼吁，强调合法斗争的根据。",
+      "author_response": "认为这种宣言软弱无力，无法影响人民；革命者应像反动政府一样使用非法性和暴力的语言，并直接宣布统治者为叛徒。",
+      "polemic_kind": "strategic_critique",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p125s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "布斯先生",
+            "type": "person",
+            "modern": "议会中的一名议员，其政治立场可能较为保守，沃尔弗用他作为反衬。",
+            "highlight": "term",
+            "confidence": "medium",
+            "source_basis": "inferred"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 2,
+        "hs_kept": 2,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

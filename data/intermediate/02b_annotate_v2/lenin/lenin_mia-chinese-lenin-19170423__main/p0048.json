@@ -1,0 +1,84 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 48,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁针对社会民主党和社会革命党，主张立即召开立宪会议并确定日期，强调在联络委员会中已多次提出此要求。",
+    "importance_score": 2,
+    "importance_reason": "本段是列宁对当时主要政党立场的具体批判，属于核心论战的一部分。",
+    "argument_role": "contrasts",
+    "argument_link": "上段批评立宪民主党对召开立宪会议的拖延态度，本段转向批评社会民主党和社会革命党，指出他们同样需要尽快行动。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "联络委员会",
+        "explain": "二月革命后，彼得格勒苏维埃与临时政府之间设立的协商机构，列宁等布尔什维克曾参与其中，用于沟通两方立场。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "社会民主党和社会革命党",
+      "their_view": "我们支持临时政府，认为当前应巩固革命成果，立宪会议可以稍后召开，不必急于规定日期。",
+      "author_response": "列宁强调必须立即召开立宪会议并确定具体日期，指出在联络委员会中已多次提出，拖延只会损害革命进程。",
+      "polemic_kind": "strategic_critique",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p48s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p48s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p48s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "联络委员会",
+            "type": "org",
+            "modern": "二月革命后彼得格勒苏维埃与临时政府之间的协商机构，列宁等布尔什维克曾参与。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_5gram_with_surface"
+      ]
+    }
+  ]
+}

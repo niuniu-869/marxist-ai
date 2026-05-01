@@ -1,0 +1,70 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 54,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁提出将党名从社会民主党更改为共产党，理由是该名称的领袖背叛了社会主义并投向资产阶级。",
+    "importance_score": 3,
+    "importance_reason": "本段提出更改党名的纲领性主张，是列宁为布尔什维克党确立新革命路线的关键步骤。",
+    "argument_role": "continues",
+    "argument_link": "本段承接上段关于修改党纲的讨论，具体提出更改党名这一项内容。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "社会民主党与共产党",
+        "explain": "社会民主党是19世纪末欧洲工人政党常用名称，但一战中许多领袖支持本国参战，被列宁视为背叛。共产党则强调无产阶级革命和专政。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "护国派和考茨基",
+      "their_view": "护国派和考茨基认为，二月革命后战争已变为保卫革命成果的战争，因此社会民主党应继续领导革命。",
+      "author_response": "列宁指出这些领袖出卖了社会主义，跑到资产阶级阵营，因此党名必须更改以示区别。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p54s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p54s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "护国派",
+            "type": "social_group",
+            "modern": "一战中支持本国政府参战的社会党人派别",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "考茨基",
+            "type": "person",
+            "modern": "卡尔·考茨基，第二国际中派理论家，在战争问题上立场动摇",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  }
+}

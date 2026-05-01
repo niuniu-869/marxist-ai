@@ -1,0 +1,83 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 132,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "对比奥地利社会民主党人与俄国马克思主义者在实现民族自由路径上的根本分歧。",
+    "importance_score": 2,
+    "importance_reason": "通过对比两种政治路径，具体阐释了前文提出的俄国与奥地利社会民主党人出发点相反的论点。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于俄国与奥地利社会民主党人出发点相反的论断，具体阐述两者在实现民族自由的策略与前景上的对立。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "奥地利社会民主党人",
+      "their_view": "民族自由可以通过一系列微小的改良和缓慢的步骤来实现，其具体方案是推行民族文化自治，并不期待或依赖任何根本性的社会变革。",
+      "author_response": "俄国的马克思主义者则认为，民族自由问题的解决与可能发生的根本性社会变革、与民主解放运动紧密相连，因此不能指望通过改良来实现。",
+      "polemic_kind": "strategic_critique",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p132s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p132s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "民族文化自治",
+            "type": "program_clause",
+            "modern": "奥地利社会民主党提出的民族纲领，主张在国家内部按民族划分，给予各民族管理自身文化事务的自治权。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p132s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p132s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 2,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 19,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段评估欧洲主要军队的军事素养，重点分析奥地利将领拉德茨基在意大利战争中的表现及其成功条件。",
+    "importance_score": 2,
+    "importance_reason": "为后文分析神圣同盟对法战争的军事能力提供具体案例和评估标准，属于支撑性论证。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对神圣同盟组织结构的分析，具体考察其成员国军队的实战能力与指挥水平。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "拉德茨基与意大利战争",
+        "explain": "拉德茨基是奥地利元帅，在1848-1849年镇压意大利北部的革命与独立运动。他指挥的战争是当时欧洲反革命势力获胜的典型案例。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "查理·阿尔伯特",
+        "explain": "撒丁-皮埃蒙特王国国王，1848年领导第一次意大利独立战争对抗奥地利，后因战败退位。文中指其在战争中的政治阴谋。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "新莱茵报时期",
+        "explain": "指1848-1849年欧洲革命期间，马克思与恩格斯在科隆创办《新莱茵报》的时期。恩格斯在此暗示，与当时革命报刊的立场相比，现在需要更现实地分析军事形势。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p19s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p19s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p19s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p19s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p19s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p19s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "新莱茵报时期",
+            "type": "work",
+            "modern": "1848-1849年欧洲革命期间，马克思与恩格斯在科隆主编的革命报纸《新莱茵报》的活跃时期。",
+            "highlight": "archaic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p19s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p19s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p19s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "查理·阿尔伯特",
+            "type": "person",
+            "modern": "撒丁-皮埃蒙特王国国王，1848年领导第一次意大利独立战争对抗奥地利。",
+            "highlight": "person",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p19s10",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 2,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "hs:eval_word:claim:极为",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

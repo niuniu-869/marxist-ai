@@ -1,0 +1,88 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 123,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段定义无产阶级专政的性质、任务和联盟形式，并批判机会主义者用空洞口号回避具体分析。",
+    "importance_score": 3,
+    "importance_reason": "这是全文的核心定义段，系统阐述了无产阶级专政的阶级斗争本质和联盟策略。",
+    "argument_role": "definition",
+    "argument_link": "承接上段关于中间阶层必须做出选择的论断，本段具体定义了无产阶级专政这一选择的实质内容和形式。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "考茨基和马尔托夫",
+      "their_view": "他们用“自由”“平等”和“劳动民主派的统一”等一般性口号来谈论政治问题，回避对具体联盟形式、条件和任务的分析。",
+      "author_response": "列宁批判他们只会用商品经济时代的陈旧词组支吾搪塞，而不去研究无产阶级专政下阶级联盟的具体现实。",
+      "polemic_kind": "strategic_critique",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p123s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p123s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p123s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p123s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p123s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "黄色国际",
+            "type": "org",
+            "modern": "列宁及布尔什维克对第二国际的蔑称，因其领导层在战争中背叛国际主义而得名。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

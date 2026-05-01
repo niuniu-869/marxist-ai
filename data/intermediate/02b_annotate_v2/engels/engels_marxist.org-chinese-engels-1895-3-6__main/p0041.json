@@ -1,0 +1,104 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 41,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "恩格斯讽刺“秩序党”人通过法律手段反对变革的无效性，并指出他们最终只能诉诸破坏法律的独裁手段。",
+    "importance_score": 2,
+    "importance_reason": "本段是恩格斯对“秩序党”策略的批判，支撑了他关于无产阶级斗争策略的论点。",
+    "argument_role": "continues",
+    "argument_link": "本段延续上一段对“秩序党”虚伪立场的讽刺，进一步分析其策略的内在矛盾与最终归宿。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "allusion",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p41s5",
+        "quote": "破坏宪法，实行独裁，恢复专制，regis voluntas suprema lex!〔君主的意志是最高的法律！〕",
+        "trigger": "allusion",
+        "reader_block": "句中包含拉丁文法律格言“regis voluntas suprema lex”，读者可能不认识，也不理解其在讽刺语境中的含义。",
+        "parse": {
+          "claim": "恩格斯用这句拉丁格言来讽刺“秩序党”人，指出他们最终会诉诸君主专制，将君主意志凌驾于法律之上。",
+          "qualifiers": "这是对“秩序党”人最终可能采取的手段的描述。",
+          "contrast_or_target": "“秩序党”人声称维护法律和秩序，但其反对变革的逻辑终点却是破坏法律本身。"
+        },
+        "why": {
+          "relation": "example",
+          "explanation": "本句用一个古典格言作为例证，强化了上文关于“秩序党”人只能通过破坏法律来反对社会民主党的论断，揭示其反动本质。"
+        },
+        "implication": "这暗示了资产阶级统治在面临根本挑战时，会抛弃其标榜的法治外衣，转向赤裸裸的专制。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p41s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p41s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p41s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p41s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p41s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p41s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 1,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

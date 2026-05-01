@@ -1,0 +1,102 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 161,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段定义国家为统治阶级的组织，并批判德国社会民主党人将战时经济称为'军事社会主义'，指出其实际是军事国家垄断资本主义。",
+    "importance_score": 2,
+    "importance_reason": "本段通过定义国家并批判机会主义，为论证国家垄断资本主义提供理论基础。",
+    "argument_role": "continues",
+    "argument_link": "本段从上段对垄断资本主义的分析，转向定义国家并批判机会主义者对战时经济的美化。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "德国社会民主党机会主义者",
+        "explain": "谢德曼和伦施是德国社会民主党右翼领袖，一战期间支持本国政府，列宁称他们为'普列汉诺夫分子'，指其机会主义立场。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "德国的普列汉诺夫分子（谢德曼、伦施等人）",
+      "their_view": "他们将战时国家干预经济称为'军事社会主义'，认为这是向社会主义过渡。",
+      "author_response": "列宁指出这实际上是军事国家垄断资本主义，本质是使工人服军事苦役并保护资本家利润。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p161s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p161s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "国家",
+            "type": "concept",
+            "modern": "马克思主义认为国家是阶级统治的工具",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "state_marxist_theory"
+          }
+        ]
+      },
+      {
+        "sid": "p161s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "军事社会主义",
+            "type": "slogan",
+            "modern": "德国机会主义者对战时国家干预经济的美化称呼",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          },
+          {
+            "surface": "军事国家垄断资本主义",
+            "type": "slogan",
+            "modern": "列宁将战时国家与垄断资本结合的经济形态称为此",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 3,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

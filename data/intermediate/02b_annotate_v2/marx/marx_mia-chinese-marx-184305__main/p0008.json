@@ -1,0 +1,80 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 8,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "马克思将庸人的追求等同于动物本能，并讽刺性地设想德国政治家会如何为这种平庸辩护。",
+    "importance_score": 2,
+    "importance_reason": "支撑对庸人精神状态的批判，将其追求具体化为动物性。",
+    "argument_role": "continues",
+    "argument_link": "本段延续上一段对庸人既不愿思想也不愿自由的追问，具体化其追求的动物性，并讽刺性地设想为这种状态辩护的论调。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "德国政治家（指代为庸人习气辩护的论者）",
+      "their_view": "德国人天性审慎，满足于基本生存和繁衍，无需追求自由和思想。",
+      "author_response": "马克思通过反问揭露这种辩护的荒谬，将德国人的“审慎”等同于动物性。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p8s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "庸人",
+            "type": "concept",
+            "modern": "马克思用此词指代满足于物质生活、缺乏革命与思想自觉的市民阶层。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "class_marxist"
+          }
+        ]
+      },
+      {
+        "sid": "p8s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "德国政治家",
+            "type": "social_group",
+            "modern": "泛指当时为普鲁士专制辩护、将庸人习气合理化的德国政论家或官员。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "inferred"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 34,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段是马克思对前述三个法案的总结性批判，将其定性为暴政与欺诈的顶峰，并揭露其作为国王与议院政治交易的本质。",
+    "importance_score": 2,
+    "importance_reason": "对前文具体分析的总结与定性，将三个法案的批判提升到对整个反动立法本质的揭露。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段对新法案侵犯私生活的具体分析，本段将三个法案作为一个整体进行总结，定性其为暴戾与背信弃义的顶峰，并点明其政治交易背景。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "弗里德里希-威廉四世及其政府",
+      "their_view": "这些法案是为了建立统一的法律制度，弥补现有法律的缺陷，是国王为取消柏林戒严状态而向议院争取的合理补偿。",
+      "author_response": "马克思揭露这是用欺诈手段勒索来的、用以巩固专制统治的工具，其本质是暴戾与背信弃义。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p34s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "恩赐",
+            "type": "metaphor",
+            "modern": "马克思使用此词进行反讽，指普鲁士政府将压迫性法律美化为对人民的赐予。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p34s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p34s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_archaic_5>4"
+      ]
+    }
+  ]
+}

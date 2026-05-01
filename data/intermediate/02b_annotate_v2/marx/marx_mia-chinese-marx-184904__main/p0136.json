@@ -1,0 +1,64 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 136,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "作者反驳资本增长有益于工人的说法，指出其本质是工人财富增加但依赖加深。",
+    "importance_score": 2,
+    "importance_reason": "通过反讽揭示资本积累与工人处境的矛盾关系，是核心批判的组成部分。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于资本增加与工人收入关系的讨论，进一步揭示其阶级实质。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "古典政治经济学",
+      "their_view": "资本的迅速增加对工人有好处，因为这能增加工人的收入和就业机会。",
+      "author_response": "这种好处的实质是工人增加他人的财富，自己只得到微薄份额，同时加深了对资本的依附。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p136s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "残羹剩饭",
+            "type": "metaphor",
+            "modern": "比喻工人从资本增长中获得的微薄报酬，相对于资本家积累的巨额财富。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_metaphor_9>8"
+      ]
+    }
+  ]
+}

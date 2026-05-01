@@ -1,0 +1,172 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 73,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段对比了两种“否定”：一种是推动发展的辩证否定，另一种是主观强加、无结果的否定，并讽刺了后者的持有者。",
+    "importance_score": 2,
+    "importance_reason": "本段是恩格斯对杜林形而上学否定观的集中批判，通过对比阐明辩证否定的实质，是理解《反杜林论》哲学批判的关键环节。",
+    "argument_role": "contrasts",
+    "argument_link": "承接上段对辩证反映论的阐述，本段转而批判与之对立的、杜林式的主观否定观，通过对比来界定何为真正的辩证否定。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "term_density",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "否定的否定规律",
+        "explain": "这是唯物辩证法的基本规律之一，指事物发展经历“肯定—否定—否定之否定”的螺旋式上升过程。杜林对此规律持否定态度，认为它是“黑格尔式的文字游戏”。恩格斯在此段正是要澄清这一规律的真实含义。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p73s2",
+        "quote": "——真正的、自然的、历史的和辩证的否定正是一切发展的推动力（从形式方面看）——对立之划分，对立的斗争和解决，在这里（历史上是部分地，思维中是完全地），在既得经验的基础上，重新达到了原来的出发点，但这是在更高阶段上达到的。",
+        "trigger": "term_density",
+        "reader_block": "多个破折号打断阅读，且密集出现“否定”“对立”“斗争”“解决”“出发点”“更高阶段”等哲学概念，读者难以快速抓住其定义的核心结构。",
+        "parse": {
+          "claim": "辩证否定是事物发展的内在形式动力，它通过划分、斗争并解决对立面，使事物在经验基础上回归起点，但已处于更高发展阶段。",
+          "qualifiers": "此过程在历史中是部分地实现，在思维中是完全地把握。",
+          "contrast_or_target": ""
+        },
+        "why": {
+          "relation": "definition",
+          "explanation": "本句为“辩证否定”这一核心概念下定义，阐明其作为发展动力的内在机制（对立统一与螺旋上升），为后续批判“没有结果的否定”树立标准。"
+        },
+        "implication": "真正的否定内在于事物发展过程，是自我扬弃和提升，而非外部强加。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      },
+      {
+        "anchor": "p73s8",
+        "quote": "这样，我们自己造成了否定的否定！",
+        "trigger": "inverted_logic",
+        "reader_block": "表面是陈述“我们造成了否定的否定”，实则是反讽。读者若不联系前文对“否定论者”的讽刺，会误以为这是作者在肯定某种成就。",
+        "parse": {
+          "claim": "那些全盘否定历史的悲观论者，其自身立场（自认完美）恰恰构成了对自身全盘否定观点的否定。",
+          "qualifiers": "特指那些“悲观主义者”在否定一切后，又将自己排除在外，陷入自相矛盾。",
+          "contrast_or_target": "针对那些宣称“一切都是坏的”但又自认例外的否定论者。"
+        },
+        "why": {
+          "relation": "conclusion",
+          "explanation": "本句是前文对“没有结果的否定”及其持有者进行讽刺性描述的总结，用“否定的否定”这一术语本身来揭露其逻辑上的自相矛盾，完成论辩闭环。"
+        },
+        "implication": "主观、绝对的否定观在逻辑上无法自洽，最终会否定自身。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "杜林及其追随者",
+      "their_view": "存在一种纯粹主观的、个人的否定，它并非事物发展的内在环节，而是由外部强加的意见。持有这种观点的人会全盘否定历史与现存事物，认为过去一切成就皆不足道，唯独自己完美无缺。",
+      "author_response": "恩格斯指出，这种否定是“恶劣的、没有结果的”，它脱离事物本身的发展逻辑，导致否定者与世界格格不入，并最终陷入自相矛盾的境地。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p73s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "否定",
+            "type": "concept",
+            "modern": "在辩证法中指事物发展中的自我扬弃环节，此处特指与之对立的错误否定观。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "negation_dialectical"
+          }
+        ]
+      },
+      {
+        "sid": "p73s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "辩证的否定",
+            "type": "concept",
+            "modern": "唯物辩证法的核心范畴，指事物通过内在矛盾实现自我发展、自我完善的否定形式。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "negation_dialectical"
+          }
+        ]
+      },
+      {
+        "sid": "p73s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p73s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p73s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p73s6",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": [
+          {
+            "surface": "下等人的成果",
+            "type": "metaphor",
+            "modern": "恩格斯模拟否定论者的口吻，讽刺他们以现代科技为标准贬低古代文明成就。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p73s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p73s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 3,
+        "notes_dropped": 2,
+        "hs_kept": 2,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

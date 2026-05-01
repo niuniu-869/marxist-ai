@@ -1,0 +1,93 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 86,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁批评俄国机会主义者惯于引用奥地利范例来讨论民族问题，并回顾自己此前文章中关于民主主义解决民族问题的论点。",
+    "importance_score": 2,
+    "importance_reason": "本段承接上文对民族平等的讨论，具体指出论敌的论证手法，并重申作者的核心主张，为后续批判奠定基础。",
+    "argument_role": "continues",
+    "argument_link": "本段紧接上一段关于民族平等和少数民族权利的讨论，具体化了论敌（俄国机会主义者）在论证中使用的错误范例，并重申了作者在先前文章中提出的解决方案。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "奥地利民族纲领",
+        "explain": "指奥地利社会民主党在1899年布隆代表大会上通过的“民族文化自治”纲领。该纲领主张按民族划分公民，每个民族管理自己的文化教育事务，列宁视其为机会主义在民族问题上的典型方案。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p86s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p86s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "谢姆柯夫斯基",
+            "type": "person",
+            "modern": "孟什维克派别的活动家，曾在《新工人报》上撰文批评列宁的民族问题观点。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "李普曼",
+            "type": "person",
+            "modern": "俄国机会主义者，曾在《时报》上攻击列宁关于民族问题的文章。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p86s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

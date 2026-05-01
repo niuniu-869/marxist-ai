@@ -1,0 +1,136 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 141,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列举帝国主义者和资产阶级学者的言论，说明他们如何利用民族特权来分裂工人运动。",
+    "importance_score": 1,
+    "importance_reason": "本段通过具体引文，为前文关于民族主义被用来分裂工人的论点提供实证支撑。",
+    "argument_role": "example",
+    "argument_link": "承接上段关于报刊策略的讨论，转而用具体例子说明民族主义如何被资产阶级利用来分裂工人。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "refute_quotation"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p141s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p141s2",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": [
+          {
+            "surface": "柳卡斯",
+            "type": "person",
+            "modern": "英国帝国主义理论家，著有《大罗马和大不列颠》",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          },
+          {
+            "surface": "《大罗马和大不列颠》",
+            "type": "work",
+            "modern": "柳卡斯1912年出版的著作，论述帝国统治",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p141s3",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": [
+          {
+            "surface": "贝尔格尔",
+            "type": "person",
+            "modern": "反社会民主党人帝国联盟的前任书记",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          },
+          {
+            "surface": "《战争爆发后的社会民主党》",
+            "type": "work",
+            "modern": "贝尔格尔1915年出版的小册子，赞扬德国社民党的战争立场",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p141s4",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p141s5",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": [
+          {
+            "surface": "吕多费尔",
+            "type": "person",
+            "modern": "德国外交官，著有论述世界政治的书籍",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p141s6",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p141s7",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 5,
+        "notes_dropped": 2,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_5gram_with_surface",
+        "note:n1_overflow_person_15>12",
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 253,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "斯大林批判崩得的民族主义主张，揭露其保存犹太特性、设立专门医院的建议导致犹太工人与外界隔离，损害无产阶级利益。",
+    "importance_score": 2,
+    "importance_reason": "本段是斯大林对崩得民族主义立场的具体批判，属于核心论战内容。",
+    "argument_role": "continues",
+    "argument_link": "本段承接上段对崩得代表会议言论的描述，进一步揭露其主张的实质和危害。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "崩得",
+      "their_view": "崩得主张保存犹太民族的一切特点，甚至设立专门医院，以保持犹太工人的民族特性。",
+      "author_response": "斯大林指出，这种主张将犹太人与外界隔绝，保全对无产阶级有害的特点，导致崩得堕落。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p253s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "无产阶级",
+            "type": "concept",
+            "modern": "马克思主义理论中，现代资本主义社会里不占有生产资料、靠出卖劳动力为生的劳动者阶级。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "proletarian_modern"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

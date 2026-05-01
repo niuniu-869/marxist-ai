@@ -1,0 +1,102 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 211,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁揭露考茨基向德国读者隐瞒了孟什维克曾承认苏维埃优越性的事实，以此驳斥考茨基关于苏维埃与资产阶级分歧是布尔什维克人为制造的说法。",
+    "importance_score": 2,
+    "importance_reason": "本段通过具体历史事实，直接反驳考茨基对苏维埃革命历史的歪曲，是核心批判论证的一部分。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对孟什维克调和政策失败的批判，进一步用孟什维克自身承认苏维埃优越性的事实，揭露考茨基的隐瞒行为。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "all_known",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "考茨基",
+      "their_view": "苏维埃与资产阶级的分歧没有历史渊源，是布尔什维克的恶劣行为无缘无故、突然制造出来的。",
+      "author_response": "列宁指出，考茨基隐瞒了孟什维克在1917年掌权期间曾承认苏维埃优于其他一切机构这一关键事实，从而歪曲了历史进程。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p211s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "孟什维克",
+            "type": "org",
+            "modern": "1903年俄国社会民主工党分裂后形成的派别，主张与资产阶级合作，进行资产阶级民主革命。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "苏维埃",
+            "type": "org",
+            "modern": "1905年革命及1917年革命中出现的工人、士兵代表会议，是革命政权的雏形。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p211s2",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": [
+          {
+            "surface": "历史学家考茨基",
+            "type": "person",
+            "modern": "卡尔·考茨基，第二国际理论家，此处列宁讽刺其以历史学家自居却歪曲事实。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          },
+          {
+            "surface": "布尔什维克",
+            "type": "org",
+            "modern": "1903年俄国社会民主工党分裂后形成的多数派，主张通过无产阶级革命建立专政。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p211s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 4,
+        "notes_dropped": 2,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

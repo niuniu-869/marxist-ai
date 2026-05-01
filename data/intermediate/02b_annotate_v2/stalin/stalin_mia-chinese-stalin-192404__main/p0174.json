@@ -1,0 +1,189 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 174,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "斯大林阐述无产阶级专政的第一个结论，即它不是对所有人的民主，而是对无产者和穷人的新型民主，同时是对资产阶级的新型专政，并以此批判考茨基的“纯粹民主”论。",
+    "importance_score": 3,
+    "importance_reason": "本段是列宁主义关于国家与革命理论的核心论断之一，直接定义了无产阶级专政的阶级性质，是全文的理论基石。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段提出的“两个基本结论”，本段详细展开并论证第一个结论，即无产阶级专政的民主与专政双重属性。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "无产阶级专政",
+        "explain": "马克思主义国家学说的核心概念，指无产阶级通过革命打碎旧的国家机器后建立的新型国家。它不是少数人的独裁，而是对占人口绝大多数的被剥削者实行民主，同时对少数剥削者实行专政的过渡时期国家形式。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "考茨基的“纯粹民主”论",
+        "explain": "第二国际理论家考茨基等人主张，在资本主义民主制度下，通过议会斗争等和平方式即可实现社会主义，无需暴力革命和无产阶级专政。他们宣扬超阶级的、全民的“纯粹民主”。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p174s7",
+        "quote": "在资本主义制度下，被剥削群众是没有而且不可能真正参加国家的管理的，这至少是因为即使在资本主义条件下最民主的制度中，政府也不是由人民所指定，而是由路特希尔德家族和斯汀尼斯家族、洛克菲勒家族和摩根家族所指定的。",
+        "trigger": "cross_ref",
+        "reader_block": "句中列举的“路特希尔德家族”等是19-20世纪初的金融资本巨头，读者若不知其代表垄断资本，会难以理解作者用具体家族指代整个资产阶级统治的手法。",
+        "parse": {
+          "claim": "资本主义国家的政府权力，其实际掌控者是垄断资本集团，而非名义上的全体人民。",
+          "qualifiers": "此论断适用于“即使在最民主的制度中”，即形式上最完善的资本主义民主。",
+          "contrast_or_target": "针对资本主义民主制度下“人民主权”的虚幻性。"
+        },
+        "why": {
+          "relation": "example",
+          "explanation": "用具体历史人物（家族）作为例证，支撑前文关于资本主义民主是少数剥削者民主的论断，揭示其经济基础。"
+        },
+        "implication": "国家的阶级性质最终由经济权力决定，政治民主的形式无法改变资本专政的实质。",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "考茨基",
+      "their_view": "主张存在普遍的平等、“纯粹的”民主和“完善的”民主，认为在资本主义制度下可以实现不分阶级的全民民主。",
+      "author_response": "指出这种论调是资产阶级用以掩盖阶级对立事实的空话，是工人阶级上层分子为帝国主义辩护的理论。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p174s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "无产阶级专政",
+            "type": "concept",
+            "modern": "马克思主义国家学说中，无产阶级夺取政权后建立的过渡时期国家形式，对多数人民主，对少数剥削者专政。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "proletarian_dictatorship"
+          }
+        ]
+      },
+      {
+        "sid": "p174s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p174s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "考茨基",
+            "type": "person",
+            "modern": "卡尔·考茨基，第二国际理论家，马克思主义的修正主义代表人物之一。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p174s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "纯粹民主",
+            "type": "concept",
+            "modern": "考茨基等人宣扬的超阶级民主观，认为民主可以脱离阶级斗争而存在。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "bourgeois_democracy"
+          }
+        ]
+      },
+      {
+        "sid": "p174s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p174s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p174s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "路特希尔德家族",
+            "type": "person",
+            "modern": "欧洲著名金融资本家族，19-20世纪国际银行家的代表。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "洛克菲勒家族",
+            "type": "person",
+            "modern": "美国著名垄断资本家族，石油等行业的巨头。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p174s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p174s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p174s10",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 5,
+        "notes_dropped": 0,
+        "hs_kept": 1,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

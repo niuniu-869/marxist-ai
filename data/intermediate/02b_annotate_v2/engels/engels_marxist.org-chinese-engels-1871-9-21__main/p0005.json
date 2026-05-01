@@ -1,0 +1,70 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 5,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "恩格斯直接反驳无政府主义者将政治行动等同于承认现状的论点，指出利用资产阶级提供的政治权利作为斗争武器，恰恰是反对现状。",
+    "importance_score": 3,
+    "importance_reason": "核心论点段落，直接回应并驳斥了无政府主义放弃政治行动的核心论据，是全文论证的关键环节。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段关于政治行动必要性的论证，本段具体针对论敌“政治行动即承认现状”的指责进行直接反驳，将论证从必要性推进到策略合理性。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "refute_quotation"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p5s1",
+        "quote": "政治自由、集会结社的权利和新闻出版自由，就是我们的武器：如果有人想从我们手里夺走这些武器，难道我们能够置之不理和放弃政治吗？",
+        "trigger": "inverted_logic",
+        "reader_block": "反问句式“难道……吗？”与双重否定“置之不理和放弃”，读者可能需要转换才能理解其肯定含义。",
+        "parse": {
+          "claim": "当资产阶级试图剥夺工人的基本政治权利时，工人必须通过政治行动来捍卫这些权利。",
+          "qualifiers": "前提是“有人想从我们手里夺走这些武器”，即资产阶级的镇压行为。",
+          "contrast_or_target": ""
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "以反问形式直接驳斥无政府主义者“放弃政治”的主张，将捍卫基本权利与政治行动绑定，论证其紧迫性与正当性。"
+        },
+        "implication": "无产阶级的政治行动不仅是为了夺取政权，也包括在当下保卫已有的斗争条件。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "无政府主义者",
+      "their_view": "进行任何政治行动都意味着承认现状，因此应当放弃政治。",
+      "author_response": "利用现状本身提供的、可用于反对现状的手段（如政治自由），并不等于承认现状。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p5s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p5s2",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p5s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  }
+}

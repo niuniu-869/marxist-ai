@@ -1,0 +1,114 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 76,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁通过描述经济领域的跨民族合作，论证民族划分在政治问题上让位于阶级划分，并批判将文化教育事业民族化的主张。",
+    "importance_score": 2,
+    "importance_reason": "本段用经济事实支撑上段对“民族文化”自治的批判，是核心论证的关键环节。",
+    "argument_role": "continues",
+    "argument_link": "本段延续上段对“民族文化”自治的批判，从经济基础层面提供事实论据，说明民族划分在根本政治问题上不起作用。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p76s4",
+        "quote": "把教育等等事业“从国家管理分出来”交给各个民族管理，恰恰是企图把社会生活中可以说是最有思想性的领域，把这个使“纯粹”民族文化最容易存在，或使教权主义和沙文主义最容易在民族基础上发育滋长的领域，同使各民族溶合的经济分开。",
+        "trigger": "long_nested",
+        "reader_block": "长句嵌套多个从句，且包含“溶合”等特定术语，读者可能难以抓住核心论点：这种分离的意图和后果。",
+        "parse": {
+          "claim": "将文化教育事业从国家统一管理中分离并按民族划分，会阻碍各民族在经济基础上的融合，并为民族主义和教权主义提供温床。",
+          "qualifiers": "在资本主义社会条件下，这种分离针对的是“最有思想性的领域”。",
+          "contrast_or_target": "主张将教育等事业从国家管理中分出来交给各民族管理的人。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "本句直接反驳民族自治主张，通过揭示其后果（阻碍融合、滋长反动势力）来论证其危害性，是本段论辩的核心句。"
+        },
+        "implication": "这种分离会强化民族隔阂，与资本主义经济融合趋势相悖，服务于反动势力。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "“民族文化”自治主张者",
+      "their_view": "教育等文化事业应从国家管理中分离出来，由各民族自行管理，以发展“纯粹”的民族文化。",
+      "author_response": "这种分离恰恰会阻碍民族融合，并为教权主义和沙文主义在民族基础上滋长提供土壤。",
+      "polemic_kind": "reveals_class_basis",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p76s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "股份公司",
+            "type": "event",
+            "modern": "列宁用此词指代资本主义发展到垄断阶段的典型企业组织形式，其股东和资本家来自不同民族。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p76s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "工厂",
+            "type": "place",
+            "modern": "列宁用此词指代资本主义生产的基本场所，不同民族的工人在此共同劳动。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p76s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "阶级",
+            "type": "concept",
+            "modern": "马克思主义理论中，基于生产资料占有关系形成的社会集团，其利益根本对立。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "class_marxist"
+          }
+        ]
+      },
+      {
+        "sid": "p76s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "溶合",
+            "type": "concept",
+            "modern": "列宁用此词强调各民族在经济基础上的自然融合过程，与人为的民族隔离相对。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "fusion_of_nations"
+          }
+        ]
+      }
+    ]
+  }
+}

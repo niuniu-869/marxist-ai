@@ -1,0 +1,82 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 85,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁在主张没收地主土地的基础上，进一步提出在民主革命阶段不应绝对排除土地国有化，但必须以特定政治制度为前提条件。",
+    "importance_score": 2,
+    "importance_reason": "本段是列宁土地纲领修改方案的核心环节，将“国有化”从被排除的选项提升为有条件的要求，为后续论证奠定基础。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于没收地主土地和设立农民委员会的结论，本段进一步推进，提出在没收之外，纲领还应包含土地国有化的要求，但需附加严格的政治前提。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "土地国有化",
+        "explain": "在本文语境中，指将全部土地收归国家所有，由国家支配。列宁认为这是民主革命可能达到的最高土地变革形式，但其实施必须与特定的国家政权性质（即无产阶级和农民的革命专政）相结合，否则可能强化官僚统治。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      },
+      {
+        "topic": "一定的政治制度",
+        "explain": "列宁在此处特指能保证国有化土地由农民实际支配、而非被官僚机构控制的革命政权形式，即前文讨论的“农民委员会”所代表的、由农民和无产阶级掌握的民主机构。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "反对土地国有化的党内派别（如马斯洛夫、芬、普列汉诺夫等）",
+      "their_view": "土地国有化本身是错误的、有害的，或者在当前阶段根本不应提出，因为它会加强官僚政治或不被农民接受。",
+      "author_response": "列宁认为，不能因为国有化在错误政治条件下可能有害就绝对屏弃它；在民主革命和农民起义的时代，纲领应包含这一要求，但必须明确其得以正确实施的政治制度保障。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p85s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p85s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p85s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

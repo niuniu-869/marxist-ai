@@ -1,0 +1,83 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 62,
+  "annotation": {
+    "block_type": "quote_block",
+    "gist": "本段摘录巴枯宁对奥匈帝国内部民族压迫的描述，指出德意志人对斯拉夫人的统治欲与仇恨，以及斯拉夫人以泛斯拉夫主义作为回应。",
+    "importance_score": 2,
+    "importance_reason": "为马克思后续批判巴枯宁的民族观与国家观提供具体文本例证。",
+    "argument_role": "example",
+    "argument_link": "承接上段对奥地利帝国的简述，具体展开巴枯宁如何分析其内部的民族矛盾与民族主义思潮。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "rhetorical",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "泛日耳曼主义与泛斯拉夫主义",
+        "explain": "19世纪欧洲的两种民族主义思潮。泛日耳曼主义主张联合所有德意志人建立强大国家；泛斯拉夫主义则主张斯拉夫民族联合对抗日耳曼势力。二者在奥匈帝国境内冲突激烈。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p62s1",
+        "speaker": "quoted_opponent",
+        "stance": "neutral_citation",
+        "notes": []
+      },
+      {
+        "sid": "p62s2",
+        "speaker": "quoted_opponent",
+        "stance": "neutral_citation",
+        "notes": []
+      },
+      {
+        "sid": "p62s3",
+        "speaker": "quoted_opponent",
+        "stance": "neutral_citation",
+        "notes": []
+      },
+      {
+        "sid": "p62s4",
+        "speaker": "quoted_opponent",
+        "stance": "neutral_citation",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 2,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_6>5",
+        "note:n1_overflow_concept_6>5",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

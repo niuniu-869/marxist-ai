@@ -1,0 +1,119 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 78,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁反驳“俄国人民尚未准备好实行公社”的论调，将其类比为农奴主反对农民自由，并论证公社作为政治形式的必要性。",
+    "importance_score": 2,
+    "importance_reason": "核心论辩段落，直接回应并驳斥了党内及国际社会主义运动中关于俄国革命条件的流行论调，为后续纲领奠定理论基础。",
+    "argument_role": "contrasts",
+    "argument_link": "承接上段对苏维埃与资产阶级议会制的对比，本段直接反驳了认为苏维埃（公社）在俄国不具备实施条件的反对意见。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "refute_quotation"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p78s3",
+        "quote": "凡是在经济现实中和在绝大多数人民的意识中还没有绝对成熟的改革，公社即工农代表苏维埃都没有“实施”，也不打算“实施”，而且也不应当实施。",
+        "trigger": "inverted_logic",
+        "reader_block": "三重否定（没有…也不打算…也不应当）与“绝对成熟”的条件叠加，读者容易误读为作者反对公社，实际是反驳论敌的逻辑前提。",
+        "parse": {
+          "claim": "对于那些在客观经济条件和群众主观意识上都尚未完全成熟的变革，苏维埃政权本身并不寻求、也不应该去强行推行。",
+          "qualifiers": "限定于“经济现实中”和“绝大多数人民的意识中”都“还没有绝对成熟”的改革。",
+          "contrast_or_target": "针对论敌认为“人民没有条件实施公社”的论点，指出公社本身并不追求在条件不成熟时强行实施。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "此句是反驳的核心逻辑：它并非承认公社条件不成熟，而是指出公社作为政治形式，其存在和运作并不依赖于所有改革都已“绝对成熟”这一前提，从而瓦解了论敌的论证基础。"
+        },
+        "implication": "公社（苏维埃）是一种适应危机、能主动组织和医治创伤的政治形式，其必要性恰恰在于条件不成熟时更需要它。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "认为俄国人民尚未准备好实行公社式政权的人",
+      "their_view": "俄国人民还没有条件“实施”公社，因为经济和意识条件不成熟。",
+      "author_response": "列宁将这种论调类比为农奴主反对农民自由，并指出公社作为政治形式的必要性不取决于主观准备程度，而在于应对危机的客观需要。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p78s1",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": [
+          {
+            "surface": "公社",
+            "type": "concept",
+            "modern": "列宁在此特指巴黎公社式的无产阶级政权形式，即工农代表苏维埃。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "commune_proletarian_model"
+          }
+        ]
+      },
+      {
+        "sid": "p78s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p78s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "公社",
+            "type": "concept",
+            "modern": "此处与“工农代表苏维埃”并列，强调其作为新型国家政权的实质。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "commune_proletarian_model"
+          }
+        ]
+      },
+      {
+        "sid": "p78s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p78s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 2,
+        "hs_kept": 1,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

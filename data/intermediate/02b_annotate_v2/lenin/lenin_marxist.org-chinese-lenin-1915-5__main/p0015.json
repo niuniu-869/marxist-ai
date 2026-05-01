@@ -1,0 +1,64 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 15,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁用反问句式，模拟并提出一种可能为第二国际背叛行为辩护的论点，为后续的批判做铺垫。",
+    "importance_score": 2,
+    "importance_reason": "本段是论证链中的一个环节，通过提出一个需要反驳的论点，引出对社会沙文主义辩解逻辑的批判。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段关于无人公开挑战巴塞尔决议正确性的论述，进一步提出一种可能的、为背叛行为开脱的辩解逻辑。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "社会沙文主义的辩解者",
+      "their_view": "战争并未像我们预想的那样引发革命，因此我们当初支持反战决议的前提已经失效，现在支持本国政府是合理的。",
+      "author_response": "列宁指出，这种说法是为背叛国际主义寻找借口，其核心是放弃革命立场，转而为本国资产阶级服务。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p15s1",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": [
+          {
+            "surface": "巴塞尔决议",
+            "type": "event",
+            "modern": "1911年第二国际在巴塞尔代表大会上通过的反战宣言，号召各国工人以革命手段反对帝国主义战争。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 20,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段通过梳理波兰历史上的土地纲领与沙皇政策，论证波兰农民受压迫的根源在于沙皇专制，而非波兰内部问题。",
+    "importance_score": 2,
+    "importance_reason": "作为对波兰问题历史分析的具体展开，为前段提出的“原则”提供史实支撑，并直接指向沙皇俄国这一核心压迫者。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于波兰运动原则的论述，具体阐述这些原则在土地问题上的体现，并揭示其被沙皇专制所阻碍的历史过程。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_density",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "克拉科夫自由市",
+        "explain": "1846年前，克拉科夫是受欧洲列强保护的自由城市，是波兰民族运动的重要中心。1846年起义失败后被奥地利吞并。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "1791年五三宪法",
+        "explain": "波兰-立陶宛联邦颁布的宪法，旨在改革国家体制，是欧洲最早的现代宪法之一，但很快因外国干涉而失效。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "1861年沙皇解放宣言",
+        "explain": "沙皇亚历山大二世颁布的农奴解放法令，名义上给予农奴人身自由，但农民需高价赎买份地，且土地所有权常归地主或国家。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "1863年波兰起义",
+        "explain": "波兰人反抗沙皇俄国统治的武装起义，遭到残酷镇压，导致沙皇政权在波兰推行更严厉的压迫和俄罗斯化政策。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "沙皇俄国",
+      "their_view": "沙皇通过1861年解放宣言，似乎解决了农民问题，确立了农民的平等权利，从而获得了欧洲的赞誉。",
+      "author_response": "恩格斯揭露该宣言是沙皇为掩盖其夺取波兰土地的图谋而使用的遮盖物，其统治建立在挑动地主与农民仇恨之上，是波兰农民持续受压迫的根源。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p20s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "1845年宣言",
+            "type": "event",
+            "modern": "波兰爱国者在克拉科夫制定的纲领性文件，主张民族权利与农民土地权。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          },
+          {
+            "surface": "克拉科夫",
+            "type": "place",
+            "modern": "当时仍为自由市的波兰城市，是民族运动中心。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          },
+          {
+            "surface": "1791年5月3日的宪法",
+            "type": "event",
+            "modern": "波兰历史上重要的改革宪法，试图解决包括土地在内的社会问题。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          },
+          {
+            "surface": "1863年波兰……起义",
+            "type": "event",
+            "modern": "波兰反抗沙皇统治的民族起义，遭到血腥镇压。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 4,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 28,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "作者讽刺门格尔将早期基督教教父对罗马社会的激烈谴责与现代社会主义文献相提并论，指出前者缺乏社会批评。",
+    "importance_score": 1,
+    "importance_reason": "作为对门格尔类比的讽刺性例证，支撑对门格尔方法论的批判。",
+    "argument_role": "continues",
+    "argument_link": "延续上段对门格尔忽视经济基础的批评，具体讽刺其将教父的道德谴责等同于社会主义社会批评的类比。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "早期基督教教父",
+        "explain": "指2-5世纪基督教神学家，常激烈谴责罗马社会道德堕落，但未从经济制度层面分析。门格尔引用他们以论证社会主义思想源流。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "门格尔",
+      "their_view": "早期基督教教父对罗马社会的批评可与现代最优秀的社会主义文献相媲美。",
+      "author_response": "教父的言辞虽激烈，但仅止于道德谴责，未触及社会经济结构，与社会主义的社会批判有本质区别。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p28s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p28s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "教父",
+            "type": "social_group",
+            "modern": "早期基督教神学家群体，活跃于罗马帝国晚期。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "无政府主义者",
+            "type": "social_group",
+            "modern": "主张废除一切国家权威的革命派别，19世纪欧洲工人运动中的一支。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p28s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

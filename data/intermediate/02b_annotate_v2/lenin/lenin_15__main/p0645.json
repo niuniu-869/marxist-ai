@@ -1,0 +1,84 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 645,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "基于前文对帝国主义经济实质的分析，得出其历史地位的结论，并引用资产阶级经济学家的描述来揭露其自相矛盾。",
+    "importance_score": 3,
+    "importance_reason": "本段是全书论证的最终结论，明确帝国主义的历史地位，并以此反驳否认其过渡性质的论调。",
+    "argument_role": "conclusion",
+    "argument_link": "承接上一段关于帝国主义与机会主义内在联系的论证，将分析提升到对资本主义整体历史阶段的定性。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p645s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "帝国主义",
+            "type": "concept",
+            "modern": "列宁在本书中定义的资本主义特定历史阶段，其经济实质是垄断。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "imperialism_marxist_theory"
+          }
+        ]
+      },
+      {
+        "sid": "p645s2",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p645s3",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p645s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 10,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁分析了苏维埃内部的第一个派别，即信任克伦斯基的社会爱国主义者派别，并揭露其虚伪性。",
+    "importance_score": 2,
+    "importance_reason": "本段具体剖析了苏维埃内部一个关键派别的特征与阶级实质，是理解革命后政治力量分化的重要支撑。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于苏维埃作为民众组织的论述，开始具体分析其内部存在的不同政治派别。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "allusion",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "term_polysemy",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "路易·勃朗主义",
+        "explain": "指法国1848年革命时期社会主义者路易·勃朗的主张。他主张阶级合作，支持资产阶级临时政府，用空洞的社会改革口号安抚工人，实质上维护资产阶级统治。列宁用此词批判克伦斯基派的妥协性。",
+        "why_needed": "allusion",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "克伦斯基、社会爱国主义者、考茨基之流的社会和平主义者",
+      "their_view": "信任临时政府，用共和国、八小时工作制、自由等空洞诺言安抚工人，劝导工人“容忍”帝国主义战争继续进行。",
+      "author_response": "列宁指出这是资产阶级通过其代理人进行的虚伪交易，目的是让工人支持帝国主义掠夺战争，实质上是“路易·勃朗主义”的体现。",
+      "polemic_kind": "reveals_class_basis",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p10s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p10s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p10s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p10s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p10s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

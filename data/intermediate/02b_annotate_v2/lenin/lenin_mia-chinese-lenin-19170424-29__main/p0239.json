@@ -1,0 +1,105 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 239,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁反驳对布尔什维克战争观点的歪曲，批评那种认为单方面拒绝作战就能结束战争的无政府主义或和平主义幻想。",
+    "importance_score": 2,
+    "importance_reason": "本段是列宁批判革命护国主义及和平幻想的关键环节，为后续阐述正确的反战立场做铺垫。",
+    "argument_role": "contrasts",
+    "argument_link": "承接上段对战争结束条件的讨论，具体批判那种认为单方面停止作战就能结束战争的天真想法。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "term_density",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "革命护国主义",
+        "explain": "二月革命后流行的一种思潮，认为保卫革命成果的战争具有正义性，因此应继续支持战争。列宁在此批判其单方面停止作战的幻想。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "革命护国主义者",
+      "their_view": "我们士兵单方面把刺刀插在地上停止作战，就能结束这场战争。",
+      "author_response": "列宁指出这不是真正的反驳，而是无政府主义的幻想，因为它没有触及战争的根源——资产阶级的统治。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p239s1",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p239s2",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p239s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p239s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p239s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p239s6",
+        "speaker": "unknown",
+        "stance": "neutral_citation",
+        "notes": []
+      },
+      {
+        "sid": "p239s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p239s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

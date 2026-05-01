@@ -1,0 +1,129 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 166,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "巴枯宁转述并批判拉萨尔与马克思的纲领，指控二者在通过国家权力实现社会主义的路径上本质相同，并讽刺马克思对思想所有权的抗议。",
+    "importance_score": 2,
+    "importance_reason": "本段是巴枯宁对马克思-拉萨尔纲领同质性指控的核心论据，展示了其无政府主义批判的具体靶点。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段关于拉萨尔组织方式的指控，本段进一步论证其纲领内容与马克思纲领的同一性，为巴枯宁的无政府主义批判提供具体靶子。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "拉萨尔与舒尔采-德里奇论战",
+        "explain": "拉萨尔是19世纪德国工人运动领袖，主张通过国家援助建立生产合作社。舒尔采-德里奇是资产阶级经济学家，主张通过信贷帮助工人成为独立手工业者。拉萨尔曾撰文反驳他。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "《共产党宣言》与《国际协会宣言》",
+        "explain": "前者是马克思恩格斯1848年阐述共产主义原理的纲领性文件，提出无产阶级革命第一步是上升为统治阶级。后者是马克思1864年为第一国际起草的成立宣言。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p166s2",
+        "quote": "马克思在理论方面，在进行幕后的或地下的阴谋活动方面都是能手，相反地，在公开的场合却失去任何意义和力量。",
+        "trigger": "inverted_logic",
+        "reader_block": "对比与贬损。将马克思描绘为擅长幕后操纵但公开斗争无能的形象，与下文对拉萨尔的赞扬形成鲜明对比，读者需识别其论战意图。",
+        "parse": {
+          "claim": "巴枯宁将马克思刻画为一个精于理论构建和秘密组织活动，但在公开政治斗争中缺乏影响力的人物。",
+          "qualifiers": "这是巴枯宁基于其个人观察和派系斗争经验作出的评价。",
+          "contrast_or_target": "与下文对拉萨尔“天生就是要在实际方面进行公开斗争”的赞扬形成对比。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "本句通过贬低马克思的公开斗争能力，抬高拉萨尔的实践品格，旨在瓦解马克思在工人运动中的权威形象，服务于巴枯宁派与马克思派的斗争。"
+        },
+        "implication": "巴枯宁试图塑造一种叙事：马克思的路线依赖于理论垄断和组织控制，而非真正的群众运动。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "马克思与拉萨尔",
+      "their_view": "拉萨尔认为，人民国家应通过向工人合作社提供贷款来战胜资本，最终实现社会改造。马克思在《共产党宣言》等文献中也主张通过国家集中生产资料来实现无产阶级的统治。二者纲领本质相同。",
+      "author_response": "巴枯宁指出，马克思与拉萨尔的纲领在通过国家权力实现社会主义这一点上毫无区别，这恰恰证明了他们所主张的“人民国家”仍是自上而下的管理，与无政府主义的自由联合原则相悖。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p166s1",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": [
+          {
+            "surface": "生产协作社",
+            "type": "program_clause",
+            "modern": "拉萨尔纲领中设想的、由国家贷款支持的工人集体生产组织。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          },
+          {
+            "surface": "消费协作社",
+            "type": "program_clause",
+            "modern": "拉萨尔纲领中设想的、由国家贷款支持的工人集体消费组织。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          },
+          {
+            "surface": "共产党宣言",
+            "type": "work",
+            "modern": "马克思恩格斯1848年发表的纲领性文献，阐述了科学社会主义基本原理。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "国际协会宣言",
+            "type": "work",
+            "modern": "马克思1864年为第一国际（国际工人协会）起草的成立宣言。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p166s2",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 4,
+        "notes_dropped": 1,
+        "hs_kept": 1,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_6>5",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

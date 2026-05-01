@@ -1,0 +1,123 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 15,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁用俄国工人运动早期历史事实，直接驳斥《信条》作者关于工人阶级未提出政治任务的论断，并批判其纲领的实质。",
+    "importance_score": 3,
+    "importance_reason": "本段是列宁对经济主义核心错误观点的正面历史反驳，是全文论证的关键事实支撑。",
+    "argument_role": "contrasts",
+    "argument_link": "承接上段对《信条》作者错误观点的理论批判，本段转而用具体历史证据，直接证伪其“工人阶级尚未提出政治任务”的前提。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "早期俄国工人协会",
+        "explain": "19世纪70年代，在马克思主义系统传入前，俄国已出现如“北方工人协会”和“南俄工人协会”等早期工人组织。它们在纲领中明确要求政治自由，证明工人阶级的政治诉求早于社会民主党。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "《信条》作者（经济主义/青年派）",
+      "their_view": "俄国工人阶级尚未提出政治任务，独立工人政党的主张是脱离国情的外来产物，工人运动应专注于经济斗争，让自由派去争取政治形式。",
+      "author_response": "列宁指出这种观点暴露了对俄国革命运动的无知，历史事实早已证明工人阶级提出过政治要求；其纲领实质是让工人阶级放弃政治领导权，等于政治自杀。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p15s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p15s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "俄国北方工人协会",
+            "type": "event",
+            "modern": "1878年成立于彼得堡的早期工人组织，其纲领包含政治自由要求。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "南俄工人协会",
+            "type": "event",
+            "modern": "1875年成立于敖德萨的早期工人组织，同样在纲领中提出政治诉求。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p15s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p15s4",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p15s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p15s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p15s7",
+        "speaker": "unknown",
+        "stance": "neutral_citation",
+        "notes": []
+      },
+      {
+        "sid": "p15s8",
+        "speaker": "unknown",
+        "stance": "neutral_citation",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 2,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_6>5",
+        "note:n1_overflow_metaphor_9>8"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 12,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁提出无产阶级政党支持立宪派运动的首要任务是动员落后群众，并批判党内机会主义者对斗争形式的错误评估。",
+    "importance_score": 2,
+    "importance_reason": "本段承接上文对形势的分析，具体阐述无产阶级在革命前夕的策略重心，是核心论点的实践展开。",
+    "argument_role": "continues",
+    "argument_link": "上一段分析了专制制度危机和无产阶级利用立宪运动的必要性，本段则具体回答“如何利用”，提出工作重心应转向组织群众和准备直接斗争。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "罗斯托夫与南方群众示威",
+        "explain": "指1902年罗斯托夫罢工及1903年南俄总罢工，是沙俄时期大规模工人政治示威的先例，被列宁视为真正的群众斗争形式。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "地方自治会议",
+        "explain": "沙俄1905年革命前由地方贵族和资产阶级组成的咨询机构，自由派在此活动，列宁视其为非无产阶级的斗争舞台。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "机会主义者",
+      "their_view": "工人在地方自治会议等场合的个别演说，就是一种特别积极的斗争，是新的斗争方式或高级形式的示威。",
+      "author_response": "这种看法是机会主义的表现，它混淆了斗争的主次，将从属性的活动误判为核心任务，从而忽视了组织群众进行直接公开斗争的真正重要性。",
+      "polemic_kind": "strategic_critique",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p12s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p12s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p12s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p12s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p12s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p12s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p12s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

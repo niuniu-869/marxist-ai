@@ -1,0 +1,81 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 97,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "批判拉萨尔派强行塞入格言的做法，并讽刺其与俾斯麦利益相符。",
+    "importance_score": 1,
+    "importance_reason": "对具体论战手法的讽刺性评论，属于批判中的细节攻击。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段对拉萨尔曲解《共产党宣言》的指控，进一步揭露其在纲领草案中强行塞入无关格言的无耻做法。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "allusion",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "柏林的马拉",
+        "explain": "指法国大革命时期的激进派领袖让-保罗·马拉，以主张暴力和激进著称。马克思用此绰号讽刺拉萨尔派在柏林的类似激进姿态。",
+        "why_needed": "allusion",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p97s2",
+        "quote": "这纯粹是一种狂妄无耻的做法，这种做法当然绝对不是俾斯麦先生所不喜欢的，这是柏林的马拉[17]所干出来的廉价的无耻行径之一。",
+        "trigger": "inverted_logic",
+        "reader_block": "反讽句式“绝对不是……所不喜欢的”实际是肯定，读者可能误读为否定。同时“柏林的马拉”是历史典故，不知马拉是谁就无法理解讽刺对象。",
+        "parse": {
+          "claim": "拉萨尔派这种强行塞入格言的做法，实际上符合俾斯麦的利益，是柏林的激进分子（指拉萨尔派）干出的无耻勾当。",
+          "qualifiers": "无。",
+          "contrast_or_target": "拉萨尔派自诩为工人阶级的代表，其行为却与反动的俾斯麦政府利益一致。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "通过反讽和历史类比，揭露拉萨尔派行为的虚伪性和反动性，将其与俾斯麦政府联系起来，强化批判力度。"
+        },
+        "implication": "暗示拉萨尔派的政治路线与俾斯麦的统治策略存在某种契合，背叛了工人阶级的根本利益。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "拉萨尔派",
+      "their_view": "在纲领草案中强行塞入与国际章程引语无关的格言，以掩盖其政治意图。",
+      "author_response": "这种做法是狂妄无耻的行径，且客观上符合俾斯麦政府的利益，是柏林激进分子（指拉萨尔派）的廉价表演。",
+      "polemic_kind": "reveals_class_basis",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p97s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p97s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "柏林的马拉",
+            "type": "person",
+            "modern": "马克思对拉萨尔派激进分子的讽刺性称呼，借用法国大革命激进领袖马拉之名。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  }
+}

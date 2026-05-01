@@ -1,0 +1,116 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 11,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁指出罗莎·卢森堡知晓考茨基关于民族国家的论述，却选择性地引用其观点来支持自己的论点，同时补充了考茨基关于多民族国家“不合常态”的结论。",
+    "importance_score": 2,
+    "importance_reason": "通过引用论敌（罗莎·卢森堡）自己也认可的权威（考茨基）的论述，来揭露其论证的片面性，为后续反驳其观点做铺垫。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对罗莎·卢森堡回避民族国家经济根源的批评，本段具体展示她如何引用考茨基的论述，同时指出她忽略了考茨基的另一面结论。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "卡尔·考茨基",
+        "explain": "第二国际时期的重要理论家，被视为马克思主义正统阐释者之一。列宁在此引用他，是为了用罗莎·卢森堡也认可的权威来反驳她。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "奥托·鲍威尔",
+        "explain": "奥地利马克思主义者，提出“民族文化自治”纲领，主张在多民族国家内按民族划分文化区域，以此替代政治上的民族自决。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p11s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "考茨基",
+            "type": "person",
+            "modern": "卡尔·考茨基，第二国际理论家，其观点在当时社会民主党内部具有权威性。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p11s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "奥托·鲍威尔",
+            "type": "person",
+            "modern": "奥地利马克思主义者，提出“民族文化自治”纲领，是列宁在民族问题上的论敌之一。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p11s3",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p11s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p11s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 2,
+        "hs_kept": 0,
+        "hs_dropped": 2,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix",
+        "hs:claim_5gram_with_quote",
+        "hs:claim_5gram_with_quote",
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

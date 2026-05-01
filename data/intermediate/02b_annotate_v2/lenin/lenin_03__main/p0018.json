@@ -1,0 +1,99 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 18,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁将讨论从个别革命家转向民族国家层面的革命，强调国际革命的必要性，并反驳认为布尔什维克主张单靠简单行动就能结束战争的指责。",
+    "importance_score": 2,
+    "importance_reason": "本段是论证链条中的支撑环节，用于澄清布尔什维克关于革命胜利条件和战争结束方式的立场，反驳论敌的歪曲。",
+    "argument_role": "continues",
+    "argument_link": "本段延续上段从个别到整体的论证思路，将对革命政策的辩护从历史联系层面，推进到对革命胜利条件和战争性质的具体澄清。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "托尔斯泰主义者",
+        "explain": "指追随列夫·托尔斯泰思想的人，他们主张非暴力抵抗，反对一切暴力革命。在列宁的语境中，特指那些幻想不通过武装斗争就能结束战争的和平主义者。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "托尔斯泰主义者",
+      "their_view": "他们认为不通过武装斗争，仅凭单方面宣布和平或放下武器就能结束战争。",
+      "author_response": "列宁认为这种想法是脱离现实的幻想，与革命实践无关，布尔什维克从未持有这种简单化的主张。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p18s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p18s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p18s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p18s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p18s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p18s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p18s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

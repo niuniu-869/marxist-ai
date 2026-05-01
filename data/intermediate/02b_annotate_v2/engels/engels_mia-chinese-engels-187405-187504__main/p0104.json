@@ -1,0 +1,126 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 104,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "恩格斯反驳特卡乔夫的指责，指出其行为客观上为俄国政府效劳，并揭露其论辩手法的实质。",
+    "importance_score": 3,
+    "importance_reason": "核心论辩段落，直接回应论敌指控并反转其逻辑，是理解恩格斯对特卡乔夫批判的关键。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段对特卡乔夫“讽刺”指责的回应，进一步深入驳斥其核心指控，并揭示其行为的实际后果。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "巴枯宁主义者",
+        "explain": "指追随俄国无政府主义者巴枯宁思想的人。他们主张通过少数人的密谋和暴动立即摧毁一切国家，包括无产阶级专政，并认为国际工人协会应服从其秘密组织。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p104s4",
+        "quote": "这些真正的革命者先生们，对我们总是为所欲为，尤其是当他们可以偷偷地干的时候是这样，但是，你若试图不用最尊敬的口吻来谈论他们，试图揭露他们的阴谋诡计，批评他们和他们的空话，——你就是为沙皇效劳和破坏国际的基本原则。事情恰恰相反。",
+        "trigger": "inverted_logic",
+        "reader_block": "长句中嵌套了“但是”转折和破折号后的指控，最后以“事情恰恰相反”收尾，读者不易理清恩格斯是在复述对方逻辑还是在反驳。",
+        "parse": {
+          "claim": "特卡乔夫等人行事不透明，却指责批评者是在为沙皇服务并违背国际原则。",
+          "qualifiers": "当他们可以偷偷地干的时候，他们尤其如此。",
+          "contrast_or_target": "特卡乔夫认为，任何对其纲领和行为的批评，都等同于为俄国沙皇政府效劳，并违背了国际工人协会的基本原则。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "本句复述了特卡乔夫对恩格斯的指控逻辑，即批评他们就等于为沙皇服务。最后的“事情恰恰相反”是恩格斯对此逻辑的直接否定，为下文的反转论证做铺垫。"
+        },
+        "implication": "恩格斯即将论证，真正为沙皇效劳的恰恰是特卡乔夫自己，而非批评者。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "特卡乔夫",
+      "their_view": "任何不以最尊敬的口吻谈论我们、揭露我们阴谋诡计和批评我们空话的人，就是在为沙皇效劳，并破坏国际工人协会的基本原则。",
+      "author_response": "事情恰恰相反。特卡乔夫的小册子在客观上会损害革命者名誉并诱骗青年自投罗网，这恰恰是在为俄国政府效劳。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p104s1",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p104s2",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p104s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p104s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p104s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p104s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p104s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p104s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 2,
+        "hs_kept": 1,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "note:n1_overflow_concept_6>5",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

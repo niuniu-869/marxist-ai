@@ -1,0 +1,104 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 53,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "马克思以反讽手法，逐条拆解“莱茵观察家”报纸提出的“基督教共产主义”方案，揭露其用空洞说教和虚假数字掩盖无产阶级真实困境的荒谬性。",
+    "importance_score": 2,
+    "importance_reason": "作为核心论战段落，通过具体例证（所得税与基督教教义）集中火力批判论敌将共产主义庸俗化、无害化的企图。",
+    "argument_role": "example",
+    "argument_link": "承接上段对所得税方案的讽刺，本段进一步引入并批判论敌提出的第二个“共产主义”方案——基于基督教教义的空想。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "refute_quotation"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p53s2",
+        "quote": "极端重要的问题永远解决了。",
+        "trigger": "inverted_logic",
+        "reader_block": "这是一个高度浓缩的反讽句，读者若不结合上下文，会以为是陈述事实，而非表达“问题远未解决”的否定。",
+        "parse": {
+          "claim": "作者在说：按照论敌的逻辑，社会最根本的矛盾（如贫困）已经被一句宗教口号彻底解决了。",
+          "qualifiers": "此结论是基于论敌将基督教教义视为社会解决方案这一前提推导出的荒谬结果。",
+          "contrast_or_target": "论敌宣称其方案能解决社会问题。"
+        },
+        "why": {
+          "relation": "continues",
+          "explanation": "紧接上句的引用，用一句简短的反语总结论敌方案的“功效”，强化讽刺效果。"
+        },
+        "implication": "通过将论敌的逻辑推向极端（“永远解决”），暴露其方案的空洞性和虚假性。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "莱茵观察家",
+      "their_view": "基督教关于原罪与赎罪的教义，本身就构成了人与人之间最紧密的团结与联系，是解决社会问题的根本方案。",
+      "author_response": "马克思指出，这种方案提供的只是“想象中的余额”和“天上的地产”，对于失去生活基础的无产阶级而言，这些空洞说教的实际价值等于零，无法减轻任何真实的饥饿。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p53s1",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p53s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p53s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p53s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p53s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p53s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 1,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

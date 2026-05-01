@@ -1,0 +1,121 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 75,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "批判汉泽曼内阁的自我定位，并揭露普鲁士庸人政治立场的虚伪性。",
+    "importance_score": 2,
+    "importance_reason": "具体例证，展示普鲁士资产阶级在革命中的矛盾立场与自我欺骗。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对普鲁士资产阶级背叛革命的批判，进一步以汉泽曼内阁为例，具体剖析其行为与自我认知的矛盾。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "六月革命",
+        "explain": "指1848年6月巴黎无产阶级起义被资产阶级政府血腥镇压的事件。汉泽曼内阁自比此内阁，暗示其反革命立场。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "红色强盗",
+        "explain": "当时对革命者、社会主义者的污蔑性称呼。马克思在此使用此词，是为了引出下文对其帽徽颜色的讽刺。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p75s2",
+        "quote": "在普鲁士的每一个城市里，庸人们为了对抗“红色强盗”，都把自己装扮成“正直的共和党人”，——然而，他们仍然是真诚的保皇党人，并且没有注意到，他们的所谓“红色强盗”却带着黑白色[112]的帽徽。",
+        "trigger": "inverted_logic",
+        "reader_block": "反讽与隐喻结合：庸人自认对抗革命者（红色强盗），但革命者帽徽却是王室颜色（黑白色），揭示庸人实际支持保皇势力。",
+        "parse": {
+          "claim": "普鲁士的庸人自以为在对抗革命者，但革命者佩戴的却是象征普鲁士王室的黑白色帽徽，这表明庸人实际支持的是保皇势力。",
+          "qualifiers": "在普鲁士的每一个城市里，针对所谓“红色强盗”的行动中。",
+          "contrast_or_target": "庸人自认为是“正直的共和党人”，对抗革命者。"
+        },
+        "why": {
+          "relation": "example",
+          "explanation": "用一个具体场景（庸人对抗“红色强盗”）来例证上句汉泽曼内阁的自我定位，揭示整个普鲁士资产阶级在革命中的虚伪立场。"
+        },
+        "implication": "庸人对革命者的敌视，本质上是维护旧秩序，与他们自诩的共和立场相悖。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p75s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "六月革命",
+            "type": "event",
+            "modern": "1848年6月巴黎无产阶级起义被资产阶级政府镇压的事件，此处汉泽曼内阁以此自比。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p75s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "红色强盗",
+            "type": "metaphor",
+            "modern": "当时对革命者、社会主义者的污蔑性称呼，马克思在此引用以进行反讽。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          },
+          {
+            "surface": "黑白色帽徽",
+            "type": "metaphor",
+            "modern": "象征普鲁士王室的颜色，此处用以讽刺庸人所对抗的“强盗”实则代表王权。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 3,
+        "notes_dropped": 0,
+        "hs_kept": 1,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

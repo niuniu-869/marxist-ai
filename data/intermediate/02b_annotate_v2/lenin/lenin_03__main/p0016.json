@@ -1,0 +1,269 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 16,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁正面承认布尔什维克进行了暴力革命，但强调其目的是终结帝国主义战争，并用协约国武装干涉的具体事实，反驳其领导人关于放弃干涉的保证。",
+    "importance_score": 2,
+    "importance_reason": "本段提供了支撑核心论点的关键事实证据，将革命的正当性与协约国干涉的虚伪性直接对立。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段对反对派责难的描述，本段正面回应：承认暴力革命事实，但强调其目的是结束战争，并用协约国武装干涉的谎言来反驳“布尔什维克背弃和平”的指控。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p16s10",
+        "quote": "难道在这里参加战斗的不是英国的舰队吗？",
+        "trigger": "inverted_logic",
+        "reader_block": "反问句式，读者可能忽略其指向具体国家的指控，需要明确其陈述英国直接参战的事实。",
+        "parse": {
+          "claim": "列宁指出，英国舰队直接参与了对俄作战。",
+          "qualifiers": "特指在黑海、彼得格勒等方向发生的战斗。",
+          "contrast_or_target": ""
+        },
+        "why": {
+          "relation": "example",
+          "explanation": "本句用英国舰队参战这一具体实例，支撑“整个文明世界都在反对俄国”的论断，使指控更具象。"
+        },
+        "implication": "武装干涉并非抽象概念，而是由具体国家的军事力量执行。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "协约国领导人（劳合·乔治、威尔逊、克列孟梭）",
+      "their_view": "他们保证放弃武装干涉，声称不会干涉俄国内政。",
+      "author_response": "列宁指出这些保证是谎言，并用黑海封锁、轰击克里木、彼得格勒海战等军事行动事实，证明干涉正在进行。",
+      "polemic_kind": "counter_quotation",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p16s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "资产阶级民主",
+            "type": "concept",
+            "modern": "列宁在此指代以普选、议会等形式为特征的资本主义政治制度及其意识形态承诺。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "democracy_bourgeois"
+          }
+        ]
+      },
+      {
+        "sid": "p16s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p16s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p16s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "帝国主义",
+            "type": "concept",
+            "modern": "列宁特指19世纪末20世纪初资本主义发展到的垄断阶段，其特征是列强争夺殖民地和势力范围，导致世界大战。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "imperialism_leninist"
+          }
+        ]
+      },
+      {
+        "sid": "p16s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "协约国",
+            "type": "org",
+            "modern": "第一次世界大战中与同盟国作战的国家集团，主要由英、法、俄（后为苏俄的敌对者）组成。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p16s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "劳合－乔治",
+            "type": "person",
+            "modern": "时任英国首相。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "威尔逊",
+            "type": "person",
+            "modern": "时任美国总统。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "克列孟梭",
+            "type": "person",
+            "modern": "时任法国总理。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p16s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "黑海",
+            "type": "place",
+            "modern": "位于欧洲东南部与亚洲之间的内海，是当时军事行动的重要区域。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "克里木半岛",
+            "type": "place",
+            "modern": "黑海北岸的战略要地。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "刻赤",
+            "type": "place",
+            "modern": "克里木半岛东端的港口城市。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p16s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "亚速海",
+            "type": "place",
+            "modern": "黑海东北部的内海，通过刻赤海峡与黑海相连。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "邓尼金",
+            "type": "person",
+            "modern": "白卫军主要将领之一，当时在协约国支持下于南俄作战。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "彼得格勒",
+            "type": "place",
+            "modern": "苏俄首都，今圣彼得堡。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "雷击舰",
+            "type": "archaic",
+            "modern": "20世纪初的一种小型快速战舰，以鱼雷为主要武器。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p16s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p16s10",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p16s11",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "阿尔汉格尔斯克",
+            "type": "place",
+            "modern": "俄罗斯北部重要港口，当时被协约国军队占领。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "西伯利亚",
+            "type": "place",
+            "modern": "俄罗斯亚洲部分，当时有协约国支持的干涉军和白卫军活动。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p16s12",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 15,
+        "notes_dropped": 0,
+        "hs_kept": 1,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

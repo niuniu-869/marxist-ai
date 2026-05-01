@@ -1,0 +1,88 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 3,
+  "annotation": {
+    "block_type": "quote_block",
+    "gist": "本段通过对比奴隶贸易与鸦片贸易，以道德谴责的口吻批判英国主导的鸦片贸易对人的精神与肉体的双重摧残。",
+    "importance_score": 2,
+    "importance_reason": "本段是作者对鸦片贸易进行道德定性的核心论断，为后文揭露其经济与政治动因奠定情感与伦理基础。",
+    "argument_role": "continues",
+    "argument_link": "承接上文对贸易扩张狂想的质疑，转而从道德层面直接控诉鸦片贸易本身的罪恶，为后续分析提供价值判断前提。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "allusion",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic | allusion",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "摩洛赫典故",
+        "explain": "摩洛赫是古代迦南地区崇拜的火神，其祭祀仪式常以活人（尤其是儿童）为祭品。马克思在此用此典故，将鸦片贸易比作一场持续吞噬生命的残酷献祭。",
+        "why_needed": "allusion",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "英国政府",
+      "their_view": "英国政府标榜其对华贸易是“自由贸易”和“文明传播”，并将自身与直接的暴力掠夺（如奴隶贸易）区分开来，暗示其行为的正当性。",
+      "author_response": "马克思通过对比指出，鸦片贸易在精神与肉体上对人的双重毁灭，使其在道德上比奴隶贸易更为恶劣，从而揭露英国“文明”外衣下的野蛮实质。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p3s1",
+        "speaker": "quoted_marx",
+        "stance": "endorsed",
+        "notes": [
+          {
+            "surface": "奴隶贸易",
+            "type": "metaphor",
+            "modern": "马克思在此作为对比项，用以反衬鸦片贸易在道德上的极端残酷性。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          },
+          {
+            "surface": "摩洛赫",
+            "type": "allusion",
+            "modern": "古代迦南火神，祭祀以活人为祭品。作者用此典故将鸦片贸易比喻为一场吞噬生命的残酷献祭。",
+            "highlight": "allusion",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "英国杀人者和中国自杀者",
+            "type": "polemic_ref",
+            "modern": "作者对鸦片贸易中双方角色的定性：英国是主动的施害者，中国受害者则因鸦片而自我毁灭。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 3,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

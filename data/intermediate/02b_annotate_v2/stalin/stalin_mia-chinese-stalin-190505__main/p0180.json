@@ -1,0 +1,74 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 180,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "作者用反讽和比喻，揭露孟什维克指责布尔什维克“知识分子动摇性”的虚伪性。",
+    "importance_score": 2,
+    "importance_reason": "这是对孟什维克指责的直接反驳，用比喻揭露其虚伪性，支撑了文章的核心论点。",
+    "argument_role": "contrasts",
+    "argument_link": "承接上段“全部问题就在这里”的论断，具体展开问题所在：即孟什维克对布尔什维克的指责本身是虚伪的。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic, allusion",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p180s1",
+        "quote": "诚然，我们那些可怜的马克思主义者常常叫喊说他们反对“知识分子的心理”，并且他们还企图责备“多数派”有“知识分子的动摇性”，但这很象一个贼偷了别人的钱，却大声叫喊：“捉贼呀！”",
+        "trigger": "inverted_logic, allusion",
+        "reader_block": "读者可能不理解“可怜的马克思主义者”的讽刺意味，以及“贼喊捉贼”这个比喻如何具体揭露论敌的虚伪。",
+        "parse": {
+          "claim": "孟什维克指责布尔什维克具有知识分子动摇性，但这种指责本身是虚伪的，因为他们自己才是具有知识分子心理的一方。",
+          "qualifiers": "",
+          "contrast_or_target": "孟什维克指责布尔什维克（“多数派”）有“知识分子的动摇性”，而他们自己则反对“知识分子的心理”。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "用“贼喊捉贼”的比喻，反驳孟什维克对布尔什维克的指责，揭露其立场的自相矛盾和虚伪性。"
+        },
+        "implication": "作者认为孟什维克的指责是转移视线，其自身行为与宣称的原则相悖。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p180s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 1,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

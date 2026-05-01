@@ -1,0 +1,145 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 216,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "马克思摘录并评论巴枯宁对德国工人在普法战争中表现的描述，批评其缺乏国际主义行动，仅有零星抗议。",
+    "importance_score": 2,
+    "importance_reason": "作为对巴枯宁批评的回应，通过具体事例展示德国工人运动的局限性，支撑马克思对无政府主义策略的批判。",
+    "argument_role": "example",
+    "argument_link": "承接上段关于德国胜利有害后果的论断，具体展示这种后果在工人阶级中的体现。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "《人民国家报》",
+        "explain": "巴枯宁派在瑞士发行的德文报纸，是无政府主义者的宣传阵地。马克思在此引用该报，意在指出其读者（德国工人）的矛盾处境。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "雅科比、李卜克内西、倍倍尔",
+        "explain": "三位德国社会民主党内的左派人物。雅科比是哲学家，李卜克内西和倍倍尔是党的创始人。他们在议会投票反对战争拨款，是当时罕见的反战声音。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p216s4",
+        "quote": "《而德国工人呢？德国工人什么也没有做，连一个声援和同情法国工人的有力声明都没有发表。只举行过几次群众大会，会上讲了几句话，在讲话中胜利的民族自豪感在国际团结的声明面前似乎有所收敛。但除了讲空话以外，谁也没有再前进一步，而在完全没有驻军的德国，当时本来是能够开始并且做出一些事情来的。诚然，大多数工人都被征召入伍了，在军队中他们出色地履行了士兵的义务，按照长官的命令大肆屠杀等等，甚至还进行掠夺。他们当中的某些人在这样履行士兵义务的同时，还给“人民国家报”写了许多悲惨的信件，生动地描写了德军在法国干下的野蛮罪行。》",
+        "trigger": "long_nested",
+        "reader_block": "长句嵌套多个转折和让步，先批评工人无行动，再解释其被征召入伍的客观原因，最后指出其主观矛盾（写信揭露罪行），逻辑层次多，易混淆。",
+        "parse": {
+          "claim": "德国工人阶级整体上未能采取有效的国际主义行动来反对本国政府的侵略战争。",
+          "qualifiers": "在德国本土没有驻军、工人被普遍征召入伍的客观条件下。",
+          "contrast_or_target": "巴枯宁认为德国社会民主党是民族主义和国家主义的，马克思则通过描述工人的实际表现（而非其理论主张）来回应这一指责。"
+        },
+        "why": {
+          "relation": "example",
+          "explanation": "本句是马克思摘录巴枯宁的描述，用以具体说明上段所论“德国胜利的有害后果”如何体现在工人阶级身上，即国际主义原则在民族主义狂热前的失效。"
+        },
+        "implication": "这揭示了民族国家框架对无产阶级国际团结的压制力，即便在理论上认同国际主义的工人，其行动也受制于国家机器和战争动员。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "巴枯宁及其无政府主义",
+      "their_view": "巴枯宁指责德国社会民主党是民族主义和国家主义的，认为其“人民国家”主张本质上是新的国家压迫。",
+      "author_response": "马克思通过展示德国工人在战争中的实际表现——缺乏国际行动、服从国家征召、甚至参与暴行——来回应，指出问题不在于党的理论口号，而在于工人阶级在民族国家体制下的真实处境与行动能力。",
+      "polemic_kind": "reveals_class_basis",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p216s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p216s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p216s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p216s4",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": [
+          {
+            "surface": "人民国家报",
+            "type": "work",
+            "modern": "巴枯宁派在瑞士苏黎世出版的德文周报，是无政府主义国际的重要宣传刊物。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p216s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "雅科比",
+            "type": "person",
+            "modern": "弗里德里希·雅科比，德国哲学家，晚年参与社会民主运动。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "倍倍尔",
+            "type": "person",
+            "modern": "奥古斯特·倍倍尔，德国社会民主党主要领导人，与李卜克内西共同领导反战投票。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p216s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 3,
+        "notes_dropped": 1,
+        "hs_kept": 1,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_5gram_with_surface"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 64,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁建议将党更名为共产党，并论证其必要性，因为原名“社会民主党”已被大多数背叛社会主义的领袖所玷污。",
+    "importance_score": 3,
+    "importance_reason": "核心论点：提出改变党的名称这一具体政治行动，是《四月提纲》中“丢掉脏衬衫”、与旧国际决裂的象征性步骤。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于修改党纲的论述，将策略结论具体化为改变党的名称这一行动，以与背叛社会主义的旧国际划清界限。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "李卜克内西",
+        "explain": "卡尔·李卜克内西，德国社会民主党左翼领袖，一战中坚持国际主义，反对战争拨款，是列宁眼中唯一未背叛的社民党人。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "谢德曼、普列汉诺夫、盖得",
+        "explain": "谢德曼（德国社民党领袖，支持战争）、普列汉诺夫（俄国孟什维克，支持临时政府）、盖得（法国社民党领袖，支持“保卫祖国”），是列宁眼中背叛社会主义、转向本国政府的社会民主党领袖代表。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "社会民主党背叛社会主义",
+        "explain": "指一战爆发后，欧洲多数社会民主党（第二国际成员党）放弃国际主义原则，转而支持本国政府参战，列宁视之为对社会主义事业的彻底背叛。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p64s6",
+        "quote": "全世界大部分社会民主党人已经背叛社会主义，转到本国政府方面去了（如谢德曼、普列汉诺夫、盖得）。",
+        "trigger": "inverted_logic",
+        "reader_block": "“转到本国政府方面”是委婉说法，读者需理解其具体含义是支持本国资产阶级政府进行帝国主义战争。",
+        "parse": {
+          "claim": "国际社会主义运动的主流（以谢德曼等人为代表）已放弃国际主义，转而支持本国统治阶级的战争政策。",
+          "qualifiers": "范围是“全世界大部分”，即第二国际的多数成员党。",
+          "contrast_or_target": "与国际主义原则和无产阶级的阶级立场形成对比。"
+        },
+        "why": {
+          "relation": "example",
+          "explanation": "为上一句“背叛社会主义”提供具体例证，说明背叛的实质是与本国资产阶级政府合作，而非与国际无产阶级团结。"
+        },
+        "implication": "“社会民主党”这个名称已与背叛行为绑定，继续使用会混淆视听。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "党内反对改名者（隐含的论敌）",
+      "their_view": "认为保留“社会民主党”这一名称具有历史意义和传统价值，不愿因少数人的背叛而否定整个名称。",
+      "author_response": "列宁指出，名称必须反映现实；当绝大多数使用该名称的人已背叛其原则时，坚持旧名就是自欺欺人，是思想上未能与背叛者划清界限的表现。",
+      "polemic_kind": "strategic_critique",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p64s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p64s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p64s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p64s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "换洗衣服",
+            "type": "metaphor",
+            "modern": "列宁用日常比喻说明，与旧的、已“脏”的政治传统（社会民主党名称）决裂，是建立新的、纯洁政治身份（共产党）的必要过程。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p64s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p64s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p64s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p64s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 0,
+        "hs_kept": 1,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

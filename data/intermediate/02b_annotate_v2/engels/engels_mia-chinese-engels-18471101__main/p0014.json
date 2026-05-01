@@ -1,0 +1,61 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 14,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段记录了哈尼对国际民主运动的总结，并明确反对资产阶级激进派的改良主张。",
+    "importance_score": 1,
+    "importance_reason": "承接上文对主权原则的讨论，转向具体政治行动，为下文批判铺垫。",
+    "argument_role": "continues",
+    "argument_link": "上一段强调主权完全归属民族，本段则通过哈尼的发言，将这一原则具体化为对资产阶级权利观的批判。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "all_known",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "埃普斯先生",
+      "their_view": "工人阶级的政治权利应由资产阶级（选民）来赋予，主张通过戒酒戒烟等个人改良积累财富进行政治宣传，回避直接的普选权要求。",
+      "author_response": "哈尼宣布将坚决清除这种将权利依附于资产阶级的论调，主张工人阶级独立的政治行动。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p14s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p14s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_6>5"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 13,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "描述二月革命后俄国政治结构的矛盾状态，即资产阶级临时政府与工兵代表苏维埃并存的“双重政权”局面，并指出这种局面导致了农民起义的扩大。",
+    "importance_score": 2,
+    "importance_reason": "具体描绘了革命前夜的关键矛盾，为论证武装起义的必要性提供现实依据。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对临时政府背叛革命的定性，具体描述这种背叛在政治结构上的体现——即“双重政权”这一畸形现实。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "双重政权局面",
+        "explain": "1917年二月革命后，资产阶级临时政府与代表工农兵的苏维埃并存。苏维埃掌握实际武装和群众支持，却将政权“自愿”交给临时政府，形成列宁所称的“畸形”政治结构。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p13s3",
+        "quote": "既然帝国主义战争的拖延及其后果正在使俄国人民遭受到空前未有的灾难，那么在俄国爆发农民起义，并且日益扩大，这又有什么奇怪呢？",
+        "trigger": "inverted_logic",
+        "reader_block": "反问句式，读者可能只看到字面疑问，而忽略其强烈的肯定判断——起义扩大是必然且合理的。",
+        "parse": {
+          "claim": "俄国农民起义的爆发与扩大，是战争带来空前灾难的直接且必然的结果。",
+          "qualifiers": "限定于“帝国主义战争的拖延及其后果”这一特定原因。",
+          "contrast_or_target": ""
+        },
+        "why": {
+          "relation": "example",
+          "explanation": "用农民起义这一具体现象，来例证前文所述的“痛苦的严峻的现实”所引发的社会后果，强化了危机已至的判断。"
+        },
+        "implication": "既然灾难是战争造成的，那么解决危机的根本途径就是结束战争，而这需要推翻支持战争的临时政府。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "社会革命党人和孟什维克",
+      "their_view": "支持资产阶级临时政府，主张通过合法程序（如召开苏维埃代表大会）来解决政权问题，维持与资产阶级的合作。",
+      "author_response": "列宁揭露这种合作是“骗局”，其结果是造成了一个背叛革命、保护资本家和地主的政府与苏维埃畸形并存的局面。",
+      "polemic_kind": "reveals_class_basis",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p13s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "社会革命党人",
+            "type": "org",
+            "modern": "1902年成立的俄国政党，主要代表农民利益，二月革命后与孟什维克共同支持临时政府。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "孟什维克",
+            "type": "org",
+            "modern": "俄国社会民主工党中的派别，主张资产阶级民主革命阶段应由资产阶级领导，二月革命后支持临时政府。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p13s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p13s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 1,
+        "hs_kept": 1,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_6>5"
+      ]
+    }
+  ]
+}

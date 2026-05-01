@@ -1,0 +1,81 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 70,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁断言立宪民主党人的政治角色是暂时的，其消亡将为俄国政治发展开辟两条截然不同的道路。",
+    "importance_score": 2,
+    "importance_reason": "本段提出了一个核心的历史判断和战略预测，将立宪民主党人的命运与俄国革命的两种前途联系起来。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对立宪民主党“死气沉沉”的论断，进一步从历史发展规律的角度论证其过渡性，并引出其消亡后的两种可能结果。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "19世纪40年代法国社会民主党",
+        "explain": "指1848年欧洲革命后在法国出现的小资产阶级社会主义政党（如蒲鲁东派）。他们幻想通过议会和改良手段实现社会主义，但未能领导革命，最终在1848年六月起义失败后迅速衰落。列宁用此历史类比来预判俄国立宪民主党人的命运。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p70s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p70s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p70s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p70s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

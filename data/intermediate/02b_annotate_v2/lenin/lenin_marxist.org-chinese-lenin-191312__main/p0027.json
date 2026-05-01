@@ -1,0 +1,96 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 27,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁批评谢姆科夫斯基对党史和党纲的无知，并引出普列汉诺夫的权威引文来支持民族自决权。",
+    "importance_score": 1,
+    "importance_reason": "本段通过批评对手并引出权威引文，为后续论证提供历史依据。",
+    "argument_role": "continues",
+    "argument_link": "本段承接上段对罗莎·卢森堡错误的批评，通过批评谢姆科夫斯基并引出普列汉诺夫的引文，进一步巩固民族自决权在党纲中的地位。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p27s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "谢姆科夫斯基",
+            "type": "person",
+            "modern": "取消派代表，在民族自决权问题上持机会主义立场。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p27s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "普列汉诺夫",
+            "type": "person",
+            "modern": "俄国马克思主义理论家，早期孟什维克领袖，曾参与制定党纲。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "曙光",
+            "type": "work",
+            "modern": "1901-1902年在斯图加特出版的马克思主义秘密刊物。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "民族自决权",
+            "type": "concept",
+            "modern": "马克思主义民族纲领原则，指各民族有权自由分离或联合。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "self_determination_nation"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 4,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,168 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 28,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段批判对国家的哲学迷信，阐明国家的阶级本质，并指出无产阶级对待国家机器的正确态度。",
+    "importance_score": 3,
+    "importance_reason": "核心段落，集中阐述了马克思主义国家观，批判了将国家视为超阶级实体的哲学幻想。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于公社防止社会公仆变为社会主人的措施，进一步从理论层面论证为何必须打碎旧的国家机器，而非仅仅改造其形式。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "term_density",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "德国哲学国家观",
+        "explain": "19世纪德国古典哲学（如黑格尔）常将国家视为理性、真理与道德的化身，是“观念的现实化”。这种观念在德国知识界影响深远，马克思在此直接批判这种将国家神圣化的思想。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "《内战》第叁章",
+        "explain": "指马克思本人所著《法兰西内战》的第三章。该章详细叙述了巴黎公社为打碎旧国家机器、建立新型民主政权所采取的具体措施。",
+        "why_needed": "cross_ref_pronoun",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p28s3",
+        "quote": "按照哲学概念，国家是“观念的实现”，或是译成了哲学语言的尘世的上帝王国，也就是永恒的真理和正义所借以实现或应当借以实现的场所。",
+        "trigger": "term_density",
+        "reader_block": "句中堆叠了“观念的实现”“尘世的上帝王国”“永恒的真理和正义”等抽象哲学表述，读者不易理解马克思具体在批判哪种国家理论。",
+        "parse": {
+          "claim": "在某些哲学体系中，国家被定义为抽象理念在现实世界的体现，是尘世中类似上帝王国的存在，是永恒真理与正义得以落实的地方。",
+          "qualifiers": "这是对“哲学概念”中国家定义的转述，特指德国唯心主义哲学传统。",
+          "contrast_or_target": ""
+        },
+        "why": {
+          "relation": "definition",
+          "explanation": "本句定义了被批判的哲学国家观的核心主张，即国家的超阶级性和神圣性，为后文的批判树立靶子。"
+        },
+        "implication": "马克思通过复述这一定义，旨在揭示其唯心主义本质，为下文用阶级分析方法解构国家做铺垫。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p28s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p28s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p28s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "观念的实现",
+            "type": "concept",
+            "modern": "在黑格尔等德国唯心主义哲学中，指绝对精神或理念在现实世界中的具体化与体现。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "state_idealist_philosophy"
+          }
+        ]
+      },
+      {
+        "sid": "p28s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p28s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p28s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p28s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "民主共和国",
+            "type": "concept",
+            "modern": "资产阶级国家的一种政体形式，以普选和代议制为特征，但马克思认为其阶级压迫本质不变。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "democracy_bourgeois"
+          }
+        ]
+      },
+      {
+        "sid": "p28s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "祸害",
+            "type": "metaphor",
+            "modern": "马克思将国家比作无产阶级在革命胜利后不得不继承的负面遗产，强调其压迫性和需要被改造的属性。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p28s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 3,
+        "notes_dropped": 1,
+        "hs_kept": 1,
+        "hs_dropped": 1,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "hs:claim_5gram_with_quote",
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

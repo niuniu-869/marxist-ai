@@ -1,0 +1,153 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 172,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "批判巴枯宁将社会革命视为脱离经济条件的纯粹意志行为。",
+    "importance_score": 3,
+    "importance_reason": "核心批判，直接针对巴枯宁理论的根本缺陷。",
+    "argument_role": "contrasts",
+    "argument_link": "从上一段的民族观点转向，集中批判巴枯宁忽视社会革命的经济前提。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "term_density",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "巴枯宁",
+      "their_view": "社会革命不需要特定的经济条件，可以在任何发达或不发达的经济形式下发生；甚至欧洲的革命应当以俄国等农业民族的水平为基准，不应超越。",
+      "author_response": "社会革命必须以工业无产阶级在资本主义生产中发展到一定程度为前提；革命必须为农民带来实际利益；巴枯宁的理论脱离了现实的经济基础，是纯粹的意志论。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p172s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p172s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "社会革命",
+            "type": "concept",
+            "modern": "马克思主义语境下指根本变革社会经济结构的革命，其发生依赖于生产力与生产关系的矛盾运动。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "revolution_social"
+          }
+        ]
+      },
+      {
+        "sid": "p172s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p172s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p172s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p172s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p172s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p172s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p172s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p172s10",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "航海",
+            "type": "metaphor",
+            "modern": "此处隐喻以海洋贸易和工业为代表的资本主义生产方式，与农业民族的生产方式相对。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p172s11",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p172s12",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "意志",
+            "type": "concept",
+            "modern": "在哲学上指人的主观意愿或决断力。此处马克思用以批判巴枯宁将革命动力归结为纯粹主观意志，而非客观经济规律。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "will_philosophical"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 3,
+        "notes_dropped": 2,
+        "hs_kept": 0,
+        "hs_dropped": 2,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_6>5",
+        "note:n1_overflow_archaic_16>4",
+        "hs:claim_5gram_with_quote",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

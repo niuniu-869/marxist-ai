@@ -1,0 +1,247 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 11,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "",
+    "importance_score": 3,
+    "importance_reason": "本段是恩格斯现实主义理论的核心例证与深化，通过巴尔扎克这一经典案例，阐明了艺术真实性与作者主观倾向的辩证关系，是理解其文艺观的关键段落。",
+    "argument_role": "example",
+    "argument_link": "承接上段提出的“典型环境中的典型人物”定义，本段以巴尔扎克为范例，具体论证现实主义如何能够“违背作者的见解”而揭示社会真实，从而支撑其定义。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "“倾向小说”",
+        "explain": "19世纪德国文学中一种直接宣传作者社会政治观点的小说类型，恩格斯在此将其与真正的现实主义创作方法区分开来。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "巴尔扎克与《人间喜剧》",
+        "explain": "巴尔扎克是19世纪法国批判现实主义作家，其巨著《人间喜剧》通过众多人物与故事，全景式描绘了法国社会从大革命到七月王朝时期的变迁。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "“正统派”与“共和党英雄”",
+        "explain": "“正统派”指法国支持波旁王朝复辟的政治派别。巴尔扎克本人同情贵族，但其小说中“圣玛丽修道院的共和党英雄们”代表了当时进步的共和力量。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p11s3",
+        "quote": "作者的见解愈隐蔽，对艺术作品来说就愈好。",
+        "trigger": "inverted_logic",
+        "reader_block": "此论断与“文以载道”的直觉相悖，读者可能困惑于为何作者观点不直接表达反而是优点。",
+        "parse": {
+          "claim": "艺术作品的优劣与其作者直接宣扬的观点是否明显无关，观点越不露痕迹，作品的艺术价值可能越高。",
+          "qualifiers": "此判断针对“艺术作品”这一特定范畴。",
+          "contrast_or_target": "针对“倾向小说”那种直接鼓吹作者社会政治观点的创作方式。"
+        },
+        "why": {
+          "relation": "definition",
+          "explanation": "此句为恩格斯所推崇的现实主义创作方法确立了一个关键原则，即艺术真实性优先于作者的主观说教，为下文巴尔扎克的例子奠定理论基础。"
+        },
+        "implication": "这暗示了艺术创作有其独立规律，不能简单等同于政治宣传。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      },
+      {
+        "anchor": "p11s4",
+        "quote": "我所指的现实主义甚至可以违背作者的见解而表露出来。",
+        "trigger": "inverted_logic",
+        "reader_block": "“违背作者见解”的现实主义如何可能？读者会认为作品必然反映作者思想，此句挑战了这一常识性理解。",
+        "parse": {
+          "claim": "现实主义作为一种创作方法，其揭示社会本质的力量，有时会强大到突破作者自身政治立场或主观愿望的限制。",
+          "qualifiers": "这是恩格斯“所指的”特定现实主义概念。",
+          "contrast_or_target": "对比那种认为作品必然完全服务于作者主观意图的观点。"
+        },
+        "why": {
+          "relation": "definition",
+          "explanation": "这是对现实主义概念的深化定义，强调了艺术客观性对作者主观性的某种超越，直接引出巴尔扎克这一“违背自己见解”的典范。"
+        },
+        "implication": "这为分析那些世界观与创作成就存在矛盾的作家提供了理论工具。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p11s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "倾向小说",
+            "type": "concept",
+            "modern": "19世纪德国一种直接宣扬作者社会政治主张的小说体裁，常被用来与恩格斯倡导的现实主义对立。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "literary_tendency_novel"
+          }
+        ]
+      },
+      {
+        "sid": "p11s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p11s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p11s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p11s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p11s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "巴尔扎克",
+            "type": "person",
+            "modern": "奥诺雷·德·巴尔扎克，19世纪法国批判现实主义文学代表作家，其《人间喜剧》系列小说被誉为法国社会的百科全书。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "左拉",
+            "type": "person",
+            "modern": "埃米尔·左拉，19世纪法国自然主义文学代表作家，其作品强调科学观察与遗传决定论。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p11s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p11s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p11s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p11s10",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "正统派",
+            "type": "concept",
+            "modern": "法国大革命后支持波旁王朝复辟的政治派别，主张恢复旧制度与贵族特权。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "legitimist_faction"
+          }
+        ]
+      },
+      {
+        "sid": "p11s11",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p11s12",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p11s13",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p11s14",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p11s15",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p11s16",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p11s17",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 4,
+        "notes_dropped": 1,
+        "hs_kept": 2,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 1
+      },
+      "reasons": [
+        "note:n1_overflow_social_group_13>12"
+      ]
+    }
+  ]
+}

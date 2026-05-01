@@ -1,0 +1,83 @@
+{
+  "_prompt_version": "marxist-v0.2-2026-04-30-scaffolding",
+  "n": 106,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "作者以反问和宣言式的口吻，回应资产阶级对共产主义者的指控，表达对资产阶级道德与法律的蔑视。",
+    "importance_score": 2,
+    "importance_reason": "这是宣言中著名的修辞高潮之一，用以强化革命立场，但并非核心理论阐述。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于消灭私有制及其后果的论述，直接回应资产阶级可能对此提出的道德指控。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null
+    },
+    "sentences": [
+      {
+        "sid": "p106s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p106s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "你们以我们为罪犯吗",
+            "type": "slogan",
+            "modern": "预设并直接面对资产阶级对共产主义者意图破坏家庭等社会秩序的指控。",
+            "highlight": "rhetorical",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p106s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "甘心作罪犯",
+            "type": "slogan",
+            "modern": "宣言式宣告，表示愿意承担资产阶级法律与道德所定义的“罪名”，以实现革命目标。",
+            "highlight": "slogan",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 8,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "分析沙皇政府以退却为策略的实质，并警告革命者不可轻信可能背叛的资产阶级盟友。",
+    "importance_score": 3,
+    "importance_reason": "核心论点段落，提出对政府策略的判断和对革命者行动路线的直接告诫。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对莫斯科事变的分析，具体剖析政府策略的性质，并基于此提出革命者应有的态度和行动原则。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "allusion",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "1848年德国革命",
+        "explain": "指1848年德意志诸邦爆发的资产阶级民主革命，最终被封建势力镇压。列宁常以此为例，说明资产阶级革命的不彻底性及反动政府可能通过策略性退却（如召开立宪会议）来积蓄力量、最终反扑。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "“爱倒戈的同盟者”",
+        "explain": "指在革命中与无产阶级暂时合作、但立场不坚定、可能随时转向反对革命的资产阶级或小资产阶级政治力量，如自由派。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p8s7",
+        "quote": "只要决定性的东西还一点也没有争取到，只要敌人还有广阔的场地可以进一步实行有利而无危险的退却，只要更重大的战役还在进行，那么轻信这些同盟者，企图同他们订立协议或者在某些条件下干脆支持他们，这不仅是愚蠢，而且甚至是对无产阶级的背叛。",
+        "trigger": "inverted_logic",
+        "reader_block": "三重“只要”条件句构成严密的逻辑前提，最后用“不仅是愚蠢，而且是背叛”这种递进式否定来定性，读者可能不易把握其论证的完整结构和严重性。",
+        "parse": {
+          "claim": "在革命的根本目标尚未达成、敌人仍能从容调整策略、决定性斗争尚未结束的阶段，与那些不可靠的盟友进行妥协或提供支持，是极其错误且危害无产阶级利益的行为。",
+          "qualifiers": "此判断严格限定于革命尚未取得决定性成果、敌人仍有回旋余地的特定阶段。",
+          "contrast_or_target": "针对党内或革命阵营中那些主张在当前阶段就与自由派等势力订立协议或提供支持的妥协倾向。"
+        },
+        "why": {
+          "relation": "conclusion",
+          "explanation": "基于前文对政府策略的分析（p8s1-4）和历史教训的引用（p8s5），推导出革命者在当前阶段必须采取的行动原则，即坚决反对与不可靠盟友的妥协。"
+        },
+        "implication": "无产阶级政党必须保持独立性和斗争性，不能因暂时的共同行动而模糊阶级立场或放弃革命领导权。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "党内机会主义倾向（新火星派等）",
+      "their_view": "革命是资产阶级革命，无产阶级应追随资产阶级自由派，在其取得政府让步（如召开立宪会议）后就应与其合作或支持他们，以巩固成果。",
+      "author_response": "列宁指出，在敌人仍能通过策略性退却保存实力、革命根本目标未达成时，与这类动摇的“同盟者”订立协议或提供支持，是愚蠢且对无产阶级的背叛。",
+      "polemic_kind": "strategic_critique",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p8s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p8s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p8s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p8s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p8s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p8s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "爱倒戈的同盟者",
+            "type": "metaphor",
+            "modern": "比喻在革命中立场不坚定、可能随时转向反对革命的资产阶级或小资产阶级政治力量。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p8s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 1,
+        "hs_kept": 1,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_event_22>12",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

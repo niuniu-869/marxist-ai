@@ -1,0 +1,63 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 196,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段反驳埃尔韦先生对‘巴黎居民’的界定，指出这些居民实际是梯也尔一方的逃兵，代表巴黎的没落部分。",
+    "importance_score": 2,
+    "importance_reason": "通过澄清‘巴黎居民’的构成，揭露梯也尔政府的阶级基础，反驳资产阶级对公社的污蔑。",
+    "argument_role": "contrasts",
+    "argument_link": "本段延续上段对巴黎堕落部分的批判，具体指出埃尔韦先生所称的‘巴黎居民’实为梯也尔一方的逃兵。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "francs-fileurs",
+        "explain": "法语词，意为‘逃兵’或‘逃避战斗者’，指在普法战争中逃离巴黎、后又返回的居民，多为资产阶级或支持梯也尔政府的人。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p196s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

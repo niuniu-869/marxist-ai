@@ -1,0 +1,118 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 630,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "批判考茨基“超帝国主义”论，论证帝国主义国家间的和平联盟只是战争间歇，和平与战争交替是必然规律。",
+    "importance_score": 3,
+    "importance_reason": "核心论点段，直接驳斥考茨基主义的核心幻想，阐明帝国主义时代和平与战争的辩证关系。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于实力对比变化导致冲突不可避免的结论，具体分析和平联盟的实质及其与战争的内在联系。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "义和团起义",
+        "explain": "1900年中国北方爆发的反帝爱国运动，被八国联军镇压。列宁以此为例，说明列强为共同镇压殖民地反抗而结成的“和平”联盟。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "土耳其问题",
+        "explain": "指19世纪末20世纪初欧洲列强争夺奥斯曼帝国（土耳其）领土和势力范围的“东方问题”。列宁以此为例，说明列强为瓜分势力范围而进行的“和平”谈判与随后的冲突。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p630s3",
+        "quote": "聪明绝顶的考茨基为了安定工人，使他们同投到资产阶级方面去的社会沙文主义者调和，就把一条链子上的这一环节同另一环节割开，把今天所有大国为了“安定”中国（请回忆一下对义和团起义的镇压）而结成的和平的（而且是超帝国主义的，甚至是超而又超的帝国主义的）联盟，同明天的、非和平的冲突割开，而这种非和平的冲突，又准备着后天“和平的”总联盟来瓜分譬如说土耳其，如此等等。",
+        "trigger": "rhetorical",
+        "reader_block": "反讽语气（“聪明绝顶”）和“一条链子”的比喻，以及“今天-明天-后天”的递进举例，需要理解其讽刺意图和论证逻辑。",
+        "parse": {
+          "claim": "考茨基人为地割裂了帝国主义历史进程中和平阶段与战争阶段的连续性，用孤立的、静止的和平假象来麻痹工人。",
+          "qualifiers": "考茨基的动机是“安定工人”并使其与社会沙文主义者和解。",
+          "contrast_or_target": "考茨基将帝国主义国家为镇压殖民地（如中国）而结成的和平联盟，与其后为争夺新势力范围（如土耳其）而爆发的冲突视为互不相关的独立事件。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "具体揭露考茨基“超帝国主义”论的方法论错误：用形而上学的割裂代替辩证法的联系，从而掩盖帝国主义战争的必然性。"
+        },
+        "implication": "考茨基的理论服务于机会主义政治路线，旨在瓦解工人的革命斗志。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "考茨基",
+      "their_view": "帝国主义大国可以通过联合形成“超帝国主义”的总联盟，实现持久和平，从而避免战争。",
+      "author_response": "这种联盟只是两次战争之间的短暂“喘息”，和平与战争在帝国主义基础上交替出现，考茨基割裂二者联系是为机会主义服务。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p630s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "超帝国主义",
+            "type": "concept",
+            "modern": "考茨基提出的核心概念，认为各帝国主义强国可能联合起来共同剥削世界，从而进入一个没有战争的和平新阶段。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "ultra_imperialism_kautsky"
+          }
+        ]
+      },
+      {
+        "sid": "p630s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p630s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p630s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 1,
+        "hs_kept": 1,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_7>5",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

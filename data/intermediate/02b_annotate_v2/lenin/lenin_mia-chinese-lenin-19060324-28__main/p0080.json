@@ -1,0 +1,76 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 80,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁指出立宪民主党人在选举临近时，从其报刊上撤回了召开全民立宪会议的承诺，转而只强调杜马的有限权力，为自己留退路。",
+    "importance_score": 2,
+    "importance_reason": "作为核心批判段落，具体揭露立宪民主党在选举压力下的政治退缩，支撑全文对其“人民自由”口号虚伪性的论断。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对“人民自由”党诺言的提及，本段具体指出该诺言在报刊宣传中已被悄然放弃，论证其不可信。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "全民立宪会议",
+        "explain": "1905年革命期间，俄国各革命派别（包括社会民主党）提出的核心政治要求之一，旨在通过普选产生制宪机构，制定新宪法，取代沙皇专制。立宪民主党人曾将其作为重要口号。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "立宪民主党",
+      "their_view": "我们只应强调杜马现有的、有限的“立宪职能”，无需再提那个遥远且可能引发动荡的全民立宪会议。",
+      "author_response": "列宁揭露这是在兑现诺言的压力下进行的政治后退，是为自己准备后路，暴露了其“人民自由”口号的虚伪性。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p80s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p80s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "全民立宪会议",
+            "type": "event",
+            "modern": "1905年革命中各派提出的政治目标，旨在通过普选产生制宪机构，彻底变革沙皇俄国的政治体制。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "立宪职能",
+            "type": "slogan",
+            "modern": "立宪民主党人当时对杜马作用的限定性表述，意在降低外界对杜马权力的预期。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p80s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  }
+}

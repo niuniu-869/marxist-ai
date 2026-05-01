@@ -1,0 +1,80 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 70,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "用反问句强调，报刊作者的资格应基于其学术能力本身，而非任何外在的特权身份或既定惯例。",
+    "importance_score": 2,
+    "importance_reason": "通过反问句式，将讨论从具体检查令提升到对报刊本质的普遍性论断，为后续批判提供理论支点。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对检查制度的否定，转而从正面界定报刊作者应有的、基于才能的准入标准。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p70s2",
+        "quote": "难道这种条件不正是事物本身的条件，而不是特定人物的条件吗？",
+        "trigger": "inverted_logic",
+        "reader_block": "反问句式加上“事物本身”这一抽象表述，读者可能困惑于“事物”具体指什么，以及为何它与“特定人物”对立。",
+        "parse": {
+          "claim": "这种基于才能的条件是报刊这一事物内在的、普遍的要求，而非针对特定个人或群体的特殊规定。",
+          "qualifiers": "此处的“这种条件”指代上句提出的“学术才能”标准。",
+          "contrast_or_target": "将报刊作者资格视为某种身份或特权的观念。"
+        },
+        "why": {
+          "relation": "continues",
+          "explanation": "这是对前一句的进一步抽象和强化，将讨论从具体使命（精神的使命）提升到事物本质（报刊本身的条件），使论点更具普遍性。"
+        },
+        "implication": "报刊的本质决定了其作者必须是思想者，而非特权者，这为批判任何将报刊工具化的企图提供了依据。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "普鲁士书报检查制度",
+      "their_view": "报刊作者的资格应由其身份、特权或对惯例的遵守来决定，而非纯粹的学术才能。",
+      "author_response": "马克思主张，报刊的本质使命是传播思想，因此其作者的准入标准应是学术能力本身，这与特权和惯例无关。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p70s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p70s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 1,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,146 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 46,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁论证向资产阶级专家学习管理技能的必要性，以反驳党内“左派”对向资本主义学习的指责。",
+    "importance_score": 3,
+    "importance_reason": "核心段落，阐述了从政治革命转向经济建设的关键方法论，直接回应党内论战。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段对“左派共产主义者”攻击的回应，具体阐述为何以及如何向资产阶级学习，以巩固革命成果。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p46s4",
+        "quote": "这里问题在于，我们当初为了什么镇压他们，是为了提出在彻底镇压他们之后的今天向他们的资本主义卑躬屈膝吗？",
+        "trigger": "inverted_logic",
+        "reader_block": "反问句式，读者可能误以为列宁在否定学习，实际是为引出“学习不等于屈服”的核心论点。",
+        "parse": {
+          "claim": "我们推翻资产阶级的目的，绝不是为了在之后向其资本主义管理方式低头。",
+          "qualifiers": "限定在“彻底镇压他们之后”的当前阶段。",
+          "contrast_or_target": "针对党内“左派”将学习管理技能等同于政治投降的指责。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "以反问形式预判并驳斥论敌的攻击，为接下来阐明“学习”的真实含义（技术性而非政治性）做铺垫。"
+        },
+        "implication": "学习资产阶级的组织管理经验，与推翻其政治统治并不矛盾，而是实现社会主义的必要步骤。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "左派共产主义者",
+      "their_view": "向资产阶级学习管理经验，就是背叛革命原则，是对资本主义的屈服。",
+      "author_response": "学习资产阶级的组织和管理技能，是为了弥补我们在建设社会主义方面的知识不足，是巩固革命成果、达到社会主义的必要手段，与政治投降无关。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p46s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p46s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p46s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p46s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p46s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p46s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p46s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p46s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p46s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p46s10",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p46s11",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p46s12",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p46s13",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 1,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

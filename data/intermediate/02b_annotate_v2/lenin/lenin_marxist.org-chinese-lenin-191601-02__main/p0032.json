@@ -1,0 +1,81 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 32,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段将考茨基分子与露骨兼并主义者统一归类为机会主义者，批判他们曲解马克思主义，无法理解马克思基于爱尔兰案例的策略。",
+    "importance_score": 2,
+    "importance_reason": "本段批判机会主义者对马克思主义的歪曲，强化对民族自决权问题的革命立场。",
+    "argument_role": "continues",
+    "argument_link": "本段承接上一段对考茨基分子的批判，将两类看似不同的机会主义者归为同类，强调他们在理论理解上的共同缺陷。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "text_anomaly",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "马克思论爱尔兰策略",
+        "explain": "马克思在19世纪分析爱尔兰问题时，主张英国工人阶级支持爱尔兰独立，认为民族解放是无产阶级革命的前提条件。列宁引用此例批判机会主义者忽视这一策略。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "考茨基分子和露骨的兼并主义者",
+      "their_view": "他们口头拥护民族自决权，但在实践中与兼并主义者一致，不理解马克思的革命策略。",
+      "author_response": "列宁指出他们都是机会主义者，曲解马克思主义，忽视马克思基于爱尔兰案例的策略意义。",
+      "polemic_kind": "strategic_critique",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p32s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "马克思",
+            "type": "person",
+            "modern": "卡尔·马克思，马克思主义创始人，在民族问题上以爱尔兰为例阐述策略。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "爱尔兰",
+            "type": "place",
+            "modern": "马克思在分析民族问题时引用的案例，涉及民族解放与无产阶级革命的关系。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 541,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "马克思指出费尔巴哈对黑格尔辩证法核心概念“否定的否定”的理解存在偏差，将其简化为哲学内部的自我矛盾。",
+    "importance_score": 2,
+    "importance_reason": "这是马克思批判费尔巴哈哲学局限性的关键环节，为后续阐述自己的辩证法观做铺垫。",
+    "argument_role": "contrasts",
+    "argument_link": "承接上段对黑格尔辩证法的讨论，转而分析费尔巴哈如何误读了这一方法。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "term_density",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "否定的否定",
+        "explain": "黑格尔辩证法的核心概念，指事物发展通过自我否定达到更高阶段的螺旋式上升过程。费尔巴哈将其理解为哲学体系内部的循环。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "费尔巴哈",
+      "their_view": "黑格尔的“否定的否定”只是哲学体系内部的自我矛盾，即在批判了神学之后，其绝对精神体系本身又构成了新的、更精致的神学。",
+      "author_response": "马克思指出，费尔巴哈的这种理解将辩证法局限于思想领域，未能揭示其作为现实世界发展规律的实质。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p541s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "否定的否定",
+            "type": "concept",
+            "modern": "黑格尔辩证法中事物通过自我否定实现发展的核心规律，费尔巴哈将其理解为哲学体系的自我循环。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "dialectics_hegelian"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

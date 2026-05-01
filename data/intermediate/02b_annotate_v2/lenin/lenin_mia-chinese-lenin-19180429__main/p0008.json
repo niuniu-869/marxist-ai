@@ -1,0 +1,94 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 8,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁将当时俄国的政治力量划分为三大集团，并详细描述了第一个集团——即整个资产阶级及其小资产阶级盟友——对苏维埃政权的敌对立场。",
+    "importance_score": 2,
+    "importance_reason": "本段通过划分政治阵营，明确了苏维埃政权的主要敌人，为论证巩固政权的必要性提供前提。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于全面考察政治派别的方法论要求，本段开始具体划分俄国政治力量的三大集团。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "孟什维克、新生活派和右派社会革命党人",
+      "their_view": "这些小资产阶级政党在革命时期与克伦斯基观点一致，反对苏维埃政权，其攻击的激烈程度甚至超过资产阶级。",
+      "author_response": "列宁指出，这些政党已被吸引到资产阶级方面，其疯狂攻击恰恰暴露了他们实力的虚弱。",
+      "polemic_kind": "reveals_class_basis",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p8s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p8s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "资产阶级",
+            "type": "concept",
+            "modern": "在马克思主义语境中，指占有生产资料、以剥削雇佣劳动为基础的社会阶级。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "class_marxist"
+          }
+        ]
+      },
+      {
+        "sid": "p8s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "克伦斯基",
+            "type": "person",
+            "modern": "亚历山大·克伦斯基，二月革命后俄国临时政府的主要领导人，其政府在十月革命中被推翻。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "孟什维克",
+            "type": "org",
+            "modern": "俄国社会民主工党中的一个派别，主张资产阶级民主革命应由资产阶级领导，反对无产阶级夺取政权。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 3,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

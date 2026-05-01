@@ -1,0 +1,56 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 176,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段以反问句式提出关于无产阶级全体成为统治者的问题，针对巴枯宁对无产阶级专政的质疑。",
+    "importance_score": 2,
+    "importance_reason": "本段是马克思对巴枯宁无政府主义观点的直接反驳，核心论点之一。",
+    "argument_role": "contrasts",
+    "argument_link": "本段通过反问质疑无产阶级统治的可行性，与上段关于无产阶级力量和经济手段的论述形成对比，引出对无政府主义前提的批判。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p176s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote",
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

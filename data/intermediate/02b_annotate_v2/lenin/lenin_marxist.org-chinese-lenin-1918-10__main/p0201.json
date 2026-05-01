@@ -1,0 +1,77 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 201,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁断言，与那些在巴黎公社类型国家问题上实际倒向资产阶级的人讨论解散立宪会议是徒劳的，并指出自己的提纲早已从多方面阐明了该问题。",
+    "importance_score": 2,
+    "importance_reason": "本段通过一个比喻，强化了列宁对考茨基等人理论立场的批判，并引出自己先前的论述作为依据。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对考茨基在国家问题上追随孟什维克的批评，进一步指出这种理论背叛使得与他们讨论具体政治问题（解散立宪会议）变得毫无意义。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "考茨基及其追随者",
+      "their_view": "他们自称为社会主义者和马克思主义者，但在关于国家的根本问题（即是否应建立巴黎公社类型的无产阶级专政国家）上，实际采取了维护资产阶级国家机器的立场。",
+      "author_response": "列宁认为，既然他们在国家这个根本理论上已经站到资产阶级一边，那么与他们讨论解散旧的立宪会议这类具体政治问题，就如同“对牛弹琴”，是毫无意义的。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p201s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "对牛弹琴",
+            "type": "metaphor",
+            "modern": "在论战语境下，指与理论立场根本对立者进行讨论是徒劳无功的。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p201s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p201s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

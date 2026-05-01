@@ -1,0 +1,79 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 52,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段批判社会革命党人和孟什维克在七月事件后向资产阶级妥协，导致政权落入军人集团之手。",
+    "importance_score": 3,
+    "importance_reason": "核心论断，揭示妥协主义导致革命失败的具体路径与后果。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对七月事件的叙述，具体分析事件中妥协派的行为及其造成的权力转移。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "波拿巴主义者",
+        "explain": "指模仿拿破仑三世，通过军事政变或依靠军队建立个人独裁的政客或军人集团。列宁用此词形容当时可能通过武力夺权的俄国军人。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "社会革命党人和孟什维克",
+      "their_view": "同意临时政府调兵、恢复死刑、解除工人武装、逮捕和查封报纸等一切措施。",
+      "author_response": "列宁将他们定性为“资产阶级奴隶”，认为他们的妥协行为使政权落入军人集团，而地主资本家是这一结果的支持者。",
+      "polemic_kind": "reveals_class_basis",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p52s1",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p52s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "立宪民主党人和黑帮分子",
+            "type": "social_group",
+            "modern": "前者是代表自由派资产阶级的政党，后者是极端反动的保皇势力，二者在支持军人集团上立场一致。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 2,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_metaphor_13>8",
+        "note:n1_overflow_concept_6>5"
+      ]
+    }
+  ]
+}

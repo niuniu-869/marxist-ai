@@ -1,0 +1,92 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 43,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段对比左派与考茨基的立场，揭露考茨基如何用其理论为机会主义者在战争中背弃革命策略的行为辩护。",
+    "importance_score": 3,
+    "importance_reason": "核心段落，直接点明考茨基主义的辩护逻辑及其与革命路线的根本对立。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对考茨基歪曲左派主张的揭露，进一步剖析其“超帝国主义论”的辩护实质。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "超帝国主义论",
+        "explain": "考茨基提出的理论，认为资本主义可能进入一个由列强联合剥削世界的和平阶段。此论点被用来论证战争只是暂时的，革命并非迫在眉睫，从而为社会党支持本国政府辩护。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "巴塞尔决议",
+        "explain": "1912年第二国际在巴塞尔代表大会上通过的反战决议，呼吁各国社会党在战争爆发时利用战争危机促成社会主义革命，反对帝国主义战争。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p43s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p43s2",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p43s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "巴塞尔决议",
+            "type": "event",
+            "modern": "1912年第二国际通过的反战决议，要求各国社会党在战争爆发时变帝国主义战争为国内革命战争。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_6>5",
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

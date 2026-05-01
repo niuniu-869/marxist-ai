@@ -1,0 +1,87 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 27,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "宣布成立集中全部权力的国家防务委员会，并号召人民团结在党和政府周围，全力支援军队以战胜敌人。",
+    "importance_score": 3,
+    "importance_reason": "宣布战时最高权力机构成立并发出总动员令，是讲话从形势分析转向行动部署的关键节点。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对人民力量的肯定，本段具体阐述如何通过成立集中权力的机构来组织和动员这些力量，将潜力转化为实际战斗力。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p27s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "国家防务委员会",
+            "type": "org",
+            "modern": "1941年6月30日成立的战时最高权力机构，集中了党政军一切权力。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p27s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "苏维埃政府",
+            "type": "org",
+            "modern": "苏联的国家政权机关，此处与党并列作为团结的象征。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "红军和红海军",
+            "type": "org",
+            "modern": "苏联武装力量的统称，是抵抗侵略的主力。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 3,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

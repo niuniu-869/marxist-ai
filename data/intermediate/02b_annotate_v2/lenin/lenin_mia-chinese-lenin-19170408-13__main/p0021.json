@@ -1,0 +1,55 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 21,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "作者警告，若忽视革命具体实现的新奇性，将重蹈党内教条主义者只背诵旧公式而不研究现实的覆辙。",
+    "importance_score": 2,
+    "importance_reason": "承接上段对革命新奇性的判断，具体指出党内存在的教条主义倾向，为后续论证提供反面例证。",
+    "argument_role": "continues",
+    "argument_link": "上段指出革命具体实现结果的新奇性，本段则警告若忽视这一新奇性，将重复党内教条主义者的错误。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "老布尔什维克",
+      "their_view": "革命形势和任务仍按旧公式发展，只需背诵既定纲领即可应对。",
+      "author_response": "必须研究新的现实特点，而非机械套用旧公式。",
+      "polemic_kind": "strategic_critique",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p21s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_5gram_with_surface"
+      ]
+    }
+  ]
+}

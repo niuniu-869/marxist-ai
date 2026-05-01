@@ -1,0 +1,213 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 5,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁为解散立宪会议辩护，通过分析选举制度的缺陷和政党分裂，论证苏维埃政权的合法性高于立宪会议。",
+    "importance_score": 2,
+    "importance_reason": "这是对解散立宪会议这一核心争议的直接辩护，通过具体论证支撑苏维埃政权的合法性。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段关于苏维埃政权处境的讨论，具体展开与立宪会议的冲突及其原因。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "立宪会议选举制度",
+        "explain": "1917年俄国立宪会议选举采用比例代表制，各政党需在选举前数月提交固定候选人名单。这种制度在政治局势剧变时，可能导致当选代表无法反映选民最新意愿。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "社会革命党分裂",
+        "explain": "1917年夏秋，社会革命党是俄国最大政党，但内部已分裂。以克伦斯基为首的右派支持临时政府，而左派社会革命党人则转向支持苏维埃。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "克伦斯基政府性质",
+        "explain": "克伦斯基领导的二月革命后临时政府，虽有社会革命党人参与，但继续执行沙俄的帝国主义战争政策，与英法签订秘密条约。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p5s6",
+        "quote": "这种选举制是最完善的选举制，但是，只有在一种情况下，也就是说，只有在那些根据这个制度有权利并有可能拟订候选人名单的党派真正代表了选举他们的选民集团的情绪、愿望、利益和要求的时候，这种选举制才能正确地表达人民的意志，因为在另一种选举制下，即在各地区选举各自的候选人或代表的情况下，选民容易根据自己的情绪或已发生的政治变化，立即纠正自己的错误。",
+        "trigger": "long_nested",
+        "reader_block": "句子结构复杂，包含长条件从句和对比论证，读者容易迷失在“只有在一种情况下”和“在另一种选举制下”的逻辑对比中。",
+        "parse": {
+          "claim": "比例代表制要能正确反映民意，其前提是提名候选人的政党必须真实代表选民的当前意愿；否则，选民将失去在政治变化后及时调整代表的能力。",
+          "qualifiers": "此论断针对的是比例代表制与选区制的对比，限定条件是“在选举前好久”就固定名单。",
+          "contrast_or_target": "对比对象是选区制，其优势在于选民能根据政治变化立即纠正错误。"
+        },
+        "why": {
+          "relation": "definition",
+          "explanation": "本句为比例代表制的有效性设定了一个关键前提，为下文论证立宪会议选举名单已过时做铺垫。"
+        },
+        "implication": "如果提名名单的政党在选举前已不代表选民，那么基于该名单的选举结果就是无效的。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p5s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p5s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p5s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p5s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p5s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "比例代表制",
+            "type": "concept",
+            "modern": "一种选举制度，政党按得票比例获得议席，但需提前提交固定候选人名单。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "electoral_system_proportional"
+          }
+        ]
+      },
+      {
+        "sid": "p5s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p5s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p5s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p5s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p5s10",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p5s11",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p5s12",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p5s13",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p5s14",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p5s15",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p5s16",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "米留可夫",
+            "type": "person",
+            "modern": "帕维尔·米留可夫，立宪民主党领袖，主张俄国参与帝国主义战争并扩张领土。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p5s17",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 1,
+        "hs_kept": 1,
+        "hs_dropped": 1,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "hs:claim_5gram_with_quote",
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

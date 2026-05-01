@@ -1,0 +1,58 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 116,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "恩格斯引用克利盖的反问句并揭露其矛盾，讽刺克利盖反对部分人已经安居大地的事实。",
+    "importance_score": 1,
+    "importance_reason": "本段通过讽刺手法揭露克利盖立场的内在矛盾，支撑对克利盖改良主义的批判。",
+    "argument_role": "continues",
+    "argument_link": "本段延续上段的讽刺风格，通过引用克利盖的反问句进一步揭露其呼吁与反对之间的不一致。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p116s1",
+        "quote": "结尾时他提出了一个奇特的问题：“难道人类应该永远象无家可归的流浪汉一样在大地上徬徨吗？”可是这个“人类”中的一部分安居在大地上这件事却正是他的眼中钉！",
+        "trigger": "inverted_logic",
+        "reader_block": "反问句式加上'眼中钉'的比喻，读者可能不理解克利盖一方面呼吁人类不再流浪，另一方面却反对部分人已经安居大地的矛盾。",
+        "parse": {
+          "claim": "克利盖一方面主张人类不应永远流浪，另一方面却将部分人已经安居大地视为障碍。",
+          "qualifiers": "",
+          "contrast_or_target": "克利盖认为人类应该摆脱流浪状态，但恩格斯指出他反对部分人已经实现安居的事实。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "本句通过反问和揭露矛盾，直接反驳克利盖的立场，指出其呼吁与反对之间的不一致。"
+        },
+        "implication": null,
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "克利盖",
+      "their_view": "克利盖提出人类不应该永远流浪的问题，暗示需要改变现状，让所有人都能安居大地。",
+      "author_response": "恩格斯揭露克利盖的矛盾，指出他实际上反对部分人已经安居大地的事实，讽刺其立场不一致。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p116s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  }
+}

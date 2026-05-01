@@ -1,0 +1,79 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 365,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "通过描述军队和农村的实际变化，反驳考茨基关于布尔什维克基础正在缩小的论断。",
+    "importance_score": 2,
+    "importance_reason": "用具体事实反驳考茨基的悲观论断，支撑核心批判。",
+    "argument_role": "contrasts",
+    "argument_link": "承接上段农村形势的转折，进一步展示革命力量在军队和更广泛贫苦农民中的增长，与考茨基的判断形成直接对比。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p365s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p365s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "七月危机",
+            "type": "event",
+            "modern": "1918年7月左派社会革命党叛乱及白军进攻造成的危机",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "左派社会革命党",
+            "type": "org",
+            "modern": "1917年革命后与布尔什维克短暂合作后分裂的激进农民政党",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote",
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

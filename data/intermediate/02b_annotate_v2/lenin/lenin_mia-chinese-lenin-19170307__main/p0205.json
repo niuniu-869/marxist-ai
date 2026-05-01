@@ -1,0 +1,64 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 205,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁借工人代表苏维埃之口，以反问形式质问工农是否愿意为帝国主义战争支付巨额款项。",
+    "importance_score": 2,
+    "importance_reason": "支撑列宁关于工农应拒绝战争债务的论点，是策略指导的一部分。",
+    "argument_role": "continues",
+    "argument_link": "本段延续上段关于战争债务应由资本家承担的论述，通过苏维埃的反问进一步强调工农拒绝支付的正当性。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p205s2",
+        "quote": "你们能同意每年付给资本家老爷们几亿卢布来奖励他们为瓜分非洲殖民地、土耳其等等而进行的战争吗？",
+        "trigger": "inverted_logic",
+        "reader_block": "反问句式，读者可能误以为在询问同意与否，实际是表达工农绝不应支付的立场。",
+        "parse": {
+          "claim": "工农绝不应每年支付数亿卢布给资本家，以奖励他们进行瓜分殖民地的战争。",
+          "qualifiers": "",
+          "contrast_or_target": ""
+        },
+        "why": {
+          "relation": "continues",
+          "explanation": "本句通过反问，强化上段论点，即工农不应为资本家的战争利益买单，从而拒绝战争债务。"
+        },
+        "implication": null,
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p205s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p205s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  }
+}

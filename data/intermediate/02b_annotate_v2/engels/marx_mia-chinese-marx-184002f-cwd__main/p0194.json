@@ -1,0 +1,85 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 194,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段分析劳动阶级早期运动失败的两个原因，并指出其革命著作因此带有复古色彩。",
+    "importance_score": 2,
+    "importance_reason": "承接上段对早期革命著作的评价，进一步分析其失败原因和内容特征，为后文论述科学社会主义的产生提供历史铺垫。",
+    "argument_role": "continues",
+    "argument_link": "本段紧接上段，从历史条件角度解释为何早期援助劳动阶级的著作（如巴布夫等人）会失败并带有特定内容，是对上段“不批评”立场的补充说明。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_polysemy",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "早期“劳动阶级”的含义",
+        "explain": "此处“劳动阶级”指18世纪末至19世纪初，工业革命尚未完成时，以手工工匠、帮工、小农等为主的群体，而非现代工业无产阶级。其组织程度和阶级意识尚不成熟。",
+        "why_needed": "term_polysemy",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p194s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p194s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p194s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p194s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 5,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix",
+        "note:n1_overflow_archaic_6>4",
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

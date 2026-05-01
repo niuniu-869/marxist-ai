@@ -1,0 +1,138 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 32,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "恩格斯批评英国民主集会错误地将反动的农民领袖霍弗视为“爱国志士”，并列举了更符合民主精神的德国历史人物。",
+    "importance_score": 2,
+    "importance_reason": "通过具体人物对比，阐释作者对“爱国”与“民主”内涵的界定，是前文对德国反动势力批判的例证延伸。",
+    "argument_role": "example",
+    "argument_link": "承接上文对德国反动势力的分析，以具体人物为例，辨析何种历史人物才真正代表德国人民的荣誉。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "安得列阿斯·霍弗",
+        "explain": "19世纪初德国蒂罗尔地区的农民领袖，以反抗拿破仑统治闻名，但其斗争目标是恢复哈布斯堡王朝和天主教会的旧秩序。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "托马斯·闵采尔",
+        "explain": "16世纪德国宗教改革时期的激进派领袖，领导了1525年农民战争，主张建立没有阶级压迫的“千年王国”，是早期共产主义思想的先驱。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "格奥尔格·福斯特",
+        "explain": "18世纪德国作家、博物学家和革命者，曾参与法国大革命，是雅各宾俱乐部成员，最终在恐怖统治时期被处决。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "英国民主集会（或其代表的民主派观点）",
+      "their_view": "安得列阿斯·霍弗作为反抗拿破仑的“爱国志士”，是值得尊敬和歌颂的德国英雄。",
+      "author_response": "霍弗的斗争是为了维护封建专制和宗教狂热，与民主进步背道而驰；真正值得歌颂的是闵采尔、福斯特等为现实解放而斗争的人物。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p32s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p32s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p32s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p32s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p32s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p32s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p32s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p32s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p32s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p32s10",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p32s11",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 2,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

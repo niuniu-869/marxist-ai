@@ -1,0 +1,121 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 17,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁以美国为例，揭示资产阶级民主的实质是为资产阶级利益服务的宣传自由，并批判国内某些派别对这种民主的崇拜。",
+    "importance_score": 2,
+    "importance_reason": "通过美国案例具体化对资产阶级民主的批判，服务于全文关于意识形态斗争的主线。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段关于无神论宣传的论述，本段以美国为例，具体说明宗教与资本的关系，并引出对“现代民主”虚伪性的批判。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_polysemy",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "“现代民主”的特定含义",
+        "explain": "列宁在此特指资产阶级民主。在马克思主义语境中，民主具有阶级性，资产阶级民主是形式上的政治平等，实质是维护资产阶级专政的工具，与无产阶级民主相对。",
+        "why_needed": "term_polysemy",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "孟什维克等派别",
+        "explain": "孟什维克、社会革命党人是俄国二月革命后主张与资产阶级合作的政党，一部分无政府主义者也持类似立场。他们当时崇拜西方资产阶级民主制度。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p17s2",
+        "quote": "然而我们看得更为清楚，所谓“现代民主”(孟什维克、社会革命党人和一部分无政府主义者等对这种民主崇拜得五体投地)，无非是有宣传对资产阶级有利的东西的自由，而对资产阶级有利的，就是宣传最反动的思想、宗教、蒙昧主义以及为剥削者辩护等等。",
+        "trigger": "inverted_logic",
+        "reader_block": "表面说“自由”，实际是反讽和双重否定。读者容易停留在“民主”“自由”的正面含义，忽略其后“无非是”的彻底否定和阶级限定。",
+        "parse": {
+          "claim": "资产阶级所标榜的民主，其核心自由是为资产阶级利益服务的宣传垄断，这种宣传的内容是反动、宗教和剥削辩护。",
+          "qualifiers": "特指孟什维克等派别所崇拜的那种“现代民主”。",
+          "contrast_or_target": "孟什维克等派别认为，西方的民主制度是值得追求和效仿的普遍价值。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "直接反驳孟什维克等派别对资产阶级民主的崇拜，揭露其阶级实质，指出这种“民主”自由的真正受益者和宣传内容。"
+        },
+        "implication": "因此，无产阶级不能接受这种民主，而应建立自己的民主形式。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "孟什维克、社会革命党人和一部分无政府主义者",
+      "their_view": "西方的“现代民主”制度是优越的、值得崇拜和效仿的普遍政治形式。",
+      "author_response": "列宁指出，这种民主的实质是保障资产阶级进行反动宣传的自由，是为剥削制度辩护的工具，根本不值得崇拜。",
+      "polemic_kind": "reveals_class_basis",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p17s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p17s2",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": [
+          {
+            "surface": "现代民主",
+            "type": "concept",
+            "modern": "列宁特指资产阶级民主。在马克思主义理论中，它被视为资产阶级专政的形式，与无产阶级民主有本质区别。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "democracy_bourgeois"
+          },
+          {
+            "surface": "孟什维克",
+            "type": "org",
+            "modern": "俄国社会民主工党中的改良派，主张与资产阶级合作，反对无产阶级革命和专政。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "社会革命党人",
+            "type": "org",
+            "modern": "代表小资产阶级利益的俄国政党，主张土地社会化，部分成员在二月革命后支持资产阶级临时政府。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 3,
+        "notes_dropped": 1,
+        "hs_kept": 1,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 63,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "通过回顾古代宗教更替和近代思想斗争的历史，论证思想变革是社会经济变革的反映，并揭示宗教自由思想的阶级实质。",
+    "importance_score": 2,
+    "importance_reason": "为后文论证共产主义思想的出现提供历史唯物主义的类比论证，是核心论证链条中的重要支撑环节。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段关于思想变革与社会生活条件变革同步的论断，用具体的历史实例（古代宗教、启蒙思想）来例证这一规律。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "古代宗教与基督教",
+        "explain": "指古希腊罗马多神教。基督教在罗马帝国晚期兴起并最终成为国教，取代了旧有宗教体系，这被视为社会形态从奴隶制向封建制过渡在思想领域的反映。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "启蒙思想",
+        "explain": "18世纪欧洲的思想运动，强调理性、科学和个人自由，批判宗教蒙昧和封建专制。它为资产阶级革命提供了理论武器。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "信仰领域",
+        "explain": "原文有编者注，指出不同德文版本中此词有“信仰领域”与“知识领域”的差异。此处采用“信仰领域”，意指思想、观念和信仰的范畴。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p63s3",
+        "quote": "信仰自由和宗教自由的思想，不过表明自由竞争在信仰领域里占统治地位罢了。",
+        "trigger": "inverted_logic",
+        "reader_block": "表面是赞扬宗教自由，实则是反讽和揭露。读者容易按字面意思理解为作者在肯定这种自由，而忽略其批判性。",
+        "parse": {
+          "claim": "宗教信仰自由这一观念，其本质是资产阶级倡导的自由竞争原则在思想信仰领域的体现和胜利。",
+          "qualifiers": "限定在“信仰领域”或“知识领域”，即思想观念范畴。",
+          "contrast_or_target": "针对那些将宗教自由视为纯粹精神解放或普世价值的观点，揭示其背后的经济基础。"
+        },
+        "why": {
+          "relation": "conclusion",
+          "explanation": "本句是前文历史类比的总结性论断。作者将“信仰自由”与“自由竞争”直接挂钩，得出结论：一种思想的流行，不过是它所服务的那个阶级的经济原则在相应领域的统治。"
+        },
+        "implication": "由此推论，任何时代占统治地位的思想，都是统治阶级的思想，其内容反映了该阶级的经济利益和原则。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "唯心史观",
+      "their_view": "思想、观念或宗教的变革是独立发生的，是人类理性进步或精神自我发展的结果，与社会经济结构的变化无关。",
+      "author_response": "思想变革是社会经济变革的反映。古代宗教被基督教取代、基督教思想被启蒙思想击败，这些思想领域的更替，都与封建社会同资产阶级的斗争这一经济政治变革同步。",
+      "polemic_kind": "reveals_class_basis",
+      "confidence": "medium"
+    },
+    "sentences": [
+      {
+        "sid": "p63s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p63s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p63s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p63s4",
+        "speaker": "editor",
+        "stance": "neutral_citation",
+        "notes": []
+      }
+    ]
+  }
+}

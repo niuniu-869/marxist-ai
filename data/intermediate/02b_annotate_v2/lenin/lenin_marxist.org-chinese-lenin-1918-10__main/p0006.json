@@ -1,0 +1,70 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 6,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁将考茨基定性为将马克思主义庸俗化为自由派学说的典型，并批判其在战争问题上的调和主义立场。",
+    "importance_score": 3,
+    "importance_reason": "这是对考茨基机会主义路线的核心定性与批判，揭示了其理论背叛的实质。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段对考茨基背离马克思主义的指控，本段具体指出其理论蜕变的方向和表现形式。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "司徒卢威主义与布伦坦诺主义",
+        "explain": "指19世纪末俄国合法马克思主义者司徒卢威和德国经济学家布伦坦诺的学说。他们承认资本主义发展，但否认其内在矛盾与革命必然性，主张阶级合作与改良，是资产阶级化的理论。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "普列汉诺夫",
+        "explain": "俄国早期马克思主义理论家，第二国际领袖之一。一战爆发后转向支持本国政府，主张“保卫祖国”，被列宁视为社会沙文主义的代表。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p6s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

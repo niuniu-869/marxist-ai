@@ -1,0 +1,115 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 400,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段批评波尔恩领导的工人组织在纲领和路线上忽视政治目的，仅限于经济斗争。",
+    "importance_score": 2,
+    "importance_reason": "展示了马克思对工人运动中非政治化、经济主义倾向的批判，是其政治路线主张的例证。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对波尔恩身份的介绍，具体分析其领导的组织在纲领和实践上的问题。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "共产主义者同盟",
+        "explain": "1847年由正义者同盟改组而成的国际工人组织，马克思、恩格斯参与创建并为其起草纲领《共产党宣言》。文中“同盟”即指此组织。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "工人兄弟会",
+        "explain": "波尔恩于1848年在德国建立的工人组织，旨在联合各行业工人进行经济斗争，但其纲领和活动被马克思批评为缺乏明确的政治目标。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "波尔恩及其领导的工人组织路线",
+      "their_view": "工人运动应主要关注提高工资、组织罢工和建立生产合作社等经济诉求，政治活动可以限于个别行动，无需提出远大的政治目的。",
+      "author_response": "马克思强调，任何经济要求的持久实现都必须以取得政治胜利、掌握国家政权为前提，否则这些要求只是空中楼阁。",
+      "polemic_kind": "strategic_critique",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p400s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p400s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p400s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p400s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p400s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p400s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p400s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "工人兄弟会",
+            "type": "org",
+            "modern": "波尔恩于1848年在德国建立的工人组织，旨在联合各行业工人进行经济斗争。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

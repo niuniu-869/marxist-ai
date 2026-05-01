@@ -1,0 +1,132 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 13,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁引用“前进”文集中对普列汉诺夫著作的批评，并以反讽方式对比马赫主义者与普列汉诺夫著作的影响力。",
+    "importance_score": 2,
+    "importance_reason": "本段通过具体引文和反讽，支撑列宁对马赫主义修正唯物主义的批判。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段对修正主义者驳斥唯物主义的讨论，具体展示“前进”文集中的言论，以揭露其立场。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_density",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "前进文集与马赫主义",
+        "explain": "“前进”文集是俄国马赫主义者出版的刊物，马赫主义是一种主观唯心主义哲学，试图用马赫的经验批判主义“修正”马克思主义。",
+        "why_needed": "history_density",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "别尔托夫与普列汉诺夫",
+        "explain": "别尔托夫是普列汉诺夫的笔名，《论一元论历史观之发展》是其早期重要著作，对传播历史唯物主义有影响。",
+        "why_needed": "history_density",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "造神派与马赫主义分子",
+        "explain": "造神派是俄国宗教社会主义流派，马赫主义者如尤什凯维奇、博格丹诺夫等试图将马赫哲学与马克思主义结合。",
+        "why_needed": "history_density",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p13s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p13s2",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": [
+          {
+            "surface": "别尔托夫",
+            "type": "person",
+            "modern": "普列汉诺夫的笔名，用于早期著作。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p13s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "造神派",
+            "type": "social_group",
+            "modern": "俄国宗教社会主义流派，试图将宗教与社会主义结合。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "马赫主义者",
+            "type": "social_group",
+            "modern": "以马赫哲学为基础的哲学派别，试图修正马克思主义。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p13s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "尤什凯维奇",
+            "type": "person",
+            "modern": "马赫主义分子，参与“前进”文集。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 4,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 2,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote",
+        "hs:claim_5gram_with_quote",
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

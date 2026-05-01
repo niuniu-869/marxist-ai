@@ -1,0 +1,85 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 29,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "恩格斯揭露麦克伦南在论证家庭史时采用双重标准：自己可凭假说编造，却苛求对手提供绝对证据，同时自己又根据零散记述轻率下结论。",
+    "importance_score": 2,
+    "importance_reason": "本段是恩格斯对麦克伦南方法论缺陷的具体批判，属于核心论战的一部分，旨在瓦解对手理论的可信度。",
+    "argument_role": "contrasts",
+    "argument_link": "承接上段对摩尔根新方法的介绍，本段转而批判麦克伦南旧理论的辩护方式，通过对比凸显其论证的不严谨与双重标准。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "麦克伦南",
+      "their_view": "自己可以完全基于假说来构建一套家庭史体系，但要求拉伯克和摩尔根对每一个论点都提供确凿无疑的证据，同时自己却能根据古代著作家关于不同民族的零散记述，就断定这些民族都盛行一妻多夫制。",
+      "author_response": "恩格斯用检察官的比喻揭露这种双重标准的荒谬性：一方可以信口开河地指控，却要求另一方提供法庭级别的铁证。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p29s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p29s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "苏格兰法庭",
+            "type": "metaphor",
+            "modern": "恩格斯用以比喻麦克伦南对证据的要求异常严苛，近乎不切实际的法律标准。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p29s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "塔西佗《日耳曼尼亚志》",
+            "type": "work",
+            "modern": "古罗马历史学家塔西佗记述日耳曼部落社会习俗的著作，是研究早期日耳曼人的重要史料。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

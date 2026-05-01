@@ -1,0 +1,80 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 34,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段总结“德国的社会主义”的阶级属性，指出它服务于德国专制政府，代表小市民阶层的利益，并点明该阶层是德国旧制度的社会基础。",
+    "importance_score": 2,
+    "importance_reason": "作为对“德国的社会主义”批判的收尾，揭示其阶级实质与政治功能，是理解该流派被定性为“反动的”关键。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段关于“德国的社会主义”成为政府工具的论述，进一步剖析其代表的阶级利益及其在德国社会结构中的根源。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p34s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "德国小市民",
+            "type": "social_group",
+            "modern": "19世纪德国社会中一个数量庞大、经济地位脆弱的阶层，包括小手工业者、小商人等，常被视为保守和动摇的力量。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p34s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "小资产阶级",
+            "type": "concept",
+            "modern": "介于资产阶级与无产阶级之间的社会阶层，主要指小企业主、小商人、手工业者等，其经济地位不稳定，政治上常表现出两面性。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "class_petty_bourgeoisie"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

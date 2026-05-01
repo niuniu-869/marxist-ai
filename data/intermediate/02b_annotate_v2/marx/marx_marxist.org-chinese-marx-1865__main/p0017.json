@@ -1,0 +1,102 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 17,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "总结现代工业发展对工人的不利趋势，但强调工人阶级必须坚持经济斗争，因为这是维持生存和发动更大运动的基础。",
+    "importance_score": 3,
+    "importance_reason": "本段是全文论证的结论部分，将前文对资本有机构成趋势的分析转化为对工人斗争策略的直接指导，核心论点在此明确。",
+    "argument_role": "conclusion",
+    "argument_link": "承接上段关于资本有机构成提高导致工人需求相对减少的分析，推导出资本主义工资运动的总趋势，并由此引出对工人斗争必要性的论证。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "韦斯顿及工联主义的消极倾向",
+      "their_view": "既然资本主义发展总体上对工人不利，那么争取提高工资的日常斗争是徒劳的，工人阶级应该放弃这种无望的反抗。",
+      "author_response": "工人阶级必须坚持斗争，因为这种斗争直接关系到维持劳动力价值，并且是锻炼阶级力量、为未来更大规模运动积累资格的必要过程。",
+      "polemic_kind": "strategic_critique",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p17s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p17s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p17s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p17s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p17s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p17s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "商品",
+            "type": "concept",
+            "modern": "马克思在此将工人出卖劳动力类比为商品交换，强调雇佣关系的物化性质。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "commodity_marxist"
+          }
+        ]
+      },
+      {
+        "sid": "p17s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 2,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

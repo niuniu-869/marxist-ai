@@ -1,0 +1,93 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 272,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段论证工会和合作社等经济斗争组织的局限性，指出无产阶级需要一个以推翻资本主义制度为目标的革命性组织。",
+    "importance_score": 2,
+    "importance_reason": "本段在论证链中承上启下，从描述经济组织功能转向提出建立革命政党的必要性。",
+    "argument_role": "contrasts",
+    "argument_link": "上段描述了工会和合作社在资本主义框架内的改良作用，本段则指出这些组织无法满足无产阶级的根本解放需求，从而引出对新组织形式的论证。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p272s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "无产阶级",
+            "type": "concept",
+            "modern": "在马克思主义语境中，指现代工业社会中丧失生产资料、依靠出卖劳动力为生的阶级，被视为革命的领导力量。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "proletarian_modern"
+          }
+        ]
+      },
+      {
+        "sid": "p272s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "资本主义",
+            "type": "concept",
+            "modern": "一种以生产资料私有制和雇佣劳动为基础的社会经济形态，其运行逻辑是资本积累与剩余价值剥削。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "capitalism_marxist"
+          }
+        ]
+      },
+      {
+        "sid": "p272s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p272s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_6>5"
+      ]
+    }
+  ]
+}

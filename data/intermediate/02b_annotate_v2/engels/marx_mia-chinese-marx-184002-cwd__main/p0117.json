@@ -1,0 +1,109 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 117,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段正面回应关于共产党废弃国家的指责，阐明无产阶级在政治上的首要任务是夺取政权，成为统治阶级，并由此形成自己的国家形态，这与资产阶级的国家概念有本质区别。",
+    "importance_score": 2,
+    "importance_reason": "本段提出了无产阶级革命的核心政治纲领，即通过革命建立无产阶级的政治统治，是理解《宣言》策略思想的关键支撑点。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段关于废弃国家的指责，本段正面阐述无产阶级对国家的态度和行动纲领，指出其目标并非废弃国家，而是要通过革命建立自己的国家。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p117s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "劳动者",
+            "type": "concept",
+            "modern": "在《宣言》语境中，特指现代工业社会中的无产阶级，即不占有生产资料、靠出卖劳动力为生的阶级。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "proletarian_modern"
+          }
+        ]
+      },
+      {
+        "sid": "p117s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "从新去掉",
+            "type": "archaic",
+            "modern": "早期白话文表达，意为“重新去除”或“再次剥夺”。此处指不能剥夺一个阶级本就不曾拥有的东西。",
+            "highlight": "archaic",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p117s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p117s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "国民",
+            "type": "concept",
+            "modern": "此处指无产阶级在夺取政权后，以自身为主体所构成的政治共同体，即无产阶级的国家。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "state_marxist_theory"
+          }
+        ]
+      },
+      {
+        "sid": "p117s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 3,
+        "notes_dropped": 2,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "note:n1_overflow_concept_7>5"
+      ]
+    }
+  ]
+}

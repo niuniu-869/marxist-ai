@@ -1,0 +1,127 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 49,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁论证接受苛刻和约的必要性，强调应在困难条件下为苏维埃政权争取喘息时机，并以历史类比说明屈辱条约可转化为积蓄力量的过渡期。",
+    "importance_score": 2,
+    "importance_reason": "本段是列宁为《布列斯特和约》辩护的核心论证之一，通过历史类比和现实分析，为“以空间换时间”的战略提供理论依据。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于人民情绪需要转变的论述，具体阐述在情绪尚未转变的当下，应如何通过务实工作来避免冒险行动，为转变创造条件。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "allusion",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "蒂尔西特和约",
+        "explain": "1807年拿破仑战争期间，普鲁士战败后与法国签订的条约，割地赔款，极为屈辱。但列宁认为，它为普鲁士后来的改革和复兴提供了喘息时机。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p49s6",
+        "quote": "由于德国存在着君主制的组织，德国人民被捆住了手脚，在1807年签订了蒂尔西特和约，在签订这项和约之前就签订过好几次屈辱的和约，这些和约变成了喘息时机之后，每次随之而来的都是新的屈辱和新的违反。",
+        "trigger": "allusion",
+        "reader_block": "引用1807年蒂尔西特和约这一具体历史事件作为类比，读者若不知其背景，将无法理解列宁用此例证说明“屈辱和约可转化为喘息时机”的核心论点。",
+        "parse": {
+          "claim": "历史上，被压迫民族在签订一系列屈辱条约后，这些条约有时能转化为积蓄力量、等待时机的过渡阶段。",
+          "qualifiers": "此转化发生的前提是存在一个能够组织和动员的结构（如列宁所指的“君主制的组织”或“群众的苏维埃组织”）。",
+          "contrast_or_target": "针对党内主张立即以革命战争对抗德国的冒险主义观点，列宁用此历史经验说明，接受暂时的屈辱以换取时间是可行的策略。"
+        },
+        "why": {
+          "relation": "example",
+          "explanation": "本句通过援引普鲁士在蒂尔西特和约后的历史，为前文提出的“在空前屈辱的条约下进行工作”提供一个具体的历史先例，以增强其论证的说服力。"
+        },
+        "implication": "列宁暗示，苏维埃俄国当前的处境与历史上的普鲁士有相似之处，即可以通过接受不利条约来争取组织和恢复的时间。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "左派共产主义者",
+      "their_view": "拒绝接受屈辱和约，主张立即进行革命战争，认为这是对无产阶级事业的忠诚，任何妥协都是不可接受的。",
+      "author_response": "列宁指出，这种主张是“愚蠢透顶的冒险行动”，会毁掉苏维埃政权；正确的策略是在困难条件下务实工作，利用和约争取的喘息时机巩固力量。",
+      "polemic_kind": "strategic_critique",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p49s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p49s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p49s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p49s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p49s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p49s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "蒂尔西特和约",
+            "type": "event",
+            "modern": "1807年拿破仑战争期间，普鲁士战败后与法国签订的屈辱性停战条约。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p49s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 1,
+        "hs_kept": 1,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

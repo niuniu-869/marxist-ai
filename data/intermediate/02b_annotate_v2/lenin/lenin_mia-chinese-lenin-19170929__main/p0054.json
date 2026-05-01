@@ -1,0 +1,84 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 54,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "以哥萨克军队为例，反问其规模与立场，并推及整个军队可能提供的援助，以论证起义条件。",
+    "importance_score": 1,
+    "importance_reason": "作为附言，用具体军事力量的例子补充和强化前文关于起义时机成熟的论证。",
+    "argument_role": "continues",
+    "argument_link": "承接前文对革命形势的分析，具体到军队这一关键力量，用反问形式强调其可能倒向革命一边。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "哥萨克军队",
+        "explain": "沙俄时期特殊的军事-社会群体，多来自边疆地区，享有特权，传统上效忠沙皇。二月革命后其政治立场复杂，列宁在此判断其不会反对主张和平的革命政府。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p54s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "哥萨克军队",
+            "type": "social_group",
+            "modern": "沙俄时期享有特权、传统上效忠沙皇的特殊军事群体，其政治动向是革命力量关注的重点。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p54s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p54s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

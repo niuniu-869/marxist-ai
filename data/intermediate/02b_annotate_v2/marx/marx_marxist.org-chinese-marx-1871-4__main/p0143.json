@@ -1,0 +1,55 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 143,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "描述凡尔赛政府对巴黎实行封锁，以阻止公社思想传播到外省引发农民起义。",
+    "importance_score": 2,
+    "importance_reason": "通过分析封锁动机，揭示资产阶级对农民起义的恐惧，支撑对梯也尔政府的批判。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对农民政治态度的分析，具体说明资产阶级政府如何恐惧农民与巴黎公社的联合。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "梯也尔领导的凡尔赛政府",
+      "their_view": "巴黎公社的存在和传播对现有秩序构成威胁，必须通过封锁来隔离。",
+      "author_response": "马克思指出，这种封锁恰恰暴露了资产阶级对农民起义的恐惧，证明公社代表了工农联合的方向。",
+      "polemic_kind": "reveals_class_basis",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p143s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

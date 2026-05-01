@@ -1,0 +1,92 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 54,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段指出暂行赎免法偏袒贵族利益，小百姓受压迫，但贵族仍不满足，要求更多经济好处。",
+    "importance_score": 2,
+    "importance_reason": "通过具体法令实例，展示贵族如何利用法律维护自身利益，支撑前文关于阶级斗争的论点。",
+    "argument_role": "example",
+    "argument_link": "本段承接上段对西里西亚贵族掠夺的描述，以暂行赎免法为例，具体说明贵族如何通过立法巩固经济地位。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "暂行赎免法背景",
+        "explain": "1876年德国颁布的法令，旨在赎免农奴对地主的义务，但实际条款偏向保护贵族利益，加剧了农村阶级矛盾。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p54s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "新世界",
+            "type": "work",
+            "modern": "19世纪德文社会主义刊物，恩格斯曾为其撰稿",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p54s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p54s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p54s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 3,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

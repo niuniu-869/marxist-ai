@@ -1,0 +1,70 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 30,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段用俄国革命的事实，宣称此前提出的革命口号正在被现实证实。",
+    "importance_score": 2,
+    "importance_reason": "用俄国革命事实支撑前文提出的口号，是论证的关键环节。",
+    "argument_role": "continues",
+    "argument_link": "上段回顾口号提出时的遭遇，本段用新事实证明其正确性，完成从回顾到验证的推进。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p30s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p30s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "变帝国主义战争为国内战争",
+            "type": "slogan",
+            "modern": "列宁在1914年提出的政治主张，号召将帝国主义列强间的战争转变为无产阶级反对本国资产阶级的革命。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

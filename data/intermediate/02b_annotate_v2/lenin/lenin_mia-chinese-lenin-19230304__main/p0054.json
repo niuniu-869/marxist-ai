@@ -1,0 +1,76 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 54,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁回应关于学习与业务结合的质疑，指出苏维埃国家机关沾染了西欧制度的有害偏见，而官僚正利用这些偏见谋取私利。",
+    "importance_score": 2,
+    "importance_reason": "本段通过批判官僚利用偏见，为后续提出具体改革措施提供现实依据。",
+    "argument_role": "continues",
+    "argument_link": "承接上文对国家机关问题的分析，具体指出官僚如何利用旧偏见阻碍改革。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p54s4",
+        "quote": "他们这种浑水摸鱼的勾当已经猖狂到如此地步，我们中间只有瞎子才看不见。",
+        "trigger": "inverted_logic",
+        "reader_block": "反讽句式“只有瞎子才看不见”实际强调问题显而易见，但读者可能误读为字面意思。",
+        "parse": {
+          "claim": "官僚利用偏见谋利的行为已经公开化，所有人都应察觉。",
+          "qualifiers": "",
+          "contrast_or_target": "针对那些对官僚问题视而不见或轻描淡写的人。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "通过反讽强化对官僚行为的批判，呼应前文对浑水摸鱼的指控。"
+        },
+        "implication": "暗示改革需要打破这种集体沉默。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "官僚及对改革持怀疑态度者",
+      "their_view": "学习与业务结合未必合适，官僚问题被夸大。",
+      "author_response": "结合不但合适而且应该，官僚利用偏见谋利已成公开事实。",
+      "polemic_kind": "strategic_critique",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p54s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p54s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p54s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p54s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  }
+}

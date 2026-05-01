@@ -1,0 +1,72 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 38,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段对比两种联盟：一种是反对布尔什维克的联盟已受考验并失败，另一种是布尔什维克与小资产阶级政党结成的反立宪民主党联盟，仅在科尔尼洛夫叛乱期间短暂考验过并取得胜利。",
+    "importance_score": 2,
+    "importance_reason": "通过对比两种联盟的考验情况，支撑前一段关于反对布尔什维克联盟失败的论点，并为论证布尔什维克策略的有效性提供例证。",
+    "argument_role": "continues",
+    "argument_link": "上一段指出反对布尔什维克的联盟实际上加强了布尔什维克，本段则转向讨论布尔什维克与小资产阶级政党结成的反立宪民主党联盟，指出这个联盟只在科尔尼洛夫叛乱期间短暂考验过并取得了胜利，从而与上一段的联盟形成对比。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "立宪民主党人",
+      "their_view": "国内战争会毁掉革命成果、血流成河，因此必须反对将革命引向深入，反对社会主义空想。",
+      "author_response": "列宁指出，他们与社会革命党人、孟什维克结成的反对布尔什维克的联盟，经过实践考验后反而加强了布尔什维克，使“联合”破产。",
+      "polemic_kind": "strategic_critique",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p38s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p38s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "国内战争",
+            "type": "concept",
+            "modern": "此处特指反革命势力为扼杀革命而发动的武装冲突，列宁强调其在科尔尼洛夫叛乱中被迅速粉碎。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "civil_war_revolutionary"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 2,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_5gram_with_surface",
+        "note:n1_overflow_concept_7>5"
+      ]
+    }
+  ]
+}

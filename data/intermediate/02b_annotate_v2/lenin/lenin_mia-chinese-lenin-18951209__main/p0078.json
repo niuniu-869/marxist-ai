@@ -1,0 +1,95 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 78,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段以1885-1886年及1896年的罢工为例，论证工人斗争必然迫使政府做出让步，从而证明工人联合起来是影响国家政权的有效力量。",
+    "importance_score": 2,
+    "importance_reason": "用具体历史事件为前文关于工人斗争政治性质的论断提供实证支撑，是论证链中的关键例证。",
+    "argument_role": "example",
+    "argument_link": "承接上段关于工人斗争必然导致与政府冲突的论断，用俄国两次罢工的具体史实，证明政府被迫回应工人的联合反抗。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p78s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p78s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p78s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p78s4",
+        "speaker": "editor",
+        "stance": "neutral_citation",
+        "notes": []
+      },
+      {
+        "sid": "p78s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "财政大臣维特",
+            "type": "person",
+            "modern": "谢尔盖·维特，时任俄国财政大臣，推行了包括工厂法规在内的一系列经济改革。",
+            "highlight": "person",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p78s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 2,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_event_15>12",
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

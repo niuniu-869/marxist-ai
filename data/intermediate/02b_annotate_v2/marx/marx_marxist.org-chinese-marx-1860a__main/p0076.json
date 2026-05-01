@@ -1,0 +1,64 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 76,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "马克思摘录巴枯宁关于泛日耳曼帝国即将崩溃的论断，并通过反问句质疑其对斯拉夫人心理的预设。",
+    "importance_score": 1,
+    "importance_reason": "作为马克思对巴枯宁无政府主义观点的具体反驳示例，服务于对论敌的批判。",
+    "argument_role": "continues",
+    "argument_link": "本段承接上段关于斯拉夫人觉醒的叙述，具体分析他们对德意志帝国这一国家形式的态度。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "refute_quotation"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "巴枯宁",
+      "their_view": "泛日耳曼帝国即将垮台，各国人民期待其崩溃以获得拯救，并且斯拉夫人可能羡慕德国人被欧洲憎恨的处境。",
+      "author_response": "马克思通过反问指出，斯拉夫人不会羡慕一种被普遍憎恨的状态，从而质疑巴枯宁对斯拉夫人态度的判断。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p76s1",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": [
+          {
+            "surface": "泛日耳曼帝国",
+            "type": "org",
+            "modern": "1871年统一的德意志帝国，其政策带有泛日耳曼主义扩张色彩。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

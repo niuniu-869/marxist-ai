@@ -1,0 +1,76 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 185,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "作者转述并驳斥无政府主义者对马克思唯物主义的攻击，指出他们将其歪曲为“平行主义”或“二元论”。",
+    "importance_score": 2,
+    "importance_reason": "本段是论战核心环节，具体展示无政府主义者对马克思主义哲学基础的错误指控，为后续反驳树立靶子。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对思想体系与吃饭关系的讨论，转向无政府主义者对马克思唯物主义本身的直接攻击。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "refute_quotation"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "平行主义",
+        "explain": "在哲学论战中，指一种认为物质与精神（或不同实体）平行存在、互不决定的理论。无政府主义者用此词攻击马克思的唯物主义，意指其未能彻底解决物质与意识的关系问题。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "一元论唯物主义",
+        "explain": "指主张世界本原只有一个（物质）的唯物主义体系。无政府主义者攻击这种体系是“掩饰不周的二元论”，意指其内部存在无法调和的矛盾。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "无政府主义者",
+      "their_view": "马克思的唯物主义是“平行主义”或“掩饰不周的二元论”，因为它把生产关系视为物质现象，却把人的意向和意志看作无意义的幻想，这导致了理论上的不彻底和妥协。",
+      "author_response": "作者在此段仅转述论敌观点，尚未展开反驳。其立场隐含在转述的批判性语境中，即认为这种指控是对马克思唯物主义的歪曲。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p185s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p185s2",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

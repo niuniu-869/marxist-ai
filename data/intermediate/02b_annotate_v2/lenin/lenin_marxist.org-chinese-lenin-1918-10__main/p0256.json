@@ -1,0 +1,111 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 256,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁以苏维埃剥夺剥削者选举权为据，论证其作为无产阶级革命机关的性质，并驳斥考茨基等人的议会空谈。",
+    "importance_score": 2,
+    "importance_reason": "通过具体政治实践（剥夺选举权）来定义苏维埃政权性质，是反驳考茨基的关键论据。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对苏维埃宪法的肯定，本段进一步用剥夺剥削者选举权这一具体实践，来界定苏维埃政权的阶级属性。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p256s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "苏维埃",
+            "type": "org",
+            "modern": "1917年俄国革命后出现的工兵代表会议，是无产阶级政权的组织形式",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "剥削者",
+            "type": "social_group",
+            "modern": "占有生产资料、靠剥削他人劳动为生的阶级成员",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          },
+          {
+            "surface": "被压迫群众",
+            "type": "social_group",
+            "modern": "在资本主义制度下受剥削和压迫的无产阶级及其他劳动群众",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p256s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "考茨基",
+            "type": "person",
+            "modern": "第二国际理论家，列宁批判其机会主义立场",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "龙格",
+            "type": "person",
+            "modern": "法国社会党领袖，主张议会道路",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "麦克唐纳",
+            "type": "person",
+            "modern": "英国工党领袖，主张渐进改良",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 6,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

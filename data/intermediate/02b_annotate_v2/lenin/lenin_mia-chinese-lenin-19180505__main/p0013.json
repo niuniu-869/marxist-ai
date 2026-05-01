@@ -1,0 +1,81 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 13,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁直接点名批评“左派”共产主义者，指出他们自称无产阶级却带有浓厚小资产阶级性，核心缺陷是不善于分析现实力量对比。",
+    "importance_score": 2,
+    "importance_reason": "这是对论敌核心弱点的直接定性批判，揭示了其理论与实践错误的阶级根源。",
+    "argument_role": "contrasts",
+    "argument_link": "承接上段对正确策略（缔结和约）的肯定，转而直接批判与之对立的“左派”集团，指出其错误根源在于脱离现实。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "“左派共产主义者”小集团",
+      "their_view": "我们是无产阶级的共产主义者，必须立即对帝国主义发动进攻，用实际行动进行国际革命宣传。",
+      "author_response": "列宁指出，他们身上无产阶级性极少而小资产阶级性极多，其根本错误在于脱离对现实力量对比的冷静分析，只会空谈革命口号。",
+      "polemic_kind": "reveals_class_basis",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p13s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "小资产阶级",
+            "type": "concept",
+            "modern": "在列宁的论战语境中，此词特指具有动摇性、空谈革命而回避现实困难的阶级立场，与坚定的无产阶级革命性相对。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "petty_bourgeoisie_marxist"
+          }
+        ]
+      },
+      {
+        "sid": "p13s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "傲慢地",
+            "type": "metaphor",
+            "modern": "列宁用此词形容“左派”共产主义者脱离实际、自以为是的态度，与他们所缺乏的务实精神形成反差。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 2,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_metaphor_22>8",
+        "note:n1_overflow_concept_7>5"
+      ]
+    }
+  ]
+}

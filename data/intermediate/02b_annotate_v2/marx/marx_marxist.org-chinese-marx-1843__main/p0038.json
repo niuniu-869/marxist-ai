@@ -1,0 +1,123 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 38,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段具体剖析德国政府如何将现代国家制度的缺陷与旧制度的野蛮性杂糅，形成一种独特的政治折衷主义，并指出其根源在于德国的特殊状况。",
+    "importance_score": 2,
+    "importance_reason": "本段是前文抽象论断的具体化，通过列举德国政治的荒诞结合，为后文论证德国革命的特殊性与普遍性关系提供现实例证。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于德国只分担现代发展痛苦的抽象论断，本段具体展示这种痛苦在德国政治制度层面的体现，即一种畸形的混合体。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "德意志民族的神圣罗马帝国",
+        "explain": "一个存在于中世纪至1806年的松散政治联合体，马克思用其名来讽刺19世纪德国邦联的混乱与落后，暗示其汇集了历史上各种国家形式的弊端。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "法国九月法令",
+        "explain": "1835年法国七月王朝颁布的限制出版自由的法律，马克思用以对比德国政府既无出版自由，又想模仿这种限制性法令的荒谬。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "德国各邦政府",
+      "their_view": "德国政府试图扮演一切角色，结合各种对立的制度形式，既想维持旧特权，又想模仿现代立宪的外观。",
+      "author_response": "马克思揭露这种结合是荒谬的折衷主义，德国政府只分享了立宪制的幻想而未获得其现实成就，其政治是各种罪孽的汇集。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p38s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p38s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p38s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p38s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p38s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "百神庙",
+            "type": "metaphor",
+            "modern": "古罗马供奉众多神祇的庙宇，马克思用以比喻德国汇集了各种国家形式的弊病。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p38s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p38s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p38s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 2,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "hs:claim_5gram_with_quote",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

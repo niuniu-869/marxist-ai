@@ -1,0 +1,108 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 57,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "通过英法土地所有权的对比，论证法律对所有权的影响受制于实际生产方式，而非相反。",
+    "importance_score": 2,
+    "importance_reason": "用具体案例论证法律（上层建筑）与生产（经济基础）的关系，是方法论的具体展开。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于生产方式决定所有权形式的论点，从奴隶制例子转向法律对土地所有权的影响。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p57s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "生产资料",
+            "type": "concept",
+            "modern": "在政治经济学中指土地、机器、原料等用于生产的物质条件。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "means_of_production"
+          }
+        ]
+      },
+      {
+        "sid": "p57s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p57s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "革命",
+            "type": "concept",
+            "modern": "此处指法国大革命及其后续进程对封建土地制度的冲击。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "revolution"
+          }
+        ]
+      },
+      {
+        "sid": "p57s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p57s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p57s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 4,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_6>5",
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

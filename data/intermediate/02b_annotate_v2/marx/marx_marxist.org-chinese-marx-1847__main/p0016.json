@@ -1,0 +1,64 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 16,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "马克思指出蒲鲁东试图将刑法典条文归因于资产阶级生产关系的必然结果。",
+    "importance_score": 2,
+    "importance_reason": "本段直接批判蒲鲁东对法律与生产关系的错误关联，是论辩的关键环节。",
+    "argument_role": "contrasts",
+    "argument_link": "上一段引用蒲鲁东将罢工违法归因于刑法典和经济体系，本段则指出蒲鲁东将刑法典条文视为资产阶级生产关系的产物，形成对照。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "法国刑法典",
+        "explain": "1810年颁布的法国刑法典，规定了刑事犯罪和刑罚，其中包括对工人组织和罢工的限制条款。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p16s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_5gram_with_surface",
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

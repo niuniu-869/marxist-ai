@@ -1,0 +1,116 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 71,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "恩格斯通过将费尔巴哈的道德原则置于证券交易所的语境中进行推演，以归谬法揭示其道德论的阶级实质。",
+    "importance_score": 2,
+    "importance_reason": "这是对费尔巴哈抽象道德论的具体批判，通过一个极端例子暴露其与资本主义社会的契合性，支撑了全文对费尔巴哈历史唯心主义的总批判。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段对费尔巴哈抽象平等权利的批判，本段进一步将其道德论置于具体的社会经济场景（交易所）中，揭示其为资产阶级利益服务的实质。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "allusion",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p71s5",
+        "quote": "如果他陪了钱，那末这就证明他的行为是不道德的，因为他盘算错了，而且，在我对他执行应得的惩罚时，我甚至可以摆出现代拉达曼的架子来。",
+        "trigger": "allusion",
+        "reader_block": "“现代拉达曼”是希腊神话中冥界法官的典故，读者若不知此背景，会难以理解此处讽刺的“道德审判”意味。",
+        "parse": {
+          "claim": "在费尔巴哈的道德逻辑下，交易亏损者因其“盘算错”而被判定为不道德，获利者则有权像法官一样对其进行道德审判。",
+          "qualifiers": "此推论的前提是费尔巴哈将道德完全等同于个人追求幸福欲望的得当实现。",
+          "contrast_or_target": "费尔巴哈认为道德是基于个人追求幸福的合理行为，人与人关系应建立在相互承认对方追求幸福的权利上。"
+        },
+        "why": {
+          "relation": "example",
+          "explanation": "此句是恩格斯归谬论证的关键一步，通过引入“拉达曼”这一法官形象，将费尔巴哈道德论在交易所中的逻辑后果推向极致，即把经济成败直接等同于道德审判。"
+        },
+        "implication": "这揭示了费尔巴哈道德观在阶级社会中会自然导向一种以成败论道德的、为强者辩护的意识形态。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p71s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p71s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p71s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p71s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p71s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p71s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p71s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p71s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 1,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

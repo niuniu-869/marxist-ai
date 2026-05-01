@@ -1,0 +1,154 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 70,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段论证共产主义革命将消灭使人受异己力量支配的条件，使个人解放与历史成为世界历史的进程相一致，并批判了将此过程唯心主义地解释为“类的自我产生”的观点。",
+    "importance_score": 3,
+    "importance_reason": "本段是《德意志意识形态》核心论点的关键阐述，将世界历史的形成、异化力量的根源与共产主义革命的目标直接联系起来。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段关于历史转变为世界历史的论述，进一步分析这一转变带来的后果（异己力量的支配）及其在共产主义革命中的解决。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "圣布鲁诺与“唯一者”",
+        "explain": "圣布鲁诺指布鲁诺·鲍威尔，青年黑格尔派代表人物。“唯一者”是麦克斯·施蒂纳的著作，主张极端个人主义。二者均被马克思恩格斯视为用思辨唯心主义解释历史的论敌。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p70s7",
+        "quote": "这种观点仍然可以被思辨地、唯心地、即幻想地解释为“类的自我产生”(“作为主体的社会”)，从而把所有前后相继、彼此相联的个人想象为从事自我产生这种神秘活动的唯一的个人。",
+        "trigger": "inverted_logic",
+        "reader_block": "“这种观点”指代前文唯物主义的解释，但本句却说它可以被唯心地解释，逻辑上构成一种让步和转折，读者易混淆作者立场。",
+        "parse": {
+          "claim": "上述关于革命转化力量的唯物主义观点，也可能被思辨哲学家们用唯心主义的方式重新解释，将其说成是抽象的“类”或“社会”在进行自我创造的神秘过程。",
+          "qualifiers": "这是对同一事实的另一种（错误的）解释方式。",
+          "contrast_or_target": "思辨哲学家（如青年黑格尔派）将历史进程解释为“类的自我产生”或“作为主体的社会”的自我运动。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "本句开始直接批判青年黑格尔派的唯心史观，指出他们如何将客观的历史进程扭曲为抽象概念的自我活动。"
+        },
+        "implication": "作者强调，必须坚持从物质实践出发理解历史，而非从思辨概念出发。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "青年黑格尔派（圣布鲁诺、施蒂纳）",
+      "their_view": "历史是“类”或“唯一者”等抽象主体自我产生、自我实现的过程，个人的联系与发展是这种神秘活动的表现。",
+      "author_response": "历史是现实的个人通过物质生产和社会交往创造的，所谓的“类的自我产生”是对这一过程的唯心主义幻想和颠倒。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p70s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "世界市场",
+            "type": "concept",
+            "modern": "在马克思恩格斯语境中，指资本主义生产方式扩张所形成的全球性经济联系网络，是异己力量在经济领域的集中体现。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "world_market"
+          }
+        ]
+      },
+      {
+        "sid": "p70s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p70s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p70s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p70s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p70s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p70s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p70s8",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": [
+          {
+            "surface": "圣布鲁诺",
+            "type": "person",
+            "modern": "布鲁诺·鲍威尔，青年黑格尔派主要成员，马克思恩格斯在此作为思辨唯心主义的代表进行批判。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "唯一者",
+            "type": "work",
+            "modern": "麦克斯·施蒂纳的著作《唯一者及其所有物》，宣扬极端利己主义和个人主义，是马克思恩格斯批判的“德意志意识形态”的一种。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 3,
+        "notes_dropped": 3,
+        "hs_kept": 1,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_6>5",
+        "note:n1_overflow_concept_6>5",
+        "note:n1_overflow_concept_6>5",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

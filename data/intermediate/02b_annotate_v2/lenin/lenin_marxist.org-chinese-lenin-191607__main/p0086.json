@@ -1,0 +1,93 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 86,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "用比喻说明实现民族平等融合的路径多样性，并批判压迫民族中脱离实际的空谈者。",
+    "importance_score": 2,
+    "importance_reason": "通过比喻和批判，具体化民族自决原则在压迫民族中的实践要求。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于压迫民族与被压迫民族教育差异的讨论，进一步阐明压迫民族社会民主党人应如何正确理解民族融合。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "压迫民族中的社会民主党人",
+      "their_view": "只要一般地鼓吹民族融合就够了，不需要考虑帝国主义国家用兼并手段实现的“融合”。",
+      "author_response": "列宁指出，这种空谈忽视了帝国主义兼并的现实，在理论上是教条主义，在实践上是帝国主义的帮凶。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p86s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p86s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p86s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "教条主义者",
+            "type": "concept",
+            "modern": "脱离具体历史条件，机械套用抽象原则的理论者",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "dogmatism"
+          },
+          {
+            "surface": "尼古拉二世",
+            "type": "person",
+            "modern": "俄国末代沙皇，代表帝国主义国家领导人",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "彭加勒",
+            "type": "person",
+            "modern": "时任法国总统，代表协约国帝国主义势力",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 3,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_metaphor_12>8"
+      ]
+    }
+  ]
+}

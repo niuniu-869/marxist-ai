@@ -1,0 +1,79 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 148,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段通过引用资产阶级对改良和工人监督的赞同，揭露其虚伪性，并批评巴扎罗夫未深思阶级斗争学说而落入圈套。",
+    "importance_score": 2,
+    "importance_reason": "本段是论证布尔什维克保持政权可能性的关键环节，通过反面例证强化论点。",
+    "argument_role": "contrasts",
+    "argument_link": "承接上段对联合尝试的讥笑，具体展示资产阶级如何利用改良话语设下陷阱。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "refute_quotation"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "巴扎罗夫其人",
+        "explain": "巴扎罗夫是当时俄国一位马克思主义理论家，属于新生活派。他主张工人监督，但未认清资产阶级在改良口号下的真实意图。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "阶级斗争学说",
+        "explain": "马克思主义认为，不同阶级之间存在基于经济利益的根本对立和冲突，这是理解社会政治现象的核心视角。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p148s2",
+        "quote": "而巴扎罗夫由于没有对阶级斗争的学说细加思索，就上了资产阶级的这个圈套，于是好心的巴扎罗夫在客观上就扮演了资本家应声虫的角色。",
+        "trigger": "inverted_logic",
+        "reader_block": "反讽用法（“好心的”）与逻辑因果链（“由于…就…于是…”）结合，读者可能困惑为何善意会导致负面结果。",
+        "parse": {
+          "claim": "巴扎罗夫因未充分运用阶级分析方法，无意中成为资产阶级观点的传播者。",
+          "qualifiers": "限定于巴扎罗夫个人在特定理论问题上的失误。",
+          "contrast_or_target": "资产阶级声称支持改良和工人监督，实则以此阻止革命。"
+        },
+        "why": {
+          "relation": "example",
+          "explanation": "本句通过具体人物例证，揭示小资产阶级理论家在阶级斗争中的不自觉立场，强化对改良主义的批判。"
+        },
+        "implication": "这表明，脱离阶级斗争框架的善意主张，可能在客观上服务于对立阶级的利益。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "资产阶级",
+      "their_view": "我们不反对改良，主张工人参加全国性的监督，完全同意这种安排。",
+      "author_response": "列宁指出这是资产阶级设下的圈套，旨在用改良话语阻止无产阶级夺取政权的革命行动。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p148s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p148s2",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      }
+    ]
+  }
+}

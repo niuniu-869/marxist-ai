@@ -1,0 +1,153 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 21,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "恩格斯评价麦克伦南在发现外婚制和母权制世系方面的贡献，同时指出其理论存在根本性误解和方法论缺陷。",
+    "importance_score": 2,
+    "importance_reason": "本段是恩格斯对论敌麦克伦南学术观点的具体评析，为后续批判其理论错误奠定基础。",
+    "argument_role": "contrasts",
+    "argument_link": "承接上段对麦克伦南具体论述的引用，转而对其理论贡献与缺陷进行系统性评价，形成先引后评的论证结构。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p21s1",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": [
+          {
+            "surface": "外婚制",
+            "type": "concept",
+            "modern": "一种婚姻规则，要求个体必须在本群体之外寻找配偶。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "exogamy_anthropological"
+          }
+        ]
+      },
+      {
+        "sid": "p21s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p21s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "莱瑟姆",
+            "type": "person",
+            "modern": "19世纪英国民族学家，著有《记述民族学》。",
+            "highlight": "person",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "印度马加尔人",
+            "type": "social_group",
+            "modern": "居住在印度东北部的一个民族群体，其社会制度曾被用作民族志案例。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p21s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "摩尔根",
+            "type": "person",
+            "modern": "美国人类学家，其著作《古代社会》是恩格斯写作本书的重要依据。",
+            "highlight": "person",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "易洛魁人",
+            "type": "social_group",
+            "modern": "北美印第安人的一支，其社会结构是摩尔根研究原始社会的关键案例。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          },
+          {
+            "surface": "巴霍芬",
+            "type": "person",
+            "modern": "瑞士法学家、人类学家，较早提出母权制理论，但其解释带有神秘主义色彩。",
+            "highlight": "person",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p21s5",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p21s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p21s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p21s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 6,
+        "notes_dropped": 2,
+        "hs_kept": 0,
+        "hs_dropped": 2,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "note:n1_overflow_concept_12>5",
+        "hs:claim_5gram_with_quote",
+        "hs:claim_5gram_with_quote",
+        "polemic:polemic_their_view_qualifier:错误地"
+      ]
+    }
+  ]
+}

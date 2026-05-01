@@ -1,0 +1,85 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 57,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁引用恩格斯1891年的一封信，说明在战争危机中，德国社会党人可能被迫采取革命手段夺取政权。",
+    "importance_score": 2,
+    "importance_reason": "作为具体历史例证，展示恩格斯在战争危机中对革命手段的明确态度，用以反驳机会主义对革命性的模糊。",
+    "argument_role": "example",
+    "argument_link": "承接上文对恩格斯革命立场的论述，通过1891年战争危机的具体通信，提供一个历史实例来支撑论点。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "allusion",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p57s4",
+        "quote": "“德国如被扼杀，我们也会和它一起同归于尽。若是发生有利的转变，斗争就会异常激烈，那时德国只有采取革命的手段才能站住脚，因而我们很可能不得不掌握政权，演一次1793年。”",
+        "trigger": "allusion",
+        "reader_block": "“演一次1793年”是历史典故，读者若不知法国大革命中1793年的具体含义，无法理解此处指代何种程度的革命行动。",
+        "parse": {
+          "claim": "在极端战争危机下，德国无产阶级政党可能被迫通过暴力革命夺取国家政权。",
+          "qualifiers": "前提是“德国受到俄国侵犯”且“发生有利的转变”，斗争变得“异常激烈”。",
+          "contrast_or_target": ""
+        },
+        "why": {
+          "relation": "example",
+          "explanation": "此句是恩格斯对战争危机下革命前景的具体推演，用“1793年”这一历史符号来指代彻底的、以专政形式进行的革命，为前文“殊死的战斗”提供具体行动图景。"
+        },
+        "implication": "恩格斯认为，即使在民族战争中，无产阶级政党的最终目标仍是夺取政权并建立革命专政，而非单纯保卫国家。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p57s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p57s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p57s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p57s4",
+        "speaker": "quoted_engels",
+        "stance": "endorsed",
+        "notes": [
+          {
+            "surface": "1793年",
+            "type": "event",
+            "modern": "法国大革命中的雅各宾专政时期，以革命暴力和恐怖政策著称，此处借指彻底的无产阶级革命行动。",
+            "highlight": "allusion",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  }
+}

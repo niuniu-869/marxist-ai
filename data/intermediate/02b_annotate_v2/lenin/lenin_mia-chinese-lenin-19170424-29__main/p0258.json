@@ -1,0 +1,104 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 258,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁为士兵联欢指明政治前途，主张将其从自发的接近提升为有意识的革命运动，目标是夺取各交战国政权。",
+    "importance_score": 2,
+    "importance_reason": "本段提出了将自发群众运动转化为自觉无产阶级革命的战略构想，是列宁主义革命策略的具体体现。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对联欢自发性的承认，进一步指明其政治前途和党的任务，即引导自发运动走向夺取政权的自觉目标。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "term_density",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "《告各交战国士兵书》",
+        "explain": "布尔什维克党在1917年4月发表的文件，呼吁各交战国士兵联合起来，反对本国政府，将政权转到苏维埃手中。这是列宁“变帝国主义战争为国内战争”口号的具体化。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "革命护国主义与和平主义倾向",
+      "their_view": "士兵之间的和平联欢本身是好事，是战争苦难的自然反应，应予以支持和鼓励，但无需将其引向夺取政权的革命目标。",
+      "author_response": "列宁指出，仅停留于自发联欢是不够的，党的任务是将其提升为有意识的革命运动，最终目标是推翻资产阶级政权，建立无产阶级专政。",
+      "polemic_kind": "strategic_critique",
+      "confidence": "medium"
+    },
+    "sentences": [
+      {
+        "sid": "p258s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p258s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p258s3",
+        "speaker": "editor",
+        "stance": "neutral_citation",
+        "notes": []
+      },
+      {
+        "sid": "p258s4",
+        "speaker": "editor",
+        "stance": "neutral_citation",
+        "notes": []
+      },
+      {
+        "sid": "p258s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p258s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p258s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 5,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_slogan_13>12",
+        "note:n1_overflow_concept_18>5",
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix",
+        "note:n1_overflow_concept_12>5",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

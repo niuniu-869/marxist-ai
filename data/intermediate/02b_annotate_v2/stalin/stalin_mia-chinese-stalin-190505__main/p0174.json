@@ -1,0 +1,70 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 174,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "作者回应孟什维克关于工人支持的论点，指出工人支持某个派别并不能证明该派别正确，用类比说明这一点。",
+    "importance_score": 2,
+    "importance_reason": "本段通过类比反驳孟什维克以工人支持为论据的论证，是核心论点的支撑。",
+    "argument_role": "contrasts",
+    "argument_link": "本段直接回应上一段孟什维克的提问，通过类比反驳其以工人支持为论据的论证。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "allusion",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p174s3",
+        "quote": "有一次，连乌鸦也找到了玫瑰花，但这并不是说乌鸦就是夜莺。难怪俗语说：",
+        "trigger": "allusion",
+        "reader_block": "民间典故“乌鸦找到玫瑰花”和“乌鸦是夜莺”的反讽，读者可能不熟悉这个比喻的寓意。",
+        "parse": {
+          "claim": "偶然的、表面的相似或支持，不能证明本质的同一。",
+          "qualifiers": "",
+          "contrast_or_target": "孟什维克以工人支持为论据，认为这能证明其立场正确。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "用民间比喻反驳孟什维克，指出偶然的工人支持不能证明其立场代表无产阶级。"
+        },
+        "implication": "判断一个派别的性质不能看表面现象，要看其理论和实践是否符合无产阶级利益。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "孟什维克（少数派）",
+      "their_view": "工人站在我们这方面，这证明我们的立场是正确的。",
+      "author_response": "工人支持某个派别并不能证明该派别正确，就像工人也可能支持修正主义者，但这不能证明修正主义者就是无产阶级的代表。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p174s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p174s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p174s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,258 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 36,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "恩格斯讽刺伦敦的布朗基主义流亡者自诩为革命实干家，实则陷入自我欺骗与矛盾，热衷于内部清洗和无谓论战。",
+    "importance_score": 2,
+    "importance_reason": "通过具体事例，批判布朗基主义流亡者脱离实际的空想与内斗，是前文对布朗基主义路线批判的延伸和例证。",
+    "argument_role": "example",
+    "argument_link": "承接上段对布朗基主义在德国和法国工人中影响的判断，具体描绘其在伦敦流亡者中的表现，以实例支撑其“过时”与“不成熟”的论断。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_density",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "allusion",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "哈姆雷特与布鲁土斯",
+        "explain": "哈姆雷特是莎士比亚笔下优柔寡断的王子；布鲁土斯是刺杀凯撒的罗马共和派，常被视为理想主义者的象征。恩格斯用此讽刺流亡者空有理想却无行动能力。",
+        "why_needed": "allusion",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "麦罗斯与度申爸爸",
+        "explain": "麦罗斯是古希腊传说中刺杀暴君的英雄；“度申爸爸”是法国大革命时期阿贝尔创办的激进小报。恩格斯用此对比，讽刺流亡者对手的粗鄙。",
+        "why_needed": "allusion",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "韦梅希与巴黎小报",
+        "explain": "韦梅希是巴黎公社后一份小报的编辑，以文风粗俗闻名。他与流亡者的论战，反映了当时流亡者圈子内部的混乱与低级纷争。",
+        "why_needed": "history_missing",
+        "confidence": "medium",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p36s4",
+        "quote": "布朗基的革命本能和他的果断精神并不是每个人都具备的，无论哈姆雷特说过多少次要有毅力，但哈姆雷特始终是哈姆雷特。",
+        "trigger": "allusion",
+        "reader_block": "引用哈姆雷特典故，读者若不熟悉其“犹豫不决”的性格，无法理解作者用此比喻流亡者缺乏革命行动力的讽刺。",
+        "parse": {
+          "claim": "布朗基所代表的那种果敢的革命行动能力，并非人人天生拥有。",
+          "qualifiers": "特指那些自诩为布朗基继承者的伦敦流亡者。",
+          "contrast_or_target": "布朗基主义者自认为能像布朗基一样果断行动，发动革命。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "用文学典故反驳流亡者自诩为“实干家”的自我认知，指出他们本质上缺乏革命所需的特质。"
+        },
+        "implication": "流亡者对自身革命能力的判断是错误的，其行动必然失败。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "伦敦的布朗基主义流亡者（“三十三位实干家”、“纯洁派”）",
+      "their_view": "我们是革命的实干家，拥有布朗基式的本能和果断，能够策划并领导下一次起义，为此必须纯洁公社参加者的队伍。",
+      "author_response": "他们只是自我欺骗的牺牲品，缺乏真正的革命能力，其密谋活动和内部清洗毫无实效，反而陷入自相矛盾与无谓纷争。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p36s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "流亡者",
+            "type": "social_group",
+            "modern": "特指巴黎公社失败后流亡至伦敦的法国革命者群体",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p36s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "实干家",
+            "type": "concept",
+            "modern": "布朗基主义者自称的革命行动者角色",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "activist_bonapartist"
+          }
+        ]
+      },
+      {
+        "sid": "p36s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p36s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "哈姆雷特",
+            "type": "allusion",
+            "modern": "莎士比亚戏剧中优柔寡断的王子，此处喻指空有决心却无行动力的人",
+            "highlight": "allusion",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p36s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "布鲁土斯",
+            "type": "person",
+            "modern": "古罗马共和派，刺杀凯撒者，常被理想主义者奉为楷模",
+            "highlight": "allusion",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "麦罗斯",
+            "type": "person",
+            "modern": "古希腊传说中刺杀暴君的英雄，此处讽刺流亡者故作悲壮",
+            "highlight": "allusion",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p36s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p36s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "公敌名单",
+            "type": "event",
+            "modern": "法国大革命恐怖统治时期的清洗手段，此处指流亡者内部的排斥异己",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "纯洁派",
+            "type": "social_group",
+            "modern": "其他流亡者对这群主张内部清洗者的讽刺性称呼",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p36s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p36s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p36s10",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p36s11",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p36s12",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "韦梅希",
+            "type": "person",
+            "modern": "巴黎公社后一份小报的编辑，以文风粗俗著称",
+            "highlight": null,
+            "confidence": "medium",
+            "source_basis": "text_evidence"
+          },
+          {
+            "surface": "度申爸爸",
+            "type": "work",
+            "modern": "韦梅希在公社期间出版的报纸，模仿法国大革命时期的激进报刊",
+            "highlight": null,
+            "confidence": "medium",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p36s13",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": [
+          {
+            "surface": "[436]",
+            "type": "footnote_ref",
+            "modern": "原文脚注标记",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 10,
+        "notes_dropped": 2,
+        "hs_kept": 1,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

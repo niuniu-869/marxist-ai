@@ -1,0 +1,61 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 5,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "批判一种只强调环境和教育单向作用的唯物主义观点，指出其忽略了人的能动性和社会分裂的后果。",
+    "importance_score": 2,
+    "importance_reason": "具体批判了忽视实践的唯物主义观点，支撑了实践核心地位的论点。",
+    "argument_role": "continues",
+    "argument_link": "上一段提出实践是检验真理的标准，本段具体批判了脱离实践的唯物主义学说，展示了其理论后果。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "费尔巴哈的唯物主义学说",
+      "their_view": "环境和教育是单向地、决定性地改变人的力量，人主要是这些外部条件的被动产物。",
+      "author_response": "马克思指出，这种观点片面地理解了人与环境的关系，忽略了人通过实践改造环境的能动性，以及教育者自身也处于社会关系和学习过程之中。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p5s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p5s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

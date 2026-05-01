@@ -1,0 +1,72 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 49,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段以反讽口吻，复述并归谬了门格尔基于“剩余价值”一词的词源发现，对马克思提出的抄袭指控。",
+    "importance_score": 3,
+    "importance_reason": "这是文章核心论战部分，直接针对门格尔对马克思剩余价值理论原创性的攻击，通过归谬法揭示其论证的荒谬性。",
+    "argument_role": "contrasts",
+    "argument_link": "承接上文对门格尔著作的介绍，本段开始具体剖析其核心论据之一，即“剩余价值”一词的词源，并以此为靶子展开反驳。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "汤普森与剩余价值词源",
+        "explain": "威廉·汤普森是19世纪早期英国空想社会主义者，其著作中使用了“剩余价值”一词。门格尔据此声称马克思的理论缺乏独创性，但马克思的剩余价值理论是建立在对资本主义生产方式的系统分析之上，与早期社会主义者对这个词的零散使用有本质区别。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p49s2",
+        "quote": "因此，毫无疑问，汤普森是剩余价值的发现者，马克思只是一个可怜的剽窃者：",
+        "trigger": "inverted_logic",
+        "reader_block": "句子以“因此”开头，看似是严肃的逻辑推论，但结论极端且带有贬损色彩，读者可能误以为这是作者的正面主张，而忽略其反讽语气。",
+        "parse": {
+          "claim": "如果仅凭一个术语的早期出现就认定其理论归属，那么汤普森就应被视为剩余价值理论的创立者，而马克思则成了抄袭者。",
+          "qualifiers": "此推论完全基于门格尔“发现”汤普森使用了该术语这一前提。",
+          "contrast_or_target": "门格尔认为，马克思的剩余价值理论是从汤普森等英国社会主义者那里抄袭而来，缺乏独创性。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "本句是作者模仿门格尔的逻辑进行的归谬推演，旨在暴露其论证标准的荒谬性：如果词源优先于理论体系，那么整个科学社会主义的理论大厦都将建立在剽窃之上。"
+        },
+        "implication": "作者通过此反讽暗示，门格尔的批评标准是肤浅的，他混淆了术语的偶然使用与系统的科学理论创造。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "门格尔",
+      "their_view": "马克思的剩余价值理论并非原创，因为“剩余价值”这个词早先已被汤普森等人使用过，马克思只是抄袭了他们的成果。",
+      "author_response": "作者通过反讽指出，若按此逻辑，汤普森才是发现者，马克思是剽窃者——这恰恰暴露了门格尔以词源否定理论体系的论证方式是站不住脚的。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p49s1",
+        "speaker": "quoted_opponent",
+        "stance": "neutral_citation",
+        "notes": []
+      },
+      {
+        "sid": "p49s2",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      }
+    ]
+  }
+}

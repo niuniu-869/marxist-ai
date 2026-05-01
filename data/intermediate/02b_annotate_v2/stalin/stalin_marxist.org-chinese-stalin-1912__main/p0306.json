@@ -1,0 +1,69 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 306,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "批评高加索取消派推行民族文化自治的鲁莽行为，预言此举将暴露其民族主义本质。",
+    "importance_score": 2,
+    "importance_reason": "支撑作者对民族文化自治的批判，提供高加索地区的具体例证。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对高加索取消派路线的批评，进一步分析其推行民族文化自治将面临的实际困难与后果。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "allusion",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "allusion",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "赫罗斯特拉特典故",
+        "explain": "公元前四世纪希腊人为求留名而纵火焚烧阿尔蒂米斯神殿，后世用其名指代为个人名声不惜犯罪之人。",
+        "why_needed": "allusion",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "民族文化自治的推行者（如崩得等组织）",
+      "their_view": "民族文化自治是解决民族问题的可行方案，应优先推行。",
+      "author_response": "推行这种自治会破坏高加索各民族工人已建立的跨民族组织，暴露其民族主义实质。",
+      "polemic_kind": "strategic_critique",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p306s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p306s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 26,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段直接回应资产阶级对共产党人的指责，承认并重新定义了要消灭的“个性”和“自由”的具体所指。",
+    "importance_score": 2,
+    "importance_reason": "这是对前文核心论点的直接回应与澄清，通过反讽手法明确革命目标，属于论证链中的关键环节。",
+    "argument_role": "contrasts",
+    "argument_link": "承接上一段对资产阶级社会中资本与人关系颠倒的揭示，转而直接回应资产阶级对此的攻击，将论战推向高潮。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p26s1",
+        "quote": "而资产阶级却把消灭这种关系说成是消灭个性和自由！说对了。",
+        "trigger": "inverted_logic",
+        "reader_block": "“说对了”是反讽，读者会困惑为何马克思同意资产阶级的指责，需要理解其后省略的转折。",
+        "parse": {
+          "claim": "马克思承认共产党人确实要消灭某种“个性”和“自由”，但这种承认是策略性的，旨在引出下文对这种“个性”和“自由”的阶级定性。",
+          "qualifiers": "此处的“个性”和“自由”特指资产阶级所定义和拥有的那一种。",
+          "contrast_or_target": "资产阶级指责共产党人要消灭所有人普遍的个性和自由。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "本句以退为进，先表面接受论敌的指控，为下一句揭示其阶级实质做铺垫，是反驳论敌前提的修辞策略。"
+        },
+        "implication": "这预示着作者将对“个性”和“自由”进行阶级分析，区分不同阶级的“个性”与“自由”。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p26s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p26s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 1,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

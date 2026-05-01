@@ -1,0 +1,73 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 302,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "恩格斯引用蒙森的论述，说明在古罗马氏族制度下，妇女婚后会脱离原氏族并完全加入夫方氏族，以此反驳当时对氏族制度的误解。",
+    "importance_score": 2,
+    "importance_reason": "本段是恩格斯用具体史料（蒙森的论文）来支撑其关于氏族制度中妇女地位的论点，属于核心论证的例证环节。",
+    "argument_role": "example",
+    "argument_link": "承接上一段对蒙森论文的引入，本段具体展示蒙森如何描述妇女在氏族间的归属问题，为恩格斯反驳错误观点提供直接证据。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "term_density",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "古罗马氏族（gens）",
+        "explain": "古罗马社会的基本单位，基于共同的血缘、宗教仪式、墓地和继承权。成员享有特定权利并承担义务，是理解本段讨论妇女归属问题的基础。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "外婚制（gentis enuptio）",
+        "explain": "指氏族成员必须与本氏族以外的人通婚的规则。在古罗马，这项权利长期受到限制，后来才逐渐放宽。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p302s1",
+        "quote": "假使她被她的丈夫接纳而加入他的家庭，那么她怎能和他的血族不相干呢？",
+        "trigger": "inverted_logic",
+        "reader_block": "这是一个反问句，读者需要将其转换为肯定陈述才能理解其核心论点，即妇女加入夫家后必然与夫方氏族产生关联。",
+        "parse": {
+          "claim": "妇女被丈夫接纳并加入其家庭后，必然与丈夫所属的氏族产生紧密联系，不可能毫无关系。",
+          "qualifiers": "此推论基于古代宗教婚姻的背景，即妇女完全加入夫方法的和宗教的共同体。",
+          "contrast_or_target": ""
+        },
+        "why": {
+          "relation": "conclusion",
+          "explanation": "本句是前文一系列关于妇女婚后权利与归属变化的论述的总结性反问，旨在强化妇女完全融入夫方氏族这一结论。"
+        },
+        "implication": "这进一步证明了在古罗马氏族制度下，婚姻导致妇女社会身份的根本转变。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p302s1",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      }
+    ]
+  }
+}

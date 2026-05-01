@@ -1,0 +1,106 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 45,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "恩格斯讨论定义在科学与日常运用中的不同价值，并尝试为生命下一个简短的、实用性的定义。",
+    "importance_score": 1,
+    "importance_reason": "本段是恩格斯在批判杜林关于生命定义的观点后，对“定义”这一方法论工具本身进行的反思，属于论证过程中的过渡与方法论澄清。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对杜林生命定义的批判，本段从方法论层面解释为何要批判那种定义，并为接下来尝试给出一个更合理的定义做铺垫。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "尼科尔森",
+        "explain": "指19世纪英国生物学家亨利·阿尔伯特·尼科尔森，他在《动物学手册》等著作中讨论过生命的定义问题。恩格斯引用他作为众多尝试定义生命但未获完全成功的学者之一。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p45s2",
+        "quote": "唯一真实的定义是事物本身的发展，而这已不再是定义了。",
+        "trigger": "inverted_logic",
+        "reader_block": "句子看似矛盾：先说“唯一真实的定义”是什么，紧接着又说它“已不再是定义”。读者会困惑于“定义”一词在此处的含义转变。",
+        "parse": {
+          "claim": "对一个事物最准确的把握，是理解其动态的发展过程本身，而非一个静态的、概括性的语句。",
+          "qualifiers": "此处的“定义”特指那种试图用简短语句穷尽事物本质的静态规定。",
+          "contrast_or_target": "针对那种认为可以通过一个先验的、完美的定义来把握事物本质的观点。"
+        },
+        "why": {
+          "relation": "contrasts",
+          "explanation": "本句与通常对“定义”的理解形成对比，指出科学认识的真正对象是过程，从而为下文区分“科学定义”与“日常定义”奠定基础。"
+        },
+        "implication": "因此，任何试图给出的关于生命的定义，都只能是近似的、不充分的，但这并不妨碍其在特定范围内的实用性。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "试图给生命下绝对定义的理论家（包括杜林）",
+      "their_view": "可以通过一个精确、完备的定义来完全规定生命的本质。",
+      "author_response": "定义总是不充分的，唯一真实的是事物本身的发展过程；但一个简短的、指出最一般特征的定义，在日常运用中可以是有用的。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "medium"
+    },
+    "sentences": [
+      {
+        "sid": "p45s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p45s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "定义",
+            "type": "concept",
+            "modern": "此处特指那种试图用一个静态语句穷尽事物本质的规定，与“事物本身的发展”相对。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "definition_static"
+          }
+        ]
+      },
+      {
+        "sid": "p45s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p45s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p45s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p45s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  }
+}

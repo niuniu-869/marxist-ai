@@ -1,0 +1,61 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 33,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁反驳无产阶级支持资产阶级政党的说法，阐明革命工人与临时政府的关系。",
+    "importance_score": 2,
+    "importance_reason": "具体分析革命动力中无产阶级与资产阶级政党的关系，反驳对革命性质的误读。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于革命是两种潮流汇合的论断，具体分析其中一种潮流——无产阶级与资产阶级政党的关系。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "立宪民主党和十月党",
+      "their_view": "无产阶级支持这些资产阶级政党的帝国主义政策。",
+      "author_response": "无产阶级没有支持，只是临时政府的行动客观上帮助了革命，但无产阶级对此并无特别感受。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p33s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p33s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

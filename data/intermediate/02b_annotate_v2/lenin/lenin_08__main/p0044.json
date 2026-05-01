@@ -1,0 +1,61 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 44,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁讽刺俄国社会民主党内的机会主义者片面引用马克思恩格斯书信，只强调对英美的劝告而忽略对德国的劝告。",
+    "importance_score": 2,
+    "importance_reason": "本段直接点明论战对象，揭露机会主义者的片面性，是核心批判的组成部分。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对马克思恩格斯两种教导的总结，转而批判俄国党内只取其一的片面做法。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "俄国社会民主党内的机会主义者",
+      "their_view": "他们只强调马克思恩格斯关于英美运动的劝告，认为这适用于俄国。",
+      "author_response": "列宁指出这种片面性正是机会主义在理论上的表现，是为模糊阶级界限的策略辩护。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p44s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p44s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

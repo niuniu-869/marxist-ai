@@ -1,0 +1,94 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 114,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁用民间典故和反问，批评否认民族自决权的同志，指出其立场与帝国主义资产阶级偶然一致，希望他们醒悟。",
+    "importance_score": 2,
+    "importance_reason": "通过反讽和类比，强化对论敌立场的批判，属于核心批判的支撑部分。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对拉狄克评价爱尔兰起义的批评，进一步指出否认自决权的同志陷入了与帝国主义资产阶级立场一致的困境。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "allusion",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "allusion",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "塞翁失马典故",
+        "explain": "源自中国民间故事，指坏事在一定条件下可变为好事。列宁用此比喻，意在说明论敌因错误立场而与帝国主义资产阶级偶然一致，反而可能促使他们认清错误。",
+        "why_needed": "allusion",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p114s1",
+        "quote": "但愿像俗语所说“塞翁失马，安知非福”。",
+        "trigger": "allusion",
+        "reader_block": "读者可能不熟悉这个中国典故，或不理解列宁为何在此引用，导致无法把握其反讽和类比的意图。",
+        "parse": {
+          "claim": "看似不利的事件（论敌与帝国主义资产阶级立场偶然一致）可能带来转机（促使论敌醒悟）。",
+          "qualifiers": "",
+          "contrast_or_target": ""
+        },
+        "why": {
+          "relation": "example",
+          "explanation": "用一个民间典故作为类比，为下文批评论敌立场与帝国主义资产阶级偶然一致做铺垫，并暗示这种“不幸”可能带来“福分”（即醒悟）。"
+        },
+        "implication": "列宁认为，论敌的错误立场虽然危险，但其与帝国主义资产阶级偶然一致的事实，可能成为教育他们、使其转变的契机。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "反对民族自决权的同志（包括拉狄克等）",
+      "their_view": "否认民族自决权，轻视小民族的民族运动，认为这在帝国主义时代是不可实现或不必要的。",
+      "author_response": "列宁指出，这种立场使他们陷入了与帝国主义资产阶级代表偶然一致的困境，希望这一事实能促使他们认清错误并醒悟。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p114s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p114s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p114s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 1,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

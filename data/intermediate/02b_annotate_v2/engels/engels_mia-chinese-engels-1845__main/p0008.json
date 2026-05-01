@@ -1,0 +1,91 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 8,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "恩格斯批评《法郎吉》杂志是傅立叶派的投机产物，指出其理论家已变得像德国人一样自大，用晦涩说教取代了傅立叶的批判风格。",
+    "importance_score": 1,
+    "importance_reason": "作为对傅立叶派刊物的直接评价，为后续引用其手稿内容提供背景和批判性定调，属于辅助性过渡段。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对傅立叶片段来源的说明，转而对来源刊物《法郎吉》及其代表的傅立叶派进行批判性评价，为读者筛选阅读材料。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "傅立叶派理论家",
+      "their_view": "我们已发展出一套神圣不可侵犯、庄重且体系化的学说，这代表了比傅立叶本人更高级的理论阶段。",
+      "author_response": "恩格斯指出，这种学说风格恰恰背离了傅立叶揭露现实时的幽默与生动，使其在法国本土沦为笑柄，却在理论氛围不同的德国受到推崇。",
+      "polemic_kind": "strategic_critique",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p8s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "法郎吉",
+            "type": "work",
+            "modern": "傅立叶派在1830年代创办的机关刊物，旨在宣传其社会改造方案。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p8s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "傅立叶派",
+            "type": "social_group",
+            "modern": "追随并发展傅立叶学说的理论家群体，恩格斯在此批评其后期风格。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p8s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p8s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

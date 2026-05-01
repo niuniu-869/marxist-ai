@@ -1,0 +1,186 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 37,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "恩格斯叙述西班牙不妥协派在安达鲁西亚的起义，分析其动机，并指出巴枯宁派国际如何被利用，最终导致工人受损。",
+    "importance_score": 2,
+    "importance_reason": "作为西班牙事件的具体案例，用以论证巴枯宁主义理论在实践中的破产，支撑全文核心批判。",
+    "argument_role": "example",
+    "argument_link": "承接上段对巴枯宁主义者“成就”的讽刺，本段提供一个具体实例，展示他们在实际政治行动中如何被资产阶级派别利用。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "皮-伊-马尔加耳",
+        "explain": "1873年西班牙第一共和国时期的政府首脑，代表温和派共和主义者，试图与不妥协派谈判以稳定政局。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "亚尔科巷战与安达鲁西亚起义",
+        "explain": "1873年西班牙共和国成立后，不妥协派（联邦主义者）为加速建立联邦共和国而发动的武装行动，亚尔科是其中一次冲突地点。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p37s8",
+        "quote": "国际（巴枯宁派的）从选举以来就和不妥协派厮混在一起，它以前的行动使人相信可以得到它的协助：它不是刚刚用暴力占领了亚尔科，因而同政府进行了公开战斗吗？",
+        "trigger": "inverted_logic",
+        "reader_block": "反问句式（“它不是……吗？”）用于加强肯定语气，但读者可能误以为是疑问。同时，“厮混”一词带有贬义，需要理解其背后的批判立场。",
+        "parse": {
+          "claim": "巴枯宁派国际与不妥协派关系密切，且其先前的暴力行动（占领亚尔科）表明它有能力和意愿协助不妥协派对抗政府。",
+          "qualifiers": "时间限定在“从选举以来”和“刚刚”之后。",
+          "contrast_or_target": "巴枯宁主义者声称反对一切政治行动和国家权威，但其实际行为却与资产阶级政治派别合作并进行武装斗争。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "通过反问句式，强调巴枯宁派国际的行为与其宣称的无政府主义原则相悖，为下文揭露其被利用的后果做铺垫。"
+        },
+        "implication": "巴枯宁派的行动逻辑使其容易成为资产阶级派别争取和利用的对象。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "巴枯宁主义者",
+      "their_view": "任何自上而下的政治行动都是有害的，一切革命都应自下而上地组织，通过总罢工和自治原则直接实现社会变革。",
+      "author_response": "恩格斯指出，巴枯宁主义者在实践中却与资产阶级政治派别（不妥协派）合作，参与其政治起义，最终使工人成为其政治斗争的工具并遭受镇压。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p37s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "亚尔科巷战",
+            "type": "event",
+            "modern": "1873年西班牙第一共和国期间，巴枯宁派国际成员参与的一次武装冲突。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p37s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "皮－伊－马尔加耳",
+            "type": "person",
+            "modern": "1873年西班牙共和国临时政府首脑，代表温和派共和主义者。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p37s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p37s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p37s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "联邦共和国",
+            "type": "concept",
+            "modern": "不妥协派追求的政治目标，主张将西班牙重组为各自治州的松散联盟。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "republicanism_bourgeois"
+          }
+        ]
+      },
+      {
+        "sid": "p37s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p37s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p37s8",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p37s9",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": [
+          {
+            "surface": "自下而上",
+            "type": "slogan",
+            "modern": "巴枯宁主义的核心原则之一，主张革命应完全由群众自发组织，拒绝任何集中领导或政治行动。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p37s10",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p37s11",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 4,
+        "notes_dropped": 1,
+        "hs_kept": 1,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 37,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "恩格斯评估俄国公社的存续前景，强调推翻沙皇专制是任何社会改造的前提，并指出俄国革命对西方无产阶级运动的推动作用。",
+    "importance_score": 2,
+    "importance_reason": "本段是恩格斯对俄国社会发展道路论述的关键环节，将俄国革命的必要性与国际无产阶级胜利联系起来，构成其论证的逻辑枢纽。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对俄国资本主义发展和沙皇专制保留的分析，进一步论证在俄国现存条件下，任何社会变革都必须以政治革命为起点。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "cross_ref_pronoun",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "1882年俄文版《共产党宣言》序言",
+        "explain": "马克思和恩格斯在该序言中曾提出，俄国公社若能避免资本主义解体，可能成为共产主义发展的起点。本段提及的“希望”即指此。",
+        "why_needed": "cross_ref_pronoun",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p37s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p37s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p37s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "农民",
+            "type": "social_group",
+            "modern": "当时俄国人口的主体，主要生活在农村公社中，经济与社会生活相对封闭。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p37s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "无产阶级",
+            "type": "concept",
+            "modern": "现代工业社会中丧失生产资料、依靠出卖劳动力为生的阶级，是资本主义掘墓人。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "proletarian_modern"
+          }
+        ]
+      },
+      {
+        "sid": "p37s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_6>5"
+      ]
+    }
+  ]
+}

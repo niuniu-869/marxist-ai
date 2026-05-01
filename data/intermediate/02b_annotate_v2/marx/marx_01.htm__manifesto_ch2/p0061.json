@@ -1,0 +1,93 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 61,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "通过反问强调精神生产受物质生产制约，并断言任何时代的主流观念都反映统治阶级的利益。",
+    "importance_score": 3,
+    "importance_reason": "本段提出统治思想与统治阶级的对应关系，为后文批判资产阶级意识形态奠定理论基础。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于社会意识随社会存在变化的原理，进一步指出这种变化在阶级社会中表现为统治阶级思想的主导地位。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p61s1",
+        "quote": "思想的历史除了证明精神生产随着物质生产的改造而改造，还证明了什么呢？",
+        "trigger": "inverted_logic",
+        "reader_block": "反问句式，读者可能误以为在寻求一个额外答案，实际是强调唯一结论。",
+        "parse": {
+          "claim": "思想史的全部内容，就是证明了精神生产领域会跟随物质生产领域的变革而发生变革。",
+          "qualifiers": "无。",
+          "contrast_or_target": "无。"
+        },
+        "why": {
+          "relation": "continues",
+          "explanation": "本句以反问形式，强化并总结了上一段提出的历史唯物主义基本原理，即社会存在决定社会意识。"
+        },
+        "implication": "既然精神生产完全由物质生产决定，那么任何脱离物质基础的纯粹思想批判都是无效的。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "资产阶级",
+      "their_view": "资产阶级的思想、道德和观念是超越阶级的、普遍适用的真理。",
+      "author_response": "作者指出，这些所谓的普遍思想，其本质不过是特定历史阶段中占据经济政治主导地位的那个阶级的利益和意志的表达。",
+      "polemic_kind": "reveals_class_basis",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p61s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "精神生产",
+            "type": "concept",
+            "modern": "与物质生产相对的思想、文化、观念等领域的创造活动。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "production_spiritual"
+          }
+        ]
+      },
+      {
+        "sid": "p61s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "统治思想",
+            "type": "concept",
+            "modern": "特定时代占据主导地位的观念体系，为现存社会秩序提供合法性解释。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "ruling_ideology"
+          },
+          {
+            "surface": "统治阶级",
+            "type": "concept",
+            "modern": "在经济和政治上掌握国家权力、主导社会生产的阶级。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "ruling_class"
+          }
+        ]
+      }
+    ]
+  }
+}

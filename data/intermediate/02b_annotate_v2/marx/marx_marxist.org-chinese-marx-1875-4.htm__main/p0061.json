@@ -1,0 +1,87 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 61,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段直接点明，纲领草案中关于分配权利的表述是空洞的，其实际主张是拉萨尔式的“不折不扣的劳动所得”。",
+    "importance_score": 2,
+    "importance_reason": "本段是马克思对纲领草案分配观批判的起点，明确将批判矛头指向拉萨尔主义的核心经济主张。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对纲领草案逻辑矛盾的揭露，本段直接指出这种矛盾的根源在于其接受了拉萨尔的错误分配前提。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "不折不扣的劳动所得",
+        "explain": "这是拉萨尔派的核心经济主张，认为工人应当获得其全部劳动产品，不作任何社会扣除。马克思在后文将详细批判这种观点忽视了生产资料补偿、管理费用、公共需求等必要扣除。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "拉萨尔主义",
+      "their_view": "工人应当获得其全部劳动产品，实现“不折不扣的劳动所得”，这是公平分配的基础。",
+      "author_response": "马克思指出，这种主张是空话，它忽视了社会再生产过程中必须进行的各项扣除，因而是不切实际的。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p61s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "社会一切成员",
+            "type": "slogan",
+            "modern": "纲领草案中关于权利主体的表述，意指社会中的每一个人。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          },
+          {
+            "surface": "平等的权利",
+            "type": "slogan",
+            "modern": "纲领草案中关于分配原则的抽象表述。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p61s2",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_9>5",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

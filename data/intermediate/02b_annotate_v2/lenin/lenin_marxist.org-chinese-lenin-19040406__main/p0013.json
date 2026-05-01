@@ -1,0 +1,55 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 13,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "通过反问句式，讽刺俄国民族主义者的压迫政策实际上唤醒了被压迫民族，使其认识到俄国的落后。",
+    "importance_score": 2,
+    "importance_reason": "作为对上段讽刺的延续，具体揭示民族压迫政策的反作用，支撑核心论点。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对鲍勃凌斯基批评奥地利的讽刺，进一步指出俄国民族主义者自身的政策正在产生他们不愿看到的后果。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "鲍勃凌斯基等右派民族主义者",
+      "their_view": "通过压迫和歧视“异民族”的政策，可以维护大俄罗斯人的特权地位，巩固沙皇统治。",
+      "author_response": "列宁指出，这种压迫政策恰恰唤醒了占人口多数的被压迫民族，使他们认识到俄国自身的落后，从而动摇统治基础。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p13s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

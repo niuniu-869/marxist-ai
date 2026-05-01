@@ -1,0 +1,125 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 62,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "恩格斯评价一份纲领，认为它标志着法国工人开始接受德国共产主义理论。",
+    "importance_score": 2,
+    "importance_reason": "本段评价一份纲领的历史意义，指出其标志着法国工人与德国共产主义理论的结合。",
+    "argument_role": "continues",
+    "argument_link": "本段承接上段对纲领的批评，转而肯定其理论进步意义。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p62s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p62s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "卡尔（或爱德华？）",
+            "type": "person",
+            "modern": "恩格斯用此影射爱德华·瓦扬，一位精通德文的法国社会主义者。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p62s3",
+        "speaker": "editor",
+        "stance": "neutral_citation",
+        "notes": []
+      },
+      {
+        "sid": "p62s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p62s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p62s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "革命的耶路撒冷",
+            "type": "metaphor",
+            "modern": "恩格斯用此隐喻指巴黎在法国革命传统中的神圣地位。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p62s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "瓦扬",
+            "type": "person",
+            "modern": "爱德华·瓦扬，法国社会主义者，精通德文，促进了德国理论在法国的传播。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p62s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 3,
+        "notes_dropped": 2,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_8>5",
+        "note:n1_overflow_concept_6>5"
+      ]
+    }
+  ]
+}

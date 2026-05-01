@@ -1,0 +1,91 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 45,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "描述1848年革命后普鲁士资产阶级如何背弃革命代表并屈服于容克官僚统治，最终公开承认自身低下地位。",
+    "importance_score": 2,
+    "importance_reason": "具体展示1848年后普鲁士资产阶级的政治态度转变，作为前文阶级关系突变的实例。",
+    "argument_role": "example",
+    "argument_link": "承接上段对1848年后阶级关系转折的概述，本段以普鲁士为例，详细说明资产阶级如何抛弃革命立场并忍受容克官僚的压迫。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "cross_ref_pronoun",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "1848年普鲁士革命",
+        "explain": "上段提到1848年革命后阶级关系突变，本段'这种情况'指代资产阶级与无产阶级关系的转折。1848年11月，普鲁士政府驱散了由资产阶级选出的议会代表，标志着革命成果被镇压。",
+        "why_needed": "cross_ref_pronoun",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "容克官僚内阁",
+        "explain": "1848年后在普鲁士掌权的保守派政府，由容克贵族和官僚组成，虽保留宪法形式但实行专制统治。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p45s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p45s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "容克官僚内阁",
+            "type": "social_group",
+            "modern": "1848年后在普鲁士掌权的容克贵族和官僚集团",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p45s3",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

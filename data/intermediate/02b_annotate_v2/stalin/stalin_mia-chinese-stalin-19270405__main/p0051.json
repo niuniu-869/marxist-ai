@@ -1,0 +1,119 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 51,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "描述北伐军占领上海后苏联国内的反应，从普遍欣喜到领导层认识到国民革命阵营内部存在严重矛盾与危机。",
+    "importance_score": 2,
+    "importance_reason": "为斯大林后续分析中国革命形势提供具体事实背景，揭示了当时苏联社会情绪与领导层认知的落差。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段关于党内争论的叙述，具体描述中国形势的一个关键节点（占领上海）及其在苏联引发的反应，为后续论证提供事实基础。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p51s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p51s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "马雅可夫斯基",
+            "type": "person",
+            "modern": "苏联未来主义诗人，其诗句被用来表达对北伐胜利的欢呼。",
+            "highlight": "quote",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p51s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p51s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p51s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "蒋介石",
+            "type": "person",
+            "modern": "国民党新右派领袖，当时掌握军权，其部队有反工农倾向。",
+            "highlight": "person",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p51s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "鲍罗廷",
+            "type": "person",
+            "modern": "共产国际派往中国的代表，时任武汉国民政府总政治顾问。",
+            "highlight": "person",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p51s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 3,
+        "notes_dropped": 2,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

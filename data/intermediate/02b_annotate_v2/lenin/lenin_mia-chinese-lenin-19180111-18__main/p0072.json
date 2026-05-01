@@ -1,0 +1,87 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 72,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁对比无政府主义与布尔什维克观点，论证在革命时代建立劳动阶级革命政权的必要性，并指出苏维埃是新型国家形式。",
+    "importance_score": 2,
+    "importance_reason": "本段是列宁对苏维埃政权性质的核心理论阐述，直接回应无政府主义思潮，阐明布尔什维克的国家观。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段关于革命人民意志迫使资产阶级投降的论断，进一步从国家理论层面论证革命政权的必要性与新型态。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "term_polysemy",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "无政府主义在本文中的含义",
+        "explain": "传统无政府主义主张废除一切国家形式。列宁在此区分了两种态度：一种仍固守此教条而恐惧苏维埃，另一种则因看到苏维埃的群众基础而支持它。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "无政府主义",
+      "their_view": "任何国家形式都是压迫，应当彻底废除，不应建立新的革命政权。",
+      "author_response": "列宁指出，推翻资产阶级恰恰需要建立劳动阶级的坚实革命政权，即新型的革命国家。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p72s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p72s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p72s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p72s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p72s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

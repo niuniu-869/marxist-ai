@@ -1,0 +1,160 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 52,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "通过对比厂主与工人的实际处境，揭露法律规定的申诉程序对工人而言只是形式上的空文，并引用官方训令证明当局有意阻止工人了解法律。",
+    "importance_score": 2,
+    "importance_reason": "核心批判段落，通过具体例证揭示沙皇法律程序的阶级虚伪性，是论证法律压迫性的关键环节。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段对申诉程序的描述，进一步从实践层面论证这些程序因阶级差异而对工人完全失效，从而深化对法律虚伪性的揭露。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "《致工厂视察机关官员之训令》",
+        "explain": "这是沙皇财政大臣批准的一份官方文件，规定了工厂视察员的权限和职责。其中包含禁止工人在场听取视察员向厂主解释法律的条款，是列宁用来证明当局故意阻挠工人了解法律的直接证据。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "政府德政论",
+      "their_view": "沙皇政府制定的法律程序为工人提供了申诉保障，体现了当局的公正与恩德。",
+      "author_response": "列宁通过揭示法律程序在实际中因工人的经济与时间匮乏而完全失效，并引用官方训令证明当局主动阻挠工人知法，从而驳斥了所谓“德政”的虚伪性。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p52s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p52s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p52s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p52s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p52s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p52s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p52s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p52s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p52s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p52s10",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p52s11",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "视察员",
+            "type": "person",
+            "modern": "沙皇政府工厂视察机关的官员，负责监督工厂法律执行情况。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p52s12",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p52s13",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p52s14",
+        "speaker": "quoted_opponent",
+        "stance": "cited",
+        "notes": [
+          {
+            "surface": "《莫斯科新闻》",
+            "type": "work",
+            "modern": "19世纪俄国一份具有保守倾向的报纸，常为沙皇政府政策辩护。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

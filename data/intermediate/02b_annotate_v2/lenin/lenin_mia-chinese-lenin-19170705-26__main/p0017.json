@@ -1,0 +1,191 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 17,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段论证立宪会议的性质取决于阶级斗争结果，并列举其成为国民公会的物质条件，以此批判孟什维克的空想。",
+    "importance_score": 3,
+    "importance_reason": "核心批判段落，通过列举具体物质条件，驳斥将立宪会议视为自动解决方案的幻想。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于立宪会议可能成为“法兰克福清谈馆”的论断，本段具体分析使其成为真正国民公会的阶级力量条件。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "allusion",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "国民公会",
+        "explain": "指法国大革命时期（1792-1795）的最高权力机关，以彻底镇压国内外反革命势力、推行激进革命措施著称。列宁用此比喻一个真正掌握权力、能解决革命问题的机构。",
+        "why_needed": "allusion",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "法兰克福清谈馆",
+        "explain": "指1848年德国革命期间在法兰克福召开的国民议会。该议会陷入冗长辩论而无实际行动，最终失败，成为“清谈馆”的代名词。列宁用此比喻空谈而无实权的议会。",
+        "why_needed": "allusion",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p17s4",
+        "quote": "为了使立宪会议不致成为“法兰克福清谈馆”或第一届杜马，而能成为国民公会，必须具有无情地打击反革命而不同他们妥协的勇气、本领和力量。",
+        "trigger": "long_nested",
+        "reader_block": "句子包含多个目的状语和条件列举，读者容易迷失在“为了…而能…必须…”的嵌套结构中，抓不住核心条件。",
+        "parse": {
+          "claim": "立宪会议要成为有实效的权力机构（国民公会），其前提条件是掌握它的力量必须具备不妥协地镇压反革命的能力。",
+          "qualifiers": "条件限定于“无情地打击反革命而不同他们妥协”的勇气、本领和力量。",
+          "contrast_or_target": "反驳孟什维克认为立宪会议可以自动或通过现有程序成为国民公会的观点。"
+        },
+        "why": {
+          "relation": "continues",
+          "explanation": "本句具体化了上段提出的“法兰克福清谈馆”风险，将抽象风险转化为对革命力量具体能力的要求，为后续列举更具体的阶级条件做铺垫。"
+        },
+        "implication": "暗示当时的社会革命党和孟什维克不具备这种不妥协的勇气和力量，因此他们主导下的立宪会议注定失败。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "《工人报》及孟什维克",
+      "their_view": "立宪会议可以自动或通过现有程序成为代表人民意志的国民公会。",
+      "author_response": "列宁指出，这需要具体的阶级力量条件，即无产阶级掌握政权并得到贫民拥护，同时镇压反革命，而孟什维克不具备这些条件。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p17s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "阶级斗争",
+            "type": "concept",
+            "modern": "马克思主义理论核心范畴，指不同阶级之间基于经济利益的根本对立和斗争。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "class_struggle"
+          }
+        ]
+      },
+      {
+        "sid": "p17s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "《工人报》",
+            "type": "work",
+            "modern": "孟什维克在1917年出版的报纸，代表其政治立场。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "metadata"
+          }
+        ]
+      },
+      {
+        "sid": "p17s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "孟什维克",
+            "type": "org",
+            "modern": "俄国社会民主工党内与布尔什维克对立的派别，主张与资产阶级合作。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p17s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "国民公会",
+            "type": "event",
+            "modern": "法国大革命时期的最高权力机关，此处用作彻底革命政权的象征。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "法兰克福清谈馆",
+            "type": "event",
+            "modern": "1848年德国法兰克福国民议会的贬称，喻指空谈无果的议会。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p17s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p17s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p17s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "立宪民主党人",
+            "type": "org",
+            "modern": "俄国主要的资产阶级政党，列宁视其为反革命势力的核心。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p17s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p17s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 6,
+        "notes_dropped": 1,
+        "hs_kept": 1,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_14>5"
+      ]
+    }
+  ]
+}

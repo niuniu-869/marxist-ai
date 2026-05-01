@@ -1,0 +1,83 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 94,
+  "annotation": {
+    "block_type": "quote_block",
+    "gist": "马克思引用希腊神话中普罗米修斯的话，表达自己为人类解放事业承受苦难并永不改变的决心。",
+    "importance_score": 1,
+    "importance_reason": "展示马克思个人志向与牺牲精神，为传记增添人物刻画。",
+    "argument_role": "none",
+    "argument_link": null,
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "allusion",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "allusion",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "希腊神话典故",
+        "explain": "普罗米修斯是希腊神话中为人类盗取天火而受罚的神；赫尔墨斯是宙斯的使者，曾奉命劝说普罗米修斯屈服。马克思引用此典故表达自己为人类解放事业承受苦难的立场。",
+        "why_needed": "allusion",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p94s1",
+        "quote": "“为了你的徭役，我将把我的不幸的命运给你。可以保证永远不再斟换。这是按照普罗米修士 [2] 回答上帝的使者赫尔墨斯 [3] 的话”",
+        "trigger": "allusion",
+        "reader_block": "读者可能不熟悉希腊神话中普罗米修斯与赫尔墨斯的对话，导致无法理解马克思引用的含义。",
+        "parse": {
+          "claim": "马克思以普罗米修斯自比，表示愿意为人类事业承受个人苦难，并承诺永不改变。",
+          "qualifiers": "",
+          "contrast_or_target": ""
+        },
+        "why": {
+          "relation": "none",
+          "explanation": ""
+        },
+        "implication": "马克思通过神话典故强调其革命决心和牺牲精神。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p94s1",
+        "speaker": "quoted_marx",
+        "stance": "endorsed",
+        "notes": [
+          {
+            "surface": "普罗米修斯",
+            "type": "person",
+            "modern": "希腊神话中为人类盗火而受罚的神，象征为人类牺牲的先驱",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "赫尔墨斯",
+            "type": "person",
+            "modern": "希腊神话中宙斯的使者，曾奉命劝说普罗米修斯",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  }
+}

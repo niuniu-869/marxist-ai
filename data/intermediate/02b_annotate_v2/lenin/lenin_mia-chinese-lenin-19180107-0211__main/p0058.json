@@ -1,0 +1,150 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 58,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁在党内争论中阐述立即签约的必要性，反驳关于和约会削弱西欧革命运动的担忧，并强调保存苏维埃政权是首要任务。",
+    "importance_score": 3,
+    "importance_reason": "核心段落，集中阐述列宁在布列斯特和约争论中的战略考量与最终判断。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对托洛茨基“不战不和”策略的批判，进一步论证为何必须接受苛刻和约，即使这意味着与部分党内同志意见相左。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "斯大林与季诺维也夫的立场",
+        "explain": "在1918年初的党内争论中，斯大林和季诺维也夫最初也反对立即签约，但他们的反对理由与列宁不同。列宁在此指出，即使在最终目标（签约）上与他们一致，但在具体论据和策略判断上存在分歧。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "“新生的婴儿”比喻",
+        "explain": "列宁用“新生的呱呱坠地的婴儿”比喻刚刚诞生、极其脆弱的苏维埃政权。这个比喻强调其生存是压倒一切的优先事项，与尚未爆发的德国革命形成对比。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p58s5",
+        "quote": "如果我们相信，在和谈中断的情况下，德国的运动马上会发展起来，那么我们就应当牺牲自己，因为德国革命在力量上将会大大超过我们。",
+        "trigger": "inverted_logic",
+        "reader_block": "这是一个复杂的条件句，包含隐含的让步和反事实推理。读者容易误读为列宁主张牺牲，实际是他在设定一个前提并推导出其逻辑结论，然后否定这个前提。",
+        "parse": {
+          "claim": "如果德国革命能因和谈中断而立即爆发，那么为了更强大的德国革命，牺牲苏维埃政权是值得的。",
+          "qualifiers": "这个推论成立的前提是“德国的运动马上会发展起来”。列宁随后否定了这个前提。",
+          "contrast_or_target": "反驳党内同志（如季诺维也夫）认为和谈中断能立即引发德国革命的乐观判断。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "通过构建一个极端的逻辑推论（牺牲苏维埃以换取德国革命），来凸显对方论据（德国革命会立即爆发）的不可靠性，从而为自己的签约主张扫清障碍。"
+        },
+        "implication": "列宁认为，将苏维埃政权的命运押注在一个未经证实的、关于德国革命时机的假设上，是极其危险的。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      },
+      {
+        "anchor": "p58s6",
+        "quote": "但是，问题的实质在于：那里的运动还没有开始，而在我们这里，运动已经有了一个新生的呱呱坠地的婴儿。",
+        "trigger": "allusion",
+        "reader_block": "“新生的呱呱坠地的婴儿”是比喻，读者需要理解其具体指代（苏维埃政权）以及这个比喻所强调的脆弱性和优先性。",
+        "parse": {
+          "claim": "德国革命尚未发生，而俄国的社会主义革命（苏维埃政权）已经诞生但极其脆弱。",
+          "qualifiers": "“那里的”指西欧/德国，“我们这里”指俄国。",
+          "contrast_or_target": "对比西欧革命形势与俄国革命现状，反驳将二者等量齐观或认为俄国应为西欧革命牺牲的观点。"
+        },
+        "why": {
+          "relation": "continues",
+          "explanation": "承接上句的假设性推论，指出其现实基础不存在。用比喻强调苏维埃政权的生存是当前唯一现实的、紧迫的任务。"
+        },
+        "implication": "革命策略必须基于对现实力量对比的清醒评估，而非对遥远未来的乐观期待。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p58s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p58s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p58s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p58s4",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p58s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p58s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p58s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p58s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 1,
+        "hs_kept": 2,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_metaphor_10>8",
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

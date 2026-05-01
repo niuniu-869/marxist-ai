@@ -1,0 +1,79 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 115,
+  "annotation": {
+    "block_type": "quote_block",
+    "gist": "列宁引用马克思关于共产主义高级阶段前提的论述，用以说明当前阶段与共产主义高级阶段的差距。",
+    "importance_score": 2,
+    "importance_reason": "支撑性引用，通过马克思的权威论述，具体化共产主义高级阶段的条件，从而论证当前阶段的局限性。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对“明天任务”的强调，通过引用马克思，具体说明共产主义高级阶段所需的前提条件，从而论证当前阶段的局限性。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "allusion",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "波米亚洛夫斯基笔下的神学校学生",
+        "explain": "这是19世纪俄国作家波米亚洛夫斯基小说《神学校随笔》中的人物，代表愚昧、贪婪、破坏性的小市民形象。马克思用此比喻那些缺乏社会主义觉悟、会浪费社会财富的庸人。",
+        "why_needed": "allusion",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p115s1",
+        "speaker": "quoted_marx",
+        "stance": "endorsed",
+        "notes": [
+          {
+            "surface": "神学校学生",
+            "type": "metaphor",
+            "modern": "19世纪俄国小说中愚昧贪婪的小市民形象，马克思用以比喻缺乏社会主义觉悟的庸人。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p115s2",
+        "speaker": "editor",
+        "stance": "neutral_citation",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 2,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_10>5",
+        "note:n1_overflow_concept_9>5"
+      ]
+    }
+  ]
+}

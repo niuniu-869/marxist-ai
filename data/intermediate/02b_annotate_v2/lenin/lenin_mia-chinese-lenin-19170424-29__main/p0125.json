@@ -1,0 +1,100 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 125,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁反对诺根的意见，指出伯格比尔提议召开的代表会议是德国帝国主义的政治步骤，号召开展反对各国沙文主义者的运动。",
+    "importance_score": 2,
+    "importance_reason": "本段是列宁对具体历史事件（伯格比尔提议）的直接回应，用以论证反对社会沙文主义的必要性，属于支撑核心论点的例证。",
+    "argument_role": "contrasts",
+    "argument_link": "本段承接前文对革命护国主义等错误思潮的批判，通过分析一个具体事件，进一步揭露社会沙文主义的实质，并提出具体的斗争任务。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "allusion",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "伯格比尔与代表会议提议",
+        "explain": "伯格比尔是荷兰社会民主党人。1917年初，他提议在中立国荷兰召开一个由各国社会党代表参加的会议，讨论结束战争的问题。这一提议被交战双方的社会沙文主义者（即支持本国政府参战的社会党人）所利用或拒绝。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "诺根与《工人报》",
+        "explain": "诺根是当时布尔什维克党内的一位同志。《工人报》是孟什维克的报纸。列宁在此引用该报对伯格比尔建议的报道，作为分析事件的材料。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "俄国和英法沙文主义者",
+      "their_view": "拒绝接受伯格比尔关于参加代表会议的建议，可能以各种理由（如对方是敌国阵营、会议无实效等）为自己的不参与辩护。",
+      "author_response": "列宁认为，这种拒绝行为本身就是一个重大的政治事实，暴露了他们为本国资产阶级服务、背叛国际主义的沙文主义本质，因此必须成为反对运动的目标。",
+      "polemic_kind": "reveals_class_basis",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p125s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p125s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p125s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p125s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p125s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p125s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

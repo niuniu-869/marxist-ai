@@ -1,0 +1,147 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 39,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "批判民粹派美化“工役”制度，论证其理论根源在于对前资本主义生产关系的幻想，并揭示其与进步遗产的背离。",
+    "importance_score": 2,
+    "importance_reason": "通过具体例证（恩格尔哈特、尤沙柯夫、瓦·沃）支撑上一段关于民粹派理论反动性的论点，是核心批判的展开部分。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对民粹派理论特点的分析，本段以“工役理想化”这一具体现象为例，进一步论证其理论的反动实质。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested | term_polysemy",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "工役制度",
+        "explain": "指农奴制废除后，农民为地主干活以抵偿租税或债务的制度，是劳役地租的残余形式。民粹派将其视为优于资本主义雇佣劳动的“理想”模式。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "民粹派",
+      "their_view": "资本主义是危险的，因为它用雇农取代了独立的农民；工役制度是理想的，它保留了农民与土地的联系，优于冷酷的雇佣关系。",
+      "author_response": "民粹派所赞美的“独立”农民和工役制度，实质是前资本主义的、导致贫困与人身依附的落后形式，他们对此的美化暴露了其理论的反动性。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p39s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p39s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p39s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p39s4",
+        "speaker": "editor",
+        "stance": "neutral_citation",
+        "notes": []
+      },
+      {
+        "sid": "p39s5",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p39s6",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p39s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p39s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p39s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "独立的农民",
+            "type": "concept",
+            "modern": "民粹派理论中理想化的小农形象，指拥有生产资料、自给自足的农民，与资本主义雇农相对。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "independent_peasant_populist"
+          }
+        ]
+      },
+      {
+        "sid": "p39s10",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p39s11",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p39s12",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p39s13",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 2,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "hs:claim_5gram_with_quote",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

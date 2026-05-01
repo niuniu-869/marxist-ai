@@ -1,0 +1,88 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 29,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "分析科尔尼洛夫叛乱失败的社会基础，指出其支持力量薄弱，并强调无产阶级将铲除资产阶级的舆论控制。",
+    "importance_score": 2,
+    "importance_reason": "具体分析叛乱失败原因，为论证无产阶级革命力量提供实例支撑。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对叛乱力量的分析，具体说明其社会基础的脆弱性，并引出无产阶级胜利后的行动。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "用国内战争恐吓民主派的人（立宪民主党、孟什维克等）",
+      "their_view": "国内战争将带来巨大灾难和流血，因此必须避免将革命引向深入，应与资产阶级妥协。",
+      "author_response": "叛乱的迅速失败证明其社会基础薄弱，无产阶级胜利后将彻底铲除其舆论工具。",
+      "polemic_kind": "reveals_class_basis",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p29s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p29s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "野蛮师",
+            "type": "event",
+            "modern": "科尔尼洛夫叛乱中一支由受蒙蔽士兵组成的部队",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p29s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p29s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p29s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

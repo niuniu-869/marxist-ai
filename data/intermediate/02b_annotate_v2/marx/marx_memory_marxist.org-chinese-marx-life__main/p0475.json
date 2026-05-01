@@ -1,0 +1,72 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 475,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段叙述马克思在等待恩格斯消息期间的焦虑，以及燕妮带来恩格斯在瑞士韦维的平安消息。",
+    "importance_score": 0,
+    "importance_reason": "本段为叙事过渡，提供恩格斯下落的信息，连接前后情节。",
+    "argument_role": "none",
+    "argument_link": null,
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "text_anomaly",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "text_anomaly",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "文本排版错误",
+        "explain": "原文中'瑞土'应为'瑞士'，是明显的排版残留或OCR错误，影响地名理解。",
+        "why_needed": "text_anomaly",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p475s2",
+        "quote": "终于在六月的最后一天，燕妮兴奋地带着喜讯冲进房间里，她说：“弗里德里希还活着，他在瑞土的韦维，你自己看信吧，他在信里写了什么!”",
+        "trigger": "text_anomaly",
+        "reader_block": "地名'瑞土'疑似排版错误，读者可能困惑于这个不存在的地点。",
+        "parse": {
+          "claim": "燕妮告知马克思恩格斯在瑞士韦维平安。",
+          "qualifiers": "在六月的最后一天",
+          "contrast_or_target": null
+        },
+        "why": {
+          "relation": "none",
+          "explanation": ""
+        },
+        "implication": null,
+        "confidence": "low",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p475s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p475s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  }
+}

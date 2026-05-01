@@ -1,0 +1,103 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 105,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "马克思描述正统派在法国战败、帝国倒台后重新活跃，并讽刺其成员构成的堕落。",
+    "importance_score": 1,
+    "importance_reason": "对正统派作为反革命工具的具体描述，属于论证中的例证部分。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段关于“反革命工具”的论断，具体以正统派为例展开分析。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "正统派",
+      "their_view": "法国战败、帝国倒台、皇帝被俘，意味着他们长期期盼的旧君主制即将复辟。",
+      "author_response": "马克思讽刺这种期望是历史倒退，并指出如今挤入议会的正统派成员远不如从前，尽是庸碌之辈。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p105s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p105s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "千年王国",
+            "type": "metaphor",
+            "modern": "源自基督教末世论，指基督再临前的千年和平盛世，此处被正统派借喻为君主制复辟后的理想时代。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p105s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p105s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p105s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p105s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "布索那克",
+            "type": "metaphor",
+            "modern": "法国作家欧仁·苏小说《巴黎的秘密》中的一个庸俗、愚蠢的资产者形象，马克思借以讽刺正统派成员的平庸。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

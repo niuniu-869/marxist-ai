@@ -1,0 +1,65 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 371,
+  "annotation": {
+    "block_type": "quote_block",
+    "gist": "引用列宁论述，阐明无产阶级胜利后改良与革命关系的新内容。",
+    "importance_score": 2,
+    "importance_reason": "通过引用列宁，为上一段提出的“改良来源是革命胜利品”提供权威理论依据，并界定其在新条件下的具体形式。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段关于无产阶级专政下改良来源的论断，引用列宁的话具体说明这种新关系的内容与形式。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p371s1",
+        "speaker": "quoted_lenin",
+        "stance": "endorsed",
+        "notes": [
+          {
+            "surface": "副产品",
+            "type": "metaphor",
+            "modern": "在革命理论中，指改良并非革命的主要目标或直接产物，而是阶级斗争过程中附带产生的结果。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 2,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

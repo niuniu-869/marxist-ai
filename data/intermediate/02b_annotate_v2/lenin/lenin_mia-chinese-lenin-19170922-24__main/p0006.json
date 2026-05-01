@@ -1,0 +1,89 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 6,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "通过对比两次革命的阶级构成，界定当前革命的性质。",
+    "importance_score": 2,
+    "importance_reason": "为后续论证提供阶级分析框架。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对民主会议错误的判断，转而从阶级构成角度解释当前革命的性质。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "俄国资产阶级的国际依附",
+        "explain": "指俄国资产阶级在第一次世界大战中与英法帝国主义结盟，依赖其贷款和军事支持。列宁用此强调其阶级利益与外国资本绑定，已非革命力量。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p6s1",
+        "quote": "目前在国内，一场新的革命，另一些阶级（不同于实现了反对沙皇制度的革命的那些阶级）的革命，显然在日益成熟。",
+        "trigger": "long_nested",
+        "reader_block": "括号插入语打断主句，读者可能不确定“另一些阶级”具体指谁，以及与前文“当时的革命”有何不同。",
+        "parse": {
+          "claim": "俄国正酝酿一场由新阶级主导的革命，其参与者与推翻沙皇的联盟不同。",
+          "qualifiers": "",
+          "contrast_or_target": "与二月革命的阶级联盟形成对照。"
+        },
+        "why": {
+          "relation": "continues",
+          "explanation": "承接上段，开始从阶级角度分析当前形势，为论证抵制民主会议提供新的理论依据。"
+        },
+        "implication": null,
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "孟什维克和社会革命党人",
+      "their_view": "他们认为当前革命仍是各阶级联合反对旧制度的延续，因此应参与民主会议等联合机构。",
+      "author_response": "列宁指出革命的阶级基础已经改变，资产阶级已转向反革命，因此联合策略是错误的。",
+      "polemic_kind": "reveals_class_basis",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p6s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p6s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 2,
+        "hs_kept": 1,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "note:n1_overflow_concept_17>5"
+      ]
+    }
+  ]
+}

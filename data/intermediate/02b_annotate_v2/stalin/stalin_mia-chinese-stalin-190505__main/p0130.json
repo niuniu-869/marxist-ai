@@ -1,0 +1,72 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 130,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "作者描述伯恩施坦追随者对前文观点的反对，指责其与马克思主义矛盾。",
+    "importance_score": 1,
+    "importance_reason": "引入论敌反对意见，为后续反驳做铺垫。",
+    "argument_role": "contrasts",
+    "argument_link": "上段肯定列宁和布尔什维克的路线，本段转而描述伯恩施坦追随者的反对，形成对比。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "伯恩施坦修正主义",
+        "explain": "伯恩施坦是19世纪末德国社会民主党人，主张渐进改良而非暴力革命，被视为修正马克思主义的代表。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p130s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "伯恩施坦的喽罗们",
+            "type": "social_group",
+            "modern": "伯恩施坦修正主义的追随者，代表党内反对列宁路线的派别",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 220,
+  "annotation": {
+    "block_type": "quote_block",
+    "gist": "本段叙述马克思提及恩格斯及其文章，并计划将其纳入年鉴，同时肯定恩格斯对无产阶级使命的认识。",
+    "importance_score": 1,
+    "importance_reason": "本段在传记中展示马克思与恩格斯的早期联系和思想交流，属于叙述性过渡。",
+    "argument_role": "none",
+    "argument_link": null,
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "德法年鉴",
+        "explain": "马克思与卢格计划在巴黎出版的批判性刊物，旨在分析德国政治与社会，1844年出版第一期。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p220s1",
+        "speaker": "quoted_marx",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "恩格斯",
+            "type": "person",
+            "modern": "弗里德里希·恩格斯，马克思的终身合作者，当时在曼彻斯特从事商业活动。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "年鉴",
+            "type": "work",
+            "modern": "马克思与卢格计划在巴黎出版的批判性刊物，1844年出版第一期。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "无产阶级",
+            "type": "concept",
+            "modern": "在马克思主义理论中，指现代工业工人阶级，其历史使命是推翻资本主义。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "class_marxist"
+          }
+        ]
+      }
+    ]
+  }
+}

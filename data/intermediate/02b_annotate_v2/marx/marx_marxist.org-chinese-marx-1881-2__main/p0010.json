@@ -1,0 +1,58 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 10,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "马克思用反问句质疑俄国崇拜者，指出他们无法解释俄国如何能瞬间复制西方长期形成的金融体系。",
+    "importance_score": 2,
+    "importance_reason": "本段通过反问强化对资本主义发展必然论的批判，是论证俄国独特发展道路的关键环节。",
+    "argument_role": "contrasts",
+    "argument_link": "本段承接上段关于机器工业孕育期的反问，进一步将质疑扩展到金融交换领域，揭露论敌观点的内在矛盾。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p10s1",
+        "quote": "世纪才建立起来的一整套交换机构〈银行、信用公司等等〉一下子就引进到自己这里来呢？",
+        "trigger": "inverted_logic",
+        "reader_block": "反问句式隐含强烈否定，读者可能误以为在询问可能性，而非断言其不可能。",
+        "parse": {
+          "claim": "俄国不可能在短时间内移植西方历经数个世纪才发展成熟的银行与信用体系。",
+          "qualifiers": "无特定条件限定。",
+          "contrast_or_target": "资本主义制度的俄国崇拜者认为，俄国可以绕过历史阶段，直接采用西方现成的制度成果。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "本句通过反问直接驳斥论敌关于制度可快速移植的幻想，强调社会发展具有不可逾越的历史过程。"
+        },
+        "implication": "俄国社会变革必须基于自身历史条件，而非简单模仿西方模式。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "资本主义制度的俄国崇拜者",
+      "their_view": "俄国可以跳过漫长的历史积累，直接引进西方已经成熟的交换机构与金融制度。",
+      "author_response": "马克思指出，西方这些机构是历经数世纪才建立的，俄国不可能在一夜之间将其复制过来。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p10s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  }
+}

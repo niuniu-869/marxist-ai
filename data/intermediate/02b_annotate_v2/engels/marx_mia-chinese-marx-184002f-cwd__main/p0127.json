@@ -1,0 +1,106 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 127,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "作者回应论敌对共产主义的指责，指出历史是阶级对抗的发展过程，社会意识形式在阶级对抗消灭前必然存在。",
+    "importance_score": 2,
+    "importance_reason": "本段通过历史唯物主义观点反驳论敌，支撑《共产党宣言》的核心论证。",
+    "argument_role": "contrasts",
+    "argument_link": "上段引用论敌观点指责共产主义否定永恒真理，本段作者指出历史是阶级对抗的过程，社会意识形式在阶级对抗中产生，从而反驳论敌的詰難。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "cross_ref_pronoun",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "论敌的詰難",
+        "explain": "前一段中论敌指责共产主义否定自由、正义等永恒真理，本段开头'這種詰難'即指此观点。",
+        "why_needed": "cross_ref_pronoun",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p127s1",
+        "quote": "這種詰難，不是他自己表白自己不合理嗎？",
+        "trigger": "inverted_logic",
+        "reader_block": "反问句式，读者可能误以为作者在提问，实际是反驳论敌的詰難，需要理解其隐含的否定。",
+        "parse": {
+          "claim": "论敌的指责反而暴露了其自身观点的不合理性。",
+          "qualifiers": "",
+          "contrast_or_target": "论敌认为共产主义否定永恒真理，与历史经验不相容。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "本句直接反驳前一段论敌的詰難，指出其自相矛盾，为后续历史唯物主义阐述铺垫。"
+        },
+        "implication": null,
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "论敌（指责共产主义否定永恒真理者）",
+      "their_view": "共产主义否定自由、正义等永恒真理，与历史经验不相容。",
+      "author_response": "历史是阶级对抗的发展过程，社会意识形式在阶级对抗中产生，因此论敌的詰難不合理。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p127s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p127s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "階級對抗",
+            "type": "concept",
+            "modern": "在历史唯物主义中，指社会不同阶级之间的根本性冲突和斗争，是历史发展的动力。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "class_struggle_marxist"
+          }
+        ]
+      },
+      {
+        "sid": "p127s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p127s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p127s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p127s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  }
+}

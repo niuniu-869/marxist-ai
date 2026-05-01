@@ -1,0 +1,70 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 64,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁引用恩格斯1887年两封信件，展示其对俄国革命形势的判断，特别是对军队中革命力量的看法。",
+    "importance_score": 1,
+    "importance_reason": "作为例证，用恩格斯的历史判断来支撑列宁关于俄国革命可能性的论点。",
+    "argument_role": "example",
+    "argument_link": "承接上一段关于政治革命必要性的讨论，用恩格斯对俄国形势的判断作为具体历史例证。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "1880年代俄国谋刺与民意党",
+        "explain": "恩格斯信中提及的“谋刺”指1880年代针对沙皇亚历山大三世的暗杀行动。“民意党人”是当时进行恐怖活动的革命组织，试图通过刺杀沙皇引发革命。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p64s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p64s2",
+        "speaker": "quoted_engels",
+        "stance": "endorsed",
+        "notes": [
+          {
+            "surface": "谋刺",
+            "type": "event",
+            "modern": "1880年代针对沙皇亚历山大三世的暗杀行动，是当时革命斗争的一种形式。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "民意党人",
+            "type": "org",
+            "modern": "19世纪80年代俄国革命组织，主张通过恐怖手段推翻沙皇专制。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  }
+}

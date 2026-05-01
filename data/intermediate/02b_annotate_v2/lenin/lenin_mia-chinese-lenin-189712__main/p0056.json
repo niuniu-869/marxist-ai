@@ -1,0 +1,137 @@
+{
+  "_prompt_version": "marxist-v0.2-2026-04-30-scaffolding",
+  "n": 56,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁讽刺米海洛夫斯基自以为发现了新问题，实则其立场与民粹派无异，只是换了个标签。",
+    "importance_score": 2,
+    "importance_reason": "本段是论证中的一个环节，通过归谬法揭示论敌立场的实质，强化了对民粹派思想的批判。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对米海洛夫斯基引文的评论，进一步剖析其论点的实质，并将其立场明确归类为民粹派。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "米海洛夫斯基",
+      "their_view": "认为自己提出了一个“俄国学生们”未曾思考的新问题，即如何“迎接”资本主义。",
+      "author_response": "指出这根本不是新问题，而是民粹派与马克思主义者之间早已存在的根本分歧，米海洛夫斯基的立场就是民粹派立场。"
+    },
+    "sentences": [
+      {
+        "sid": "p56s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "新大陆",
+            "type": "metaphor",
+            "modern": "比喻米海洛夫斯基自以为的重大发现",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p56s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p56s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p56s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p56s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p56s6",
+        "speaker": "editor",
+        "stance": "neutral_citation",
+        "notes": []
+      },
+      {
+        "sid": "p56s7",
+        "speaker": "editor",
+        "stance": "neutral_citation",
+        "notes": []
+      },
+      {
+        "sid": "p56s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p56s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p56s10",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p56s11",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p56s12",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": [
+          {
+            "surface": "伦理社会学学派",
+            "type": "person",
+            "modern": "米海洛夫斯基为自己所属思想流派的命名",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

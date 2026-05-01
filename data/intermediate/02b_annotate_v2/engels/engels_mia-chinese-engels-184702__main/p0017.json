@@ -1,0 +1,153 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 17,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "恩格斯分析普鲁士宪法的历史作用，指出它虽本身不足道，却开启了德国资产阶级革命进程，并预示了后续的阶级斗争阶段。",
+    "importance_score": 2,
+    "importance_reason": "本段是恩格斯对普鲁士宪法历史意义的核心判断，阐述了资产阶级革命后民主运动发展的阶段论，是理解其革命观的关键段落。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对三级会议中自由派力量的分析，进一步推演这一政治变动将引发的连锁反应和历史后果。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "法国大革命",
+        "explain": "1789年法国爆发推翻封建专制、建立资产阶级政权的革命。恩格斯将普鲁士当前局势类比为这场革命在德国的预演。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "民主主义政党",
+        "explain": "在19世纪德国语境下，主要指代表小资产阶级、城市平民和早期无产阶级利益的激进政治派别，与代表大资产阶级的自由派相区别。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p17s9",
+        "quote": "从这时起，斗争就简单化了，成为两种力量的斗争，并因此而变为“生死的决战”。",
+        "trigger": "inverted_logic",
+        "reader_block": "“简单化”一词可能让读者误以为斗争变得容易，但实际是指斗争性质从多阶级联合反封建，简化为资产阶级与人民（主要是无产阶级）两大阵营的直接对抗。",
+        "parse": {
+          "claim": "当资产阶级成为明确的统治者后，社会主要矛盾从多阶级联合反对旧制度，转变为资产阶级与人民（以民主主义政党为代表）两大阵营的直接对抗。",
+          "qualifiers": "这一简化发生在资产阶级统治确立之后。",
+          "contrast_or_target": "反驳了认为资产阶级掌权后社会矛盾会缓和或消失的看法。"
+        },
+        "why": {
+          "relation": "conclusion",
+          "explanation": "这是对前一句所述历史阶段转折的逻辑推论，点明了阶级斗争在资产阶级革命后的新形态，是本段论证的落脚点。"
+        },
+        "implication": "斗争的“生死决战”性质，意味着未来革命的彻底性和暴力性可能超过反封建阶段。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "乐观的自由主义舆论",
+      "their_view": "普鲁士通过颁布宪法，已经完成了向立宪国家的和平过渡，政治进步的主要目标已经实现。",
+      "author_response": "恩格斯指出，宪法本身价值有限，其真正意义在于开启了不可控的革命进程，最终将导致资产阶级统治的确立及其与人民的新对抗，远非终点。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p17s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p17s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p17s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p17s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p17s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p17s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p17s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "民主主义政党",
+            "type": "social_group",
+            "modern": "19世纪德国政治光谱中，代表小资产阶级、城市平民及早期无产阶级利益的激进派别，与代表大资产阶级的自由派相对。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p17s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p17s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p17s10",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 1,
+        "hs_kept": 1,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

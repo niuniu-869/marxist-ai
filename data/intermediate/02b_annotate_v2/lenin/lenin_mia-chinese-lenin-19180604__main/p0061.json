@@ -1,0 +1,68 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 61,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁驳斥了将饥荒归咎于共产党人的论调，并指出通过内战实现社会主义是任何清醒的革命者都承认的常识。",
+    "importance_score": 2,
+    "importance_reason": "本段直接回应政治对手对苏维埃政权的核心指控，并为后续论证革命手段的必要性奠定基础。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对孟什维克和右派社会革命党人决议案的批判，进一步揭露其政治攻击的实质。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "孟什维克与右派社会革命党人",
+      "their_view": "共产党人应当为当前的饥荒承担责任。",
+      "author_response": "这种将饥荒归咎于革命政权的指责，是毫无根据且不值一驳的。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p61s1",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p61s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p61s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_6>5",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 20,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "回答各政党对社会主义的态度，指出立宪民主党及其更右翼的政党仇视社会主义，因其威胁资本家和地主的利润。",
+    "importance_score": 1,
+    "importance_reason": "具体回答前文问题，阐明特定政党的阶级立场，属于论证链条中的支撑性环节。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段关于政党对社会主义态度的提问，给出具体答案，将抽象问题落实到具体政党类别。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "cross_ref_pronoun",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "前文政党分类",
+        "explain": "列宁在前文将俄国政党按政治光谱从左到右进行了分类编号。此处的“一”和“二”指代前文定义的特定类别，读者需了解该分类才能明确具体指哪些政党。",
+        "why_needed": "cross_ref_pronoun",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "立宪民主党",
+      "their_view": "立宪民主党主张建立资产阶级共和国，维护资本家和地主的利益，因此反对任何威胁其利润的社会主义。",
+      "author_response": "列宁指出，这些政党仇视社会主义的根本原因在于社会主义会触动其阶级利益。",
+      "polemic_kind": "reveals_class_basis",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p20s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p20s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  }
+}

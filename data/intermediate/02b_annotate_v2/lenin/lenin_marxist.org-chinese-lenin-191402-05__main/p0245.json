@@ -1,0 +1,70 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 245,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁点名批评取消派代表人物谢姆柯夫斯基，揭露其公开攻击党纲条款与私下保留态度之间的矛盾。",
+    "importance_score": 2,
+    "importance_reason": "作为具体例证，支撑列宁对取消派机会主义矛盾性的批判。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段对《钟声》杂志分裂作用的批评，进一步具体揭露取消派内部另一代表人物的言行不一。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "谢姆柯夫斯基",
+      "their_view": "在取消派报纸上公开激烈抨击党纲中关于民族自决权的条款，但同时又声称自己不完全同意取消该条款。",
+      "author_response": "列宁通过指出这种公开批评与私下保留态度的矛盾，揭露其机会主义本质。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p245s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "没有穿裤子的孩子",
+            "type": "metaphor",
+            "modern": "列宁用此比喻指代那些在理论或政治上不成熟、立场不坚定的论敌。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p245s2",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

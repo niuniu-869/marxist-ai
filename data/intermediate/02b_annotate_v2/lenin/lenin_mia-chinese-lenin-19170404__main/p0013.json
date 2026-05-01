@@ -1,0 +1,83 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 13,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁阐述结束战争的根本条件，强调必须与国际资本彻底决裂，战争根源在于国际金融资本体系，单方面停战不现实，并提及国际社会主义者的责任。",
+    "importance_score": 2,
+    "importance_reason": "本段是列宁关于战争与革命关系的核心论点之一，为《四月提纲》中“变帝国主义战争为国内战争”的策略提供了理论基础。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段对“兼并”问题的讨论，将分析从具体领土问题上升到结束战争的总体条件，指出问题的根源在于国际资本体系。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p13s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p13s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p13s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p13s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "昆塔尔",
+            "type": "event",
+            "modern": "1916年4月在瑞士召开的第二次反战国际社会主义者会议，推动了反战运动。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 2,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_6>5",
+        "note:n2_5gram_with_surface"
+      ]
+    }
+  ]
+}

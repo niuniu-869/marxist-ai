@@ -1,0 +1,111 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 14,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "描述国民议会在起义被镇压后，从惊慌转向疯狂攻击，揭露其抛弃“博爱”口号、将工人污蔑为“战败者”并高呼“共和国万岁”的虚伪本质。",
+    "importance_score": 3,
+    "importance_reason": "核心批判段落，直接刻画资产阶级共和国在阶级搏斗中的真实面目，是全文论战的关键环节。",
+    "argument_role": "continues",
+    "argument_link": "紧接上段对议会惊慌失措的描写，转而刻画其清醒后对工人的疯狂反扑。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target | implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p14s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p14s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "博爱",
+            "type": "slogan",
+            "modern": "法国大革命口号“自由、平等、博爱”之一，在1848年革命中被临时政府用来宣扬阶级和解。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p14s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p14s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "正统主义者拉罗什雅克兰",
+            "type": "person",
+            "modern": "法国正统派（拥护波旁王朝）议员，以贵族骑士自居，此处被马克思讽刺为“空想家”。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "战败者罪该万死！",
+            "type": "slogan",
+            "modern": "拉丁语“Vae victis!”，古罗马高卢人掠夺罗马时的口号，此处被议会多数派用来指代被镇压的工人。",
+            "highlight": "quote",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p14s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p14s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 3,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

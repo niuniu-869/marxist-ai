@@ -1,0 +1,73 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 14,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁以社会革命党领袖的言论为例，论证武装起义时机已成熟，无需等待苏维埃代表大会。",
+    "importance_score": 3,
+    "importance_reason": "本段通过引用论敌言论，为武装起义的紧迫性提供直接证据。",
+    "argument_role": "continues",
+    "argument_link": "本段承接上段对社会革命党人玩弄骗局的批判，用其领袖的公开言论作为例证。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "all_known",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p14s1",
+        "quote": "这有什么奇怪呢？",
+        "trigger": "inverted_logic",
+        "reader_block": "反问句式，读者可能误以为在提问，实际是强调“这并不奇怪”。",
+        "parse": {
+          "claim": "社会革命党领袖的言论并不令人意外。",
+          "qualifiers": "",
+          "contrast_or_target": "针对党内等待苏维埃代表大会的倾向。"
+        },
+        "why": {
+          "relation": "none",
+          "explanation": ""
+        },
+        "implication": null,
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "社会革命党领袖",
+      "their_view": "联合政策是正确的，继续支持临时政府，并斥责反对联合的党内同志。",
+      "author_response": "列宁用他们自己的言论证明，连布尔什维克的敌人都承认危机已成熟，这恰恰说明等待是错误的。",
+      "polemic_kind": "counter_quotation",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p14s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p14s2",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": [
+          {
+            "surface": "社会革命党",
+            "type": "org",
+            "modern": "1902年成立的俄国政党，主张农民社会主义，1917年后与临时政府合作。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  }
+}

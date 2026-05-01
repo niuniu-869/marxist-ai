@@ -1,0 +1,72 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 4,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段直接回应资产阶级关于社会主义扼杀进取心的指责，论证社会主义制度为群众性竞赛开辟了前所未有的广阔空间。",
+    "importance_score": 2,
+    "importance_reason": "核心论点的直接论证，旨在从正面阐述社会主义制度的优越性，以反驳资产阶级的攻击。",
+    "argument_role": "contrasts",
+    "argument_link": "承接上段对资产阶级赞扬资本主义竞争的描述，转而正面阐述社会主义如何超越并实现更高级的竞赛形式。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "资产阶级对社会主义的指责",
+        "explain": "当时流行一种论调，认为社会主义将消灭竞争，从而扼杀人的进取心和才能，只有资本主义制度才能激发人的活力。列宁在此直接反驳这一观点。",
+        "why_needed": "implicit_target",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p4s1",
+        "quote": "社会主义不仅不窒息竞赛，反而第一次造成真正广泛地、真正大规模地运用竞赛的可能，把真正大多数劳动者吸引到这样一个工作舞台上来，在这个舞台上，他们能够大显身手，施展自己的本领，发现有才能的人。",
+        "trigger": "inverted_logic",
+        "reader_block": "双重否定结构“不仅不……反而”，读者可能误读为社会主义与竞赛无关，实际是强烈反驳“社会主义窒息竞赛”的论调。",
+        "parse": {
+          "claim": "社会主义制度非但不会压制竞争，反而首次为大规模、群众性的竞赛创造了现实条件。",
+          "qualifiers": "限定于社会主义制度下，且是“第一次”实现这种可能性。",
+          "contrast_or_target": "针对资产阶级知识分子认为社会主义会扼杀竞争和人的进取心的观点。"
+        },
+        "why": {
+          "relation": "contrasts",
+          "explanation": "本句通过双重否定和“反而”的转折，直接与上段所引述的资产阶级观点形成尖锐对立，是全文核心反驳的起点。"
+        },
+        "implication": "社会主义的优越性在于能将竞赛从少数人的特权，转变为绝大多数劳动者参与的、发现和培养人才的公共舞台。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "资产阶级知识分子",
+      "their_view": "社会主义制度会消灭竞争，从而扼杀人的进取心、毅力和才能，只有资本主义才能激发这些品质。",
+      "author_response": "列宁指出，社会主义恰恰为真正广泛和大规模的竞赛提供了可能，使大多数劳动者得以施展才能，而资本主义则摧残和压制了无数有才能的人。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p4s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p4s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  }
+}

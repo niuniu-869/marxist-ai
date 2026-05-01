@@ -1,0 +1,61 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 40,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "斯大林质问马尔托夫条文如何与党的集中制原则共存，并断言二者不可调和，必须舍弃前者。",
+    "importance_score": 2,
+    "importance_reason": "本段是论证链中的一个关键判断点，明确将马尔托夫条文与党的集中制原则对立起来，并做出取舍。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对列宁条文的辩护，本段将马尔托夫条文与党的集中制原则直接对立，并做出取舍判断。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "马尔托夫",
+      "their_view": "党章第一条只需规定接受纲领、提供帮助和协助，无需要求党员参加党的一个组织。",
+      "author_response": "斯大林认为这种条文与党的集中制原则根本矛盾，必须舍弃。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p40s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p40s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 10,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "马克思批评施韦泽在《社会民主党人报》上的文章日益迎合普鲁士政府，背离了工人运动的正确策略。",
+    "importance_score": 2,
+    "importance_reason": "本段通过具体事例批判“现实政治”路线，支撑马克思对机会主义的批判。",
+    "argument_role": "continues",
+    "argument_link": "本段承接上文对哈茨费尔特和俾斯麦联系的揭露，具体批判施韦泽本人的“俾斯麦化”倾向。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "联合法",
+        "explain": "普鲁士政府于1850年颁布的法律，严格限制工人结社和集会权利，是俾斯麦政府维护统治的工具之一。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "奴仆规约",
+        "explain": "普鲁士维护农奴制残余的法规，规定了仆人对主人的服从义务，是封建等级制度的体现。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "进步党人",
+        "explain": "1861年在普鲁士成立的资产阶级自由主义政党，主张君主立宪和统一德国，但对工人运动持警惕态度。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "施韦泽",
+      "their_view": "施韦泽认为普鲁士政府可能在联合法问题上做出让步，因此采取拥护俾斯麦的策略是可行的。",
+      "author_response": "马克思指出施韦泽的这种策略是错误的，因为普鲁士国家的本质决定了它不会真正维护工人利益，施韦泽的行为是向政府妥协。",
+      "polemic_kind": "strategic_critique",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p10s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p10s2",
+        "speaker": "quoted_marx",
+        "stance": "endorsed",
+        "notes": []
+      },
+      {
+        "sid": "p10s3",
+        "speaker": "editor",
+        "stance": "neutral_citation",
+        "notes": []
+      },
+      {
+        "sid": "p10s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p10s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p10s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p10s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

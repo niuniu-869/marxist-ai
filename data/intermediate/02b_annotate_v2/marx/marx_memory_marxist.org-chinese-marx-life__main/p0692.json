@@ -1,0 +1,104 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 692,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段是马克思在纲领中的核心论证：从财富增长现象切入，论证资本主义制度下工人阶级处境必然恶化，并指出根本出路在于消灭生产资料私有制。",
+    "importance_score": 3,
+    "importance_reason": "本段集中阐述了马克思对资本主义制度下工人阶级命运的基本判断和革命性解决方案，是其政治经济学批判和科学社会主义理论的核心论点之一。",
+    "argument_role": "continues",
+    "argument_link": "本段承接上段关于马克思起草通俗开幕词的叙述，具体展示了其纲领中论证的核心内容：对资本主义条件下工人阶级处境的分析和解决方案。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p692s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "资本主义",
+            "type": "concept",
+            "modern": "一种以生产资料私有制和雇佣劳动为基础的社会经济制度",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "capitalism_system"
+          }
+        ]
+      },
+      {
+        "sid": "p692s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "工人",
+            "type": "concept",
+            "modern": "在资本主义生产关系中不占有生产资料、依靠出卖劳动力为生的阶级成员",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "working_class_marxist"
+          }
+        ]
+      },
+      {
+        "sid": "p692s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "剥削",
+            "type": "concept",
+            "modern": "在政治经济学中，指一部分人无偿占有另一部分人剩余劳动的关系",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "exploitation_economic"
+          }
+        ]
+      },
+      {
+        "sid": "p692s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 3,
+        "notes_dropped": 2,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "note:n1_overflow_concept_7>5"
+      ]
+    }
+  ]
+}

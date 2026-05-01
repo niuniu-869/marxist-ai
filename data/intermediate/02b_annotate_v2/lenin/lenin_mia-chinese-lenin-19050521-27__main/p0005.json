@@ -1,0 +1,166 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 5,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "梳理党内关于临时革命政府问题的争论脉络，指出普列汉诺夫回避了真正的争论焦点。",
+    "importance_score": 2,
+    "importance_reason": "梳理党内关于临时革命政府问题的争论脉络，为后续反驳普列汉诺夫做铺垫。",
+    "argument_role": "continues",
+    "argument_link": "承接上段宣布要分析反对意见的承诺，具体梳理马尔丁诺夫提出的问题及党内各方的立场分歧。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "马尔丁诺夫与《两种专政》",
+        "explain": "马尔丁诺夫是孟什维克理论家。其文章《两种专政》提出了一个核心问题：如果无产阶级政党领导起义并成功，是否必须参加临时革命政府？他认为这会导致灭亡。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p5s9",
+        "quote": "这难道同“为夺取〈？？〉政权规定的〈！！〉策略”相似吗？",
+        "trigger": "inverted_logic",
+        "reader_block": "反问句式，读者可能不理解其修辞意图，即强调两者根本不同。",
+        "parse": {
+          "claim": "列宁认为，普列汉诺夫所争论的问题（是否应当规定夺取政权的策略）与马尔丁诺夫提出的问题（起义胜利后参加临时政府是否会导致灭亡）根本不同。",
+          "qualifiers": "",
+          "contrast_or_target": "普列汉诺夫的论点：应当争论是否应当规定夺取政权的策略。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "本句通过反问，直接揭露普列汉诺夫在偷换议题，将具体的策略后果讨论，歪曲为抽象的策略规定问题。"
+        },
+        "implication": "普列汉诺夫试图将争论引向一个无人反对的抽象原则，从而回避对其具体策略立场的批判。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "普列汉诺夫",
+      "their_view": "应当争论的是：应当不应当规定夺取政权的策略。",
+      "author_response": "列宁指出，普列汉诺夫在回避马尔丁诺夫提出的具体问题，即起义胜利后参加临时政府是否会导致灭亡，而过去和现在争论的焦点正是这个具体问题。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p5s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "《两种专政》",
+            "type": "work",
+            "modern": "孟什维克理论家马尔丁诺夫的文章，提出了关于无产阶级政党参加临时革命政府的诘难。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p5s2",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p5s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p5s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p5s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p5s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p5s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p5s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p5s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p5s10",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p5s11",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p5s12",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p5s13",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 3,
+        "hs_kept": 1,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_6>5",
+        "note:n1_overflow_concept_12>5",
+        "note:n1_overflow_concept_7>5",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 199,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "批评空想社会主义者脱离历史条件，主观臆想社会改造方案，将劳动者视为被动的苦难承受者。",
+    "importance_score": 2,
+    "importance_reason": "这是对空想社会主义批判的核心段落，揭示其脱离历史条件和群众实践的理论缺陷。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对其历史判断的描述，进一步批判其脱离实际的主观臆想和对劳动者的片面理解。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "cross_ref_pronoun",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [
+      "批判的空想的社会主义和共产主义"
+    ],
+    "prereading_inline": [
+      {
+        "topic": "“发明家”指代",
+        "explain": "本段开头的“发明家”是代词，指代前文（第198段）所描述的空想社会主义者，即圣西门、傅立叶、欧文等人。",
+        "why_needed": "cross_ref_pronoun",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p199s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p199s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p199s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "阶级组织",
+            "type": "concept",
+            "modern": "在马克思主义语境下，指无产阶级在斗争中自发形成的组织形态，是阶级意识发展的体现。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "class_organization"
+          }
+        ]
+      },
+      {
+        "sid": "p199s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p199s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p199s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

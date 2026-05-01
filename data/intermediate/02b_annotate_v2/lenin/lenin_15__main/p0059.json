@@ -1,0 +1,67 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 59,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "通过描述德国钢铁工业中大型企业的集中与垄断现象，来例证马克思关于资本集中的理论，并指出资本主义生产关系已不适应生产力发展。",
+    "importance_score": 2,
+    "importance_reason": "作为具体例证，支撑前文关于生产集中和垄断组织形成的论述，并引出资本主义外壳即将被打破的结论。",
+    "argument_role": "example",
+    "argument_link": "承接上一段关于钢铁工业联合企业导致小企业倒闭的观察，进一步展示生产集中如何形成垄断组织（辛迪加），并点明银行资本与工业资本的结合。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p59s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "辛迪加",
+            "type": "concept",
+            "modern": "垄断组织的一种形式，由同类企业联合组成，旨在统一销售和采购，以控制市场和价格。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "syndicate_monopoly"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 3,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

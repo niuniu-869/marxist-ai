@@ -1,0 +1,92 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 63,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "马克思分析检查令的文本逻辑，指出其表面希望改善实则授权检查官直接删改，并用医疗比喻批判这种粗暴方式。",
+    "importance_score": 2,
+    "importance_reason": "具体分析检查令文本，揭露其授权检查官随意删改的实质，是核心批判的组成部分。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对检查令虚伪性的讽刺，本段具体分析其文本结构，指出其逻辑矛盾和实质危害。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p63s3",
+        "quote": "所有这些规定都还是属于希望的范围以内的，“这是书报检查无疑应当采取措施加以制止的趋向”，可是，借破折号同上文连接起来的这一结束语，却免除了书报检查官去等待报刊得到预期改善的那种无聊任务，同时这一结束语还授权书报检查官毫不踌躇地删去不合他的口味的东西。",
+        "trigger": "inverted_logic",
+        "reader_block": "马克思用反讽语气，将检查令授权检查官直接删改说成是“免除了无聊任务”，读者可能误以为这是在描述检查令的优点。",
+        "parse": {
+          "claim": "检查令的结束语实际上授权检查官可以立即删除任何不符合其个人喜好的内容，而无需等待报刊自我改善。",
+          "qualifiers": "此授权针对的是“不合他的口味的东西”，即检查官的主观标准。",
+          "contrast_or_target": "检查令表面声称希望报刊改善语调，实则授权检查官直接干预。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "通过分析检查令的文本结构，揭露其表面宽容与实际专断之间的矛盾，直接反驳检查令的虚伪性。"
+        },
+        "implication": "这种授权使检查令的“希望”条款形同虚设，检查官的个人好恶成为最终标准。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p63s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p63s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p63s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p63s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 1,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

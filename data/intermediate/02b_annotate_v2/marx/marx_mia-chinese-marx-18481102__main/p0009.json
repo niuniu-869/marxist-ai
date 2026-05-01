@@ -1,0 +1,89 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 9,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "批判《改革报》将革命后短暂的社会幻想误认为持久现实，并将阶级斗争的展开归咎于偶然失误。",
+    "importance_score": 2,
+    "importance_reason": "延续对《改革报》改良幻想的批判，揭示其历史观的唯心主义本质。",
+    "argument_role": "continues",
+    "argument_link": "上段指出《改革报》用二月革命的漂亮话判断形势，本段进一步剖析其错误的历史观，即将革命后的社会运动视为偶然事件。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p9s2",
+        "quote": "好象带有虚幻的光辉的拉马丁并不是适应时势的真正大丈夫似的。",
+        "trigger": "inverted_logic",
+        "reader_block": "反讽句式，读者可能误以为作者在肯定拉马丁，实际是讽刺《改革报》的“大丈夫”幻想。",
+        "parse": {
+          "claim": "拉马丁这类政治人物并非能扭转局势的英雄。",
+          "qualifiers": "",
+          "contrast_or_target": "《改革报》认为需要“适应时势的大丈夫”来避免错误。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "用反讽揭露《改革报》历史观的荒谬，将偶然事件归因于个人。"
+        },
+        "implication": null,
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p9s1",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p9s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "拉马丁",
+            "type": "person",
+            "modern": "1848年法国临时政府实际首脑，以雄辩著称但政策摇摆。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 0,
+        "hs_kept": 1,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "polemic:eval_word:their_view:杰出"
+      ]
+    }
+  ]
+}

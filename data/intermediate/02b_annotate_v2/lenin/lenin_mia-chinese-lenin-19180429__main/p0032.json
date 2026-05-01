@@ -1,0 +1,112 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 32,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁用军事比喻论证革命策略，反驳机械的革命阶段论，强调在孤立中坚持革命的必要性。",
+    "importance_score": 3,
+    "importance_reason": "核心段落，阐述了列宁主义关于革命在“一国胜利”的策略逻辑，是理解布列斯特和约后苏维埃政策的关键。",
+    "argument_role": "contrasts",
+    "argument_link": "承接上段对动摇的谴责，本段正面阐述为何在孤立无援时仍需坚持革命，与上段形成策略上的对比。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic | rhetorical",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p32s1",
+        "quote": "如果说我们作为世界无产阶级的一支部队首先走在前面，那决不是因为这支部队组织得比较强。",
+        "trigger": "inverted_logic",
+        "reader_block": "双重否定（“决不是因为”）和让步句式（“如果说……”），读者容易误读为肯定或忽略其反驳的预设。",
+        "parse": {
+          "claim": "俄国革命队伍之所以率先行动，并非因其组织程度优于其他国家。",
+          "qualifiers": "此判断针对“首先走在前面”这一事实。",
+          "contrast_or_target": "反驳一种预设：即革命队伍的行动顺序与其组织强弱直接相关。"
+        },
+        "why": {
+          "relation": "contrasts",
+          "explanation": "本句开篇即与一种普遍的、机械的革命观形成对照，为后续论证“在孤立中坚持”奠定基础。"
+        },
+        "implication": "暗示俄国革命的发生有其特殊历史条件，不能用常规的组织强弱逻辑来解释。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      },
+      {
+        "anchor": "p32s7",
+        "quote": "相反，期待历史严格地按部就班和按照计划推动各国的社会主义部队，那就是不懂得革命，或者是由于自己的愚蠢而拒绝支持社会主义革命。",
+        "trigger": "rhetorical",
+        "reader_block": "反讽句式（“期待……那就是……”），将对手观点推向极端以揭露其荒谬性，读者需识别这是对机械论的嘲讽而非字面主张。",
+        "parse": {
+          "claim": "那种认为历史会按固定顺序、有计划地推动各国革命的观点，是对革命本质的无知或拒绝。",
+          "qualifiers": "针对“期待历史严格地按部就班和按照计划”的特定思维模式。",
+          "contrast_or_target": "批判那种认为革命必须按组织程度依次发生的机械论观点。"
+        },
+        "why": {
+          "relation": "conclusion",
+          "explanation": "作为本段论证的总结，将前文对“许多人”议论的反驳，上升到对一种根本性错误革命观的批判。"
+        },
+        "implication": "强调革命进程的非计划性、非均衡性，以及主动创造条件的必要性。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "主张革命按组织程度顺序发生的机械论者（“许多人”）",
+      "their_view": "革命应该由最有组织的无产阶级队伍首先发动，然后组织程度较差的队伍跟进，最后是最差的；如果先头部队得不到支援，革命就注定失败。",
+      "author_response": "这种观点荒谬且脱离实际。俄国的任务是在其他国家革命到来前，在孤立中坚持革命，哪怕只保持一个社会主义堡垒，同时要改变整个国际无产阶级的组织状况。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p32s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p32s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p32s3",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p32s4",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p32s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p32s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p32s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  }
+}

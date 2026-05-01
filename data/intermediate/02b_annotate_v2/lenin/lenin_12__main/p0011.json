@@ -1,0 +1,104 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 11,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "正面阐述社会意识反映经济基础、政治设施属于上层建筑的原理，并以现代欧洲为例说明其阶级性。",
+    "importance_score": 2,
+    "importance_reason": "具体阐释历史唯物主义的核心范畴，为理解国家阶级性提供理论框架。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对历史唯物主义的引入，具体阐释其核心范畴——社会意识与经济基础的关系。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "经济基础与上层建筑",
+        "explain": "这是历史唯物主义的一对核心范畴。经济基础指特定社会中占主导地位的生产关系的总和。上层建筑则建立在经济基础之上，包括政治法律制度（政治设施）以及与之相适应的社会意识形态（如哲学、宗教、政治观点）。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p11s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "经济制度",
+            "type": "concept",
+            "modern": "在马克思主义语境中，指社会生产关系的总和，构成社会的经济基础。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "economic_system_marxist"
+          }
+        ]
+      },
+      {
+        "sid": "p11s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "经济基础",
+            "type": "concept",
+            "modern": "与上层建筑相对，指社会生产关系的总和，决定社会的政治和意识形态。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "economic_base"
+          },
+          {
+            "surface": "上层建筑",
+            "type": "concept",
+            "modern": "建立在经济基础之上的政治法律制度及社会意识形态的总和。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "superstructure"
+          }
+        ]
+      },
+      {
+        "sid": "p11s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 3,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

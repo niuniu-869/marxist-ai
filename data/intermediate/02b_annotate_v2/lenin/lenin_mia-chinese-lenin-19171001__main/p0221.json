@@ -1,0 +1,73 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 221,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁批评《新生活报》社论的新论点，指出其表面同情布尔什维克，实则用‘不要受人挑动’的口号恐吓他们放弃夺取政权。",
+    "importance_score": 3,
+    "importance_reason": "直接反驳新生活派的论点，为布尔什维克夺权提供理论辩护。",
+    "argument_role": "none",
+    "argument_link": null,
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "cross_ref_pronoun",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "前文指代",
+        "explain": "本段开头‘上面这篇文章’指列宁之前撰写的文章，即本文主体部分，讨论布尔什维克能否保持政权。",
+        "why_needed": "cross_ref_pronoun",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p221s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "新生活报",
+            "type": "work",
+            "modern": "1917年在彼得格勒出版的日报，代表新生活派，同情布尔什维克但持批评态度。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_5gram_with_surface",
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

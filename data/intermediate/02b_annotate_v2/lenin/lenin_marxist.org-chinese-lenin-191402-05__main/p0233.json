@@ -1,0 +1,72 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 233,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁指出托洛茨基以《斗争》杂志编辑部名义发表言论，为罗莎·卢森堡的观点辩护，并用'熊的效劳'比喻其行为。",
+    "importance_score": 2,
+    "importance_reason": "本段引入托洛茨基的言论作为后续论战的引子，支撑对民族自决权问题的讨论。",
+    "argument_role": "transition",
+    "argument_link": "本段承接上段对卢森堡文章的讨论，通过托洛茨基的例子进一步展开论战。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "allusion",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "托洛茨基与《斗争》杂志",
+        "explain": "托洛茨基是俄国革命家，当时与列宁在民族问题上有分歧。《斗争》杂志是他参与编辑的刊物，发表过相关文章。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "托洛茨基",
+      "their_view": "托洛茨基为罗莎·卢森堡的观点辩护，认为民族自决权问题需要重新考虑。",
+      "author_response": "列宁用'熊的效劳'比喻，暗示托洛茨基的帮助是适得其反的。",
+      "polemic_kind": "strategic_critique",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p233s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "熊的效劳",
+            "type": "metaphor",
+            "modern": "源自俄语谚语，意为帮倒忙或笨拙的帮助",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

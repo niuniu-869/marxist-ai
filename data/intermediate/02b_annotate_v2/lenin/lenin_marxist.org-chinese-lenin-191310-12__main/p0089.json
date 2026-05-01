@@ -1,0 +1,86 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 89,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "通过反问句式，将瑞士的特殊性与普遍性原则对立，论证例外情况不妨碍纲领中坚持彻底的民主原则。",
+    "importance_score": 2,
+    "importance_reason": "通过类比论证，将瑞士的特殊性与普遍性原则对立，为坚持彻底的民主原则提供逻辑支撑。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对瑞士特殊性论点的驳斥，将瑞士的特殊性与普遍性原则对立，论证例外情况不妨碍纲领中坚持彻底的民主原则。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p89s1",
+        "quote": "可是，既然我们指的是一个应该仿效的榜样，那末这同这一切又有什么关系呢？",
+        "trigger": "inverted_logic",
+        "reader_block": "反问句式+“这一切”指代前文论敌列举的瑞士特殊性细节，读者可能困惑反问的真实意图。",
+        "parse": {
+          "claim": "瑞士作为榜样与论敌列举的那些特殊性细节无关。",
+          "qualifiers": "前提是“我们指的是一个应该仿效的榜样”。",
+          "contrast_or_target": "论敌认为瑞士的特殊性细节（如语言、历史等）使得它不能作为普遍榜样。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "通过反问句式，将论敌列举的瑞士特殊性细节与“榜样”的普遍性对立，揭露其论证策略的无效性。"
+        },
+        "implication": "论敌以特殊性为由回避核心争论的策略是站不住脚的。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p89s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p89s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p89s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 1,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

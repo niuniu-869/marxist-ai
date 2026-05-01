@@ -1,0 +1,96 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 40,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段分析法令中关于宗教的条款，指出其在宗教问题上存在根本矛盾。",
+    "importance_score": 2,
+    "importance_reason": "本段通过分析法令的宗教条款，揭露其内在矛盾，是批判法令虚伪性的关键环节。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对法令第2条的引用，具体分析该条款在宗教问题上的矛盾。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "19世纪德国理性主义",
+        "explain": "19世纪初德国的一种哲学思潮，主张用理性而非启示来理解宗教，将宗教视为符合人类普遍理性的道德体系，而非基于特定教义或神迹。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p40s2",
+        "quote": "这种理性主义的观点也就是书报检查法令的观点，可是这个法令太不彻底，它的目的是要保护宗教，但它的观点却是反宗教的。",
+        "trigger": "inverted_logic",
+        "reader_block": "法令声称要保护宗教，但其观点却是反宗教的，这种矛盾需要解释。读者会困惑于“保护”与“反”如何共存于同一法令。",
+        "parse": {
+          "claim": "法令在宗教问题上存在根本矛盾：其宣称的目标与实际采用的理论观点相互抵触。",
+          "qualifiers": "",
+          "contrast_or_target": ""
+        },
+        "why": {
+          "relation": "continues",
+          "explanation": "作者指出法令在宗教问题上存在根本矛盾，为后续批判其虚伪性做铺垫。"
+        },
+        "implication": null,
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "普鲁士书报检查令",
+      "their_view": "法令声称要保护宗教，杜绝一切违背宗教一般原则的内容，无论具体教派见解如何。",
+      "author_response": "作者指出法令在宗教问题上存在根本矛盾，其观点实际上是反宗教的，因为它将宗教的一般原则与其具体内容割裂开来。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p40s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p40s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p40s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p40s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p40s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p40s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  }
+}

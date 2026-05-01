@@ -1,0 +1,82 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 22,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段指出英国工人阶级正从只关注工资工时的经济斗争，转向认识到雇佣劳动制度本身是问题根源，并预言这将催生一个超越行业工联的、整个工人阶级的政治组织。",
+    "importance_score": 3,
+    "importance_reason": "核心论点段落，阐述了工人阶级意识觉醒的方向和必然结果，即从经济斗争走向政治组织，是全文论证的结论性展望。",
+    "argument_role": "conclusion",
+    "argument_link": "承接上段对工联未能利用政治权利的批评，本段进一步指出工人阶级意识正在发生根本转变，这将彻底改变工联的地位和形态。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "雇佣劳动制度",
+        "explain": "指工人被迫将自身劳动力作为商品出卖给资本家，以换取工资来维持生存的制度。这是资本主义生产关系的核心，工人在此制度下创造的价值远大于其所得工资，差额被资本家无偿占有。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p22s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p22s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p22s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p22s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_6>5",
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

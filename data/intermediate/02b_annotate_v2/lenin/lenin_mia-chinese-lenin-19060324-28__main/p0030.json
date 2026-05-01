@@ -1,0 +1,146 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 30,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段用彼得堡和莫斯科的选举实例，论证工人参加选举必然导致与立宪民主党人合作，反驳孟什维克和普列汉诺夫的策略。",
+    "importance_score": 3,
+    "importance_reason": "本段通过现实例证揭示选举策略的政治后果，是反驳孟什维克主张的核心论证。",
+    "argument_role": "continues",
+    "argument_link": "本段承接上段结论，用具体选举经验支撑工人参加选举会导致与资产阶级政党合作的论点。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "十月党人",
+        "explain": "1905年革命后成立的保守派政党，主张君主立宪，反对革命，是沙皇政府的盟友。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "黑帮分子",
+        "explain": "指沙皇政府支持的极端反动派，进行恐怖活动，反对宪政和革命，是工人政党的敌人。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p30s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p30s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p30s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p30s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p30s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p30s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "杜马",
+            "type": "org",
+            "modern": "1905年革命后沙皇政府成立的议会机构，是当时政治斗争的舞台。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p30s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "普列汉诺夫",
+            "type": "person",
+            "modern": "俄国社会民主党早期领导人，当时主张参加杜马选举。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p30s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p30s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "黑帮分子",
+            "type": "social_group",
+            "modern": "沙皇政府支持的极端反动团体，进行恐怖活动，反对宪政。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 3,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote",
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

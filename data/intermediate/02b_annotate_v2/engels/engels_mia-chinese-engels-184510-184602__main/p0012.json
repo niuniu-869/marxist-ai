@@ -1,0 +1,134 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 12,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "恩格斯评价拿破仑，分析其统治失败的原因，重点批评其与旧欧洲势力的妥协。",
+    "importance_score": 2,
+    "importance_reason": "为后续讨论德国历史提供对拿破仑的定性评价，是论证链条中的过渡环节。",
+    "argument_role": "continues",
+    "argument_link": "上一段剖析了反法同盟各群体的动机，本段则转向对拿破仑本人的评价，分析其统治的内在矛盾。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "allusion",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "正统主义原则",
+        "explain": "19世纪欧洲政治概念，指法国大革命后波旁王朝复辟所依据的君权神授和王朝正统性原则。恩格斯用此概念批评拿破仑试图融入旧秩序。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p12s8",
+        "quote": "他降低到了其他帝王的水平，他力图得到和他们同样的荣誉，拜倒在正统主义原则之前，因此很自然，正统的帝王们便把篡夺者踢出了自己的圈子。",
+        "trigger": "allusion",
+        "reader_block": "“拜倒在……之前”是隐喻，读者可能不理解其具体含义，以及它如何导致拿破仑被排斥。",
+        "parse": {
+          "claim": "拿破仑通过模仿旧王朝的宫廷和追求正统声誉，实际上承认了旧秩序的合法性，从而失去了自己作为新秩序代表的独特性。",
+          "qualifiers": "",
+          "contrast_or_target": ""
+        },
+        "why": {
+          "relation": "continues",
+          "explanation": "这句话具体说明了拿破仑如何通过行为上的妥协，最终被旧势力所抛弃，是对其“最大错误”的展开分析。"
+        },
+        "implication": "",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p12s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p12s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p12s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p12s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "资产阶级",
+            "type": "concept",
+            "modern": "在法国大革命后确立统治地位的资本家阶级",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "class_bourgeoisie"
+          }
+        ]
+      },
+      {
+        "sid": "p12s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p12s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p12s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p12s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 1,
+        "hs_kept": 1,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 23,
+  "annotation": {
+    "block_type": "footnote",
+    "gist": "本段以索引条目形式，提供伯恩施太因的生卒年、政治身份、主要活动及关联组织。",
+    "importance_score": 1,
+    "importance_reason": "作为人名索引条目，为读者提供检索和背景参考，属于辅助性信息。",
+    "argument_role": "none",
+    "argument_link": "",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p23s1",
+        "speaker": "editor",
+        "stance": "neutral_citation",
+        "notes": [
+          {
+            "surface": "巴黎德意志民主协会",
+            "type": "org",
+            "modern": "19世纪40年代在巴黎活动的德国政治流亡者团体",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 2,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_10>5",
+        "note:n2_5gram_with_surface"
+      ]
+    }
+  ]
+}

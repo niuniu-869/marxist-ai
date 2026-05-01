@@ -1,0 +1,93 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 67,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "阐述布尔什维克对革命道路的立场，优先选择通过苏维埃的和平道路，并指出立宪会议道路的局限性。",
+    "importance_score": 2,
+    "importance_reason": "本段具体阐述了布尔什维克对革命道路的策略选择，是全文核心论点的支撑。",
+    "argument_role": "continues",
+    "argument_link": "本段承接上段对孟什维克和社会革命党人空谈“英勇努力”的批评，具体阐述布尔什维克对革命道路的策略选择。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "社会革命党人",
+      "their_view": "通过立宪会议可以实现民主，我们可以在其中与立宪民主党人等进行妥协。",
+      "author_response": "列宁指出，这种妥协是无济于事的，因为立宪会议本身不能保证革命成果。",
+      "polemic_kind": "strategic_critique",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p67s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "苏维埃",
+            "type": "org",
+            "modern": "1917年俄国革命中出现的工人和士兵代表会议，是当时实际的权力机构。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p67s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p67s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "立宪会议",
+            "type": "org",
+            "modern": "原定于1917年11月召开的制宪会议，旨在确立俄国政治制度。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "克伦斯基",
+            "type": "person",
+            "modern": "俄国临时政府总理，社会革命党人，主张继续帝国主义战争。",
+            "highlight": "person",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 3,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_person_13>12"
+      ]
+    }
+  ]
+}

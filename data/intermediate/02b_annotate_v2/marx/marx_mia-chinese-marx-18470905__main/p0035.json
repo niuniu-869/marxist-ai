@@ -1,0 +1,88 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 35,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "马克思引用“莱茵观察家”关于无产阶级的言论，并讽刺其与政府此前压制相关讨论的立场相矛盾。",
+    "importance_score": 1,
+    "importance_reason": "本段通过引用和反讽，具体例证了论敌立场与政府行为的不一致，是论证链条中的一个例证环节。",
+    "argument_role": "example",
+    "argument_link": "承接上段对国教顾问言论的批评，本段具体引用其关于无产阶级的论述，并揭露其与政府此前立场的矛盾。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "refute_quotation"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "“莱茵观察家”的国教顾问",
+      "their_view": "他们声称无产阶级问题极端重要，承认其占人口绝大多数。",
+      "author_response": "马克思讽刺这种突然的承认，指出政府此前长期禁止报纸讨论普鲁士存在无产阶级这一事实。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p35s1",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p35s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p35s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "无产阶级",
+            "type": "concept",
+            "modern": "在19世纪普鲁士语境下，指失去生产资料、靠出卖劳动力为生的现代雇佣工人阶级。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "proletarian_modern"
+          }
+        ]
+      },
+      {
+        "sid": "p35s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "特利尔日报",
+            "type": "work",
+            "modern": "19世纪德国自由派报纸，因报道工人贫困状况而受政府威胁。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p35s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p35s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  }
+}

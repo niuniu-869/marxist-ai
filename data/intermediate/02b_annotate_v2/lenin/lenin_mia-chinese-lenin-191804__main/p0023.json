@@ -1,0 +1,101 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 23,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁论证布尔什维克党已基本完成说服大多数人民的任务，为转向经济组织任务奠定基础。",
+    "importance_score": 2,
+    "importance_reason": "本段为从“说服”转向“管理”的历史转折提供事实依据，是核心论点的支撑。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于历史转折的论述，具体说明“说服”任务在当前阶段的完成情况。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "切尔诺夫、策列铁里、克伦斯基、基什金",
+      "their_view": "我们未能领导革命走向社会主义，与资产阶级妥协，未能赢得工农多数支持。",
+      "author_response": "布尔什维克党在最近的苏维埃代表大会上已证明赢得了工农多数，完成了说服任务。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p23s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p23s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "切尔诺夫之流",
+            "type": "person",
+            "modern": "维克多·切尔诺夫，社会革命党领袖，主张农民社会主义。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "策列铁里",
+            "type": "person",
+            "modern": "伊拉克利·策列铁里，孟什维克领袖，主张与资产阶级联合。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "克伦斯基",
+            "type": "person",
+            "modern": "亚历山大·克伦斯基，临时政府总理，孟什维克-社会革命党联合政府代表。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p23s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "苏维埃代表大会",
+            "type": "event",
+            "modern": "1918年3月在莫斯科召开的全俄苏维埃第四次（非常）代表大会，批准了《布列斯特和约》。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 4,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_7>5"
+      ]
+    }
+  ]
+}

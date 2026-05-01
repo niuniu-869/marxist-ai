@@ -1,0 +1,106 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 107,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "马克思讽刺性地指出，接受哥达纲领草案的措辞，将迫使德国工人党接受拉萨尔的“铁的工资规律”这一错误理论。",
+    "importance_score": 2,
+    "importance_reason": "具体批判纲领草案中对拉萨尔主义核心错误观点的接受，是全文批判主线的一个实例。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段预告的批判，本段开始具体分析纲领草案中关于“工资制度”和“铁的工资规律”的表述，揭示其理论错误。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "铁的工资规律",
+        "explain": "拉萨尔的核心理论之一，认为在资本主义下，工人的平均工资始终被限制在维持其生存和繁衍后代所必需的最低限度上，这是一个不可改变的“铁律”。马克思认为这是对工资规律的错误理解。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p107s3",
+        "quote": "如果我废除了雇佣劳动，那末我当然也废除了它的规律，不管这些规律是“铁的”还是海绵的。",
+        "trigger": "inverted_logic",
+        "reader_block": "反讽修辞（“海绵的”），读者可能困惑于这个比喻，实际是嘲讽“铁的”这一形容词的武断性。",
+        "parse": {
+          "claim": "废除雇佣劳动制度这一根本前提，必然导致其所有派生规律（包括工资规律）的失效，无论这些规律被描述得多么绝对。",
+          "qualifiers": "前提是“废除了雇佣劳动”。",
+          "contrast_or_target": "拉萨尔派将斗争焦点放在“铁的工资规律”上，仿佛这是一个可以单独废除的独立存在。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "通过逻辑推导和反讽，驳斥拉萨尔派将“铁的工资规律”作为独立斗争对象的错误，强调变革生产关系（雇佣劳动）才是根本。"
+        },
+        "implication": "斗争的正确目标是雇佣劳动制度本身，而非其某个具体表现形式。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "拉萨尔",
+      "their_view": "工资规律是“铁的”，废除工资制度必须连同这个铁律一起废除；反对雇佣劳动的斗争主要围绕这个规律展开。",
+      "author_response": "废除雇佣劳动制度本身，就自然废除了其所有规律，无论其性质如何；斗争应直指雇佣劳动这一根本制度，而非其某个具体规律。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p107s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p107s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p107s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p107s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p107s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 1,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

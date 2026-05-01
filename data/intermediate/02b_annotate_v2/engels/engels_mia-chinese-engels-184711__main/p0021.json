@@ -1,0 +1,145 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 21,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "分析法国选举改革方案中，不同政治派别对扩大选举权的态度及其阶级后果，特别指出《改革报》对“共和国”一词的独特理解。",
+    "importance_score": 2,
+    "importance_reason": "本段通过分析小资产阶级和《改革报》的立场，为后文论证法国阶级斗争的走向和共产主义者同盟的策略提供了关键铺垫。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对选举改革方案的介绍，本段深入分析其中最激进方案的阶级内涵与政治后果，将讨论从具体措施引向阶级力量对比。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "term_polysemy",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "“共和国”的双重含义",
+        "explain": "在1848年革命前的法国语境中，“共和国”一词常被不同阶级赋予截然不同的内涵。对多数资产阶级改革派而言，它主要指代一种政治制度形式；而对激进派和工人阶级而言，它则蕴含着改变社会经济关系的诉求。",
+        "why_needed": "term_polysemy",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "“国民报”派",
+      "their_view": "主张通过降低选举资格（如赋予国民自卫军成员选举权）来扩大政治参与，并将此视为改革道路上的前奏，最终目标仍是普选权。",
+      "author_response": "恩格斯指出，这种措施在法国特定的阶级压迫环境下，其后果将远超政治改革范畴，会迫使小资产阶级采取侵犯金融贵族利益的行动，并可能导向与工人阶级的联盟。",
+      "polemic_kind": "reveals_class_basis",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p21s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p21s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p21s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p21s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p21s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "小资产阶级",
+            "type": "concept",
+            "modern": "在19世纪法国，指手工业者、店主等处于大资产阶级与无产阶级之间的中间阶层，经济上受双重压迫。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "class_petty_bourgeoisie"
+          }
+        ]
+      },
+      {
+        "sid": "p21s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p21s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "共和国",
+            "type": "concept",
+            "modern": "此处特指一种超越单纯政治制度变革、旨在改变社会经济关系的革命性目标。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "republic_social_revolution"
+          }
+        ]
+      },
+      {
+        "sid": "p21s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p21s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p21s10",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p21s11",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 2,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "hs:eval_word:implication:深刻",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,149 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 558,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段具体阐述黑格尔的第一个错误，即其异化理论局限于抽象思维领域，将现实异化归结为思想内部的对立。",
+    "importance_score": 2,
+    "importance_reason": "本段是马克思批判黑格尔唯心主义异化观的核心论证之一，为后文提出自己的异化劳动理论奠定批判基础。",
+    "argument_role": "continues",
+    "argument_link": "承接上段提出的“黑格尔有双重错误”的论断，本段开始详细剖析第一个错误在《现象学》中的具体表现。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "term_density",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "黑格尔的异化观",
+        "explain": "在黑格尔哲学中，“异化”主要指绝对精神或概念的自我外化与复归，是思想内部的运动。马克思在此批判黑格尔将现实的社会异化（如财富、权力与人的对立）仅仅理解为这种思想形式的异化。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      },
+      {
+        "topic": "绝对知识",
+        "explain": "黑格尔《现象学》的终点，指精神通过全部异化与扬弃后达到的、对自身绝对性的完全认识。马克思认为这暴露了黑格尔体系的唯心主义封闭性。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "黑格尔",
+      "their_view": "在《现象学》中，财富、国家权力等现实存在与人的本质的异化，仅仅是它们作为思想形式、思想本质的异化，是抽象哲学思维自身的异化。整个历史运动是绝对知识的生成史。",
+      "author_response": "马克思指出，黑格尔把现实的、感性的异化偷换成了抽象思维内部的对立，从而将全部外化历史归结为逻辑思辨思维的生产史，这颠倒了思维与存在的关系。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p558s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p558s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "异化",
+            "type": "concept",
+            "modern": "马克思在此特指黑格尔哲学中，现实事物被理解为抽象思维自我外化的产物这一过程。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "alienation_hegelian"
+          }
+        ]
+      },
+      {
+        "sid": "p558s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "绝对知识",
+            "type": "concept",
+            "modern": "黑格尔哲学体系的终点，指精神完全认识自身、消解一切对立后的状态。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "absolute_knowledge_hegelian"
+          }
+        ]
+      },
+      {
+        "sid": "p558s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p558s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p558s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p558s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "自在和自为",
+            "type": "concept",
+            "modern": "黑格尔逻辑学中的范畴，自在指潜在、未展开的状态，自为指展开、实现后的状态。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "in_itself_for_itself_hegelian"
+          }
+        ]
+      },
+      {
+        "sid": "p558s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p558s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 3,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

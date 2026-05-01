@@ -1,0 +1,113 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 5,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "恩格斯复述自己此前信件的核心论点，阐述资本主义必然消灭小农所有制，党不应干预加速这一过程，但可采取措施减轻小农痛苦，而试图永久保存小农则违背原则。",
+    "importance_score": 2,
+    "importance_reason": "本段提供恩格斯对小农问题的理论立场，为后续批判南特纲领奠定基础。",
+    "argument_role": "continues",
+    "argument_link": "本段通过复述信件内容，具体化上段的声明，展示恩格斯实际观点。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p5s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "南特纲领",
+            "type": "event",
+            "modern": "1894年法国社会党南特代表大会通过的土地纲领，主张保护小农所有制。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p5s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "保·拉法格",
+            "type": "person",
+            "modern": "法国社会主义者，马克思的女婿，当时与恩格斯通信。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p5s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "资本主义",
+            "type": "concept",
+            "modern": "在马克思主义理论中，资本主义是生产资料私有制和雇佣劳动为基础的社会形态，其发展导致小农经济解体。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "capitalism_marxist"
+          }
+        ]
+      },
+      {
+        "sid": "p5s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p5s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p5s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 3,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

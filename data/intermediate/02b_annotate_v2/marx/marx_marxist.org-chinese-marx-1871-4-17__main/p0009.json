@@ -1,0 +1,119 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 9,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁通过对比马克思与普列汉诺夫对革命起义的不同态度，论证了正确对待群众革命首创精神的原则。",
+    "importance_score": 3,
+    "importance_reason": "本段是列宁《国家与革命》中对马克思革命态度的核心阐释，通过正反对比确立了对待无产阶级起义的正确立场。",
+    "argument_role": "continues",
+    "argument_link": "承接上文对马克思信件价值的判断，具体展开论证马克思态度的可贵之处，并引入反面案例进行对比。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "1870年9月马克思的警告",
+        "explain": "普法战争期间，马克思通过第一国际总委员会宣言，警告法国工人在民族危机下立即起义是冒险行为，可能被反动派利用。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "1905年俄国革命与普列汉诺夫",
+        "explain": "1905年革命失败后，俄国马克思主义者普列汉诺夫公开表示，革命者本不该拿起武器，表现出对武装斗争的否定。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "列宁的论战语境",
+        "explain": "列宁写作《国家与革命》时，正与第二国际机会主义者论战，普列汉诺夫的言论被视为机会主义的典型表现。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "普列汉诺夫",
+      "their_view": "在1905年革命失败后，公开表示‘本来是不需要动用武器’，认为武装起义是错误的，应当避免。",
+      "author_response": "列宁指出，马克思在类似情况下（起义已发生）的态度是支持和建设性批评，而非事后指责。普列汉诺夫的态度是机会主义的庸人说教。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p9s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p9s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "第一国际",
+            "type": "org",
+            "modern": "1864年成立的国际工人协会，是各国工人政党和团体的联合组织。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p9s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p9s4",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": [
+          {
+            "surface": "普列汉诺夫",
+            "type": "person",
+            "modern": "俄国早期马克思主义理论家，后转向机会主义立场。",
+            "highlight": "person",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p9s5",
+        "speaker": "quoted_lenin",
+        "stance": "endorsed",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

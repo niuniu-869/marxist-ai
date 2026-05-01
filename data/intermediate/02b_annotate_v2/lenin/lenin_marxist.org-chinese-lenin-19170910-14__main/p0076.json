@@ -1,0 +1,61 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 76,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "批判联合政府在石油业问题上毫无作为，仅进行官僚主义改良，未采取任何革命步骤，导致现状与沙皇时代无异。",
+    "importance_score": 2,
+    "importance_reason": "作为对前文提出的革命措施的反面例证，强化了临时政府无能的论点，为后文论证革命必要性做铺垫。",
+    "argument_role": "contrasts",
+    "argument_link": "承接上段提出的石油业国有化等革命措施，转而批判联合政府未能采取此类行动，形成鲜明对比。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "联合政府（社会革命党人、孟什维克和立宪民主党人）",
+      "their_view": "我们通过建立官僚机构来逐步实施监督，与工商界合作，可以改良经济。",
+      "author_response": "列宁指出，这种做法只是玩弄官僚主义把戏，不敢触动资本家利益，实质上是维护旧的剥削秩序。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p76s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p76s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

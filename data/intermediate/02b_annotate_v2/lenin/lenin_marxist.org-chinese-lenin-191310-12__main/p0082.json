@@ -1,0 +1,77 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 82,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "通过对比，揭示“民族文化”口号的实际支持者及其阶级本质。",
+    "importance_score": 2,
+    "importance_reason": "通过事实对比，为揭露“民族文化”口号的阶级本质提供直接证据。",
+    "argument_role": "continues",
+    "argument_link": "本段用奥国和俄国社会民主党的实际态度，与犹太资产阶级政党的态度形成对比，进一步论证“民族文化”口号的非无产阶级性质。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "“民族文化”口号的支持者（犹太资产阶级政党、市侩集团）",
+      "their_view": "工人阶级应当首先关心和发展本民族文化，民族文化自治是实现这一目标的途径。",
+      "author_response": "列宁指出，这种口号实际上是由资产阶级政党采纳，目的是将资产阶级民族主义渗透到工人运动中。",
+      "polemic_kind": "reveals_class_basis",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p82s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p82s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "冒牌社会主义的市侩集团",
+            "type": "social_group",
+            "modern": "列宁对那些口头拥护社会主义、实则宣扬民族主义的庸俗知识分子的蔑称。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p82s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 2,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_6>5",
+        "note:n2_5gram_with_surface"
+      ]
+    }
+  ]
+}

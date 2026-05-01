@@ -1,0 +1,101 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 110,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "马克思转述巴枯宁关于波兰民族主义与俄罗斯帝国存续关系的论述，并揭示其内在矛盾。",
+    "importance_score": 2,
+    "importance_reason": "作为对巴枯宁波兰观的集中转述与批判，展示了论敌如何将民族问题与国家存续对立起来，是理解马克思反驳其无政府主义国家观的关键例证。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于俄罗斯帝国依赖波兰省份的论述，进一步展开巴枯宁对波兰民族主义威胁的具体描绘，并最终引出对帝国与人民利益对立的结论。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_density",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "穆拉维约夫与波兰",
+        "explain": "米哈伊尔·穆拉维约夫是19世纪俄国沙皇官员，因在1830-1831年波兰起义后实施严厉镇压和文化同化政策而被称为“华沙的绞刑吏”。此处指代其残酷的统治手段。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "19世纪波兰问题",
+        "explain": "波兰在18世纪末被俄、普、奥三次瓜分后亡国。19世纪波兰人多次起义（如1830、1863年），寻求复国。波兰民族主义是当时欧洲政治的重要议题，与各大国利益交织。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "巴枯宁",
+      "their_view": "波兰民族主义具有天然的扩张性，任何一点自由空间都会使其威胁邻国；俄罗斯帝国的存续必须以彻底压制波兰为前提，否则帝国将瓦解。",
+      "author_response": "马克思通过转述揭示巴枯宁将帝国存续建立在民族压迫之上，这与其宣称的反对一切国家权力的无政府主义立场相矛盾，暴露了其理论的现实困境。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p110s1",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p110s2",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p110s3",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p110s4",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p110s5",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p110s6",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 2,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_place_17>10",
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 13,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "斯大林推导中国革命政权应为无产阶级和农民阶级的专政，并指出与拉狄克在此点上无实质分歧。",
+    "importance_score": 3,
+    "importance_reason": "本段是论证中国革命政权性质的核心论点，直接回应党内关于政权形式的争论。",
+    "argument_role": "continues",
+    "argument_link": "基于上段对中国革命主要针对帝国主义的判断，本段进一步推导出该政权应具有反帝性质，并明确其阶级构成。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "1905年俄国革命中的政权构想",
+        "explain": "列宁在1905年提出，俄国资产阶级民主革命胜利后，应建立由无产阶级和农民阶级联合专政的民主共和国，作为向社会主义过渡的阶段。斯大林在此引用这一历史构想作为类比。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "拉狄克",
+      "their_view": "中国正在走建立革命民主政权的道路，这个政权的形式就是无产阶级和农民阶级的专政。",
+      "author_response": "斯大林指出，在政权性质这一点上与拉狄克没有实质分歧，但批评拉狄克对中国封建主义残余的认识是混乱的。",
+      "polemic_kind": "strategic_critique",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p13s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p13s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p13s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p13s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "拉狄克同志",
+            "type": "person",
+            "modern": "卡尔·拉狄克，当时联共（布）党内反对派的重要理论家之一，对共产国际的中国政策持批评态度。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "metadata"
+          }
+        ]
+      },
+      {
+        "sid": "p13s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_12>5"
+      ]
+    }
+  ]
+}

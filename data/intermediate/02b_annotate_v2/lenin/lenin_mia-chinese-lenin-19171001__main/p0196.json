@@ -1,0 +1,61 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 196,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁推论《新生活报》因恐惧而拒绝无产阶级专政，实质是主张与资本家妥协，并进一步论证这种立场的普遍性。",
+    "importance_score": 2,
+    "importance_reason": "本段是列宁对新生活派核心论点的直接驳斥，揭示其主张的阶级实质，属于核心批判的一部分。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对新生活派论点的列举，本段直接剖析其逻辑后果，指出其立场的妥协本质。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "《新生活报》",
+      "their_view": "无产阶级政权可能被资产阶级搞垮，因此应当害怕无产阶级专政并拒绝它。",
+      "author_response": "这种害怕和拒绝，实质上是教导人民畏惧资本家的反抗，从而号召重新与资本家妥协。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p196s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p196s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

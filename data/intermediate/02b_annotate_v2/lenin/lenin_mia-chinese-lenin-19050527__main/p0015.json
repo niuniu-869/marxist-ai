@@ -1,0 +1,94 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 15,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "论证人民必须夺取政权并召开立宪会议，同时揭露资产阶级将利用此过程渔利。",
+    "importance_score": 3,
+    "importance_reason": "核心论点段，阐述了革命路径（人民夺权、召开立宪会议）并预判了资产阶级的阶级立场。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对自由派投机策略的描述，本段从革命立场出发，提出人民应如何行动（夺权、召开立宪会议），并预判资产阶级在此过程中的真实意图。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p15s7",
+        "quote": "当沙皇政权和革命人民团结一致的力量一旦相互交手，那时就是资产阶级的真正节日，只有那时才完全有把握“调和”这两种力量，并保证有产阶级获得最好的结果。",
+        "trigger": "inverted_logic",
+        "reader_block": "反讽语气和“节日”“调和”等词，读者可能误以为资产阶级会庆祝革命胜利，实际是揭露其投机本质。",
+        "parse": {
+          "claim": "资产阶级将利用沙皇与革命人民的直接冲突，来巩固自身利益。",
+          "qualifiers": "当沙皇政权与革命力量直接对抗时。",
+          "contrast_or_target": "自由派认为立宪会议能和平调和矛盾。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "本句以反讽揭露资产阶级的真实意图：他们并非革命的盟友，而是等待两败俱伤后坐收渔利的投机者。"
+        },
+        "implication": "革命人民必须警惕资产阶级的投机，不能将其视为可靠力量。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "自由派资产阶级",
+      "their_view": "立宪会议能调和沙皇与人民的矛盾，实现和平过渡。",
+      "author_response": "资产阶级实际上会利用这种冲突来渔利，而非真正代表人民利益。",
+      "polemic_kind": "reveals_class_basis",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p15s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p15s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p15s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p15s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p15s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p15s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p15s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  }
+}

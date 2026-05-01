@@ -1,0 +1,144 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 41,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "恩格斯指出西班牙起义中联邦主义策略导致革命力量分散，这与巴枯宁的理论一致，从而论证其错误。",
+    "importance_score": 2,
+    "importance_reason": "本段是核心批判的例证，通过西班牙事件具体展示巴枯宁主义理论在实践中的后果。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对军事可能性的分析，转而批评实际执行中采用的、导致失败的分散策略。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "德国农民战争",
+        "explain": "指1524-1525年德意志地区爆发的大规模农民起义，因缺乏统一领导和协调而被各个击破，是革命力量分散导致失败的典型历史案例。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "1849年德国五月起义",
+        "explain": "指1849年德意志各邦为维护《法兰克福宪法》而爆发的护宪起义，同样因各邦行动不一、缺乏统一指挥而被普鲁士军队镇压。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "联邦主义策略",
+        "explain": "在本文语境中，指巴枯宁派主张的、让各地完全独立行动、拒绝任何集中协调的革命组织方式。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p41s5",
+        "quote": "早在1870年9月（在《给一个法国人的信》[388]中）他就声明，通过革命战争把普鲁士人赶出法国的唯一手段在于，消灭一切集中的领导，让每一个城市、每一个村庄、每一个市镇独自去进行战争。",
+        "trigger": "refute_quotation",
+        "reader_block": "这是恩格斯转述巴枯宁的观点，但读者若不注意上下文，可能误以为这是恩格斯本人的主张。需要明确这是被批判的论敌言论。",
+        "parse": {
+          "claim": "巴枯宁曾宣称，对抗普鲁士军队的唯一有效方法是彻底废除集中指挥，让所有地方单位各自为战。",
+          "qualifiers": "在1870年9月普法战争背景下提出的主张。",
+          "contrast_or_target": "与有统一指挥的正规军队作战方式形成对比。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "引用巴枯宁自己先前的言论，作为其理论在西班牙得到“辉煌成就”（即失败）的佐证，强化批判的连贯性。"
+        },
+        "implication": "恩格斯通过引用此言论，旨在证明西班牙的失败并非偶然，而是巴枯宁主义理论逻辑的必然结果。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "巴枯宁主义",
+      "their_view": "革命成功的关键在于彻底消灭一切集中领导，让每个地方单位完全独立行动，依靠群众自发的革命热情就能战胜有组织的敌人。",
+      "author_response": "恩格斯指出，这种分散主义在历史上（如德国农民战争、1849年起义）已被证明是导致革命力量被各个击破的致命错误，而在西班牙的实践中再次导致了失败。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p41s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p41s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p41s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p41s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p41s5",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p41s6",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p41s7",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p41s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p41s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 1,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

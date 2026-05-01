@@ -1,0 +1,104 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 10,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "描述先锋队在第一次革命中如何带动各阶层，特别是将自由派资产阶级转变为共和派资产阶级。",
+    "importance_score": 1,
+    "importance_reason": "为后续分析第二次革命的阶级基础提供历史对比，属于论证的背景铺垫。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于第一次革命先锋队的论述，具体展开其带动的阶层及其政治立场的转变。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "孟什维克、劳动派分子、立宪民主党",
+      "their_view": "孟什维克和劳动派分子在共和制问题上动摇，立宪民主党主张君主制。",
+      "author_response": "先锋队的行动改变了他们的政治立场，将自由派资产阶级变成了共和派资产阶级。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p10s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "先锋队",
+            "type": "concept",
+            "modern": "在马克思主义语境中，特指无产阶级政党或其领导的先进部分。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "vanguard_party"
+          },
+          {
+            "surface": "小资产阶级",
+            "type": "concept",
+            "modern": "介于资产阶级与无产阶级之间的社会阶层，如小业主、手工业者等。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "petty_bourgeoisie"
+          },
+          {
+            "surface": "孟什维克",
+            "type": "org",
+            "modern": "俄国社会民主工党中的一个派别，主张与资产阶级合作。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "劳动派分子",
+            "type": "org",
+            "modern": "俄国小资产阶级民主派政党，成员主要来自农民。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "立宪民主党",
+            "type": "org",
+            "modern": "俄国主要的自由派资产阶级政党，主张君主立宪。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p10s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 5,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_7>5"
+      ]
+    }
+  ]
+}

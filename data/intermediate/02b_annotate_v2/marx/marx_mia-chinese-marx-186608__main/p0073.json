@@ -1,0 +1,87 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 73,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段论证欧洲工人提出波兰问题的必要性，指出资产阶级对此问题的沉默源于其将沙皇俄国视为抵挡工人运动的堡垒，而波兰独立将摧毁这一堡垒。",
+    "importance_score": 2,
+    "importance_reason": "本段是马克思为第一国际阐述民族问题与工人运动关联的核心论证环节，揭示了统治阶级在民族问题上的阶级立场。",
+    "argument_role": "continues",
+    "argument_link": "承接上段提出的波兰问题，本段从工人运动的视角出发，解释为何该问题对无产阶级具有战略重要性，而非仅仅是民族事务。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "term_density",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "“黑暗的亚洲强国”所指",
+        "explain": "19世纪欧洲主流话语常将沙皇俄国视为带有专制、扩张色彩的“东方”力量，尽管其领土主要在欧洲。马克思借用此流行说法，强调其反动性质。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "资产阶级作家和鼓动家们",
+      "their_view": "对波兰独立问题保持沉默，尽管他们在其他场合也宣称庇护各民族。",
+      "author_response": "马克思指出，他们的沉默并非偶然，而是因为波兰的独立会动摇他们赖以抵挡工人运动的沙皇俄国这一反动堡垒。",
+      "polemic_kind": "reveals_class_basis",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p73s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p73s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p73s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p73s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p73s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

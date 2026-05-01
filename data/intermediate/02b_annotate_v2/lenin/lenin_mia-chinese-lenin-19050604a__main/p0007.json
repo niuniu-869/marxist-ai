@@ -1,0 +1,134 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 7,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁引用“俄国解放联盟”的宣言，逐层剖析其“非党”号召的实质，论证工人阶级在联合资产阶级反专制时必须坚持社会主义原则。",
+    "importance_score": 3,
+    "importance_reason": "核心段落，直接针对“非党革命民主主义”思潮展开阶级分析与策略批判，是全文论战的关键展开。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对非党革命民主派性质的一般分析，本段通过具体文件（“俄国解放联盟”宣言）进行详细剖析和批判。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "“非党立场”在1905年语境",
+        "explain": "指在革命浪潮中，部分团体（如“俄国解放联盟”）呼吁各政治派别暂时搁置意识形态分歧，组成统一战线共同反对沙皇专制。列宁认为这种立场会模糊阶级界限。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "俄国解放联盟",
+      "their_view": "在立宪会议召开前，所有反专制力量应暂时搁置党派争论和原则分歧，团结成一个整体，共同为争取政治自由而斗争。",
+      "author_response": "列宁指出，这种“非党”号召实质上是资产阶级的论调，它用模糊的烟雾掩盖阶级矛盾，诱使工人放弃社会主义目标，最终服务于资产阶级维护私有制的利益。",
+      "polemic_kind": "reveals_class_basis",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p7s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p7s2",
+        "speaker": "quoted_opponent",
+        "stance": "cited",
+        "notes": [
+          {
+            "surface": "俄国解放联盟",
+            "type": "org",
+            "modern": "1905年革命中出现的一个试图超越党派界限、组织武装起义的政治团体。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p7s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p7s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p7s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p7s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p7s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p7s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p7s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p7s10",
+        "speaker": "quoted_opponent",
+        "stance": "cited",
+        "notes": []
+      },
+      {
+        "sid": "p7s11",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 2,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "hs:claim_5gram_with_quote",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

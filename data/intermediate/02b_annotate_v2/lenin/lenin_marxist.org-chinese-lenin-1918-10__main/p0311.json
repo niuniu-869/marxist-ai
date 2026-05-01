@@ -1,0 +1,81 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 311,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁讽刺考茨基在革命条件未成熟时就放弃革命，并定义革命马克思主义者与庸俗市侩的根本区别在于主动为革命做准备。",
+    "importance_score": 3,
+    "importance_reason": "本段通过讽刺和定义，直接批判考茨基对革命时机的消极态度，是核心批判的组成部分。",
+    "argument_role": "continues",
+    "argument_link": "本段承接上段对考茨基回避革命策略问题的批判，进一步讽刺其消极态度并定义革命者的正确角色。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p311s1",
+        "quote": "如果没有到来，考茨基就要离开革命！",
+        "trigger": "inverted_logic",
+        "reader_block": "这是一个条件句，但省略了条件内容，读者需要联系前文才能理解“如果”指什么，且“离开革命”是反讽。",
+        "parse": {
+          "claim": "考茨基在革命条件未满足时会放弃革命事业。",
+          "qualifiers": "条件是革命条件未成熟。",
+          "contrast_or_target": "革命马克思主义者坚持斗争，不因条件未成熟而放弃。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "本句通过反讽揭露考茨基对革命时机的消极态度，与革命者的积极准备形成对比。"
+        },
+        "implication": "考茨基的立场本质上是机会主义。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "考茨基",
+      "their_view": "革命条件不成熟时，革命者应当等待或退出。",
+      "author_response": "革命马克思主义者应当积极宣传和准备革命，帮助群众认清其必然性。",
+      "polemic_kind": "strategic_critique",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p311s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p311s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 2,
+        "hs_kept": 1,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

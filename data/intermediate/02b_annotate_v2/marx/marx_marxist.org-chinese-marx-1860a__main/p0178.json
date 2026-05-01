@@ -1,0 +1,74 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 178,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "通过一个反问句，质疑巴枯宁关于全民直接管理国家的可行性。",
+    "importance_score": 2,
+    "importance_reason": "对巴枯宁全民管理论点的具体反驳，是论证链条中的一个例证。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段对工会、工厂管理结构的讨论，将论证从微观组织层面提升到宏观国家层面，用人口规模这一具体事实来反驳巴枯宁的设想。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p178s1",
+        "quote": "《德国人大约有4000万。难道4000万人全都将成为政府成员吗？》",
+        "trigger": "inverted_logic",
+        "reader_block": "反问句形式，读者需要将其转换为肯定陈述才能理解其反驳意图，即“4000万人不可能都成为政府成员”。",
+        "parse": {
+          "claim": "巴枯宁设想的由全体人民直接管理国家的方案，在人口众多的国家是不可行的。",
+          "qualifiers": "",
+          "contrast_or_target": "巴枯宁主张彻底破坏一切国家，建立自下而上的自由联合，反对任何形式的国家权力，包括他所称的“马克思的国家共产主义”。他认为德国社会民主党是民族主义和国家主义的。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "这句话通过归谬法，指出巴枯宁方案在实践中的荒谬性：如果取消代表制，让所有人直接参与管理，那么一个现代国家的全部人口都将成为管理者，这在逻辑和实践上都行不通。"
+        },
+        "implication": "这暗示了任何现实的国家管理都需要代表制，而非全民直接参与，从而间接支持了马克思关于无产阶级专政需要国家机器的观点。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p178s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 1,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

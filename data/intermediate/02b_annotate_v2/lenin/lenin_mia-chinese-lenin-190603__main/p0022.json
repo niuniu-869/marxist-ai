@@ -1,0 +1,84 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 22,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段指出土地纲领中关于“割地”的条文受到最多批评，并具体引述了斗争社和伊克斯同志提出的替代方案。",
+    "importance_score": 2,
+    "importance_reason": "具体展示了对旧纲领最受争议条款的批评意见和替代方案，为后续论证修改纲领的必要性提供靶子。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段对旧纲领条文的概述，具体展开其中“最受批评”的部分，引出不同派别的具体主张。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "斗争社、伊克斯同志",
+      "their_view": "斗争社主张剥夺全部地主土地；伊克斯建议将割地和归还赎金改为：没收教会等土地归民主国家所有，对大地产地租课累进税，并将部分或全部私有土地转交地方自治机关。",
+      "author_response": "列宁在此引述这些批评和建议，作为党内对旧纲领不满的具体例证，为后续系统阐述自己的修改方案做铺垫。",
+      "polemic_kind": "counter_quotation",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p22s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p22s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "斗争社",
+            "type": "org",
+            "modern": "俄国社会民主工党内的一个派别组织，主张更激进的土地政策。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "伊克斯同志",
+            "type": "person",
+            "modern": "党内同志，曾对土地纲领提出批评并建议修改。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p22s3",
+        "speaker": "quoted_opponent",
+        "stance": "categorized",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_archaic_6>4"
+      ]
+    }
+  ]
+}

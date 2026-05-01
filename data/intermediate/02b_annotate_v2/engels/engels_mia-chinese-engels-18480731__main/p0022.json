@@ -1,0 +1,55 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 22,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "恩格斯以反讽语气指出，《科伦日报》提出的调和阶级矛盾手段，实质是将资产阶级地位降至与无产阶级相同。",
+    "importance_score": 2,
+    "importance_reason": "本段通过反讽直接针对《科伦日报》的调和论，支撑作者对阶级斗争不可调和的论证。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对《科伦日报》自由贸易观点的讽刺，进一步揭露其调和手段的荒谬性。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "科伦日报",
+      "their_view": "《科伦日报》主张通过某种手段调和阶级矛盾，以避免无产阶级与资产阶级之间的斗争。",
+      "author_response": "恩格斯反讽这种手段实质上是将资产阶级降低到无产阶级水平，暴露了其荒谬性。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p22s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 110,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "斯大林提出解决苏联语言学界当前困境的方案，即彻底清除马尔理论的影响。",
+    "importance_score": 1,
+    "importance_reason": "作为从指出问题到提出解决方案的过渡，明确了解决危机的具体方向。",
+    "argument_role": "continues",
+    "argument_link": "在上一段指出讨论暴露了错误之后，本段立即提出解决这些错误的具体方向，即清除马尔的影响。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "尼古拉·雅科夫列维奇·马尔",
+        "explain": "苏联早期语言学家，提出语言属于上层建筑、具有阶级性的理论，其学说在斯大林时期被批判为错误。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p110s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "尼·雅·马尔",
+            "type": "person",
+            "modern": "苏联早期语言学家，其语言理论在斯大林时期被定性为错误。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 77,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁回应银行职员代表的谈判请求，表明苏维埃政权不会在原则问题上让步。",
+    "importance_score": 1,
+    "importance_reason": "作为对具体谈判事件的回应，展示了苏维埃政权处理与旧官僚机构关系的策略，属于例证性内容。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段对官吏怠工现象的批判，具体展示了苏维埃政权对怠工者回归工作的态度与底线。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p77s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "《新生活报》",
+            "type": "work",
+            "modern": "1917年在彼得格勒出版的孟什维克倾向报纸，常作为不同政治力量发声的渠道。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p77s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "早就该这样",
+            "type": "quote",
+            "modern": "列宁在此引用了自己此前对怠工者说过的话，强调结束怠工是其本分。",
+            "highlight": "quote",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p77s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

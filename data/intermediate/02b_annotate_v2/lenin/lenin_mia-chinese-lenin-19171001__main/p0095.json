@@ -1,0 +1,118 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 95,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁反驳《新生活报》对“工人监督”口号的工团主义指控，并揭露其资产阶级改良主义实质。",
+    "importance_score": 2,
+    "importance_reason": "核心批判段落，直接驳斥论敌对关键革命口号的误解，并揭示其阶级立场。",
+    "argument_role": "contrasts",
+    "argument_link": "上一段论述无产阶级革命的主要困难在于实行精确的计算和监督，本段则转向驳斥将“工人监督”等同于工团主义的错误观点，从困难转向对错误论调的正面回击。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p95s1",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p95s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "司徒卢威",
+            "type": "person",
+            "modern": "19世纪末20世纪初俄国自由派政论家，立宪民主党思想来源之一，列宁常以其作为教条主义或机会主义的反面典型。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p95s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "工团主义",
+            "type": "concept",
+            "modern": "一种强调工会直接行动和经济斗争，否认无产阶级政党领导和政治专政的思潮。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "syndicalism"
+          }
+        ]
+      },
+      {
+        "sid": "p95s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p95s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "立宪民主党",
+            "type": "concept",
+            "modern": "俄国主要的自由派政党，主张君主立宪和议会制，列宁视其为资产阶级利益的代表。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "cadet_party"
+          }
+        ]
+      },
+      {
+        "sid": "p95s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 3,
+        "notes_dropped": 4,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_9>5",
+        "note:n1_overflow_concept_8>5",
+        "note:n2_circular_prefix",
+        "note:n1_overflow_social_group_23>12",
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

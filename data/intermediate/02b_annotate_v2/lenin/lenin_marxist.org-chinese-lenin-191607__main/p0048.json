@@ -1,0 +1,118 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 48,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁通过引用论敌连奇在沙文主义刊物上的自相矛盾言论，来反驳波兰社会民主党人对民族自决权的批评。",
+    "importance_score": 2,
+    "importance_reason": "本段是列宁反驳波兰社会民主党人论据的关键例证，通过揭露其理论盟友的内在矛盾来削弱对方立场。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对论敌“奇怪论据”的讽刺，本段具体指出该论据的荒谬性，并用论敌阵营内部的矛盾言论进行驳斥。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "cross_ref_pronoun | history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "“这种奇怪的论据”",
+        "explain": "指代前一段中波兰社会民主党人提出的论点，即认为民族自决口号会吓跑像连奇这样的“理论家”，从而证明该口号是错误的。",
+        "why_needed": "cross_ref_pronoun",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      },
+      {
+        "topic": "连奇、库诺夫、帕尔马斯",
+        "explain": "均为当时反对民族自决权的德国或荷兰社会主义理论家。列宁在此将他们视为论敌的理论盟友。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "《钟声》杂志",
+        "explain": "一战期间由德国社会沙文主义者在柏林创办的德文杂志，立场亲德帝国主义。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p48s1",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": [
+          {
+            "surface": "连奇",
+            "type": "person",
+            "modern": "卡尔·连奇，德国社会民主党人，一战期间持社会沙文主义立场，反对民族自决权。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "库诺夫",
+            "type": "person",
+            "modern": "海因里希·库诺夫，德国社会民主党理论家，一战期间持社会沙文主义立场。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "帕尔马斯",
+            "type": "person",
+            "modern": "赫尔曼·帕尔马斯，荷兰社会主义者，一战期间反对民族自决权。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p48s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "《钟声》杂志",
+            "type": "work",
+            "modern": "一战期间由德国社会沙文主义者在柏林创办的德文杂志，宣传亲德帝国主义观点。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 4,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote",
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

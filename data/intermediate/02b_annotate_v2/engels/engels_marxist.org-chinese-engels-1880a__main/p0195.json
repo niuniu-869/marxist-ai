@@ -1,0 +1,101 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 195,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段通过区分经济必然性驱动的国有化与政治动机驱动的国有化，批判将任何国有化都等同于社会主义的冒牌社会主义观点。",
+    "importance_score": 2,
+    "importance_reason": "本段通过具体历史事例，支撑了国有化只有在经济必然性下才具有进步意义的核心论点，并批判了混淆国有化与社会主义的错误观点。",
+    "argument_role": "continues",
+    "argument_link": "本段承接上文对国有化经济条件的界定，转而批判当时将任何国有化都视为社会主义的错误倾向。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_density",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "俾斯麦的国有化政策",
+        "explain": "19世纪70-80年代，德国首相俾斯麦为强化国家权力和财政，推行了一系列国有化措施，如将铁路收归国有。这并非出于经济发展的内在要求，而是服务于其专制统治和军事目的。",
+        "why_needed": "history_density",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "梅特涅与拿破仑",
+        "explain": "梅特涅是19世纪上半叶奥地利帝国的保守派首相，拿破仑是法国大革命后称帝的军事独裁者。两人均非社会主义者，恩格斯用他们来讽刺将国有化等同于社会主义的荒谬逻辑。",
+        "why_needed": "history_density",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "比利时铁路国有化",
+        "explain": "19世纪中后期，比利时政府出于财政和行政管理的考虑修建了国有铁路。恩格斯以此为例，说明国有化可以有纯粹的国家财政动机，与社会主义无关。",
+        "why_needed": "history_density",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "冒牌的社会主义",
+      "their_view": "任何国有化，包括俾斯麦出于政治和军事目的推行的国有化，都是社会主义的体现。",
+      "author_response": "恩格斯通过列举比利时、普鲁士国有化的具体动机，以及归谬到拿破仑、梅特涅乃至妓院国营的例子，揭露这种观点的荒谬性，强调只有经济必然性驱动的国有化才具有进步意义。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p195s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p195s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p195s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p195s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p195s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

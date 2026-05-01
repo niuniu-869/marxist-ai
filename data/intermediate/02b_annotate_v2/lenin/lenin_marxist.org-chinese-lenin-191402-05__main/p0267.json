@@ -1,0 +1,93 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 267,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段预测大俄罗斯民族民主派的出现，并通过区分农民的理性与偏见，回应对手对布尔什维克的指责。",
+    "importance_score": 1,
+    "importance_reason": "本段通过具体人物和观点，支撑列宁对民族问题中农民立场的分析。",
+    "argument_role": "transition",
+    "argument_link": "本段从资产阶级政党的立场转向农民群体的民族主义倾向，为后续分析民族自决权中的阶级基础做铺垫。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "俄国历史人物与组织",
+        "explain": "波舍霍诺夫是“人民社会”党创始人，该党代表小资产阶级；《俄国财富》是自由派杂志；普利什凯维奇是反动地主代表。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "机会主义者或批评者",
+      "their_view": "他们诬蔑布尔什维克把农民理想化，忽视农民的民族主义成见。",
+      "author_response": "列宁强调必须区分农民的理性立场与保守倾向，坚持无产阶级的阶级分析。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "medium"
+    },
+    "sentences": [
+      {
+        "sid": "p267s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p267s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "人民社会党",
+            "type": "org",
+            "modern": "1906年成立的俄国小资产阶级政党，主张渐进改革。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "波舍霍诺夫",
+            "type": "person",
+            "modern": "“人民社会”党创始人之一，持温和立场。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "《俄国财富》杂志",
+            "type": "work",
+            "modern": "19世纪末至20世纪初俄国自由派文学政治杂志。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p267s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "普利什凯维奇",
+            "type": "person",
+            "modern": "俄国反动政治家，代表地主贵族利益。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  }
+}

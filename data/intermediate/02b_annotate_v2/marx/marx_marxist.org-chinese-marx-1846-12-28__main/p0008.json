@@ -1,0 +1,55 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 8,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "马克思通过反问，指出蒲鲁东对历史发展的无知必然导致对经济发展的无知。",
+    "importance_score": 3,
+    "importance_reason": "本段是马克思批判蒲鲁东唯心主义历史观的核心论点，揭露其理论内在矛盾。",
+    "argument_role": "continues",
+    "argument_link": "本段承接上文对蒲鲁东历史观的描述，进一步指出其理论缺陷的必然性。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "蒲鲁东",
+      "their_view": "历史发展由普遍理性、上帝等抽象观念驱动，但人们误解了自身的运动。",
+      "author_response": "马克思指出蒲鲁东用这些唯心主义术语恰恰暴露了他对历史发展的无知，从而也无法理解经济发展。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p8s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

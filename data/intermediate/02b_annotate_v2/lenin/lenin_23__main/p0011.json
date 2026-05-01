@@ -1,0 +1,76 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 11,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁对比两种反宗教宣传方式，批评党内教条主义倾向，强调要唤醒群众自觉。",
+    "importance_score": 2,
+    "importance_reason": "对前文批评的具体展开，通过对比有效与无效的宣传方式，支撑唤醒群众自觉的核心论点。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对宣传工作拖延的批评，具体对比有效与无效的宣传方式，并指出后者的问题所在。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p11s3",
+        "quote": "担心在我国人们不会用马克思和恩格斯的修正意见来补充旧无神论和旧唯物主义，那是没有任何根据的。",
+        "trigger": "inverted_logic",
+        "reader_block": "双重否定结构“担心……没有根据”，读者需要转换才能理解列宁的实际主张是“这种担心是多余的”。",
+        "parse": {
+          "claim": "人们完全能够运用马克思恩格斯的理论来发展无神论和唯物主义。",
+          "qualifiers": "",
+          "contrast_or_target": "那些认为马克思主义理论与旧无神论传统无法结合的人。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "直接反驳对理论结合可能性的怀疑，为下文强调唤醒群众自觉做铺垫。"
+        },
+        "implication": null,
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "党内教条主义倾向的宣传者",
+      "their_view": "马克思主义理论过于枯燥，无法与旧无神论传统有效结合，或者认为人们不会用马克思主义来补充旧无神论。",
+      "author_response": "这种担心毫无根据，马克思恩格斯的著作译本已经齐全，关键是要善于唤醒群众自觉。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p11s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p11s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p11s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p11s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  }
+}

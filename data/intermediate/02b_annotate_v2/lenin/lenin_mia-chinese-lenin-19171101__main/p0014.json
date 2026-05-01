@@ -1,0 +1,102 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 14,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁质问党内反对派的真实意图，强调无产阶级是唯一救星，并指出与某些政治力量协议的阶级矛盾。",
+    "importance_score": 2,
+    "importance_reason": "本段是列宁对党内妥协倾向进行直接论战的关键部分，通过反问和阶级分析，强化了其反对政治协议的核心立场。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段对季诺维也夫和加米涅夫行为的指责，进一步追问其意图并论证妥协路线的不可行性。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p14s1",
+        "quote": "他们想干什么？想动刀子吗？",
+        "trigger": "inverted_logic",
+        "reader_block": "反问句式，读者可能误以为列宁在询问具体行动，实则是讽刺对方将暴力革命污名化为“动刀子”的指控。",
+        "parse": {
+          "claim": "列宁以反问形式，讽刺反对派将布尔什维克的革命行动污蔑为无谓的暴力。",
+          "qualifiers": "",
+          "contrast_or_target": "反对派（加米涅夫、季诺维也夫）将武装起义描绘为不必要的暴力冒险。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "本句通过反问，直接驳斥了反对派对武装起义的污名化描述，将其指控还原为一种荒谬的指控。"
+        },
+        "implication": "列宁暗示反对派的指控脱离了革命斗争的现实需要，是一种政治抹黑。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "加米涅夫、季诺维也夫及党内妥协主义倾向",
+      "their_view": "主张与孟什维克、社会革命党人、城市杜马等政治力量达成协议，分享权力，认为布尔什维克单独不能巩固政权。",
+      "author_response": "列宁强调只有无产阶级能够拯救国家，任何与资产阶级或小资产阶级政党的政治协议都是不可行的，因为阶级利益根本对立。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p14s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "动刀子",
+            "type": "metaphor",
+            "modern": "列宁用此词讽刺反对派将布尔什维克的武装革命行动污蔑为无谓的暴力。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p14s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p14s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p14s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 1,
+        "hs_kept": 1,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 71,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "恩格斯通过社会形态更替和哲学思想发展两个具体实例，阐释“否定的否定”规律在历史进程中的体现。",
+    "importance_score": 2,
+    "importance_reason": "通过社会形态和哲学史的具体实例，为“否定的否定”规律提供经验佐证。",
+    "argument_role": "example",
+    "argument_link": "上段引入“否定的否定”概念，本段通过具体历史实例来阐释该规律如何运作。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p71s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p71s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p71s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p71s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "唯物主义",
+            "type": "concept",
+            "modern": "哲学基本派别，主张物质第一性、意识第二性。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "materialism_philosophical"
+          }
+        ]
+      },
+      {
+        "sid": "p71s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "唯心主义",
+            "type": "concept",
+            "modern": "哲学基本派别，主张意识第一性、物质第二性。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "idealism_philosophical"
+          }
+        ]
+      },
+      {
+        "sid": "p71s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p71s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "科学社会主义",
+            "type": "concept",
+            "modern": "马克思主义关于无产阶级解放条件的学说，是现代唯物主义的理论归宿。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "socialism_scientific"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 3,
+        "notes_dropped": 3,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

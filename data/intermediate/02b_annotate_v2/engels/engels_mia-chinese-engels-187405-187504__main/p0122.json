@@ -1,0 +1,104 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 122,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "恩格斯基于特卡乔夫的逻辑前提，用反讽方式推导出一个荒谬结论，以此批判其革命主张的空想性。",
+    "importance_score": 2,
+    "importance_reason": "这是恩格斯对特卡乔夫革命观进行归谬式批判的关键段落，展示了其论证策略。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段对特卡乔夫革命主张的引用，本段在此基础上进行逻辑推演和反讽批判。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "rhetorical",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p122s2",
+        "quote": "因此我建议小卡尔·米斯尼克：既然已经非这样干不可了，既然人民已经准备好进行革命而你也准备好了，既然你无论如何不愿等，不能等，而且也无权等下去了，既然你已得到了选择起义时刻的权利，以及最后，既然问题是这样摆着的：不是现在就干就是永远不干！",
+        "trigger": "rhetorical",
+        "reader_block": "连续五个“既然”构成排比，最后以“不是现在就干就是永远不干”这种极端表述收尾，读者可能误以为这是恩格斯的正面建议，而非反讽。",
+        "parse": {
+          "claim": "恩格斯将特卡乔夫关于革命时机已完全成熟、必须立即行动的主张，以一系列不容置疑的前提形式复述出来。",
+          "qualifiers": "所有前提均源自特卡乔夫的论述，恩格斯在此是“以其人之道还治其人之身”。",
+          "contrast_or_target": "特卡乔夫认为革命者应主动选择时机，人民时刻准备革命，必须立即行动。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "本句是归谬论证的铺垫，通过复述并强化特卡乔夫的逻辑前提，为下一句的反讽结论蓄势。"
+        },
+        "implication": "恩格斯暗示，如果这些前提都成立，那么逻辑上必然导向一个立即行动的结论，而这恰恰暴露了该主张的不切实际。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "特卡乔夫",
+      "their_view": "革命时机已经完全成熟，人民时刻准备着，革命者有权也有义务选择起义时刻并立即行动，任何等待都是错误的。",
+      "author_response": "恩格斯通过归谬法，将特卡乔夫的主张推向逻辑极端，以反讽方式揭示其脱离现实、急于求成的空想性质。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p122s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p122s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "小卡尔·米斯尼克",
+            "type": "person",
+            "modern": "恩格斯对俄国革命家特卡乔夫的讽刺性称呼，意在凸显其年轻或不成熟。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "不是现在就干就是永远不干",
+            "type": "slogan",
+            "modern": "恩格斯对特卡乔夫急躁情绪的夸张概括，用以凸显其主张的极端性。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p122s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 1,
+        "hs_kept": 1,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_archaic_7>4",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

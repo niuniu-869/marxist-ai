@@ -1,0 +1,120 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 597,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段开始具体剖析黑格尔辩证法的思辨结构，指出其核心在于意识在异在中设定自身，并批判这种运动只是思维的抽象运动。",
+    "importance_score": 2,
+    "importance_reason": "这是马克思对黑格尔辩证法进行具体批判的起点，揭示了其唯心主义和神学性质的核心机制。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对“思辨幻想”的总括，本段开始逐条拆解黑格尔体系中意识运动的具体逻辑。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "黑格尔的“异在”",
+        "explain": "在黑格尔哲学中，“异在”指绝对精神或意识为了认识自身而外化、对象化为与自身不同的存在（如自然界、社会）。意识在异在中最终认识到这异在就是自身，从而完成自我认识的圆圈运动。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "费尔巴哈的批判立场",
+        "explain": "费尔巴哈批判黑格尔将思维、概念实体化，认为现实的、感性的人才是哲学的出发点。马克思在此引用费尔巴哈，是为了指出黑格尔体系中意识冒充为现实的错误。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p597s3",
+        "quote": "这里首先包含着：意识，也就是作为知识的知识、作为思维的思维，直接地冒充为异于自身的他物，冒充为感性、现实、生命，——在思维中超越自身的思维（费尔巴哈）。",
+        "trigger": "long_nested",
+        "reader_block": "句子主干被“也就是……”和“——在思维中……”打断，且插入费尔巴哈的评语，读者易混淆哪些是马克思的陈述、哪些是引用。",
+        "parse": {
+          "claim": "黑格尔体系中的意识，将自身设定为纯粹的思维活动，却声称自己就是感性的现实世界本身。",
+          "qualifiers": "这是对黑格尔辩证法第一环节（意识设定异在）的批判性概括。",
+          "contrast_or_target": "黑格尔认为，意识通过外化为对象（异在）并最终在对象中认出自身，从而实现自我认识。马克思指出，这个过程只是思维在自身内部的运动，却伪装成对现实世界的把握。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "本句直接点明黑格尔辩证法的唯心主义要害：将思维的抽象运动等同于现实世界的生成与运动，这是对黑格尔前提的根本反驳。"
+        },
+        "implication": "如果意识只是在思维中运动，那么它所“认识”的现实就不是真正的现实，而是思维自身的产物。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "黑格尔",
+      "their_view": "意识（或绝对精神）通过将自身外化为对象世界（异在），并在对象世界中重新发现自身，从而完成对自身的认识。这个过程是现实世界生成和发展的内在逻辑。",
+      "author_response": "这种运动只是思维在自身内部的抽象活动。意识冒充为感性现实，但其遇到的障碍并非现实的异化，而是“对象性”这个思维设定的概念本身。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p597s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "异在",
+            "type": "concept",
+            "modern": "黑格尔哲学中，意识为认识自身而设定的、与自身相异的对象性存在。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "hegelian_alienation"
+          }
+        ]
+      },
+      {
+        "sid": "p597s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p597s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "费尔巴哈",
+            "type": "person",
+            "modern": "德国哲学家，青年黑格尔派成员，批判黑格尔唯心主义，强调感性的人。",
+            "highlight": "person",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p597s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "对象性",
+            "type": "concept",
+            "modern": "事物作为意识的对象而存在的性质，在黑格尔体系中是意识自我设定的环节。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "objectivity_hegelian"
+          }
+        ]
+      }
+    ]
+  }
+}

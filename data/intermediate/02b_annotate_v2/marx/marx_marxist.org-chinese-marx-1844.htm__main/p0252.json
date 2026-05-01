@@ -1,0 +1,62 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 252,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段批判大地产维护者混淆大农业经济好处与大地产本身，并反驳他们对小地产商贩心理的攻击。",
+    "importance_score": 2,
+    "importance_reason": "本段具体揭露大地产维护者的诡辩，为扬弃土地私有制的论点提供支撑。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对地产分割与垄断的讨论，转向批判大地产维护者的具体观点。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "大地产的维护者",
+      "their_view": "大农业在经济上的好处与大地产不可分割，小地产具有商贩心理而大地产没有。",
+      "author_response": "大农业的好处恰恰可以通过废除大地产来最充分地发挥并成为社会利益，大地产本身也潜在地包藏商贩行为。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p252s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p252s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 2,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

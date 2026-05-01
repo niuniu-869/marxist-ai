@@ -1,0 +1,63 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 655,
+  "annotation": {
+    "block_type": "narrative",
+    "gist": "描述拉萨尔对马克思提议的沉默反应，随后转向介绍自己的研究计划，即推翻李嘉图的工资理论。",
+    "importance_score": 1,
+    "importance_reason": "记录拉萨尔与马克思会面中的一个细节，展示其学术主张，为后续可能的理论分歧埋下伏笔。",
+    "argument_role": "transition",
+    "argument_link": "承接上段马克思以需要商议为由暂缓决定的对话，转而记录拉萨尔随后的谈话内容。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "李嘉图工资法则",
+        "explain": "古典政治经济学理论，认为在自由竞争下，工人工资长期趋向于仅能维持其生存和繁衍后代的最低水平。拉萨尔试图推翻此理论。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p655s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_7>5"
+      ]
+    }
+  ]
+}

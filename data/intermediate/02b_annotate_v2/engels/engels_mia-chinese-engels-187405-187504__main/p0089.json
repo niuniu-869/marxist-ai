@@ -1,0 +1,64 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 89,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "恩格斯以连续反问质问特卡乔夫的革命准备情况，揭露其对青年的欺骗。",
+    "importance_score": 2,
+    "importance_reason": "本段通过反讽批判特卡乔夫派，支撑恩格斯对布朗基主义密谋策略的否定。",
+    "argument_role": "continues",
+    "argument_link": "上一段用希腊神话讽刺彼得，本段转向直接质问特卡乔夫，延续反讽论战。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "特卡乔夫与布朗基主义",
+        "explain": "特卡乔夫是19世纪俄国革命家，主张通过少数密谋者发动起义实现革命，属于布朗基主义流派。秘密委员会是其组织形式。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p89s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote",
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

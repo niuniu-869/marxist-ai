@@ -1,0 +1,116 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 7,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁总结马克思对“土地平分”计划的批判要点，并强调马克思区分了运动的思想外衣与实际进步内容。",
+    "importance_score": 2,
+    "importance_reason": "本段是论证的过渡环节，旨在澄清马克思批判的精确对象，为后续引用马克思的具体论述做铺垫。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段对马克思批判克利盖的引用，进一步阐释马克思批判的焦点在于空想主义，而非否定运动本身。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "term_density",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "宗法制度",
+        "explain": "指前资本主义的、以血缘和传统为纽带的社会组织形态，与基于商品交换和雇佣劳动的工业社会相对。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p7s2",
+        "quote": "马克思从一开始就清醒地批判了空想主义，指出宗法制度转为工业制度是不可避免的，用现代的语言来说，就是资本主义的发展是不可避免的。",
+        "trigger": "term_density",
+        "reader_block": "句中“宗法制度”“工业制度”“资本主义”三个概念密集出现，且“用现代的语言来说”提示了术语转换，读者可能不清楚列宁在做什么。",
+        "parse": {
+          "claim": "马克思认为，从传统的、基于血缘的社会形态向现代工业社会的转变是客观规律，资本主义是这一转变的必然阶段。",
+          "qualifiers": "马克思的这一判断是“从一开始就”持有的清醒认识。",
+          "contrast_or_target": "针对克利盖等人将土地平分视为直接实现共产主义手段的空想观点。"
+        },
+        "why": {
+          "relation": "definition",
+          "explanation": "本句定义了马克思批判空想主义的理论基础，即历史唯物主义关于社会形态演进的客观规律，以此划清与空想社会主义的界限。"
+        },
+        "implication": "任何试图绕过资本主义发展阶段、直接通过土地分配实现共产主义的方案，在马克思看来都是空想。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "误读马克思的人（如社会革命党人）",
+      "their_view": "马克思因为反对运动参加者的空想思想，就会否定整个土地平分运动本身。",
+      "author_response": "列宁指出，马克思善于剥离运动表面的华丽辞藻，识别并肯定其内在的实际进步内容。",
+      "polemic_kind": "strategic_critique",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p7s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p7s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "宗法制度",
+            "type": "concept",
+            "modern": "在马克思的社会形态理论中，指代前资本主义的、以血缘和传统为纽带的社会组织形态。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "patriarchal_system"
+          }
+        ]
+      },
+      {
+        "sid": "p7s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p7s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p7s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 1,
+        "hs_kept": 1,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

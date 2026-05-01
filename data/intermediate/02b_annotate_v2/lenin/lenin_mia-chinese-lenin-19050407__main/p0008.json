@@ -1,0 +1,110 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 8,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁指出自由派与民粹派在土地问题上共同的阶级局限，即用小农利益掩盖雇佣劳动利益，并批判民粹派的幻想。",
+    "importance_score": 2,
+    "importance_reason": "本段将自由派与民粹派并列批判，揭示其共同的资产阶级民主主义性质，是论证的关键环节。",
+    "argument_role": "continues",
+    "argument_link": "上一段批判自由派忽视农业工人，本段将民粹派纳入同一批判框架，指出两者在掩盖雇佣劳动利益上的一致性。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "俄国自由派和俄国民粹派",
+      "their_view": "小农经济的利益是首要的，农业雇佣劳动的作用是次要的，甚至可能随着村社发展而消失。",
+      "author_response": "这种观点是小资产阶级目光短浅的表现，是束缚劳动人民的幻想，社会民主党必须批判并打破它。",
+      "polemic_kind": "reveals_class_basis",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p8s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p8s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p8s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p8s4",
+        "speaker": "quoted_opponent",
+        "stance": "critical",
+        "notes": [
+          {
+            "surface": "社会革命党人",
+            "type": "org",
+            "modern": "1901年成立的俄国政党，主张通过农民革命实现社会主义，否认无产阶级的领导作用。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p8s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p8s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p8s7",
+        "speaker": "quoted_marx",
+        "stance": "endorsed",
+        "notes": [
+          {
+            "surface": "马克思恩格斯全集",
+            "type": "work",
+            "modern": "此处引用出自马克思《〈黑格尔法哲学批判〉导言》，原文比喻宗教批判是摘取虚幻花朵，列宁借以说明对民粹派幻想的批判。",
+            "highlight": "quote",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 2,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_10>5",
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

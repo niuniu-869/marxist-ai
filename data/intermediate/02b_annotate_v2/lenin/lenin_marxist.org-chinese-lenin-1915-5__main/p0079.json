@@ -1,0 +1,81 @@
+{
+  "_prompt_version": "marxist-v0.2-2026-04-30-scaffolding",
+  "n": 79,
+  "annotation": {
+    "block_type": "quote_block",
+    "gist": "列宁引用考茨基的反驳，考茨基质疑社会主义领袖和群众会迅速转向帝国主义。",
+    "importance_score": 2,
+    "importance_reason": "本段直接引用考茨基的论点，为列宁的后续批判提供具体靶子。",
+    "argument_role": "continues",
+    "argument_link": "本段继续考茨基对列宁观点的反驳，具体质疑领袖和群众的转变速度。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "rhetorical",
+      "needs_polemic": true,
+      "polemic_reason": "refute_quotation"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p79s1",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": [
+          {
+            "surface": "普列汉诺夫",
+            "type": "person",
+            "modern": "俄国马克思主义理论家，第二国际重要人物",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "罗莎·卢森堡",
+            "type": "person",
+            "modern": "德国马克思主义革命家，反战立场",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "《国际》杂志",
+            "type": "work",
+            "modern": "罗莎·卢森堡和弗·默林编辑的反战刊物",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 3,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote",
+        "polemic:polemic_empty_field"
+      ]
+    }
+  ]
+}

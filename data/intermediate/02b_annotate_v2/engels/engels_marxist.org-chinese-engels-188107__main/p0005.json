@@ -1,0 +1,141 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 5,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "描述英国旧政治秩序衰落的普遍感受，并直接号召工人阶级利用现有选举力量进入议会，以承担其统治责任。",
+    "importance_score": 3,
+    "importance_reason": "本段是恩格斯论证的核心，从描述氛围转向提出具体行动路径，即工人阶级通过议会夺取政治权力。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对英国工人政治滞后的对比，转而描述英国国内旧政党体系衰落的迹象，并指出新道路就是工人阶级的统治。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_polysemy | history_missing",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "民主制的特定含义",
+        "explain": "恩格斯在此处使用的“民主制”并非泛指现代普选或议会民主，而是特指在工业和农业工人占人口绝大多数的英国，民主必然导向工人阶级的阶级统治。",
+        "why_needed": "term_polysemy",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      },
+      {
+        "topic": "圣斯提芬",
+        "explain": "这是伦敦威斯敏斯特宫的俗称，指代英国议会下院所在地。恩格斯用此词代指进入议会。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p5s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p5s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "民主制",
+            "type": "concept",
+            "modern": "在恩格斯语境下，指工业和农业工人阶级占据人口多数时的阶级统治形式。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "democracy_proletarian"
+          }
+        ]
+      },
+      {
+        "sid": "p5s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "工人阶级",
+            "type": "concept",
+            "modern": "构成社会人口主体的工业与农业雇佣劳动者群体。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "class_marxist"
+          }
+        ]
+      },
+      {
+        "sid": "p5s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p5s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p5s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "圣斯提芬",
+            "type": "place",
+            "modern": "伦敦威斯敏斯特宫的俗称，指英国议会下院所在地。",
+            "highlight": "archaic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p5s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p5s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 3,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_5gram_with_surface"
+      ]
+    }
+  ]
+}

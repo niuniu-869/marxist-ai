@@ -1,0 +1,69 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 431,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段批判蒲鲁东关于货币利息降低的观点，指出其本质是私有财产向工业资本的转化。",
+    "importance_score": 2,
+    "importance_reason": "本段是马克思对蒲鲁东资本社会化论点的直接反驳，属于核心论战内容。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对挥霍财富的分析，进一步揭示货币利息降低的实质是劳动资本对挥霍财富的胜利。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "蒲鲁东及其资本社会化观点",
+        "explain": "蒲鲁东是19世纪法国社会主义思想家，主张通过降低货币利息来消除资本剥削，实现资本的社会化。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p431s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p431s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

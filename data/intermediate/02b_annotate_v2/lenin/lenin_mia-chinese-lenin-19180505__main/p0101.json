@@ -1,0 +1,88 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 101,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁批评奥新斯基将托拉斯组织者视为普通工作人员的观点，强调利用资本主义成就对社会主义的必要性。",
+    "importance_score": 2,
+    "importance_reason": "通过反驳具体错误观点，支撑了利用资本主义成就实现社会主义的核心论点。",
+    "argument_role": "contrasts",
+    "argument_link": "承接上段对奥新斯基讽刺的回应，正面阐述其观点的错误所在。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "allusion",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "奥新斯基",
+      "their_view": "托拉斯的组织者应该被当作普通工作人员对待，向他们学习社会主义是可笑的。",
+      "author_response": "一个马克思主义者不应持此观点，因为社会主义必须建立在资本主义的技术和文化成就之上。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p101s1",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p101s2",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p101s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "年方十五，不会超过？",
+            "type": "quote",
+            "modern": "出自一首诗，用以形容思想不成熟、缺乏经验的年轻人。",
+            "highlight": "quote",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p101s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p101s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

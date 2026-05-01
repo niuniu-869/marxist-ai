@@ -1,0 +1,55 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 188,
+  "annotation": {
+    "block_type": "quote_block",
+    "gist": "马克思摘录巴枯宁对马克思主义者和民主学派的批判，指出巴枯宁认为这些学派的主张是谎言，掩盖专制并伪装成人民意志。",
+    "importance_score": 2,
+    "importance_reason": "直接呈现巴枯宁对马克思主义国家理论的核心批判，是理解双方分歧的关键引文。",
+    "argument_role": "continues",
+    "argument_link": "延续上一段对“全民”概念的批判，具体指出巴枯宁认为马克思主义者和民主学派的最新主张正是这种谎言。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p188s1",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

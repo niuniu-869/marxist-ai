@@ -1,0 +1,92 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 64,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段提出苏维埃俄国在小农经济条件下能否坚持到西欧社会主义实现的战略问题，并分析西欧资本主义国家的实际发展路径及东方革命形势。",
+    "importance_score": 2,
+    "importance_reason": "本段提出全文核心战略问题，并分析国际形势，为后续改革主张提供依据。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对东方革命形势的分析，转而提出苏维埃俄国自身面临的核心战略问题，并分析西欧资本主义国家的实际发展路径。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p64s3",
+        "quote": "它们完成这一发展过程，不会是经过社会主义在这些国家里平衡“成熟”，而将是经过一些国家对另一些国家进行剥削，经过对帝国主义战争中第一个战败国进行剥削，再加上对整个东方进行剥削的道路来完成的。",
+        "trigger": "long_nested",
+        "reader_block": "三个“经过……”的并列结构，读者可能迷失在剥削对象的罗列中，忽略核心对比。",
+        "parse": {
+          "claim": "西欧资本主义国家不会通过内部社会主义的平衡成熟来完成发展，而是通过对战败国和东方的剥削来实现。",
+          "qualifiers": "限定于西欧资本主义国家完成向社会主义过渡的方式。",
+          "contrast_or_target": "与“社会主义在这些国家里平衡‘成熟’”的预期形成对比。"
+        },
+        "why": {
+          "relation": "contrasts",
+          "explanation": "与上句提出的“西欧资本主义国家发展到社会主义的那一天”形成对照，揭示其实际路径。"
+        },
+        "implication": null,
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p64s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p64s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p64s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p64s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 1,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

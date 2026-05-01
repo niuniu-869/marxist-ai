@@ -1,0 +1,123 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 83,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "描述1812年西班牙宪法的矛盾现象：它在反革命背景下产生，却又迅速消失，马克思提出两个谜题准备解答。",
+    "importance_score": 3,
+    "importance_reason": "核心论点的引入，提出1812年宪法产生与消亡的矛盾谜题，为后续分析西班牙革命的历史根源设置核心问题。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对议会召开的描述，转向分析其产物——1812年宪法的矛盾性，为后续分析做铺垫。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p83s6",
+        "quote": "这个宪法又突然不见了，它同波旁王朝的一个活的人物一接触就像怪影（西班牙历史～学家说像《sueo de sombra》〔“梦幻”〕一样消失了，这个现象又该如何解释呢？如果说这个宪法的产生是一个谜，那末它的死亡同样是一个谜。",
+        "trigger": "inverted_logic",
+        "reader_block": "反问句式加上“怪影”比喻，读者可能困惑宪法为何在与波旁王朝接触后“突然消失”，以及“死亡”一词的隐喻。",
+        "parse": {
+          "claim": "1812年宪法在与波旁王朝接触后迅速失效，其死亡同样神秘。",
+          "qualifiers": "宪法的消失被比喻为怪影或梦幻。",
+          "contrast_or_target": "隐含的论敌可能认为宪法本身有问题或不切实际，导致其失败。"
+        },
+        "why": {
+          "relation": "continues",
+          "explanation": "延续s5的谜题，从宪法的“产生”之谜转向其“死亡”之谜，将两个矛盾现象并列，强化了需要深入探究的必要性。"
+        },
+        "implication": "马克思暗示，宪法的失败并非因其本身虚幻，而是与复辟的波旁王朝的现实政治力量碰撞的结果。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "全欧洲戴皇冠的人物",
+      "their_view": "1812年西班牙宪法是雅各宾主义的最煽惑人心的发明，是革命的产物。",
+      "author_response": "马克思指出，这部宪法恰恰是古老西班牙在反革命时期的产物，其产生和消失都需从西班牙内部矛盾解释，而非简单贴上外来标签。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p83s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p83s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p83s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p83s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p83s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "雅各宾主义",
+            "type": "concept",
+            "modern": "法国大革命中激进派的政治理念，常被反动势力用作贬称，指代极端的革命主张。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "jacobinism_historical"
+          }
+        ]
+      },
+      {
+        "sid": "p83s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "波旁王朝",
+            "type": "person",
+            "modern": "法国波旁王室在西班牙的分支，1814年费尔南多七世复辟。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 0,
+        "hs_kept": 1,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

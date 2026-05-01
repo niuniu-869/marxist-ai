@@ -1,0 +1,102 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 27,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁引用恩格斯1882年的一封信，用以说明党内机会主义倾向的早期表现及其必然分裂的预言，已被后来的历史所证实。",
+    "importance_score": 2,
+    "importance_reason": "通过引用恩格斯的历史预言，为列宁批判当时党内机会主义提供历史依据和理论支撑。",
+    "argument_role": "example",
+    "argument_link": "承接上段关于马克思批判后德国社民党内部暂时平静的叙述，转而引用恩格斯对党内机会主义倾向的早期分析与预言，为后续论证提供历史例证。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_density",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "反社会党人法",
+        "explain": "1878年德国俾斯麦政府颁布的法律，旨在镇压社会主义和工人运动，禁止社会民主党活动，直至1890年才被废除。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "党内著作家",
+        "explain": "指德国社民党内以理论家自居、主张向统治阶级妥协的派别，其代表人物如赫希博格、施拉姆等，曾因个人经济利益（稿费）而主张放弃斗争。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "党内著作家（菲勒克、赫希博格、施拉姆等）及后来的伯恩施坦派",
+      "their_view": "主张采取温和、顺从的策略，乞求统治阶级取消镇压法令，以换取合法活动空间和自身经济利益（如稿费），要求党放弃革命姿态。",
+      "author_response": "恩格斯指出，这种妥协乞求源于个人私利，其失败是必然的；党内革命工人因此反而更加革命。恩格斯预言，一旦外部压力减轻，这类人就会公开分裂出去形成右翼。",
+      "polemic_kind": "reveals_class_basis",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p27s1",
+        "speaker": "quoted_engels",
+        "stance": "endorsed",
+        "notes": [
+          {
+            "surface": "反社会党人法",
+            "type": "event",
+            "modern": "1878-1890年间德国政府为镇压工人运动而实施的特别法令。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "菲勒克、赫希博格",
+            "type": "person",
+            "modern": "德国社民党内早期机会主义代表人物，主张与政府妥协。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p27s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "伯恩施坦派",
+            "type": "org",
+            "modern": "以伯恩施坦为代表的德国社民党内修正主义派别，主张放弃革命目标，走议会改良道路。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 3,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

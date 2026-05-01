@@ -1,0 +1,106 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 104,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "通过对比工人和小资产阶级知识分子对“国家资本主义”的不同态度，论证在苏维埃政权下，国家资本主义是向社会主义过渡的必要阶段。",
+    "importance_score": 2,
+    "importance_reason": "通过工人实践案例，支撑国家资本主义作为社会主义前阶的论点。",
+    "argument_role": "example",
+    "argument_link": "承接上段对资产阶级知识分子怠工的批判，本段转向工人阶级的积极实践，以具体行业为例，说明如何通过学习和管理“国家资本主义”来为社会主义创造条件。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use | history_missing",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "国家资本主义",
+        "explain": "列宁在本文中提出的核心概念，指在苏维埃国家监督和调节下的资本主义经济形式。它并非倒退，而是利用资本主义的组织和管理经验，为向社会主义过渡准备物质和组织基础。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      },
+      {
+        "topic": "制革工业总管理局与中央纺织工业委员会",
+        "explain": "苏维埃政权初期建立的行业管理机构，负责协调生产、分配原料和产品，是“国家资本主义”在具体行业中的组织形式。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p104s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p104s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p104s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p104s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p104s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p104s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p104s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

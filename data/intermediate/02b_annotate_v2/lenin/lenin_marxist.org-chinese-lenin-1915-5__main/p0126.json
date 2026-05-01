@@ -1,0 +1,126 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 126,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁从第二国际的背叛中得出结论，指出纯粹的合法活动已过时，必须建立秘密工作作为补充，并以俄国革命者的实践为例，同时鄙视那些只赞赏议会活动的领袖。",
+    "importance_score": 3,
+    "importance_reason": "本段是列宁对第二国际破产原因分析后给出的核心行动纲领，提出了“秘密工作与合法工作相结合”的战略，是全文批判的落脚点。",
+    "argument_role": "conclusion",
+    "argument_link": "承接上文对机会主义和考茨基主义的批判，本段从批判转向建设，提出社会民主党人应采取的正确策略，即建立秘密基地。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "穆拉诺夫",
+        "explain": "指俄国工人代表阿·叶·穆拉诺夫，他在1913年杜马选举中当选，因在法庭上坚持革命立场，后被沙皇政府流放至西伯利亚。他是列宁用来对比西欧社会民主党议员的例子。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "韩德逊等人名",
+        "explain": "韩德逊（英国工党领袖）、桑巴（法国社会党人，曾任部长）、王德威尔得（比利时工人党领袖，曾任大臣）是列宁列举的已入阁的社会党人。休特古姆和谢德曼是德国社会民主党领袖，列宁讽刺他们“能当部长”但未被资产阶级政府接纳。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p126s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p126s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p126s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p126s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p126s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "穆拉诺夫",
+            "type": "person",
+            "modern": "俄国工人代表，因在杜马法庭上坚持革命立场而被沙皇流放，是列宁推崇的革命议会活动实践者。",
+            "highlight": "person",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "韩德逊、桑巴、王德威尔得",
+            "type": "person",
+            "modern": "分别指英国工党、法国社会党、比利时工人党的领袖，均已进入本国资产阶级政府任职，是列宁批判的“入阁派”代表。",
+            "highlight": "person",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "休特古姆和谢德曼",
+            "type": "person",
+            "modern": "德国社会民主党领袖，列宁讽刺他们虽有入阁野心，但未被资产阶级政府真正接纳。",
+            "highlight": "person",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p126s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 3,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote",
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

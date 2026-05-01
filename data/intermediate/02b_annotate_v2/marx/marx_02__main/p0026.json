@@ -1,0 +1,82 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 26,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "马克思转述自由贸易派对废除农业保护政策的担忧，以反问形式呈现其立场。",
+    "importance_score": 1,
+    "importance_reason": "作为论辩环节，呈现论敌观点以供后续反驳。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段提出的“我们到底又将如何”的疑问，具体化自由贸易派的担忧。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p26s1",
+        "quote": "难道我们应该把养育我们的农业宣判死刑吗？",
+        "trigger": "inverted_logic",
+        "reader_block": "双重否定加反问，读者可能误以为这是马克思的主张，实际是转述论敌观点。",
+        "parse": {
+          "claim": "自由贸易派认为，废除农业保护政策等同于毁灭本国农业。",
+          "qualifiers": "此处特指英国废除谷物法后，对国内农业生产的冲击。",
+          "contrast_or_target": "自由贸易派主张：废除谷物法，允许廉价外国农产品进入，将摧毁本国农业。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "以反问句式，具体化上一段“他们”的担忧，为后续揭露其阶级立场做铺垫。"
+        },
+        "implication": "马克思意在暴露自由贸易派将自身利益（农业资本家）与整个国家生存捆绑的修辞策略。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      },
+      {
+        "anchor": "p26s2",
+        "quote": "难道我们能够听任别人断绝我们的生活来源吗？",
+        "trigger": "inverted_logic",
+        "reader_block": "同样结构，读者可能混淆立场，需明确这是论敌的恐慌性表述。",
+        "parse": {
+          "claim": "自由贸易派担心，外国竞争会切断国内生产者（尤其是农业相关者）的生计。",
+          "qualifiers": "“别人”指外国生产者，“生活来源”指依赖受保护市场的国内产业利润。",
+          "contrast_or_target": "自由贸易派认为：自由贸易将使国内产业在外国竞争下破产，导致失业和贫困。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "进一步渲染论敌的恐慌情绪，将经济政策辩论上升为生存威胁，强化其论辩的修辞色彩。"
+        },
+        "implication": "此句揭示了自由贸易派如何将特定阶级的经济利益危机，包装成全民的生存危机。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "自由贸易派",
+      "their_view": "废除农业保护政策（如谷物法）将毁灭本国农业，并断绝国内生产者的生计。",
+      "author_response": "马克思通过转述其论调，旨在后续揭露这种担忧实质是保护特定资产阶级集团的利益，而非关心工人阶级或整个社会。",
+      "polemic_kind": "counter_quotation",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p26s1",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p26s2",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      }
+    ]
+  }
+}

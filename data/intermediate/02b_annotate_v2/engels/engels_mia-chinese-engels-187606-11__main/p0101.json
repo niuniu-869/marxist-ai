@@ -1,0 +1,66 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 101,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段以反讽口吻，描述封建骑士如何将诉讼费和监狱费等额外负担转嫁给农民，以实例揭露其剥削行为的蛮横程度。",
+    "importance_score": 2,
+    "importance_reason": "本段以具体实例展示封建骑士将费用转嫁给农民的做法，支撑前文对剥削机制的分析。",
+    "argument_role": "continues",
+    "argument_link": "本段延续上段对封建剥削的揭露，具体说明骑士如何将诉讼费等费用转嫁给农民，以实例强化论点。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "cross_ref_pronoun",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "前文剥削描述",
+        "explain": "本段开头'这一切'指代前文恩格斯对封建领主如何将保护金转化为稳固剥削收入的具体分析，读者需了解前文内容才能理解本段反讽。",
+        "why_needed": "cross_ref_pronoun",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p101s1",
+        "quote": "天真的人在看了这一切以后，也许会想，骑士老爷事实上不是已经从他们的由于预收而装得满满的腰包里”“支付了一些诉讼费吗？这种天真的想法简直是在污辱骑士的投机行为。我们都知道二十年代和晚一些时候的许多情况，当时骑士的蛮横达到这种程度，他们不仅向房客征收保护金，而且还迫使自己钟爱的农村臣民支付当时用的诉讼费和监狱费，有时付1/3，有时1/2，而在某些村里甚至达2/3。”",
+        "trigger": "inverted_logic",
+        "reader_block": "反问句式'不是已经...吗？'加上讽刺语气，读者可能误以为骑士老爷确实支付了费用，实际是反讽其剥削行为。",
+        "parse": {
+          "claim": "骑士老爷实际上没有从预收的保护金中支付诉讼费，反而将这些费用转嫁给农民。",
+          "qualifiers": "在二十年代及之后的时期，骑士的蛮横程度导致他们不仅征收保护金，还迫使农民支付诉讼费和监狱费。",
+          "contrast_or_target": "针对天真想法，即认为骑士老爷已经支付了费用。"
+        },
+        "why": {
+          "relation": "continues",
+          "explanation": "本句通过反问和实例，继续揭露封建骑士将额外负担强加给农民的剥削方式，强化前文论点。"
+        },
+        "implication": null,
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p101s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  }
+}

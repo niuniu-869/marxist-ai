@@ -1,0 +1,106 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 105,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁肯定工人谨慎学习建设大生产的工作，并通过编者注批评“左派”回避无产阶级专政在经济领域的关键作用。",
+    "importance_score": 3,
+    "importance_reason": "本段包含对工人实践的肯定和对“左派”的核心批评，特别是编者注部分直接点明论战要害。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段关于工人学习建设大生产的内容，进一步说明这种工作与劳动纪律相结合，并引出对“左派”回避经济领域专政的批评。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "“左派共产主义者”小集团",
+      "their_view": "在论战中只强调“组织性”等一般性要求，却对无产阶级专政在经济生活中的具体作用避而不谈。",
+      "author_response": "列宁通过编者注指出，这种回避恰恰暴露了他们作为小资产阶级，害怕在经济关系上实行工人专政的实质。",
+      "polemic_kind": "reveals_class_basis",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p105s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "劳动纪律",
+            "type": "concept",
+            "modern": "在向社会主义过渡时期，为克服小生产涣散性、组织社会化大生产而建立的生产秩序与规范。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "labor_discipline"
+          }
+        ]
+      },
+      {
+        "sid": "p105s2",
+        "speaker": "editor",
+        "stance": "neutral_citation",
+        "notes": []
+      },
+      {
+        "sid": "p105s3",
+        "speaker": "editor",
+        "stance": "neutral_citation",
+        "notes": []
+      },
+      {
+        "sid": "p105s4",
+        "speaker": "editor",
+        "stance": "neutral_citation",
+        "notes": []
+      },
+      {
+        "sid": "p105s5",
+        "speaker": "editor",
+        "stance": "neutral_citation",
+        "notes": [
+          {
+            "surface": "无产阶级革命",
+            "type": "concept",
+            "modern": "无产阶级通过暴力革命推翻资产阶级统治，建立无产阶级专政，并最终消灭阶级、实现共产主义的社会变革过程。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "proletarian_revolution"
+          }
+        ]
+      },
+      {
+        "sid": "p105s6",
+        "speaker": "editor",
+        "stance": "neutral_citation",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

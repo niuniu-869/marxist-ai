@@ -1,0 +1,72 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 89,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "作者指出无政府主义者在攻击马克思主义时，其论点存在自相矛盾。",
+    "importance_score": 1,
+    "importance_reason": "这是对前文论证的总结性揭露，用以强化对无政府主义论战方法的批判。",
+    "argument_role": "contrasts",
+    "argument_link": "承接上段对无政府主义者具体指责的描述，本段点明这些指责在逻辑上相互冲突。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p89s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "居维叶",
+            "type": "person",
+            "modern": "19世纪法国博物学家，提出地球历史上多次发生物种大灭绝的“激变论”。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "达尔文",
+            "type": "person",
+            "modern": "19世纪英国博物学家，提出以自然选择为核心的生物进化论。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

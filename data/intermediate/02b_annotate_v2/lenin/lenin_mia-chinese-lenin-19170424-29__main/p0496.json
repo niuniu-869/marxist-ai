@@ -1,0 +1,85 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 496,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "分析第一次世界大战如何加速了资本主义国家内部的经济社会变革，使其更接近社会主义革命的条件。",
+    "importance_score": 2,
+    "importance_reason": "提供了列宁对战争影响的经济分析，是其论证革命形势成熟的关键论据。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于战争导致人类绝境的论断，具体阐述战争如何从经济层面加速了资本主义体系内部矛盾的激化。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p496s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p496s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p496s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p496s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "垄断资本主义",
+            "type": "concept",
+            "modern": "资本主义发展的最高阶段，其特征是生产和资本的集中形成垄断，金融资本和金融寡头占统治地位。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "monopoly_capitalism"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 3,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_6>5",
+        "note:n2_circular_prefix",
+        "note:n1_overflow_concept_8>5"
+      ]
+    }
+  ]
+}

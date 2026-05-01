@@ -1,0 +1,77 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 620,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁转述并批评兰斯堡对资本输出和贷款的负面看法，将其定性为庸俗的改良主义论调。",
+    "importance_score": 2,
+    "importance_reason": "本段通过反驳具体论敌观点，支撑列宁对帝国主义资本输出必然性的分析。",
+    "argument_role": "contrasts",
+    "argument_link": "本段从上段的智利案例转向对错误经济观点的批判，反驳将资本输出视为不稳定或有害的论调。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "兰斯堡其人",
+        "explain": "兰斯堡是德国经济学家，主张通过改良消除资本主义弊端，其观点被列宁视为脱离阶级斗争的庸俗说教。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "兰斯堡",
+      "their_view": "资本输出与贷款相关，导致出口不稳定；资本应留在国内促进工业和谐发展；外国债券的酬金成本过高。",
+      "author_response": "列宁斥之为可笑的小市民说教，忽视了帝国主义资本输出的必然性。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p620s1",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": [
+          {
+            "surface": "小市民说教",
+            "type": "metaphor",
+            "modern": "列宁用此词形容脱离阶级斗争、主张改良的庸俗观点",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p620s2",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p620s3",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": [
+          {
+            "surface": "克虏伯",
+            "type": "org",
+            "modern": "德国军工企业，在帝国主义资本输出中扮演角色",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  }
+}

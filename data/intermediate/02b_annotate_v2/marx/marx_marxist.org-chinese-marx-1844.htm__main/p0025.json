@@ -1,0 +1,75 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 25,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "作者阐明其著作最后一章剖析黑格尔辩证法的必要性，因为当时的批判者未能完成此项工作，且其不彻底性源于其神学家身份。",
+    "importance_score": 2,
+    "importance_reason": "本段是作者为即将展开的对黑格尔哲学的批判进行方法论辩护，解释了为何必须进行此项工作，属于论证的铺垫环节。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对费尔巴哈批判基础的肯定，转而指出当前批判界（特别是青年黑格尔派）的不足，从而引出自己进行哲学批判的必要性。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "批判的神学家",
+        "explain": "指青年黑格尔派中那些自称批判黑格尔哲学，但批判方式仍带有神学色彩或未彻底摆脱黑格尔体系的成员。马克思用此称谓强调其批判的不彻底性。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "批判的神学家（青年黑格尔派部分成员）",
+      "their_view": "要么从作为权威的哲学前提出发进行批判，要么在怀疑这些前提时，以消极、诡辩的方式回避，不敢正面彻底清算。",
+      "author_response": "这种不彻底性是必然的，因为他们本质上仍是神学家，无法真正摆脱旧哲学的框架。因此，必须由我来完成对黑格尔辩证法和整个哲学的彻底剖析。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p25s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p25s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p25s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

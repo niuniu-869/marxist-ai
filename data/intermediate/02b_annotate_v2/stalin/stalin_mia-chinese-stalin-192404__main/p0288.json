@@ -1,0 +1,63 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 288,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段呼吁反对统治民族中社会主义者的大国沙文主义，因为他们不反对本国帝国主义政府，也不援助殖民地民族的独立斗争。",
+    "importance_score": 2,
+    "importance_reason": "本段是列宁主义对第二国际机会主义批判的具体展开，针对大国沙文主义进行直接驳斥。",
+    "argument_role": "continues",
+    "argument_link": "基于前文对共产主义民族联合原则的阐述，本段得出必须反对大国沙文主义的结论。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "大国沙文主义",
+        "explain": "第二国际机会主义中，统治民族的社会主义者维护本国帝国主义利益、反对殖民地民族解放的沙文主义倾向。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "第二国际机会主义",
+      "their_view": "我们应当忠于本国政府，殖民地问题应由各国自行解决，无需社会主义者干预。",
+      "author_response": "列宁主义要求无产阶级国际主义，必须反对一切沙文主义，支持殖民地民族的解放斗争。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p288s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_6>5"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 95,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列举汉泽曼内阁时期对报刊、结社自由的镇压手段，并强调这些事已广为人知。",
+    "importance_score": 2,
+    "importance_reason": "本段通过具体事例，支撑前文对汉泽曼内阁反革命行为的批判。",
+    "argument_role": "example",
+    "argument_link": "本段承接上段对汉泽曼内阁反对革命的指控，用一系列镇压措施作为例证。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "奥尔斯瓦特",
+        "explain": "奥尔斯瓦特是普鲁士政治家，曾任首相，其“充分的理由”公式被马克思引用以讽刺当局随意镇压。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "汉泽曼",
+      "their_view": "汉泽曼内阁以维护秩序为名，实行警察监管、侵犯结社自由等镇压措施。",
+      "author_response": "马克思列举这些措施，揭露其反革命本质。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p95s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "奥尔斯瓦特",
+            "type": "person",
+            "modern": "普鲁士政治家，曾任首相，其“充分的理由”公式被马克思引用。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "Code pnal〔刑法典〕",
+            "type": "work",
+            "modern": "法国刑法典，在普鲁士法律不适用时被援引作为镇压依据。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          },
+          {
+            "surface": "无产者",
+            "type": "concept",
+            "modern": "现代工业无产阶级，被汉泽曼内阁唆使殴打的对象。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "proletarian_modern"
+          }
+        ]
+      },
+      {
+        "sid": "p95s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  }
+}

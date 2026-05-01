@@ -1,0 +1,64 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 55,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁引用考茨基的论述，作为批判其为帝国主义和平扩张辩护的靶子。",
+    "importance_score": 2,
+    "importance_reason": "作为支撑核心批判的具体例证，展示考茨基如何用数据和理论为和平主义辩护。",
+    "argument_role": "example",
+    "argument_link": "承接上一段对考茨基将战争庸俗化的批判，此处提供考茨基具体论述的实例。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "refute_quotation"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p55s2",
+        "quote": "于是“马克思主义者”考茨基就进行说教：“我们没有任何根据认为，不用武力占领埃及而依靠单纯的经济因素的作用，英国同埃及的贸易就会增长得慢些。”（第７２页）“资本扩张的意图”“不通过帝国主义的暴力方法，而通过和平的民主能够实现得最好”。（第７０页）",
+        "trigger": "inverted_logic",
+        "reader_block": "列宁用“于是”和“说教”将考茨基的结论与前面的数据强行关联，暗示其逻辑跳跃。读者需识别出这是反讽，而非赞同。",
+        "parse": {
+          "claim": "考茨基主张，英国对埃及贸易增长缓慢的数据，并不能证明武力占领是必要的；相反，资本扩张完全可以通过和平民主的方式更好地实现。",
+          "qualifiers": "考茨基的论证基于1872-1912年英国对埃及进出口额增长慢于总进出口额这一特定数据。",
+          "contrast_or_target": "考茨基反驳的是“武力占领是贸易增长的必要条件”这一观点，并提出和平扩张的替代方案。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "此句是列宁直接引用考茨基的原话，作为批判的靶子。列宁通过“于是”和“说教”等词，暗示考茨基从数据到结论的推导是牵强的说教，为下文的批判做铺垫。"
+        },
+        "implication": "列宁意在揭露考茨基用看似客观的数据和“和平民主”的修辞，来掩盖帝国主义扩张的本质，并为社会民主党支持战争的行为提供理论开脱。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "考茨基",
+      "their_view": "英国对埃及贸易增长的数据表明，武力占领并非贸易发展的必要条件。资本扩张的意图，完全可以通过和平民主的方式比通过帝国主义暴力更好地实现。",
+      "author_response": "列宁通过引用考茨基的原话并冠以“说教”之名，揭露其理论实质是为帝国主义的和平扩张辩护，从而为放弃革命斗争、支持本国政府的立场寻找借口。",
+      "polemic_kind": "counter_quotation",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p55s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p55s2",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      }
+    ]
+  }
+}

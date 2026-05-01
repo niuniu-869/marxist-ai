@@ -1,0 +1,116 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 59,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁直接回应反对派关于布尔什维克破坏工农平等的指责，将主张这种平等的观点与高尔察克的反革命事业联系起来，并引用具体例子加以论证。",
+    "importance_score": 2,
+    "importance_reason": "本段是核心论点的直接支撑，展示了列宁如何将抽象的“平等”口号论战具体化为对当时政治力量的阶级定性。",
+    "argument_role": "contrasts",
+    "argument_link": "承接上段对农民双重属性的分析，本段转向直接的政治论战，将经济基础（货币、交换的存在）与上层建筑的口号斗争（平等）联系起来。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "refute_quotation"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p59s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p59s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p59s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p59s4",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": [
+          {
+            "surface": "工农之间的平等",
+            "type": "slogan",
+            "modern": "反对派攻击布尔什维克时使用的核心口号，强调工农应享有同等政治经济地位。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          },
+          {
+            "surface": "劳动民主派",
+            "type": "social_group",
+            "modern": "孟什维克和社会革命党人自称的联盟，标榜代表所有劳动者利益。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          },
+          {
+            "surface": "高尔察克",
+            "type": "person",
+            "modern": "白卫军首领，当时与布尔什维克作战的主要反革命军事领袖。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p59s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p59s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p59s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 3,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

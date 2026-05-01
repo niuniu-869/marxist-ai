@@ -1,0 +1,96 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 126,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "通过对比两类代表对同一消息的知情程度，揭示所谓民主派代表的失职。",
+    "importance_score": 2,
+    "importance_reason": "作为例证，支撑前文对民主派机关无能的批判，为后文提出革命性监督方案做铺垫。",
+    "argument_role": "contrasts",
+    "argument_link": "承接上一段民主派代表的“反声明”，用事实揭露其声明的虚伪性，形成直接对比。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p126s2",
+        "quote": "事实对这个反声明作了非常严酷的修正：言中的不是民主派的代表，而是有产者的代表。",
+        "trigger": "inverted_logic",
+        "reader_block": "读者可能困惑于“言中的”指什么消息，以及为何有产者比民主派更早知道，这与直觉中民主派应更关心自身权利相悖。",
+        "parse": {
+          "claim": "关于侵犯民主派权利的计划，有产者比民主派代表更早获得信息。",
+          "qualifiers": "此处“言中的”特指前文提到的关于提高粮食固定价格的传闻。",
+          "contrast_or_target": "民主派代表声称对此毫不知情，并愤慨否认其可能性。"
+        },
+        "why": {
+          "relation": "contrasts",
+          "explanation": "本句用事实（有产者知情）直接反驳上一段民主派代表的“反声明”（不知情），构成尖锐对比，暴露其脱离实际。"
+        },
+        "implication": "这暗示民主派机关已被资本利益渗透或完全失灵，无法履行其宣称的监督职能。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p126s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p126s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "有产者",
+            "type": "social_group",
+            "modern": "在当时语境下指拥有财产、与资本利益相关的群体，与“民主派”形成阶级立场对比。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p126s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 1,
+        "hs_kept": 1,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

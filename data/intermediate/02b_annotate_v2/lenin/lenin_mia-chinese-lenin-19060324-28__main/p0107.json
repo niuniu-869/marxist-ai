@@ -1,0 +1,128 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 107,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "论证在革命形势下，议会外斗争的必要性，并批判立宪幻想对维护专制制度的作用。",
+    "importance_score": 3,
+    "importance_reason": "本段提出了列宁对革命形势和议会斗争的核心判断，是全文论证的关键环节。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对立宪民主党内部矛盾的分析，进一步论证在革命形势下，议会幻想比公开反动更危险。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p107s9",
+        "quote": "于是实行“立宪专制”，制造和散布立宪幻想，就成了维护专制制度的唯一可能的办法。",
+        "trigger": "term_density",
+        "reader_block": "“立宪专制”是列宁创造的批判性术语，将“立宪”与“专制”并置，读者可能困惑其具体所指。",
+        "parse": {
+          "claim": "沙皇政府通过推行一种名为立宪实为专制的制度，并散布关于宪政的虚假希望，以此作为维持其专制统治的唯一可行手段。",
+          "qualifiers": "这是在公开反对议会制的主张已经失败（“已经完蛋”）的特定形势下，专制政府采取的策略。",
+          "contrast_or_target": "对比的是公开的、彻头彻尾反动的主张（已注定失败）与这种更隐蔽、更具欺骗性的“立宪专制”策略。"
+        },
+        "why": {
+          "relation": "conclusion",
+          "explanation": "基于前文对公开反动主张已失败的分析，得出结论：专制制度为求自保，只能转向制造立宪幻想这种更隐蔽的统治方式。"
+        },
+        "implication": "揭露“立宪专制”的本质，是工人政党在当前形势下的重要任务。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "立宪民主党人及孟什维克",
+      "their_view": "议会斗争和立宪程序是有效的政治舞台，参加选举或在其中活动具有积极意义。",
+      "author_response": "在革命形势下，议会外的斗争才是关键，任何议会幻想和议会儿戏都只会麻痹群众，客观上成为专制制度的维护者。",
+      "polemic_kind": "strategic_critique",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p107s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p107s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p107s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p107s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p107s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p107s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p107s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p107s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p107s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p107s10",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 1,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

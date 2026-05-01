@@ -1,0 +1,86 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 337,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁以反讽和反问回应考茨基对布尔什维克的责备，质问无产阶级政党应如何对待小资产阶级农民。",
+    "importance_score": 2,
+    "importance_reason": "本段直接反驳考茨基对布尔什维克的责备，是论证无产阶级专政必要性的关键环节。",
+    "argument_role": "contrasts",
+    "argument_link": "上段描述农民经济的具体现象，本段转而批判考茨基对布尔什维克与农民关系的误解。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p337s2",
+        "quote": "妙极了，考茨基先生！",
+        "trigger": "inverted_logic",
+        "reader_block": "反讽语气，读者可能误以为正面赞扬，实际是讽刺考茨基观点的荒谬。",
+        "parse": {
+          "claim": "列宁讽刺考茨基的责备毫无道理。",
+          "qualifiers": "",
+          "contrast_or_target": "考茨基责备布尔什维克将专政事业交给小资产阶级农民。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "本句以反讽回应考茨基的责备，为后续反问铺垫。"
+        },
+        "implication": "暗示考茨基的批评站不住脚。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "考茨基",
+      "their_view": "考茨基责备布尔什维克将专政和实现社会主义的事业交给小资产阶级农民。",
+      "author_response": "列宁以反讽和反问回应，指出考茨基的观点忽视了无产阶级政党对农民的领导责任。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p337s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p337s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p337s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 1,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

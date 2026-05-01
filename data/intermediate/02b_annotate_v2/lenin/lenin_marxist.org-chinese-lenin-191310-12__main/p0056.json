@@ -1,0 +1,119 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 56,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁批判尤尔凯维奇的主张是资产阶级民族主义，论证只有无产阶级统一行动才能实现乌克兰自由。",
+    "importance_score": 3,
+    "importance_reason": "本段是核心批判，直接定性论敌观点并展开阶级分析，提出无产阶级国际主义团结的结论。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对尤尔凯维奇的举例，直接定性其主张的阶级属性，并从阶级力量对比角度展开论证。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p56s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p56s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p56s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "地主阶级",
+            "type": "social_group",
+            "modern": "列宁指出这是阻碍乌克兰解放的封建剥削阶级。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p56s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p56s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "民主农民",
+            "type": "social_group",
+            "modern": "列宁认为这是能被无产阶级率领的革命力量。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "inferred"
+          }
+        ]
+      },
+      {
+        "sid": "p56s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p56s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "无产者",
+            "type": "concept",
+            "modern": "列宁用此词强调现代工业雇佣工人应超越民族界限联合行动。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "proletarian_modern"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 3,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

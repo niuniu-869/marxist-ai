@@ -1,0 +1,110 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 512,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "通过连续反问，揭示货币作为联结与离间手段的双重性，批判将货币视为中性工具的观点。",
+    "importance_score": 2,
+    "importance_reason": "这是马克思早期异化理论的重要组成部分，具体分析了货币如何成为异化关系的中介。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于货币力量的论述，进一步辩证分析货币在社会关系中的矛盾作用。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p512s1",
+        "quote": "如果货币是把我同人的生活，把我同社会，把我同自然界和人们联结起来的纽带，那么货币难道不是一切纽带的纽带吗？",
+        "trigger": "inverted_logic",
+        "reader_block": "连续反问与隐含让步，读者可能误以为作者在肯定货币的联结作用，实则为后文的批判做铺垫。",
+        "parse": {
+          "claim": "货币表面上充当了人与生活、社会、自然界及他人之间的一切联结中介。",
+          "qualifiers": "这是一个假设性前提，用以引出后续的辩证分析。",
+          "contrast_or_target": "国民经济学将货币视为促进社会联结的中性工具。"
+        },
+        "why": {
+          "relation": "continues",
+          "explanation": "此句承接上段对货币力量的描述，以假设性反问开启对货币社会功能的辩证剖析，为揭示其异化本质做铺垫。"
+        },
+        "implication": "如果货币是唯一的纽带，那么人的真实、丰富的社会联系就被简化为单一的金钱关系。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      },
+      {
+        "anchor": "p512s4",
+        "quote": "它既是道道地地的使人分离的“辅币“，也是地地道道的结合手段；它是社会的〔……〕化合力。",
+        "trigger": "term_density",
+        "reader_block": "“辅币”在此是隐喻，指货币作为分离手段；“化合力”是化学术语，指货币作为结合手段。两者并列构成矛盾修辞。",
+        "parse": {
+          "claim": "货币同时扮演着使人彼此分离和将人强行结合在一起的双重角色，是社会关系的矛盾性粘合剂。",
+          "qualifiers": "“道道地地”“地地道道”强调这两种作用都是真实且彻底的。",
+          "contrast_or_target": "国民经济学只看到货币促进交换与结合的一面。"
+        },
+        "why": {
+          "relation": "conclusion",
+          "explanation": "此句是前几句反问的总结，明确点出货币的辩证矛盾本质：它既是离间手段，又是结合手段，是社会异化关系的集中体现。"
+        },
+        "implication": "货币所实现的“结合”是异化的、强制的结合，而非基于人的本质需要的自由联合。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p512s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p512s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p512s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p512s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 2,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "polemic:eval_word:author_response:深刻"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 16,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁界定“稳定性”概念，并借敌方言论揭示其对党内分裂的押注。",
+    "importance_score": 2,
+    "importance_reason": "通过界定概念和引用敌方观点，强化防止分裂的紧迫性。",
+    "argument_role": "continues",
+    "argument_link": "本段承接对中央委员会稳定性的讨论，具体阐释其内涵并引入外部视角。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p16s2",
+        "quote": "当然，一个白卫分子（大概是谢·谢·奥登堡）在《俄国思想》杂志上说得对，第一，在他们反对苏维埃俄国的赌博中他把赌注押在我们党的分裂上，第二，在这种分裂方面他又把赌注押在党内最严重的意见分歧上。",
+        "trigger": "inverted_logic",
+        "reader_block": "列宁以反讽口吻说敌人“说得对”，读者易误以为作者赞同其观点，实则揭露敌方战略。",
+        "parse": {
+          "claim": "白卫分子奥登堡公开承认，其反苏维埃斗争的策略核心是押注于俄共（布）内部出现严重分裂。",
+          "qualifiers": "",
+          "contrast_or_target": "敌人公开宣称其策略是押注于党的分裂。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "通过引述敌方言论，揭示其对苏维埃政权的攻击策略，从而反证党内团结的极端重要性。"
+        },
+        "implication": null,
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "白卫分子（谢·谢·奥登堡）",
+      "their_view": "反苏维埃斗争的胜算取决于俄共（布）内部出现严重意见分歧并导致分裂。",
+      "author_response": "列宁借敌人之口，点明分裂是苏维埃政权面临的最大外部威胁，从而强调维护党的统一的必要性。",
+      "polemic_kind": "counter_quotation",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p16s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p16s2",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      }
+    ]
+  }
+}

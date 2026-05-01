@@ -1,0 +1,171 @@
+{
+  "scope": "全量自检 - 9276 段, 8256 notes",
+  "rule_violations": {
+    "n1_surface_overflow": 1171,
+    "n2_circular": 1330,
+    "n2_modern_eq_surface": 24,
+    "n3_blacklist_concept": 2,
+    "n4_concept_no_sense_id": 4,
+    "n5_density_sent": 23,
+    "n5_density_para": 57,
+    "n6_no_confidence": 0,
+    "n6_no_source_basis": 0,
+    "low_confidence_kept": 0
+  },
+  "ai_slop_signals": {
+    "gist_5gram_with_para": 0,
+    "claim_5gram_with_quote": 830,
+    "their_view_eq_response": 477
+  },
+  "score_distribution": {
+    "2": 3850,
+    "0": 1161,
+    "3": 1066,
+    "1": 3199
+  },
+  "gate_distribution": {
+    "F,F,F": 5602,
+    "T,F,F": 364,
+    "F,F,T": 2033,
+    "F,T,F": 196,
+    "T,T,T": 284,
+    "T,F,T": 280,
+    "F,T,T": 403,
+    "T,T,F": 113,
+    "T,?,T": 1
+  },
+  "violation_samples": {
+    "n1": [
+      {
+        "type": "concept",
+        "surface": "无产阶级专政",
+        "limit": 5,
+        "file": "stalin/stalin_mia-chinese-stalin-19240126__main/p0008.json"
+      },
+      {
+        "type": "concept",
+        "surface": "无产阶级专政",
+        "limit": 5,
+        "file": "stalin/stalin_mia-chinese-stalin-19240126__main/p0009.json"
+      },
+      {
+        "type": "metaphor",
+        "surface": "无产阶级战略家的军队",
+        "limit": 8,
+        "file": "stalin/stalin_mia-chinese-stalin-19240126__main/p0003.json"
+      },
+      {
+        "type": "concept",
+        "surface": "工人阶级的儿女",
+        "limit": 5,
+        "file": "stalin/stalin_mia-chinese-stalin-19240126__main/p0003.json"
+      },
+      {
+        "type": "concept",
+        "surface": "无产阶级专政",
+        "limit": 5,
+        "file": "stalin/stalin_mia-chinese-stalin-19240126__main/p0011.json"
+      }
+    ],
+    "n2_circular": [
+      {
+        "surface": "工人阶级的儿女",
+        "modern": "指代党员的阶级出身",
+        "file": "stalin/stalin_mia-chinese-stalin-19240126__main/p0003.json"
+      },
+      {
+        "surface": "中共和国民党",
+        "modern": "指当时合作进行国民革命的两个政党，即中国共产党和中国国民党。",
+        "file": "stalin/reference-books_mia-chinese-russia-192610__main/p0026.json"
+      },
+      {
+        "surface": "司徒卢威主义理论",
+        "modern": "指一种认为资本主义发展具有进步性、社会主义应等待其充分发展的改良主义观点，此处被列宁用来定性社会沙文主义者的辩护逻辑。",
+        "file": "lenin/lenin_marxist.org-chinese-lenin-1915-5__main/p0033.json"
+      },
+      {
+        "surface": "专制制度",
+        "modern": "指沙皇俄国和奥斯曼土耳其等封建君主专制政体",
+        "file": "lenin/lenin_marxist.org-chinese-lenin-1915-5__main/p0031.json"
+      },
+      {
+        "surface": "上层",
+        "modern": "指代统治阶级及其政权",
+        "file": "lenin/lenin_marxist.org-chinese-lenin-1915-5__main/p0018.json"
+      }
+    ],
+    "n2_eq": [
+      {
+        "surface": "小资产阶级",
+        "file": "lenin/lenin_marxist.org-chinese-lenin-1915-5__main/p0052.json"
+      },
+      {
+        "surface": "超帝国主义",
+        "file": "lenin/lenin_marxist.org-chinese-lenin-1915-5__main/p0052.json"
+      },
+      {
+        "surface": "机会主义",
+        "file": "lenin/lenin_marxist.org-chinese-lenin-1918-10__main/p0008.json"
+      },
+      {
+        "surface": "马克思主义",
+        "file": "lenin/lenin_marxist.org-chinese-lenin-1918-10__main/p0008.json"
+      },
+      {
+        "surface": "考茨基主义",
+        "file": "lenin/lenin_marxist.org-chinese-lenin-1918-10__main/p0008.json"
+      }
+    ],
+    "n3_black": [
+      {
+        "surface": "城市丧失了它从前对乡村的统治",
+        "matched_pattern": ".+了.+",
+        "file": "engels/engels_marxist.org-chinese-engels-1884-3__main/p0369.json"
+      },
+      {
+        "surface": "排除了她们的兄弟",
+        "matched_pattern": ".+了.+",
+        "file": "engels/engels_marxist.org-chinese-engels-1884-3__main/p0086.json"
+      }
+    ],
+    "n5_density": [],
+    "5gram": []
+  },
+  "slop_samples": {
+    "gist_5gram_with_para": [],
+    "claim_5gram_with_quote": [
+      {
+        "file": "stalin/reference-books_mia-chinese-russia-192610__main/p0023.json",
+        "quote": "第二、既然是指依靠广州和浙江的军队来成立由国民党和商人组成的政权委员会[3]，那这是合适的，但要靠武装工人的力量在上海发动政变就有可能使上海无产阶级的积极分子淹",
+        "claim": "在广州和浙江军队支持下组建政权委员会是可行的，但上海工人武装起义风险极高。"
+      },
+      {
+        "file": "lenin/lenin_marxist.org-chinese-lenin-1915-5__main/p0033.json",
+        "quote": "考茨基反对这种拙劣的理论，反对公开维护这种理论的伦施，也反对暗中坚持这种理论的库诺，可是他反对的目的，仅仅是要在更精致更狡猾的沙文主义理论的基础上，把各国社会沙",
+        "claim": "考茨基反对伦施等人公开主张的、为战争辩护的理论，其真实意图并非坚持国际主义，而是为了用一种更巧妙的沙文主义理论来统一各国社会沙文主义者的立场。"
+      },
+      {
+        "file": "lenin/lenin_marxist.org-chinese-lenin-1915-5__main/p0031.json",
+        "quote": "这两位社会沙文主义领袖还歪曲引用马克思和恩格斯的话作为自己的“王牌”论据：普列汉诺夫回忆起１８１３年普鲁士民族战争和１８７０年德国民族战争，考茨基则作出最博学的",
+        "claim": "普列汉诺夫和考茨基引用马克思和恩格斯对过去战争的评论，作为支持他们当前立场的权威依据。"
+      }
+    ],
+    "their_view_eq_response": [
+      {
+        "file": "lenin/lenin_marxist.org-chinese-lenin-1915-5__main/p0033.json",
+        "their_view": "社会沙文主义者认为，本国在战争中的胜利能加速资本主义发展，从而更快地迎来社会主义；考茨基则反对这种粗糙的辩护，但目的是用更精致的沙文主义理论调和各国社会党。",
+        "author_response": "列宁指出，前者的理论是为本国资产阶级服务的“司徒卢威主义”变种；后者考茨基的反对是虚伪的，其真实意图是巩固社会沙文主义阵营的统一，而非坚持国际主义原则。"
+      },
+      {
+        "file": "lenin/lenin_marxist.org-chinese-lenin-1915-5__main/p0027.json",
+        "their_view": "普列汉诺夫为取悦资产阶级而歪曲辩证法，用“祸首论”等庸俗观点为战争辩护。",
+        "author_response": "列宁指出，辩证法在战争问题上的正确运用是将其视为政治的继续，这是马克思恩格斯一贯坚持的科学观点，从而揭露普列汉诺夫理论的背叛性质。"
+      },
+      {
+        "file": "lenin/lenin_marxist.org-chinese-lenin-1915-5__main/p0008.json",
+        "their_view": "引用社会党人过去充满爱国主义的声明，或对巴塞尔宣言中革命内容保持沉默、略去，为支持战争辩护。",
+        "author_response": "揭露他们背弃巴塞尔宣言的革命精神，实质上宣扬沙文主义，并讽刺其借口书报检查来掩盖叛变行为。"
+      }
+    ]
+  }
+}

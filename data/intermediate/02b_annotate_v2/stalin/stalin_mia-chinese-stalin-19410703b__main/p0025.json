@@ -1,0 +1,137 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 25,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "将对德战争定性为全民族参与的卫国战争，并阐述其国际主义目标与建立反法西斯统一战线的前景。",
+    "importance_score": 3,
+    "importance_reason": "本段是讲话的核心论述之一，完成了从战术指示到战争性质定性和国际动员的关键转折。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于在敌占区开展游击战的战术指示，本段将论述提升到战争的整体性质与国际维度，为后续的全面动员奠定理论基础。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p25s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p25s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "战争",
+            "type": "concept",
+            "modern": "此处特指1941年爆发的苏德战争，讲话将其定性为超越军队范畴的全民战争。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "war_national_defensive"
+          }
+        ]
+      },
+      {
+        "sid": "p25s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p25s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p25s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "盟友",
+            "type": "concept",
+            "modern": "此处指潜在的国际反法西斯统一战线中的人民力量，而非仅指国家政府。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "allies_people"
+          }
+        ]
+      },
+      {
+        "sid": "p25s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "民主",
+            "type": "concept",
+            "modern": "此处与“自由”并列，指代反对法西斯专制统治的普遍政治诉求。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "democracy_anti_fascist"
+          }
+        ]
+      },
+      {
+        "sid": "p25s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p25s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "丘吉尔",
+            "type": "person",
+            "modern": "时任英国首相，其讲话标志着英国对苏联的公开支持。",
+            "highlight": "person",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 4,
+        "notes_dropped": 2,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_6>5",
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

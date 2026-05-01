@@ -1,0 +1,64 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 11,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "描述法国社会分裂的现状，并直接质问《改革报》试图调和阶级矛盾的立场。",
+    "importance_score": 2,
+    "importance_reason": "核心批判段落，直接挑战《改革报》的调和立场，阐明阶级斗争的根源。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对《改革报》抱怨的批评，具体描绘其抱怨所指的社会分裂图景，并直接质问其立场。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p11s2",
+        "quote": "它是否能提高到哪怕只是模糊地了解，阶级对立和阶级斗争只能随着阶级的消失而消失呢？",
+        "trigger": "inverted_logic",
+        "reader_block": "双重否定（“是否能……了解”）加反问语气，读者可能误以为在询问《改革报》的认知能力，实则是在否定其立场。",
+        "parse": {
+          "claim": "阶级对立与阶级斗争的根源在于阶级本身，只有消灭阶级，这些现象才会终结。",
+          "qualifiers": "无。",
+          "contrast_or_target": "《改革报》认为可以通过恢复爱国情感和道德说教来调和阶级矛盾。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "以反问形式，直接驳斥《改革报》试图在阶级之间寻找中间立场的幻想，指出其理论前提的错误。"
+        },
+        "implication": "任何试图在保留阶级的前提下解决社会冲突的方案都是徒劳的。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "《改革报》派共和党人",
+      "their_view": "阶级矛盾可以通过恢复爱国情感和道德说教来调和，从而解决社会问题。",
+      "author_response": "阶级对立与斗争是阶级存在的必然产物，其消失的前提是阶级本身的消灭，而非道德调和。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p11s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p11s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  }
+}

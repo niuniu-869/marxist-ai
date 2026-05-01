@@ -1,0 +1,152 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 28,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段分类描述了镇压法国革命后德国反动势力的构成，指出其软弱性。",
+    "importance_score": 2,
+    "importance_reason": "为分析德国社会状况提供具体阶级构成图景，是后续论述的基础。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段的话题转换，开始具体分析德国国内支持反动统治的社会力量。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "cross_ref",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "“基督教德意志”社会",
+        "explain": "指神圣罗马帝国遗留的、以天主教会和封建领主制为基础的旧秩序观念，强调宗教正统与等级服从。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "1813年与1815年",
+        "explain": "1813年是德意志各邦参与反法战争（民族解放战争）的年份；1815年是拿破仑战败后维也纳会议召开、欧洲封建秩序复辟的年份。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p28s6",
+        "quote": "至于那些希望人民享受他们努力的某些成果的人，他们有足够的力量使自己的口号成为1813年的战斗呼声，但是不成为1815年的实践。",
+        "trigger": "cross_ref",
+        "reader_block": "“他们”指代前文提到的希望进步的人，但读者不清楚1813年和1815年具体发生了什么，无法理解“战斗呼声”与“实践”的对比。",
+        "parse": {
+          "claim": "那些追求进步成果的德国人，在反法战争中能将口号转化为动员力量，但在战后复辟时期却未能将这些口号落实为政治实践。",
+          "qualifiers": "限定于“希望人民享受他们努力的某些成果的人”这一群体，以及1813年和1815年这两个特定历史节点。",
+          "contrast_or_target": "对比对象是复辟政府，他们背弃了战时对人民的承诺。"
+        },
+        "why": {
+          "relation": "continues",
+          "explanation": "承接上文对两类反动力量的分析，转而描述与之对立的进步力量的局限性，为下文“诺言”的落空做铺垫。"
+        },
+        "implication": "揭示了德国资产阶级和自由派在革命与复辟关头的软弱性，其政治动员能力无法转化为持久的制度变革。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p28s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p28s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p28s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p28s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p28s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p28s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p28s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p28s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p28s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p28s10",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p28s11",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 4,
+        "hs_kept": 1,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_6>5",
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

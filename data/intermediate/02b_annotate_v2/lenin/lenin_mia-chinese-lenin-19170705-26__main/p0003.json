@@ -1,0 +1,106 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 3,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段定义“立宪幻想”这一核心概念，并指出它是理解1917年7月俄国政治形势的关键，强调必须揭穿它才能正确制定策略。",
+    "importance_score": 3,
+    "importance_reason": "核心论点段，为全文批判对象“立宪幻想”下定义，并确立其作为分析俄国政治形势核心矛盾的地位。",
+    "argument_role": "definition",
+    "argument_link": "承接上文对政治形势的描述，本段正式提出并界定“立宪幻想”这一分析工具，为后续批判奠定概念基础。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "立宪幻想",
+        "explain": "列宁特指一种政治认知错误：在实际不存在规范、合法的宪政制度时，人们却误以为它存在并正在运行。在1917年7月的俄国，宪法尚未制定，但许多人相信存在有效的立宪程序。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p3s1",
+        "quote": "所谓立宪幻想，是指这样一种政治错误：尽管规范的、法定的、正规的、合法的，总之是“立宪的”制度实际上并不存在，人们却把它当作现行的制度。",
+        "trigger": "inverted_logic",
+        "reader_block": "句子用“尽管……却……”的让步转折结构定义一个概念，读者可能卡在如何理解“不存在却被当作存在”这种逻辑矛盾。",
+        "parse": {
+          "claim": "立宪幻想是一种将实际不存在的合法宪政制度误认为正在运行的政治错误。",
+          "qualifiers": "此处特指1917年7月俄国的具体情境，即宪法尚未制定。",
+          "contrast_or_target": "针对那些认为俄国存在有效立宪程序（如立宪会议、苏维埃多数）的观点。"
+        },
+        "why": {
+          "relation": "definition",
+          "explanation": "本句为全文核心批判对象“立宪幻想”给出明确界定，指出其本质是认知与现实的脱节，为后续分析其危害和根源提供逻辑起点。"
+        },
+        "implication": "若此定义成立，则任何基于“存在合法程序”的政治策略都建立在错误前提之上。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "社会革命党人和孟什维克",
+      "their_view": "俄国存在有效的立宪程序，可以通过立宪会议、苏维埃多数或临时政府的合法措施来解决革命问题。",
+      "author_response": "列宁指出，这种信念是脱离现实的幻想，因为实际的、规范的立宪制度在当时的俄国并不存在。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p3s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "立宪幻想",
+            "type": "concept",
+            "modern": "列宁用此词批判一种政治认知错误，即在实际缺乏合法宪政框架时，仍相信其存在并据此行动。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "constitutional_illusion_lenin"
+          }
+        ]
+      },
+      {
+        "sid": "p3s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p3s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p3s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p3s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p3s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  }
+}

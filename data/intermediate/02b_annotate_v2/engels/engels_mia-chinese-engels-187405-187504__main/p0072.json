@@ -1,0 +1,140 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 72,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "恩格斯通过历史类比，反驳将涉及公共人物的私事排除在政治争论之外的观点。",
+    "importance_score": 2,
+    "importance_reason": "通过历史类比反驳对手观点，为后续揭露“同盟”行为做铺垫。",
+    "argument_role": "contrasts",
+    "argument_link": "上一段恩格斯反驳了对国际协会信息收集方式的指责，本段则进一步论证为何必须公开某些“私事”，形成论证上的递进。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p72s10",
+        "quote": "同盟是一个匪帮，其中除了受骗者外，还有大量骗子、冒险家、欺诈者、警探、投机钻营分子和懦夫，当描述这个匪帮的历史的时候，是否应当伪造这个历史，把这班先生们的种种下流勾当当做“私事”有意地加以隐瞒呢？",
+        "trigger": "inverted_logic",
+        "reader_block": "反问句式加“匪帮”“下流勾当”等强烈措辞，读者可能误以为这是情绪化攻击，而忽略其论证逻辑。",
+        "parse": {
+          "claim": "描述“同盟”这个组织的构成和行为时，不能以“私事”为由隐瞒其成员的不当行为。",
+          "qualifiers": "当描述这个匪帮的历史的时候。",
+          "contrast_or_target": "朋友彼得认为私事神圣，不应在政治争论中公开。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "直接反驳“朋友彼得”的观点，将抽象原则（私事神圣）应用到具体论战对象（同盟）上，揭示其观点的荒谬性。"
+        },
+        "implication": "对“同盟”的揭露和批判是正当且必要的，不受所谓“私事”原则的约束。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "朋友彼得",
+      "their_view": "私事和私信一样是神圣的，不应在政治争论中加以公开。",
+      "author_response": "恩格斯通过路易十五和西班牙女王伊萨伯拉的例子论证，涉及公共人物和公共利益的所谓“私事”，实际上是历史的一部分，不能以私事为借口加以隐瞒。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p72s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p72s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p72s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p72s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p72s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p72s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p72s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p72s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p72s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p72s10",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p72s11",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p72s12",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 1,
+        "hs_kept": 1,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

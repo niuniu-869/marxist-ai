@@ -1,0 +1,71 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 41,
+  "annotation": {
+    "block_type": "quote_block",
+    "gist": "列宁引用恩格斯对起义领导的分析，以西班牙军事暴动为例说明策略，并反讽孟什维克对领导思想的批判。",
+    "importance_score": 2,
+    "importance_reason": "本段通过引用恩格斯和历史例子，具体论证无产阶级参与起义的策略，支撑上段关于正当性的论点。",
+    "argument_role": "continues",
+    "argument_link": "本段延续上段对恩格斯立场的援引，进一步阐述起义领导的具体策略和历史例证。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "西班牙军事暴动",
+        "explain": "19世纪西班牙常见的军事起义模式，由驻军发动并联合其他城市军队，逐步扩大队伍向首都进军。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "新《火星报》",
+        "explain": "孟什维克派别的报纸，与列宁领导的布尔什维克对立，在革命策略上持不同意见。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "新《火星报》（孟什维克）",
+      "their_view": "领导起义的思想是雅各宾主义的，具有危险性、危害性、空想性、资产阶级性、技术上的片面性和阴谋的狭隘性。",
+      "author_response": "列宁通过反讽回应，指出恩格斯若了解这种批判会感到不幸，实则批判孟什维克对革命策略的误解。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p41s1",
+        "speaker": "quoted_engels",
+        "stance": "endorsed",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_6>5",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 133,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段批评德国工人党忽略了其活动国家形式与纲领要求之间的逻辑联系，指出人民主权只在民主共和国内适宜。",
+    "importance_score": 2,
+    "importance_reason": "本段通过分析国家形式与纲领要求的矛盾，支撑对哥达纲领的批判。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对纲领忽略国家问题的批评，具体指出其在国家形式上的不一致。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "德国工人党",
+      "their_view": "德国工人党认为其纲领要求在任何国家形式下都适用，忽略了国家形式的限制。",
+      "author_response": "马克思指出，既然他们在普鲁士德意志帝国内活动，就应该承认人民主权只在民主共和国内适宜，从而揭露其纲领的矛盾。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p133s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p133s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

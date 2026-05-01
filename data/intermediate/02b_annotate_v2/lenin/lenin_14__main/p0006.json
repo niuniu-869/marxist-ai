@@ -1,0 +1,111 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 6,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段阐述马克思早期作为唯物主义者的思想起点，评价费尔巴哈的贡献与局限，并引用马克思对黑格尔唯心主义的批判。",
+    "importance_score": 2,
+    "importance_reason": "介绍马克思哲学体系的唯物主义基础，为后续历史唯物主义论述做铺垫。",
+    "argument_role": "definition",
+    "argument_link": "本段具体定义马克思的唯物主义立场，承接上段引入的唯物主义基础主题。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "费尔巴哈唯物主义",
+        "explain": "路德维希·费尔巴哈是19世纪德国哲学家，他批判黑格尔唯心主义，主张感性直观的唯物主义，但马克思认为其唯物主义在社会历史领域不彻底。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "黑格尔唯心主义",
+        "explain": "格奥尔格·黑格尔是德国古典哲学集大成者，认为绝对观念是世界本原，马克思批判其颠倒思维与现实的关系。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p6s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "路·费而巴哈",
+            "type": "person",
+            "modern": "19世纪德国哲学家，其唯物主义影响了马克思早期思想",
+            "highlight": "person",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "唯物主义者",
+            "type": "concept",
+            "modern": "主张物质世界先于意识的哲学立场",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "materialism_philosophical"
+          }
+        ]
+      },
+      {
+        "sid": "p6s2",
+        "speaker": "quoted_marx",
+        "stance": "endorsed",
+        "notes": [
+          {
+            "surface": "黑格尔",
+            "type": "person",
+            "modern": "德国唯心主义哲学家，其辩证法被马克思改造为唯物辩证法",
+            "highlight": "person",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "唯心主义",
+            "type": "concept",
+            "modern": "认为意识或精神是世界本原的哲学观点",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "idealism_philosophical"
+          },
+          {
+            "surface": "形而上学",
+            "type": "concept",
+            "modern": "在马克思语境中指脱离实践的抽象思辨哲学",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "metaphysics_philosophical"
+          }
+        ]
+      },
+      {
+        "sid": "p6s3",
+        "speaker": "quoted_marx",
+        "stance": "endorsed",
+        "notes": []
+      }
+    ]
+  }
+}

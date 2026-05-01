@@ -1,0 +1,63 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 133,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段对‘考茨基派’（即‘中派’）进行定性，指出其表面立场与实际作用的矛盾。",
+    "importance_score": 2,
+    "importance_reason": "本段是列宁对第二国际机会主义批判的具体指向，服务于全文对改良主义路线的驳斥。",
+    "argument_role": "continues",
+    "argument_link": "本段承接前文对改良主义的批判，将批判对象具体化为考茨基派，揭露其在革命与战争问题上的实质。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "第二国际中派",
+        "explain": "在第二国际内部，中派指以考茨基为首的中间派，他们试图在革命派与机会主义派之间调和，但在列宁看来其立场实质是改良主义。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p133s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

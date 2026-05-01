@@ -1,0 +1,107 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 16,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段阐述了知识分子党员应深入基层、到困难地区工作的组织原则，并号召党员“到民间去”以传播革命口号、对抗反动势力。",
+    "importance_score": 2,
+    "importance_reason": "具体化了前文“到民间去”的号召，提出了党组织在公开活动时期的工作方向和人员配置原则。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于建立“地方经济据点”的讨论，进一步指明党员（特别是知识分子党员）应如何利用这些据点或深入更困难的地区开展工作。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "allusion",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "旺代的反动气焰",
+        "explain": "“旺代”指法国大革命时期保王党发动叛乱的地区。列宁用此典故比喻俄国各地残存的、对抗革命的反动势力。",
+        "why_needed": "allusion",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "“到民间去”口号",
+        "explain": "这是19世纪俄国革命运动中的著名口号，号召知识分子脱离城市，深入农村和工农群众中进行宣传和组织工作。",
+        "why_needed": "allusion",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p16s4",
+        "quote": "现在，为了配合连最偏僻角落里的全体居民都参加的选举，同时也为了适应公开的斗争（这点尤为重要），我们必须“到民间去”，以便打掉各个地方的旺代的反动气焰，保证把那些从各大中心城市发出的口号散布到全国，散布到全体无产阶级群众中去。",
+        "trigger": "long_nested",
+        "reader_block": "句子包含多个目的状语（“为了……”“以便……”），且“旺代的反动气焰”是需要历史知识才能理解的比喻，读者容易迷失在长句结构中。",
+        "parse": {
+          "claim": "列宁要求党员深入基层，目的是对抗地方反动势力，并将中心城市的革命口号传播给全国的无产阶级。",
+          "qualifiers": "此要求是为了配合即将到来的选举，并适应革命后公开斗争的新形势。",
+          "contrast_or_target": ""
+        },
+        "why": {
+          "relation": "continues",
+          "explanation": "本句是前文“到民间去”号召的具体展开，明确了这一行动的双重目的：政治上对抗反动势力，组织上统一思想、扩大影响。"
+        },
+        "implication": "这表明在革命形势下，党的工作重心必须从中心城市向全国范围，特别是向落后地区转移，以巩固革命成果。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p16s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p16s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p16s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p16s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 1,
+        "hs_kept": 1,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

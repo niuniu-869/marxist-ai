@@ -1,0 +1,58 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 71,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "马克思引用国教顾问关于宝座基础的言论，并以反讽方式指出人民可能推翻上层建筑。",
+    "importance_score": 2,
+    "importance_reason": "本段通过反讽具体反驳国教顾问的论调，支撑对莱茵观察家的批判。",
+    "argument_role": "continues",
+    "argument_link": "本段承接上段对国教顾问言论的批评，直接引用其话语并加以反讽。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "refute_quotation"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p71s1",
+        "quote": "接着，国教顾问先生肯定说：“宝座应当建立在广泛的人民的基础上；这样它才会最牢靠。” 是这样，只要人民还没有把这个沉重的上层建筑从自己宽大的肩膀上用力甩到深渊里去。",
+        "trigger": "inverted_logic",
+        "reader_block": "反讽结构“是这样，只要……”让读者误以为马克思同意国教顾问，实际是讽刺其言论的虚伪性。",
+        "parse": {
+          "claim": "国教顾问声称宝座建立在人民基础上才牢靠，但马克思指出这只有在人民尚未推翻上层建筑时才成立。",
+          "qualifiers": "限定条件为人民尚未将上层建筑推翻。",
+          "contrast_or_target": "国教顾问认为宝座建立在广泛的人民基础上就会最牢靠。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "本句通过反讽揭露国教顾问言论的矛盾，暗示人民革命将摧毁旧秩序。"
+        },
+        "implication": "人民有力量推翻旧的上层建筑。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "国教顾问先生",
+      "their_view": "宝座应当建立在广泛的人民的基础上，这样它才会最牢靠。",
+      "author_response": "马克思反讽地指出，这只有在人民尚未将上层建筑推翻时才成立，暗示人民革命将摧毁旧秩序。",
+      "polemic_kind": "counter_quotation",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p71s1",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      }
+    ]
+  }
+}

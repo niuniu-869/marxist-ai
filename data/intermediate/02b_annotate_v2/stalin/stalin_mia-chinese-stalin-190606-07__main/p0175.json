@@ -1,0 +1,84 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 175,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "作者指出某些无政府主义者对科学唯物主义内部流派缺乏基本了解，将不同理论混为一谈。",
+    "importance_score": 1,
+    "importance_reason": "作为论战的一部分，具体例证无政府主义者在理论上的无知，以支撑其整体批判。",
+    "argument_role": "example",
+    "argument_link": "承接上段对无政府主义者内部混乱的讽刺，本段进一步举例说明他们在科学知识上的欠缺。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "庸俗唯物主义",
+        "explain": "19世纪中叶流行的一种唯物主义观点，认为意识只是大脑的分泌物，完全否认观念对物质的能动反作用，将复杂的精神现象简单归结为物理化学过程。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "一元论的唯物主义",
+        "explain": "指马克思和恩格斯创立的辩证唯物主义与历史唯物主义。它主张物质与意识、存在与思维是辩证统一的，承认观念（上层建筑）在特定条件下对物质（经济基础）的反作用。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "无政府主义者",
+      "their_view": "我们让科学复活起来了！我们掌握了科学的真谛。",
+      "author_response": "他们连科学中不同唯物主义流派的基本区别都看不清，却自诩为科学的复兴者，这十分可笑。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p175s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p175s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p175s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 3,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_6>5",
+        "note:n1_overflow_concept_6>5",
+        "note:n1_overflow_concept_8>5"
+      ]
+    }
+  ]
+}

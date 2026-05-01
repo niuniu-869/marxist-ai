@@ -1,0 +1,92 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 30,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "马克思通过归谬法，指出韦斯顿关于工资总额固定的观点若被贯彻，将导致荒谬的结论。",
+    "importance_score": 2,
+    "importance_reason": "本段通过归谬法，揭示韦斯顿观点的内在矛盾与荒谬性，是支撑核心论点的关键论证环节。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段对韦斯顿观点的初步反驳，本段进一步推演其逻辑后果，以暴露其前提的不可接受性。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p30s3",
+        "quote": "如果资本家想给你们吃的是马铃薯而不是肉，是燕麦而不是小麦，你们也必须接受他的愿望，当作政治经济学的一条规律而唯命是从。",
+        "trigger": "inverted_logic",
+        "reader_block": "这是一个极端的反讽假设，用生活化的例子将韦斯顿的逻辑推至荒谬境地，读者需理解这是讽刺而非真实主张。",
+        "parse": {
+          "claim": "按照韦斯顿的逻辑，工人生活水平的任何降低都应被视为合理的经济规律，工人只能无条件服从资本家的决定。",
+          "qualifiers": "此假设是基于韦斯顿理论前提的极端化推演。",
+          "contrast_or_target": "韦斯顿认为工资总额固定，工人斗争无用。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "本句用具体、生动的反例，将韦斯顿抽象的经济论断转化为对工人日常生活的直接威胁，以增强反驳的感染力。"
+        },
+        "implication": "这表明韦斯顿的理论在实践中会剥夺工人维护自身基本生存条件的任何权利。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "韦斯顿",
+      "their_view": "工资总额是一个固定不变的常数，因此工人争取提高工资的斗争是徒劳的。",
+      "author_response": "马克思指出，如果接受这个前提，那么逻辑上只能得出工资可以被资本家随意压低的荒谬结论，这暴露了该观点的阶级立场。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p30s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p30s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p30s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p30s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 1,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

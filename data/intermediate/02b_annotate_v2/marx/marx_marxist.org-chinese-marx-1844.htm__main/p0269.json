@@ -1,0 +1,80 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 269,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段作为过渡，提出将深入分析工人生产活动中的对象化过程及其异化结果。",
+    "importance_score": 2,
+    "importance_reason": "本段是马克思从概述异化劳动后果转向具体分析其发生机制的枢纽，为后续详细批判奠定框架。",
+    "argument_role": "continues",
+    "argument_link": "上一段总结了工人同其劳动产品异化的总体后果，本段则提出要具体分析这一异化是如何在生产过程中发生的，即从结果描述转向过程剖析。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "对象化与异化",
+        "explain": "“对象化”指人的活动及其成果凝结为外在客体。在黑格尔哲学中，这是绝对精神自我实现的必要环节。马克思在此借用该词，但意在批判其在资本主义下的扭曲形态。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "异化的特定含义",
+        "explain": "马克思的“异化”特指工人创造的劳动产品和劳动过程本身，反过来成为统治、压迫工人的敌对力量。这与黑格尔将异化视为精神发展环节的观点有根本区别。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p269s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "对象化",
+            "type": "concept",
+            "modern": "在马克思的批判框架下，指工人通过劳动将自身力量外化为产品，但这一成果却与工人自身相分离。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "objectification_hegelian_marxist_critique"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

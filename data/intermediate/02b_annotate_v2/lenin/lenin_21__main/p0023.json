@@ -1,0 +1,63 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 23,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁指出，在当时的苏俄，所谓“出版自由”将直接导致国际资产阶级收买国内反对派作家，组织反苏维埃宣传。",
+    "importance_score": 2,
+    "importance_reason": "本段是列宁反对出版自由建议的核心论据之一，具体揭示了该建议在阶级斗争语境下的实际后果。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段以“自杀”为喻的否定结论，本段具体阐述了“出版自由”将如何便利阶级敌人，为前文的抽象判断提供现实依据。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "立宪民主党、社会革命党、孟什维克",
+        "explain": "这三者是1921年苏俄国内主要的反对派政治力量。立宪民主党代表资产阶级，社会革命党代表小资产阶级，孟什维克是工人运动中的改良派。列宁视他们为无产阶级专政的敌对阶级或派别。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p23s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

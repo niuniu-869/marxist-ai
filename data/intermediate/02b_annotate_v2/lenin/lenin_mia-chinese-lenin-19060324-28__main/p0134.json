@@ -1,0 +1,76 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 134,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁质疑布兰克先生关于革命风暴中马克思主义原则消失的错误见解，并指出研究这种错误能揭示小市民的政治本质。",
+    "importance_score": 1,
+    "importance_reason": "过渡段，从具体人物观点转向对一种社会政治心态的分析，为后文批判小市民性做铺垫。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段对布兰克先生谈话的讨论，开始剖析其观点产生的根源。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "布兰克先生",
+        "explain": "具体人物不详，应为当时俄国政治舞台上的活跃分子，可能属于立宪民主党或孟什维克阵营，其言论被列宁作为批判案例。",
+        "why_needed": "history_missing",
+        "confidence": "medium",
+        "source_basis": "inferred"
+      },
+      {
+        "topic": "“旋风”时期",
+        "explain": "指1905年俄国革命的高潮阶段，革命运动如风暴般席卷全国，沙皇政权受到严重冲击。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "布兰克先生",
+      "their_view": "在1905年革命风暴的冲击下，马克思主义的所有原则和思想都已经失去了作用或不复存在。",
+      "author_response": "列宁指出这是一种根本性的错误认识，其产生原因需要从持有者自身的社会政治立场中去寻找。",
+      "polemic_kind": "reveals_class_basis",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p134s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p134s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

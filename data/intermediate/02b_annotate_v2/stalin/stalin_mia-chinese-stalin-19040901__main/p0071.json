@@ -1,0 +1,75 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 71,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段通过反讽手法，批评《格鲁吉亚报》因不理解纲领与阶级斗争原则的逻辑联系，反而被错误地誉为“圣明的”机关报。",
+    "importance_score": 1,
+    "importance_reason": "本段作为讽刺性过渡，强化前文对纲领逻辑的阐述，并直接指向论战对象。",
+    "argument_role": "contrasts",
+    "argument_link": "本段承接上段对纲领逻辑联系的论证，转而讽刺《格鲁吉亚报》未能领会这一联系，形成观点对比。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "cross_ref_pronoun",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "纲领逻辑联系",
+        "explain": "前文论述了党纲各条与无产阶级阶级斗争原则的紧密逻辑关联，本段所指的‘简单的道理’即此。",
+        "why_needed": "cross_ref_pronoun",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p71s1",
+        "quote": "愚蠢的《格鲁吉亚报》之所以被称为“圣明的”机关报，也是因为它不能领会这种简单的道理。",
+        "trigger": "inverted_logic",
+        "reader_block": "反讽因果：报纸被称作‘圣明’的原因竟是它无法理解道理，这种矛盾表述可能让读者困惑其真实意图。",
+        "parse": {
+          "claim": "该报因未能把握纲领与阶级斗争的逻辑关联，却被谬赞为‘圣明’。",
+          "qualifiers": "",
+          "contrast_or_target": ""
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "本句通过反讽揭露《格鲁吉亚报》的理论无知，直接批判其民族主义立场，服务于作者对联邦主义的驳斥。"
+        },
+        "implication": "暗示反对派刊物在理论上的无能，从而削弱其主张的可信度。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "《格鲁吉亚报》",
+      "their_view": "《格鲁吉亚报》主张格鲁吉亚民族独立或联邦制建党，忽视无产阶级的阶级斗争原则。",
+      "author_response": "斯大林讽刺该报因不理解纲领的逻辑联系而被错误誉为‘圣明’，实则暴露其理论缺陷。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p71s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "《格鲁吉亚报》",
+            "type": "work",
+            "modern": "该报是1904年格鲁吉亚社会民主党的机关报，斯大林在此文中批判其民族主义倾向。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  }
+}

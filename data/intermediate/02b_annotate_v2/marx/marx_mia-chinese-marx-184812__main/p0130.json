@@ -1,0 +1,74 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 130,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "用反问句将讨论焦点转向资产阶级对“钦定宪法”的态度，暗示其漠不关心或矛盾立场。",
+    "importance_score": 1,
+    "importance_reason": "这是一个过渡性提问，为后续分析资产阶级对“钦定宪法”的态度做铺垫。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段关于议会失败的结论，将讨论转向资产阶级对“钦定宪法”的态度。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p130s1",
+        "quote": "而钦定宪法呢？",
+        "trigger": "inverted_logic",
+        "reader_block": "简短反问句，读者可能不理解其修辞意图，不知它在质疑资产阶级对“钦定宪法”的态度。",
+        "parse": {
+          "claim": "资产阶级对“钦定宪法”的态度是漠不关心或矛盾的。",
+          "qualifiers": "",
+          "contrast_or_target": "资产阶级可能认为“钦定宪法”是妥协的产物或无关紧要。"
+        },
+        "why": {
+          "relation": "continues",
+          "explanation": "承接上一段关于议会失败的结论，将讨论转向资产阶级对“钦定宪法”的态度，为后续分析做铺垫。"
+        },
+        "implication": null,
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p130s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 1,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

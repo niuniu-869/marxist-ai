@@ -1,0 +1,75 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 17,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁指出考茨基依据政党名称而非实际阶级立场来定义社会党人，以此批判其分类方法。",
+    "importance_score": 1,
+    "importance_reason": "本段通过具体例子批判考茨基的分类方法，支撑对机会主义的批判。",
+    "argument_role": "continues",
+    "argument_link": "本段延续上段对考茨基分类方法的批判，具体指出其依据名称而非实际阶级立场。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_density",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "孟什维克与社会革命党人",
+        "explain": "孟什维克是俄国社会民主工党中的温和派，主张与资产阶级合作；社会革命党人代表农民利益，主张土地社会化。两者在1917年革命后与布尔什维克对立。",
+        "why_needed": "history_density",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "考茨基",
+      "their_view": "考茨基认为孟什维克和社会革命党人是社会党人，依据是他们的名称。",
+      "author_response": "列宁指出这种分类忽视了他们在无产阶级和资产阶级斗争中的实际阶级立场。",
+      "polemic_kind": "reveals_class_basis",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p17s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p17s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p17s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

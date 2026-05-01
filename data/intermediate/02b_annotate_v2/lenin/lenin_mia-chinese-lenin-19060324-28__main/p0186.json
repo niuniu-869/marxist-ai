@@ -1,0 +1,106 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 186,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "通过对比西欧与俄国小市民的幻想，阐述觉悟工人对阶级矛盾与革命必然性的认识，并区分妥协的小资产阶级与可争取的劳动群众。",
+    "importance_score": 3,
+    "importance_reason": "本段是列宁对小资产阶级改良幻想的系统性批判，清晰阐述了无产阶级在革命中的独立立场与策略原则，是理解其革命路线的核心段落。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对立宪民主党人害怕起义的揭露，将批判从俄国具体对象扩展至西欧历史类比，从现象描述深入到阶级立场与历史规律的分析。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "“小市民”的特定含义",
+        "explain": "在列宁的论战语境中，“小市民”特指小资产阶级，尤其是那些在政治上动摇、幻想阶级调和、害怕革命激进性的群体，而非普通城市居民。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      },
+      {
+        "topic": "西欧历史类比的背景",
+        "explain": "列宁将俄国立宪民主党人比作1848年革命前后西欧的小资产阶级社会主义者，他们同样幻想通过改良缓和阶级矛盾，反对无产阶级的独立革命行动。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "metadata"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "立宪民主党人（俄国小市民）",
+      "their_view": "幻想缓和专制制度与人民自由的矛盾，号召革命者不要把自由派资产阶级推到反动派方面去，主张走立宪的、非暴力的道路，并驳斥起义思想。",
+      "author_response": "列宁指出，起义与否不由自由派的意志决定，而是由专制政府的行动以及革命群众（农民和无产阶级）觉悟与愤怒的增长所决定。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p186s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p186s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p186s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p186s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p186s5",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p186s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p186s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

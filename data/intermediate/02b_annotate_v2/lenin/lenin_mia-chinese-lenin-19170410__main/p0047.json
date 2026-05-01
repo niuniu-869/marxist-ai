@@ -1,0 +1,81 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 47,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁阐述布尔什维克党在革命新阶段的首要任务，即用尖锐的批判来对抗小资产阶级政党的空洞革命口号。",
+    "importance_score": 2,
+    "importance_reason": "具体策略阐述，将上一段的理论判断转化为可操作的行动方针，支撑核心论点。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段关于革命形势特点的分析，具体指出基于这些特点，党应采取的首要策略行动。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "allusion",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p47s1",
+        "quote": "这种特点提出了一个首要的任务，就是要把“酸醋和苦汁掺入到革命民主词句的甜水中去”（这是我们党中央委员泰奥多罗维奇同志昨天在彼得格勒全俄铁路职工代表会议[86]上说的，这句话说得非常中肯）。",
+        "trigger": "allusion",
+        "reader_block": "用日常调味品（酸醋、苦汁）比喻政治批判，用甜水比喻空洞口号，读者可能不理解这个比喻的具体政治指向。",
+        "parse": {
+          "claim": "党必须用尖锐的批评和现实的分析，来中和、对抗那些煽动热情但内容空洞的革命宣传。",
+          "qualifiers": "这是基于当前革命形势特点（两个政权并存、小资产阶级狂热）所提出的首要任务。",
+          "contrast_or_target": ""
+        },
+        "why": {
+          "relation": "definition",
+          "explanation": "此句用一个生动比喻，为下一句（p47s2）具体阐述的批评对象和目标（小资产阶级政党）提供了形象化的定义和行动基调。"
+        },
+        "implication": "暗示当时流行的革命话语（“甜水”）缺乏实质内容，需要注入马克思主义的批判性分析（“酸醋和苦汁”）。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "小资产阶级的社会革命党和社会民主党",
+      "their_view": "他们使用‘革命民主词句’来煽动群众热情，但其主张缺乏对现实阶级关系的清醒认识，容易将革命引向歧途。",
+      "author_response": "列宁认为，必须对这些政党的错误进行公开批评，以训练和团结觉悟的无产阶级，使其摆脱小资产阶级的影响。",
+      "polemic_kind": "strategic_critique",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p47s1",
+        "speaker": "quoted_opponent",
+        "stance": "endorsed",
+        "notes": []
+      },
+      {
+        "sid": "p47s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 2,
+        "hs_kept": 1,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_metaphor_19>8",
+        "note:n1_overflow_org_17>16"
+      ]
+    }
+  ]
+}

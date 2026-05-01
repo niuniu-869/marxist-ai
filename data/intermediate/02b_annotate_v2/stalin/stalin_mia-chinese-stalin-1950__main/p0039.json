@@ -1,0 +1,92 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 39,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "斯大林通过设问与回答，解释马克思关于资产者语言的论述，强调其并非独立语言，而是对统一民族语言的污染。",
+    "importance_score": 2,
+    "importance_reason": "本段澄清马克思原意，反驳语言阶级性论，支撑全民语言观点。",
+    "argument_role": "continues",
+    "argument_link": "本段延续上段对民族语言的论述，具体解释马克思的表述，以反驳语言阶级性论。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p39s3",
+        "quote": "马克思能不能把它看成这样的语言呢？当然不能。",
+        "trigger": "inverted_logic",
+        "reader_block": "反问句加肯定回答，读者可能混淆马克思的真实立场，误以为资产者语言是独立语言。",
+        "parse": {
+          "claim": "马克思不能将资产者的语言视为与民族语言相同的语言。",
+          "qualifiers": "",
+          "contrast_or_target": "那些认为资产者语言是独立民族语言的观点。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "本句通过反问强调马克思否定资产者语言的独立性，直接反驳语言阶级性论的前提。"
+        },
+        "implication": null,
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p39s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p39s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p39s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p39s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 1,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

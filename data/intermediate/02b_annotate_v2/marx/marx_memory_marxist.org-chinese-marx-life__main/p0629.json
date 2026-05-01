@@ -1,0 +1,63 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 629,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段记录马克思对收到拉萨尔著作的即时反应，表达了对拉萨尔其人及其作品的负面评价。",
+    "importance_score": 1,
+    "importance_reason": "记录马克思对拉萨尔的即时反应，为后续可能的理论分歧埋下伏笔。",
+    "argument_role": "continues",
+    "argument_link": "上段描述收到拉萨尔著作的事实，本段记录马克思对此的口头反应，延续了对拉萨尔著作的负面态度。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "拉萨尔其人",
+        "explain": "斐迪南·拉萨尔是19世纪德国工人运动领袖，主张通过国家资助的生产合作社实现社会主义，与马克思在革命策略和理论路线上存在分歧。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p629s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

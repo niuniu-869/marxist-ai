@@ -1,0 +1,111 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 83,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁反驳布哈林，指出俄国在政权力量与经济准备程度上的特殊不匹配，并由此论证对资本家实行“赎买”的必要性，同时警告要避免两种小资产阶级错误。",
+    "importance_score": 3,
+    "importance_reason": "核心段落，系统阐述了列宁关于在落后国家向社会主义过渡的特殊策略，是理解其经济政策思想的关键。",
+    "argument_role": "contrasts",
+    "argument_link": "承接上文对布哈林引述马克思关于赎买观点的讨论，转而指出布哈林的错误在于忽视了俄国的具体国情，从而引出对本国特殊性的分析。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use | allusion",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "allusion | long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "“套中人”典故",
+        "explain": "指俄国作家契诃夫同名小说中的主人公别里科夫，他恐惧一切变革，将自己封闭在各种套子（如雨伞、棉大衣）里。列宁用此讽刺那些因害怕不相称而反对夺取政权的教条主义者。",
+        "why_needed": "allusion",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "国家资本主义",
+        "explain": "列宁语境中，指国家对生产和分配实行监督与调节的资本主义经济形式。在无产阶级掌握政权的条件下，它被视为从资本主义向社会主义过渡的中间环节，而非倒退。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "布哈林",
+      "their_view": "既然承认俄国经济力量与政治力量不相称，那么就不应该夺取政权。",
+      "author_response": "这种推论是“套中人”式的错误，它忘记了发展中的不相称是常态，革命正是在克服这种不相称中前进的。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p83s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p83s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p83s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p83s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p83s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p83s6",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": [
+          {
+            "surface": "套中人",
+            "type": "allusion",
+            "modern": "出自契诃夫小说，指代那些因害怕变革而将自己封闭起来、拒绝接受新事物的人。列宁用以讽刺反对夺取政权的教条主义者。",
+            "highlight": "allusion",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 2,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_6>5",
+        "hs:claim_5gram_with_quote",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

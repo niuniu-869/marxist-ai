@@ -1,0 +1,141 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 8,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "分析10小时工作制法案如何促成反动阶级与无产阶级的联盟，并指出这种联盟对工人运动性质的负面影响。",
+    "importance_score": 2,
+    "importance_reason": "本段是恩格斯对工人运动策略进行批判性分析的核心部分，揭示了与非无产阶级力量联合的潜在风险。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于多个社会派别联合支持该法案的描述，本段深入剖析这种联盟的性质、对工人的实际影响及其在工人运动史上的后果。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "改革法案与宪章派",
+        "explain": "1832年英国《改革法案》扩大了工业资产阶级的选举权，但排斥了工人阶级。宪章派是19世纪30-40年代英国工人阶级争取普选权的政治运动，其宣传强调工人的政治权利。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "“反动成分”的特定含义",
+        "explain": "在本段语境中，“反动成分”特指那些因工业进步而利益受损、试图维护旧生产方式（如手工工场）的社会力量，他们与工人联合的目的并非推动社会进步。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p8s4",
+        "quote": "但是，它没有给工人提供什么东西，可以使工人在反动的同盟者心目中成为危险的人物，因为它没有给他们带来政治权利也没有改变他们作为雇佣工人的社会地位。",
+        "trigger": "inverted_logic",
+        "reader_block": "双重否定结构（“没有……可以使……成为危险的人物”）加上“危险的人物”这一反讽表述，容易让读者困惑其真实含义。",
+        "parse": {
+          "claim": "10小时工作制法案未能赋予工人足以让其反动盟友感到威胁的政治力量或社会地位提升。",
+          "qualifiers": "此判断针对法案对工人阶级政治地位的影响。",
+          "contrast_or_target": "与那些认为经济改良能自动带来政治进步的观点形成对比。"
+        },
+        "why": {
+          "relation": "contrasts",
+          "explanation": "本句与上文“使工人得到的，仅仅是物质上的利益”形成对比，进一步论证法案的局限性：它只触及经济层面，未触及政治权力结构。"
+        },
+        "implication": "这暗示了仅争取经济改良而不触及政治权力的斗争路线，无法真正增强工人阶级的独立性和力量。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p8s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p8s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p8s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p8s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p8s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p8s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p8s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p8s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "手工织工",
+            "type": "social_group",
+            "modern": "产业革命前手工工场时期的纺织工人，其生产方式被机器大工业所威胁。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 0,
+        "hs_kept": 1,
+        "hs_dropped": 1,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote",
+        "polemic:polemic_their_view_qualifier:反动的"
+      ]
+    }
+  ]
+}

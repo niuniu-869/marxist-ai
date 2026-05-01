@@ -1,0 +1,78 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 14,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁指出苏维埃作为新型国家机构的价值，批评其被妥协派架空，并预示革命风暴将唤醒其力量。",
+    "importance_score": 2,
+    "importance_reason": "本段是支撑核心论点的关键论证，阐明了新型国家机构的潜力与被压制的现状。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对旧国家机器的批判，转而论述新型国家机构苏维埃的特质与当前困境。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "allusion",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "科尔尼洛夫叛乱",
+        "explain": "1917年8月，俄军总司令科尔尼洛夫发动军事政变，企图镇压革命。叛乱虽被工人和士兵扑灭，但暴露了临时政府的软弱和反革命本质。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p14s3",
+        "quote": "但是，只要吹来一阵科尔尼洛夫叛乱的“清风”，预示大风暴即将来临，苏维埃里的一切沉闷空气就会暂时吹散，革命群众的创造性就会开始表现为一种雄伟、壮观、不可战胜的力量。",
+        "trigger": "allusion",
+        "reader_block": "“清风”和“大风暴”是比喻，读者可能不理解其具体所指，即一次未遂政变如何能“吹散”政治氛围。",
+        "parse": {
+          "claim": "一次反革命军事政变的威胁，能够暂时打破苏维埃内部的消沉状态，激发群众的革命行动力。",
+          "qualifiers": "这种效果是“暂时”的，且前提是“大风暴即将来临”的预感。",
+          "contrast_or_target": "针对社会革命党人和孟什维克将苏维埃变为“清谈馆”的做法，指出外部危机能打破这种僵局。"
+        },
+        "why": {
+          "relation": "contrasts",
+          "explanation": "本句与上句描述的“沉闷空气”形成对比，用一个具体历史事件（科尔尼洛夫叛乱）作为例证，说明外部冲击如何能激活苏维埃的革命潜能。"
+        },
+        "implication": "列宁暗示，正是这种由危机激发的群众力量，才是解决政权问题的根本途径，而非议会清谈。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "社会革命党人和孟什维克",
+      "their_view": "苏维埃的主要作用是“监督”政府，通过一些决议和建议来影响政策，而不必直接掌握政权。",
+      "author_response": "列宁指出，这种做法使苏维埃沦为“清谈馆”，其决议被政府无视，完全无法实现真正的改革或革命。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p14s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p14s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p14s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  }
+}

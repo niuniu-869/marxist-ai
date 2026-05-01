@@ -1,0 +1,88 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 185,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "斯大林阐述苏联马克思主义者关于一国社会主义条件下必须加强国家机器的结论，并指出恩格斯关于国家消亡的公式有其特定适用前提。",
+    "importance_score": 3,
+    "importance_reason": "本段是斯大林“一国建成社会主义”理论在国家学说上的核心论证，直接回应了关于国家消亡的教条理解，为苏联强化国家机器提供了理论依据。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对教条主义者的批评，本段具体展示了如何根据变化的历史条件（资本主义包围下的一国胜利）来发展马克思主义理论，而非机械套用旧公式。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "恩格斯的国家消亡论",
+        "explain": "恩格斯在《反杜林论》等著作中论述，无产阶级夺取国家政权后，国家将逐渐“自行消亡”。斯大林在此指出，这一论断的前提是社会主义在所有或大多数主要资本主义国家同时胜利。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p185s1",
+        "quote": "但是苏联的马克思主义者，根据对当代世界形势的研究，得出了结论：在资本主义包围存在的条件下，在社会主义革命只在一个国家内取得胜利，而所有其他国家被资本主义所统治的时候，革命胜利了的国家，要想不被资本主义的包围击溃，就不应当削弱而应当大力加强自己的国家，加强自己的国家机关、侦察机关和军队。",
+        "trigger": "long_nested",
+        "reader_block": "句子包含多个嵌套的条件从句（“在……条件下”“在……时候”“要想……”），读者容易迷失核心结论与前提条件的逻辑关系。",
+        "parse": {
+          "claim": "面对资本主义阵营的包围，且社会主义仅在一国实现的特定局面下，获胜的革命政权必须强化其国家机器以求生存。",
+          "qualifiers": "限定于“资本主义包围存在”和“社会主义革命只在一个国家内取得胜利”这两个并存的历史条件。",
+          "contrast_or_target": "隐含对比那些认为社会主义胜利后应立即削弱或取消国家机器的观点。"
+        },
+        "why": {
+          "relation": "continues",
+          "explanation": "本句是上段批评教条主义后的正面立论，具体阐述了在新历史条件下（一国胜利）应采取的正确国家政策，即加强而非削弱。"
+        },
+        "implication": "这一结论为苏联在二战后维持并强化庞大的国家机构（包括军队和秘密警察）提供了理论正当性。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "教条主义的马克思主义者",
+      "their_view": "他们认为，既然马克思主义经典作家（如恩格斯）论述了社会主义胜利后国家将消亡，那么在任何社会主义革命胜利后，国家机器都应被削弱或取消。",
+      "author_response": "斯大林指出，必须根据具体的历史条件（如是否处于资本主义包围、社会主义是否在一国单独胜利）来运用和发展理论，不能脱离实际地机械套用旧公式。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p185s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p185s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 1,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

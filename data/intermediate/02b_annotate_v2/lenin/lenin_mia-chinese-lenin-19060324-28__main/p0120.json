@@ -1,0 +1,99 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 120,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段描述1905年革命高潮的消退，以及社会民主党在革命自发性面前的被动状态，并通过帕尔乌斯的引文来说明这一点。",
+    "importance_score": 2,
+    "importance_reason": "本段提供了对革命时期社会民主党状态的观察，支撑了关于策略的讨论。",
+    "argument_role": "continues",
+    "argument_link": "本段接着上一段关于孟什维克策略的讨论，进一步分析革命高潮时期的情况，为后续批判提供背景。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "rhetorical",
+      "needs_polemic": true,
+      "polemic_reason": "refute_quotation"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "帕尔乌斯其人",
+        "explain": "帕尔乌斯是俄国社会民主党人，曾是孟什维克，后转向。列宁在此引用他的话，是为了说明革命高潮对党内思想的影响。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "“旋风”比喻",
+        "explain": "列宁用“旋风”比喻1905年革命的高潮，它猛烈但短暂，革命退潮后，社会民主党又回到了原点。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p120s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "旋风",
+            "type": "metaphor",
+            "modern": "在本文语境下，特指1905年俄国革命的高潮阶段，其来势迅猛但持续时间短暂。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p120s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p120s3",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p120s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 2,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote",
+        "hs:claim_5gram_with_quote",
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 244,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "指出孟什维克领导人在选举中的策略会混淆视听，因为他们代表了错误的路线。",
+    "importance_score": 2,
+    "importance_reason": "具体批判孟什维克的选举策略，是核心批判的组成部分。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对社会沙文主义的批判，具体化到选举问题上，说明其危害。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "齐赫泽与波特列索夫",
+        "explain": "齐赫泽和波特列索夫是当时俄国社会民主工党中孟什维克派系的领导人。他们主张与资产阶级合作，认为俄国革命应先经历资产阶级阶段。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "“社会民主党”的特定所指",
+        "explain": "此处“社会民主党”特指俄国社会民主工党中的孟什维克派系，而非泛指的社会民主党。列宁以此强调该派系已背离革命立场。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p244s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

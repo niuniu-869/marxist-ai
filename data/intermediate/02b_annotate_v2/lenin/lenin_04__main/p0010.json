@@ -1,0 +1,178 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 10,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁逐条驳斥《信条》作者对西欧工人运动史的错误描述，用具体史实证明政治斗争与经济斗争始终交织，并强调马克思主义的核心是将二者结合。",
+    "importance_score": 3,
+    "importance_reason": "本段是全文核心批判的展开，通过历史事实直接反驳经济主义的理论前提，为论证政治斗争的必要性奠定基础。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对《信条》文本结构的分析，开始具体批判其第一部分，即对西欧工人运动历史的错误概括。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_density",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "宪章运动与1848年革命",
+        "explain": "宪章运动是19世纪30-40年代英国工人争取普选权的政治运动。1848年革命是席卷欧洲的资产阶级民主革命浪潮，法、德、奥等国工人阶级均参与其中。这两者是列宁用来反驳“西欧工人未参与政治斗争”的关键史例。",
+        "why_needed": "history_density",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "非政治的社会主义流派",
+        "explain": "指19世纪上半叶流行的各种空想社会主义和小资产阶级社会主义，如欧文的合作社实验、傅立叶的法郎吉构想、德国的“真正的社会主义”。它们主张通过和平改良或道德感化实现社会变革，回避政治斗争。",
+        "why_needed": "history_density",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "拉萨尔与德国工人政党",
+        "explain": "斐迪南·拉萨尔是19世纪60年代德国工人运动领袖，他创立了全德工人联合会，推动德国工人阶级摆脱自由资产阶级影响，形成独立的政治力量。列宁视其为将工人阶级从“尾巴”变为“独立政党”的关键人物。",
+        "why_needed": "history_density",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p10s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p10s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p10s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "宪章运动",
+            "type": "event",
+            "modern": "19世纪30-40年代英国工人阶级以争取普选权为核心的大规模政治运动",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p10s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p10s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "欧文主义",
+            "type": "concept",
+            "modern": "罗伯特·欧文的空想社会主义学说，主张通过建立合作社等和平方式改造社会",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "owenism"
+          },
+          {
+            "surface": "傅立叶主义",
+            "type": "concept",
+            "modern": "夏尔·傅立叶的空想社会主义学说，设计了名为“法郎吉”的和谐社会基层组织",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "fourierism"
+          }
+        ]
+      },
+      {
+        "sid": "p10s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "工联主义",
+            "type": "concept",
+            "modern": "19世纪英国工人运动中的一种思潮，主张通过工会进行经济斗争以改善待遇，反对政治革命",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "trade_unionism"
+          },
+          {
+            "surface": "蒲鲁东主义",
+            "type": "concept",
+            "modern": "皮埃尔-约瑟夫·蒲鲁东的小资产阶级社会主义思想，主张建立互助制社会，反对国家和政治行动",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "proudhonism"
+          }
+        ]
+      },
+      {
+        "sid": "p10s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "拉萨尔",
+            "type": "person",
+            "modern": "斐迪南·拉萨尔，19世纪60年代德国工人运动领袖，创立了全德工人联合会",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p10s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 6,
+        "notes_dropped": 3,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_event_17>12",
+        "note:n1_overflow_concept_8>5",
+        "note:n2_circular_prefix",
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

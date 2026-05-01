@@ -1,0 +1,132 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 75,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁以马克思的策略范例为据，论证民族自决等民主要求是总体运动的一部分，需根据具体形势灵活运用，而非教条地抛弃。",
+    "importance_score": 3,
+    "importance_reason": "核心段落，系统阐述了列宁处理民族自决等具体民主要求与社会主义革命总体战略关系的辩证方法论。",
+    "argument_role": "continues",
+    "argument_link": "承接上段从马克思支持波兰独立中提炼的原则，进一步阐释如何在具体历史形势下运用这些原则，并批判抛弃策略范例的教条主义。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "压迫其他民族的民族是不能自由的",
+        "explain": "这是马克思在支持波兰等被压迫民族独立斗争时提出的一个国际主义原则，意指压迫其他民族的民族，其自身的解放事业也会受到损害。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "1848年欧洲革命",
+        "explain": "指1848年席卷欧洲的资产阶级民主革命浪潮。在部分国家（如德意志、奥地利），革命旨在推翻封建专制；但在俄国等国，沙皇政府是镇压革命的反动支柱。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p75s6",
+        "quote": "民主运动的个别要求，包括民族自决在内，并不是什么绝对的东西，而是世界整个民主主义（现在是整个社会主义）运动中的一小部分。",
+        "trigger": "inverted_logic",
+        "reader_block": "此句否定了民族自决等要求的“绝对性”，这与读者可能持有的“自决权是天赋权利”的直觉相悖，需要理解其在策略层面的相对性。",
+        "parse": {
+          "claim": "民族自决等具体民主诉求，其价值在于服务于更宏大的社会主义运动整体，本身并非无条件、至高无上的原则。",
+          "qualifiers": "此判断适用于“世界整个社会主义运动”的全局视角，而非孤立地看待某一具体诉求。",
+          "contrast_or_target": "反驳将民族自决权视为脱离总体革命形势、必须无条件支持的抽象教条的观点。"
+        },
+        "why": {
+          "relation": "definition",
+          "explanation": "此句为“民族自决”等民主要求在革命策略中进行定位，将其定义为总体运动的组成部分而非终极目标，为下文的辩证分析奠定基础。"
+        },
+        "implication": "因此，在具体情况下，当个别要求与运动总体利益冲突时，可以也应当为了总体而暂时搁置或调整该要求。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "波兰社会民主党人（反对派）",
+      "their_view": "民族自决权等民主要求是绝对的，或者认为在帝国主义时代这些要求已不适用，因此反对为民族解放而进行的武装斗争。",
+      "author_response": "列宁指出，这些要求是总体运动的一部分，必须根据具体形势进行分析。当它们与打击主要反动势力的总体战略冲突时，可以为了总体而调整，但这不等于从纲领中抛弃这些口号。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p75s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p75s2",
+        "speaker": "quoted_marx",
+        "stance": "endorsed",
+        "notes": []
+      },
+      {
+        "sid": "p75s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p75s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p75s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p75s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p75s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p75s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 1,
+        "hs_kept": 1,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_event_21>12",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

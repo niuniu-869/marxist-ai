@@ -1,0 +1,58 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 30,
+  "annotation": {
+    "block_type": "quote_block",
+    "gist": "马克思引用一份政府报纸的质问，该报纸将欧洲大陆的罢工归因于外国势力的操纵。",
+    "importance_score": 1,
+    "importance_reason": "展示论敌对罢工的典型污蔑，为后文反驳提供靶子。",
+    "argument_role": "continues",
+    "argument_link": "上一段提到政府报纸把一切事件说成受伦敦总委员会指示，本段具体引用该报纸的质问内容，展示其如何将罢工与外国势力联系起来。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "refute_quotation"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p30s1",
+        "quote": "上面写道：“最奇怪的是硬要在贫困还远远没有被人感觉到的那样一些国家中发动罢工。这些突然的爆发对于法国的一些首先应该担心战争的邻国来说是再适时不过的了，这些爆发迫使许多人寻思：这些罢工是不是按照某个善于博得这个万能协会的好感的外国的马基雅弗里的要求进行的呢？”",
+        "trigger": "inverted_logic",
+        "reader_block": "反问句式加上“马基雅弗里”这个历史典故，读者可能不理解其暗指阴谋诡计，且句子结构绕弯。",
+        "parse": {
+          "claim": "论敌暗示，罢工可能是受某个外国势力指使，该势力善于讨好国际工人协会。",
+          "qualifiers": "论敌将范围限定在“贫困还远远没有被人感觉到的那样一些国家”，并强调罢工对法国邻国“适时”。",
+          "contrast_or_target": "论敌认为罢工并非源于工人贫困，而是外国势力的阴谋。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "通过引用论敌的反问，具体展示其如何将罢工与外国势力联系起来，为后文反驳提供靶子。"
+        },
+        "implication": "此质问旨在将工人自发的经济斗争描绘成受外部势力操控的政治阴谋，从而否定其正当性。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "资产阶级政府报纸",
+      "their_view": "罢工在贫困不明显的国家爆发很奇怪，可能受某个外国势力指使，该势力善于讨好国际工人协会。",
+      "author_response": "马克思通过引用此话，揭露资产阶级将工人自发斗争污蔑为外国阴谋的惯用伎俩。",
+      "polemic_kind": "counter_quotation",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p30s1",
+        "speaker": "quoted_opponent",
+        "stance": "cited",
+        "notes": []
+      }
+    ]
+  }
+}

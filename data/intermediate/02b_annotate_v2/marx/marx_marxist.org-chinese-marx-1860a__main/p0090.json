@@ -1,0 +1,117 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 90,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "马克思转述巴枯宁对德国社会民主党在奥地利活动的批评，指出其用民族主义宣传阻碍工人国际联合。",
+    "importance_score": 2,
+    "importance_reason": "本段是马克思转述巴枯宁对德国社会民主党路线的具体指控，为理解第一国际内部论战提供案例。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段关于“新方向”的引述，具体展开巴枯宁对德国社会民主党在奥地利活动的批评。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "1868年维也纳工人声明",
+        "explain": "1868年，维也纳工人发表声明，反对当时在德意志地区兴起的泛日耳曼主义政治纲领，主张国际工人团结。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      },
+      {
+        "topic": "李卜克内西与德国社会民主党",
+        "explain": "威廉·李卜克内西是德国社会民主党的重要领袖。巴枯宁指控他及该党在奥地利进行德意志民族主义宣传，而非推动国际革命。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      },
+      {
+        "topic": "巴枯宁批判“人民国家”",
+        "explain": "巴枯宁认为，马克思派主张的“人民国家”（народное государство）本质上仍是国家机器，是民族主义的变种，与无政府主义的自由联合目标相悖。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "李卜克内西及德国社会民主党",
+      "their_view": "通过在奥地利进行德意志爱国主义宣传，引导工人斗争走向建立民族性的“人民国家”，并认为这是合法的政治宣传。",
+      "author_response": "马克思转述巴枯宁的指控，认为这种宣传实质上是将工人运动纳入俾斯麦的民族主义框架，背离了国际革命道路。",
+      "polemic_kind": "reveals_class_basis",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p90s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "斯拉夫无产阶级",
+            "type": "social_group",
+            "modern": "巴枯宁在著作中呼吁加入国际工人协会的东欧斯拉夫地区工人阶级。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p90s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "泛日耳曼主义纲领",
+            "type": "program_clause",
+            "modern": "19世纪在德意志地区兴起的政治思潮，主张将所有德语民族统一于一个国家之下。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p90s3",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": [
+          {
+            "surface": "人民国家",
+            "type": "concept",
+            "modern": "巴枯宁用来讽刺马克思派无产阶级专政理论的术语，认为其本质仍是民族主义国家。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "state_people_bakunin_critique"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 3,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

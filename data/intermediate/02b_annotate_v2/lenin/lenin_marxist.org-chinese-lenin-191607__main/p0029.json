@@ -1,0 +1,94 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 29,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁表明，若一个党在实质上反对兼并，即使其党纲不使用“自决”一词，双方在原则上也是一致的，批评了对术语的教条式争论。",
+    "importance_score": 2,
+    "importance_reason": "本段通过区分口号形式与实质内容，为与反对派达成原则一致提供可能，是论证策略的关键一步。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段对兼并的定义，进一步讨论如何表述反对兼并的立场，将争论焦点从术语转向实际内容。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "只注重“自决”字面表述而忽视实际内容的论敌",
+      "their_view": "“自决”这个术语本身是原则问题，必须坚持使用，否则就是立场不一致。",
+      "author_response": "列宁认为，只要一个党在行动和纲领上真正反对兼并，即使其表述不同，双方在根本原则上也是一致的，争论应聚焦于政治明确性与理论周密性。",
+      "polemic_kind": "strategic_critique",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p29s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p29s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "卡·拉沙克",
+            "type": "person",
+            "modern": "波兰社会民主党人，曾在《伯尔尼哨兵报》上发表文章，使用了“反对新旧兼并”的表述。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p29s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p29s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p29s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p29s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

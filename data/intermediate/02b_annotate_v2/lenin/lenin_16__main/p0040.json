@@ -1,0 +1,129 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 40,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段通过列举临时政府部长的空洞言论与无所作为，揭露其与资本家的实质勾结，论证妥协派未能触动旧的国家机器。",
+    "importance_score": 2,
+    "importance_reason": "作为核心批判的例证，具体展示妥协派如何通过言辞掩盖其维护资产阶级利益的实质。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于资本家利用妥协派的论断，本段以具体人物和机构为例，证实妥协派的“社会主义”部长们只是转移视线的工具，国家实权未变。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "metaphor",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "临时政府部长",
+        "explain": "彼舍霍诺夫和斯柯别列夫是二月革命后加入资产阶级临时政府的社会革命党人和孟什维克，分别担任财政和劳动部长，负责经济与劳工事务。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "帕尔钦斯基",
+        "explain": "帕尔钦斯基是临时政府工业部副部长，出身工程师，与工业资本家关系密切，其职位使其能直接影响工业政策。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "工业部",
+        "explain": "临时政府下设的工业部，负责管理工业生产与协调资本家关系，是旧官僚体系的一部分。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "孟什维克与社会革命党的妥协派部长",
+      "their_view": "我们已经粉碎了资本家的反抗，要把他们的利润全部拿过来，社会主义正在实现。",
+      "author_response": "列宁指出，这些部长的言论是欺骗，实际上他们未采取任何制裁资本家的措施，国家机器仍由旧官僚和资产阶级掌控。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p40s1",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": [
+          {
+            "surface": "花言巧语",
+            "type": "metaphor",
+            "modern": "在作者看来，指临时政府部长们关于制裁资本家的言论是虚假不实的宣传。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p40s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p40s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "留声机",
+            "type": "metaphor",
+            "modern": "比喻部长们像机器一样重复宣传口号，没有自主行动能力。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p40s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "帕尔钦斯基",
+            "type": "person",
+            "modern": "临时政府工业部副部长，其行为被视为旧官僚体系阻碍革命措施的典型。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p40s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 3,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

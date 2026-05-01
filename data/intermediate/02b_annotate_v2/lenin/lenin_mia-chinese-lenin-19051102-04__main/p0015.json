@@ -1,0 +1,110 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 15,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁通过反问十月革命的教训，论证罢工委员会已是事实上的领导中心，并强调临时革命政府中必须保持无产阶级的绝对数量优势。",
+    "importance_score": 2,
+    "importance_reason": "本段为上一段提出的“苏维埃作为临时革命政府”论点提供具体论证，通过历史实例和比例原则支撑其可行性。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于苏维埃应成为广泛临时革命政府的论述，具体回答了如何在成分复杂的情况下建立有效领导中心的问题。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p15s2",
+        "quote": "那我也可以反问一句：十月革命[52]的教训是什么呢？",
+        "trigger": "inverted_logic",
+        "reader_block": "反问句式，且“十月革命”在此特指1905年十月全俄政治罢工，非读者熟知的1917年事件，易产生时代错位。",
+        "parse": {
+          "claim": "1905年十月全俄政治罢工的历史经验表明，罢工委员会等自发组织已能承担领导职能。",
+          "qualifiers": "特指1905年革命高潮期间的罢工斗争经验。",
+          "contrast_or_target": ""
+        },
+        "why": {
+          "relation": "example",
+          "explanation": "以1905年十月罢工这一具体历史事件作为论据，用以支撑前文关于苏维埃可成为领导中心的论断。"
+        },
+        "implication": "列宁意在说明，革命实践中自发产生的组织形式已具备政府雏形，无需等待理论上的完美设计。",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p15s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p15s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p15s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p15s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p15s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p15s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p15s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 1,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

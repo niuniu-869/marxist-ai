@@ -1,0 +1,82 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 7,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段通过历史事例，说明劳动价值中的社会历史要素可能被压缩至纯生理极限，并以反雅各布宾战争时期英国农业工人的遭遇为例。",
+    "importance_score": 2,
+    "importance_reason": "为前文关于劳动价值社会要素的论述提供具体历史证据，揭示资本主义制度下工资可能被压至何种程度。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于劳动价值包含社会历史要素的论述，进一步说明该要素并非固定不变，而是可能被极端压缩，并以具体史实加以例证。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "反雅各布宾战争",
+        "explain": "指1793年至1815年间，英国为反对法国大革命及拿破仑而参与的一系列战争。文中提及此时期，用以说明特定历史背景下工人阶级的处境。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "济贫法",
+        "explain": "英国自1601年伊丽莎白一世时期开始实施的救济贫困者的法律体系。在19世纪，它常被用作压低工资的工具，由教区向工资不足以维生的工人提供微薄补助。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p7s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p7s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p7s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

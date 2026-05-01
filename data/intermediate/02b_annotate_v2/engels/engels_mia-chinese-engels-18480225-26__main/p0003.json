@@ -1,0 +1,78 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 3,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段概述1848年初欧洲革命浪潮的开端，指出西西里革命和巴黎起义相继爆发。",
+    "importance_score": 1,
+    "importance_reason": "作为文章开篇的具体叙述，为后续分析巴黎革命的性质和影响提供事件背景。",
+    "argument_role": "continues",
+    "argument_link": "承接标题，开始具体叙述1848年欧洲革命的序幕事件。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "1848年西西里革命",
+        "explain": "1848年1月在西西里岛爆发的起义，要求制定宪法，是1848年欧洲革命浪潮的序幕。其短暂性与巴黎起义的胜利形成对比。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p3s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p3s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "西西里革命",
+            "type": "event",
+            "modern": "1848年1月在西西里岛爆发的起义，要求制定宪法，是1848年欧洲革命浪潮的前奏。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

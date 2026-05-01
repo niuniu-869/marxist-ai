@@ -1,0 +1,121 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 26,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁引用孟什维克会议报道，逐条批驳其关于粮食政策的主张，并揭露其对苏维埃政权的根本否定。",
+    "importance_score": 2,
+    "importance_reason": "通过引用论敌自身言论，具体展示其政策主张与政治立场，为后续批判提供直接证据。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于敌人联合利用饥荒的指控，本段通过引证孟什维克会议的具体报道，展示其政策主张与政治意图。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "《生活报》与孟什维克",
+        "explain": "《生活报》是当时孟什维克派别的主要报纸之一。列宁引用该报对孟什维克代表会议的报道，作为批判其观点的直接材料。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "切列万宁、格罗曼、科洛科尔尼科夫",
+        "explain": "切列万宁是孟什维克在经济政策问题上的报告人；格罗曼时任北方粮食管理局局长；科洛科尔尼科夫是孟什维克代表。他们是本段被引述和批判的具体人物。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "metadata"
+      },
+      {
+        "topic": "马尔托夫的决议案",
+        "explain": "马尔托夫是孟什维克领袖之一。列宁提及他在代表会议上提出的决议案，意在说明孟什维克对苏维埃政权的否定是系统性的，而非个别言论。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p26s1",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p26s2",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p26s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p26s4",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p26s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p26s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p26s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p26s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 2,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote",
+        "hs:claim_5gram_with_quote",
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

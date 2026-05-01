@@ -1,0 +1,56 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 101,
+  "annotation": {
+    "block_type": "quote_block",
+    "gist": "马克思摘录巴枯宁著作中的一句话，作为后续批判的引子。",
+    "importance_score": 1,
+    "importance_reason": "本段引用巴枯宁的原话，为马克思的批判提供直接靶子，属于论战中的引证环节。",
+    "argument_role": "continues",
+    "argument_link": "本段紧接上段对俄国的讨论，引用巴枯宁关于破坏俄罗斯帝国的主张，作为具体论点进行剖析。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "refute_quotation"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "俄罗斯帝国背景",
+        "explain": "巴枯宁写作时，俄罗斯帝国是欧洲专制君主制的代表，压迫各民族，包括俄国工人阶级。破坏它被视为解放的前提。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "巴枯宁",
+      "their_view": "巴枯宁认为，任何对俄国人民有益的宪法，其唯一内容就是摧毁俄罗斯帝国这个压迫机器。",
+      "author_response": "马克思批判这种观点，认为破坏国家机器不是革命的正确路径，无产阶级需要利用国家机器进行革命。",
+      "polemic_kind": "counter_quotation",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p101s1",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": [
+          {
+            "surface": "俄罗斯帝国",
+            "type": "place",
+            "modern": "19世纪沙皇统治下的多民族帝国，专制压迫的象征。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  }
+}

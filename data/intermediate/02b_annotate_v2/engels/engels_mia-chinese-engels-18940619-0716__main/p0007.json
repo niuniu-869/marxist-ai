@@ -1,0 +1,112 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 7,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "恩格斯通过引用《哥林多后书》中关于会费难收的抱怨，类比第一国际面临的财务困境，以此反驳布鲁诺·鲍威尔对基督教起源的错误理解。",
+    "importance_score": 2,
+    "importance_reason": "本段通过历史类比，将早期基督教的组织困境与工人运动的现实挑战联系起来，为理解运动性质提供具体例证。",
+    "argument_role": "example",
+    "argument_link": "承接上段关于早期基督教与工人运动相似性的论述，用《哥林多后书》的具体内容作为例证，展示两者在组织运作上面临的共同问题。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "“国际的百万财产”污蔑",
+        "explain": "19世纪60-70年代，欧洲资产阶级报刊常污蔑第一国际（国际工人协会）拥有巨额秘密财产，以此煽动对工人运动的敌意。恩格斯在此反讽这一说法。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "哥林多人比喻",
+        "explain": "恩格斯将第一国际中那些拖欠会费、行动不定的成员比作《哥林多后书》中抱怨捐款不来的哥林多信徒，用以说明运动内部的组织困难。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "布鲁诺·鲍威尔",
+      "their_view": "鲍威尔在其著作《基督教的起源》中，通过任意抄袭德国圣经批判的方法，将基督教的产生完全归结为特定历史时期的思想剽窃，抹杀了其产生的社会经济背景。",
+      "author_response": "恩格斯指出，鲍威尔的著作虽方法任意，但其中某些描述（如早期教会的财务困境）无意中反映了真实的历史状况，这恰恰证明了早期基督教运动与工人运动在组织层面的相似性。",
+      "polemic_kind": "counter_quotation",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p7s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p7s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p7s3",
+        "speaker": "quoted_opponent",
+        "stance": "neutral_citation",
+        "notes": [
+          {
+            "surface": "les cotisations ne rentrent pas",
+            "type": "quote",
+            "modern": "法语，意为“会费收不上来”。恩格斯引用此句以说明早期教会与第一国际共同面临的财务问题。",
+            "highlight": "quote",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p7s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p7s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "唐达鲁士之苦",
+            "type": "metaphor",
+            "modern": "源自希腊神话，指可望而不可即的折磨。此处形容那些承诺缴纳却始终无法到手的会费。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_6>5"
+      ]
+    }
+  ]
+}

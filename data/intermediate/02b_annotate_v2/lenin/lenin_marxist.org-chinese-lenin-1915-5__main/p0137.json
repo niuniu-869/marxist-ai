@@ -1,0 +1,145 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 137,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁反驳加尔德宁对马克思1848年立场的指责，重申马克思主义者支持革命战争反对反革命民族的原则，并以假设性例子阐明。",
+    "importance_score": 2,
+    "importance_reason": "通过反驳对马克思的特定指责，澄清了马克思主义关于革命战争的立场，为批判社会沙文主义提供理论依据。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于战争是政治延续的论述，具体运用该原则，反驳将马克思的革命战争主张曲解为沙文主义的论调。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "加尔德宁与《生活报》",
+        "explain": "加尔德宁是俄国社会革命党人，《生活报》是其派别刊物。他在文中被列宁作为论敌提及，其观点代表了对马克思历史立场的特定解读。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "“革命的沙文主义”",
+        "explain": "这是加尔德宁用来指责马克思的概念，意指即便出于革命目的支持战争，也属于沙文主义（极端民族主义）范畴。列宁认为此概念混淆了革命战争与帝国主义战争的本质区别。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      },
+      {
+        "topic": "罗普申",
+        "explain": "罗普申是俄国社会革命党人，曾参与革命活动，后转向。列宁在此将其作为反面典型，用以讽刺加尔德宁的立场。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p137s1",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": [
+          {
+            "surface": "加尔德宁",
+            "type": "person",
+            "modern": "俄国社会革命党人，其观点被列宁作为批判对象。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "《生活报》",
+            "type": "work",
+            "modern": "俄国社会革命党派别刊物，加尔德宁在此发表文章。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p137s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p137s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p137s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "俾斯麦分子",
+            "type": "social_group",
+            "modern": "此处泛指反动的、军国主义的资产阶级政治势力，以德国铁血宰相俾斯麦为典型代表。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "inferred"
+          }
+        ]
+      },
+      {
+        "sid": "p137s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p137s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "罗普申",
+            "type": "person",
+            "modern": "俄国社会革命党人，后转向，列宁在此用作讽刺性类比。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 4,
+        "notes_dropped": 2,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_6>5",
+        "note:n2_circular_prefix",
+        "hs:claim_5gram_with_quote",
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

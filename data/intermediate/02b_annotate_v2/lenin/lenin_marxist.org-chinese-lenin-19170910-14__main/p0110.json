@@ -1,0 +1,93 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 110,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁提出四项具体政策以应对国家灾难，旨在通过强制性措施实现消费品的监督与平均分配。",
+    "importance_score": 2,
+    "importance_reason": "本段具体阐述了作者提出的革命民主政策内容，是文章解决方案部分的实质性展开。",
+    "argument_role": "continues",
+    "argument_link": "上一段揭露了所谓民主制度下富人享有的特权，本段则正面提出通过强制性措施实现消费品监督与平均分配的政策方案。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p110s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "消费合作社",
+            "type": "concept",
+            "modern": "居民自愿组成的商品分配组织，列宁主张强制加入以实现对消费的监督。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "consumption_coop_1917"
+          }
+        ]
+      },
+      {
+        "sid": "p110s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "劳动义务制",
+            "type": "concept",
+            "modern": "强制资产阶级从事无报酬劳动的政策，旨在削弱其经济地位并增加社会产品。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "labor_service_bourgeois"
+          }
+        ]
+      },
+      {
+        "sid": "p110s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p110s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

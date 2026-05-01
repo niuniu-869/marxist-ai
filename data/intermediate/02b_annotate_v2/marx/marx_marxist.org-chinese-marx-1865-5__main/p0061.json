@@ -1,0 +1,92 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 61,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "通过对比1862年与1842年的经济数据，指出商品价值和交易量大幅增长而通货总量基本不变，以此反驳韦斯顿关于通货量固定的前提。",
+    "importance_score": 2,
+    "importance_reason": "本段用具体历史数据反驳韦斯顿关于通货量固定的前提，是核心论证的例证支撑。",
+    "argument_role": "example",
+    "argument_link": "本段承接上文对韦斯顿理论的假设性推演，转而用实际历史数据进行检验和反驳。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "通货概念",
+        "explain": "在19世纪政治经济学语境中，通货指流通中的货币总量，包括金属货币和银行券。韦斯顿将其视为固定不变的常数。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p61s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p61s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p61s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p61s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "韦斯顿",
+            "type": "person",
+            "modern": "乔治·韦斯顿，英国工联主义者，马克思在本文中主要的论辩对象。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "metadata"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 2,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix",
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

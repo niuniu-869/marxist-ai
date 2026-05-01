@@ -1,0 +1,113 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 6,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "将反犹太主义定性为中世纪残余势力对现代社会的反动，并揭露其伪装的社会主义本质。",
+    "importance_score": 3,
+    "importance_reason": "本段是核心批判，直接定义反犹太主义的本质。",
+    "argument_role": "continues",
+    "argument_link": "本段承接上段对犹太人并非资本主要持有者的论证，进一步定性反犹太主义的本质。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "反犹太主义",
+      "their_view": "社会问题源于犹太人，反对犹太资本。",
+      "author_response": "将其定性为中世纪残余对现代社会的反动，揭露其伪装的社会主义本质。",
+      "polemic_kind": "reveals_class_basis",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p6s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p6s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p6s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p6s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p6s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "资本",
+            "type": "concept",
+            "modern": "能够带来剩余价值的价值，体现资本家对雇佣工人的剥削关系。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "capital_political_economy"
+          },
+          {
+            "surface": "雇佣劳动",
+            "type": "concept",
+            "modern": "工人出卖劳动力给资本家以换取工资的劳动形式，是资本主义生产关系的基础。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "wage_labor"
+          }
+        ]
+      },
+      {
+        "sid": "p6s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p6s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 4,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_7>5",
+        "note:n2_circular_prefix",
+        "note:n1_overflow_concept_6>5",
+        "note:n1_overflow_concept_6>5"
+      ]
+    }
+  ]
+}

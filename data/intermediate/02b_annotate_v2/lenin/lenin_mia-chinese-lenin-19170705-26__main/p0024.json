@@ -1,0 +1,89 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 24,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段阐述革命时期国家问题的解决方式与平时不同，必须通过阶级斗争和武装斗争来决定，仅仅显示多数意志是不够的。",
+    "importance_score": 2,
+    "importance_reason": "支撑核心论点，说明革命时期权力更替的实际机制，反驳立宪幻想。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段关于“大多数”破产的论述，进一步解释为什么在革命时期“大多数”不够用，必须通过实际力量对比来决定。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "社会革命党和孟什维克",
+      "their_view": "在革命时期，只要显示“大多数的意志”，就足以决定国家生活中的争论问题。",
+      "author_response": "列宁指出这不够，必须在决定性的关头和地方表现得更有力量并赢得胜利，历史证明组织更好、觉悟更高的少数能战胜大多数。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p24s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "阶级斗争",
+            "type": "concept",
+            "modern": "革命时期解决国家问题的根本方式，区别于和平时期的议会程序。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "class_struggle"
+          }
+        ]
+      },
+      {
+        "sid": "p24s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p24s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p24s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p24s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

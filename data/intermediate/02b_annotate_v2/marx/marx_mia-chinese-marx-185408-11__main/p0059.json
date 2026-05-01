@@ -1,0 +1,72 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 59,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "作者通过描述西班牙中央洪达内部的派别分工，旨在证明1808年第一次西班牙起义中确实存在革命意图，反驳了对此的否认。",
+    "importance_score": 2,
+    "importance_reason": "本段通过具体历史例证，支撑了作者关于西班牙革命具有深厚历史根源的核心论点，并直接反驳了当代观察家的忽视。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对西班牙专制制度导致外敌入侵的批判，本段转向分析西班牙内部政治力量在反抗外敌时的复杂构成，以证明革命意图的存在。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "西班牙政治派别",
+        "explain": "霍韦利亚诺斯派以启蒙思想家霍韦利亚诺斯为代表，主张温和改革与宪政；弗洛里达布朗卡派以旧大臣弗洛里达布朗卡为代表，主张维护绝对王权与旧秩序。二者在1808年反法战争中同属中央洪达，但立场对立。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p59s1",
+        "quote": "中央洪达看来进行了一种最新奇的分工：霍韦利亚诺斯派宣告民族的革命意图并记录成文，而弗洛里达布朗卡派有权直接否定这些意图，并以反革命行动抵制革命空想。",
+        "trigger": "inverted_logic",
+        "reader_block": "“最新奇的分工”是反讽，读者可能误以为这是某种合理安排，实际是讽刺洪达内部自相矛盾、无法形成统一意志。",
+        "parse": {
+          "claim": "西班牙中央洪达内部存在一种矛盾的运作模式：一派负责提出并记录革命主张，另一派则拥有直接否决这些主张并采取反制行动的权力。",
+          "qualifiers": "此描述针对1808年第一次西班牙起义时期的中央洪达。",
+          "contrast_or_target": "针对那些将1808年反法战争简单视为民族解放运动、忽视其内部复杂性的观点。"
+        },
+        "why": {
+          "relation": "example",
+          "explanation": "本句通过具体描述洪达内部的派别对立，为下一句的结论（证明革命意图存在）提供事实依据，说明革命意图是在与反动势力的斗争中被提出和记录的。"
+        },
+        "implication": "这种内部分裂表明，西班牙的反法斗争从一开始就包含了革命与反革命两种力量的较量。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p59s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p59s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  }
+}

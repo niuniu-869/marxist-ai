@@ -1,0 +1,150 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 6,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "批判古典政治经济学将“孤立的个人”作为研究起点的方法，主张从社会性生产出发。",
+    "importance_score": 3,
+    "importance_reason": "这是马克思政治经济学方法论的核心批判之一，直接挑战了古典学派的理论根基。",
+    "argument_role": "contrasts",
+    "argument_link": "承接上段“物质生产”作为对象，本段转向生产主体，批判将主体抽象化、非历史化的错误起点。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p6s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p6s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "鲁宾逊故事",
+            "type": "metaphor",
+            "modern": "18世纪流行的一种文学题材，描绘个体在孤立状态下凭借理性与自然互动，常被用来论证自然状态与社会起源。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p6s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "社会契约论",
+            "type": "concept",
+            "modern": "一种政治哲学理论，认为国家起源于自由个体间的协议，以保障其自然权利。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "social_contract_theory"
+          }
+        ]
+      },
+      {
+        "sid": "p6s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "市民社会",
+            "type": "concept",
+            "modern": "马克思用以指称资本主义生产关系总和的社会领域，区别于政治国家。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "civil_society_marx"
+          }
+        ]
+      },
+      {
+        "sid": "p6s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p6s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p6s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p6s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p6s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p6s10",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "斯图亚特",
+            "type": "person",
+            "modern": "詹姆斯·斯图亚特，18世纪苏格兰经济学家，其著作对经济过程有更多历史视角。",
+            "highlight": "person",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 4,
+        "notes_dropped": 3,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix",
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

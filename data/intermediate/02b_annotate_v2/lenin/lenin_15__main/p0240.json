@@ -1,0 +1,122 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 240,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁引用银行家阿加德的材料，展示俄国银行业被外国资本渗透的状况，并批判其改良主义幻想。",
+    "importance_score": 2,
+    "importance_reason": "为金融资本统治和帝国主义特征提供具体例证，支撑核心论点。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于官方条例无效的论述，通过阿加德的材料具体展示银行资本的实际状况，说明为何监管无效。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "term_density",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "参与制",
+        "explain": "金融资本通过控股公司层层控制其他企业的一种组织形式，是帝国主义阶段资本集中和垄断的重要机制。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "欧·阿加德",
+        "explain": "俄国银行家，曾在俄华银行任职，其著作提供了关于俄国银行业状况的一手观察材料。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p240s5",
+        "quote": "他抱着他那种小资产阶级改良主义的观点，认为在保存资本主义的条件下，似乎可以把第一种投资和第二种投资分开，并且消除第二种投资。",
+        "trigger": "term_density",
+        "reader_block": "句中“小资产阶级改良主义”与“保存资本主义”两个术语并列，读者可能不理解为何列宁要强调这种观点的阶级属性，以及为何在资本主义框架内不可能实现这种区分。",
+        "parse": {
+          "claim": "阿加德幻想在资本主义制度内可以隔离金融投机活动。",
+          "qualifiers": "限定条件是“在保存资本主义的条件下”，即不触动私有制基础。",
+          "contrast_or_target": "阿加德认为，可以区分投入工商业的“生产性”投资和投入交易所的“投机性”投资，并消除后者。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "本句直接点明阿加德观点的阶级实质（小资产阶级改良主义）及其核心谬误（在资本主义框架内消除金融投机），为后续批判其理论前提做铺垫。"
+        },
+        "implication": "金融资本的统治使得生产与投机不可分割，任何试图在资本主义内部分离二者的方案都是空想。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "阿加德",
+      "their_view": "在保存资本主义制度的前提下，可以区分并消除银行资本中用于交易所和金融业务的“投机性”投资。",
+      "author_response": "列宁指出这是小资产阶级改良主义的幻想，因为金融资本的统治使得生产性投资与投机性投资紧密交织，无法在资本主义框架内人为分割。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p240s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p240s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "《大银行与世界市场》",
+            "type": "work",
+            "modern": "阿加德于1914年出版的著作，提供了关于俄国银行业状况的观察。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p240s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p240s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p240s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 1,
+        "hs_kept": 1,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_9>5"
+      ]
+    }
+  ]
+}

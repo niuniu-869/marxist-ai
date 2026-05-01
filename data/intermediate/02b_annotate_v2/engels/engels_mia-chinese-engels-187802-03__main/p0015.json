@@ -1,0 +1,158 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 15,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "描述意大利工人运动在严苛法律压制下的韧性，并分析其内部力量对比的积极变化。",
+    "importance_score": 2,
+    "importance_reason": "作为欧洲各国工人运动年度总结的一部分，本段提供了意大利的具体案例，用以支撑关于工人运动生命力与发展方向的总体判断。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段对葡萄牙工人运动的描述，继续展示欧洲其他地区工人运动在法律限制下的状况与内在发展。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "term_polysemy",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "罗曼尼亚地区",
+        "explain": "指意大利中部的罗马涅地区，当时是教皇国的一部分。文中将其与北方工业城市对比，暗示其经济与社会结构相对传统。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "马志尼的资产阶级共和派",
+        "explain": "指以朱塞佩·马志尼为代表的意大利民族统一运动中的共和派。他们主张建立资产阶级共和国，但其阶级基础和政治目标与无产阶级运动不同。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "“无政府主义者”",
+        "explain": "在19世纪70年代的意大利语境下，常指受巴枯宁影响、主张通过暴动和直接行动推翻国家，但反对参与议会等政治斗争的派别。文中加引号，暗示其与马克思主义的“无产阶级”立场有别。",
+        "why_needed": "term_polysemy",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "无政府主义者与马志尼的资产阶级共和派",
+      "their_view": "无政府主义者主张放弃政治斗争，仅通过直接行动实现目标；马志尼派则致力于建立资产阶级共和国，其运动领导权基于非无产阶级的出身与理念。",
+      "author_response": "恩格斯指出，这两派在意大利工人运动中正逐渐失去影响力，其衰落恰恰是真正的、自觉的无产阶级运动取得进展的标志。",
+      "polemic_kind": "reveals_class_basis",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p15s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p15s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "工人协会",
+            "type": "org",
+            "modern": "意大利早期的工人组织形式，是工人进行自我组织和斗争的平台。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p15s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p15s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "罗曼尼亚",
+            "type": "place",
+            "modern": "意大利中部历史地区，文中指代运动早期中心，但其社会经济结构相对保守。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "无政府主义者",
+            "type": "polemic_ref",
+            "modern": "此处特指受巴枯宁影响、主张放弃政治行动的意大利工人运动派别，与马克思主义立场对立。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p15s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p15s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p15s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "无政府主义",
+            "type": "concept",
+            "modern": "在本文语境下，特指巴枯宁派反对政治斗争、主张立即暴动的策略，与科学社会主义的政治行动路线相悖。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "anarchism"
+          }
+        ]
+      },
+      {
+        "sid": "p15s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 4,
+        "notes_dropped": 3,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_6>5",
+        "note:n2_5gram_with_surface",
+        "note:n1_overflow_concept_6>5",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

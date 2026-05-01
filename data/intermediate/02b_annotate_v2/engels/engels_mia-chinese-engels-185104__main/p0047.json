@@ -1,0 +1,82 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 47,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "总结前文，指出革命战争中双方均采用现代军事手段，胜负将取决于军队规模。",
+    "importance_score": 2,
+    "importance_reason": "对前文军事创新论点的总结，引出规模决定胜负的判断。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于军事手段必须创新的论点，将讨论从‘如何创新’转向‘创新后的战争形态’。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "archaic | foreign_quote",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p47s1",
+        "quote": "Summa summarum．革命将以现代的军事手段和现代的军事学术来与现代的军事手段和现代的军事学术作战。",
+        "trigger": "archaic",
+        "reader_block": "拉丁语总结短语，读者可能不识其意，误以为是专有名词或人名。",
+        "parse": {
+          "claim": "革命战争中，交战双方都将运用当代的军事技术与战术体系。",
+          "qualifiers": "特指19世纪中叶的军事发展水平。",
+          "contrast_or_target": "针对前文可能存在的‘一方使用新手段、另一方固守旧方法’的预设。"
+        },
+        "why": {
+          "relation": "conclusion",
+          "explanation": "用拉丁语短语引出结论，强调革命战争的对称性：双方均已完成军事现代化。"
+        },
+        "implication": "暗示战争胜负将不取决于技术代差，而取决于其他因素。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      },
+      {
+        "anchor": "p47s2",
+        "quote": "军事天才存在的机会，在联军方面至少和在法军方面是同样大的：ce seront alors les gros bataillons qui l’emporteront〔多兵之旅必获胜〕。",
+        "trigger": "foreign_quote",
+        "reader_block": "法语引文加括号翻译，读者可能疑惑引文出处及强调重点。",
+        "parse": {
+          "claim": "双方指挥官发挥才能的条件对等，最终决定战局的是兵力规模。",
+          "qualifiers": "基于双方军事体系均已现代化的假设。",
+          "contrast_or_target": "反驳‘军事天才可扭转兵力劣势’的浪漫主义战争观。"
+        },
+        "why": {
+          "relation": "continues",
+          "explanation": "用法语格言强化结论：在双方军事水平趋同后，数量因素成为决定性变量。"
+        },
+        "implication": "为后文分析联军兵力优势埋下伏笔。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p47s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p47s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 73,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段陈述俄国社会民主党的国际属性及其共同的最终目的，并解释该目的由现代资产阶级社会的经济结构决定。",
+    "importance_score": 2,
+    "importance_reason": "为党纲修改提供理论基础，阐明党的国际立场和最终目标的客观依据。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于国际联系的论述，具体化俄国党作为国际队伍一员的身份，并引出其共同目的的根源。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p73s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p73s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p73s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "生产资料",
+            "type": "concept",
+            "modern": "进行物质生产所必需的劳动资料和劳动对象，如机器、厂房、土地、原料等。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "means_of_production"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 2,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_8>5",
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

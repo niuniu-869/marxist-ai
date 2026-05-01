@@ -1,0 +1,71 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 52,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "斯大林阐述社会主义革命的第三个条件，即需要掌握政权来建立新的革命秩序。",
+    "importance_score": 2,
+    "importance_reason": "这是斯大林阐述革命条件的组成部分，具体说明政权在建立新秩序中的作用。",
+    "argument_role": "continues",
+    "argument_link": "上一段论述了革命需要党的组织力量，本段进而指出，这种力量必须掌握政权才能实现制度变革。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p52s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "政权",
+            "type": "concept",
+            "modern": "在马克思主义语境中，指通过革命夺取的、用于改造社会关系的国家权力。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "state_marxist_theory"
+          }
+        ]
+      },
+      {
+        "sid": "p52s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

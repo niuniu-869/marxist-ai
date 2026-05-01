@@ -1,0 +1,71 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 161,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "总结工资斗争是经济体系内部多种变量变动后的被动反应，并指出孤立看待工资变动会导致错误结论。",
+    "importance_score": 2,
+    "importance_reason": "本段是前文对工资、价格和利润关系分析的总结，并直接针对韦斯顿的错误前提进行驳斥，是论证的关键环节。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段关于资本主义生产周期性循环的论述，将工资变动置于更广泛的经济变量变动背景下进行总结，并由此引出对错误分析方法的批判。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "韦斯顿",
+      "their_view": "工资总额是固定不变的常数，因此工人争取提高工资的斗争是徒劳的。",
+      "author_response": "工资变动是资本先行行动的结果，孤立地只看工资变动而忽视其他经济变量的变动，是从错误前提出发，会得出错误结论。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p161s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "劳动的价值",
+            "type": "concept",
+            "modern": "在马克思政治经济学中，指生产与再生产劳动力所需的生活资料的价值，是工资的基础。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "labor_economic"
+          }
+        ]
+      },
+      {
+        "sid": "p161s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

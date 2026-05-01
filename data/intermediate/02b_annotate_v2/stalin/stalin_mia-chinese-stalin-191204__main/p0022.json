@@ -1,0 +1,118 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 22,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "斯大林通过列举沙皇统治下的道德虚伪、暴力镇压和腐败现象，讽刺那些自称“革新者”的统治阶级。",
+    "importance_score": 2,
+    "importance_reason": "本段用具体事例批判沙皇制度，支撑对自由派观点的反驳和革命动员。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段对社会苦难的描述，扩展到道德败坏和暴力层面，强化对沙皇制度的整体批判。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "连纳金矿屠杀",
+        "explain": "1912年4月，沙皇军队在西伯利亚连纳金矿镇压罢工工人，造成数百人死亡，是斯托雷平反动时期的标志性暴力事件。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "拉斯普廷",
+        "explain": "沙皇尼古拉二世宫廷中的神秘人物，利用巫术影响皇后，干预朝政，象征统治阶级的腐朽和愚昧。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p22s1",
+        "quote": "没有淳正的习俗，——有的是寺院中即官方道德的堡垒中闻所未闻的荒淫无耻！",
+        "trigger": "inverted_logic",
+        "reader_block": "反讽结构，读者可能误读为正面陈述，实际是批判官方道德堡垒内部的极端败坏。",
+        "parse": {
+          "claim": "作为官方道德象征的寺院，实际上充斥着前所未有的道德堕落。",
+          "qualifiers": "",
+          "contrast_or_target": "针对自由派认为沙皇制度已革新、道德稳固的观点。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "本句通过反讽揭露沙皇统治下道德表象与实质的矛盾，直接反驳自由派对制度的美化。"
+        },
+        "implication": "沙皇制度在道德层面已经破产，无法维持其宣称的秩序。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "俄国自由派",
+      "their_view": "沙皇制度已经巩固，革命已死，俄国通过改革实现了革新。",
+      "author_response": "斯大林通过列举统治阶级的腐败、暴力和道德败坏，揭露其所谓“革新”的虚伪本质。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p22s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p22s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "连纳金矿",
+            "type": "event",
+            "modern": "1912年沙皇军队镇压工人罢工的屠杀事件",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p22s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "拉斯普廷",
+            "type": "person",
+            "modern": "沙皇尼古拉二世宫廷中利用巫术干政的神秘人物",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p22s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "革新者",
+            "type": "metaphor",
+            "modern": "反讽用语，指实际阻碍进步的统治阶级",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      }
+    ]
+  }
+}

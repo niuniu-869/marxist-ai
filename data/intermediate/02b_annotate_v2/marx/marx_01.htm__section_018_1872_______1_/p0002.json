@@ -1,0 +1,100 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 2,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "作者评估《宣言》原理的持久性与具体论述的时效性，基于新经验进行更新。",
+    "importance_score": 3,
+    "importance_reason": "核心段落，提出关于国家机器的著名论断，并界定《宣言》原理与具体措施的关系。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对《宣言》流传的介绍，转向对其内容在25年后适用性的反思与说明。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p2s5",
+        "quote": "由于最近25年来大工业有了巨大发展而工人阶级的政党组织也跟着发展起来，由于首先有了二月革命的实际经验而后来尤其是有了无产阶级第一次掌握政权达两月之久的巴黎公社[7]的实际经验，所以这个纲领现在有些地方已经过时了。",
+        "trigger": "long_nested",
+        "reader_block": "句子包含两个并列的“由于”从句，分别列举工业发展、政党发展、两次革命经验，最后才引出结论，读者可能难以理清因果链条。",
+        "parse": {
+          "claim": "基于工业与政党的发展，以及两次革命提供的新经验，《共产党宣言》的部分内容已不适用。",
+          "qualifiers": "时间限定为“最近25年来”；范围限定为“这个纲领”的“有些地方”。",
+          "contrast_or_target": ""
+        },
+        "why": {
+          "relation": "continues",
+          "explanation": "承接前文对《宣言》原理正确性的肯定，具体说明哪些方面因新经验而需要更新，为下文引出核心论断做铺垫。"
+        },
+        "implication": "作者暗示理论纲领必须随实践发展而调整，不能教条化。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p2s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p2s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p2s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p2s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p2s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p2s6",
+        "speaker": "quoted_marx",
+        "stance": "endorsed",
+        "notes": []
+      },
+      {
+        "sid": "p2s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p2s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  }
+}

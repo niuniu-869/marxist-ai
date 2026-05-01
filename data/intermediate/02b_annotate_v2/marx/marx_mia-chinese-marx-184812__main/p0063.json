@@ -1,0 +1,78 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 63,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "马克思讽刺普鲁士资产阶级及其代言人，将“法制基础”这一空洞口号误认为自身真正的阶级利益。",
+    "importance_score": 3,
+    "importance_reason": "核心批判段落，直接点明资产阶级在革命中自我欺骗的阶级本质。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对“法制基础”概念的抽象剖析，本段转向具体批判，指出这一概念如何被资产阶级及其喉舌实体化、偶像化。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "勃律盖曼",
+        "explain": "指普鲁士资产阶级政治家、《科隆日报》发行人。他代表了与王权妥协的资产阶级派别，是马克思批判的“协商论”支持者之一。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "普鲁士资产阶级及其思想代言人",
+      "their_view": "将“法制基础”这类与王权妥协的产物，视为自身阶级的根本利益所在，并为此辩护。",
+      "author_response": "揭露这种认知是自欺欺人，是将外在的、虚伪的点缀物误认为内在的、真实的阶级诉求。",
+      "polemic_kind": "reveals_class_basis",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p63s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p63s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "勃律盖曼",
+            "type": "person",
+            "modern": "普鲁士资产阶级政治家，主张与王权协商，是马克思批判的典型代表。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_metaphor_12>8"
+      ]
+    }
+  ]
+}

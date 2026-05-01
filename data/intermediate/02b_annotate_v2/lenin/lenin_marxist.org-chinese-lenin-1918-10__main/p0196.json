@@ -1,0 +1,65 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 196,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁引用自己1917年的论述，强调苏维埃共和国在民主形式上高于资产阶级共和国。",
+    "importance_score": 2,
+    "importance_reason": "本段通过引用列宁早期观点，为批判考茨基对民主的误解提供依据，支撑苏维埃民主优越性的论点。",
+    "argument_role": "continues",
+    "argument_link": "本段承接上段对提纲的讨论，通过引用列宁自己的论述，进一步阐明苏维埃共和国作为更高民主形式的观点，以反驳考茨基的片面引用。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p196s1",
+        "speaker": "quoted_lenin",
+        "stance": "endorsed",
+        "notes": [
+          {
+            "surface": "立宪会议",
+            "type": "event",
+            "modern": "1917年俄国革命后召开的制宪会议，旨在制定宪法，但被布尔什维克解散，因其被认为代表资产阶级利益。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 2,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_6>5",
+        "note:n1_overflow_concept_7>5"
+      ]
+    }
+  ]
+}

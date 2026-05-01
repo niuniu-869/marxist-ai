@@ -1,0 +1,78 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 14,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁引用恩格斯对美国“劳动骑士”组织的批评，论证工人必须建立独立政党，并以此反驳党内主张召开非党工人代表大会的论调。",
+    "importance_score": 2,
+    "importance_reason": "通过引用恩格斯书信，直接驳斥了当时党内机会主义派别关于模糊阶级界限、建立非党工人组织的主张，是论战的关键论据。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对马克思恩格斯策略思想的阐释，本段具体引用恩格斯对美国工人运动的评价，用以直接反驳党内机会主义的策略主张。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "“劳动骑士”组织",
+        "explain": "19世纪末美国一个规模庞大但成分复杂的工人组织，其特点是非政治性与行业联合。恩格斯批评其政治中立，认为这阻碍了工人阶级形成独立的政治力量。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "俄国社会民主党内的机会主义倾向（主张召开非党工人代表大会）",
+      "their_view": "为了团结更广泛的工人群众，应当超越现有社会民主党的框架，召开一个非党派的、广泛的工人代表大会来统一工人运动。",
+      "author_response": "列宁引用恩格斯强调工人必须组织成独立政党的论述，指出这种主张在恩格斯的教导中找不到任何依据，实质是放弃无产阶级政党的独立性。",
+      "polemic_kind": "counter_quotation",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p14s1",
+        "speaker": "quoted_engels",
+        "stance": "endorsed",
+        "notes": [
+          {
+            "surface": "劳动骑士",
+            "type": "org",
+            "modern": "19世纪末美国最大的工人组织之一，以行业联合为特征，但拒绝参与政党政治。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p14s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

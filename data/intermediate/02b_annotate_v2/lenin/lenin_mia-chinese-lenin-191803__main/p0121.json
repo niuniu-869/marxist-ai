@@ -1,0 +1,95 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 121,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段阐述纲领政治部分修改的核心原则：确立苏维埃共和国作为无产阶级专政的最高形式，同时保留策略灵活性。",
+    "importance_score": 3,
+    "importance_reason": "本段是纲领修改中关于国家形式的核心论述，确立苏维埃共和国的理论地位。",
+    "argument_role": "continues",
+    "argument_link": "本段承接上段关于修改党纲的决定，具体阐述政治部分的修改方向。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p121s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "巴黎公社",
+            "type": "event",
+            "modern": "1871年法国巴黎工人起义后建立的短暂革命政权，被视为无产阶级专政的首次尝试。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p121s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p121s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "无产阶级专政",
+            "type": "concept",
+            "modern": "马克思主义理论中，无产阶级通过革命夺取政权后建立的国家形式，用以镇压剥削者反抗并建设社会主义。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "dictatorship_proletariat"
+          },
+          {
+            "surface": "剥削者",
+            "type": "social_group",
+            "modern": "在资本主义生产关系中占有生产资料、无偿占有他人劳动成果的阶级，即资产阶级。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 3,
+        "notes_dropped": 2,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_6>5",
+        "note:n1_overflow_concept_7>5"
+      ]
+    }
+  ]
+}

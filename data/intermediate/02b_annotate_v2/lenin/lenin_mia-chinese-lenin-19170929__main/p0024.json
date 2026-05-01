@@ -1,0 +1,154 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 24,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段通过列举军队的动向，论证武装起义的军事条件已经具备。",
+    "importance_score": 2,
+    "importance_reason": "本段是论证武装起义时机成熟的核心论据之一，从军事力量角度支撑核心论点。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对民族问题的分析，转向论证军队这一关键力量已倒向革命，进一步证明革命条件全面成熟。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "term_polysemy",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "芬兰陆军与波罗的海舰队决裂",
+        "explain": "1917年秋，驻扎在芬兰的陆军和驻扎在波罗的海的舰队士兵委员会拒绝服从临时政府命令，这是军队瓦解的关键信号。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "军官杜巴索夫",
+        "explain": "杜巴索夫是一位非布尔什维克的军官，他在前线士兵代表会议上发言，其反战言论比布尔什维克更激进，反映了军队普遍的厌战情绪。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "莫斯科选举中的士兵投票",
+        "explain": "1917年9月莫斯科市杜马选举中，驻莫斯科士兵的投票结果高度倾向布尔什维克，显示了他们在军队中的影响力。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p24s5",
+        "quote": "[105]我们看到政府的报告说，士兵的情绪“极易波动”，不能保证“秩序”（即不能保证这些部队去参加镇压农民起义）。",
+        "trigger": "term_polysemy",
+        "reader_block": "引号内的“秩序”与括号内的解释，读者可能不理解“秩序”在此特指镇压能力，而非一般社会秩序。",
+        "parse": {
+          "claim": "临时政府自己的报告承认，军队士兵情绪不稳，无法可靠地执行镇压任务。",
+          "qualifiers": "信息来源是政府报告；“秩序”一词加引号，有特定含义。",
+          "contrast_or_target": ""
+        },
+        "why": {
+          "relation": "example",
+          "explanation": "本句用临时政府自己的报告作为证据，具体说明军队已不可靠，无法用于镇压革命运动，从而支撑军队倒向革命的论点。"
+        },
+        "implication": "",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p24s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p24s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p24s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "芬兰陆军和波罗的海舰队",
+            "type": "event",
+            "modern": "1917年秋，这两支重要军事力量宣布不服从临时政府，是军队瓦解的标志性事件。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p24s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "杜巴索夫",
+            "type": "person",
+            "modern": "一位非布尔什维克军官，其反战言论被列宁引用来证明军队普遍的革命情绪。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p24s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "秩序",
+            "type": "concept",
+            "modern": "此处特指临时政府维持统治、镇压反抗的能力，而非一般社会秩序。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "order_military_control"
+          }
+        ]
+      },
+      {
+        "sid": "p24s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 3,
+        "notes_dropped": 1,
+        "hs_kept": 1,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

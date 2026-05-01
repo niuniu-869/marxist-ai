@@ -1,0 +1,102 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 121,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁批判科科计金维护大俄罗斯资产阶级特权的言论，揭露其阶级本质和欺骗手段。",
+    "importance_score": 2,
+    "importance_reason": "本段是对具体论敌（立宪民主党人科科计金）的批判，揭示了其言论背后的阶级基础，是全文对机会主义和民族压迫政策进行阶级分析的具体例证。",
+    "argument_role": "continues",
+    "argument_link": "本段承接上一段对民族自决权反对者（如科科计金）言论的批判，进一步从阶级利益角度剖析其荒谬性，并将其与更反动的势力进行对比。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "科科计金与立宪民主党",
+        "explain": "科科计金是俄国立宪民主党领袖之一。该党是代表自由派资产阶级利益的政党，主张君主立宪，反对彻底的土地改革和民族自决，是当时俄国议会中的主要反对派。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "普利什凯维奇",
+        "explain": "普利什凯维奇是俄国极右翼黑帮分子、沙皇专制和农奴制残余的狂热拥护者，以公开鼓吹暴力镇压革命运动和少数民族著称。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "1905年的事变",
+        "explain": "指1905年俄国革命。这场革命动摇了沙皇专制制度，迫使沙皇颁布了《十月宣言》，并催生了国家杜马（议会）。它打击了旧的统治方式，使得公开的暴力镇压（“农奴制的棍子”）效力下降。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p121s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p121s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p121s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p121s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p121s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote",
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

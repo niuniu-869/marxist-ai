@@ -1,0 +1,72 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 391,
+  "annotation": {
+    "block_type": "quote_block",
+    "gist": "引用恩格斯的话，以巴黎公社为例，向害怕无产阶级专政的论敌展示其真实形态。",
+    "importance_score": 2,
+    "importance_reason": "通过权威引文和具体历史实例，为前文关于无产阶级专政的讨论提供一个具象化的论据。",
+    "argument_role": "example",
+    "argument_link": "承接上段关于无产阶级专政的讨论，用恩格斯对巴黎公社的定性作为实例，具体说明该专政的性质。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "巴黎公社",
+        "explain": "1871年法国巴黎工人起义后建立的革命政权，存在约72天后被镇压。马克思和恩格斯将其视为历史上第一个无产阶级政权的雏形，是无产阶级专政的首次实践。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p391s1",
+        "speaker": "quoted_engels",
+        "stance": "endorsed",
+        "notes": [
+          {
+            "surface": "巴黎公社",
+            "type": "event",
+            "modern": "1871年巴黎工人建立的革命政权，被马克思、恩格斯视为无产阶级专政的首次实践。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

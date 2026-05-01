@@ -1,0 +1,108 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 145,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁以挪威-瑞典分离为例，论证支持民族自决权如何促进无产阶级国际团结，而非削弱它。",
+    "importance_score": 2,
+    "importance_reason": "用具体历史事例，正面论证民族自决权与无产阶级国际主义的一致性，反驳机会主义者的担忧。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段提出的挪威-瑞典分离案例，本段具体阐述该案例中瑞典工人正确立场的积极后果，完成例证。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p145s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "阶级团结",
+            "type": "concept",
+            "modern": "不同民族的无产阶级基于共同阶级利益形成的联合，超越民族隔阂。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "class_struggle"
+          }
+        ]
+      },
+      {
+        "sid": "p145s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "民族主义",
+            "type": "concept",
+            "modern": "强调民族身份、利益高于阶级身份和国际团结的意识形态。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "nationalism"
+          }
+        ]
+      },
+      {
+        "sid": "p145s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "欧洲各国君主和瑞典贵族",
+            "type": "event",
+            "modern": "历史上挪威被迫与瑞典联合的统治力量，代表压迫性的国家联系。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p145s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p145s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 3,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_7>5"
+      ]
+    }
+  ]
+}

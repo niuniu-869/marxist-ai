@@ -1,0 +1,128 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 82,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁澄清其对小资产阶级自发势力的批评并非针对全体农民，而是区分农民中的不同阶层，并论证贫苦农民会支持苏维埃政权。",
+    "importance_score": 2,
+    "importance_reason": "本段通过区分农民阶层，回应党内批评，旨在巩固工农联盟这一苏维埃政权的基础。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于利用旧专家的讨论，本段转向论证苏维埃政权在农民中拥有可靠的阶级基础。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "卡列林同志",
+      "their_view": "列宁的政策是在攻击劳动农民，损害农民利益。",
+      "author_response": "列宁指出，其批评针对的是作为小私有者、靠剥削为生的小资产阶级农民，而非受剥削、愿自食其力的劳动农民。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p82s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p82s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p82s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "劳动农民",
+            "type": "concept",
+            "modern": "受剥削、依靠自身劳动为生的农民阶层，是无产阶级的同盟军。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "laboring_peasant"
+          }
+        ]
+      },
+      {
+        "sid": "p82s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p82s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "掠夺掠夺物",
+            "type": "slogan",
+            "modern": "苏维埃政权早期针对地主和资产阶级财产的没收政策口号。",
+            "highlight": "slogan",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p82s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p82s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p82s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p82s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p82s10",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_9>5"
+      ]
+    }
+  ]
+}

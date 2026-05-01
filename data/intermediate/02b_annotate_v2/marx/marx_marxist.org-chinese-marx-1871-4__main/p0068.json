@@ -1,0 +1,229 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 68,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "通过历史类比，分析普法战争后德国宰割法国可能引发的两种后果：沦为俄国工具或引发更大规模的种族战争。",
+    "importance_score": 2,
+    "importance_reason": "本段是马克思对普法战争后欧洲国际关系格局的分析，旨在揭示德国民族主义政策的危险后果，为论证巴黎公社的国际背景服务。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对德国民族主义者双重标准的批判，本段进一步分析其政策在国际关系层面的逻辑后果。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "19世纪欧洲君主",
+        "explain": "路易·波拿巴是法兰西第二帝国皇帝，俾斯麦是普鲁士首相，哥尔查科夫是俄国首相，亚历山大二世是俄国沙皇。他们是当时欧洲大国政治的关键决策者。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "1866年与1870年战争",
+        "explain": "1866年普奥战争以普鲁士胜利告终，确立了普鲁士在德意志的领导地位。1870年普法战争以法国战败、第二帝国崩溃告终。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p68s9",
+        "quote": "难道条顿族的爱国志士真的以为他们迫使法国投入俄国的怀抱，就可以保证德国获得自由与和平吗？",
+        "trigger": "inverted_logic",
+        "reader_block": "反问句式，读者可能只看到字面疑问，而忽略其强烈的否定预设和讽刺语气。",
+        "parse": {
+          "claim": "德国民族主义者迫使法国倒向俄国的政策，根本无法保障德国自身的安全与独立。",
+          "qualifiers": "针对“条顿族的爱国志士”（即德国民族主义者）的特定政策主张。",
+          "contrast_or_target": "德国民族主义者认为，削弱法国（迫使其投靠俄国）能增强德国的安全与地位。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "直接反驳德国民族主义者（条顿族的爱国志士）的天真幻想，指出其政策的自毁性后果。"
+        },
+        "implication": "德国民族主义的短视政策，非但不能带来安全，反而会将自身置于更危险的境地。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "条顿族的爱国志士（德国民族主义者）",
+      "their_view": "通过削弱法国（迫使其投入俄国怀抱），可以确保德国自身的安全、自由与和平。",
+      "author_response": "这种政策是短视的，它非但不能保证德国安全，反而会使其沦为俄国的工具，或被迫与整个欧洲大陆进行毁灭性的种族战争。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p68s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "路易·波拿巴",
+            "type": "person",
+            "modern": "法兰西第二帝国皇帝（1852-1870），拿破仑一世之侄。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "俾斯麦",
+            "type": "person",
+            "modern": "普鲁士王国首相（1862-1871），德意志帝国首任宰相，主导德意志统一。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "哥尔查科夫",
+            "type": "person",
+            "modern": "俄罗斯帝国首相兼外交大臣（1863-1882），推行泛斯拉夫主义外交。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p68s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "亚历山大",
+            "type": "person",
+            "modern": "俄国沙皇亚历山大二世（1855-1881），在位期间俄国进行农奴制改革。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "1870年的战争",
+            "type": "event",
+            "modern": "普法战争（1870-1871），导致法兰西第二帝国崩溃和德意志帝国成立。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p68s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "第二帝国",
+            "type": "org",
+            "modern": "法兰西第二帝国（1852-1870），由路易·波拿巴建立。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "北德意志联邦",
+            "type": "org",
+            "modern": "1867年由普鲁士主导成立的德意志邦联，是德意志统一的前奏。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p68s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p68s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p68s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p68s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p68s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p68s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "条顿族的爱国志士",
+            "type": "social_group",
+            "modern": "马克思对当时德国民族主义者或沙文主义者的讽刺性称呼，借用古代日耳曼人（条顿人）之名。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p68s10",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p68s11",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "种族战争",
+            "type": "concept",
+            "modern": "马克思在此指基于民族或语言集团的大规模冲突，区别于此前欧洲的王朝战争或局部战争。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "war_ethnic"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 9,
+        "notes_dropped": 2,
+        "hs_kept": 1,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_5gram_with_surface",
+        "note:n1_overflow_concept_6>5",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

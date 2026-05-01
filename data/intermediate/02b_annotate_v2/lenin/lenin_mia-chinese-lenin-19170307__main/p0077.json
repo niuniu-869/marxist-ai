@@ -1,0 +1,110 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 77,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁分析克伦斯基和齐赫泽的策略，指出其既依赖资产阶级支持，又无法忽视布尔什维克力量的动摇性。",
+    "importance_score": 2,
+    "importance_reason": "作为例证，具体剖析孟什维克领导层在革命初期的矛盾立场，支撑列宁对孟什维克策略的批判。",
+    "argument_role": "contrasts",
+    "argument_link": "承接上段对古契柯夫分子评论的引述，本段具体分析克伦斯基和齐赫泽的策略表现，揭示其动摇本质。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "克伦斯基与齐赫泽",
+        "explain": "克伦斯基是社会革命党人，齐赫泽是孟什维克，两人在二月革命后分别担任临时政府司法部长和国家杜马临时执行委员会主席，是当时孟什维克-社会革命党联盟的代表人物。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "古契柯夫分子",
+        "explain": "指以古契柯夫为首的俄国资产阶级自由派政治家，二月革命后加入临时政府，代表大资产阶级和地主利益，主张与“稳健”势力合作。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "布尔什维克与孟什维克",
+        "explain": "俄国社会民主工党在1903年分裂出的两派。布尔什维克主张通过无产阶级革命建立无产阶级专政；孟什维克则主张先建立资产阶级民主共和国，由资产阶级主导。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "孟什维克",
+      "their_view": "克伦斯基和齐赫泽的策略是必要的，因为没有资产阶级和军官的支持，就无法维持秩序、避免无政府状态。",
+      "author_response": "列宁指出，这种依赖资产阶级的策略是动摇的，其前提（资本家能带来秩序）本身就是错误的；根据社会主义学说，只有无产阶级掌握全部政权才能真正结束战争与混乱。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p77s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "古契柯夫分子",
+            "type": "social_group",
+            "modern": "以古契柯夫为代表的俄国资产阶级自由派政治势力，二月革命后主张与“稳健”力量合作。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "无政府状态",
+            "type": "concept",
+            "modern": "此处指社会秩序崩溃、失控的状态，是资产阶级用来论证其统治必要性的说辞。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "anarchy_bourgeois_argument"
+          }
+        ]
+      },
+      {
+        "sid": "p77s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "布尔什维克",
+            "type": "org",
+            "modern": "俄国社会民主工党内主张无产阶级革命和专政的派别，由列宁领导。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 3,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

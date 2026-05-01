@@ -1,0 +1,92 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 46,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "确立民族平等原则，并批判那些以反对“同化”为名、实则宣扬民族主义的冒牌马克思主义者。",
+    "importance_score": 2,
+    "importance_reason": "提出判断马克思主义者在民族问题上的核心标准，并直接点名批判论敌，为后续具体批判奠定基础。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于资本主义消除民族差别趋势的论述，转而强调在这一趋势下，无产阶级必须坚持的原则和需要反对的错误倾向。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "崩得分子和乌克兰民族社会党人",
+      "their_view": "每个民族的工人应首先关心和发展本民族文化，反对“同化”，认为这是对民族特性的侵犯。",
+      "author_response": "列宁指出，他们实际上是民族主义的市侩，其立场与马克思主义的国际主义原则相悖。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p46s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p46s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p46s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "同化",
+            "type": "concept",
+            "modern": "在民族问题语境下，指不同民族在文化、语言等方面逐渐融合的过程，列宁在此批判将其作为贬义词使用的观点。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "assimilation_national"
+          }
+        ]
+      },
+      {
+        "sid": "p46s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "崩得分子",
+            "type": "org",
+            "modern": "立陶宛、波兰和俄罗斯犹太工人总联盟的成员，该组织在民族问题上持分离主义立场。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_5gram_with_surface"
+      ]
+    }
+  ]
+}

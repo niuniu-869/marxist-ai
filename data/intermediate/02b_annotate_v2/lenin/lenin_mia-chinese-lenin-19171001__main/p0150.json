@@ -1,0 +1,76 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 150,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁以反讽口吻建议《新生活报》的经济学家们专注于经济研究，而非参与政治斗争。",
+    "importance_score": 1,
+    "importance_reason": "这是对论敌的策略性回应，建议其转向专业领域，从而间接论证政治斗争的必要性。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对《新生活报》在阶级斗争中动摇立场的批评，本段具体指出他们可以发挥作用的领域。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "《新生活报》的撰稿人",
+      "their_view": "我们应当为国家制定经济计划，研究生产和分配问题。",
+      "author_response": "列宁认为他们应专注于经济研究，而非在政治上摇摆不定。",
+      "polemic_kind": "strategic_critique",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p150s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "可爱的公民们",
+            "type": "metaphor",
+            "modern": "列宁对《新生活报》撰稿人的反讽称呼，暗示其天真或脱离实际。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p150s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p150s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

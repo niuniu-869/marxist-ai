@@ -1,0 +1,93 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 64,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "恩格斯讽刺性地描述一个持折衷主义观点的“朋友彼得”，其主张调和革命者内部争论，最后以反讽收尾。",
+    "importance_score": 1,
+    "importance_reason": "本段是讽刺性描述，用于刻画并批判一种在流亡者中流行的、试图调和原则分歧的折衷主义立场。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段对“朋友彼得”的引入，具体刻画其思想特征，为后续批判其调和主义立场做铺垫。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "折衷主义",
+        "explain": "在马克思主义论战语境中，折衷主义特指一种缺乏根本原则、试图从不同甚至对立的理论中拼凑观点的哲学立场，常被批判为机会主义的一种表现。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "折衷主义",
+      "their_view": "革命者和社会主义者内部的一切理论斗争和路线分歧都是无谓的争吵，只会让共同的敌人（反动派）高兴；正确的做法是搁置分歧，团结起来只攻击外部敌人。",
+      "author_response": "恩格斯通过讽刺性描述揭示，这种看似“全面”“公正”的调和主张，实质上是抹杀原则斗争、取消革命理论与路线的必要论战，其结果是瓦解革命队伍的战斗力。",
+      "polemic_kind": "strategic_critique",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p64s1",
+        "speaker": "quoted_opponent",
+        "stance": "cited",
+        "notes": []
+      },
+      {
+        "sid": "p64s2",
+        "speaker": "quoted_opponent",
+        "stance": "cited",
+        "notes": []
+      },
+      {
+        "sid": "p64s3",
+        "speaker": "quoted_opponent",
+        "stance": "cited",
+        "notes": []
+      },
+      {
+        "sid": "p64s4",
+        "speaker": "quoted_opponent",
+        "stance": "cited",
+        "notes": []
+      },
+      {
+        "sid": "p64s5",
+        "speaker": "quoted_opponent",
+        "stance": "cited",
+        "notes": []
+      },
+      {
+        "sid": "p64s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

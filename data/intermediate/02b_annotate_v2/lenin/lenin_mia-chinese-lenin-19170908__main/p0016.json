@@ -1,0 +1,131 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 16,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁通过区分有争议与无争议的事实，论证布尔什维克在四月事件中的参与是自发的，且其策略问题在于不够革命，而非如论敌所指责的过分革命。",
+    "importance_score": 2,
+    "importance_reason": "本段是列宁反驳“布尔什维克制造国内战争”指控的关键论证环节，通过具体事件分析，将论战焦点从“是否引发混乱”转向“革命策略是否正确”。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于运动自发性的讨论，本段将论证焦点从七月事件转向更早的四月事件，以无可争议的事实为基础，反驳对布尔什维克策略的普遍指责。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "四月危机",
+        "explain": "指1917年4月20-21日（俄历）彼得格勒爆发的自发抗议，起因是临时政府宣布继续进行帝国主义战争，示威者喊出“打倒战争”等口号，部分武装士兵参与。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "林杰其人",
+        "explain": "指左派社会革命党人尼古拉·林杰，他在四月危机中带领部分武装士兵上街，其行动与布尔什维克党无组织关联。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p16s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p16s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "4月20—21日运动",
+            "type": "event",
+            "modern": "1917年4月发生在彼得格勒的自发抗议浪潮，因临时政府外交政策引发。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p16s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "全部政权归苏维埃",
+            "type": "slogan",
+            "modern": "布尔什维克在二月革命后提出的核心政治口号，主张将国家权力从临时政府转移到工兵代表苏维埃。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p16s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "林杰",
+            "type": "person",
+            "modern": "左派社会革命党人尼古拉·林杰，在四月危机中带领部分武装士兵行动。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p16s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "庸人们",
+            "type": "social_group",
+            "modern": "列宁对当时用国内战争恐吓民众、指责布尔什维克的各派政治对手的蔑称。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 4,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote",
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

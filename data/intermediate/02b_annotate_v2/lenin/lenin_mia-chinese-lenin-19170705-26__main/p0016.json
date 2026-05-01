@@ -1,0 +1,96 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 16,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁指出反革命资产阶级反对召开立宪会议的事实，论证在特定条件下，立宪会议要么无法召开，要么会沦为无用的清谈馆。",
+    "importance_score": 3,
+    "importance_reason": "本段是列宁对“立宪幻想”进行核心批判的关键段落，直接论证了在反革命资产阶级掌权且人民受妥协政党误导的情况下，立宪会议的虚幻性。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于反革命资产阶级反对召开立宪会议的“事实”，本段进一步分析这一事实所暴露的“立宪幻想”的本质，并推导出其必然结局。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "allusion",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "法兰克福清谈馆",
+        "explain": "指1848年德国革命期间在法兰克福召开的国民议会。该议会空谈宪政理论，脱离群众，未能采取任何有效行动，最终在反动势力面前解散，成为政治清谈的代名词。",
+        "why_needed": "allusion",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p16s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p16s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "立宪幻想",
+            "type": "concept",
+            "modern": "列宁批判的一种政治观念，即相信在资产阶级掌权的背景下，通过法律程序和议会多数能决定国家命运。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "constitutional_illusion"
+          }
+        ]
+      },
+      {
+        "sid": "p16s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "法兰克福清谈馆",
+            "type": "metaphor",
+            "modern": "借指1848年法兰克福国民议会，该议会空谈理论而无实际行动，最终失败。列宁用此比喻警告立宪会议可能同样无用。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "hs:claim_5gram_with_quote",
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 33,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁通过美国独立战争的历史类比，反驳对手对布尔什维克与德国结盟的指责，揭露其双重标准。",
+    "importance_score": 2,
+    "importance_reason": "作为核心论点（判断政治立场的标准是实际服务的阶级）的支撑性例证，通过历史类比强化论证。",
+    "argument_role": "example",
+    "argument_link": "承接上段提出的判断标准，用美国革命的具体历史案例来证明：为解放事业与外部力量结盟是正当的，不应被抽象原则所苛责。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "以社会党人、民主派自居的反对派",
+      "their_view": "布尔什维克与德国签订布列斯特和约，是违背民主、自由原则的，与他们同协约国结盟性质相同。",
+      "author_response": "列宁用美国革命与西班牙、法国结盟的历史事实反问，指出无人因此责备美国人民，从而揭露对手指责的虚伪与双重标准。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p33s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "帝国主义强盗",
+            "type": "metaphor",
+            "modern": "列宁用此词指代18世纪在美洲拥有殖民地的西班牙和法国，强调其掠夺性。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p33s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p33s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p33s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p33s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_slogan_21>12"
+      ]
+    }
+  ]
+}

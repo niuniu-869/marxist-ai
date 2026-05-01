@@ -1,0 +1,76 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 12,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁直接回答了“是否应立即推翻临时政府”的问题，给出了一个包含三个层次的辩证答案。",
+    "importance_score": 3,
+    "importance_reason": "这是列宁对二月革命后俄国政治形势的核心判断，直接阐述了布尔什维克党在两个政权并存局面下的策略基础。",
+    "argument_role": "continues",
+    "argument_link": "直接承接上一段提出的“是否应当马上推翻临时政府”的问题，给出明确的、分层次的回答。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p12s3",
+        "quote": "决不能用寻常的方法去“推翻”，因为它依靠第二个政府即工人代表苏维埃对资产阶级的“支持”，而这第二个政府是直接反映大多数工农的意识和意志的唯一可能的革命政府。",
+        "trigger": "inverted_logic",
+        "reader_block": "双重否定（“决不能”）与引号（“推翻”“支持”）的组合，使读者难以把握列宁的真实意图：不是反对推翻，而是反对用“寻常”方式推翻。",
+        "parse": {
+          "claim": "列宁认为，由于临时政府的存在依赖于苏维埃的实际支持，而苏维埃本身是工农意志的体现，因此直接暴力推翻临时政府会破坏与苏维埃的关系，这种“寻常”方式行不通。",
+          "qualifiers": "限定于“寻常的方法”，即不考虑苏维埃存在这一特殊条件的直接暴力行动。",
+          "contrast_or_target": "针对那些主张立即、直接用暴力手段推翻临时政府的同志，他们忽视了苏维埃作为第二个政权的特殊地位。"
+        },
+        "why": {
+          "relation": "continues",
+          "explanation": "本句解释了上一句“不能马上推翻”的深层原因，即临时政府与苏维埃之间存在实际的权力共生关系，简单推翻会引发不可控后果。"
+        },
+        "implication": "推翻临时政府的方式必须与苏维埃的发展和转变相结合，而非孤立行动。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "主张立即推翻临时政府的同志",
+      "their_view": "既然临时政府是资产阶级的、不能给人民和平与面包，那就应该立刻用一切手段将其推翻。",
+      "author_response": "列宁指出，这种想法忽视了临时政府与苏维埃之间达成的协议，以及苏维埃作为工农意志代表机构的特殊地位，因此不能采取“寻常”的直接推翻方式。",
+      "polemic_kind": "strategic_critique",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p12s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p12s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p12s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p12s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  }
+}

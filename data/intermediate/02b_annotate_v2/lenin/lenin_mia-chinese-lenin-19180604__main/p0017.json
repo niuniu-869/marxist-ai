@@ -1,0 +1,78 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 17,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁将当前面临的饥荒与国内战争，与此前推翻沙皇和资产阶级的斗争进行对比，指出当前斗争更为艰巨，并批判资产阶级在对待战争与牺牲问题上的双重标准。",
+    "importance_score": 3,
+    "importance_reason": "本段是列宁对当前危机性质的核心定性，通过历史对比和道德批判，为后续阐述粮食政策的必要性奠定论证基础。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于帝国主义国家“有组织的饥荒”的论述，将视角转回俄国国内，指出苏维埃政权面临的斗争比以往推翻旧政权时更为复杂和危险。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "去年六月进攻",
+        "explain": "指1917年6月，俄国临时政府在第一次世界大战中发动的克伦斯基攻势。此次进攻以惨败告终，导致大量工农士兵伤亡，是临时政府失去民心的重要事件。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p17s2",
+        "quote": "那时资产阶级口袋里装着秘密条约，参加分赃，认为让成千上万俄国工农在去年六月进攻中流血牺牲不是罪恶行为，而现在却认为劳动人民反对压迫者的这种唯一正义的和神圣的战争是罪恶行为。",
+        "trigger": "inverted_logic",
+        "reader_block": "句子通过“那时…不是罪恶”与“现在…是罪恶”的尖锐对比，揭示资产阶级的双重道德标准。读者可能困惑于为何同一主体对“战争”与“牺牲”的定性完全相反。",
+        "parse": {
+          "claim": "资产阶级曾将为帝国主义利益而牺牲工农视为正当，却将工农为自身解放而进行的反抗战争污蔑为不正当。",
+          "qualifiers": "“那时”指资产阶级临时政府执政时期，“现在”指工农夺取政权后。",
+          "contrast_or_target": "资产阶级认为，为帝国主义分赃而让工农流血是正常的，而工农反抗压迫的战争则是有罪的。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "此句通过对比资产阶级在前后两个时期对战争与牺牲的截然相反的道德评判，揭露其立场完全服务于自身阶级利益，而非任何普遍的正义原则。"
+        },
+        "implication": "资产阶级的道德说教是虚伪的，其评判标准随自身阶级利益的转移而改变。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "资产阶级",
+      "their_view": "我们（资产阶级）为了帝国主义利益而让工农去流血牺牲，这是正常的；而工农为了反抗我们的压迫而进行的战争，是罪恶的。",
+      "author_response": "列宁指出，资产阶级在战争问题上奉行双重标准，其道德评判完全取决于战争是否服务于其阶级利益，从而揭露其虚伪性。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p17s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p17s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p17s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 25,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁以设问形式，质疑传统革命联盟公式在农民阶级立场变化后是否依然成立。",
+    "importance_score": 2,
+    "importance_reason": "提出对传统革命战略核心公式的质疑，为《四月提纲》中关于政权性质和革命阶段的新论断做铺垫。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于“将革命进行到底”已无意义的判断，进一步追问在新的阶级力量对比下，传统的无产阶级与农民联盟的前景。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "无产阶级和农民的专政",
+        "explain": "这是布尔什维克党在二月革命前提出的革命目标，即推翻沙皇后建立由无产阶级和农民联合掌握政权的国家。列宁在此质疑这一公式在1917年4月新形势下的可行性。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "护国主义",
+        "explain": "指在第一次世界大战期间，以“保卫祖国”为名支持本国政府继续进行帝国主义战争的立场。在俄国，这表现为支持临时政府的战争政策。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "党内固守旧公式的“老布尔什维克”",
+      "their_view": "无产阶级和农民的专政是俄国革命的既定目标和必然前景，农民阶级是可靠的革命同盟。",
+      "author_response": "列宁指出，由于农民阶级转向支持帝国主义战争（护国主义），其政治立场已发生根本变化，可能倒向君主制，因此传统联盟公式面临危机。",
+      "polemic_kind": "strategic_critique",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p25s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p25s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "护国主义",
+            "type": "concept",
+            "modern": "1917年俄国语境中，指支持临时政府继续参与一战的思潮，列宁视其为背叛社会主义国际主义原则。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "chauvinism_revolutionary"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 2,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_10>5",
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

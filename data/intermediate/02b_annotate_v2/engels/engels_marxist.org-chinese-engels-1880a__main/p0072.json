@@ -1,0 +1,154 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 72,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "叙述1848年革命后欧洲工人运动的普遍挫折，并分析英国资产阶级如何利用宗教宣传来对抗工人阶级的要求。",
+    "importance_score": 2,
+    "importance_reason": "本段是历史叙述与资产阶级策略分析的结合，为后文论证宗教作为意识形态工具的作用提供具体例证。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于工业革命催生两大对立阶级及早期工人斗争的叙述，具体展开1848年革命后工人运动遭遇的挫折及其后果。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "宪章派",
+        "explain": "19世纪30-40年代英国工人阶级争取普选权的政治运动，其核心诉求是《人民宪章》。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "路易·波拿巴",
+        "explain": "拿破仑一世的侄子，1848年当选法兰西第二共和国总统，1851年发动政变，次年称帝为拿破仑三世。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "乔纳森大哥与穆迪、桑基",
+        "explain": "“乔纳森大哥”指美国宗教复兴家乔纳森·格菲·李，穆迪和桑基是19世纪后期美国著名的福音派布道家与歌手组合。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p72s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p72s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p72s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "宪章派",
+            "type": "org",
+            "modern": "英国工人阶级为争取《人民宪章》所规定的普选权而形成的政治运动。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p72s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p72s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p72s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "路易·波拿巴",
+            "type": "person",
+            "modern": "拿破仑一世的侄子，1851年发动政变，1852年建立法兰西第二帝国。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p72s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p72s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p72s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "救世军",
+            "type": "org",
+            "modern": "基督教新教的一个社会福利与传教组织，采用军队式组织结构和布道方式。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 3,
+        "notes_dropped": 3,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_event_13>12",
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

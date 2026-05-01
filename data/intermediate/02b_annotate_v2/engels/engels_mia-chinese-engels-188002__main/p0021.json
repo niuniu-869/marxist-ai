@@ -1,0 +1,88 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 21,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "通过铁工业案例，论证保护关税政策会破坏本国工业，并引用社会党人的讽刺来揭露政策矛盾。",
+    "importance_score": 2,
+    "importance_reason": "用具体行业案例支撑对俾斯麦政策的批判，揭示其内在矛盾。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对德国钢铁业在英国市场扩张的描述，进一步分析这种扩张的不可持续性，并上升到对整个保护关税政策的批判。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p21s6",
+        "quote": "在保护德国工业的名义下组织破坏这个工业——一些德国社会党人老早就一再地说，俾斯麦先生好像得到了报酬似地为社会主义效劳，他们不是说得很对吗？",
+        "trigger": "inverted_logic",
+        "reader_block": "反问句式加反讽，读者可能误以为作者在肯定俾斯麦为社会主义效劳，实际是讽刺其政策客观上加速资本主义矛盾。",
+        "parse": {
+          "claim": "俾斯麦的保护政策实质上在破坏德国工业，这反而符合社会主义者对资本主义矛盾的预期。",
+          "qualifiers": "",
+          "contrast_or_target": "俾斯麦声称其政策是为消除社会混乱、保证工作秩序的“积极”社会主义措施。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "通过反讽总结，揭露俾斯麦政策与宣称目标的矛盾，强化批判。"
+        },
+        "implication": null,
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "俾斯麦政府",
+      "their_view": "俾斯麦声称其保护关税等政策是为消除社会混乱、保证工作秩序的“积极”社会主义措施。",
+      "author_response": "恩格斯通过铁工业案例论证，这些政策在保护名义下实际破坏工业，反而加速资本主义矛盾，客观上为社会主义创造条件。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p21s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p21s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p21s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p21s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p21s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p21s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  }
+}

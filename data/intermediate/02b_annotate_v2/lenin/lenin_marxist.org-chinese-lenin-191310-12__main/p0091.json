@@ -1,0 +1,55 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 91,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段以反问形式，质疑在制定民族纲领时为何以错误案例为榜样，强调应基于无产阶级立场选择正确范例。",
+    "importance_score": 1,
+    "importance_reason": "作为论证中的一个反问环节，强调正确榜样在民族纲领中的重要性，反驳错误倾向。",
+    "argument_role": "contrasts",
+    "argument_link": "前段指出俄国国情要求快速前进，本段则强调制定纲领时应基于无产阶级观点选择正确榜样，与错误榜样形成对比。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "民族主义动摇者",
+      "their_view": "他们主张在制定民族纲领时，应以某些民族文化的负面案例为榜样。",
+      "author_response": "列宁强调，应基于无产阶级观点，选择正确榜样来制定纲领。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "medium"
+    },
+    "sentences": [
+      {
+        "sid": "p91s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

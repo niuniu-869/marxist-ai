@@ -1,0 +1,112 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 80,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "通过分析检查令条文，指出其在执行中会导致形式标准消失、倾向判断循环的矛盾，并用反讽揭示其虚伪性。",
+    "importance_score": 2,
+    "importance_reason": "本段是核心批判的组成部分，通过逻辑推演和反讽，具体展示检查令条文的内在矛盾。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对检查令条文的引用，本段开始分析这些条文在实际执行中将导致的逻辑矛盾。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "refute_quotation"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p80s6",
+        "quote": "因此，规定的任何外表必然都被抛弃，而检查令最终必然是完全陷入自相矛盾的境地，因为用以辨别倾向的一切东西，反倒要由倾向来确定，而且反倒要用倾向来辨别。",
+        "trigger": "inverted_logic",
+        "reader_block": "句中“用以辨别倾向的一切东西，反倒要由倾向来确定”构成循环定义，读者不易理解其逻辑如何导致自相矛盾。",
+        "parse": {
+          "claim": "检查令试图用来判断作品倾向的标准（如形式、语调），最终都必须依赖于对倾向本身的预判来确定，这使得标准本身失去了独立性。",
+          "qualifiers": "此结论基于前文对检查令条文的分析，即检查官需根据形式判断倾向，又需根据倾向判断形式。",
+          "contrast_or_target": "检查令试图建立一套客观的、基于作品外在特征的审查标准。"
+        },
+        "why": {
+          "relation": "conclusion",
+          "explanation": "本句是前文分析的逻辑结论，指出检查令在操作层面会因标准与对象的相互依赖而失效，从而陷入自我否定的困境。"
+        },
+        "implication": "这揭示了以主观“倾向”为核心的审查制度，无法建立任何稳定的、可操作的客观规则。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      },
+      {
+        "anchor": "p80s7",
+        "quote": "爱国者的激烈就是一种神圣的热情，他们的感情冲动就是一种恋人的激情，他们的狂妄就是一种自我牺牲的忠诚，这种忠诚是无限的，因而不可能是温和的。",
+        "trigger": "inverted_logic",
+        "reader_block": "全句使用高度褒义的词汇（神圣、激情、忠诚）来描述“爱国者”的激烈行为，与前文对“有害倾向”的严厉形成强烈反讽，读者可能误以为是正面陈述。",
+        "parse": {
+          "claim": "检查令所容忍的“爱国者”的激烈、冲动和狂妄，会被解释为值得赞美的品质，从而豁免于审查。",
+          "qualifiers": "此判断基于检查令对“倾向”的依赖，即只要倾向被认定为“爱国”，其激烈形式便可被接受。",
+          "contrast_or_target": "检查令对“感情冲动、激烈和狂妄”等外在形式的警惕，以及其声称要防范的“有害倾向”。"
+        },
+        "why": {
+          "relation": "example",
+          "explanation": "本句是前文“倾向决定形式”论点的反讽性例证，通过夸张地描绘“爱国者”如何被豁免，来暴露审查标准的主观性和双重性。"
+        },
+        "implication": "这表明在“倾向”的名义下，审查制度将沦为对特定政治立场的偏袒，而非对言论本身的公正评判。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "普鲁士书报检查令",
+      "their_view": "检查官应根据作品形式和语调判断其倾向，若发现因感情冲动等带有有害倾向则禁止印行；同时，对“严肃和谦逊”的要求是普遍标准。",
+      "author_response": "马克思指出，这会导致形式与倾向的判断陷入循环，标准本身消失；而“爱国者”的激烈行为却会被豁免，证明标准是主观和双重的。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p80s1",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p80s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p80s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p80s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p80s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p80s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p80s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  }
+}

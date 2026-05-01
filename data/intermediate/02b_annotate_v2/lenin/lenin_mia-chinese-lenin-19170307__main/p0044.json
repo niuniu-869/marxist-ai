@@ -1,0 +1,123 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 44,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁分析二月革命后临时政府的阶级本质，指出其与沙皇制度的连续性，反驳革命已完成的观点。",
+    "importance_score": 2,
+    "importance_reason": "核心批判段落，揭露临时政府的君主派本质，为论证革命第二阶段任务提供依据。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对三种力量的划分，具体分析前两种力量（资产阶级与小资产阶级）矛盾的暂时性及其与旧制度的勾结。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "第一、二种力量",
+        "explain": "列宁在前文将革命力量划分为三种。此处“第一种”指资产阶级（以立宪民主党为代表），“第二种”指小资产阶级（以社会革命党和孟什维克为代表），他们共同构成了临时政府。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      },
+      {
+        "topic": "克伦斯基",
+        "explain": "亚历山大·克伦斯基，社会革命党人，时任临时政府司法部长，后任总理。他是临时政府中激进共和派的代表人物。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "十月党与立宪民主党",
+        "explain": "十月党代表大工商业资产阶级和大地主利益，主张君主立宪。立宪民主党（“卡德特”）是自由派资产阶级政党，主张议会共和，但实际与旧势力关系密切。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p44s2",
+        "quote": "整个新政府都是君主派，因为克伦斯基口头上的共和主义实在是不庄重的，是政治家所不齿的，客观上是玩弄政治手腕。",
+        "trigger": "inverted_logic",
+        "reader_block": "表面赞扬共和主义，实则用“不庄重”“不齿”等反讽词汇彻底否定其真诚性，读者易忽略反讽语气。",
+        "parse": {
+          "claim": "临时政府全体成员本质上拥护君主制，克伦斯基等人宣称的共和立场是虚伪的政治表演。",
+          "qualifiers": "仅针对克伦斯基“口头上的”共和主义，且是从“客观”效果判断。",
+          "contrast_or_target": "针对孟什维克等认为临时政府是共和派、应予以支持的观点。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "通过反讽揭露临时政府代表人物的虚伪，直接反驳那些认为革命已实现共和、应与临时政府合作的论调。"
+        },
+        "implication": "无产阶级不能信任临时政府的共和承诺，必须准备将其推翻。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p44s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p44s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p44s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p44s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "十月党－立宪民主党",
+            "type": "org",
+            "modern": "代表俄国大资产阶级和自由派地主利益的两个主要政党，临时政府的核心支持者。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 0,
+        "hs_kept": 1,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

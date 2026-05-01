@@ -1,0 +1,80 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 45,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列举社会革命党和孟什维克在政治上的具体活动，包括向克伦斯基输送阁员、寻求与立宪民主党合作、组织国民代表会议，以及克伦斯基撤换官员的事件。",
+    "importance_score": 2,
+    "importance_reason": "为前文关于政治幻想的论断提供具体事例支撑，展示这些政党在实践中的妥协与依附行为。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对“手脚被束缚住的人”的定性，具体描述他们奔走、妥协、寻求与反动派合流的行动。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "allusion",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "卡诺萨求见",
+        "explain": "典故出自1077年神圣罗马帝国皇帝亨利四世向教皇格里高利七世“卡诺萨悔罪”，后泛指屈辱求和或乞求宽恕。列宁用此讽刺社会革命党人向立宪民主党卑躬屈膝。",
+        "why_needed": "allusion",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "社会革命党和孟什维克",
+      "their_view": "通过向临时政府输送阁员、与立宪民主党协商、召开国民代表会议等合法程序，可以稳定国家并推进革命事业。",
+      "author_response": "列宁将这些活动描绘为向反动派“加冕”和屈辱求和，揭露其政治路线的实质是放弃革命主动权，为反革命政府提供合法性外衣。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p45s1",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": [
+          {
+            "surface": "卡诺萨",
+            "type": "archaic",
+            "modern": "1077年神圣罗马帝国皇帝亨利四世向教皇屈辱求和的历史事件，此处用作政治妥协的隐喻。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p45s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 2,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_6>5",
+        "note:n2_5gram_with_surface",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

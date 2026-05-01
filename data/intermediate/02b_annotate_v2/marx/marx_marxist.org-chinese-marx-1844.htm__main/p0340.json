@@ -1,0 +1,150 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 340,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "分析私有财产内部劳动与资本的对立结构，并指出国民经济学对地租的分析如何使这种对立尖锐化。",
+    "importance_score": 2,
+    "importance_reason": "本段是马克思早期异化劳动理论与政治经济学批判的结合点，为后续论证资本主义内在矛盾提供分析框架。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段关于生产将人塑造为“商品人”的论述，进一步剖析这种塑造背后的经济关系结构，即劳动与资本的对立。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use | history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "异己的活动",
+        "explain": "这是马克思对“异化劳动”的早期表述。指工人的劳动过程、劳动产品乃至劳动本身，都成为与工人自身相对立、相疏远的异己力量。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      },
+      {
+        "topic": "国民经济学",
+        "explain": "马克思在此特指18-19世纪的英国古典政治经济学，代表人物有亚当·斯密、大卫·李嘉图等。它研究财富的生产和分配，但马克思批判其将资本主义关系视为自然规律。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "metadata"
+      },
+      {
+        "topic": "重农学派",
+        "explain": "18世纪法国的一个经济学派别，认为农业是财富的唯一源泉，地租是纯产品。其代表人物魁奈的《经济表》是马克思分析再生产的重要参考。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p340s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p340s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "异己的活动",
+            "type": "concept",
+            "modern": "马克思早期用以描述劳动异化的核心概念，指劳动过程与结果成为支配劳动者的外在力量。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "alienation_early_marx"
+          }
+        ]
+      },
+      {
+        "sid": "p340s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p340s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p340s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "国民经济学",
+            "type": "concept",
+            "modern": "此处特指以亚当·斯密、李嘉图为代表的英国古典政治经济学体系。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "metadata",
+            "sense_id": "classical_political_economy"
+          },
+          {
+            "surface": "地租",
+            "type": "concept",
+            "modern": "土地所有者凭借土地所有权从租地农场主那里获得的收入，是剩余价值的一种转化形式。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "rent_political_economy"
+          },
+          {
+            "surface": "亚当·斯密",
+            "type": "person",
+            "modern": "英国古典政治经济学的主要奠基人之一，其著作《国富论》系统阐述了劳动价值论。",
+            "highlight": "null",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p340s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p340s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 4,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

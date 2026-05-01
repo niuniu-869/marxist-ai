@@ -1,0 +1,80 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 21,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段论证，在社会主义革命于一国胜利后，决策标准必须从有利于革命出发，而非从帝国主义阵营的选择出发。",
+    "importance_score": 3,
+    "importance_reason": "这是列宁核心论点的明确表述，为“不幸的和约”辩护提供了根本原则。",
+    "argument_role": "conclusion",
+    "argument_link": "承接上段对两种选择下都无法摆脱帝国主义联系的分析，本段在此基础上推出决策的根本原则。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p21s1",
+        "quote": "从这方面说，在这两种情况下，我们都不能完全摆脱同帝国主义的某种联系，并且很明显，不推翻全世界的帝国主义，就不能完全摆脱这种联系。",
+        "trigger": "inverted_logic",
+        "reader_block": "双重否定结构（“不能完全摆脱……不推翻……就不能完全摆脱”）加上“很明显”的强调，读者容易误读为绝对否定，实际是承认联系存在但强调无法完全摆脱。",
+        "parse": {
+          "claim": "在两种选择下，苏维埃政权都无法与帝国主义体系彻底切割，彻底独立只能通过世界革命实现。",
+          "qualifiers": "“从这方面说”限定了讨论角度，即从是否成为帝国主义代理人的角度。",
+          "contrast_or_target": "针对那些认为可以选择“较好”帝国主义阵营以避免成为其代理人的观点。"
+        },
+        "why": {
+          "relation": "continues",
+          "explanation": "本句延续上段对两种选择（接受苛刻和约或进行革命战争）的分析，指出无论哪种选择，都无法在事实上完全切断与帝国主义体系的关联，从而为下文的结论铺垫。"
+        },
+        "implication": "既然无法完全摆脱联系，那么决策的出发点就不应是“哪个帝国主义更好”，而必须是其他标准。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p21s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p21s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 1,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

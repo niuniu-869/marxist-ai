@@ -1,0 +1,121 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 37,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段强调革命权作为现代国家的根基，并以梅克伦堡和鲍古斯拉夫斯基将军为例，说明革命权深入人心，即使反动势力也援引它。",
+    "importance_score": 2,
+    "importance_reason": "本段在论证中补充革命权的重要性，防止读者误以为议会斗争会取代革命权。",
+    "argument_role": "contrasts",
+    "argument_link": "上段叙述社会主义者利用议会斗争取得成果，本段则强调他们不会因此放弃革命权，形成策略上的辩证关系。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_density",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "梅克伦堡与继承条约",
+        "explain": "梅克伦堡是德国北部地区，1755年当地贵族通过'继承条约'结束了一场革命，该条约长期有效。恩格斯用此例说明革命权在现代国家中的普遍基础。",
+        "why_needed": "history_density",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "鲍古斯拉夫斯基将军",
+        "explain": "鲍古斯拉夫斯基是19世纪普鲁士将军，他援引人民的革命权为皇帝政变辩护，恩格斯以此反讽革命权被滥用。",
+        "why_needed": "history_density",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p37s3",
+        "quote": "革命权已如此深入人心，甚至鲍古斯拉夫斯基将军也只是根据这个人民权利才为自己的皇帝引伸出举行政变的权利。",
+        "trigger": "inverted_logic",
+        "reader_block": "反讽结构：革命权本是人民反抗的权利，却被将军用来为皇帝政变辩护，读者可能困惑其逻辑。",
+        "parse": {
+          "claim": "革命权的概念如此普遍，以至于反动势力也利用它来为自己的行为正名。",
+          "qualifiers": "无特定限定条件。",
+          "contrast_or_target": "革命权作为人民权利，与将军为皇帝政变辩护形成对比。"
+        },
+        "why": {
+          "relation": "example",
+          "explanation": "本句用鲍古斯拉夫斯基将军的例子，具体说明革命权深入人心的程度，甚至被反动派挪用。"
+        },
+        "implication": "这表明革命权已成为不可否认的历史事实，任何政治势力都需面对它。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p37s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "革命权",
+            "type": "concept",
+            "modern": "在马克思主义语境中，指人民推翻现存政权的天然权利，是历史发展的产物。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "revolutionary_right"
+          }
+        ]
+      },
+      {
+        "sid": "p37s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "梅克伦堡",
+            "type": "place",
+            "modern": "德国北部一个历史地区，1755年发生贵族革命并以继承条约结束。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "继承条约",
+            "type": "event",
+            "modern": "1755年梅克伦堡贵族革命后签订的条约，长期有效。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p37s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "鲍古斯拉夫斯基将军",
+            "type": "person",
+            "modern": "19世纪普鲁士将军，曾援引革命权为皇帝政变辩护。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  }
+}

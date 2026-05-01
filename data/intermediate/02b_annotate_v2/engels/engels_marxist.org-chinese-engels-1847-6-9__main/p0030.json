@@ -1,0 +1,136 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 30,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段界定手工业者的社会属性，分析其在资本主义竞争下的历史命运，并指出其阶级分化的两条道路。",
+    "importance_score": 2,
+    "importance_reason": "具体阐释了前一段提出的无产者与手工业者的区别，是理解小资产阶级历史过渡性的关键段落。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段关于无产者与手工业者区别的提问，本段给出具体界定和历史分析。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p30s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "无产者",
+            "type": "concept",
+            "modern": "在资本主义生产关系中丧失生产资料、只能出卖劳动力的劳动者群体。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "proletarian_modern"
+          },
+          {
+            "surface": "手工业者",
+            "type": "social_group",
+            "modern": "拥有简单生产工具、依靠个人或家庭劳动的小商品生产者。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p30s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "资本",
+            "type": "concept",
+            "modern": "能够带来剩余价值的价值，体现为生产资料和货币等形式。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "capital_general"
+          },
+          {
+            "surface": "剥削",
+            "type": "concept",
+            "modern": "占有他人无偿劳动或剩余劳动的行为。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "exploitation_marxist"
+          }
+        ]
+      },
+      {
+        "sid": "p30s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "行会",
+            "type": "social_group",
+            "modern": "中世纪城市中同行业手工业者的组织，限制竞争和学徒数量。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p30s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p30s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "中间等级",
+            "type": "social_group",
+            "modern": "介于资产阶级和无产阶级之间的社会阶层，如小资产阶级。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 6,
+        "notes_dropped": 3,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n4_concept_no_sense_id",
+        "note:n1_overflow_concept_7>5",
+        "note:n1_overflow_concept_6>5"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 30,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁通过分析国内残留的敌对阶级及其活动，论证社会主义的胜利必须以这些阶层的彻底崩溃为前提，并指出他们的行动具有国际联系。",
+    "importance_score": 2,
+    "importance_reason": "本段是列宁对“怠工证明人民不愿社会主义”论调的系统性反驳，通过阶级分析阐明国内战争的必然性与长期性。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对“怠工者是资产阶级匪徒”的定性，本段进一步展开分析，具体列举国内残留的敌对阶层，并论证其覆灭是社会主义胜利的必要条件。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p30s8",
+        "quote": "难道他们是单独行动的吗？",
+        "trigger": "inverted_logic",
+        "reader_block": "反问句式，读者可能只关注字面，未意识到这是在强调国内资本家与国际资本的勾结。",
+        "parse": {
+          "claim": "国内的资本家（如里亚布申斯基）并非孤立行动，而是与国际资本势力联合。",
+          "qualifiers": "",
+          "contrast_or_target": "反驳将国内反抗视为孤立事件的观点，强调其国际阶级联系。"
+        },
+        "why": {
+          "relation": "continues",
+          "explanation": "紧接上句，将国内资本家的行动置于国际背景下，为下句点明与法、英、美资本家的联系做铺垫。"
+        },
+        "implication": "苏维埃政权面临的斗争具有国际性，国内反革命是世界资产阶级战线的一部分。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "认为官吏怠工证明人民不愿走向社会主义的论调",
+      "their_view": "官吏和地主的怠工行为，表明俄国人民并不支持或不愿意走向社会主义。",
+      "author_response": "怠工是资产阶级及其代理人有组织的反抗，是阶级斗争的表现；社会主义的胜利恰恰需要这些剥削阶层的彻底崩溃。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p30s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p30s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p30s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p30s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p30s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p30s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p30s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p30s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p30s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p30s10",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p30s11",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 1,
+        "hs_kept": 1,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_5gram_with_surface",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

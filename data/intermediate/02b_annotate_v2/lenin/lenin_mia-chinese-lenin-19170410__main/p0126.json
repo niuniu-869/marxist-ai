@@ -1,0 +1,98 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 126,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁以德国社会民主党议员投票支持战争为例，批判其整体背叛社会主义事业，并赞扬李卜克内西的孤立反抗。",
+    "importance_score": 2,
+    "importance_reason": "通过具体案例，论证第二国际主流政党已彻底堕落，为后文提出建立新国际的主张提供事实依据。",
+    "argument_role": "example",
+    "argument_link": "承接上段对李卜克内西斗争精神的赞扬，本段用德国议会投票的具体事例，展示其与整个党的决裂，以及该党的彻底堕落。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "allusion",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "李卜克内西与吕勒",
+        "explain": "卡尔·李卜克内西是德国社会民主党左派领袖，因反对一战被捕入狱。奥托·吕勒是其同志，两人在议会中投票反对战争拨款，是党内仅有的反对者。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "斯巴达克派",
+        "explain": "德国社会民主党内的左翼革命派别，因反对战争和党的官方路线而形成，名称源于古罗马奴隶起义领袖斯巴达克，后发展为德国共产党。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "罗莎·卢森堡",
+        "explain": "波兰裔德国马克思主义理论家、革命家，斯巴达克派的核心领袖之一，与李卜克内西并肩战斗，后在德国革命中被杀害。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "德国社会民主党",
+      "their_view": "作为社会党，应维护党内团结与纪律，与“中派”及沙文主义者保持一致，共同支持本国政府进行战争。",
+      "author_response": "列宁指出，这种“团结一致”是背叛社会主义原则的同流合污，整个党已沦为资产阶级沙文主义的工具，政治上已经死亡。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p126s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p126s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p126s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "斯巴达克派",
+            "type": "org",
+            "modern": "德国社会民主党内的左翼革命派别，因反对战争和党的官方路线而形成，名称源于古罗马奴隶起义领袖斯巴达克。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

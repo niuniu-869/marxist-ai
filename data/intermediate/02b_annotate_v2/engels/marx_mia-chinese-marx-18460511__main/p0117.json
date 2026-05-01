@@ -1,0 +1,102 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 117,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段通过分析克利盖的言论，揭露其宗教本质和奴隶般自卑，批判这种宣传不适用于革命斗争。",
+    "importance_score": 2,
+    "importance_reason": "本段是通告中对克利盖思想宗教本质的集中剖析，构成核心批判的一部分。",
+    "argument_role": "continues",
+    "argument_link": "本段延续上段对克利盖矛盾立场的揭露，进一步深入到其思想根源，即其宗教式的“人类”崇拜。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic | allusion",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "拉梅耐神父",
+        "explain": "费利西泰·德·拉梅耐是19世纪法国天主教神父，其思想融合了基督教与社会批判，对部分社会主义者有影响。克利盖频繁引用他，是其宗教化“共产主义”的来源之一。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p117s1",
+        "quote": "对于脱离了“人格”并且与人格对立的“人类”（人类于是变成形而上学的臆想，而照克利盖的说法甚至变成宗教的臆想）的这种可耻的令人讨厌的奉承，这种真正极端“下贱的”奴隶般的自卑，就是克利盖的宗教以及其他任何宗教的结论。",
+        "trigger": "inverted_logic",
+        "reader_block": "恩格斯用“奉承”“自卑”等强烈贬义词描述克利盖对“人类”的推崇，构成反讽。读者需理解，恩格斯批判的正是这种将抽象“人类”置于具体个人之上的逻辑。",
+        "parse": {
+          "claim": "克利盖将“人类”抽象化并与具体人格对立，这种做法本质上是一种自我贬低和奴性思维，是其宗教思想的必然结果。",
+          "qualifiers": "此判断针对克利盖所宣扬的特定“人类”概念，该概念脱离了现实的、具体的人。",
+          "contrast_or_target": "克利盖认为，人不应只关心自身，而应献身于一个更高、更普遍的“人类”理念。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "本句直接剖析克利盖言论的内在逻辑，将其对“人类”的抽象颂扬定性为宗教式的自我否定，从而揭露其思想的非革命性。"
+        },
+        "implication": "这种将抽象理念置于现实个人之上的思想，无法指导具体的阶级斗争。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      },
+      {
+        "anchor": "p117s3",
+        "quote": "所差的只是使这些勇敢的僧侣阉割自己，去掉“下贱的人格”，以便使他们深信“人类”是能再生产自己的！",
+        "trigger": "allusion",
+        "reader_block": "“阉割自己”是隐喻，指彻底放弃个人意志与利益。读者可能不理解为何用此激烈比喻，需联系上文对“奴隶般自卑”的批判。",
+        "parse": {
+          "claim": "克利盖的学说逻辑推演到底，就是要求信徒完全抹杀自我，以一种自残的方式去信仰那个抽象的“人类”能够自我维系。",
+          "qualifiers": "这是对克利盖学说内在要求的极端化推论。",
+          "contrast_or_target": "克利盖号召人们为了“人类”而行动。"
+        },
+        "why": {
+          "relation": "continues",
+          "explanation": "本句用尖锐的隐喻，将上句对“奴隶般自卑”的批判推向一个更具体的、令人不适的意象，强化了对其学说反人性本质的揭露。"
+        },
+        "implication": "这种要求个体彻底牺牲的学说，与无产阶级为自身解放而斗争的革命精神背道而驰。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "克利盖",
+      "their_view": "人不应只关心自身狭隘的利益，而应将自己奉献给一个更崇高、更普遍的“人类”整体，并通过宗教情感和道德感化来实现这一目标。",
+      "author_response": "恩格斯指出，这种将抽象“人类”与具体人格对立的说教，是宗教式的自我贬低和奴隶道德，它麻痹斗争意志，绝不适用于需要坚强意志的革命者。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p117s1",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p117s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p117s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p117s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  }
+}

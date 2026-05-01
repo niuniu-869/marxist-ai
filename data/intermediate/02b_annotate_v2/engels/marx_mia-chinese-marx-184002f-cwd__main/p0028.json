@@ -1,0 +1,115 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 28,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段描述资产阶级掌权后对社会关系的全面改造，用对比手法展现其破坏性和建立的新秩序。",
+    "importance_score": 2,
+    "importance_reason": "对资产阶级历史作用的具体展开，是核心批判的一部分，揭示资本主义社会关系的本质。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对资产阶级革命性的肯定，具体阐述其掌权后如何摧毁旧秩序并建立新的社会联结方式。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p28s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p28s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p28s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "现金主义",
+            "type": "metaphor",
+            "modern": "将人与人之间的关系简化为赤裸裸的金钱交易关系。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p28s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "利害计较的冰水",
+            "type": "metaphor",
+            "modern": "形容资本主义社会中冷酷的、基于利益算计的人际关系。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p28s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "交换价值",
+            "type": "concept",
+            "modern": "商品价值的一种形式，指商品在交换中所体现的比例关系。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "value_exchange"
+          }
+        ]
+      },
+      {
+        "sid": "p28s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 3,
+        "notes_dropped": 3,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "note:n1_overflow_archaic_5>4",
+        "note:n1_overflow_metaphor_19>8"
+      ]
+    }
+  ]
+}

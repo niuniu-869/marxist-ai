@@ -1,0 +1,69 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 175,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段通过具体事例，揭露克伦斯基政府用召开立宪会议的诺言安抚农民，同时却对农民采取镇压措施的虚伪性。",
+    "importance_score": 2,
+    "importance_reason": "通过具体事例批判临时政府的欺骗性，为论证布尔什维克必须夺取政权提供现实依据。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段对《人民事业报》称克伦斯基为“斯托雷平分子”的引用，本段具体展开这一批判，列举其镇压农民与空许诺言的矛盾行为。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "1917年立宪会议推迟",
+        "explain": "克伦斯基领导的临时政府曾承诺于1917年9月17日召开立宪会议，但后来推迟至11月底。这一失信行为是列宁批判其欺骗性的关键事实依据。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "克伦斯基政府",
+      "their_view": "我们（克伦斯基政府）会如期召开立宪会议，以此安抚因我们的军事措施而不满的农民。",
+      "author_response": "列宁指出，他们此前已就立宪会议日期欺骗过人民，且同时在农村实施镇压，其诺言毫无可信度。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p175s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p175s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

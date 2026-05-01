@@ -1,0 +1,75 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 36,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "马克思分析西班牙革命中洪达发布的告人民书，指出其既体现了人民的英雄力量，又带有西班牙文学与性格中夸张、虚荣的弊病。",
+    "importance_score": 1,
+    "importance_reason": "本段是对革命中具体文献（告人民书）的风格与内容分析，属于对革命表现形式的描述性评价，为理解革命的复杂性提供侧面例证。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对洪达政府无政府状态的描述，进一步分析这些洪达所发布的官方文件的具体特征。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "西斯蒙第与西班牙文学",
+        "explain": "西斯蒙第是19世纪瑞士经济学家与历史学家。他曾批评西班牙文学具有“东方的”特质，指其文风过于夸张、矫饰、空洞，与严谨的古典风格相对。马克思借用此评价来分析洪达的告人民书。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p36s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p36s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p36s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

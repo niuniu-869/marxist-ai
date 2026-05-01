@@ -1,0 +1,103 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 53,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "恩格斯批评施达克对唯物主义和唯心主义的庸俗化理解，揭露这种理解迎合了教士对唯物主义的诽谤，并描绘了庸人自身的虚伪。",
+    "importance_score": 2,
+    "importance_reason": "本段通过描绘庸人对哲学基本派别的偏见，具体化了对施达克错误的批判，为后文澄清唯物主义的真实含义做铺垫。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对施达克错误归类的批评，本段具体描绘施达克所迎合的那种庸俗偏见的内容，以揭示其荒谬性。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p53s1",
+        "quote": "事实上，施达克在这里向庸人的那种由于教士的多年诽谤而对“唯物主义”这个名称产生的偏见做了不可饶恕的让步，虽然这也许是不自觉的。",
+        "trigger": "inverted_logic",
+        "reader_block": "“不可饶恕的让步”是强烈的谴责，但后面又加上“也许是不自觉的”，这种让步语气可能让读者困惑于恩格斯批评的严厉程度。",
+        "parse": {
+          "claim": "施达克在论述中，不自觉地迎合了社会上因长期受教士诋毁而形成的、对唯物主义一词的普遍误解。",
+          "qualifiers": "这种迎合可能是无意识的。",
+          "contrast_or_target": "施达克将唯物主义与追求美德对立起来的观点。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "本句直接点明施达克的错误在于迎合偏见，为下文具体描绘这种偏见的内容定下批判基调。"
+        },
+        "implication": "施达克的哲学分类标准并非基于理论本身，而是基于社会流行的、被扭曲的标签。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      },
+      {
+        "anchor": "p53s3",
+        "quote": "而把唯心主义理解为对美德、普通的人类爱的信仰，总之，对“美好世界”的信仰，——他在别人面前夸耀这个“美好世界”，但是他自己至多只是在这样的时候才相信这个“美好世界”，这时，他由于自己平时的“唯物主义的”放纵而必然感到懊丧或遭到破产，并因此唱出了他心爱的歌：人是什么？",
+        "trigger": "inverted_logic",
+        "reader_block": "句子通过破折号插入一个长对比，揭露庸人言行不一的虚伪，这种反讽结构需要读者理清“夸耀”与“相信”的条件关系。",
+        "parse": {
+          "claim": "庸人将唯心主义等同于对美德和美好世界的信仰，并以此自夸，但他们自己只在因放纵享乐而懊悔或失败时，才真正相信这套说辞。",
+          "qualifiers": "他们只在特定情境（懊丧或破产）下才相信。",
+          "contrast_or_target": "庸人公开标榜的唯心主义信仰与其私下行为之间的矛盾。"
+        },
+        "why": {
+          "relation": "example",
+          "explanation": "本句作为例证，具体展示上句所描述的庸人对唯心主义的理解，并揭露其虚伪性，从而强化对施达克所迎合偏见的批判。"
+        },
+        "implication": "庸人所推崇的“唯心主义”并非严肃的哲学立场，而是其放纵生活的一种道德遮羞布。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "施达克",
+      "their_view": "唯物主义等同于贪吃、酗酒、肉欲等低级欲望的追求；唯心主义则等同于对美德和人类之爱的信仰。",
+      "author_response": "施达克这种划分迎合了教士长期诽谤唯物主义所造成的社会偏见，是向庸俗见解的让步，而非严肃的哲学分析。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p53s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p53s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "庸人",
+            "type": "social_group",
+            "modern": "此处指受传统宗教道德观念影响、对哲学概念持有肤浅偏见的普通市民阶层。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p53s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p53s4",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 36,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁用反问句式讽刺对手以监督措施复杂为借口拖延实施，揭露其无能或故意阻挠。",
+    "importance_score": 2,
+    "importance_reason": "本段通过反问强化上段论点，直接反驳对手的借口，为提出简单监督方案做铺垫。",
+    "argument_role": "continues",
+    "argument_link": "上段指出监督措施简单易行，本段用反问讽刺对手声称复杂，继续揭露其拖延策略。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p36s1",
+        "quote": "这里可能发生一个问题：也许监督的办法和措施是一种极端复杂困难、没有经过试验、甚至人们都不知道的事情吧？",
+        "trigger": "inverted_logic",
+        "reader_block": "反问句式，读者可能误以为作者在承认监督措施复杂，实际是讽刺对手找借口。",
+        "parse": {
+          "claim": "监督措施实际上简单易行，对手声称复杂是拖延的托词。",
+          "qualifiers": "",
+          "contrast_or_target": "对手认为监督措施极端复杂困难，没有经过试验。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "本句通过反问揭露对手借口监督措施复杂，实则拖延不实施，为后续提出简单方案做铺垫。"
+        },
+        "implication": "暗示对手的借口站不住脚，监督可以立即实施。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      },
+      {
+        "anchor": "p36s2",
+        "quote": "也许监督之所以迟迟没有实行，是因为立宪民主党、工商业阶级、孟什维克和社会革命党中的国家要人虽然已经累得满头大汗，用了半年的时间来探求、研究、发现监督的措施和办法，但这个任务过于困难而仍然没有得到解决吧？",
+        "trigger": "inverted_logic",
+        "reader_block": "反问句式，读者可能以为作者在同情对手的努力，实际是讽刺其半年未解决的无能或故意。",
+        "parse": {
+          "claim": "对手花费半年时间研究监督措施仍未解决，表明他们要么无能要么故意拖延。",
+          "qualifiers": "",
+          "contrast_or_target": "对手声称监督迟迟未实行是因为任务过于困难。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "本句进一步讽刺对手以任务困难为借口，揭露其不作为的本质。"
+        },
+        "implication": "强调监督措施并不困难，对手的拖延是政治选择。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "孟什维克和社会革命党",
+      "their_view": "监督措施极端复杂困难，需要长时间研究才能实施。",
+      "author_response": "列宁讽刺他们累得满头大汗却一无所获，实际上监督简单易行。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p36s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p36s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  }
+}

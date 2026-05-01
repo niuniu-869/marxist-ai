@@ -1,0 +1,65 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 63,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁引用马克思对巴枯宁派的批判，以此强调政治革命行动对俄国社会民主党具有关键意义。",
+    "importance_score": 2,
+    "importance_reason": "通过引用马克思的权威论断，为列宁本人强调政治革命行动的立场提供历史依据，支撑其对机会主义的批判。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对马克思批判立场的引用，进一步将马克思的观点与俄国当前（1905年后）的具体策略问题直接关联。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "refute_quotation"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p63s1",
+        "speaker": "quoted_marx",
+        "stance": "endorsed",
+        "notes": [
+          {
+            "surface": "千年王国",
+            "type": "concept",
+            "modern": "源自基督教末世论，指完美的理想时代。此处马克思用以讽刺巴枯宁派幻想不经斗争直接进入共产主义。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "millenarianism_socialist"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

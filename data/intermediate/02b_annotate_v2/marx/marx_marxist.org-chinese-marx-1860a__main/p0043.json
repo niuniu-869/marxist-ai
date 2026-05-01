@@ -1,0 +1,79 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 43,
+  "annotation": {
+    "block_type": "quote_block",
+    "gist": "马克思摘录巴枯宁对西班牙各地自发革命行动的描述，呈现其理想中的无政府革命图景。",
+    "importance_score": 2,
+    "importance_reason": "作为马克思批判巴枯宁无政府主义革命观的具体例证。",
+    "argument_role": "example",
+    "argument_link": "承接上文对德国农民的讨论，转而以西班牙为例展示巴枯宁所推崇的自发革命模式。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_density",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "refute_quotation"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "西班牙卡洛斯派",
+        "explain": "19世纪西班牙支持唐·卡洛斯王位继承权的保守势力，与自由派和革命派对立，控制着部分北方地区。",
+        "why_needed": "history_density",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "fueros（自治特权）",
+        "explain": "西班牙巴斯克等地区的历史性法律与特权，保障地方自治，常被地方势力用以对抗中央集权。",
+        "why_needed": "history_density",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "国际与社会革命者同盟",
+        "explain": "“国际”指第一国际（国际工人协会）。“社会革命者同盟”是巴枯宁派在国际内部建立的秘密组织，主张通过暴动实现革命。",
+        "why_needed": "history_density",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "巴枯宁",
+      "their_view": "革命社会主义的力量控制了西班牙。农民自发夺取土地，地区宣布独立，人民成立联邦共和国，军队与人民站在一起，国家机器消失，人民在国际和同盟的领导下组织起来。",
+      "author_response": "马克思摘录这段话，是为了展示巴枯宁所推崇的、完全自发且无国家组织的革命图景，为后续批判其无政府主义幻想做铺垫。",
+      "polemic_kind": "counter_quotation",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p43s1",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 3,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_6>5",
+        "note:n1_overflow_archaic_6>4",
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

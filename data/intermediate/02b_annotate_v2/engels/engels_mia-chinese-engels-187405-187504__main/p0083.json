@@ -1,0 +1,107 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 83,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "恩格斯讽刺“朋友彼得”将特卡乔夫的理论神秘化，使其脱离实际革命斗争，沦为经院哲学式的空谈。",
+    "importance_score": 2,
+    "importance_reason": "作为对具体论敌（彼得与特卡乔夫）的批判实例，支撑上一段对空谈革命者的普遍性揭露。",
+    "argument_role": "contrasts",
+    "argument_link": "承接上一段对空谈革命者的普遍性质问，本段具体转向对“朋友彼得”及其所辩护的特卡乔夫理论的讽刺，将抽象批判落实到具体对象。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "rhetorical",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p83s5",
+        "quote": "在这里“革命”本身成了某种像童贞马利亚之类的东西，理论成了信仰，参加运动成了祭祀，而一切活动都不是在我们这个罪孽深重的尘世展开的，而是在一般辞句的九霄云外进行的。",
+        "trigger": "rhetorical",
+        "reader_block": "恩格斯用一连串宗教比喻（童贞马利亚、信仰、祭祀）来讽刺一种脱离实际的革命观，读者可能不熟悉这种类比，或误以为是正面描述。",
+        "parse": {
+          "claim": "恩格斯认为，彼得等人将“革命”这一现实政治行动神圣化、抽象化，使其脱离了具体的阶级斗争实践。",
+          "qualifiers": "特指彼得在《书翰》中呈现的革命理论。",
+          "contrast_or_target": "彼得等人将革命视为一种需要先验条件和纯粹理论准备的神圣事业，而非现实的阶级斗争。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "本句是恩格斯对彼得理论脱离实际性质的总结性讽刺，通过宗教比喻揭露其将革命实践神秘化、空谈化的本质，直接服务于反驳彼得观点的论战目的。"
+        },
+        "implication": "这种将革命理论化的倾向，会导致革命者脱离群众和现实斗争，陷入自我满足的空谈。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "朋友彼得（洛帕廷）与特卡乔夫",
+      "their_view": "特卡乔夫的理论对俄国青年有巨大吸引力；革命家需要首先从理论上研究人民是否准备好、在何种条件下才能号召革命。",
+      "author_response": "恩格斯将这种理论研究比作中世纪经院哲学对神学问题的空洞辩论，讽刺其脱离现实的阶级斗争，将革命本身变成了一个需要顶礼膜拜的抽象偶像。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p83s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p83s2",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": [
+          {
+            "surface": "埃卡尔特",
+            "type": "archaic",
+            "modern": "中世纪传说中守护少女的骑士，恩格斯用此讽刺彼得自视为俄国青年的保护者。",
+            "highlight": "archaic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p83s3",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p83s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p83s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 1,
+        "hs_kept": 1,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_archaic_5>4"
+      ]
+    }
+  ]
+}

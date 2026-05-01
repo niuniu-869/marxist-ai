@@ -1,0 +1,76 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 101,
+  "annotation": {
+    "block_type": "quote_block",
+    "gist": "引用傅立叶的论断，指出资本主义社会中生产过剩与普遍贫困并存的矛盾现象。",
+    "importance_score": 2,
+    "importance_reason": "作为前文对空想社会主义批判的延续，用傅立叶自己的话具体例证了资本主义的内在矛盾，为后文科学分析铺垫。",
+    "argument_role": "example",
+    "argument_link": "承接上段对傅立叶批判文明时代矛盾的概述，此处直接引用其核心论断，作为具体例证。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_polysemy",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "傅立叶的“文明时代”",
+        "explain": "傅立叶将人类历史划分为蒙昧、宗法、野蛮和文明四个阶段。他所称的“文明时代”特指他所处的资本主义社会，并对其持尖锐批判态度。",
+        "why_needed": "term_polysemy",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p101s1",
+        "quote": "“在文明时代，贫困是由过剩本身产生的”［②］。",
+        "trigger": "inverted_logic",
+        "reader_block": "常识认为“过剩”意味着富足，但此句断言“过剩”反而“产生”贫困，这种反直觉的因果关系是理解的关键卡点。",
+        "parse": {
+          "claim": "资本主义社会（文明时代）中，社会财富的普遍过剩与劳动者的普遍贫困是同时发生、互为因果的。",
+          "qualifiers": "限定于傅立叶所定义的“文明时代”这一历史阶段。",
+          "contrast_or_target": ""
+        },
+        "why": {
+          "relation": "example",
+          "explanation": "此句是傅立叶对资本主义矛盾的具体概括，用以例证前文所述的“文明时代”内在的、与愿望相悖的虚伪性。"
+        },
+        "implication": "这揭示了资本主义生产方式的基本矛盾：生产社会化与生产资料私人占有之间的矛盾，导致了生产相对过剩与有效需求不足并存的经济危机。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p101s1",
+        "speaker": "quoted_opponent",
+        "stance": "endorsed",
+        "notes": [
+          {
+            "surface": "文明时代",
+            "type": "concept",
+            "modern": "傅立叶历史分期理论中特指资本主义社会阶段",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "civilization_fourier"
+          }
+        ]
+      }
+    ]
+  }
+}

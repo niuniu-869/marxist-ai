@@ -1,0 +1,74 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 7,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段引用资产阶级激进派代表埃普斯博士的言论，展示其如何用一套说辞反对工人阶级的独立政治行动，特别是针对宪章派。",
+    "importance_score": 2,
+    "importance_reason": "通过具体引文，支撑上一段对埃普斯博士言论的描述，展示资产阶级激进派反对工人独立政治行动的典型论点。",
+    "argument_role": "example",
+    "argument_link": "本段是上一段描述的具体例证，用埃普斯博士的原话来展示其如何否定革命、攻击宪章派，并提出一套基于个人改良的替代方案。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p7s1",
+        "quote": "“人们在工人面前诽谤资产阶级，好象唯一能为工人取得政治权利的阶级并不是资产阶级。（叫声：“不是！不是！”）不是？难道资产者不是选民？难道不是只有选民才能给那些没有选举权的人以选举权？你们中间有没有一个人当他可能成为资产者的时候却不成为资产者呢？啊，如果工人愿意戒酒，戒烟，那末他们就会有钱进行政治宣传，因而也就会有力量来促进他们的解放……。” 这就是反对奥康瑙尔和宪章派的那些先生们的演说词！",
+        "trigger": "inverted_logic",
+        "reader_block": "连续的反问句和双重否定（“难道不是……”）构成强烈的修辞效果，读者容易被其表面逻辑带入，误以为是在肯定资产阶级的唯一作用，而忽略这是恩格斯在引用并讽刺论敌。",
+        "parse": {
+          "claim": "资产阶级激进派声称，只有作为选民的资产阶级才能赋予工人政治权利，工人通过戒酒戒烟积累财富就能获得政治宣传的力量，从而实现解放。",
+          "qualifiers": "此论点的前提是，政治权利的获取完全依赖于现有选民（资产阶级）的赋予，且工人的经济状况是其政治力量的决定性因素。",
+          "contrast_or_target": "反驳宪章派关于工人阶级应独立组织、直接争取普选权的主张，认为后者是在“诽谤”资产阶级这个唯一能提供帮助的阶级。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "这段引文是恩格斯用来直接展示资产阶级激进派（以埃普斯博士为代表）的核心论点，即通过个人道德改良（戒酒戒烟）积累财富来换取政治权利，以此反对宪章派的阶级斗争和直接政治行动路线。"
+        },
+        "implication": "这种论点的实质是将政治权利的获取个人化、道德化，回避了通过阶级斗争和集体行动改变生产关系与国家机器的根本问题。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p7s1",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 1,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

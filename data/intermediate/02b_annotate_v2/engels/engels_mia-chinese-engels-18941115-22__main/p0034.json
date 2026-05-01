@@ -1,0 +1,152 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 34,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "逐句反驳法国社会党纲领中关于社会主义任务的错误表述，指出其混淆了社会主义公有制与小农私有制。",
+    "importance_score": 2,
+    "importance_reason": "核心批判段落，直接针对论敌纲领条文进行理论澄清，阐明社会主义的真正目标。",
+    "argument_role": "contrasts",
+    "argument_link": "上一段从后果论证保护小农所有权是延长其被奴役状态，本段则直接从纲领文本入手，逐句驳斥其对社会主义任务的错误定义。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "refute_quotation"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p34s1",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": [
+          {
+            "surface": "生产资料",
+            "type": "concept",
+            "modern": "在农业语境下，主要指土地等进行生产所需的物质条件。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "means_of_production"
+          }
+        ]
+      },
+      {
+        "sid": "p34s2",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": [
+          {
+            "surface": "所有权",
+            "type": "concept",
+            "modern": "此处特指生产资料的归属权，是纲领讨论的核心法律形式。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "ownership_means_of_production"
+          }
+        ]
+      },
+      {
+        "sid": "p34s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "社会主义的任务",
+            "type": "program_clause",
+            "modern": "纲领对社会主义目标的定义，恩格斯认为其表述过于笼统且不准确。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p34s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "公共占有",
+            "type": "concept",
+            "modern": "生产资料归社会全体成员共同所有，是社会主义公有制的核心。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "public_ownership"
+          }
+        ]
+      },
+      {
+        "sid": "p34s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "虚构的所有权",
+            "type": "metaphor",
+            "modern": "恩格斯认为小农在资本主义下对土地的所有权只是法律名义，实际已被债务和市场侵蚀。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          },
+          {
+            "surface": "私有者",
+            "type": "concept",
+            "modern": "拥有生产资料的个人，此处指小农。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "private_owner"
+          }
+        ]
+      },
+      {
+        "sid": "p34s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "假象",
+            "type": "metaphor",
+            "modern": "恩格斯认为小农的土地所有权在资本主义条件下只是一种表面现象。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 7,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

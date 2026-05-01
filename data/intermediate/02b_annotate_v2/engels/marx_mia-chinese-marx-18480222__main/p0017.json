@@ -1,0 +1,103 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 17,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "恩格斯以英国议会政治为例，指出其核心议题实质上是围绕财产关系与所有制的斗争。",
+    "importance_score": 2,
+    "importance_reason": "作为前段关于法国大革命论点的平行例证，用英国政治斗争的具体史实支撑核心论断。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对法国大革命“人权”口号的分析，将论证从法国转向英国，用另一国的政治斗争实例来强化“政治斗争本质是财产关系斗争”这一论点。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "英国改革法案与谷物法",
+        "explain": "“改革法案”指1832年英国议会改革法案，扩大了选举权，削弱了土地贵族势力。“废除谷物法”指1846年废除限制谷物进口的法律，打击了土地贵族利益，有利于工业资产阶级。这两件事是当时英国政治斗争的焦点。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p17s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p17s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "改革法案",
+            "type": "event",
+            "modern": "1832年英国议会改革法案，是工业资产阶级与土地贵族争夺政治权力的标志性事件。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "废除谷物法",
+            "type": "event",
+            "modern": "1846年英国废除《谷物法》，标志着工业资产阶级在经济政策上战胜土地贵族。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p17s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "社会问题",
+            "type": "concept",
+            "modern": "在本文语境下，特指由生产资料所有制决定的社会结构与阶级关系问题。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "social_question"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 3,
+        "notes_dropped": 2,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

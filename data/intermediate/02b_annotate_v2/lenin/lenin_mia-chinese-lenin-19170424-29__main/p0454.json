@@ -1,0 +1,119 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 454,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁拒绝格里姆的代表会议邀请，声明只与齐美尔瓦尔德左派接触，并解释格里姆决议的程序依据。",
+    "importance_score": 2,
+    "importance_reason": "本段具体展示了列宁在国际社会主义运动中划清界限的实践，支撑其反对社会沙文主义的立场。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于季诺维也夫访问斯德哥尔摩的讨论，具体说明列宁本人在类似国际接触中的原则立场。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "格里姆与齐美尔瓦尔德",
+        "explain": "格里姆是瑞士社会民主党人，齐美尔瓦尔德运动的组织者之一。该运动是第一次世界大战期间欧洲反战社会主义者的国际联合，内部存在左派（主张变帝国主义战争为国内革命战争）与中派（以考茨基为代表）的斗争。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "考茨基与龙格",
+        "explain": "考茨基是德国社会民主党理论家，龙格是法国社会党领袖。二人在战争问题上持中派立场，被列宁视为社会沙文主义的代表，认为他们以理论或议会形式支持本国政府的战争政策。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "胡斯曼与执行局",
+        "explain": "胡斯曼是第二国际社会党国际局的书记。格里姆的声明意指，如果第二国际的正式机构（由胡斯曼召集）恢复活动，他领导的齐美尔瓦尔德执行局将自行解散，以示统一。",
+        "why_needed": "history_missing",
+        "confidence": "medium",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "社会沙文主义者",
+      "their_view": "在战争问题上背叛国际主义，以保卫祖国为名支持本国资产阶级政府进行的帝国主义战争，并试图在国际社会主义运动中维持这种立场。",
+      "author_response": "列宁明确拒绝与拥护社会沙文主义立场的人进行任何形式的合作或会谈，坚持只与齐美尔瓦尔德左派这一国际主义反对派接触。",
+      "polemic_kind": "strategic_critique",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p454s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p454s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p454s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p454s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "考茨基",
+            "type": "person",
+            "modern": "卡尔·考茨基，德国社会民主党及第二国际的重要理论家，战争期间持中派立场，被列宁批判为机会主义代表。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "龙格",
+            "type": "person",
+            "modern": "让·龙格，法国社会党领袖，战争期间持中派立场，主张和平主义，被列宁视为社会沙文主义的同路人。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p454s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 2,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_5gram_with_surface",
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

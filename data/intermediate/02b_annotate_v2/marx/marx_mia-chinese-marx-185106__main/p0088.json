@@ -1,0 +1,98 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 88,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "马克思通过引用法国宪法条文并联系具体历史事件，揭露其将宪法安全寄托于人民警惕性、将人民安全寄托于司法仁慈的逻辑荒谬。",
+    "importance_score": 2,
+    "importance_reason": "作为对宪法具体条文的直接批判，是全文揭露资产阶级民主虚伪性的一个具体例证。",
+    "argument_role": "example",
+    "argument_link": "承接上文对特别法律的讨论，以宪法第110条为例，具体展示资产阶级宪法条文与现实的矛盾。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "6月13日事件",
+        "explain": "指1849年6月13日，法国小资产阶级民主派（山岳党）为抗议政府干涉罗马共和国而组织的和平示威，被资产阶级政府镇压。此事件常被用来证明宪法保障的自由在现实中如何被践踏。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p88s1",
+        "quote": "第110条 “国民议会将宪法寄托在全体人民的警惕性和爱国主义上”，而将“警惕的”和“爱国的”人民寄托在最高法院的宽厚和仁慈上！",
+        "trigger": "inverted_logic",
+        "reader_block": "表面是宪法条文与马克思评论的并列，实则通过“寄托”一词的重复使用，形成反讽：宪法依赖人民，人民却依赖一个可能镇压他们的司法机构。",
+        "parse": {
+          "claim": "宪法宣称其安全依赖于人民的主动守护，但宪法同时又将人民的安全交由一个可能违背人民意志的司法机构来裁决。",
+          "qualifiers": "此分析针对法国1848年宪法第110条的具体表述。",
+          "contrast_or_target": "资产阶级宪政主义认为，一部宣布自由原则的宪法本身就能保障民主与安全。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "通过揭示宪法条文内部的逻辑矛盾，直接反驳了那种认为宪法条文本身就能构建稳固民主秩序的观点。"
+        },
+        "implication": "这暴露了资产阶级宪法在设计上就内含了自我颠覆的种子，其宣称的保障是空洞的。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "资产阶级宪政主义",
+      "their_view": "通过一部宣布自由、平等、普选权等原则的宪法，就能建立真正的民主共和国，保障人民安全。",
+      "author_response": "马克思通过剖析宪法条文自身的逻辑矛盾（将人民安全寄托于可能镇压人民的法院），并联系6月13日镇压事件，揭露这种宪政承诺的虚伪性。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p88s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "寄托",
+            "type": "concept",
+            "modern": "在本段中，该词被用于构建反讽：宪法条文将自身安全“托付”给人民，马克思则指出人民的安全被“托付”给了一个可能反人民的机构。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "metaphor_trust"
+          }
+        ]
+      },
+      {
+        "sid": "p88s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 1,
+        "hs_kept": 1,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_5gram_with_surface"
+      ]
+    }
+  ]
+}

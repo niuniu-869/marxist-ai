@@ -1,0 +1,102 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 34,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁阐述推进革命的具体路径，强调通过自治和公社形式结束战争，并论证公社与农民利益的契合。",
+    "importance_score": 2,
+    "importance_reason": "具体阐述《四月提纲》中关于革命推进方式和政权形式的主张。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于结束战争需政权转移的论断，本段具体说明如何通过自治和公社实现这一转接。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "公社与农民",
+        "explain": "此处的“公社”指巴黎公社式的无产阶级政权形式，即由基层选举产生、不受官僚机构干预的自治组织。列宁认为这种形式能直接回应农民对土地和自治的诉求。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p34s4",
+        "quote": "要结束战争，只有使政权转到另一个阶级手中（俄国已经最接近这一点），但无论如何不能靠各国资本家用交换被压制的民族的办法来实现停战。",
+        "trigger": "inverted_logic",
+        "reader_block": "句子通过否定一种方式（资本家交易）来强调唯一方式（政权转移），读者可能困惑于“交换被压制的民族”这一具体所指及其与停战的关系。",
+        "parse": {
+          "claim": "结束战争的唯一途径是将政权转移到无产阶级手中，而非通过帝国主义国家间的交易。",
+          "qualifiers": "括号内补充说明俄国在当时条件下最接近实现政权转移。",
+          "contrast_or_target": "通过帝国主义国家间协商、以牺牲被压迫民族为代价来实现停战的方案。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "本句通过否定一种错误的停战途径（资本家交易），来强化并具体化前文提出的唯一正确途径（政权转移），直接反驳了妥协主义的停战幻想。"
+        },
+        "implication": "这要求彻底推翻资产阶级临时政府的统治，而非寻求与之妥协。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p34s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p34s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p34s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p34s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p34s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p34s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p34s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  }
+}

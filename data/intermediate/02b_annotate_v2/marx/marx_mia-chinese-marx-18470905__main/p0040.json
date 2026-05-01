@@ -1,0 +1,83 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 40,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "马克思引用并反讽“莱茵观察家”报纸上“国教顾问”的煽动性言论，揭露其虚伪，并指出此类言论在法国会被视为阶级挑衅。",
+    "importance_score": 2,
+    "importance_reason": "作为论战中的具体例证，揭露论敌言论的煽动性及其在不同政治环境下的性质。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对所得税的讨论，转而揭露该报纸在原则问题上的煽动性言论，展示其宣传手法。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "refute_quotation"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p40s1",
+        "quote": "国教顾问接着说道：“但是，幸运的人民呵，你们在有关原则的问题上已经占了便宜！假如你们不清楚这是怎么回事，那就让你们的代表讲给你们听吧；你们在听他们的长篇演说的时候，大概会忘掉饥饿的！” 谁还敢说德国出版物没有自由呢？",
+        "trigger": "inverted_logic",
+        "reader_block": "反讽语气和反问句式，读者可能误以为作者在肯定德国出版自由，实际是讽刺该报纸言论的肆无忌惮。",
+        "parse": {
+          "claim": "该报纸的言论在法国会被视为一个社会阶级对另一个社会阶级的公开挑衅。",
+          "qualifiers": "在法国的法律与社会环境下。",
+          "contrast_or_target": "论敌声称德国出版物有自由，他们的言论是无害的。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "通过引用论敌自己的话并指出其在法国的后果，来反驳论敌关于德国出版自由的宣称，揭露其言论的阶级对抗性质。"
+        },
+        "implication": "德国的所谓出版自由，实质上是允许统治阶级代言人公开煽动。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "莱茵观察家",
+      "their_view": "德国出版物享有自由，我们（作为官方代言人）可以随意发表言论，人民会在代表的演说中忘记饥饿。",
+      "author_response": "这些言论若在法国，会被司法直接认定为阶级间的挑衅行为并受到惩罚，从而暴露其煽动本质。",
+      "polemic_kind": "counter_quotation",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p40s1",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": [
+          {
+            "surface": "国教顾问",
+            "type": "social_group",
+            "modern": "代表官方立场的神职人员或顾问，为政府政策提供意识形态辩护。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p40s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "社会阶级",
+            "type": "concept",
+            "modern": "马克思主义理论中基于生产资料占有关系划分的社会集团，此处指统治阶级与被统治阶级。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "class_marxist"
+          }
+        ]
+      }
+    ]
+  }
+}

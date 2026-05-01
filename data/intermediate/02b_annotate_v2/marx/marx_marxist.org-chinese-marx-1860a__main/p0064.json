@@ -1,0 +1,55 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 64,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "马克思通过反问，揭示奥地利斯拉夫人中存在一个阶级幻想依靠沙皇俄国获得解放并建立斯拉夫王国。",
+    "importance_score": 2,
+    "importance_reason": "本段是马克思对巴枯宁无政府主义批判的具体例证，通过揭示斯拉夫人对沙皇国家的幻想，来反驳巴枯宁忽视现实政治复杂性的观点。",
+    "argument_role": "contrasts",
+    "argument_link": "承接上一段关于俄国密探活动的叙述，进一步揭示这种活动在斯拉夫人中产生的具体政治幻想，与巴枯宁的抽象无政府主义主张形成对比。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "巴枯宁",
+      "their_view": "彻底破坏一切国家，包括沙皇俄国，建立自下而上的自由联合，反对任何形式的国家权力。",
+      "author_response": "通过揭示斯拉夫人对沙皇国家的幻想，批判巴枯宁忽视现实政治中人们对国家的依赖和利用，从而暴露其无政府主义理论的空想性。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p64s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

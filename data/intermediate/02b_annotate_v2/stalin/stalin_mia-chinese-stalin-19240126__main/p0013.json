@@ -1,0 +1,126 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 13,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "斯大林将红军和红海军定位为无产阶级专政的支柱，引用列宁关于外部威胁的警告，并以近期国际事件为例，号召全党全力巩固军事力量。",
+    "importance_score": 2,
+    "importance_reason": "本段是演说中关于国防建设的核心论述，将列宁的遗嘱具体化为巩固红军的任务，是宣誓执行其政治路线的关键组成部分。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段关于加强共和国联盟的宣誓，本段具体阐述联盟安全的军事保障，即红军和红海军作为无产阶级专政的基石。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [
+      "proletarian_dictatorship"
+    ],
+    "prereading_inline": [
+      {
+        "topic": "寇松最后通牒",
+        "explain": "1923年5月，英国外交大臣寇松向苏俄发出最后通牒，要求停止在波斯、阿富汗的“宣传”，并就里海舰队等问题设限，否则将断交。此事被视为帝国主义对苏俄的军事威胁。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "德国危机",
+        "explain": "指1923年德国因赔款问题引发的鲁尔危机及随后的革命形势。德国共产党力量增长，但最终起义失败。此事被苏俄视为欧洲革命形势变化及资本主义世界不稳定的信号。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "喘息时机",
+        "explain": "列宁在1920年代初提出的战略概念，指苏俄在内战结束后，利用帝国主义国家间的矛盾和暂时的和平，获得一个短暂的恢复和发展时期。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p13s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "第三个基石",
+            "type": "concept",
+            "modern": "在列宁主义理论中，无产阶级专政的基石通常指苏维埃政权、无产阶级政党（布尔什维克党）和红军。此处斯大林将红军列为第三项。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "dictatorship_pillars"
+          }
+        ]
+      },
+      {
+        "sid": "p13s2",
+        "speaker": "quoted_lenin",
+        "stance": "endorsed",
+        "notes": [
+          {
+            "surface": "喘息时机",
+            "type": "concept",
+            "modern": "列宁在1920年代初提出的战略概念，指苏俄在内战结束后，利用帝国主义国家间的矛盾和暂时的和平，获得一个短暂的恢复和发展时期。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "breathing_space_lenin"
+          }
+        ]
+      },
+      {
+        "sid": "p13s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "寇松最后通牒",
+            "type": "event",
+            "modern": "1923年5月，英国外交大臣寇松向苏俄发出最后通牒，要求停止在波斯、阿富汗的“宣传”，并就里海舰队等问题设限，否则将断交。此事被视为帝国主义对苏俄的军事威胁。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p13s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 3,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 19,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "分析二月革命后两个政权并存局面的成因，剖析革命民主派的复杂阶级构成，并据此提出当前策略任务。",
+    "importance_score": 3,
+    "importance_reason": "核心段落，系统阐述了列宁对二月革命后俄国阶级力量对比的分析，并据此得出策略结论，是《四月提纲》思想的具体展开。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于旧公式不适用的判断，具体分析造成两个政权并存局面的历史特殊性与阶级根源，并推导出新的策略任务。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use | history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "term_density",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "革命民主专政",
+        "explain": "列宁在《四月提纲》中提出的新概念，指二月革命后由工兵代表苏维埃所体现的、但尚未完全掌握国家政权的无产阶级与农民的联合专政。它与传统理论中设想的、由无产阶级政党领导的专政形式不同，是与资产阶级专政交织并存的过渡形态。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      },
+      {
+        "topic": "11月9日法令",
+        "explain": "指1917年俄历11月9日（公历10月26日）全俄工兵代表苏维埃第二次代表大会通过的《土地法令》，规定立即无偿没收地主土地，交由地方苏维埃支配。此法令巩固了农村中富裕农民的地位。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "老布尔什维克",
+      "their_view": "革命形势已成熟，应立即提出推翻临时政府、建立无产阶级专政的口号。",
+      "author_response": "当前群众（包括部分工人）仍信任临时政府，革命民主派成分复杂且倾向资产阶级，因此直接推翻的条件不成熟，首要任务是解释和组织。",
+      "polemic_kind": "strategic_critique",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p19s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p19s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p19s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p19s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p19s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p19s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p19s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "11月9日法令",
+            "type": "event",
+            "modern": "1917年10月26日全俄苏维埃第二次代表大会通过的《土地法令》，规定没收地主土地。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p19s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p19s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p19s10",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p19s11",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 2,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_6>5",
+        "hs:claim_5gram_with_quote",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

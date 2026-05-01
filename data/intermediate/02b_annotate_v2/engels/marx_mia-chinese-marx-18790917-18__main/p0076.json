@@ -1,0 +1,101 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 76,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "恩格斯以反讽口吻，揭露党内右倾思潮为安抚资产阶级而否认革命威胁的主张，并指出其欺骗无产者的实质。",
+    "importance_score": 2,
+    "importance_reason": "本段是核心批判的一部分，通过反讽和反问，直接驳斥右倾思潮对阶级斗争必然性的否认。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段对温和批评策略的批判，进一步揭示该策略背后向资产阶级示弱的逻辑及其对无产者的危害。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p76s1",
+        "quote": "为了不让资产阶级怀有一丝一毫的恐惧，必须清楚明白地向它证明，赤色幽灵确实只是一个幽灵，它实际上是并不存在的。",
+        "trigger": "inverted_logic",
+        "reader_block": "反讽句式，读者可能误以为这是作者的正面主张，实际是讽刺党内右倾思潮的逻辑。",
+        "parse": {
+          "claim": "右倾思潮认为，必须向资产阶级明确证明革命威胁纯属虚构，以消除其恐惧。",
+          "qualifiers": "这是右倾思潮为达成“不让资产阶级恐惧”这一目的而设定的行动方案。",
+          "contrast_or_target": "党内右倾思潮主张向资产阶级示弱，以换取同情和合法地位。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "通过模仿右倾思潮的口吻，将其主张推向荒谬，为下文的直接反驳做铺垫。"
+        },
+        "implication": "这种主张实质上是要求党放弃革命立场，向资产阶级投降。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "党内右倾思潮（苏黎世三人团）",
+      "their_view": "必须向资产阶级证明革命威胁不存在，以消除其恐惧，从而争取同情和合法地位。",
+      "author_response": "这种主张是自欺欺人，资产阶级恐惧的是阶级斗争的必然性；放弃斗争只会让无产者上当受骗。",
+      "polemic_kind": "strategic_critique",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p76s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "赤色幽灵",
+            "type": "metaphor",
+            "modern": "资产阶级对共产主义革命威胁的恐惧性想象，被右倾思潮视为需要澄清的虚假形象。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p76s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p76s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p76s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 0,
+        "hs_kept": 1,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

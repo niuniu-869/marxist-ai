@@ -1,0 +1,84 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 118,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "以1905年俄国革命为例，说明革命常由成分复杂的群众运动构成，但其客观历史作用与无产阶级的领导地位。",
+    "importance_score": 2,
+    "importance_reason": "通过具体历史事例，为前文关于革命条件的论点提供支撑，并引出无产阶级领导权问题。",
+    "argument_role": "example",
+    "argument_link": "承接上段对等待完美革命条件的批判，用1905年革命这一不完美的、由各种成分构成的群众运动实例，说明革命往往在客观上推动历史，而非等待理想条件。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "俄国1905年革命",
+        "explain": "这是俄国第一次资产阶级民主革命，旨在推翻沙皇专制制度。革命中出现了苏维埃等组织，但最终失败，为1917年革命积累了经验。列宁在此将其作为分析革命动力与阶级构成的典型案例。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p118s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p118s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p118s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "觉悟的工人",
+            "type": "social_group",
+            "modern": "具有阶级意识、认识到自身历史使命的无产阶级成员。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_8>5"
+      ]
+    }
+  ]
+}

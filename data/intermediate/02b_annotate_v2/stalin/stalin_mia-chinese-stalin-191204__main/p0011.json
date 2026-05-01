@@ -1,0 +1,79 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 11,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段呼吁俄国工人与国际同志联合庆祝五一节，强调国际团结和拒绝崇拜资本。",
+    "importance_score": 2,
+    "importance_reason": "本段承接上文国内活跃状态，号召工人采取国际联合行动，支撑文章动员主题。",
+    "argument_role": "continues",
+    "argument_link": "上段指出工人因国内活跃而能庆祝五一，本段因此呼吁他们与国外同志共同庆祝，延续论证。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "allusion",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p11s3",
+        "quote": "他们今天应当告诉大家，他们和自由国家的同志们是一致行动的，——他们不敬财神爷，而且将来也不敬财神爷了。",
+        "trigger": "allusion",
+        "reader_block": "“不敬财神爷”是中国民间信仰隐喻，读者可能不理解其指代资本或资产阶级崇拜，需要背景解释。",
+        "parse": {
+          "claim": "俄国工人应公开表明与国际同志一致行动，并拒绝崇拜财富。",
+          "qualifiers": "",
+          "contrast_or_target": ""
+        },
+        "why": {
+          "relation": "none",
+          "explanation": ""
+        },
+        "implication": null,
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p11s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p11s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p11s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "不敬财神爷",
+            "type": "metaphor",
+            "modern": "在本文语境下，此隐喻指拒绝崇拜资本和资产阶级价值观。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      }
+    ]
+  }
+}

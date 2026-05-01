@@ -1,0 +1,107 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 16,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁用一个荒谬的类比，反驳马尔丁诺夫关于无产阶级应避免可能引发反动后果的行动的论点。",
+    "importance_score": 2,
+    "importance_reason": "通过归谬法，具体展示了论敌逻辑的荒谬性，强化了前文对机会主义策略的批判。",
+    "argument_role": "example",
+    "argument_link": "承接上段对马尔丁诺夫观点的引用与批判，本段用一个具体类比来揭示其逻辑的荒谬。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "马尔丁诺夫",
+      "their_view": "无产阶级不应采取可能引发反动（如恢复专制制度）的革命行动，因为后果难以控制。",
+      "author_response": "列宁用一个荒谬的类比（为避免谈话对象增加而放弃谈话）来反驳，指出这种因噎废食的逻辑是站不住脚的。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p16s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p16s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "恐吓",
+            "type": "concept",
+            "modern": "在本文语境中，特指无产阶级通过革命行动对统治阶级施加的政治压力与威胁。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "revolutionary_threat"
+          }
+        ]
+      },
+      {
+        "sid": "p16s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "马尔丁诺夫",
+            "type": "person",
+            "modern": "孟什维克理论家，其观点被列宁视为机会主义的代表。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "metadata"
+          }
+        ]
+      },
+      {
+        "sid": "p16s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "马尔托夫",
+            "type": "person",
+            "modern": "孟什维克领袖之一，与马尔丁诺夫同属被批判的派别。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "metadata"
+          }
+        ]
+      },
+      {
+        "sid": "p16s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 3,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

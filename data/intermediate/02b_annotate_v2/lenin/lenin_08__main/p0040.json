@@ -1,0 +1,93 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 40,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁引用恩格斯1894年书信，批评当时欧洲工人运动中为争取农民支持而模糊阶级立场的机会主义策略。",
+    "importance_score": 2,
+    "importance_reason": "通过恩格斯对具体机会主义言行的批判，为列宁在农民问题上的立场提供历史论据。",
+    "argument_role": "example",
+    "argument_link": "承接上文对机会主义倾向的概括，本段以恩格斯对1894年农民问题的具体回应为例，展开论证。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "“猎取农民”策略",
+        "explain": "19世纪末，欧洲部分社会主义政党为扩大选票，试图通过迎合或保护农民利益来争取其支持，这种策略被恩格斯称为“猎取农民”。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      },
+      {
+        "topic": "拉法格与南特",
+        "explain": "保尔·拉法格是法国工人党领导人之一。1894年，他在法国南特召开的党的代表大会上，提出了保护小农、延缓其破产的纲领性主张。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "福尔马尔与法兰克福",
+        "explain": "格奥尔格·福尔马尔是德国社会民主党内的机会主义代表人物。1894年，他在法兰克福党代表大会上发表演说，主张争取包括富裕农民在内的全体农民。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "法国工人党内的机会主义派别（以拉法格为代表）和德国社会民主党内的机会主义派别（以福尔马尔为代表）",
+      "their_view": "应当直接保护小农，延缓其破产，甚至争取包括富裕农民在内的全体农民，以扩大运动的群众基础。",
+      "author_response": "恩格斯指出这种做法是愚蠢且不可能的，它放弃了无产阶级政党的原则，实质是向小资产阶级和资产阶级利益妥协。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p40s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p40s2",
+        "speaker": "quoted_engels",
+        "stance": "endorsed",
+        "notes": [
+          {
+            "surface": "猎取农民",
+            "type": "metaphor",
+            "modern": "19世纪末欧洲工人运动中，某些派别试图通过迎合农民利益来扩大选票支持的策略。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 2,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

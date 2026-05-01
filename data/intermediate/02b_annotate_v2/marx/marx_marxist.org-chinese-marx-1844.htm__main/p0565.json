@@ -1,0 +1,79 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 565,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "马克思在此转述黑格尔《现象学》的核心观点，即意识的对象本质上是自我意识的异化形式。",
+    "importance_score": 2,
+    "importance_reason": "本段具体阐述黑格尔关于意识与对象关系的观点，为后续批判提供靶子。",
+    "argument_role": "continues",
+    "argument_link": "本段承接上段对《现象学》最后一章的讨论，深入解释黑格尔的绝对知识概念。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "term_polysemy",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "黑格尔的对象化概念",
+        "explain": "在黑格尔哲学中，对象化指绝对精神将自身外化为客观世界的过程，对象被视为自我意识的异化形式，这与日常理解不同。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "黑格尔",
+      "their_view": "意识的对象就是自我意识，对象不过是对象化的自我意识，从而将人与自我意识等同起来。",
+      "author_response": "马克思指出这种观点是唯心主义的，将现实世界视为绝对精神的自我运动，为后续批判其哲学体系奠定基础。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p565s1",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p565s2",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": [
+          {
+            "surface": "对象化",
+            "type": "concept",
+            "modern": "黑格尔哲学中，绝对精神将自身外化为客观世界的过程。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "objectification_hegelian"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

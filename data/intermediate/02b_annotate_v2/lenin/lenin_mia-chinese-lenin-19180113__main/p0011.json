@@ -1,0 +1,127 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 11,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "通过回顾二月革命后至十月革命前的政治历程，论证苏维埃政权是比资产阶级共和国更高形式的民主。",
+    "importance_score": 3,
+    "importance_reason": "核心论点段落，通过历史经验论证苏维埃政权的民主优越性，直接回应关于民主形式的争论。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对“破坏民主”指责的否认，本段通过回顾1917年的具体历史经验，提供论据以证明苏维埃政权才是真正的民主。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "四月危机与六月进攻",
+        "explain": "1917年4月，临时政府外交部长米留可夫照会协约国，承诺继续战争，引发彼得格勒士兵示威（四月危机）。同年6月，临时政府首脑克伦斯基发动对德军事进攻（克伦斯基攻势），惨败并导致数万士兵伤亡，暴露了其继续帝国主义战争的政策。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "克伦斯基与秘密条约",
+        "explain": "克伦斯基政府继承了沙皇政府与协约国签订的秘密条约，承诺继续战争以实现俄国的帝国主义目标。这是他发动六月进攻并导致惨败的政策基础。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p11s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p11s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "林杰",
+            "type": "person",
+            "modern": "1917年四月危机中领导士兵示威的水兵",
+            "highlight": null,
+            "confidence": "medium",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p11s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "苏维埃政权",
+            "type": "org",
+            "modern": "十月革命后建立的工兵代表苏维埃作为国家权力机关",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p11s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p11s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p11s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p11s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 2,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "note:n1_overflow_concept_18>5",
+        "hs:claim_5gram_with_quote",
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 31,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "通过引用恩格斯1887年的信件，具体展示德国社会民主党内的机会主义表现及其在议会策略上的困境。",
+    "importance_score": 2,
+    "importance_reason": "为前文对机会主义的批判提供具体历史例证，展示恩格斯对议会斗争与党的纯洁性关系的看法。",
+    "argument_role": "example",
+    "argument_link": "承接上段对机会主义小资产阶级根源的分析，以德国党选举机会主义者进入议会的具体事件为例，进一步说明机会主义在实践中的表现。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "德国社会民主党内的机会主义派别（以菲勒克为代表）及调和倾向（以李卜克内西为代表）",
+      "their_view": "选举菲勒克这类机会主义者进入议会是现实需要，党内分歧可以通过调和来维持表面团结。",
+      "author_response": "恩格斯指出，容忍右翼只是反社会党人法下的暂时策略，党的纯洁性比议会席位更重要；调和分子在分裂关头会做出正确选择。",
+      "polemic_kind": "strategic_critique",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p31s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p31s2",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": [
+          {
+            "surface": "菲勒克",
+            "type": "person",
+            "modern": "19世纪80年代德国社会民主党右翼代表，主张议会改良，后脱离党。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p31s3",
+        "speaker": "quoted_engels",
+        "stance": "endorsed",
+        "notes": []
+      },
+      {
+        "sid": "p31s4",
+        "speaker": "quoted_engels",
+        "stance": "endorsed",
+        "notes": [
+          {
+            "surface": "反社会党人法",
+            "type": "event",
+            "modern": "1878-1890年德国俾斯麦政府颁布的镇压社会主义运动的法令。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p31s5",
+        "speaker": "quoted_engels",
+        "stance": "endorsed",
+        "notes": [
+          {
+            "surface": "李卜克内西",
+            "type": "person",
+            "modern": "德国社会民主党创始人之一，长期担任党的领导，恩格斯批评其调和倾向。",
+            "highlight": "person",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p31s6",
+        "speaker": "quoted_engels",
+        "stance": "endorsed",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 3,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

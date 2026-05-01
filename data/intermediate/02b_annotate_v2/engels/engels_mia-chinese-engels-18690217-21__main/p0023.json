@@ -1,0 +1,72 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 23,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "通过具体数字对比，揭露所谓福利章程的虚伪性，质问其制定者。",
+    "importance_score": 2,
+    "importance_reason": "用具体数字例证，支撑对改良主义福利方案的批判，是核心论证的关键环节。",
+    "argument_role": "example",
+    "argument_link": "承接上段对福利项目的罗列，转而用具体工资与抚恤金的悬殊比例，揭露这些福利的虚伪本质。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "制定和批准萨克森煤矿工人协会章程的公爵、资本家与政府",
+      "their_view": "我们制定的福利章程（如抚恤金）能够保障工人的基本生活，体现了对工人的关怀与劳资和谐。",
+      "author_response": "恩格斯用具体数字揭露，这些福利金额相对于工资本身微不足道，根本不足以让工人活下去，因此其宣称的保障作用是虚假的。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p23s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "塔勒",
+            "type": "archaic",
+            "modern": "19世纪德国使用的银币，是当时工人工资的计算单位。",
+            "highlight": "archaic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "银格罗申",
+            "type": "archaic",
+            "modern": "比塔勒更小的货币单位，用于计算抚恤金等小额款项。",
+            "highlight": "archaic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 13,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段列举埃斯帕特罗流亡英国期间受到的隆重礼遇，指出其君主立宪立场，并分析英国方面给予其荣誉的政治动机。",
+    "importance_score": 1,
+    "importance_reason": "为后续分析埃斯帕特罗的政治立场及其与英国利益的关系提供具体事实依据。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于埃斯帕特罗复出的讨论，通过描述其在英国的待遇，具体说明其政治立场和外部支持来源。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "威灵顿与帕麦斯顿",
+        "explain": "威灵顿公爵是英国保守党政治家、军事家，曾多次出任首相。帕麦斯顿子爵是英国自由党政治家，长期主导英国外交政策。两人在19世纪中叶英国政坛极具影响力。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "阿伯丁伯爵",
+        "explain": "阿伯丁伯爵在1852-1855年担任英国首相兼外交大臣，其政府以对欧洲大陆事务采取谨慎、调和的外交政策著称。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "辛辛纳图斯典故",
+        "explain": "辛辛纳图斯是古罗马传说中的英雄，被从农耕生活中召回担任独裁官拯救国家，事成后即放弃权力回归田园。此处用以形容埃斯帕特罗流亡时的闲适形象。",
+        "why_needed": "allusion",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p13s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p13s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p13s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p13s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p13s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p13s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "辛辛纳图斯",
+            "type": "person",
+            "modern": "古罗马传说中临危受命、功成身退的英雄，此处用以比喻埃斯帕特罗流亡时的田园形象。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p13s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p13s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p13s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p13s10",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p13s11",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 2,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_7>5",
+        "note:n1_overflow_concept_13>5",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

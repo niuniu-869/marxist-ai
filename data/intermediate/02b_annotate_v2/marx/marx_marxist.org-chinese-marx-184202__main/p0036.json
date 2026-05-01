@@ -1,0 +1,94 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 36,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "分析法令第10款，揭露其用检查令取代新闻自由的实质，并讽刺其“临时”措施的长期性。",
+    "importance_score": 3,
+    "importance_reason": "核心批判段落，直接剖析法令条款的内在矛盾与虚伪性，是全文论证的关键环节。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对第7条的批判，进一步分析第10款，从具体条款层面揭露整个检查令的欺骗性。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p36s1",
+        "quote": "有这样一种法律，哪里还存在新闻出版自由，它就取消这种自由，哪里应当实行新闻出版自由，它就通过书报检查使这种自由变成多余的东西——这样的法律不能认为是有利于新闻出版的。",
+        "trigger": "inverted_logic",
+        "reader_block": "双重否定结构（“不能认为是有利于”）与“哪里……就……”的排比，容易让读者在快速阅读中忽略其批判的锋芒，误读为中性描述。",
+        "parse": {
+          "claim": "该法律在两种情况下都对新闻出版有害：在已有自由的地方剥夺它，在需要自由的地方用检查令使其无法实现。",
+          "qualifiers": "针对法令第10款所体现的法律逻辑进行分析。",
+          "contrast_or_target": "普鲁士政府声称该法令旨在“研究”和“决定”新闻自由的界限，暗示其具有进步性。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "通过揭示法令在逻辑上必然导致对新闻出版的压制，直接反驳了政府关于该法令有利于新闻出版的潜在辩护。"
+        },
+        "implication": "这种法律的本质是反自由的，其“研究”和“决定”的承诺只是掩盖压制的幌子。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      },
+      {
+        "anchor": "p36s4",
+        "quote": "为了替这种不得人心的做法辩解，甚至硬说这是一项有效期限只有五年的临时措施，可是，遗憾得很，它的有效期限竟达22年之久。",
+        "trigger": "inverted_logic",
+        "reader_block": "“遗憾得很”是反讽，表面惋惜，实则尖锐讽刺政府辩解的虚伪与事实的残酷。",
+        "parse": {
+          "claim": "政府用“五年临时措施”来为检查令辩护，但该法令的实际执行时间远超此限，证明其辩解不成立。",
+          "qualifiers": "针对政府为法令辩护的说辞进行反驳。",
+          "contrast_or_target": "普鲁士政府将法令包装为有期限的、过渡性的临时安排。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "用后续历史事实（法令实际存续22年）直接戳穿政府关于法令“临时性”的谎言，强化了对其虚伪性的揭露。"
+        },
+        "implication": "政府所谓的“临时”承诺毫无信用，其真实意图是长期维持检查制度。",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "普鲁士政府",
+      "their_view": "新颁布的书报检查令是一项有五年期限的临时措施，旨在为将来可能的新闻自由做准备，因此是合理且必要的。",
+      "author_response": "马克思指出，该法令在逻辑上必然压制自由，且其实际存续时间远超五年，证明政府的辩解纯属掩饰其不信任和控制新闻界的真实意图。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p36s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p36s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p36s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p36s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  }
+}

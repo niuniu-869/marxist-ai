@@ -1,0 +1,70 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 89,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段指出哥达纲领草案对国际工人协会章程引文的篡改，并讽刺其逻辑混乱。",
+    "importance_score": 2,
+    "importance_reason": "这是对纲领草案具体条款的逐句批判，揭示其对科学社会主义原则的背离。",
+    "argument_role": "contrasts",
+    "argument_link": "上一段引用了纲领草案中关于劳动解放责任和阶级立场的条款，本段则具体分析该条款的来源和篡改。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p89s2",
+        "quote": "那里写道：“工人阶级的解放应当是工人自己的事情”，这里却说“工人阶级”应当解放——解放什么？——“劳动”。",
+        "trigger": "inverted_logic",
+        "reader_block": "读者可能不理解“解放劳动”这个表述的荒谬性，以及马克思反问的讽刺意图。",
+        "parse": {
+          "claim": "纲领草案将国际章程中关于工人阶级自身解放的表述，篡改为工人阶级去解放“劳动”这个抽象概念。",
+          "qualifiers": "",
+          "contrast_or_target": "国际章程原文强调工人阶级解放是工人自己的事情。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "通过对比原文和篡改后的表述，揭露纲领草案在基本概念上的混乱和倒退。"
+        },
+        "implication": "这种篡改将解放的主体与客体混淆，逻辑上无法成立。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "哥达纲领草案",
+      "their_view": "工人阶级应当解放“劳动”。",
+      "author_response": "马克思指出这种表述将解放的主体与客体混淆，逻辑上无法成立。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p89s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p89s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p89s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  }
+}

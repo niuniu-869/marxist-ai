@@ -1,0 +1,152 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 21,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "分析俄国军队的兵员构成、战术特点及其在多国联军中适合扮演的角色。",
+    "importance_score": 2,
+    "importance_reason": "为后文分析联军对法战争的具体进程提供俄军特性的基础性说明。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对具体战例的分析，转而从军队性质层面概括俄军的普遍特点，为评估其在联军中的作用做铺垫。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_density",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "苏沃洛夫与俄土战争",
+        "explain": "苏沃洛夫是18世纪末至19世纪初的俄国名将。伊斯迈拉和奥查可夫是他指挥的对奥斯曼帝国的著名攻坚战，以果断和密集队形进攻著称。",
+        "why_needed": "history_density",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "1813-1814年战争",
+        "explain": "指拿破仑战争后期的第六次反法同盟战争。俄国军队是反法联军的重要组成部分，在莱比锡和巴黎战役中发挥了关键作用。",
+        "why_needed": "history_density",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p21s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p21s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "哥萨克",
+            "type": "social_group",
+            "modern": "沙俄时期主要居住在南部边疆的半独立军事社群，以骑术精湛和非正规作战方式闻名，常被沙皇征召为轻骑兵。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p21s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p21s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "苏沃洛夫",
+            "type": "person",
+            "modern": "亚历山大·苏沃洛夫（1730-1800），俄国元帅，以进攻精神和善于使用密集队形突击著称。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p21s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "运动性",
+            "type": "concept",
+            "modern": "军队快速机动、改变部署和位置的能力。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "military_mobility"
+          }
+        ]
+      },
+      {
+        "sid": "p21s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p21s7",
+        "speaker": "editor",
+        "stance": "neutral_citation",
+        "notes": []
+      },
+      {
+        "sid": "p21s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "密集的纵队",
+            "type": "concept",
+            "modern": "一种步兵战斗队形，士兵排成多列纵深的纵队，便于在炮火掩护下快速接近敌阵并实施冲击。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "formation_column"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 4,
+        "notes_dropped": 3,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_7>5",
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

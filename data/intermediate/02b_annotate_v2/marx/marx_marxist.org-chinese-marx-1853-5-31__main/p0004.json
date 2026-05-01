@@ -1,0 +1,87 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 4,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "作者以中国革命为例，论证“对立统一”规律，并断言中国事件对欧洲政治变革的影响将超过欧洲内部的任何因素。",
+    "importance_score": 2,
+    "importance_reason": "本段是作者核心论点的关键例证，将抽象的哲学原理（对立统一）与具体的历史事件（中国革命）联系起来，并提出一个关于全球历史联动性的大胆判断。",
+    "argument_role": "example",
+    "argument_link": "承接上一段对黑格尔“对立统一”规律的介绍，本段立即用中国革命对欧洲的影响作为该规律在现实历史中的一个具体体现。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p4s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "对立统一",
+            "type": "concept",
+            "modern": "在黑格尔哲学中，指矛盾双方既对立又统一并推动事物发展的规律。马克思在此将其作为分析历史事件的工具。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "dialectical_unity"
+          }
+        ]
+      },
+      {
+        "sid": "p4s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "天朝帝国",
+            "type": "archaic",
+            "modern": "19世纪西方对清王朝中国的常见称呼，带有其时代认知色彩。",
+            "highlight": "archaic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p4s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

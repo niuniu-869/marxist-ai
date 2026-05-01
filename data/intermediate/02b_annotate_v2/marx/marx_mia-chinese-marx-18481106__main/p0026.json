@@ -1,0 +1,81 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 26,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "作者用一句拉丁古谚，概括反革命对革命者的残酷镇压。",
+    "importance_score": 1,
+    "importance_reason": "作为修辞性评论，强化了上一段关于革命失败的结论，但未展开新论证。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段关于维也纳起义失败的叙述，用一句古谚为反革命的胜利定性。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "allusion",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "allusion",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "Vae victis 典故",
+        "explain": "拉丁语，意为“战败者有祸了”。源自古罗马传说，公元前390年高卢人攻陷罗马后，高卢首领布伦努斯以此语回应罗马人对赎金重量的抗议，并将剑扔在秤上加重。后世用以形容战胜者对战败者的无情勒索与压迫。",
+        "why_needed": "allusion",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p26s1",
+        "quote": "Vae victis！",
+        "trigger": "allusion",
+        "reader_block": "读者不识拉丁语，且不知其背后血腥的历史典故，无法理解作者在此引用的讽刺与批判力度。",
+        "parse": {
+          "claim": "维也纳的反革命势力正像古代的征服者一样，对失败的革命者施以无情的报复和压迫。",
+          "qualifiers": "特指1848年维也纳十月起义被镇压后的局势。",
+          "contrast_or_target": ""
+        },
+        "why": {
+          "relation": "continues",
+          "explanation": "此句是对上一段所述维也纳反革命胜利的总结性定性，用历史典故将反革命的残酷性具象化。"
+        },
+        "implication": "作者暗示反革命的镇压并非偶然，而是统治阶级在胜利后必然采取的野蛮手段。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p26s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "Vae victis",
+            "type": "quote",
+            "modern": "古罗马高卢征服者对战败罗马人的威吓语，后泛指战胜者对战败者的掠夺与压迫。",
+            "highlight": "archaic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p26s2",
+        "speaker": "editor",
+        "stance": "neutral_citation",
+        "notes": []
+      }
+    ]
+  }
+}

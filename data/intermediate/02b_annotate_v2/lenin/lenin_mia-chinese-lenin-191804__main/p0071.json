@@ -1,0 +1,157 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 71,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁论述苏维埃政权应学习并采用资本主义的科学管理方法（泰罗制），以提高劳动生产率，同时指出过渡时期需结合竞赛与强制手段。",
+    "importance_score": 3,
+    "importance_reason": "提出利用资本主义文化遗产建设社会主义的核心方法论，是全文从“镇压”转向“管理”的关键论证环节。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段关于加强劳动纪律和采用计件工资的讨论，将提高劳动生产率的具体措施聚焦于采用泰罗制，并上升到社会主义能否实现的高度。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "泰罗制",
+        "explain": "20世纪初美国工程师弗雷德里克·泰勒提出的科学管理方法，通过分解劳动动作、计时研究来优化流程、提高效率。在当时被视为资本主义生产组织的尖端成就。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "辩证看待资本主义遗产",
+        "explain": "列宁在此提出一个核心方法论：对资本主义社会产生的管理方法、科学技术等，不能因其阶级属性而全盘拒绝，而应分析其科学成分，有选择地用于社会主义建设。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p71s4",
+        "quote": "资本主义在这方面的最新成就泰罗制，同资本主义其他一切进步的东西一样，既是资产阶级剥削的最巧妙的残酷手段，又包含一系列的最丰富的科学成就，它分析劳动中的机械动作，省去多余的笨拙的动作，制定最适当的工作方法，实行最完善的计算和监督方法等等。",
+        "trigger": "long_nested",
+        "reader_block": "句子结构复杂，包含多个并列分句，且核心论断是“既是……又包含……”的辩证评价，读者容易只抓住“剥削手段”而忽略“科学成就”的后半部分，或反之。",
+        "parse": {
+          "claim": "泰罗制具有双重属性：它既是资本家用于剥削工人的精巧工具，也蕴含着关于劳动过程优化的科学知识体系。",
+          "qualifiers": "限定于“资本主义在这方面的最新成就”这一特定范畴，即生产管理领域。",
+          "contrast_or_target": ""
+        },
+        "why": {
+          "relation": "definition",
+          "explanation": "本句为全文核心概念“泰罗制”下定义，明确其矛盾性质，为后续主张“采用”其科学部分奠定理论基础，是典型的辩证分析。"
+        },
+        "implication": "因此，苏维埃政权的任务不是简单拒绝泰罗制，而是要剥离其剥削内核，吸收其科学内核。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p71s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p71s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p71s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p71s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "泰罗制",
+            "type": "concept",
+            "modern": "20世纪初美国工程师泰勒提出的科学管理方法，通过动作研究、时间研究来优化劳动流程、提高效率。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "taylorism_scientific_management"
+          }
+        ]
+      },
+      {
+        "sid": "p71s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p71s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p71s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p71s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p71s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "无产阶级专政",
+            "type": "concept",
+            "modern": "马克思主义国家学说核心概念，指无产阶级通过革命打碎旧国家机器后建立的、对资产阶级实行镇压的政治统治形式。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "dictatorship_of_proletariat"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 0,
+        "hs_kept": 1,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

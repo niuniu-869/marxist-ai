@@ -1,0 +1,94 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 37,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "恩格斯为摩尔根辩护，指出其被官方学派排斥的深层原因在于对现代社会的批判和对未来的预言，并揭露论敌的自相矛盾。",
+    "importance_score": 2,
+    "importance_reason": "本段是核心论辩段，直接点明摩尔根被学界主流排斥的政治与理论原因，并反击具体论敌。",
+    "argument_role": "contrasts",
+    "argument_link": "承接上段对英国史前史学派沉默原因的分析，本段进一步揭示摩尔根被排斥的更根本原因——其理论触及了对现存社会的批判与改造。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "傅立叶对文明的批评",
+        "explain": "傅立叶是19世纪初的空想社会主义者，他用道德和情感批判的方式，激烈抨击资本主义“文明”社会的虚伪与矛盾。恩格斯此处指摩尔根也采用了类似的批判姿态，但其基础是历史唯物主义。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p37s2",
+        "quote": "所以，摩尔根就罪有应得，麦克伦南忿然地责难“他根本厌恶历史方法”[13]，而且日内瓦的教授日罗－特隆先生在1884年也重申了这一点。",
+        "trigger": "inverted_logic",
+        "reader_block": "“罪有应得”是反讽，读者若按字面理解会误以为恩格斯认同对摩尔根的责难，实际是嘲讽论敌的荒谬指控。",
+        "parse": {
+          "claim": "麦克伦南和日罗-特隆指责摩尔根排斥历史研究方法。",
+          "qualifiers": "这是在摩尔根被排斥的背景下，论敌给出的表面理由。",
+          "contrast_or_target": "麦克伦南和日罗-特隆认为摩尔根的研究方法有问题。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "本句直接引用论敌（麦克伦南、日罗-特隆）对摩尔根的攻击性评价，为下句揭露其矛盾做铺垫。"
+        },
+        "implication": "恩格斯通过反讽语气，暗示这种指责是站不住脚的。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "麦克伦南与日罗-特隆",
+      "their_view": "摩尔根的研究方法有根本缺陷，他厌恶并排斥历史方法。",
+      "author_response": "恩格斯揭露日罗-特隆本人在1874年时，其理论还深陷于麦克伦南的错误框架中，正是依靠摩尔根的成果才得以摆脱困境。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p37s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p37s2",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p37s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 1,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

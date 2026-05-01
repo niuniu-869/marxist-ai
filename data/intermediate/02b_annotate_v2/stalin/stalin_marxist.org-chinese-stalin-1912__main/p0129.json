@@ -1,0 +1,71 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 129,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "通过设问与回答，明确俄国社会民主党在民族问题上的根本立场，即主张民族自决权，从而与奥地利社会民主党的理论前提划清界限。",
+    "importance_score": 2,
+    "importance_reason": "这是论证的关键转折，从描述奥地利社会民主党的理论前提，转向阐述俄国社会民主党的根本立场，为后续批判奠定基础。",
+    "argument_role": "contrasts",
+    "argument_link": "承接上一段对奥地利社会民主党理论前提的描述，转而指出俄国社会民主党不能采用同样的前提，因为其纲领包含民族自决权。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "奥地利社会民主党",
+      "their_view": "在讨论民族问题时，可以预设各民族将继续留在现有国家联盟内，然后探讨联盟内部的民族关系。",
+      "author_response": "俄国社会民主党不能接受这一前提，因为其纲领从一开始就主张民族自决，承认各民族拥有分离的权利。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p129s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p129s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "民族自决",
+            "type": "concept",
+            "modern": "在马克思主义民族理论中，指被压迫民族有权决定自身政治命运，包括建立独立国家的权利。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "self_determination_national"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

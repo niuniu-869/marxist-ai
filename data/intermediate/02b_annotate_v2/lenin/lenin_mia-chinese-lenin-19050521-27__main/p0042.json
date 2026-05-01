@@ -1,0 +1,94 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 42,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁引用恩格斯关于革命斗争的论述，论证无产阶级应积极参与并领导由小资产阶级发起的起义，以争取胜利，并以此对比和批判新《火星报》的消极立场。",
+    "importance_score": 2,
+    "importance_reason": "通过引用恩格斯的权威论述，为无产阶级积极参与并领导民主革命的策略提供理论依据，并直接对比论敌观点。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段对恩格斯起义领导方式的引用，本段进一步展开恩格斯关于革命斗争具体任务和态度的观点，以支持无产阶级应主动领导革命的立场。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "新《火星报》",
+        "explain": "指1903年俄国社会民主工党分裂后，由孟什维克派掌握的《火星报》。它代表了党内反对武装起义和无产阶级领导权的派别立场。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "尾巴主义",
+        "explain": "列宁用来形容一种政治倾向，即在革命形势下，无产阶级政党不是走在运动前面领导群众，而是落在群众后面，做群众的尾巴。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "新《火星报》",
+      "their_view": "无产阶级不应积极参与或领导由小资产阶级发起的、目标不直接指向社会主义的革命斗争，这种参与是危险的或无原则的。",
+      "author_response": "列宁通过引用恩格斯，指出无产阶级及其领袖应全力争取已开始斗争的胜利，哪怕斗争由他人发起，这与尾巴主义的消极退缩观点截然相反。",
+      "polemic_kind": "counter_quotation",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p42s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p42s2",
+        "speaker": "quoted_engels",
+        "stance": "endorsed",
+        "notes": []
+      },
+      {
+        "sid": "p42s3",
+        "speaker": "quoted_engels",
+        "stance": "endorsed",
+        "notes": []
+      },
+      {
+        "sid": "p42s4",
+        "speaker": "quoted_engels",
+        "stance": "endorsed",
+        "notes": []
+      },
+      {
+        "sid": "p42s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

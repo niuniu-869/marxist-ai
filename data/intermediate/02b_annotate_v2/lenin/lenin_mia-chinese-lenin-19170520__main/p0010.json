@@ -1,0 +1,78 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 10,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "作者明确阐述布尔什维克党在土地问题上的纲领性立场，即主张土地归全体人民所有，并以此反对任何私人占有土地的行为。",
+    "importance_score": 2,
+    "importance_reason": "本段是作者在论战中亮明己方核心立场的关键陈述，为后续批判社会革命党人的土地主张提供对比基准。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对论敌荒谬建议的嘲讽，转而正面、清晰地提出本党在土地问题上的根本原则，形成鲜明对照。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p10s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "俄国社会民主工党（布尔什维克党）",
+            "type": "org",
+            "modern": "1917年四月后，列宁领导的、主张将革命推向社会主义阶段的政党。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "土地应该归全体人民所有",
+            "type": "program_clause",
+            "modern": "布尔什维克党在土地问题上的核心纲领，主张废除地主土地所有制。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p10s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

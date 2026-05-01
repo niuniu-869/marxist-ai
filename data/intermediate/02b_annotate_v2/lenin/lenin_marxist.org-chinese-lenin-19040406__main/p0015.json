@@ -1,0 +1,132 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 15,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁以反讽手法，通过乌克兰人对沙皇大臣鲍勃凌斯基的“感谢”，揭露其民族压迫政策实际上促进了民族分离主义，从而批判沙皇政府的自相矛盾。",
+    "importance_score": 2,
+    "importance_reason": "通过具体事例和反讽，支撑了上一段关于民族压迫客观上促进社会主义宣传的论点，并直接批判了沙皇大臣的政策。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段关于民族压迫极端状况的论述，用一个具体案例（鲍勃凌斯基的言行）来例证沙皇政策如何客观上唤醒了被压迫民族的民族意识。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "鲍勃凌斯基",
+        "explain": "沙皇俄国的大臣，出身工厂主兼地主，代表统治阶级上层利益，是列宁在本文中批判的具体对象之一。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "舍夫琴柯",
+        "explain": "乌克兰民族诗人，其作品和纪念活动是乌克兰民族意识的重要象征，沙皇政府曾禁止纪念他。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "叶加特林诺斯拉夫省",
+        "explain": "沙皇俄国的一个省份，位于今乌克兰东部，是乌克兰民族问题较为突出的地区之一。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "鲍勃凌斯基、普利什凯维奇等沙皇大臣",
+      "their_view": "通过推行民族压迫政策（如禁止纪念乌克兰民族诗人舍夫琴柯），维护大俄罗斯人的特权和沙皇俄国的统一。",
+      "author_response": "列宁反讽指出，这些压迫政策客观上唤醒了被压迫民族的民族意识，反而成了有利于民族分离的宣传，暴露了其政策的自相矛盾。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p15s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "努力吧！努力吧！",
+            "type": "slogan",
+            "modern": "列宁模仿沙皇大臣的口吻发出的反讽呼告，意在讽刺其政策适得其反。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p15s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "鲍勃凌斯基",
+            "type": "person",
+            "modern": "沙皇俄国的大臣，代表工厂主和地主阶级利益，是列宁批判的具体对象。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p15s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "叶加特林诺斯拉夫省",
+            "type": "place",
+            "modern": "沙皇俄国的一个省份，位于今乌克兰东部，是乌克兰民族问题突出的地区。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p15s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "舍夫琴柯",
+            "type": "person",
+            "modern": "乌克兰民族诗人，其作品是乌克兰民族意识的象征，沙皇政府曾禁止纪念他。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 4,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 2,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

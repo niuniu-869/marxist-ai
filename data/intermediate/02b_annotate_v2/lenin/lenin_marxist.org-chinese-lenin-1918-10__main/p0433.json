@@ -1,0 +1,67 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 433,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段通过引用考茨基对列宁口号的批判，揭示考茨基将无产阶级夺取生产资料的行动等同于无政府工团主义。",
+    "importance_score": 2,
+    "importance_reason": "通过具体引文展示考茨基对列宁革命实践的曲解，为后续批判提供靶子。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段对考茨基经济分析的讽刺，具体展示其如何将列宁的革命口号定性为错误路线。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "考茨基",
+      "their_view": "列宁关于工人掌握工厂、农民保卫土地的口号，属于无政府工团主义，而非社会民主主义的传统。",
+      "author_response": "考茨基将无产阶级夺取生产资料的革命行动，曲解为小生产者的分散经营，暴露其机会主义本质。",
+      "polemic_kind": "counter_quotation",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p433s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p433s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p433s3",
+        "speaker": "quoted_opponent",
+        "stance": "critical",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

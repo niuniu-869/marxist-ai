@@ -1,0 +1,86 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 59,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁号召建立一个与社会沙文主义者和“中派”相对立的革命国际。",
+    "importance_score": 2,
+    "importance_reason": "本段是列宁《四月提纲》中关于国际任务的核心主张，明确了布尔什维克在国际问题上的战略方向。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段“革新国际”的号召，具体指明了要建立的国际的性质及其对立面。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "社会沙文主义者",
+        "explain": "指在第一次世界大战期间，背叛国际主义原则、转而支持本国资产阶级政府进行战争的各国社会民主党人。他们以“保卫祖国”为名，实质上服务于本国统治阶级的帝国主义利益。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "“中派”",
+        "explain": "第二国际内部的一个派别，以考茨基为代表。他们在战争问题上采取模棱两可的立场，口头上反对社会沙文主义，实际上却拒绝与之决裂，主张等待战争结束后再进行革命，实质上是为机会主义开脱。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "社会沙文主义者和“中派”",
+      "their_view": "在战争期间，社会党人应当支持本国政府进行“保卫祖国”的战争；“中派”则认为应等待战争结束，再谈革命，不必与前者决裂。",
+      "author_response": "必须建立一个与之对立的、坚持国际主义和无产阶级革命路线的革命国际，彻底抛弃这两种立场。",
+      "polemic_kind": "strategic_critique",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p59s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "中派",
+            "type": "concept",
+            "modern": "第二国际中在沙文主义者与国际主义者间摇摆的派别，以考茨基为代表",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "centrism"
+          }
+        ]
+      },
+      {
+        "sid": "p59s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_7>5"
+      ]
+    }
+  ]
+}

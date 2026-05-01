@@ -1,0 +1,58 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 32,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "作者以反讽口吻评论马尔托夫的党章条文，暗示其并不妥当。",
+    "importance_score": 2,
+    "importance_reason": "本段用反讽总结前文对马尔托夫条文的批判，强化论点。",
+    "argument_role": "conclusion",
+    "argument_link": "承接上段对马尔托夫条文条件的分析，以反讽方式得出结论，指出其无效。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p32s1",
+        "quote": "看吧，这就是所谓“妥当的”条文！",
+        "trigger": "inverted_logic",
+        "reader_block": "反讽语气可能让读者误以为作者在肯定条文，实际是讽刺其不妥当。",
+        "parse": {
+          "claim": "马尔托夫的党章条文并不妥当。",
+          "qualifiers": "",
+          "contrast_or_target": "马尔托夫认为他的条文是妥当的。"
+        },
+        "why": {
+          "relation": "conclusion",
+          "explanation": "本句以反讽总结前文对马尔托夫条文的批判，强调其无效。"
+        },
+        "implication": null,
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "马尔托夫",
+      "their_view": "马尔托夫认为他的党章条文是妥当的。",
+      "author_response": "斯大林讽刺该条文并不妥当，实际无效。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p32s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  }
+}

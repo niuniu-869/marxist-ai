@@ -1,0 +1,82 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 170,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁引入对布兰克关于工人民主派与资产阶级民主派关系论述的批判，将其定性为用马克思词句歪曲马克思的典型。",
+    "importance_score": 2,
+    "importance_reason": "本段是列宁对布兰克“理论”进行系统批判的开端，为后续具体反驳树立靶子并定性。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对布兰克历史观的批判，转向其理论中关于阶级关系的核心观点，开启新的论战层面。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "布伦坦诺、桑巴特、伯恩施坦",
+        "explain": "布伦坦诺是德国经济学家，主张用改良主义解释马克思；桑巴特是德国社会学家，认为资本主义会和平过渡；伯恩施坦是修正主义鼻祖，主张放弃革命。列宁将他们并列为歪曲马克思的代表。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "布伦坦诺主义",
+        "explain": "指以布伦坦诺为代表的、用资产阶级改良主义经济学偷换马克思主义革命理论的思潮，是列宁批判的修正主义的一种表现形式。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "布兰克",
+      "their_view": "布兰克试图用马克思的术语和个别论点，来阐述工人民主派与资产阶级民主派的关系，并自认为是在发展马克思的理论。",
+      "author_response": "列宁指出，这种做法是典型的伪造，与历史上布伦坦诺、伯恩施坦等人偷换马克思主义的手法如出一辙，实质是用改良主义冒充革命理论。",
+      "polemic_kind": "strategic_critique",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p170s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p170s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p170s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

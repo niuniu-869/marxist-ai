@@ -1,0 +1,83 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 834,
+  "annotation": {
+    "block_type": "quote_block",
+    "gist": "马克思对哥达纲领表示不满，质问为何未运用已有的理论著作。",
+    "importance_score": 1,
+    "importance_reason": "本段通过马克思的直接引语，展示他对哥达纲领的批判态度。",
+    "argument_role": "example",
+    "argument_link": "本段作为马克思对哥达纲领批评的具体实例，承接上文对马克思活动的描述。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "哥达纲领",
+        "explain": "1875年德国社会主义工人党在哥达合并大会上通过的纲领草案，马克思批评其内容妥协。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p834s1",
+        "quote": "“难道我们没有给他们解放斗争的思想武器吗?《共产党宣言》。《资本论》、关于法兰西内战和农民战争的论文，……。”",
+        "trigger": "inverted_logic",
+        "reader_block": "反问句式加列举，读者可能不理解马克思在质问什么，以及列举的著作与哥达纲领的关系。",
+        "parse": {
+          "claim": "马克思认为他们已经提供了足够的理论武器来指导解放斗争。",
+          "qualifiers": "",
+          "contrast_or_target": "针对哥达纲领的制定者，他们可能没有运用这些武器。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "本句通过反问强调已有理论武器的充分性，批评哥达纲领未能体现这些思想。"
+        },
+        "implication": "马克思强调理论指导在解放斗争中的重要性。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p834s1",
+        "speaker": "quoted_marx",
+        "stance": "endorsed",
+        "notes": [
+          {
+            "surface": "哥达纲领",
+            "type": "event",
+            "modern": "1875年德国社会主义工人党通过的纲领文件",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "《共产党宣言》",
+            "type": "work",
+            "modern": "马克思和恩格斯1848年发表的共产主义纲领性文献",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  }
+}

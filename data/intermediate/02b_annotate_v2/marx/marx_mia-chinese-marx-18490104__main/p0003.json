@@ -1,0 +1,111 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 3,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段通过对比，指出普鲁士资产阶级在政治上顺从旧制度、经济上保守落后，但在残酷对待工人阶级这一点上，甚至比英国资产阶级更甚。",
+    "importance_score": 2,
+    "importance_reason": "核心批判段落，通过与英国资产阶级的对比，具体刻画普鲁士资产阶级的反动与软弱，为后文揭露其具体文件做铺垫。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对英国资产阶级“慈善”伪善的揭露，转而对比并批判普鲁士资产阶级，指出其在压迫工人方面有过之而无不及。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "复辟时期与拿破仑",
+        "explain": "指1814-1830年法国波旁王朝复辟时期。拿破仑在1815年滑铁卢战败后，被欧洲君主国流放至地中海的圣赫勒拿岛。马克思用此历史类比，说明被专制统治的民众有时宁愿选择一个更强大的专制者。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "普鲁士资产阶级",
+      "their_view": "我们温和、守法，崇敬传统秩序，经营方式稳健，是社会稳定的支柱。",
+      "author_response": "你们在政治上卑躬屈膝，在经济上因循守旧，缺乏作为一个全国性阶级的勇气与能力，却以地方性私有者的身份，对工人施加了比英国同行更直接、更残酷的压迫。",
+      "polemic_kind": "reveals_class_basis",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p3s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p3s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p3s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p3s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p3s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p3s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p3s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p3s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p3s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

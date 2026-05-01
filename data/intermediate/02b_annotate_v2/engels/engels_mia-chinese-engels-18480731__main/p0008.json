@@ -1,0 +1,96 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 8,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "恩格斯概述英国工人运动八十年的斗争历程，并以反讽手法批判《科伦日报》将此视为工人对资产阶级之“爱”的荒谬观点。",
+    "importance_score": 3,
+    "importance_reason": "本段是恩格斯对英国阶级斗争历史的总结性陈述，其核心论点直接服务于反驳《科伦日报》的论战目标，是全文论证的关键支撑。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段对英国工人联合规模与暴力程度的列举，本段将这种斗争置于更长的历史脉络中，并点明其性质是“最自觉的阶级斗争”，从而深化对《科伦日报》观点的批判。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_density",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "英国宪章运动",
+        "explain": "19世纪30-50年代英国工人阶级争取普选权的政治运动，是早期工人阶级有组织斗争的高峰。文中“宪章派”即其组织。",
+        "why_needed": "history_density",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "1839与1842年起义",
+        "explain": "宪章运动期间两次大规模的工人武装起义，标志着斗争从请愿转向暴力对抗。",
+        "why_needed": "history_density",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "巴黎六月战斗",
+        "explain": "1848年6月巴黎无产阶级起义，被资产阶级政府血腥镇压，是欧洲革命中的标志性事件。恩格斯用以对比英国斗争的特点。",
+        "why_needed": "history_density",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "沃尔弗斯",
+        "explain": "《科伦日报》的编辑或主要撰稿人，是恩格斯在此文中的直接论战对手。",
+        "why_needed": "history_density",
+        "confidence": "high",
+        "source_basis": "metadata"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "《科伦日报》及其编辑沃尔弗斯",
+      "their_view": "英国无产阶级并不憎恨资产阶级，因为资产阶级不享有特权；自由贸易是避免阶级战争的手段。",
+      "author_response": "恩格斯通过列举英国工人长达八十年、从破坏机器到武装起义的完整斗争史，证明阶级斗争的客观存在与激烈程度，从而驳斥《科伦日报》的粉饰之词。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p8s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p8s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p8s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

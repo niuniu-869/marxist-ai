@@ -1,0 +1,103 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 109,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段从资本主义社会的基本阶级结构出发，提出劳动者与生产资料分离的历史起源问题，并简要指出其本质与解决方向。",
+    "importance_score": 2,
+    "importance_reason": "",
+    "argument_role": "transition",
+    "argument_link": "上一段结束于确定劳动价值的方法论，本段则转向追问这种价值关系得以存在的历史前提，即劳动者与生产资料分离这一事实是如何产生的。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "原始积累",
+        "explain": "马克思用此词指资本主义生产关系的历史形成过程，即通过暴力手段使直接生产者（农民等）与生产资料（土地等）分离，从而创造出一无所有的雇佣劳动者和占有生产资料的资本家这两个对立阶级。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p109s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p109s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p109s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "原始积累",
+            "type": "concept",
+            "modern": "马克思用此词批判古典经济学的“预先积累”说法，强调其暴力剥夺的历史实质。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "primitive_accumulation"
+          }
+        ]
+      },
+      {
+        "sid": "p109s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p109s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p109s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 1
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,144 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 49,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "确立物质生产作为历史研究的唯物主义出发点，批判德国唯心主义哲学忽视此点，并对比英法学者的初步尝试。",
+    "importance_score": 3,
+    "importance_reason": "本段提出“生产物质生活本身”是历史的基本条件，为全书奠定方法论基础。",
+    "argument_role": "continues",
+    "argument_link": "上段指出费尔巴哈脱离历史，本段则正面提出历史研究的唯物主义前提，即物质生产。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "圣布鲁诺",
+        "explain": "指布鲁诺·鲍威尔，青年黑格尔派核心人物。马克思恩格斯常以“圣”字讽刺其自诩为精神先知。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "市民社会史等",
+        "explain": "指19世纪英法学者对经济生活史的研究，为理解社会变迁提供了物质基础视角。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p49s4",
+        "quote": "即使感性在圣布鲁诺那里被归结为像一根棍子那样微不足道的东西，它仍然必须以生产这根棍子的活动为前提。",
+        "trigger": "inverted_logic",
+        "reader_block": "比喻性批判，读者可能不理解“感性”和“棍子”在鲍威尔哲学中的具体所指。",
+        "parse": {
+          "claim": "即使将感性经验贬低为微不足道之物，其存在本身仍依赖于生产活动。",
+          "qualifiers": "针对圣布鲁诺（鲍威尔）将感性经验视为低级、应被“自我意识”超越的观点。",
+          "contrast_or_target": "鲍威尔认为“自我意识”是能动的、创造性的，而感性物质世界是被动的、应被克服的。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "用具体例子（生产棍子）反驳鲍威尔对感性物质的贬低，重申物质生产的优先性。"
+        },
+        "implication": "任何意识活动，包括哲学思辨，都无法脱离物质生产的基础。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p49s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p49s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p49s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p49s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "圣布鲁诺",
+            "type": "person",
+            "modern": "布鲁诺·鲍威尔的绰号，青年黑格尔派核心成员，主张自我意识是历史动力。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p49s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p49s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p49s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "市民社会史、商业史和工业史",
+            "type": "work",
+            "modern": "19世纪英法学者对经济生活史的研究，为唯物史观提供经验材料。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 0,
+        "hs_kept": 1,
+        "hs_dropped": 1,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote",
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

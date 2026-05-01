@@ -1,0 +1,133 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 21,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段阐述了列宁对俄国革命阶段性任务的判断：社会主义不能一步到位，但农民的土地革命条件已成熟，无产阶级应领导并参与其中，同时警惕农村内部的阶级分化。",
+    "importance_score": 2,
+    "importance_reason": "本段是列宁对二月革命后俄国具体任务的纲领性阐述，连接了革命的总体性质与具体行动口号，是理解其革命策略的关键环节。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于布尔什维克党在斗争中形成并坚持其思想的论述，具体说明在当前俄国形势下，这些思想如何转化为对土地革命任务的判断和口号。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "斯托雷平土地改革",
+        "explain": "1906年至1911年间沙俄首相斯托雷平推行的土地政策，旨在通过土地私有化扶植富农阶层，破坏村社，加剧了农村的贫富分化。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "杜马",
+        "explain": "沙皇俄国在1905年革命后设立的议会机构，名义上是立法机关，但权力有限，且代表多为地主和资产阶级。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p21s4",
+        "quote": "无产阶级将为实现这个口号而斗争，同时它决不忽视农业雇佣工人以及跟随他们的贫苦农民同斯托雷平（1907—1914年）土地“改革”[59]后力量得到加强的富裕农民之间发生激烈的阶级冲突的必然性。",
+        "trigger": "long_nested",
+        "reader_block": "句子结构复杂，包含多个并列和修饰成分，核心是“无产阶级决不忽视……必然性”，中间插入了冲突双方的详细描述，读者容易迷失主干。",
+        "parse": {
+          "claim": "无产阶级在领导土地革命时，必须清醒认识到农村内部不同阶层之间存在不可避免的激烈冲突。",
+          "qualifiers": "冲突的一方是农业雇佣工人和贫苦农民，另一方是斯托雷平改革后力量增强的富裕农民。",
+          "contrast_or_target": ""
+        },
+        "why": {
+          "relation": "continues",
+          "explanation": "本句在提出土地革命口号后，立即补充了无产阶级在斗争中必须注意的复杂阶级关系，是对前句口号的深化和条件限定，防止对农村形势作简单化理解。"
+        },
+        "implication": "这意味着无产阶级不能仅仅满足于没收地主土地，还必须在革命过程中处理好与农村资产阶级（富农）的关系，这预示了未来革命中农村阶级斗争的复杂性。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p21s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "社会主义",
+            "type": "concept",
+            "modern": "在列宁的语境中，指通过无产阶级革命建立的、以公有制为基础的社会形态，与资本主义相对。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "socialism_leninist"
+          }
+        ]
+      },
+      {
+        "sid": "p21s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p21s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p21s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p21s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "杜马",
+            "type": "org",
+            "modern": "沙俄1905年革命后设立的议会机构，名义上是立法机关，但权力有限，且代表多为地主和资产阶级。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 2,
+        "hs_kept": 1,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 33,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "斯大林以法西斯主义为例，反驳威尔斯关于旧制度会自行崩溃的观点，阐述共产党人主张准备以暴力回应暴力。",
+    "importance_score": 2,
+    "importance_reason": "本段是斯大林对威尔斯核心观点的直接反驳，阐述了共产党人对暴力革命必要性的基本立场。",
+    "argument_role": "contrasts",
+    "argument_link": "承接上段斯大林指出威尔斯从正确认识中得出不正确结论的论断，本段具体展开，用法西斯主义为例，论证旧制度不会自行崩溃，从而反驳威尔斯的和平过渡设想。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "法西斯主义",
+        "explain": "1930年代在欧洲兴起的极端民族主义政治运动，主张通过暴力手段维护旧秩序、镇压工人运动和共产主义。斯大林在此将其作为旧制度用暴力自卫的典型例证。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p33s6",
+        "quote": "可是他们，共产党人，不愿遭到突然袭击，他们不能期待旧世界会自己离开舞台，他们看到旧制度是在用暴力保卫自己，因此共产党人向工人阶级说：准备以暴力回答暴力，尽力防止正在灭亡的旧制度击溃你们，别让旧制度给你们的双手戴上镣铐，你们是要用这双手去推翻这个旧制度的。",
+        "trigger": "long_nested",
+        "reader_block": "句子结构复杂，包含多个并列分句和比喻（“戴上镣铐”），读者可能难以快速抓住其核心逻辑链条。",
+        "parse": {
+          "claim": "共产党人基于对旧制度暴力自卫的现实判断，号召工人阶级做好武装斗争的准备，以防止自身被镇压，并最终用这双手推翻旧制度。",
+          "qualifiers": "此号召的前提是共产党人认识到旧制度不会自行退出历史舞台，且正在使用暴力手段维护自身。",
+          "contrast_or_target": "针对威尔斯认为旧制度会自行崩溃、可通过劝说或和平手段实现过渡的观点。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "本句是斯大林对威尔斯和平过渡论点的直接驳斥，通过阐述共产党人的现实主义立场和行动纲领，揭示了暴力革命的必要性。"
+        },
+        "implication": "共产党人的革命策略不是主动追求暴力，而是对旧制度暴力反抗的必然回应，旨在保护工人阶级并完成社会变革。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p33s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p33s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p33s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p33s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p33s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p33s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p33s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p33s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 1,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

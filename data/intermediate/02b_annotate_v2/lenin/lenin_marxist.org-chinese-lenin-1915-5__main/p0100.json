@@ -1,0 +1,92 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 100,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁以休特古姆为例，论证机会主义者客观上是资产阶级在工人运动中的代理人，并揭露其他社会党人与之同类，以及德国中央委员们的虚伪声明。",
+    "importance_score": 3,
+    "importance_reason": "核心批判段落，具体揭示机会主义者的阶级本质，并展开对多个论战对象的直接驳斥。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对机会主义实质的总结，本段通过具体人物和事例，进一步论证机会主义者与资产阶级的结盟关系。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "allusion",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "allusion",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "赫罗斯特拉将典故",
+        "explain": "赫罗斯特拉是古希腊人为博取名声而焚毁阿尔忒弥斯神庙的人，后世用以指不择手段追求臭名昭著者。列宁以此讽刺休特古姆的极端行为。",
+        "why_needed": "allusion",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p100s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p100s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "赫罗斯特拉将",
+            "type": "person",
+            "modern": "古希腊为求名而焚庙的人，列宁用以讽刺休特古姆的臭名昭著。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p100s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p100s4",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "hs:claim_5gram_with_quote",
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

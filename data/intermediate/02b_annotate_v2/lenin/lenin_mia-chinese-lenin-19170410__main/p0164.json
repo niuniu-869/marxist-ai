@@ -1,0 +1,82 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 164,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段阐明马克思主义的国家观：向社会主义过渡需要一种特定类型的国家，即巴黎公社和苏维埃式的国家，以此与无政府主义及考茨基主义划清界限。",
+    "importance_score": 2,
+    "importance_reason": "核心论点段，明确界定了马克思主义国家学说的关键内涵，是全文策略主张的理论基石。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对第二国际领袖庸俗化马克思主义的批判，本段具体阐述马克思主义国家学说的正确内容，以与被歪曲的观点形成对比。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "巴黎公社",
+        "explain": "1871年法国巴黎工人起义后建立的革命政权，仅存在72天。马克思在《法兰西内战》中总结其经验，视其为无产阶级专政的雏形，其特点是废除常备军、官员随时可撤换、兼管立法与行政。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "考茨基",
+      "their_view": "主张通过通常的资产阶级议会制民主共和国来实现向社会主义的过渡，认为这是必经阶段。",
+      "author_response": "列宁指出，马克思主义所主张的过渡国家并非这种资产阶级共和国，而是巴黎公社和苏维埃式的无产阶级专政形式。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p164s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "国家",
+            "type": "concept",
+            "modern": "在马克思主义理论中，特指阶级统治的工具。此处强调其在过渡时期的必要性，但与无政府主义和改良主义所指的国家形式有本质区别。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "state_marxist_theory"
+          },
+          {
+            "surface": "工人代表苏维埃",
+            "type": "event",
+            "modern": "1905年革命和1917年二月革命后出现的工人士兵代表会议，是新型的革命政权组织形式。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_12>5",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

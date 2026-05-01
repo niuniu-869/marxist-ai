@@ -1,0 +1,92 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 21,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "描述革命后半年俄国经济矛盾加剧、政府不作为的现状，并以反问句式进行讽刺。",
+    "importance_score": 2,
+    "importance_reason": "通过描绘经济崩溃的悖论景象，为后文提出革命性解决方案提供现实依据。",
+    "argument_role": "continues",
+    "argument_link": "承接前文对监督承诺落空的批评，具体描绘这种不作为导致的灾难性经济后果。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p21s2",
+        "quote": "令人难以置信的是，国内有足够的粮食和原料，但是却不见商品，国家因食品不足、劳动力缺乏而面临灭亡的危险，就在这样的国家里，在这样的危急关头，却又有大批人员失业！",
+        "trigger": "inverted_logic",
+        "reader_block": "读者会困惑于“有原料却没商品”、“有劳动力却失业”这种看似矛盾的并存现象，需要理解这是资本主义生产关系与战争破坏共同作用的结果。",
+        "parse": {
+          "claim": "俄国同时存在生产资料闲置与劳动力闲置的悖论，这并非资源绝对短缺，而是生产与分配体系失灵的体现。",
+          "qualifiers": "在革命半年后、战争持续的特定时期。",
+          "contrast_or_target": ""
+        },
+        "why": {
+          "relation": "continues",
+          "explanation": "具体展开前文所述的“灾难”，用“有原料却无商品”、“有劳力却失业”这一组尖锐矛盾，揭示临时政府经济管理的彻底失败。"
+        },
+        "implication": "这种悖论证明，问题根源在于资本主义私有制和战争经济，而非简单的物资短缺，从而论证了必须进行根本性变革。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "临时政府及其支持者（孟什维克、社会革命党人）",
+      "their_view": "我们拥有民主共和制，也有众多革命民主团体和机关，革命形势总体是好的，正在逐步解决问题。",
+      "author_response": "列宁指出，这些形式上的民主和团体在半年时间里，面对迫在眉睫的灾难，没有采取任何有效行动，其“革命民主”名号与实际表现严重脱节。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p21s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p21s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p21s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p21s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 1,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

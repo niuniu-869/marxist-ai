@@ -1,0 +1,66 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 174,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段文本异常，包含疑似网址残留和不完整句子，无法提取有效内容。",
+    "importance_score": 1,
+    "importance_reason": "文本异常，可能为排版错误，对论证无直接贡献。",
+    "argument_role": "none",
+    "argument_link": null,
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "text_anomaly",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "text_anomaly",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "文本异常",
+        "explain": "原文'ac.cn由此可见？……'疑似排版残留或OCR错误，'ac.cn'可能为网址片段，句子不完整。",
+        "why_needed": "text_anomaly",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p174s1",
+        "quote": "ac.cn由此可见？……",
+        "trigger": "text_anomaly",
+        "reader_block": "文本包含'ac.cn'网址残留和不完整标点，读者无法理解其含义。",
+        "parse": {
+          "claim": "原文疑似包含网址残留和不完整标点，无法形成有效陈述。",
+          "qualifiers": "",
+          "contrast_or_target": ""
+        },
+        "why": {
+          "relation": "none",
+          "explanation": ""
+        },
+        "implication": null,
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p174s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  }
+}

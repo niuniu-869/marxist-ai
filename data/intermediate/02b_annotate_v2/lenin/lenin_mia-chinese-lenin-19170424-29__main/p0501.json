@@ -1,0 +1,65 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 501,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段描述全球范围内民众对资本家阶级的不满加剧，无产阶级阶级意识提升，并认识到夺取政权和消灭私有制是避免人类灾难的唯一途径。",
+    "importance_score": 3,
+    "importance_reason": "本段在全文中的角色是core_thesis，因为它提出了无产阶级革命的核心主张。",
+    "argument_role": "continues",
+    "argument_link": "本段承接上段关于俄国革命是全球无产阶级革命一部分的论点，进一步说明全球无产阶级意识的觉醒和革命目标。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p501s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "无产阶级",
+            "type": "concept",
+            "modern": "在马克思主义理论中，指现代工业社会中不占有生产资料、靠出卖劳动力为生的阶级。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "proletarian_modern"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_7>5"
+      ]
+    }
+  ]
+}

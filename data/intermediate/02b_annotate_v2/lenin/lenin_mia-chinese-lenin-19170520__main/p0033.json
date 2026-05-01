@@ -1,0 +1,64 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 33,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁以反讽语气驳斥社会革命党人认为有偿取得土地会改善耕种的观点。",
+    "importance_score": 1,
+    "importance_reason": "本段直接反驳社会革命党人的一个具体论据，支撑列宁关于立即没收土地的主张。",
+    "argument_role": "contrasts",
+    "argument_link": "本段针对上段社会革命党人提出的播种面积缩小论据进行反驳，指出其逻辑错误。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p33s2",
+        "quote": "好象农民有偿地取得地主的土地就会把土地耕种得更好些！！",
+        "trigger": "inverted_logic",
+        "reader_block": "反讽语气'好象...就会...'，读者可能误以为作者在陈述事实，实际是讽刺论敌观点。",
+        "parse": {
+          "claim": "农民通过有偿方式获得地主土地并不会导致耕种质量提高。",
+          "qualifiers": "",
+          "contrast_or_target": "社会革命党人认为有偿取得土地会改善耕种。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "本句通过反讽揭露社会革命党人论据的荒谬性，反驳其前提。"
+        },
+        "implication": null,
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "社会革命党人",
+      "their_view": "农民通过有偿方式获得地主土地会改善耕种质量。",
+      "author_response": "列宁指出这种论据荒谬，不符合实际。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p33s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p33s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  }
+}

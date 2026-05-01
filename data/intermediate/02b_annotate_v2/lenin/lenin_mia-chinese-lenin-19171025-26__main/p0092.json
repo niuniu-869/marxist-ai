@@ -1,0 +1,184 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 92,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁回应关于土地法令由社会革命党人拟订的质疑，阐述新政府尊重农民决定、依靠实践检验真理的立场。",
+    "importance_score": 2,
+    "importance_reason": "阐述新政权处理与农民关系、与政治对手分歧的策略原则，是理解早期苏维埃政策灵活性的关键段落。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于土地法令内容的宣布，转而回应外界对法令来源的质疑，并阐明新政府对待农民自发行动的哲学。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "社会革命党与土地纲领",
+        "explain": "社会革命党是当时俄国主要政党之一，其核心主张是将土地分配给农民（社会化）。其土地纲领在农民中有广泛影响，与布尔什维克主张的国有化有区别。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "立宪会议",
+        "explain": "原定由全民选举产生的制宪机构，旨在为俄国制定宪法。各党派均期望在其中获得多数以主导国家未来走向。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "社会革命党人及质疑法令来源者",
+      "their_view": "这个土地法令和委托书是社会革命党人拟订的，因此布尔什维克政府不应采纳或推行它。",
+      "author_response": "法令由谁拟订并不重要，重要的是它反映了农民的意愿。作为民主政府，有责任将农民的决定付诸实践，并通过实际生活来检验其正确性。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p92s1",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": [
+          {
+            "surface": "社会革命党人",
+            "type": "org",
+            "modern": "1917年俄国主要政党之一，主张土地社会化，其纲领在农民中影响广泛。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p92s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p92s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p92s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p92s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "立宪会议",
+            "type": "event",
+            "modern": "原定为俄国制定宪法的全民选举机构，各政治力量均期望在此获得主导权。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p92s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p92s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p92s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p92s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p92s10",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p92s11",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p92s12",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p92s13",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p92s14",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p92s15",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p92s16",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p92s17",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

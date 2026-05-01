@@ -1,0 +1,119 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 16,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "通过对比英法与德国的经济结构，指出德国社会以农业为主，这导致其政治制度建立时农业势力强大。",
+    "importance_score": 1,
+    "importance_reason": "为前文描述的德国资产阶级软弱性提供经济基础层面的解释，是论证链条中的支撑性环节。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段对德国资产阶级与英法资产阶级的对比，从经济结构（工农业比重）角度解释这种差异的根源。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p16s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "文明",
+            "type": "concept",
+            "modern": "在19世纪语境下，常指工业化、城市化等现代社会整体发展水平。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "civilization_19th_century"
+          }
+        ]
+      },
+      {
+        "sid": "p16s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "人民群众",
+            "type": "social_group",
+            "modern": "主要指城市中的无产阶级和小资产阶级，其生计依赖于工商业活动。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "inferred"
+          }
+        ]
+      },
+      {
+        "sid": "p16s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p16s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p16s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p16s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p16s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "1815年",
+            "type": "event",
+            "modern": "拿破仑战争结束，维也纳会议召开，确立了欧洲新的政治秩序。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 3,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

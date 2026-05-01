@@ -1,0 +1,98 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 68,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "马克思讽刺“莱茵观察家”用圣经为政府政策辩护，指出其荒谬性。",
+    "importance_score": 2,
+    "importance_reason": "支撑核心论点的讽刺性反驳，揭露论敌用宗教为政府辩护的荒谬。",
+    "argument_role": "contrasts",
+    "argument_link": "上段指出社会状况要求保护关税，本段则讽刺用圣经规定来辩护，形成对比。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "allusion",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic, allusion",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "马太福音阉割典故",
+        "explain": "《马太福音》第十九章第十二节提到有些人为了天国的缘故自愿阉割。马克思引用此典故，讽刺“莱茵观察家”提出的“社会改革”方案如同这种极端且不切实际的宗教行为。",
+        "why_needed": "allusion",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p68s2",
+        "quote": "一般说来，福音书规定了很多东西，其中阉割是社会改革用于自身的起点（“马太福音”第十九章第十二节）。",
+        "trigger": "allusion",
+        "reader_block": "读者可能不熟悉《马太福音》中关于“阉割”的具体典故及其在宗教语境中的含义，导致无法理解马克思的讽刺。",
+        "parse": {
+          "claim": "福音书包含各种规定，其中有些（如自愿阉割）被论敌用作其社会改革方案的起点。",
+          "qualifiers": "无。",
+          "contrast_or_target": "论敌（莱茵观察家）声称其社会改革方案有福音书依据。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "本句通过引用具体圣经章节，揭露论敌所谓“福音书规定”的社会改革方案，实质是荒谬且脱离现实的。"
+        },
+        "implication": "论敌的改革方案缺乏现实基础，其援引的宗教依据是荒诞的。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "莱茵观察家",
+      "their_view": "福音书的规定可以作为社会改革的依据。",
+      "author_response": "马克思讽刺这种辩护的荒谬性，指出政府财政空虚才是更紧迫的现实问题。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p68s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p68s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "马太福音",
+            "type": "work",
+            "modern": "新约圣经中的一卷，马克思引用其第十九章第十二节关于阉割的段落进行讽刺。",
+            "highlight": "quote",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 1,
+        "hs_kept": 1,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

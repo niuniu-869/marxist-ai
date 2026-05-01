@@ -1,0 +1,96 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 422,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段以货币拜物教为例，说明不同民族对货币的迷恋程度反映其发展阶段，并阐述实践与理论、感觉与精神的关系。",
+    "importance_score": 2,
+    "importance_reason": "本段通过拜物教现象连接理论与实践，并引入感觉异化主题，为异化劳动分析铺垫。",
+    "argument_role": "example",
+    "argument_link": "本段承接上段对国民经济学的批判，以货币拜物教为例，说明理论难题需通过实践解决，并引出感觉异化的讨论。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "term_polysemy",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "货币拜物教",
+        "explain": "马克思指人们对货币的盲目崇拜，将其视为具有魔力的物，掩盖了货币作为社会关系的本质。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "感性与感性存在",
+        "explain": "费尔巴哈哲学术语，感性指通过感官直接认识世界，感性存在指人的物质性社会存在。马克思用此分析不同民族的意识差异。",
+        "why_needed": "term_polysemy",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p422s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p422s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p422s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p422s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p422s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 2,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "note:eval_word:光辉",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

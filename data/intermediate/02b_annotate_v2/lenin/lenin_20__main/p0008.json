@@ -1,0 +1,130 @@
+{
+  "_prompt_version": "marxist-v0.2-2026-04-30-scaffolding",
+  "n": 8,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "批评苏维埃报刊未能揭露和斗争那些保持资本主义传统的落后工厂与工人，并对比资产阶级报刊的阶级斗争效能。",
+    "importance_score": 2,
+    "importance_reason": "通过具体例证（落后工厂）和鲜明对比（资产阶级报刊），将上段关于报刊应关注经济建设的抽象要求，转化为报刊在阶级斗争中的具体战斗任务。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于报刊应关注实际经济建设的论述，具体指出报刊在揭露经济领域落后现象、进行阶级斗争方面的失职。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "rhetorical",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p8s6",
+        "quote": "请回想一下，资产阶级是怎样出色地在报刊上抨击自己的阶级敌人，怎样讥笑他们，侮辱他们，置他们于死地的。而我们呢？",
+        "trigger": "rhetorical",
+        "parse": {
+          "claim": "资产阶级曾非常有效地利用报刊作为阶级斗争的武器来打击其敌人。",
+          "qualifiers": "无。",
+          "contrast_or_target": "对比对象是苏维埃报刊，其观点是报刊应避免尖锐的阶级斗争内容。作者通过反问暗示苏维埃报刊在此方面远不如资产阶级报刊。"
+        },
+        "why": {
+          "relation": "contrasts",
+          "explanation": "通过回顾资产阶级利用报刊进行阶级斗争的历史效能，与当下苏维埃报刊的消极状态形成尖锐对比，旨在唤醒对报刊战斗功能的重视。"
+        },
+        "implication": "无产阶级必须学会并超越资产阶级，更有效地运用报刊这一工具进行阶级斗争。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "认为报刊不应涉及私人工厂和农场内幕、或对落后现象保持沉默的观点与实践。",
+      "their_view": "报刊应避免揭露经济单位内部的具体问题，以免引发矛盾或损害形象。",
+      "author_response": "报刊必须无情揭露和斗争那些体现资本主义传统的落后工厂与工人，这是无产阶级报刊的职责所在，沉默即是背叛。"
+    },
+    "sentences": [
+      {
+        "sid": "p8s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p8s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p8s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p8s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p8s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p8s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p8s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "阶级斗争",
+            "type": "concept",
+            "modern": "不同阶级之间为根本利益而进行的对抗与冲突",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "class_struggle_transitional"
+          }
+        ]
+      },
+      {
+        "sid": "p8s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p8s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 1,
+        "hs_kept": 1,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_metaphor_10>8",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

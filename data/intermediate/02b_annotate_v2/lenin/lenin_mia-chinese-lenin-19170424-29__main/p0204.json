@@ -1,0 +1,100 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 204,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁以编号形式总结了从地方到中央的革命行动纲领，提出在中央准备新革命、在地方推进革命、建立公社、反对小资产阶级影响并利用地方经验推动中央。",
+    "importance_score": 2,
+    "importance_reason": "这是对前文革命进程分析的结论性概括，提出了具体的、分步骤的革命策略，是会议决议的核心内容之一。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对革命进程（从中央到地方）的描述，本段将这一进程转化为具体的、可操作的行动纲领，明确了下一步的任务。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p204s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "新的革命",
+            "type": "concept",
+            "modern": "在二月革命推翻沙皇后，列宁主张的、旨在将政权完全转移到无产阶级手中的下一步革命行动。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "revolution_proletarian"
+          }
+        ]
+      },
+      {
+        "sid": "p204s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "革命",
+            "type": "concept",
+            "modern": "此处指在地方层面（如城市、工厂）继续深化的、旨在夺取实际权力的无产阶级革命进程。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "revolution_proletarian"
+          }
+        ]
+      },
+      {
+        "sid": "p204s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p204s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p204s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 2,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "note:n1_overflow_concept_7>5"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 170,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段指代与杀害勒孔特和克莱芒·托马相关的罪犯群体，作为对凡尔赛政府暴力镇压的指控的一部分。",
+    "importance_score": 1,
+    "importance_reason": "通过具体指代历史事件中的责任人，支撑对梯也尔政府行为的批判。",
+    "argument_role": "continues",
+    "argument_link": "本段延续上段对梯也尔政府镇压行为的描述，具体指向与杀害军官相关的责任人。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "勒孔特和克莱芒·托马",
+        "explain": "勒孔特和克莱芒·托马是法国将军，在1871年3月18日巴黎公社起义初期被起义者杀害。他们的死亡成为凡尔赛政府镇压公社的借口。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p170s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "勒孔特",
+            "type": "person",
+            "modern": "法国将军，1871年3月18日巴黎公社起义时被杀。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "克莱芒·托马",
+            "type": "person",
+            "modern": "法国将军，与勒孔特同日在巴黎公社起义中被杀。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  }
+}

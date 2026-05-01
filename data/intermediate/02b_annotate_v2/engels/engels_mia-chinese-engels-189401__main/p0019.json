@@ -1,0 +1,186 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 19,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "恩格斯通过认识论隔阂和历史阶段不可逾越两个论点，反驳民粹派关于俄国公社可直接过渡到社会主义的幻想。",
+    "importance_score": 3,
+    "importance_reason": "核心段落，系统阐述了历史唯物主义关于社会形态演进的基本原理，是反驳民粹派理论前提的关键。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于公社自身力量不足的论断，本段从认识主体和历史规律两个层面，深入论证为何公社无法自行解决资本主义阶段才产生的问题。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "allusion | term_polysemy",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "罗伯特·欧文的空想社会主义",
+        "explain": "欧文是19世纪初英国空想社会主义者，试图通过建立模范工厂和社区来改造社会。恩格斯用此例说明，即使有先进思想，处于落后经济阶段的群众也难以理解超越其时代的问题。",
+        "why_needed": "allusion",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "经济发展阶段论",
+        "explain": "恩格斯在此特指前资本主义的、以公有制为基础的原始社会形态，与资本主义社会形态相对。理解此概念是把握本段论证逻辑的前提。",
+        "why_needed": "term_polysemy",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      },
+      {
+        "topic": "氏族公社与扎德鲁加",
+        "explain": "氏族公社是原始社会的基本经济单位，生产资料公有。扎德鲁加是南斯拉夫地区残存的家族公社形式。恩格斯将它们与俄国公社并列，作为同类社会形态的例子。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p19s5",
+        "quote": "其次，要处在较低的经济发展阶段的社会来解决只是处在高得多的发展阶段的社会才产生了的和才能产生的问题和冲突，这在历史上是不可能的。",
+        "trigger": "long_nested",
+        "reader_block": "句子结构嵌套，且“较低的经济发展阶段”与“高得多的发展阶段”是特定理论术语，读者易混淆其具体所指和对比关系。",
+        "parse": {
+          "claim": "让一个生产力水平较低的社会形态去处理只有在生产力高度发达的社会中才会出现的矛盾，这违背了历史发展的客观规律。",
+          "qualifiers": "限定于“在历史上”这一宏观尺度，强调的是社会形态演进的普遍规律，而非个别例外。",
+          "contrast_or_target": "针对民粹派认为俄国公社（较低阶段）可以解决资本主义（较高阶段）内在矛盾的幻想。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "这是对民粹派核心幻想的直接理论驳斥，提出了一个历史唯物主义的基本原理：社会问题的产生与解决都根植于特定的经济基础。"
+        },
+        "implication": "俄国公社若想解决资本主义带来的问题，其自身必须先经历一个充分发展的阶段，而非绕过它。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p19s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p19s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p19s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "罗伯特·欧文",
+            "type": "person",
+            "modern": "19世纪初英国空想社会主义者，试图通过建立合作工厂和公社来改造社会。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p19s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p19s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p19s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "氏族公社",
+            "type": "concept",
+            "modern": "原始社会的基本经济和社会组织单位，以血缘关系为纽带，生产资料归公社集体所有。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "gens_community"
+          }
+        ]
+      },
+      {
+        "sid": "p19s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p19s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p19s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p19s10",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "扎德鲁加",
+            "type": "social_group",
+            "modern": "南斯拉夫地区（特别是塞尔维亚、保加利亚）残存的一种家族公社形式，土地和财产由家族共同所有。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 3,
+        "notes_dropped": 7,
+        "hs_kept": 1,
+        "hs_dropped": 1,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_10>5",
+        "note:n1_overflow_concept_7>5",
+        "note:n1_overflow_concept_11>5",
+        "note:n2_circular_prefix",
+        "note:n1_overflow_concept_9>5",
+        "note:n1_overflow_concept_6>5",
+        "note:n1_overflow_concept_13>5",
+        "hs:claim_5gram_with_quote",
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

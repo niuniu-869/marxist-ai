@@ -1,0 +1,79 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 480,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁批判王德威尔得用“从狭义国家向广义国家的过渡”这一模糊表述，来规避革命与改良的根本区别。",
+    "importance_score": 2,
+    "importance_reason": "本段通过批判王德威尔得的折中主义，具体展示机会主义者如何用抽象概念掩盖阶级斗争。",
+    "argument_role": "continues",
+    "argument_link": "本段延续前文对模糊过渡概念的批判，将矛头指向王德威尔得，揭示其比考茨基更巧妙的诡辩手法。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "王德威尔得",
+        "explain": "王德威尔得是比利时工人党领袖，第二国际领导人之一，以折中主义立场著称，常在革命与改良之间调和。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "王德威尔得",
+      "their_view": "王德威尔得主张“从狭义国家向广义国家的过渡”，认为这可以避开革命问题，调和革命与改良的区别。",
+      "author_response": "列宁批判这种折中主义是诡辩，实际上模糊了马克思主义者与自由主义者的界限，为资产阶级服务。",
+      "polemic_kind": "strategic_critique",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p480s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "国家",
+            "type": "concept",
+            "modern": "在列宁批判中，指阶级统治工具，王德威尔得用“狭义”和“广义”模糊其阶级性。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "state_marxist_theory"
+          }
+        ]
+      },
+      {
+        "sid": "p480s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

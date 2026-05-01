@@ -1,0 +1,148 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 5,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "提出唯物史观的基本原理，阐述两种生产如何制约社会制度，并描述从血缘社会到阶级社会的演变。",
+    "importance_score": 3,
+    "importance_reason": "提出全书的理论基石，即两种生产制约社会制度的原理。",
+    "argument_role": "definition",
+    "argument_link": "承接上段对写作缘起的说明，开始系统阐述唯物史观的基本原理。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "两种生产理论",
+        "explain": "恩格斯在此提出一个核心框架：人类社会存续依赖于两种生产。一是物质生活资料的生产，二是人类自身的繁衍。社会制度同时受这两者发展水平的制约。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p5s12",
+        "quote": "在这种社会中，家庭制度完全受所有制的支配，阶级对立和阶级斗争从此自由开展起来，这种阶级对立和阶级斗争构成了直到今日的全部成文史的内容。",
+        "trigger": "long_nested",
+        "reader_block": "长句包含多个从句，将“家庭制度受支配”、“阶级斗争开展”和“构成历史内容”三个论断串联，逻辑链条较长。",
+        "parse": {
+          "claim": "在国家形态的社会里，家庭关系从属于财产关系，阶级之间的对抗与斗争成为历史发展的主线。",
+          "qualifiers": "“在这种社会中”指代前文所述的、以地区团体为基层单位的国家社会。",
+          "contrast_or_target": ""
+        },
+        "why": {
+          "relation": "conclusion",
+          "explanation": "作为本段论证的总结，指出血缘社会被阶级社会取代后，社会结构和历史动力的根本转变。"
+        },
+        "implication": "这为全书后续分析国家、家庭与私有制的关系定下了基调：阶级斗争是理解“成文史”的钥匙。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p5s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p5s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p5s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p5s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p5s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p5s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p5s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p5s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p5s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p5s10",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p5s11",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p5s12",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 1,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

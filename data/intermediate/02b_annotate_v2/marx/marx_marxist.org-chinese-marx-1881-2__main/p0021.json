@@ -1,0 +1,116 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 21,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段分析农业公社内部二重性可能导致解体的机制，并强调其最终命运取决于具体的历史环境，而非先验的必然性。",
+    "importance_score": 3,
+    "importance_reason": "核心论点段落，直接回应查苏利奇关于公社是否必然解体的提问，提出历史环境决定论，是全文论证的关键转折。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对公社二重性生命力的分析，转而论述这种二重性同样可能成为解体的根源，并由此引出对历史必然性的否定。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p21s5",
+        "quote": "但这是不是说，不管在什么情况下，“农业公社”的发展都要遵循这条道路呢？绝对不是的。",
+        "trigger": "inverted_logic",
+        "reader_block": "先以反问句式提出一个看似必然的结论（公社必然走西欧道路），随即用“绝对不是的”强烈否定。这种先立后破的修辞，读者可能误以为前半句是作者观点。",
+        "parse": {
+          "claim": "农业公社的发展并非在任何情况下都必然经历从公有制到私有制的过渡。",
+          "qualifiers": "此判断针对“不管在什么情况下”这一绝对化预设。",
+          "contrast_or_target": "针对那种认为公社必然解体、必然走西欧老路的机械历史观。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "这是对“资本主义发展必然论”的直接反驳。通过设问和断然否定，马克思明确划清了自己与历史决定论的界限，为提出“历史环境决定论”扫清障碍。"
+        },
+        "implication": "公社的未来存在多种可能性，不能用西欧历史经验作为唯一标尺来裁决。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "资本主义发展必然论",
+      "their_view": "俄国农村公社必然解体，俄国必须像西欧一样先经历漫长的资本主义原始积累阶段。",
+      "author_response": "公社的命运并非先验注定，其内部公有制与私有制因素的斗争结果，完全取决于它所处的具体历史环境。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p21s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p21s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p21s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p21s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p21s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p21s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p21s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p21s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 1,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

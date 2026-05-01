@@ -1,0 +1,78 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 119,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "阐述民族问题的解决必须基于具体历史条件，并需辩证对待。",
+    "importance_score": 2,
+    "importance_reason": "提出解决民族问题的方法论原则，是全文理论框架的关键支撑。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段关于民族问题需联系历史条件的结论，具体化为经济、政治、文化条件的决定性作用，并引入辩证法。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p119s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p119s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "特殊的方法",
+            "type": "concept",
+            "modern": "承认各民族因具体条件差异，其发展道路与政治形式必然具有独特性。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "specific_approach_national"
+          }
+        ]
+      },
+      {
+        "sid": "p119s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 2,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_11>5",
+        "note:n1_overflow_concept_7>5"
+      ]
+    }
+  ]
+}

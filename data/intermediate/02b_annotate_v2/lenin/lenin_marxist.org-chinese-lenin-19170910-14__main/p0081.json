@@ -1,0 +1,67 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 81,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁驳斥了反对取消商业秘密的论调，指出持此论者无视了现代经济的两个基本事实。",
+    "importance_score": 2,
+    "importance_reason": "本段是列宁反驳前文所述反对意见的过渡段，通过指出对方忽视的关键事实，为后续论证奠定基础。",
+    "argument_role": "contrasts",
+    "argument_link": "本段直接针对前一段所转述的、基于私有制和市场依赖而反对取消商业秘密的理由，指出其论据的片面性。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "资本家和小资产阶级",
+      "their_view": "基于私有制和市场依赖，商业信息必须保密，因此不能取消商业秘密。",
+      "author_response": "列宁指出，重复这类理由的人忽视了现代经济中大资本主义组织形式和战争状态这两个基本事实。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p81s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p81s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p81s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

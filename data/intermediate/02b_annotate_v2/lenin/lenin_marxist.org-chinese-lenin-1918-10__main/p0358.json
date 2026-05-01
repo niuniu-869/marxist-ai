@@ -1,0 +1,104 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 358,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段叙述1918年夏秋俄国国内战争的具体发展，展示阶级矛盾如何在实际生活中激化，以及小资产阶级政党的分化。",
+    "importance_score": 1,
+    "importance_reason": "为后续论证提供具体历史例证，说明革命后阶级斗争的现实形态。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对革命后农民立场的分析，具体描述富农与贫苦农民的冲突如何演变为全国性暴动，并导致小资产阶级政党分裂。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p358s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p358s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "捷克斯洛伐克军",
+            "type": "org",
+            "modern": "1918年在俄国内战中，这支由协约国支持的军队发动了反布尔什维克的叛乱。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p358s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p358s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p358s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "左派社会革命党人",
+            "type": "org",
+            "modern": "一个小资产阶级政党，在1918年因对苏维埃政策的分歧而发生分裂。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p358s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 2,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

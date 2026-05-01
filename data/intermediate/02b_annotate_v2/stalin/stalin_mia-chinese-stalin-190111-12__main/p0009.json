@@ -1,0 +1,76 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 9,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段批判“经济派”只重自发斗争、忽视最终目标的倾向，并以彼得堡《工人思想报》的纲领为例，揭示其政策的荒谬性。",
+    "importance_score": 2,
+    "importance_reason": "本段通过具体实例，支撑了上一段关于“经济派”错误倾向的论断，是核心批判的例证部分。",
+    "argument_role": "example",
+    "argument_link": "本段承接上一段对“经济派”忽视最终目的的批评，具体展示了这种倾向在纲领层面的荒谬表现。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "经济派（以《工人思想报》为代表）与伯恩施坦修正主义",
+      "their_view": "工人运动本身即是全部意义，无需追问斗争的最终目标；政治纲领应局限于争取具体经济条件的改善，如缩短工时、恢复节日。",
+      "author_response": "这种只重过程、抛弃目标的立场是舍本逐末，将无产阶级斗争降格为零散的经济要求，背离了推翻专制制度的根本任务。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p9s1",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p9s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "舍本逐末的政策",
+            "type": "metaphor",
+            "modern": "作者用此比喻批判经济派将斗争手段（经济要求）置于根本目标（政治革命）之上的路线。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p9s3",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

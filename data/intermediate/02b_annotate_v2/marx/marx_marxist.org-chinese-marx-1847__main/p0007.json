@@ -1,0 +1,101 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 7,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段具体分析不同生产部门中固定资本与工人比例差异，如何影响工资提高后的价格变动，以此反驳蒲鲁东关于价格普遍上涨的论断。",
+    "importance_score": 2,
+    "importance_reason": "这是对上一段核心论点（工资提高不导致价格普遍上涨）的具体机制展开，通过部门差异分析提供实证支撑。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段关于普遍提高工资导致利润普遍降低的结论，本段进一步分析不同生产部门因资本有机构成不同而产生的差异化影响，以驳斥价格普遍上涨的预期。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p7s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "固定资本",
+            "type": "concept",
+            "modern": "在马克思政治经济学中，指以机器、厂房等形式存在的、在生产过程中价值逐渐转移的资本部分，与用于支付工资的流动资本相对。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "fixed_capital_political_economy"
+          }
+        ]
+      },
+      {
+        "sid": "p7s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p7s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p7s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p7s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p7s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 6,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_7>5",
+        "note:n1_overflow_concept_8>5",
+        "note:n1_overflow_concept_6>5",
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix",
+        "note:n1_overflow_concept_7>5",
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

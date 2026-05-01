@@ -1,0 +1,79 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 30,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "论证在潜在的俄法入侵战争中，德国社会民主党有能力迫使或取代政府采取革命手段。",
+    "importance_score": 3,
+    "importance_reason": "核心论点：阐明社会民主党在战争中的战略角色。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于抵抗俄国及其盟友的论述，具体说明德国社会民主党在战争中的行动能力。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p30s1",
+        "quote": "一场有俄国人和法国人侵入德国的战争，对德国来说将是生死攸关的战斗，在这场战斗中，德国为了保证自己民族的生存必须采取最革命的手段。",
+        "trigger": "inverted_logic",
+        "reader_block": "读者可能认为“革命”是推翻本国政府，但这里却是在反侵略战争中使用革命手段，两者语境不同易混淆。",
+        "parse": {
+          "claim": "在抵御外敌入侵的战争中，德国必须动员最彻底的革命性措施来确保民族存续。",
+          "qualifiers": "限定于俄法入侵德国的战争情境。",
+          "contrast_or_target": null
+        },
+        "why": {
+          "relation": "continues",
+          "explanation": "本句将上段的战争必要性具体化为德国必须采取的革命性应对措施。"
+        },
+        "implication": null,
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p30s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p30s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p30s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "社会民主党",
+            "type": "org",
+            "modern": "1863年成立的德国工人政党，1890年代已成为国内最大政治力量。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  }
+}

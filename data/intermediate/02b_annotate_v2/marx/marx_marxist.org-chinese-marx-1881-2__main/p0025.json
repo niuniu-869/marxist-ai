@@ -1,0 +1,109 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 25,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "马克思从历史时机角度论证俄国公社得以保存的有利条件，并指出资本主义的普遍危机预示着向集体所有制的回复。",
+    "importance_score": 3,
+    "importance_reason": "本段是马克思对俄国公社前途问题的核心论证之一，提出了公社可跨越资本主义阶段的理论依据。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对公社孤立性弱点的分析，转而从历史时机角度论证公社得以保存的积极因素。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "term_density",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "农业公社（米尔）",
+        "explain": "指19世纪俄国农村以村社（米尔）为单位的土地共有、定期重分的组织形式，是当时俄国社会的基础。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "资本主义危机",
+        "explain": "马克思认为资本主义内在矛盾（生产社会化与生产资料私有制）必然导致周期性经济危机与阶级斗争激化，最终使其走向灭亡。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "资本主义发展必然论",
+      "their_view": "俄国农村公社必然解体，俄国必须像西欧一样先经历漫长的资本主义原始积累阶段。",
+      "author_response": "马克思指出，俄国公社与资本主义同时代且幸存至今，而资本主义自身已陷入全面危机，这为公社跳过资本主义阶段、吸收其成果并走向更高级形式创造了历史条件。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p25s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "农业公社",
+            "type": "concept",
+            "modern": "马克思在此特指19世纪俄国以村社（米尔）为单位的土地共有、定期重分的农村组织形式。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "commune_russian_mir"
+          }
+        ]
+      },
+      {
+        "sid": "p25s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p25s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p25s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "古代",
+            "type": "concept",
+            "modern": "马克思用此词指代原始共产主义社会（如日耳曼、斯拉夫公社），但强调是其“高级形式”，即在更高生产力基础上的复归。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "ancient_communism_higher_form"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 2,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

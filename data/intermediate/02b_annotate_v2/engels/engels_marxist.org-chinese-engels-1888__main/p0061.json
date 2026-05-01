@@ -1,0 +1,89 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 61,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "恩格斯指出，在阶级社会中，将人与人之间的感情宗教化，只会进一步破坏这种感情存在的可能，并模糊对阶级斗争的理解，以此批判费尔巴哈的哲学。",
+    "importance_score": 2,
+    "importance_reason": "本段是恩格斯对费尔巴哈哲学批判的总结性段落，明确指出了费尔巴哈“爱的宗教”在现实社会中的不切实际及其危害。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段对费尔巴哈历史观的批判，进一步从现实社会关系的角度，论证其“爱的宗教”主张的虚幻性和破坏性。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "费尔巴哈",
+      "their_view": "在人与人的交往中，可以表现纯粹的人类感情，应当将这种感情尊崇为一种新的、爱的宗教。",
+      "author_response": "在以阶级对立为基础的社会里，这种感情存在的可能性已被破坏，将其宗教化只会加剧这种破坏，并模糊对阶级斗争历史的理解。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p61s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p61s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p61s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "阶级斗争",
+            "type": "concept",
+            "modern": "马克思主义认为，阶级社会发展的直接动力是不同阶级之间围绕经济利益和政治权力展开的对抗。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "class_struggle"
+          }
+        ]
+      },
+      {
+        "sid": "p61s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p61s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_9>5"
+      ]
+    }
+  ]
+}

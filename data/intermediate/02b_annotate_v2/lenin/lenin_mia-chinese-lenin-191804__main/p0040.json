@@ -1,0 +1,100 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 40,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁反驳资产阶级对苏维埃政权早期行动的指责，为当时采取的强制手段辩护，指出其在特定历史条件下的必要性。",
+    "importance_score": 2,
+    "importance_reason": "直接回应论敌对苏维埃政权早期行动的攻击，为从革命暴力向经济管理过渡提供历史合理性论证。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于军事手段必要性的比喻，具体阐述苏维埃政权在革命初期对资本采取强制行动的历史背景与正当性。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "all_known",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "资产阶级的走狗",
+      "their_view": "苏维埃政权对资本采取的行动是粗暴的、不正当的“赤卫队式”进攻，应当受到谴责。",
+      "author_response": "这种进攻是当时历史条件绝对要求的，是粉碎资本军事反抗、使劳动者摆脱压迫的必要手段。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p40s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p40s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p40s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "克伦斯基",
+            "type": "person",
+            "modern": "俄国二月革命后临时政府总理，属社会革命党，领导了反对布尔什维克的武装叛乱。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "克拉斯诺夫",
+            "type": "person",
+            "modern": "沙皇将军，曾领导白军在顿河流域叛乱，反对苏维埃政权。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "萨文柯夫",
+            "type": "person",
+            "modern": "社会革命党左翼领袖，组织了反苏维埃的恐怖活动和叛乱。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p40s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 3,
+        "notes_dropped": 3,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "note:n1_overflow_concept_6>5",
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 54,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "马克思引用《莱茵观察家》关于祈祷与社会条件的论述，随即用反讽指出普鲁士国家机器正是制造无产阶级苦难的根源。",
+    "importance_score": 2,
+    "importance_reason": "本段是核心论战段落，通过反讽直接揭露《莱茵观察家》论调的虚伪性，将批判矛头指向国家机器本身。",
+    "argument_role": "contrasts",
+    "argument_link": "承接上段对基督教教理的引用，本段转而剖析其社会应用，通过反讽揭示官方立场与现实的尖锐矛盾。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "refute_quotation"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "《莱茵观察家》报纸",
+      "their_view": "社会条件（如贫困）是人们产生邪心和犯罪的根源，国家依据此理由进行惩罚是合理的。",
+      "author_response": "马克思指出，普鲁士国家机器本身通过车辗、砍头、监禁等暴力手段，才是主动制造无产阶级苦难与反抗的根源，其统治必将被暴力推翻。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p54s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

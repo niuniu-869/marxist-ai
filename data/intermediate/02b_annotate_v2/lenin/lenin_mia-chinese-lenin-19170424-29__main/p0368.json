@@ -1,0 +1,108 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 368,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁通过分析社会革命党人的土地草案和统计数据，揭示农民对土地“平均”要求的实际阶级内涵。",
+    "importance_score": 2,
+    "importance_reason": "本段是列宁对社会革命党人土地纲领进行阶级分析的核心论证环节，旨在揭示其小资产阶级局限性。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于农民渴望重新分配土地的论述，具体分析这种渴望在商品经济条件下的实际内容，并与社会革命党知识分子的理论进行对比。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "社会革命党人",
+      "their_view": "在土地分配问题上，他们主张一种抽象的“平均原则”，认为农民也普遍接受这种原则。",
+      "author_response": "列宁指出，农民对“平均”的理解与社会革命党知识分子截然不同，其核心诉求是打破地主的大地产垄断，实现与地主在土地权利上的均等。",
+      "polemic_kind": "reveals_class_basis",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p368s1",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": [
+          {
+            "surface": "小经济思想",
+            "type": "concept",
+            "modern": "社会革命党内部一种主张，强调维护和巩固小农个体经济，反对大规模集体化或国有化。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "agrarian_policy_SR"
+          },
+          {
+            "surface": "平均原则",
+            "type": "concept",
+            "modern": "社会革命党土地纲领的核心原则，主张按人口平均分配土地。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "agrarian_policy_SR"
+          }
+        ]
+      },
+      {
+        "sid": "p368s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p368s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p368s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p368s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "权利均等",
+            "type": "concept",
+            "modern": "列宁在此特指农民要求的实质：不是抽象的平均，而是要打破地主对土地的垄断，使众多农户在土地占有权上能与单个地主抗衡。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "inferred",
+            "sense_id": "peasant_demand_equality"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 3,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_event_29>12"
+      ]
+    }
+  ]
+}

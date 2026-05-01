@@ -1,0 +1,141 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 104,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "分析俾斯麦将法国推向俄国怀抱的地缘政治后果，并指出亚尔萨斯-洛林问题是欧洲和平的主要威胁。",
+    "importance_score": 3,
+    "importance_reason": "核心论点段落，直接论证俾斯麦政策的战略失误及其对欧洲和平的长期危害。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于法国必然寻求俄国结盟的分析，具体阐述俾斯麦如何促成这一局面，并点明其政策的最终恶果。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_density",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "普法战争与亚尔萨斯-洛林",
+        "explain": "1870-1871年普法战争后，德国通过《法兰克福条约》从法国手中夺取了阿尔萨斯和洛林两个地区。这一领土变更成为法德两国间持续的仇恨根源，也是此后欧洲国际关系中的核心矛盾之一。",
+        "why_needed": "history_density",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "俾斯麦的“大陆政策”",
+        "explain": "德国宰相俾斯麦在统一后推行的外交策略，旨在通过复杂的同盟体系孤立法国，防止其复仇并维护德国在欧洲大陆的优势地位。其核心是防止法俄结盟。",
+        "why_needed": "history_density",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "君士坦丁堡与东方问题",
+        "explain": "指奥斯曼帝国首都，其归属是19世纪欧洲大国（尤其是俄国与英国）争夺的焦点。俄国长期寻求控制黑海海峡以进入地中海，这构成了其与西欧国家利益冲突的重要部分。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p104s1",
+        "quote": "如果大陆西部的这两个最大最强的民族因彼此敌视而相互抵消，如果再加上在它们中间存在着永久性的纠纷的苹果而使它们相互斗争，那末，从中得利的只有当时行动更加自由的俄国，——而俄国的侵略野心越是有指望从法国得到无条件的支持，它就越少受到德国方面的阻挠。",
+        "trigger": "inverted_logic",
+        "reader_block": "双重条件句（“如果…如果…”）加上破折号后的补充说明，逻辑链条较长，读者容易迷失在“相互抵消”“相互斗争”“得利”“阻挠”等关系中，不易快速抓住核心论断。",
+        "parse": {
+          "claim": "法德两国因相互敌视和领土争端而陷入内耗，这为俄国创造了不受约束的扩张机会。",
+          "qualifiers": "限定于“大陆西部”（欧洲）的“最大最强的民族”（法德），且俄国当时“行动更加自由”（指未被有效牵制）。",
+          "contrast_or_target": "隐含对比俾斯麦的政策初衷（孤立法国）与其实际后果（反而为俄国创造了机会）。"
+        },
+        "why": {
+          "relation": "continues",
+          "explanation": "承接上段关于法国必然寻求俄国结盟的结论，具体阐述这种结盟如何反过来削弱德国自身的战略安全，使俄国成为最大受益者。"
+        },
+        "implication": "俾斯麦旨在孤立法国的政策，最终却可能使德国陷入法俄两面夹击的更危险境地。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p104s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p104s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "君士坦丁堡",
+            "type": "place",
+            "modern": "奥斯曼帝国首都，控制黑海海峡的战略要地，是俄国长期觊觎的目标。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p104s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "后备军制度",
+            "type": "concept",
+            "modern": "19世纪欧洲大陆国家普遍实行的军事动员体系，通过长期训练预备役人员，以在战时快速扩充军队。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "military_reserve_system"
+          }
+        ]
+      },
+      {
+        "sid": "p104s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p104s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 2,
+        "hs_kept": 1,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_metaphor_9>8",
+        "note:n2_circular_prefix",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

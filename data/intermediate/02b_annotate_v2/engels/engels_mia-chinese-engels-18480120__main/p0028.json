@@ -1,0 +1,155 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 28,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "通过分析英国新议会，揭示工业资产阶级与金融资产阶级的内部争夺，以及前者试图将斗争外部化的策略。",
+    "importance_score": 2,
+    "importance_reason": "以英国为例，具体阐释资产阶级内部派别斗争及其政治策略，支撑前文对资产阶级力量的分析。",
+    "argument_role": "continues",
+    "argument_link": "承接上文对1847年资产阶级力量增强的总结，以英国新议会为例，深入剖析资产阶级内部的派别分化与斗争策略。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "term_density",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p28s6",
+        "quote": "由此可见当时英国的斗争实际上是资产阶级内部某些派别——食利者和厂主之间的斗争，不过厂主还可以把这一斗争说成贵族和资产阶级之间的斗争，必要时说成贵族和人民之间的斗争。",
+        "trigger": "term_density",
+        "reader_block": "句中密集出现“资产阶级”“食利者”“厂主”“贵族”“人民”等多个群体概念，且包含“实际上……不过……还可以……必要时说成……”的转折与策略性表述，读者容易混淆斗争的真实主体与表面说辞。",
+        "parse": {
+          "claim": "英国政治斗争的核心是工业资产阶级与金融资产阶级的内部争夺，但工业资产阶级常将此斗争包装为与贵族或人民的对立。",
+          "qualifiers": "针对1688年后英国政治格局的分析。",
+          "contrast_or_target": "厂主（工业资产阶级）试图将内部派别斗争，描述为整个资产阶级与贵族的斗争，或贵族与人民的斗争。"
+        },
+        "why": {
+          "relation": "continues",
+          "explanation": "本句承接上文对英国资产阶级掌权方式的描述，进一步揭示其内部派别（食利者与厂主）的矛盾，并点明工业资产阶级为夺取完全统治权而采取的话语策略。"
+        },
+        "implication": "这种分析框架有助于理解资产阶级革命的复杂性，即胜利的派别可能利用外部矛盾（如与贵族或人民的矛盾）来掩盖和推进其内部的权力重组。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p28s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p28s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "资产者",
+            "type": "concept",
+            "modern": "在19世纪欧洲语境下，指拥有生产资料、依靠资本增殖获取收入的阶级成员。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "class_marxist"
+          }
+        ]
+      },
+      {
+        "sid": "p28s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p28s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "厂主",
+            "type": "social_group",
+            "modern": "特指直接经营工厂、雇佣工人进行工业生产的资本家，是工业资产阶级的核心。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p28s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p28s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p28s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p28s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p28s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p28s10",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p28s11",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 3,
+        "hs_kept": 1,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix",
+        "note:n1_overflow_concept_6>5"
+      ]
+    }
+  ]
+}

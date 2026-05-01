@@ -1,0 +1,66 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 38,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段以问答形式，直接回答了实现财产公有制的第一个前提条件。",
+    "importance_score": 2,
+    "importance_reason": "作为纲领性文件，本段明确提出了实现共产主义目标的政治路径，是全文论证链条中的一个关键环节。",
+    "argument_role": "continues",
+    "argument_link": "本段直接承接上一段提出的问题，给出了从现有社会向财产公有制过渡的第一个具体步骤。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_polysemy",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "term_density",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "政治解放",
+        "explain": "马克思在《论犹太人问题》中区分了“政治解放”与“人的解放”。前者指资产阶级革命带来的政治平等，后者指消灭阶级和私有制的彻底解放。恩格斯在此处使用该词，意指无产阶级首先需要获得政治权利。",
+        "why_needed": "term_polysemy",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p38s1",
+        "quote": "答：实行财产公有的第一个基本条件是通过民主的国家制度达到无产阶级的政治解放。",
+        "trigger": "term_density",
+        "reader_block": "句中“财产公有”“民主的国家制度”“无产阶级的政治解放”三个核心概念紧密堆叠，读者可能不清楚它们之间的逻辑关系，特别是“政治解放”在此语境下的具体含义。",
+        "parse": {
+          "claim": "实现生产资料公有制的首要前提，是让无产阶级在政治上获得解放。",
+          "qualifiers": "这种政治解放需要通过一种民主的国家制度来实现。",
+          "contrast_or_target": ""
+        },
+        "why": {
+          "relation": "definition",
+          "explanation": "本句为“财产公有”这一核心目标定义了第一个必要条件，即无产阶级必须先掌握政治权力，而实现这一权力的途径是民主的国家制度。"
+        },
+        "implication": "这暗示了在恩格斯看来，经济变革（财产公有）不能脱离政治变革（无产阶级掌权）而单独发生。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p38s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  }
+}

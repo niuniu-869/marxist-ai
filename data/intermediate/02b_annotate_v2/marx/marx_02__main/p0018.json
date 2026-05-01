@@ -1,0 +1,64 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 18,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "用反讽和假设推演，反驳自由贸易派关于欧洲经济分工的设想。",
+    "importance_score": 2,
+    "importance_reason": "通过反讽和假设推演，具体反驳自由贸易派关于国际分工的论点，支撑核心批判。",
+    "argument_role": "contrasts",
+    "argument_link": "承接上段关于工资决定的讨论，转而从欧洲整体经济结构的角度，反驳自由贸易派对国际分工的乐观设想。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p18s2",
+        "quote": "或许你们还以为可以在花盆里种植谷物呢!要是我们不是慷慨地献出自己的资本和劳动，用来耕种不毛之地，而是撇掉农业，专门来搞工业，那么，整个欧洲就得把工厂都关掉，那时英国也就成了唯一的大工厂城市，而欧洲的其它部分就都变成英国的农业区了。",
+        "trigger": "inverted_logic",
+        "reader_block": "反讽语气加“花盆种谷物”的荒谬比喻，读者可能误以为是字面批评，实际是讽刺对方脱离实际。",
+        "parse": {
+          "claim": "欧洲若放弃农业专攻工业，将导致英国垄断工业、欧洲沦为农业区的后果。",
+          "qualifiers": "这是一个假设条件句，限定在“欧洲放弃农业专搞工业”的前提下。",
+          "contrast_or_target": "自由贸易派认为，自由贸易能让各国按比较优势分工，英国专搞工业、欧洲专搞农业是合理结果。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "本句通过假设推演，揭示自由贸易派所设想的国际分工将导致欧洲经济依附于英国的荒谬后果，从而反驳其论点。"
+        },
+        "implication": "自由贸易的实际后果是强化英国工业垄断，而非带来普遍繁荣。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "自由贸易派",
+      "their_view": "他们认为，自由贸易能让各国按比较优势分工，英国专搞工业、欧洲专搞农业是合理结果。",
+      "author_response": "马克思用反讽和假设推演揭示，这种分工将导致欧洲经济依附于英国，而非带来普遍繁荣。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p18s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p18s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  }
+}

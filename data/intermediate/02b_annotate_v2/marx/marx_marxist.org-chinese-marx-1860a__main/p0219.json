@@ -1,0 +1,81 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 219,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "马克思摘录并反驳巴枯宁的指控，即德国社会民主党与俾斯麦政府实为同盟，且马克思本人也意图在国际中恢复俾斯麦的功绩。",
+    "importance_score": 2,
+    "importance_reason": "本段是马克思对巴枯宁核心指控的直接回应，展示了论战中双方对德国社会民主党性质及马克思本人意图的根本分歧。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对德国民族主义狂热的分析，进一步指出这种狂热如何被巴枯宁用来指控社会民主党与马克思本人。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "巴枯宁对马克思的指控",
+        "explain": "巴枯宁在《国家制度和无政府状态》中声称，马克思在第一国际内部的活动，本质上是企图取代俾斯麦，成为新的国家权力中心，恢复其功绩。这是理解本段马克思摘录与反驳的关键背景。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p219s1",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": [
+          {
+            "surface": "俾斯麦公爵",
+            "type": "person",
+            "modern": "奥托·冯·俾斯麦，时任德意志帝国宰相，以“铁血政策”统一德国并推行强权政治。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "马克思先生",
+            "type": "person",
+            "modern": "卡尔·马克思，此处为巴枯宁在著作中对马克思的称呼，带有论战色彩。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_10>5",
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

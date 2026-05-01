@@ -1,0 +1,71 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 81,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "界定共产主义的财产观，区分其与一般财产废除论，并揭示资本家私有财产的阶级本质。",
+    "importance_score": 3,
+    "importance_reason": "界定共产主义的经济目标，是理解其革命性质的核心论点之一。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对财产关系历史变迁的举例，具体界定共产主义要废除的是何种财产。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p81s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p81s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "私有制",
+            "type": "concept",
+            "modern": "在《宣言》语境中特指资本主义生产资料所有制，与未来公有制相对。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "private_ownership_capitalist"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

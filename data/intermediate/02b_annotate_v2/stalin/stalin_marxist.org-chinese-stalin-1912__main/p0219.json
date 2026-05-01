@@ -1,0 +1,103 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 219,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "斯大林引用崩得代表在党代会和杜马中的言论，展示其将民族自治定义为保障少数民族权利与文化发展的机关。",
+    "importance_score": 1,
+    "importance_reason": "举例支撑前文对崩得民族自治主张的描述，属于论证中的例证环节。",
+    "argument_role": "example",
+    "argument_link": "承接上段关于崩得对同化过程主观反应的论述，具体展示其如何将这种反应转化为政治纲领。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "all_known",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p219s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "民族自治",
+            "type": "program_clause",
+            "modern": "崩得纲领的核心政治主张，旨在为特定民族建立独立的文化管理体系。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          },
+          {
+            "surface": "自由发展",
+            "type": "slogan",
+            "modern": "崩得用以描述其民族自治目标的口号，强调各民族文化不受干涉地演进。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p219s2",
+        "speaker": "quoted_opponent",
+        "stance": "cited",
+        "notes": [
+          {
+            "surface": "戈尔德勃拉特",
+            "type": "person",
+            "modern": "崩得在俄国社会民主党第二次代表大会上的代表，其发言代表了崩得早期的纲领立场。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p219s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "第四届杜马",
+            "type": "event",
+            "modern": "1912年选出的沙皇俄国最后一届国家杜马，其中社会民主党党团内部存在路线分歧。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 4,
+        "notes_dropped": 2,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_event_14>12",
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 5,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段提出《宣言》核心原理与俄国特殊国情之间的张力，即俄国农村公社能否绕过资本主义阶段直接过渡到共产主义。",
+    "importance_score": 3,
+    "importance_reason": "本段是序言的核心论题，直接探讨《宣言》普遍原理在俄国具体应用的可能性与条件。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于俄国从反动堡垒转变为革命先锋的论述，具体提出俄国革命道路的独特性问题。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "俄国公社（米尔）",
+        "explain": "指19世纪俄国农村的村社土地制度，土地定期重分、共同耕作。民粹派认为它是俄国避免资本主义的特殊道路，作者在此提出其过渡可能性的问题。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p5s5",
+        "quote": "或者相反，它还必须先经历西方的历史发展所经历的那个瓦解过程呢？",
+        "trigger": "inverted_logic",
+        "reader_block": "与上句构成选择问，读者需理解这是在对比两种可能的历史路径，而非陈述事实。",
+        "parse": {
+          "claim": "俄国公社也可能无法直接过渡，而必须首先经历如同西欧各国那样的、以私有制取代公有制的资本主义瓦解阶段。",
+          "qualifiers": "作为前一问题的对立选项提出。",
+          "contrast_or_target": ""
+        },
+        "why": {
+          "relation": "none",
+          "explanation": ""
+        },
+        "implication": "若此路径为真，则俄国将重复西欧的资本主义发展道路。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p5s1",
+        "speaker": "editor",
+        "stance": "neutral_citation",
+        "notes": []
+      },
+      {
+        "sid": "p5s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p5s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "俄国公社",
+            "type": "concept",
+            "modern": "19世纪俄国农村的村社土地制度，土地定期重分、共同耕作，是民粹派理论的核心依据。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "russian_commune_historical"
+          }
+        ]
+      },
+      {
+        "sid": "p5s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p5s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 0,
+        "hs_kept": 1,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

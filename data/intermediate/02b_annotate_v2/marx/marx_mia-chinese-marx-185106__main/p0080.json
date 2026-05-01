@@ -1,0 +1,123 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 80,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "具体描述最高法庭的人员构成，并列举其实际审判的案件。",
+    "importance_score": 2,
+    "importance_reason": "通过具体构成和案例，为上一段关于最高法庭权力的论述提供实证支撑。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对最高法庭权力的介绍，具体说明其人员构成和实际运作案例。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_density",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "1848年5月15日事件",
+        "explain": "法国二月革命后，巴黎工人和激进派冲击国民议会，要求声援波兰革命并成立“社会政府”，导致巴尔贝斯等人被捕。",
+        "why_needed": "history_density",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "1849年6月13日事变",
+        "explain": "山岳派议员在巴黎组织示威，反对路易·波拿巴派兵干涉罗马共和国，示威失败后议员被审判。",
+        "why_needed": "history_density",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "巴尔贝斯与布朗基",
+        "explain": "两人均为法国社会主义运动中的激进派领袖，主张通过革命手段建立社会共和国。",
+        "why_needed": "history_density",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p80s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "上诉法院",
+            "type": "org",
+            "modern": "法国司法体系中的高等法院，负责审理上诉案件。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "各省委员会",
+            "type": "org",
+            "modern": "法国各省的地方性政治机构，其成员参与组成最高法庭的陪审团。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p80s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p80s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "巴尔贝斯",
+            "type": "person",
+            "modern": "法国社会主义运动激进派领袖，1848年革命参与者。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "布朗基",
+            "type": "person",
+            "modern": "法国空想社会主义者和革命家，主张通过密谋起义夺取政权。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "1848年5月15日",
+            "type": "event",
+            "modern": "巴黎工人和激进派冲击国民议会的事件。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "1849年6月13日",
+            "type": "event",
+            "modern": "山岳派议员因反对干涉罗马共和国而组织的示威活动。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  }
+}

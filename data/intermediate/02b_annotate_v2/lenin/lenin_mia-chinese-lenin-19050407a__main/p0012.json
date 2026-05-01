@@ -1,0 +1,136 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 12,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段阐述马克思对小资产阶级土地运动的辩证分析，既批判其空想外衣，又肯定其客观历史作用和革命性。",
+    "importance_score": 2,
+    "importance_reason": "本段是列宁借马克思之口，系统阐述如何辩证看待小资产阶级革命运动，为后文批判社会革命党人提供理论依据。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于马克思预见商品经济作用的论断，本段具体展开马克思如何运用唯物主义和辩证法分析一个实际的小资产阶级运动。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p12s9",
+        "quote": "而你妄想避免的资本主义的恶，却是历史上的善，因为它将惊人地加速社会的发展，使共产主义运动新的高级形态更早地到来。",
+        "trigger": "inverted_logic",
+        "reader_block": "“恶”与“善”在同一事物上并置，且“恶”被肯定为“善”，这与日常道德判断相悖，读者会困惑于价值判断的转换。",
+        "parse": {
+          "claim": "资本主义发展所带来的剥削、压迫等负面后果，从历史进程看具有推动社会进步的积极意义。",
+          "qualifiers": "这一判断是从历史发展的宏观尺度、而非从当下个体道德感受出发的。",
+          "contrast_or_target": "克利盖认为资本主义发展是纯粹的“恶”，应当被避免。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "此句直接反驳克利盖将资本主义视为纯粹灾难的观点，揭示其历史局限性，并阐明资本主义发展为更高社会形态创造物质前提的辩证逻辑。"
+        },
+        "implication": "理解此句是把握马克思主义历史观的关键：生产力发展是社会形态更替的基础，即使其过程伴随痛苦。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p12s1",
+        "speaker": "quoted_marx",
+        "stance": "endorsed",
+        "notes": []
+      },
+      {
+        "sid": "p12s2",
+        "speaker": "quoted_marx",
+        "stance": "endorsed",
+        "notes": []
+      },
+      {
+        "sid": "p12s3",
+        "speaker": "quoted_marx",
+        "stance": "endorsed",
+        "notes": []
+      },
+      {
+        "sid": "p12s4",
+        "speaker": "quoted_marx",
+        "stance": "endorsed",
+        "notes": []
+      },
+      {
+        "sid": "p12s5",
+        "speaker": "quoted_marx",
+        "stance": "endorsed",
+        "notes": []
+      },
+      {
+        "sid": "p12s6",
+        "speaker": "quoted_marx",
+        "stance": "endorsed",
+        "notes": []
+      },
+      {
+        "sid": "p12s7",
+        "speaker": "quoted_marx",
+        "stance": "endorsed",
+        "notes": []
+      },
+      {
+        "sid": "p12s8",
+        "speaker": "quoted_marx",
+        "stance": "endorsed",
+        "notes": []
+      },
+      {
+        "sid": "p12s9",
+        "speaker": "quoted_marx",
+        "stance": "endorsed",
+        "notes": []
+      },
+      {
+        "sid": "p12s10",
+        "speaker": "quoted_marx",
+        "stance": "endorsed",
+        "notes": []
+      },
+      {
+        "sid": "p12s11",
+        "speaker": "quoted_marx",
+        "stance": "endorsed",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 3,
+        "hs_kept": 1,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "note:n1_overflow_concept_7>5",
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

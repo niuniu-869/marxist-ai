@@ -1,0 +1,144 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 366,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段区分了历史上简单的贫富对立与资本主义社会中劳动和资本的矛盾，指出后者才是私有财产内在矛盾的体现。",
+    "importance_score": 3,
+    "importance_reason": "本段提出了马克思早期思想中关于私有财产矛盾的核心定义，是理解其异化劳动理论和共产主义论述的关键环节。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段对共产主义的初步讨论，本段深入分析了共产主义运动所要解决的核心矛盾——劳动与资本的对立，为后续批判奠定理论基础。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_polysemy",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "劳动与资本的特定含义",
+        "explain": "在马克思早期思想中，“劳动”指人的类本质活动，在资本主义下异化为雇佣劳动；“资本”则是这种异化劳动的客体化形式，是支配劳动的对立力量。这与日常用法不同。",
+        "why_needed": "term_polysemy",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p366s1",
+        "speaker": "editor",
+        "stance": "neutral_citation",
+        "notes": []
+      },
+      {
+        "sid": "p366s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "矛盾",
+            "type": "concept",
+            "modern": "辩证法核心范畴，指事物内部对立面既统一又斗争的关系，是事物发展的根本动力。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "contradiction_dialectical"
+          }
+        ]
+      },
+      {
+        "sid": "p366s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "古罗马",
+            "type": "place",
+            "modern": "马克思用以举例说明历史上存在过无财产者与有产者的简单对立，但这种对立尚未发展为资本主义的劳动与资本矛盾。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "土耳其",
+            "type": "place",
+            "modern": "同上，作为另一个历史例证，指奥斯曼帝国等前资本主义社会形态。",
+            "highlight": null,
+            "confidence": "medium",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p366s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p366s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "劳动",
+            "type": "concept",
+            "modern": "此处特指作为人的类本质活动的劳动，在资本主义条件下被异化为与自身产品（资本）相对立的雇佣劳动。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "labor_economic"
+          },
+          {
+            "surface": "资本",
+            "type": "concept",
+            "modern": "被定义为“客体化的劳动”，即劳动产品作为异己的、支配劳动的力量而存在，是私有财产的完成形态。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "capital_economic"
+          },
+          {
+            "surface": "私有财产",
+            "type": "concept",
+            "modern": "在此被定义为劳动与资本矛盾关系的体现，是这种矛盾得以展开并寻求解决的能动形式。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "private_property_marxist"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 6,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 2,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "hs:claim_5gram_with_quote",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

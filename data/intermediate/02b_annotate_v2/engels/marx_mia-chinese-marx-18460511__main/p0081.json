@@ -1,0 +1,123 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 81,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "恩格斯用反讽和归谬法，批判克利盖所鼓吹的美国土地“梦想”实质是实现普遍私有制，与共产主义目标背道而驰。",
+    "importance_score": 2,
+    "importance_reason": "作为核心批判的一部分，通过揭示克利盖主张的阶级实质（小资产阶级私有制），来划清其与共产主义革命的界限。",
+    "argument_role": "contrasts",
+    "argument_link": "承接上一段对克利盖原话的引用，本段直接对这些话进行反驳和定性，指出其内容的非共产主义性质。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p81s1",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p81s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "一堆粪便",
+            "type": "metaphor",
+            "modern": "恩格斯用此粗鄙比喻，讽刺克利盖所描绘的美国土地前景在本质上是污秽和无价值的。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p81s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p81s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p81s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p81s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p81s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "私有制",
+            "type": "concept",
+            "modern": "生产资料归私人所有的制度，是共产主义革命要消灭的对象。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "private_ownership"
+          }
+        ]
+      },
+      {
+        "sid": "p81s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p81s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

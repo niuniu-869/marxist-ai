@@ -1,0 +1,129 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 135,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "分析资本主义经济危机的成因与后果，指出危机源于市场相对狭窄，且危机中资本会牺牲工人阶级。",
+    "importance_score": 2,
+    "importance_reason": "阐述经济危机的必然性及其对工人阶级的影响，为论证资本与雇佣劳动的对立提供关键环节。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于资本增长导致小食利者消失的论述，进一步分析资本增长如何引发经济危机并加剧工人困境。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p135s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "生产资料",
+            "type": "concept",
+            "modern": "在马克思政治经济学中，指进行生产所需的物质条件，如工厂、机器、原料等。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "means_of_production"
+          }
+        ]
+      },
+      {
+        "sid": "p135s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "地震",
+            "type": "metaphor",
+            "modern": "作者用以比喻周期性爆发的经济危机，强调其破坏性。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p135s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p135s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p135s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p135s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "奴隶主",
+            "type": "metaphor",
+            "modern": "将资本家比作古代奴隶主，强调其对工人生命的漠视和支配关系。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p135s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p135s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 3,
+        "notes_dropped": 5,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

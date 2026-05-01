@@ -1,0 +1,89 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 101,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁用反讽比较休特古姆与哈阿兹、考茨基的力量，讽刺德国社会民主党实际政策由机会主义者主导。",
+    "importance_score": 2,
+    "importance_reason": "通过具体例子展示机会主义者在德国社会民主党中的影响力，支撑对第二国际破产的批判。",
+    "argument_role": "continues",
+    "argument_link": "本段承接上段对机会主义者作为资产阶级代理人的论证，用德国社会民主党的实例说明机会主义者在实际政策中的主导作用。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_density",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "德国社会民主党人物与组织",
+        "explain": "休特古姆是德国社会民主党右翼领袖，代表机会主义；哈阿兹是中派理论家；考茨基是第二国际理论权威但支持战争。《我们的曙光》是孟什维克刊物，布鲁塞尔联盟指第二国际协调机构。",
+        "why_needed": "history_density",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p101s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "休特古姆",
+            "type": "person",
+            "modern": "德国社会民主党右翼领袖，代表机会主义倾向",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "考茨基",
+            "type": "person",
+            "modern": "第二国际理论权威，支持战争的社会沙文主义者",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "《我们的曙光》",
+            "type": "work",
+            "modern": "俄国孟什维克派刊物，代表机会主义立场",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 3,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote",
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

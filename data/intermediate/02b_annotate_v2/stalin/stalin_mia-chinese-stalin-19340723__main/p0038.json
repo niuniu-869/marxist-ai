@@ -1,0 +1,64 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 38,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "斯大林以俄国历史为例，说明推翻沙皇制度需要付出巨大流血代价，以此论证暴力革命的必要性。",
+    "importance_score": 2,
+    "importance_reason": "本段通过具体历史事例，为暴力革命的不可避免性提供实证支持。",
+    "argument_role": "example",
+    "argument_link": "承接上段关于暴力的论述，用俄国推翻沙皇制度的例子具体说明暴力革命的实际代价。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p38s2",
+        "quote": "难道在一个长时期中人们不是知道沙皇制度在腐朽，在崩溃吗?然而为了推翻它，不知流了多少血啊!",
+        "trigger": "inverted_logic",
+        "reader_block": "反问句结构，读者可能误读为简单疑问，实际是强调即使旧制度已腐朽，推翻它仍需暴力流血。",
+        "parse": {
+          "claim": "人们长期知晓沙皇制度腐朽崩溃，但推翻该制度仍然导致了大量流血。",
+          "qualifiers": "",
+          "contrast_or_target": ""
+        },
+        "why": {
+          "relation": "example",
+          "explanation": "本句作为历史例证，支撑上文关于暴力革命必要性的论点，说明旧制度不会自动崩溃。"
+        },
+        "implication": "暴力革命是推翻旧制度的必要手段，即使其已腐朽。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p38s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p38s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  }
+}

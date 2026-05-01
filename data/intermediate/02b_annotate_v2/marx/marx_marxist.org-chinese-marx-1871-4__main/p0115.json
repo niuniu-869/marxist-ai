@@ -1,0 +1,72 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 115,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "对比无产阶级革命与“上等阶级”革命在暴力程度上的差异，并指出敌人缺乏攻击借口。",
+    "importance_score": 2,
+    "importance_reason": "通过对比，强化无产阶级革命的纪律性与正当性，为后续批判凡尔赛政府的镇压做铺垫。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对梯也尔挑衅失败的叙述，转而描述公社方面的克制与敌人的借口匮乏。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p115s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "上等阶级",
+            "type": "metaphor",
+            "modern": "作者用此词指代资产阶级等统治阶级，强调其在历史上的暴力传统。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          },
+          {
+            "surface": "勒孔特和克莱芒·托马",
+            "type": "person",
+            "modern": "两位在3月18日起义中被杀的法国将军，成为凡尔赛政府宣传的焦点。",
+            "highlight": "null",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

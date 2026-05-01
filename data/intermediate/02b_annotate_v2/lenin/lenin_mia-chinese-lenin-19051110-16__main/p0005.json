@@ -1,0 +1,183 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 5,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁肯定中央委员会的新方针，并论证布尔什维克在秘密条件下反对空谈民主、在公开条件下支持选举原则的立场。",
+    "importance_score": 2,
+    "importance_reason": "本段是列宁为布尔什维克在党内民主问题上的立场进行辩护，连接了前文对秘密工作局限性的分析与后文对公开活动原则的阐述。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于秘密工作条件下组织工作受限的论述，具体说明布尔什维克对党内民主化问题的历史判断与当前立场。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "布尔什维克与孟什维克",
+        "explain": "1903年俄国社会民主工党分裂为两派。布尔什维克（多数派）主张建立集中制的革命政党，孟什维克（少数派）主张更松散的组织形式。文中“多数派”“少数派”即指此。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "阿克雪里罗得与《火星报》",
+        "explain": "阿克雪里罗得是孟什维克领袖之一。《火星报》是列宁创办的党报，后成为孟什维克的喉舌。文中引用这些是为了证明连对手也承认秘密条件下民主的虚伪性。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p5s2",
+        "quote": "我们，革命的社会民主党的代表、“多数派”的拥护者，不止一次地说过，在秘密工作的条件下，彻底实行党内民主化是不可能的，在这种条件下，“选举原则”不过是一句空话而已。",
+        "trigger": "long_nested",
+        "reader_block": "句子包含多重身份界定（“我们”是谁）和条件判断（“在……条件下”），且“选举原则”加引号表示特定含义，读者易混淆其指代。",
+        "parse": {
+          "claim": "布尔什维克认为，在沙皇专制的地下工作环境中，党内无法真正实现民主程序，所谓的选举只是形式。",
+          "qualifiers": "限定于“秘密工作的条件下”，即沙皇警察迫害、组织被迫转入地下的时期。",
+          "contrast_or_target": "针对党内某些人（主要是孟什维克）在秘密时期仍空谈民主原则、批评布尔什维克不够民主的论调。"
+        },
+        "why": {
+          "relation": "continues",
+          "explanation": "本句具体阐述了上段提到的“秘密工作条件下组织工作受限”在党内民主问题上的体现，为后文论证公开条件下必须改变原则做铺垫。"
+        },
+        "implication": "布尔什维克并非反对民主本身，而是反对在不具备客观条件时将民主原则教条化、空谈化。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      },
+      {
+        "anchor": "p5s4",
+        "quote": "在一些出版物中（见阿克雪里罗得为之作序的署名一工人的小册子，以及一封在《火星报》上发表并收入《工人论党内分裂》小册子中的署名“许多工人中的一工人”的信）从前的一些少数派拥护者也不止一次地指出，事实上过去从未实行过任何认真的民主化和真正的选举。",
+        "trigger": "long_nested",
+        "reader_block": "括号内嵌套了两个具体的出版物引用，结构复杂，且引用对象（阿克雪里罗得、《火星报》）是论战对手，读者不易把握其论证目的。",
+        "parse": {
+          "claim": "连孟什维克阵营的成员和同情者，在其公开出版物中也承认，过去在党内从未真正实践过民主和选举。",
+          "qualifiers": "限定于“在一些出版物中”，即公开的、可查证的文本证据。",
+          "contrast_or_target": "用对手阵营内部人士的承认，来反驳那些指责布尔什维克破坏民主的论调，证明布尔什维克的判断符合事实。"
+        },
+        "why": {
+          "relation": "example",
+          "explanation": "本句为上句“选举原则是空话”的论断提供来自对手阵营的佐证，增强说服力，属于举例支撑。"
+        },
+        "implication": "党内关于民主的争论不应脱离具体历史条件，布尔什维克的立场得到了事实（包括对手承认的事实）的支持。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p5s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p5s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "多数派",
+            "type": "social_group",
+            "modern": "1903年俄国社会民主工党二大后形成的布尔什维克派别，主张建立集中制政党。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "选举原则",
+            "type": "concept",
+            "modern": "党内通过选举产生领导机构和代表的组织原则，在秘密条件下因无法公开、自由竞争而流于形式。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "democracy_proletarian"
+          }
+        ]
+      },
+      {
+        "sid": "p5s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p5s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "《火星报》",
+            "type": "work",
+            "modern": "1900年由列宁等人创办的全俄马克思主义秘密报纸，后成为孟什维克派别的主要喉舌。",
+            "highlight": "work",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "少数派",
+            "type": "social_group",
+            "modern": "1903年俄国社会民主工党二大后形成的孟什维克派别，主张建立更松散的党组织。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p5s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "布尔什维克",
+            "type": "social_group",
+            "modern": "俄国社会民主工党中的革命派别，由列宁领导，主张建立集中制的无产阶级政党。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p5s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 5,
+        "notes_dropped": 2,
+        "hs_kept": 2,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_5gram_with_surface",
+        "note:n1_overflow_event_15>12",
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

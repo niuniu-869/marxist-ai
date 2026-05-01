@@ -1,0 +1,76 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 189,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "斯大林通过一个假设性让步，质疑社会民主党人参与“组织民族”这一行为的正当性。",
+    "importance_score": 2,
+    "importance_reason": "本段是核心批判的一部分，通过反问揭示党内某些派别在民族问题上的错误立场。",
+    "argument_role": "contrasts",
+    "argument_link": "承接上段关于阶级斗争导致民族统一消失的论述，转而批判党内试图“组织”民族的错误倾向。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "社会民主党人中的民族主义倾向",
+      "their_view": "社会民主党人应当像资产阶级政客那样，主动去“组织”或“成立”一个民族。",
+      "author_response": "斯大林质疑这种行为的正当性，认为这混淆了无产阶级政党的任务，与无产阶级国际主义原则相悖。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p189s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "组织民族",
+            "type": "slogan",
+            "modern": "一种政治口号，主张主动构建或强化一个民族共同体。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p189s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p189s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

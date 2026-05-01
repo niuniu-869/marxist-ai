@@ -1,0 +1,143 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 113,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列举各国社会民主党领袖，作为前文所指“阶级敌人”的具体例证。",
+    "importance_score": 1,
+    "importance_reason": "通过具体人名列表，支撑前段对“阶级敌人”的定性。",
+    "argument_role": "example",
+    "argument_link": "承接上段对“阶级敌人”的定性，通过列举各国具体人物来例证这一判断。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "各国社会民主党领袖",
+      "their_view": "他们主张保卫祖国，支持本国政府进行战争。",
+      "author_response": "列宁将他们定性为转到资产阶级方面的阶级敌人。",
+      "polemic_kind": "reveals_class_basis",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p113s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p113s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "普列汉诺夫",
+            "type": "person",
+            "modern": "俄国社会民主党人，早期马克思主义理论家，后转向机会主义，支持俄国参加一战。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "谢德曼",
+            "type": "person",
+            "modern": "德国社会民主党领袖，支持战争，后参与镇压德国革命。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "列诺得尔、盖得、桑巴",
+            "type": "person",
+            "modern": "法国社会党领袖，支持法国参加一战，主张“保卫祖国”。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "比索拉蒂",
+            "type": "person",
+            "modern": "意大利社会党右翼领袖，支持意大利参战。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "海德门",
+            "type": "person",
+            "modern": "英国社会党领袖，支持英国参加一战。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "费边社分子",
+            "type": "org",
+            "modern": "英国一个主张渐进改良的社会主义团体，其部分成员支持战争。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "布兰亭",
+            "type": "person",
+            "modern": "瑞典社会民主党领袖，支持瑞典在战争中保持中立但同情协约国。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "特鲁尔斯特拉",
+            "type": "person",
+            "modern": "荷兰社会民主党领袖，主张和平主义但未积极反战。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "斯陶宁格",
+            "type": "person",
+            "modern": "丹麦社会民主党领袖，支持丹麦在战争中保持中立。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "维克多·伯杰",
+            "type": "person",
+            "modern": "美国社会党领袖，反对美国参战，但属于党内右翼。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 10,
+        "notes_dropped": 2,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

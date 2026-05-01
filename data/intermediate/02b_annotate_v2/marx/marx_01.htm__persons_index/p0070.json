@@ -1,0 +1,93 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 70,
+  "annotation": {
+    "block_type": "footnote",
+    "gist": "本段是马克思人名索引中关于奥托·吕宁的条目，提供其生平、政治归属及编辑活动等基本信息。",
+    "importance_score": 0,
+    "importance_reason": "索引条目，提供人物背景信息，对理解马克思的论战网络有辅助作用，但非核心论述。",
+    "argument_role": "none",
+    "argument_link": "",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "“真正的社会主义”",
+        "explain": "19世纪40年代在德国流行的一种小资产阶级社会主义思潮，以抽象人道主义批判资本主义，马克思和恩格斯在《德意志意识形态》等著作中对其进行了批判。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p70s1",
+        "speaker": "editor",
+        "stance": "neutral_citation",
+        "notes": [
+          {
+            "surface": "共产主义者同盟",
+            "type": "org",
+            "modern": "1847年由正义者同盟改组而成的国际工人组织，马克思和恩格斯参与了其纲领《共产党宣言》的起草。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p70s2",
+        "speaker": "editor",
+        "stance": "neutral_citation",
+        "notes": []
+      },
+      {
+        "sid": "p70s3",
+        "speaker": "editor",
+        "stance": "neutral_citation",
+        "notes": [
+          {
+            "surface": "民族自由党人",
+            "type": "social_group",
+            "modern": "19世纪后期德国的一个自由主义政党，代表大资产阶级和部分容克贵族利益，主张君主立宪和国家统一。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_7>5"
+      ]
+    }
+  ]
+}

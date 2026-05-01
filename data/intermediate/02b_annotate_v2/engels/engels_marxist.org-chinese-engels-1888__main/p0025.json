@@ -1,0 +1,150 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 25,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段叙述青年黑格尔派中一部分人因实际斗争需要转向唯物主义，从而与黑格尔唯心主义体系产生根本矛盾。",
+    "importance_score": 2,
+    "importance_reason": "展示从唯心主义到唯物主义的转变过程，为后文批判费尔巴哈的不彻底性做铺垫。",
+    "argument_role": "continues",
+    "argument_link": "上段叙述青年黑格尔派内部的哲学争论，本段则指出其中一部分人因实际斗争需要而转向唯物主义，从而与黑格尔体系产生根本冲突。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "term_density",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "英法唯物主义传统",
+        "explain": "指18世纪法国启蒙思想家（如拉美特利、霍尔巴赫）和英国经验论者（如洛克）的哲学，强调物质世界的首要性，与黑格尔将精神视为世界本原的唯心主义体系直接对立。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p25s5",
+        "quote": "无论如何，思维及其思想产物即观念在这里是本原的，而自然界是派生的，只是由于观念的下降才存在。",
+        "trigger": "term_density",
+        "reader_block": "读者可能困惑于“思维及其思想产物即观念在这里是本原的”这个表述，不清楚它如何概括黑格尔唯心主义的核心。",
+        "parse": {
+          "claim": "在黑格尔体系中，思维和观念是第一性的，自然界是第二性的。",
+          "qualifiers": "",
+          "contrast_or_target": "唯物主义认为自然界是第一性的。",
+          "why": {
+            "relation": "continues",
+            "explanation": "本句进一步阐释上句提到的黑格尔体系观点，明确其唯心主义立场，即精神（观念）先于并派生出物质世界。"
+          },
+          "implication": "",
+          "confidence": "high",
+          "source_basis": "text_evidence"
+        }
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p25s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p25s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "青年黑格尔分子",
+            "type": "social_group",
+            "modern": "19世纪30-40年代德国一批激进知识分子，他们最初在黑格尔哲学框架内批判宗教和政治。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p25s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p25s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "唯物主义",
+            "type": "concept",
+            "modern": "主张物质自然界为第一性的哲学立场，与唯心主义对立。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "materialism_philosophical"
+          },
+          {
+            "surface": "绝对观念",
+            "type": "concept",
+            "modern": "黑格尔哲学中的核心范畴，指宇宙万物的终极本原和理性。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "absolute_idea_hegelian"
+          },
+          {
+            "surface": "外化",
+            "type": "concept",
+            "modern": "黑格尔术语，指绝对观念将自身展现为自然界和人类历史的过程。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "externalization_hegelian"
+          }
+        ]
+      },
+      {
+        "sid": "p25s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p25s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 4,
+        "notes_dropped": 1,
+        "hs_kept": 1,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

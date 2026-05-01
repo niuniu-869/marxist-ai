@@ -1,0 +1,84 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 17,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段论证让资产阶级及其代理人继续掌权将导致饥荒、经济崩溃和军事失败，并谴责社会革命党人和孟什维克的妥协是背叛。",
+    "importance_score": 2,
+    "importance_reason": "这是对妥协政策危害的具体展开，是核心批判的一部分，为提出新原则建立新政府做铺垫。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段提出的问题，具体阐述与资产阶级妥协政策将带来的灾难性后果。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "all_known",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "社会革命党和孟什维克",
+      "their_view": "应当继续与资产阶级代表联合执政，即使这意味着与科尔尼洛夫分子或克伦斯基这样的人物妥协。",
+      "author_response": "这种做法是公然背叛人民和革命，因为它必然导致国家陷入饥荒、经济崩溃和军事失败。",
+      "polemic_kind": "strategic_critique",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p17s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p17s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "加里西亚和里加",
+            "type": "place",
+            "modern": "第一次世界大战东线战场的重要地点，列宁指控科尔尼洛夫分子曾在这些地方故意向德军开放战线。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p17s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p17s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 3,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix",
+        "note:n1_overflow_concept_6>5"
+      ]
+    }
+  ]
+}

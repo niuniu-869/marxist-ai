@@ -1,0 +1,149 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 70,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段开始具体批判第二国际的第一个理论教条，即无产阶级必须在全国人口中占多数才能夺取政权，并引用列宁和马克思的观点进行反驳。",
+    "importance_score": 2,
+    "importance_reason": "这是对第二国际机会主义核心教条的直接批判，为列宁主义关于革命时机的理论提供论据支撑。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段对第二国际教条的总体批判，本段开始逐条分析，首先针对其关于无产阶级夺权条件的教条展开具体驳斥。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "allusion",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "再版的农民战争",
+        "explain": "马克思在1856年致恩格斯的信中提出，若德国能像16世纪宗教改革时期那样爆发农民起义（即“农民战争”）来支持无产阶级革命，革命形势将非常有利。此处“再版”指历史的重演或类比。",
+        "why_needed": "allusion",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p70s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p70s2",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": [
+          {
+            "surface": "机会主义者",
+            "type": "concept",
+            "modern": "此处特指第二国际内部主张改良、反对暴力革命的派别，他们常以马克思主义正统自居。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "opportunism"
+          }
+        ]
+      },
+      {
+        "sid": "p70s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p70s4",
+        "speaker": "quoted_lenin",
+        "stance": "endorsed",
+        "notes": []
+      },
+      {
+        "sid": "p70s5",
+        "speaker": "quoted_lenin",
+        "stance": "endorsed",
+        "notes": [
+          {
+            "surface": "无产阶级",
+            "type": "concept",
+            "modern": "马克思主义理论中指现代工业社会中不占有生产资料、依靠出卖劳动力为生的阶级。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "proletariat"
+          }
+        ]
+      },
+      {
+        "sid": "p70s6",
+        "speaker": "quoted_lenin",
+        "stance": "endorsed",
+        "notes": []
+      },
+      {
+        "sid": "p70s7",
+        "speaker": "quoted_marx",
+        "stance": "endorsed",
+        "notes": [
+          {
+            "surface": "再版的农民战争",
+            "type": "allusion",
+            "modern": "马克思在1856年致恩格斯的信中使用的比喻，指德国可能像16世纪那样爆发大规模农民起义，从而为无产阶级革命提供支持。",
+            "highlight": "allusion",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p70s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p70s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p70s10",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 3,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 2,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "hs:claim_5gram_with_quote",
+        "hs:claim_5gram_with_quote",
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 7,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁通过对比海德门与考茨基，以及批评《我们的言论报》作家们的态度，揭露社会沙文主义者在批判对象选择上的双重标准。",
+    "importance_score": 2,
+    "importance_reason": "通过具体人物对比，支撑了对社会沙文主义背叛行为的批判。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对第二国际背叛行为的揭露，本段通过具体人物案例，进一步批判其理论辩护者的虚伪性。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "考茨基；《我们的言论报》作家",
+      "their_view": "《我们的言论报》作家们认为，海德门的沙文主义是虚伪和有害的，因此应轻蔑地批判他；但对于考茨基，则应保持恭敬或避而不谈。",
+      "author_response": "列宁指出，这种区别对待是虚伪的。考茨基作为更有影响力的理论家，其为沙文主义辩护的行为比海德门更危险，因此更应成为批判的焦点。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p7s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p7s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p7s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p7s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p7s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 2,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

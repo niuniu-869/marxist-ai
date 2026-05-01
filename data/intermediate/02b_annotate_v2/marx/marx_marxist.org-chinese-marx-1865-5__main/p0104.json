@@ -1,0 +1,130 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 104,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "马克思从分析一般商品价值转向批判“劳动的价值”这一常见概念，指出其表面矛盾，并预告将揭示其真实含义。",
+    "importance_score": 3,
+    "importance_reason": "本段提出核心批判对象，为后续论证劳动力商品特殊性铺垫，是全文理论转折点。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段对劳动力的分析，转向批判“劳动的价值”这一常见但错误的表述，揭示其理论困境。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "allusion",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "“劳动的价值”术语",
+        "explain": "这是古典政治经济学常用语，指工人出卖劳动获得的工资。马克思要揭示其真实含义是“劳动力的价值”，并批判其字面表述的逻辑矛盾。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "古典政治经济学及日常观念",
+      "their_view": "工人出卖的是自己的劳动，因此劳动本身是一种商品，具有价值，其价值就是劳动时间。",
+      "author_response": "马克思指出，如果劳动的价值等于劳动时间，那就是同义反复，毫无意义。这迫使人们去寻找这个词背后隐藏的真实含义。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p104s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p104s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p104s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p104s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p104s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "价值",
+            "type": "concept",
+            "modern": "政治经济学核心范畴，指凝结在商品中的无差别的人类劳动。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "value_political_economy"
+          }
+        ]
+      },
+      {
+        "sid": "p104s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p104s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p104s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p104s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "天体的实际运动",
+            "type": "metaphor",
+            "modern": "比喻理论认知：理解了本质规律（如日心说），就能解释表面看似混乱的现象（如行星逆行）。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,164 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 16,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁指责社会革命党人背离其思想先驱，歪曲马克思主义关于俄国经济过渡阶段的论述，并讽刺其关于剥夺地主是“后退一步”的论点。",
+    "importance_score": 3,
+    "importance_reason": "核心批判段落，直接反驳社会革命党人对马克思主义的歪曲，阐明俄国经济形态的复杂性与过渡性。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对社会革命党人误解的揭露，本段具体指出他们忘记了自身思想来源，并系统反驳其对马克思主义的歪曲。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "工役制",
+        "explain": "农奴制废除后俄国农村的一种过渡性剥削形式。地主将土地分给农民，农民以劳役或实物形式缴纳地租，而非纯粹的资本主义雇佣劳动。这是理解列宁论述俄国经济特点的关键。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "社会革命党人",
+      "their_view": "地主的收成比农民的高，所以剥夺地主是后退一步。他们认为大资本主义经济可以直接代替大的徭役制经济。",
+      "author_response": "列宁斥责这种观点幼稚可笑，只应出自中学生之口。他指出，农奴制崩溃时将农民土地与地主土地分开，按此逻辑也是“后退一步”，从而揭露其论点的荒谬。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p16s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p16s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "瓦·沃·",
+            "type": "person",
+            "modern": "19世纪末俄国著名民粹派思想家，其著作分析了俄国资本主义发展问题。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p16s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "《资本主义的命运》",
+            "type": "work",
+            "modern": "瓦·沃·的代表作，探讨俄国资本主义发展前景。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "《论文集》",
+            "type": "work",
+            "modern": "尼古拉·─逊的著作，内容涉及俄国经济问题。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p16s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p16s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "工役制",
+            "type": "concept",
+            "modern": "农奴制残余，地主将土地分给农民，农民以劳役或实物形式缴纳地租。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "corvee_system"
+          }
+        ]
+      },
+      {
+        "sid": "p16s6",
+        "speaker": "quoted_marx",
+        "stance": "endorsed",
+        "notes": [
+          {
+            "surface": "《资本论》第3卷",
+            "type": "work",
+            "modern": "马克思的政治经济学巨著，第三卷分析资本主义生产的总过程。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p16s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p16s8",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p16s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p16s10",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 5,
+        "notes_dropped": 2,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "note:n1_overflow_concept_10>5",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

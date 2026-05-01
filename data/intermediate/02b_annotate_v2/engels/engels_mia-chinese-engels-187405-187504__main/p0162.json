@@ -1,0 +1,125 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 162,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段论证俄国公社所有制的解体趋势，但指出其转变为高级形式的可能性依赖于西欧无产阶级革命，并驳斥特卡乔夫关于俄国农民更接近社会主义的观点。",
+    "importance_score": 3,
+    "importance_reason": "这是恩格斯对俄国公社命运和社会主义革命条件的核心论述，直接反驳民粹派观点。",
+    "argument_role": "continues",
+    "argument_link": "本段承接上段对公社解体的描述，进一步分析其未来可能性，并引入外部革命条件作为关键变量。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "特卡乔夫",
+        "explain": "尼古拉·特卡乔夫是19世纪俄国革命民粹派思想家，主张通过少数革命者密谋发动农民起义来推翻沙皇制度，建立社会主义。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "1863年波兰暴动",
+        "explain": "指1863年波兰反抗俄国统治的起义，起义失败后，沙俄政府为镇压和分化，采取了允许部分农民购买或租赁土地的政策。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p162s2",
+        "quote": "但是也不可否认有可能使这一社会形式转变为高级形式，只要它能够保留到这样做的条件成熟的时候，只要它能够发展到农民已不再是个别而是集体从事耕作的程度［注：在波兰，尤其是在格罗德诺省，地主由于1863年的暴动而大部破产，农民现在往往购买或租赁地主庄园，并且为着共同的利益共同进行耕种。",
+        "trigger": "long_nested",
+        "reader_block": "句子包含两个并列的“只要”条件从句，且第二个条件内嵌一个长注释，读者容易迷失在条件的嵌套和注释的插入中，不清楚核心论点是什么。",
+        "parse": {
+          "claim": "俄国公社所有制向更高级社会形态的转变是可能的。",
+          "qualifiers": "这种转变需要满足两个前提：一是公社本身得以存续直到条件成熟；二是农民的生产方式从个体耕作发展为集体协作。",
+          "contrast_or_target": ""
+        },
+        "why": {
+          "relation": "continues",
+          "explanation": "承接上段对公社解体的描述，提出一个理论上的可能性，为下文引入西欧革命这一关键外部条件做铺垫。"
+        },
+        "implication": "恩格斯在此并非断言公社必然复兴，而是设定一个严格的、有待外部条件触发的理论可能性。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "特卡乔夫",
+      "their_view": "俄国农民虽然是私有者，但比西欧没有财产的工人更接近于社会主义。",
+      "author_response": "这完全是胡说八道。恰恰相反，如果有什么东西还能挽救俄国公社所有制，那正是西欧的无产阶级革命。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p162s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p162s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p162s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p162s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p162s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p162s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p162s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 1,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 79,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁以粮食收集为例，论证苏维埃政权为保障工人阶级生存而采取的社会主义措施，优先于孟什维克等人所标榜的形式平等。",
+    "importance_score": 3,
+    "importance_reason": "核心段落，通过具体经济政策实例，阐明无产阶级专政下“平等”概念的阶级实质，直接反驳论敌。",
+    "argument_role": "example",
+    "argument_link": "承接上段关于习惯势力的讨论，转而用粮食收集的具体实践，说明社会主义方式如何对抗资本主义习惯，并直接回应论敌对“平等”的抽象指责。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "粮食人民委员部",
+        "explain": "苏俄国内战争时期（1918-1921）负责粮食征集与分配的国家机构，是战时共产主义政策的关键执行部门，其运作方式体现了国家对经济的直接控制。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p79s5",
+        "quote": "所以我们说，如果60个农民有余粮，而10个工人在挨饿，那应该谈的就不是一般“平等”和“劳动者的平等”，而是60个农民必须无条件地服从10个工人的决定，把余粮交给他们，即使贷给他们也好。",
+        "trigger": "inverted_logic",
+        "reader_block": "读者初读会困惑：为何“平等”被否定？列宁在此用具体数字构建了一个让步条件（如果…），然后推翻论敌的抽象平等观，转而主张无产阶级专政下的实质优先权。",
+        "parse": {
+          "claim": "在粮食危机中，无产阶级的生存权高于农民的形式平等权，因此后者必须服从前者。",
+          "qualifiers": "前提是存在“60个农民有余粮，而10个工人在挨饿”的特定粮食分配危机状况。",
+          "contrast_or_target": "孟什维克和社会革命党人所主张的、脱离具体阶级斗争形势的抽象“劳动者的平等”。"
+        },
+        "why": {
+          "relation": "conclusion",
+          "explanation": "本句是前文关于社会主义收集方式优于资本主义交易、以及为工人牺牲形式平等的论述的逻辑结论，将具体政策原则上升为一般性的阶级斗争原则。"
+        },
+        "implication": "这为战时共产主义政策中的余粮收集制提供了理论辩护，即国家机器（通过粮食人民委员部）强制征粮是无产阶级专政的体现。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "孟什维克、社会革命党人",
+      "their_view": "我们主张所有劳动者之间形式上的平等权利，布尔什维克的强制征粮破坏了这种平等。",
+      "author_response": "列宁指出，在工人挨饿的现实下，他们所夸耀的平等是虚伪的，苏维埃政权必须优先保障无产阶级的生存，为此可以牺牲其他阶级的形式平等。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p79s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p79s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p79s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p79s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p79s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 338,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁以反讽语气指出考茨基在某个问题上保持沉默，并预告其后续推论将暴露问题。",
+    "importance_score": 1,
+    "importance_reason": "过渡段，为下文具体批判考茨基的推论做铺垫。",
+    "argument_role": "transition",
+    "argument_link": "承接上段对考茨基关于农民问题的反驳，转而指出考茨基在另一点上的回避态度，并引出对其具体论证的剖析。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "考茨基",
+      "their_view": "在某个关键问题上，考茨基选择不作回应，保持沉默。",
+      "author_response": "列宁讽刺这种沉默是自以为聪明的策略，并指出考茨基在接下来的论证中会自己暴露出破绽。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p338s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p338s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_metaphor_9>8"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 41,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "恩格斯通过一个假设性例子，揭示法国社会党纲领在逻辑上会导致保护一切剥削行为，从而与其社会主义原则自相矛盾。",
+    "importance_score": 3,
+    "importance_reason": "本段是恩格斯对法国社会党纲领核心矛盾的归谬论证，是全文批判的关键环节。",
+    "argument_role": "continues",
+    "argument_link": "承接上段指出的纲领与社会主义原则的根本矛盾，本段通过具体假设，将这一矛盾推演至荒谬的境地，以强化批判力度。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p41s3",
+        "quote": "谁又能担保我们的大土地占有者不会把卡尼茨伯爵（要知道，他也提出了类似的将粮食输入事项转交国家管理的建议）也派到他们那里去，借口说他们“自己受着”交易所、高利贷者和粮食投机商的“剥削”而请求社会党人在他们剥削农业工人方面也加以保护呢？",
+        "trigger": "inverted_logic",
+        "reader_block": "嵌套的反问与历史人物（卡尼茨伯爵）的插入，使论证链条更复杂，读者可能迷失于具体细节而忽略其作为更极端归谬例证的作用。",
+        "parse": {
+          "claim": "如果法国社会党的逻辑成立，那么连容克地主也能以自身受市场力量剥削为借口，要求社会党保护他们对农业工人的剥削。",
+          "qualifiers": "这是对前一假设的进一步推演，将保护对象从大农、中农扩大到大土地占有者。",
+          "contrast_or_target": "法国社会党南特纲领的逻辑延伸。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "本句将归谬论证推向更极端的结论，表明法国社会党的主张不仅荒谬，而且会直接为最反动的剥削阶级提供保护伞，从而彻底否定其纲领的社会主义性质。"
+        },
+        "implication": "此推论旨在表明，任何基于“自身也受剥削”而保护剥削行为的逻辑，最终都将服务于最强大的剥削者，而非无产阶级。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "法国社会党南特代表大会",
+      "their_view": "社会主义政党有责任保护小农的小块土地所有制，甚至保护有时剥削短工的佃农，以联合农村一切成分。",
+      "author_response": "恩格斯通过归谬法指出，这种主张在逻辑上无法自洽，会导致保护一切形式的剥削，从而背叛社会主义反对雇佣劳动剥削的基本原则。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p41s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p41s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p41s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 1,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

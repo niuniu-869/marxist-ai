@@ -1,0 +1,103 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 30,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "恩格斯通过西班牙事件，揭露巴枯宁主义者在理论上反对一切政权，实践中却加入了他们声称要反对的革命政府。",
+    "importance_score": 2,
+    "importance_reason": "本段是核心批判的实例支撑，用西班牙具体事件揭露巴枯宁主义理论与实践的矛盾。",
+    "argument_role": "example",
+    "argument_link": "承接上段对巴枯宁主义者“支配”地位的质疑，本段提供西班牙事件的具体证据，展示其言行不一。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "all_known",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "巴枯宁主义者",
+      "their_view": "建立任何一种所谓临时的或革命的政权，都无非是一种新的欺骗，都像所有现存的政府一样，对无产阶级会是危险的。",
+      "author_response": "恩格斯指出，这些在理论上反对一切政权的巴枯宁主义者，在西班牙革命中却加入了他们所反对的临时革命政权。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p30s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p30s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p30s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "物质福利委员会",
+            "type": "org",
+            "modern": "西班牙亚尔科地区在起义中成立的革命政权机构。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p30s4",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p30s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p30s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "临时的和革命的政权",
+            "type": "quote",
+            "modern": "恩格斯在此反讽地使用巴枯宁主义者自己决议中反对的措辞，指他们实际加入的亚尔科革命政府。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

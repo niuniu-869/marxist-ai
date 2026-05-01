@@ -1,0 +1,146 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 19,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "作者解释为何在社会主义发展史中必须提及德国古典哲学与自然科学，论证科学社会主义与辩证法传统的内在联系。",
+    "importance_score": 2,
+    "importance_reason": "本段是作者为科学社会主义的理论来源进行辩护，并阐明其与德国哲学传统及自然科学方法论的关键关联。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对资产阶级读者的讽刺，本段正面阐述科学社会主义的理论根基，回应可能存在的关于其理论来源的疑问。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "康德-拉普拉斯星云假说",
+        "explain": "18世纪末至19世纪初提出的天体起源理论，认为太阳系由一团旋转的星云逐渐凝聚而成。它挑战了神创论，是自然科学中辩证思维的早期体现。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "德国古典哲学与辩证法",
+        "explain": "指18世纪末至19世纪上半叶德国的哲学发展，以康德、费希特、谢林、黑格尔为代表。其核心贡献之一是恢复了辩证法作为思维和世界发展规律的地位。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "黑格尔的辩证法",
+        "explain": "黑格尔将辩证法系统化为一种关于矛盾、运动和发展的普遍规律的学说，但其体系是唯心主义的。马克思和恩格斯对其进行了唯物主义改造。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "德国资产阶级学者（学究们）",
+      "their_view": "他们抛弃了康德、黑格尔等德国哲学家创立的辩证法传统，将其淹没在缺乏原则的折衷主义之中。",
+      "author_response": "恩格斯指出，正是这种遗忘迫使社会主义者不得不从自然科学中寻找辩证法的当代证明，并强调社会主义者以同时继承空想社会主义和德国古典哲学为荣。",
+      "polemic_kind": "reveals_class_basis",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p19s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p19s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "科学社会主义",
+            "type": "concept",
+            "modern": "与空想社会主义相对，指建立在唯物史观和剩余价值学说基础上的社会主义理论。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "socialism_scientific"
+          },
+          {
+            "surface": "辩证法",
+            "type": "concept",
+            "modern": "关于自然、社会和思维发展的普遍规律的学说，核心是对立统一、质量互变、否定之否定。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "dialectics_hegelian"
+          }
+        ]
+      },
+      {
+        "sid": "p19s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "阶级斗争",
+            "type": "concept",
+            "modern": "阶级社会中，对立阶级之间基于根本利益冲突的对抗性斗争。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "class_struggle"
+          }
+        ]
+      },
+      {
+        "sid": "p19s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "折衷主义",
+            "type": "concept",
+            "modern": "一种缺乏内在原则、随意拼凑各种思想观点的哲学方法或态度。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "eclecticism"
+          },
+          {
+            "surface": "辩证法",
+            "type": "concept",
+            "modern": "关于自然、社会和思维发展的普遍规律的学说，核心是对立统一、质量互变、否定之否定。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "dialectics_hegelian"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 5,
+        "notes_dropped": 3,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_event_13>12",
+        "note:n1_overflow_concept_7>5",
+        "note:n1_overflow_concept_7>5",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

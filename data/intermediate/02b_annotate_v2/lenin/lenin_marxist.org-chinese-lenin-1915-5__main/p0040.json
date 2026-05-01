@@ -1,0 +1,104 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 40,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "描述德国社会民主党内部对帝国主义战争的三种立场，并引出考茨基的调和角色。",
+    "importance_score": 2,
+    "importance_reason": "为后续批判考茨基的调和主义提供具体靶子。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对理论家方法的描述，具体展开德国社会民主党内部不同派别对帝国主义战争的立场。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "term_polysemy",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "金融资本",
+        "explain": "列宁帝国主义理论的核心概念，指银行资本与工业资本融合形成的垄断资本，是帝国主义阶段的经济基础。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p40s4",
+        "quote": "考茨基扮演“中派”的角色，在两者之间进行调和：",
+        "trigger": "term_polysemy",
+        "reader_block": "“中派”在当时语境下不是字面意义上的中间派，而是指考茨基试图调和革命与改良的特定政治立场，读者可能误解为简单的折中。",
+        "parse": {
+          "claim": "考茨基试图在革命派与帝国主义派之间采取中间立场。",
+          "qualifiers": "",
+          "contrast_or_target": "对比对象是德国左派社会民主党人的革命立场和右派社会民主党人的帝国主义立场。"
+        },
+        "why": {
+          "relation": "continues",
+          "explanation": "在描述完左派和右派的对立立场后，引出考茨基作为“中派”的调和角色，为后续批判其立场做铺垫。"
+        },
+        "implication": "暗示考茨基的调和立场实质上是为右派的帝国主义立场辩护。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "考茨基",
+      "their_view": "考茨基认为可以在革命与帝国主义之间找到中间道路，通过调和来避免极端。",
+      "author_response": "列宁认为这种调和实质上是为右派的帝国主义立场服务，背叛了革命原则。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p40s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "金融资本",
+            "type": "concept",
+            "modern": "在列宁的帝国主义理论中，指银行资本与工业资本融合形成的垄断资本，是帝国主义阶段的经济基础。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "finance_capital"
+          }
+        ]
+      },
+      {
+        "sid": "p40s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p40s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p40s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "中派",
+            "type": "concept",
+            "modern": "在第二国际语境下，特指考茨基等人试图调和革命派与改良派的立场，列宁视其为机会主义的一种形式。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "centrism_kautsky"
+          }
+        ]
+      }
+    ]
+  }
+}

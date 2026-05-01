@@ -1,0 +1,64 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 6,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "通过描述现实中的国际团结实践，对比并批评德国理论家脱离实际的空谈。",
+    "importance_score": 2,
+    "importance_reason": "通过现实对比，强化对德国理论家脱离实际的批判，支撑核心论点。",
+    "argument_role": "continues",
+    "argument_link": "延续上一段的对比，用更具体的现实例子（法国共产主义、英国宪章主义）来证明群众比理论家更懂时代。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "法国的共产主义",
+        "explain": "在1845年语境下，这主要指当时法国流行的社会主义思潮，强调财产公有与社会改革，是工人运动的一种理论表达，与后来成熟的科学社会主义有区别。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "英国的宪章主义",
+        "explain": "19世纪30-40年代英国工人阶级争取普选权的大规模政治运动，是工人作为独立政治力量登上历史舞台的标志。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "德国的“真正社会主义”理论家",
+      "their_view": "他们空谈抽象的民族特点和纯粹的理论原则，将社会主义视为脱离现实工人运动的学说。",
+      "author_response": "恩格斯用法国和英国工人运动中展现的国际团结现实，证明群众及其代表比这些理论家更理解时代对无产阶级联合的要求。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p6s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "现代民主",
+            "type": "concept",
+            "modern": "此处指从法国大革命发展而来，强调政治平等与人民主权的资产阶级民主传统，是无产阶级运动兴起的历史背景。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "democracy_bourgeois"
+          }
+        ]
+      }
+    ]
+  }
+}

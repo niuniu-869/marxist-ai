@@ -1,0 +1,149 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 36,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁通过转述一位芬兰老太太的见闻，论证人民群众对苏维埃武装力量（赤卫队）态度的转变，并指出这种来自群众的自发宣传是建立全民武装的不可战胜的力量。",
+    "importance_score": 3,
+    "importance_reason": "核心论证段落，通过具体事例阐明苏维埃政权的阶级基础和武装力量的正当性，直接回应国内外关于“独裁”的指责。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段未完的芬兰铁路见闻，将其作为核心论据，用以论证人民群众的真实感受与官方宣传的对立，并引出建立全民武装的结论。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "allusion",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p36s6",
+        "quote": "这种宣传会传遍千百万群众，会扎实地建立一支19世纪法国公社就开始创建的（不过创建时间很短，因为公社被资产阶级消灭了）、一切社会主义者所向往的社会主义的红军——全民的武装。",
+        "trigger": "allusion",
+        "reader_block": "“19世纪法国公社”指巴黎公社，读者若不知其历史及与“全民武装”的关联，会难以理解列宁为何将其视为社会主义武装的起点。",
+        "parse": {
+          "claim": "列宁认为，当前群众中自发的宣传，将最终建立起一支真正的、由全体劳动者组成的武装力量。",
+          "qualifiers": "这种武装力量是“社会主义的”，其目标是保卫劳动者，与历史上短暂存在的巴黎公社武装有继承关系。",
+          "contrast_or_target": ""
+        },
+        "why": {
+          "relation": "example",
+          "explanation": "本句以巴黎公社作为历史先例，来论证当前群众宣传所指向的未来目标——全民武装，为这一目标提供历史合法性与社会主义谱系上的依据。"
+        },
+        "implication": "列宁将苏维埃的赤卫队视为巴黎公社事业的继承者和发展者，旨在建立一个更持久、更广泛的劳动者武装。",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p36s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "独裁者",
+            "type": "polemic_ref",
+            "modern": "当时国内外反对派攻击苏维埃政权的核心标签之一，用以否定其民主性质。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          },
+          {
+            "surface": "暴力者",
+            "type": "polemic_ref",
+            "modern": "反对派用以指责苏维埃政权镇压剥削者和反革命行为的标签。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p36s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p36s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "剥削者",
+            "type": "concept",
+            "modern": "马克思主义术语，指占有生产资料并无偿占有他人剩余劳动的阶级。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "class_marxist"
+          }
+        ]
+      },
+      {
+        "sid": "p36s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p36s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "宣传",
+            "type": "concept",
+            "modern": "列宁在此特指人民群众基于自身阶级立场和切身感受，自发传播的、有利于苏维埃政权的言论和行动。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "propaganda_proletarian"
+          }
+        ]
+      },
+      {
+        "sid": "p36s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p36s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 4,
+        "notes_dropped": 3,
+        "hs_kept": 1,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_7>5",
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

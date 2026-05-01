@@ -1,0 +1,134 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 9,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "马克思澄清其关于西欧资本主义起源的论述仅适用于特定条件，反驳将其普遍化为一切民族发展道路的企图。",
+    "importance_score": 3,
+    "importance_reason": "本段是马克思对历史唯物主义方法论的核心澄清，界定其理论的适用边界，是理解其与俄国公社问题立场的关键。",
+    "argument_role": "contrasts",
+    "argument_link": "上段描述西欧资本主义产生的具体历史过程，本段则严格限定这一描述的适用条件，指出它不能被抽象为普遍规律。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "历史哲学理论",
+        "explain": "19世纪流行的一种思想，认为所有民族都必须经历相同的历史发展阶段（如封建主义-资本主义-社会主义），马克思在此明确反对这种机械的历史观。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p9s5",
+        "quote": "他一定要把我关于西欧资本主义起源的历史概述彻底变成一般发展道路的历史哲学理论，一切民族，不管他们所处的历史环境如何，都注定要走这条道路，——以便最后都达到在保证社会劳动生产力极高度发展的同时又保证人类最全面的发展的这样一种经济形态。",
+        "trigger": "long_nested",
+        "reader_block": "长句包含多个插入语和条件从句，读者容易迷失主干，误以为马克思在描述自己的理论目标，而非转述并批判论敌的曲解。",
+        "parse": {
+          "claim": "马克思拒绝将自己对西欧历史的特定分析，提升为一种适用于所有民族、无视具体环境的普遍发展公式。",
+          "qualifiers": "这种普遍化理论声称一切民族无论历史环境如何都注定走同一条路。",
+          "contrast_or_target": "米海洛夫斯基等批评家将马克思的论述曲解为超历史的普遍法则。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "本句明确划清自己理论与历史哲学理论的界限，指出后者是对其思想的曲解，为后文举例反驳做铺垫。"
+        },
+        "implication": "这为理解马克思后来关于俄国公社的论述奠定方法论基础：必须结合具体历史环境，而非套用公式。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "尼·康·米海洛夫斯基",
+      "their_view": "马克思关于西欧资本主义起源的论述，应被理解为适用于一切民族的普遍历史发展道路理论。",
+      "author_response": "马克思明确拒绝这种普遍化，认为这既是对他的过高评价也是侮辱，因为其论述仅针对西欧的特定历史过程。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p9s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p9s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "无产者",
+            "type": "concept",
+            "modern": "在19世纪俄国语境下，指被剥夺了生产资料、只能靠出卖劳动力为生的农民。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "proletarian_modern"
+          }
+        ]
+      },
+      {
+        "sid": "p9s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p9s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p9s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p9s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p9s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p9s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 1,
+        "hs_kept": 1,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_6>5"
+      ]
+    }
+  ]
+}

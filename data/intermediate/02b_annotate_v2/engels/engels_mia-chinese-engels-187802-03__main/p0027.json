@@ -1,0 +1,213 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 27,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "分析法国农民从支持波拿巴主义转向共和主义的历史转折，揭示其经济根源及对工农联盟前景的意义。",
+    "importance_score": 3,
+    "importance_reason": "阐述工农联盟的经济基础与历史可能性，是恩格斯关于法国革命动力分析的核心部分。",
+    "argument_role": "continues",
+    "argument_link": "在上段分析共和派胜利的政治原因后，本段转向其社会基础，特别是农村居民态度的转变及其阶级根源。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "term_density",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "波拿巴主义",
+        "explain": "指路易·拿破仑·波拿巴建立的第二帝国所代表的政治路线，其特点是依靠农民支持、许诺恢复帝国荣光来维持统治。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "路易-拿破仑",
+        "explain": "路易·拿破仑·波拿巴，拿破仑一世之侄，1848年当选法兰西第二共和国总统，1851年政变称帝，建立第二帝国，1870年普法战争中被俘。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "梯也尔",
+        "explain": "阿道夫·梯也尔，法国政治家，1871年镇压巴黎公社后成为共和国总统，代表资产阶级共和派。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p27s10",
+        "quote": "大革命造成的小自耕农，只不过在名义上是土地所有者，他们的土地已经抵押给高利贷者；",
+        "trigger": "term_density",
+        "reader_block": "句中密集出现“抵押”“高利贷者”“利息”“诉讼费”等法律经济术语，读者若不熟悉19世纪法国农村金融体系，难以理解小农的实际处境。",
+        "parse": {
+          "claim": "法国大革命后形成的小农，虽然名义上拥有土地，但其土地已被债务束缚，经济上受制于金融和法律体系。",
+          "qualifiers": "",
+          "contrast_or_target": ""
+        },
+        "why": {
+          "relation": "example",
+          "explanation": "通过描述小农被债务和法律程序困扰的具体状况，为前文农民政治立场转变提供经济基础的解释。"
+        },
+        "implication": "这种经济困境使小农与城市工人在处境上趋同，为两者结盟创造了条件。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p27s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p27s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p27s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p27s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "波拿巴主义",
+            "type": "concept",
+            "modern": "依靠农民支持和帝国许诺维持统治的政治路线",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "bonapartism"
+          }
+        ]
+      },
+      {
+        "sid": "p27s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "路易－拿破仑",
+            "type": "person",
+            "modern": "拿破仑一世之侄，第二帝国皇帝",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p27s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p27s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p27s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p27s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p27s10",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "小自耕农",
+            "type": "social_group",
+            "modern": "法国大革命后获得小块土地但经济脆弱的农民",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p27s11",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p27s12",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p27s13",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p27s14",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p27s15",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "梯也尔",
+            "type": "person",
+            "modern": "镇压巴黎公社的法国资产阶级政治家",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p27s16",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p27s17",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 49,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段陈述十月革命的一个核心意义，即它用实践证明了列宁主义路线对社会民主主义路线的必然胜利。",
+    "importance_score": 2,
+    "importance_reason": "本段是前文关于消灭社会民主主义论述的直接结论，将历史事件（十月革命）与理论路线（列宁主义）的胜利联系起来，是支撑全文核心论点的关键环节。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段关于资本主义衰亡与社会民主主义衰亡同步的论断，本段用十月革命这一历史事实，具体指明了取代社会民主主义的理论力量是列宁主义。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "列宁主义",
+        "explain": "指列宁在帝国主义和无产阶级革命时代对马克思主义的继承与发展，其核心是强调通过暴力革命和建立无产阶级专政来夺取并巩固政权，与第二国际主流的社会民主主义路线形成对立。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "社会民主党",
+      "their_view": "无产阶级可以通过资产阶级议会制度和平地、渐进地过渡到社会主义，无需暴力革命和无产阶级专政。",
+      "author_response": "十月革命的实践表明，只有列宁主义所主张的革命道路才能成功，社会民主主义的和平过渡幻想已被历史证伪。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p49s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "列宁主义",
+            "type": "concept",
+            "modern": "在帝国主义时代发展的马克思主义理论体系，强调革命与专政",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "leninism"
+          },
+          {
+            "surface": "社会民主主义",
+            "type": "concept",
+            "modern": "第二国际主流思潮，主张议会道路与阶级合作",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "social_democracy"
+          }
+        ]
+      }
+    ]
+  }
+}

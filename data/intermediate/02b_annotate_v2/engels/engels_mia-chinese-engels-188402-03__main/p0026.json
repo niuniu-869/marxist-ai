@@ -1,0 +1,123 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 26,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "描述《新莱茵报》的批判立场：既嘲讽旧反动派，也讽刺革命后产生的新偶像，特别是议会机构。",
+    "importance_score": 2,
+    "importance_reason": "支撑性描述，具体展现报纸的批判风格与对象，为理解其革命立场提供实例。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于无产阶级独立立场的论述，具体说明《新莱茵报》在实践中如何贯彻这一立场，即对所有非无产阶级力量（无论新旧）均持批判态度。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "法兰克福议会",
+      "their_view": "议会是革命创造的新权威，其决议和辩论具有实质意义，能够代表或推动革命成果。",
+      "author_response": "议会形同虚设，其冗长演说和懦怯决议毫无实际作用，甚至不配称为辩论俱乐部。",
+      "polemic_kind": "strategic_critique",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p26s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p26s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p26s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "十字报",
+            "type": "work",
+            "modern": "1848年革命时期普鲁士保守派的喉舌报纸，以支持王室和容克贵族著称。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p26s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "法兰克福议会",
+            "type": "org",
+            "modern": "1848年5月至1849年6月在法兰克福召开的全德国民议会，旨在制定统一宪法。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "柏林议会",
+            "type": "org",
+            "modern": "1848年革命期间在柏林召开的普鲁士国民议会。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p26s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p26s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p26s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p26s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 3,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

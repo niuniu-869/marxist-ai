@@ -1,0 +1,138 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 47,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "描述1851年后英国社会的国际化变化，特别是宗教怀疑论的传播，并指出这种思想在英国本土有更早的根源。",
+    "importance_score": 1,
+    "importance_reason": "本段通过描述英国社会变化，为后文论证提供历史背景，但非核心论点。",
+    "argument_role": "continues",
+    "argument_link": "上一段描述19世纪中叶英国中产阶级的宗教保守性，本段则描述此后英国社会的国际化变化，特别是宗教怀疑论的传播。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p47s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "开化",
+            "type": "metaphor",
+            "modern": "此处加引号，暗示这种“开化”特指社会风气的开放，而非文明程度的提升。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p47s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p47s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p47s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p47s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "不可知论",
+            "type": "concept",
+            "modern": "一种哲学立场，认为人类知识有限，无法确知超自然或终极实在的存在。在19世纪英国，它常与宗教怀疑相关联。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "agnosticism_philosophical"
+          },
+          {
+            "surface": "英国国教会",
+            "type": "org",
+            "modern": "英格兰的官方教会，即圣公会，在19世纪仍具有重要社会地位。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "浸礼会",
+            "type": "org",
+            "modern": "基督教新教的一个派别，强调信徒成年后受洗，在19世纪英国是重要的非国教教会。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p47s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "新奇的思想",
+            "type": "metaphor",
+            "modern": "此处加引号，指当时被保守人士视为外来的宗教怀疑思想，但恩格斯指出其英国本土根源。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          },
+          {
+            "surface": "德国制造",
+            "type": "metaphor",
+            "modern": "19世纪中期，德国工业品在英国常被视为廉价或激进的象征，此处用来比喻被误认为源自德国的思想。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 6,
+        "notes_dropped": 2,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

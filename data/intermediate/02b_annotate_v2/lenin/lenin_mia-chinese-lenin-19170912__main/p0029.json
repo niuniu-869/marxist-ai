@@ -1,0 +1,80 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 29,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "作者指出，关于出版自由的争论，其核心矛盾并非抽象的权利口号，而是剥削阶级对印刷生产资料的私有垄断。",
+    "importance_score": 2,
+    "importance_reason": "本段是论证的关键转折，将讨论从抽象的“出版自由”口号引向对物质生产资料所有权的批判，揭示了资产阶级出版自由的实质。",
+    "argument_role": "continues",
+    "argument_link": "直接回应上一段提出的“到哪儿去找印刷所和纸张”的疑问，将问题的焦点从寻找资源转向批判资源被谁占有。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "资产阶级出版自由观",
+      "their_view": "只要取消书报检查，允许各党派自由办报，就实现了真正的出版自由。",
+      "author_response": "列宁指出，这种自由是空洞的，因为印刷所和纸张这些物质基础掌握在剥削者手中，他们凭借所有权就能控制出版。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p29s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p29s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "出版自由",
+            "type": "concept",
+            "modern": "在本文语境下，特指资产阶级所宣扬的、以法律权利形式出现的、脱离物质基础的抽象自由。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "democracy_bourgeois"
+          },
+          {
+            "surface": "神圣的所有权",
+            "type": "metaphor",
+            "modern": "反讽说法，指资产阶级法律所维护的、被视为不可侵犯的私有财产权。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

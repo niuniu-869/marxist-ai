@@ -1,0 +1,186 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 27,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "斯大林反驳拉狄克，论证中国革命的独特性在于可以暂时利用领导反帝军队的国民党右派，即使他们本质反动。",
+    "importance_score": 2,
+    "importance_reason": "核心论证段落，阐述斯大林对国共合作策略的辩护，即利用蒋介石集团的反帝军事作用。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对国民党右派反动本质的分析，转而论证为何在当前阶段仍需与之合作，指出其领导反帝军队的客观作用。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "策列铁里、克伦斯基、唐恩",
+        "explain": "策列铁里是俄国孟什维克领袖，克伦斯基是二月革命后俄国临时政府总理，唐恩是孟什维克理论家。斯大林用他们作为反面参照，对比蒋介石。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p27s3",
+        "quote": "我顺便说说：尽管这些右派身上有各种毛病，有各种缺点，是地道的资产阶级性质，尽管他们是中国新的资产阶级政党的中心和将来反革命的中心，从这些人中将来会产生中国真正的反革命政党，尽管这，尽管那，然而这些人眼下毕竟正领导着反帝军队。这是不是事实？",
+        "trigger": "long_nested",
+        "reader_block": "连续四个“尽管”构成复杂让步结构，读者容易迷失在对右派负面定性的重复中，忽略最后的转折核心。",
+        "parse": {
+          "claim": "国民党右派虽然具有资产阶级反动本质并可能在未来成为反革命核心，但当前他们实际指挥着一支反对帝国主义的军队。",
+          "qualifiers": "时间限定为“眼下”；性质限定为“资产阶级性质”；未来可能性限定为“将来反革命的中心”。",
+          "contrast_or_target": "拉狄克认为应立即驱逐右派，忽视了他们当前领导反帝军队的客观事实。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "通过先承认右派的反动本质（让步），再强调其当前领导反帝战争的客观作用（转折），直接反驳拉狄克立即驱逐的主张，为合作策略提供事实依据。"
+        },
+        "implication": "革命策略需基于对当前主要矛盾（反帝）和力量对比的现实评估，而非仅凭阶级属性做纯粹判断。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "拉狄克",
+      "their_view": "拉狄克认为，鉴于国民党右派的资产阶级反动本质，共产党应立即与他们决裂，将其驱逐出革命阵营。",
+      "author_response": "斯大林指出，中国国情的独特性在于，这些右派目前领导着反帝军队，这是客观事实。利用他们领导的反帝战争，比让其与帝国主义者联合反对人民更有利。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p27s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p27s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p27s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p27s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p27s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p27s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p27s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p27s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "策列铁里",
+            "type": "person",
+            "modern": "俄国孟什维克领袖，二月革命后任苏维埃执委会主席，后加入临时政府。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "克伦斯基",
+            "type": "person",
+            "modern": "俄国社会革命党人，二月革命后任临时政府司法部长，后任总理。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p27s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "唐恩",
+            "type": "person",
+            "modern": "俄国孟什维克理论家与领袖之一。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p27s10",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p27s11",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p27s12",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p27s13",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p27s14",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 3,
+        "notes_dropped": 0,
+        "hs_kept": 1,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

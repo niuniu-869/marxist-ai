@@ -1,0 +1,75 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 265,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁以无产阶级革命者口吻，阐述对资产阶级的策略：利用其民主训练群众，并镇压反抗的剥削者。",
+    "importance_score": 2,
+    "importance_reason": "本段具体阐述无产阶级革命对资产阶级的策略，支撑列宁对考茨基机会主义的批判，强调革命暴力和专政的必要性。",
+    "argument_role": "continues",
+    "argument_link": "前一段批判考茨基主义者迎合资产阶级民主，本段延续这一批判，具体说明革命者如何对待资产阶级民主和剥削者，以训练群众进行革命。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "谢德曼",
+        "explain": "谢德曼是德国社会民主党领袖，第一次世界大战期间支持本国政府，属于社会沙文主义者，列宁将其视为机会主义代表。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "谢德曼和考茨基",
+      "their_view": "考茨基和谢德曼主张通过民主方法实现社会主义，反对暴力镇压剥削者，认为无产阶级专政只是形式上的。",
+      "author_response": "列宁强调无产阶级革命必须无情镇压反抗的剥削者，剥夺其权利和粮食，以区别于机会主义的社会主义。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p265s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p265s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p265s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

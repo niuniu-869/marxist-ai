@@ -1,0 +1,119 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 42,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段通过举例和反讽，驳斥资产阶级将奥地利工人运动归咎于国际协会阴谋的污蔑。",
+    "importance_score": 2,
+    "importance_reason": "作为报告中反驳资产阶级污蔑的具体例证，支撑核心论点。",
+    "argument_role": "example",
+    "argument_link": "承接上段关于奥地利工人加入国际的叙述，转而揭露资产阶级对此的污蔑性反应。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "“赤色幽灵”",
+        "explain": "19世纪中叶欧洲资产阶级对共产主义运动的污蔑性统称，常与“共产主义威胁”挂钩，用以恐吓公众。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "布隆屠杀",
+        "explain": "1869年7月13日发生在莫拉维亚纺织中心布隆的镇压事件，当局对罢工工人开枪，造成伤亡。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "和平和自由同盟",
+        "explain": "1867年在瑞士伯尔尼成立的资产阶级和平主义组织，主张通过改良实现和平，与主张阶级斗争的国际工人协会对立。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "资产阶级及其检察官",
+      "their_view": "国际工人协会是布隆屠杀等事件的幕后黑手，其代理人像戴隐身帽一样暗中活动；维也纳的工人领袖是受外国指使的代理人。",
+      "author_response": "马克思通过列举具体事件（布隆屠杀）和检察官的无知（分不清两个组织），揭露这些指控的荒谬和缺乏事实依据。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p42s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "赤色幽灵",
+            "type": "metaphor",
+            "modern": "当时欧洲资产阶级对共产主义运动的污蔑性统称，常与“共产主义威胁”挂钩。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p42s2",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p42s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p42s4",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p42s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "和平和自由同盟",
+            "type": "org",
+            "modern": "1867年在瑞士伯尔尼成立的资产阶级和平主义组织，主张通过改良实现和平。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

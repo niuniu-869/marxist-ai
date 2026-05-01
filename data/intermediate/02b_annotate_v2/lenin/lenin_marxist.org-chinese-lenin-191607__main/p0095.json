@@ -1,0 +1,89 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 95,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁分析荷兰与波兰同志反对民族自决权的特殊历史根源，并指出其一般性论证的错误。",
+    "importance_score": 2,
+    "importance_reason": "分析论敌立场的特殊根源，为后续反驳铺垫。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对荷兰与波兰特殊条件的分析，进一步指出其一般性论证的错误。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "荷兰和波兰社会民主党人",
+      "their_view": "他们用关于一般帝国主义、一般社会主义、一般民主制、一般民族压迫的论证来反对民族自决权。",
+      "author_response": "列宁指出这种一般性论证是错误的，必须从荷兰和波兰的特殊条件来看问题实质。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p95s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p95s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p95s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "自决",
+            "type": "concept",
+            "modern": "在列宁的论述中，指被压迫民族摆脱帝国主义兼并、建立独立国家的权利。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "self_determination_national"
+          }
+        ]
+      },
+      {
+        "sid": "p95s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p95s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_5gram_with_surface"
+      ]
+    }
+  ]
+}

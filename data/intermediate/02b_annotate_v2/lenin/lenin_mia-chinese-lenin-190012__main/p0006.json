@@ -1,0 +1,106 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 6,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁用事实和反讽揭露欧洲列强（特别是俄国）瓜分中国的实质，并直接引用俄国政府的照会以暴露其谎言。",
+    "importance_score": 3,
+    "importance_reason": "核心批判段落，直接点明战争的殖民掠夺本质，并用论敌自己的话进行反驳。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对中国人憎恨欧洲人原因的分析，具体展开欧洲资本家和政府的掠夺行为与暴行，并直接引用俄国官方声明进行驳斥。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_density",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "refute_quotation"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "旅顺口与满洲",
+        "explain": "旅顺口是位于辽东半岛南端的天然良港，1898年被俄国强行租借，成为其在远东的重要军事基地。满洲指中国东北地区，是当时俄国扩张势力的主要目标。",
+        "why_needed": "history_density",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "1900年8月12日照会",
+        "explain": "这是八国联军侵华期间，俄国政府向其他列强发出的外交文件，为其军事行动辩护，声称是临时措施且无私心。",
+        "why_needed": "history_density",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p6s5",
+        "quote": "如果直言不讳，就应当说：“欧洲各国政府（最先恐怕是俄国政府）已经开始瓜分中国了。不过他们在开始是不是公开瓜分的，而是像贼那样偷偷摸摸进行的。它们盗窃中国，就像盗窃死人的财物一样，一旦这个假死人试图反抗，它们就像野兽一样猛扑到他身上。他们杀人放火，把村庄烧光，把老百姓驱入黑龙江中活活淹死，枪杀和刺死手无寸铁的居民和他们的妻子儿女。就在这些基督教徒立功的时候，他们却大叫大嚷反对野蛮的中国人，说他们胆敢触犯文明的欧洲人。俄国专制政府在1900年8月12日给各国的照会中宣称：俄国军队占领牛庄并且开入满洲境内，乃是临时的措施；采取这些措施，“完全是由于必须击退中国叛乱者的侵略行动”；“绝对不能说明帝国政府有任何违反政策的自私计划”。",
+        "trigger": "long_nested",
+        "reader_block": "句子极长，包含列宁的直接引语、对暴行的列举、反讽，以及对俄国照会的引用，读者容易在多层嵌套和语气转换中迷失论证主线。",
+        "parse": {
+          "claim": "欧洲列强正在以隐蔽方式瓜分中国，其行为如同盗贼和野兽，伴随着极端暴力，同时却用“文明”和“无私”的言辞进行自我辩护。",
+          "qualifiers": "这是列宁认为“直言不讳”时应有的陈述，用以对比俄国政府官方声明的虚伪性。",
+          "contrast_or_target": "俄国政府声称其军事行动是“临时的措施”，是“击退侵略”，且“绝对不能说明”有“自私计划”。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "本句通过并置列宁对侵略本质的揭露与俄国政府的官方辩词，形成强烈反差，直接驳斥后者关于行动“无私”和“临时”的谎言，是本段论战的核心手法。"
+        },
+        "implication": "俄国政府的外交辞令与其军队的实际暴行完全矛盾，其所谓“文明”使命是掩盖殖民掠夺的遮羞布。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "俄国专制政府",
+      "their_view": "俄国军队的行动是临时的、必要的自卫，旨在击退中国的侵略，完全不包含任何自私的扩张计划。",
+      "author_response": "列宁指出，俄国政府的行为与盗贼和野兽无异，其外交照会是对其殖民掠夺和屠杀暴行的虚伪掩饰。",
+      "polemic_kind": "counter_quotation",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p6s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p6s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p6s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p6s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p6s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "租借",
+            "type": "archaic",
+            "modern": "19世纪末列强在华采用的殖民手段，通过不平等条约强行获取领土使用权，实为变相占领。",
+            "highlight": "archaic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 228,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁讽刺《新生活报》的“马克思主义者”自诩温和谨慎，却轻视历史经验，歪曲现实。",
+    "importance_score": 2,
+    "importance_reason": "本段是针对特定论敌（新生活派）的论战，通过讽刺揭露其理论脱离实际，支撑全文关于布尔什维克能保持政权的论证。",
+    "argument_role": "contrasts",
+    "argument_link": "上一段论述起义作为艺术的普遍规则，本段则转向具体论敌，讽刺他们以“温和谨慎”为借口，无视这些规则和历史经验。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "allusion",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "allusion",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "莫尔恰林",
+        "explain": "俄国喜剧《智慧的痛苦》中的角色，一个伪善、怯懦、善于逢迎的官僚。列宁用此典故讽刺《新生活报》的“马克思主义者”像莫尔恰林一样，用扭曲的视角看待现实。",
+        "why_needed": "allusion",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p228s1",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p228s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p228s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote",
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

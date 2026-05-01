@@ -1,0 +1,137 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 62,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁在党内会议上明确反对与小资产阶级及沙文主义者结盟的主张，并点名批评齐赫泽、托洛茨基等人在联盟问题上的模糊或错误立场。",
+    "importance_score": 2,
+    "importance_reason": "本段是列宁阐述其“四月提纲”中关于拒绝与资产阶级及小资产阶级妥协、坚持无产阶级独立策略的具体论证，直接针对党内不同意见。",
+    "argument_role": "continues",
+    "argument_link": "承接上文关于选举制与联盟关系的讨论，进一步论证为何在当前形势下与特定政治力量结盟是不可接受的，并具体点名批评党内和党外的错误倾向。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "加里宁的联盟主张",
+        "explain": "加里宁是当时布尔什维克党内一位有影响力的领导人，他主张在选举和政治行动中与代表小资产阶级利益的政党（如社会革命党左派）建立联盟，以巩固革命成果。列宁在此明确反对这一策略。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "齐赫泽与孟什维克",
+        "explain": "齐赫泽是孟什维克领袖，时任彼得格勒苏维埃主席。他领导的苏维埃执行委员会与资产阶级临时政府合作，实行“革命护国主义”政策，即在“保卫祖国”口号下支持继续进行帝国主义战争。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "托洛茨基与《国际》杂志",
+        "explain": "托洛茨基当时刚从流亡地返回俄国，尚未明确加入布尔什维克党。《国际》杂志是党内左派反对派（以拉林为代表）试图创办的刊物，旨在联合反对临时政府和孟什维克妥协政策的力量，但其具体纲领和立场在当时尚不清晰。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p62s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p62s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p62s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p62s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p62s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p62s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p62s7",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p62s8",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p62s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p62s10",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p62s11",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

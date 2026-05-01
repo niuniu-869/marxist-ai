@@ -1,0 +1,131 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 61,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "分析英国资产阶级革命中加尔文教的作用、各阶级的角色，以及革命超出资产阶级目的的规律。",
+    "importance_score": 2,
+    "importance_reason": "通过英国革命案例，具体说明上一段提出的加尔文教与资产阶级革命的关系，并引出资产阶级革命的普遍规律。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段关于加尔文教契合资产阶级诉求的论断，具体分析其在英国革命中的实践作用，并揭示革命中各阶级的矛盾关系。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_density",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "英国资产阶级革命",
+        "explain": "指17世纪中叶英国发生的内战与革命，最终推翻了国王查理一世的统治，建立了共和国。克伦威尔是革命的主要军事和政治领袖。",
+        "why_needed": "history_density",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "法国1793年与德国1848年",
+        "explain": "指法国大革命中的激进雅各宾专政时期，以及德意志各邦爆发的要求统一与宪政的革命运动。两者均被视为资产阶级革命激进化的例子。",
+        "why_needed": "history_density",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p61s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "加尔文教",
+            "type": "concept",
+            "modern": "16世纪宗教改革中形成的基督教新教派别，其预定论和共和教会组织为早期资产阶级提供了反抗封建王权的意识形态武器。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "calvinism_reformation"
+          }
+        ]
+      },
+      {
+        "sid": "p61s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p61s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "自耕农",
+            "type": "social_group",
+            "modern": "英国历史上拥有自己土地并亲自耕作的农民阶层，是革命中重要的武装力量。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p61s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p61s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p61s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p61s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p61s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

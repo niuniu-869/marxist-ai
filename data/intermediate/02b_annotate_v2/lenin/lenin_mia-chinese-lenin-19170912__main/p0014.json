@@ -1,0 +1,89 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 14,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "以彼得格勒和莫斯科的选举数据与报纸发行量对比，揭示资产阶级出版自由建立在资本优势而非民意之上。",
+    "importance_score": 2,
+    "importance_reason": "用具体数据支撑上一段关于出版自由实质的论断，是核心论证的关键例证。",
+    "argument_role": "example",
+    "argument_link": "承接上一段对资产阶级出版自由的定性判断，本段用选举与发行量数据提供实证，具体展示这种自由的不平等基础。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "资产阶级报纸及其所代表的出版自由观念",
+      "their_view": "取消书报检查，允许各党派自由出版报纸，就是真正的出版自由，其发行量优势反映了社会影响力。",
+      "author_response": "列宁指出，这种优势建立在资本基础上，而非选举所反映的大多数人意志，因此是虚假的自由。",
+      "polemic_kind": "reveals_class_basis",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p14s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p14s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p14s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p14s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "民主派",
+            "type": "concept",
+            "modern": "列宁在此特指社会革命党、孟什维克和布尔什维克这三个政党联盟，与通常泛指的民主派不同。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "democracy_proletarian"
+          }
+        ]
+      },
+      {
+        "sid": "p14s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_5gram_with_surface"
+      ]
+    }
+  ]
+}

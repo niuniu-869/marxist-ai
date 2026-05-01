@@ -1,0 +1,88 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 31,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "恩格斯揭露1821年法令如何使西里西亚容克地主通过赎免程序从农民手中攫取巨额财富，并指出这正是农民在1848年革命中反抗的经济根源。",
+    "importance_score": 2,
+    "importance_reason": "本段通过具体历史数据与事件，为前文对封建土地制度的批判提供实证支撑，并解释了革命爆发的经济动因。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段对西里西亚法令的评论，具体展开该法令如何通过赎免程序系统性地掠夺农民，从而为理解后续的阶级冲突提供经济背景。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "1821年徭役赎免法",
+        "explain": "普鲁士政府通过法律程序，允许农民以金钱或土地赎买原本对地主承担的劳役和实物贡赋。但实际执行中，赎买条件苛刻，评估价格不公，导致农民普遍破产，而地主则获得巨额补偿。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "1848年革命在西里西亚",
+        "explain": "1848年革命浪潮中，西里西亚的农民运动尤为激烈，他们拒绝继续履行旧的封建义务，要求彻底废除地主特权，这与城市工人运动共同构成了对旧秩序的冲击。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p31s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "容克",
+            "type": "social_group",
+            "modern": "普鲁士及东欧地区的贵族地主阶层，通常拥有大量庄园并享有封建特权。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "代役租",
+            "type": "archaic",
+            "modern": "农民为免除劳役而定期向地主缴纳的货币或实物。",
+            "highlight": "archaic",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 2,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_event_13>12",
+        "note:n2_5gram_with_surface"
+      ]
+    }
+  ]
+}

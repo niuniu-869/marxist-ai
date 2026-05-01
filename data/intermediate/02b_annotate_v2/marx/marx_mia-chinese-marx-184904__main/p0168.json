@@ -1,0 +1,63 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 168,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段反驳了机器制造工人因机器数量增加而必然增加的论点，指出从1840年起该论点已不成立，因为机器制造本身也采用机器，工人作用有限。",
+    "importance_score": 2,
+    "importance_reason": "反驳一个具体论点，支撑全文关于雇佣劳动与资本关系的论证。",
+    "argument_role": "contrasts",
+    "argument_link": "上一段提到有人认为机器制造工人是例外，本段直接反驳这一观点，指出其错误。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "cross_ref_pronoun",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "机器制造工人例外论",
+        "explain": "上一段提到，有人认为机器制造工人是例外，因为机器数量增加会导致该行业工人增加，且这些工人是熟练或受过教育的。",
+        "why_needed": "cross_ref_pronoun",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p168s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

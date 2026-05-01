@@ -1,0 +1,129 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 89,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段提出法国革命政权将现役军队规模扩大近三倍的具体方案，并阐述了争取军官支持、利用现有军事人才的策略。",
+    "importance_score": 2,
+    "importance_reason": "提供了作者对革命后法国军事力量重组的核心构想，是其整体军事战略分析的关键组成部分。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于军队补充与训练的部署，本段具体阐述如何通过组织变革与人事策略，实现军队数量的急剧扩张。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p89s3",
+        "quote": "应当把每一营变为一团，同时必然要提升军官和士官的职务，这将大大促使他们尊重革命，其功效将不亚于断头台和军事法庭。",
+        "trigger": "inverted_logic",
+        "reader_block": "读者可能困惑于为何提升职务（一种利益给予）能与断头台（一种暴力惩罚）产生同等效果，这涉及争取与镇压的辩证策略。",
+        "parse": {
+          "claim": "通过大规模扩编军队并普遍提升军官士官的职位，可以有效地将他们争取到革命一方。",
+          "qualifiers": "此策略在革命初期、需要快速扩充军队且缺乏足够新军官的条件下尤为重要。",
+          "contrast_or_target": ""
+        },
+        "why": {
+          "relation": "continues",
+          "explanation": "此句承接上文“干部必然将增加”的判断，具体阐述了增加干部的方式（营变团、普遍提升）及其政治目的（争取军官支持革命），并将其与单纯的暴力镇压手段进行效果对比。"
+        },
+        "implication": "恩格斯认为，革命政权在军事上需要灵活运用利益诱导与暴力威慑两种手段，以快速稳定和控制军队。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p89s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p89s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p89s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p89s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p89s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p89s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p89s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p89s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p89s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p89s10",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 1,
+        "hs_kept": 1,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

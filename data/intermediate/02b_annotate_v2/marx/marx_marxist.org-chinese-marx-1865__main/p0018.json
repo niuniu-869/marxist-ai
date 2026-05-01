@@ -1,0 +1,112 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 18,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段评价工人日常经济斗争的局限性，指出其只能延缓而不能改变工资下降趋势，并号召工人阶级提出消灭雇佣劳动制度的革命目标。",
+    "importance_score": 3,
+    "importance_reason": "本段是全文的核心论点之一，从对经济斗争的评价过渡到提出革命口号，明确了斗争的最终方向。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段关于资本主义生产降低工资平均水平的总趋势论述，进一步分析工人阶级应对该趋势的策略及其局限。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "refute_quotation"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p18s6",
+        "quote": "他们应当懂得：现代制度给他们带来一切贫困，同时又造成对社会进行经济改造所必需的种种物质条件和社会形式。",
+        "trigger": "inverted_logic",
+        "reader_block": "读者可能只看到“贫困”而忽略后半句的辩证转折，不理解同一制度如何同时产生破坏性结果和变革条件。",
+        "parse": {
+          "claim": "资本主义制度在造成工人阶级普遍贫困的同时，也孕育了变革该制度所需的物质基础和社会组织形式。",
+          "qualifiers": "",
+          "contrast_or_target": ""
+        },
+        "why": {
+          "relation": "continues",
+          "explanation": "本句在论证中起到承上启下的作用，将前文对制度后果的批判，转化为对制度内在矛盾的揭示，为提出革命目标做铺垫。"
+        },
+        "implication": "",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      },
+      {
+        "anchor": "p18s7",
+        "quote": "他们应当摒弃「做一天公平的工作，得一天公平的工资！」 [3] 这种保守的格言，要在自己的旗帜上写上革命的口号：「消灭雇佣劳动制度！」",
+        "trigger": "polemic",
+        "reader_block": "读者可能不理解这个口号的背景及其被批判的原因，需要知道这是当时工联主义流行的斗争口号。",
+        "parse": {
+          "claim": "工人阶级应当放弃在现有框架内争取所谓公平报酬的改良目标，转而提出彻底废除雇佣关系的革命要求。",
+          "qualifiers": "",
+          "contrast_or_target": "工联主义将斗争局限于争取“公平工资”，而不触动雇佣劳动制度本身。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "本句直接批判了工联主义的保守斗争纲领，并提出了与之对立的革命纲领，是本段论证的结论和高潮。"
+        },
+        "implication": "",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "工联主义",
+      "their_view": "工人斗争的目标应是在现有制度下争取所谓“公平”的报酬，即“做一天公平的工作，得一天公平的工资”。",
+      "author_response": "这种目标是保守的，它只反对雇佣劳动制度产生的结果而不触动制度本身；工人阶级应提出消灭雇佣劳动制度的革命口号。",
+      "polemic_kind": "strategic_critique",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p18s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p18s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p18s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p18s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p18s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p18s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p18s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  }
+}

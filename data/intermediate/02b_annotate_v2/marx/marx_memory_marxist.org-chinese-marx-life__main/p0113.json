@@ -1,0 +1,73 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 113,
+  "annotation": {
+    "block_type": "quote_block",
+    "gist": "马克思引用伊壁鸠鲁的话，表达哲学应蔑视庸众迷信、坚持独立思考的战斗立场。",
+    "importance_score": 2,
+    "importance_reason": "展示马克思博士论文的核心哲学宣言，体现其早期思想的战斗性与反传统精神。",
+    "argument_role": "continues",
+    "argument_link": "承接上段“思想浮现”的叙述，具体展示该思想的内容，即哲学对庸众迷信的挑战。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use | allusion",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "伊壁鸠鲁哲学",
+        "explain": "古希腊哲学家，主张原子论与无神论，认为神灵不干预世界。马克思借其形象表达哲学的独立与反叛精神。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "“庸众”所指",
+        "explain": "指随波逐流、缺乏独立思考的普通大众，此处特指他们所普遍信奉的、被传统与权威神圣化的神灵观念。",
+        "why_needed": "allusion",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p113s1",
+        "quote": "“只要还有一滴血在哲学的、征服世界的，绝对自由的心脏中跳动着，哲学就永远会象伊壁鸠鲁那样向着它的反对者喝道：‘那摈弃庸众所信的神灵的人，不是不敬神灵的人；那附和庸众关于神灵的意见的人，才是不敬神灵的人。’”",
+        "trigger": "inverted_logic",
+        "reader_block": "双重否定（“不是不敬神灵的人”）与反讽语气（“喝道”），容易让读者误读为对“不敬神灵”的简单肯定，而忽略其批判矛头指向“附和庸众”的伪虔诚。",
+        "parse": {
+          "claim": "哲学宣称：真正亵渎神圣的是那些盲从大众迷信的人，而非独立思考、敢于质疑传统神灵观念的人。",
+          "qualifiers": "此论断以哲学保持其“绝对自由”的战斗精神为前提。",
+          "contrast_or_target": "针对那些将“不敬神灵”的罪名加于思想叛逆者，却将自身对庸众迷信的盲从视为虔诚的保守观念。"
+        },
+        "why": {
+          "relation": "definition",
+          "explanation": "此句为马克思所推崇的哲学精神下定义，即哲学必须敢于挑战被大众和传统神圣化的事物，其真正的虔诚在于思想的独立而非对流行观念的服从。"
+        },
+        "implication": "马克思借此表明，其博士论文对伊壁鸠鲁的推崇，本身就包含着对当时德国思想界宗教与政治权威的挑战姿态。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "庸众及其所信奉的神灵观念",
+      "their_view": "将摈弃传统神灵的人视为不敬神灵的叛逆者，而将附和大众对神灵的普遍意见视为虔诚与正统。",
+      "author_response": "通过伊壁鸠鲁之口进行反驳，指出真正的不敬神恰恰是放弃独立思考、盲从于未经审视的大众迷信。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p113s1",
+        "speaker": "quoted_marx",
+        "stance": "endorsed",
+        "notes": []
+      }
+    ]
+  }
+}

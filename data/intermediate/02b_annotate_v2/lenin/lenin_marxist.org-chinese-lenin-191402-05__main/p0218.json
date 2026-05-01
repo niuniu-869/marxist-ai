@@ -1,0 +1,98 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 218,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁回顾1903年俄国党纲领委员会的历史，指出波兰马克思主义者反对民族自决权的论据被驳倒后放弃辩护，并批评罗莎·卢森堡在后续文章中隐讳了这些事实。",
+    "importance_score": 2,
+    "importance_reason": "通过具体历史事例，为反驳罗莎·卢森堡等人的观点提供事实依据。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对1903年纲领委员会事件的叙述，进一步强调波兰马克思主义者论据的失败及其后续影响。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p218s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p218s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p218s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p218s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "瓦尔沙夫斯基",
+            "type": "person",
+            "modern": "1903年代表波兰马克思主义者提出修改党纲建议的代表之一。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "加涅茨基",
+            "type": "person",
+            "modern": "1903年与瓦尔沙夫斯基共同提出修改党纲建议的波兰马克思主义者代表。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "纲领第九条",
+            "type": "program_clause",
+            "modern": "俄国社会民主工党党纲中关于民族自决权的条款，列宁在此前段落中已提及。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 3,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

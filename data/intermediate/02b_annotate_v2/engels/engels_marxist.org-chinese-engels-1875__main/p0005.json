@@ -1,0 +1,133 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 5,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段描述自然科学在文艺复兴时期作为革命力量的发展，并指出其为争取自由研究而遭受宗教迫害，特别对比了新教与天主教的迫害行为。",
+    "importance_score": 2,
+    "importance_reason": "本段是恩格斯论证自然科学革命性及其与旧势力冲突的关键例证，为后文论述科学与社会变革的关系提供历史依据。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对文艺复兴时代精神的描述，具体展开自然科学在该时代的革命性特征及其遭遇的外部阻力。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_density",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "塞尔维特与血液循环",
+        "explain": "迈克尔·塞尔维特是16世纪西班牙神学家与医生，因提出肺循环理论挑战了盖伦医学权威，其观点被视为异端。他在日内瓦被新教领袖加尔文下令处以火刑。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "乔尔丹诺·布鲁诺",
+        "explain": "16世纪意大利思想家，因支持哥白尼日心说并提出宇宙无限等观点，被罗马天主教宗教裁判所判处火刑。他是科学殉道者的著名象征。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "新教与天主教迫害对比",
+        "explain": "恩格斯在此指出一个反直觉的历史事实：在近代早期，以加尔文派为代表的新教势力在镇压科学异端方面，其严酷程度有时超过了传统的天主教宗教裁判所。",
+        "why_needed": "history_density",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "新教优于天主教的宽容叙事",
+      "their_view": "新教改革代表了思想解放与进步，其对科学和自由研究的态度比天主教更为宽容和支持。",
+      "author_response": "恩格斯通过具体史实指出，新教徒在迫害自然科学自由研究方面，其手段和程度甚至超过了天主教徒，揭示了其同样保守和反科学的一面。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p5s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p5s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p5s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "殉道者",
+            "type": "metaphor",
+            "modern": "此处指为科学真理而牺牲的早期科学家，恩格斯借用宗教术语来强调其牺牲的悲壮性。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p5s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p5s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "塞尔维特",
+            "type": "person",
+            "modern": "迈克尔·塞尔维特，16世纪因发现肺循环而触犯神学教条的西班牙医生。",
+            "highlight": "person",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "加尔文",
+            "type": "person",
+            "modern": "约翰·加尔文，16世纪新教改革的重要领袖，其神学体系在日内瓦等地具有政教合一的权威。",
+            "highlight": "person",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p5s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 3,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_5gram_with_surface"
+      ]
+    }
+  ]
+}

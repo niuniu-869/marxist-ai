@@ -1,0 +1,124 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 13,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "分析西班牙工人运动的起伏，指出其表面繁荣的实质，并预言未来斗争的领导力量。",
+    "importance_score": 2,
+    "importance_reason": "具体分析西班牙工人运动的起伏，支撑了全文关于各国运动发展的论述。",
+    "argument_role": "continues",
+    "argument_link": "承接上文对欧洲各国工人运动的概述，具体分析西班牙的案例，展示运动发展的复杂性。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing, allusion",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "allusion",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "根特代表大会",
+        "explain": "1877年在比利时根特召开的国际工人代表大会，是第一国际解散后各派别的一次重要集会，巴枯宁派与马克思派在此激烈辩论。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "土利街裁缝典故",
+        "explain": "源自19世纪伦敦的一个政治笑话，指极少数人（如土利街的裁缝）冒充全体人民的代表，用以讽刺代表性的虚假。",
+        "why_needed": "allusion",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "“无政府主义的”空谈家（巴枯宁派）",
+      "their_view": "他们可能声称自己代表西班牙工人阶级，能够领导斗争。",
+      "author_response": "恩格斯认为他们只是空谈家，没有实际组织能力，真正的领导将来自有觉悟的工人组织。",
+      "polemic_kind": "strategic_critique",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p13s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p13s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p13s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p13s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p13s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p13s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "根特代表大会",
+            "type": "event",
+            "modern": "1877年在比利时根特召开的国际工人代表大会，是第一国际解散后各派别的一次重要集会。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p13s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p13s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 3,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix",
+        "note:n1_overflow_concept_6>5",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

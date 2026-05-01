@@ -1,0 +1,104 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 243,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁点名批评尤尔凯维奇及其《钟声》杂志，揭露他们通过造谣来离间乌克兰与大俄罗斯民主派的策略。",
+    "importance_score": 2,
+    "importance_reason": "作为具体论战案例，支撑列宁对机会主义者和民族主义偏向的批判。",
+    "argument_role": "example",
+    "argument_link": "承接上段对崩得派的批评，转而具体剖析尤尔凯维奇和《钟声》杂志的错误言行，作为民族主义偏向的又一实例。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p243s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "没有穿裤子的孩子",
+            "type": "metaphor",
+            "modern": "列宁用此比喻指代尤尔凯维奇，暗示其言行幼稚、不负责任，与上段对崩得派的讽刺一脉相承。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p243s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p243s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p243s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p243s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "《钟声》杂志",
+            "type": "work",
+            "modern": "尤尔凯维奇等人在基辅出版的乌克兰民族主义倾向刊物。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p243s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

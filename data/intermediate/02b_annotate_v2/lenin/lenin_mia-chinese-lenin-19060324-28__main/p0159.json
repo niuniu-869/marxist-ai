@@ -1,0 +1,73 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 159,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段描述沙皇反动势力意图使俄国倒退至1905年9月局面，但革命群众的力量阻止了这一企图。",
+    "importance_score": 2,
+    "importance_reason": "本段通过对比反动势力的意图和革命力量的实际作用，论证革命形势的不可逆转性。",
+    "argument_role": "continues",
+    "argument_link": "本段承接上文对立宪民主党言论的批判，具体说明反动势力的倒退企图与革命力量的推动作用。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_density",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "杜巴索夫与杜尔诺沃",
+        "explain": "杜巴索夫是沙皇政府镇压1905年革命的军事将领，杜尔诺沃是时任内务大臣，代表反动势力。",
+        "why_needed": "history_density",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "杜巴索夫和杜尔诺沃之流",
+      "their_view": "使俄国倒退至1905年9月的局面，恢复旧秩序。",
+      "author_response": "指出他们的力量不够，因为革命群众以火车头的速度推动了俄国前进。",
+      "polemic_kind": "strategic_critique",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p159s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "无产者",
+            "type": "concept",
+            "modern": "在1906年俄国语境下，指现代工业工人阶级，是革命的主要动力。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "proletarian_modern"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

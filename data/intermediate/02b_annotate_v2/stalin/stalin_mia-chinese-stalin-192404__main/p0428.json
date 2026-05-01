@@ -1,0 +1,137 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 428,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段批评脱离实际的革命空想，强调革命胆略必须与务实精神结合，否则会沦为无用的空谈。",
+    "importance_score": 2,
+    "importance_reason": "承接上段对革命胆略的肯定，转而论述其正确运用的必要条件，是方法论层面的核心补充。",
+    "argument_role": "continues",
+    "argument_link": "上段阐述了革命胆略的积极意义，本段则指出其可能产生的负面后果及避免方法，构成辩证的补充。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "allusion",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "马尼洛夫精神",
+        "explain": "出自俄国作家果戈理小说《死魂灵》中的地主马尼洛夫，指脱离现实、耽于幻想、言行空洞的习气。斯大林用此词形容革命口号脱离实际工作。",
+        "why_needed": "allusion",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p428s1",
+        "quote": "可是，如果不把俄国人的革命胆略和美国人在工作中的求实精神结合起来，那么它在实践中就很可能堕落为空洞的“革命的”马尼洛夫精神。",
+        "trigger": "inverted_logic",
+        "reader_block": "双重否定结构（“如果不……就很可能”）加上隐含的让步（承认革命胆略本身），读者容易忽略其警告的严重性，误读为简单的并列关系。",
+        "parse": {
+          "claim": "革命胆略若脱离务实的工作作风，其实践结果将是无效的空想。",
+          "qualifiers": "限定于“在实践中”，即理论应用于现实工作的过程。",
+          "contrast_or_target": ""
+        },
+        "why": {
+          "relation": "continues",
+          "explanation": "承接上段对革命胆略的正面定义，立即指出其可能异化的条件，为下文批判具体病症做铺垫。"
+        },
+        "implication": "革命理论必须与具体国情和实际工作方法相结合，否则将失去改造现实的力量。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p428s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "马尼洛夫精神",
+            "type": "metaphor",
+            "modern": "源自果戈理小说《死魂灵》中的人物，此处指代脱离实际、耽于空想的作风。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p428s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p428s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p428s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "伊·爱伦堡",
+            "type": "person",
+            "modern": "苏联作家，此处引用其小说作为文学例证。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          },
+          {
+            "surface": "《共产主义的完人》",
+            "type": "work",
+            "modern": "爱伦堡的一篇小说，讽刺了脱离实际的革命空想家。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p428s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p428s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p428s7",
+        "speaker": "quoted_lenin",
+        "stance": "endorsed",
+        "notes": [
+          {
+            "surface": "共产党员的骄傲自大",
+            "type": "slogan",
+            "modern": "列宁用以批评党内脱离实际、迷信行政命令的倾向。",
+            "highlight": "quote",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      }
+    ]
+  }
+}

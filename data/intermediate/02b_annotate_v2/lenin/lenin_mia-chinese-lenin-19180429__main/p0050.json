@@ -1,0 +1,98 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 50,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁论述社会主义的物质前提、俄国革命的特殊性，并指出当前组织任务的艰巨性与工人阶级的支持。",
+    "importance_score": 2,
+    "importance_reason": "支撑列宁关于社会主义建设路径的核心论证，阐明从政治革命转向经济组织的必要性与可能性。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于国家资本主义的讨论，进一步从物质基础层面论证社会主义建设的条件与任务。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p50s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "大机器工业",
+            "type": "concept",
+            "modern": "在列宁的论述中，指社会化大生产，是社会主义得以建立的物质技术基础。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "material_basis_socialism"
+          }
+        ]
+      },
+      {
+        "sid": "p50s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p50s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p50s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p50s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p50s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 4,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_12>5",
+        "note:n1_overflow_concept_6>5",
+        "note:n1_overflow_concept_9>5",
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

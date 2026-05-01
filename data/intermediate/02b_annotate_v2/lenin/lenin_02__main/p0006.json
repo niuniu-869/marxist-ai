@@ -1,0 +1,240 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 6,
+  "annotation": {
+    "block_type": "narrative",
+    "gist": "本段叙述了二月革命后布尔什维克党内的路线分歧，具体描述了列宁回国后反对加米涅夫等人的立场，以及党内部分老布尔什维克对“无产阶级专政”等提法的抵触。",
+    "importance_score": 2,
+    "importance_reason": "本段为理解列宁《四月提纲》所针对的党内思想状况提供了具体例证，是理解列宁路线与当时党内主流倾向对立的关键背景。",
+    "argument_role": "example",
+    "argument_link": "本段承接上段对文献来源的说明，开始具体阐述列宁讲话所针对的党内思想现实，为后续理解列宁的批判和主张提供事实基础。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "二月革命后的政权",
+        "explain": "1917年二月革命推翻沙皇后，俄国出现两个政权并存局面：一个是资产阶级主导的临时政府，另一个是工兵代表苏维埃。许多布尔什维克最初认为应支持临时政府完成民主革命。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "社会民主工党各派",
+        "explain": "指当时俄国社会民主工党内的不同派别，主要包括主张与资产阶级合作的孟什维克，以及列宁领导的主张推进社会主义革命的布尔什维克。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p6s6",
+        "quote": "在这次长达十多天的会议上，许多人的发言显示出他们只想帮助自由派资产阶级在俄国夺权，至于工人政权，那是他们想都不敢想的。",
+        "trigger": "inverted_logic",
+        "reader_block": "“只想帮助……夺权”与“想都不敢想”形成强烈对比，读者需理解这是在批判党内部分人只满足于资产阶级革命，而完全放弃了无产阶级革命的目标。",
+        "parse": {
+          "claim": "党内许多干部的言行表明，他们的政治目标仅限于协助资产阶级掌握政权，完全没有将建立无产阶级政权纳入考虑范围。",
+          "qualifiers": "限定于“这次长达十多天的会议”上的发言。",
+          "contrast_or_target": "与列宁主张的将资产阶级民主革命转变为无产阶级社会主义革命的路线形成对比。"
+        },
+        "why": {
+          "relation": "example",
+          "explanation": "本句通过描述会议上的普遍倾向，具体举例说明了前文所述的“批评地支持而非革命的立场”在实践中的表现，即放弃无产阶级专政的目标。"
+        },
+        "implication": "这揭示了当时布尔什维克党内存在一股强大的、倾向于孟什维克路线的思潮，列宁的《四月提纲》正是要扭转这一方向。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      },
+      {
+        "anchor": "p6s11",
+        "quote": "老布尔什维克斯米尔诺夫指出：“苏维埃内部充斥着所谓的革命军官，他们自称代表工人和士兵，可你看看，苏维埃里面谁是沙文主义者？军官。谁反对立即土改？军官”。",
+        "trigger": "inverted_logic",
+        "reader_block": "连续两个反问句，表面在提问，实则用自问自答的方式强烈断言：苏维埃中的军官群体是沙文主义和反对土改的主要力量，与他们自称的代表身份相悖。",
+        "parse": {
+          "claim": "苏维埃组织中占据重要位置的军官群体，其实际政治立场（支持战争、反对土地改革）与他们所宣称的代表工兵利益完全相反。",
+          "qualifiers": "限定于斯米尔诺夫对当时苏维埃内部状况的观察。",
+          "contrast_or_target": "针对那些认为苏维埃（尤其是其中的军官）是革命可靠力量的观点。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "本句通过斯米尔诺夫之口，直接批判了当时苏维埃内部（特别是军官阶层）的保守性和反动性，为列宁批判临时政府及其支持者提供了来自党内的具体论据。"
+        },
+        "implication": "这暗示了苏维埃本身并非可靠的革命领导力量，其内部成分复杂，需要无产阶级政党进行辨别和斗争。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p6s1",
+        "speaker": "editor",
+        "stance": "neutral_citation",
+        "notes": []
+      },
+      {
+        "sid": "p6s2",
+        "speaker": "editor",
+        "stance": "neutral_citation",
+        "notes": [
+          {
+            "surface": "卡米涅夫",
+            "type": "person",
+            "modern": "加米涅夫，当时布尔什维克重要领导人，二月革命后曾短暂担任彼得格勒苏维埃副主席，主张支持临时政府。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "斯大林",
+            "type": "person",
+            "modern": "斯大林，当时布尔什维克中央委员，二月革命后与加米涅夫共同主持《真理报》，一度支持临时政府。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p6s3",
+        "speaker": "editor",
+        "stance": "neutral_citation",
+        "notes": []
+      },
+      {
+        "sid": "p6s4",
+        "speaker": "editor",
+        "stance": "neutral_citation",
+        "notes": []
+      },
+      {
+        "sid": "p6s5",
+        "speaker": "editor",
+        "stance": "neutral_citation",
+        "notes": []
+      },
+      {
+        "sid": "p6s6",
+        "speaker": "editor",
+        "stance": "neutral_citation",
+        "notes": []
+      },
+      {
+        "sid": "p6s7",
+        "speaker": "editor",
+        "stance": "neutral_citation",
+        "notes": [
+          {
+            "surface": "纳根",
+            "type": "person",
+            "modern": "老布尔什维克党员，工人出身，革命经历丰富，但在此时对列宁的激进主张持怀疑态度。",
+            "highlight": null,
+            "confidence": "medium",
+            "source_basis": "text_evidence"
+          },
+          {
+            "surface": "无产阶级专政",
+            "type": "concept",
+            "modern": "马克思主义核心政治概念，指无产阶级通过革命打碎旧国家机器后建立的新型国家政权，对资产阶级实行专政。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "dictatorship_proletariat"
+          }
+        ]
+      },
+      {
+        "sid": "p6s8",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p6s9",
+        "speaker": "editor",
+        "stance": "neutral_citation",
+        "notes": [
+          {
+            "surface": "维金斯基",
+            "type": "person",
+            "modern": "老布尔什维克，列宁的追随者，但此时主张党内统一，优先完成民主革命任务。",
+            "highlight": null,
+            "confidence": "medium",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p6s10",
+        "speaker": "editor",
+        "stance": "neutral_citation",
+        "notes": []
+      },
+      {
+        "sid": "p6s11",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": [
+          {
+            "surface": "斯米尔诺夫",
+            "type": "person",
+            "modern": "老布尔什维克，在会上发言批判苏维埃内部的保守势力。",
+            "highlight": null,
+            "confidence": "medium",
+            "source_basis": "text_evidence"
+          },
+          {
+            "surface": "沙文主义者",
+            "type": "concept",
+            "modern": "此处特指在战争问题上狂热支持本国政府、放弃国际主义立场的人。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "chauvinism_social"
+          },
+          {
+            "surface": "土改",
+            "type": "event",
+            "modern": "土地改革，指没收地主土地分配给农民，是俄国资产阶级民主革命的核心内容之一。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 8,
+        "notes_dropped": 3,
+        "hs_kept": 2,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix",
+        "note:n2_5gram_with_surface",
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

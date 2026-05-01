@@ -1,0 +1,90 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 282,
+  "annotation": {
+    "block_type": "quote_block",
+    "gist": "恩格斯总结与马克思的共识，指出经济事实构成阶级矛盾的根源，并将法国、德国的共产主义与英国宪章运动视为工人运动发展的必然表现。",
+    "importance_score": 2,
+    "importance_reason": "本段是恩格斯对谈话的总结，提出经济事实与阶级矛盾的关系，为理解工人运动提供理论框架。",
+    "argument_role": "conclusion",
+    "argument_link": "本段承接上一段的谈话场景，恩格斯将谈话内容提炼为关于阶级矛盾和工人运动的理论结论。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_density",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "term_density",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "19世纪30-40年代工人运动",
+        "explain": "法兰西和德意志的共产主义指1830年代后欧洲大陆兴起的工人共产主义运动；英格兰宪章运动是1838-1848年英国工人争取普选权的群众运动。",
+        "why_needed": "history_density",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p282s1",
+        "speaker": "quoted_engels",
+        "stance": "endorsed",
+        "notes": [
+          {
+            "surface": "阶级矛盾",
+            "type": "concept",
+            "modern": "马克思主义理论中不同阶级之间基于经济利益的根本对立",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "class_contradiction_marxist"
+          },
+          {
+            "surface": "宪章运动",
+            "type": "event",
+            "modern": "1838-1848年英国工人阶级为争取普选权而发起的全国性政治运动",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "共产主义",
+            "type": "concept",
+            "modern": "19世纪欧洲工人阶级中兴起的反对私有制、主张公有制的社会思潮与运动",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "communism_theory"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 3,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

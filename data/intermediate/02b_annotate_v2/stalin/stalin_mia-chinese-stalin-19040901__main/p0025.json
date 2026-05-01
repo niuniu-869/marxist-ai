@@ -1,0 +1,70 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 25,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "作者采用反讽手法，假装接受论敌观点，准备通过推导来揭露其内在矛盾。",
+    "importance_score": 2,
+    "importance_reason": "这是论证中的一个关键转折点，为接下来的归谬论证做铺垫。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段对社会民主联邦主义者观点的初步反驳，转而采用归谬法，假装同意其前提以推导出荒谬结论。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "社会民主联邦主义者",
+      "their_view": "俄国各民族的无产阶级应分别建立自己的民族政党，然后组成自由联盟，这样能加强阶级团结。",
+      "author_response": "作者认为这种按民族分立的建党方式，最终会引向党组织的分裂，而非团结。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p25s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "暂且同意",
+            "type": "metaphor",
+            "modern": "一种论辩策略，指为反驳对方而暂时接受其前提，以推导出其逻辑的荒谬结论。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p25s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

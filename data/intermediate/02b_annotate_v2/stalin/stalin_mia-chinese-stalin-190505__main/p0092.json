@@ -1,0 +1,73 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 92,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段论证社会主义意识的来源及其与工人运动的关系，指出这种意识无法由工人阶级自发产生，需要外部灌输。",
+    "importance_score": 2,
+    "importance_reason": "本段是作者论证“灌输论”的核心环节，直接回应论敌关于工人运动自发性的观点，为党的先锋队作用提供理论依据。",
+    "argument_role": "continues",
+    "argument_link": "本段承接上文对列宁立场的追问，具体阐述“多数派”关于社会主义意识来源的理论观点，作为对论敌指责的系统性回应。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p92s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "社会民主党",
+            "type": "org",
+            "modern": "19世纪末至20世纪初，欧洲各国（包括俄国）以马克思主义为指导的工人政党普遍采用的名称。在俄国，指俄国社会民主工党，后分裂为布尔什维克与孟什维克两派。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "科学社会主义",
+            "type": "concept",
+            "modern": "马克思、恩格斯创立的社会主义理论体系，建立在对资本主义生产方式的科学分析（剩余价值理论等）和阶级斗争规律的认识之上，与空想社会主义相区别。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "scientific_socialism"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_6>5"
+      ]
+    }
+  ]
+}

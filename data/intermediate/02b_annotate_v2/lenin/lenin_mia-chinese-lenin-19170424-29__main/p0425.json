@@ -1,0 +1,113 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 425,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁论述俄国社会民主党人应承认被压迫民族的分离自由，以践行国际主义，反驳大俄罗斯沙文主义。",
+    "importance_score": 3,
+    "importance_reason": "本段阐述了布尔什维克在民族问题上的国际主义立场，为后续民族政策奠定理论基础。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对波兰社会民主党人国际主义功绩的肯定，转而批评其在民族自决问题上的具体立场，并提出俄国与波兰社会民主党人应采取的差异化策略。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "大俄罗斯民族压迫",
+        "explain": "1917年前，沙皇俄国长期推行大俄罗斯主义，压迫境内非俄罗斯民族，限制其自治与独立权利。理解这一背景，才能明白列宁为何强调“分离权”。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "大俄罗斯沙文主义；波兰社会民主党人",
+      "their_view": "为了在波兰使社会民主党人处于有利地位，应当拒绝承认波兰、乌克兰、芬兰的分离权。",
+      "author_response": "俄国人应强调被压迫民族的分离自由，波兰人应强调联合自由，因为联合以分离为前提。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p425s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p425s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p425s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p425s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p425s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p425s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p425s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p425s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p425s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 3,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

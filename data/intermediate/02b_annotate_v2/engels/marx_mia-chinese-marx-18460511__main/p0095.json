@@ -1,0 +1,78 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 95,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "恩格斯对克利盖言论的宗教本质进行定性批判，并预告将揭露其在共产主义名义下贩卖基督教思想。",
+    "importance_score": 2,
+    "importance_reason": "核心批判，直接点明克利盖问题的本质是宗教思想，为后续具体揭露奠定定性基础。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段的章节标题，开始具体阐述克利盖如何迎合宗教，将批判从标题引入实质内容。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "克利盖",
+      "their_view": "克利盖宣扬一种基于“爱”和对利己主义的道德攻击的“共产主义”，并自称为无神论者。",
+      "author_response": "恩格斯指出，克利盖的这些言论本质上是宗教情感的流露，其在共产主义招牌下实际传播的是基督教思想。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p95s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "爱的高谈阔论",
+            "type": "slogan",
+            "modern": "克利盖在《人民论坛报》上反复宣扬的、以抽象“爱”为核心的改良主义口号。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          },
+          {
+            "surface": "对利己主义的攻击",
+            "type": "slogan",
+            "modern": "克利盖用以批判资本主义社会道德基础的论点，恩格斯认为这脱离了阶级分析。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p95s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_7>5"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 439,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁将帝国主义辩护者与社会沙文主义者进行类比，指出他们为帝国主义辩护的理论实质相同。",
+    "importance_score": 2,
+    "importance_reason": "通过具体人物类比，支撑对社会沙文主义理论基础的批判。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对帝国主义动机的揭示，本段通过罗得斯的具体言论，将其与社会沙文主义者的理论进行类比，深化批判。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "俄国马克思主义创始人指代",
+        "explain": "此处“那位俄国马克思主义创始人”指格奥尔基·普列汉诺夫，他是俄国社会民主工党的奠基人，但在第一次世界大战中支持本国政府，属于社会沙文主义立场。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "马斯洛夫、休特古姆、波特列索夫、大卫以及普列汉诺夫等社会沙文主义者",
+      "their_view": "帝国主义政策是必要的，可以通过改良来消除其弊端，从而避免革命。",
+      "author_response": "列宁指出，这些理论家的辩护与帝国主义者的粗俗辩护在实质上没有区别，都是为帝国主义服务的社会沙文主义。",
+      "polemic_kind": "reveals_class_basis",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p439s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "塞西尔·罗得斯",
+            "type": "person",
+            "modern": "英国殖民主义者、金融家，英布战争的主要推动者",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "英布战争",
+            "type": "event",
+            "modern": "1899-1902年英国与南非布尔人之间的战争",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p439s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p439s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_person_18>12"
+      ]
+    }
+  ]
+}

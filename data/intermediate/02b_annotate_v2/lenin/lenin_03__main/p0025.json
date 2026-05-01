@@ -1,0 +1,102 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 25,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁引用社会革命党人沃尔斯基和斯维亚季茨基的论点，即他们与协约国结盟同布尔什维克与德国签约性质相同，为后续反驳做铺垫。",
+    "importance_score": 2,
+    "importance_reason": "本段引述论敌核心论点，为下文的反驳提供靶子，是论证链条的关键环节。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段提出的与帝国主义联合问题，本段具体展示社会革命党人如何论证其行为的正当性。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "沃尔斯基与斯维亚季茨基",
+        "explain": "社会革命党内的两位成员。他们在1919年国内战争期间，部分人曾参与反布尔什维克活动，后又表示支持苏维埃政权对抗高尔察克。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "高尔察克叛乱",
+        "explain": "1918-1919年间，由海军上将高尔察克领导的白军在西伯利亚发动的反苏维埃叛乱，得到协约国支持。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "布列斯特和约",
+        "explain": "1918年3月苏俄与德国及其盟国签订的和约，苏俄割让大片领土以退出第一次世界大战，被国内反对派攻击为“与帝国主义勾结”。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p25s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p25s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p25s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p25s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p25s5",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote",
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

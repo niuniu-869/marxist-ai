@@ -1,0 +1,65 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 110,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段列举普鲁士资产阶级在革命中提出的空想性改革措施，作为其妥协立场的具体例证。",
+    "importance_score": 2,
+    "importance_reason": "本段通过具体措施例证资产阶级的空想性，支撑前文对资产阶级妥协的批判。",
+    "argument_role": "example",
+    "argument_link": "本段承接上一段关于内阁善良愿望多于行动的论点，具体列举这些愿望的内容。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "Seehandlung",
+        "explain": "Seehandlung是普鲁士的一家国有银行，成立于1772年，旨在促进海外贸易和工业。在1848年革命中，资产阶级提议将其私有化。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "普鲁士资产阶级",
+      "their_view": "资产阶级认为通过分割封建领地、银行自由竞争、国有银行私有化等措施，可以推进革命并巩固自身利益。",
+      "author_response": "马克思指出这些只是空想，资产阶级实际上缺乏行动，其愿望多于实际作为。",
+      "polemic_kind": "reveals_class_basis",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p110s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "资产阶级",
+            "type": "concept",
+            "modern": "在1848年革命中，普鲁士资产阶级作为领导阶级，主张与王权妥协以维护自身利益。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "class_marxist"
+          },
+          {
+            "surface": "Seehandlung",
+            "type": "org",
+            "modern": "普鲁士国有银行，1772年成立，旨在促进海外贸易；1848年革命中被提议私有化。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  }
+}

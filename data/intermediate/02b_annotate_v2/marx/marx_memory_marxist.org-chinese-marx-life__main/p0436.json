@@ -1,0 +1,80 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 436,
+  "annotation": {
+    "block_type": "quote_block",
+    "gist": "马克思在法庭辩护中，驳斥检察机关援引的法律依据，并声明自己从未承认这些法律的效力。",
+    "importance_score": 1,
+    "importance_reason": "本段展示马克思早年对法律权威的挑战，作为其革命立场的例证。",
+    "argument_role": "continues",
+    "argument_link": "本段承接上段法庭辩论，马克思进一步阐述对检察机关所用法律的拒绝态度。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "1848年德国法律与革命",
+        "explain": "四月六日和八日的法律指1848年德国革命后颁布的法令，三月命革指1848年三月革命，马克思在法庭上引用这些事件。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "检察机关的代表",
+      "their_view": "检察机关代表认为四月六日和八日的法律可以论证对马克思的控告。",
+      "author_response": "马克思反驳说这些法律实际上会取消控告，且他从未承认这些法律，它们对人民代表无效。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p436s1",
+        "speaker": "quoted_marx",
+        "stance": "endorsed",
+        "notes": [
+          {
+            "surface": "四月六日和八日的法律",
+            "type": "event",
+            "modern": "1848年德国革命后颁布的法令",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "三月命革",
+            "type": "event",
+            "modern": "1848年三月革命",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

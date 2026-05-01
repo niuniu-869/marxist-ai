@@ -1,0 +1,77 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 69,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段正面阐述社会民主党的核心使命，即引导工人运动并建立集中统一的政党。",
+    "importance_score": 3,
+    "importance_reason": "这是对前一段问题的直接回答，构成了布尔什维克建党学说的核心主张。",
+    "argument_role": "continues",
+    "argument_link": "直接承接上一段提出的“使命何在”问题，给出明确答案。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p69s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "工联主义",
+            "type": "concept",
+            "modern": "在本文语境下，特指一种只关注经济斗争、放弃政治目标的工人运动倾向。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "trade_unionism"
+          }
+        ]
+      },
+      {
+        "sid": "p69s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p69s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_6>5"
+      ]
+    }
+  ]
+}

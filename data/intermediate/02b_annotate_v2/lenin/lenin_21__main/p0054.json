@@ -1,0 +1,55 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 54,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁质问对方是否向党中央提出过具体营私舞弊案例及纠正措施。",
+    "importance_score": 2,
+    "importance_reason": "本段通过质问具体性来削弱对方主张的可行性，支撑上段对动机的批判。",
+    "argument_role": "continues",
+    "argument_link": "上段质问米雅斯尼科夫选择与党性相悖主张的动机，本段延续这一批判，转而质问其主张是否基于具体事实。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "米雅斯尼科夫",
+      "their_view": "主张给予出版自由以揭露和纠正党内官僚主义等弊病。",
+      "author_response": "质问对方是否提供过具体案例和办法，暗示其主张空洞无实证。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p54s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

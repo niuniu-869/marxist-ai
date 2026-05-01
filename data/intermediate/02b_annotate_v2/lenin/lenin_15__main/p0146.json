@@ -1,0 +1,85 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 146,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "描述银行网络如何迅速扩张，将分散的经济单位集中到统一中心，并反驳资产阶级经济学家关于“分权”的论调，指出这实质是垄断集权。",
+    "importance_score": 2,
+    "importance_reason": "本段通过具体描述银行资本的集中过程，为论证金融资本的垄断性提供实证支撑。",
+    "argument_role": "continues",
+    "argument_link": "本段承接前文对银行资本扩张的描述，进一步分析其集中效应并反驳相关错误观点。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "舒尔采-格弗尼茨",
+      "their_view": "银行网络的扩张带来了经济权力的分散，使更多经济单位获得了独立性。",
+      "author_response": "列宁指出，这并非分权，而是将原本分散的地方性经济单位置于统一的垄断中心控制之下，是集权和垄断实力的增强。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p146s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "银行渠道的密网",
+            "type": "metaphor",
+            "modern": "列宁用此比喻形容银行资本通过信贷、投资等关系形成的覆盖全国乃至全球的控制网络。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p146s2",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": [
+          {
+            "surface": "舒尔采-格弗尼茨",
+            "type": "person",
+            "modern": "德国资产阶级经济学家，其著作被列宁引用以批判当时流行的关于银行资本作用的改良主义观点。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p146s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 5,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "通过列举北美、英国和莱茵地区的财富实例，论证犹太资本并非资本的主要代表，从而反驳反犹太主义的指控。",
+    "importance_score": 1,
+    "importance_reason": "作为例证，支撑上一段关于资本发展与反犹太主义关系的论点。",
+    "argument_role": "example",
+    "argument_link": "承接上一段关于资本发展推动社会向现代阶级对立发展、反犹太主义仅存于资本主义发展不充分地区的论断，本段用北美、英国和莱茵地区的具体财富分布实例，来证明犹太资本并非资本的主要形态。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p5s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "路特希尔德家族",
+            "type": "person",
+            "modern": "19世纪欧洲最著名的犹太银行家家族，常被反犹太主义者视为犹太资本的象征。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p5s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "韦斯明斯特公爵",
+            "type": "person",
+            "modern": "英国世袭贵族头衔，此处指代拥有巨额非犹太资本的英国大地主。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p5s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

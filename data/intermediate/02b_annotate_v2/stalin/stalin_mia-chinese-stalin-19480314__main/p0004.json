@@ -1,0 +1,61 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 4,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "斯大林断言，世界已分裂为两个敌对阵营，其根本立场无法调和，因此和解是徒劳的，武装冲突不可避免。",
+    "importance_score": 3,
+    "importance_reason": "这是斯大林对冷战格局的核心判断，为后续论述苏联的全球战略和应对措施奠定基调。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段关于世界已分裂为两个阵营的判断，进一步论证这种分裂的不可调和性与冲突的必然性。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "cross_ref",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "和解论者（隐含）",
+      "their_view": "两个敌对阵营可以通过外交谈判、国际会议等途径找到妥协与和解的办法，避免根本冲突。",
+      "author_response": "这种想法是徒劳的，因为双方的立场基于不可调和的阶级利益与世界观，任何会议都无法弥合这种根本对立。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p4s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p4s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

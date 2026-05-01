@@ -1,0 +1,99 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 7,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段转折，指出此前描述的经济乐观局面迅速结束，并以1847年包林博士的言论和伦敦公司倒闭为例，说明危机早已显现。",
+    "importance_score": 2,
+    "importance_reason": "本段是论证的关键转折点，从描述短期乐观转向揭示危机实质，并直接点名论敌包林博士，为后续反驳提供事实基础。",
+    "argument_role": "contrasts",
+    "argument_link": "本段与上段描述的“好景”形成直接对比，指出这种乐观情绪是短暂且虚幻的，危机早已潜伏并爆发。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_density",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "包林博士",
+        "explain": "19世纪英国自由贸易运动的倡导者之一，常在公开场合发表支持自由贸易的演说。恩格斯在此将其作为自由贸易论者的代表进行讽刺。",
+        "why_needed": "history_density",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "罗伯特·皮尔爵士",
+        "explain": "时任英国首相，其政府于1846年主导废除《谷物法》。文中“万能措施”指其推行的自由贸易政策。",
+        "why_needed": "history_density",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "里德·厄尔文公司",
+        "explain": "一家在毛里求斯拥有大量地产的英国殖民地贸易公司，其倒闭是当时殖民地经济危机的具体案例。",
+        "why_needed": "history_density",
+        "confidence": "medium",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "包林博士",
+      "their_view": "废除《谷物法》具有神奇的影响力，能够带来巨大的经济好处。",
+      "author_response": "恩格斯指出，早在包林博士发表乐观言论的同一时期，伦敦已有清醒观察者认识到皮尔政府的自由贸易政策无法阻止经济灾难的来临。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p7s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p7s2",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": [
+          {
+            "surface": "包林博士",
+            "type": "person",
+            "modern": "19世纪英国自由贸易运动的代表人物，常在公开集会上宣扬自由贸易的益处。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "罗伯特·皮尔爵士",
+            "type": "person",
+            "modern": "时任英国首相，其政府推行的自由贸易政策（如废除《谷物法》）是本文讨论的核心经济背景。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p7s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "里德·厄尔文公司",
+            "type": "org",
+            "modern": "一家在毛里求斯拥有巨额地产的英国殖民地贸易公司，其破产是殖民地经济危机波及英国本土金融体系的实例。",
+            "highlight": null,
+            "confidence": "medium",
+            "source_basis": "text_evidence"
+          }
+        ]
+      }
+    ]
+  }
+}

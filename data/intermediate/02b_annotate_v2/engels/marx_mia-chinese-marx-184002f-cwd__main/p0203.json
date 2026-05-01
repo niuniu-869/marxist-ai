@@ -1,0 +1,167 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 203,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段总结性地批判了脱离现实阶级斗争的空想社会主义与共产主义学说，指出其最终会丧失价值并退化为保守的改良主义。",
+    "importance_score": 2,
+    "importance_reason": "作为对前文评估的结论，明确划清了科学社会主义与空想社会主义的界限，是论证链条的关键一环。",
+    "argument_role": "conclusion",
+    "argument_link": "承接上段对早期社会主义文献的评估，本段得出结论：这些学说因其空想性质，与历史发展相悖，其追随者最终会背离革命立场。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "空想社会主义实验",
+        "explain": "19世纪初，圣西门、傅立叶、欧文等思想家设计了名为“法郎吉”、“新和谐公社”等小型社会实验，试图通过建立示范社区来感化社会，实现理想社会。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p203s2",
+        "quote": "近世階級爭〔五十一頁〕鬥一發達到一定的狀態，那離開了爭鬥空想的立脚地及對於爭鬥所發空想的攻擊，就完全失了實際的價值和理論的根據。",
+        "trigger": "long_nested",
+        "reader_block": "句子结构嵌套，主语“立脚地”和“攻击”被长定语修饰，且“离开”与“失了”形成因果，读者易迷失核心论断。",
+        "parse": {
+          "claim": "当现实的阶级斗争发展到一定阶段后，那些脱离斗争实际的空想立场以及基于空想对斗争的批判，就变得毫无用处和缺乏依据。",
+          "qualifiers": "限定于“近世阶级斗争一发达到一定的状态”这一历史条件。",
+          "contrast_or_target": "针对空想社会主义者脱离现实斗争、仅凭理想设计社会方案的立场。"
+        },
+        "why": {
+          "relation": "conclusion",
+          "explanation": "本句是前文对空想社会主义批判的总结论断，指出其失效的根本原因在于与现实阶级斗争发展的脱节。"
+        },
+        "implication": "这为后文指出其门徒沦为复古派提供了理论依据。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      },
+      {
+        "anchor": "p203s6",
+        "quote": "他們還在夢想那社會空想底試驗實現：有的設立孤獨的「社會主義植民地」（Phalansteres是福利耶計畫的），有的設立「家庭植民地」，（Home Colonies）有的想設立「小伊加利亞」（Icaria是加伯理想鄉底名稱）。",
+        "trigger": "term_density",
+        "reader_block": "连续出现多个具体专名（福利耶、加伯）和实验方案名称（Phalansteres, Home Colonies, Icaria），读者若不知其背景，无法理解作者在列举何种“空想试验”。",
+        "parse": {
+          "claim": "这些空想社会主义者仍在幻想通过建立孤立的、小型的示范社区（如傅立叶的法郎吉、欧文的新和谐公社、卡贝的伊加利亚）来实现他们的理想社会。",
+          "qualifiers": "无。",
+          "contrast_or_target": "针对空想社会主义者试图通过局部实验而非阶级斗争来改造社会的策略。"
+        },
+        "why": {
+          "relation": "example",
+          "explanation": "本句通过列举具体的空想实验名称，为上句“离开斗争空想的立脚地”提供实例支撑。"
+        },
+        "implication": "这些实验需要外部资助，从而引出下句“哀求资本阶级的同情和金钱”。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "批评的空想社会主义及共产主义",
+      "their_view": "可以通过建立孤立的示范社区、进行道德感化等和平方式，而非通过现实的阶级斗争和政治革命，来建立理想社会。",
+      "author_response": "随着阶级斗争的发展，这些脱离斗争的空想立场和方案已失去实际价值和理论根据；其门徒死守教条，反对无产阶级的历史发展，最终会退化为保守的改良主义。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p203s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p203s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "阶级斗争",
+            "type": "concept",
+            "modern": "在马克思主义语境下，指不同阶级之间基于经济利益的根本对立和冲突，是历史发展的直接动力。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "class_struggle_marxist"
+          }
+        ]
+      },
+      {
+        "sid": "p203s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p203s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p203s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p203s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "福利耶",
+            "type": "person",
+            "modern": "夏尔·傅立叶，19世纪初法国空想社会主义者，设计了名为“法郎吉”的和谐社会基层组织。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "加伯",
+            "type": "person",
+            "modern": "埃蒂耶纳·卡贝，19世纪法国空想社会主义者，著有《伊加利亚旅行记》，并尝试建立移民社区。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "小伊加利亞",
+            "type": "work",
+            "modern": "卡贝在其著作中描绘的理想共产主义社会名称，后被其追随者用于指代建立的实验社区。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p203s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p203s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p203s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  }
+}

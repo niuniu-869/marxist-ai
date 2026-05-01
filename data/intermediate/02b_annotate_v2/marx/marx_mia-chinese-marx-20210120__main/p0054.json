@@ -1,0 +1,188 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 54,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "以《新莱茵报》第6号的一则新闻为例，详细说明编译过程中考证并注释一个历史细节的完整过程与必要性。",
+    "importance_score": 1,
+    "importance_reason": "通过一个具体案例，展示了编译历史报刊时处理微小但关键细节的复杂性与严谨性，是支撑全文关于编译工作难点论述的实例。",
+    "argument_role": "example",
+    "argument_link": "承接上段关于注释重要性的论述，用一个完整的考证实例来具体说明为何“不作注释估计没几个人看懂”，以及如何通过严谨考证避免误注。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p54s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p54s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p54s3",
+        "speaker": "editor",
+        "stance": "neutral_citation",
+        "notes": []
+      },
+      {
+        "sid": "p54s4",
+        "speaker": "quoted_marx",
+        "stance": "neutral_citation",
+        "notes": []
+      },
+      {
+        "sid": "p54s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "克拉科夫",
+            "type": "place",
+            "modern": "波兰城市，1846年发生波兰人民起义后被俄奥联军镇压，随后并入奥地利帝国。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p54s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "德国流亡者同盟",
+            "type": "org",
+            "modern": "19世纪30-40年代在巴黎等地活动的德国政治流亡者组织，主张通过革命实现德国统一与共和。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p54s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p54s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p54s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "《海涅对同时代人的评论集》",
+            "type": "work",
+            "modern": "后世学者编纂的海涅评论文集，收录了海涅对当时众多人物的评价文字。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p54s10",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p54s11",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p54s12",
+        "speaker": "editor",
+        "stance": "neutral_citation",
+        "notes": []
+      },
+      {
+        "sid": "p54s13",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p54s14",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "《科贝斯第一》",
+            "type": "work",
+            "modern": "海涅创作的一首讽刺诗，诗中“科贝斯”是科隆方言对“雅科布”的称呼，用以讽刺费奈迭。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p54s15",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p54s16",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p54s17",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 4,
+        "notes_dropped": 2,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

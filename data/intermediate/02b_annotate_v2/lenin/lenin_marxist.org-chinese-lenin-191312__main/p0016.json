@@ -1,0 +1,87 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 16,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁以反问和讽刺的口吻，批评取消派代表谢姆科夫斯基对党纲历史的无知及其在民族问题上的轻率态度。",
+    "importance_score": 1,
+    "importance_reason": "本段是作者对论敌具体言论的直接讽刺性回应，属于论战中的具体交锋，而非核心论点的阐述。",
+    "argument_role": "contrasts",
+    "argument_link": "本段承接上段对谢姆科夫斯基言论的引述，转而直接对其进行讽刺性驳斥，揭露其立场与党纲历史的矛盾。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p16s1",
+        "quote": "考虑是秘密的！",
+        "trigger": "inverted_logic",
+        "reader_block": "“考虑”与“秘密”搭配构成反讽，读者初读会困惑为何思考过程是秘密的，需理解这是在嘲讽对方对党纲历史的无知。",
+        "parse": {
+          "claim": "谢姆科夫斯基等人对党纲历史的无知程度，使得他们只能将相关讨论当作秘密来对待。",
+          "qualifiers": "无。",
+          "contrast_or_target": "谢姆科夫斯基等人自以为在“保守秘密”，实则暴露了其对党纲历史的无知。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "本句以反讽开启对谢姆科夫斯基的直接批评，将其“保守秘密”的姿态归因于对党纲历史的无知，为后续具体指责定下基调。"
+        },
+        "implication": "作者暗示，真正了解党纲历史的人不会认为相关讨论需要如此“保密”。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "谢姆科夫斯基",
+      "their_view": "对党纲历史无知，却自以为在“保守秘密”；轻率地认为芬兰在民族自决权问题上是一个例外。",
+      "author_response": "通过连续反问，揭露其无知与轻率，讽刺其立场与党纲历史相悖。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p16s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p16s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p16s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "谢姆科夫斯基",
+            "type": "person",
+            "modern": "当时取消派在民族问题上的代表人物，其观点被列宁视为机会主义。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "芬兰",
+            "type": "place",
+            "modern": "当时俄国境内的一个大公国，其自治地位常被论战双方用作讨论民族自决权的特例。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  }
+}

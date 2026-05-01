@@ -1,0 +1,70 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 99,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "通过反讽和具体计算，揭示房客支付的保护金如何被庄园主用于支付债务利息，体现剥削关系。",
+    "importance_score": 2,
+    "importance_reason": "作为具体例子，支撑上一段关于多重剥削的论点。",
+    "argument_role": "example",
+    "argument_link": "本段以房客为例，具体展示保护金如何被庄园主剥削，延续上一段对织布工等群体的剥削分析。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p99s2",
+        "quote": "只有一种好处，这就是当他为贫困、穷苦和残酷手段弄到偷窃或犯了别的罪而不得不服刑的时候，他可以带着这样一种愉快的心情去进监牢或感化院：他和他所属的那个房客阶级早就把相当于监狱费一百倍的钱装进了庄园主的腰包……一个房客缴了30年保护金（以平均每年1 1/3塔勒计算）而没有坐过监牢，那就是向庄园主的腰包缴了40塔勒的现款，单利和复利还不算在内。",
+        "trigger": "inverted_logic",
+        "reader_block": "反讽表达'愉快的心情'进监狱，读者可能困惑为何入狱会愉快，需理解前文剥削背景才能体会其讽刺意味。",
+        "parse": {
+          "claim": "房客因长期支付保护金给庄园主，即使因贫困犯罪入狱也感到心理平衡，因为已支付的金额远超监狱成本。",
+          "qualifiers": "当房客因贫困、穷苦和残酷手段导致犯罪而不得不服刑时",
+          "contrast_or_target": null
+        },
+        "why": {
+          "relation": "example",
+          "explanation": "本句通过反讽具体展示剥削的荒谬性，说明房客的支付如何被庄园主利用，支撑上一段关于剥削的论点。"
+        },
+        "implication": null,
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p99s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p99s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p99s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  }
+}

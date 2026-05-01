@@ -1,0 +1,92 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 68,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "马克思解释康普豪森内阁辞职的真实原因，并指出继任的汉泽曼内阁标志着普鲁士资产阶级策略的转变。",
+    "importance_score": 2,
+    "importance_reason": "本段是作者对普鲁士资产阶级在1848年革命中策略转变的核心分析，揭示了其从消极妥协到积极掌权的阶级逻辑。",
+    "argument_role": "continues",
+    "argument_link": "本段紧接上段关于康普豪森内阁辞职原因的论述，进一步解释其辞职的政治意义及继任内阁的性质。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "“下流政客们”所指",
+        "explain": "马克思用此蔑称指代当时普鲁士政坛上那些不理解革命政治逻辑、只关注表面权力更迭的保守派或机会主义政客。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "下流政客们",
+      "their_view": "康普豪森内阁的辞职原因令人费解，是一个无法解释的谜团。",
+      "author_response": "马克思讽刺他们看不懂，因为辞职是资产阶级从消极出卖人民转向积极建立自身政权的必然步骤。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p68s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "下流政客们",
+            "type": "social_group",
+            "modern": "马克思对当时普鲁士政坛上那些政治庸才或机会主义者的蔑称。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p68s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p68s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p68s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 2,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

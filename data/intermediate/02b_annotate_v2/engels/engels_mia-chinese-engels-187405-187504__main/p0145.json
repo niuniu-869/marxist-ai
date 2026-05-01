@@ -1,0 +1,87 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 145,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "恩格斯列举俄国社会中多个与国家利益紧密相关的有势力群体，以反驳特卡乔夫关于国家“悬在空中”的论点。",
+    "importance_score": 2,
+    "importance_reason": "核心批判段落，通过事实列举直接反驳论敌关于国家性质的核心前提。",
+    "argument_role": "contrasts",
+    "argument_link": "承接上段对农民剥削的分析，转而从国家与统治阶级利益关联的角度，反驳特卡乔夫的国家观。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "特卡乔夫",
+      "their_view": "俄罗斯国家在人民的经济生活里没有任何根基，它自身并不体现任何阶层的利益，是“悬在空中”的。",
+      "author_response": "恩格斯指出，俄国的大资产阶级、出口商、大工业和官僚阶层都与国家存在利害关系，国家并非脱离社会经济基础。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p145s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "大资产阶级",
+            "type": "concept",
+            "modern": "在19世纪俄国，指通过铁路建设等获得发展、并与国家保护关税政策紧密相关的资本家集团。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "class_marxist"
+          }
+        ]
+      },
+      {
+        "sid": "p145s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p145s3",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": [
+          {
+            "surface": "悬在空中",
+            "type": "metaphor",
+            "modern": "特卡乔夫用来形容国家脱离社会经济基础、没有现实根基的状态。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

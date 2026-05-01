@@ -1,0 +1,115 @@
+{
+  "_prompt_version": "marxist-v0.2-2026-04-30-scaffolding",
+  "n": 16,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁号召党组织突破现有形式，主动联系并引导革命中自发涌现的各类小组，以实现党的扩张与领导。",
+    "importance_score": 3,
+    "importance_reason": "提出革命时期党组织的扩张与联系策略，是回应革命高潮的核心组织主张。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于工作规模和方法的论述，具体化如何通过联系新小组来实现组织的扩大与转型。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "党内那些主张维持现有组织形式、害怕主动扩张的派别（如尾巴主义、新火星派）",
+      "their_view": "崇拜现有的委员会、团体等形式，不愿或不敢突破其界限去联系和领导新出现的自发组织。",
+      "author_response": "必须大胆建立新组织，与自发小组建立联系，用革命精神引导它们，否则就是放弃先锋队作用。"
+    },
+    "sentences": [
+      {
+        "sid": "p16s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "组织起来！",
+            "type": "slogan",
+            "modern": "党在革命时期的核心组织任务口号",
+            "highlight": "slogan",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p16s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "先锋队作用",
+            "type": "concept",
+            "modern": "党领导无产阶级革命的先进角色",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "vanguard_role"
+          }
+        ]
+      },
+      {
+        "sid": "p16s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p16s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p16s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p16s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p16s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p16s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 2,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_6>5",
+        "note:n2_5gram_with_surface"
+      ]
+    }
+  ]
+}

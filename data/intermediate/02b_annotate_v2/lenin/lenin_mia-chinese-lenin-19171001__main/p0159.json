@@ -1,0 +1,81 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 159,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁用讽刺性比喻，反驳那些期望革命像列车到站一样平稳有序的观点，揭露其对旧秩序的留恋。",
+    "importance_score": 2,
+    "importance_reason": "这是支撑核心论点的讽刺性例证，通过比喻刻画论敌心态，为论证革命的必然性服务。",
+    "argument_role": "continues",
+    "argument_link": "延续上一段对工程师恐惧心理的刻画，用更尖锐的比喻进一步描绘这种心态。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "allusion",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "季特·季特奇",
+        "explain": "俄国作家萨尔蒂科夫-谢德林笔下的吝啬地主形象，代表守旧、剥削的旧势力。列宁用此讽刺那些留恋旧秩序、害怕工人掌权的人。",
+        "why_needed": "allusion",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p159s2",
+        "quote": "文雅的乘务员打开车厢门喊道：“社会革命站到了。请全体下车（Alle aussteigen）！”那时，有什么理由不从季特·季特奇之流手下的工程师的地位转到工人组织中的工程师的地位呢？",
+        "trigger": "allusion",
+        "reader_block": "读者可能不熟悉“季特·季特奇”这个俄国文学人物，也不理解“Alle aussteigen”这句德语的讽刺意味，导致无法把握比喻的尖锐性。",
+        "parse": {
+          "claim": "论敌幻想革命会像列车到站一样有序、舒适地完成，届时他们可以毫无障碍地从服务于旧势力的角色，转变为服务于工人组织的角色。",
+          "qualifiers": "这个幻想的前提是历史进程完全可控、平稳，没有剧烈冲突。",
+          "contrast_or_target": "反驳那些认为革命可以平稳、有序进行，且旧精英能轻松转换立场的观点。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "通过构建一个荒谬的、高度秩序化的革命场景，讽刺并揭露论敌对革命暴力性质的恐惧，以及他们试图保留自身地位的幻想。"
+        },
+        "implication": "这种心态反映了小资产阶级对革命的矛盾心理：既承认变革的必然，又希望过程温和、自身利益不受损。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "希望革命平稳进行的人",
+      "their_view": "革命应该像列车进站一样平平安安、稳稳当当、正点到达，旧秩序下的精英可以体面地转换角色，继续发挥作用。",
+      "author_response": "列宁用讽刺性比喻揭露这种幻想的荒谬，指出真正的社会革命不可能如此有序和舒适，必然伴随对旧势力的冲击。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p159s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p159s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "季特·季特奇",
+            "type": "person",
+            "modern": "萨尔蒂科夫-谢德林笔下的吝啬地主，此处代指守旧、剥削的旧势力。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  }
+}

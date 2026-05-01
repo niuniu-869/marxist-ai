@@ -1,0 +1,117 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 19,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "论证民族自决权原则的独立性，并批判社会沙文主义对“保卫祖国”概念的滥用。",
+    "importance_score": 2,
+    "importance_reason": "本段通过类比和反驳，确立民族自决权原则的独立性，并批判社会沙文主义对“保卫祖国”概念的滥用。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对被压迫民族资产阶级的分析，进一步论证民族自决权原则的独立性，并批判社会沙文主义。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "罗曼语各国",
+        "explain": "指法国、意大利、西班牙等以拉丁语系语言为主的西欧国家，这些国家在19世纪共和主义运动中，资产阶级常利用共和口号巩固自身统治。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "社会沙文主义者",
+      "their_view": "他们拿民主派的任何一个要求（如共和主义）和反对民族压迫的主张，为“保卫祖国”辩护。",
+      "author_response": "列宁指出这是不值一驳的，因为马克思主义对保卫祖国的结论是基于对每次战争具体历史特点的分析，而非抽象原则。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p19s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "罗曼语各国",
+            "type": "place",
+            "modern": "19世纪法国、意大利、西班牙等拉丁语系西欧国家，共和运动中资产阶级常利用共和口号巩固统治。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p19s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "保卫祖国",
+            "type": "slogan",
+            "modern": "一战期间社会沙文主义者用来号召工人支持本国资产阶级参战的口号。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p19s3",
+        "speaker": "quoted_opponent",
+        "stance": "critical",
+        "notes": []
+      },
+      {
+        "sid": "p19s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "法国大革命",
+            "type": "event",
+            "modern": "1789年爆发的推翻法国封建专制制度的资产阶级革命。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "加里波第战争",
+            "type": "event",
+            "modern": "19世纪意大利统一运动中，加里波第领导的旨在驱逐外国势力、实现民族独立的军事行动。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 4,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 2,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

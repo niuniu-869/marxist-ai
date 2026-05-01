@@ -1,0 +1,95 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 8,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列举作者与瑞士左派社会民主党人合作的具体事例。",
+    "importance_score": 1,
+    "importance_reason": "提供作者与瑞士左派合作的具体背景，支撑其国际主义立场。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对“齐美尔瓦尔德左派”立场的阐述，通过列举合作事例来具体展示这种国际主义实践。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p8s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "《自由青年》杂志",
+            "type": "work",
+            "modern": "瑞士左派社会民主党人主办的刊物，主张反战与革命立场。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          },
+          {
+            "surface": "全党投票的理由书",
+            "type": "work",
+            "modern": "呼吁通过全党表决来决定党对战争态度的文件。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p8s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "苏黎世州代表大会",
+            "type": "event",
+            "modern": "瑞士社会民主党地方组织会议，讨论战争问题。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          },
+          {
+            "surface": "传单《我们的媾和条件》",
+            "type": "work",
+            "modern": "宣传反战与和平条件的双语出版物。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 4,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_work_18>16"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 15,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "恩格斯澄清黑格尔著名命题的本意，指出其常被误解为替现存事物辩护，但黑格尔本人对“现实的”与“现存的”有严格区分。",
+    "importance_score": 2,
+    "importance_reason": "核心段落，通过澄清对黑格尔命题的普遍误解，引出其辩证法的革命性内核，为后文批判其体系与方法的矛盾做铺垫。",
+    "argument_role": "continues",
+    "argument_link": "承接上段引出的黑格尔命题，具体分析该命题在当时引发的两种对立解读，并开始揭示黑格尔本人的真实意图。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "弗里德里希-威廉三世",
+        "explain": "1797-1840年在位的普鲁士国王，其统治以保守专制、压制自由主义和民族主义运动著称。了解其统治性质，才能理解为何黑格尔的命题会被视为对其政权的哲学辩护。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p15s1",
+        "quote": "“凡是现实的都是合理的，凡是合理的都是现实的。”193 这显然是把现存的一切神圣化，是在哲学上替专制制度、替警察国家、替王室司法、替书报检查制度祝福。",
+        "trigger": "inverted_logic",
+        "reader_block": "读者易将“显然是”理解为恩格斯本人的判断，从而误以为恩格斯赞同此命题的保守解读。实际上，这是恩格斯在转述当时流行的误解。",
+        "parse": {
+          "claim": "当时许多人将黑格尔的这一命题理解为对现存所有事物的神圣化，并认为它在哲学上为普鲁士的专制统治机构提供了辩护。",
+          "qualifiers": "这是对命题的一种流行解读，而非黑格尔本人的原意。",
+          "contrast_or_target": "与黑格尔本人对“现实的”与“现存的”所做的区分相对立。"
+        },
+        "why": {
+          "relation": "contrasts",
+          "explanation": "本句先摆出当时对黑格尔命题的普遍误解（将其等同于为现存事物辩护），为下文揭示黑格尔本人的真实含义（区分“现实的”与“现存的”）制造对比和张力。"
+        },
+        "implication": "这种误解将黑格尔的辩证法庸俗化，使其革命性内核被保守的政治结论所掩盖。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      },
+      {
+        "anchor": "p15s3",
+        "quote": "但是，在黑格尔看来，凡是现存的决非无条件地也是现实的。",
+        "trigger": "inverted_logic",
+        "reader_block": "“决非无条件地”是双重否定，读者可能直接读成“现存的就是现实的”，完全错过恩格斯要强调的否定性限定。",
+        "parse": {
+          "claim": "黑格尔认为，仅仅“存在”或“现存”的事物，并不自动具备“现实性”这一哲学属性。",
+          "qualifiers": "“现实性”在黑格尔哲学中是一个有严格规定的范畴，不等于日常语言中的“存在”。",
+          "contrast_or_target": "反驳了将“现存”与“现实”简单等同的流行观点。"
+        },
+        "why": {
+          "relation": "definition",
+          "explanation": "本句是恩格斯对黑格尔核心概念的界定，明确区分了“现存”（Existenz）与“现实”（Wirklichkeit），这是理解黑格尔辩证法如何包含革命性因素的关键一步。"
+        },
+        "implication": "只有那些符合历史必然性、体现事物内在本质的东西，才配称为“现实的”；暂时的、偶然的、行将灭亡的“现存”事物则不具备这种属性。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "当时误解黑格尔命题的普鲁士官方及自由派",
+      "their_view": "黑格尔的命题意味着现存的一切（包括专制制度、警察国家等）都是合理的、神圣不可侵犯的。",
+      "author_response": "恩格斯指出，这是对黑格尔命题的肤浅解读。黑格尔本人严格区分了“现存的”与“现实的”，后者仅属于具有必然性的事物。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p15s1",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p15s2",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": [
+          {
+            "surface": "弗里德里希—威廉三世",
+            "type": "person",
+            "modern": "普鲁士国王（1797-1840在位），其统治时期以保守、反动和压制自由主义著称。",
+            "highlight": "person",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p15s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p15s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 3,
+        "hs_kept": 2,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix",
+        "note:n1_overflow_archaic_6>4"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 31,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段介绍弗里德里希斯作为高等法院陪审官和泛德意志大学生协会成员，并引用该协会纲领中关于德国统一和思想一致的主张。",
+    "importance_score": 1,
+    "importance_reason": "作为传记叙述的一部分，展示马克思所处时代德国民族主义思潮的背景。",
+    "argument_role": "transition",
+    "argument_link": "本段从上一段的对话场景过渡到介绍弗里德里希斯的身份和思想背景，为后续内容铺垫。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "泛德意志大学生协会",
+        "explain": "这是19世纪德意志地区的一个民族主义学生组织，主张德国统一和单一民族思想，反映了当时德国民族主义思潮。",
+        "why_needed": "history_missing",
+        "confidence": "medium",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p31s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "弗里德里希斯",
+            "type": "person",
+            "modern": "具体人物，身份为高等法院陪审官和泛德意志大学生协会成员",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          },
+          {
+            "surface": "泛德意志大学生协会",
+            "type": "org",
+            "modern": "19世纪德意志民族主义学生组织，主张德国统一",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p31s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "德国是统一的，而且应该只有一种思想、一条心",
+            "type": "program_clause",
+            "modern": "该协会纲领中关于德国统一和思想一致的条款",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      }
+    ]
+  }
+}

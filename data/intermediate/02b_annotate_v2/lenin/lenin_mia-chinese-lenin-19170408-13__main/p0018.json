@@ -1,0 +1,63 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 18,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁基于政权转移这一首要标志，对俄国资产阶级民主革命的阶段做出判断。",
+    "importance_score": 3,
+    "importance_reason": "这是列宁《四月提纲》核心论断的直接陈述，是全文论证的基石，旨在回应党内对革命阶段的分歧。",
+    "argument_role": "continues",
+    "argument_link": "本段直接承接上一段关于革命首要标志的定义，将该定义应用于俄国具体形势，得出革命阶段已完成的结论。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "二月革命后政权归属",
+        "explain": "1917年二月革命推翻沙皇后，实际政权转移到了资产阶级临时政府手中，同时各地出现了工兵代表苏维埃。列宁正是基于政权已转到资产阶级手中这一事实，做出本段判断。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p18s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

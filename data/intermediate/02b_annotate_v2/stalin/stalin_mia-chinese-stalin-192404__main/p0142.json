@@ -1,0 +1,124 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 142,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段论证无产阶级革命可以在单个资本主义国家首先取得胜利，反驳了第二国际认为必须多国共同发动才能成功的旧观点。",
+    "importance_score": 3,
+    "importance_reason": "核心论点段，系统阐述列宁主义关于“一国胜利论”的理论依据，是全文论证革命策略的关键环节。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于资产阶级民主革命向无产阶级革命转变的论述，进一步论证这种转变在单个国家内取得胜利的可能性与必然性。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "term_density",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "“一国胜利论”与“共同发动论”",
+        "explain": "第二国际理论家（如考茨基）认为，社会主义革命必须在所有或大多数先进资本主义国家同时爆发才能成功，否则会被联合镇压。列宁与斯大林则论证，由于帝国主义发展不平衡，革命可能在链条最薄弱的一环（单个国家）首先突破。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p142s5",
+        "quote": "不过这里必须记住：只有具备了某些完全必要的条件，才能顺利地推翻资产阶级；",
+        "trigger": "inverted_logic",
+        "reader_block": "这是一个带有强烈限定和警告意味的条件句，读者容易忽略其后半句的否定性后果，从而对“一国胜利论”产生无条件胜利的误解。",
+        "parse": {
+          "claim": "无产阶级在一个国家内取得胜利并非无条件的，它必须依赖于一系列特定的、不可或缺的前提。",
+          "qualifiers": "“某些完全必要的条件”具体所指在本段未展开，但强调了胜利的非自动性。",
+          "contrast_or_target": "隐含地反驳了那种认为革命可以轻易或自动成功的简单化想法。"
+        },
+        "why": {
+          "relation": "continues",
+          "explanation": "在论证了胜利的可能性与必然性之后，立即补充其条件性，防止对“一国胜利论”产生机械或冒进的理解，体现了论证的辩证性。"
+        },
+        "implication": "提示读者，理论上的可能性转化为现实，需要具体的革命形势和主观力量的成熟。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p142s1",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p142s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p142s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "帝国主义",
+            "type": "concept",
+            "modern": "列宁定义的资本主义最高阶段，其特征是垄断、金融资本统治和世界领土瓜分完毕，内部矛盾必然导致战争和革命。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "imperialism_leninist"
+          }
+        ]
+      },
+      {
+        "sid": "p142s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p142s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p142s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 1,
+        "hs_kept": 1,
+        "hs_dropped": 1,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_8>5",
+        "hs:claim_5gram_with_quote",
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

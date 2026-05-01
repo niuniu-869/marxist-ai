@@ -1,0 +1,113 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 79,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段论证工人阶级的经济斗争必然发展为政治斗争，并明确提出其首要政治任务是争得以宪法保障的政治自由。",
+    "importance_score": 3,
+    "importance_reason": "本段是纲领草案的核心论点之一，将工人运动的目标从经济领域提升到政治领域，并具体化为对政治自由的要求。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于工人经济斗争必然引发政治冲突的例证，本段将此结论理论化，并推导出工人阶级的首要政治任务。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "政治自由的纲领性内涵",
+        "explain": "此处“政治自由”并非泛指，而是列宁在纲领草案中赋予的特定内涵：指通过宪法（法律）保障全体公民直接参与国家管理、自由集会、结社、办报以影响国家事务的权利。这是针对沙俄专制制度提出的革命性要求。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p79s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "阶级斗争",
+            "type": "concept",
+            "modern": "在马克思主义理论中，指不同阶级之间因经济利益根本对立而产生的斗争，是历史发展的直接动力。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "class_struggle_marxist"
+          }
+        ]
+      },
+      {
+        "sid": "p79s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p79s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p79s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "政治自由",
+            "type": "concept",
+            "modern": "列宁在此纲领草案中赋予的特定概念，指通过宪法保障的、使全体公民能够直接参与国家管理并影响国家事务的一系列权利。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "political_freedom_constitutional"
+          }
+        ]
+      },
+      {
+        "sid": "p79s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p79s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

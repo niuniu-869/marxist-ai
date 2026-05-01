@@ -1,0 +1,66 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 308,
+  "annotation": {
+    "block_type": "quote_block",
+    "gist": "本段直接引用空想社会主义者孔西得朗的观点，作为作者批判的靶子。",
+    "importance_score": 1,
+    "importance_reason": "作为论战靶子，为后文批判提供具体引文，本身不构成核心论证。",
+    "argument_role": "contrasts",
+    "argument_link": "承接上段对孔西得朗“宣言”的提及，本段具体展示其阶级调和论的核心主张，与作者的阶级斗争立场形成对照。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "refute_quotation"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "孔西得朗",
+      "their_view": "资本、劳动和才干是生产的三个要素，代表这三个方面的阶级有着共同的利益，它们的任务是协调一致地工作，最终目标是用民族统一原则把一切阶级联合起来。",
+      "author_response": "作者通过引用此段，旨在揭露这种阶级调和论的空想性质，为后文论证阶级斗争的必然性树立批判对象。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p308s1",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": [
+          {
+            "surface": "共同的利益",
+            "type": "concept",
+            "modern": "孔西得朗主张的阶级和谐论核心，否认资产阶级与无产阶级之间存在根本对立。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "class_harmony"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 2,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_16>5",
+        "note:n1_overflow_concept_6>5"
+      ]
+    }
+  ]
+}

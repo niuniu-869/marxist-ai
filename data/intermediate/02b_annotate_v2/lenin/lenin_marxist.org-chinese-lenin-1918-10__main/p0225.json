@@ -1,0 +1,78 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 225,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁批判考茨基无视俄国革命的具体斗争进程，讽刺其脱离实际的“纯粹”民主论调。",
+    "importance_score": 2,
+    "importance_reason": "这是对考茨基机会主义理论脱离实际的具体批判，支撑全文对叛徒考茨基的揭露。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对苏维埃与资产阶级斗争的分析，转而批判考茨基无视这一具体历史进程。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "科尔尼洛夫叛乱",
+        "explain": "1917年俄国临时政府时期，由科尔尼洛夫将军发动的军事政变，旨在镇压革命，但被布尔什维克和工人赤卫队挫败。这一事件体现了阶级斗争的激烈形式，是理解列宁关于专政形式论述的关键背景。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "考茨基",
+      "their_view": "考茨基认为无产阶级专政只是一个词儿，主张民主方法和专政方法的对立，忽视革命暴力。",
+      "author_response": "列宁指出考茨基无视俄国革命的具体斗争进程，其理论脱离实际。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p225s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p225s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p225s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 3,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_5gram_with_surface",
+        "note:n1_overflow_concept_6>5",
+        "note:n1_overflow_concept_9>5",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

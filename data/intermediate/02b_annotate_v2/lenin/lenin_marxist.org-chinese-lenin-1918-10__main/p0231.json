@@ -1,0 +1,61 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 231,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁讽刺考茨基仅从法律形式角度看待苏维埃政权，并引用其具体论述以展示其机会主义立场。",
+    "importance_score": 2,
+    "importance_reason": "通过引用考茨基原文，具体展示其机会主义观点，为后续批判提供靶子。",
+    "argument_role": "continues",
+    "argument_link": "承接上段的讽刺，具体引用考茨基的论述，展示其如何从法律形式角度否定无产阶级专政。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic, allusion",
+      "needs_polemic": true,
+      "polemic_reason": "refute_quotation"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "考茨基",
+      "their_view": "仅从法律形式定义资本家，认为苏维埃政权会剥夺大量人口的政治权利，导致无产阶级政党在全体居民中占少数。",
+      "author_response": "列宁通过引用此论述，揭露考茨基用抽象法律概念掩盖阶级斗争实质的机会主义手法。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p231s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p231s2",
+        "speaker": "quoted_opponent",
+        "stance": "critical",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

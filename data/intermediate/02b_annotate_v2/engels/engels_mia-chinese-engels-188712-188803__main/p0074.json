@@ -1,0 +1,135 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 74,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段分析普鲁士在德国统一前后对德意志领土态度的转变，及其在国际法上造成的矛盾。",
+    "importance_score": 2,
+    "importance_reason": "本段是论证普鲁士统一政策内在矛盾的关键环节，通过具体案例（提罗耳、卢森堡）揭示其政策的不彻底性。",
+    "argument_role": "continues",
+    "argument_link": "承接上段以卢森堡为例的叙述，进一步剖析普鲁士（德国）在阻止领土兼并问题上所陷入的法律与政策矛盾。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "allusion",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "梅特涅的“地理概念”",
+        "explain": "梅特涅是19世纪上半叶奥地利首相，他反对德意志民族统一，认为德意志只是一个地理概念，而非可建立统一国家的政治实体。恩格斯在此引用，意在讽刺普鲁士国王最终也陷入了这种将德国视为松散地理集合的困境。",
+        "why_needed": "allusion",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p74s8",
+        "quote": "从国际法的观点来看，他是自己置身于违法的地位，他只有对国际法做一番他所心爱的那一套大学学生会会员酒馆式的解释才能脱身。",
+        "trigger": "allusion",
+        "reader_block": "“大学学生会会员酒馆式的解释”是一个比喻，指代一种强词夺理、不严肃的诡辩方式，读者需要了解其文化背景才能理解讽刺的力度。",
+        "parse": {
+          "claim": "普鲁士国王的立场在国际法上站不住脚，他只能依靠一种他惯用的、如同大学生在酒馆里胡搅蛮缠般的诡辩逻辑来为自己辩护。",
+          "qualifiers": "这是从“国际法的观点”得出的判断。",
+          "contrast_or_target": null
+        },
+        "why": {
+          "relation": "conclusion",
+          "explanation": "本句是上句分析的逻辑结论，指出普鲁士国王因政策矛盾而在国际法上陷入困境，只能诉诸于非严肃的诡辩。"
+        },
+        "implication": "普鲁士的外交政策缺乏坚实的法理基础，其合法性依赖于对规则的任意解释。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p74s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p74s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p74s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p74s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p74s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p74s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "提罗耳",
+            "type": "place",
+            "modern": "阿尔卑斯山区的一个历史地区，当时主要属于奥地利，与意大利北部接壤。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p74s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p74s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 2,
+        "hs_kept": 1,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "note:n1_overflow_metaphor_10>8",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

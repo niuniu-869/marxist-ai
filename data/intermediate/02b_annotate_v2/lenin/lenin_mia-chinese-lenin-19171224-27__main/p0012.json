@@ -1,0 +1,173 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 12,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段承接上文，具体剖析“只有上层阶级能管理”这一偏见的社会根源，并论证工人和农民完全有能力胜任组织工作。",
+    "importance_score": 2,
+    "importance_reason": "核心论点段落，直接反驳资产阶级对管理能力的垄断主张，为动员群众参与管理提供理论依据。",
+    "argument_role": "continues",
+    "argument_link": "承接上段提出的“打破陈腐偏见”的任务，具体分析该偏见的来源，并正面论证无产阶级和劳动群众的组织能力。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p12s5",
+        "quote": "工人们在追求知识方面表现出非常大的热情，而且正是在现在表现出来，这证明无产阶级在这方面没有而且也不可能有迷误。",
+        "trigger": "inverted_logic",
+        "reader_block": "双重否定“没有而且也不可能有迷误”是修辞强调，但读者初读可能困惑于“迷误”具体指什么，以及为何能“证明”。",
+        "parse": {
+          "claim": "工人阶级在获取知识上展现出的现实热情，足以证明他们在管理能力上不存在根本性的错误认知。",
+          "qualifiers": "限定于“在追求知识方面”和“正是在现在”（指革命后的新时期）。",
+          "contrast_or_target": "反驳资产阶级知识分子认为工人阶级缺乏管理所需知识和判断力的论点。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "用工人学习知识的现实行动，直接反驳论敌关于工人阶级“无知”或“无能”的论断，为下文论证其管理能力提供事实基础。"
+        },
+        "implication": "工人阶级对知识的渴求本身，就是其能够承担管理职能的证明。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "资产阶级知识分子",
+      "their_view": "只有受过富有阶级教育的“上层阶级”才能管理国家和组织社会，普通工农是缺乏知识和能力的“老百姓”。",
+      "author_response": "列宁指出，这种观点是偏见，其根源在于守旧心理和资本家的私利；事实上，识字、有经验的普通工农完全能够胜任组织工作，且这样的人才在群众中无穷无尽。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p12s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p12s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "资本家",
+            "type": "concept",
+            "modern": "在资本主义生产关系中占有生产资料、依靠剥削雇佣劳动为生的阶级。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "class_bourgeoisie"
+          }
+        ]
+      },
+      {
+        "sid": "p12s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p12s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "工人",
+            "type": "concept",
+            "modern": "现代工业无产阶级，不占有生产资料，依靠出卖劳动力为生。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "class_proletarian"
+          }
+        ]
+      },
+      {
+        "sid": "p12s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p12s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "工人",
+            "type": "concept",
+            "modern": "现代工业无产阶级，不占有生产资料，依靠出卖劳动力为生。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "class_proletarian"
+          },
+          {
+            "surface": "农民",
+            "type": "social_group",
+            "modern": "在俄国当时主要指小农和雇农，是重要的革命力量。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p12s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "资产阶级知识分子",
+            "type": "social_group",
+            "modern": "在思想和利益上依附于资产阶级，常以文化优越感自居的知识阶层。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p12s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "农民",
+            "type": "social_group",
+            "modern": "在俄国当时主要指小农和雇农，是重要的革命力量。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 6,
+        "notes_dropped": 2,
+        "hs_kept": 1,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

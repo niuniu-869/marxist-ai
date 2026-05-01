@@ -1,0 +1,73 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 75,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁分析“革命护国主义”思潮的阶级基础及其欺骗性来源。",
+    "importance_score": 2,
+    "importance_reason": "本段是列宁对当时党内和社会上流行的一种错误思潮进行阶级剖析的核心批判。",
+    "argument_role": "continues",
+    "argument_link": "承接上文对革命护国主义现象的提及，本段深入剖析其阶级根源和政治欺骗本质。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "组织委员会与孟什维克领袖",
+        "explain": "“组织委员会”是孟什维克的中央领导机构。齐赫泽和策列铁里是当时孟什维克的主要领袖，同时担任彼得格勒苏维埃的领导职务，主张与资产阶级临时政府合作。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "革命护国主义",
+      "their_view": "在二月革命推翻沙皇后，保卫俄国革命成果的战争具有正义性，因此应继续支持这场战争。",
+      "author_response": "列宁指出，这种思潮在阶级意义上代表小资产阶级和富裕农民的利益，是资本家通过不公布秘密条约、用空洞许诺来欺骗人民群众的结果。",
+      "polemic_kind": "reveals_class_basis",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p75s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "小资产阶级",
+            "type": "concept",
+            "modern": "介于资产阶级和无产阶级之间，包括小业主、手工业者等，具有两面性。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "petty_bourgeoisie"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_6>5"
+      ]
+    }
+  ]
+}

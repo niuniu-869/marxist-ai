@@ -1,0 +1,149 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 319,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "描述罗马平民阶层的来源、法律地位及其与旧贵族的对立，为分析国家起源提供社会结构背景。",
+    "importance_score": 2,
+    "importance_reason": "具体展示罗马社会内部因征服而产生的阶级分化，是国家起源分析的实证基础。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对罗马氏族社会的描述，具体说明征服扩张如何导致社会成员分化，产生新的平民阶层。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_polysemy",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "古罗马平民",
+        "explain": "此处的“平民”指古罗马社会中人身自由但被排除在氏族政治体系之外的群体，他们承担义务却无政治权利，与现代意义上的“无产阶级”有本质区别。",
+        "why_needed": "term_polysemy",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p319s8",
+        "quote": "由于他们的人数不断增加，由于他们受过军事训练并有武装，于是就成了一种同这时根本禁止增加外人的旧的populus相对抗的可怕力量了。",
+        "trigger": "long_nested",
+        "reader_block": "长句包含两个“由于”引导的原因状语，读者可能难以快速抓住核心论断，即平民力量增长与旧贵族封闭性之间的对抗关系。",
+        "parse": {
+          "claim": "平民因人数增长和武装能力，成为与旧贵族对抗的强大力量。",
+          "qualifiers": "这一对抗发生在旧贵族禁止增加外人的背景下。",
+          "contrast_or_target": "旧贵族试图维持其封闭的氏族共同体，排斥外来人口。"
+        },
+        "why": {
+          "relation": "continues",
+          "explanation": "承接前文对平民法律地位的描述，进一步分析其社会力量增长带来的政治后果，为后续平民斗争埋下伏笔。"
+        },
+        "implication": "这种力量对比为后来的平民斗争和国家形态演变埋下伏笔。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p319s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p319s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p319s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p319s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p319s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p319s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "库里亚大会",
+            "type": "org",
+            "modern": "罗马早期以氏族为单位的公民大会",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p319s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "平民",
+            "type": "concept",
+            "modern": "古罗马被剥夺公权的自由民阶层",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "plebeian_roman"
+          }
+        ]
+      },
+      {
+        "sid": "p319s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p319s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 1,
+        "hs_kept": 1,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_archaic_15>4"
+      ]
+    }
+  ]
+}

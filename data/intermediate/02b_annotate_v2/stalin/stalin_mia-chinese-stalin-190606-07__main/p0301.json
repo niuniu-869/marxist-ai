@@ -1,0 +1,80 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 301,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "通过两个反问句，质疑孔西得朗的民主宣言是否包含类似马克思主义的观点，并询问其观点是否属于唯物主义。",
+    "importance_score": 1,
+    "importance_reason": "本段通过反问引入对孔西得朗观点的质疑，为后续论证做铺垫。",
+    "argument_role": "contrasts",
+    "argument_link": "上段确立共产党宣言的理论基础，本段通过反问质疑孔西得朗是否具有相同基础，从而突出马克思主义的独特性。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "孔西得朗及其民主宣言",
+        "explain": "孔西得朗是19世纪法国空想社会主义者，主张通过和平改革实现社会主义。他的《民主宣言》阐述了其政治观点，与马克思主义的唯物史观不同。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p301s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "孔西得朗",
+            "type": "person",
+            "modern": "19世纪法国空想社会主义思想家",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "民主宣言",
+            "type": "work",
+            "modern": "孔西得朗阐述其政治观点的著作",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p301s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "唯物主义",
+            "type": "concept",
+            "modern": "哲学基本派别，认为物质世界是第一性的",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "materialism_philosophical"
+          }
+        ]
+      }
+    ]
+  }
+}

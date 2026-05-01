@@ -1,0 +1,83 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 47,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁以问答形式，讽刺立宪民主党对召开立宪会议的拖延态度，揭露其维护地主利益的阶级实质。",
+    "importance_score": 3,
+    "importance_reason": "本段是列宁批判立宪民主党机会主义策略的核心段落之一，揭露其阶级本质。",
+    "argument_role": "continues",
+    "argument_link": "本段承接上段对更右翼政党的分析，转向对立宪民主党的批判，揭示其在立宪会议问题上的虚伪性。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "倍倍尔的身份",
+        "explain": "奥古斯特·倍倍尔，德国社会民主党创始人之一，第二国际领袖，列宁常引用其观点批判机会主义。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "立宪民主党",
+      "their_view": "立宪民主党主张召开立宪会议，但反对规定具体日期，强调需与法学教授商议，认为法律程序应由专家主导。",
+      "author_response": "列宁讽刺这种拖延策略，指出其本质是维护地主利益，害怕农民在会议上决定土地问题。",
+      "polemic_kind": "reveals_class_basis",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p47s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "立宪民主党",
+            "type": "org",
+            "modern": "1905年成立的俄国资产阶级政党，主张君主立宪，维护地主和资本家利益。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p47s2",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p47s3",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": [
+          {
+            "surface": "倍倍尔",
+            "type": "person",
+            "modern": "奥古斯特·倍倍尔，德国社会民主党领袖，第二国际创始人之一。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p47s4",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      }
+    ]
+  }
+}

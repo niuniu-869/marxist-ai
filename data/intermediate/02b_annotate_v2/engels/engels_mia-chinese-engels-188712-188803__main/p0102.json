@@ -1,0 +1,130 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 102,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "恩格斯指出，德意志帝国公开奉行暴力原则损害了自身道义形象，但俾斯麦更关注兼并的政治后果，并引用马克思的预言和俾斯麦本人的言论，证明兼并使俄国获得了干预欧洲事务的仲裁者地位。",
+    "importance_score": 2,
+    "importance_reason": "本段是论证链条中的关键环节，通过引用马克思预言和俾斯麦本人言论，具体阐明了上一段提出的兼并政治后果，为全文关于暴力政策局限性的论点提供实证。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段对兼并辩护理由的质疑，本段具体展开兼并带来的、俾斯麦无法回避的政治后果，即俄国地位的上升。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "马克思关于兼并的通告",
+        "explain": "指1870年9月9日第一国际总委员会关于普法战争的第二篇宣言。马克思在其中分析了色当战役后局势，指出法国的失败和德国的兼并将打破欧洲均势，使俄国得以扩张。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "俾斯麦的帝国国会演说",
+        "explain": "指1888年2月6日俾斯麦在德意志帝国国会的演讲。他在演讲中抱怨俄国的军事威胁，并寻求与英国结盟，这被恩格斯视为对马克思预言的印证。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "社会民主党人的国会发言",
+        "explain": "指德国社会民主党议员在帝国国会中，依据马克思的分析，持续批评兼并政策及其带来的外交风险。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p102s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p102s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p102s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p102s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p102s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p102s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p102s7",
+        "speaker": "quoted_marx",
+        "stance": "endorsed",
+        "notes": []
+      },
+      {
+        "sid": "p102s8",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": [
+          {
+            "surface": "帝国国会",
+            "type": "org",
+            "modern": "德意志帝国的立法机构，社会民主党人在此发表政治言论。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 2,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

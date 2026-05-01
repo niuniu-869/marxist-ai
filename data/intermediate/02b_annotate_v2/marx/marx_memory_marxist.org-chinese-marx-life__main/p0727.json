@@ -1,0 +1,63 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 727,
+  "annotation": {
+    "block_type": "quote_block",
+    "gist": "马克思在序言结尾引用但丁格言，表达对科学批评的开放和对舆论偏见的蔑视。",
+    "importance_score": 2,
+    "importance_reason": "本段作为序言的结论部分，明确作者对待学术批评和公众舆论的基本立场，为全书论述定调。",
+    "argument_role": "conclusion",
+    "argument_link": "本段承接上文对序言的审读，以引用格言的方式总结作者对批评和舆论的态度，完成序言的论述。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "allusion",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "allusion",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "但丁典故",
+        "explain": "“伟大的佛罗伦萨诗人”指但丁·阿利吉耶里，其《神曲》中有“走你的路，让人们去说罢”的格言，马克思借此表达坚持己见。",
+        "why_needed": "allusion",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p727s1",
+        "speaker": "quoted_marx",
+        "stance": "endorsed",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:eval_word:reader_block:伟大"
+      ]
+    }
+  ]
+}

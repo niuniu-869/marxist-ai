@@ -1,0 +1,61 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 11,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁引用社会革命党报纸的自供，证明即使社会党人进入政府，旧的官僚机构依然存在并阻碍工作，从而支持其关于必须彻底改造国家机器的论点。",
+    "importance_score": 2,
+    "importance_reason": "通过引用论敌自己的刊物来揭露其政策的内在矛盾，为“政权归苏维埃”必须彻底改造国家机器的论点提供关键例证。",
+    "argument_role": "example",
+    "argument_link": "本段用社会革命党报纸的实例，具体支撑了上一段关于“政权归苏维埃”需要对整个旧国家机构进行根本改造的论点。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "社会革命党",
+      "their_view": "即使社会党人担任部长，只要管理机构还是旧的，整个工作就会被阻挠。",
+      "author_response": "列宁以此为例，证明在旧的国家机器内部进行人事更替是无效的，必须代之以新的苏维埃机构。",
+      "polemic_kind": "counter_quotation",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p11s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p11s2",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

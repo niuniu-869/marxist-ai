@@ -1,0 +1,86 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 191,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁通过反问和直接指控，揭露考茨基写作所依据的信息来源及其与孟什维克的关系。",
+    "importance_score": 2,
+    "importance_reason": "本段是列宁对考茨基具体批判的一部分，通过质疑其信息来源和揭露其政治立场，支撑了对考茨基机会主义的总体论断。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对考茨基在立宪会议问题上歪曲事实的揭露，本段进一步追问其歪曲事实的信息来源，并直接指控其政治立场。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "施泰因与阿克雪里罗得",
+        "explain": "二人是孟什维克的代表人物。列宁在此暗示考茨基关于俄国革命的论述，其信息来源是这些与布尔什维克对立的派别，而非客观事实。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "考茨基",
+      "their_view": "考茨基可能试图在著作中保持一种超然的、不偏不倚的客观姿态，以呈现其对俄国革命的分析。",
+      "author_response": "列宁指出，考茨基的所谓客观性是伪装的，其真实角色是为那些在革命中失败的孟什维克派别服务。",
+      "polemic_kind": "reveals_class_basis",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p191s1",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": [
+          {
+            "surface": "施泰因",
+            "type": "person",
+            "modern": "1918年时孟什维克的代表人物之一，与列宁和布尔什维克持对立立场。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "帕·阿克雪里罗得",
+            "type": "person",
+            "modern": "孟什维克的理论家和领导人之一，曾参与创建俄国社会民主工党。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p191s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

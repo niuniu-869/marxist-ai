@@ -1,0 +1,75 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 370,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁论述，如果无产阶级在1917年不等待农村阶级分化成熟、不与农民结盟就强行推进社会主义，那将是理论上的错误。",
+    "importance_score": 2,
+    "importance_reason": "本段是列宁对无产阶级革命策略的具体阐述，通过反面假设来界定正确策略的边界，是核心批判的组成部分。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段关于无产阶级应夺取政权的论述，本段从反面论证，指出夺取政权后若操之过急、脱离农民多数，将导致策略错误。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "布朗基主义",
+        "explain": "指法国革命家布朗基所代表的策略，主张由少数革命者通过密谋和武装起义夺取政权，列宁在此用它来批判那种不顾农民多数、试图强行推进社会主义的错误倾向。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "党内或革命阵营中急于求成的“左”倾倾向",
+      "their_view": "认为无产阶级夺取政权后，可以立即在农村强行推进社会主义改造，无需等待阶级条件成熟或与农民结盟。",
+      "author_response": "列宁指出，这种做法是用少数人的意志强加于多数人，在理论上是荒谬的，因为它不懂得农民革命的资产阶级性质以及向社会主义过渡的阶段性。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "medium"
+    },
+    "sentences": [
+      {
+        "sid": "p370s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p370s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p370s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

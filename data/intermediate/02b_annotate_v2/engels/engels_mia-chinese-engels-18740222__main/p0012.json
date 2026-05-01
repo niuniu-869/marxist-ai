@@ -1,0 +1,175 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 12,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段描述“工人领袖”为进入议会而依赖资产阶级资助与选票，以及资产阶级通过控制这些候选人来延缓工人真正当选的策略。",
+    "importance_score": 2,
+    "importance_reason": "本段通过具体事例，揭示了“工人领袖”依附资产阶级的实质及其后果，是论证工人政党独立性必要性的关键支撑。",
+    "argument_role": "continues",
+    "argument_link": "本段承接上段对“工人领袖”放弃独立政党路线的批评，进一步揭露其依赖资产阶级的具体方式和资产阶级的控制手段。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "工人代表同盟",
+        "explain": "19世纪70年代英国出现的一个政治组织，由部分工联领袖发起，旨在通过与自由党合作的方式将工人选入议会。其经费和策略受到资产阶级资助者的影响。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "赛米尔·摩里",
+        "explain": "19世纪伦敦的一位富商，曾资助部分工联领袖的政治活动，试图通过经济手段影响工人运动的方向，以维护资产阶级利益。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p12s9",
+        "quote": "他们让伦敦的一位百万富翁赛米尔·摩里先生来办这件事，他不惜花费几千英镑，以便一方面在这个伪工人总参谋部中扮演总司令的角色，另一方面又借此取得工人之友的名声，使别人因为他欺骗了这些工人而感激他。",
+        "trigger": "long_nested",
+        "reader_block": "长句嵌套多层目的状语和角色描述，读者可能难以快速抓住摩里行为的核心动机与双重角色。",
+        "parse": {
+          "claim": "摩里投入资金控制工人候选人，旨在同时扮演工人运动领导者和获取工人支持者名声。",
+          "qualifiers": "其行为的双重目的：一是控制组织，二是塑造个人形象。",
+          "contrast_or_target": "与真正工人代表的独立性形成对比，后者应依靠本阶级力量。"
+        },
+        "why": {
+          "relation": "example",
+          "explanation": "本句是资产阶级控制策略的具体例证，展示了他们如何通过经济手段渗透并操纵工人政治组织。"
+        },
+        "implication": "这揭示了资产阶级通过经济手段渗透工人运动的机制，即利用资助换取政治影响力和道德光环。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "“工人领袖”和赛米尔·摩里",
+      "their_view": "与资产阶级合作、接受其资助是进入议会、实现工人利益的有效途径；资产阶级资助者是工人运动的“朋友”和领导者。",
+      "author_response": "恩格斯指出这实质是放弃工人阶级独立性，使候选人沦为资产阶级工具；资助者是控制者而非朋友，其行为是欺骗。",
+      "polemic_kind": "reveals_class_basis",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p12s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p12s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p12s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p12s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p12s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "工人代表同盟",
+            "type": "org",
+            "modern": "19世纪70年代英国部分工联领袖组建的政治组织，主张与自由党合作参选。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p12s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p12s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p12s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p12s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "赛米尔·摩里",
+            "type": "person",
+            "modern": "19世纪伦敦富商，曾资助部分工联领袖的政治活动。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p12s10",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p12s11",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p12s12",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p12s13",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p12s14",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p12s15",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  }
+}

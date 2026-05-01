@@ -1,0 +1,97 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 61,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁对比不同国家革命运动的条件，批判西欧改良主义政党，同时肯定意大利和奥地利的工人斗争，论证国际革命运动的不可阻挡。",
+    "importance_score": 2,
+    "importance_reason": "本段通过国际对比，支撑了列宁关于俄国革命引发国际连锁反应、且革命力量在斗争中不断结合的核心论点。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段关于国际社会主义力量团结的论述，具体展开这种团结在不同国家的表现形式和条件差异。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "切尔诺夫与策列铁里",
+        "explain": "切尔诺夫是俄国社会革命党领袖，策列铁里是孟什维克领袖。二人在1917年二月革命后曾短暂加入资产阶级临时政府，列宁用他们代指那些与资产阶级合作、进入内阁的西欧社会党人。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "意大利与奥地利工人斗争",
+        "explain": "指1917-1918年间，意大利和奥匈帝国工人因反战和经济诉求爆发的大规模罢工与示威，是当时欧洲革命浪潮的一部分。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p61s2",
+        "quote": "我们说，比较容易开始革命运动的，并不是那些能够比较容易地进行掠夺和有力量收买本国工人上层分子的剥削国家。",
+        "trigger": "inverted_logic",
+        "reader_block": "双重否定结构（“并不是……”）加上“比较容易”的重复，读者容易混淆到底哪类国家更容易开始革命。",
+        "parse": {
+          "claim": "列宁认为，那些通过掠夺殖民地和收买工人贵族来缓和国内矛盾的富裕资本主义国家，其革命运动反而更难发动。",
+          "qualifiers": "此判断针对的是“开始革命运动”的难易程度，而非革命最终的必然性。",
+          "contrast_or_target": "反驳了那种认为经济发达、国力强盛的国家更容易发生革命的普遍看法。"
+        },
+        "why": {
+          "relation": "contrasts",
+          "explanation": "本句通过否定一种常见预设（强国易革命），为下文论证俄国等被压迫国家的革命条件更成熟做铺垫，形成对比。"
+        },
+        "implication": "俄国作为被压迫的、矛盾尖锐的国家，其革命具有更深厚的社会基础和更迫切的条件。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "西欧改良主义政党（切尔诺夫—策列铁里式政党）",
+      "their_view": "我们这些代表工人阶级的政党，通过加入资产阶级政府、参与议会斗争，能够为工人阶级争取利益并推动社会进步。",
+      "author_response": "列宁指出，这些政党实际上一事无成，没有坚实的阶级基础，其改良道路已被实践证明是无效的。",
+      "polemic_kind": "strategic_critique",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p61s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p61s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p61s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p61s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p61s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  }
+}

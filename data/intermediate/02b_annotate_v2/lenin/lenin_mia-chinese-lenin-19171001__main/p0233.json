@@ -1,0 +1,76 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 233,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁以七月事件为例，分析布尔什维克当时未采取进攻策略的后果，并反驳《新生活报》对事件性质的定性。",
+    "importance_score": 2,
+    "importance_reason": "通过具体历史事件（七月事件）的分析，为前文关于“教训”的抽象讨论提供实例支撑，并直接反驳论敌观点。",
+    "argument_role": "continues",
+    "argument_link": "承接上段提出的“教训证明了什么”的问题，本段以七月事件为例，具体阐述布尔什维克在当时形势下的策略选择及其影响。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "七月事件",
+        "explain": "指1917年7月3日至5日在彼得格勒爆发的武装示威。事件起初是自发的，后被布尔什维克部分领导参与，但最终被临时政府镇压，导致布尔什维克转入地下。这是理解本段“7月3日夜里”所指的关键背景。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "《新生活报》",
+        "explain": "当时俄国一份孟什维克（中间派）的报纸，常代表小资产阶级立场。列宁在文中多次引用并反驳其观点，读者需知其为论战对象之一。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "《新生活报》",
+      "their_view": "将1917年7月的事件定性为“国内战争”。",
+      "author_response": "列宁认为这是对事件性质的误判，事件实质是群众自发的爆发，是向政治示威的转变，而非有组织的战争。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p233s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p233s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

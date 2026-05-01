@@ -1,0 +1,125 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 98,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁批判考茨基只关注苏维埃宪法的技术细节，而忽视了国家机器的阶级本质，并对比了资产阶级民主排斥群众与苏维埃政权吸引群众参加管理的根本区别。",
+    "importance_score": 2,
+    "importance_reason": "本段是列宁批判考茨基机会主义的核心论点之一，通过对比两种政权形式，阐明无产阶级专政的实质是吸引被剥削群众管理国家。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对秘密条约时代资本家本质的揭露，将批判焦点转向国家机构的阶级属性，具体分析考茨基在这一问题上的错误。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "考茨基",
+      "their_view": "考茨基抓住苏维埃宪法中选举是“间接的”这类技术细节进行批评，认为这是苏维埃政权的缺陷。",
+      "author_response": "列宁指出，考茨基完全忽略了国家机器的阶级实质，即它究竟是为哪个阶级服务、由哪个阶级掌握的根本问题。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p98s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p98s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "考茨基",
+            "type": "person",
+            "modern": "卡尔·考茨基，第二国际理论家，列宁批判其在国家与革命问题上的机会主义立场。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p98s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "国家机器",
+            "type": "concept",
+            "modern": "马克思主义理论中指国家政权的组织机构与暴力工具，其性质由掌握它的阶级决定。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "state_marxist_theory"
+          }
+        ]
+      },
+      {
+        "sid": "p98s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "资产阶级民主",
+            "type": "concept",
+            "modern": "建立在生产资料私有制基础上的民主形式，其政治权利在实践中受资本力量制约。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "democracy_bourgeois"
+          }
+        ]
+      },
+      {
+        "sid": "p98s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "苏维埃政权",
+            "type": "concept",
+            "modern": "俄国十月革命后建立的无产阶级专政形式，其代表机关由劳动者直接选举产生。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "soviet_power"
+          }
+        ]
+      },
+      {
+        "sid": "p98s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 4,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_6>5",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

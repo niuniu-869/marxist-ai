@@ -1,0 +1,129 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 6,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段分析沙皇政府与自由派资产阶级在应对大学开放问题上的两难处境，并讽刺其徒劳的奔走。",
+    "importance_score": 2,
+    "importance_reason": "通过具体事例（大学问题）揭示革命力量与反动力量的动态，支撑上段关于自由派背叛的论点。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于自由派关闭大学激化斗争的描述，进一步分析政府与自由派在此问题上陷入的困境及其后果。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "特列波夫与罗曼诺夫",
+        "explain": "特列波夫是时任莫斯科总督，以强硬手段镇压革命著称。罗曼诺夫指沙皇尼古拉二世，代表专制政权。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "自由派资产阶级",
+        "explain": "在本文语境中特指以立宪民主党人为代表的俄国自由派，他们主张君主立宪，反对暴力革命，希望与沙皇政府妥协。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "metadata"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "自由派资产阶级（立宪民主党人）",
+      "their_view": "主张利用政府给予大学自治等微小让步来缓和矛盾，要求革命者不要妨碍他们的“运动”，并试图劝说双方保持克制。",
+      "author_response": "指出他们的“来回奔走”和妥协姿态，恰恰暴露了其与专制政权的共同困境，并证明了革命形势的高涨。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p6s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "特列波夫们",
+            "type": "person",
+            "modern": "以莫斯科总督特列波夫为代表的沙皇政府强硬派官僚。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p6s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p6s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p6s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "社会革命党",
+            "type": "org",
+            "modern": "主张通过恐怖手段实现社会主义的俄国政党，代表小资产阶级利益。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p6s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p6s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p6s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 4,
+        "hs_kept": 0,
+        "hs_dropped": 2,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix",
+        "hs:claim_5gram_with_quote",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

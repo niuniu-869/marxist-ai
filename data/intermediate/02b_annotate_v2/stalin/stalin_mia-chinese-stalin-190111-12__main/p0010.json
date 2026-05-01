@@ -1,0 +1,123 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 10,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "斯大林批判党内“经济派”放弃政治领导，沦为自发运动的附庸，不敢向工人说明最终目标与当前任务。",
+    "importance_score": 3,
+    "importance_reason": "核心批判段落，具体展开对“经济派”放弃政治斗争、曲解社会主义实现路径的系统性揭露。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对伯恩施坦“运动就是一切”公式的引述，具体剖析这一思想在俄国党内的表现及其危害。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "无产阶级专政",
+        "explain": "马克思主义国家学说的核心概念，指无产阶级通过革命打碎旧的国家机器后，建立的对资产阶级实行统治的政治形式。它是实现社会主义和共产主义的过渡阶段，与“经济派”认为无需夺取政权的观点直接对立。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "伯恩施坦及其同伙（修正主义）",
+      "their_view": "政治自由与沙皇专制可以相容，推翻专制的政治斗争是多余的；社会主义无需革命斗争，通过工会、合作社等经济组织就能实现；现存制度与社会主义没有本质区别。",
+      "author_response": "斯大林指出，这种观点是“补缀旧衣的荒唐办法”，彻底放弃了无产阶级夺取政权（无产阶级专政）的根本任务，将工人阶级视为不懂革命道理的孩童，实质上是为维护现存制度服务。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p10s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p10s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p10s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p10s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p10s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p10s6",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p10s7",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p10s8",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p10s9",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p10s10",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p10s11",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

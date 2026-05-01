@@ -1,0 +1,88 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 162,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁从理论角度论证党名称中“民主”一词的不科学性，为提出新名称做铺垫。",
+    "importance_score": 1,
+    "importance_reason": "这是列宁论证更改党名的第二个理论论据，属于支撑性内容，但非核心论点。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段提出的第一个论据，从党名称的科学性角度继续展开论证。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_polysemy",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "term_density",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "马克思主义的国家观",
+        "explain": "马克思主义认为国家是阶级矛盾不可调和的产物，是阶级压迫的工具。其最终目标是阶级消灭后国家的消亡，而非建立更完善的国家形式。",
+        "why_needed": "term_polysemy",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "普列汉诺夫、考茨基等主张保留“社会民主党”名称或以资产阶级民主共和国为目标的派别",
+      "their_view": "保留“民主”一词是合适的，因为建立民主共和国是通向社会主义的必要步骤和当前目标。",
+      "author_response": "列宁认为，从最终目标看，“民主”作为国家形式与马克思主义消灭国家的学说相悖，因此在科学上不准确。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p162s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p162s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "民主",
+            "type": "concept",
+            "modern": "列宁在此特指作为国家政体形式的民主，与无产阶级专政相对，是马克思主义国家学说批判的对象。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "democracy_bourgeois"
+          },
+          {
+            "surface": "国家",
+            "type": "concept",
+            "modern": "马克思主义理论中，国家是阶级统治的工具，其存在以阶级对立为前提，最终将随阶级消亡而消亡。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "state_marxist_theory"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

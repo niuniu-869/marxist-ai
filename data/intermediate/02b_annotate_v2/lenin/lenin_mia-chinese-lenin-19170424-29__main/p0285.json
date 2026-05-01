@@ -1,0 +1,90 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 285,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁分析“革命护国主义”的阶级基础，指出其一方面代表富裕农民利益，另一方面是资本家对无产者的欺骗。",
+    "importance_score": 2,
+    "importance_reason": "本段是列宁对当时流行思潮“革命护国主义”进行阶级剖析的关键段落，为后续批判提供理论基础。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对临时政府放弃兼并承诺的不信任，进一步分析为何这种不信任的思潮（革命护国主义）会在各派中流行。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "革命护国主义",
+        "explain": "二月革命后在俄国流行的一种思潮，认为保卫俄国革命成果的战争具有正义性，因此应继续支持战争。它被列宁视为一种机会主义立场。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "民粹主义党派",
+        "explain": "指1917年时主张小农利益、带有民粹主义色彩的俄国政党，主要包括人民社会党、劳动派和社会革命党。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "组织委员会",
+        "explain": "指孟什维克的领导机构，当时以齐赫泽、策列铁里等人为代表，主张与资产阶级合作。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "革命护国主义及其支持者（民粹主义党派、孟什维克等）",
+      "their_view": "二月革命后，保卫俄国革命成果的战争是正义的，因此应当支持这场战争。",
+      "author_response": "列宁从阶级分析入手，指出这种思潮实质上代表富裕农民的利益，并且是资本家欺骗无产阶级和半无产阶级的结果。",
+      "polemic_kind": "reveals_class_basis",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p285s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p285s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p285s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 2,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_6>5",
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

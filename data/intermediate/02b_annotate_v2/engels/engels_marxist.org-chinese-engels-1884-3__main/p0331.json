@@ -1,0 +1,98 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 331,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "以苏格兰为例，说明氏族制度在特定历史事件后终结，并指出克兰是其组成部分。",
+    "importance_score": 1,
+    "importance_reason": "作为前文爱尔兰案例的补充，提供另一个地理区域的例证。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对爱尔兰氏族制度的描述，转而考察苏格兰的情况。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p331s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p331s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "克兰",
+            "type": "concept",
+            "modern": "苏格兰高地特有的氏族组织形式，以血缘关系为纽带。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "clan_highland"
+          }
+        ]
+      },
+      {
+        "sid": "p331s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p331s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "瓦尔特·司各脱的小说",
+            "type": "work",
+            "modern": "19世纪初英国作家，其历史小说描绘了苏格兰高地的社会风貌。",
+            "highlight": "work",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p331s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 15,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁在四月提纲中明确布尔什维克对临时政府的策略：拒绝支持并揭露其欺骗性。",
+    "importance_score": 3,
+    "importance_reason": "这是四月提纲的核心策略之一，直接关系到布尔什维克在革命新阶段的行动纲领。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段关于适应群众觉醒新条件的要求，本段给出了具体的、毫不妥协的行动方针。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p15s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "临时政府",
+            "type": "concept",
+            "modern": "1917年二月革命后成立的资产阶级政府，与工兵代表苏维埃并存。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "provisional_government_1917"
+          }
+        ]
+      },
+      {
+        "sid": "p15s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "放弃兼并",
+            "type": "program_clause",
+            "modern": "临时政府声称将放弃沙俄在第一次世界大战中通过战争获取的领土。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p15s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "资本家政府",
+            "type": "concept",
+            "modern": "列宁对临时政府的定性，指其代表资产阶级利益。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "capitalist_state"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 3,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_6>5",
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

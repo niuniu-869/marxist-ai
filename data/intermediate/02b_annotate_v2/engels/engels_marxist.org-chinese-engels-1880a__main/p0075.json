@@ -1,0 +1,185 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 75,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "叙述英国工人阶级在19世纪中后期通过选举权改革获得政治力量，但同时被议会制度所驯化的过程。",
+    "importance_score": 2,
+    "importance_reason": "提供了英国工人阶级政治发展的具体例证，用以说明国家机器（议会制度）如何吸纳和驯化阶级斗争。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段关于英国资产阶级政治地位的论述，转而描述其后登场的工人阶级如何进入并影响这一政治舞台。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "宪章运动",
+        "explain": "19世纪30-40年代英国工人阶级发起的全国性政治运动，核心诉求是实现成年男子普选权等议会改革。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "迪斯累里与户主选举权",
+        "explain": "迪斯累里是保守党（托利党）领袖，他推动的1867年改革法案将选举权扩大到城市中的房主和租户，是英国选举权史上的重要节点。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "讲坛社会主义",
+        "explain": "19世纪后期德国的一种改良主义经济学派，主张通过国家干预和渐进改良来调和阶级矛盾，反对革命。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p75s2",
+        "quote": "宪章运动和大陆革命以后的反动，以及1848——1866年英国贸易的空前繁荣(通常这只是被归功于自由贸易，其实更多地应归功于铁路、远洋轮船以及全部交通工具的巨大发展)，又使工人阶级依附自由党了，他们在这个党内，也像在宪章运动以前那样，组成了激进的一翼。",
+        "trigger": "long_nested",
+        "reader_block": "句子包含多个并列的历史事件和插入的括号解释，因果链条（反动与繁荣→依附自由党）被长修饰语隔开，读者容易迷失主干。",
+        "parse": {
+          "claim": "宪章运动失败后的政治反动与随后的经济繁荣，共同促使英国工人阶级在政治上再次依附于自由党，并在其中扮演激进派角色。",
+          "qualifiers": "时间限定在宪章运动之后至1866年；经济繁荣的原因被作者特别指出应归功于交通技术发展而非自由贸易。",
+          "contrast_or_target": ""
+        },
+        "why": {
+          "relation": "continues",
+          "explanation": "承接上文关于英国政治格局的叙述，具体说明工人阶级在19世纪中叶的政治动向及其与自由党的关系，为后文选举权改革的影响做铺垫。"
+        },
+        "implication": "工人阶级的政治立场并非固定不变，会受到宏观政治气候与经济状况的显著影响。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p75s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p75s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "宪章运动",
+            "type": "event",
+            "modern": "1836-1848年英国工人阶级要求普选权的大规模政治运动",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p75s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p75s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "迪斯累里",
+            "type": "person",
+            "modern": "本杰明·迪斯累里，19世纪英国保守党领袖，曾任首相",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "户主的选举权",
+            "type": "program_clause",
+            "modern": "1867年英国改革法案的核心内容，将选举权赋予城市中缴纳一定税额的房主和长期租户",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p75s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p75s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p75s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p75s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p75s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p75s10",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "讲坛社会主义",
+            "type": "org",
+            "modern": "19世纪后期德国的一种改良主义经济学派，主张通过国家社会主义实现社会改良",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 4,
+        "notes_dropped": 0,
+        "hs_kept": 1,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,158 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 61,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁阐述从理论宣传转向实际革命行动的战术转变，并提出召开党代会、修改纲领等具体组织任务。",
+    "importance_score": 2,
+    "importance_reason": "提出从宣传口号到具体行动的策略转变，并列出紧迫的组织任务，是理论到实践的过渡。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段关于法律执行依赖国家机器的论断，转向更广泛的战术和组织问题，强调必须采取实际行动。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "军事资本主义",
+        "explain": "指第一次世界大战期间，国家机器与垄断资本深度融合，国家经济、政治生活全面军事化的资本主义形态，是战前自由资本主义的特殊变种。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "最低纲领",
+        "explain": "第二国际时期社会民主党纲领中，关于当前资产阶级民主革命阶段应完成的任务部分，与指向社会主义的“最高纲领”相对。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p61s1",
+        "quote": "对各被压迫阶级不要说“实现社会主义吧”，而要说“推行社会主义措施吧”。",
+        "trigger": "inverted_logic",
+        "reader_block": "读者可能困惑为何要区分“实现”与“推行”，这背后是策略转变：从遥远的最终目标转向当前可操作的步骤。",
+        "parse": {
+          "claim": "对群众的动员口号应从遥远的最终目标，转变为当前阶段可以着手实施的具体社会变革步骤。",
+          "qualifiers": "针对的对象是“各被压迫阶级”，即革命的潜在同盟力量。",
+          "contrast_or_target": "对比党内或运动中那些满足于空喊最终目标、不提出当前具体任务的倾向。"
+        },
+        "why": {
+          "relation": "contrasts",
+          "explanation": "此句与党内当时流行的、将社会主义视为遥远未来的观点形成对比，提出一种更务实、更能动员群众的当前行动纲领。"
+        },
+        "implication": "这标志着布尔什维克策略从等待资本主义充分发展转向主动利用当前危机推行部分社会主义措施。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      },
+      {
+        "anchor": "p61s2",
+        "quote": "资本主义已经变了，军事资本主义，不是战前的资本主义。",
+        "trigger": "term_density",
+        "reader_block": "“军事资本主义”是特定历史概念，读者若不了解一战对资本主义形态的改造，难以理解其与“战前资本主义”的区别及论证意义。",
+        "parse": {
+          "claim": "第一次世界大战已经根本改变了资本主义的运作形态，使其进入一个国家机器与资本深度结合的新阶段。",
+          "qualifiers": "此判断基于1917年一战仍在进行的现实。",
+          "contrast_or_target": "对比战前相对自由竞争的资本主义形态。"
+        },
+        "why": {
+          "relation": "definition",
+          "explanation": "为前一句的策略转变提供客观依据：因为资本主义形态已变，所以革命策略也必须相应改变，不能再沿用旧的宣传口号。"
+        },
+        "implication": "新形态的资本主义为无产阶级革命提供了新的条件和可能性，也提出了新的斗争形式。",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "党内满足于理论宣传、不采取实际行动的倾向",
+      "their_view": "社会主义是遥远的未来目标，当前阶段只需进行民主革命或提出一般性要求，无需立即推行实质性的社会变革措施。",
+      "author_response": "列宁主张必须立即转向实际工作，推行具体的社会主义措施，并为此修改党的纲领和组织形式。",
+      "polemic_kind": "strategic_critique",
+      "confidence": "medium"
+    },
+    "sentences": [
+      {
+        "sid": "p61s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "推行社会主义措施",
+            "type": "slogan",
+            "modern": "列宁提出的新策略口号，强调在当前阶段就着手实施具体的、局部的社会主义性质的社会变革，而非空谈最终目标。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p61s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p61s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p61s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p61s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p61s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "最低纲领",
+            "type": "program_clause",
+            "modern": "党纲中关于当前资产阶级民主革命阶段具体任务的部分，列宁认为其已过时，需根据新形势修改。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 4,
+        "hs_kept": 2,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_6>5",
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

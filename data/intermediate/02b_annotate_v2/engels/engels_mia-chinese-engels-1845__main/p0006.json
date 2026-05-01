@@ -1,0 +1,155 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 6,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "恩格斯以反讽口吻，通过对比傅立叶的“荒诞”幻想与德国理论家的“绝对”空谈，论证前者对社会关系的批判更具价值。",
+    "importance_score": 2,
+    "importance_reason": "核心论辩段落，通过对比具体案例（傅立叶）与抽象教条（德国理论），阐明作者对“理论联系实际”的立场。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对德国理论家自大无知的批判，本段引入傅立叶作为具体参照物，通过对比来坐实批判。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "“绝对的社会主义”",
+        "explain": "这是恩格斯讽刺德国理论家（如施泰因）的用语。他们声称自己的理论是基于黑格尔哲学推导出的、超越一切具体经验的“绝对”真理和“绝对”社会主义形态。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      },
+      {
+        "topic": "傅立叶的分类方法",
+        "explain": "傅立叶试图用一套精密的分类体系（如“情欲引力”）来描述和预测社会运动，而非基于黑格尔式的逻辑推演。恩格斯在此指出其方法论与德国思辨哲学的根本不同。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p6s5",
+        "quote": "但是尽管如此，我还是宁愿同乐观的傅立叶一起相信所有这些奇迹，而不相信那根本没有任何柠檬汁的绝对的精神王国，不相信有和无的同一以及永恒范畴的交配。",
+        "trigger": "inverted_logic",
+        "reader_block": "双重否定（“不相信”）与高度抽象的哲学概念（“有和无的同一”“永恒范畴的交配”）结合，读者难以把握作者的真实褒贬。",
+        "parse": {
+          "claim": "作者明确表示，他更愿意接受傅立叶那些充满想象力的、乐观的社会改造方案，也不愿接受德国思辨哲学所构建的、空洞无物的抽象体系。",
+          "qualifiers": "这是一个价值选择判断，基于对两种理论体系实际效用的比较。",
+          "contrast_or_target": "德国理论家（如施泰因）所宣扬的、基于黑格尔逻辑的“绝对”哲学体系，被作者视为“根本没有任何柠檬汁”的空谈。"
+        },
+        "why": {
+          "relation": "contrasts",
+          "explanation": "本句通过“宁愿……而不……”的对比结构，将傅立叶的“奇迹”（具体但荒诞的幻想）与德国理论的“精神王国”（抽象但空洞的体系）并置，完成对后者价值的否定。"
+        },
+        "implication": "作者认为，即使包含幻想成分，对现实社会进行具体批判和改造的尝试，也比脱离实际的纯粹哲学思辨更有意义。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      },
+      {
+        "anchor": "p6s6",
+        "quote": "法国人的无稽之谈至少是令人高兴的，而德国人的无稽之谈却令人丧气和抑郁。",
+        "trigger": "inverted_logic",
+        "reader_block": "表面是评价“无稽之谈”的情感效果，实则是通过情感对比（高兴 vs 丧气）来论证两种理论的根本性质差异。",
+        "parse": {
+          "claim": "法国社会主义者（如傅立叶）的理论虽然包含不切实际的幻想，但其基调是乐观和面向未来的；而德国理论家的空谈则因其抽象和脱离实际，给人带来压抑和绝望感。",
+          "qualifiers": "此判断基于两种理论所传递的整体精神气质。",
+          "contrast_or_target": "将“法国人的无稽之谈”（傅立叶等）与“德国人的无稽之谈”（施泰因等）进行情感效果上的对比。"
+        },
+        "why": {
+          "relation": "conclusion",
+          "explanation": "本句是上文对比论证的情感总结，用“高兴”与“丧气”的直觉感受，强化了傅立叶理论相对于德国空谈的优越性。"
+        },
+        "implication": "理论的价值不仅在于逻辑自洽，更在于其是否能激发人们对社会变革的积极想象与行动意愿。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "德国理论家（以施泰因为代表）",
+      "their_view": "我们的理论源于黑格尔哲学，是更高阶段的、绝对的社会主义，优于法国那些缺乏哲学基础的具体方案。",
+      "author_response": "你们的“绝对”理论是空洞无物的“精神王国”，连傅立叶那些充满幻想但乐观的社会批判都不如。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p6s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p6s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p6s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p6s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "分类的方法",
+            "type": "concept",
+            "modern": "傅立叶试图用一套固定的分类体系（如“情欲引力”）来描述社会运动的方法论。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "methodology_fourier"
+          }
+        ]
+      },
+      {
+        "sid": "p6s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p6s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p6s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 3,
+        "hs_kept": 2,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "note:n1_overflow_concept_7>5",
+        "note:n1_overflow_concept_7>5"
+      ]
+    }
+  ]
+}

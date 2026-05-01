@@ -1,0 +1,126 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 48,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁引用卢森堡对德国社会民主党的批判，反讽普列汉诺夫等人却为德国沙文主义者辩护。",
+    "importance_score": 2,
+    "importance_reason": "本段直接批评论敌，强化对机会主义的揭露。",
+    "argument_role": "continues",
+    "argument_link": "本段承接上段对普列汉诺夫的批评，通过引用卢森堡的话来具体化其立场与沙文主义的关联。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "1914年8月4日事件",
+        "explain": "1914年8月4日，德国社会民主党在帝国议会投票支持战争拨款，背叛国际主义原则，被左翼视为社会沙文主义行为。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "沙文主义",
+        "explain": "沙文主义指极端、盲目的爱国主义，在一战语境中特指各国社会民主党支持本国政府参战的立场。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "普列汉诺夫、戈尔登贝格",
+      "their_view": "普列汉诺夫等人对列宁的批判表示不满，认为列宁的立场不当。",
+      "author_response": "列宁反讽他们实际在为德国沙文主义者辩护，揭露其机会主义立场。",
+      "polemic_kind": "counter_quotation",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p48s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "罗莎·卢森堡",
+            "type": "person",
+            "modern": "德国马克思主义理论家，反对一战的社会民主党左翼领袖。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "德国社会民主党",
+            "type": "org",
+            "modern": "1863年成立的德国工人政党，一战中支持本国政府参战。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p48s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "普列汉诺夫",
+            "type": "person",
+            "modern": "俄国马克思主义理论家，孟什维克领袖，支持临时政府。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "戈尔登贝格",
+            "type": "person",
+            "modern": "俄国孟什维克，支持临时政府。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p48s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "沙文主义者",
+            "type": "concept",
+            "modern": "极端爱国主义者，支持本国资产阶级政府参战。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "chauvinism"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 5,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

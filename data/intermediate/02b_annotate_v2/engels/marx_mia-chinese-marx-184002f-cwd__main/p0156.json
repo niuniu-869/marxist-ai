@@ -1,0 +1,80 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 156,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段批评封建党等复古势力，指出他们责备资本阶级并非因其造出无产阶级，而是因其造出革命的无产阶级，并揭露他们政治行动与日常生活的矛盾。",
+    "importance_score": 1,
+    "importance_reason": "本段延续对封建党等势力的批判，具体化其责备资本阶级的动机和言行不一，支撑前文论点。",
+    "argument_role": "continues",
+    "argument_link": "本段承接上段对封建党等势力的批判，进一步分析其责备资本阶级的深层原因和实际行为。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "allusion",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p156s2",
+        "quote": "他們日常的生活，也和〔三十八頁〕他們平日說的大話相反，他們專想拾產業樹上落下的黃金果，他們專想假借眞理，愛，和名譽，去換那毛糖，和馬鈴薯的酒精。",
+        "trigger": "allusion",
+        "reader_block": "比喻'产业树上落下的黄金果'和'毛糖、马铃薯的酒精'，读者可能不理解其象征意义，需要知道这是指资产阶级的利益和廉价享受。",
+        "parse": {
+          "claim": "这些势力的日常生活与他们平日宣扬的真理、爱和名誉相反，他们专注于获取产业利润和低级享乐。",
+          "qualifiers": "在日常生活中",
+          "contrast_or_target": "他们的言论与实际行动的对比"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "本句通过比喻揭露封建党等势力言行不一，他们口头上谈论高尚价值，实际上追求物质利益。"
+        },
+        "implication": "这表明他们的社会主义主张是虚伪的。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p156s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p156s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 1,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

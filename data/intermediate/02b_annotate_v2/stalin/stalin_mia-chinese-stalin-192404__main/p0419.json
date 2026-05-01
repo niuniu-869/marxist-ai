@@ -1,0 +1,55 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 419,
+  "annotation": {
+    "block_type": "quote_block",
+    "gist": "引用列宁论述，强调在革命关键时刻清除党内改良派对巩固无产阶级政权的必要性。",
+    "importance_score": 2,
+    "importance_reason": "为上一段关于党通过清洗巩固的论点提供列宁的权威例证，是论证链中的关键支撑。",
+    "argument_role": "example",
+    "argument_link": "本段通过引用列宁的具体论述，为上一段关于党通过清洗巩固的论点提供权威例证。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "all_known",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "改良主义者、孟什维克、屠拉梯分子",
+      "their_view": "党内可以容纳改良主义者、孟什维克等动摇分子，甚至在革命决战时刻仍主张与他们保持统一。",
+      "author_response": "列宁指出，在革命前夜和最激烈斗争时，党内任何动摇都可能葬送革命，必须将这些人驱逐出党，甚至撤换动摇的领袖，这反而会加强党。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p419s1",
+        "speaker": "quoted_lenin",
+        "stance": "endorsed",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

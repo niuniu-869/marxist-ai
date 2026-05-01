@@ -1,0 +1,104 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 18,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "通过连续反问，论证马克思理论的核心是经济基础决定上层建筑，并讽刺门格尔对马克思的概括。",
+    "importance_score": 2,
+    "importance_reason": "核心批判段落，通过反问揭示门格尔对马克思理论的片面理解，强调历史唯物主义的基本原理。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对门格尔将马克思经济学贬为‘装饰物’的反驳，进一步追问社会阶级及其观念的根源，将论战引向历史唯物主义的核心命题。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p18s5",
+        "quote": "难道除此而外，他还说过别的什么吗？",
+        "trigger": "inverted_logic",
+        "reader_block": "反问句式，读者需将其转换为肯定陈述才能理解其真实含义，即马克思的理论核心就是第四句所述。",
+        "parse": {
+          "claim": "马克思除了指出阶级状况决定法的观点外，没有提出其他理论。",
+          "qualifiers": "",
+          "contrast_or_target": "门格尔认为马克思的理论除了阶级状况决定法的观点外，还有其他内容。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "此句以反问形式，直接针对门格尔对马克思理论的片面概括，强调马克思理论的简洁与核心，为下句的讽刺做铺垫。"
+        },
+        "implication": "门格尔对马克思理论的概括是片面的，他未能把握其核心。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p18s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p18s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p18s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p18s4",
+        "speaker": "quoted_marx",
+        "stance": "endorsed",
+        "notes": []
+      },
+      {
+        "sid": "p18s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p18s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 1,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

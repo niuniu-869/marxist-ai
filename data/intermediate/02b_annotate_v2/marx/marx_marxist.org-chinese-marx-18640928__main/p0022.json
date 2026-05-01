@@ -1,0 +1,154 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 22,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段论证合作运动的局限性，并批判那些先前反对、现在又转而吹捧合作运动的各类人物。",
+    "importance_score": 2,
+    "importance_reason": "本段是前段对合作运动赞扬的转折，揭示其在资本主义框架下的根本局限，并引出政治斗争的必要性。",
+    "argument_role": "contrasts",
+    "argument_link": "承接上段对合作运动的肯定，转而指出其在现有社会结构下的局限性，形成论证上的转折与深化。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "帕麦斯顿与爱尔兰法案",
+        "explain": "帕麦斯顿是当时英国首相。爱尔兰租佃者权利法案旨在保护爱尔兰佃农免受地主随意驱逐。帕麦斯顿在议会中嘲讽该法案的维护者，声称下院代表土地所有者利益。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p22s2",
+        "quote": "也许正是由于这种原因，所以那些面善口惠的贵族，资产阶级的慈善空谈家，以至机灵的政治经济学家，先前在合作劳动制处于萌芽状态时枉费心机地想要把它铲除，嘲笑它是幻想家的空想，咒骂它是社会主义者的邪说，现在都突然令人发呕地捧起场来了。",
+        "trigger": "inverted_logic",
+        "reader_block": "句子用“也许正是由于这种原因”连接前后，但“这种原因”指代前句合作运动的局限性，读者可能误以为这些人是因为局限性才转而吹捧，实际是反讽他们见风使舵。",
+        "parse": {
+          "claim": "那些先前试图扼杀、嘲笑合作运动的人，现在却转而吹捧它。",
+          "qualifiers": "这种转变发生在合作运动显示出其局限性之后。",
+          "contrast_or_target": "论敌先前将合作劳动斥为空想和邪说，现在却转而赞美它。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "本句揭露论敌（贵族、慈善家、经济学家）对合作运动态度前后矛盾的虚伪性，其转变并非出于理论认同，而是策略调整。"
+        },
+        "implication": "论敌对合作运动的吹捧并非真心支持，而是试图将其纳入可控范围，消解其革命性。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "面善口惠的贵族、资产阶级的慈善空谈家、机灵的政治经济学家",
+      "their_view": "合作劳动是幻想家的空想，是社会主义者的邪说，应当被铲除；现在它显示出局限性，又转而吹捧它。",
+      "author_response": "这些人对合作运动的态度转变是虚伪和投机的，他们先前反对是为了扼杀，现在吹捧是为了将其限制在狭隘范围内，根本目的是维护自身的经济垄断。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p22s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "合作劳动",
+            "type": "concept",
+            "modern": "工人共同拥有和管理生产资料的经济组织形式，是资本主义生产关系内部的对抗性因素。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "cooperative_labor"
+          },
+          {
+            "surface": "垄断势力",
+            "type": "concept",
+            "modern": "在资本主义发展中，通过资本积累和竞争形成的、控制市场和生产的大资本集团。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "monopoly_capital"
+          }
+        ]
+      },
+      {
+        "sid": "p22s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p22s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p22s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p22s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p22s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "帕麦斯顿勋爵",
+            "type": "person",
+            "modern": "19世纪英国政治家，时任首相，代表土地贵族和金融资产阶级利益。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "爱尔兰租佃者权利法案",
+            "type": "event",
+            "modern": "旨在保护爱尔兰佃农权益、限制地主驱逐权的议会提案，遭到代表地主利益的英国政府反对。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p22s7",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 4,
+        "notes_dropped": 1,
+        "hs_kept": 1,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

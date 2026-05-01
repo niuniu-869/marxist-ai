@@ -1,0 +1,112 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 9,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁批判新《火星报》编辑部将地方自治自由派与资产阶级民主派加以区别的观点，指出这是其“新斗争方法”的核心糊涂思想。",
+    "importance_score": 2,
+    "importance_reason": "直接点明并批判了论敌策略的核心逻辑，是理解列宁与新《火星报》编辑部分歧的关键段落。",
+    "argument_role": "contrasts",
+    "argument_link": "承接上段对斯塔罗韦尔决议案缺陷的分析，进一步深入批判新《火星报》编辑部相关议论的核心思想。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "allusion",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "蝎子鞭典故",
+        "explain": "源自《圣经》，是古代用于惩罚罪人的刑具。列宁用此词讽刺论敌对地方自治自由派的极端态度，意指他们认为这部分人只配受最严厉的惩罚。",
+        "why_needed": "allusion",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p9s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p9s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p9s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p9s4",
+        "speaker": "quoted_opponent",
+        "stance": "cited",
+        "notes": [
+          {
+            "surface": "蝎子鞭",
+            "type": "metaphor",
+            "modern": "源自《圣经》的刑具，列宁用以讽刺论敌主张对地方自治自由派采取的极端排斥态度。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p9s5",
+        "speaker": "quoted_opponent",
+        "stance": "cited",
+        "notes": []
+      },
+      {
+        "sid": "p9s6",
+        "speaker": "quoted_opponent",
+        "stance": "cited",
+        "notes": [
+          {
+            "surface": "运动神经",
+            "type": "metaphor",
+            "modern": "论敌用来比喻资产阶级民主派是自由派中起推动作用的核心部分，列宁转述时带有反讽。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote",
+        "polemic:eval_word:author_response:伟大"
+      ]
+    }
+  ]
+}

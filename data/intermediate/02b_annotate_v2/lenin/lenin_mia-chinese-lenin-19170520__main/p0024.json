@@ -1,0 +1,61 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 24,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁针对如何保护贫苦农民的问题，提出了一个直接的解决方案：通过多数人的意见来决定，因为贫苦农民在数量上占优。",
+    "importance_score": 3,
+    "importance_reason": "本段是列宁对前文所提问题的直接回答，提出了其解决土地问题的核心方法论，是论证的关键环节。",
+    "argument_role": "continues",
+    "argument_link": "本段直接承接上一段提出的问题（如何保护贫苦农民），并给出了列宁所主张的具体解决原则。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "社会革命党人",
+      "their_view": "他们反对农民擅自夺取土地，认为这会导致对贫苦农民不利的后果。",
+      "author_response": "列宁主张，保护贫苦农民的正确途径不是限制其行动，而是确立一个由他们占多数的决策机制。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p24s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p24s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_6>5"
+      ]
+    }
+  ]
+}

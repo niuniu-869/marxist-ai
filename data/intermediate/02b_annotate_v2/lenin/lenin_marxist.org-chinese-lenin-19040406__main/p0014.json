@@ -1,0 +1,80 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 14,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "指出在普利什凯维奇统治下的俄国，民族主义者鲍勃凌斯基的演说反而帮助了社会民主党人的宣传，揭露了民族主义政策的矛盾效果。",
+    "importance_score": 2,
+    "importance_reason": "通过具体例子说明民族主义者的行动如何无意中促进社会民主党的宣传，支撑前段论点。",
+    "argument_role": "continues",
+    "argument_link": "本段承接上段关于民族主义者唤醒非俄罗斯居民的论点，具体指出普利什凯维奇统治下的情况使鲍勃凌斯基的演说成为社会民主党宣传的助力。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "普利什凯维奇",
+      "their_view": "通过暴力手段镇压非俄罗斯民族，巩固大俄罗斯人的统治地位。",
+      "author_response": "列宁揭露这种残酷统治实际上激发了被压迫民族的觉醒，客观上有利于社会民主党的宣传。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p14s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "普利什凯维奇",
+            "type": "person",
+            "modern": "俄国右翼政治家，极端民族主义代表",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "鲍勃凌斯基",
+            "type": "person",
+            "modern": "民族主义政治家，在杜马中发表演说",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "铁蹄下呻吟",
+            "type": "metaphor",
+            "modern": "形容在暴力统治下民众的苦难处境",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 3,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

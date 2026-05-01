@@ -1,0 +1,82 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 6,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "马克思通过援引自己对车尔尼雪夫斯基的评价，来反驳米海洛夫斯基对其观点的曲解，并建立关于俄国发展道路的论证。",
+    "importance_score": 2,
+    "importance_reason": "本段是核心论证的关键环节，通过引入第三方权威（车尔尼雪夫斯基）来反驳论敌的曲解，并为后续阐述马克思本人对俄国公社的观点做铺垫。",
+    "argument_role": "contrasts",
+    "argument_link": "上段指出米海洛夫斯基找不到支持其结论的直接引证，本段则通过引用马克思对车尔尼雪夫斯基的评价，建立一个对比性的论证逻辑，以反驳米海洛夫斯基的推断方式。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "车尔尼雪夫斯基与俄国公社争论",
+        "explain": "尼·加·车尔尼雪夫斯基是19世纪俄国重要的革命民主主义者和思想家。他关注的核心问题是：俄国能否利用其独特的农村公社制度，绕过资本主义的完整发展阶段，直接走向更高级的社会形态。这一争论是当时俄国思想界的核心议题之一。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p6s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p6s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p6s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p6s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote",
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

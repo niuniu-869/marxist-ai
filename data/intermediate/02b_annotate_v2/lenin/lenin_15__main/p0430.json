@@ -1,0 +1,66 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 430,
+  "annotation": {
+    "block_type": "title",
+    "gist": "本段显示数字序列，疑似章节编号或文本排版错误。",
+    "importance_score": 0,
+    "importance_reason": "本段为数字乱码，可能标识章节过渡，但无实质论证内容。",
+    "argument_role": "none",
+    "argument_link": null,
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "text_anomaly",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "text_anomaly",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "文本异常",
+        "explain": "本段显示数字序列'145.1 0.2 3.4'，疑似排版残留或OCR错误，非正常论述内容。",
+        "why_needed": "text_anomaly",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p430s1",
+        "quote": "145.1 0.2 3.4",
+        "trigger": "text_anomaly",
+        "reader_block": "数字序列无意义，读者会困惑这是章节编号还是文本错误。",
+        "parse": {
+          "claim": "本段内容为数字乱码，非正常文本。",
+          "qualifiers": "",
+          "contrast_or_target": ""
+        },
+        "why": {
+          "relation": "none",
+          "explanation": ""
+        },
+        "implication": null,
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p430s1",
+        "speaker": "editor",
+        "stance": "neutral_citation",
+        "notes": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 26,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段论证工人阶级解放需要国际团结，但民族主义战争政策是障碍，并以历史事例说明工人阶级应如何应对国际政治。",
+    "importance_score": 3,
+    "importance_reason": "提出工人阶级的国际政治责任，是成立宣言核心论点之一。",
+    "argument_role": "continues",
+    "argument_link": "承接上段提到的“信念”，具体阐述工人阶级解放任务在国际政治层面的要求与障碍。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "美国内战与奴隶制",
+        "explain": "1861-1865年美国南北战争的核心议题之一是废除南方种植园奴隶制。马克思写作时，战争正在进行，英国统治阶级中部分人支持南方，意图维护奴隶制并打击美国工业竞争对手。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "克里米亚战争与沙俄扩张",
+        "explain": "1853-1856年克里米亚战争是俄国与英、法、奥斯曼帝国等国的战争。战后俄国继续在高加索地区进行军事征服，并长期图谋瓜分和控制波兰。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "波兰问题",
+        "explain": "18世纪末波兰被俄、普、奥三次瓜分，此后波兰人民多次起义争取独立。19世纪中叶，波兰的民族解放运动是欧洲政治的重要议题，常与反对沙俄专制统治相关联。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p26s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p26s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p26s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p26s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p26s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 3,
+        "hs_kept": 0,
+        "hs_dropped": 2,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_event_15>12",
+        "note:n1_overflow_event_23>12",
+        "note:n1_overflow_metaphor_23>8",
+        "hs:claim_5gram_with_quote",
+        "hs:claim_5gram_with_quote",
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

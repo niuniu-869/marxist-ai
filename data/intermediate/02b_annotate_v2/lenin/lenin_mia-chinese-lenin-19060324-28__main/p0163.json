@@ -1,0 +1,136 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 163,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁反驳布兰克将议会道路视为国际社会民主运动唯一道路的观点，指出其与资产阶级自由派论调一致，并分析俄国缺乏真正议会制的现实。",
+    "importance_score": 2,
+    "importance_reason": "本段是核心批判的一部分，通过反驳布兰克的观点，为抵制杜马选举的策略提供理论依据。",
+    "argument_role": "contrasts",
+    "argument_link": "承接上段对布兰克言论的引述，直接反驳其将议会道路视为社会民主党“出发点”的论断。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "伯恩施坦派",
+        "explain": "19世纪末德国社会民主党内的修正主义流派，主张通过议会改良而非革命实现社会主义，被列宁视为对马克思主义的背叛。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "布伦坦诺",
+        "explain": "德国资产阶级经济学家，主张劳资协调的“讲坛社会主义”，否认阶级斗争的必然性，被列宁视为资产阶级思想的代表。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "布兰克及立宪民主党人",
+      "their_view": "议会道路是国际社会民主运动的正常、主要甚至唯一道路，俄国社会民主党应回到这条道路。",
+      "author_response": "列宁指出这是重复资产阶级自由派歪曲社会民主主义的论调，俄国缺乏真正议会制，这种观点忽视了俄国资产阶级革命尚未完成的现实。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p163s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p163s2",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p163s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p163s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p163s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p163s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p163s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p163s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p163s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p163s10",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p163s11",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p163s12",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

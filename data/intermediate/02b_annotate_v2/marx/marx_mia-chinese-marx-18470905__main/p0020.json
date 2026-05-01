@@ -1,0 +1,152 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 20,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段批判《莱茵观察家》编辑对无产阶级的狭隘理解，指出他们误判了无产阶级的诉求与认知能力。",
+    "importance_score": 2,
+    "importance_reason": "本段是核心批判的一部分，具体拆解了论敌对无产阶级的错误预设，为后文论证无产阶级的革命性铺垫。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对无产阶级政治行动力的肯定，转而具体剖析《莱茵观察家》编辑对无产阶级的错误认知，形成对比。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "allusion",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "refute_quotation"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "Panem et circenses",
+        "explain": "古罗马诗人尤维纳利斯的名言，意为“面包与娱乐”，指统治者用物质满足和感官娱乐来安抚、麻痹民众的手段。马克思在此将其与论敌的“面包和宗教”并列，构成讽刺。",
+        "why_needed": "allusion",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p20s3",
+        "quote": "他们认为，他们答应给人民以panem et religionem〔面包和宗教〕而不是panem et circenses〔面包和娱乐〕，也就算考虑得十分周到了。",
+        "trigger": "allusion",
+        "reader_block": "句中嵌套了拉丁语典故“面包与娱乐”，并将其改造为“面包与宗教”，读者若不知其出处与讽刺意味，会难以理解马克思的批判锋芒。",
+        "parse": {
+          "claim": "《莱茵观察家》的编辑们自认为，用宗教信仰替代世俗娱乐来满足民众，就已经是对民众福祉的充分关照。",
+          "qualifiers": "无。",
+          "contrast_or_target": "他们认为，给予民众宗教慰藉（panem et religionem）比给予娱乐消遣（panem et circenses）是更高级、更周到的施舍。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "此句直接引用并转述了论敌的自我标榜，通过使用古罗马典故的变体，揭露其将无产阶级视为被动接受施舍对象的恩赐心态，为下文的反驳树立靶子。"
+        },
+        "implication": "马克思借此暗示，无论提供的是娱乐还是宗教，这种居高临下的“施舍”逻辑本身，就是对无产阶级主体性的否定。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      },
+      {
+        "anchor": "p20s4",
+        "quote": "他们觉得，无产阶级渴望援助，但未想到，无产阶级除了渴望自己的援助外，并不渴望任何人的援助。",
+        "trigger": "inverted_logic",
+        "reader_block": "“除了渴望自己的援助外，并不渴望任何人的援助”是双重否定式的肯定，强调无产阶级只信赖自身力量，读者容易忽略其蕴含的阶级自主性主张。",
+        "parse": {
+          "claim": "无产阶级真正需要的，是依靠自身力量获得的解放，而非来自任何外部势力的恩赐或帮助。",
+          "qualifiers": "无。",
+          "contrast_or_target": "论敌认为无产阶级是被动、软弱、等待外部拯救的群体。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "此句直接反驳了论敌对无产阶级“渴望援助”的预设，揭示了无产阶级与一切外部救世主（包括政府和自由派）的根本区别，即其斗争的自主性。"
+        },
+        "implication": "这确立了无产阶级作为独立历史行动者的地位，其革命动力源于自身，而非他人的“援助”。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "莱茵观察家",
+      "their_view": "无产阶级是需要被施舍面包和宗教的被动群体；我们提供宗教而非娱乐，已是仁至义尽；他们渴望我们的援助。",
+      "author_response": "无产阶级只信赖自身力量进行解放斗争；他们完全看穿了政府与自由派关于“人民福利”等说辞的虚伪性。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p20s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "莱茵观察家",
+            "type": "work",
+            "modern": "1840年代普鲁士官方立场的报纸，马克思此文的主要论战对象。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "metadata"
+          }
+        ]
+      },
+      {
+        "sid": "p20s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p20s3",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": [
+          {
+            "surface": "panem et religionem",
+            "type": "quote",
+            "modern": "拉丁语，意为“面包与宗教”，马克思改造自古罗马“面包与娱乐”口号，用以讽刺论敌的施舍逻辑。",
+            "highlight": "quote",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p20s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p20s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "人民的福利",
+            "type": "slogan",
+            "modern": "马克思在此指代政府与自由派资产者惯用的、用以掩盖其阶级利益的空洞政治口号。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 3,
+        "notes_dropped": 2,
+        "hs_kept": 2,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_social_group_14>12",
+        "note:n1_overflow_concept_7>5"
+      ]
+    }
+  ]
+}

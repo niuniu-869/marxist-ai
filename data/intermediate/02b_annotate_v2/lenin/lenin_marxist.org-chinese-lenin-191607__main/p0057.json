@@ -1,0 +1,93 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 57,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁指出波兰社会民主党反对派在兼并问题上同时使用两个相互排斥的论据，揭露其逻辑矛盾。",
+    "importance_score": 2,
+    "importance_reason": "本段是核心批判的一部分，通过揭示论敌论证的内在矛盾来削弱其反对民族自决权的立场。",
+    "argument_role": "contrasts",
+    "argument_link": "上一段论证兼并主要加剧民族战争风险，本段则转向揭露反对派在兼并问题上论证的自相矛盾。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "refute_quotation"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p57s2",
+        "quote": "但是，在同一个问题上同时提出这两个相互排斥的论据，这是否合乎逻辑呢？",
+        "trigger": "inverted_logic",
+        "reader_block": "反问句式，读者可能只注意到质疑语气，而忽略其指向的具体逻辑矛盾（即下文所揭示的两个论据的互斥性）。",
+        "parse": {
+          "claim": "反对派在同一问题上提出的两个论据在逻辑上是相互排斥、不能并存的。",
+          "qualifiers": "针对反对派关于兼并问题的两个具体论据。",
+          "contrast_or_target": "反对派认为兼并既造成无产阶级分裂，又认为取消兼并是反动的感伤行为。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "本句是列宁对反对派论证发起直接逻辑攻击的起点，为下文具体揭示矛盾做铺垫。"
+        },
+        "implication": "如果两个论据互斥，则反对派的整个论证基础存在严重缺陷。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p57s1",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p57s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p57s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p57s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 1,
+        "hs_dropped": 1,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote",
+        "polemic:polemic_their_view_qualifier:反动的"
+      ]
+    }
+  ]
+}

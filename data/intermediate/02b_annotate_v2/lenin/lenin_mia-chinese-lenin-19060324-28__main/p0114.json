@@ -1,0 +1,106 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 114,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "作者明确反对社会民主党在选举中支持立宪民主党，并警告这种结盟可能带来的政治风险。",
+    "importance_score": 2,
+    "importance_reason": "这是对上一段假设性推演的直接结论，明确阐述了作者反对选举协议的核心立场。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段关于“不得不支持立宪民主党”的假设，本段直接否定这一做法，并阐述其危险性。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p114s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p114s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p114s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p114s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "希波夫",
+            "type": "person",
+            "modern": "当时俄国一位持保守立场的政治家，主张温和改革，反对激进革命。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "“人民自由”党",
+            "type": "org",
+            "modern": "立宪民主党的正式名称，该党以争取政治自由和宪政为口号。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p114s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "立宪民主党",
+            "type": "org",
+            "modern": "1905年革命后俄国主要的自由主义政党，主张君主立宪，其成员多为知识分子和地方自治局人士。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 3,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

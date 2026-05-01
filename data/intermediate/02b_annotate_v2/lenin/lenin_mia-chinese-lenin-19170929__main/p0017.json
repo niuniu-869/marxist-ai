@@ -1,0 +1,55 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 17,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁引用社会革命党人的自我批评，论证联合已破产、革命已到转折点，以此反驳党内等待派。",
+    "importance_score": 2,
+    "importance_reason": "用论敌的承认作为证据，强化武装起义时机成熟的判断。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对社会革命党人承认“几乎没为消灭奴役做什么”的揭露，进一步指出这种承认证明了革命已到转折点。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "等待苏维埃代表大会的倾向",
+      "their_view": "应等待全俄苏维埃代表大会召开，通过合法程序决定政权问题，反对立即发动武装起义。",
+      "author_response": "列宁用社会革命党人自己的承认证明，这种等待已无意义，因为革命已到转折点，必须立即行动。",
+      "polemic_kind": "strategic_critique",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p17s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

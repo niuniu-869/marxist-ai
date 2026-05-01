@@ -1,0 +1,70 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 67,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "通过对比德国爱国者对法国与俄国军事设施的不同反应，揭露其立场的虚伪性。",
+    "importance_score": 1,
+    "importance_reason": "通过具体对比，支撑前文对德国民族主义虚伪性的批判。",
+    "argument_role": "contrasts",
+    "argument_link": "承接上段对德国爱国者言论的引述，通过具体事例揭露其双重标准。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "德国爱国者",
+      "their_view": "他们声称德国人爱好和平，只关心安全而非荣誉，对法国的军事设施感到愤慨。",
+      "author_response": "马克思指出他们对俄国在波兰等地的军事扩张却视而不见，甚至接受俄国的监护。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p67s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "梅斯和斯特拉斯堡",
+            "type": "place",
+            "modern": "普法战争后由德国占领的法国边境要塞城市。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p67s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 14,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "恩格斯以19世纪瑞士的库尔曼为例，讽刺其用宗教化语言包装的平庸学说如何欺骗了具有极端平均主义倾向的信徒，并最终因内部不满和外部压力而破产。",
+    "importance_score": 1,
+    "importance_reason": "作为前文关于早期基督教运动中类似现象的当代例证，用以支撑论证，属于辅助性段落。",
+    "argument_role": "example",
+    "argument_link": "承接上段对早期基督教运动中类似现象的描述，转而提供一个19世纪的、恩格斯亲身观察到的平行案例，以加强论证的现实关联性。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "term_density",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "魏特林派",
+        "explain": "指追随德国早期工人运动理论家威廉·魏特林的社会主义者。他们主张通过宣传和示范建立平等公社，带有浓厚的空想和宗教色彩，恩格斯此处指其在瑞士的追随者。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "拉梅耐",
+        "explain": "指法国天主教神父费利西泰·德·拉梅耐。他试图调和基督教与自由主义，其文风常被形容为带有宗教神秘色彩和感伤情调。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "佩雷格林",
+        "explain": "古希腊作家琉善作品中的一个骗子角色，曾混入早期基督徒团体行骗。恩格斯用此典故将库尔曼类比为现代的宗教骗子。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p14s1",
+        "quote": "当然用不着我说，这种关于新世界的学说，不过是饰以拉梅耐式的半圣经味的词句，并用先知的傲慢口吻讲出的一种最平常的故做伤感的胡诌。",
+        "trigger": "term_density",
+        "reader_block": "句中堆叠了“拉梅耐式”、“半圣经味”、“先知的傲慢口吻”、“故做伤感”等多个修饰成分，且“拉梅耐”为陌生专名，读者难以快速抓住核心判断。",
+        "parse": {
+          "claim": "库尔曼宣扬的所谓新世界理论，其本质是极其平庸且矫揉造作的无稽之谈。",
+          "qualifiers": "这种学说的外在表现形式是模仿拉梅耐的宗教化文风和先知般的说教姿态。",
+          "contrast_or_target": ""
+        },
+        "why": {
+          "relation": "continues",
+          "explanation": "紧接上段对佩雷格林的描述，直接对库尔曼的学说内容与形式进行定性，为下文描述其欺骗性做铺垫。"
+        },
+        "implication": "恩格斯将库尔曼的学说与早期基督教运动中的类似现象并列，暗示其具有相同的历史重复性。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      },
+      {
+        "anchor": "p14s4",
+        "quote": "正是这些人，竟让库尔曼这个善做动人表情的装腔做势能手给他们灌输这样的思想：在“新世界”中，最大的圣贤，id est〔也就是〕库尔曼，将调节财富的分配，因而，现在在旧世界里，弟子们就已经应该把一切财富大把大把地供献给这位至圣，而自己则应该对残羹剩饭感到满足。",
+        "trigger": "term_density",
+        "reader_block": "句子结构复杂，包含直接引语和拉丁文插入语“id est”，且核心逻辑是“因为未来他分配，所以现在我们奉献”，这种因果关系需要读者仔细辨析。",
+        "parse": {
+          "claim": "库尔曼向信徒灌输的核心思想是：他本人是未来新世界的财富分配者，因此信徒现在就应将全部财产奉献给他，自己安于贫困。",
+          "qualifiers": "这一思想是针对那些具有极端平均主义倾向的信徒（即前文所述的“这些人”）灌输的。",
+          "contrast_or_target": ""
+        },
+        "why": {
+          "relation": "example",
+          "explanation": "具体阐述了库尔曼如何利用其学说进行剥削的逻辑，是上文“灌输思想”的具体内容，也是下文其“靠支部破费过阔绰生活”的直接原因。"
+        },
+        "implication": "揭示了宗教或乌托邦外衣下赤裸裸的经济剥削关系，与早期基督教运动中某些领袖的行为形成对照。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "库尔曼及其信徒（魏特林派）",
+      "their_view": "库尔曼宣称自己是未来“新世界”中调节财富分配的最大圣贤，因此信徒在当下就应将所有财产奉献给他，以换取未来在新世界中的地位。",
+      "author_response": "恩格斯揭露这不过是骗子利用信徒的极端平均主义心理进行的剥削，库尔曼本人靠信徒的供养过着阔绰生活，其“精神王国”最终因内部不满和外部压力而崩溃。",
+      "polemic_kind": "reveals_class_basis",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p14s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p14s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p14s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p14s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p14s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p14s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p14s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 2,
+        "hs_kept": 2,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

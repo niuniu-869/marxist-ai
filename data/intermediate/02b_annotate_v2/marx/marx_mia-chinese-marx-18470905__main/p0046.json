@@ -1,0 +1,70 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 46,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "马克思引用“莱茵观察家”对共产主义的描述，并立即指出其内在矛盾：一方面承认现存社会无法保障个人，另一方面又要求社会承担这种保障责任。",
+    "importance_score": 2,
+    "importance_reason": "本段通过揭露论敌主张的内在矛盾，支撑了对“莱茵观察家”共产主义的批判。",
+    "argument_role": "continues",
+    "argument_link": "本段具体展示“莱茵观察家”共产主义主张的内容，并立即指出其逻辑矛盾，承接上一段对该报纸荒唐言论的质疑。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p46s1",
+        "quote": "“它还会导致一般所了解的共产主义……凡是工商业的发展使一切关系紧密地交织在一起同时经常发生变化，以至个人在竞争的巨流中不能确保自身的地方，个人就会由于情况所迫而求助于社会，社会则应当为普遍不稳定的后果给每个人以补偿。社会对自己成员的生活负有连带责任。” 这就是“莱茵观察家”的共产主义！",
+        "trigger": "inverted_logic",
+        "reader_block": "读者可能被引文的正面表述迷惑，忽略作者在引文后立即用“这就是……”进行的反讽，误以为这是马克思在陈述自己的观点。",
+        "parse": {
+          "claim": "论敌声称，在个人无法自保的现代社会中，社会应当补偿个人并对其生活负责。",
+          "qualifiers": "限定于工商业发展导致关系紧密交织且经常变化的社会环境。",
+          "contrast_or_target": "“莱茵观察家”所宣称的共产主义，即社会应为个人生活提供保障。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "本句通过引用并立即讽刺，揭露论敌主张与现存社会现实的矛盾，为下文的直接批判做铺垫。"
+        },
+        "implication": "论敌的主张在逻辑上要求一个它自己也承认不存在的社会前提。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "莱茵观察家",
+      "their_view": "在个人无法自保的社会中，社会应当补偿个人并对其生活负责。",
+      "author_response": "马克思指出，论敌一方面承认现存社会做不到这一点，另一方面又要求它完成这件它所做不到的事。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p46s1",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p46s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p46s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,145 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 6,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "作者论证资产阶级在革命后背叛无产阶级并分析其统治策略，同时反驳和平发展论调，强调革命迫近。",
+    "importance_score": 2,
+    "importance_reason": "本段通过历史分析论证资产阶级的阶级本性，为后文强调无产阶级独立行动提供依据。",
+    "argument_role": "continues",
+    "argument_link": "本段承接上段关于新革命即将爆发的判断，具体分析1848年后资产阶级如何背叛革命并巩固统治，为论证无产阶级必须独立行动提供历史依据。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested | allusion",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "神圣同盟与巴比伦典故",
+        "explain": "“神圣同盟”是1815年拿破仑战败后，俄、普、奥等君主国为镇压革命而结成的反动联盟。“巴比伦”在《圣经》中象征腐朽、待被惩罚的政权，此处指代当时欧洲的革命中心。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p6s4",
+        "quote": "资产阶级如果不同那个在3月间被打败了的封建党派结成联盟，最后甚至把统治权重又让给这个封建专制主义党派，是不可能做到这一点的，不过它终究为自己保住了一些条件，假如革命运动现在就有可能走上所谓和平发展的道路，那么，由于政府陷入财政困难，那些条件就可能使统治权逐渐落到资产阶级的手中，使它的全部利益都得到保障。",
+        "trigger": "long_nested",
+        "reader_block": "句子结构复杂，包含多个条件从句（如果…就…；假如…那么…），且“这一点”“那些条件”等代词指代前文内容，读者容易迷失逻辑链条。",
+        "parse": {
+          "claim": "资产阶级为了巩固自身利益，不惜与被击败的封建势力结盟甚至让渡部分权力；若革命转向和平演进，资产阶级可凭借已保留的条件，利用政府的财政危机，最终完全掌握政权。",
+          "qualifiers": "此分析基于“革命运动走上所谓和平发展的道路”这一假设，且前提是“政府陷入财政困难”。",
+          "contrast_or_target": "小资产阶级民主派认为革命后可能通过和平、改良的途径实现资产阶级的完全统治。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "本句详细剖析了资产阶级在革命后可能采取的、看似“和平”的夺权路径，旨在反驳那种认为革命后可以平稳过渡的幻想，揭示其策略的复杂性与阶级本质。"
+        },
+        "implication": "作者暗示，即使存在和平发展的可能，资产阶级的统治也建立在与封建势力的妥协之上，且其最终目标仍是完全的专政。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "小资产阶级民主派",
+      "their_view": "革命后，社会可能走上和平发展的道路，资产阶级可以通过利用政府的财政困难等条件，逐渐、平稳地获得完全的统治权。",
+      "author_response": "发展不会采取这种和平进程。革命已经迫近，新的革命将加速历史进程，粉碎和平过渡的幻想。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p6s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p6s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p6s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p6s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "和平发展",
+            "type": "concept",
+            "modern": "在19世纪中期欧洲革命语境下，指一种避免暴力冲突、通过议会改良等渐进方式实现政权更迭和社会变革的路径。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "democracy_bourgeois"
+          }
+        ]
+      },
+      {
+        "sid": "p6s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p6s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p6s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "神圣同盟",
+            "type": "org",
+            "modern": "1815年维也纳会议后，由俄国沙皇、奥地利皇帝和普鲁士国王发起的欧洲君主国反动联盟，旨在镇压任何革命运动。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "巴比伦",
+            "type": "metaphor",
+            "modern": "源自《圣经·启示录》，象征着奢华、堕落且注定被毁灭的大城，此处被作者用来指代当时欧洲的革命中心或革命运动本身。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 3,
+        "notes_dropped": 0,
+        "hs_kept": 1,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

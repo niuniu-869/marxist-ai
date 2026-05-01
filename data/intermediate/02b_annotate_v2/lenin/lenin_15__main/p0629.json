@@ -1,0 +1,106 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 629,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁从资本主义发展不平衡规律出发，论证帝国主义国家间实力对比必然变化，从而否定和平瓜分世界的可能性。",
+    "importance_score": 2,
+    "importance_reason": "核心论证，从理论规律层面支撑帝国主义战争不可避免的结论。",
+    "argument_role": "continues",
+    "argument_link": "本段延续上一段的论证，从具体例子转向理论规律，指出帝国主义国家间实力对比必然变化，因此和平瓜分无法持久。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p629s1",
+        "quote": "只要明确地提出问题，就不能不给以否定的回答。",
+        "trigger": "inverted_logic",
+        "reader_block": "双重否定结构（“不能不”），读者需要转换思维才能理解其肯定含义，即“必须给出否定回答”。",
+        "parse": {
+          "claim": "对于“超帝国主义”能否实现持久和平瓜分世界的问题，答案只能是否定的。",
+          "qualifiers": "前提是“明确地提出问题”，即直面问题的核心。",
+          "contrast_or_target": "针对考茨基等人认为帝国主义列强可能达成永久和平协议的观点。"
+        },
+        "why": {
+          "relation": "continues",
+          "explanation": "承接上一段对亚洲殖民地的分析，将结论从具体案例提升到一般性理论判断，为下文的规律性论证定调。"
+        },
+        "implication": "任何关于帝国主义国家间能永久和平共处的设想，都与资本主义的基本规律相悖。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "考茨基主义",
+      "their_view": "帝国主义列强有可能通过协议达成永久和平，共同剥削世界，从而避免战争。",
+      "author_response": "列宁指出，资本主义发展不平衡是绝对规律，这决定了列强实力对比必然变化，和平瓜分世界的设想脱离了资本主义现实。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p629s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p629s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p629s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p629s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p629s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p629s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 2,
+        "hs_kept": 1,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_6>5",
+        "note:n1_overflow_concept_9>5",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 264,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段对比第二国际对民族自决原则的曲解与列宁主义的重新阐释，指出后者如何将该原则从替兼并辩护的工具转变为揭露帝国主义野心的工具。",
+    "importance_score": 2,
+    "importance_reason": "本段通过对比第二国际的错误与列宁主义的正确，支撑了列宁主义在民族问题上的理论贡献。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对第二国际狭隘民族观的批判，本段具体分析其对民族自决原则的曲解，并阐明列宁主义的正确立场。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "all_known",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p264s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p264s2",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": [
+          {
+            "surface": "文化自治权",
+            "type": "concept",
+            "modern": "第二国际机会主义者提出的主张，即被压迫民族仅享有文化事务的自治，而政治与经济权力仍由统治民族控制。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "cultural_autonomy_second_international"
+          }
+        ]
+      },
+      {
+        "sid": "p264s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p264s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p264s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "民族自决",
+            "type": "concept",
+            "modern": "列宁主义将其定义为被压迫民族享有完全分离和建立独立国家的权利，而不仅仅是文化自治。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "self_determination_leninist"
+          }
+        ]
+      },
+      {
+        "sid": "p264s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p264s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "社会沙文主义",
+            "type": "concept",
+            "modern": "第一次世界大战期间，第二国际多数政党支持本国资产阶级政府参战的立场，背叛了国际主义原则。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "social_chauvinism"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 3,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote",
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

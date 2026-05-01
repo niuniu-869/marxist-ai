@@ -193,3 +193,40 @@ button.term-highlight, button.metaphor-highlight, button.archaic-highlight {
 
 /* 老奶奶滚动友好：选中状态明显 */
 ::selection { background: var(--color-accent-soft); color: var(--color-ink); }
+
+/* ===== v0.3 支架样式 ===== */
+
+/* 难句下划线 */
+.hard-sentence-mark {
+  background: linear-gradient(transparent 65%, #ffe6c2 65%);
+  border-bottom: 1px dashed #c98a3a;
+  cursor: pointer;
+  border-top: none; border-left: none; border-right: none;
+  padding: 0; margin: 0;
+  font: inherit; color: inherit; line-height: inherit;
+  transition: background 200ms;
+}
+.hard-sentence-mark:hover {
+  background: linear-gradient(transparent 60%, #ffd592 60%);
+}
+.hard-sentence-mark.is-active {
+  background: #ffe6c2;
+  border-bottom-style: solid;
+}
+.hard-sentence-mark sup {
+  vertical-align: super;
+  font-size: 0.65em;
+  margin-left: 2px;
+  color: #c98a3a;
+}
+
+/* importance_score 视觉变量 */
+.p-importance-3 { /* 红条由 inline style 控制 */ }
+.p-importance-0 { opacity: 0.6; }
+
+/* 段意小图标按钮 hover */
+.scaffold-trigger[data-active="true"] {
+  border-color: var(--color-accent) !important;
+  color: var(--color-accent) !important;
+  background: var(--color-accent-soft);
+}

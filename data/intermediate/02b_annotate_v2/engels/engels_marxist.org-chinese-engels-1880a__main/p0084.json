@@ -1,0 +1,86 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 84,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "界定现代社会主义的双重属性：其现实内容源于对资本主义社会两大矛盾的考察，其理论形式则表现为对启蒙思想的继承与发展。",
+    "importance_score": 3,
+    "importance_reason": "这是全文的核心论点，开篇即阐明科学社会主义的现实基础与理论渊源，为后续论证奠定框架。",
+    "argument_role": "definition",
+    "argument_link": "承接标题，开始系统阐述科学社会主义的基本观点，首先界定其内涵与来源。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p84s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "阶级对立",
+            "type": "concept",
+            "modern": "在资本主义社会中，资产阶级与无产阶级之间基于生产资料占有关系而产生的根本利益冲突。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "class_marxist"
+          }
+        ]
+      },
+      {
+        "sid": "p84s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "启蒙学者",
+            "type": "social_group",
+            "modern": "18世纪法国思想家群体，如伏尔泰、卢梭等，他们倡导理性、自由与平等，批判封建专制与教会。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p84s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

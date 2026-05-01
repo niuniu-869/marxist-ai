@@ -1,0 +1,160 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 17,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "恩格斯基于1848年后欧洲经济发展的历史证据，修正了自己和马克思对当时革命形势的早期判断，论证资本主义基础在当时仍有扩展能力。",
+    "importance_score": 3,
+    "importance_reason": "这是恩格斯对革命策略进行系统性反思的核心段落，直接回应了党内关于革命道路的争论，为后文论述合法斗争与议会道路奠定基础。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段关于无产阶级革命可能由少数人领导发展为多数人革命的论述，本段进一步论证为什么1848年不能通过突然袭击实现社会改造，因为经济基础尚不成熟。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "工场手工业与行会手工业",
+        "explain": "工业革命前欧洲主要的生产组织形式。工场手工业是集中工人使用手工工具进行分工协作的作坊；行会手工业是中世纪城市中受行会严格管制的个体手工业。它们是资本主义大工业出现前的过渡形态。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p17s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p17s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p17s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "大工业",
+            "type": "concept",
+            "modern": "使用机器进行大规模生产的现代工业体系，是工业革命的核心成果。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "large_scale_industry"
+          }
+        ]
+      },
+      {
+        "sid": "p17s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "工业革命",
+            "type": "concept",
+            "modern": "18世纪末至19世纪，以机器生产取代手工劳动、工厂取代作坊的技术与社会经济变革。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "industrial_revolution"
+          }
+        ]
+      },
+      {
+        "sid": "p17s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "行会手工业",
+            "type": "concept",
+            "modern": "中世纪城市中受行会规章严格管制的个体手工业生产形态，是前资本主义的生产组织。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "guild_handicraft"
+          }
+        ]
+      },
+      {
+        "sid": "p17s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p17s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p17s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p17s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p17s10",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p17s11",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 3,
+        "notes_dropped": 6,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_8>5",
+        "note:n1_overflow_concept_7>5",
+        "note:n1_overflow_concept_7>5",
+        "note:n1_overflow_concept_18>5",
+        "note:n1_overflow_concept_9>5",
+        "note:n1_overflow_concept_18>5",
+        "hs:claim_5gram_with_quote",
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

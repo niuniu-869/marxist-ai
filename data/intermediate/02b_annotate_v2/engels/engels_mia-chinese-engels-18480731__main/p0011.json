@@ -1,0 +1,67 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 11,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "恩格斯指出《科伦日报》不仅否认英国存在对资产阶级的憎恨，还进一步为其观点提供解释。",
+    "importance_score": 2,
+    "importance_reason": "本段承接上文反驳，具体针对《科伦日报》的论点，为后续批判铺垫。",
+    "argument_role": "continues",
+    "argument_link": "本段直接针对《科伦日报》关于英国无产阶级不憎恨资产阶级的断言，指出其不仅断言还试图解释，延续了上一段的反驳逻辑。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p11s1",
+        "quote": "可是，“科伦日报”并不满足于仅仅断言英国根本不存在“对于在法国被称之为资产阶级”（在英国也同样有，我们的消息非常灵通的同行，请参看一下两年来的“北极星报”）的那些人的憎恨，它还解释为什么正好应当是这样，而不是另一种样子。",
+        "trigger": "inverted_logic",
+        "reader_block": "反讽语气（如“消息非常灵通的同行”）和嵌套引号，读者可能误以为恩格斯在赞同《科伦日报》的观点，而非反驳。",
+        "parse": {
+          "claim": "《科伦日报》不仅否认英国存在对资产阶级的憎恨，还试图为此提供理由。",
+          "qualifiers": "",
+          "contrast_or_target": "《科伦日报》认为英国无产阶级不憎恨资产阶级，因为资产阶级不享有特权。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "本句指出《科伦日报》的论点并准备进一步批判，为反驳其解释做铺垫。"
+        },
+        "implication": null,
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "科伦日报",
+      "their_view": "《科伦日报》认为英国无产阶级不憎恨资产阶级，因为资产阶级不享有特权，自由贸易可以避免阶级战争。",
+      "author_response": "恩格斯反驳说，英国同样存在对资产阶级的憎恨，并引用《北极星报》作为证据。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p11s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "北极星报",
+            "type": "work",
+            "modern": "英国宪章运动期间的工人报纸，恩格斯引用以证明英国存在对资产阶级的憎恨。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  }
+}

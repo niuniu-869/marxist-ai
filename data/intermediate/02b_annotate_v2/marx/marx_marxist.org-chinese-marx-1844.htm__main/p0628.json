@@ -1,0 +1,63 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 628,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段转述并批判黑格尔哲学中自然界与观念的关系，指出在黑格尔体系中自然界只是观念的外化形式。",
+    "importance_score": 3,
+    "importance_reason": "这是马克思对黑格尔唯心主义自然观的批判性转述，是其清算黑格尔哲学的关键环节。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段关于自然界目的的讨论，具体阐述黑格尔如何将自然界视为观念的外化。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "term_density",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "黑格尔哲学中的观念与外在性",
+        "explain": "在黑格尔哲学中，“观念”（Idee）指绝对精神或绝对理念，是世界的本原。“外在性”（Äußerlichkeit）是观念自我异化、外化为自然界的形式，是观念否定自身、实现自身的环节。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "黑格尔哲学",
+      "their_view": "自然界是观念的外化，是观念自我否定的表现形式，其存在完全由观念的规定性所决定。",
+      "author_response": "马克思指出，这种观点将自然界视为观念的派生物，颠倒了现实世界与思维的关系。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p628s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

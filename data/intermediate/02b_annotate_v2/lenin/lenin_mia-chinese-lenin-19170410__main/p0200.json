@@ -1,0 +1,86 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 200,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁论证其小册子未过时，因其基于阶级分析，联合内阁仅改变了苏维埃与资本家政府协议的形式。",
+    "importance_score": 2,
+    "importance_reason": "本段通过阶级分析论证小册子的持续有效性，支撑了作者对联合内阁的批判立场。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对联合内阁的讨论，进一步论证其本质未变，从而捍卫自身纲领的适用性。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "孟什维克和民粹主义者",
+      "their_view": "加入联合内阁是支持革命的必要步骤，能通过议会道路实现社会主义。",
+      "author_response": "列宁指出这仅是形式变化，实质仍是苏维埃对资本家政府的事实支持，其阶级分析框架依然有效。",
+      "polemic_kind": "reveals_class_basis",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p200s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p200s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "阶级分析",
+            "type": "concept",
+            "modern": "运用马克思主义的阶级观点剖析政治现象的方法。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "class_analysis_marxist"
+          }
+        ]
+      },
+      {
+        "sid": "p200s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "策列铁里",
+            "type": "person",
+            "modern": "孟什维克领袖，时任联合内阁部长。",
+            "highlight": "person",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "切尔诺夫",
+            "type": "person",
+            "modern": "社会革命党领袖，时任联合内阁部长。",
+            "highlight": "person",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "彼得格勒苏维埃",
+            "type": "org",
+            "modern": "当时俄国的工兵代表苏维埃，与临时政府并存。",
+            "highlight": "org",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  }
+}

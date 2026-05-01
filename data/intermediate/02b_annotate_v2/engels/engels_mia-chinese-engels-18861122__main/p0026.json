@@ -1,0 +1,119 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 26,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "通过对比古罗马农业发展和无产者状况，反驳门格尔将法律秩序视为历史动力的观点，并区分古罗马无产者与现代无产阶级。",
+    "importance_score": 2,
+    "importance_reason": "支撑核心论点，通过历史对比反驳门格尔的法学史观，并澄清关键概念。",
+    "argument_role": "continues",
+    "argument_link": "延续上一段对门格尔历史观的批判，从地产集中问题转向对古罗马社会结构的具体分析，以揭示其与中世纪及现代的本质区别。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "term_polysemy",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p26s3",
+        "quote": "和奴隶相对立的是自由无产者，然而这不是劳动无产者，而是流氓无产者。",
+        "trigger": "term_polysemy",
+        "reader_block": "“无产者”一词在古罗马与现代马克思主义语境中含义截然不同，读者易将两者混淆，误以为古罗马存在现代意义上的工人阶级。",
+        "parse": {
+          "claim": "古罗马社会中与奴隶阶层相对的自由群体，其社会功能与现代工业无产阶级存在根本差异。",
+          "qualifiers": "特指帝政时期的罗马社会结构。",
+          "contrast_or_target": "门格尔可能将古罗马的“无产者”与现代无产阶级混为一谈，用以论证其法学史观的连续性。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "此句旨在划清概念边界，反驳门格尔可能隐含的将不同历史时期“无产者”等同的错误前提，为后续论证现代无产阶级的历史独特性奠基。"
+        },
+        "implication": "若混淆此概念，将无法理解现代无产阶级作为资本主义特有产物的历史地位。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      },
+      {
+        "anchor": "p26s5",
+        "quote": "而罗马的流氓无产者则是寄生虫，他们对社会不仅无益，而且有害，因此，他们不是什么坚强的力量。",
+        "trigger": "metaphor",
+        "reader_block": "“寄生虫”是比喻，但需理解其具体所指：古罗马无产者依赖国家救济和娱乐为生，不参与生产，与现代无产阶级作为生产主体的角色形成反差。",
+        "parse": {
+          "claim": "古罗马的自由无产者群体依附于社会，消耗社会财富而不创造价值，因此不具备推动社会变革的力量。",
+          "qualifiers": "这是对古罗马特定历史条件下该群体社会功能的描述。",
+          "contrast_or_target": "反驳将古罗马无产者视为与现代无产阶级具有同等历史能动性的观点。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "通过揭示古罗马无产者的寄生性质，进一步瓦解门格尔可能利用的历史类比，强调现代无产阶级因其生产地位而具有的革命潜力是全新的历史现象。"
+        },
+        "implication": "现代无产阶级的力量源于其与生产过程的结合，这是古罗马社会所不具备的条件。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "门格尔",
+      "their_view": "历史发展由法律观念（如“十足劳动收入权”）驱动，不同历史时期的“无产者”或社会结构具有可比性，中世纪法律秩序取代罗马世界是法学观念演进的结果。",
+      "author_response": "历史变迁的根本动力在于生产方式的演变，而非法律观念。古罗马的农业发展孕育了中世纪生产关系的萌芽，其社会结构（如流氓无产者）与现代资本主义社会存在本质区别，不能简单类比。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p26s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p26s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p26s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "流氓无产者",
+            "type": "concept",
+            "modern": "古罗马社会中依赖国家救济和娱乐为生的自由贫民群体，不参与社会生产，与现代工业无产阶级性质不同。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "proletarian_roman"
+          }
+        ]
+      },
+      {
+        "sid": "p26s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p26s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "寄生虫",
+            "type": "metaphor",
+            "modern": "比喻古罗马流氓无产者消耗社会财富而不创造价值，依附于社会肌体。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      }
+    ]
+  }
+}

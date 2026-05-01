@@ -1,0 +1,145 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 16,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁论证“社会民主党”这一党名在科学上已不恰当，主张改称“共产党”，并批判了以普列汉诺夫为代表的社会沙文主义者。",
+    "importance_score": 3,
+    "importance_reason": "核心论点段落，直接提出布尔什维克党更名的理论依据与政治目标，是《四月提纲》策略在组织形式上的体现。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于无产阶级任务的论述，将任务具体化为党的名称与性质的转变，以适应向社会主义过渡的新形势。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "“社会民主党”名称的由来与列宁的批判",
+        "explain": "19世纪欧洲工人政党普遍采用“社会民主党”名称，意在兼顾当前民主革命与未来社会主义目标。列宁认为，巴黎公社已超越了民主共和国形式，且当时世界已面临直接的社会主义革命任务，该名称已落后于形势，并被机会主义者滥用。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "社会沙文主义者（以普列汉诺夫为代表）",
+      "their_view": "在“保卫祖国”的口号下支持本国政府进行帝国主义战争，放弃了国际社会主义原则。",
+      "author_response": "列宁指出，这些自称社会民主党人的人实际上背叛了社会主义事业，他们的行为证明了该名称已被玷污。",
+      "polemic_kind": "reveals_class_basis",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p16s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "社会民主党",
+            "type": "concept",
+            "modern": "19世纪末至20世纪初国际工人运动中广泛使用的政党名称，列宁认为其已不适应革命新形势。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "party_name_social_democracy"
+          }
+        ]
+      },
+      {
+        "sid": "p16s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p16s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p16s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "巴黎公社",
+            "type": "event",
+            "modern": "1871年法国巴黎工人起义后建立的革命政权，被马克思视为无产阶级专政的雏形。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p16s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p16s6",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": [
+          {
+            "surface": "社会沙文主义者",
+            "type": "polemic_ref",
+            "modern": "列宁对第一次世界大战期间背叛国际主义、支持本国资产阶级政府参战的社会党人的称呼。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          },
+          {
+            "surface": "普列汉诺夫",
+            "type": "person",
+            "modern": "俄国早期马克思主义理论家，后转向支持临时政府与战争，被列宁视为社会沙文主义的代表。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p16s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "共产党",
+            "type": "concept",
+            "modern": "列宁主张采用的党名，以明确表示党的最终目标是实现共产主义，并与第二国际的机会主义政党划清界限。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "party_name_communist"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 5,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

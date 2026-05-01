@@ -1,0 +1,72 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 5,
+  "annotation": {
+    "block_type": "quote_block",
+    "gist": "引用沃尔弗在狱中的文字，表达其对革命的持久期待与对现实政治手段的看法。",
+    "importance_score": 1,
+    "importance_reason": "展现沃尔弗作为革命者的内心世界与政治判断，为理解其革命立场提供个人视角。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于沃尔弗入狱的叙述，通过其自述进一步刻画其革命信念与对时局的观察。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "俾斯麦与老国王",
+        "explain": "俾斯麦是1862年起担任普鲁士首相的容克贵族政治家，以铁血政策推行德国统一。老国王指当时的普鲁士国王威廉一世，与俾斯麦关系密切。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p5s1",
+        "speaker": "quoted_engels",
+        "stance": "endorsed",
+        "notes": [
+          {
+            "surface": "俾斯麦",
+            "type": "person",
+            "modern": "1862-1890年任普鲁士首相及德意志帝国宰相，推行“铁血政策”，主导德国统一。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

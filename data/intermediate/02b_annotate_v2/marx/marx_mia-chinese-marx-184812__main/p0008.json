@@ -1,0 +1,85 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 8,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "马克思讽刺康普豪森在协商论被政府抛弃后，仍以使者身份活动，并指出其理论内含自我毁灭的逻辑。",
+    "importance_score": 2,
+    "importance_reason": "本段是作者对协商论代表人物康普豪森的直接批判，揭示其行为与理论的矛盾，是论证资产阶级妥协路线破产的组成部分。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对政府解散协商议会的叙述，转而具体批判协商论的发明者康普豪森本人及其理论的内在矛盾。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "allusion",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "约卜西之歌",
+        "explain": "源自法国作家拉伯雷小说《巨人传》，指巨人约卜西在主人死后仍继续歌唱的愚蠢行为。马克思用此比喻康普豪森及其协商论在被政府抛弃后仍徒劳延续。",
+        "why_needed": "allusion",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "康普豪森与协商论",
+        "explain": "康普豪森是1848年普鲁士资产阶级内阁首脑，他倡导的协商论主张通过与王权谈判协商来确立宪政，而非依靠革命群众。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "metadata"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "康普豪森",
+      "their_view": "协商论是拯救法制基础的唯一途径，资产阶级应通过与王权协商来建立秩序，避免革命的激进。",
+      "author_response": "马克思指出，康普豪森的协商论旨在欺骗革命，使其丧失荣誉，但其理论本身却埋下了最终摧毁法制基础和协商论自身的种子。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p8s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "约卜西之歌",
+            "type": "metaphor",
+            "modern": "马克思借用拉伯雷小说中巨人死后仆人仍歌唱的典故，讽刺康普豪森及其理论在被政府抛弃后仍徒劳延续。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p8s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p8s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "协商论",
+            "type": "concept",
+            "modern": "康普豪森倡导的政治路线，主张通过与旧政权协商谈判来实现宪政变革，反对群众革命。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "metadata",
+            "sense_id": "negotiation_theory_1848"
+          }
+        ]
+      }
+    ]
+  }
+}

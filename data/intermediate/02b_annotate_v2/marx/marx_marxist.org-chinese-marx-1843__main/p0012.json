@@ -1,0 +1,85 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 12,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "马克思讽刺并批判“法的历史学派”，揭露其用历史传统为现实压迫辩护的立场，并用圣经与文学典故将其比作剥削者。",
+    "importance_score": 2,
+    "importance_reason": "具体批判德国保守法学思潮，是马克思从哲学批判转向社会政治批判的例证，为后文提出革命理论做铺垫。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对德国现状的描述，具体剖析一种为这种现状辩护的法学流派，揭示其理论与现实压迫的共谋关系。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "allusion",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "allusion",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "法的历史学派",
+        "explain": "19世纪德国法学流派，以萨维尼为代表，反对用理性建构法律，主张法律应从民族历史传统中有机生长，常被用来为既存的封建特权辩护。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "夏洛克与期票",
+        "explain": "典故出自莎士比亚戏剧《威尼斯商人》。夏洛克是放高利贷的犹太商人，坚持按契约索取“一磅肉”。马克思用此比喻该学派死守历史契约（传统）来压榨人民。",
+        "why_needed": "allusion",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p12s3",
+        "quote": "这个夏洛克，奴仆式的夏洛克，发誓要凭他的期票，历史的期票，基督教德意志的期票来索取从人民心上剜下来的每一磅肉。",
+        "trigger": "allusion",
+        "reader_block": "读者不熟悉《威尼斯商人》中夏洛克索要“一磅肉”的情节，无法理解“期票”“剜肉”等比喻的讽刺力度与具体所指。",
+        "parse": {
+          "claim": "该学派像夏洛克一样，依据其历史理论（期票），要对人民进行毫不留情的压榨。",
+          "qualifiers": "此处的“期票”特指“历史的期票”和“基督教德意志的期票”，即该学派所依据的历史传统和民族精神。",
+          "contrast_or_target": "法的历史学派认为，现存的法律和制度是民族历史精神的体现，必须尊重和维护。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "用文学形象和比喻，将法的历史学派维护传统制度的行为，定性为对人民的残酷剥削，强化了批判的力度。"
+        },
+        "implication": "马克思将法律和制度问题与人民的直接痛苦联系起来，暗示这种“历史权利”实质上是阶级压迫的工具。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "法的历史学派",
+      "their_view": "现存的法律和制度是民族历史精神的自然产物，具有神圣性；任何反抗现存秩序的行为，都是对历史传统的背叛。",
+      "author_response": "该学派用历史传统为现实的压迫辩护，其理论是为统治阶级服务的工具，本质上是反动的。",
+      "polemic_kind": "reveals_class_basis",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p12s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p12s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p12s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  }
+}

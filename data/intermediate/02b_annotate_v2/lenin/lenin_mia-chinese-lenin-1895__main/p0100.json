@@ -1,0 +1,130 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 100,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段通过对比厂主和工人在法律豁免权上的不同待遇，揭露罚款法的阶级偏向性。",
+    "importance_score": 2,
+    "importance_reason": "本段通过具体例证，支撑了对罚款法阶级本质的批判。",
+    "argument_role": "continues",
+    "argument_link": "本段具体说明上一段提到的行政官员自由裁量权如何实际运作，展示其如何偏向厂主。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p100s6",
+        "quote": "可是，如果工人要向视察员或者大臣“保证”他不会损害厂主的利益，请求准许他不受条例的约束，那又会怎样呢？",
+        "trigger": "inverted_logic",
+        "reader_block": "反问句式，读者需理解其假设的荒谬性，以体会作者对法律不平等的讽刺。",
+        "parse": {
+          "claim": "法律体系只允许厂主基于自身保证而豁免于规则约束，却完全不考虑工人提出类似请求的可能性。",
+          "qualifiers": "在工人请求豁免的假设情境下。",
+          "contrast_or_target": "厂主可以基于保证而豁免的现实。"
+        },
+        "why": {
+          "relation": "contrasts",
+          "explanation": "本句通过一个假设的、不可能发生的工人请求场景，与前文描述的厂主实际享有的特权形成尖锐对比，从而暴露法律的不平等。"
+        },
+        "implication": "这种对比表明，法律的制定和执行完全服务于厂主的利益，工人在此体系中毫无对等权利。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      },
+      {
+        "anchor": "p100s7",
+        "quote": "人们也许会把这个工人当作疯子。",
+        "trigger": "inverted_logic",
+        "reader_block": "反讽结论，读者需理解“疯子”一词并非字面意思，而是对法律荒谬性的讽刺。",
+        "parse": {
+          "claim": "工人若提出与厂主同等的豁免请求，会被整个社会视为不可理喻。",
+          "qualifiers": "在工人提出上述假设请求的社会反应层面。",
+          "contrast_or_target": "厂主提出类似请求被视为正常。"
+        },
+        "why": {
+          "relation": "conclusion",
+          "explanation": "本句是上一句反问的结论，用“疯子”这一极端评价，点明在现行法律与社会观念下，工人寻求与厂主对等权利的想法是何等荒谬和不被容许。"
+        },
+        "implication": "这揭示了法律不平等背后更深层的社会观念不平等，即工人的权利诉求本身就被视为异常。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "罚款必要论与政府德政论",
+      "their_view": "罚款是维持工厂纪律所必需的，而政府减轻罚款是出于对工人的关怀。",
+      "author_response": "列宁通过揭示法律赋予厂主的豁免特权及其与工人处境的悬殊对比，论证罚款法本质上是维护厂主利益的工具，而非中立的纪律手段或政府恩德。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p100s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p100s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p100s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p100s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p100s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p100s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "保证",
+            "type": "metaphor",
+            "modern": "此处指厂主为获得法律豁免而做出的承诺，作者用引号暗示其虚伪性。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p100s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "疯子",
+            "type": "metaphor",
+            "modern": "反讽用语，指工人若提出与厂主对等的豁免请求，会被社会视为荒谬和不可理喻。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      }
+    ]
+  }
+}

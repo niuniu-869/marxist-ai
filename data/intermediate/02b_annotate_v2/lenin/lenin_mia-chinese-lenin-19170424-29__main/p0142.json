@@ -1,0 +1,61 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 142,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁揭露英法社会沙文主义者不参加代表会议的真实原因，指出他们受本国政府影响。",
+    "importance_score": 1,
+    "importance_reason": "作为对上一段论点的补充例证，具体说明英法社会沙文主义者的行为动机。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段关于英法社会党人不赞成会议的陈述，进一步分析其背后的政治原因。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "英国和法国的社会沙文主义者",
+      "their_view": "我们不赞成这次会议。",
+      "author_response": "他们不赞成会议，是因为他们从本国政府那里得到了指示，被告知会议的内幕并被要求不要参加。",
+      "polemic_kind": "reveals_class_basis",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p142s1",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p142s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_7>5"
+      ]
+    }
+  ]
+}

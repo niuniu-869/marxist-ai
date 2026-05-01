@@ -1,0 +1,79 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 545,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段将马克思在科伦的司法斗争定位为1848-1849年欧洲革命浪潮的终结性事件。",
+    "importance_score": 1,
+    "importance_reason": "本段作为叙事性总结，将马克思的个人行动与更广阔的革命历史阶段联系起来。",
+    "argument_role": "conclusion",
+    "argument_link": "本段承接上文对革命后组织瓦解的描述，将马克思在科伦的审判视为1848-1849年革命事变的最终体现。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "科伦共产党人案件",
+        "explain": "1852年普鲁士政府针对共产主义者同盟成员发起的政治审判，马克思曾参与辩护工作。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "1848-1849年革命事变",
+        "explain": "指1848年席卷欧洲的资产阶级民主革命浪潮，在德意志地区表现为要求统一与宪政的三月革命。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p545s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "科伦共产党人案件",
+            "type": "event",
+            "modern": "1852年普鲁士政府对共产主义者同盟成员的政治审判",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_event_14>12"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 71,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段反驳机会主义者的第二个教条，即认为必须先在资本主义条件下培养好干部才能保持政权，列宁主张应先夺取政权再培养干部。",
+    "importance_score": 2,
+    "importance_reason": "支撑对机会主义教条的系统批判，是列宁主义关于革命与建设关系论述的核心环节。",
+    "argument_role": "contrasts",
+    "argument_link": "承接上段对第一个教条的批判，转而批判第二个教条，两者共同构成对机会主义革命观的系统反驳。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "机会主义者",
+      "their_view": "无产阶级如果没有足够且成熟的、能组织国家管理的文化干部和行政干部，就不能保持政权。因此，必须首先在资本主义条件下造就这种干部，然后才能夺取政权。",
+      "author_response": "列宁主张将事情颠倒过来：先夺取政权，为无产阶级发展创造有利条件，然后在政权保护下快速提高群众文化水平并培养干部。俄国实践已证明此路可行且更有效。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p71s1",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p71s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p71s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p71s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p71s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 2,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

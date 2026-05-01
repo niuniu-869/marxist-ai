@@ -1,0 +1,91 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 74,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段论证了民主的波兰对德国政治立场及欧洲工人运动发展的关键作用。",
+    "importance_score": 2,
+    "importance_reason": "本段是马克思关于波兰问题论述的核心结论，将民族问题与工人运动策略直接关联。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对波兰问题被忽视原因的分析，本段正面阐述解决该问题对德国和工人运动的必要性。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "神圣同盟",
+        "explain": "1815年拿破仑战败后，由俄、普、奥等君主国建立的国际反革命联盟，旨在镇压欧洲的革命与民族独立运动。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "共和制的法国",
+        "explain": "指1848年二月革命后建立的法兰西第二共和国（1848-1852），当时被视为欧洲进步力量的代表。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p74s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p74s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "神圣同盟",
+            "type": "org",
+            "modern": "1815年后欧洲君主国为镇压革命而结成的国际联盟",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p74s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

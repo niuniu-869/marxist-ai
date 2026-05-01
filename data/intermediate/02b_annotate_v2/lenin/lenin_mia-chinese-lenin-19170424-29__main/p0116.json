@@ -1,0 +1,85 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 116,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁直接反驳党内同志关于社会主义革命起始条件的错误观点，强调不能机械规定革命的起点和终点。",
+    "importance_score": 2,
+    "importance_reason": "核心论点，直接针对党内对马克思主义的教条理解，为俄国革命的特殊性辩护。",
+    "argument_role": "contrasts",
+    "argument_link": "承接上段关于当前任务的讨论，转而批驳党内一种关于革命条件的错误理论预设。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "李可夫及其观点",
+        "explain": "阿·伊·李可夫是布尔什维克领导人之一。他当时认为，社会主义革命应首先在工业更发达的西欧国家爆发，俄国条件不成熟。这种观点在党内有一定市场。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "革命起点论争",
+        "explain": "列宁在《四月提纲》中提出将革命从资产阶级民主阶段转变为社会主义阶段。李可夫的观点代表了党内对这一转变时机和条件的保守看法。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p116s2",
+        "quote": "不能说谁来开始和谁来结束。",
+        "trigger": "inverted_logic",
+        "reader_block": "读者可能困惑于为何不能这样说，这否定了对世界革命进程的一种线性、机械的预设。",
+        "parse": {
+          "claim": "社会主义革命的进程无法被预先指定由哪个国家率先发动或最终完成。",
+          "qualifiers": "针对的是将革命视为有固定起点和终点的线性历史观。",
+          "contrast_or_target": "李可夫等人认为社会主义应从工业更发达国家开始的观点。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "此句直接否定前句所转述的错误前提，即革命存在一个固定的、由生产力水平决定的“开始者”。"
+        },
+        "implication": "革命的实际进程取决于具体的阶级力量对比和革命形势，而非抽象的生产力发展水平排序。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "李可夫",
+      "their_view": "社会主义应当从其他工业比较发达的国家产生。",
+      "author_response": "列宁指出这种看法不符合马克思主义，是对马克思主义的拙劣模仿。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p116s1",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p116s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p116s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 48,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段以反问形式转述了一种反对意见，即认为党的机关与苏维埃机关的结合存在不可容许之处。",
+    "importance_score": 1,
+    "importance_reason": "本段是过渡段，通过引出一种反对意见，为作者后续的论证做铺垫。",
+    "argument_role": "transition",
+    "argument_link": "本段承接前文对国家机关改革的讨论，转而引出并准备反驳一种关于机关结合的保守观点。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "rhetorical",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p48s2",
+        "quote": "这里难道没有什么不可容许的东西吗？",
+        "trigger": "rhetorical",
+        "reader_block": "双重反问加强了质疑语气，读者需识别出这是在强化前一句的反对立场，而非作者的自我怀疑。",
+        "parse": {
+          "claim": "有人认为，上述结合中包含着某种原则性的、不可接受的错误。",
+          "qualifiers": "",
+          "contrast_or_target": "认为两种机关结合存在根本性错误的观点。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "本句进一步强化了前一句所引述的反对意见，将质疑从“是否合适”上升到“是否容许”的原则高度，为作者后续的反驳树立了更明确的靶子。"
+        },
+        "implication": "作者需要从原则层面论证这种结合的正当性。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "党内反对结合两种机关的保守势力",
+      "their_view": "党的机关与苏维埃机关的结合存在不可容许之处，这种做法在原则上是错误的。",
+      "author_response": "列宁在后续段落中将反驳这种观点，论证结合的必要性。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p48s1",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p48s2",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 1,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

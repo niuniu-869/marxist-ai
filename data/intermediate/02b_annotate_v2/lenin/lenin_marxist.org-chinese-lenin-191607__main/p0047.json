@@ -1,0 +1,61 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 47,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁引用并讽刺论敌将民族自决权视为“梦想”的论调，揭露其将机会主义立场视为“科学”的荒谬性。",
+    "importance_score": 2,
+    "importance_reason": "通过反讽手法，具体展示论敌如何歪曲马克思主义纲领，以支撑对机会主义的批判。",
+    "argument_role": "contrasts",
+    "argument_link": "承接上段对波兰同志论调的定性，本段直接引用其原话并加以讽刺，形成鲜明对照。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic | allusion",
+      "needs_polemic": true,
+      "polemic_reason": "refute_quotation"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "波兰社会民主党人（反对派）",
+      "their_view": "民族自决口号是“梦想”，反对民族压迫的斗争是“非法的感伤行为”，这种斗争破坏了无产阶级对社会民主党党纲科学根据的信任。",
+      "author_response": "列宁讽刺地指出，按照这种逻辑，论敌实际上是在推崇德国司徒卢威分子（资产阶级自由派）的立场为“科学的”。",
+      "polemic_kind": "counter_quotation",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p47s1",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p47s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

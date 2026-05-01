@@ -1,0 +1,78 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 50,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "基于前文引用的论据，对“同化”问题作出结论性判断，将反对同化者定性为反动市侩。",
+    "importance_score": 2,
+    "importance_reason": "本段是前文论据的结论性延伸，将反对同化者定性为反动市侩，服务于对“民族文化”口号的批判。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段引用的第二国际理论家关于犹太人同化的论断，列宁在此基础上作出判断，将反对同化者定性为反动市侩。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "犹太人的反动市侩",
+      "their_view": "反对“同化”，认为犹太人应保持民族独特性，抵制被其他民族融合。",
+      "author_response": "列宁将这种立场定性为反动市侩的倒退企图，违背历史发展规律。",
+      "polemic_kind": "reveals_class_basis",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p50s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p50s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "反动市侩",
+            "type": "social_group",
+            "modern": "列宁用来指代那些在民族问题上持保守立场、反对历史进步潮流的犹太资产阶级和小资产阶级分子。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          },
+          {
+            "surface": "历史的车轮",
+            "type": "metaphor",
+            "modern": "列宁用此比喻历史发展的客观趋势和不可阻挡的进程。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

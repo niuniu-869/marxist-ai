@@ -1,0 +1,124 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 9,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "描述格鲁吉亚资产阶级民族主义拉拢无产阶级的策略及其失败。",
+    "importance_score": 2,
+    "importance_reason": "支撑作者对资产阶级民族主义的批判，具体展示其阶级基础与策略。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对格鲁吉亚资产阶级民族主义目的的分析，具体阐述其为实现目的而采取的手段。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "allusion",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p9s3",
+        "quote": "只有无产阶级才能给被阀割的资产阶级“爱国主义”注入生命力。",
+        "trigger": "allusion",
+        "reader_block": "“被阀割的资产阶级‘爱国主义’”是隐喻，读者可能不理解“阀割”在此的比喻义，以及为何资产阶级爱国主义需要被“注入生命力”。",
+        "parse": {
+          "claim": "资产阶级自身无力推动其民族主义事业，必须借助无产阶级的力量才能使其具备现实影响力。",
+          "qualifiers": "特指格鲁吉亚资产阶级民族主义这一具体语境。",
+          "contrast_or_target": "反驳民族民主主义者认为无产阶级应为资产阶级服务的观点。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "此句通过隐喻揭示资产阶级民族主义的虚弱本质，为后文批判民族民主主义者拉拢无产阶级的企图做铺垫。"
+        },
+        "implication": "无产阶级的阶级力量是资产阶级实现其政治目标的必要条件，这构成了资产阶级拉拢无产阶级的根本动机。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p9s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p9s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p9s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p9s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p9s5",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p9s6",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p9s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p9s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p9s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 1,
+        "hs_kept": 1,
+        "hs_dropped": 1,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_metaphor_14>8",
+        "hs:claim_5gram_with_quote",
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

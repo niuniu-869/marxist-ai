@@ -1,0 +1,99 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 80,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "作者通过编译工作，理解了恩格斯对《新莱茵报》文学副刊的评价，并指出此前国内学界因缺乏原始材料而未能阐释这段话。",
+    "importance_score": 2,
+    "importance_reason": "本段通过引用恩格斯晚年评论，揭示了《新莱茵报》在文艺观念上对后世社会主义运动的潜在影响，是理解该报文化维度的关键。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对《新莱茵报》广告等多样内容的介绍，本段转向其文学副刊的特质，并引入恩格斯的权威评价来深化对报纸整体风格的理解。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "维尔特与《新莱茵报》",
+        "explain": "格奥尔格·维尔特是《新莱茵报》的编辑和诗人，以描绘工人生活和自然情感的诗歌闻名，其风格在当时社会主义者中显得直率而独特。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "恩格斯1883年评论背景",
+        "explain": "恩格斯在马克思逝世后，借评论维尔特作品之机，批评了当时德国社会主义运动中普遍存在的、受小市民道德束缚的文风。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      },
+      {
+        "topic": "“肉感和肉欲”的语境",
+        "explain": "恩格斯在此并非指低俗内容，而是反对将人的自然情感与身体需求视为禁忌，主张无产阶级文学应坦诚、健康地表现人的全部生活。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "德国社会民主党人和党的机关报",
+      "their_view": "他们受德国市侩偏见和小市民虚伪羞怯心的影响，回避在公开出版物中谈论人的自然情感与身体需求，认为这些话题不登大雅之堂。",
+      "author_response": "恩格斯指出这种羞怯心是虚伪的，实质是掩盖私下里的猥亵言谈；他主张德国工人应像古典作家和《新莱茵报》那样，从容、自然地谈论这些必需且惬意的事情。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p80s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p80s2",
+        "speaker": "quoted_engels",
+        "stance": "endorsed",
+        "notes": [
+          {
+            "surface": "维尔特",
+            "type": "person",
+            "modern": "1848年革命时期《新莱茵报》的编辑和诗人，其作品以直率描绘工人生活与自然情感著称。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p80s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_5gram_with_surface",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

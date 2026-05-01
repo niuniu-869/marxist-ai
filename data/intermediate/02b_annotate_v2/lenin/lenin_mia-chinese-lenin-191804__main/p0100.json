@@ -1,0 +1,92 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 100,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段对比了苏维埃政权面临的两种威胁：昨天的军事复辟威胁和今天的小资产阶级自发势力威胁，并强调必须战胜后者。",
+    "importance_score": 2,
+    "importance_reason": "本段将“学会管理”的任务具体化，指出了从公开的军事敌人转向更隐蔽、更日常的内部社会力量挑战，是论证从“镇压”转向“管理”的关键环节。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段关于“学会”管理任务的断言，本段具体阐明了需要“学会”战胜的新敌人是什么，即从外部的武装复辟转向内部的小资产阶级自发势力。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "科尔尼洛夫等人",
+        "explain": "科尔尼洛夫、郭茨、杜托夫、格格奇柯利、鲍加耶夫斯基是1918年初国内战争初期，领导反苏维埃武装叛乱的白军将领或政治人物，代表了公开的、军事化的资产阶级复辟力量。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p100s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p100s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p100s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "小资产阶级",
+            "type": "concept",
+            "modern": "在马克思主义阶级分析中，指介于资产阶级与无产阶级之间、拥有少量生产资料或从事小规模经营的社会阶层，其政治经济地位不稳定，易产生动摇和散漫倾向。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "class_petty_bourgeoisie"
+          }
+        ]
+      },
+      {
+        "sid": "p100s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

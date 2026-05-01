@@ -1,0 +1,66 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 249,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段出现一个数字编码，但未提供解释或上下文。",
+    "importance_score": 0,
+    "importance_reason": "本段内容为数字编码，含义不明，可能为排版错误，在论证中无直接作用。",
+    "argument_role": "none",
+    "argument_link": null,
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "text_anomaly",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "text_anomaly",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "数字乱码",
+        "explain": "此处出现一个数字编码，疑似排版错误或引用标记，但未在上下文中说明其意义。",
+        "why_needed": "text_anomaly",
+        "confidence": "medium",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p249s1",
+        "quote": "413.7",
+        "trigger": "text_anomaly",
+        "reader_block": "数字编码在文本中突兀出现，无上下文，读者无法理解其指代。",
+        "parse": {
+          "claim": "文本包含一个数字编码，但未说明其含义或来源。",
+          "qualifiers": "",
+          "contrast_or_target": ""
+        },
+        "why": {
+          "relation": "none",
+          "explanation": ""
+        },
+        "implication": null,
+        "confidence": "low",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p249s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  }
+}

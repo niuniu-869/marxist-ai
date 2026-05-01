@@ -1,0 +1,107 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 69,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段以反讽口吻，驳斥资产阶级经济学家关于劳资利益一致的论调，通过揭示双方相互依存的实质来暴露其虚伪性。",
+    "importance_score": 2,
+    "importance_reason": "直接反驳庸俗政治经济学的核心主张，为后续揭示剥削关系做铺垫。",
+    "argument_role": "contrasts",
+    "argument_link": "上段阐述资本与劳动相互依存的客观事实，本段则揭示这种依存关系的实质是强制与剥削，而非利益和谐。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p69s1",
+        "quote": "所以，资产者及其经济学家们断言，资本家和工人的利益是一致的。千真万确呵！",
+        "trigger": "inverted_logic",
+        "reader_block": "反讽语气加“千真万确”的肯定表述，读者可能误以为作者赞同利益一致论，实际是为后续揭露其强制性基础做铺垫。",
+        "parse": {
+          "claim": "资产阶级经济学家主张劳资双方利益根本一致，作者用反讽承认这种相互依存的表面事实，但意在揭露其剥削实质。",
+          "qualifiers": "此“一致”仅存在于工人必须出卖劳动力、资本必须剥削劳动才能生存的强制性关系中。",
+          "contrast_or_target": "资产阶级经济学家认为资本与劳动是和谐合作关系，双方在产业繁荣中共同受益。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "本句是直接反驳论敌观点的开场，通过反讽树立靶子，为下文揭示这种“一致”的强制性与剥削性做准备。"
+        },
+        "implication": "这种“一致”建立在工人必须受雇、资本必须剥削的生存强制之上，是阶级对立的另一种表述。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "资产者及其经济学家",
+      "their_view": "资本家和工人的利益是一致的，双方相互依存，产业繁荣对双方都有利。",
+      "author_response": "作者用反讽承认表面依存，但揭露这种“一致”建立在工人必须受雇、资本必须剥削的强制性关系上，实质是阶级对立。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p69s1",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": [
+          {
+            "surface": "资产者及其经济学家们",
+            "type": "social_group",
+            "modern": "19世纪欧洲社会中拥有生产资料的阶级及其理论代言人。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p69s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p69s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p69s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p69s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p69s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "生产资本",
+            "type": "concept",
+            "modern": "投入生产过程、旨在增殖的资本形态。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "capital_production"
+          }
+        ]
+      }
+    ]
+  }
+}

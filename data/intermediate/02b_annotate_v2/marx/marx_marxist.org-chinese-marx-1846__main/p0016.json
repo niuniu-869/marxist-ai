@@ -1,0 +1,146 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 16,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段论证青年黑格尔派的批判方式仅停留在观念层面，未触及现实世界，因此本质上是保守的。",
+    "importance_score": 3,
+    "importance_reason": "这是马克思批判青年黑格尔派的核心论证，揭示其思想批判的局限性，为提出实践唯物主义奠基。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对青年黑格尔派与老年黑格尔派共同信念的描述，进一步展开批判，指出其逻辑后果和实际效果。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p16s6",
+        "quote": "不过他们忘记了：他们只是用词句来反对这些词句:既然他们仅仅反对这个世界的词句，那么他们就绝对不是反对现实的现存世界。",
+        "trigger": "inverted_logic",
+        "reader_block": "“用词句反对词句”的表述是反讽，读者需理解其意在指出批判工具与批判对象的同质性。",
+        "parse": {
+          "claim": "青年黑格尔派的斗争武器和斗争对象都局限于观念领域，因此无法撼动现实的社会存在。",
+          "qualifiers": "“仅仅反对”限定了其批判范围，排除了对现实物质基础的触动。",
+          "contrast_or_target": "青年黑格尔派认为通过改变观念就能改变世界。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "直接反驳青年黑格尔派的核心前提，即意识决定存在，指出其批判的无效性。"
+        },
+        "implication": "对现存世界的真正反对，必须从改变产生这些观念的物质生活条件入手。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "青年黑格尔派",
+      "their_view": "观念、思想、概念等意识产物是束缚人们的真正枷锁，只要用新的、批判的或利己的意识去代替旧意识，就能消除这些束缚，实现解放。",
+      "author_response": "他们只用词句反对词句，未触及产生这些观念的现实世界，因此其批判无法改变任何现存事物，只是在承认现状的前提下寻求解释方式的改变。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p16s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p16s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "利己的意识",
+            "type": "concept",
+            "modern": "青年黑格尔派（如施蒂纳）主张的一种以个体自我为中心的意识形式，用以对抗普遍的道德或宗教观念。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "consciousness_young_hegelian"
+          }
+        ]
+      },
+      {
+        "sid": "p16s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p16s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "保守派",
+            "type": "concept",
+            "modern": "作者在此特指青年黑格尔派，因其批判未触动现实根基，客观上维护了现存秩序。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "conservative_critique"
+          }
+        ]
+      },
+      {
+        "sid": "p16s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p16s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "词句",
+            "type": "concept",
+            "modern": "作者用以概括青年黑格尔派批判对象的术语，指代一切观念、思想、概念等意识形式。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "word_critique"
+          }
+        ]
+      },
+      {
+        "sid": "p16s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p16s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 3,
+        "notes_dropped": 0,
+        "hs_kept": 1,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

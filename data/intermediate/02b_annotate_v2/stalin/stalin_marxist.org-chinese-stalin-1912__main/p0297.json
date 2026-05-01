@@ -1,0 +1,55 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 297,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "斯大林以反问句讽刺高加索取消派，指出其民族政策客观上服务于反动势力。",
+    "importance_score": 1,
+    "importance_reason": "作为具体例证，支撑前文对取消派在民族问题上错误路线的批判。",
+    "argument_role": "example",
+    "argument_link": "承接上段对社会民主党人助长反动势力的质问，以高加索取消派为例具体说明。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "高加索取消派",
+      "their_view": "通过建立民族文化联盟，可以团结鞑靼人等民族，实现民族平等或自治。",
+      "author_response": "这种做法脱离了阶级斗争，实质上是为反动势力服务，帮助其奴役各族群众。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p297s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

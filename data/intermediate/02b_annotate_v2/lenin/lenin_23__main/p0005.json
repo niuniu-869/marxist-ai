@@ -1,0 +1,95 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 5,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁肯定杂志捍卫唯物主义的任务，并指出俄国思想传统有唯物主义根基，同时批评现代民粹派背离这一传统。",
+    "importance_score": 2,
+    "importance_reason": "连接杂志任务与俄国思想传统，并引入对民粹派的批判，为后续论战铺垫。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于联盟必要性的论述，将讨论具体到杂志的哲学捍卫任务。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "车尔尼雪夫斯基与普列汉诺夫",
+        "explain": "车尔尼雪夫斯基是19世纪俄国革命民主主义者和唯物主义哲学家，普列汉诺夫是俄国马克思主义先驱。列宁用他们代表俄国思想中坚实的唯物主义传统。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p5s3",
+        "quote": "且不说格·瓦·普列汉诺夫，只要指出车尔尼雪夫斯基就够了，现代的民粹派(人民社会党人和社会革命党人等)由于一味追随时髦的反动哲学学说，往往离开车尔尼雪夫斯基而倒退，他们被欧洲科学的所谓“最新成就”的假象所迷惑，不能透过这种假象看清它是替资产阶级及偏见和反动性效劳的不同形式。",
+        "trigger": "long_nested",
+        "reader_block": "句子包含多个从句，且“由于……而……”的因果结构与“不能透过……看清……”的否定判断交织，读者容易迷失主干。",
+        "parse": {
+          "claim": "现代民粹派因追随时髦哲学而背离了俄国本土的唯物主义传统，且无法识破欧洲科学假象的阶级本质。",
+          "qualifiers": "",
+          "contrast_or_target": "现代民粹派认为欧洲科学的最新成就是进步的，可以取代俄国传统。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "通过对比俄国唯物主义传统与民粹派的倒退，揭示其理论选择的阶级局限性。"
+        },
+        "implication": "捍卫唯物主义需要扎根本国革命传统，而非盲目追随外来思潮。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "现代的民粹派（人民社会党人和社会革命党人等）",
+      "their_view": "欧洲科学的最新成就代表了真正的进步，俄国旧有的唯物主义传统已经过时。",
+      "author_response": "列宁指出他们被假象迷惑，实质是为资产阶级偏见和反动性服务。",
+      "polemic_kind": "reveals_class_basis",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p5s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p5s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p5s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "现代的民粹派",
+            "type": "social_group",
+            "modern": "列宁用此指称当时追随欧洲时髦哲学、背离俄国唯物主义传统的俄国小资产阶级政治派别。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "车尔尼雪夫斯基",
+            "type": "person",
+            "modern": "19世纪俄国革命民主主义者，其唯物主义哲学是俄国进步思想的重要源头。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,144 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 427,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁以芬兰为例，批评皮达可夫在民族自决问题上的糊涂观点，并阐述布尔什维克党应支持被压迫民族自决的立场。",
+    "importance_score": 2,
+    "importance_reason": "通过芬兰实例，具体论证民族自决权原则，反驳党内对民族问题的错误态度。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对皮达可夫观点的批评，以芬兰为例具体说明其错误所在，并阐述正确立场。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "皮达可夫",
+      "their_view": "在芬兰问题上含糊其辞，主张等待立宪会议来解决芬兰与俄国的关系问题。",
+      "author_response": "列宁指出这是糊涂的，布尔什维克党应明确支持芬兰工人按自己意志决定命运的权利，否认这种权利就是沙文主义。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p427s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p427s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p427s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p427s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "《工人报》",
+            "type": "work",
+            "modern": "布尔什维克党中央机关报，1917年3月创刊。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p427s5",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": [
+          {
+            "surface": "立宪民主党",
+            "type": "org",
+            "modern": "俄国资产阶级政党，主张君主立宪，反对民族自决。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p427s6",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": [
+          {
+            "surface": "罗季切夫总督",
+            "type": "person",
+            "modern": "临时政府任命的芬兰总督，其统治引发芬兰不满。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "立宪会议",
+            "type": "event",
+            "modern": "原定1917年秋召开的制宪会议，用于解决国家根本制度问题。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p427s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p427s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p427s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p427s10",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 4,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_5gram_with_surface"
+      ]
+    }
+  ]
+}

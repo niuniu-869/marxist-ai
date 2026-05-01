@@ -1,0 +1,103 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 417,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "批判国民经济学将“节制需要”作为人口论原则，并以穆勒为例，揭示其将人的生产视为社会负担的禁欲主义逻辑。",
+    "importance_score": 2,
+    "importance_reason": "作为对国民经济学批判的组成部分，具体展示其理论如何将工人的生存状况（包括生育）纳入资本逻辑的计算。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段对国民经济学将一切（包括人的身体与关系）变为可出卖物的批判，本段进一步揭示其理论在人口问题上的具体表现。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "节制需要",
+        "explain": "国民经济学的一个原则，主张通过限制工人的消费和欲望来维持资本积累，本段将其应用于人口理论，认为工人应节制生育。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      },
+      {
+        "topic": "穆勒",
+        "explain": "指詹姆斯·穆勒，19世纪英国古典政治经济学家，其观点被马克思引用来说明国民经济学的禁欲主义倾向。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p417s2",
+        "quote": "甚至连人的存在都是十足的奢侈，而如果工人是“道德的”(穆勒曾建议公开赞扬那些在两性关系上表现节制的人，并公开谴责那些违背结婚不生育原则的人……难道这不是道德，不是禁欲学说吗?)，那么他就会在生育方面实行节约。",
+        "trigger": "inverted_logic",
+        "reader_block": "反问句“难道这不是道德，不是禁欲学说吗？”是反讽，读者可能误以为作者在肯定这种“道德”，实际是批判其虚伪性。",
+        "parse": {
+          "claim": "国民经济学将工人的存在本身视为一种负担，并推崇一种要求工人在性关系上节制、在生育上节约的“道德”，这实质上是一种禁欲学说。",
+          "qualifiers": "这种“道德”是国民经济学家（如穆勒）所倡导的，针对的是工人阶级。",
+          "contrast_or_target": "国民经济学（穆勒）认为，公开赞扬节制、谴责非生育性行为是符合社会利益的道德行为。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "通过引用穆勒的具体建议并以反问形式，直接揭露国民经济学所标榜的“道德”背后，是对工人自然需求的压制和一种服务于资本积累的禁欲主义。"
+        },
+        "implication": "国民经济学的“道德”标准，其本质是将工人非人化，使其适应资本增殖的需要。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "国民经济学（穆勒）",
+      "their_view": "人口过多是问题，工人的存在本身是奢侈；应通过赞扬节制性关系、谴责非生育行为等道德手段，引导工人在生育上节约，以符合社会利益。",
+      "author_response": "这种将人的生产视为“公众不幸”的观点，以及其所推崇的“道德”，实质上是禁欲学说，是国民经济学将工人彻底工具化的表现。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p417s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p417s2",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": [
+          {
+            "surface": "节制需要",
+            "type": "concept",
+            "modern": "国民经济学主张通过限制工人消费与欲望来维持资本积累的原则，在本段特指应用于人口生育领域。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "restraint_of_needs_national_economics"
+          },
+          {
+            "surface": "穆勒",
+            "type": "person",
+            "modern": "詹姆斯·穆勒，19世纪英国古典政治经济学家，其观点被引用来例证国民经济学的禁欲主义倾向。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p417s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  }
+}

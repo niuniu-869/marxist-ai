@@ -1,0 +1,63 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 388,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁分析了俄国革命的两种可能前途，强调了城市无产阶级与农村群众联合的重要性。",
+    "importance_score": 3,
+    "importance_reason": "本段提出了俄国革命前途的核心问题，是列宁路线的关键论证。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于农村阶级斗争的分析，将问题提升到整个革命的前途高度。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "古契柯夫与米留可夫",
+        "explain": "二月革命后成立的资产阶级临时政府中的核心人物。古契柯夫任军事部长，米留可夫任外交部长，他们代表了与英法帝国主义结盟、继续进行帝国主义战争的资产阶级利益。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "孟什维克及临时政府支持者",
+      "their_view": "他们主张与资产阶级合作，支持临时政府，认为俄国应先巩固资产阶级民主革命成果。",
+      "author_response": "列宁指出这是跟随反革命势力，将导致革命失败，强调必须由无产阶级领导农村群众走另一条道路。",
+      "polemic_kind": "reveals_class_basis",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p388s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_6>5"
+      ]
+    }
+  ]
+}

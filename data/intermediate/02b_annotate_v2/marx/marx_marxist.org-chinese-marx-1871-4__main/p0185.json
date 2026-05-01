@@ -1,0 +1,85 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 185,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "描述梯也尔在巴黎陷落前夕的言行，揭露其镇压公社的真实意图。",
+    "importance_score": 2,
+    "importance_reason": "作为叙事证据，具体展示梯也尔的阶级立场和暴力手段，支撑全文对资产阶级政府的批判。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段对梯也尔威胁言论的引用，本段具体描述他如何将威胁付诸行动，包括对各方的表态和最终巴黎陷落的过程。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "梯也尔",
+      "their_view": "梯也尔认为必须对巴黎进行彻底镇压，允许其部下任意复仇，并将此前的和解姿态视为达到这一目的的手段。",
+      "author_response": "马克思通过描述梯也尔的言行，揭露其所谓和解的虚伪性，表明其真实目的是彻底消灭巴黎的革命力量。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p185s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p185s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "波拿巴强盗们",
+            "type": "metaphor",
+            "modern": "马克思对追随拿破仑三世的军人和政客的蔑称，强调其掠夺性和暴力性。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p185s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "和解滑稽剧",
+            "type": "metaphor",
+            "modern": "马克思讽刺梯也尔此前提出的和解姿态，认为其虚伪且旨在麻痹对手。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

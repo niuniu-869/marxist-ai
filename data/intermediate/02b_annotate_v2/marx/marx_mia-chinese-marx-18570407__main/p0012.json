@@ -1,0 +1,73 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 12,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段以激烈比喻，将工厂主与鸦片走私商并列，揭露其与统治集团的利益共生关系。",
+    "importance_score": 2,
+    "importance_reason": "这是对工厂主阶级本质的定性，将其剥削行为与英国殖民掠夺相联系，强化了全文的批判立场。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对工厂主欺骗行为的揭露，本段进一步从阶级立场上对其进行定性，指出其与统治集团的内在关联。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "工厂主",
+      "their_view": "我们是合法的工厂主，为国家生产商品、创造财富，是社会的支柱。",
+      "author_response": "你们是靠榨取工人血汗自肥的剥削者，与从事罪恶贸易的鸦片走私商是同类，并且是维护现有统治秩序的天然基础。",
+      "polemic_kind": "reveals_class_basis",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p12s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "吸血鬼",
+            "type": "metaphor",
+            "modern": "作者用此词比喻靠剥削工人剩余价值为生的工厂主，强调其寄生性。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          },
+          {
+            "surface": "鸦片走私商",
+            "type": "social_group",
+            "modern": "19世纪向中国走私鸦片的英国商人，其行为被视为不道德且掠夺性的。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_archaic_7>4",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

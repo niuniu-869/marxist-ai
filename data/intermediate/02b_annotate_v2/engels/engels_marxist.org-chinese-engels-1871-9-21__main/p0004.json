@@ -1,0 +1,108 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 4,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "恩格斯论证实现消灭阶级这一目标的唯一手段是无产阶级的政治统治，并直接反驳放弃政治行动的主张。",
+    "importance_score": 3,
+    "importance_reason": "本段提出无产阶级政治统治是实现消灭阶级的唯一手段，并直接反驳放弃政治行动的论敌，是全文核心论点。",
+    "argument_role": "continues",
+    "argument_link": "本段承接上一段关于无产阶级不可能放弃政治行动的论证，具体提出政治统治是实现消灭阶级的手段，并反驳放弃政治的主张。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "法夫尔与皮阿",
+        "explain": "巴黎公社失败后，资产阶级临时政府的关键成员，代表了对工人阶级的背叛和镇压。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "无政府主义者",
+      "their_view": "任何政治行动都意味着承认现状，因此应当放弃政治，专注于直接的经济斗争或社会革命。",
+      "author_response": "恩格斯指出，革命本身就是政治的最高行动，放弃政治行动等于放弃革命准备，使工人易受资产阶级代表人物的欺骗。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p4s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p4s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p4s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p4s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p4s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p4s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "法夫尔和皮阿",
+            "type": "person",
+            "modern": "巴黎公社失败后，资产阶级临时政府的关键成员，代表了对工人阶级的背叛和镇压。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p4s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 98,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "马克思指出，即便按照国民经济学自身的定义，劳动也无法被视为商品，因为其交易并非自由。",
+    "importance_score": 2,
+    "importance_reason": "这是对国民经济学核心前提（劳动是商品）的直接反驳，揭示了其理论内部的矛盾。",
+    "argument_role": "contrasts",
+    "argument_link": "上一段引用国民经济学观点，将劳动描述为商品并批判其后果；本段则进一步指出，即使按该学说自身标准，劳动也非商品。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "国民经济学",
+      "their_view": "劳动是一种可以在市场上自由买卖的商品，其价值由市场决定。",
+      "author_response": "马克思指出，工人出卖劳动并非出于自由选择，而是迫于生存压力，因此不符合该学说对商品的定义。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p98s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p98s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p98s3",
+        "speaker": "editor",
+        "stance": "neutral_citation",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_9>5"
+      ]
+    }
+  ]
+}

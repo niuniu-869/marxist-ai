@@ -1,0 +1,76 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 159,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "分析西班牙革命中市民阶层因脱离群众而被迫依赖军队，以及上层资产阶级最终背叛革命的过程。",
+    "importance_score": 2,
+    "importance_reason": "具体阐述了革命阵营内部的阶级分化与力量对比，是理解革命失败原因的关键环节。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段关于市民阶层与人民脱节的论断，具体分析这种脱节导致的后果：依赖军队和资产阶级背叛。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "上层资产阶级（温和派）",
+      "their_view": "革命可以坐享其成，通过外国势力干预来获取政权，无需自身付出努力，更不能让平民分享成果。",
+      "author_response": "这种幻想导致他们对革命冷淡并最终背叛，其阶级立场决定了他们无法领导彻底的革命。",
+      "polemic_kind": "reveals_class_basis",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p159s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p159s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p159s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "温和派",
+            "type": "social_group",
+            "modern": "19世纪西班牙政治光谱中，主张君主立宪、反对激进变革的资产阶级派别。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

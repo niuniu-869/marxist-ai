@@ -1,0 +1,66 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 528,
+  "annotation": {
+    "block_type": "quote_block",
+    "gist": "引用黑格尔《精神现象学》中关于“自我意识”运动的论述，并提及法国唯物主义者的局限。",
+    "importance_score": 2,
+    "importance_reason": "为批判黑格尔唯心主义辩证法提供直接文本例证，是后续论证的靶子。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段对黑格尔辩证法形式问题的讨论，此处直接引用其核心论述，为具体批判提供靶子。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "all_known",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "term_density",
+      "needs_polemic": true,
+      "polemic_reason": "refute_quotation"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p528s1",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": [
+          {
+            "surface": "自我意识",
+            "type": "concept",
+            "modern": "黑格尔哲学中的核心范畴，指精神或理念，它通过外化为自然界和人类历史来认识并最终回归自身。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "self_consciousness_hegelian"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote",
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

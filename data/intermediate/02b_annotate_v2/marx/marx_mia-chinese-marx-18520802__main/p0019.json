@@ -1,0 +1,103 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 19,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段通过列举辉格党内部的矛盾成分，揭示其虚伪性，并分析英国无产阶级同时仇恨贵族和资产阶级，但更仇恨代表寡头政权的辉格党。",
+    "importance_score": 2,
+    "importance_reason": "本段通过具体成分分析和阶级仇恨分析，支撑了辉格党作为资产阶级工具的论点。",
+    "argument_role": "continues",
+    "argument_link": "本段具体化了上一段关于辉格党退化为集团的论断，通过列举其内部矛盾成分来证明。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "辉格党",
+      "their_view": "辉格党自诩为自由、道德和开明原则的维护者，是人民利益的代表。",
+      "author_response": "马克思揭露辉格党是各种矛盾成分的混合物，本质上是维护贵族和资产阶级利益的寡头政权。",
+      "polemic_kind": "reveals_class_basis",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p19s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "马尔萨斯",
+            "type": "person",
+            "modern": "18-19世纪英国经济学家，其人口理论常被用作反对社会改革的论据。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p19s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p19s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "蝙蝠和罗素的政党",
+            "type": "metaphor",
+            "modern": "用蝙蝠比喻辉格党在托利党和自由派之间摇摆，罗素是辉格党领袖。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p19s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p19s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p19s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

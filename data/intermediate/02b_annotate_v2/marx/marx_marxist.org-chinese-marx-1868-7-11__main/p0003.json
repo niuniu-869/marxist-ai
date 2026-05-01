@@ -1,0 +1,121 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 3,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "马克思反驳《中央报》评论者对价值概念的质疑，论证价值规律是社会劳动按比例分配的必然表现形式。",
+    "importance_score": 3,
+    "importance_reason": "核心论点段落，直接阐述价值理论的基础，反驳庸俗经济学对价值概念的质疑。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对《中央报》具体评论的回应，将争论提升到价值理论的一般性论证。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "价值概念的证明问题",
+        "explain": "当时一些经济学家认为，马克思在《资本论》中没有先证明“价值”这个抽象概念的存在，就直接使用它，这是方法论错误。马克思在此反驳这种观点。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "庸俗经济学家（《中央报》评论者）",
+      "their_view": "价值这个概念本身需要先被证明其存在，否则不能使用。",
+      "author_response": "这种要求是由于对讨论的对象和科学方法都一无所知。即使不专设一章讨论价值，对现实经济关系的分析也内在地包含了对价值关系的论证。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p3s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p3s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p3s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p3s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p3s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p3s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p3s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p3s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p3s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "交换价值",
+            "type": "concept",
+            "modern": "在商品生产社会中，不同商品交换时所依据的共同尺度，是社会劳动时间的凝结。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "exchange_value_marxist"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,170 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 8,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "描述埃斯帕特罗执政期间的矛盾行为与最终失败。",
+    "importance_score": 2,
+    "importance_reason": "通过具体执政表现，支撑前文对其军事功绩与政治失败的论断。",
+    "argument_role": "continues",
+    "argument_link": "具体展开上段提出的“政治失败”论断，描述其执政期间的矛盾与失误。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p8s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "克里斯亭娜",
+            "type": "person",
+            "modern": "西班牙女王伊莎贝拉二世之母，1833-1840年间担任摄政王太后。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "议会制",
+            "type": "concept",
+            "modern": "埃斯帕特罗接受的权力框架，即通过议会行使权力的君主立宪制度。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "parliamentary_system"
+          }
+        ]
+      },
+      {
+        "sid": "p8s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "军事独裁者",
+            "type": "concept",
+            "modern": "埃斯帕特罗的自我装扮，指其试图以军队为后盾实行个人统治。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "military_dictator"
+          }
+        ]
+      },
+      {
+        "sid": "p8s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "温和派",
+            "type": "social_group",
+            "modern": "西班牙议会中政治立场较为保守、主张妥协的派别。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          },
+          {
+            "surface": "进步派",
+            "type": "social_group",
+            "modern": "西班牙议会中政治立场较为激进、主张改革的派别。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p8s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p8s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "议会制的枷锁",
+            "type": "metaphor",
+            "modern": "将议会制度比作束缚埃斯帕特罗手脚的锁链，形容其无法摆脱又无力驾驭。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p8s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p8s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p8s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "路易－菲力浦",
+            "type": "person",
+            "modern": "法国七月王朝国王，其政府被描述为对西班牙事务进行干预。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p8s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 7,
+        "notes_dropped": 5,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "note:n1_overflow_archaic_12>4",
+        "note:n2_circular_prefix",
+        "note:n1_overflow_archaic_6>4",
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

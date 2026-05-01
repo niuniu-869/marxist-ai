@@ -1,0 +1,80 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 95,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "作者反驳论敌关于“个性消灭”的指责，指出其所谓“个性”实指资本家阶级，并主张消灭之。",
+    "importance_score": 2,
+    "importance_reason": "核心批判段落，直接揭露并反驳论敌对共产主义目标的污蔑。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对废止私有财产目标的肯定，进一步驳斥论敌将此目标污蔑为“消灭个性”的论调。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "refute_quotation"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p95s3",
+        "quote": "这种人自然非扫荡不可，非消灭不可。",
+        "trigger": "inverted_logic",
+        "reader_block": "双重否定“非……不可”在中文中表强烈肯定，但读者可能因习惯否定句式而需转换理解。",
+        "parse": {
+          "claim": "资本家阶级必须被消灭。",
+          "qualifiers": "",
+          "contrast_or_target": "针对论敌将消灭资本家等同于消灭个性的论调。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "本句以双重否定强调消灭资本家阶级的必然性，直接回应论敌对共产主义目标的污蔑。"
+        },
+        "implication": null,
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "论敌",
+      "their_view": "废止私有财产、消灭资本家就是消灭人的个性。",
+      "author_response": "论敌所谓的“个性”就是资本家，这种人必须被消灭。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p95s1",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p95s2",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": [
+          {
+            "surface": "个性",
+            "type": "concept",
+            "modern": "在论敌语境中，等同于资本家阶级的个人自由与财产权。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "personality_bourgeois"
+          }
+        ]
+      },
+      {
+        "sid": "p95s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  }
+}

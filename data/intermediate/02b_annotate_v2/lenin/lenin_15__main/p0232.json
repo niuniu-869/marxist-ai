@@ -1,0 +1,108 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 232,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "用实例说明股票集中控制的事实，反驳“资本民主化”的幻想，并引用西门子的话讽刺对帝国主义的肤浅理解。",
+    "importance_score": 2,
+    "importance_reason": "为金融资本集中的论点提供具体例证，并讽刺性地对比了对帝国主义本质的不同理解。",
+    "argument_role": "example",
+    "argument_link": "承接上段关于“参与制”控制机制的说明，用更具体的持股比例和法律实例来证实金融寡头如何通过看似分散的股权实现集中控制。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p232s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p232s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "机会主义",
+            "type": "concept",
+            "modern": "在工人运动内部，放弃阶级斗争根本目标、主张与资产阶级妥协的思潮。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "opportunism_general"
+          }
+        ]
+      },
+      {
+        "sid": "p232s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p232s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p232s5",
+        "speaker": "quoted_opponent",
+        "stance": "neutral_citation",
+        "notes": [
+          {
+            "surface": "帝国国会",
+            "type": "org",
+            "modern": "德意志帝国（1871-1918）的立法机构。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "西门子",
+            "type": "person",
+            "modern": "维尔纳·冯·西门子，德国电气工业巨头，西门子公司创始人。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 3,
+        "notes_dropped": 2,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "note:n1_overflow_concept_7>5",
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

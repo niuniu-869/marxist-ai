@@ -1,0 +1,90 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 12,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段通过定义“兼并”概念，批判《言语报》所代表的大俄罗斯沙文主义立场。",
+    "importance_score": 2,
+    "importance_reason": "本段为后续论证提供了“兼并”的明确定义，并直接批判了临时政府支持者的民族主义观点。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对革命护国主义的讨论，本段具体阐释了“放弃兼并”这一核心条件，并批判了与之对立的民族主义观点。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "兼并的定义",
+        "explain": "在列宁的论述中，“兼并”特指违反一个民族意愿将其强行并入另一国家的行为，无论该民族是否使用不同语言。这一定义针对当时俄国对波兰、芬兰等地的控制。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p12s4",
+        "quote": "然而兼并就是把任何具有民族特点的国家归并进来，就是违反一个民族的愿望而把它（只要它感到自己是另一个民族，有没有不同的语言无关紧要）归并进来。",
+        "trigger": "long_nested",
+        "reader_block": "句子包含括号插入和多重定义，读者可能混淆“民族特点”与“语言”的关系，不清楚列宁定义的“兼并”核心是民族自决权而非语言差异。",
+        "parse": {
+          "claim": "列宁将“兼并”定义为违背一个民族自我认同意愿的强行合并行为，语言差异并非必要条件。",
+          "qualifiers": "",
+          "contrast_or_target": "针对《言语报》将兼并等同于领土扩张的狭隘理解。",
+          "why": {
+            "relation": "definition",
+            "explanation": "本句为全文核心概念“兼并”提供了明确的、基于民族自决权的定义，为批判大俄罗斯主义奠定理论基础。"
+          },
+          "implication": "这一定义意味着临时政府若继续控制非俄罗斯民族地区，就仍在实行兼并政策。",
+          "confidence": "high",
+          "source_basis": "text_evidence"
+        }
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "《言语报》及其代表的大俄罗斯沙文主义",
+      "their_view": "《言语报》认为，将库尔兰并入俄国不算兼并，因为库尔兰已是俄国一部分，其民族特点不重要。",
+      "author_response": "列宁指出，这种观点源于几个世纪形成的大俄罗斯人偏见，实质是无视其他民族的自决权。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p12s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p12s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p12s3",
+        "speaker": "quoted_opponent",
+        "stance": "critical",
+        "notes": []
+      },
+      {
+        "sid": "p12s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p12s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  }
+}

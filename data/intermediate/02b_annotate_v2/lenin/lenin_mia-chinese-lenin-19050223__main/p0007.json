@@ -1,0 +1,76 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 7,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁引用《解放》杂志对社会民主党的具体指责及其对自由派的策略建议，以展示其攻击的实质。",
+    "importance_score": 2,
+    "importance_reason": "作为前段对《解放》杂志分析的例证，具体展示自由派如何利用党内分歧进行策略性攻击。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对《解放》杂志评论的分析，本段直接引用其原文，具体展示其如何将社会民主党的内部争论扭曲为对“文化工作”和“合法道路”的恐惧，并提出自由派的应对策略。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "《解放》杂志（自由派）",
+      "their_view": "社会民主党因害怕文化工作、合法道路和经济主义等形式，而未能认识到，恰恰是这些非政治的、合法的形式，才能为真正的工人革命运动奠定最坚实和广泛的基础。因此，自由派应主动创立工会，与社会民主党合作而非对抗。",
+      "author_response": "列宁通过引用这段话，旨在揭露自由派的真实意图：他们并非真心支持工人运动，而是企图将运动引向他们所主张的、脱离政治斗争的“合法”与“文化”轨道，并借此介入和影响工人组织。",
+      "polemic_kind": "strategic_critique",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p7s1",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": [
+          {
+            "surface": "文化工作",
+            "type": "concept",
+            "modern": "在本文语境下，特指自由派所倡导的、脱离直接政治斗争和革命任务的教育、出版等活动。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "cultural_work_bourgeois"
+          },
+          {
+            "surface": "反社会党人非常法",
+            "type": "event",
+            "modern": "1878-1890年德国俾斯麦政府颁布的镇压社会主义运动的法令，期间德国社会民主党转入地下并利用合法与非法手段相结合的策略。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 4,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

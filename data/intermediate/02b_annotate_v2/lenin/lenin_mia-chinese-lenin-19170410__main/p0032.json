@@ -1,0 +1,72 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 32,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "分析两个政权并存局面的阶级根源，指出苏维埃是无产阶级和农民的革命民主专政。",
+    "importance_score": 3,
+    "importance_reason": "对二月革命后俄国阶级力量对比做出根本判断，是后续策略的理论基石。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对两个政权并存现象的描述，深入分析其背后的阶级力量对比。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "革命民主专政",
+        "explain": "这是列宁对1917年俄国革命阶段的定性，指由无产阶级和农民联合掌握政权，但尚未完全过渡到社会主义革命。它区别于纯粹的无产阶级专政，也区别于资产阶级民主。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p32s1",
+        "quote": "两个政权并存的局面的阶级根源和它的阶级意义在于：1917年3月的俄国革命不仅推翻了整个沙皇君主制，不仅把全部政权交给了资产阶级，而且已经到达无产阶级和农民的革命民主专政。",
+        "trigger": "long_nested",
+        "reader_block": "句子包含三个并列的“不仅……而且”结构，且“革命民主专政”是需要理解的理论术语，读者容易混淆其与“无产阶级专政”的关系。",
+        "parse": {
+          "claim": "二月革命同时完成了推翻沙皇、将政权交给资产阶级、并使革命达到无产阶级与农民联合专政这三个历史任务。",
+          "qualifiers": "",
+          "contrast_or_target": ""
+        },
+        "why": {
+          "relation": "definition",
+          "explanation": "本句通过分析革命的多重结果，为“两个政权并存”这一现象提供了阶级分析框架。"
+        },
+        "implication": "这意味着俄国革命已超越资产阶级民主革命范畴，具备了向社会主义革命过渡的阶级基础。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p32s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p32s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  }
+}

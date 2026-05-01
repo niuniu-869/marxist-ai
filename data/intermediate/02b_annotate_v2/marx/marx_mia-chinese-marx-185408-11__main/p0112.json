@@ -1,0 +1,149 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 112,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "剖析西班牙议会内部的派系构成，重点揭示占多数的“奴才派”中僧侣代表的矛盾立场及其与自由派民主派的临时联盟。",
+    "importance_score": 2,
+    "importance_reason": "为理解西班牙革命中议会斗争的具体力量格局提供关键细节，揭示了表面改革派内部的复杂阶级利益。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于议会选举结果的描述，具体分析当选议员的政治派别构成，打破对议会改革力量的简单化想象。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "term_density",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "西班牙议会派系",
+        "explain": "19世纪西班牙议会中的“奴才派”（Serviles）指拥护绝对君主制和教会特权的保守派；“自由派”（Liberales）主张君主立宪和有限改革；“美洲派”代表西班牙美洲殖民地（或前殖民地）利益集团。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "英国宪法拥护者",
+        "explain": "此处并非指英国人，而是西班牙议会中主张效仿当时英国君主立宪模式（强调王权与议会平衡、财产资格限制）的保守派议员。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      },
+      {
+        "topic": "康涅多与托雷罗",
+        "explain": "康涅多神甫（后成为大主教）是保守的教会派代表；蒙尼奥斯·托雷罗神甫是自由派成员。两人同为神职人员但政治立场对立，是议会辩论的缩影。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "当代观察家（对西班牙革命的简单化解读）",
+      "their_view": "认为西班牙议会的大多数议员都是立场一致的改革派，革命力量是统一的。",
+      "author_response": "马克思通过剖析议会三派（奴才派、自由派、美洲派）的构成及内部矛盾，特别是揭示保守的教会派在特定议题上会与民主派合作，说明议会内部力量复杂且充满策略性联盟，绝非铁板一块。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p112s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p112s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "奴才派",
+            "type": "social_group",
+            "modern": "19世纪西班牙议会中拥护绝对君主制与教会特权的保守政治派别。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p112s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p112s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p112s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p112s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "英国宪法的拥护者",
+            "type": "metaphor",
+            "modern": "西班牙议会中主张效仿英国君主立宪模式（强调王权与议会平衡、保留财产资格限制）的保守派议员。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p112s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "康涅多神甫",
+            "type": "person",
+            "modern": "西班牙议会中教会派（奴才派）的代表人物，后成为布尔果斯大主教，以压迫自由派著称。",
+            "highlight": "person",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "蒙尼奥斯·托雷罗",
+            "type": "person",
+            "modern": "西班牙议会中自由派的神职人员代表，与康涅多神甫政治立场对立。",
+            "highlight": "person",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 4,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 2,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

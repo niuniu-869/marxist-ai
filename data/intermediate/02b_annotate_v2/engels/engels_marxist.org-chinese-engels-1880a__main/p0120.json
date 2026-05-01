@@ -1,0 +1,164 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 120,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "对比科学社会主义与空想社会主义的任务和方法，指出剩余价值理论完成了对资本主义生产方式的科学说明。",
+    "importance_score": 3,
+    "importance_reason": "核心论点，阐明科学社会主义的科学性在于剩余价值理论对资本主义生产方式的揭示。",
+    "argument_role": "continues",
+    "argument_link": "承接上段历史唯物主义原理，具体说明社会主义如何从空想变为科学。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "剩余价值",
+        "explain": "马克思政治经济学核心概念，指工人创造的超出其劳动力价值的那部分价值，被资本家无偿占有，是资本积累的源泉。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p120s11",
+        "quote": "即使资本家按照劳动力作为商品在商品市场上所具有的全部价值来购买他的工人的劳动力，他从这种劳动力榨取的价值仍然比他为这种劳动力付出的多；",
+        "trigger": "inverted_logic",
+        "reader_block": "“即使……仍然……”让步结构，读者可能困惑为何按价值购买还能产生剥削。",
+        "parse": {
+          "claim": "资本家即使按劳动力的市场价值支付工资，仍能从工人劳动中榨取超出工资的价值。",
+          "qualifiers": "限定在劳动力作为商品按其全部价值被购买的情况下。",
+          "contrast_or_target": ""
+        },
+        "why": {
+          "relation": "continues",
+          "explanation": "具体解释剩余价值如何产生，即使工资符合劳动力价值。"
+        },
+        "implication": "揭示了剥削的隐蔽性，即剥削发生在流通领域之外的生产过程中。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "空想社会主义",
+      "their_view": "空想社会主义者批判资本主义的后果，但无法说明这个生产方式本身，只能简单地把它当作坏东西抛弃。",
+      "author_response": "科学社会主义的任务是研究产生阶级及其斗争的历史经济过程，并在经济状况中找出解决冲突的手段。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p120s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p120s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p120s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p120s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p120s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p120s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p120s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p120s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p120s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "剩余价值",
+            "type": "concept",
+            "modern": "工人创造的超出其劳动力价值的那部分价值，被资本家无偿占有",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "value_surplus"
+          }
+        ]
+      },
+      {
+        "sid": "p120s10",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p120s11",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p120s12",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p120s13",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 0,
+        "hs_kept": 1,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

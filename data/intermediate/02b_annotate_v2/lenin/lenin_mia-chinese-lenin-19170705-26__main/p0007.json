@@ -1,0 +1,101 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 7,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "陈述临时政府历届内阁对召开立宪会议的承诺与日期确定，为批判相关政治幻想提供事实基础。",
+    "importance_score": 1,
+    "importance_reason": "作为事实陈述，为后文批判立宪幻想提供具体论据，属于支撑性内容。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对各种意见的分析，具体展开临时政府在立宪会议问题上的官方立场与行动。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p7s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "立宪会议",
+            "type": "concept",
+            "modern": "1917年俄国革命中，各政治力量承诺召开的全国制宪机构，旨在制定宪法并决定国家政体。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "constituent_assembly_russian_revolution"
+          }
+        ]
+      },
+      {
+        "sid": "p7s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p7s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "第二届临时政府",
+            "type": "org",
+            "modern": "1917年7月成立的俄国资产阶级临时政府内阁，由克伦斯基主导。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p7s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "第三届临时政府",
+            "type": "org",
+            "modern": "1917年7月“七月事件”后重组的俄国资产阶级临时政府内阁。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 3,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

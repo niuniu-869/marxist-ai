@@ -1,0 +1,88 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 196,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁回顾自己在齐美尔瓦尔德代表会议上的投票立场，指出会议的错误，并论证继续留在该组织会阻碍新国际的建立。",
+    "importance_score": 2,
+    "importance_reason": "本段通过回顾具体会议分歧，为后文提出退出齐美尔瓦尔德、建立新国际的主张提供事实依据和逻辑铺垫。",
+    "argument_role": "continues",
+    "argument_link": "本段具体展开上一段预告的第一个问题，即列宁在齐美尔瓦尔德代表会议上的立场及其对建立新国际的影响。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p196s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p196s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p196s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p196s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "第三国际",
+            "type": "org",
+            "modern": "共产国际，列宁主张建立的新国际组织",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p196s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

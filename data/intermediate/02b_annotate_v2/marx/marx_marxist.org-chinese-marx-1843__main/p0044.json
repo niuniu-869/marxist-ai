@@ -1,0 +1,151 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 44,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段直接回答上一段提出的问题，指出德国解放的现实可能性在于一个特定阶级的形成，并最终点明这个阶级就是无产阶级。",
+    "importance_score": 3,
+    "importance_reason": "这是全文的核心论断之一，首次明确将无产阶级定位为德国乃至人类解放的现实力量，标志着马克思从哲学批判转向政治经济学批判和阶级分析。",
+    "argument_role": "conclusion",
+    "argument_link": "本段直接承接上一段“德国解放的实际可能性到底在哪里”的提问，给出了明确的答案，即可能性在于一个特定阶级的形成。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "市民社会阶级",
+        "explain": "在黑格尔哲学中，“市民社会”指私人利益和需要的领域，区别于代表普遍性的国家。马克思此处用“非市民社会阶级的市民社会阶级”这一悖论式表述，指无产阶级虽存在于市民社会中，却被排除在市民社会的正常利益和权利之外。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      },
+      {
+        "topic": "历史权利与人权",
+        "explain": "“历史权利”指基于传统、等级或出身的特权。“人权”在当时语境下，主要指资产阶级革命所倡导的、抽象的、形式上的平等权利。马克思指出无产阶级无法诉诸前者，只能诉诸后者，但这本身是不够的。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "国家制度的前提与后果",
+        "explain": "“后果”指德国现存的、分裂落后的政治制度表现。“前提”指产生这种制度的整个社会基础，即私有制和市民社会的分裂。马克思强调无产阶级的矛盾是根本性的，而非局部的。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p44s1",
+        "quote": "答：就在于形成一个被彻底的锁链束缚着的阶级，即形成一个非市民社会阶级的市民社会阶级，一个表明一切等级解体的等级；",
+        "trigger": "inverted_logic",
+        "reader_block": "“非市民社会阶级的市民社会阶级”是悖论式表述，读者会困惑于一个阶级如何同时是又不是市民社会的一部分。",
+        "parse": {
+          "claim": "德国解放的可能性在于一个阶级的形成，这个阶级在市民社会中存在，却被完全剥夺了市民社会成员应有的权利和地位。",
+          "qualifiers": "这个阶级的特征是“被彻底的锁链束缚着”，并且它的存在本身就标志着旧有社会等级秩序的瓦解。",
+          "contrast_or_target": ""
+        },
+        "why": {
+          "relation": "definition",
+          "explanation": "本句为即将登场的解放主体——无产阶级——勾勒出一个充满张力的初始画像，定义其在社会结构中的矛盾位置。"
+        },
+        "implication": "这个阶级的痛苦不是局部的，而是整个社会结构造成的普遍性痛苦。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      },
+      {
+        "anchor": "p44s3",
+        "quote": "它不是同德国国家制度的后果发生片面矛盾，而是同它的前提发生全面矛盾，最后，它是一个若不从其它一切社会领域解放出来并同时解放其它一切社会领域，就不能解放自己的领域，总之是这样一个领域，",
+        "trigger": "inverted_logic",
+        "reader_block": "“同它的前提发生全面矛盾”抽象难懂，读者不易理解“前提”具体指什么，以及“全面矛盾”与“片面矛盾”的区别。",
+        "parse": {
+          "claim": "这个阶级与现存社会秩序的矛盾是根本性的，它针对的是整个社会制度赖以建立的基础，而非仅仅是该制度产生的某些具体问题。",
+          "qualifiers": "这种矛盾是“全面的”，意味着它涉及社会的所有方面；并且这个阶级的解放具有普遍性，必须与其他所有社会领域的解放同步进行。",
+          "contrast_or_target": "与仅仅反对国家制度具体表现（后果）的片面矛盾相对。"
+        },
+        "why": {
+          "relation": "continues",
+          "explanation": "本句进一步深化对这个阶级革命彻底性的论证，将其矛盾从政治表层引向社会经济基础，并强调其解放事业的普遍联动性。"
+        },
+        "implication": "这个阶级的解放不是夺取一个现成的国家，而是要改造整个社会基础。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p44s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p44s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "人权",
+            "type": "concept",
+            "modern": "在18-19世纪语境下，主要指资产阶级革命倡导的、形式上的平等权利，马克思在此指出其局限性。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "rights_bourgeois"
+          }
+        ]
+      },
+      {
+        "sid": "p44s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p44s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p44s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 4,
+        "hs_kept": 2,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_6>5",
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix",
+        "note:n1_overflow_concept_6>5"
+      ]
+    }
+  ]
+}

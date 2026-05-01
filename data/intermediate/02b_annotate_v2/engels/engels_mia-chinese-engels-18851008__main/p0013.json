@@ -1,0 +1,90 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 13,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "叙述同盟在瑞士的扩展，提及魏特林建立的组织，并引用马克思对魏特林著作的评价来肯定其作为无产阶级首次独立理论运动的历史意义。",
+    "importance_score": 2,
+    "importance_reason": "提供了同盟在瑞士扩展的具体例证，并通过引用马克思的评价，确立了魏特林运动在无产阶级理论发展史上的地位。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于同盟在伦敦恢复活动的叙述，具体展开其在瑞士的组织发展。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "魏特林",
+      "their_view": "魏特林及其追随者在瑞士建立了遵循其共产主义体系的组织。",
+      "author_response": "恩格斯承认该组织的存在和魏特林理论作为无产阶级首次独立理论运动的意义，但明确表示此处不对其进行批评。",
+      "polemic_kind": "strategic_critique",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p13s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p13s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p13s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p13s4",
+        "speaker": "quoted_marx",
+        "stance": "endorsed",
+        "notes": [
+          {
+            "surface": "《和谐与自由的保证》",
+            "type": "work",
+            "modern": "魏特林于1842年出版的代表作，系统阐述其共产主义思想。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p13s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 3,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_9>5",
+        "note:n1_overflow_concept_12>5",
+        "note:n1_overflow_metaphor_9>8"
+      ]
+    }
+  ]
+}

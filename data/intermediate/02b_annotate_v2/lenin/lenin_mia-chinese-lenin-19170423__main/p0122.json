@@ -1,0 +1,70 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 122,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段通过颜色象征，将布尔什维克定义为与前段政党性质截然不同的、代表无产阶级革命的政党。",
+    "importance_score": 2,
+    "importance_reason": "核心论点的直接陈述，通过颜色对比鲜明地亮出作者所主张的政党立场。",
+    "argument_role": "contrasts",
+    "argument_link": "与上一段对社会民主党和社会革命党的“粉红色”评价形成直接对比，通过颜色象征揭示二者在革命性质上的根本区别。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p122s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p122s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "红色",
+            "type": "metaphor",
+            "modern": "在革命传统中，红色常被用作无产阶级革命和共产主义运动的象征色。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

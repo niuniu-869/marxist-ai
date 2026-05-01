@@ -1,0 +1,143 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 46,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "用军火公司利润增长的具体数据，反驳资本国际交织必然导致裁军的观点，指出其实际加剧了军备竞赛。",
+    "importance_score": 2,
+    "importance_reason": "用具体实例支撑上一段对考茨基“超帝国主义”论的批判，是核心论证的关键例证。",
+    "argument_role": "example",
+    "argument_link": "承接上段对资本输出数据的分析，以阿姆斯特朗公司为例，具体展示金融资本国际交织如何服务于军备扩张，而非考茨基所幻想的和平趋势。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p46s11",
+        "quote": "谁要以为各国资本联合和交织成统一的国际整体就可以产生裁减军备的经济趋势，谁就等于用希望阶级矛盾和缓的善良的小市民愿望去代替阶级矛盾的实际上的尖锐化。",
+        "trigger": "inverted_logic",
+        "reader_block": "双重否定结构“谁要以为……谁就等于……”加上“善良的小市民愿望”这种反讽表达，读者可能读不出作者的批判态度，误以为在描述一种可能性。",
+        "parse": {
+          "claim": "认为资本的国际联合与交织会自然产生裁军趋势，这种想法是用一种对阶级矛盾缓和的幻想，来掩盖现实中阶级矛盾正在加剧的事实。",
+          "qualifiers": "针对的是“以为”这种想法，而非资本交织本身。",
+          "contrast_or_target": "考茨基等人的观点：资本的国际交织与融合，将使帝国主义进入一个和平的“超帝国主义”阶段，军备竞赛会减弱。"
+        },
+        "why": {
+          "relation": "conclusion",
+          "explanation": "本句是前文用阿姆斯特朗公司利润数据进行例证后得出的结论，将具体事实上升到对一种错误理论（认为资本交织导致和平）的定性批判。"
+        },
+        "implication": "列宁在此将考茨基等人的理论定性为一种掩盖阶级斗争尖锐化的小资产阶级幻想，而非科学分析。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p46s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p46s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p46s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p46s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p46s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p46s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p46s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p46s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p46s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p46s10",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p46s11",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "小市民愿望",
+            "type": "metaphor",
+            "modern": "在列宁的论战语境中，指代一种脱离阶级斗争现实、幻想社会矛盾能和平消解的改良主义心态。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 0,
+        "hs_kept": 1,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

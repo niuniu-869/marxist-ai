@@ -1,0 +1,89 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 26,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁分析国际帝国主义矛盾如何影响乌克兰局势，并以此反驳俄国国内反对派对类似事变在俄发生的幻想。",
+    "importance_score": 2,
+    "importance_reason": "本段是论证国际形势与国内政治力量互动的关键环节，为后续结论提供具体分析。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于战争与和平问题的讨论，具体分析决定这一问题的国际力量格局及其对国内的影响。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "斯科罗帕茨基与乌克兰",
+        "explain": "斯科罗帕茨基是1918年4月在德国支持下于乌克兰建立的傀儡政权首脑。列宁此处指德国通过军事占领扶植该政权，是帝国主义干涉的体现。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "俄国立宪民主党等派别",
+        "explain": "立宪民主党、孟什维克、右派社会革命党人是当时俄国主要的反苏维埃政治力量。他们希望借助外国势力（如德国）复辟旧秩序，或发动类似乌克兰的政变。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p26s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p26s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p26s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p26s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote",
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

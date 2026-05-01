@@ -1,0 +1,98 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 8,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "斯大林通过两个反问句，直接质疑德军不可战胜的宣传，并为后续解释战争形势和动员做铺垫。",
+    "importance_score": 2,
+    "importance_reason": "这是讲话中首次直接驳斥失败主义情绪的核心论辩句，为后续的形势分析和动员号召奠定基调。",
+    "argument_role": "contrasts",
+    "argument_link": "承接上段对德军仍在推进的客观描述，转而从宣传和心理层面发起反击，将军事失利与敌方宣传的虚假性联系起来。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p8s1",
+        "quote": "我们光荣的红军怎么会把我们的一些城市和地区拱手让给法西斯军队？",
+        "trigger": "inverted_logic",
+        "reader_block": "反问句式，读者需理解其并非真的询问原因，而是以强烈语气暗示丢失领土并非必然，且“拱手让给”一词带有强烈感情色彩。",
+        "parse": {
+          "claim": "红军丢失部分领土并非因为敌人不可战胜，而是有其他原因（讲话后续会解释）。",
+          "qualifiers": "针对战争初期（6月22日至7月3日）的特定战况。",
+          "contrast_or_target": "针对认为德军不可战胜、苏军必然溃败的论调。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "此句以反问形式，直接挑战了弥漫在军民中的失败主义情绪和敌方宣传，将军事失利从“敌人强大”的定论中剥离出来，为后续的解释和动员创造空间。"
+        },
+        "implication": "暗示丢失领土是暂时的、有具体原因的，而非力量对比的绝对结果，从而为重振士气埋下伏笔。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "德军不可战胜论",
+      "their_view": "德国法西斯军队是不可战胜的，其宣传机器不断吹嘘这一点，以震慑对手和鼓舞己方。",
+      "author_response": "斯大林通过反问直接否定这一论调，指出红军的抵抗已经击溃了敌人最精锐的部队，证明其宣传是虚假的。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p8s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "拱手让给",
+            "type": "metaphor",
+            "modern": "形容轻易、主动地放弃，此处用于反问，暗示丢失领土并非红军本意或能力不足。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p8s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "不可战胜",
+            "type": "slogan",
+            "modern": "纳粹德国宣传机器用以塑造军队神话、打击对手士气的核心口号。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 0,
+        "hs_kept": 1,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

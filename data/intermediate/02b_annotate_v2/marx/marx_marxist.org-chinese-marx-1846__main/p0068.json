@@ -1,0 +1,104 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 68,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "阐述历史是世代交替的物质过程，并批判将历史目的化的唯心史观。",
+    "importance_score": 2,
+    "importance_reason": "直接阐述唯物史观的历史连续性原理，并批判唯心史观的目的论，是核心论点的直接阐述。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段关于物质生产是历史基础的论述，进一步阐明历史如何通过世代继承与变革而发展，并批判与之对立的唯心史观。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "青年黑格尔派思辨哲学",
+      "their_view": "历史进程由某种内在目的或精神（如“自我意识”、“批判”）所驱动，后期历史是前期历史的目的。",
+      "author_response": "历史目的论是把从后期历史中抽象出来的概念错误地强加给前期历史，颠倒了真实的历史因果关系。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p68s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p68s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "生产力",
+            "type": "concept",
+            "modern": "在唯物史观中，指人类改造自然的物质能力，是历史发展的物质基础。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "productivity_historical_materialism"
+          }
+        ]
+      },
+      {
+        "sid": "p68s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p68s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p68s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "自我意识、批判、唯一者",
+            "type": "polemic_ref",
+            "modern": "青年黑格尔派（如鲍威尔、施蒂纳）用以解释历史进程的核心哲学概念。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p68s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

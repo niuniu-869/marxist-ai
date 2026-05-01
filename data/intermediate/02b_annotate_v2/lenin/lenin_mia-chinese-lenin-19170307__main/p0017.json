@@ -1,0 +1,70 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 17,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "用“导演”隐喻说明，从1905年革命到1917年革命，需要一个加速历史进程并引发全球危机的强大力量。",
+    "importance_score": 2,
+    "importance_reason": "分析革命动力，为后续论证无产阶级策略提供历史条件铺垫。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对革命进程的分析，进一步阐释促成1917年革命爆发的宏观历史条件。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "refute_quotation"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "古契柯夫和米留可夫",
+      "their_view": "1905年的革命是一场“大叛乱”，而1917年的革命是“灿烂的”“光荣的”，因为它（暂时）给了我们政权。",
+      "author_response": "列宁指出，他们对两次革命的定性完全基于其自身是否掌权这一狭隘利益，而非革命的客观历史作用。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p17s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "导演",
+            "type": "metaphor",
+            "modern": "列宁用此词比喻第一次世界大战，它作为外部力量，既加速了俄国国内矛盾的爆发，也引发了全球性的政治经济危机。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "inferred"
+          }
+        ]
+      },
+      {
+        "sid": "p17s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

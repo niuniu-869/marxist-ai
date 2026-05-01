@@ -1,0 +1,58 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 166,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段用反问句强调，被机器排挤的工人若拒绝更低报酬，就无法在其他产业部门找到工作。",
+    "importance_score": 2,
+    "importance_reason": "本段延续前文对机器排挤工人后就业状况的分析，用反问强化工人被迫接受更低报酬的必然性。",
+    "argument_role": "continues",
+    "argument_link": "前一段指出新工作报酬更低违反经济规律，本段反问如果工人不接受更低报酬，如何找到工作，从而承接论证。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p166s1",
+        "quote": "那么，被机器从一个产业部门排挤出去的一大批工人如果不甘愿领取更低更坏的报酬，又怎能在别的部门找到栖身之所呢？",
+        "trigger": "inverted_logic",
+        "reader_block": "反问句隐含否定答案，读者可能误以为在询问可能性，实际是强调不可能。",
+        "parse": {
+          "claim": "被机器排挤的工人若拒绝接受更低更差的报酬，就无法在其他产业部门获得工作。",
+          "qualifiers": "",
+          "contrast_or_target": ""
+        },
+        "why": {
+          "relation": "continues",
+          "explanation": "本句承接前文关于机器排挤工人后新工作报酬更低的论述，通过反问强调工人别无选择。"
+        },
+        "implication": null,
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p166s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  }
+}

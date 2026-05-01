@@ -1,0 +1,63 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 55,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "马克思讽刺基督教国家对社会问题的回应是空洞的，基于谬论和空头支票。",
+    "importance_score": 1,
+    "importance_reason": "本段具体化了对基督教国家立场的批判，支撑了马克思对共产主义被歪曲的澄清。",
+    "argument_role": "contrasts",
+    "argument_link": "本段承接上段对社会条件导致犯罪的分析，转而批判基督教国家的空洞回应。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "cross_ref_pronoun",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "基督教国家的回应",
+        "explain": "本段中'这种情况'指代上段讨论的社会条件导致犯罪的问题。基督教国家声称会帮助，但马克思讽刺其帮助是空洞的。",
+        "why_needed": "cross_ref_pronoun",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "基督教国家立场",
+      "their_view": "基督教国家声称不会容忍社会问题，并会通过社会连带责任等方式提供帮助。",
+      "author_response": "马克思讽刺这种帮助是基于谬论和空头支票，是虚假的。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p55s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

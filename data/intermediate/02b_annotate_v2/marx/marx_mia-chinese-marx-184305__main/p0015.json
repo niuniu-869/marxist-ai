@@ -1,0 +1,77 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 15,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段批判君主制的社会基础，指出国王与庸众相互依存，这种结构本身无法产生真正的自由。",
+    "importance_score": 2,
+    "importance_reason": "核心论点：揭示君主制的社会基础，为后续批判德国政治状况奠定理论前提。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对国王个人的讨论，将分析从个人转向其赖以存在的社会基础，即构成君主制的“庸人”群体。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "德国庸人习气与君主制",
+      "their_view": "国王个人的意愿和思想能够改变国家状况，带来自由。",
+      "author_response": "君主制的社会基础决定了其无法带来自由，国王与庸众是相互塑造的关系。",
+      "polemic_kind": "reveals_class_basis",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p15s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p15s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "庸人",
+            "type": "concept",
+            "modern": "19世纪德国社会中安于现状、缺乏政治追求的市民阶层",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "philistine_german"
+          }
+        ]
+      },
+      {
+        "sid": "p15s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_9>5"
+      ]
+    }
+  ]
+}

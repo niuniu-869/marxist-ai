@@ -1,0 +1,71 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 77,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "阐明共产党理论的现实基础，即对当前阶级斗争的客观表达，而非提出新的财产关系废止原则。",
+    "importance_score": 2,
+    "importance_reason": "支撑核心论点，阐明共产党理论与空想社会主义的根本区别在于其现实性。",
+    "argument_role": "contrasts",
+    "argument_link": "上一段指出空想社会主义者依赖主观构想的理想体系，本段则转向共产党，强调其理论只是对现实阶级斗争的客观表达，从而与空想社会主义形成鲜明对比。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "all_known",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p77s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "阶级爭鬥",
+            "type": "concept",
+            "modern": "在历史唯物主义框架下，指不同阶级之间基于经济利益的根本对立与冲突，是推动社会形态更替的直接动力。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "class_struggle_marxist"
+          }
+        ]
+      },
+      {
+        "sid": "p77s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

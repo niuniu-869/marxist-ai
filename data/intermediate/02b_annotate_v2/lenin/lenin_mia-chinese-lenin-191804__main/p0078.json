@@ -1,0 +1,134 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 78,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段承认人民运动中必然混杂混乱与投机现象，并以比喻反驳资产阶级批评者，强调应耐心识别和培养忠实于社会主义的实干型组织家。",
+    "importance_score": 2,
+    "importance_reason": "承接上段关于无产阶级需要时间学习管理的论述，具体阐述如何在混乱中识别和培养合格的管理人才，并回应外部批评。",
+    "argument_role": "continues",
+    "argument_link": "本段紧接上段关于无产阶级适应新地位需要时间的论断，进一步说明在这一过程中如何应对外部批评和内部混乱，以识别出真正的组织者。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p78s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "肮脏的泡沫",
+            "type": "metaphor",
+            "modern": "比喻人民运动中必然伴随的投机、混乱等负面现象。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p78s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "哈巴狗",
+            "type": "metaphor",
+            "modern": "列宁用以蔑称资产阶级及其代言人，形容其攻击行为的渺小与可笑。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          },
+          {
+            "surface": "别洛鲁索夫到马尔托夫",
+            "type": "person",
+            "modern": "泛指从右翼到孟什维克的各类资产阶级批评者。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p78s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "无产阶级大象",
+            "type": "metaphor",
+            "modern": "比喻无产阶级及其政权的巨大力量与稳固根基。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p78s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p78s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p78s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p78s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p78s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 4,
+        "notes_dropped": 2,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_6>5",
+        "note:n2_circular_prefix",
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

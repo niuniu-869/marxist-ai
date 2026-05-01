@@ -1,0 +1,111 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 190,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "作者通过连续反问，驳斥无政府主义者对马克思和恩格斯的歪曲，指出他们实际上重视“意向和意志”的作用。",
+    "importance_score": 2,
+    "importance_reason": "这是对无政府主义歪曲的直接反驳，支撑了马克思主义关于上层建筑反作用于经济基础的论点。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段对“空想”指控的反驳，进一步驳斥无政府主义者对马克思和恩格斯在“意向和意志”问题上的歪曲。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p190s6",
+        "quote": "诚然，马克思认为人们的“意志和意向”是从经济地位中吸取本身的内容，然而，难道这就是说“意志和意向”丝毫不影响经济关系的发展吗？",
+        "trigger": "inverted_logic",
+        "reader_block": "“诚然……然而……”的让步转折结构，读者可能误以为作者完全否定意志的作用，实则是在反驳机械论。",
+        "parse": {
+          "claim": "马克思承认意志受经济地位制约，但这不意味着意志对经济关系没有反作用。",
+          "qualifiers": "在承认经济基础决定上层建筑的前提下。",
+          "contrast_or_target": "无政府主义者将历史唯物主义曲解为经济决定论，否认上层建筑的能动性。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "本句通过让步转折，澄清了马克思主义关于经济基础与上层建筑关系的辩证观点，反驳了无政府主义者的机械理解。"
+        },
+        "implication": "马克思主义承认经济基础的决定性作用，同时也承认包括意志在内的上层建筑对经济基础的反作用。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p190s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p190s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p190s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p190s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p190s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p190s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p190s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 1,
+        "hs_dropped": 1,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote",
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

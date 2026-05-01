@@ -1,0 +1,84 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 64,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段通过对比，阐明无产阶级运动与历史上所有运动的根本区别，并指出其彻底革命的必要性。",
+    "importance_score": 2,
+    "importance_reason": "承接上段关于无产阶级革命必然性的论述，进一步阐明无产阶级运动的独特性质与彻底性要求，是核心论点的支撑。",
+    "argument_role": "continues",
+    "argument_link": "上一段论述了无产阶级革命的历史必然性，本段则具体阐释这一革命运动在性质上与以往所有运动的根本不同，并强调其彻底性。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "官僚社会",
+        "explain": "在19世纪欧洲语境中，指由职业官僚阶层主导的、等级森严的社会管理体系，是资产阶级社会上层建筑的一部分。无产阶级要推翻的正是这个压在他们头上的整个旧结构。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p64s4",
+        "quote": "但现在社会最下层的无产阶级，若不把官僚社会压在上层的全部抛出九霄云外，自己是不会翻身上达的。",
+        "trigger": "inverted_logic",
+        "reader_block": "双重否定（“若不……不会……”）加比喻（“抛出九霄云外”），读者可能难以把握其逻辑，误以为只是部分改良。",
+        "parse": {
+          "claim": "无产阶级只有彻底摧毁整个旧的社会上层结构，才能实现自身的解放。",
+          "qualifiers": "前提是无产阶级处于“社会最下层”，且面对的是“官僚社会压在上层的全部”这一整体。",
+          "contrast_or_target": ""
+        },
+        "why": {
+          "relation": "conclusion",
+          "explanation": "本句是前文对比的逻辑结论：正因为无产阶级运动是为了大多数人，且无产阶级处于最底层，所以其革命必须是彻底的、整体的，而非局部的改良。"
+        },
+        "implication": "这预示了无产阶级革命的彻底性，即必须打碎整个旧的国家机器，而非仅仅夺取政权。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p64s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p64s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p64s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p64s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  }
+}

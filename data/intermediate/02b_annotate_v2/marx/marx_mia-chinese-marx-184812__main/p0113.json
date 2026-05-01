@@ -1,0 +1,121 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 113,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段描述汉泽曼的税制改革法案引发地主阶级的激烈反对，并分析其失败原因与左派的立场。",
+    "importance_score": 2,
+    "importance_reason": "作为对汉泽曼政策及其在议会中遭遇的分析，是论证普鲁士资产阶级与地主阶级矛盾及议会政治局限性的支撑性段落。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对汉泽曼“警察”式经济政策的描述，具体展开其税制改革法案引发的阶级反应及其在议会中的政治后果。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "allusion",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "“十字骑士”与“弗拉·迪亚沃洛”",
+        "explain": "“十字骑士”指普鲁士容克地主贵族，以保守和宗教狂热著称。“弗拉·迪亚沃洛”是意大利传说中的魔鬼，此处用以形容地主对汉泽曼的极端憎恶。",
+        "why_needed": "allusion",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "左派的原则局限性",
+        "explain": "指当时普鲁士议会中的民主派（左派），他们坚持在制定宪法并宣誓效忠之前，不应为政府开辟新财源，这被视为一种政治原则。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "地主阶级（“十字骑士”）",
+      "their_view": "汉泽曼的税制改革是共产主义行径，必须坚决反对，其名字如同魔鬼般可憎。",
+      "author_response": "马克思指出，地主阶级对汉泽曼的攻击，恰恰暴露了他们维护自身封建特权、反对任何资产阶级性质改革的阶级本质。",
+      "polemic_kind": "reveals_class_basis",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p113s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "等级税",
+            "type": "concept",
+            "modern": "普鲁士旧制度下按社会等级征收的税种，是封建特权的体现。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "tax_feudal"
+          }
+        ]
+      },
+      {
+        "sid": "p113s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "十字骑士",
+            "type": "social_group",
+            "modern": "对普鲁士容克地主贵族的蔑称，强调其保守、反动的宗教与政治立场。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p113s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p113s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p113s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p113s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 2,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_6>5",
+        "note:n2_circular_prefix",
+        "hs:eval_word:implication:深刻"
+      ]
+    }
+  ]
+}

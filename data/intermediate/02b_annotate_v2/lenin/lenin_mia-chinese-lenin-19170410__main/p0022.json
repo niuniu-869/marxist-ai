@@ -1,0 +1,94 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 22,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "分析临时政府的权力结构，指出关键职位被君主派和大地主掌控，立宪民主党和劳动派只起装饰作用。",
+    "importance_score": 2,
+    "importance_reason": "具体剖析临时政府的阶级构成，为后续批判其政策提供事实基础。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对临时政府未采取实质措施的批评，本段具体揭示其权力核心由哪些势力把持。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "临时政府及其支持者",
+      "their_view": "临时政府代表了革命后的人民利益，其构成是合理的，能够领导国家走向民主。",
+      "author_response": "列宁通过列举其实际掌权者，揭露其反动本质，指出它并不代表人民，而是压迫人民的旧势力的延续。",
+      "polemic_kind": "reveals_class_basis",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p22s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "君主派",
+            "type": "social_group",
+            "modern": "主张恢复或维护君主政体的政治势力，在临时政府中掌握实权。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p22s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "立宪民主党人",
+            "type": "org",
+            "modern": "1905年成立的俄国自由主义政党，主张君主立宪，在二月革命后加入临时政府但未掌实权。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p22s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "亚·克伦斯基",
+            "type": "person",
+            "modern": "社会革命党人，时任临时政府司法部长，后任总理，以演说家著称。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 3,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_8>5"
+      ]
+    }
+  ]
+}

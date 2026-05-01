@@ -1,0 +1,89 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 7,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段批判费尔巴哈宗教批判的局限性，指出其仅将宗教归结于世俗基础是不够的，必须进一步揭示世俗基础自身的矛盾，并在实践中对其进行革命性改造。",
+    "importance_score": 2,
+    "importance_reason": "本段是核心批判的组成部分，将对费尔巴哈的批判从宗教领域推进到对产生宗教的世俗社会基础本身的批判，并引向实践改造的要求。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段关于环境变化与人的自我改变统一于革命实践的论点，本段具体应用于宗教批判领域，指出对产生宗教的世俗基础本身也应进行实践改造。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "费尔巴哈",
+      "their_view": "费尔巴哈的批判止步于将宗教世界归结于其世俗来源，认为揭示了宗教的世俗基础就完成了批判任务。",
+      "author_response": "马克思指出，仅仅归结是不够的，必须进一步追问世俗基础为何会自我分裂出宗教世界，并主张必须在实践中对这个基础本身进行革命性改造。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p7s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "自我异化",
+            "type": "concept",
+            "modern": "在费尔巴哈的语境中，指人将自己的本质力量投射到外部，创造出一个与自身对立的宗教世界。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "alienation_early_marx"
+          }
+        ]
+      },
+      {
+        "sid": "p7s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p7s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p7s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p7s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

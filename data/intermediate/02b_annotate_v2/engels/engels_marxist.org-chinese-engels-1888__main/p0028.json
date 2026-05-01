@@ -1,0 +1,126 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 28,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段指出黑格尔哲学并未被其后继者真正克服，无论是内部论战还是费尔巴哈的简单抛弃都不够，必须对其遗产进行辩证的“扬弃”。",
+    "importance_score": 3,
+    "importance_reason": "提出马克思主义对待德国古典哲学遗产的核心方法论——辩证扬弃，是全文论证的关键转折点。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对费尔巴哈缺点的批评，将讨论从费尔巴哈个人扩展到整个黑格尔学派解体后，如何正确处理黑格尔哲学遗产这一更根本的问题。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "term_polysemy",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p28s7",
+        "quote": "必须从它的本来意义上“扬弃”它，就是说，要批判地消灭它的形式，但是要救出通过这个形式获得的新内容。",
+        "trigger": "term_polysemy",
+        "reader_block": "“扬弃”是德语aufheben的汉译，兼具“废除、保存、提升”三重含义，在中文里没有完美对应词，读者易理解为单向的“抛弃”或“保留”。",
+        "parse": {
+          "claim": "对待黑格尔哲学，需要一种辩证的否定：既要克服其唯心主义的体系外壳，又要继承并发展其辩证法等合理内核。",
+          "qualifiers": "限定于黑格尔哲学这一特定对象，且强调必须从其“本来意义”出发，即理解其内在矛盾与真实贡献。",
+          "contrast_or_target": "针对费尔巴哈等人仅仅宣布黑格尔哲学错误并将其抛在一旁的简单化做法。"
+        },
+        "why": {
+          "relation": "definition",
+          "explanation": "本句为“扬弃”这一核心方法论概念提供了操作性定义，阐明了作者主张的正确路径，为下文论述这一任务如何实现奠定基础。"
+        },
+        "implication": "这预示了马克思主义哲学与黑格尔哲学的关系：不是简单的继承或决裂，而是一种批判性的超越。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p28s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p28s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p28s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p28s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p28s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p28s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p28s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "扬弃",
+            "type": "concept",
+            "modern": "源自德语aufheben，黑格尔辩证法的核心术语，指对事物既克服又保留、并提升到更高阶段的辩证否定过程。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "dialectical_sublation"
+          }
+        ]
+      },
+      {
+        "sid": "p28s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 0,
+        "hs_kept": 1,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

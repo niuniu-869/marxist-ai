@@ -1,0 +1,184 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 9,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁强调无产阶级政党必须坚持阶级独立性，并通过分析地方自治派和工程师的决议，揭露其代表有产阶级利益的本质。",
+    "importance_score": 3,
+    "importance_reason": "核心论点段，明确提出无产阶级政党在革命临近时的策略原则，并以具体事例论证。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对民主主义报刊的批判，进一步从策略层面阐明无产阶级政党应如何应对自由派的立宪运动。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "地方自治人士代表大会",
+        "explain": "1904年11月，俄国地方自治局（由地方贵族和资产阶级选举产生的自治机构）代表秘密召开会议，讨论反对沙皇专制、要求立宪的方案。其决议反映了自由派资产阶级的政治诉求。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "彼得堡工程师宴会",
+        "explain": "1904年12月，彼得堡工程师举行宴会并通过决议，要求立宪以保护俄国工业，并反对政府向外国企业主订货。这代表了技术资产阶级的经济和政治立场。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "自由派（地方自治派、工程师等有产阶级代表）",
+      "their_view": "我们代表整个社会和人民，提出全民的立宪要求，也愿意根本改善农民的处境。",
+      "author_response": "列宁指出，他们所谓的“社会”和“人民”掩盖了其有产阶级的阶级性；他们只要求政治让步，绝不触动经济制度的基础，其对农民的“改善”承诺是虚伪的。",
+      "polemic_kind": "reveals_class_basis",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p9s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p9s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "阶级独立性",
+            "type": "concept",
+            "modern": "无产阶级政党在政治斗争中保持自身阶级立场和目标的纯粹性，不与其他阶级的纲领混淆。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "class_independence"
+          }
+        ]
+      },
+      {
+        "sid": "p9s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p9s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "地方自治人士代表大会",
+            "type": "event",
+            "modern": "1904年11月俄国地方自治局代表秘密召开的反对沙皇专制的会议。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p9s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "立宪要求",
+            "type": "concept",
+            "modern": "要求制定宪法，限制君主专制权力，建立代议制政府的政治诉求。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "constitutional_demand"
+          }
+        ]
+      },
+      {
+        "sid": "p9s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p9s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p9s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p9s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "有产阶级",
+            "type": "social_group",
+            "modern": "拥有土地、资本等生产资料的阶级，即地主和资本家。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist"
+          }
+        ]
+      },
+      {
+        "sid": "p9s10",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p9s11",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p9s12",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p9s13",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 4,
+        "notes_dropped": 4,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_8>5",
+        "note:n2_5gram_with_surface",
+        "note:n1_overflow_concept_6>5",
+        "note:n2_5gram_with_surface",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

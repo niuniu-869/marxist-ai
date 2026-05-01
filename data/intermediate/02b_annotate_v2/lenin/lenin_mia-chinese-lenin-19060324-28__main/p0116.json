@@ -1,0 +1,131 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 116,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁阐述工人政党对杜马的策略，强调利用杜马内部及相关的政治危机来准备起义，而非支持杜马本身。",
+    "importance_score": 3,
+    "importance_reason": "核心论点段，系统阐述了布尔什维克在杜马选举期间的战略方针，与孟什维克的参加选举路线形成直接对立。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段对“支持立宪民主党人”这一任务的批判，本段正面提出工人政党应采取的正确策略。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p116s1",
+        "quote": "我们的任务不是支持立宪民主党的杜马，而是利用这届杜马内部的以及与这届杜马有关的冲突，来选择最有利的时机进攻敌人，举行反对专制制度的起义。",
+        "trigger": "inverted_logic",
+        "reader_block": "句式以“不是……而是……”构成战略路线的直接对比，读者需理解“支持”与“利用”在政治行动上的根本区别。",
+        "parse": {
+          "claim": "工人政党的核心任务是将杜马视为观察和利用政治危机的工具，以伺机发动武装起义推翻沙皇专制。",
+          "qualifiers": "此任务针对的是“这届杜马”（第一届杜马），且行动时机取决于“最有利的”条件。",
+          "contrast_or_target": "孟什维克主张参加杜马选举，认为工人政党应支持或利用杜马进行议会斗争。"
+        },
+        "why": {
+          "relation": "contrasts",
+          "explanation": "此句开宗明义，与孟什维克主张的“参加选举”或“支持杜马”路线形成鲜明对比，确立了布尔什维克抵制策略的理论基础。"
+        },
+        "implication": "杜马本身不是斗争场所，而是政治危机的晴雨表和起义时机的指示器。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p116s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p116s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p116s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p116s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p116s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p116s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "不大响亮的传声筒",
+            "type": "metaphor",
+            "modern": "讽刺立宪民主党人即使在革命胜利后，也只能充当革命意志的微弱回声，缺乏独立领导能力。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p116s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p116s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 5,
+        "hs_kept": 1,
+        "hs_dropped": 1,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix",
+        "note:n1_overflow_concept_7>5",
+        "note:n2_circular_prefix",
+        "note:n1_overflow_metaphor_14>8",
+        "hs:claim_5gram_with_quote",
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

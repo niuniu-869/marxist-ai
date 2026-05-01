@@ -1,0 +1,85 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 124,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "论证联络委员会的实质未变，只是从外部监督转为内部合作，相关政党的政策也未改变。",
+    "importance_score": 2,
+    "importance_reason": "承接上段，具体解释“没有过时”的原因，揭示孟什维克和社会革命党与临时政府合作的实质。",
+    "argument_role": "continues",
+    "argument_link": "直接回答上段提出的“小册子是否过时”的问题，通过分析联络委员会和相关政党政策的延续性来论证其持续有效性。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "联络委员会",
+        "explain": "二月革命后，孟什维克和社会革命党主导的彼得格勒苏维埃成立的一个机构，名义上监督临时政府，实则为其政策提供支持，是两个政权并存局面的产物。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "切尔诺夫与策列铁里",
+        "explain": "切尔诺夫是社会革命党领袖，策列铁里是孟什维克领袖。二人在二月革命后进入临时政府担任部长，标志着这两个政党从外部支持转为直接参与执政。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "孟什维克和社会革命党",
+      "their_view": "我们进入临时政府担任部长，是为了更好地监督和影响政府，推动革命事业。",
+      "author_response": "列宁指出，他们进入政府只是改变了监督的形式，从外部的联络委员会变成了内部的部长职位，但其维护资产阶级利益、支持帝国主义战争的根本政策并未改变。",
+      "polemic_kind": "reveals_class_basis",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p124s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "联络委员会",
+            "type": "org",
+            "modern": "二月革命后苏维埃中孟什维克和社会革命党为协调与临时政府关系而设立的机构，实质是支持政府的工具。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p124s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_person_13>12"
+      ]
+    }
+  ]
+}

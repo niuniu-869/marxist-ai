@@ -1,0 +1,74 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 61,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "恩格斯反驳那种要求将巴黎公社视为绝对正确、不容批判的观点，指出其缺乏批判精神，并通过反问和历史类比揭示其荒谬性。",
+    "importance_score": 2,
+    "importance_reason": "支撑核心论点，反驳对公社的盲目崇拜，强调革命实践需要批判性反思。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段关于革命行动难免失误的论述，进一步批评拒绝承认任何失误的教条态度。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "某些要求将公社神圣化的人（隐含论敌）",
+      "their_view": "公社及其所有行动（包括烧毁建筑、枪决人质）都是绝对正确、毫无差错的，连细节都完全恰当。",
+      "author_response": "这种要求恰恰是缺乏批判精神的表现，其逻辑推论在历史上是荒谬的。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p61s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p61s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p61s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p61s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 2,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 78,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁用反问句质疑孟什维克领袖克伦斯基和齐赫泽对布尔什维克党态度的矛盾，揭露其理论与实践的脱节。",
+    "importance_score": 2,
+    "importance_reason": "通过反问揭露对手言行不一，支撑对孟什维克策略的批判。",
+    "argument_role": "continues",
+    "argument_link": "本段用反问句式，延续上段对孟什维克在革命中摇摆立场的分析，进一步揭露其理论与实践的矛盾。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p78s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "克伦斯基和齐赫泽",
+            "type": "person",
+            "modern": "二月革命后俄国临时政府的关键人物，分别代表资产阶级和孟什维克势力。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "布尔什维克党",
+            "type": "org",
+            "modern": "列宁领导的无产阶级政党，主张通过革命推翻资产阶级临时政府。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p78s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_social_group_13>12",
+        "hs:claim_5gram_with_quote",
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

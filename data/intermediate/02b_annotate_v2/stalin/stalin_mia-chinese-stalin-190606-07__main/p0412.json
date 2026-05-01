@@ -1,0 +1,73 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 412,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "作者明确马克思主义者对无产阶级专政的拥护立场，并将其定位为社会主义革命的起点。",
+    "importance_score": 2,
+    "importance_reason": "本段总结了作者对无产阶级专政的积极评价，将其与革命进程直接关联，是论证中的支撑环节。",
+    "argument_role": "continues",
+    "argument_link": "本段直接承接上一段对无产阶级专政的描述，进一步阐明马克思主义者对此的拥护态度，完成对该专政性质的定性。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "cross_ref_pronoun",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "无产阶级专政",
+        "explain": "前一段描述的无产阶级多数人的专政，即群众对资产阶级的统治，是马克思主义理论中的核心概念。",
+        "why_needed": "cross_ref_pronoun",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p412s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "专政",
+            "type": "concept",
+            "modern": "马克思主义理论中，一个阶级对另一个阶级的统治形式，本段特指无产阶级对资产阶级的统治。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "dictatorship_proletarian"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_6>5"
+      ]
+    }
+  ]
+}

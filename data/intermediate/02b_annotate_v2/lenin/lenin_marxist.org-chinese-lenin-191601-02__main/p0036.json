@@ -1,0 +1,99 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 36,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁指出社会主义革命可能还需时日，当前应教育群众清除党内机会主义者，并通过具体国家例子论证不支持民族自决即属沙文主义。",
+    "importance_score": 2,
+    "importance_reason": "承接上段革命任务，具体阐述革命教育的内容与标准，为民族自决权的实践要求提供论证。",
+    "argument_role": "continues",
+    "argument_link": "上段论述社会主义革命爆发时无产阶级的紧迫任务，本段具体化这一任务：在革命前的准备期，核心工作是教育群众并清除党内机会主义者，而支持民族自决是检验其立场的试金石。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "萨比林事件",
+        "explain": "指1915年德国社会民主党左派议员萨比林在议会投票反对战争拨款的行动。列宁将其视为在压迫民族内部进行反战宣传的正面案例。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p36s5",
+        "quote": "俄国社会党人不要求芬兰、波兰、乌克兰等有分离的自由，如此等等，——这样的社会党人的行动，就是沙文主义者的行动，就是沾满了血污的帝国主义君主派和帝国主义资产阶级的走狗的行动。",
+        "trigger": "long_nested",
+        "reader_block": "长句包含多个并列条件（“不要求…如此等等”）和一个强烈结论，读者可能难以快速抓住其核心逻辑：即一系列“不要求”的行为等同于“是”沙文主义。",
+        "parse": {
+          "claim": "任何社会党人若不主动要求其国内被压迫民族拥有分离的权利，其行为在本质上就等同于为帝国主义统治阶级服务。",
+          "qualifiers": "此判断适用于英国、德国、俄国等所有压迫民族的社会党人，且要求他们不仅口头主张，还需采取直接的革命宣传和群众行动。",
+          "contrast_or_target": "针对那些口头拥护自决权但实际反对政治分离自由的社会党人，他们认为要求分离是“过分的”或“空想的”。"
+        },
+        "why": {
+          "relation": "conclusion",
+          "explanation": "本句是前文一系列假设性条件（英国、德国、俄国社会党人不做什么）的总结性论断，将“不支持分离自由”这一行为直接定性为沙文主义，是本段论证的落脚点。"
+        },
+        "implication": "此论断将民族自决权从一般政治口号提升为区分革命与机会主义的实践标准，为批判第二国际主流派提供了理论武器。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "社会沙文主义者和机会主义者",
+      "their_view": "他们可能口头拥护民族自决权，但在实践中不要求殖民地或被压迫民族有分离的自由，不将革命宣传和行动扩展到反对民族压迫的斗争中。",
+      "author_response": "列宁指出，这种言行不一的行动，实质上就是沙文主义，是帝国主义统治阶级的帮凶。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p36s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p36s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p36s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p36s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "萨比林",
+            "type": "event",
+            "modern": "1915年德国社会民主党左派议员在议会投票反对战争拨款的行动，列宁视其为在压迫民族内部进行反战宣传的范例。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p36s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  }
+}

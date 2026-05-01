@@ -1,0 +1,129 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 1,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "交代《共产党宣言》的写作委托、成稿时间、发表时机及早期主要译本情况。",
+    "importance_score": 1,
+    "importance_reason": "提供《共产党宣言》文本史的基本事实，为后续论述建立时间锚点。",
+    "argument_role": "none",
+    "argument_link": "",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p1s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "共产主义者同盟",
+            "type": "org",
+            "modern": "1847年由正义者同盟改组而成的国际性工人组织，《共产党宣言》是其纲领。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p1s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "同盟代表大会",
+            "type": "event",
+            "modern": "1847年11月底至12月初在伦敦召开的共产主义者同盟第二次代表大会。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p1s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p1s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "六月起义",
+            "type": "event",
+            "modern": "1848年6月巴黎无产阶级起义，被资产阶级政府镇压。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p1s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "海伦·麦克法林",
+            "type": "person",
+            "modern": "英国社会主义者，翻译了《共产党宣言》首个英译本。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "乔治·朱利安·哈尼",
+            "type": "person",
+            "modern": "英国宪章运动左翼领袖，其主编的《红色共和党人》杂志刊载了首个英译本。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p1s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 5,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

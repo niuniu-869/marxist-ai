@@ -1,0 +1,75 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 18,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "引用歌德《浮士德》诗句，以文学隐喻来刻画英国殖民统治带来的痛苦与矛盾。",
+    "importance_score": 1,
+    "importance_reason": "作为文学性插引，用以强化前文关于殖民统治双重性的论述，属于论证的修辞辅助。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段关于英国殖民统治动机与历史作用的辩证分析，用诗歌意象将这种矛盾性具象化。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "allusion",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "allusion",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "歌德《浮士德》典故",
+        "explain": "此句出自歌德诗剧《浮士德》第一部，是魔鬼梅菲斯特的唱词。马克思借用此句，将英国在印度的殖民统治比作一种带来痛苦的“折磨”，并以此反问这种痛苦是否是历史进步所必需的代价。",
+        "why_needed": "allusion",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p18s1",
+        "quote": "《Sollte diese Qual uns qulen",
+        "trigger": "allusion",
+        "reader_block": "原文为德语诗歌片段，且是文学典故。读者若不知其出处与含义，无法理解马克思在此处的隐喻意图。",
+        "parse": {
+          "claim": "马克思引用歌德诗句，将英国殖民统治所造成的苦难（Qual）比作一种可能具有历史必然性的“折磨”或“痛苦”。",
+          "qualifiers": "此句为不完整的诗歌引用，其完整含义需结合下文（未提供）及《浮士德》原作语境理解。",
+          "contrast_or_target": ""
+        },
+        "why": {
+          "relation": "continues",
+          "explanation": "此句是上一段关于英国殖民统治“卑鄙利益”与“历史使命”矛盾论述的文学化延伸，用诗歌意象强化了殖民主义带来的痛苦与历史进步性之间的张力。"
+        },
+        "implication": "马克思在此暗示，殖民统治带来的苦难（Qual）可能被视为一种历史进步的必要代价，但这并非为殖民者开脱，而是将其置于更宏大的历史辩证法中审视。",
+        "confidence": "high",
+        "source_basis": "known_context"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p18s1",
+        "speaker": "quoted_marx",
+        "stance": "neutral_citation",
+        "notes": [
+          {
+            "surface": "Sollte diese Qual uns qulen",
+            "type": "quote",
+            "modern": "马克思引用歌德《浮士德》中梅菲斯特的唱词，用以隐喻殖民统治带来的痛苦。",
+            "highlight": "quote",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  }
+}

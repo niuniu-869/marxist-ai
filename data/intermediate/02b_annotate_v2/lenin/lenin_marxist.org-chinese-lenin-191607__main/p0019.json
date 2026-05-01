@@ -1,0 +1,88 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 19,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁用“劳动货币”在资本主义下不可能的类比，反驳波兰社会民主党人关于民族自决在帝国主义时代不可能的论点，并以挪威独立为例揭露其逻辑矛盾。",
+    "importance_score": 2,
+    "importance_reason": "通过类比和反例，具体驳斥了论敌的核心论据，是论证民族自决权现实可能性的关键环节。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对波兰社会民主党人反对民族自决核心论据的概括，本段开始具体反驳其“自决在经济上不可能”的论点。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "劳动货币",
+        "explain": "一种空想社会主义主张，认为在社会主义社会可用代表劳动时间的“劳动券”取代货币。马克思在《哥达纲领批判》中批判了这一观点，认为它忽视了商品生产与货币关系的客观规律。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "波兰社会民主党人（反对派）",
+      "their_view": "民族自决在帝国主义时代在经济上是不可能的，就像在资本主义下使用劳动货币一样不切实际。",
+      "author_response": "列宁指出，他们从未进行过严肃的经济分析来证明这一点，反而用挪威独立的反例暴露了其论点的武断。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p19s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p19s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p19s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p19s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p19s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

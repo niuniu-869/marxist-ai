@@ -1,0 +1,96 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 98,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "恩格斯列举并肯定了空想社会主义者圣西门在19世纪初提出的若干具有前瞻性的思想观点。",
+    "importance_score": 1,
+    "importance_reason": "作为对空想社会主义贡献的例证，支撑前文关于空想社会主义者天才设想的论点。",
+    "argument_role": "example",
+    "argument_link": "承接上段对空想社会主义者总体评价的论点，具体展示圣西门个人思想中的预见性成分。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "rhetorical_omission",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "百日战争",
+        "explain": "指1815年3月至6月，拿破仑从流放地重返法国、恢复统治的短暂时期。此事件是理解圣西门在复杂政治局势中主张国际合作背景的关键。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p98s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p98s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p98s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p98s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "圣西门",
+            "type": "person",
+            "modern": "19世纪初法国空想社会主义主要代表人物之一。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p98s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

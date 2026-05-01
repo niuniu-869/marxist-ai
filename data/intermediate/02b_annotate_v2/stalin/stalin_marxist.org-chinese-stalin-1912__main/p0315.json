@@ -1,0 +1,58 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 315,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段以反问句式质疑代表会议所持立场，暗示其观点存在疑问。",
+    "importance_score": 1,
+    "importance_reason": "本段是论证中的过渡环节，通过反问引出对取消派观点的进一步批判。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段对取消派诡辩的揭露，用反问形式质疑其主张的合理性。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p315s1",
+        "quote": "可敬的代表会议想说的是不是这一点呢？",
+        "trigger": "inverted_logic",
+        "reader_block": "反问句式加上'可敬的'讽刺语气，读者可能误以为正面询问，实际是质疑代表会议的观点。",
+        "parse": {
+          "claim": "作者质疑代表会议所主张的民族文化自治原则是否合理。",
+          "qualifiers": "",
+          "contrast_or_target": "取消派认为民族文化自治与民族权利兼容，作者对此表示怀疑。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "本句通过反问质疑代表会议的观点，为后续批判取消派的立场做铺垫。"
+        },
+        "implication": "代表会议的观点可能站不住脚，需要进一步检验。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "取消派",
+      "their_view": "取消派主张，若各民族同意采用民族文化自治原则，则他们有权如此行事，这与民族权利并无冲突。",
+      "author_response": "作者以反问形式质疑代表会议是否真的想表达这种立场，从而揭露其观点的矛盾或不足。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p315s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  }
+}

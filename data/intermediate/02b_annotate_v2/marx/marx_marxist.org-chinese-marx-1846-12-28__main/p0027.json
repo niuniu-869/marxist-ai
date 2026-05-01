@@ -1,0 +1,84 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 27,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "马克思通过反问，揭露蒲鲁东将经济范畴视为永恒观念的理论，无法解释历史发展和其自身立场的内在矛盾。",
+    "importance_score": 2,
+    "importance_reason": "这是对蒲鲁东唯心史观的归谬论证，通过指出其理论的逻辑困境来强化批判。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对蒲鲁东忽视现实关系的批判，本段进一步指出其将范畴视为永恒观念的理论会导致无法解释历史发展。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "蒲鲁东的经济范畴观",
+        "explain": "蒲鲁东认为，经济范畴（如分工、信用、垄断）是上帝或普遍理性预先设定的、永恒不变的观念，历史只是这些观念的展开，而非现实生产关系的演变。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p27s2",
+        "quote": "既然所有这些经济范畴都是从上帝的心里流出来的东西，既然它们是人们的隐蔽的和永恒的生命，那么为什么：第一，有发展存在；",
+        "trigger": "inverted_logic",
+        "reader_block": "这是一个反问句，但读者可能误以为马克思在问“为什么有发展”，实际是在用蒲鲁东的前提（范畴永恒）来归谬其理论，指出其无法解释历史变化。",
+        "parse": {
+          "claim": "如果经济范畴是上帝赋予的永恒存在，那么历史就不应该有发展变化。",
+          "qualifiers": "此推论基于蒲鲁东的前提假设。",
+          "contrast_or_target": "蒲鲁东认为经济范畴是永恒的观念，历史是这些观念的实现。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "本句通过归谬法，从蒲鲁东自己的前提出发，推导出与其理论（历史发展）相矛盾的结论，从而暴露其唯心史观的内在缺陷。"
+        },
+        "implication": "这揭示了蒲鲁东理论的根本矛盾：他既想用永恒范畴解释一切，又无法否认历史事实上的发展。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "蒲鲁东",
+      "their_view": "经济范畴是上帝或普遍理性预先设定的、永恒不变的观念，是人们隐蔽的和永恒的生命。",
+      "author_response": "这种将范畴视为永恒的唯心史观，无法解释历史为何发展，也无法解释蒲鲁东自己为何不主张静止不变。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p27s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p27s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p27s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p27s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  }
+}

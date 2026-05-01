@@ -1,0 +1,105 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 161,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "马克思通过对比梯也尔所代表的巴黎与公社的巴黎，揭露梯也尔政府言论的虚伪及其所维护的资产阶级社会本质。",
+    "importance_score": 2,
+    "importance_reason": "本段是核心批判的一部分，通过具体描绘梯也尔阵营的社会构成，揭示其阶级基础与历史反动性。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对凡尔赛军队暴行的反讽，进一步揭露梯也尔为暴行辩护的言论，并描绘其社会基础。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "梯也尔",
+      "their_view": "凡尔赛军队没有进行大规模处决和报复，他只是想把巴黎从一小撮罪犯的暴政下解放出来。",
+      "author_response": "梯也尔的言论是谎言，他所代表的巴黎是逃亡者、富人和寄生者的巴黎，他们将内战视为消遣，而公社的巴黎及其斗争具有真实的历史意义。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p161s1",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p161s2",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p161s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p161s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "麇集",
+            "type": "archaic",
+            "modern": "聚集、群集，常用于贬义，形容人群杂乱地聚在一起。",
+            "highlight": "archaic",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p161s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "圣马丁门剧场",
+            "type": "place",
+            "modern": "巴黎的一家剧院，此处用作比喻，将内战比作供人观赏的戏剧。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p161s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 3,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "note:n1_overflow_concept_8>5",
+        "note:n1_overflow_social_group_14>12"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,191 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 20,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段论述工人对10小时工作制法案态度的转变：从与反动派联合争取该法案，到认识到其局限性，转而支持工业资产阶级的革命使命，并将恢复该法案与无产阶级的政治统治联系起来。",
+    "importance_score": 3,
+    "importance_reason": "核心段落，阐明工人阶级政治策略的转变逻辑，将经济斗争与最终的无产阶级革命目标联系起来。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于法案反动性质的分析，进一步论证工人阶级从与反动派联合的失败中吸取教训，调整了斗争策略与目标。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "萨德勒、奥斯特勒、艾释黎",
+        "explain": "他们是19世纪英国议会中推动10小时工作制法案的代表人物。萨德勒是议员，奥斯特勒是宪章运动领袖，艾释黎是推动工厂立法的贵族。他们代表了与工业资产阶级对立的、带有保守色彩的改良力量。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "1847年反动的同盟",
+        "explain": "指在1847年推动并通过10小时工作制法案的政治联盟，主要由保守派贵族、部分土地贵族以及受其影响的工人领袖组成。恩格斯称其为“反动的”，因其代表旧势力，且其策略被证明无效。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p20s4",
+        "quote": "由于法案不能长久存在，由于法案轻而易举地就被取消（只是一纸法庭判决书就取消了，甚至不需要议会的废除法令），根据过去自己的反革命同盟者后来的一些言论，工人们了解到，和反动派联合是不值得的。",
+        "trigger": "long_nested",
+        "reader_block": "句子包含多个“由于”引导的原因从句和括号插入语，逻辑链条较长，且“反革命同盟者”指代需要回溯前文。",
+        "parse": {
+          "claim": "10小时工作制法案的脆弱性（易被法庭判决取消）以及其支持者（反动派）的言行，使工人认识到与他们结盟没有价值。",
+          "qualifiers": "前提是法案本身因通过方式而具有反动性质，且其支持者后来的言论暴露了其局限性。",
+          "contrast_or_target": "与反动派（萨德勒、奥斯特勒等人）联合以争取局部经济改良的策略。"
+        },
+        "why": {
+          "relation": "continues",
+          "explanation": "承接上段关于法案反动性质的论述，具体说明这种反动性如何通过法案的脆弱性和支持者的言行被工人所认识，从而得出联合策略失败的结论。"
+        },
+        "implication": "工人阶级必须寻找新的、更可靠的斗争道路和领导力量。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "萨德勒、奥斯特勒、艾释黎及1847年反动的同盟",
+      "their_view": "工人阶级应与代表旧势力的贵族、空想家等反动派别联合，通过议会立法争取10小时工作制等局部经济改良。",
+      "author_response": "恩格斯指出，这种联合已被证明不值得，因为法案本身脆弱易废，且其支持者无法领导真正的进步运动；工人应转而支持工业资产阶级完成其历史使命，为无产阶级最终夺权创造条件。",
+      "polemic_kind": "strategic_critique",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p20s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "10小时工作制法案",
+            "type": "event",
+            "modern": "1847年英国议会通过的限制工厂工作日长度的立法，是当时工人运动的重要经济诉求。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p20s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p20s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "萨德勒、奥斯特勒和艾释黎",
+            "type": "person",
+            "modern": "19世纪英国议会中推动工厂立法的三位代表人物，分别代表议员、工人运动领袖和贵族改革者。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p20s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p20s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p20s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p20s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p20s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p20s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p20s10",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p20s11",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "普选权",
+            "type": "concept",
+            "modern": "在本文语境下，指赋予所有成年男性公民的选举权，恩格斯认为在英国特定阶级构成下，其实质将导向无产阶级的政治统治。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "suffrage_bourgeois"
+          }
+        ]
+      },
+      {
+        "sid": "p20s12",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p20s13",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 3,
+        "notes_dropped": 2,
+        "hs_kept": 1,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "note:n1_overflow_slogan_15>12",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

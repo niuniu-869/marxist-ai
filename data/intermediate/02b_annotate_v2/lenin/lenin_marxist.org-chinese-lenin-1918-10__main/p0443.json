@@ -1,0 +1,63 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 443,
+  "annotation": {
+    "block_type": "quote_block",
+    "gist": "列宁引用考茨基的原文，质疑苏维埃共和国是否比立宪会议给无产阶级带来更多实际利益。",
+    "importance_score": 2,
+    "importance_reason": "引用考茨基的言论作为批判的直接证据，展示其机会主义观点在具体比较上的体现。",
+    "argument_role": "transition",
+    "argument_link": "本段直接引用考茨基的话，具体化上段对其无视事实的批评，为后续论证提供靶子。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_density",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "refute_quotation"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "立宪会议",
+        "explain": "1917年俄国二月革命后选举的议会，旨在制定宪法，但被布尔什维克解散。考茨基在此将其与苏维埃对比。",
+        "why_needed": "history_density",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p443s1",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

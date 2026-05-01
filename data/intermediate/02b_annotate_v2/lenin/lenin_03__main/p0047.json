@@ -1,0 +1,155 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 47,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁通过对比资产阶级革命的历史先例，为剥夺资产阶级集会自由进行辩护，论证这是无产阶级专政的必要措施。",
+    "importance_score": 3,
+    "importance_reason": "核心段落，直接阐述了无产阶级专政对资产阶级自由的剥夺原则，是全文论战的关键论点。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段关于法律自由因私有财产而无法实现的论点，具体论证集会自由在阶级斗争时期的阶级性。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "1649年英国革命",
+        "explain": "指英国内战期间，议会军击败王党，查理一世被处死，克伦威尔建立共和国的事件。列宁用此例说明革命会镇压反动派。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "1792-1793年法国革命",
+        "explain": "指法国大革命的激进阶段，雅各宾派掌权，路易十六被处死，革命政府对国内外敌人实行恐怖统治。列宁视其为彻底革命的典范。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "1848年欧洲革命",
+        "explain": "指1848年席卷欧洲的资产阶级民主革命浪潮。列宁批评其不彻底，未能像法国大革命那样坚决镇压反动势力。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "资产阶级知识分子和拥护民主的先生们",
+      "their_view": "布尔什维克破坏了自由，其剥夺集会自由的做法与民主原则相悖。",
+      "author_response": "这种指责是胡说。资产阶级革命家在革命时同样镇压了反动派的自由，无产阶级现在也必须这样做以解放劳动者。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p47s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "反革命分子",
+            "type": "concept",
+            "modern": "在无产阶级革命语境下，指一切试图颠覆新生革命政权、恢复旧制度的阶级敌人。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "counterrevolutionary_marxist"
+          }
+        ]
+      },
+      {
+        "sid": "p47s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "民主",
+            "type": "concept",
+            "modern": "此处特指论敌所宣扬的、在阶级社会中无法普遍实现的抽象民主，实质是资产阶级民主。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "democracy_bourgeois"
+          }
+        ]
+      },
+      {
+        "sid": "p47s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "1649年英国革命",
+            "type": "event",
+            "modern": "英国内战关键节点，议会军胜利，国王被处死，标志革命进入新阶段。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p47s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p47s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p47s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p47s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p47s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p47s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 3,
+        "notes_dropped": 2,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_event_14>12",
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

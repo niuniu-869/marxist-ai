@@ -1,0 +1,82 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 6,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "恩格斯基于在郎卡郡的亲身观察，描述棉纺织业工人的斗争精神和对资本家的反抗，以反驳工人会对雇主感恩的观点。",
+    "importance_score": 2,
+    "importance_reason": "以作者的直接观察和具体场景为例证，支撑其关于工人真实态度的核心论点。",
+    "argument_role": "continues",
+    "argument_link": "延续上一段对大会参与者身份的揭露，进一步描述这些工人（或其代表）在实际斗争中的真实立场和行动。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p6s5",
+        "quote": "请问，难道现在这些工人会因雇主们俯允采取缩短劳动时间的办法，而不采取降低工资的办法，就对雇主们感恩不已吗？",
+        "trigger": "inverted_logic",
+        "reader_block": "反问句式加“俯允”这种谦辞，读者可能误以为雇主真的让步了，实际恩格斯在讽刺这种“让步”仍是剥削，并以此质问工人的反应。",
+        "parse": {
+          "claim": "这些工人不会因为雇主选择缩短工时而非降低工资这种“让步”就心存感激。",
+          "qualifiers": "针对的是雇主在劳资冲突中可能采取的特定策略（缩短工时 vs. 降薪）。",
+          "contrast_or_target": "法国《新闻报》等媒体暗示英国工人与雇主关系和谐，工人会对雇主的“让步”心怀感激。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "以反问句式直接驳斥《新闻报》等媒体所描绘的劳资和谐图景，指出工人不会因资本家在剥削方式上的微小调整而改变其斗争立场。"
+        },
+        "implication": "恩格斯通过此反问，强化了工人与资本家之间不可调和的对立关系，任何剥削形式的调整都不会改变这一本质。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "法国资产阶级报纸《新闻报》",
+      "their_view": "英国曼彻斯特的棉纺织业工人与雇主关系和谐，工人会对雇主采取的某些措施（如缩短工时）心怀感激。",
+      "author_response": "恩格斯以亲身见闻证明，这些工人具有强烈的反抗精神，绝不会因资本家在剥削方式上的微小调整而改变其斗争意志。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p6s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p6s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p6s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p6s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p6s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  }
+}

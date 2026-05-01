@@ -1,0 +1,158 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 260,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "马克思批判国民经济学从私有财产现象出发，却无法解释其本质，将结果当作前提，用偶然性掩盖必然性。",
+    "importance_score": 2,
+    "importance_reason": "这是对国民经济学方法论的系统性批判，指出其无法解释自身理论前提的根源。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对国民经济学前提的采用，本段转向批判其方法论缺陷，指出其无法解释自身前提的根源。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p260s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p260s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p260s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p260s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "劳动",
+            "type": "concept",
+            "modern": "在政治经济学语境下，指人类有目的的活动，是创造价值的源泉。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "labor_economic"
+          },
+          {
+            "surface": "资本",
+            "type": "concept",
+            "modern": "在政治经济学语境下，指用于生产的货币或生产资料，能带来剩余价值。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "capital_economic"
+          }
+        ]
+      },
+      {
+        "sid": "p260s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "资本家",
+            "type": "social_group",
+            "modern": "在资本主义生产关系中，占有生产资料并雇佣劳动以获取利润的阶级。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": null
+          }
+        ]
+      },
+      {
+        "sid": "p260s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p260s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "竞争",
+            "type": "concept",
+            "modern": "在资本主义经济中，生产者或销售者为争夺市场和利润而进行的斗争。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "competition_economic"
+          }
+        ]
+      },
+      {
+        "sid": "p260s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p260s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "交换",
+            "type": "concept",
+            "modern": "在政治经济学语境下，指商品所有者之间相互让渡其产品的行为。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "exchange_economic"
+          }
+        ]
+      },
+      {
+        "sid": "p260s10",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 5,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

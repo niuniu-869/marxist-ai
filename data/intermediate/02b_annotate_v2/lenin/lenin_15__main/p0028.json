@@ -1,0 +1,86 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 28,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "批判对铁路的资产阶级美化，揭示其与私有制的联系和压迫本质。",
+    "importance_score": 2,
+    "importance_reason": "通过具体例证（铁路）支撑前文关于私有制与帝国主义压迫的论断，是核心批判的展开。",
+    "argument_role": "contrasts",
+    "argument_link": "承接上段关于铁路发展不平衡与战争不可避免的结论，转而从意识形态层面批判对铁路的普遍美化，揭示其阶级实质。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "资产阶级教授与小资产阶级庸人",
+      "their_view": "建筑铁路是普通的、自然的、民主的、文化的、传播文明的事业。",
+      "author_response": "列宁指出铁路与私有制紧密相连，是压迫殖民地半殖民地人民和本国雇佣劳动者的工具。",
+      "polemic_kind": "reveals_class_basis",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p28s1",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": [
+          {
+            "surface": "民主的",
+            "type": "concept",
+            "modern": "此处指资产阶级所宣扬的、掩盖其阶级统治的民主观念。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "democracy_bourgeois"
+          }
+        ]
+      },
+      {
+        "sid": "p28s2",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p28s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "雇佣奴隶",
+            "type": "metaphor",
+            "modern": "比喻在资本主义制度下，工人虽有人身自由，但经济上完全依附于资本，如同奴隶。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_7>5"
+      ]
+    }
+  ]
+}

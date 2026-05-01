@@ -1,0 +1,130 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 137,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "反驳对公社所有制目标的指责，阐明其消灭阶级所有制、实现个人所有制的实质，并讽刺统治阶级中人对合作制生产的承认。",
+    "importance_score": 3,
+    "importance_reason": "核心论点段，直接回应论敌对公社经济目标的攻击，并阐明其共产主义实质。",
+    "argument_role": "contrasts",
+    "argument_link": "上段论述劳动解放需以消灭阶级存在的经济基础为前提，本段则具体反驳那些指责公社消灭所有制的论调，并阐明公社的真实目标。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "为资本主义辩护的喉舌",
+      "their_view": "公社想要消灭构成全部文明的基础的所有制，这是对文明的破坏。",
+      "author_response": "公社确实要消灭那种将多数人劳动变为少数人财富的阶级所有制，即剥夺剥夺者，目的是将生产资料变为自由联合劳动的工具，实现真正的个人所有制。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p137s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p137s2",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p137s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p137s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "剥夺剥夺者",
+            "type": "concept",
+            "modern": "源自《资本论》，指无产阶级通过革命剥夺资产阶级对生产资料的占有。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "expropriate_expropriators"
+          }
+        ]
+      },
+      {
+        "sid": "p137s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "个人所有制",
+            "type": "concept",
+            "modern": "在马克思语境中，指在生产资料公有制基础上，劳动者对自身劳动产品的实际支配权。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "individual_ownership"
+          }
+        ]
+      },
+      {
+        "sid": "p137s6",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": [
+          {
+            "surface": "共产主义",
+            "type": "concept",
+            "modern": "此处是论敌用来污名化公社目标的标签，马克思在后文将其重新定义。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "communism"
+          }
+        ]
+      },
+      {
+        "sid": "p137s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p137s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 3,
+        "notes_dropped": 3,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_16>5",
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

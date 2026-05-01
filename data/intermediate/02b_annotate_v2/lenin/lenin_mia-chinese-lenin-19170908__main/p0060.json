@@ -1,0 +1,63 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 60,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁转述资产者的一种论调，即无产阶级即使夺取政权也必然失败，以此作为其反驳的靶子。",
+    "importance_score": 2,
+    "importance_reason": "作为论战靶子，具体呈现了资产者用国内战争后果来恐吓革命的逻辑。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于帝国主义联合反对俄国之困难的论述，转而直接引述并反驳资产者关于革命后果的恐吓性论断。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "refute_quotation"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "俄国公社",
+        "explain": "在1917年俄国语境下，“公社”通常指农村村社（米尔），是农民土地所有制和村社自治的基本单位。资产者用此论证无产阶级革命会破坏农村经济基础。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "资产者",
+      "their_view": "即使无产阶级夺取了政权，俄国公社（农村经济基础）的失败，也就是无产阶级自身的失败，这是必然的。",
+      "author_response": "列宁在此引述此论调，旨在后续揭露其作为吓唬民主派、反对革命深入的托词。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p60s1",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

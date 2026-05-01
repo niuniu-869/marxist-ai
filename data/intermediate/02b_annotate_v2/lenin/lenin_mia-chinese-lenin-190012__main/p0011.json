@@ -1,0 +1,105 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 11,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁揭露沙皇政府煽动对华仇恨的实质，是为转移国内人民对政府的不满，并指出中俄人民同受压迫。",
+    "importance_score": 3,
+    "importance_reason": "核心批判段落，揭示沙皇殖民宣传的阶级功能与欺骗性。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对战争财政消耗的揭露，进一步从意识形态层面批判沙皇政府，指出其煽动对外仇恨是为了掩盖国内阶级矛盾。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_polysemy",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "“亚洲市政府”",
+        "explain": "列宁对沙皇政府的批判性称呼。此处“亚洲”并非地理描述，而是指沙皇政府在亚洲地区（如中国东北）实行的殖民统治方式，其压迫性与在俄国本土对农民的压迫一脉相承。",
+        "why_needed": "term_polysemy",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p11s6",
+        "quote": "但是中国人民从来也没有压迫过俄国人民，中国人民也遭到俄国人民所遭到的那种苦难，他们遭受到向饥饿农民横征暴敛和用武力压制自由愿望的亚洲市政府的压迫，遭受到侵入中国的资本压迫。",
+        "trigger": "long_nested",
+        "reader_block": "句子包含多个并列的“遭受到”结构，且“亚洲市政府”这一隐喻性称呼需要结合上下文理解，否则读者可能困惑于“亚洲”与“俄国政府”的关系。",
+        "parse": {
+          "claim": "中俄两国人民都遭受着来自本国统治阶级和外国资本的双重压迫，他们是共同的受害者。",
+          "qualifiers": "特指沙皇政府在亚洲的殖民统治行为，以及外国资本对中国的经济侵略。",
+          "contrast_or_target": "沙皇政府及其宣传机器将中俄人民描绘为压迫者与被压迫者的关系，以煽动仇恨。"
+        },
+        "why": {
+          "relation": "contrasts",
+          "explanation": "本句与沙皇政府煽动的民族仇恨叙事形成直接对比，将问题从民族对立拉回到阶级压迫的共同根源上，是本段论证的落脚点。"
+        },
+        "implication": "列宁在此暗示，俄国无产阶级与中国人民的真正敌人是本国的统治阶级和国际资本，而非彼此。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "沙皇政府及其宣传机器",
+      "their_view": "俄国对华战争是传播文明的使命，中国人民野蛮仇视文明，俄国士兵为此兴高采烈。",
+      "author_response": "列宁指出，这种宣传是沙皇政府为转移国内人民对政府不满而采取的卑鄙手段，其本质是煽动民族仇恨以掩盖阶级压迫。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p11s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p11s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p11s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p11s4",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p11s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p11s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "亚洲市政府",
+            "type": "metaphor",
+            "modern": "列宁对沙皇政府的批判性称谓，强调其在亚洲殖民地的统治方式与在俄国本土的专制压迫具有同构性。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 13,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁识别并分析苏维埃政权面临的最危险内部敌人——小私有者的自发势力，指出其危害性并提出通过无产阶级专政来克服。",
+    "importance_score": 3,
+    "importance_reason": "核心论点段，明确当时苏维埃政权面临的主要矛盾从外部军事斗争转向内部经济与社会改造。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段关于贯彻无产阶级斗争策略的论述，具体分析了当前策略实施中必须克服的、比外部敌人更危险的内部障碍。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "term_density",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "小私有者的自发势力",
+        "explain": "指分散的、以个人逐利为导向的小农、小商贩等小资产阶级经济行为的总和。在马克思列宁主义语境中，这种自发性被视为社会主义计划经济和集体化的对立面，会侵蚀公有制基础。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "科尔尼洛夫、杜托夫、卡列金",
+        "explain": "均为1918年苏俄内战初期发动叛乱的白军将领。科尔尼洛夫是“科尔尼洛夫叛乱”（1917年）的首领，杜托夫和卡列金则在顿河等地组织反苏维埃武装。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "“左”派共产主义者",
+      "their_view": "认为主要危险来自外部帝国主义，主张立即进行公开的武装斗争，忽视内部经济改造的紧迫性。",
+      "author_response": "列宁指出，当前最危险的敌人是内部的小私有者自发势力，它从根基上威胁苏维埃政权，因此首要任务是建立劳动纪律和实行无产阶级专政来克服它。",
+      "polemic_kind": "strategic_critique",
+      "confidence": "medium"
+    },
+    "sentences": [
+      {
+        "sid": "p13s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p13s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p13s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p13s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p13s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p13s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 2,
+        "hs_kept": 0,
+        "hs_dropped": 2,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_11>5",
+        "note:n1_overflow_person_13>12",
+        "hs:claim_5gram_with_quote",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

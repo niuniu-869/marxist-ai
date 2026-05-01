@@ -1,0 +1,80 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 20,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段对比立宪民主党人的议会活动与工人的革命斗争，强调无产阶级应坚持武装起义道路。",
+    "importance_score": 2,
+    "importance_reason": "本段将前文教训应用于国家杜马，明确区分自由派与无产阶级的革命路线。",
+    "argument_role": "continues",
+    "argument_link": "上一段总结莫斯科事变中自由派与激进派的分化，本段进一步指出立宪民主党人沉迷议会游戏，而工人应进行真正的革命斗争。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "彼特龙凯维奇",
+        "explain": "尼古拉·彼特龙凯维奇是俄国立宪民主党领袖之一，该党代表自由派资产阶级，主张君主立宪，反对暴力革命。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "人民专制",
+        "explain": "列宁在此指无产阶级领导的革命专政，与资产阶级民主相对，强调通过暴力革命建立人民政权。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "立宪民主党人",
+      "their_view": "立宪民主党人主张在专制俄国通过议会斗争实现政治改革，回避暴力革命。",
+      "author_response": "列宁指出工人应抛弃议会幻想，进行争取人民专制的革命斗争，以武装起义推翻专制制度。",
+      "polemic_kind": "strategic_critique",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p20s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "人民专制",
+            "type": "concept",
+            "modern": "在列宁1905年语境中，指无产阶级领导的革命专政，旨在推翻沙皇专制并建立人民政权。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "dictatorship_proletarian"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_5gram_with_surface"
+      ]
+    }
+  ]
+}

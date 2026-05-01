@@ -1,0 +1,89 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 117,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段澄清布尔什维克所主张的集中制的性质，并批评论敌在此问题上制造的混乱。",
+    "importance_score": 2,
+    "importance_reason": "本段直接回应论敌对集中制的歪曲，明确核心原则，属于论证中的关键澄清与反击环节。",
+    "argument_role": "continues",
+    "argument_link": "上一段论述了资本主义发展要求统一的国家地域，本段则进一步阐明，布尔什维克所主张的集中制是与民主相结合的，并非论敌所描绘的专制。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "all_known",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p117s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "民主集中制",
+            "type": "concept",
+            "modern": "列宁主义政党组织原则，指在民主讨论和选举基础上形成集中统一的领导。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "democracy_centralism"
+          }
+        ]
+      },
+      {
+        "sid": "p117s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "市侩",
+            "type": "social_group",
+            "modern": "列宁用以指代思想庸俗、缺乏阶级立场、易受民族主义影响的小资产阶级分子。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          },
+          {
+            "surface": "民族主义市侩",
+            "type": "social_group",
+            "modern": "特指那些将民族主义情绪与小资产阶级庸俗思想结合，反对无产阶级国际主义的人。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 3,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_5gram_with_surface",
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

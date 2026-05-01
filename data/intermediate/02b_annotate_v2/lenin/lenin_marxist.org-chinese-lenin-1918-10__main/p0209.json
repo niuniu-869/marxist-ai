@@ -1,0 +1,63 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 209,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁通过连锁推论，将考茨基反对解散立宪会议的主张，等同于主张无产阶级与资产阶级调和。",
+    "importance_score": 3,
+    "importance_reason": "这是列宁批判考茨基机会主义的核心论证之一，直接将具体政治主张与阶级调和路线挂钩。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对考茨基隐瞒苏维埃与资产阶级机构分歧的指责，进一步揭露其政治主张的实质。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "俄国立宪会议",
+        "explain": "1917年俄国二月革命后选举产生的议会机构，具有资产阶级民主性质。十月革命后，布尔什维克因选举结果不利且该机构拒绝承认苏维埃政权，于1918年1月将其解散。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "考茨基",
+      "their_view": "不应该解散立宪会议，因为它是民主选举产生的机构，应当尊重其程序合法性。",
+      "author_response": "列宁指出，这种主张实质上是放弃对资产阶级的彻底斗争，导向阶级调和。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p209s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

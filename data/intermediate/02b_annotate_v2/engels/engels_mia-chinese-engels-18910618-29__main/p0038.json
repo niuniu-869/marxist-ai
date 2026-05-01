@@ -1,0 +1,93 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 38,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段指出纲领草案政治要求的根本缺陷：即使这些要求都实现，也无法达到社会主义的主要目标，因为德意志帝国宪法本身是反动的，无法作为实现生产资料公有制的基础。",
+    "importance_score": 3,
+    "importance_reason": "这是对机会主义和平改良路线的核心批判，直接反驳在现行法律框架内“长入社会主义”的幻想。",
+    "argument_role": "contrasts",
+    "argument_link": "承接上文对政治要求的讨论，转而批判这些要求所依赖的宪法基础本身是反动的，从而揭示其根本缺陷。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "机会主义",
+      "their_view": "在德意志帝国宪法框架内，通过议会斗争和渐进改良，就能实现党的一切要求，最终走向社会主义。",
+      "author_response": "恩格斯指出，这个宪法本身是反动的，政府握有实权，议会无权，以此为基础谈论实现生产资料公有制是荒谬的。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p38s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p38s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p38s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "1850年普鲁士宪法",
+            "type": "work",
+            "modern": "普鲁士在1848年革命后颁布的宪法，以反动保守著称，是德意志帝国宪法的蓝本。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p38s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p38s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 6,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_5gram_with_surface",
+        "note:n2_circular_prefix",
+        "note:eval_word:极为",
+        "note:n2_5gram_with_surface",
+        "note:n1_overflow_place_16>10",
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

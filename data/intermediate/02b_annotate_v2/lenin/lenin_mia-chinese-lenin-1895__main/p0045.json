@@ -1,0 +1,332 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 45,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "通过对比法律允许的罚款额度与此前工厂实际执行的最高罚款数据，揭露该法律对工人的压迫性，并讽刺政府的“关怀”。",
+    "importance_score": 2,
+    "importance_reason": "本段是核心批判的支撑部分，用具体数据对比揭露法律的虚伪性，直接反驳“政府德政论”。",
+    "argument_role": "contrasts",
+    "argument_link": "承接上段对法律条文的解释，转而用实际数据对比，揭示法律允许的罚款额度远超此前工厂实际执行的最高水平，从而论证法律的压迫本质。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p45s12",
+        "quote": "这样的罚款就叫高额罚款，并且说它高的不是工人而是视察员。",
+        "trigger": "inverted_logic",
+        "reader_block": "反讽句式，读者可能误以为视察员认为罚款不高，实际是视察员自己都觉得高，但法律却允许更高的额度。",
+        "parse": {
+          "claim": "视察员自己都承认此前工厂的罚款已经很高，但法律允许的额度比这还要高得多。",
+          "qualifiers": "此处的“高额罚款”是视察员报告中的定义，用于与法律允许的额度进行对比。",
+          "contrast_or_target": "对比对象是法律允许的罚款额度（高达工资的三分之一），其远超视察员所定义的“高额罚款”。"
+        },
+        "why": {
+          "relation": "contrasts",
+          "explanation": "本句通过反讽，将视察员报告中已属“高额”的罚款与法律允许的更高额度并置，形成强烈对比，为下文揭露法律的压迫性做铺垫。"
+        },
+        "implication": null,
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      },
+      {
+        "anchor": "p45s29",
+        "quote": "……这个法律对工人保护得多好，真是没有说的！",
+        "trigger": "inverted_logic",
+        "reader_block": "明显反讽，读者可能误以为作者在赞扬法律，实际是讽刺法律根本没有保护工人。",
+        "parse": {
+          "claim": "法律实际上没有给工人提供任何有效的保护，反而允许了比此前更严酷的剥削。",
+          "qualifiers": "这是对前文所有数据对比的总结性反讽。",
+          "contrast_or_target": "反驳对象是“政府德政论”，即认为该法律是政府关怀工人的体现。"
+        },
+        "why": {
+          "relation": "conclusion",
+          "explanation": "本句以反讽语气总结前文的数据对比，得出法律并未保护工人的结论，直接驳斥了政府的宣传。"
+        },
+        "implication": null,
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "沙皇政府及其官员",
+      "their_view": "1886年的罚款法是政府关怀工人阶级的“真正人道的改革”，减轻了工人的负担。",
+      "author_response": "列宁通过数据对比揭露，法律允许的罚款额度实际上比此前工厂实际执行的最高罚款还要高，所谓的“关怀”是虚伪的，法律的本质是保护厂主、损害工人。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p45s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p45s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p45s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p45s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p45s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "工厂视察员",
+            "type": "person",
+            "modern": "沙皇政府负责监督工厂法规执行的官员，其报告是官方数据来源。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p45s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p45s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p45s8",
+        "speaker": "editor",
+        "stance": "neutral_citation",
+        "notes": []
+      },
+      {
+        "sid": "p45s9",
+        "speaker": "editor",
+        "stance": "neutral_citation",
+        "notes": []
+      },
+      {
+        "sid": "p45s10",
+        "speaker": "editor",
+        "stance": "neutral_citation",
+        "notes": []
+      },
+      {
+        "sid": "p45s11",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p45s12",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p45s13",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p45s14",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p45s15",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p45s16",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p45s17",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p45s18",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p45s19",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p45s20",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p45s21",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p45s22",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p45s23",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p45s24",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p45s25",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p45s26",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p45s27",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p45s28",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p45s29",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p45s30",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p45s31",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p45s32",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p45s33",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": [
+          {
+            "surface": "米海洛夫斯基先生",
+            "type": "person",
+            "modern": "前彼得堡专区工厂总视察员，其言论被列宁引用来揭露政府宣传的虚伪。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p45s34",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p45s35",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p45s36",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p45s37",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p45s38",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 1,
+        "hs_kept": 2,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_org_18>16"
+      ]
+    }
+  ]
+}

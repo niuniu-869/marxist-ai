@@ -1,0 +1,74 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 38,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁直接指责考茨基的言论是谰言和谎话，根源在于考茨基忽视了阶级斗争。",
+    "importance_score": 2,
+    "importance_reason": "本段直接攻击考茨基的理论缺陷，为批判其机会主义立场提供核心论据。",
+    "argument_role": "continues",
+    "argument_link": "本段承接上段对民主阶级性的分析，进一步揭示考茨基错误的理论根源在于背离阶级斗争学说。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p38s1",
+        "quote": "“马克思主义者”考茨基说出这种骇人听闻的谰言和谎话，是因为他“忘记了”阶级斗争……",
+        "trigger": "inverted_logic",
+        "reader_block": "反讽加引号的“马克思主义者”，读者可能误以为考茨基是真正的马克思主义者，但实际是讽刺其背叛。",
+        "parse": {
+          "claim": "考茨基的言论源于对阶级斗争这一核心原理的忽视。",
+          "qualifiers": "",
+          "contrast_or_target": "考茨基主张无产阶级专政只是一个词儿，忽视革命暴力。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "列宁直接指责考茨基背叛马克思主义，因为考茨基的理论脱离了阶级斗争这一马克思主义基石。"
+        },
+        "implication": null,
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p38s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 1,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

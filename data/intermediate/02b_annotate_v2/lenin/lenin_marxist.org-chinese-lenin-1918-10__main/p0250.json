@@ -1,0 +1,72 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 250,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁以反讽口吻列举反革命势力，讽刺考茨基的‘纯粹民主’原则在革命前无法约束他们。",
+    "importance_score": 2,
+    "importance_reason": "本段通过反讽列举反革命势力，具体化对考茨基‘纯粹民主’原则的批判。",
+    "argument_role": "continues",
+    "argument_link": "延续上段反讽，以具体例子说明考茨基原则在实际革命环境中的荒谬后果。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_density",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "俄国内战反革命势力",
+        "explain": "萨文柯夫等是反布尔什维克政治人物；捷克斯洛伐克军是协约国支持的反苏武装；孟什维克是反对革命的社会主义派别；克拉斯诺夫分子是白军将领。",
+        "why_needed": "history_density",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p250s2",
+        "quote": "不言而喻，通过萨文柯夫、波特列索夫、李伯尔唐恩之流或依靠他们的鼓动从英法资本家手里领取金钱的捷克斯洛伐克军，以及在乌克兰和梯弗利斯的孟什维克帮助之下从德国人那里得到枪械的克拉斯诺夫分子，在我们没有制定出正确的刑法以前就会乖乖地坐在那里，并且会象最纯粹的民主派那样仅限于从事“反对派”的活动……",
+        "trigger": "inverted_logic",
+        "reader_block": "反讽语气，读者可能误以为列宁在正面描述这些分子的行为，实际是讽刺考茨基原则的无效。",
+        "parse": {
+          "claim": "反革命分子在缺乏革命法律约束时，会伪装成守法反对派。",
+          "qualifiers": "在苏维埃政权未制定出针对性刑法之前",
+          "contrast_or_target": "考茨基主张通过纯粹民主程序处理革命问题，认为法律能约束反革命。",
+          "why": {
+            "relation": "polemic",
+            "explanation": "本句通过反讽揭示考茨基‘纯粹民主’原则的虚伪，说明在革命暴力面前，法律程序无法阻止反革命活动。"
+          },
+          "implication": "因此，无产阶级专政必须先于法律程序，以暴力镇压反革命。",
+          "confidence": "high",
+          "source_basis": "text_evidence"
+        }
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "考茨基",
+      "their_view": "考茨基认为，民主方法和专政方法对立，主张通过纯粹民主程序处理革命问题。",
+      "author_response": "列宁反讽指出，这种原则在实际中会让反革命分子逍遥法外，暴露其机会主义本质。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p250s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p250s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  }
+}

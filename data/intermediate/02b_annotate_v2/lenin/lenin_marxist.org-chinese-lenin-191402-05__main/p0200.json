@@ -1,0 +1,76 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 200,
+  "annotation": {
+    "block_type": "quote_block",
+    "gist": "引用马克思关于英国工人阶级必须与爱尔兰断绝关系的论述，以说明民族压迫对本国无产阶级解放的阻碍。",
+    "importance_score": 2,
+    "importance_reason": "通过引用马克思的权威论述，为民族自决权原则提供历史先例和理论依据。",
+    "argument_role": "example",
+    "argument_link": "承接上文对马克思爱尔兰政策的叙述，具体展示马克思如何将爱尔兰问题与英国工人阶级的解放联系起来。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "马克思对爱尔兰问题的立场",
+        "explain": "马克思最初认为英国工人运动高涨可推翻爱尔兰的统治制度，但后来转变观点，认为英国工人阶级必须先摆脱对爱尔兰的奴役关系，才能获得自身解放。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      },
+      {
+        "topic": "引文在列宁论证中的作用",
+        "explain": "列宁引用马克思这段话，旨在证明民族压迫与本国无产阶级解放的关联，以此反驳那些认为民族自决权在帝国主义时代不切实际的观点。",
+        "why_needed": "cross_ref_pronoun",
+        "confidence": "high",
+        "source_basis": "inferred"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p200s1",
+        "speaker": "quoted_marx",
+        "stance": "endorsed",
+        "notes": []
+      },
+      {
+        "sid": "p200s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

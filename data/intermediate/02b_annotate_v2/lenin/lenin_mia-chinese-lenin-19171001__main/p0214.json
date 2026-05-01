@@ -1,0 +1,115 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 214,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "通过描绘阶级敌人的残暴本性，论证布尔什维克必须夺取并保持政权。",
+    "importance_score": 2,
+    "importance_reason": "通过具体例证，支撑了布尔什维克必须掌握政权的核心论点。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于布尔什维克政府力量来源的论述，进一步从阶级斗争的残酷性角度，论证保持政权的必要性。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "rhetorical",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "段中人物背景",
+        "explain": "彼舍霍诺夫是立宪民主党人，代表富农利益。布列什柯夫斯卡娅是社会革命党右翼，普列汉诺夫是孟什维克领袖。科尔尼洛夫是发动过叛乱的将军，克伦斯基是临时政府首脑。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p214s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "彼舍霍诺夫",
+            "type": "person",
+            "modern": "1917年俄国临时政府农业部长，立宪民主党人，代表富农利益。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "布列什柯夫斯卡娅",
+            "type": "person",
+            "modern": "社会革命党右翼领袖之一，与立宪民主党人合作。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "普列汉诺夫",
+            "type": "person",
+            "modern": "俄国孟什维克思想领袖，此时支持临时政府。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "克伦斯基",
+            "type": "person",
+            "modern": "俄国临时政府总理，社会革命党人。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "富农",
+            "type": "social_group",
+            "modern": "农村中通过雇工、出租土地等方式剥削他人劳动的富裕农民，是临时政府的重要社会基础。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "布尔什维克",
+            "type": "org",
+            "modern": "俄国社会民主工党（布）的简称，列宁领导的无产阶级革命政党。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "metadata"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 6,
+        "notes_dropped": 2,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_5gram_with_surface",
+        "note:n1_overflow_metaphor_19>8",
+        "hs:claim_5gram_with_quote",
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 53,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁引述并转述米海洛夫斯基的一个论据，该论据指责马克思主义者攻击民粹派是“生气了”，与其宣称的“客观态度”矛盾。",
+    "importance_score": 1,
+    "importance_reason": "这是对米海洛夫斯基一个具体论据的引述和转述，为后续反驳做铺垫。",
+    "argument_role": "continues",
+    "argument_link": "本段引述米海洛夫斯基的新论据，延续了上一段对米海洛夫斯基的直接驳斥。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p53s2",
+        "quote": "这原来“证明他生气了，而他是不应该这样的〈原文如此！！〉。我们‘主观主义的老头子’和‘主观主义的青年’一样，可以允许自己犯这个毛病，而不至于自相矛盾。但是‘完全可以因其严峻的客观态度而自豪’〈一个“学生”的话〉的学说，其代表则是另外一种情况”。",
+        "trigger": "inverted_logic",
+        "reader_block": "反讽语气和双重否定结构（“可以允许……而不至于……”），读者容易误解为正面陈述，实际是米海洛夫斯基在嘲讽。",
+        "parse": {
+          "claim": "米海洛夫斯基认为，马克思主义者攻击民粹派是情绪化表现，这与其宣称的客观立场不符。",
+          "qualifiers": "",
+          "contrast_or_target": "米海洛夫斯基指责马克思主义者（卡缅斯基）攻击民粹派是“生气了”，而他们自称“客观”。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "列宁转述米海洛夫斯基的论据，意在后续揭露其逻辑漏洞。"
+        },
+        "implication": null,
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "米海洛夫斯基",
+      "their_view": "马克思主义者（卡缅斯基）攻击民粹派是“生气了”，这与其宣称的“客观态度”矛盾。",
+      "author_response": "列宁转述此论据，意在后续揭露其逻辑漏洞。",
+      "polemic_kind": "counter_quotation",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p53s1",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p53s2",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      }
+    ]
+  }
+}

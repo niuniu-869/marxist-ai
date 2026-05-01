@@ -1,0 +1,138 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 72,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "分析并反驳马斯洛夫草案为国有化辩护的一个核心论据，指出其隐含了对民主革命不彻底的假设。",
+    "importance_score": 2,
+    "importance_reason": "通过剖析论据的隐含前提，强化对马斯洛夫草案的批判，属于核心论证的组成部分。",
+    "argument_role": "contrasts",
+    "argument_link": "承接上段对马斯洛夫草案口号功能的批判，本段转向剖析其理论论据的内在缺陷。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "马斯洛夫",
+      "their_view": "国有化会加强资产阶级国家的权力，而地方机关更民主，因此不应实行土地国有化。",
+      "author_response": "这种论据隐含了对民主革命不彻底的假设，是为半途而废的革命设计的，与彻底的民主革命要求相悖。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p72s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p72s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p72s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p72s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p72s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p72s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p72s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p72s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "人民专政",
+            "type": "concept",
+            "modern": "列宁主义术语，指革命胜利后由无产阶级和农民联合掌握的国家政权形式。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "dictatorship_of_the_people"
+          }
+        ]
+      },
+      {
+        "sid": "p72s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p72s10",
+        "speaker": "editor",
+        "stance": "neutral_citation",
+        "notes": [
+          {
+            "surface": "考茨基",
+            "type": "person",
+            "modern": "卡尔·考茨基，第二国际理论家，马克思主义权威阐释者之一。",
+            "highlight": "person",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "梅克伦堡",
+            "type": "place",
+            "modern": "德国北部一个历史邦国，当时保留着浓厚的封建残余。",
+            "highlight": "place",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 3,
+        "notes_dropped": 2,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_6>5",
+        "note:n2_circular_prefix",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

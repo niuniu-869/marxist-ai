@@ -1,0 +1,72 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 69,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "马克思将“国教顾问”关于王权与人民统一的言论，与历史上路易十四和路易十六的专制话语进行类比，揭露其本质。",
+    "importance_score": 2,
+    "importance_reason": "本段通过历史引证，具体反驳论敌将君主权威与人民福祉等同的论调，支撑全文对官方共产主义宣传的批判。",
+    "argument_role": "contrasts",
+    "argument_link": "上段讨论宗教规定对社会改革的扭曲，本段转向政治领域，揭露论敌在王权问题上同样采用专制话语。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "allusion",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "路易十六与三级会议",
+        "explain": "1789年6月23日，法国国王路易十六在三级会议上对反抗的等级代表讲话，试图维护王权，但随后引发革命。读者需知此事件背景以理解马克思的类比。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p69s2",
+        "quote": "和路易十六1789年6月23日对举行叛乱的等级所说的：假如你们不服从命令，我就把你们个个送回家去《et seul je ferai le bonheur de mon peuple》〔“我亲自来关照我的人民的福利”〕，几乎是完全一致的。",
+        "trigger": "allusion",
+        "reader_block": "引用路易十六的法语原话和具体历史事件，读者若不熟悉法国大革命前史，难以理解马克思为何将此与论敌言论等同。",
+        "parse": {
+          "claim": "论敌的言论与路易十六在革命前夕维护王权的专制话语在本质上相同。",
+          "qualifiers": "限定于1789年6月23日三级会议这一具体历史时刻。",
+          "contrast_or_target": "论敌声称王权与人民统一，实则效仿历史上君主以个人意志代表人民福祉的专制逻辑。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "本句通过历史类比，直接反驳论敌观点，揭示其言论与旧制度专制话语的同构性，强化批判力度。"
+        },
+        "implication": "论敌的“统一”论调并非新创，而是历史上君主专制思想的延续。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "莱茵观察家（通过“国教顾问”指代）",
+      "their_view": "王权和人民是一个统一的整体，君主代表并关照人民的福利。",
+      "author_response": "马克思指出这不过是“朕即国家”老话的翻版，与路易十六在革命前维护专制的言论完全一致。",
+      "polemic_kind": "counter_quotation",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p69s1",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p69s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  }
+}

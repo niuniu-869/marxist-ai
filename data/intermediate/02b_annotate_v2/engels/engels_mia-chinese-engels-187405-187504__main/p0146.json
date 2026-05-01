@@ -1,0 +1,128 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 146,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "恩格斯承认俄国革命迫近，但批判特卡乔夫将革命等同于社会主义革命的幻想，并驳斥其基于俄国特殊性的论据。",
+    "importance_score": 2,
+    "importance_reason": "本段是恩格斯对特卡乔夫革命理论进行具体批判的关键环节，通过拆解其概念混淆和前提错误来推进论战。",
+    "argument_role": "continues",
+    "argument_link": "上段论证俄国国家并非“悬在空中”，本段进而批判特卡乔夫由此推导出的革命理论。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "劳动组合与公社土地所有制",
+        "explain": "这是俄国农村传统的集体生产组织形式（如村社），土地归集体所有，成员共同劳动。特卡乔夫认为这些是社会主义的天然基础。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p146s6",
+        "quote": "其实，特卡乔夫先生是想说，这将是社会主义革命，它将在我们在西方还没有实现以前，就在俄国实现西欧社会主义所追求的那个社会形态——而且是在不论无产阶级或资产阶级还不是到处都碰得见并且都还处在低级发展阶段上的这种社会状态下来实现！",
+        "trigger": "long_nested",
+        "reader_block": "句子包含多层从句和对比结构，读者容易迷失在“在……以前”“在……状态下来实现”等条件中，难以抓住核心论断。",
+        "parse": {
+          "claim": "特卡乔夫实际主张，俄国能在西方无产阶级和资产阶级尚未充分发展的情况下，率先实现社会主义社会形态。",
+          "qualifiers": "这种实现是在俄国无产阶级和资产阶级都未普遍形成且处于低级发展阶段的社会状态下进行的。",
+          "contrast_or_target": "特卡乔夫认为俄国可以跳过资本主义充分发展阶段，直接凭借其农村公社实现社会主义。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "此句揭示特卡乔夫理论的核心矛盾，即试图在缺乏必要阶级基础的条件下实现社会形态的飞跃。"
+        },
+        "implication": "恩格斯由此暗示，没有资本主义发展所创造的无产阶级，社会主义革命缺乏阶级主体。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "特卡乔夫",
+      "their_view": "俄国农民公社和劳动组合是社会主义的天然基础，俄国可以率先实现社会主义，无需等待西方。",
+      "author_response": "恩格斯指出，任何真正革命都是社会革命，但特卡乔夫所幻想的、在缺乏无产阶级和资产阶级充分发展的条件下实现的社会主义革命，是脱离现实的空想。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p146s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p146s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p146s3",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p146s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p146s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p146s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p146s7",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": [
+          {
+            "surface": "劳动组合",
+            "type": "concept",
+            "modern": "特卡乔夫所依据的俄国农村传统集体生产形式，被其视为社会主义的天然萌芽。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "rural_collective_organization"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 1,
+        "hs_kept": 1,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_7>5"
+      ]
+    }
+  ]
+}

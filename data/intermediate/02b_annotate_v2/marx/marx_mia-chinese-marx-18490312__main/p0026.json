@@ -1,0 +1,58 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 26,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "马克思讽刺普鲁士政府一项新法令，该法令将基于事实的言论也纳入侮辱罪范畴，以压制批评。",
+    "importance_score": 1,
+    "importance_reason": "本段作为具体例子，展示普鲁士反动立法如何扩大犯罪定义以钳制言论。",
+    "argument_role": "continues",
+    "argument_link": "在上段讨论一个法令的刑罚后，本段转向另一个法令，揭露其将事实论断入罪的荒谬逻辑。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p26s1",
+        "quote": "4．还有一条大有教益的法令，根据这条法令，即使是对证据确凿的事实做出的论断，但只要被论断的事实证明是蓄意侮辱者，也应按侮辱罪论处！",
+        "trigger": "inverted_logic",
+        "reader_block": "反讽用语“大有教益”与法令内容形成反差，读者可能误以为法令是正面的，实际是讽刺其荒谬性。",
+        "parse": {
+          "claim": "该法令规定，言论即使基于确凿事实，若被认定为蓄意侮辱，也构成侮辱罪。",
+          "qualifiers": "言论必须基于证据确凿的事实，但若被证明蓄意侮辱，则入罪。",
+          "contrast_or_target": "普鲁士政府声称法令旨在防止恶意侮辱，维护秩序。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "本句通过反讽揭露法令的专制本质，即以侮辱罪名义压制基于事实的批评，反驳政府辩护。"
+        },
+        "implication": "这法令旨在消除一切对政府的批评，即使批评基于事实。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "普鲁士反动势力",
+      "their_view": "普鲁士政府声称该法令是为了防止恶意侮辱，保护社会秩序。",
+      "author_response": "马克思讽刺法令荒谬，将事实论断入罪，实为压制言论自由。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p26s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  }
+}

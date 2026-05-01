@@ -1,0 +1,81 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 216,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "斯大林指出，崩得为“犹太无产阶级唯一代表”理论寻找“原则性”根据，而“民族文化自治”就是这个根据，崩得抄袭自奥地利社会民主党。",
+    "importance_score": 2,
+    "importance_reason": "本段是核心批判的一部分，揭示了崩得理论的来源和动机，为后续批判“民族文化自治”纲领做铺垫。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段对崩得“犹太无产阶级唯一代表”理论的定性，本段进一步分析崩得为该理论寻找“原则性”辩护的策略，即抄袭“民族文化自治”纲领。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "民族文化自治",
+        "explain": "一种民族纲领，主张在多民族国家内，各民族按文化（语言、教育等）而非地域划分，建立自治组织管理本民族内部事务。斯大林在此批判其为唯心主义和分离主义的理论基础。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p216s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p216s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p216s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p216s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

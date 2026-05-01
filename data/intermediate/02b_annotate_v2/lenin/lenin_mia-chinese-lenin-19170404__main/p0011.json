@@ -1,0 +1,118 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 11,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁批评布尔什维克内部从理论而非实际出发的错误，强调应根据群众的实际认识水平来分析战争的阶级性质，并点名批判孟什维克领袖的立场。",
+    "importance_score": 2,
+    "importance_reason": "本段是列宁阐述其战争观和群众工作方法的关键段落，为《四月提纲》中关于战争与和平的论点提供直接论证。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于战争性质与群众实际看法的论述，进一步从阶级分析角度阐明无产阶级与资产阶级在战争问题上的根本区别，并批判具体对手。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "革命护国主义",
+        "explain": "二月革命后流行的一种观点，认为保卫俄国革命成果的战争是正当的，区别于沙皇时期的帝国主义战争。列宁认为这实质上仍是帝国主义战争，是为资产阶级利益服务的口号。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "工人代表苏维埃的决议",
+        "explain": "指当时由孟什维克主导的彼得格勒工兵代表苏维埃所通过的支持临时政府、主张“革命护国主义”的决议。列宁在文中将其作为批判对象。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "斯切克洛夫、齐赫泽（孟什维克）",
+      "their_view": "支持临时政府，认为当前战争是保卫革命成果的战争，苏维埃应与此立场保持一致。",
+      "author_response": "列宁指出他们忘记了基本的阶级分析，即哪个阶级在进行战争。他们主导的苏维埃决议恰恰证明了其立场的错误。",
+      "polemic_kind": "reveals_class_basis",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p11s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p11s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p11s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p11s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p11s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p11s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p11s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p11s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p11s9",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

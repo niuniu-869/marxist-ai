@@ -1,0 +1,90 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 33,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "描述统治集团无视议会程序，颁布法令以剥削西里西亚农民。",
+    "importance_score": 2,
+    "importance_reason": "通过具体法令实例，揭示统治阶级利用国家机器维护自身利益的本质。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对议会角色的讨论，转而描述统治集团实际如何无视议会程序来维护自身利益。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "rhetorical",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "波茨坦的权奸",
+        "explain": "指当时普鲁士宫廷和容克贵族势力，他们常在波茨坦活动，是阻碍改革、维护封建特权的保守核心。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "国家通报",
+        "explain": "指普鲁士政府的官方公报，用于发布法令和官方消息，是统治阶级意志的正式载体。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p33s1",
+        "quote": "“拖延是危险的。这一点波茨坦的权奸懂得，他们也善于不惜用农民的血汗来填满自己的腰包。什么议会不议会，去它的吧！我们觉得怎样有利，就怎样修改法律！——结果正是这样。在‘国家通报’上出现了一道有关西里西亚的法令，这不是别的，而是一个布满陷坑等等的圈套，农村居民只要一陷进去，就永无出头之日。”",
+        "trigger": "rhetorical",
+        "reader_block": "作者用反讽口吻模仿统治者心理，将“拖延危险”与“用农民血汗填腰包”并置，读者需识别其讽刺意图而非字面意思。",
+        "parse": {
+          "claim": "统治集团深知拖延对其不利，因此他们擅长通过牺牲农民利益来快速满足自身贪欲，并完全蔑视议会程序，按自身需要随意制定法律。",
+          "qualifiers": "特指波茨坦的保守势力（权奸）在处理西里西亚农民问题时的行为模式。",
+          "contrast_or_target": "议会本应是审议法律的机构，但统治者视其为无物，认为自身利益高于一切程序。"
+        },
+        "why": {
+          "relation": "example",
+          "explanation": "本句通过模仿统治者的口吻和描述其具体行动（颁布法令），为前文关于统治阶级专横的论断提供了一个生动的例证。"
+        },
+        "implication": "法令的颁布过程本身就暴露了其阶级性质，即法律是统治者维护自身利益的工具，而非公正的体现。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "波茨坦的权奸",
+      "their_view": "议会程序繁琐，不如直接按统治集团的利益修改法律来得高效。",
+      "author_response": "统治集团为维护自身利益，不惜牺牲农民，绕过议会颁布剥削法令，这暴露了其专制本质。",
+      "polemic_kind": "reveals_class_basis",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p33s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "国家通报",
+            "type": "work",
+            "modern": "普鲁士政府用于发布法令的官方公报，是统治意志的正式文本载体。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "西里西亚",
+            "type": "place",
+            "modern": "当时普鲁士王国的一个省份，以农业为主，农民受封建义务和新法令双重压迫。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  }
+}

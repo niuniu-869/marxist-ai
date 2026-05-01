@@ -1,0 +1,89 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 67,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段将“民族文化自治”理论与蒲鲁东思想类比，指出两者都属于小资产阶级范畴，将资产阶级民族主义绝对化。",
+    "importance_score": 2,
+    "importance_reason": "本段通过类比蒲鲁东，揭示“民族文化自治”理论的阶级基础，支撑对民族主义口号的批判。",
+    "argument_role": "continues",
+    "argument_link": "本段延续上段对民族文化口号的批判，通过类比蒲鲁东的小资产阶级理论，进一步揭示其阶级本质。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "蒲鲁东及其思想",
+        "explain": "蒲鲁东是19世纪法国小资产阶级社会主义者，主张通过交换银行实现互助，反对暴力革命。列宁在此类比其理论的小资产阶级性质。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p67s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "蒲鲁东",
+            "type": "person",
+            "modern": "19世纪法国小资产阶级社会主义思想家",
+            "highlight": "person",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "小资产阶级",
+            "type": "concept",
+            "modern": "介于资产阶级和无产阶级之间的阶级，具有两面性",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "class_petty_bourgeoisie"
+          },
+          {
+            "surface": "民族文化自治",
+            "type": "slogan",
+            "modern": "一种民族纲领，主张各民族在文化上自治，与政治分离不同",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 3,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

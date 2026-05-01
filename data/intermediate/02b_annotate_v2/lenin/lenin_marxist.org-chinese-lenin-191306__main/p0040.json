@@ -1,0 +1,66 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 40,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列举“民族文化自治”口号将导致的两个对立后果：一方面是民族区分的固化与精致民族主义，另一方面是各民族的联合与国际文化的发展。",
+    "importance_score": 2,
+    "importance_reason": "作为对“民族文化自治”口号批判的组成部分，具体阐述其理论后果，支撑作者的核心论点。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对“民族文化”口号的否定，具体展开该口号在实践层面将导致的两种对立趋势，从而揭示其理论内在矛盾。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "民族文化自治的主张者",
+      "their_view": "实行按民族划分的文化教育等制度，能够保障各民族的文化发展权利，促进民族平等。",
+      "author_response": "列宁指出，这种制度的实质是人为地固化民族边界，其后果恰恰是阻碍了各民族在实际生活中的接近与融合，与历史发展趋势背道而驰。",
+      "polemic_kind": "reveals_class_basis",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p40s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "国际的文化",
+            "type": "concept",
+            "modern": "与“民族文化”相对立，指超越单一民族界限、体现无产阶级国际主义精神的文化形态。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "international_culture"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 2,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_8>5",
+        "note:n1_overflow_concept_7>5"
+      ]
+    }
+  ]
+}

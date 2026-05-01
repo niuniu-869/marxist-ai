@@ -1,0 +1,80 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 296,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "通过介绍孔西得朗及其主张，为下文与马克思的对比树立一个空想社会主义的反面典型。",
+    "importance_score": 1,
+    "importance_reason": "作为论证中的一个例证，用以对比和批判空想社会主义的阶级调和论。",
+    "argument_role": "example",
+    "argument_link": "承接上段对马克思的提问，本段先树立一个与马克思对立的空想社会主义者形象，为后续论证做铺垫。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "孔西得朗与傅立叶",
+        "explain": "孔西得朗是法国空想社会主义者傅立叶的追随者。傅立叶设想通过建立名为“法郎吉”的和谐社区来改造社会，其学说被马克思主义视为脱离阶级斗争的空想。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "阶级调和论",
+        "explain": "指认为社会各阶级（如无产阶级与资产阶级）的利益可以协调一致、和平共处，而非必然处于斗争和对立之中。这是马克思主义所批判的观点。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "空想社会主义",
+      "their_view": "只有通过阶级之间的合作与调和，才能解决社会问题，挽救国家。",
+      "author_response": "这种观点是空想，它无视阶级矛盾的客观存在，幻想通过非斗争的方式实现社会变革。",
+      "polemic_kind": "reveals_class_basis",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p296s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "空想主义者",
+            "type": "concept",
+            "modern": "19世纪主张通过和平示范、道德感化等非革命方式改造社会的社会主义思想家",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "socialism_utopian"
+          }
+        ]
+      },
+      {
+        "sid": "p296s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "阶级调和",
+            "type": "concept",
+            "modern": "认为社会各阶级利益可以协调一致、和平共处的主张",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "class_harmony"
+          }
+        ]
+      }
+    ]
+  }
+}

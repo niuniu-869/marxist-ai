@@ -1,0 +1,98 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 169,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "通过反问揭示资产阶级关于最低工资的论点在机器应用后如何自相矛盾，说明工人生命消耗的增加。",
+    "importance_score": 2,
+    "importance_reason": "用具体例子支撑前文关于机器排挤工人的论述，揭露资产阶级辩护的虚伪性。",
+    "argument_role": "example",
+    "argument_link": "承接上段关于机器排挤工人的论述，具体展示这种排挤如何导致工人家庭生计来源的结构性变化，并反驳资产阶级的辩护。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p169s3",
+        "quote": "难道先前最低工资额不是应该足够维持工人生活和繁殖工人后代吗？",
+        "trigger": "inverted_logic",
+        "reader_block": "同样是双重否定反问，读者需识别这是在复述资产阶级的‘最低工资’理论，而非作者主张。",
+        "parse": {
+          "claim": "资产阶级理论认为，最低工资的底线是保障工人自身生存和种族繁衍。",
+          "qualifiers": "这是古典政治经济学关于工资铁律的一种通俗表述。",
+          "contrast_or_target": "资产阶级用此理论证明工资支付是‘人道’的，符合自然规律。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "进一步复述资产阶级的理论前提，与下句作者揭示的残酷现实形成强烈对比，强化反驳力度。"
+        },
+        "implication": "当维持同样生活需要消耗三倍工人生命时，这一‘人道’理论便不攻自破。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "资产阶级",
+      "their_view": "最低工资应当足以维持工人个人生活并使其能够养育后代，这证明了资本主义分配的合理性。",
+      "author_response": "机器排挤一个男工后，工厂雇佣三个童工和一个女工才能维持工人家庭生计，这恰恰证明了要维持同样生活水平，现在需要消耗比以前多三倍的工人生命。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p169s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p169s2",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p169s3",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p169s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p169s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 1,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

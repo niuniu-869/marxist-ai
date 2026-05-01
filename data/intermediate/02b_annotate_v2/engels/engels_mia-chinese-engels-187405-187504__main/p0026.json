@@ -1,0 +1,171 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 26,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "恩格斯通过回顾历史与现实，反驳关于波兰运动是贵族性质的论调，论证其革命性与人民性。",
+    "importance_score": 3,
+    "importance_reason": "核心论点段落，直接反驳对波兰运动性质的错误定性，为前文“波兰人民是可靠盟友”的判断提供论证支撑。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段关于波兰人民是可靠盟友的论断，本段通过剖析波兰运动的阶级实质与历史表现，具体论证其为何可靠。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "1846年与1863年波兰起义",
+        "explain": "指1846年克拉科夫起义和1863年华沙起义，是波兰反抗俄、普、奥瓜分的民族起义。后者规模更大，失败后大批参与者流亡西欧。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "巴黎公社中的波兰流亡者",
+        "explain": "1871年巴黎公社期间，大量波兰流亡者参与其中并支持公社，这是恩格斯用以反驳“贵族运动”说的关键事实。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p26s7",
+        "quote": "难道这不是证明这些波兰人已经完全站在现代运动的高峰上了吗？",
+        "trigger": "inverted_logic",
+        "reader_block": "双重反问，语气强烈，读者需理解“现代运动”在此特指当时的国际工人运动。",
+        "parse": {
+          "claim": "波兰流亡者在公社中的表现，证明他们已完全认同并投身于当时的国际工人运动。",
+          "qualifiers": "基于前句所举的1871年巴黎公社事例。",
+          "contrast_or_target": "继续反驳将波兰运动视为落后、贵族性质的观点。"
+        },
+        "why": {
+          "relation": "conclusion",
+          "explanation": "基于前句的历史事例，得出波兰革命者已与国际无产阶级运动同步的结论。"
+        },
+        "implication": "波兰的民族解放斗争与国际无产阶级革命具有内在一致性。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "认为波兰运动是贵族性质运动的论调",
+      "their_view": "波兰的民族运动主要由贵族领导，其性质是贵族性质的，而非人民的或革命的。",
+      "author_response": "恩格斯通过指出波兰面临的历史抉择、运动本身的土地革命内容，以及波兰流亡者在巴黎公社中的革命表现，来驳斥这种说法。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p26s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p26s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p26s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p26s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p26s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p26s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p26s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p26s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "俾斯麦",
+            "type": "person",
+            "modern": "时任普鲁士王国首相，德意志帝国首任宰相。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "波兹南",
+            "type": "place",
+            "modern": "当时属普鲁士统治下的波兰地区。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p26s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p26s10",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p26s11",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 5,
+        "hs_kept": 1,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

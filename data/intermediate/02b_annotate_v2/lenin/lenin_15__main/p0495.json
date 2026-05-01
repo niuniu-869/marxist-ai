@@ -1,0 +1,97 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 495,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁批判考茨基将帝国主义视为一种可斗争的“政策”的观点，指出这种观点实质是宣传与帝国主义调和，是资产阶级改良主义。",
+    "importance_score": 3,
+    "importance_reason": "核心批判段落，直接揭露考茨基主义理论的实质及其与马克思主义的根本对立。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段对考茨基定义错误的指出，本段进一步揭示这种错误定义的实质后果和阶级本质。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p495s1",
+        "quote": "这种反驳好象很有道理，实际上却等于更巧妙更隐蔽地（因此是更危险地）宣传同帝国主义调和，因为同托拉斯和银行的政策“作斗争”而不触动托拉斯和银行的经济基础，那就不过是资产阶级的改良主义与和平主义，不过是一种善良而天真的愿望而已。",
+        "trigger": "inverted_logic",
+        "reader_block": "双重否定（“不触动…不过是…”）与反讽（“善良而天真的愿望”），读者可能误读为对“斗争”的肯定，实际是彻底否定。",
+        "parse": {
+          "claim": "考茨基那种只反对垄断组织政策、却不触动其经济基础的斗争主张，本质上是与帝国主义妥协。",
+          "qualifiers": "前提是这种斗争“不触动托拉斯和银行的经济基础”。",
+          "contrast_or_target": "考茨基认为可以与帝国主义的“政策”作斗争，而不必触动其经济基础。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "本句直接反驳考茨基的斗争策略，揭示其主张在客观上起到的宣传调和作用，为下文定性做铺垫。"
+        },
+        "implication": "任何不触及资本主义私有制和垄断经济基础的改良方案，都无法真正对抗帝国主义。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "考茨基",
+      "their_view": "帝国主义只是一种工业资本的政策，我们可以与之斗争，而不必触动托拉斯和银行的经济基础。",
+      "author_response": "列宁指出，这种只反对政策、不触动经济基础的斗争，实质是资产阶级改良主义，是与帝国主义调和，它回避了资本主义最根本的矛盾。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p495s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "帝国主义",
+            "type": "concept",
+            "modern": "列宁在此特指资本主义发展到垄断阶段的最高和最后阶段，其经济基础是金融资本和资本输出。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "imperialism_lenin"
+          }
+        ]
+      },
+      {
+        "sid": "p495s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p495s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 1,
+        "hs_kept": 1,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

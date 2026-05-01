@@ -1,0 +1,98 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 16,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段将“分工”这一经济范畴的解释力，从生产领域扩展到整个社会结构与国际关系层面。",
+    "importance_score": 2,
+    "importance_reason": "本段是马克思批判蒲鲁东分工观的关键过渡，将经济基础与上层建筑的关联具体化，为后续论证奠定基础。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对蒲鲁东忽视世界市场的批评，进一步指出分工的影响远不止于经济领域，而是塑造了整个社会形态。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p16s2",
+        "quote": "难道各族人民的整个内部组织、他们的一切国际关系不都是某种分工的表现吗？",
+        "trigger": "inverted_logic",
+        "reader_block": "双重否定加反问句式，读者可能误以为在质疑分工与社会结构的关系，实际在强调这种联系的必然性。",
+        "parse": {
+          "claim": "各民族的内部组织形式和国际关系，本质上都是社会分工在特定历史阶段的体现。",
+          "qualifiers": "在历史唯物主义的分析框架下，将社会结构视为经济基础的反映。",
+          "contrast_or_target": "蒲鲁东将分工视为孤立的、永恒的经济范畴，未能看到其与政治、法律等上层建筑的内在联系。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "此句通过反问，将蒲鲁东局限于经济领域的分工讨论，强行拉到社会整体结构层面，揭示其理论的片面性。"
+        },
+        "implication": "理解社会变迁必须从生产方式的变革入手，而非从抽象观念出发。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      },
+      {
+        "anchor": "p16s3",
+        "quote": "难道这一切不是一定要随着分工的改变而改变吗？",
+        "trigger": "inverted_logic",
+        "reader_block": "反问句式强调必然性，读者需理解其指向的是生产力发展驱动社会形态演变的规律。",
+        "parse": {
+          "claim": "社会结构与国际关系必然随着生产分工方式的演进而发生相应变革。",
+          "qualifiers": "强调“一定要”，即历史发展的客观必然性。",
+          "contrast_or_target": "蒲鲁东试图在保留资本主义分工框架内调和矛盾，否认社会形态根本变革的必要性。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "此句在前句基础上，进一步强调分工变化的决定性作用，直接反驳蒲鲁东改良主义的理论前提。"
+        },
+        "implication": "任何试图在旧有分工体系内寻求社会和谐的方案，都违背了历史发展的客观逻辑。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "蒲鲁东",
+      "their_view": "分工是一个抽象的、永恒的经济范畴，社会矛盾可以在现有分工体系内通过调和来解决，无需根本变革。",
+      "author_response": "分工是特定历史阶段生产力发展的产物，它决定了社会的全部结构和国际关系；分工方式的改变必然引起整个社会形态的变革。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p16s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p16s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "分工",
+            "type": "concept",
+            "modern": "马克思用此指特定历史阶段生产力发展的社会表现形式，是理解社会结构的关键。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "division_of_labor_marxist"
+          }
+        ]
+      },
+      {
+        "sid": "p16s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  }
+}

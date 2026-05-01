@@ -1,0 +1,165 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 16,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁引用鲍威尔的论述，阐明社会主义消除民族压迫的条件，并以此批评波兰同事偏离了马克思主义理论。",
+    "importance_score": 3,
+    "importance_reason": "核心论点段，系统阐述了马克思主义关于民族问题的理论，即社会主义是基础，但必须结合完全的民主才能实现民族平等。",
+    "argument_role": "continues",
+    "argument_link": "本段引用鲍威尔的具体论述，来支撑上一段提出的“社会主义需要政治条件”的论点，并进一步展开为完整的理论公式。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p16s1",
+        "speaker": "quoted_opponent",
+        "stance": "endorsed",
+        "notes": []
+      },
+      {
+        "sid": "p16s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "消灭阶级",
+            "type": "concept",
+            "modern": "马克思主义的核心目标，指通过革命废除生产资料私有制，从而消除阶级对立。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "class_abolition"
+          }
+        ]
+      },
+      {
+        "sid": "p16s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p16s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "民族压迫",
+            "type": "concept",
+            "modern": "一个民族对另一个民族在政治、经济、文化上的支配和奴役。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "national_oppression"
+          }
+        ]
+      },
+      {
+        "sid": "p16s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "无产阶级",
+            "type": "concept",
+            "modern": "现代工业社会中不占有生产资料、靠出卖劳动力为生的阶级。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "proletariat"
+          }
+        ]
+      },
+      {
+        "sid": "p16s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p16s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "民主",
+            "type": "concept",
+            "modern": "此处特指无产阶级民主，即绝大多数人享有的、对少数剥削者的专政。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "democracy_proletarian"
+          }
+        ]
+      },
+      {
+        "sid": "p16s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "国家消亡",
+            "type": "concept",
+            "modern": "马克思主义理论中，当阶级消失后，作为阶级压迫工具的国家将逐渐失去作用而自行消亡。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "state_withering"
+          }
+        ]
+      },
+      {
+        "sid": "p16s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "马克思主义",
+            "type": "concept",
+            "modern": "由马克思和恩格斯创立的关于无产阶级和人类解放的科学理论体系。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "marxism"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 6,
+        "notes_dropped": 2,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_6>5",
+        "note:n2_circular_prefix",
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

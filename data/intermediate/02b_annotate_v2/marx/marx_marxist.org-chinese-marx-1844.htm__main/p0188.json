@@ -1,0 +1,77 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 188,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "作者以简短评语，批判斯密国民经济学对工人处境的漠视，并讽刺其理论的偶然性。",
+    "importance_score": 1,
+    "importance_reason": "承接上段对资本积累的论述，是对国民经济学批判的延续，属于辅助性评价。",
+    "argument_role": "continues",
+    "argument_link": "上段描述资本积累与竞争减少的趋势，本段转而批判主导该趋势的国民经济学理论本身，指出其根本缺陷。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "斯密的国民经济学",
+        "explain": "亚当·斯密是古典政治经济学代表人物，其《国富论》系统阐述了劳动价值论与自由市场理论，是马克思批判的主要对象。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "“二十章彩票”比喻",
+        "explain": "斯密在《国富论》中将工资、利润、地租的变动比作彩票中奖，认为工人的命运如同彩票般偶然，取决于市场供需等不可控因素。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "斯密",
+      "their_view": "工人的工资和命运如同彩票中奖，由市场偶然因素决定，其理论体系将这种偶然性视为自然规律。",
+      "author_response": "这种理论将工人的生存状况归结为偶然，实质上是对工人作为人的根本处境的漠视与非人化。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p188s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p188s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "斯密",
+            "type": "person",
+            "modern": "亚当·斯密，18世纪苏格兰哲学家、经济学家，古典政治经济学奠基人。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "二十章彩票",
+            "type": "metaphor",
+            "modern": "出自斯密《国富论》第一卷第八章，用彩票比喻工资、利润、地租的分配具有偶然性。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      }
+    ]
+  }
+}

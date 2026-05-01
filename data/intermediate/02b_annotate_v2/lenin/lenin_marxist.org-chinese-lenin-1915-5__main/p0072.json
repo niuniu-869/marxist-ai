@@ -1,0 +1,75 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 72,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁逐条驳斥考茨基为战争性质辩护的三个论点，指出其论证是为统治阶级的欺骗行为开脱。",
+    "importance_score": 2,
+    "importance_reason": "本段是列宁对考茨基核心论点的直接反驳，构成全文批判社会沙文主义理论基础的关键环节。",
+    "argument_role": "contrasts",
+    "argument_link": "本段直接承接上段对考茨基“祸首论”和民族问题论点的引用，逐句进行反驳。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "考茨基",
+      "their_view": "当前战争因俄国民主化可能激发东欧民族解放愿望、沙皇崩溃可能导致奥地利瓦解，而具有民族解放成分，不是纯粹的帝国主义战争。",
+      "author_response": "列宁指出，无论战争结果如何，许多民族都将遭受奴役，考茨基的论证是为统治阶级用民族目的的童话欺骗民众的行为提供理论掩护。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p72s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p72s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p72s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p72s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 3,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_archaic_5>4",
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

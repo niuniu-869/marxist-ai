@@ -1,0 +1,108 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 6,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁引用克劳塞维茨的名言，论证战争与政治不可分割，以此反驳将战争视为孤立事件的庸俗观点。",
+    "importance_score": 3,
+    "importance_reason": "本段提出核心理论工具（战争是政治的继续），为全文分析第一次世界大战的性质奠定基础。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于马克思主义战争观基本问题的论述，引入克劳塞维茨的理论作为分析战争性质的方法论依据。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "term_density",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "克劳塞维茨及其战争观",
+        "explain": "卡尔·冯·克劳塞维茨是19世纪初普鲁士军事理论家，其著作《战争论》影响深远。他提出的“战争是政治的继续”这一命题，被列宁视为分析战争阶级本质的科学工具。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p6s1",
+        "quote": "大家知道，一位非常有名的战争哲学和战争史的著作家克劳塞维茨说过一句名言：“战争是政治通过另一种手段的继续。”",
+        "trigger": "term_density",
+        "reader_block": "“另一种手段”具体指什么？读者可能不理解这句话如何将战争与政治联系起来，以及它为何能成为分析工具。",
+        "parse": {
+          "claim": "战争并非独立事件，而是国家或阶级政治意图在和平手段失效后，转而采用暴力形式的延伸。",
+          "qualifiers": "此论断适用于一切战争，是克劳塞维茨从拿破仑战争史中总结的哲学教训。",
+          "contrast_or_target": "针对将战争视为偶然破坏和平、与政府和阶级政治无关的庸俗观点。"
+        },
+        "why": {
+          "relation": "definition",
+          "explanation": "本句为全文核心分析工具下定义，确立了从政治（即阶级统治）角度理解战争性质的方法论前提。"
+        },
+        "implication": "要理解任何战争，必须考察其背后的政治目的和阶级利益，而非仅看军事行动本身。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "战争脱离政治的观点",
+      "their_view": "战争可以同有关政府、有关阶级的政治分开，某个时候可以把战争看成是一种破坏和平的单纯的进攻，接着又是恢复这种被破坏的和平。",
+      "author_response": "列宁指出，这种观点是庸俗无知的，早在几十年前就已被历史分析所驳倒，它掩盖了战争的阶级根源。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p6s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "克劳塞维茨",
+            "type": "person",
+            "modern": "19世纪初普鲁士军事理论家，其著作《战争论》对战争与政治关系有系统阐述。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p6s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p6s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "庸俗无知的偏见",
+            "type": "slogan",
+            "modern": "列宁用来指代将战争与政治割裂开的错误看法。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p6s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p6s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  }
+}

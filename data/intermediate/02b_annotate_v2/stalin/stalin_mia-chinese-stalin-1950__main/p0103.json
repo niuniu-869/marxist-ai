@@ -1,0 +1,71 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 103,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "斯大林直接批判马尔将语言归为上层建筑的理论，指出这一错误定义阻碍了苏联语言学的发展。",
+    "importance_score": 3,
+    "importance_reason": "核心批判段落，直接针对并否定“语言上层建筑论”这一论战目标。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对马尔学生坚持错误理论的批评，直接点明马尔理论的核心错误及其后果。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "尼·雅·马尔",
+      "their_view": "马尔认为语言属于上层建筑，会随着经济基础的改变而改变。",
+      "author_response": "斯大林指出这一观点是非马克思主义的，它混淆了语言与上层建筑的本质区别，导致理论混乱。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p103s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "上层建筑",
+            "type": "concept",
+            "modern": "在马克思主义理论中，指建立在经济基础之上的政治、法律、宗教、艺术等意识形态及相应的制度。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "superstructure_marxist"
+          }
+        ]
+      },
+      {
+        "sid": "p103s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

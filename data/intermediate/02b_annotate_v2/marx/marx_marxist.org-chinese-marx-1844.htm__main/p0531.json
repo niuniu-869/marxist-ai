@@ -1,0 +1,112 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 531,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "马克思以讽刺笔法，集中抨击青年黑格尔派（批判的批判）在哲学上的空洞、傲慢及其对黑格尔辩证法和费尔巴哈新哲学的彻底无知。",
+    "importance_score": 2,
+    "importance_reason": "本段是马克思清算青年黑格尔派唯心主义哲学的关键段落，展现了他从哲学批判转向政治经济学批判的思想转折点。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对鲍威尔等人回避黑格尔辩证法问题的批评，本段将批判范围扩大到整个青年黑格尔派运动，指出其在费尔巴哈已完成哲学革命后仍沉溺于唯心主义幻想。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "费尔巴哈的哲学著作",
+        "explain": "《纲要》（后收入《轶文集》）和《未来哲学》是费尔巴哈阐述其人本学唯物主义的核心文本。马克思认为费尔巴哈通过这两部著作，已从根本上颠覆了黑格尔的唯心主义辩证法体系。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "青年黑格尔派（批判的批判）",
+      "their_view": "我们（批判的批判）是纯粹的、绝对的、洞察一切的批判力量；历史运动就是我们与“群众”的对立；我们高于普通人的感觉和世界；我们终将对堕落的人类进行末日审判，宣告他们的精神贫困。",
+      "author_response": "马克思指出，这种唯心主义批判在费尔巴哈完成哲学革命后仍沉溺于自我神化，其全部动作都是“滑稽可笑”的，它既未与黑格尔辩证法划清界限，也未对费尔巴哈的唯物主义辩证法表明批判态度，因此是“对自身持完全非批判的态度”。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p531s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p531s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "批判",
+            "type": "concept",
+            "modern": "此处特指青年黑格尔派（以鲍威尔兄弟为代表）所标榜的哲学批判活动，他们自称是超越现实的纯粹精神力量。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "critique_young_hegelian"
+          },
+          {
+            "surface": "唯灵论",
+            "type": "concept",
+            "modern": "一种将精神、意识置于物质世界之上的哲学立场，马克思用以形容青年黑格尔派脱离物质现实的唯心主义倾向。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "spiritualism_philosophical"
+          },
+          {
+            "surface": "奥林帕斯诸神",
+            "type": "metaphor",
+            "modern": "源自希腊神话，众神居住的山。马克思用此讽刺青年黑格尔派自视高高在上、俯视凡人的傲慢姿态。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          },
+          {
+            "surface": "末日审判",
+            "type": "metaphor",
+            "modern": "源自基督教圣经，指世界终局时上帝对所有人的最终审判。马克思用此讽刺青年黑格尔派幻想自己扮演上帝角色，对“群众”进行精神裁决。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          },
+          {
+            "surface": "贫困证明书",
+            "type": "metaphor",
+            "modern": "马克思创造的讽刺性说法，指青年黑格尔派在幻想的“末日审判”中发给每个“堕落人类”的精神缺陷证明，用以揭露其对群众的蔑视。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 5,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

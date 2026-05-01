@@ -1,0 +1,117 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 22,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "论证欧洲革命形势已存在，并批判库诺、普列汉诺夫、考茨基等人否认或回避此事实的行为。",
+    "importance_score": 2,
+    "importance_reason": "本段是作者论证革命形势已存在的核心段落，并直接点名批判主要论敌。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对战争期间社会矛盾激化的描述，本段得出革命形势已存在的结论，并转向对否认者的批判。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "库诺、普列汉诺夫、考茨基",
+      "their_view": "革命形势并未出现，否认或回避这一事实。",
+      "author_response": "这是撒谎，欺骗工人阶级，为资产阶级效劳。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p22s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p22s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "革命形势",
+            "type": "concept",
+            "modern": "在马克思主义语境中，指社会矛盾激化到统治阶级无法照旧统治、被统治阶级无法照旧生活下去的时期。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "revolutionary_situation"
+          }
+        ]
+      },
+      {
+        "sid": "p22s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "巴塞尔宣言",
+            "type": "work",
+            "modern": "1912年第二国际巴塞尔代表大会通过的反战宣言，预见了帝国主义战争可能引发革命。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p22s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "工人阶级",
+            "type": "concept",
+            "modern": "马克思主义理论中与生产资料相分离、靠出卖劳动力为生的阶级。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "proletariat"
+          },
+          {
+            "surface": "资产阶级",
+            "type": "concept",
+            "modern": "占有生产资料、雇佣劳动力的阶级。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "bourgeoisie"
+          }
+        ]
+      },
+      {
+        "sid": "p22s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 4,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_5gram_with_surface"
+      ]
+    }
+  ]
+}

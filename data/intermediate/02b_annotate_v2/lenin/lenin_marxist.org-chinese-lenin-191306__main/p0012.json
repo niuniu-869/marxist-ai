@@ -1,0 +1,73 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 12,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段号召持续斗争，反对黑帮十月党人和自由资产阶级党派袒护民族压迫、否认民族自决权的言行。",
+    "importance_score": 2,
+    "importance_reason": "本段明确列宁的斗争对象，是民族纲领中批判部分的具体化。",
+    "argument_role": "continues",
+    "argument_link": "上段提出民族自决权的民主程序，本段转向识别并反对那些否认这一权利的国内政治势力。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_density",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "沙皇俄国右翼与自由派政党",
+        "explain": "黑帮十月党人是支持沙皇专制的极端保守派；进步党人和立宪民主党人是自由资产阶级政党，主张有限改革但维护现有秩序。",
+        "why_needed": "history_density",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "黑帮十月党人和自由资产阶级党派",
+      "their_view": "他们袒护和纵容民族压迫，否认民族自决权。",
+      "author_response": "列宁号召同这些势力进行持续斗争，反对他们的言论。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p12s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "黑帮十月党人",
+            "type": "org",
+            "modern": "支持沙皇专制的极端保守政党",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "立宪民主党人",
+            "type": "org",
+            "modern": "主张君主立宪的自由主义政党",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "民族自决权",
+            "type": "concept",
+            "modern": "各民族有权自主决定其政治地位",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "self_determination_nation"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 165,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段假定被机器排挤的工人能找到新工作，但质疑其报酬是否与旧工作相同，并基于产业趋势否定这种可能性。",
+    "importance_score": 2,
+    "importance_reason": "本段通过反驳新工作报酬不变的假设，揭示机器排挤对工人的实际剥削，支撑核心论点。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对资产阶级辩护的批判，进一步假设工人找到新工作，但指出报酬会降低，从而揭露其辩护的虚伪。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "古典政治经济学",
+      "their_view": "工人被机器排挤后总能找到新工作，且新工作的报酬与旧工作相同。",
+      "author_response": "马克思指出，如果报酬相同就违反经济规律，因为现代产业趋势是用简单低级工作代替复杂高级工作。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p165s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p165s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p165s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p165s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

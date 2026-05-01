@@ -1,0 +1,97 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 21,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁论证自然科学家应自觉成为辩证唯物主义者，并要求杂志组织对黑格尔辩证法的研究，以东方新兴阶级的觉醒作为马克思主义正确性的证明。",
+    "importance_score": 3,
+    "importance_reason": "提出对自然科学界和杂志工作的核心要求，并将理论正确性与世界历史进程相联系，是全文的论点核心之一。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段关于与自然科学家结盟的必要性，进一步提出结盟的具体思想基础和杂志的理论任务。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "cross_ref_pronoun",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "“此类现象”所指",
+        "explain": "指上一段讨论的自然科学革命时期，反动哲学学派（如经验批判主义）容易产生并影响科学家的现象。",
+        "why_needed": "cross_ref_pronoun",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      },
+      {
+        "topic": "黑格尔辩证法与马克思",
+        "explain": "黑格尔的辩证法是唯心主义的，马克思对其进行了唯物主义改造，应用于分析资本主义社会，核心著作是《资本论》。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p21s4",
+        "quote": "马克思把这个辩证法运用得非常成功，现在东方(日本、印度、中国)的新兴阶级，即占世界人口大多数但因其历史上无所作为和历史上沉睡不醒而使欧洲许多先进国家至今仍处于停滞和腐朽状态的数亿人民日益觉醒奋起斗争的事实，",
+        "trigger": "long_nested",
+        "reader_block": "句子极长，包含多个插入语和修饰成分，核心论断被“即……”引导的同位语从句隔开，读者容易迷失主干。",
+        "parse": {
+          "claim": "东方数亿人民的觉醒与斗争，这一事实本身正在证明马克思主义的正确性。",
+          "qualifiers": "此事实特指日本、印度、中国等东方国家的新兴阶级；这些人民曾因历史原因而沉睡，其觉醒是当前正在发生的进程。",
+          "contrast_or_target": ""
+        },
+        "why": {
+          "relation": "example",
+          "explanation": "用东方被压迫民族和阶级觉醒这一具体、宏大的历史事实，作为前文“马克思辩证法运用成功”以及马克思主义理论具有普遍正确性的有力例证。"
+        },
+        "implication": "马克思主义的真理性不仅由欧洲工人运动证明，也由世界范围内被压迫民族的解放斗争所印证。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p21s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p21s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p21s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p21s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p21s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  }
+}

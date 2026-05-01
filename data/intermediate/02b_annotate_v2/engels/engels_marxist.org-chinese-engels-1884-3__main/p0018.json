@@ -1,0 +1,132 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 18,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段批判麦克伦南虚构的外婚制与内婚制部落对立理论，指出其理论基础是想象的产物，且麦克伦南本人的研究已发现反面证据。",
+    "importance_score": 2,
+    "importance_reason": "本段是恩格斯系统批判麦克伦南错误理论的关键环节，为后文阐述家庭形式的真实历史演变扫清障碍。",
+    "argument_role": "contrasts",
+    "argument_link": "承接上段对巴霍芬的介绍，转而批判其后继者麦克伦南，指出后者理论与前者截然不同且存在根本缺陷。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "rhetorical_omission",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "麦克伦南的婚姻理论",
+        "explain": "19世纪法学家麦克伦南提出，原始社会存在禁止内部通婚的“外婚制部落”和只允许内部通婚的“内婚制部落”的僵硬对立，并认为“抢劫婚姻”是外婚制部落获取妻子的普遍方式。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p18s11",
+        "quote": "虽然他自己对外婚制的研究使他迎面就碰到这样一件事实，即这种对立如果不是在大多数场合，以至一切场合，那么在许多场合都只是存在于他的想象中，可是他仍然把这种对立作为他的整个理论的基础。",
+        "trigger": "rhetorical_omission",
+        "reader_block": "句子以“虽然”开头，但让步的前提（麦克伦南自己的研究发现了反例）被压缩在从句中，读者可能忽略这个关键让步，直接跳到结论。",
+        "parse": {
+          "claim": "麦克伦南的外婚制研究本身揭示了其核心理论（外婚制与内婚制部落的对立）在许多情况下并不成立。",
+          "qualifiers": "这种对立的不成立程度，至少在许多场合，甚至可能在大多数或一切场合。",
+          "contrast_or_target": "麦克伦南坚持认为外婚制部落与内婚制部落存在普遍、僵硬的对立。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "本句揭露麦克伦南理论的内在矛盾：他自己的研究证据与他赖以建立理论的基础相冲突，但他无视这些证据，强行坚持其虚构的对立。"
+        },
+        "implication": "这表明麦克伦南的理论构建是先有结论再找证据，而非基于事实的科学归纳。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "约·弗·麦克伦南",
+      "their_view": "原始社会普遍存在外婚制部落与内婚制部落的僵硬对立；“抢劫婚姻”是外婚制部落从其他部落获取妻子的普遍方式。",
+      "author_response": "麦克伦南虚构了这种对立，其理论基础是想象的产物；他本人的研究已发现这种对立在许多场合并不成立，但他仍将其作为理论基石。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p18s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p18s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p18s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p18s4",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p18s5",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p18s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p18s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p18s8",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p18s9",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p18s10",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p18s11",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p18s12",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 120,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁指出齐赫泽号召书中的错误，并引用斯柯别列夫关于俄国处于第二次革命前夜的言论，以突显其矛盾。",
+    "importance_score": 2,
+    "importance_reason": "本段具体批评孟什维克领袖的言论，支撑对孟什维克策略的批判。",
+    "argument_role": "continues",
+    "argument_link": "本段承接上段对孟什维克参与临时政府要求的批评，具体指出齐赫泽号召书的错误，并引用斯柯别列夫的话来揭示矛盾。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p120s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "齐赫泽",
+            "type": "person",
+            "modern": "孟什维克领袖，当时担任彼得格勒苏维埃主席。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "斯柯别列夫",
+            "type": "person",
+            "modern": "孟什维克政治家，齐赫泽的同道者。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

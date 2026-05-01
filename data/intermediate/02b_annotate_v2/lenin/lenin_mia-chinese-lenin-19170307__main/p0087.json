@@ -1,0 +1,56 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 87,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "转述并批判一种将国家机构与阶级代表对立起来的观点。",
+    "importance_score": 2,
+    "importance_reason": "通过转述论敌观点来揭示其错误，为后续论证做铺垫。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于内战的讨论，转述并批判对立观点。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "all_known",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "refute_quotation"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "转述的论敌观点",
+      "their_view": "杜马临时委员会代表整个国家，而工人代表苏维埃只代表纯粹的阶级利益。",
+      "author_response": "这种说法是外交辞令，用学术名词掩盖了苏维埃代表无产阶级和贫民即十分之九居民的事实。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p87s1",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 2,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

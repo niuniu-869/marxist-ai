@@ -1,0 +1,95 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 7,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "作者通过连续反问，论证其先前关于德国侵略战争将招致更严重国内压迫的预言已被证实。",
+    "importance_score": 2,
+    "importance_reason": "作为《内战》正文的开篇，本段承接前言，用反问句式为全文批判德国统治阶级奠定基调。",
+    "argument_role": "continues",
+    "argument_link": "承接前言中关于《内战》与两篇宣言关系的说明，直接引用第一篇宣言的预言并宣称其已被证实。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "第一篇宣言",
+        "explain": "指马克思于1870年9月为国际工人协会总委员会撰写的关于普法战争的第一篇宣言，其中预言了德国若将战争变为掠夺将自食其果。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "路易·波拿巴",
+        "explain": "即拿破仑三世，法兰西第二帝国皇帝，1870年在普法战争中战败被俘。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "俾斯麦与非常法",
+        "explain": "俾斯麦是普鲁士（后为德意志帝国）首相。非常法（1878-1890）是其为镇压工人运动、特别是社会党而颁布的特别法令。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p7s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p7s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p7s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p7s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

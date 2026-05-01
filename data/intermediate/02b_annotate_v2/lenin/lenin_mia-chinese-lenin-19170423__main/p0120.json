@@ -1,0 +1,97 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 120,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁用颜色比喻给立宪民主党定性，揭示其为资本服务的阶级本质。",
+    "importance_score": 2,
+    "importance_reason": "对主要论敌立宪民主党进行阶级定性，是论证其反动性的关键环节。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段对更右翼“黑色”政党的分析，转向分析立宪民主党，构成对俄国主要政党光谱的完整批判。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "allusion",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "“黄色”与“国际旗帜”",
+        "explain": "在20世纪初的国际工人运动中，“黄色”常被用来指代机会主义、改良主义或与资产阶级妥协的派别。“国际旗帜”则暗指第二国际（社会党国际）的旗号，列宁认为该组织已背叛国际主义原则。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p120s2",
+        "quote": "黄色，因为这是一些真心实意为资本效劳的工人的国际旗帜。",
+        "trigger": "allusion",
+        "reader_block": "“黄色”和“国际旗帜”是特定历史语境下的比喻，读者若不了解第二国际的分裂与“黄色”标签的由来，会难以理解其讽刺与批判含义。",
+        "parse": {
+          "claim": "立宪民主党是机会主义的代表，他们打着国际社会主义运动的旗号，实质上服务于资本的利益。",
+          "qualifiers": "此判断针对立宪民主党在俄国政治光谱中的定位。",
+          "contrast_or_target": "立宪民主党自视为民主、进步的政党，主张议会制共和国。"
+        },
+        "why": {
+          "relation": "definition",
+          "explanation": "本句为上句的“黄色”标签提供具体解释，通过“为资本效劳”和“国际旗帜”两个层面，定义立宪民主党的阶级属性和政治伪装。"
+        },
+        "implication": "列宁以此论证，立宪民主党并非真正的民主力量，而是资产阶级在工人运动中的代理人。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "立宪民主党",
+      "their_view": "我们是民主的捍卫者，主张建立议会制共和国，代表全体人民的利益，支持国家的防御。",
+      "author_response": "列宁指出，立宪民主党的民主主张是虚伪的，其政策实质是维护资本家和地主的利益，其“护国”立场是为帝国主义战争服务。",
+      "polemic_kind": "reveals_class_basis",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p120s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p120s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "黄色",
+            "type": "metaphor",
+            "modern": "在国际工人运动语境中，特指机会主义、改良主义或与资产阶级妥协的政治派别。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 1,
+        "hs_kept": 1,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

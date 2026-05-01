@@ -1,0 +1,114 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 39,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "作者宣布与拒绝将哲学理论付诸实践的德国哲学家开战，并列举己方对鲍威尔和施蒂纳的理论批判。",
+    "importance_score": 2,
+    "importance_reason": "本段是核心批判的一部分，直接点明了论战对象和己方行动，将理论斗争与共产主义实践联系起来。",
+    "argument_role": "contrasts",
+    "argument_link": "上一段列举了共产主义宣传的广泛成果，本段则转向理论战线，指出与之对立的哲学思潮并宣告论战。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "布鲁诺·鲍威尔和施蒂纳",
+      "their_view": "哲学家应专注于纯粹理论和形而上学思辨，无需从理论中得出实际结论或采取政治行动。",
+      "author_response": "作者宣布与他们开战，并指出他们代表了抽象哲学的最终结论，是哲学上反对共产主义的关键人物。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p39s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "纯粹理论",
+            "type": "concept",
+            "modern": "在19世纪德国哲学语境下，特指脱离现实社会政治实践的思辨哲学体系。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "theory_pure"
+          }
+        ]
+      },
+      {
+        "sid": "p39s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "布鲁诺·鲍威尔",
+            "type": "person",
+            "modern": "青年黑格尔派哲学家，主张“自我意识”哲学，反对将哲学应用于政治和社会变革。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p39s3",
+        "speaker": "editor",
+        "stance": "neutral_citation",
+        "notes": []
+      },
+      {
+        "sid": "p39s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p39s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "社会主义",
+            "type": "concept",
+            "modern": "在1840年代的德国，该词常被用来泛指各种模糊的社会改良幻想，与作者所主张的科学共产主义不同。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "socialism_german_1840s"
+          }
+        ]
+      },
+      {
+        "sid": "p39s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 3,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

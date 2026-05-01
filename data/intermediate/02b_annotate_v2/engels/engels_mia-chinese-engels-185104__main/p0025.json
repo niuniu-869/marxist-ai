@@ -1,0 +1,66 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 25,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "作者提出一个假设性问题：如果发生新的阶级革命，它是否会像法国大革命那样催生军事革新，从而使当前的拿破仑军事体系变得过时。",
+    "importance_score": 2,
+    "importance_reason": "本段在论证链中提出一个关键的开放性问题，为后续分析新革命可能带来的军事影响设定讨论框架。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于双方军事力量均势的结论，转而探讨未来革命可能打破这种均势的潜在机制。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "七年战争与拿破仑体系",
+        "explain": "七年战争（1756-1763）是欧洲列强间的大规模冲突，其军事体系以线性战术和雇佣兵为特征。拿破仑体系则指拿破仑战争时期（约1803-1815）形成的、以大规模征兵、军团机动和决战为特点的军事组织与战术。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p25s1",
+        "quote": "但是，使一个完全新的阶级得到统治的新的革命，是否会和第一次革命一样，创造出新的兵器和新的作战体系，而现在的拿破仑的体系与之相比就如同七年战争时代的体系与第一次革命时代的体系相比是同样过时和同样无用的呢？",
+        "trigger": "inverted_logic",
+        "reader_block": "这是一个包含双重历史类比的反问句，读者需要知道七年战争、法国大革命和拿破仑战争这三个历史时期的军事体系差异，才能理解作者的比较逻辑。",
+        "parse": {
+          "claim": "如果发生由新阶级主导的革命，它可能像法国大革命那样催生军事革新，使得当前的拿破仑军事体系变得过时，就像七年战争体系在法国大革命面前过时一样。",
+          "qualifiers": "前提是这场革命是“使一个完全新的阶级得到统治的新的革命”，并且其军事影响能与第一次革命（法国大革命）相提并论。",
+          "contrast_or_target": ""
+        },
+        "why": {
+          "relation": "continues",
+          "explanation": "本句在上段关于当前军事力量对比的分析基础上，引入一个历史类比，将讨论从静态的现状对比推向动态的、由革命驱动的军事变革可能性。"
+        },
+        "implication": "作者暗示，如果无产阶级革命爆发，其军事影响可能远超当前所有军事专家的预期，彻底改变战争面貌。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p25s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  }
+}

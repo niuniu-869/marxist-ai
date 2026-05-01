@@ -1,0 +1,120 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 7,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁以反讽手法，通过列举具体事实，揭露沙皇政府所谓“毫无私心”的殖民侵略本质。",
+    "importance_score": 2,
+    "importance_reason": "通过具体事例揭露沙皇政府殖民政策的虚伪性，支撑全文对侵略战争的批判。",
+    "argument_role": "continues",
+    "argument_link": "本段承接上段对殖民掠夺的揭露，通过具体事例（侵占旅顺口、满洲、修筑铁路）进一步证明沙皇政府的侵略行为。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p7s2",
+        "quote": "它简直像基督教徒那样毫无私心，人们竟冤枉了它，简直太不公平了！",
+        "trigger": "inverted_logic",
+        "reader_block": "反讽句式，将沙皇政府比作“基督教徒”，读者可能误读为正面评价。",
+        "parse": {
+          "claim": "沙皇政府被描绘为无私的，但这种描绘是虚假的。",
+          "qualifiers": "无。",
+          "contrast_or_target": "沙皇政府宣称其对华行动是“毫无私心”的，是为了传播文明。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "本句以反讽口吻模仿沙皇政府的自我辩护，为下文列举其侵略事实做铺垫，直接针对其官方说辞。"
+        },
+        "implication": "作者通过反讽，暗示沙皇政府的行为与基督教的无私精神完全相反。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      },
+      {
+        "anchor": "p7s4",
+        "quote": "在修筑中东铁路时，每天只付给中国人十戈比的生活费，这难道还不是俄国毫无私心地表现吗？",
+        "trigger": "inverted_logic",
+        "reader_block": "反问句式，用具体数字（十戈比）反讽，读者需要理解这是在揭露剥削而非赞扬。",
+        "parse": {
+          "claim": "俄国在修筑铁路时支付给中国工人的生活费极低，这被反讽地称为“毫无私心”。",
+          "qualifiers": "限定在修筑中东铁路期间。",
+          "contrast_or_target": "沙皇政府宣称其行为是“毫无私心”的。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "本句用一个具体的剥削细节（极低工资）作为例证，通过反问句式强化反讽效果，直接驳斥“毫无私心”的谎言。"
+        },
+        "implication": "极低的工资是殖民剥削的直接证据，与“无私”的宣称形成尖锐对比。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "沙皇政府",
+      "their_view": "沙皇政府宣称其对华行动是“毫无私心”的，是为了传播文明。",
+      "author_response": "列宁通过列举侵占事实和剥削细节，揭露这种说辞的虚伪性。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p7s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p7s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p7s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "旅顺口",
+            "type": "place",
+            "modern": "1898年俄国强租的中国军港，是其远东扩张的关键据点。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "满洲",
+            "type": "place",
+            "modern": "中国东北地区，1900年八国联军侵华期间被俄国出兵占领。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p7s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "十戈比",
+            "type": "event",
+            "modern": "俄国货币单位，此处指极低的日工资，用以说明剥削程度。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      }
+    ]
+  }
+}

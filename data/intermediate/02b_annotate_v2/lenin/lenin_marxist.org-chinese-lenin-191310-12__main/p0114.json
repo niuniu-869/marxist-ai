@@ -1,0 +1,74 @@
+{
+  "_prompt_version": "marxist-v0.2-2026-04-30-scaffolding",
+  "n": 114,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁回应李普曼对其使用瑞士例子的质疑，并指出李普曼重复了一个常见的、用以反对马克思主义民族纲领的错误论点。",
+    "importance_score": 1,
+    "importance_reason": "本段是论证中的过渡环节，承接上文对瑞士例子的解释，并引出对下一个常见反对意见的分析。",
+    "argument_role": "continues",
+    "argument_link": "本段承接上文对瑞士联邦制例子的解释，直接回应李普曼的质疑，并为分析其引文中包含的另一个常见反对意见做铺垫。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "refute_quotation"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "弗·李普曼",
+      "their_view": "以俄国民族杂居的现实为例，质疑列宁为何举瑞士作例子来讨论民族问题，认为这与其反对联邦制的立场矛盾。",
+      "author_response": "重申前文已解释过举瑞士为例的原因，并指出李普曼的质疑中还包含了一个更普遍的、用以反对马克思主义民族纲领的错误论点，值得专门分析。"
+    },
+    "sentences": [
+      {
+        "sid": "p114s1",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": [
+          {
+            "surface": "弗·伊·",
+            "type": "person",
+            "modern": "弗拉基米尔·伊里奇·列宁",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p114s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p114s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_10>5"
+      ]
+    }
+  ]
+}

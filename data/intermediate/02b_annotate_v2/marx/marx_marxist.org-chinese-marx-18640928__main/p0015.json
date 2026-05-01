@@ -1,0 +1,117 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 15,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "引用官方报告数据，揭露资本主义生产条件下工人健康与儿童死亡率的反常现象，讽刺官方统计的荒谬性。",
+    "importance_score": 2,
+    "importance_reason": "通过官方数据的具体例证，支撑前文关于工人阶级贫困状况的论断，并为后文批判资产阶级政治经济学提供事实基础。",
+    "argument_role": "example",
+    "argument_link": "承接上段关于工人阶级退化状况的描述，用官方报告中的具体案例（面包房工人、兰开夏郡棉纺工人）来例证资本主义生产对工人健康的摧残。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "棉荒",
+        "explain": "指1860年代初因美国内战导致的棉花供应危机，严重冲击了英国兰开夏郡的棉纺织业，造成大量工人失业。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "鸦片药水",
+        "explain": "19世纪英国工人阶级家庭常用的一种含鸦片的婴儿镇静剂，用于让哭闹的婴儿入睡，常导致婴儿健康受损甚至死亡。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "资产阶级政治经济学及其官方代言人（工厂视察员）",
+      "their_view": "供求规律的盲目统治是自然的、不可改变的；工人健康状况的改善是资本主义制度下的自然结果。",
+      "author_response": "马克思通过引用官方数据本身，揭露其结论的荒谬性：工人健康改善恰恰是因为他们脱离了资本主义生产，这证明了资本主义生产本身才是损害工人健康的根源。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p15s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "蓝皮书",
+            "type": "work",
+            "modern": "英国议会官方调查报告的俗称，因封面为蓝色而得名，被视为具有权威性的事实依据。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p15s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "工厂视察员",
+            "type": "social_group",
+            "modern": "英国政府任命的、负责监督工厂法执行情况的官员，其报告代表官方立场。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p15s3",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": [
+          {
+            "surface": "棉荒",
+            "type": "event",
+            "modern": "1860-1865年间因美国内战导致的棉花供应危机，重创英国兰开夏郡的棉纺织业。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p15s4",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 3,
+        "notes_dropped": 2,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_5gram_with_surface",
+        "note:n2_circular_prefix",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

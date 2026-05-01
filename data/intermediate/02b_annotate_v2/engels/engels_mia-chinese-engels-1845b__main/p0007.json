@@ -1,0 +1,366 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 7,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "叙述1842年英国工人起义的经过，揭示工业资产阶级如何利用工人运动推动废除谷物法，又在工人提出自身诉求后背叛并镇压他们。",
+    "importance_score": 3,
+    "importance_reason": "核心段落，通过具体历史事件（1842年起义）的详细过程，论证工业资产阶级的虚伪性与阶级立场，是全文批判的核心例证。",
+    "argument_role": "example",
+    "argument_link": "承接上段对工业资产阶级煽动性声明的引用，本段用1842年起义的具体史实，展示其策略的实际操作与最终背叛。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_density",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "1842年英国工人起义",
+        "explain": "1842年夏，英国多地工人因工资下降和生活困苦发动大规模罢工和停工，史称“塞文谷暴动”或“1842年宪章派起义”。这是宪章运动的高潮之一，但最终被镇压。",
+        "why_needed": "history_density",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "反谷物法同盟",
+        "explain": "1838年由工业资产阶级成立的组织，旨在废除限制谷物进口的《谷物法》，以降低粮价、压低工资、增强工业竞争力。其领袖如科布登、布莱特。",
+        "why_needed": "history_density",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "人民宪章",
+        "explain": "1838年宪章派提出的政治纲领，要求实现普选权等六项政治改革，核心是争取工人阶级的政治权利。它是当时英国工人运动的主要旗帜。",
+        "why_needed": "history_density",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p7s14",
+        "quote": "他们为了要用强力废除谷物法而把人民拖到起义中去，可是人民却很少想到这些谷物法。",
+        "trigger": "inverted_logic",
+        "reader_block": "“很少想到”是双重否定逻辑，读者可能误以为工人完全不关心谷物法，实际是强调工人有更迫切的自身诉求，而非资产阶级的贸易目标。",
+        "parse": {
+          "claim": "工业资产阶级试图利用工人起义来达到自己的政治经济目的，但工人阶级的实际斗争目标与资产阶级的目标并不一致。",
+          "qualifiers": "在1842年起义的具体情境下，工人的核心诉求是工资和宪章，而非谷物法。",
+          "contrast_or_target": "工业资产阶级认为工人会为废除谷物法而战，但工人实际为自身经济和政治权利而战。"
+        },
+        "why": {
+          "relation": "contrasts",
+          "explanation": "本句揭示了资产阶级策略的根本误判，与上文描述的资产阶级“企图把工人的注意力转到谷物法上”形成直接对比，点明了双方目标的错位。"
+        },
+        "implication": "这预示了资产阶级利用工人运动的策略必然失败，因为工人阶级有自己的阶级意识和独立诉求。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      },
+      {
+        "anchor": "p7s16",
+        "quote": "同盟发觉这一点以后，就立即掉转武器来反对自己的同盟者。",
+        "trigger": "inverted_logic",
+        "reader_block": "“掉转武器”是隐喻，读者可能困惑于“武器”指什么，以及为何“同盟者”会变成敌人。需要理解资产阶级与工人是临时、虚假的同盟。",
+        "parse": {
+          "claim": "当工业资产阶级发现工人运动的目标与自身不符时，他们立刻放弃了利用工人的策略，转而镇压工人。",
+          "qualifiers": "在起义发展过程中，当资产阶级意识到工人要求的是宪章和工资而非谷物法时。",
+          "contrast_or_target": "资产阶级此前将工人视为可利用的“同盟者”，此时则视其为必须镇压的敌人。"
+        },
+        "why": {
+          "relation": "example",
+          "explanation": "本句是资产阶级背叛行为的具体例证，支撑了前文关于资产阶级虚伪性的论断，并直接引出下文其组织特别警察镇压起义的行动。"
+        },
+        "implication": "这暴露了资产阶级与无产阶级之间联盟的暂时性和阶级利益的根本对立。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p7s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p7s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p7s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p7s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p7s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p7s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p7s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p7s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p7s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p7s10",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p7s11",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p7s12",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p7s13",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p7s14",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p7s15",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p7s16",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p7s17",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p7s18",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p7s19",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p7s20",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p7s21",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p7s22",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p7s23",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p7s24",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p7s25",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p7s26",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p7s27",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p7s28",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p7s29",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p7s30",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p7s31",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p7s32",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p7s33",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p7s34",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p7s35",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p7s36",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p7s37",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p7s38",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p7s39",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p7s40",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p7s41",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p7s42",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p7s43",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 2,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

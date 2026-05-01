@@ -1,0 +1,66 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 408,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段列出三个百分比数字，可能用于举例说明帝国主义时期的经济或殖民数据。",
+    "importance_score": 1,
+    "importance_reason": "提供具体数据支撑前文关于帝国主义扩张的举例，属于辅助性内容。",
+    "argument_role": "example",
+    "argument_link": "本段用具体百分比数据，延续上段对帝国主义在特定地区扩张的举例说明。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "text_anomaly",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "text_anomaly",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "数字数据异常",
+        "explain": "原文仅列出百分比数字，缺乏上下文，可能为排版错误或数据残留，读者需注意文本完整性。",
+        "why_needed": "text_anomaly",
+        "confidence": "medium",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p408s1",
+        "quote": "56.8% 98.9% +42.1%",
+        "trigger": "text_anomaly",
+        "reader_block": "数字序列无上下文，读者无法判断其指代的具体经济指标或地理区域。",
+        "parse": {
+          "claim": "这些数字表示比例和增长数据。",
+          "qualifiers": "",
+          "contrast_or_target": ""
+        },
+        "why": {
+          "relation": "none",
+          "explanation": ""
+        },
+        "implication": null,
+        "confidence": "low",
+        "source_basis": "inferred"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p408s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  }
+}

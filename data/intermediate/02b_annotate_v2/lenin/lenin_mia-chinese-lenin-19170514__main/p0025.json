@@ -1,0 +1,169 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 25,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段论证俄国革命的独特之处在于创造了独立于临时政府的苏维埃组织网络，这为革命力量战胜战争提供了可能。",
+    "importance_score": 2,
+    "importance_reason": "本段提出了苏维埃作为革命组织形式的核心论点，是列宁论证俄国革命特殊性与前进方向的关键支撑。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对“革命护国主义”的批判，转而分析俄国革命在组织层面产生的、不同于以往革命的新事物，即苏维埃。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p25s5",
+        "quote": "这个事实就是：除了由“准社会党人”部长们组成的政府而外，除了这个进行帝国主义战争的政府，实行进攻的政府，同英法资本勾结的政府而外，我们在全国范围内还有一个独立于这个政府之外的工兵农代表苏维埃网。",
+        "trigger": "long_nested",
+        "reader_block": "长句中连续用“除了……而外”排除临时政府的多重定语，再引出苏维埃网，读者容易迷失主干，不清楚“这个事实”具体指什么。",
+        "parse": {
+          "claim": "俄国存在两个并行的权力中心：一个是临时政府，另一个是遍布全国的苏维埃组织网络。",
+          "qualifiers": "临时政府被定性为由“准社会党人”部长组成、执行帝国主义政策并与英法资本勾结的政府。",
+          "contrast_or_target": "对比的是其他革命只产生一个新政府，而全国处于无组织状态的情况。"
+        },
+        "why": {
+          "relation": "example",
+          "explanation": "本句具体阐释了前一句“俄国革命前进了一步”的内涵，即革命创造了新的组织形式（苏维埃网），这是区别于以往革命的关键事实。"
+        },
+        "implication": "这个并存的权力结构意味着革命并未完成，苏维埃代表了另一种政治可能性。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p25s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p25s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p25s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p25s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p25s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "准社会党人",
+            "type": "concept",
+            "modern": "列宁用此词讽刺临时政府中那些名义上代表工人但实际执行资产阶级政策的部长，暗示其背叛了社会主义原则。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "social_chauvinism_related"
+          }
+        ]
+      },
+      {
+        "sid": "p25s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p25s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p25s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "兼并",
+            "type": "concept",
+            "modern": "在帝国主义战争语境下，指通过战争夺取他国领土或势力范围，是列宁批判的战争核心目的之一。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "annexation_imperialist"
+          }
+        ]
+      },
+      {
+        "sid": "p25s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p25s10",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "革命护国主义",
+            "type": "slogan",
+            "modern": "二月革命后流行的一种口号，以保卫革命成果为名，号召支持临时政府继续进行帝国主义战争。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p25s11",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p25s12",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 3,
+        "notes_dropped": 0,
+        "hs_kept": 1,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

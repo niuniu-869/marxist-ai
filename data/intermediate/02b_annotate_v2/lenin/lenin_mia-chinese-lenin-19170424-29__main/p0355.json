@@ -1,0 +1,226 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 355,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁分析农民要求土地国有化的实际内涵，反驳社会革命党人的解释，并阐明其与孟什维克方案的本质区别。",
+    "importance_score": 3,
+    "importance_reason": "核心段落，系统阐述列宁对俄国农民土地要求的阶级分析，是其土地纲领的理论基石。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对孟什维克土地纲领被历史否定的论断，具体分析农民为何拒绝孟什维克方案而选择国有化。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "国家杜马",
+        "explain": "沙皇俄国在1905年革命后设立的议会机构，共召开四届。文中指农民代表在其中表达的土地诉求。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "斯托雷平改革",
+        "explain": "1906年起由首相斯托雷平推行的土地改革，旨在瓦解村社、扶植富农，但加剧了土地问题的混乱。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "104人草案",
+        "explain": "指孟什维克在1906年斯德哥尔摩代表大会上提出的土地纲领草案，主张土地地方公有化，是文中批判的直接对象。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p355s6",
+        "quote": "我认为农民所以得出这个结论，是因为俄国的全部土地占有制，无论是农民的或地主的，无论是村社的或个体农户的，都彻头彻尾贯穿着旧的半农奴制的关系，因此从市场条件来看，农民必然要求把土地交给全体人民。",
+        "trigger": "long_nested",
+        "reader_block": "长句包含多重并列与因果嵌套，核心论点“半农奴制关系”与“市场条件”的关联不易把握。",
+        "parse": {
+          "claim": "俄国各类土地所有制都残留着农奴制残余，这导致农民从市场交易的角度出发，认为只有将土地收归全体人民才能解决问题。",
+          "qualifiers": "限定于俄国特定历史条件下的土地占有制形态。",
+          "contrast_or_target": "反驳社会革命党人将农民诉求归因于村社习惯的观点。"
+        },
+        "why": {
+          "relation": "definition",
+          "explanation": "为农民的土地国有化要求提供一个基于经济结构（半农奴制残余）的唯物主义解释，取代社会革命党人的文化解释。"
+        },
+        "implication": "农民的诉求具有客观经济基础，而非主观怀旧，这为布尔什维克理解并引导农民运动提供了依据。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      },
+      {
+        "anchor": "p355s17",
+        "quote": "农民的这个要求之所以被叫作平均化的要求，是因为正如1905年土地占有情况统计的简要总结所表明的，一个地主有2000俄亩土地，300个农户也只有2000俄亩土地，在这个意义上说，这个要求自然带有平均化的性质，但不能因此就说，这是要使一切小农户彼此拉平。",
+        "trigger": "long_nested",
+        "reader_block": "句子通过具体数据对比来界定“平均化”的特定含义，需要区分“平均地权”与“平均农户”两个不同概念。",
+        "parse": {
+          "claim": "农民要求国有化在客观上具有平均地权的性质，因为其目标是打破地主的大地产，但这并非旨在消除农民内部的贫富差异。",
+          "qualifiers": "限定于1905年土地占有统计所反映的极端不平等状况。",
+          "contrast_or_target": "反驳将农民要求简单等同于小农平均主义的误解。"
+        },
+        "why": {
+          "relation": "definition",
+          "explanation": "精确界定农民“平均化”诉求的阶级内涵：是资产阶级性质的平均地权，而非社会主义性质的平均分配。"
+        },
+        "implication": "明确区分了农民运动的资产阶级民主革命性质与社会主义革命性质，为制定正确策略奠定基础。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "社会革命党人",
+      "their_view": "农民要求土地国有化是因为他们习惯于村社制度，因此天然同情土地社会化和劳动原则。",
+      "author_response": "列宁认为这种解释是毫无道理的空话，农民的诉求源于半农奴制残余造成的市场困境，其本质是资产阶级性质的平均地权方案，而非社会主义社会化。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p355s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p355s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p355s3",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p355s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p355s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p355s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p355s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p355s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "资产阶级的",
+            "type": "concept",
+            "modern": "在此语境下，指农民的诉求属于资产阶级民主革命范畴，即消灭封建土地所有制，而非实现生产资料公有制。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "bourgeois_nature"
+          }
+        ]
+      },
+      {
+        "sid": "p355s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p355s10",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p355s11",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p355s12",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p355s13",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p355s14",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p355s15",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p355s16",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p355s17",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p355s18",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 1,
+        "hs_kept": 2,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_7>5"
+      ]
+    }
+  ]
+}

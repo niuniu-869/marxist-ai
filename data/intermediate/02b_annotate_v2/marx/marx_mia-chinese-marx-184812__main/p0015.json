@@ -1,0 +1,67 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 15,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "马克思讽刺康普豪森已自视为封建主，并平静接受由此产生的误解。",
+    "importance_score": 1,
+    "importance_reason": "本段延续上一段对康普豪森的批判，作为其转向反动的例证。",
+    "argument_role": "continues",
+    "argument_link": "上一段指出康普豪森播下反动种子，本段进一步揭露他已彻底倒向封建势力，容忍批评，显示其阶级立场的背叛。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p15s1",
+        "quote": "我们并不怀疑：普鲁士大使康普豪森阁下现在已把自己列入封建主之中，他将心平气和地容忍对他所产生的“误会”。",
+        "trigger": "inverted_logic",
+        "reader_block": "反讽语气，'并不怀疑'和'心平气和地容忍'暗示相反意思，读者可能误解为正面陈述。",
+        "parse": {
+          "claim": "康普豪森已彻底倒向封建势力，并平静接受他人对其行为的批评。",
+          "qualifiers": "",
+          "contrast_or_target": "康普豪森自认为通过协商能建立新秩序，但实际已投降封建主。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "通过反讽揭露康普豪森已背叛革命，自居封建主，容忍批评，显示其阶级立场的转变。"
+        },
+        "implication": "这表明资产阶级在革命中妥协，最终与封建势力合流。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "康普豪森",
+      "their_view": "康普豪森认为通过与王权协商，可以建立君主立宪制，拯救法制基础。",
+      "author_response": "马克思指出康普豪森已彻底倒向封建势力，其协商路线实质是背叛革命。",
+      "polemic_kind": "reveals_class_basis",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p15s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "封建主",
+            "type": "social_group",
+            "modern": "在19世纪普鲁士语境中，指拥有土地和特权的贵族阶层，与资产阶级对立。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  }
+}

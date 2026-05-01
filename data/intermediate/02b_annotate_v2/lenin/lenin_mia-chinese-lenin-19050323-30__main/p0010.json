@@ -1,0 +1,156 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 10,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "通过历史例子论证不理解变革阶级内容会导致失败，反驳马尔丁诺夫。",
+    "importance_score": 2,
+    "importance_reason": "用具体历史案例支撑对恩格斯引文的阐释，反驳论敌。",
+    "argument_role": "example",
+    "argument_link": "承接上段对恩格斯引文的辨析，用俄国革命史实例具体说明不理解阶级内容的后果。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "民意党人",
+        "explain": "19世纪后期俄国革命团体，主张通过个人恐怖手段推翻沙皇专制，但错误地认为农民会自发支持社会主义。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "社会革命党人",
+        "explain": "20世纪初俄国政党，主张将土地“社会化”（交给农民平均使用），但其纲领实质上维护的是富农（农民资产阶级）的利益。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p10s3",
+        "quote": "民意党人[10]想代表“劳动”的利益，硬要自己和别人相信，在将来的俄国立宪会议中，百分之九十的农民将是社会主义者，他们这样就陷入了苦境，势必遭到无可救药的政治上的灭亡，因为这些“诺言和断言”不符合客观现实。",
+        "trigger": "inverted_logic",
+        "reader_block": "反问句“你还没有开始懂得点什么吗？”需要还原为陈述，且例子涉及读者可能不熟悉的历史组织及其错误判断。",
+        "parse": {
+          "claim": "民意党人错误地认为农民会普遍支持社会主义，这种脱离现实的幻想使他们实际上服务于资产阶级民主派的利益，最终导致政治失败。",
+          "qualifiers": "限定于民意党人对俄国农民政治倾向的错误预估。",
+          "contrast_or_target": "马尔丁诺夫可能认为无产阶级可以代表所有“劳动”阶级的利益，而列宁指出这种想法混淆了不同阶级的真实立场。"
+        },
+        "why": {
+          "relation": "example",
+          "explanation": "本句用民意党人的历史教训作为具体例证，支撑上文关于“不了解变革的真正阶级内容会导致苦境”的论点。"
+        },
+        "implication": "任何政治力量若不能准确判断其宣称代表的阶级的实际状况，其纲领终将落空。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "马尔丁诺夫",
+      "their_view": "无产阶级参加临时革命政府是危险的，应采取消极的反对派立场，避免混淆民主革命与社会主义革命。",
+      "author_response": "列宁通过历史例子证明，不理解变革的阶级内容（如民意党人、社会革命党人）才会导致失败，无产阶级必须掌握革命领导权。",
+      "polemic_kind": "strategic_critique",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p10s1",
+        "speaker": "quoted_engels",
+        "stance": "endorsed",
+        "notes": []
+      },
+      {
+        "sid": "p10s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p10s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "民意党人",
+            "type": "org",
+            "modern": "19世纪俄国革命团体，主张通过恐怖手段推翻沙皇",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p10s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p10s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p10s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "社会革命党人",
+            "type": "org",
+            "modern": "20世纪初俄国政党，主张土地社会化，代表农民资产阶级利益",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p10s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p10s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p10s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 1,
+        "hs_kept": 1,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

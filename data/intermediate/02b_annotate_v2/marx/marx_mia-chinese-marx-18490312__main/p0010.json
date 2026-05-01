@@ -1,0 +1,102 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 10,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "马克思讽刺霍亨索伦新出版法案，称其为多种法律体系的混合物，暗指其专制本质。",
+    "importance_score": 2,
+    "importance_reason": "本段通过列举法案的法律来源，具体化对普鲁士反动立法的批判。",
+    "argument_role": "continues",
+    "argument_link": "本段承接上段对出版法的引入，具体分析其法律构成，以揭露其专制混合性质。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_density",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "拿破仑法典",
+        "explain": "1804年颁布的法国民法典，确立了资本主义私有制和契约自由原则，曾被拿破仑推广到欧洲多地。",
+        "why_needed": "history_density",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "法国九月法令",
+        "explain": "1835年法国七月王朝颁布的限制出版自由的法律，加强了对报刊的审查和惩罚。",
+        "why_needed": "history_density",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "普鲁士法",
+        "explain": "指普鲁士原有的法律体系，带有封建专制色彩，马克思讽刺其为法案的主要成分。",
+        "why_needed": "history_density",
+        "confidence": "medium",
+        "source_basis": "inferred"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "普鲁士反动势力",
+      "their_view": "新法案整合了先进法律元素，旨在完善法律体系，促进社会秩序。",
+      "author_response": "马克思讽刺地指出，这种综合实际上是专制手段的混合，旨在压制反对派。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p10s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "霍亨索伦新出版法案",
+            "type": "event",
+            "modern": "1849年普鲁士政府颁布的出版管制法案，以霍亨索伦王朝命名。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "Code Napoléon",
+            "type": "work",
+            "modern": "1804年颁布的法国民法典，是资本主义法律体系的典范。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "法国的九月法令",
+            "type": "work",
+            "modern": "1835年法国七月王朝限制出版自由的法律。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 3,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

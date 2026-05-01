@@ -1,0 +1,179 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 14,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁以莫斯科事变为实例，揭露立宪民主党人在关键时刻的真实策略，并批判党内机会主义者追随他们的错误路线。",
+    "importance_score": 3,
+    "importance_reason": "核心段落，通过具体事件论证无产阶级政党不应支持自由派资产阶级，并批判党内机会主义尾巴。",
+    "argument_role": "continues",
+    "argument_link": "延续上一段对机会主义者追随自由派路线的批判，用莫斯科事变的具体表现来证实这种追随必然导致成为资产阶级的附庸。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "term_polysemy | allusion",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "特列波夫与沙皇镇压",
+        "explain": "特列波夫是沙皇秘密警察（暗探局）头子，以残酷镇压革命运动著称。列宁用他来指代沙皇政权的暴力机器。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "曼努伊洛夫与特鲁别茨科伊",
+        "explain": "两人均为立宪民主党人，在沙皇政府中担任教育大臣等职，负责执行关闭大学等命令，代表自由派与政权合作。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "黑帮与自由派的区分",
+        "explain": "“黑帮”指沙皇反动势力，“自由派”指立宪民主党人。列宁在此质疑二者在维护旧秩序上的一致性。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p14s5",
+        "quote": "正是莫斯科事变表明了自由派倒戈者事实上扮演了特列波夫的角色。",
+        "trigger": "allusion",
+        "reader_block": "读者可能不理解“自由派倒戈者”与“特列波夫”角色的关联，需要知道特列波夫是沙皇镇压机器的象征。",
+        "parse": {
+          "claim": "自由派资产阶级在关键时刻执行了与沙皇警察头子相同的镇压职能。",
+          "qualifiers": "“事实上”强调其行为本质，而非名义上的政治立场。",
+          "contrast_or_target": "反驳自由派自诩为“反对派”或“革命同路人”的自我定位。"
+        },
+        "why": {
+          "relation": "example",
+          "explanation": "用莫斯科事变中自由派执行关闭大学命令的具体行为，例证他们如何实质上维护旧秩序，成为沙皇政权的帮手。"
+        },
+        "implication": "自由派在革命中扮演的角色与反动派无异，无产阶级必须认清其阶级本质。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "立宪民主党人与新火星派",
+      "their_view": "立宪民主党人认为应利用政府的微小让步（如大学自治、国家杜马）来缓和矛盾，反对扩大斗争。新火星派认为黑帮的国家杜马与自由派的国家杜马有极其重大的区别，主张与后者合作。",
+      "author_response": "列宁指出，莫斯科事变证明自由派在关键时刻与沙皇政权合作，执行镇压职能；无产阶级政党不应给予他们任何支持，否则就是政治上的糊涂。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p14s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "机会主义尾巴",
+            "type": "metaphor",
+            "modern": "列宁用此比喻党内追随资产阶级路线的派别，形容其缺乏独立性，只能跟在别人后面。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p14s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p14s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p14s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "议会制思想",
+            "type": "concept",
+            "modern": "在本文语境下，特指将国家杜马等议会机构视为解决政治问题核心途径的观念。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "parliamentarism_bourgeois"
+          }
+        ]
+      },
+      {
+        "sid": "p14s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "特列波夫",
+            "type": "person",
+            "modern": "沙皇秘密警察头子，是政权暴力镇压的象征。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p14s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "曼努伊洛夫和特鲁别茨科伊",
+            "type": "person",
+            "modern": "两位立宪民主党人，当时在沙皇政府中担任教育大臣等职，执行关闭大学等命令。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p14s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p14s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 4,
+        "notes_dropped": 4,
+        "hs_kept": 1,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

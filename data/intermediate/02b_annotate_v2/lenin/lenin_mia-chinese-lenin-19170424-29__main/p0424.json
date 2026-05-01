@@ -1,0 +1,81 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 424,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁肯定波兰社会民主党在民族问题上的国际主义立场，但指出由此产生的一个逻辑误区：有人据此主张拒绝给予波兰自由。",
+    "importance_score": 2,
+    "importance_reason": "本段澄清布尔什维克在民族自决问题上的立场，区分正确的国际主义与错误的推论，是理解其民族政策的关键环节。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对波兰民族主义情绪的描述，转而分析波兰社会主义运动内部的正确立场及其被曲解的情况。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "波兰社会民主党",
+        "explain": "波兰工人运动中的一个派别，以罗莎·卢森堡等人为代表。其核心主张是波兰无产阶级应与俄国及国际无产阶级联合，反对为波兰民族独立而进行的战争，认为这会分裂工人运动。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "受波兰社会民主党立场影响的部分同志",
+      "their_view": "既然波兰社会民主党同志为了国际主义而拒绝为波兰解放而战，那么我们也应当拒绝给予波兰自由和分离的权利。",
+      "author_response": "列宁指出，支持民族自决权与坚持无产阶级国际主义并不矛盾；将前者等同于民族主义并加以拒绝，是一种错误的逻辑推论。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p424s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p424s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p424s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p424s4",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_metaphor_9>8"
+      ]
+    }
+  ]
+}

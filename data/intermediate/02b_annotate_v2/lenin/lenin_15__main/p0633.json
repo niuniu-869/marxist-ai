@@ -1,0 +1,133 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 633,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁通过具体历史事例和类比，揭露考茨基在反对帝国主义兼并问题上的机会主义立场和虚伪性。",
+    "importance_score": 3,
+    "importance_reason": "这是对考茨基主义进行核心批判的关键段落，通过实例论证其政治立场的不诚实。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对考茨基美化帝国主义政治特性的批判，进一步从兼并问题和机会主义立场的角度展开具体揭露。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "阿尔萨斯-洛林问题",
+        "explain": "1871年普法战争后，德国从法国夺取了阿尔萨斯和洛林地区。这一兼并是欧洲列强争夺领土的典型事例，也是法德矛盾的焦点。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "菲律宾与朝鲜的殖民背景",
+        "explain": "1898年美西战争后，美国从西班牙手中夺取了对菲律宾的控制权。朝鲜在1910年被日本正式吞并，此前已沦为日本的保护国。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "机会主义者",
+        "explain": "指工人运动内部放弃阶级斗争原则、向资产阶级妥协的派别。列宁认为考茨基的理论和策略迎合了这一派别。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p633s6",
+        "quote": "假定日本人指责美国人兼并菲律宾，试问会不会有很多人相信这是因为他根本反对兼并，而不是因为他自己想要兼并菲律宾呢？",
+        "trigger": "inverted_logic",
+        "reader_block": "反问句式，需要读者自行推断出反讽的结论：这种指责不可信，因为指责者自身有兼并野心。",
+        "parse": {
+          "claim": "一个本身有兼并企图的国家去指责他国的兼并行为，其动机是可疑的，很难让人相信它是出于对兼并原则的真正反对。",
+          "qualifiers": "这是一个假设性的类比，用以说明考茨基反对德国兼并时立场的可疑性。",
+          "contrast_or_target": "考茨基反对德国兼并阿尔萨斯-洛林，但列宁认为其立场如同日本指责美国兼并菲律宾一样虚伪。"
+        },
+        "why": {
+          "relation": "example",
+          "explanation": "用一个虚构但逻辑清晰的国际政治类比，来具体说明考茨基反对兼并的立场为何在政治上不诚实，为下一句的结论做铺垫。"
+        },
+        "implication": "判断一个政治立场是否真诚，不能只看其口号，必须考察其行动者自身的阶级或国家利益是否与之矛盾。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p633s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p633s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p633s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p633s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p633s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p633s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p633s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 1,
+        "hs_dropped": 1,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote",
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

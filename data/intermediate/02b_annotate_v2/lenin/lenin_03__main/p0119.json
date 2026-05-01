@@ -1,0 +1,97 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 119,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁运用马克思的阶级分析，论证在资产阶级制度下，自由平等具有阶级性，仅服务于资本所有者。",
+    "importance_score": 2,
+    "importance_reason": "支撑核心论点，揭示资产阶级自由平等的阶级本质，为反驳论敌提供理论依据。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对自称民主派对手的批评，本段从理论层面揭示他们所宣扬的“自由平等”的阶级实质。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use | allusion",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "allusion",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "边沁分子",
+        "explain": "指追随英国哲学家边沁（Jeremy Bentham）思想的人。边沁是功利主义代表，其理论常被用来为资本主义制度辩护，主张个人利益最大化是道德基础。",
+        "why_needed": "allusion",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "商品所有者",
+        "explain": "在马克思政治经济学中，特指拥有生产资料和商品、在市场上进行交换的资产阶级成员，区别于出卖劳动力的无产者。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "边沁分子 / 抽象民主派",
+      "their_view": "自由和平等是普遍的、超阶级的价值，适用于所有公民，是共和国的基础。",
+      "author_response": "列宁指出，这种理解忽视了自由平等在阶级社会中的具体实现形式，它们实质上只是资产阶级（商品所有者、资本）的特权。",
+      "polemic_kind": "reveals_class_basis",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p119s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "阶级斗争",
+            "type": "concept",
+            "modern": "马克思主义理论的核心范畴，指不同阶级之间基于经济利益的根本对立和斗争。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "class_struggle_marxist"
+          }
+        ]
+      },
+      {
+        "sid": "p119s2",
+        "speaker": "quoted_marx",
+        "stance": "endorsed",
+        "notes": [
+          {
+            "surface": "《资本论》",
+            "type": "work",
+            "modern": "马克思的政治经济学巨著，系统阐述了资本主义生产方式的运动规律。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 2,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_7>5",
+        "note:n2_circular_prefix",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

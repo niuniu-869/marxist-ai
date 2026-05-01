@@ -1,0 +1,118 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 24,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁点名批判欧洲社会主义运动中的机会主义领袖，称他们为资产阶级走狗，并预言革命浪潮将清除这一污点。",
+    "importance_score": 2,
+    "importance_reason": "这是对机会主义者的直接点名批判，强化了前文关于国际社会主义运动分裂的论断。",
+    "argument_role": "continues",
+    "argument_link": "本段延续上一段关于欧洲无产阶级作为俄国无产阶级战友的论述，但转向批判那些背叛了国际主义的领袖，指出他们虽暂时得势，但终将被革命清除。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "all_known",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "社会爱国主义者与中派领袖",
+      "their_view": "支持本国政府进行帝国主义战争，认为战争具有防御性质，从而背叛了国际主义。",
+      "author_response": "列宁称他们为资产阶级走狗，预言革命浪潮将清除这一污点。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p24s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "谢德曼之流",
+            "type": "person",
+            "modern": "菲利普·谢德曼，德国社会民主党右翼领袖，后参与镇压德国革命。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "列金之流",
+            "type": "person",
+            "modern": "卡尔·列金，德国工会总委员会主席，支持战争的社会爱国主义者。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "大卫之流",
+            "type": "person",
+            "modern": "爱德华·大卫，德国社会民主党理论家，主张社会改良与战争支持。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "桑巴",
+            "type": "person",
+            "modern": "马塞尔·桑巴，法国社会党人，战时加入政府支持战争。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "盖得",
+            "type": "person",
+            "modern": "茹尔·盖得，法国工人党创始人之一，战时转向社会爱国主义。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "列诺得尔",
+            "type": "person",
+            "modern": "皮埃尔·列诺得尔，法国社会党领袖，支持战争的“少数派”代表。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "费边派",
+            "type": "org",
+            "modern": "英国费边社成员，主张渐进改良，反对暴力革命。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p24s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 7,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

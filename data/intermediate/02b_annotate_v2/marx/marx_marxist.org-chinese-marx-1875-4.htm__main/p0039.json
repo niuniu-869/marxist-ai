@@ -1,0 +1,66 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 39,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "通过归谬法，指出纲领草案命题会导致荒谬推论，并讽刺其与卢梭著作的雷同。",
+    "importance_score": 2,
+    "importance_reason": "核心批判的一部分，通过归谬法反驳纲领草案的错误前提。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对纲领第一句话片面性的批判，进一步展开归谬论证，揭示其逻辑后果。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "allusion",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "allusion",
+      "needs_polemic": true,
+      "polemic_reason": "refute_quotation"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "卢梭及其著作",
+        "explain": "让-雅克·卢梭是18世纪法国启蒙思想家，其著作如《论人类不平等的起源和基础》探讨了社会的起源与不平等。马克思此处意指，若按纲领逻辑，可推导出卢梭早已论述过的社会现象，但纲领却将其当作新发现。",
+        "why_needed": "allusion",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p39s1",
+        "quote": "那么同样也可以说，只有在社会里，无益的、甚至有损公益的劳动才能成为一个职业部门，只有在社会里才可以游手好闲，如此等等，——一句话，可以抄袭卢梭的全部著作了。",
+        "trigger": "allusion",
+        "reader_block": "读者不理解“抄袭卢梭的全部著作”这一典故的讽刺意味，以及它如何构成对纲领命题的归谬。",
+        "parse": {
+          "claim": "如果接受纲领草案中关于劳动的片面命题，那么通过同样的逻辑，也能推导出一系列关于社会分工与游手好闲的、早已被卢梭等人探讨过的社会现象。",
+          "qualifiers": "此推论仅在“接受纲领草案命题”这一前提下成立。",
+          "contrast_or_target": "纲领草案中“劳动是一切财富和文化的源泉”这一命题，及其隐含的将劳动视为孤立、抽象源泉的观点。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "本句是归谬论证的结论部分，通过展示纲领命题会导致与卢梭著作内容雷同的荒谬推论，来讽刺该命题的肤浅与非原创性，从而反驳其前提。"
+        },
+        "implication": "纲领草案的命题并非科学发现，而是对已有思想的粗糙重复，且其逻辑会导致对社会现实的片面理解。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "哥达纲领草案",
+      "their_view": "劳动是一切财富和文化的源泉。",
+      "author_response": "通过归谬法指出，若此命题成立，则可推导出关于社会分工与游手好闲的、早已被卢梭等人论述过的现象，从而暴露该命题的片面性与非原创性。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p39s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  }
+}

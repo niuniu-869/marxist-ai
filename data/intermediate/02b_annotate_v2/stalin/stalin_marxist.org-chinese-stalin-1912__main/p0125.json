@@ -1,0 +1,61 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 125,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "作者提出要考察奥地利理论家对民族问题的处理方式，为后续批判做铺垫。",
+    "importance_score": 1,
+    "importance_reason": "这是从背景陈述转向具体批判的过渡，引出对奥地利民族理论的分析。",
+    "argument_role": "continues",
+    "argument_link": "上段指出奥地利与俄国条件不同，本段接着要考察奥地利理论家的具体主张。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "施普林格和鲍威尔",
+      "their_view": "他们将民族视为与地域、经济生活无关的“思想相同和语言相同的人们的联盟”。",
+      "author_response": "作者要批判这种唯心主义民族理论，揭示其脱离物质基础的错误。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p125s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p125s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_6>5"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,193 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 18,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段阐明布尔什维克对国家的根本立场：既需要国家以实现变革，但需要的不是旧的国家机器，而是工人的直接政权，并以巴黎公社和苏维埃为范本提出具体建设方向。",
+    "importance_score": 3,
+    "importance_reason": "核心论点段落，明确区分了与无政府主义、机会主义的界限，并提出了无产阶级国家的具体形式与建设口号。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对机会主义者歪曲国家学说的批判，正面阐述布尔什维克自己的国家观，形成对比。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "巴黎公社",
+        "explain": "1871年巴黎工人阶级在普法战争失败后建立的革命政权，存在约两个月。它被视为历史上第一个无产阶级政权的雏形，其废除常备军、公职人员民选等措施被马克思和列宁高度评价。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "工人代表苏维埃",
+        "explain": "1905年俄国革命和1917年二月革命中，由工人、士兵自发选举产生的代表会议。它是一种新型的革命权力机构，列宁视其为无产阶级专政形式的萌芽。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p18s2",
+        "quote": "但我们跟机会主义者和考茨基派也不同，我们说：我们所需要的不是“现成的”国家机器，不是在最民主的资产阶级共和国中存在的那种国家机器，而是武装起来和组织起来的工人的直接政权。",
+        "trigger": "long_nested",
+        "reader_block": "句子通过连续否定（不是…不是…而是…）界定立场，读者容易在多重否定中迷失核心主张，即到底要什么。",
+        "parse": {
+          "claim": "布尔什维克主张的国家形式，是工人阶级通过武装和组织直接掌握的政权，而非继承或改良现有的任何资产阶级国家机构。",
+          "qualifiers": "限定于“革命的变革”时期，且特指“最民主的资产阶级共和国”中的国家机器作为对比项。",
+          "contrast_or_target": "机会主义者和考茨基派认为，可以通过利用或改良现存的、包括最民主的资产阶级共和国在内的国家机器来实现社会主义。"
+        },
+        "why": {
+          "relation": "contrasts",
+          "explanation": "本句通过“不是…而是…”的对比结构，将布尔什维克的国家观与机会主义者和考茨基派的国家观对立起来，是本段论证的核心转折点。"
+        },
+        "implication": "这意味着无产阶级革命必须打碎旧的国家机器，而不是接管它。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "机会主义者和考茨基派",
+      "their_view": "无产阶级可以利用或改良现存的、包括最民主的资产阶级共和国在内的国家机器来实现社会主义变革，无需打碎它。",
+      "author_response": "列宁指出，布尔什维克需要的不是这种“现成的”国家机器，而是工人阶级武装和组织起来的直接政权，即一种全新的国家形式。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p18s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "无政府主义者",
+            "type": "social_group",
+            "modern": "主张立即废除一切国家形式和权威的政治派别。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p18s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "考茨基派",
+            "type": "social_group",
+            "modern": "以卡尔·考茨基为代表的中派，列宁认为其在国家问题上背叛了马克思主义。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "国家机器",
+            "type": "concept",
+            "modern": "马克思主义术语，指维护阶级统治的有组织的暴力工具，包括军队、警察、监狱、官僚机构等。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "state_apparatus"
+          }
+        ]
+      },
+      {
+        "sid": "p18s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p18s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "巴黎公社",
+            "type": "event",
+            "modern": "1871年巴黎工人建立的革命政权，被视为无产阶级专政的首次尝试。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "工人代表苏维埃",
+            "type": "org",
+            "modern": "1905年和1917年俄国革命中出现的工人、士兵代表会议，是新型革命权力机构。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p18s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p18s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "民兵",
+            "type": "concept",
+            "modern": "此处指由全体人民参与、但由无产阶级领导的武装组织，用以取代旧的常备军和警察。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "militia_proletarian"
+          }
+        ]
+      },
+      {
+        "sid": "p18s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p18s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p18s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 6,
+        "notes_dropped": 2,
+        "hs_kept": 1,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "note:n1_overflow_social_group_13>12",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

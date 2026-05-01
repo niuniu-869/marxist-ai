@@ -1,0 +1,55 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 786,
+  "annotation": {
+    "block_type": "quote_block",
+    "gist": "引用李卜克内西的话，通过对比法国人民与普鲁士国王，强调前者更值得尊敬。",
+    "importance_score": 1,
+    "importance_reason": "本段通过引用李卜克内西的话，为前文的论战提供具体例证。",
+    "argument_role": "example",
+    "argument_link": "本段引用李卜克内西的原话，具体展示对普鲁士国王言论的反驳。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "普鲁士国王",
+      "their_view": "普鲁士国王称拿破仑为'亲爱的兄弟'，表达亲密关系。",
+      "author_response": "通过李卜克内西的话，强调法国人民和法国工人比这种亲密关系更值得尊敬。",
+      "polemic_kind": "counter_quotation",
+      "confidence": "medium"
+    },
+    "sentences": [
+      {
+        "sid": "p786s1",
+        "speaker": "unknown",
+        "stance": "endorsed",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

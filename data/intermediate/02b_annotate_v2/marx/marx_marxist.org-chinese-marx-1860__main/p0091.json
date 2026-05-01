@@ -1,0 +1,79 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 91,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段作为提纲条目，列出马克思将要讨论的两个议题：针对其唯物主义历史观的批评，以及与机械唯物主义的区别。",
+    "importance_score": 1,
+    "importance_reason": "作为方法论澄清的引子，为后续论证铺垫，但本身非核心论点。",
+    "argument_role": "transition",
+    "argument_link": "上一段讨论生产关系的派生层次，本段转向对马克思唯物主义方法的辩护及其与旧唯物主义的区分。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "自然唯物主义",
+        "explain": "指18世纪法国唯物主义或费尔巴哈的唯物主义，将历史视为自然过程，忽视社会关系的特殊性。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p91s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "唯物主义",
+            "type": "concept",
+            "modern": "马克思的历史唯物主义，强调社会存在决定意识",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "materialism_marxist"
+          }
+        ]
+      },
+      {
+        "sid": "p91s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_6>5"
+      ]
+    }
+  ]
+}

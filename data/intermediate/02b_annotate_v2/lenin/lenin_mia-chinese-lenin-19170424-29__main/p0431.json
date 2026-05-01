@@ -1,0 +1,140 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 431,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁在党内会议上回应关于民族自决权的争论，批评了对波兰问题的片面指责，并阐明通过革命实践而非强制来巩固民族联盟的立场。",
+    "importance_score": 2,
+    "importance_reason": "具体阐述了布尔什维克在民族自决权问题上的实践策略，是核心论点的例证与展开。",
+    "argument_role": "continues",
+    "argument_link": "延续上一段关于民族自决权的理论阐述，将其具体应用于波兰、芬兰、乌克兰等现实案例，并反驳党内同志的错误观点。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "all_known",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p431s9",
+        "quote": "皮达可夫同志的观点完全自相矛盾，他说，我们反对把其他民族强迫留在疆界内，——其实这就是承认民族自决权。",
+        "trigger": "inverted_logic",
+        "reader_block": "读者可能困惑：反对“强迫留下”怎么就等于“承认自决权”？需要理解列宁的逻辑是，反对强制本身就蕴含了尊重对方选择权的前提。",
+        "parse": {
+          "claim": "皮达可夫声称反对强制将其他民族留在现有疆界内，这一立场在逻辑上等同于承认各民族有权决定自身归属。",
+          "qualifiers": "此判断针对皮达可夫的具体表述。",
+          "contrast_or_target": "皮达可夫可能试图在反对兼并与维护国家统一之间寻找折中，但列宁指出其表述在逻辑上无法自洽。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "列宁通过揭示皮达可夫论点的内在矛盾，来论证党内部分同志在民族问题上的立场不彻底，从而强化布尔什维克彻底支持民族自决权的主张。"
+        },
+        "implication": "任何反对强制保留民族的立场，若不同时承认分离权，就是自相矛盾的。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p431s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p431s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p431s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p431s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p431s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p431s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p431s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p431s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p431s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p431s10",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p431s11",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p431s12",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 1,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

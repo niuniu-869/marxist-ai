@@ -1,0 +1,81 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 99,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "作者用一个历史比喻来诊断语言学界出现专断行为和不良风气的根源。",
+    "importance_score": 1,
+    "importance_reason": "这是对前文所举《巴库教材》事件原因的直接解释，属于论证链条中的过渡性分析。",
+    "argument_role": "continues",
+    "argument_link": "承接上段所举的具体事例，转而分析导致该事例发生的体制性原因。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "allusion",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "阿拉克切也夫制度",
+        "explain": "指19世纪初俄国沙皇亚历山大一世统治后期，由陆军大臣阿拉克切也夫推行的高压专制政策，以军事管制、书报审查和镇压异见为特征，成为沙皇俄国反动统治的代名词。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p99s2",
+        "quote": "这是因为在语言学界形成的阿拉克切也夫制度（注：阿拉克切也夫制度指十九世纪头二十五年在俄国施行的警察暴虐、军阀专横、用暴力镇压人民的制度，因其推行者陆军大臣阿·安·阿拉克切也夫伯爵而得名。），养成不负责任的习气，助长这种专横行为。",
+        "trigger": "allusion",
+        "reader_block": "读者可能不了解“阿拉克切也夫制度”这一历史专名，也不清楚作者为何用这个19世纪的专制象征来形容当时的语言学界，从而无法理解其批判的力度和具体指向。",
+        "parse": {
+          "claim": "语言学界内部形成了一种类似历史上高压专制统治的氛围，这种氛围是导致前述专断行为和不良风气的根本原因。",
+          "qualifiers": "特指在语言学界内部形成的状况。",
+          "contrast_or_target": ""
+        },
+        "why": {
+          "relation": "continues",
+          "explanation": "本句直接回答上段提出的“怎么会发生这样的事情呢？”这一问题，将具体事件归因于一个更宏观的、被比喻为专制制度的学术环境。"
+        },
+        "implication": "作者将学术界的管理方式与历史上的专制暴政相类比，暗示其性质严重，需要根本改变。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p99s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p99s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "阿拉克切也夫制度",
+            "type": "event",
+            "modern": "斯大林借用此历史典故，将当时语言学界存在的专断管理和压制不同意见的风气，比作沙皇俄国的高压专制统治。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  }
+}

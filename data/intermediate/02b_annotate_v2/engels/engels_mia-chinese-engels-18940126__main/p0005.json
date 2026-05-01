@@ -1,0 +1,92 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 5,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "描述意大利劳动人民承受的双重压迫结构，并引用马克思的论断来揭示其根源。",
+    "importance_score": 2,
+    "importance_reason": "为后续革命策略讨论提供社会结构分析基础。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对资产阶级的批判，具体展开劳动人民所受的双重压迫。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "allusion",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "意大利对分租佃制",
+        "explain": "意大利中部和北部历史上的一种租佃关系，佃农需将收成的一半或更多交给地主，是前资本主义农业剥削形式的残留。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "马克思《资本论》第一卷序言",
+        "explain": "马克思在《资本论》第一卷德文第一版序言中提出的著名论断，用以说明落后国家同时承受新旧两种灾难。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p5s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p5s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p5s3",
+        "speaker": "quoted_marx",
+        "stance": "endorsed",
+        "notes": [
+          {
+            "surface": "死人抓住活人",
+            "type": "metaphor",
+            "modern": "马克思用此比喻旧的生产方式和社会关系仍在束缚和压迫当代人。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_archaic_9>4",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

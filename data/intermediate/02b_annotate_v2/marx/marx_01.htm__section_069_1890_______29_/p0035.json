@@ -1,0 +1,101 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 35,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "恩格斯总结1848年革命的历史作用，指出它为社会主义革命准备了物质与阶级基础，并强调民族独立是工人阶级实现国际联合的前提。",
+    "importance_score": 2,
+    "importance_reason": "本段是恩格斯对1848年革命历史意义的总结性论断，连接了革命的客观后果与《宣言》的核心预言，并为论述国际工人运动的条件提供了逻辑基础。",
+    "argument_role": "continues",
+    "argument_link": "本段承接上一段对1848年革命中工人阶级作用的分析，进一步从宏观历史角度总结这场革命为后续社会主义革命扫清了道路，并引出民族独立与工人国际联合的关系。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p35s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p35s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "无产阶级",
+            "type": "concept",
+            "modern": "现代工业社会中不占有生产资料、主要靠出卖劳动力为生的阶级。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "class_proletariat"
+          }
+        ]
+      },
+      {
+        "sid": "p35s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "掘墓人",
+            "type": "metaphor",
+            "modern": "《共产党宣言》中的著名比喻，指资产阶级在发展过程中创造了自身的对立面和灭亡条件。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p35s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p35s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 4,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_6>5",
+        "note:n1_overflow_concept_6>5",
+        "note:n1_overflow_concept_9>5",
+        "note:n1_overflow_concept_6>5"
+      ]
+    }
+  ]
+}

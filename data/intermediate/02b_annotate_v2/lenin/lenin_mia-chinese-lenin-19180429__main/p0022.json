@@ -1,0 +1,108 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 22,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁分析来自不同政治派别的攻击，指出它们在反对苏维埃政权主要任务上的一致性，并阐明这场争论的原则基础。",
+    "importance_score": 2,
+    "importance_reason": "本段是列宁对论战的定性，旨在将具体的政治攻击提升到原则争论的高度，为后续论证奠定基础。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对左派社会革命党人言论的评论，进一步分析其与“左派共产主义者”等派别攻击的共同点，并阐明争论的性质。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p22s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "《劳动旗帜报》",
+            "type": "work",
+            "modern": "左派社会革命党人的机关报，在1918年4月前后发表批评布尔什维克政策的文章。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "孟什维克党",
+            "type": "org",
+            "modern": "俄国社会民主工党中的改良派，主张与资产阶级临时政府合作，反对十月革命。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "策列铁里",
+            "type": "person",
+            "modern": "孟什维克领袖之一，曾任临时政府部长，代表该党与资产阶级进行政治协商。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "克伦斯基",
+            "type": "person",
+            "modern": "俄国临时政府总理，代表资产阶级利益，其政府在十月革命中被推翻。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "“左派共产主义者”集团",
+            "type": "org",
+            "modern": "布尔什维克党内反对签订《布列斯特和约》的派别，主张继续进行革命战争。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p22s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p22s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 5,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

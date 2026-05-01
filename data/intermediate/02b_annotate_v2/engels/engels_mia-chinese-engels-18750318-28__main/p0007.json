@@ -1,0 +1,119 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 7,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "恩格斯分析拉萨尔派主动求和的动机，提出合并的理论前提与政治条件，并批评己方在谈判中的幼稚。",
+    "importance_score": 3,
+    "importance_reason": "核心段落，明确阐述了马克思恩格斯对合并的底线立场，即理论纯洁性高于形式统一。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对草案的震惊，本段具体分析拉萨尔派的动机并提出应对策略与合并条件。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "all_known",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [
+      "国家帮助",
+      "爱森纳赫纲领"
+    ],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p7s6",
+        "quote": "纲领草案证明，我们的人在理论方面比拉萨尔派的领袖高明一百倍，而在政治机警性方面却差一百倍；",
+        "trigger": "inverted_logic",
+        "reader_block": "“政治机警性”在此是反讽，指在政治谈判中缺乏警惕和策略，与“理论高明”形成尖锐对比，读者易忽略其贬义。",
+        "parse": {
+          "claim": "爱森纳赫派领导人在理论素养上远超拉萨尔派，但在政治谈判的警惕性和策略上却远逊于对方。",
+          "qualifiers": "此判断基于当前的纲领草案内容。",
+          "contrast_or_target": "对比对象是拉萨尔派领袖，他们理论水平低但政治手腕灵活。"
+        },
+        "why": {
+          "relation": "conclusion",
+          "explanation": "基于前文对草案内容的分析，得出对己方谈判表现的总结性评价，为下文“受骗”的结论做铺垫。"
+        },
+        "implication": "理论优势若不能转化为政治行动中的清醒判断，可能导致革命政党在策略上受挫。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "拉萨尔派",
+      "their_view": "我们党过去主动求和时，我们拒绝了；现在我们陷入困境，主动来寻求合并，是为了利用这个机会重新巩固我们在工人中的地位。",
+      "author_response": "必须利用对方的困境，以冷淡和不信任的态度，要求他们放弃宗派口号和“国家帮助”主张，接受科学的纲领作为合并前提。",
+      "polemic_kind": "strategic_critique",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p7s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p7s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p7s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p7s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p7s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p7s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p7s7",
+        "speaker": "editor",
+        "stance": "neutral_citation",
+        "notes": []
+      },
+      {
+        "sid": "p7s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 1,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

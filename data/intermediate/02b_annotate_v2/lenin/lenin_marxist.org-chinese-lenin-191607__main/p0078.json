@@ -1,0 +1,100 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 78,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁将波兰社会民主党人比作历史上的蒲鲁东分子，批评其教条主义立场破坏了国际反帝阵线，并分析了小民族在帝国主义时代作用的变化，论证无产阶级解放各民族的必要性。",
+    "importance_score": 3,
+    "importance_reason": "本段是列宁对波兰社会民主党人论战的核心段落之一，通过历史类比和时代分析，系统阐述了帝国主义时代民族自决问题与无产阶级国际主义的关系。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对波兰社会民主党人未能具体分析帝国主义时代形势的批评，本段通过历史类比和时代对比，具体论证其立场的错误及其客观后果。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "蒲鲁东分子",
+        "explain": "指19世纪法国无政府主义者蒲鲁东的追随者。他们主张通过互助和合作社改良社会，反对政治斗争和民族解放运动，认为民族问题是次要的。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "1848-1871与1898-1914",
+        "explain": "前者指欧洲革命与民族统一运动时期（如意大利、德国统一），小民族可能成为革命力量或沙皇的盟友。后者指帝国主义形成至一战爆发，世界已被瓜分完毕。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "波兰社会民主党人（反对派）",
+      "their_view": "他们像蒲鲁东分子一样，为了进行教条式的社会革命，忽视并抛弃了民族运动，认为这在当前是次要或不必要的。",
+      "author_response": "列宁指出，这种做法在客观上破坏了国际无产阶级的反帝阵线，帮助了社会帝国主义者，因为小民族在帝国主义时代的作用已经改变，无产阶级必须通过支持民族自决来教育和团结群众。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p78s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p78s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p78s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p78s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p78s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p78s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 8,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段批判拉萨尔的个人虚荣及其理论脱离实际经济条件，并分析德国工人因长期政治消沉而盲目追随他的社会根源。",
+    "importance_score": 3,
+    "importance_reason": "核心批判段落，直接攻击拉萨尔路线的个人动机与理论缺陷，并揭示其得以传播的社会土壤。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对拉萨尔“现实政治家”定性的批判，进一步剖析其个人动机与理论无知，并将批判扩展到其追随者（德国工人）的社会成因。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "1849-1859年德国反动时期",
+        "explain": "指1848年革命失败后，普鲁士等德意志邦国恢复君主专制，压制民主运动与工人运动的时期。此时期政治高压与思想钳制，导致资产阶级与工人阶级普遍政治消沉。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p8s3",
+        "quote": "另一方面，由于曾经使德国资产者容忍了1849—1859年的反动并对愚民措施采取旁观态度的那个卑鄙的“现实政策”，德国工人竟“堕落”到这种地步，以致对这位答应帮助他们一跃而进入天国的自吹自擂的救主表示欢迎！",
+        "trigger": "inverted_logic",
+        "reader_block": "反讽语气（“堕落”“天国”）与历史指涉（“现实政策”）结合，读者易将作者的讽刺性描述当作对工人或拉萨尔的正面评价。",
+        "parse": {
+          "claim": "德国工人因长期受一种只顾眼前、回避根本斗争的政治风气影响，其革命意识已严重衰退，以至于盲目崇拜一个空许诺言的个人。",
+          "qualifiers": "这种风气是此前十年间（1849-1859）德国资产阶级面对反动统治时所采取的态度，它同样腐蚀了工人阶级。",
+          "contrast_or_target": "拉萨尔派的观点：拉萨尔是能带领无产阶级迅速取得胜利的救世主，其方案是切实可行的捷径。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "本句将对拉萨尔的个人批判，上升到对其得以流行的社会历史条件的分析，指出德国工人运动的弱点是拉萨尔主义滋生的土壤，从而深化了论战的层次。"
+        },
+        "implication": "马克思认为，与拉萨尔主义的斗争不仅是理论路线之争，更是要唤醒工人阶级摆脱政治麻木、恢复革命自主性的斗争。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "拉萨尔",
+      "their_view": "拉萨尔自视为无产阶级建立了直接功勋的救世主，其方案能帮助工人阶级迅速摆脱困境。",
+      "author_response": "马克思指出拉萨尔对实现其功勋所依赖的真实社会经济条件一无所知，其自我吹嘘建立在无知之上。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p8s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p8s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p8s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 3,
+        "hs_kept": 1,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "note:n1_overflow_concept_7>5",
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

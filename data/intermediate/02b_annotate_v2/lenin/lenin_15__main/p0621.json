@@ -1,0 +1,65 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 621,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁用“剥两张皮”的比喻，揭示资本输出与金融资本勾结的实质，反驳兰斯堡的庸俗观点。",
+    "importance_score": 2,
+    "importance_reason": "用具体例证支撑前文对庸俗经济学的批判，阐明金融资本的运作逻辑。",
+    "argument_role": "contrasts",
+    "argument_link": "承接上段对兰斯堡结论的批判，本段具体揭示其结论所掩盖的金融资本真实行为。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "兰斯堡",
+      "their_view": "资本输出的增加是好事，是资本主义健康发展的表现。",
+      "author_response": "列宁指出，这恰恰是金融资本进行欺诈、榨取双重利润的手段。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p621s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "金融资本",
+            "type": "concept",
+            "modern": "在垄断资本主义阶段，银行资本与工业资本融合形成的资本形态，主导资本输出。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "finance_capital"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_metaphor_12>8"
+      ]
+    }
+  ]
+}

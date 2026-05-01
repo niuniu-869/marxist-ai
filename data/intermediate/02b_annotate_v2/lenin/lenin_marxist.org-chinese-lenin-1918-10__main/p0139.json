@@ -1,0 +1,168 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 139,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁澄清限制选举权问题的性质，区分专政的一般概念与俄国革命的特殊实践。",
+    "importance_score": 2,
+    "importance_reason": "本段通过区分专政的一般概念与特殊实践，支撑了对考茨基的批判。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对考茨基脱离实际的讽刺，进一步从理论层面界定限制选举权问题的性质。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "cross_ref_pronoun",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "巴黎公社与《国家与革命》",
+        "explain": "巴黎公社是1871年巴黎工人建立的革命政权，被视为无产阶级专政的首次尝试。列宁在1917年写的《国家与革命》中系统阐述了国家与革命的理论，其中分析了民主与专政的关系。",
+        "why_needed": "cross_ref_pronoun",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p139s9",
+        "quote": "在大战之后，在有了俄国革命经验之后，可能会这样做，但这不是实现专政所必需的，不是专政这一逻辑概念的必要标志，不是专政这一历史概念和阶级概念的必要条件。",
+        "trigger": "inverted_logic",
+        "reader_block": "让步从句承认可能性，但主句用三个“不是”否定其必要性，读者容易混淆可能性与必然性的区别。",
+        "parse": {
+          "claim": "俄国革命后限制选举权的做法在欧洲可能被效仿，但这并非无产阶级专政概念的内在要求。",
+          "qualifiers": "在大战之后，在有了俄国革命经验之后",
+          "contrast_or_target": "考茨基将限制选举权视为专政必要条件的观点。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "本句直接反驳考茨基将限制选举权视为专政必要条件的观点，通过区分可能性与必然性来瓦解其论证前提。"
+        },
+        "implication": "这为列宁后续论证俄国革命的特殊性扫清了理论障碍。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p139s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "巴黎公社",
+            "type": "event",
+            "modern": "1871年巴黎工人阶级建立的革命政权，被视为无产阶级专政的首次实践。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p139s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "《国家与革命》",
+            "type": "work",
+            "modern": "列宁于1917年撰写的理论著作，系统阐述了马克思主义国家学说。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p139s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p139s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "专政",
+            "type": "concept",
+            "modern": "马克思主义理论中指一个阶级对另一个阶级的政治统治。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "dictatorship_proletarian"
+          }
+        ]
+      },
+      {
+        "sid": "p139s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p139s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p139s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "限制选举权",
+            "type": "concept",
+            "modern": "在革命后剥夺特定阶级（如资产阶级）政治权利的措施。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "voting_restriction"
+          }
+        ]
+      },
+      {
+        "sid": "p139s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p139s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 4,
+        "notes_dropped": 0,
+        "hs_kept": 1,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

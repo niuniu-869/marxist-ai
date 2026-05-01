@@ -1,0 +1,65 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 44,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁批判将波兰社会民主党人否认自决权的观点引入国际运动，认为这是理论错误，实质是用蒲鲁东主义取代马克思主义，并无意中助长大国沙文主义。",
+    "importance_score": 2,
+    "importance_reason": "本段批判具体错误观点，支撑列宁在民族问题上的革命立场。",
+    "argument_role": "contrasts",
+    "argument_link": "上段列宁提出民族自决的补充要点，本段转而批判将小民族否认自决的观点引入国际的错误，形成对比。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "波兰社会民主党人",
+        "explain": "19世纪末波兰的社会主义政党，反对波兰资产阶级利用民族主义口号，但因此错误地拒绝承认民族自决权，认为这是资产阶级欺骗。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "波兰社会民主党人",
+      "their_view": "他们反对波兰资产阶级用民族主义口号欺骗人民，因此否认自决权，认为这是资产阶级的工具。",
+      "author_response": "列宁指出，这种观点是理论错误，用蒲鲁东主义代替马克思主义，实际上不自觉地支持了大国沙文主义和机会主义。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p44s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "蒲鲁东主义",
+            "type": "concept",
+            "modern": "19世纪法国小资产阶级社会主义思潮，反对政治斗争和无产阶级专政，主张互助制。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "proudhonism_theory"
+          },
+          {
+            "surface": "波兰社会民主党人",
+            "type": "social_group",
+            "modern": "19世纪末波兰的社会主义政党，主张阶级斗争但否认民族自决权。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "_prompt_version": "marxist-v0.2-2026-04-30-scaffolding",
+  "n": 416,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁以反问句讽刺考茨基，随后转向土地国有化问题，反驳俄国国内民粹派等派别对苏维埃土地政策性质的错误定性。",
+    "importance_score": 2,
+    "importance_reason": "本段是核心批判的组成部分，通过具体政策实例反驳考茨基的抽象论点，并澄清国内政治对手的理论错误。",
+    "argument_role": "contrasts",
+    "argument_link": "承接上段对考茨基不敢思考新任务的批评，本段以具体实例（国家帮助农民）和理论辨析（土地国有化）来展开批判。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "rhetorical",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "民粹派与左派社会革命党人",
+        "explain": "民粹派是19世纪俄国知识分子运动，主张农民社会主义。左派社会革命党是1917年革命后与布尔什维克短暂合作后分裂的政党，代表小资产阶级农民利益。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "考茨基；俄国的民粹派分子及左派社会革命党人",
+      "their_view": "考茨基认为无产阶级专政只是“理论说服”；民粹派等否认苏维埃的土地政策是土地国有化。",
+      "author_response": "用反问句讽刺考茨基观点的空洞；从理论上论证废除土地私有制在资本主义范围内即构成国有化，指出民粹派等的错误。"
+    },
+    "sentences": [
+      {
+        "sid": "p416s1",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p416s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p416s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p416s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p416s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "土地国有化",
+            "type": "concept",
+            "modern": "国家取得土地所有权",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "land_nationalization"
+          }
+        ]
+      },
+      {
+        "sid": "p416s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "社会化",
+            "type": "concept",
+            "modern": "生产资料由社会占有的过程",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "socialization_transition"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_6>5",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

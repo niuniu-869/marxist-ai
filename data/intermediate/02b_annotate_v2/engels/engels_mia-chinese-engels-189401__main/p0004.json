@@ -1,0 +1,110 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 4,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "追溯特卡乔夫观点的思想源头，将其归于赫尔岑，并批判赫尔岑对公社的浪漫化和泛斯拉夫主义利用。",
+    "importance_score": 2,
+    "importance_reason": "本段是核心批判的一部分，通过揭示思想同源性来削弱特卡乔夫论点的独特性，并展开对赫尔岑泛斯拉夫主义的批判。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段对特卡乔夫身份的澄清，进一步指出其观点的实质来源，为后续批判其理论前提做铺垫。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "哈克斯特豪森的著作",
+        "explain": "指德国农学家奥古斯特·冯·哈克斯特豪森于1847年出版的《对俄国的考察》，书中描述了俄国农村公社（米尔）的土地制度，该书在欧洲知识界影响广泛，成为许多西方人了解俄国公社的起点。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "赫尔岑与泛斯拉夫主义",
+        "explain": "亚历山大·赫尔岑是俄国思想家，早期主张通过农民公社实现社会主义。泛斯拉夫主义是一种强调斯拉夫民族（尤其是俄国）具有独特使命和优越性的思潮，常与俄国扩张主义相关联。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "亚·伊·赫尔岑",
+      "their_view": "俄国农民公社是比西欧更优越、更接近社会主义的现成基础，俄罗斯凭借这一独特制度，能够拯救并更新腐朽的西方。",
+      "author_response": "赫尔岑所推崇的公社是一种在历史上普遍存在过、且正在衰亡的古老占有形式，并非俄国独有或先进的标志；其泛斯拉夫主义论调是利用公社来宣扬俄国民族优越性。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p4s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p4s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "哈克斯特豪森的“对俄国的考察”",
+            "type": "work",
+            "modern": "19世纪中期一部向西方介绍俄国农村公社制度的著作，成为赫尔岑等人观点的来源之一。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p4s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p4s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p4s5",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p4s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 2,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_7>5",
+        "note:n1_overflow_concept_6>5"
+      ]
+    }
+  ]
+}

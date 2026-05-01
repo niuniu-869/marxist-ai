@@ -1,0 +1,75 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 38,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段讽刺那些自比为布鲁土斯的流亡者，认为他们公开争吵的行为是不必要的。",
+    "importance_score": 1,
+    "importance_reason": "本段通过讽刺手法批评流亡者的公开争论行为，属于论证中的辅助部分。",
+    "argument_role": "continues",
+    "argument_link": "本段延续上段对流亡者言论空洞的讽刺，具体指向他们公开争吵的行为。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "allusion",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "allusion",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "布鲁土斯典故",
+        "explain": "布鲁土斯是古罗马政治家，以刺杀独裁者凯撒闻名，常被用来比喻为自由而反抗暴政的革命者。",
+        "why_needed": "allusion",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p38s1",
+        "quote": "我们的三十三位布鲁土斯认为，正是有必要在大庭广众之前同这样的对手吵闹！",
+        "trigger": "allusion",
+        "reader_block": "读者可能不熟悉布鲁土斯典故，或误解其比喻义，导致无法理解讽刺对象。",
+        "parse": {
+          "claim": "这些自视为革命者的人主张公开与对手争执。",
+          "qualifiers": "",
+          "contrast_or_target": ""
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "本句讽刺那些以布鲁土斯自居的流亡者，批判他们公开争吵的策略。"
+        },
+        "implication": null,
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "流亡者中的激进派",
+      "their_view": "他们认为公开争吵是必要的，以展示革命立场。",
+      "author_response": "恩格斯讽刺这种公开争论是空洞和不必要的。",
+      "polemic_kind": "strategic_critique",
+      "confidence": "medium"
+    },
+    "sentences": [
+      {
+        "sid": "p38s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "布鲁土斯",
+            "type": "person",
+            "modern": "古罗马政治家，以刺杀凯撒闻名，常被用作革命者的象征。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  }
+}

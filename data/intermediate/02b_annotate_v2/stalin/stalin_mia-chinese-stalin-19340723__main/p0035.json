@@ -1,0 +1,128 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 35,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "斯大林引用英国革命史，论证衰亡阶级不会自愿退出，暴力革命不可避免。",
+    "importance_score": 2,
+    "importance_reason": "本段是斯大林对威尔斯和平过渡论点的核心反驳，通过历史类比支撑其暴力革命主张。",
+    "argument_role": "contrasts",
+    "argument_link": "针对威尔斯上一段提出的通过法律和警察力量和平过渡的设想，斯大林转而援引历史经验，强调暴力手段的必要性。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "克伦威尔与英国革命",
+        "explain": "奥利弗·克伦威尔是17世纪英国资产阶级革命的领袖，他领导议会军打败王党，处死国王查理一世，建立了共和国。这段历史常被引为暴力推翻旧制度的典型案例。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "威尔斯",
+      "their_view": "可以通过国家干预、依靠技术知识分子并诉诸法律，和平地过渡到社会主义，不必强调阶级斗争和暴力革命。",
+      "author_response": "共产党人从历史经验出发，认为已经衰亡的阶级不会自愿退出，暴力是粉碎旧制度的必要手段。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p35s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "共产党人",
+            "type": "social_group",
+            "modern": "斯大林所代表的布尔什维克政党成员",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "metadata"
+          },
+          {
+            "surface": "历史经验",
+            "type": "concept",
+            "modern": "马克思主义对历史规律的总结",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "historical_materialism"
+          },
+          {
+            "surface": "衰亡的阶级",
+            "type": "concept",
+            "modern": "在生产关系中失去存在基础的统治阶级",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "class_marxist"
+          },
+          {
+            "surface": "历史舞台",
+            "type": "metaphor",
+            "modern": "社会变革中各阶级争夺主导权的场域",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p35s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "十七世纪的英国历史",
+            "type": "event",
+            "modern": "1640-1688年英国资产阶级革命时期",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p35s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "克伦威尔",
+            "type": "person",
+            "modern": "英国资产阶级革命领袖，领导议会军打败王党",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 6,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

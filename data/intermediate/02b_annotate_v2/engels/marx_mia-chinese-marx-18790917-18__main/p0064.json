@@ -1,0 +1,71 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 64,
+  "annotation": {
+    "block_type": "quote_block",
+    "gist": "恩格斯引用拉萨尔对运动的描述，指出该运动在施韦泽领导下已变质为产业工人的片面斗争。",
+    "importance_score": 1,
+    "importance_reason": "本段作为过渡句，引出对苏黎世三人团文章的引用。",
+    "argument_role": "transition",
+    "argument_link": "本段通过引用拉萨尔的话，为后续批判苏黎世三人团的观点提供历史对比。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_density",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "拉萨尔",
+        "explain": "斐迪南·拉萨尔是19世纪德国工人运动领袖，主张通过国家帮助建立生产合作社，与马克思观点有分歧。",
+        "why_needed": "history_density",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "约翰·巴·施韦泽",
+        "explain": "约翰·巴蒂斯特·施韦泽是拉萨尔派全德工人联合会的主席，在马克思和恩格斯看来，他领导的运动背离了革命方向。",
+        "why_needed": "history_density",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p64s1",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": [
+          {
+            "surface": "拉萨尔",
+            "type": "person",
+            "modern": "斐迪南·拉萨尔，19世纪德国工人运动领袖，拉萨尔派创始人。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "约翰·巴·施韦泽",
+            "type": "person",
+            "modern": "约翰·巴蒂斯特·施韦泽，拉萨尔派全德工人联合会主席。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  }
+}

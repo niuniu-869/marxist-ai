@@ -1,0 +1,107 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 49,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁批评考茨基无视小资产阶级已倒向帝国主义的事实，反而根据其言论判断其利益，从而抽空了马克思主义的阶级分析方法。",
+    "importance_score": 2,
+    "importance_reason": "本段具体剖析考茨基方法论错误，是批判其“超帝国主义”论的逻辑基础，为后文论证社会沙文主义的阶级根源做铺垫。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对考茨基“和平阶层”论的批判，进一步揭露其脱离现实、歪曲马克思主义的分析方法。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "allusion",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "“套中人”典故",
+        "explain": "指俄国作家契诃夫同名小说中的主人公别里科夫，他将一切装在套子里，害怕变革与新事物。列宁用此比喻考茨基无视战争已改变阶级力量对比的现实。",
+        "why_needed": "allusion",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p49s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p49s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "套中人",
+            "type": "metaphor",
+            "modern": "契诃夫小说人物，象征脱离现实、害怕变革者，列宁以此讽刺考茨基无视战争已改变的阶级力量对比。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p49s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p49s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p49s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "利益",
+            "type": "concept",
+            "modern": "在马克思主义中，指由特定阶级在生产关系中的客观地位所决定的需求与目标，而非主观愿望。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "interest_marxist"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote",
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

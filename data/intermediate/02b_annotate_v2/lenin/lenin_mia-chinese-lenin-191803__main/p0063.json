@@ -1,0 +1,108 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 63,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁强调签订和约的必要性，指出党内存在分歧，主张中央委员会应有坚定路线，并利用获得的喘息时机。",
+    "importance_score": 2,
+    "importance_reason": "本段是列宁论证签订《布列斯特和约》合理性的核心部分，直接回应党内关于战争与和平的路线分歧。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对托洛茨基建议的拒绝，进一步阐述签订和约的现实依据与战略考量，并直接点名批评党内存在的“中间路线”。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "term_density",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "蒂尔西特和约",
+        "explain": "1807年拿破仑迫使普鲁士签订的苛刻和约，普鲁士割地赔款但得以保存国家。列宁以此类比，意指签订一个屈辱但能保全苏维埃政权的和约是必要的战略退却。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p63s3",
+        "quote": "最糟糕的是，我们的军队是一支患病的军队，正因为如此，所以中央委员会应该有一条坚定的路线，而不应该有分歧或者是布哈林同志也支持的中间路线。",
+        "trigger": "term_density",
+        "reader_block": "句中“军队”“中央委员会”“路线”“中间路线”等政治军事术语密集，且“正因为如此”构成因果倒置的强调，读者可能难以把握其论证重心。",
+        "parse": {
+          "claim": "苏维埃军队当前战斗力严重不足，这一严峻现实要求党的最高领导层必须在战争与和平问题上保持统一、明确的决策，不能存在路线分歧或折中方案。",
+          "qualifiers": "“最糟糕的是”限定了讨论的前提是军队状况这一最不利因素。",
+          "contrast_or_target": "针对党内主张拒绝和约、继续战争的“左派”观点，以及布哈林等人支持的某种不彻底的立场。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "本句通过揭示军队虚弱的现实，直接反驳党内反对签订和约的激进主张，并点名批评布哈林等人支持的“中间路线”，为中央委员会的坚定决策提供现实依据。"
+        },
+        "implication": "在军事力量处于绝对劣势时，任何路线上的犹豫或折中都可能带来灾难性后果，因此必须由中央集中做出决断。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "布哈林及支持“中间路线”的同志",
+      "their_view": "在是否签订和约的问题上，存在一种不彻底的、试图调和的立场，既不完全拒绝和约，也不完全接受列宁的主张。",
+      "author_response": "列宁认为，在军队状况糟糕的危急关头，这种“中间路线”是极其有害的，中央委员会必须采取一条坚定、明确的路线，即接受苛刻和约以换取喘息时机。",
+      "polemic_kind": "strategic_critique",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p63s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p63s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p63s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p63s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p63s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p63s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p63s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p63s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  }
+}

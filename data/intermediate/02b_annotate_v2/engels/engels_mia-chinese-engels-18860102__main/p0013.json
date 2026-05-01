@@ -1,0 +1,129 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 13,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "恩格斯直接回应李卜克内西的怀疑，指出其自身言行是党内分歧的根源，并批评其调和主义倾向。",
+    "importance_score": 2,
+    "importance_reason": "本段是恩格斯对李卜克内西个人的直接批评，支撑了全文关于党内斗争和原则性的核心论点。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对友人波克罕的介绍，恩格斯话锋一转，直接回应李卜克内西的怀疑，将讨论拉回对李卜克内西本人在党内斗争中立场的批评。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "威廉·李卜克内西",
+      "their_view": "恩格斯听信了关于我的流言蜚语，而我试图团结党内力量，包括那些有教养的分子，并弥合分歧。",
+      "author_response": "恩格斯指出，李卜克内西本人就是那些流言蜚语的来源，其试图争取“有教养的”分子和掩饰分歧的倾向，正是党内问题的根源。",
+      "polemic_kind": "strategic_critique",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p13s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p13s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p13s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p13s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "有教养的",
+            "type": "concept",
+            "modern": "党内那些受过教育、可能带有小资产阶级思想的成员",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "social_group_bourgeois_influenced"
+          }
+        ]
+      },
+      {
+        "sid": "p13s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "反动分子",
+            "type": "quote",
+            "modern": "李卜克内西后来用来指代党内反对派的用词",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p13s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p13s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p13s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p13s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p13s10",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 2,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_metaphor_14>8",
+        "note:n2_5gram_with_surface"
+      ]
+    }
+  ]
+}

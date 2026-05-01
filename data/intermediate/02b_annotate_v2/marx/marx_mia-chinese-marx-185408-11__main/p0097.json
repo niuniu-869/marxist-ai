@@ -1,0 +1,93 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 97,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段列举了对1812年西班牙宪法的两种主要批评：一种指责其为法国宪法的翻版，另一种批评其固守封建时代的旧制。",
+    "importance_score": 2,
+    "importance_reason": "本段通过呈现对宪法的两种对立批评，为后续分析1812年宪法的性质及其在西班牙革命中的地位提供了论辩背景。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对议会改革措施的叙述，转而分析这些改革成果（即1812年宪法）所遭遇的来自不同方向的攻击。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "斐迪南七世",
+        "explain": "西班牙波旁王朝国王，1814年复辟后废除了自由派制定的1812年宪法，恢复了专制统治。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "德·普腊德神甫",
+        "explain": "一位法国保皇派作家，其著作《现代的西班牙革命》从保守立场批评了西班牙的自由主义改革。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p97s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p97s2",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": [
+          {
+            "surface": "1791年的法国宪法",
+            "type": "work",
+            "modern": "法国大革命初期制定的君主立宪宪法，是早期资产阶级宪政的代表。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p97s3",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 2,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_5gram_with_surface",
+        "note:n2_circular_prefix",
+        "polemic:polemic_their_view_qualifier:错误地"
+      ]
+    }
+  ]
+}

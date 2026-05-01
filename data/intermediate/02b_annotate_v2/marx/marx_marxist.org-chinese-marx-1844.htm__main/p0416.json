@@ -1,0 +1,174 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 416,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "通过假设性提问，揭露国民经济学与道德的分裂，并指出其根源在于异化。",
+    "importance_score": 2,
+    "importance_reason": "本段是马克思对国民经济学进行道德批判的关键环节，通过具体例子和逻辑推演，揭示其理论体系内部的矛盾，并引入“异化”范畴作为解释框架。",
+    "argument_role": "continues",
+    "argument_link": "",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use | history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic | term_density",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "米歇尔·舍伐利埃",
+        "explain": "19世纪法国工程师、经济学家，曾批评李嘉图的经济学忽视道德。马克思在此引用他，用以展示当时学界对经济学与道德关系的争论。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "异化",
+        "explain": "马克思从黑格尔和费尔巴哈哲学中继承并改造的核心范畴。在本手稿中，指人的本质活动及其产物变成与人对立、支配人的异己力量。本段首次明确引入此概念解释社会领域的分裂。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "国民经济学（及其代表人物李嘉图、米歇尔·舍伐利埃）",
+      "their_view": "经济规律本身不涉及道德评判；道德是另一个独立领域的事。经济学家如李嘉图只需用经济学自己的语言说话，而道德家如舍伐利埃在讲道德时则撇开经济学。",
+      "author_response": "这种分离是虚假的、表面的。国民经济学与道德的对立本身是一种假象，国民经济学实际上是以自己的方式表现着道德规律，二者在异化的现实中是统一的。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p416s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p416s2",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": [
+          {
+            "surface": "X劳动时间",
+            "type": "slogan",
+            "modern": "19世纪法国工厂工人对卖淫收入的讽刺性称呼，暗指妻子女儿的身体也被计入劳动时间以换取工资。",
+            "highlight": "archaic",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p416s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p416s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p416s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p416s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p416s7",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": [
+          {
+            "surface": "异化",
+            "type": "concept",
+            "modern": "人的本质活动及其产物变成与人对立、支配人的异己力量的社会状态。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "alienation_early_marx"
+          }
+        ]
+      },
+      {
+        "sid": "p416s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p416s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p416s10",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p416s11",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p416s12",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p416s13",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p416s14",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p416s15",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 2,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 1
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

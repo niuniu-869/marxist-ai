@@ -1,0 +1,106 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 6,
+  "annotation": {
+    "block_type": "quote_block",
+    "gist": "本段引用伊罗生著作，批评斯大林-布哈林领导层在1926年要求中共遏抑农民运动的政策，并指出其后续指示存在自相矛盾。",
+    "importance_score": 2,
+    "importance_reason": "作为对斯大林政策的批判性引文，支撑了全文对共产国际中国政策的批评。",
+    "argument_role": "contrasts",
+    "argument_link": "本段引文与前一段提及的电报内容形成对照，揭示了该政策在执行与后续修正中的矛盾。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "共产国际第七次全会",
+        "explain": "1926年11-12月在莫斯科召开的共产国际执行委员会扩大全会。会议通过了关于中国问题的决议，但其具体指示内容与斯大林此前的电报要求存在张力。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "复式簿记之法",
+        "explain": "会计术语，指同时记录资产和负债的记账方法。此处用作比喻，讽刺共产国际的指示在字面上强调土地革命重要性，实际纲领却要求遏抑农民运动，如同账本上自相矛盾的记录。",
+        "why_needed": "allusion",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p6s1",
+        "quote": "但同时，他们藉复式簿记之法（这种记帐法现在共产国际中已成惯例）替中国共产党人拟就一个详明和具体的政纲，这一政纲要求中国共产党人愈益要遏抑几千百万农民的动乱的蜂起。",
+        "trigger": "inverted_logic",
+        "reader_block": "“复式簿记”比喻和“同时”一词构成反讽，读者需理解作者在揭露共产国际指示的自相矛盾：表面与实际要求相反。",
+        "parse": {
+          "claim": "共产国际在指示中一方面空泛肯定土地革命，另一方面却制定了具体政纲，要求中共进一步压制农民运动。",
+          "qualifiers": "此政纲是“详明和具体的”，与“空泛的字句”形成对比。",
+          "contrast_or_target": "共产国际第七次全会指示中“着重指出土地革命重要性”的空泛表述。"
+        },
+        "why": {
+          "relation": "contrasts",
+          "explanation": "本句通过“同时”一词，将共产国际指示中“空泛的字句”与“详明和具体的政纲”并列，揭露其在农民运动问题上言行不一的矛盾。"
+        },
+        "implication": "作者以此论证共产国际对华政策存在根本性的机会主义摇摆。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "斯大林——布哈林的领导机关",
+      "their_view": "为维持与国民党将军的统一战线，必须遏抑农民运动，以免破坏北伐军事进展。",
+      "author_response": "伊罗生指出，这一政策是错误的，且后续的修正指示（共产国际第七次全会决议）在字面上肯定土地革命，实际政纲却继续压制农民，体现了机会主义的自相矛盾。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p6s1",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": [
+          {
+            "surface": "共产国际第七次中全会",
+            "type": "event",
+            "modern": "1926年底召开的共产国际执行委员会扩大全会，会议决议涉及中国革命策略。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "复式簿记之法",
+            "type": "metaphor",
+            "modern": "作者用会计术语作比喻，讽刺共产国际的指示在原则表述与具体要求上自相矛盾。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 1,
+        "hs_kept": 1,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,199 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 9,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段逐条列举康普豪森执政期间的具体作为，旨在证明其政府实质上维护旧制度、为反革命服务。",
+    "importance_score": 2,
+    "importance_reason": "作为核心批判段落，通过具体史实支撑作者对普鲁士资产阶级妥协性的指控。",
+    "argument_role": "example",
+    "argument_link": "承接上段对康普豪森“史诗”破灭的讽刺，本段转而列举其具体执政行为，作为“破灭”的实证。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_density",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "allusion",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "波兹南战争与丹麦战争",
+        "explain": "1848年，普鲁士在波兹南（今波兰波兹南）镇压波兰起义，同时在石勒苏益格-荷尔斯泰因问题上与丹麦交战。马克思认为这两场战争目的不同，前者是镇压，后者是转移国内矛盾。",
+        "why_needed": "history_density",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "弗兰格尔将军与近卫军团",
+        "explain": "弗兰格尔是反革命军事首领，其指挥的近卫军团在1848年3月革命中被柏林民众驱逐。康普豪森政府通过丹麦战争为其恢复名誉，并使其重返柏林。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p9s7",
+        "quote": "对丹麦的战争无非是分散德国青年们的“过分的爱国激情”的避雷针，此外，这些青年在回国以后还受到了警察的应有的感化；",
+        "trigger": "allusion",
+        "reader_block": "“避雷针”是比喻，指用对外战争转移国内革命青年的注意力，防止其“激情”冲击国内秩序。读者可能不理解这个工业比喻在政治语境中的含义。",
+        "parse": {
+          "claim": "这场对外战争的主要功能是充当一个转移国内激进青年注意力的工具。",
+          "qualifiers": "针对的是德国青年中“过分的爱国激情”。",
+          "contrast_or_target": ""
+        },
+        "why": {
+          "relation": "example",
+          "explanation": "此句具体解释上句“在丹麦进行了战争”的真实目的，即服务于国内反革命议程，而非真正的民族利益。"
+        },
+        "implication": "资产阶级政府利用民族主义情绪来消解革命力量。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "康普豪森",
+      "their_view": "我们通过协商建立君主立宪制，推行间接选举等改良措施，是在拯救法制基础，领导革命走向有序。",
+      "author_response": "马克思列举其具体执政行为，指出这些措施实质上是为旧官僚、旧军队和反革命势力争取时间、恢复名誉，最终巩固了旧制度。",
+      "polemic_kind": "reveals_class_basis",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p9s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "间接选举制",
+            "type": "concept",
+            "modern": "一种选举制度，选民先选举代表，再由代表选举最终公职人员，此处指康普豪森政府推行的制度。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "electoral_system_bourgeois"
+          }
+        ]
+      },
+      {
+        "sid": "p9s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p9s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p9s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p9s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p9s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "波兹南",
+            "type": "place",
+            "modern": "当时普鲁士治下的波兰城市，1848年爆发波兰民族起义，遭普鲁士军队镇压。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "丹麦",
+            "type": "place",
+            "modern": "此处指因石勒苏益格-荷尔斯泰因归属问题与普鲁士发生的战争。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p9s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "避雷针",
+            "type": "metaphor",
+            "modern": "比喻用对外战争转移国内矛盾，防止革命青年的爱国热情转化为对内革命行动。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p9s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "弗兰格尔将军",
+            "type": "person",
+            "modern": "普鲁士反动军事将领，1848年革命期间率军镇压柏林起义。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "近卫军团",
+            "type": "org",
+            "modern": "普鲁士王室的精锐部队，在1848年3月革命中被柏林人民驱逐。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p9s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p9s10",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 6,
+        "notes_dropped": 3,
+        "hs_kept": 1,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "note:n1_overflow_concept_13>5",
+        "note:n2_circular_prefix",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

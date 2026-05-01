@@ -1,0 +1,70 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 150,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "描述1830年后政治失势的英法贵族，如何以替劳动阶级代言的姿态批判资产阶级，实则为自身利益复仇。",
+    "importance_score": 1,
+    "importance_reason": "延续上段对贵族政治失势的叙述，揭示其批判资产阶级的真实动机，为后文分析各种社会主义思潮的阶级背景做铺垫。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于贵族在1830年后政治失势的叙述，具体说明他们失势后采取的行动策略及其本质。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "贵族阶级",
+      "their_view": "我们同情被掠夺的劳动阶级，要声讨资本家的罪行，预言他们建立的社会必然破裂。",
+      "author_response": "贵族的批判是伪装，他们忘记自家利害是假，借批判新主人翁来为自己复仇是真。",
+      "polemic_kind": "reveals_class_basis",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p150s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "劳动阶级",
+            "type": "social_group",
+            "modern": "在19世纪欧洲语境下，主要指被剥夺生产资料、依靠出卖劳动力为生的产业工人。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p150s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

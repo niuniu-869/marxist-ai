@@ -1,0 +1,157 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 6,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "恩格斯评价拉萨尔的社会主义运动，指出其温和性质但承认其历史作用。",
+    "importance_score": 2,
+    "importance_reason": "本段是理解德国社会主义从思想融合到实践运动发展的关键过渡，为后续分析德国工人运动特点铺垫。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于1848年革命中思想融合的叙述，转向革命失败后德国社会主义的实践发展与新阶段起点。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "拉萨尔",
+      "their_view": "工人阶级的要求仅限于由国家资助成立生产合作社，以此作为社会主义的核心纲领。",
+      "author_response": "这种要求非常温和，与《共产党宣言》的革命主张不同，但拉萨尔的活动客观上发动了工人运动。",
+      "polemic_kind": "strategic_critique",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p6s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p6s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "拉萨尔",
+            "type": "person",
+            "modern": "斐迪南·拉萨尔，19世纪德国工人运动领袖，全德工人联合会创始人。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p6s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p6s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "生产合作社",
+            "type": "concept",
+            "modern": "拉萨尔主张的工人经济组织形式，由国家提供贷款建立，旨在摆脱资本剥削。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "labor_cooperative"
+          }
+        ]
+      },
+      {
+        "sid": "p6s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "《国民报》",
+            "type": "work",
+            "modern": "1848年革命前巴黎的一份共和派报纸，代表特定政治派别。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          },
+          {
+            "surface": "路易·勃朗",
+            "type": "person",
+            "modern": "法国社会主义者，主张通过国家组织“社会工场”实现社会主义。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "《劳动组织》",
+            "type": "work",
+            "modern": "路易·勃朗阐述其社会主义方案的著作。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p6s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p6s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p6s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "拉萨尔",
+            "type": "person",
+            "modern": "此处再次提及，强调其个人在发动运动中的作用。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p6s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 6,
+        "notes_dropped": 2,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

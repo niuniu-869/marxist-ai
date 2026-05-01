@@ -1,0 +1,115 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 131,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "马克思通过对比普鲁士资产阶级前后矛盾的说辞，讽刺其“钦定宪法”的虚伪性，并指出其本质是戒严。",
+    "importance_score": 2,
+    "importance_reason": "本段是马克思对普鲁士资产阶级宪法批判的核心例证，通过具体对比揭露其妥协本质。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段对“钦定宪法”的提问，本段直接给出答案并展开讽刺性对比。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "“一块纸片”说法",
+        "explain": "1848年普鲁士革命初期，资产阶级自由派曾宣称国王与人民之间不应有“一块纸片”（即成文宪法）作为隔阂，主张直接协商。马克思在此引用此语以对比其后来的立场。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "法国宪法第十四条",
+        "explain": "指1814年法国宪章第十四条，赋予国王在议会休会期间以“紧急法令”形式立法的权力，实质上架空了宪法。马克思用此作为“钦定宪法”自我否定的典型。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p131s1",
+        "quote": "好像过去曾经说过：在国王和他的人民之间绝不应有“一块纸片”[122]。",
+        "trigger": "inverted_logic",
+        "reader_block": "读者可能不理解“一块纸片”指代什么，以及为何“过去曾经说过”这句话在此出现，需要联系前文资产阶级立场的转变。",
+        "parse": {
+          "claim": "普鲁士资产阶级在革命初期曾主张，国王与人民之间不应存在任何成文的宪法作为隔阂。",
+          "qualifiers": "这是指革命初期（1848年3月后）资产阶级自由派的一种流行说法。",
+          "contrast_or_target": "普鲁士资产阶级（康普豪森等人）在革命初期的主张：反对成文宪法，主张与王权直接协商。"
+        },
+        "why": {
+          "relation": "contrasts",
+          "explanation": "此句与下一句形成直接对比，揭示普鲁士资产阶级在宪法问题上前后矛盾的立场，为后续批判其虚伪性做铺垫。"
+        },
+        "implication": null,
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      },
+      {
+        "anchor": "p131s5",
+        "quote": "而普鲁士钦定宪法的每一条都仿佛是它的第十四条。",
+        "trigger": "inverted_logic",
+        "reader_block": "读者需要理解法国宪法第十四条的特殊含义（赋予国王架空宪法的权力），才能明白马克思将普鲁士宪法每一条都比作第十四条的讽刺力度。",
+        "parse": {
+          "claim": "普鲁士这部由国王钦定的宪法，其所有条款都像法国宪法第十四条一样，具有自我否定、赋予国王无限权力的实质。",
+          "qualifiers": "这是对普鲁士钦定宪法整体性质的判断。",
+          "contrast_or_target": "普鲁士资产阶级所接受的、由国王钦定的宪法。"
+        },
+        "why": {
+          "relation": "conclusion",
+          "explanation": "这是对前文对比的总结性论断，将普鲁士宪法与法国历史上著名的专制条款类比，得出其本质是专制工具的结论。"
+        },
+        "implication": "普鲁士资产阶级所争取并接受的宪法，实质上是赋予国王无限权力的工具，与他们最初反对“纸片”的立场形成绝妙讽刺。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "普鲁士资产阶级（及其协商论）",
+      "their_view": "我们与国王之间不需要任何成文的宪法纸片，通过协商就能建立君主立宪秩序；我们最终接受的这部钦定宪法，是拯救法制基础的唯一途径。",
+      "author_response": "马克思揭露其前后矛盾：从反对“纸片”到接受一部每条都像法国专制条款的“纸片”，证明其宪法是虚伪的，普鲁士的真正宪法是戒严。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p131s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p131s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p131s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p131s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p131s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  }
+}

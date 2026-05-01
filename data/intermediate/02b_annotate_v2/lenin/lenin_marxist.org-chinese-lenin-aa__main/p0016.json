@@ -1,0 +1,102 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 16,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段列举并简要描述了巴黎公社内部的两个主要派别：布朗基主义者和蒲鲁东主义者。",
+    "importance_score": 1,
+    "importance_reason": "为理解公社内部构成提供背景信息，属于补充性叙述。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对公社起义过程的叙述，转而分析公社政权内部的派别构成。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "term_polysemy",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "布朗基主义者",
+        "explain": "19世纪法国社会主义流派，以革命家布朗基命名。他们主张通过少数革命家的密谋和暴力行动夺取政权，建立革命专政，但对无产阶级的独立阶级意识和组织形式认识不足。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "蒲鲁东主义者",
+        "explain": "以法国思想家蒲鲁东为代表的互助论流派。他们反对国家和政治革命，主张通过建立人民银行、合作社等互助组织，在资本主义框架内逐步实现社会改良和经济平等。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p16s2",
+        "quote": "早在1880年11月间，布朗基在《既没有上帝也没有老爷》一文中就谴责了阶级斗争的理论，并反对把无产阶级利益同民族利益分开（魏尔，229）（他没有把工人阶级同革命资产阶级分开）。",
+        "trigger": "term_polysemy",
+        "reader_block": "布朗基作为著名革命家，其“谴责阶级斗争理论”的表述与读者对马克思主义阶级斗争学说的普遍认知形成反差，易造成理解困惑。",
+        "parse": {
+          "claim": "布朗基不认同以阶级对立为核心的斗争理论，他主张将无产阶级的诉求与更广泛的民族利益相结合，且未明确区分工人阶级与具有革命性的资产阶级。",
+          "qualifiers": "这是布朗基在1880年发表的特定文章中的观点。",
+          "contrast_or_target": ""
+        },
+        "why": {
+          "relation": "example",
+          "explanation": "此句作为例证，具体说明布朗基主义者在理论上的一个特征，即其阶级观念的模糊性，这与马克思主义的阶级分析方法存在区别。"
+        },
+        "implication": "这暗示了布朗基主义者在领导公社时，可能缺乏清晰的无产阶级阶级立场和独立的革命策略。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p16s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p16s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p16s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 2,
+        "hs_kept": 1,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_6>5",
+        "note:n1_overflow_concept_6>5"
+      ]
+    }
+  ]
+}

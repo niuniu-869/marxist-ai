@@ -1,0 +1,79 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 527,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段批评青年黑格尔派批判家对黑格尔辩证法的处理方式，指出他们拘泥于黑格尔逻辑学而缺乏方法论自觉。",
+    "importance_score": 2,
+    "importance_reason": "本段通过具体例子揭示青年黑格尔派在方法论上的缺陷，为后续批判黑格尔辩证法做铺垫。",
+    "argument_role": "continues",
+    "argument_link": "本段承接上文对黑格尔辩证法的说明，转而批评现代德国批判家未能正确对待这一辩证法。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "施特劳斯和布鲁诺·鲍威尔",
+      "their_view": "施特劳斯和鲍威尔认为，批判应专注于黑格尔哲学的内容，而无需质疑其方法论基础。",
+      "author_response": "马克思指出，这种批判拘泥于材料，对方法本身采取非批判态度，未能正确处理黑格尔辩证法。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p527s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p527s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "施特劳斯",
+            "type": "person",
+            "modern": "大卫·施特劳斯，青年黑格尔派成员，著有《耶稣传》。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "《符类福音作者》",
+            "type": "work",
+            "modern": "鲍威尔的著作，讨论福音书的来源。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_5gram_with_surface",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

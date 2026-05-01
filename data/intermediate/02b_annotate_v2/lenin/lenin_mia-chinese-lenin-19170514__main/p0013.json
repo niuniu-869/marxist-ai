@@ -1,0 +1,107 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 13,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁论证理解战争必须联系战前政治，批判将战争归因于民族仇恨的简单化宣传。",
+    "importance_score": 3,
+    "importance_reason": "核心论点段，阐明列宁分析战争的方法论基础，即历史唯物主义对战争与政治关系的分析。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对资本主义集团竞争的描述，进一步提出分析方法：必须研究战前几十年的实际政治，才能理解当前战争的性质。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "米留可夫",
+        "explain": "帕维尔·米留可夫，俄国自由派政治家，时任临时政府外交部长。他代表资产阶级利益，主张继续参战以实现俄国的帝国主义目标，是列宁批判的“骗子”和沙文主义宣传的代表。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "克劳塞维茨",
+        "explain": "卡尔·冯·克劳塞维茨，普鲁士军事理论家，其著作《战争论》提出“战争是政治的继续”这一著名论断。列宁引用他来支持自己的观点，即战争不能脱离其政治根源来理解。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "米留可夫（及其代表的资产阶级临时政府宣传）",
+      "their_view": "战争是各民族从和睦相处突然转向互相厮杀的结果，与战前长期的政治经济竞争无关。",
+      "author_response": "列宁指出这是各地惯用的煽动手法，早在克劳塞维茨时代就被嘲笑；不联系战前政治就无法理解战争，这种宣传只会导致无谓的争吵。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p13s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p13s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p13s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p13s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p13s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p13s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p13s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 2,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

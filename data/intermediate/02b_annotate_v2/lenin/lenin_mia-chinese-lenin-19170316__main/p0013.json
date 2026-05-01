@@ -1,0 +1,119 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 13,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁批判齐赫泽及其朋友在革命后政治立场上的摇摆，指出他们有时执行无产阶级政策，有时又陷入机会主义，推行损害革命的资产阶级政策。",
+    "importance_score": 2,
+    "importance_reason": "这是对特定派别（齐赫泽及其朋友）的具体批判，是列宁分析革命后政治力量构成和批判机会主义路线的一部分。",
+    "argument_role": "contrasts",
+    "argument_link": "本段与上一段（“这是唯一真正社会主义的、真正革命的策略”）形成对比，通过批判齐赫泽派的摇摆不定，反衬出真正革命策略的必要性。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "allusion",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "路易·勃朗主义",
+        "explain": "指法国1848年革命时期社会主义者路易·勃朗的立场。他主张阶级合作，参与资产阶级临时政府，试图通过和平协商实现社会主义，结果导致工人运动失败。列宁用此词批判齐赫泽等人与资产阶级政府合作的政策。",
+        "why_needed": "allusion",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p13s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "齐赫泽",
+            "type": "person",
+            "modern": "尼古拉·齐赫泽，当时孟什维克派领袖之一，任彼得格勒苏维埃主席。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p13s2",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p13s3",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": [
+          {
+            "surface": "杜马委员会",
+            "type": "org",
+            "modern": "二月革命后，国家杜马临时委员会与彼得格勒苏维埃执行委员会共同组成，负责组建临时政府。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p13s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "涅佩宁",
+            "type": "person",
+            "modern": "阿列克谢·涅佩宁，沙俄海军上将，波罗的海舰队总司令，因拒绝执行革命水兵命令而被杀。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p13s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 3,
+        "notes_dropped": 4,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_6>5",
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix",
+        "note:n1_overflow_concept_7>5",
+        "hs:claim_5gram_with_quote",
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 42,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段反驳将“赤卫队式”斗争方法绝对化的观点，强调斗争策略应随形势变化，从以镇压为主转向以管理为主。",
+    "importance_score": 2,
+    "importance_reason": "核心论点段落，直接回应论敌对苏维埃政权斗争方法的责难，并阐明策略转变的必要性。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段关于管理方法与镇压方法关系的讨论，进一步论证斗争方法必须随历史条件变化而调整。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p42s7",
+        "quote": "可是，我们并不会如此愚蠢，竟在需要用赤卫队进攻的时代已经基本结束（而且已经胜利地结束），无产阶级国家政权利用资产阶级专家来重耕土壤，使它绝不能再生长任何资产阶级这种时代已经来到的时候，还把“赤卫队式的”方法摆在首要地位。",
+        "trigger": "inverted_logic",
+        "reader_block": "长句中嵌套双重否定（“并不会如此愚蠢，竟在……还把……”），且包含两个并列的时代条件，读者需要理清逻辑才能把握核心主张。",
+        "parse": {
+          "claim": "在革命暴力镇压阶段已基本完成、国家政权转向利用专家进行经济建设的新时代，继续将暴力镇压方法置于首位是愚蠢的。",
+          "qualifiers": "前提是“赤卫队进攻的时代已经基本结束”且“利用专家重耕土壤的时代已经来到”。",
+          "contrast_or_target": "反驳那些在形势已变后仍固守旧有斗争方法的主张。"
+        },
+        "why": {
+          "relation": "conclusion",
+          "explanation": "基于前文对形势变化的分析，得出结论：斗争重心必须从“赤卫队”式的镇压转向管理与建设。"
+        },
+        "implication": "无产阶级政权必须具备根据历史阶段调整主要任务和工作方法的能力。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "资产阶级的走狗（责骂苏维埃政权对资本采取“赤卫队式的”进攻者）",
+      "their_view": "苏维埃政权对资本的斗争只有“赤卫队式的”进攻这一种方法，且这种方法在任何时候都是不适当的。",
+      "author_response": "斗争方法是多样的，如同军队有轻骑兵也有重炮兵。镇压方法曾取得胜利，管理方法同样能取得胜利。形势变化了，斗争方法必须随之改变，但绝不放弃对反革命分子的镇压。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p42s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p42s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p42s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p42s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p42s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p42s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p42s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 1,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

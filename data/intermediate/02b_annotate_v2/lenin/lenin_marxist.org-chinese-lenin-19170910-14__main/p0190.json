@@ -1,0 +1,83 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 190,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁从法国大革命的历史经验出发，论证在20世纪的俄国，要实现国家防御和群众奇迹，必须进行彻底的经济革新，而不仅仅是政治变革或土地改革。",
+    "importance_score": 2,
+    "importance_reason": "支撑核心论点，将历史经验具体化为对俄国当前任务的判断，强调经济基础变革的优先性。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段关于法国大革命创造军事奇迹的论证，具体指出在20世纪的俄国，实现类似奇迹的条件是进行超越政治革命和土地改革的全面经济改造。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p190s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "雅各宾式的",
+            "type": "metaphor",
+            "modern": "源自法国大革命中雅各宾派的激进政策，作者用此指代为挽救危局而采取的彻底、果断的经济与社会改造手段。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p190s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p190s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p190s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 2,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "note:n1_overflow_concept_6>5"
+      ]
+    }
+  ]
+}

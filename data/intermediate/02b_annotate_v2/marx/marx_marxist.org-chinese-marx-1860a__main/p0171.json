@@ -1,0 +1,55 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 171,
+  "annotation": {
+    "block_type": "quote_block",
+    "gist": "引用巴枯宁的假设，将民族压迫与阶级压迫进行类比。",
+    "importance_score": 2,
+    "importance_reason": "引用巴枯宁的核心论点之一，为后续批判其民族观提供靶子。",
+    "argument_role": "contrasts",
+    "argument_link": "将上段讨论的阶级压迫逻辑，延伸至民族关系领域，形成类比。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "cross_ref",
+      "needs_polemic": true,
+      "polemic_reason": "refute_quotation"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "巴枯宁",
+      "their_view": "民族压迫与阶级压迫遵循同样的逻辑，一个民族的无产阶级胜利后，会像资产阶级压迫本国无产阶级那样，去压迫其他民族。",
+      "author_response": "马克思引用此假设，意在后续揭示巴枯宁理论中的民族主义残余。",
+      "polemic_kind": "counter_quotation",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p171s1",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

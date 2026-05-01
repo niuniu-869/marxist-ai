@@ -1,0 +1,75 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 92,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段论证苏维埃作为无产阶级革命新机构的必要性，并回顾其通过与资产阶级联合的实践而得到锻炼。",
+    "importance_score": 2,
+    "importance_reason": "本段通过回顾苏维埃的实践历程，论证其作为无产阶级革命工具的成熟性，为保持政权提供组织基础。",
+    "argument_role": "continues",
+    "argument_link": "本段承接上文对苏维埃早期形态的描述，转而分析其在1917年革命中通过参与联合政府而获得的实践经验。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "allusion",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "allusion",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "“涤罪所”宗教典故",
+        "explain": "源自天主教教义，指灵魂升入天堂前需经历的净化过程。列宁用此比喻苏维埃在参与资产阶级联合政府期间所经历的考验与磨砺。",
+        "why_needed": "allusion",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "策列铁里和切尔诺夫（社会革命党人）",
+      "their_view": "策列铁里和切尔诺夫认为，社会革命党与孟什维克加入联合政府是稳定局势、推进革命的必要步骤。",
+      "author_response": "列宁指出，这段联合历史恰恰是苏维埃摆脱小资产阶级幻想、认清资产阶级联合本质的“涤罪所”。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p92s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p92s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p92s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,140 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 57,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "斯大林通过反问，论证民族语言作为文化形式可服务于不同阶级内容，以此反驳语言具有阶级性的观点。",
+    "importance_score": 2,
+    "importance_reason": "本段是反驳语言阶级性论的核心论据之一，通过区分文化内容与形式来瓦解对方前提。",
+    "argument_role": "contrasts",
+    "argument_link": "承接上段对论敌歪曲列宁观点的批评，本段具体针对其“语言阶级性”主张展开反驳，指出其混淆了文化领导权与语言工具属性。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "民族文化形式",
+        "explain": "马克思主义认为，语言是民族文化的载体和表现形式，本身是中性的工具。它不专属于某个阶级，可以被不同阶级用来表达其文化内容。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p57s4",
+        "quote": "难道这些同志不知道，民族语言是民族文化的形式，民族语言既可以为资产阶级文化服务，也可以为社会主义文化服务吗？",
+        "trigger": "inverted_logic",
+        "reader_block": "双重否定反问句式，读者需先转换为肯定陈述才能理解其核心论点，即语言作为工具的中立性。",
+        "parse": {
+          "claim": "民族语言作为文化形式，本身不带有阶级属性，能够为不同阶级的文化内容服务。",
+          "qualifiers": "特指“民族语言”这一文化形式，而非文化内容本身。",
+          "contrast_or_target": "针对论敌认为语言本身具有阶级性的观点，指出其混淆了形式与内容。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "通过反问直接挑战论敌的前提，即语言与特定阶级文化绑定，从而为后续引用马克思主义公式做铺垫。"
+        },
+        "implication": "若语言本身有阶级性，则无法解释同一民族语言如何能承载性质对立的文化内容。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      },
+      {
+        "anchor": "p57s5",
+        "quote": "难道这些同志不知道马克思主义者的一个有名的公式：现在的俄罗斯、乌克兰、白俄罗斯等等的文化，按其内容是社会主义的，按其形式即按其语言是民族的？",
+        "trigger": "inverted_logic",
+        "reader_block": "反问句式包裹一个经典公式，读者需识别出这是在用权威论断来终结争论，而非提出新论点。",
+        "parse": {
+          "claim": "社会主义文化在内容上是新的，但在表现形式上仍采用现有的民族语言。",
+          "qualifiers": "特指“现在的”苏维埃多民族国家语境下的文化建设。",
+          "contrast_or_target": "针对论敌可能认为社会主义文化必须创造全新语言或语言本身必须变革的隐含前提。"
+        },
+        "why": {
+          "relation": "example",
+          "explanation": "引用一个公认的马克思主义公式作为权威例证，以支撑上一句关于语言工具中立性的论断，使反驳更具说服力。"
+        },
+        "implication": "文化革命不等于语言革命，语言形式的稳定性与内容的革命性可以并存。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "语言阶级性论",
+      "their_view": "语言从来就是阶级的语言，民族语言本身带有阶级属性，不存在全民的、统一的民族语言。",
+      "author_response": "民族语言是文化的中性形式，可以为不同阶级的文化内容服务，其本身不具有阶级性。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p57s1",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": [
+          {
+            "surface": "斯大林全集",
+            "type": "work",
+            "modern": "斯大林个人著作的官方汇编，此处引用其早期关于民族问题的论述。",
+            "highlight": "quote",
+            "confidence": "high",
+            "source_basis": "metadata"
+          }
+        ]
+      },
+      {
+        "sid": "p57s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p57s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p57s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p57s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p57s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 2,
+        "hs_kept": 2,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_6>5",
+        "note:n1_overflow_concept_6>5"
+      ]
+    }
+  ]
+}

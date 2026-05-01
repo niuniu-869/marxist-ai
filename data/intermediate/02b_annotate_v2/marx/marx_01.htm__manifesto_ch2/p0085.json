@@ -1,0 +1,108 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 85,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "阐述无产阶级革命的最终目标：消灭阶级差别，使公共权力失去政治性质，从而也消灭无产阶级自身的统治。",
+    "importance_score": 3,
+    "importance_reason": "核心论点，阐明了无产阶级革命的最终目的和国家消亡的逻辑，是《宣言》理论框架的关键结论。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于无产阶级革命具体措施的论述，转向阐述这些措施所指向的最终社会状态与政治结果。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "联合起来的个人",
+        "explain": "指未来共产主义社会中，生产资料归全社会共同所有，生产由联合起来的全体社会成员共同管理的状态。1888年英文版将其明确为“巨大的全国联合体”，强调其规模与组织性。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p85s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p85s2",
+        "speaker": "editor",
+        "stance": "neutral_citation",
+        "notes": []
+      },
+      {
+        "sid": "p85s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "政治权力",
+            "type": "concept",
+            "modern": "在阶级社会中，国家作为阶级压迫工具所体现的强制力。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "state_marxist_theory"
+          }
+        ]
+      },
+      {
+        "sid": "p85s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "生产关系",
+            "type": "concept",
+            "modern": "人们在物质生产过程中形成的社会关系，核心是生产资料所有制。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "relations_of_production"
+          }
+        ]
+      },
+      {
+        "sid": "p85s5",
+        "speaker": "editor",
+        "stance": "neutral_citation",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_7>5",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

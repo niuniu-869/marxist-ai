@@ -1,0 +1,66 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 19,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段呈现为一个不完整的文本片段，可能由于排版或OCR问题导致内容缺失。",
+    "importance_score": 0,
+    "importance_reason": "文本不完整，无法判断其在全文论证中的实际角色。",
+    "argument_role": "none",
+    "argument_link": null,
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "text_anomaly",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "text_anomaly",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "文本异常",
+        "explain": "当前呈现的句子仅为“5．决不能……”，这是一个不完整的片段。这很可能是原始文献排版残留、OCR识别错误或编辑过程中的疏漏，导致后续内容丢失。",
+        "why_needed": "text_anomaly",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p19s1",
+        "quote": "5．决不能……",
+        "trigger": "text_anomaly",
+        "reader_block": "句子以省略号结尾，内容不完整，读者无法理解其完整主张或论证指向。",
+        "parse": {
+          "claim": "文本在此处中断，无法提取完整论断。",
+          "qualifiers": "无",
+          "contrast_or_target": "无"
+        },
+        "why": {
+          "relation": "none",
+          "explanation": ""
+        },
+        "implication": "无法基于此不完整片段进行任何推论。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p19s1",
+        "speaker": "unknown",
+        "stance": "neutral_citation",
+        "notes": []
+      }
+    ]
+  }
+}

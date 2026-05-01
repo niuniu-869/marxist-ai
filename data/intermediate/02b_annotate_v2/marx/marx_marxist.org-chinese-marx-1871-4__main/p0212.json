@@ -1,0 +1,75 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 212,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段通过讽刺性绰号描述加利费将军的个人背景，揭露其虚伪品格。",
+    "importance_score": 1,
+    "importance_reason": "本段作为对加利费个人形象的补充刻画，间接批判凡尔赛政府将领。",
+    "argument_role": "continues",
+    "argument_link": "本段承接上段对加利费挑选囚犯行为的描述，通过绰号进一步强化对其反面形象的讽刺。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "allusion",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "allusion",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "毕斯托军曹典故",
+        "explain": "出自莎士比亚《亨利四世》，是一个吹牛、胆怯的军曹形象，马克思用此讽刺加利费的虚张声势。",
+        "why_needed": "allusion",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p212s1",
+        "quote": "这位加利费，即“靠自己那位因在第二帝国闹宴上无耻卖弄色相而出名的妻子吃饭的人”，在战时曾有法国的“毕斯托军曹”之称。",
+        "trigger": "allusion",
+        "reader_block": "读者可能不熟悉“毕斯托军曹”这个文学角色，不知道其含义，导致无法理解讽刺。",
+        "parse": {
+          "claim": "加利费在战争中被比作一个文学中的懦弱吹牛角色。",
+          "qualifiers": "",
+          "contrast_or_target": ""
+        },
+        "why": {
+          "relation": "continues",
+          "explanation": "本句承接上段对加利费行为的描述，通过绰号进一步刻画其虚伪和懦弱的品格。"
+        },
+        "implication": null,
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p212s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "毕斯托军曹",
+            "type": "metaphor",
+            "modern": "莎士比亚戏剧《亨利四世》中的角色，以吹牛和懦弱著称，马克思用此讽刺加利费的虚伪。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 80,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "介绍格鲁吉亚联邦主义党的成立背景、成员构成及其核心政治诉求，并指出其在反动时期的政治立场转变。",
+    "importance_score": 1,
+    "importance_reason": "提供格鲁吉亚联邦主义运动的具体背景，为后文批判其政治立场做铺垫。",
+    "argument_role": "continues",
+    "argument_link": "具体化上一段提到的联邦主义选择，以格鲁吉亚联邦主义党为例展示其组织形态和政治诉求。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p80s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "格鲁吉亚联邦主义党",
+            "type": "org",
+            "modern": "1904年在日内瓦成立的、主张格鲁吉亚民族自治的政治团体。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p80s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "民族自治",
+            "type": "concept",
+            "modern": "在保留于俄国版图内的前提下，要求本民族在政治、文化等方面享有自我管理的权利。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "national_autonomy_federalist"
+          }
+        ]
+      },
+      {
+        "sid": "p80s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_5gram_with_surface"
+      ]
+    }
+  ]
+}

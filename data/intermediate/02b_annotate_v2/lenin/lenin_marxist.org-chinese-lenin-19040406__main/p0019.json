@@ -1,0 +1,86 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 19,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段引用立宪民主党报刊的报道，揭示其内部对民族自决问题的分歧与真实立场。",
+    "importance_score": 2,
+    "importance_reason": "通过引用论敌报刊原文，为后续批判提供直接证据，是论证的关键环节。",
+    "argument_role": "example",
+    "argument_link": "承接上段对立宪民主党会议的报道，具体展开其在民族问题上的讨论内容，为揭露其立场提供材料。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "民族政治自决",
+        "explain": "指各民族有权决定自身政治命运，包括分离和建立独立国家的权利。这是当时俄国社会民主党（包括布尔什维克）的纲领性主张，但遭到立宪民主党等自由派的反对。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "科科什金 / 立宪民主党",
+      "their_view": "民族自决是一个过于灵活、危险的公式，基于纲领和历史经验，必须对其持非常谨慎的态度，因为它可能导致国家瓦解。",
+      "author_response": "列宁通过引用其报刊原文，揭露立宪民主党在民族问题上与沙皇政府的压迫政策实质一致，其“谨慎”是维护大俄罗斯人特权的托词。",
+      "polemic_kind": "counter_quotation",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p19s1",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p19s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p19s3",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": [
+          {
+            "surface": "国家的瓦解",
+            "type": "concept",
+            "modern": "立宪民主党反对民族自决的核心理由，担心允许民族分离会导致俄国领土与政权分裂。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "state_disintegration"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_6>5",
+        "hs:eval_word:claim:极为"
+      ]
+    }
+  ]
+}

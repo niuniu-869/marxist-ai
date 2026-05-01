@@ -1,0 +1,157 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 22,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "斯大林以上海问题为例，反驳拉狄克立即起义的主张，论证保存工人力量以待决战时机的必要性。",
+    "importance_score": 2,
+    "importance_reason": "本段是支撑核心论点的关键例证，具体阐释了共产国际中国政策的战略考量，并直接反驳反对派的激进主张。",
+    "argument_role": "example",
+    "argument_link": "本段承接上段对拉狄克错误的定性，以上海起义这一具体议题为例，详细论证其主张为何是“愚蠢的”和“犯罪的”。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "allusion, inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "南京枪击事件",
+        "explain": "指1927年3月24日，英美等国军舰炮轰南京的事件。此事件加剧了帝国主义与中国革命的矛盾，也使国共合作内部的紧张关系进一步升级。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "巴黎公社",
+        "explain": "1871年巴黎工人阶级起义后建立的短暂革命政权，最终被资产阶级政府血腥镇压。在共产主义话语中，它常被用作无产阶级革命首次尝试的象征，也作为过早决战导致失败的教训。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p22s8",
+        "quote": "我们不希望上海工人组织巴黎公社那样的流血行动。",
+        "trigger": "allusion",
+        "reader_block": "读者若不了解“巴黎公社”的历史及其在共产主义传统中的象征意义，将无法理解此处类比的严重性与警示意图。",
+        "parse": {
+          "claim": "共产国际不主张上海工人发动类似巴黎公社的武装起义。",
+          "qualifiers": "针对当时上海的具体形势。",
+          "contrast_or_target": "拉狄克主张上海人民应立即起义，武装推翻帝国主义。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "通过援引巴黎公社失败的历史教训，具体反驳拉狄克立即起义的主张，强调避免无谓牺牲的战略考量。"
+        },
+        "implication": "暗示拉狄克的主张可能重蹈历史覆辙，导致革命力量被毁灭。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      },
+      {
+        "anchor": "p22s10",
+        "quote": "我想问：决战刚刚开始就让这个推动力遭到毁灭，难道是明智的吗？",
+        "trigger": "inverted_logic",
+        "reader_block": "反问句式，读者需要将其还原为肯定陈述才能准确把握其论断的强度和指向。",
+        "parse": {
+          "claim": "在决战初期就让作为革命根本推动力的上海工人阶级力量被毁灭，绝非明智之举。",
+          "qualifiers": "限定于“决战刚刚开始”这一特定阶段。",
+          "contrast_or_target": "拉狄克主张立即在上海举行决战。"
+        },
+        "why": {
+          "relation": "conclusion",
+          "explanation": "以反问形式强化结论，指出拉狄克主张的实质后果是毁灭革命的核心力量，从而论证其主张的错误性。"
+        },
+        "implication": "将保存工人力量提升到关乎中国革命成败的战略高度。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "拉狄克",
+      "their_view": "上海人民应当立即起义，武装推翻帝国主义。",
+      "author_response": "这种主张是愚蠢的，会导致作为革命根本推动力的上海工人阶级力量过早毁灭，形同犯罪。正确的策略是让工人稳住，为以后的决战保存力量。",
+      "polemic_kind": "strategic_critique",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p22s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p22s2",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p22s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p22s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p22s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p22s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p22s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p22s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p22s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p22s10",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p22s11",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p22s12",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  }
+}

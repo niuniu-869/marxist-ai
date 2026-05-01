@@ -1,0 +1,148 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 14,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁批判社会革命党人“立即”消灭剥削的主张是空想，强调社会主义必须与阶级斗争结合，并具体分析俄国存在的两种不同性质的斗争。",
+    "importance_score": 3,
+    "importance_reason": "核心论点段落，直接阐明科学社会主义与空想社会主义的根本区别，并应用于俄国具体革命形势分析。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对社会革命党人观点的引用，本段直接对其核心主张——“立即”消灭剥削——进行定性和批判，并展开论证。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "农民村社",
+        "explain": "指沙俄时期农村的集体土地占有形式，村社成员共同拥有土地并定期重分。民粹派和部分社会革命党人视其为天然的社会主义萌芽，可绕过资本主义直接过渡到社会主义。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p14s3",
+        "quote": "但是，在全世界千百万被剥削者联合起来进行彻底的、坚决的、全面的斗争，以争取按照资本主义社会自身的发展方向来改变这个社会以前，这样的愿望只是愿望而已。",
+        "trigger": "long_nested",
+        "reader_block": "句子结构复杂，条件状语从句（“在……以前”）过长，且包含“按照资本主义社会自身的发展方向来改变这个社会”这一抽象表述，读者容易迷失主句“愿望只是愿望而已”的核心论断。",
+        "parse": {
+          "claim": "在缺乏有组织的、全球范围的被剥削者阶级斗争来推动社会变革的情况下，单纯渴望消灭剥削无法成为现实的运动。",
+          "qualifiers": "条件限定于“在全世界千百万被剥削者联合起来……以前”；变革方式限定于“按照资本主义社会自身的发展方向”。",
+          "contrast_or_target": "社会革命党人认为可以脱离长期的、有组织的阶级斗争，通过某种“立即”的行动实现社会主义。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "本句直接反驳社会革命党人“立即”行动的幻想，指出其脱离了现实的阶级斗争条件，将社会主义降格为空想。"
+        },
+        "implication": "列宁在此确立了科学社会主义的实践标准：社会主义运动必须建立在现实的阶级力量对比和斗争基础上，而非主观愿望。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p14s1",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p14s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p14s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p14s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "科学社会主义",
+            "type": "concept",
+            "modern": "马克思创立的、以唯物史观和剩余价值学说为基础的社会主义理论，区别于空想社会主义。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "socialism_scientific"
+          }
+        ]
+      },
+      {
+        "sid": "p14s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p14s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p14s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p14s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p14s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p14s10",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 2,
+        "hs_kept": 1,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_8>5",
+        "note:n1_overflow_concept_6>5",
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

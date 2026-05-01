@@ -1,0 +1,120 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 14,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁揭露自由派资产阶级在专制制度与革命人民之间投机渔利的策略，并点明其理论来源。",
+    "importance_score": 2,
+    "importance_reason": "本段是核心批判的具体展开，揭示了自由派策略的运作机制与阶级本质。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对自由派政权划分方案的批判，本段具体剖析其如何通过“渔利”手段来实现这种划分。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "维特记事",
+        "explain": "指沙皇大臣维特的回忆录，司徒卢威为其作序。列宁在此引用序言内容，以证明自由派策略早有预谋。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p14s5",
+        "quote": "应该在这两者之间随机应变，依靠革命人民（用“民主主义”引诱它）反对专制制度，依靠君主制反对革命人民的“极端行为”。",
+        "trigger": "long_nested",
+        "reader_block": "句子包含两个并列的“依靠”结构，且第二个“依靠”内部又嵌套了目的状语，读者容易混淆其主客体关系。",
+        "parse": {
+          "claim": "自由派的策略是：在斗争双方间灵活摇摆，利用一方打击另一方。",
+          "qualifiers": "具体而言，是利用革命人民打击专制制度，同时利用君主制打击革命人民。",
+          "contrast_or_target": "自由派主张在沙皇与人民之间搞调和，而非彻底革命。"
+        },
+        "why": {
+          "relation": "example",
+          "explanation": "本句具体阐释了上句“坐收渔利”的操作方法，是“渔利”策略的行动蓝图。"
+        },
+        "implication": "这种策略将革命力量视为可利用的工具，而非真正的同盟，暴露了其机会主义本质。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      },
+      {
+        "anchor": "p14s7",
+        "quote": "主要应当依靠谁，这要视时机而定——这就是商人的，不，是“现实”政治的本质。",
+        "trigger": "inverted_logic",
+        "reader_block": "作者先说“商人的”，随即改口为“现实”政治，这种自我修正构成反讽，暗示“现实政治”就是商人式的投机算计。",
+        "parse": {
+          "claim": "自由派政治的核心原则是根据形势变化选择依附对象，以谋取最大利益。",
+          "qualifiers": "这种选择完全基于时机和利益计算，而非原则。",
+          "contrast_or_target": "与无产阶级坚持的、有原则的革命立场形成对比。"
+        },
+        "why": {
+          "relation": "conclusion",
+          "explanation": "本句是对自由派“渔利”策略本质的总结性论断，将其定性为一种机会主义的、非原则性的政治。"
+        },
+        "implication": "将“现实政治”等同于“商人”政治，揭示了其资产阶级的阶级属性。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "彼·司徒卢威",
+      "their_view": "温和派总是能从极端派之间斗争的激化中获得好处。自由派应在沙皇与人民之间随机应变，利用一方反对另一方，以确保自身利益。",
+      "author_response": "列宁指出，这种“渔利”策略是自由派资产阶级的典型手法，其本质是商人式的投机，而非真正的革命或民主。",
+      "polemic_kind": "reveals_class_basis",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p14s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p14s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p14s3",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p14s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p14s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p14s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p14s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  }
+}

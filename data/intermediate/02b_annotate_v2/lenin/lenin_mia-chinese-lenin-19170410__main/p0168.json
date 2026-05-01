@@ -1,0 +1,81 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 168,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁阐述新生苏维埃政权作为国家的必要性，强调其必须依靠武装力量和严格秩序来镇压反革命势力。",
+    "importance_score": 2,
+    "importance_reason": "本段承接上文对国家本质的论述，具体说明无产阶级新国家的暴力镇压职能，是核心论点的支撑。",
+    "argument_role": "continues",
+    "argument_link": "本段延续上段关于国家由武装队伍控制群众的定义，将一般国家理论应用于革命后的新政权。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "古契柯夫",
+        "explain": "古契柯夫是二月革命后资产阶级临时政府的军事部长，代表资产阶级利益，与列宁所指的反革命势力相关。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "国家的马克思主义定义",
+        "explain": "在马克思主义理论中，国家是阶级统治的工具，通过武装力量维持秩序。列宁在此强调新国家同样具备这一本质。",
+        "why_needed": "term_polysemy",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p168s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "国家",
+            "type": "concept",
+            "modern": "马克思主义理论中阶级统治的暴力工具",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "state_marxist_theory"
+          },
+          {
+            "surface": "古契柯夫－资产阶级",
+            "type": "social_group",
+            "modern": "二月革命后临时政府中以古契柯夫为代表的资产阶级势力",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "反革命",
+            "type": "concept",
+            "modern": "反对无产阶级革命的势力和行动",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "counterrevolution_marxist"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 172,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁批判“民主”一词在共产党语境下的不科学性，并指出它在二月革命后已成为阻碍人民建设苏维埃政权的思想障碍。",
+    "importance_score": 2,
+    "importance_reason": "核心批判段落，直接挑战当时流行的“民主”话语，为提出苏维埃作为唯一政权形式扫清概念障碍。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对“武装的人民不能自己统治自己”的论述，进一步指出“民主”概念本身如何妨碍了对新政权形式的认识。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_polysemy",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "“民主”概念的特定批判",
+        "explain": "列宁并非反对民主本身，而是批判“民主”一词在当时被机会主义者（如考茨基）用来模糊阶级斗争焦点，掩盖资产阶级民主的实质，从而阻碍无产阶级建立自己的专政形式。",
+        "why_needed": "term_polysemy",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p172s1",
+        "quote": "民主这个词用于共产党，不仅仅在科学上不正确。",
+        "trigger": "inverted_logic",
+        "reader_block": "读者通常认为共产党是民主的倡导者，此处列宁却说“民主”一词用于共产党“不正确”，构成认知反差，需要理解其特定批判语境。",
+        "parse": {
+          "claim": "将“民主”作为共产党或其纲领的核心标签，在理论上存在根本缺陷。",
+          "qualifiers": "特指在1917年俄国革命的具体语境下，以及针对当时流行的对“民主”的理解。",
+          "contrast_or_target": "针对那些主张以建立“民主共和国”或“民主制度”为革命首要目标的派别（如孟什维克、社会革命党）。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "此句开启对“民主”话语的批判，直接反驳将革命目标等同于资产阶级民主框架的观点，为后文提出苏维埃这一新形式做铺垫。"
+        },
+        "implication": "共产党需要更精确、更具阶级性的术语来定义自己的目标和政权形式，而非沿用模糊的“民主”口号。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "小资产阶级机会主义（社会革命党、孟什维克）及第二国际理论家（如考茨基）",
+      "their_view": "革命的任务是建立一个普遍的、全民的“民主”制度或共和国，这是社会进步的共同阶段。",
+      "author_response": "“民主”一词在当前语境下具有欺骗性，它掩盖了政权的阶级实质，并阻碍无产阶级和农民直接掌握全部政权（即苏维埃）。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p172s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p172s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "苏维埃",
+            "type": "concept",
+            "modern": "1905年革命中出现、1917年二月革命后广泛发展的工兵代表会议，列宁视其为无产阶级专政的现成形式。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "soviet_as_proletarian_state"
+          },
+          {
+            "surface": "国家消亡",
+            "type": "concept",
+            "modern": "马克思主义理论认为，当阶级差别消失后，作为阶级压迫工具的国家将失去存在必要而自行消亡。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "withering_away_of_the_state"
+          }
+        ]
+      }
+    ]
+  }
+}

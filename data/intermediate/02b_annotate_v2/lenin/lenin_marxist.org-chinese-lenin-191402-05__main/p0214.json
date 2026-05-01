@@ -1,0 +1,123 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 214,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁论证俄国社会民主党文件明确将民族自决权等同于分离权，并引用普列汉诺夫的话反驳机会主义者的质疑。",
+    "importance_score": 2,
+    "importance_reason": "本段通过引用历史文件和权威人物，为民族自决权的定义提供证据，反驳党内反对意见。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对党纲讨论必要性的引出，本段直接展示文件内容和早期论述，以澄清自决权的含义。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "谢姆柯夫斯基等人",
+        "explain": "他们是俄国社会民主党内的机会主义者，反对党纲中的民族自决权条款，认为其不清楚或过时。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "党纲第九条",
+        "explain": "指1903年俄国社会民主党第二次代表大会通过的党纲中关于民族自决权的条款，即允许各民族有分离和建立独立国家的权利。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "普列汉诺夫",
+        "explain": "格奥尔基·普列汉诺夫，俄国马克思主义先驱，早期与列宁合作，在1902年支持民族自决权。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p214s4",
+        "quote": "普列汉诺夫写道：“如果我们把它忘记了，或者不敢把它提出来，唯恐触犯我们大俄罗斯同胞的民族偏见，那末我们口里所喊的‘全世界无产者，联合起来！’……就会成为一句可耻的谎言……”[46]",
+        "trigger": "inverted_logic",
+        "reader_block": "双重否定和条件句结构，读者可能混淆逻辑，误以为列宁在否定国际主义口号本身。",
+        "parse": {
+          "claim": "放弃民族自决权原则会使国际主义口号沦为空洞的谎言。",
+          "qualifiers": "对于社会民主党人来说，如果出于民族偏见而回避这一原则。",
+          "contrast_or_target": "那些担心触犯大俄罗斯民族偏见而不敢坚持自决权的人。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "普列汉诺夫的话被列宁用来反驳机会主义者，强调坚持民族自决权对保持国际主义一致性的必要性。"
+        },
+        "implication": "因此，民族自决权不是可有可无的，而是无产阶级国际主义的试金石。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p214s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p214s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p214s3",
+        "speaker": "quoted_opponent",
+        "stance": "endorsed",
+        "notes": []
+      },
+      {
+        "sid": "p214s4",
+        "speaker": "quoted_opponent",
+        "stance": "endorsed",
+        "notes": [
+          {
+            "surface": "全世界无产者，联合起来！",
+            "type": "slogan",
+            "modern": "国际共产主义运动的著名口号，强调无产阶级的国际团结。",
+            "highlight": "slogan",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 0,
+        "hs_kept": 1,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

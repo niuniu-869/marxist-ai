@@ -1,0 +1,76 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 23,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁批判某些关于战争和革命的论调为谎言，并呼吁从空谈转向实际行动。",
+    "importance_score": 2,
+    "importance_reason": "这是对“革命护国主义”等错误路线的直接批判，为提出新路线做铺垫。",
+    "argument_role": "continues",
+    "argument_link": "延续上一段对空洞要求的批判，进一步揭露其理论错误并呼吁行动。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "革命护国主义",
+      "their_view": "认为在临时政府领导下保卫祖国是正当的，战争是出于自卫而非侵略。",
+      "author_response": "列宁指出这种论调完全违背科学分析，是必须抛弃的谎言。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p23s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "弥天大谎",
+            "type": "metaphor",
+            "modern": "列宁用此强烈措辞形容某些关于战争性质的论调完全违背事实。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p23s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p23s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_archaic_5>4"
+      ]
+    }
+  ]
+}

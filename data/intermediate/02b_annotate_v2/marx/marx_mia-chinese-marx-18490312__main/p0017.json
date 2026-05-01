@@ -1,0 +1,103 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 17,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "马克思通过反讽手法，批判普鲁士政府以保护宗教为名的立法虚伪性。",
+    "importance_score": 2,
+    "importance_reason": "作为对法案第二条的具体批判，通过揭露其内在矛盾来支撑对整个法案专制本质的论断。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对法案第一条的批判，本段转向第二条，继续揭露其以维护秩序为名、行压制之实的逻辑。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "钦定宪法",
+        "explain": "指1848年普鲁士国王颁布的宪法。它名义上保障公民权利，但实际维护王权，是马克思批判的“伪自由主义”法律的代表。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p17s2",
+        "quote": "根据钦定宪法，甚至土耳其人和多神教徒也都算是合法存在的宗教团体！",
+        "trigger": "inverted_logic",
+        "reader_block": "括号内是马克思的反讽插入语。读者若不理解其讽刺意图，会误以为这是对宪法的正面描述，而非揭露其荒谬性。",
+        "parse": {
+          "claim": "普鲁士宪法自身将所有宗教团体（包括非主流信仰）都定义为合法存在。",
+          "qualifiers": "此定义是依据普鲁士国王钦定的宪法文本。",
+          "contrast_or_target": "政府法案声称要保护“合法宗教团体”免受仇恨言论，但其定义本身已宽泛到荒谬的程度，使得保护对象失去意义。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "此句通过引用法案所依据的宪法条文，揭示其保护对象的定义过于宽泛，从而暴露法案条文在逻辑上的空洞和虚伪，服务于对政府立法的批判。"
+        },
+        "implication": "法案试图划定的保护范围，实际上因宪法自身的定义而变得无法界定，这削弱了法案作为严肃法律工具的正当性。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p17s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p17s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "钦定宪法",
+            "type": "event",
+            "modern": "1848年普鲁士国王颁布的宪法，名义上确立君主立宪，实则维护王权，是马克思批判的“伪自由主义”法律文本。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p17s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 0,
+        "hs_kept": 1,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

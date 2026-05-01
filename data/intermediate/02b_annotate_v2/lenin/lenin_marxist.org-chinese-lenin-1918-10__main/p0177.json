@@ -1,0 +1,100 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 177,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁揭露考茨基在论证中陷入自相矛盾：他既重复俄国未成熟的论据，又不敢否认欧洲的成熟，导致逻辑上的荒谬结论。",
+    "importance_score": 2,
+    "importance_reason": "本段通过揭露考茨基论证的自相矛盾，支撑了对其机会主义的批判。",
+    "argument_role": "contrasts",
+    "argument_link": "本段承接上段对资产阶级民主的批判，转而揭露考茨基在论证无产阶级专政问题时的自相矛盾。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "马尔托夫",
+        "explain": "孟什维克领袖，主张俄国资本主义未充分发展，反对立即进行社会主义革命。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "考茨基",
+      "their_view": "考茨基重复马尔托夫的论据，认为俄国未成熟到社会主义，但又不敢否认欧洲已成熟，导致其结论自相矛盾：既承认欧洲走向决战，又反对将无产阶级组织变为国家组织。",
+      "author_response": "列宁指出这种矛盾是小资产阶级愚蠢和怯懦的体现，揭露了考茨基机会主义立场的逻辑破产。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p177s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p177s2",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p177s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p177s4",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p177s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p177s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p177s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 2,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

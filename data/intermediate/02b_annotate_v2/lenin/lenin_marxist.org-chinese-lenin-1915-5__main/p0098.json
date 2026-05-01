@@ -1,0 +1,180 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 98,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "通过列举欧洲多国社会党内部机会主义与国际主义的对立，论证第二国际破产的普遍性与阶级根源。",
+    "importance_score": 2,
+    "importance_reason": "用多国实例支撑前段关于机会主义与沙文主义结合的论点，展示第二国际破产的普遍性。",
+    "argument_role": "example",
+    "argument_link": "承接上段以意大利为例的论证，扩展至更多欧洲国家，展示机会主义与国际主义对立的普遍性。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "机会主义者（特鲁尔斯特拉、布兰亭、格雷利希等）",
+      "their_view": "对沙文主义采取调和态度，为德国社会民主党辩护，斥责批评者为叛徒。",
+      "author_response": "指出他们背叛国际主义，而各国都有真正的国际主义者在坚持斗争，揭露其压制国际主义声音的行为。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p98s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "特鲁尔斯特拉",
+            "type": "person",
+            "modern": "荷兰社会民主党领袖，其政党在战争中持机会主义立场。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p98s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "哥尔特",
+            "type": "person",
+            "modern": "荷兰马克思主义者，反战的左派领袖。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "潘涅库克",
+            "type": "person",
+            "modern": "荷兰马克思主义理论家，与哥尔特同属左派。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p98s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "布兰亭",
+            "type": "person",
+            "modern": "瑞典社会民主党领袖，机会主义代表。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "霍格伦",
+            "type": "person",
+            "modern": "瑞典社会民主党左派领袖，持反战立场。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p98s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "紧密派",
+            "type": "org",
+            "modern": "保加利亚社会民主党左派，反对机会主义。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p98s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "格雷利希",
+            "type": "person",
+            "modern": "瑞士社会民主党机会主义领袖。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "罗·格里姆",
+            "type": "person",
+            "modern": "瑞士社会民主党激进左派领袖。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p98s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p98s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "瓦扬",
+            "type": "person",
+            "modern": "法国社会党领导人之一，《人道报》编辑。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "《人道报》",
+            "type": "work",
+            "modern": "法国社会党机关报。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 10,
+        "notes_dropped": 4,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

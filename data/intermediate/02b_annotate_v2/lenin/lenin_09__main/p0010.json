@@ -1,0 +1,113 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 10,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "强调普列汉诺夫在哲学上对修正主义的批判，并警告有人试图利用策略批判来偷运哲学错误。",
+    "importance_score": 2,
+    "importance_reason": "本段在论证中强调哲学批判的独立性，为后续批判新派哲学错误做铺垫。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对修正主义哲学基础的批判，进一步指出普列汉诺夫在哲学批判上的独特贡献，并警告新的哲学错误倾向。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "普列汉诺夫的哲学角色",
+        "explain": "格奥尔基·普列汉诺夫是俄国马克思主义先驱，其著作《论一元论历史观之发展》系统传播了辩证唯物主义，在第二国际理论家中以哲学素养著称。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "波格丹诺夫与《马克思主义哲学概论》",
+        "explain": "亚·波格丹诺夫（马赫主义者）与巴·巴扎罗夫等人合著此书，试图用经验一元论取代辩证唯物主义，是列宁在《唯物主义和经验批判主义》中批判的主要对象。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p10s4",
+        "quote": "分析这本书不是本文的任务，我现在只声明一点，在最近的将来，我要写几篇论文或专门写一本小册子来说明，本文中关于新康德派修正主义者所说的一切，实质上也适用于这些“新的”新休谟派和新贝克莱派修正主义者。",
+        "trigger": "inverted_logic",
+        "reader_block": "作者声明“不分析这本书”，但紧接着又说“本文对新康德派的批判也适用于他们”，这种“不分析但适用”的表述需要理解其论辩策略。",
+        "parse": {
+          "claim": "虽然本文不详细分析《马克思主义哲学概论》这本书，但作者要指出，本文对新康德主义修正派的批判，同样适用于波格丹诺夫等人代表的新派哲学错误。",
+          "qualifiers": "范围限定为“本文中关于新康德派修正主义者所说的一切”，时间限定为“在最近的将来”会另行详细说明。",
+          "contrast_or_target": "将“新的”新休谟派和新贝克莱派（波格丹诺夫等）与“旧的”新康德派修正主义者置于同一被批判的范畴。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "本句在划清批判范围的同时，将新的哲学错误与已批判的修正主义哲学归为一类，为后续的集中批判埋下伏笔。"
+        },
+        "implication": "作者将波格丹诺夫等人的哲学视为修正主义在哲学上的新变种，其错误性质与伯恩施坦等人一脉相承。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "波格丹诺夫、巴扎罗夫等人",
+      "their_view": "以批判普列汉诺夫在策略上的机会主义为借口，试图用经验一元论等新哲学来取代马克思主义的辩证唯物主义基础。",
+      "author_response": "列宁指出，这种做法是偷运哲学垃圾，其错误实质与新康德主义修正派相同，将在未来予以系统清算。",
+      "polemic_kind": "reveals_class_basis",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p10s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p10s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p10s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p10s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p10s5",
+        "speaker": "editor",
+        "stance": "neutral_citation",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 1,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

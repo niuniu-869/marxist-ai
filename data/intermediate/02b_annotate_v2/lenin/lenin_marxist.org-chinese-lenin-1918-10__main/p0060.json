@@ -1,0 +1,128 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 60,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁通过历史对比，论证无产阶级专政的暴力必要性，并指出马克思时代英美缺乏相关国家机构的历史事实。",
+    "importance_score": 2,
+    "importance_reason": "本段通过具体历史对比，为无产阶级专政的暴力必要性提供实证支撑，属于核心批判的例证部分。",
+    "argument_role": "continues",
+    "argument_link": "上一段列宁指出马克思的规律是针对典型资本主义情况，本段则具体考察英美在19世纪70年代是否属于例外，从而论证专政暴力的普遍必要性。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "《法兰西内战》背景",
+        "explain": "这是马克思总结1871年巴黎公社经验的著作。列宁在为其撰写的导言中，着重阐述了打碎旧国家机器的必要性，这与本段讨论的军阀、官僚问题直接相关。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p60s6",
+        "quote": "但是，恰恰在马克思发表这个意见的19世纪70年代，恰恰在英美两国，恰恰这两种机构·没·有！",
+        "trigger": "inverted_logic",
+        "reader_block": "读者可能预期马克思时代的英美有这些机构，但实际没有，这种反差需要理解列宁用意。",
+        "parse": {
+          "claim": "马克思写作时，英美两国尚未形成作为专政暴力对象的军阀和官僚体系。",
+          "qualifiers": "",
+          "contrast_or_target": "马克思关于专政暴力必要性的论述是基于存在军阀和官僚的前提。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "本句通过历史事实反驳了将马克思论述绝对化的观点，说明其论述有具体历史条件。"
+        },
+        "implication": null,
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p60s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p60s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p60s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p60s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p60s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "军阀和官僚",
+            "type": "concept",
+            "modern": "资产阶级国家机器中执行暴力和行政管理职能的核心组成部分。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "state_apparatus_components"
+          }
+        ]
+      },
+      {
+        "sid": "p60s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p60s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 0,
+        "hs_kept": 1,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

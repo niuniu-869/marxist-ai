@@ -1,0 +1,116 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 34,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "恩格斯提出德国社会变革的唯一出路，即需要一个强大的阶级来代表全民族利益，与旧的政治秩序发生矛盾并最终取代它。",
+    "importance_score": 2,
+    "importance_reason": "本段提出了德国社会变革的阶级基础和必然性，是恩格斯分析德国革命路径的核心论点之一。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段对德国社会各阶级力量分散、缺乏主导力量的分析，本段进而指出打破这种“可悲状况”的唯一可能路径。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p34s5",
+        "quote": "政治现状是与各个不同阶级的利益彼此冲突这种已不存在的情况相适应的。",
+        "trigger": "inverted_logic",
+        "reader_block": "双重否定和“已不存在的情况”这一表述，读者可能误以为阶级冲突已消失，实际指旧秩序所依据的格局已过时。",
+        "parse": {
+          "claim": "当前的政治秩序是为早已过时的、各阶级利益相互冲突的旧格局所设计的。",
+          "qualifiers": "“在目前”这一时间限定，强调现状与过去格局的错位。",
+          "contrast_or_target": "与“各个不同阶级的利益彼此冲突”这种旧的、分散的社会格局相对比。"
+        },
+        "why": {
+          "relation": "continues",
+          "explanation": "这句话承接上文对德国社会分散状况的描述，解释为何这种分散状况必然导致与旧政治秩序的矛盾，为下文“消灭现状”的结论做铺垫。"
+        },
+        "implication": "这为论证变革的必然性提供了逻辑基础：旧秩序已不适应新的社会力量格局。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p34s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p34s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p34s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p34s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p34s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p34s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p34s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p34s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 1,
+        "hs_kept": 1,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

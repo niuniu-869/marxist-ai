@@ -1,0 +1,130 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 207,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁以马克思对爱尔兰问题的态度为例，区分了联邦制与自治，阐明马克思主义民族纲领中“自决权”的具体含义。",
+    "importance_score": 2,
+    "importance_reason": "本段通过澄清概念，为全文核心论点——民族自决权是政治权利而非联邦或自治形式——提供理论界定。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对马克思支持爱尔兰分离的历史条件分析，进一步从理论层面界定“自决权”的内涵，排除错误理解。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_polysemy",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "联邦制与自治",
+        "explain": "在马克思主义民族纲领中，“联邦制”指通过双边协定组成的国家联盟，列宁认为这在原则上是荒谬的。“自治”则指在统一的民主国家内，针对复杂民族成分和地区条件实行的管理形式，是普遍原则。",
+        "why_needed": "term_polysemy",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p207s3",
+        "quote": "马克思在原则上虽然是反对联邦主义的，但他这次却容许联邦制，[顺便谈一下：不难看出，为什么从社会民主党的观点看来，即不能把民族“自决”权了解为联邦制，也不能了解为自治（虽然抽象地说，两者都是包括在“自决”这个概念之内的）。",
+        "trigger": "long_nested",
+        "reader_block": "句子包含一个长插入语，且插入语内部有双重否定（“不能……了解为”）和让步（“虽然抽象地说”），读者容易混淆列宁对“自决权”的界定。",
+        "parse": {
+          "claim": "马克思主义者不能将民族自决权等同于联邦制或自治权。",
+          "qualifiers": "这是从社会民主党的观点（即无产阶级立场）出发的判断；抽象地看，联邦和自治都属于自决的可能形式。",
+          "contrast_or_target": "针对将民族自决权具体化为联邦制或自治权的观点，认为这种理解是错误的。"
+        },
+        "why": {
+          "relation": "definition",
+          "explanation": "本句是列宁对“民族自决权”概念进行界定的关键，通过否定两种常见误解（联邦制、自治权），为后文阐述其真正含义（政治独立权）做铺垫。"
+        },
+        "implication": "民族自决权的核心是政治分离的自由，而非特定的国家结构形式。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p207s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p207s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p207s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p207s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p207s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p207s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p207s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p207s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p207s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 1,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

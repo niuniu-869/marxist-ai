@@ -1,0 +1,75 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 10,
+  "annotation": {
+    "block_type": "quote_block",
+    "gist": "巴枯宁转述并批判马克思、恩格斯及德国社会民主党对意大利“赤贫无产阶级”的态度，主张唯有该群体才蕴含革命力量。",
+    "importance_score": 2,
+    "importance_reason": "核心论战段落，直接呈现巴枯宁对马克思学派的批判，是理解双方在革命动力问题上分歧的关键。",
+    "argument_role": "contrasts",
+    "argument_link": "承接上段对意大利革命形势的判断，转而具体阐述巴枯宁眼中意大利革命的真正主体，并以此对比马克思学派的观点。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_polysemy",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "赤贫的无产阶级",
+        "explain": "在19世纪意大利语境中，特指城市贫民、失业者、流氓无产者等，与马克思主要分析的、有组织的产业工人阶级不同。巴枯宁在此赋予其革命先锋的角色。",
+        "why_needed": "term_polysemy",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p10s1",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": [
+          {
+            "surface": "赤贫的无产阶级",
+            "type": "social_group",
+            "modern": "19世纪意大利城市中处于赤贫状态的失业者、流浪者等群体，区别于有固定工作的产业工人。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 2,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_9>5",
+        "note:n1_overflow_metaphor_16>8",
+        "hs:claim_5gram_with_quote",
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

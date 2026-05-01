@@ -1,0 +1,210 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 14,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁批判新《火星报》将“领导权”等同于达成口头协议的策略，指出领导权的实质在于无产阶级的独立斗争和对资产阶级不彻底性的批评。",
+    "importance_score": 3,
+    "importance_reason": "本段集中批判了新《火星报》关于“领导权”的核心错误观点，是全文论战的关键部分。",
+    "argument_role": "contrasts",
+    "argument_link": "承接上段对资产阶级民主派社会基础的分析，转而批判新《火星报》在此基础上提出的、列宁认为是错误的与自由派合作的策略。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "allusion | history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic | term_density",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target | refute_quotation"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "蝎子鞭",
+        "explain": "一种用于体罚的鞭子，此处比喻对不合作的自由派施加严厉惩罚。列宁用此词讽刺新《火星报》对自由派的幼稚态度。",
+        "why_needed": "allusion",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      },
+      {
+        "topic": "阿尔卡季·尼古拉耶维奇",
+        "explain": "斯塔罗韦尔的本名。斯塔罗韦尔是新《火星报》编辑之一，列宁在此直接点名批评其观点。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "司徒卢威与解放社",
+        "explain": "司徒卢威是俄国自由派（立宪民主党）的理论家，“解放社”是其组织。列宁用他轻易将普选权写入纲领的例子，证明自由派纲领的不可信。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p14s10",
+        "quote": "这正是“预先确定可容许的卑鄙行为的尺度”。",
+        "trigger": "inverted_logic",
+        "reader_block": "这句话是列宁对新《火星报》策略的定性总结，但“预先确定尺度”这一表述本身是反讽，读者需要理解其批判的是对方试图为资产阶级行为划定底线的荒谬性。",
+        "parse": {
+          "claim": "新《火星报》试图为资产阶级民主派设定一个行为标准，低于此标准则拒绝合作，高于此标准则接受合作。",
+          "qualifiers": "此标准是新《火星报》单方面“预先确定”的。",
+          "contrast_or_target": "新《火星报》认为可以找到一种衡量资产阶级民主派不彻底性的尺度，并以此作为合作前提。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "本句是对新《火星报》策略本质的概括性批判，将其行为定性为一种幼稚的、试图量化政治道德的尝试。"
+        },
+        "implication": "这种做法忽视了资产阶级民主派的阶级本性，其不彻底性是政治经济特性，无法用简单尺度衡量。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p14s1",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p14s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p14s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p14s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p14s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p14s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p14s7",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p14s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p14s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p14s10",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p14s11",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p14s12",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p14s13",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "司徒卢威",
+            "type": "person",
+            "modern": "彼得·司徒卢威，俄国合法马克思主义者，后成为立宪民主党（解放社）理论家。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "解放社",
+            "type": "org",
+            "modern": "俄国自由派政治组织，后发展为立宪民主党。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p14s14",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p14s15",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p14s16",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p14s17",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 0,
+        "hs_kept": 1,
+        "hs_dropped": 1,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote",
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

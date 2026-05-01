@@ -1,0 +1,116 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 121,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁以军事行动为喻，阐述武装起义这种斗争形式的特殊性、准备的必要性及其深远的历史影响。",
+    "importance_score": 2,
+    "importance_reason": "支撑核心论点，阐述革命斗争形式的特殊性与历史意义。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段关于根据革命形势变化调整斗争策略的论述，具体阐释武装起义这一策略形式的特点。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "metaphor",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p121s8",
+        "quote": "我们可以而且必须采取这种斗争方式的那几天，会等于其它历史时代的几个二十年。",
+        "trigger": "inverted_logic",
+        "reader_block": "读者可能觉得‘几天’等于‘几个二十年’这种时间对比不合常理，难以理解其强调的革命时刻的浓缩性和决定性。",
+        "parse": {
+          "claim": "在特定的历史关头，无产阶级能够并必须进行武装起义的短暂时间窗口，其产生的历史作用和影响，可以相当于其他历史时期长达数十年的渐进发展。",
+          "qualifiers": "限定于‘我们可以而且必须采取这种斗争方式’的特定历史时刻。",
+          "contrast_or_target": "无。"
+        },
+        "why": {
+          "relation": "conclusion",
+          "explanation": "这是对前文关于武装起义‘意义和影响将延续几十年’的进一步强调和升华，用夸张的时间对比来突出革命行动在历史进程中的杠杆效应。"
+        },
+        "implication": "革命的关键时刻具有改变历史进程的巨大能量，无产阶级必须善于识别并抓住这样的时机。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p121s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p121s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p121s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p121s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p121s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p121s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p121s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p121s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 1,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

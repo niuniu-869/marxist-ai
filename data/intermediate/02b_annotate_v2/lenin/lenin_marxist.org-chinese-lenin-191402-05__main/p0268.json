@@ -1,0 +1,125 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 268,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁分析大俄罗斯农民民族主义的长期性，以波兰民族主义演变为例，说明压迫如何激发各民族（包括压迫民族内部）的民族主义，并预测俄国民主改革迟缓将加剧民族冲突与分离倾向。",
+    "importance_score": 2,
+    "importance_reason": "本段是列宁对俄国国内民族问题动态的具体分析，为论证无产阶级政党必须与农民民族主义作斗争、同时支持被压迫民族自决权提供现实依据。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对大俄罗斯农民政治立场的辩证分析，进一步指出其民族主义倾向的顽固性，并将其置于更广阔的被压迫民族觉醒的背景下考察。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "波兰民族主义演变",
+        "explain": "列宁提及波兰民族主义经历了从贵族领导，到资产阶级领导，再到农民成为主体的三个阶段。这是理解本段例证的关键历史脉络。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      },
+      {
+        "topic": "路德维希·伯恩哈特",
+        "explain": "德国学者，其著作《普鲁士的波兰人》描述了德国统治下波兰农民的抵抗组织。列宁引用此书，但指出作者本身持亲德立场（“德国的科科什金”）。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      },
+      {
+        "topic": "普利什凯维奇之流",
+        "explain": "指以普利什凯维奇为代表的俄国极端反动势力，他们推行残酷的民族压迫政策。列宁用此指代沙皇专制政权的反动性。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p268s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p268s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p268s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p268s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p268s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p268s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p268s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "分立主义",
+            "type": "concept",
+            "modern": "在本文语境下，指被压迫民族要求脱离现有国家、建立独立政治实体的运动或倾向。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "separatism_national_question"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 2,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

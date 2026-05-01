@@ -1,0 +1,94 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 19,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁反驳《火星报》对“临时革命政府万岁”口号的批评，揭露其逻辑矛盾。",
+    "importance_score": 2,
+    "importance_reason": "通过反驳具体论点，支撑作者关于参加临时革命政府的主张。",
+    "argument_role": "contrasts",
+    "argument_link": "承接上段对《火星报》经院哲学的批评，本段具体剖析其对革命口号的荒谬态度。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p19s7",
+        "quote": "难道说社会民主党这个最革命阶级的政治领导者，一定要象患贫血症和歇斯底里症的老处女那样，扭扭捏捏坚持必须有一块遮羞布：对资产阶级民主政府所暗示的东西欢呼则可，而直接欢呼临时革命民主政府则不可吗？",
+        "trigger": "inverted_logic",
+        "reader_block": "反讽比喻加时代语境，读者可能不理解“老处女”“遮羞布”的讽刺指向，以及“暗示的东西”具体指什么。",
+        "parse": {
+          "claim": "无产阶级政党不应像胆怯的旧式人物那样，对直接欢呼革命政府感到羞耻，却能接受欢呼其间接暗示的资产阶级政府。",
+          "qualifiers": "针对的是社会民主党作为最革命阶级的政治领导者这一角色。",
+          "contrast_or_target": "《火星报》认为直接欢呼临时革命政府会玷污自己，但欢呼共和国则无妨。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "用尖锐的比喻和反问，直接驳斥《火星报》在口号问题上的虚伪和怯懦，将其立场归结为一种不合时宜的扭捏作态。"
+        },
+        "implication": "这种态度反映了政治上的不成熟和对革命形势的回避。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "《火星报》",
+      "their_view": "欢呼临时革命政府会玷污嘴巴，但欢呼共和国则无妨，因为共和国并不直接等同于政府。",
+      "author_response": "揭露这种区分的虚伪性，指出共和国必然以政府为前提，而该政府只能是资产阶级政府，因此欢呼两者在本质上没有区别。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p19s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p19s2",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p19s3",
+        "speaker": "editor",
+        "stance": "neutral_citation",
+        "notes": []
+      },
+      {
+        "sid": "p19s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p19s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p19s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p19s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 75,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "批判“工资决定价格”这一教条，指出其逻辑谬误，并援引李嘉图的理论贡献作为反驳依据。",
+    "importance_score": 2,
+    "importance_reason": "本段直接驳斥了韦斯顿观点的理论基础，是论证链条中的关键环节。",
+    "argument_role": "contrasts",
+    "argument_link": "承接上段对价值决定难题的讨论，转而批判一种试图用工资解释价值的错误教条。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "李嘉图及其理论",
+        "explain": "大卫·李嘉图是19世纪初英国古典政治经济学的代表人物。其1817年出版的《政治经济学及赋税原理》系统阐述了劳动价值论，对后世经济学影响深远。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p75s1",
+        "quote": "“工资决定商品的价格”这一教条，用它的最抽象的说法来表示，就是“价值是由价值决定的”，这种同义反复只表明我们实际上对价值一窍不通。",
+        "trigger": "inverted_logic",
+        "reader_block": "读者可能不理解为什么“工资决定价格”在逻辑上等同于“价值由价值决定”，需要揭示其同义反复的本质。",
+        "parse": {
+          "claim": "将工资视为价格的决定因素，在逻辑上等同于用价值自身来定义价值，这构成循环论证。",
+          "qualifiers": "",
+          "contrast_or_target": "认为工资水平能够决定商品价值的经济学观点。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "本句通过揭示逻辑谬误，直接驳斥了将工资作为价值决定因素的错误前提。"
+        },
+        "implication": "如果接受工资决定价格，那么整个政治经济学的分析框架就失去了逻辑基础。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "“工资决定价格”教条",
+      "their_view": "商品的价格最终由支付给工人的工资水平所决定。",
+      "author_response": "这种观点在逻辑上是同义反复，表明对价值理论缺乏理解。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p75s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p75s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p75s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  }
+}

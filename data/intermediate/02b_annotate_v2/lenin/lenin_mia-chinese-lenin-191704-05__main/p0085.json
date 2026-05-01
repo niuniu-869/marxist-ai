@@ -1,0 +1,82 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 85,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段正面陈述列宁的核心论断：只有无产阶级革命是唯一出路，并断言其最终胜利的必然性。",
+    "importance_score": 3,
+    "importance_reason": "这是列宁为布尔什维克党制定新纲领的核心理论基石，直接回应了二月革命后“怎么办”的根本问题。",
+    "argument_role": "continues",
+    "argument_link": "承接上段“这个时代已经开始”的判断，具体阐明这个新时代的唯一历史任务和必然结局。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p85s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "帝国主义",
+            "type": "concept",
+            "modern": "列宁理论中资本主义发展的最高阶段，其特征是垄断、金融资本统治和世界领土瓜分完毕，是战争的根源。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "imperialism"
+          }
+        ]
+      },
+      {
+        "sid": "p85s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "无产阶级",
+            "type": "concept",
+            "modern": "在资本主义社会中不占有生产资料、靠出卖劳动力为生的阶级，列宁认为其是革命的领导力量和主体。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "proletarian"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 2,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_10>5",
+        "note:n1_overflow_concept_6>5"
+      ]
+    }
+  ]
+}

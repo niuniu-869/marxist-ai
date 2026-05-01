@@ -1,0 +1,174 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 11,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "恩格斯正面界定唯物史观的核心原理，强调经济基础是归根到底的决定因素，但同时指出上层建筑对历史进程的形式有重要影响，二者构成交互作用。",
+    "importance_score": 3,
+    "importance_reason": "本段是恩格斯对唯物史观基本原理的经典阐述，直接回应并驳斥了将历史唯物主义简化为经济决定论的倾向，是理解该理论框架的关键段落。",
+    "argument_role": "definition",
+    "argument_link": "承接上一段对具体问题的讨论，转向对唯物史观基本原理的澄清和界定，以回应布洛赫关于历史决定性因素的疑问。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "唯物史观",
+        "explain": "马克思和恩格斯创立的历史理论，主张物质生活的生产方式是社会发展的基础，但并非唯一因素。本段是恩格斯对其核心原理的权威界定。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "上层建筑与经济基础",
+        "explain": "经济基础指物质生产方式，上层建筑指建立在其上的政治、法律、哲学、宗教等社会意识形式。理解二者的辩证关系是读懂本段的关键。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p11s6",
+        "quote": "这里表现出这一切因素间的交互作用，而在这种交互作用中归根到底是经济运动作为必然的东西通过无穷无尽的偶然事件（即这样一些事物，它们的内部联系是如此疏远或者是如此难于确定，以致我们可以忘掉这种联系，认为这种联系并不存在）向前发展。",
+        "trigger": "long_nested",
+        "reader_block": "“交互作用”与“归根到底”的辩证关系，以及“必然通过偶然”这一抽象表述，对初学者而言逻辑层次复杂，不易把握其核心论断。",
+        "parse": {
+          "claim": "历史是经济基础与上层建筑等多种因素相互作用的结果，但经济运动的必然性最终通过大量偶然事件来实现。",
+          "qualifiers": "“归根到底”强调经济因素的最终决定性，但这一决定性是在复杂的交互作用中实现的。",
+          "contrast_or_target": "针对将历史视为经济因素单线、机械决定的简单化理解。"
+        },
+        "why": {
+          "relation": "definition",
+          "explanation": "本句为“交互作用”这一核心概念下定义，并阐明必然性与偶然性在历史发展中的辩证关系，是恩格斯对唯物史观方法论的精炼概括。"
+        },
+        "implication": "历史发展既有规律可循（必然性），又充满不确定性和具体路径的多样性（偶然性），研究历史需兼顾二者。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "经济决定论倾向",
+      "their_view": "历史过程中的决定性因素只有经济因素，经济状况是唯一决定性的。",
+      "author_response": "恩格斯指出，这种观点把唯物史观的基本命题变成了毫无内容的空话，忽视了上层建筑的反作用和历史发展的复杂性。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p11s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p11s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "唯物史观",
+            "type": "concept",
+            "modern": "马克思和恩格斯创立的，认为物质生产方式是社会发展基础的历史理论。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "historical_materialism"
+          }
+        ]
+      },
+      {
+        "sid": "p11s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p11s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "经济因素",
+            "type": "concept",
+            "modern": "在历史唯物主义语境中，特指物质生产方式及其相关条件。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "economic_factor"
+          }
+        ]
+      },
+      {
+        "sid": "p11s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "上层建筑",
+            "type": "concept",
+            "modern": "建立在经济基础之上的政治、法律、哲学、宗教等社会意识形式和制度。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "superstructure"
+          },
+          {
+            "surface": "经济基础",
+            "type": "concept",
+            "modern": "社会的物质生产方式，是上层建筑赖以存在的基础。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "economic_base"
+          }
+        ]
+      },
+      {
+        "sid": "p11s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "偶然事件",
+            "type": "concept",
+            "modern": "历史进程中那些内部联系疏远、难以确定，但构成必然性实现形式的具体事件。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "contingency"
+          }
+        ]
+      },
+      {
+        "sid": "p11s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 5,
+        "notes_dropped": 0,
+        "hs_kept": 1,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

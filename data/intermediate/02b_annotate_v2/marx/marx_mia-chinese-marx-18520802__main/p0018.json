@@ -1,0 +1,70 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 18,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段将辉格党比作资产阶级的“帝国总督”，并指出其政治垄断地位将随托利党土地垄断的丧失而终结，最终因资产阶级力量壮大而退化。",
+    "importance_score": 2,
+    "importance_reason": "本段是作者对英国两党阶级分析的核心比喻，承接上段历史类比，具体阐明辉格党与资产阶级的关系及其历史命运。",
+    "argument_role": "continues",
+    "argument_link": "本段直接承接上一段关于中世纪帝国总督（advocati）的比喻，将这一历史类比应用于分析19世纪英国辉格党与资产阶级的关系。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "cross_ref",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "advocati（帝国总督）",
+        "explain": "拉丁语词汇，指中世纪神圣罗马帝国皇帝委派到城市的保护者或代理人。马克思在上一段用此比喻城市与皇帝的关系，本段将其移用至分析辉格党与资产阶级的关系。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "辉格党",
+      "their_view": "辉格党自视为英国宪法、传统和国教的捍卫者，代表国家整体利益，是自由、道德和开明原则的维护者，是人民利益的代表。",
+      "author_response": "马克思揭示辉格党实质上是资产阶级的代理人（advocati），其政权垄断地位依赖于托利党的土地垄断，且会随着资产阶级自身力量的壮大而失去独立性，最终退化为一个利益集团。",
+      "polemic_kind": "reveals_class_basis",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p18s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p18s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_archaic_8>4",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

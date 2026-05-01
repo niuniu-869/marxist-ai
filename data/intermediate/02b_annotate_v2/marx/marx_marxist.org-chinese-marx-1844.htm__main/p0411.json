@@ -1,0 +1,120 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 411,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段从主观层面批判私有制如何扭曲人的需要，将生产者描绘为通过制造病态欲望来骗取货币的“工业的宦官”。",
+    "importance_score": 2,
+    "importance_reason": "本段是马克思对私有制下异化劳动在消费领域具体表现的生动例证，通过“工业的宦官”这一隐喻，揭示了生产与消费关系的扭曲。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段关于私有制下人的需要丰富性具有相反意义的论断，本段具体从主观欲望的层面展开，说明私有制如何将人的需要非人化。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "allusion",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "“工业的宦官”隐喻",
+        "explain": "马克思借用宫廷宦官为取悦君主而献媚的形象，来比喻资本主义生产者。宦官通过刺激君主麻木的感官来换取恩宠，生产者则通过制造和迎合消费者的病态欲望来骗取货币。",
+        "why_needed": "allusion",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      },
+      {
+        "topic": "“私有制”的特定含义",
+        "explain": "在本段及《手稿》语境中，“私有制”特指资本主义私有财产制度，它被视为导致人的需要异化、生产者与消费者关系扭曲的根本社会条件。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "metadata"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "私有制下的生产关系",
+      "their_view": "生产者（工业的宦官）通过刺激和迎合消费者的病态欲望，将其转化为对自身产品的需要，从而实现货币的骗取。产品是诱饵，消费者的弱点是陷阱，一切交往都服务于榨取货币。",
+      "author_response": "马克思揭露这种关系是“更下贱”、“更卑鄙”的，它彻底颠倒了人与人之间应有的关系，将人的本质（货币）作为诱骗对象，是对人的普遍利用和敲诈。",
+      "polemic_kind": "reveals_class_basis",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p411s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p411s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "私有制",
+            "type": "concept",
+            "modern": "资本主义私有财产制度，是导致人的需要异化、生产关系扭曲的根本社会条件。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "metadata",
+            "sense_id": "private_property_critique"
+          }
+        ]
+      },
+      {
+        "sid": "p411s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p411s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p411s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "工业的宦官",
+            "type": "metaphor",
+            "modern": "马克思用以比喻资本主义生产者，指其通过制造和迎合消费者病态欲望来骗取货币的行为模式。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p411s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_20>5",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

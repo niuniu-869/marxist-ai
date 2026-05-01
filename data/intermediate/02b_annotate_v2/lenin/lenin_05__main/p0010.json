@@ -1,0 +1,61 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 10,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "直接批评社会革命党人理论混乱，无法区分旧民粹派与马克思主义者对农民问题的看法，并解释马克思主义者将其定性为小资产阶级思想家的依据。",
+    "importance_score": 3,
+    "importance_reason": "本段是核心批判，揭示社会革命党人理论混乱的根源在于无法区分两种不同的农民观，并以此解释马克思主义者对其的定性。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对分歧的澄清，进一步指出这种分歧源于社会革命党人无法区分两种理论传统。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "社会革命党人",
+      "their_view": "他们认为农民运动本身就是社会主义运动，主张从小农经济出发直接实行社会主义革命，能够立即消灭所有剥削。",
+      "author_response": "列宁指出他们理论混乱，无法区分旧民粹派与马克思主义者对农民问题的不同看法，其对农民运动的估计仍受民粹派小资产阶级幻想束缚。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p10s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p10s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_9>5"
+      ]
+    }
+  ]
+}

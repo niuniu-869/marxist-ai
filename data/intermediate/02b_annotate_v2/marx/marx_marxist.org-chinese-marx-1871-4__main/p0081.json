@@ -1,0 +1,167 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 81,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "叙述1870年9月4日巴黎共和国宣告成立后，梯也尔等人如何窃取政权，并分析国防政府在民族义务与阶级利益冲突中选择卖国的逻辑。",
+    "importance_score": 2,
+    "importance_reason": "为后文批判梯也尔政府和阐明公社革命必然性提供具体历史情境与阶级分析框架。",
+    "argument_role": "continues",
+    "argument_link": "承接上文对协会成员的致辞，开始具体叙述巴黎公社革命爆发前的关键历史节点，即国防政府的上台及其阶级本质。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "梯也尔与特罗胥",
+        "explain": "阿道夫·梯也尔是法国资产阶级政治家，后成为镇压公社的凡尔赛政府首脑。帕特里斯·特罗胥是将军，当时被任命为巴黎总司令，后被证明是防御不力的卖国者。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "9月4日共和国",
+        "explain": "1870年9月4日，普法战争中法军在色当惨败的消息传到巴黎，引发革命，第二帝国崩溃，第三共和国宣告成立。但新政府由旧官僚和资产阶级政客把持。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p81s7",
+        "quote": "巴黎战胜普鲁士侵略者，无 是法国工人战胜了法国资本家及其国家寄生虫。",
+        "trigger": "inverted_logic",
+        "reader_block": "读者会困惑：一场对外民族战争的胜利，为何等同于国内阶级斗争的胜利？需要理解作者隐含的阶级分析前提。",
+        "parse": {
+          "claim": "巴黎若能成功抵御外敌，其根本原因在于工人阶级被武装和组织起来，这实质上意味着国内无产阶级力量压倒了资产阶级及其依附者。",
+          "qualifiers": "此判断基于一个前提：保卫巴黎必须武装工人，而武装工人就是武装革命。",
+          "contrast_or_target": "国防政府认为保卫巴黎与武装工人（即革命）是矛盾的，因此选择不武装工人。"
+        },
+        "why": {
+          "relation": "conclusion",
+          "explanation": "这是对前一句“武装巴黎无疑是武装革命”的逻辑推演，揭示了国防政府拒绝武装工人的深层阶级动机：他们害怕对外战争的胜利会转化为国内无产阶级革命的胜利。"
+        },
+        "implication": "国防政府的卖国行为，根源在于其维护资产阶级统治的阶级立场，而非单纯的军事无能。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      },
+      {
+        "anchor": "p81s8",
+        "quote": "国防政府在民族义务和阶级利益之间的这一冲突中，没有片刻的犹豫便把自己变成了卖国政府。",
+        "trigger": "inverted_logic",
+        "reader_block": "读者可能不理解“民族义务”与“阶级利益”为何构成不可调和的冲突，以及“卖国”在此处的具体所指。",
+        "parse": {
+          "claim": "当保卫国家（民族义务）需要武装工人阶级，而这会威胁到资产阶级统治（阶级利益）时，国防政府毫不犹豫地选择了后者，即放弃抵抗以维护自身阶级地位。",
+          "qualifiers": "“没有片刻的犹豫”强调其阶级立场的坚定性与优先性。",
+          "contrast_or_target": "存在一种观点认为国防政府是真心想保卫巴黎，只是能力不足。作者反驳此观点，指出其行为是主动的阶级选择。"
+        },
+        "why": {
+          "relation": "conclusion",
+          "explanation": "这是对整个段落叙述的总结性论断，将国防政府的具体行为（拒绝武装工人、准备卖国）定性为在民族大义与阶级私利之间做出的明确选择。"
+        },
+        "implication": "资产阶级政府在面临外敌入侵时，其首要考量是维护国内阶级统治，而非民族存亡。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "梯也尔及其国防政府",
+      "their_view": "我们占据市政厅是为了国防，巴黎的工人阶级不能武装起来，保卫巴黎与武装革命是两回事。",
+      "author_response": "马克思揭露，国防政府将阶级利益置于民族义务之上，其拒绝武装工人的行为，实质是害怕对外战争的胜利会转化为国内无产阶级革命的胜利，因此宁愿卖国。",
+      "polemic_kind": "reveals_class_basis",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p81s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "市政厅",
+            "type": "place",
+            "modern": "巴黎市政厅，当时法国政治权力的象征性所在地。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p81s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p81s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p81s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p81s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p81s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p81s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p81s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "国防政府",
+            "type": "org",
+            "modern": "1870年9月4日后在巴黎成立的临时政府，自称负责国防，实则由资产阶级政客和旧军官组成。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 1,
+        "hs_kept": 2,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

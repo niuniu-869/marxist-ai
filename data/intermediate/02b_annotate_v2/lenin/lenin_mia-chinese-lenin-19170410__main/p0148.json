@@ -1,0 +1,106 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 148,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "通过两个反问句，质疑英国政府对革命者托洛茨基和马尔托夫的压制行为。",
+    "importance_score": 1,
+    "importance_reason": "作为具体事例，说明帝国主义国家对国际革命活动的阻挠。",
+    "argument_role": "example",
+    "argument_link": "本段以英国政府拘留托洛茨基和阻止马尔托夫为例，具体展示前文所述国际往来被帝国主义钳制的状况。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_density",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "托洛茨基与马尔托夫",
+        "explain": "托洛茨基是俄国革命家，1917年流亡期间被英国拘留；马尔托夫是孟什维克领袖，当时在瑞士，英国试图诱骗他。两人都是国际社会主义运动的重要人物。",
+        "why_needed": "history_density",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p148s1",
+        "quote": "英国政府拘留托洛茨基应当怎样解释呢？",
+        "trigger": "inverted_logic",
+        "reader_block": "反问句形式，读者可能误以为在寻求解释，实则批判英国政府行为的不合理性。",
+        "parse": {
+          "claim": "英国当局扣押托洛茨基的举动需要被质问。",
+          "qualifiers": "",
+          "contrast_or_target": ""
+        },
+        "why": {
+          "relation": "example",
+          "explanation": "本句通过反问，举例说明帝国主义国家对革命者的敌视行动。"
+        },
+        "implication": null,
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p148s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "托洛茨基",
+            "type": "person",
+            "modern": "1917年流亡欧洲的俄国革命家，被英国政府拘留",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p148s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "马尔托夫",
+            "type": "person",
+            "modern": "孟什维克领袖，当时在瑞士，英国试图诱骗他前往英国",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 0,
+        "hs_kept": 1,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

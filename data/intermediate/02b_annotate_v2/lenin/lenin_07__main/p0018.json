@@ -1,0 +1,119 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 18,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段指出军事技术的新发展为革命提供了物质条件，并提出利用这些条件、争取军队和农村以确保未来起义胜利的综合策略。",
+    "importance_score": 2,
+    "importance_reason": "本段是全文结论部分，将战术总结提升到对未来武装起义的综合条件展望，是核心论点的实践性延伸。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对战术不足的总结，转而从技术条件和综合策略角度，论证未来革命胜利的可能性。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "term_density",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "日俄战争与新式武器",
+        "explain": "1904-1905年日俄战争期间，手榴弹等武器被实战使用。兵工厂生产的自动步枪流入市场，这些新式武器为城市巷战提供了新的可能性。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "杜马解散与军队动摇",
+        "explain": "1906年沙皇解散了第一届国家杜马（议会），加剧了社会矛盾。此前斯维亚堡和喀琅施塔得的水兵起义虽失败，但表明军队内部存在革命倾向，立场开始动摇。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p18s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p18s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "对日战争",
+            "type": "event",
+            "modern": "1904-1905年日本与沙皇俄国之间为争夺远东霸权而爆发的战争，以俄国战败告终。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p18s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p18s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p18s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p18s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "杜马解散",
+            "type": "event",
+            "modern": "1906年7月，沙皇政府强行解散了第一届国家杜马（议会），此举激化了社会矛盾。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_5gram_with_surface",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

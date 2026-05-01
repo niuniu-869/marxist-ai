@@ -1,0 +1,63 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 51,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段是列宁在列举不同经济形式时，列出的第四种类型：国家资本主义。",
+    "importance_score": 1,
+    "importance_reason": "本段作为经济形式列表的一部分，引出后续对国家资本主义的讨论。",
+    "argument_role": "continues",
+    "argument_link": "本段紧接上段对私人资本主义的列举，继续列出国家资本主义，为后续分析不同经济形式在向社会主义过渡中的作用做铺垫。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "国家资本主义",
+        "explain": "在列宁的论述中，国家资本主义指国家政权与资本主义经济结合的形式，特别是在向社会主义过渡时期，可能作为中间阶段被利用。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p51s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_6>5"
+      ]
+    }
+  ]
+}

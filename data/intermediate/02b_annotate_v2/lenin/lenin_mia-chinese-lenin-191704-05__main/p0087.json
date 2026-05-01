@@ -1,0 +1,81 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 87,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段指出完成国际工人联合任务的前提，是清除党内两种错误倾向。",
+    "importance_score": 3,
+    "importance_reason": "核心批判段落，具体剖析了阻碍国际无产阶级联合的两种主要错误思潮，为提出正确路线扫清障碍。",
+    "argument_role": "continues",
+    "argument_link": "承接上段提出的“直接训练无产阶级去夺取政权”的任务，本段阐明完成该任务在国际层面必须克服的障碍。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "第二国际",
+        "explain": "1889年成立的各国社会民主党联合组织。一战爆发后，其多数成员党支持本国政府参战，列宁认为它已因社会沙文主义而破产。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "社会沙文主义与“中派”",
+      "their_view": "社会沙文主义者认为应保卫祖国，支持本国资产阶级；“中派”主张与前者团结，保存或改良第二国际。",
+      "author_response": "列宁将二者斥为社会主义的资产阶级变态，要求彻底屏弃，以实现无产阶级的国际联合。",
+      "polemic_kind": "reveals_class_basis",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p87s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p87s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p87s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p87s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 177,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段描述德国专制势力将‘真正的社会主义’视为对抗资产阶级的工具，并讽刺其在镇压工人后作为安抚手段。",
+    "importance_score": 2,
+    "importance_reason": "本段具体揭示‘德国的或‘真正的’社会主义’被反动势力利用的机制，是批判的重要组成部分。",
+    "argument_role": "continues",
+    "argument_link": "本段承接上段对‘德国的或‘真正的’社会主义’的批判，进一步说明其如何被专制政府等用作政治工具。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p177s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "资本阶级",
+            "type": "concept",
+            "modern": "在马克思主义理论中，指通过占有生产资料剥削无产阶级的阶级。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "bourgeoisie_marxist"
+          }
+        ]
+      },
+      {
+        "sid": "p177s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "草把人",
+            "type": "metaphor",
+            "modern": "在政治斗争中，被用作吸引火力的假目标或替罪羊。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p177s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "劳动阶级",
+            "type": "concept",
+            "modern": "在工业社会中，指没有生产资料、依靠工资生活的阶级，即无产阶级。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "proletariat_marxist"
+          },
+          {
+            "surface": "苦丸药",
+            "type": "metaphor",
+            "modern": "比喻政府对工人起义的残酷镇压措施。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 4,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

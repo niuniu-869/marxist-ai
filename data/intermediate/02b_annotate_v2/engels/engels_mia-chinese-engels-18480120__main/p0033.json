@@ -1,0 +1,141 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 33,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "分析美国征服墨西哥事件的双重性：一方面推动历史进步，另一方面战争的直接经济利益被美国资产阶级攫取。",
+    "importance_score": 2,
+    "importance_reason": "通过美墨战争案例，具体展示资产阶级如何在历史运动中获利，支撑关于资产阶级力量增强的论点。",
+    "argument_role": "continues",
+    "argument_link": "将上一段比利时资产阶级掌权的分析，扩展到美洲大陆，展示资产阶级在国际范围内的扩张与获利。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p33s7",
+        "quote": "而渴望从开凿特万特佩克地峡运河中获利的不是美国船主又是谁呢？",
+        "trigger": "inverted_logic",
+        "reader_block": "反问句式，读者需识别其指向特定群体（船主），并理解这是对“谁获利”问题的具体化回答。",
+        "parse": {
+          "claim": "从拟议中的运河工程中寻求利益的，正是美国的船运资本家。",
+          "qualifiers": "特指“渴望”获利的主体，即具有投资意向的资本家。",
+          "contrast_or_target": ""
+        },
+        "why": {
+          "relation": "example",
+          "explanation": "作为前一句“只有资产阶级”的具体例证，将抽象的“资产阶级”具体化为“船主”“厂主”等资本家群体。"
+        },
+        "implication": "资产阶级的获利是具体的、多领域的，从领土扩张到基础设施建设，资本无孔不入。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p33s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p33s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p33s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p33s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p33s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p33s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "资产阶级",
+            "type": "concept",
+            "modern": "在资本主义生产关系中占有生产资料、依靠剥削雇佣劳动为生的阶级。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "class_bourgeoisie"
+          }
+        ]
+      },
+      {
+        "sid": "p33s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "特万特佩克地峡运河",
+            "type": "event",
+            "modern": "19世纪中叶美国资本家计划在墨西哥地峡开凿的运河，旨在连接大西洋与太平洋，是资本扩张的象征。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p33s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p33s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 0,
+        "hs_kept": 1,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

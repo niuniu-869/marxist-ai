@@ -1,0 +1,55 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 7,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "恩格斯以反问句式，讽刺德国理论家空谈抽象概念，脱离实际的国际工人运动。",
+    "importance_score": 2,
+    "importance_reason": "核心批判，直接针对德国“真正社会主义”脱离实际运动的理论空谈。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对群众实践的肯定，转而直接质问和讽刺那些脱离实践的德国理论家。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "德国的“真正社会主义”理论家",
+      "their_view": "我们只谈论抽象的、普遍的兄弟友爱和民主本身，将其作为纯粹的理论原则。",
+      "author_response": "这种脱离具体民族斗争和工人运动实际的空谈，恰恰违背了你们所标榜的黑格尔辩证法。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p7s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

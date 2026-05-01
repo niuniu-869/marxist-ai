@@ -1,0 +1,106 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 17,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "作者提出，尽管英国殖民动机卑劣，但若亚洲社会需要根本变革，英国可能无意中充当了推动这一变革的历史工具。",
+    "importance_score": 3,
+    "importance_reason": "本段提出了“历史的不自觉的工具”这一核心概念，是马克思分析殖民主义历史作用的关键论点。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对宗法社会崩溃的描述，转而从历史进程的宏观角度，分析英国殖民活动的客观后果。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "历史的不自觉的工具",
+        "explain": "这是马克思分析殖民主义时提出的一个概念，指行动者出于自私或卑劣动机行事，却在客观上促成了符合历史发展趋势的结果，尽管他们自身并未意识到或意图如此。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p17s4",
+        "quote": "如果不能，那末，英国不管是干出了多大的罪行，它在造成这个革命的时候毕竟是充当了历史的不自觉的工具。",
+        "trigger": "inverted_logic",
+        "reader_block": "双重否定（“不管……多大罪行”）与“不自觉的工具”并置，读者易困惑于马克思如何同时谴责罪行又承认其历史作用。",
+        "parse": {
+          "claim": "英国在推动亚洲社会根本变革的过程中，扮演了一个并非出于本意、却客观上符合历史需要的角色。",
+          "qualifiers": "这一判断的前提是“亚洲的社会状况没有一个根本的革命，人类就不能完成自己的使命”。",
+          "contrast_or_target": ""
+        },
+        "why": {
+          "relation": "conclusion",
+          "explanation": "基于前句提出的“人类使命”这一前提，推导出英国殖民活动的客观历史定位，即其罪行与历史作用并存的矛盾性。"
+        },
+        "implication": "这为评价殖民主义提供了一个超越道德谴责的历史唯物主义视角。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p17s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p17s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p17s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p17s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p17s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 1,
+        "hs_kept": 1,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_9>5"
+      ]
+    }
+  ]
+}

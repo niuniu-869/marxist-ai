@@ -1,0 +1,87 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 56,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "斯大林反驳鲍威尔将民族特征与生活条件割裂的观点，强调二者的内在联系。",
+    "importance_score": 2,
+    "importance_reason": "核心批判段落，直接攻击鲍威尔民族理论的唯心主义前提。",
+    "argument_role": "contrasts",
+    "argument_link": "承接上段对鲍威尔民族理论唯心主义性质的定性，具体指出其理论错误在于割裂了民族性格与其产生的根源。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p56s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "民族性格",
+            "type": "concept",
+            "modern": "鲍威尔理论中的核心范畴，指一个民族区别于其他民族的内在精神特质。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "national_character_bauer"
+          }
+        ]
+      },
+      {
+        "sid": "p56s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "结晶",
+            "type": "metaphor",
+            "modern": "比喻民族性格是长期生活条件作用下形成的稳定、凝结的产物。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p56s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

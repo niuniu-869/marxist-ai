@@ -1,0 +1,72 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 7,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "恩格斯指责巴枯宁派违反国际决议，却投身于资产阶级政治，帮助不妥协派掌权，揭露其言行矛盾。",
+    "importance_score": 2,
+    "importance_reason": "本段以西班牙事件为例，具体展示巴枯宁派理论与实践的矛盾，支撑对巴枯宁主义的批判。",
+    "argument_role": "example",
+    "argument_link": "本段承接上段对巴枯宁派困境的揭示，通过西班牙实例说明他们如何违背自身原则并帮助资产阶级。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "cross_ref_pronoun",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "海牙代表大会",
+        "explain": "1872年第一国际在海牙召开的代表大会，通过了要求工人阶级参与政治行动的决议，巴枯宁派反对该决议。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "巴枯宁派",
+        "explain": "指巴枯宁领导的无政府主义派别，主张放弃政治行动，反对一切国家权威，在第一国际内部与马克思派斗争。",
+        "why_needed": "cross_ref_pronoun",
+        "confidence": "high",
+        "source_basis": "metadata"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "巴枯宁派",
+      "their_view": "他们主张放弃政治行动，自认为自治论者和无政府主义革命者，但实际支持不妥协派资产阶级掌权。",
+      "author_response": "恩格斯指责他们抛弃国际决议，投身于最糟糕的资产阶级政治，帮助冒险家和野心家取得政权。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p7s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "海牙代表大会",
+            "type": "event",
+            "modern": "1872年第一国际在海牙召开的代表大会，通过了关于工人阶级政治行动的决议。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "无政府主义",
+            "type": "concept",
+            "modern": "主张废除一切国家权威和政治组织的思潮，巴枯宁派以此自居。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "anarchism"
+          }
+        ]
+      }
+    ]
+  }
+}

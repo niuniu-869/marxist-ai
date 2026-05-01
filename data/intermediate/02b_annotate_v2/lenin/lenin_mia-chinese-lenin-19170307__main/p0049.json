@@ -1,0 +1,82 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 49,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段以反面假设指出，若不武装工人，资产阶级政客将恢复君主制并用诺言欺骗人民。",
+    "importance_score": 2,
+    "importance_reason": "本段通过反面论证强调武装工人的必要性，揭露资产阶级政客的虚伪，支撑前一段的策略主张。",
+    "argument_role": "continues",
+    "argument_link": "本段以“不然”开头，承接前一段关于武装工人的条件，指出若该条件不满足将导致资产阶级政客恢复君主制并欺骗人民。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "古契柯夫和米留可夫",
+        "explain": "他们是二月革命后俄国临时政府的代表人物，属于资产阶级政治家，在列宁的论述中常被作为资产阶级政客的典型。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p49s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p49s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "资产阶级革命",
+            "type": "concept",
+            "modern": "在马克思主义理论中，这是由资产阶级领导的、旨在推翻封建制度建立资本主义制度的革命。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "revolution_bourgeois"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 3,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_5gram_with_surface",
+        "note:n2_5gram_with_surface",
+        "note:n2_5gram_with_surface",
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

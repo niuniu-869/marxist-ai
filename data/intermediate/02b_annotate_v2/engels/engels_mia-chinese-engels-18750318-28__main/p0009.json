@@ -1,0 +1,113 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 9,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "恩格斯批评纲领草案抛弃了工人运动的国际主义原则，转向空洞的和平口号。",
+    "importance_score": 3,
+    "importance_reason": "这是对纲领草案核心错误之一的集中批判，揭示了机会主义在国际问题上的表现。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段对阶级关系错误论断的批评，本段转向批判纲领草案在国际主义原则上的倒退。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "和平同盟",
+        "explain": "1867年成立于日内瓦的资产阶级和平主义团体，主张通过裁军和国际仲裁实现和平，与无产阶级国际主义有本质区别。恩格斯在此用它来讽刺纲领草案的空洞。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p9s6",
+        "quote": "只剩下渺茫的希望——甚至不是对欧洲工人在今后争取解放的斗争中进行共同合作的希望，不是的，而是对未来的“各民族的国际的兄弟联合”的希望，是对和平同盟[7]中的资产者的“欧洲联邦”的希望！",
+        "trigger": "inverted_logic",
+        "reader_block": "双重否定（“不是……而是……”）加上引号内的口号，读者可能误以为作者在肯定这些口号，实际是反讽。",
+        "parse": {
+          "claim": "纲领草案所保留的国际主义，已退化为对资产阶级和平主义口号的空洞期盼，而非对无产阶级实际联合斗争的期待。",
+          "qualifiers": "针对纲领草案中抛弃实际国际主义原则后的理论后果。",
+          "contrast_or_target": "纲领草案起草者认为，抛弃实际的国际联合原则后，仍可通过“各民族的国际的兄弟联合”等口号保持国际主义面貌。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "通过揭示纲领草案所剩“国际主义”的空洞本质，反驳其机会主义倾向，指出这种口号与无产阶级解放斗争无关。"
+        },
+        "implication": "真正的国际主义必须体现为无产阶级在共同斗争中的实际联合，而非资产阶级的和平幻想。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "纲领草案起草者（机会主义倾向）",
+      "their_view": "为了合并，可以抛弃德国工人运动光荣的国际主义实践传统，代之以“各民族的国际的兄弟联合”等空洞口号。",
+      "author_response": "恩格斯指出，这种抛弃使国际主义原则名存实亡，剩下的只是对资产阶级和平主义幻想的期盼，与无产阶级解放事业背道而驰。",
+      "polemic_kind": "strategic_critique",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p9s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p9s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p9s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p9s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p9s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p9s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "和平同盟",
+            "type": "org",
+            "modern": "19世纪60年代成立的资产阶级和平主义团体，主张裁军与国际仲裁，与无产阶级国际主义对立。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "各民族的国际的兄弟联合",
+            "type": "slogan",
+            "modern": "纲领草案中可能出现的、带有拉萨尔主义色彩的空洞和平口号。",
+            "highlight": "polemic",
+            "confidence": "medium",
+            "source_basis": "inferred"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 75,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁向反对派提出一个关于余粮征集的尖锐问题，并指责他们回避问题的实质。",
+    "importance_score": 2,
+    "importance_reason": "通过具体问题揭露反对派在粮食问题上的矛盾立场，是支撑核心论点的关键论证。",
+    "argument_role": "continues",
+    "argument_link": "延续上一段对反对派空洞言辞的驳斥，将抽象指责具体化为余粮征集的现实困境，逼迫对手正面回应。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p75s1",
+        "quote": "请问你们：在一个经济遭到破坏、工厂停工的国家里，如果农民不把余粮拿出来，挨饿的工人是不是有服从多数农民的决定的权利呢？",
+        "trigger": "inverted_logic",
+        "reader_block": "反问句式加上“服从多数农民的决定”这一表述，读者可能不确定列宁的真实立场，误以为他在讨论民主程序问题。",
+        "parse": {
+          "claim": "在经济崩溃、工人挨饿的特定条件下，工人阶级没有义务服从占人口多数的农民群体关于粮食分配的决定。",
+          "qualifiers": "限定于“经济遭到破坏、工厂停工的国家”这一极端情境。",
+          "contrast_or_target": "反对派可能主张，工人应服从农民的多数决定，即使这意味着继续挨饿。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "此句是论辩的核心，通过一个具体情境下的反问，直接挑战反对派所标榜的“多数决定”原则在阶级利益冲突时的适用性。"
+        },
+        "implication": "列宁为苏维埃政权采取强制手段征集粮食提供了正当性论证，即在生存危机下，无产阶级的利益优先于抽象的民主程序。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p75s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p75s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p75s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p75s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 1,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

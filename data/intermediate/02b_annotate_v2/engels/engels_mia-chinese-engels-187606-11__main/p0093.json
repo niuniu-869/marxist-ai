@@ -1,0 +1,85 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 93,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段总结了前文对有产农村居民剥削形式的考察，并引出一个无地无产的农村阶级，为后续分析做铺垫。",
+    "importance_score": 1,
+    "importance_reason": "这是一个过渡段，将论述对象从有产的农村居民转向无地的农村无产者，为后续分析其受剥削状况做分类铺垫。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段对庄园主向手工业者征税的描述，将考察范围扩展到整个农村，先总结对有产者的剥削，再引出无产者。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p93s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "有产的农村居民",
+            "type": "social_group",
+            "modern": "恩格斯分类中的一类农村居民，包括拥有一定土地或房产的农民、菜农等，是封建剥削的直接对象。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p93s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p93s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "老爷",
+            "type": "archaic",
+            "modern": "19世纪德国农村对封建领主或庄园主的称呼，体现了人身依附关系。",
+            "highlight": "archaic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

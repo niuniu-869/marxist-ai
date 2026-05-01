@@ -1,0 +1,100 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 10,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "恩格斯解释1891年版将“劳动”改为“劳动力”这一核心修改，并说明向工人和资产者解释此修改的不同目的。",
+    "importance_score": 2,
+    "importance_reason": "本段是恩格斯为修改马克思著作所作的元说明，点明了从“劳动”到“劳动力”这一术语转换的理论关键性，是理解全书修订意图的入口。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段关于修改必要性的说明，具体指出修改的核心内容（术语变更）并阐述其理论意义。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "term_density",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "劳动与劳动力的区分",
+        "explain": "古典经济学将工人出卖的视为“劳动”，但马克思认为工人出卖的是在一定时间内使用自身劳动能力的“劳动力”。这一区分是揭示剩余价值来源的前提。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p10s2",
+        "quote": "在原稿上是，工人为取得工资向资本家出卖自己的劳动，在现在这一版本中则是出卖自己的劳动力。",
+        "trigger": "term_density",
+        "reader_block": "“劳动”与“劳动力”一字之差，但含义迥异。读者易混淆两者，不理解为何这一修改是“极重要的问题”。",
+        "parse": {
+          "claim": "恩格斯将马克思原稿中工人出卖的对象从“劳动”更正为“劳动力”。",
+          "qualifiers": "此修改特指1891年恩格斯编辑的单行本版本。",
+          "contrast_or_target": "古典政治经济学认为工人出卖的是“劳动”，并以此为基础解释工资和利润。"
+        },
+        "why": {
+          "relation": "definition",
+          "explanation": "本句明确界定了修改的具体内容，即术语的更替，为下文解释其理论重要性奠定基础。"
+        },
+        "implication": "这一修改旨在解决古典政治经济学因混淆劳动与劳动力而产生的逻辑矛盾，使理论表述更精确。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p10s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p10s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "劳动力",
+            "type": "concept",
+            "modern": "工人在特定时间内可供资本家支配的劳动能力，其价值由维持工人及其家庭生存所需的生活资料的价值决定。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "labor_power"
+          }
+        ]
+      },
+      {
+        "sid": "p10s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p10s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p10s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  }
+}

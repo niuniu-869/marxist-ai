@@ -1,0 +1,102 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 185,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁用反问句反驳党内反对改名的意见，质问为何不怕与某些资产阶级政党混淆，却怕与无政府共产主义者混淆。",
+    "importance_score": 2,
+    "importance_reason": "核心批判的一部分，直接反驳党内机会主义对改变党的名称的恐惧。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段列出的反对改名的理由（怕与无政府主义者混淆），并对此进行直接驳斥。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "refute_quotation"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "社会民族主义者与社会自由主义者",
+        "explain": "指第一次世界大战期间背叛国际主义、支持本国资产阶级政府战争政策的第二国际社会党人，以及同情资产阶级自由派主张的社会主义者。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "法兰西共和国激进社会党人",
+        "explain": "指法国第三共和国时期的激进派政党，主张共和制但维护资本主义私有制，列宁视其为善于用社会主义辞藻欺骗群众的资产阶级政党。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p185s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "社会民族主义者",
+            "type": "social_group",
+            "modern": "一战期间支持本国政府战争政策的第二国际社会党人，背叛了国际主义原则。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "社会自由主义者",
+            "type": "social_group",
+            "modern": "倾向于与资产阶级自由派合作、主张改良的社会主义者。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "法兰西共和国激进社会党人",
+            "type": "org",
+            "modern": "法国第三共和国时期的激进派政党，列宁视其为善于用社会主义辞藻欺骗群众的资产阶级政党。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p185s2",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 3,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote",
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

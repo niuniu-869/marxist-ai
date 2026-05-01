@@ -1,0 +1,152 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 41,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁将革命环境比作腐烂尸体的臭气，论证社会主义革命必然伴随痛苦斗争，并号召工人联合起来作为应对危机的根本办法。",
+    "importance_score": 2,
+    "importance_reason": "本段是列宁对革命环境的定性，并从批判对手转向提出己方核心行动口号，起到承上启下的作用。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对征粮队问题的承认，将具体问题上升到对革命普遍环境的定性，并由此引出“集中”和“联合”的应对策略。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "“腐烂的尸体”隐喻",
+        "explain": "列宁用此比喻指代旧的、腐朽的资本主义制度及其意识形态环境。读者需理解这是对旧世界整体氛围的形容，而非具体指某个人或物。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      },
+      {
+        "topic": "克伦斯基",
+        "explain": "1917年俄国二月革命后成立的临时政府总理，属社会革命党。他在任期间未能解决粮食危机，后被十月革命推翻。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p41s6",
+        "quote": "这是一个老口号了，这个口号听来并不动人，也不新鲜，这也不是那种许诺会取得骗人的成就的口号，有些人，象克伦斯基，就是用这种骗人的成就来诱惑你们，他在1917年8月把粮价提高了一倍，正如德国资产者把粮价提高了一倍、十倍一样，这些人许诺立刻取得成就，实际上却一再地纵容富农。",
+        "trigger": "history_missing",
+        "reader_block": "读者若不了解克伦斯基临时政府的政策及其失败，就无法理解列宁为何将其作为反面典型，以及“提高粮价”与“纵容富农”的具体关联。",
+        "parse": {
+          "claim": "“联合起来”这个口号虽不新鲜，但不同于克伦斯基等人那种通过提高粮价等手段许诺快速解决问题、实则纵容富农的欺骗性做法。",
+          "qualifiers": "与克伦斯基等人许诺的“骗人的成就”相对比。",
+          "contrast_or_target": "克伦斯基等人的主张：通过提高粮价等市场手段来解决粮食问题，许诺能迅速取得成效。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "本句直接点名克伦斯基，将其提高粮价的政策作为反面案例，用以反驳孟什维克等主张类似市场手段的论敌，揭示其政策的阶级实质（纵容富农）。"
+        },
+        "implication": "列宁借此论证，解决粮食危机不能依靠迎合市场和富农利益的短期措施，而必须依靠工人阶级的组织和联合。",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "克伦斯基及孟什维克",
+      "their_view": "可以通过提高粮价等市场手段迅速解决粮食问题，许诺能立刻取得成就。",
+      "author_response": "这种做法是欺骗，实质是纵容富农，与德国资产者的行为无异，不能解决根本问题。",
+      "polemic_kind": "reveals_class_basis",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p41s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p41s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "腐烂的尸体",
+            "type": "metaphor",
+            "modern": "列宁用此比喻指代行将就木的旧资本主义制度及其意识形态氛围。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          },
+          {
+            "surface": "立宪民主党",
+            "type": "org",
+            "modern": "俄国主要资产阶级政党，主张君主立宪，反对社会主义革命。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p41s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p41s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p41s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p41s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "克伦斯基",
+            "type": "person",
+            "modern": "1917年俄国临时政府总理，社会革命党人，其政府未能解决粮食危机。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p41s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 3,
+        "notes_dropped": 1,
+        "hs_kept": 1,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

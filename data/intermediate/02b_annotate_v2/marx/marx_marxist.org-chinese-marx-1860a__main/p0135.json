@@ -1,0 +1,90 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 135,
+  "annotation": {
+    "block_type": "quote_block",
+    "gist": "本段摘录巴枯宁对普鲁士（德国）海军力量崛起的描述，及其对俄国波罗的海势力的威胁预测。",
+    "importance_score": 1,
+    "importance_reason": "此段为巴枯宁论述的一部分，马克思摘录以呈现其观点，为后续批判提供具体靶子。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于德国经济地位的讨论，本段转向描述其军事力量（海军）的扩张及其地缘政治影响。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p135s1",
+        "speaker": "quoted_opponent",
+        "stance": "neutral_citation",
+        "notes": [
+          {
+            "surface": "普鲁士",
+            "type": "place",
+            "modern": "1871年德意志帝国统一后，普鲁士王国是其核心与主导部分。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p135s2",
+        "speaker": "quoted_opponent",
+        "stance": "neutral_citation",
+        "notes": []
+      },
+      {
+        "sid": "p135s3",
+        "speaker": "quoted_opponent",
+        "stance": "neutral_citation",
+        "notes": []
+      },
+      {
+        "sid": "p135s4",
+        "speaker": "quoted_opponent",
+        "stance": "neutral_citation",
+        "notes": []
+      },
+      {
+        "sid": "p135s5",
+        "speaker": "quoted_opponent",
+        "stance": "neutral_citation",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 3,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_place_30>10",
+        "note:n2_circular_prefix",
+        "note:n1_overflow_place_19>10"
+      ]
+    }
+  ]
+}

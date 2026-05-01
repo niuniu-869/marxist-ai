@@ -1,0 +1,74 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 476,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段指出资产阶级专政应由无产阶级专政取代，革命过渡后是国家消亡的过渡阶段，并批判考茨基等人忽略此点。",
+    "importance_score": 3,
+    "importance_reason": "本段直接点名批判考茨基对无产阶级专政和国家消亡的否定，是列宁论战的核心论点之一。",
+    "argument_role": "contrasts",
+    "argument_link": "本段承接上段关于过渡阶段的论述，明确指出考茨基等人完全否定了这一革命过程。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "考茨基和王德威尔得",
+      "their_view": "他们认为无产阶级专政和国家消亡的过渡阶段无关紧要，可以完全忽略。",
+      "author_response": "列宁指出，这种观点抹杀了从资产阶级国家到无产阶级国家的革命转变以及随后国家逐渐消亡的必然历史进程。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p476s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "资产阶级专政",
+            "type": "concept",
+            "modern": "在马克思主义国家理论中，指资产阶级凭借国家机器对无产阶级实施的阶级统治。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "dictatorship_bourgeois"
+          },
+          {
+            "surface": "革命",
+            "type": "concept",
+            "modern": "在列宁语境下，特指无产阶级通过暴力推翻资产阶级统治、建立无产阶级专政的根本性社会变革。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "revolution_marxist"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

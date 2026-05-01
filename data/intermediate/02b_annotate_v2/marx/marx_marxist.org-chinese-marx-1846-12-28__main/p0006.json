@@ -1,0 +1,76 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 6,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "马克思通过连续反问，批判蒲鲁东著作中使用的唯心主义哲学范畴及其对黑格尔哲学的拙劣模仿。",
+    "importance_score": 3,
+    "importance_reason": "这是马克思对蒲鲁东哲学基础进行核心批判的关键段落，直接攻击其方法论的唯心主义根源。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对蒲鲁东著作整体的负面评价，具体指出其哲学方法上的根本缺陷，即依赖唯心主义范畴。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "普遍理性与无人身理性",
+        "explain": "这是黑格尔哲学中的核心概念，指一种脱离具体历史与社会条件的、抽象的、普遍的“世界精神”或“理性”。蒲鲁东借用此概念来解释经济与历史发展。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "黑格尔主义",
+        "explain": "指黑格尔的唯心主义辩证法体系。马克思在此特指蒲鲁东对黑格尔哲学的运用是表面、不彻底且扭曲的，未能把握其辩证法的革命内核。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "蒲鲁东",
+      "their_view": "历史与经济规律由普遍理性或人类的无人身理性所支配，这种理性是永恒、无误的，正确地认识它就能获得真理。",
+      "author_response": "马克思批判这种观点是唯心主义的，脱离了现实的物质生产关系与阶级斗争，是软弱无力的哲学空谈。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p6s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p6s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

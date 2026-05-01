@@ -1,0 +1,63 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 43,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "斯大林指出拉狄克的第二个错误，即主张中国共产党退出国民党，这将导致国民党被右派控制。",
+    "importance_score": 2,
+    "importance_reason": "直接反驳党内反对派关于国共合作策略的核心主张，是斯大林为中国政策辩护的关键论点之一。",
+    "argument_role": "contrasts",
+    "argument_link": "承接上一段对拉狄克第一个错误（忽视中国特殊性）的批判，转而批判其第二个错误（主张退出国民党），两者共同构成对拉狄克路线的全面否定。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "革命议会",
+        "explain": "在1927年中国政治语境中，此词常被用来指代国民党。因为国民党是当时国共合作进行国民革命的平台，被共产国际视为具有革命性质的政党联盟。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p43s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

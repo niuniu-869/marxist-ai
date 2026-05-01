@@ -1,0 +1,62 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 130,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁以反问句式，讽刺社会革命党人和孟什维克对克伦斯基政府嘲弄人民的行为毫无反应。",
+    "importance_score": 1,
+    "importance_reason": "这是论证中的一个讽刺性过渡，旨在凸显反对派的不作为，为后续提出布尔什维克的主张做铺垫。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段对克伦斯基政府实际为资本家服务的揭露，转而质问名义上代表工农利益的政党为何不采取行动。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "社会革命党人和孟什维克",
+      "their_view": "我们口头支持对经济的监督，但主张通过国家正规程序逐步实施，需要与工商界协商合作。",
+      "author_response": "列宁讽刺他们面对克伦斯基政府公然损害工农利益的行为时，连一份谴责的告工农书都没有发表，其监督主张纯属空谈。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p130s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p130s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 2,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

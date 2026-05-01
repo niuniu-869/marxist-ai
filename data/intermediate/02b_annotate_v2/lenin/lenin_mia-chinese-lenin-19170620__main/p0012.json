@@ -1,0 +1,86 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 12,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁在此段提出一个明确的政治号召，呼吁人民放弃对资本家政府的信任，转而依靠作为革命力量的无产阶级。",
+    "importance_score": 2,
+    "importance_reason": "本段是前文批判的逻辑延伸，提出了替代性的政治力量和方向，是论证的核心环节之一。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段对信任资本家政策必将破产的论断，本段正面提出人民应当转向信任的阶级力量。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "社会革命党和孟什维克",
+      "their_view": "应当继续信任和支持由资本家部长主导的临时政府，采取渐进改良和继续战争的政策。",
+      "author_response": "列宁号召人民与这种政策决裂，认为只有无产阶级才是值得信任的、能为大多数人利益服务的革命力量。",
+      "polemic_kind": "strategic_critique",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p12s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "革命的阶级",
+            "type": "concept",
+            "modern": "在列宁语境中，特指能够领导推翻旧制度、建立新社会秩序的阶级，此处指无产阶级。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "class_marxist"
+          }
+        ]
+      },
+      {
+        "sid": "p12s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "力量的源泉",
+            "type": "metaphor",
+            "modern": "比喻无产阶级是推动历史变革和社会进步的根本动力来源。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p12s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 53,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁通过马克思对巴黎公社起义和德国反社会党人法时期的具体态度，阐明其辩证的革命策略观。",
+    "importance_score": 2,
+    "importance_reason": "通过具体历史事例，阐释马克思在革命策略上如何平衡合法斗争与革命行动，批判两种错误倾向。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对马克思革命策略调整的概述，本段以巴黎公社和德国反社会党人法两个具体案例，展示马克思如何在实践中运用辩证法处理起义与合法斗争的关系。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "第一国际1870年9月9日宣言",
+        "explain": "普法战争期间，第一国际总委员会就战争局势发表的宣言，其中包含对法国无产阶级的策略建议。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "反社会党人非常法",
+        "explain": "1878年德国俾斯麦政府颁布的法律，旨在取缔社会民主党及一切工人组织，迫使其转入地下。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "莫斯特的“革命空谈”与社会民主党内的机会主义",
+      "their_view": "莫斯特等人在非法环境下鼓动脱离实际的冒险行动；而社会民主党在面临镇压时，未能迅速展现出转向非法斗争的坚定决心。",
+      "author_response": "列宁指出，马克思既反对脱离现实的空谈，也更严厉地批判在关键时刻缺乏革命坚定性和斗争灵活性的机会主义。",
+      "polemic_kind": "strategic_critique",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p53s1",
+        "speaker": "quoted_marx",
+        "stance": "endorsed",
+        "notes": []
+      },
+      {
+        "sid": "p53s2",
+        "speaker": "quoted_marx",
+        "stance": "endorsed",
+        "notes": [
+          {
+            "surface": "冲天",
+            "type": "metaphor",
+            "modern": "形容巴黎公社起义者所展现出的、超越常规政治框架的革命主动性和创造力。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p53s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "辩证唯物主义",
+            "type": "concept",
+            "modern": "马克思和恩格斯创立的哲学体系，主张用联系、发展和矛盾的观点看待物质世界与社会历史。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "dialectical_materialism"
+          }
+        ]
+      },
+      {
+        "sid": "p53s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "反社会党人非常法",
+            "type": "event",
+            "modern": "1878年德国帝国议会通过的特别法，旨在镇压社会主义运动，取缔社会民主党。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 3,
+        "notes_dropped": 2,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_event_19>12",
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

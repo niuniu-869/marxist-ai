@@ -1,0 +1,156 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 124,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "论证消灭个体经济的历史条件，指出过去因缺乏物质基础而不可能，需机器、自然力利用及城乡对立消灭等前提。",
+    "importance_score": 2,
+    "importance_reason": "为后文关于共产主义物质条件的论述提供历史唯物主义基础，属于核心论证的支撑环节。",
+    "argument_role": "continues",
+    "argument_link": "承接前文对生产力发展的讨论，具体分析个体经济形式在历史中的持续性及其物质条件。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p124s8",
+        "quote": "没有这些条件，共同的经济本身将不会再成为新生产力，将没有任何物质基础，将建立在纯粹的理论基础上，就是说，将是一种纯粹的怪想，只能导致寺院经济。",
+        "trigger": "inverted_logic",
+        "reader_block": "用“纯粹的怪想”和“寺院经济”反讽空想社会主义，读者可能不理解“寺院经济”的贬义指向。",
+        "parse": {
+          "claim": "如果没有那些物质条件，所谓的共同经济将缺乏现实基础，只能是脱离实际的空想，最终退化为类似寺院自给自足的封闭模式。",
+          "qualifiers": "限定于“没有这些条件”的假设情境。",
+          "contrast_or_target": ""
+        },
+        "why": {
+          "relation": "example",
+          "explanation": "举例说明缺乏物质基础的共同经济的荒谬后果，强化前句关于物质条件必要性的论点。"
+        },
+        "implication": "强调历史唯物主义对空想社会主义的批判。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p124s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p124s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p124s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "私有制",
+            "type": "concept",
+            "modern": "在马克思主义语境中，指生产资料归私人所有的制度，其发展强化了家庭作为独立经济单位的必要性。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "private_ownership_general"
+          }
+        ]
+      },
+      {
+        "sid": "p124s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p124s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p124s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p124s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p124s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p124s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p124s10",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p124s11",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "消灭",
+            "type": "concept",
+            "modern": "在共产主义理论中，指通过革命变革废除旧的生产关系和社会结构，而非简单取消。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "abolition_communist"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 2,
+        "hs_kept": 1,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "note:n1_overflow_archaic_9>4",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

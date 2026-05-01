@@ -1,0 +1,107 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 107,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段通过设问，将生产资本的增加直接定义为资本对劳动支配权力的增长，并揭示了雇佣劳动创造资本并受其支配的循环。",
+    "importance_score": 3,
+    "importance_reason": "本段将经济现象（资本增加）直接关联到阶级权力关系，是核心批判的展开。",
+    "argument_role": "continues",
+    "argument_link": "本段直接回答上一段提出的“生产资本增加”的含义，将其从经济描述转化为阶级权力分析。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p107s3",
+        "quote": "雇佣劳动生产着对它起支配作用的他人财富，也就是说生产着同它敌对的权力——资本，而它从这种敌对权力那里取得就业手段，即取得生活资料，是以雇佣劳动又会变成资本的一部分，又会变成再一次把资本投入加速增长运动的杠杆为条件的。",
+        "trigger": "long_nested",
+        "reader_block": "长句嵌套多个从句，且“雇佣劳动”“资本”“杠杆”等术语密集，读者容易迷失主干，不清楚雇佣劳动与资本的循环关系具体指什么。",
+        "parse": {
+          "claim": "雇佣劳动在创造资本的同时，其自身也转化为资本增殖的工具。",
+          "qualifiers": "这一转化的条件是，雇佣劳动必须再次成为资本的一部分。",
+          "contrast_or_target": ""
+        },
+        "why": {
+          "relation": "continues",
+          "explanation": "本句具体说明雇佣劳动如何生产出与自身敌对的资本，并揭示其生存条件就是使自身成为资本增殖的杠杆。"
+        },
+        "implication": "这揭示了雇佣劳动制度的内在矛盾：工人生产出统治自己的力量。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p107s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p107s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "活劳动",
+            "type": "concept",
+            "modern": "在生产过程中发挥作用的人类劳动力，与凝结在生产资料中的“死劳动”相对。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "labor_economic"
+          }
+        ]
+      },
+      {
+        "sid": "p107s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "雇佣劳动",
+            "type": "concept",
+            "modern": "工人出卖自身劳动力给资本家以换取工资的劳动形式，是资本主义生产关系的基础。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "labor_economic"
+          },
+          {
+            "surface": "资本",
+            "type": "concept",
+            "modern": "能够带来剩余价值的价值，体现为资本家对生产资料和雇佣劳动的支配关系。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "capital"
+          },
+          {
+            "surface": "杠杆",
+            "type": "metaphor",
+            "modern": "此处比喻雇佣劳动是推动资本加速积累的工具或支点。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      }
+    ]
+  }
+}

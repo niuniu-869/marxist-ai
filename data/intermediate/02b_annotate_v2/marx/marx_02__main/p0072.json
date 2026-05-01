@@ -1,0 +1,57 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 72,
+  "annotation": {
+    "block_type": "quote_block",
+    "gist": "本段引用包令博士的演说，描述手工织工因技术进步而陷入的困境，将其归结为工业发展中的必然代价。",
+    "importance_score": 2,
+    "importance_reason": "作为马克思批判的靶子，完整呈现自由贸易派为工人苦难辩护的典型逻辑。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段对包令演说的引用，具体展示其如何用统计数据和说教来论证自由贸易对工人有利。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "refute_quotation"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "包令",
+      "their_view": "手工织工的贫困是其劳动易于学习且易被机器替代的必然结果，工业进步必然以牺牲落后者为代价，这是民族福祉提升过程中不可避免的阵痛。",
+      "author_response": "马克思引用此段旨在揭露自由贸易派将系统性剥削与阶级压迫美化为自然规律和进步代价的虚伪说辞。",
+      "polemic_kind": "counter_quotation",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p72s1",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": [
+          {
+            "surface": "手工织工",
+            "type": "social_group",
+            "modern": "19世纪英国工业革命中，使用传统手工织布机的纺织工人，是被机器大工业排挤的小生产者代表。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "机械的进步",
+            "type": "concept",
+            "modern": "在政治经济学语境下，指生产工具的革新，是推动生产力发展的关键因素，但在此被论敌用作解释工人苦难的借口。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "productivity_development"
+          }
+        ]
+      }
+    ]
+  }
+}

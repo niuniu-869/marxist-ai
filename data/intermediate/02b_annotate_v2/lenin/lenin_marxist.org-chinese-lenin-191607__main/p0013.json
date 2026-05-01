@@ -1,0 +1,133 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 13,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁引用恩格斯关于“自然疆界”的论述，对比帝国主义时代疆界被破坏的现实，通过反问论证社会主义必须恢复民主方式确定国界，从而揭示波兰同事的观点背离了马克思主义。",
+    "importance_score": 2,
+    "importance_reason": "本段通过历史对比和反问，为民族自决权提供了一个基于民主原则的论证，是反驳波兰社会民主党人观点的关键环节。",
+    "argument_role": "continues",
+    "argument_link": "延续上一段对波兰同事用“社会主义文化范围”回避国界问题的批评，进一步用恩格斯的历史论述和帝国主义现实，从正面论证社会主义必须处理国界问题。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "德国沙文主义者连奇",
+        "explain": "指德国社会民主党内的民族主义者弗里德里希·连奇，他在一战中支持德国帝国主义的战争政策，属于列宁批判的“社会沙文主义”阵营。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "恩格斯《波河与莱茵河》",
+        "explain": "恩格斯1859年写的文章，分析意大利统一战争中的地缘政治，提出民族国家疆界应由居民语言和情感等“自然”因素决定，以对抗当时大国任意分割领土的做法。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "帝国主义经济主义",
+        "explain": "一种错误观点，认为帝国主义时代经济已完全国际化，因此民族问题、国界等政治议题已失去意义，无产阶级只需关注经济斗争。列宁认为这是对马克思主义的背叛。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p13s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p13s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p13s3",
+        "speaker": "quoted_engels",
+        "stance": "neutral_citation",
+        "notes": []
+      },
+      {
+        "sid": "p13s4",
+        "speaker": "quoted_engels",
+        "stance": "neutral_citation",
+        "notes": []
+      },
+      {
+        "sid": "p13s5",
+        "speaker": "editor",
+        "stance": "neutral_citation",
+        "notes": []
+      },
+      {
+        "sid": "p13s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p13s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p13s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p13s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p13s10",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 2,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote",
+        "hs:claim_5gram_with_quote",
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

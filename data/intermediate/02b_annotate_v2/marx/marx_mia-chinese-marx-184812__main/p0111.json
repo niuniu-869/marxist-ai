@@ -1,0 +1,134 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 111,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段批判普鲁士资产阶级内阁（行动内阁）攻击封建特权的动机不纯，指出其政策仅为财政需要，导致两面不讨好。",
+    "importance_score": 2,
+    "importance_reason": "作为核心批判的具体例证，揭示资产阶级革命行动的阶级局限性与虚伪性。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对资产阶级经济政策的分析，具体剖析其攻击封建特权的动机与后果，论证其妥协本质。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "行动内阁",
+        "explain": "指1848年革命后普鲁士成立的康普豪森内阁，由资产阶级代表组成。马克思在此用“行动内阁”一词带有讽刺，暗示其实际行动有限。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "强制公债",
+        "explain": "指内阁为解决财政危机而发行的强制性政府债券。马克思指出，内阁对封建特权的经济攻击是在发行此公债的背景下进行的，暗示其动机是财政而非革命。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p111s1",
+        "quote": "行动内阁的不幸在于：它在经济上对封建党派的一切攻击，都是在强制公债的庇护下进行的，而它的一般改良企图在人民看来，只是为了必须充实加强了的“国家权力”的国库而采取的纯财政措施。",
+        "trigger": "inverted_logic",
+        "reader_block": "句子用“不幸在于”和“庇护下”等词，将内阁的行动描述为一种带有负面动机的策略，读者需理解其反讽与因果倒置的逻辑。",
+        "parse": {
+          "claim": "行动内阁对封建特权的经济打击，其真实动机是为发行强制公债筹集资金，而非真心改革。",
+          "qualifiers": "仅限于经济领域；在人民眼中，其所有改良都服务于财政目的。",
+          "contrast_or_target": "资产阶级内阁自认为是在进行革命性的经济改革。"
+        },
+        "why": {
+          "relation": "continues",
+          "explanation": "承接上段对资产阶级经济政策的分析，具体指出其攻击封建特权的动机是财政驱动，而非阶级斗争或人民利益。"
+        },
+        "implication": "这揭示了资产阶级革命行动的工具性，其“革命”措施服务于巩固自身统治的财政需求。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "汉泽曼及行动内阁",
+      "their_view": "我们（资产阶级内阁）正在通过经济改革认真地攻击封建特权，领导革命。",
+      "author_response": "马克思指出，他们的攻击只是在财政需要驱使下的被动行为，目的是充实国库，而非真正为人民利益或彻底革命。",
+      "polemic_kind": "reveals_class_basis",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p111s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "行动内阁",
+            "type": "org",
+            "modern": "1848年普鲁士革命后成立的康普豪森内阁，由资产阶级代表组成。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "强制公债",
+            "type": "event",
+            "modern": "内阁为解决财政危机而发行的强制性政府债券，是其行动的经济背景。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p111s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p111s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "金钱问题",
+            "type": "concept",
+            "modern": "此处特指财政部视角下的财政收支与资金需求问题。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "finance_bourgeois_state"
+          }
+        ]
+      },
+      {
+        "sid": "p111s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 3,
+        "notes_dropped": 0,
+        "hs_kept": 1,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

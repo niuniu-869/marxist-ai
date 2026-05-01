@@ -1,0 +1,72 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 29,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "用古罗马严官卡托的典故，讽刺科伦官员对普鲁士政府的顺从，并揭露其为资产阶级压迫提供法律便利。",
+    "importance_score": 2,
+    "importance_reason": "通过具体案例，揭露普鲁士资产阶级及其官僚体系的虚伪与压迫性。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对文件具体条款的分析，转而讽刺制定这些条款的官员本身。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "allusion",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "古罗马卡托的象征意义",
+        "explain": "卡托是古罗马以严酷捍卫旧贵族特权著称的监察官。马克思用此比喻科伦官员，讽刺他们表面维护传统秩序，实则服务于新的压迫性法律。",
+        "why_needed": "allusion",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p29s2",
+        "quote": "——译者注］，这些对柏林奴颜婢膝的伟人们，在他们的这个刑法典中为疯狂的资产者的胡作非为打开了多么方便的大门啊！",
+        "trigger": "inverted_logic",
+        "reader_block": "“对柏林奴颜婢膝的伟人们”是反讽，表面尊称实则批判其屈从普鲁士政府，读者可能误读为正面评价。",
+        "parse": {
+          "claim": "科伦官员制定的法律文件为资产阶级的压迫行为提供了便利。",
+          "qualifiers": "",
+          "contrast_or_target": "科伦官员自认为在维护秩序，实则服务于资产阶级。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "通过反讽揭露科伦官员的双重角色：对上屈从，对下压迫。"
+        },
+        "implication": null,
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "科伦市官员（马克思称为“城市的卡托们”）",
+      "their_view": "我们制定这些法规是为了维护城市秩序和传统价值。",
+      "author_response": "马克思揭露他们实则对普鲁士政府卑躬屈膝，并为资产阶级的压迫行为提供法律便利。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p29s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p29s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  }
+}

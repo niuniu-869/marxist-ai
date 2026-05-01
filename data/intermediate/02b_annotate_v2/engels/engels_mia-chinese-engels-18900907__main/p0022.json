@@ -1,0 +1,65 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 22,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "引用编辑部告别辞中的一句话，显示其试图援引恩格斯权威来反对党内的议会派。",
+    "importance_score": 3,
+    "importance_reason": "这是恩格斯整篇文章直接反驳的核心靶子，展示了论敌如何援引其名义。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段恩格斯对编辑部关于“多数”论断的质疑，本段直接展示编辑部如何援引恩格斯来支持自己的立场，为下文恩格斯的直接反驳提供具体靶子。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "“青年派”编辑部",
+      "their_view": "编辑部声称与恩格斯立场一致，希望像克服拉萨尔主义那样，克服党内那些只追求议会成功的派别。",
+      "author_response": "恩格斯在下文中将明确反驳这种援引，指出编辑部误解了他的观点，其激进主张脱离实际。",
+      "polemic_kind": "counter_quotation",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p22s1",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": [
+          {
+            "surface": "健康思想",
+            "type": "metaphor",
+            "modern": "编辑部用此词指代他们所认为的、正确的、未被“议会派”腐蚀的革命思想，隐含与“病态”思想的对比。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 2,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_6>5",
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 349,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段具体描述柯瓦列夫斯基所提出的德意志人家庭公社形态，及其耕作方式、土地公有特征与最终解体过程。",
+    "importance_score": 2,
+    "importance_reason": "本段为上一段引入的柯瓦列夫斯基观点提供具体例证，详细描绘了家庭公社这一中间阶段的运作与演变，是论证公有制形式发展链条中的关键环节。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对柯瓦列夫斯基新观点的引入，本段具体展开描述该观点所主张的德意志人家庭公社的组织形式、土地使用方式及其向个体农户过渡的过程。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "马尔克制度",
+        "explain": "指日耳曼人的一种土地制度，其中耕地、草地等由家庭公社或村庄共同占有、使用和管理，荒地、森林、牧场等则作为公共区域。这是理解本段土地公有特征的关键。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "塔西佗与《日耳曼尼亚志》",
+        "explain": "塔西佗是公元1世纪末的罗马历史学家，其著作《日耳曼尼亚志》是现存最早、最详细记载古代日耳曼人社会习俗的文献，常被后世学者引用。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p349s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "马尔克",
+            "type": "concept",
+            "modern": "在日耳曼历史语境下，指一种以公社为单位共同占有和使用土地（尤其是公共荒地）的制度安排。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "communal_land_system"
+          }
+        ]
+      },
+      {
+        "sid": "p349s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "塔西佗",
+            "type": "person",
+            "modern": "古罗马历史学家，其著作《日耳曼尼亚志》是研究早期日耳曼人社会的重要史料。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p349s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p349s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p349s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

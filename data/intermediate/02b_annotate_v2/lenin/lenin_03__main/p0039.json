@@ -1,0 +1,72 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 39,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁通过反问句式，对比两种可能的罪过，揭露民主派口号与实际阶级立场的矛盾。",
+    "importance_score": 2,
+    "importance_reason": "本段是论辩的关键环节，直接针对民主派的自我辩护，通过对比揭示其阶级基础。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段对民主派攻击的回应，具体分析其罪过所在，将宣传口号与实际站队对立起来。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "高尔察克",
+        "explain": "高尔察克是俄国国内战争期间白军的主要将领之一，领导反苏维埃势力，得到协约国支持。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p39s2",
+        "quote": "那些真正纯粹的民主派的罪过是在于他们宣传纯粹民主、维护纯粹民主而反对篡夺者呢，还是在于他们站在有产阶级那边，站在高尔察克那边？",
+        "trigger": "inverted_logic",
+        "reader_block": "反问句式，读者可能误以为作者在质疑民主派的罪过，实际是通过对比选项揭露其真实立场。",
+        "parse": {
+          "claim": "民主派的真正罪过在于他们实际支持有产阶级和高尔察克，而非他们声称的宣传民主。",
+          "qualifiers": "无",
+          "contrast_or_target": "民主派声称自己宣传纯粹民主、维护民主、反对篡夺者。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "通过反问对比，将民主派的口号与实际行动并列，揭露其口号的虚伪性和阶级本质。"
+        },
+        "implication": "民主派的民主宣传是幌子，实质是维护资产阶级利益和反革命势力。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "纯粹的民主派",
+      "their_view": "他们宣传纯粹民主，维护民主，反对篡夺者，声称自己代表人民利益。",
+      "author_response": "列宁指出他们的罪过在于实际站在有产阶级和高尔察克一边，暴露其阶级立场。",
+      "polemic_kind": "reveals_class_basis",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p39s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p39s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  }
+}

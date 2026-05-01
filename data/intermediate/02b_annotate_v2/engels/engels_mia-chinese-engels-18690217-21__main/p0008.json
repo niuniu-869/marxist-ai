@@ -1,0 +1,86 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 8,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "用反问句讽刺矿工协会所呈现的劳资和谐表象，并引述汉泽曼的话为后续批判做铺垫。",
+    "importance_score": 1,
+    "importance_reason": "作为过渡段，以反讽方式承接上段对资金构成的描述，引出下文对汉泽曼观点的引用与批判。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对协会资金来源的描述，转而用反问句讽刺这种安排所营造的和谐假象。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p8s1",
+        "quote": "难道这里资本和劳动之间极其友爱和谐的景象不使我们大吃一惊吗？",
+        "trigger": "inverted_logic",
+        "reader_block": "双重否定反问句，读者可能误读为正面陈述，实际是反讽，意在揭露这种“和谐”的虚假性。",
+        "parse": {
+          "claim": "恩格斯用反问句讽刺矿工协会所呈现的劳资和谐表象。",
+          "qualifiers": "特指上段描述的萨克森煤矿工人协会的资金安排。",
+          "contrast_or_target": "工人运动中的改良主义倾向，他们认为这种协会安排体现了劳资利益的和谐一致。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "通过反问句式，直接针对改良主义者关于劳资和谐的论调进行讽刺，为后续揭露矛盾做铺垫。"
+        },
+        "implication": "这种表面的和谐掩盖了资本主义制度下根本的阶级对立。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "工人运动中的改良主义倾向",
+      "their_view": "他们认为，通过建立和参与由资本家控制的矿工协会，向工人提供福利，可以实现资本与劳动的利益和谐，改善工人处境。",
+      "author_response": "恩格斯用连续的反问句进行讽刺，揭露这种所谓“和谐”是虚假的表象，其目的是掩盖客观存在的劳资利益对立。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p8s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p8s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p8s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 1,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 55,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "恩格斯批评党内将党团决议神圣化的倾向，强调揭露错误行为的重要性，并讽刺这种“议会症”观念。",
+    "importance_score": 2,
+    "importance_reason": "本段具体阐释“议会症”的表现，是核心批判的组成部分。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对赫希柏格以“党团”为凯泽尔辩护的质疑，进一步分析其危害并定义“议会症”。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "德国社会民主党内的“议会症”倾向",
+      "their_view": "当选的代表体现了一种神圣精神，因此党团会议是绝对正确的，其决议是不容违背的原理。",
+      "author_response": "恩格斯讽刺这种观念，指出其荒谬性，认为这是将民主程序绝对化，会掩盖错误、损害党的荣誉。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p55s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p55s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p55s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "议会症",
+            "type": "concept",
+            "modern": "恩格斯用此词讽刺党内将议会程序和党团决议绝对化、神圣化的错误倾向。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "parliamentarism_critique"
+          }
+        ]
+      },
+      {
+        "sid": "p55s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

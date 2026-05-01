@@ -1,0 +1,81 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 5,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "路德维希基于在克里姆林宫看到的彼得大帝遗物，向斯大林提出是否将自己视为彼得大帝事业继承者的问题。",
+    "importance_score": 1,
+    "importance_reason": "本段通过提问引出斯大林对个人在历史中作用的看法，为后续论述做铺垫。",
+    "argument_role": "transition",
+    "argument_link": "路德维希承接斯大林对其谦虚的评论，表示正因为谦虚，接下来的问题可能显得不寻常，从而引出关于历史人物比拟的提问。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing | cross_ref_pronoun",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "彼得大帝",
+        "explain": "18世纪俄国沙皇，以军事扩张和西化改革闻名，常被视为俄国强权的象征。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "指代前文",
+        "explain": "路德维希回应斯大林对其谦虚的评论，表示正因为谦虚，接下来的问题可能显得突兀。",
+        "why_needed": "cross_ref_pronoun",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p5s1",
+        "speaker": "quoted_opponent",
+        "stance": "neutral_citation",
+        "notes": []
+      },
+      {
+        "sid": "p5s2",
+        "speaker": "quoted_opponent",
+        "stance": "neutral_citation",
+        "notes": []
+      },
+      {
+        "sid": "p5s3",
+        "speaker": "quoted_opponent",
+        "stance": "neutral_citation",
+        "notes": [
+          {
+            "surface": "彼得大帝",
+            "type": "person",
+            "modern": "18世纪俄国沙皇，以军事扩张和西化改革闻名，常被视为俄国强权的象征。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p5s4",
+        "speaker": "quoted_opponent",
+        "stance": "neutral_citation",
+        "notes": []
+      }
+    ]
+  }
+}

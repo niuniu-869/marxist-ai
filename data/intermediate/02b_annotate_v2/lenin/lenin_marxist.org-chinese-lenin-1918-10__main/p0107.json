@@ -1,0 +1,82 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 107,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁批判考茨基忽视民主的阶级性，指出其从超阶级民主观点推论的错误。",
+    "importance_score": 3,
+    "importance_reason": "本段是核心批判，直接攻击考茨基民主观的理论基础，即超阶级民主论。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对苏维埃民主优越性的论证，转而从理论上批判考茨基对民主的理解，指出其根本缺陷在于脱离阶级分析。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p107s1",
+        "quote": "考茨基不理解每个工人都理解都清楚的这一真理，因为他“忘记了”提出、“已经不会”提出这个问题：究竟是·对·哪·一·个·阶·级的民主？",
+        "trigger": "inverted_logic",
+        "reader_block": "反问句式“究竟是对哪一个阶级的民主？”是核心，读者可能忽略其反问语气，误以为在询问具体对象，实则强调民主必然有阶级归属。",
+        "parse": {
+          "claim": "列宁指出，考茨基未能把握一个工人阶级都明白的基本事实：任何民主都服务于特定的阶级。",
+          "qualifiers": "此判断针对考茨基的理论立场。",
+          "contrast_or_target": "考茨基认为民主可以脱离具体的阶级基础而存在，或存在一种普遍的、非阶级的民主形式。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "本句通过反问，直接点明考茨基理论错误的核心——他回避了民主的阶级性问题，从而为下文批判其“纯粹民主”观奠定基础。"
+        },
+        "implication": "考茨基的理论脱离了工人阶级的现实认知，其民主观是抽象的、非历史的。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      },
+      {
+        "anchor": "p107s2",
+        "quote": "他从“纯粹的”（即非阶级的？或超阶级的？）民主的观点去推论。",
+        "trigger": "inverted_logic",
+        "reader_block": "括号内的反问“即非阶级的？或超阶级的？”是反讽，读者需识别出这是在质疑“纯粹民主”概念本身的虚幻性。",
+        "parse": {
+          "claim": "列宁揭示，考茨基的整个论证建立在一个虚假前提上，即存在一种不带有任何阶级烙印的“纯粹”民主。",
+          "qualifiers": "此判断针对考茨基的推论方法。",
+          "contrast_or_target": "考茨基主张存在一种普遍的、适用于所有人的民主原则，可以脱离具体的阶级统治形式。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "本句紧承上句，具体指出考茨基错误的理论出发点，即“纯粹民主”这一虚构概念，从而完成对其民主观前提的驳斥。"
+        },
+        "implication": "任何关于民主的讨论，若不首先明确其阶级性质，就是空谈和误导。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "考茨基",
+      "their_view": "存在一种“纯粹的”、非阶级的或超阶级的民主，民主原则本身可以独立于具体的阶级统治来讨论和实践。",
+      "author_response": "列宁指出，这种观点是根本错误的，它回避了民主总是对特定阶级实行专政这一基本事实，是工人阶级都能看穿的谬误。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p107s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p107s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  }
+}

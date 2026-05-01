@@ -1,0 +1,115 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 48,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁阐述其革命路线的核心：主张苏维埃立即掌控经济命脉，强调实际权力高于法律程序，并指出无产阶级专政已存在但缺乏自觉。",
+    "importance_score": 3,
+    "importance_reason": "本段是《四月提纲》核心观点的具体展开，直接定义了布尔什维克在二月革命后应采取的行动方针和对政权性质的判断。",
+    "argument_role": "continues",
+    "argument_link": "承接上段（第八点标题），具体阐述该要点的内容，即如何处理革命后的政权与经济问题。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "制宪会议",
+        "explain": "二月革命后，俄国各政治派别（包括孟什维克和社会革命党）普遍认为，应先召开由全民普选产生的立宪会议来决定国家根本制度。列宁在此挑战了这一主流预期。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "国家资本主义",
+        "explain": "列宁用此词指资本主义发展到垄断阶段，由国家机器直接干预和组织经济生活的形态。他认为这是通向社会主义的过渡环节，而非社会主义本身。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "革命护国派与孟什维克",
+      "their_view": "二月革命后，应优先通过法律程序（如召开制宪会议）来巩固革命成果，苏维埃应支持临时政府并等待这一程序完成。",
+      "author_response": "列宁认为，实际的权力（由苏维埃掌握的经济控制权）比写在纸上的法律更重要，革命进程本身已使制宪会议的优先级下降。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p48s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p48s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "制宪会议",
+            "type": "event",
+            "modern": "二月革命后计划召开的立宪机构，旨在制定宪法、确立国家政体。当时被广泛视为革命的最终合法裁决者。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p48s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p48s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "无产阶级专政",
+            "type": "concept",
+            "modern": "马克思主义理论中，无产阶级通过革命推翻资产阶级后建立的国家政权形式，是过渡到共产主义的政治保障。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "dictatorship_of_proletariat"
+          }
+        ]
+      },
+      {
+        "sid": "p48s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 2,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "note:n1_overflow_concept_6>5",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

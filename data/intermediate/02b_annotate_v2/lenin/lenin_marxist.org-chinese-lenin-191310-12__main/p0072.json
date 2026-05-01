@@ -1,0 +1,80 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 72,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "区分无产阶级与资产阶级在民族问题上的立场，指出前者反对压迫但欢迎非暴力同化。",
+    "importance_score": 3,
+    "importance_reason": "核心论点，系统阐述无产阶级在民族问题上的国际主义原则，与资产阶级民族主义划清界限。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对民主任务界限的明确，本段进一步从原则上区分无产阶级与资产阶级在民族发展问题上的根本对立。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "拥护“民族文化”口号的派别",
+      "their_view": "每个民族都应无条件地发展自己的文化，工人应首先关心本民族文化。",
+      "author_response": "这种主张是资产阶级民族主义的原则，会导致民族纷争；无产阶级则警告群众不要抱有这种幻想，并欢迎非暴力的同化。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p72s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p72s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p72s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p72s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p72s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_8>5",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

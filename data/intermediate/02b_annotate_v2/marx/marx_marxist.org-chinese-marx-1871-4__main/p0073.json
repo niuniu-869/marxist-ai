@@ -1,0 +1,161 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 73,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "马克思分析法国新成立的共和国政府的构成与本质，指出其资产阶级属性及对工人阶级的敌意。",
+    "importance_score": 3,
+    "importance_reason": "核心批判段落，揭示所谓“国防政府”的阶级本质，为后文论证公社的必要性铺垫。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对德国工人处境的讨论，转而具体剖析法国战败后成立的临时政府，揭示其与工人阶级的对立关系。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "奥尔良党人",
+        "explain": "指支持法国奥尔良王朝（1830-1848）的君主派政治势力，其代表人物梯也尔在1871年镇压了巴黎公社。他们与正统派、波拿巴派是法国19世纪主要的保王派系。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "1848年六月起义",
+        "explain": "1848年法国二月革命后，巴黎无产阶级为反抗资产阶级临时政府解散国家工场而发动的起义，遭到血腥镇压。这是法国阶级斗争史上的重大事件。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p73s9",
+        "quote": "如果说现在他们以共和国的名义说了许多大话，要求去做终归是不可能做到的事情，那么其目的不是为了组建“可能存在的”政府而掀起一场喧嚣吗？",
+        "trigger": "inverted_logic",
+        "reader_block": "双重否定与反问结构，读者容易忽略其讽刺意味，误以为作者在讨论政府的积极作为。",
+        "parse": {
+          "claim": "临时政府成员以共和国名义提出不切实际的要求，其真实目的是制造舆论，为建立一个符合他们利益的政府造势。",
+          "qualifiers": "特指临时政府中那些自称共和党人、但实际行为可疑的成员。",
+          "contrast_or_target": "临时政府成员宣称的崇高目标与其实际政治算计之间的矛盾。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "通过反问揭露临时政府言行不一，其高调宣言是掩盖其真实政治意图的烟幕，直接批判其虚伪性。"
+        },
+        "implication": "这种喧嚣旨在转移视线，掩盖政府维护资产阶级利益、压制工人的实质。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "法国临时政府（梯也尔领导的国防政府）",
+      "their_view": "我们以共和国的名义成立，是为了保卫民族，我们提出的要求和采取的步骤都是为了国家利益。",
+      "author_response": "这个政府的构成和行动表明，它继承了帝国对工人阶级的恐惧，其共和宣言是空话，真实目的是维护资产阶级统治，甚至为旧王朝复辟铺路。",
+      "polemic_kind": "reveals_class_basis",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p73s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p73s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p73s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p73s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p73s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "奥尔良党人",
+            "type": "social_group",
+            "modern": "1830-1848年统治法国的奥尔良王朝的支持者，1871年时是临时政府中的重要派系。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "资产阶级共和党人",
+            "type": "social_group",
+            "modern": "主张共和制的资产阶级政治派别，但在1848年镇压了工人起义。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p73s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p73s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p73s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p73s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p73s10",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 1,
+        "hs_kept": 1,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_5gram_with_surface",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 89,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁论证农民在阶级社会中只能在无产阶级与资产阶级之间做出选择，不存在中间道路，并批判那些以“纯粹民主”为名回避此选择的人实质上服务于白军势力。",
+    "importance_score": 3,
+    "importance_reason": "本段是列宁关于农民阶级立场论述的核心结论，直接反驳了反对派关于“广泛民主”的空谈，为苏维埃政权争取农民支持提供了理论依据。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于农民无法自发形成反资本联盟的论点，进一步阐明其在阶级斗争中的必然归宿，并批判了试图模糊这一选择的论敌。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "高尔察克分子",
+        "explain": "指支持或追随高尔察克的势力。高尔察克是俄国国内战争时期（1918-1920）的主要白军将领之一，曾在西伯利亚建立反苏维埃政权，并得到协约国支持。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p89s8",
+        "quote": "而在工人挨饿、工业停顿这样极端困难的历史转变时期，那些不是按照较公平的价格而是按照“自由的”价格，按照资本主义的和生意人的价格帮助工人得到粮食的人，不管他们本人怎样替自己否认，不管他们怎样真心地相信他们是在诚心诚意地实行自己的纲领，他们都是在实行高尔察克分子的纲领。",
+        "trigger": "long_nested",
+        "reader_block": "句子结构复杂，包含多个条件状语和让步从句，核心论断被层层修饰包裹，读者容易迷失在“不管……不管……”的让步结构中，抓不住最终指控。",
+        "parse": {
+          "claim": "在苏维埃政权面临严重经济危机的特定时期，任何以资本主义市场原则而非公平原则来组织粮食供应以帮助工人的行为，无论行为者主观意图如何，其客观效果都等同于支持白军势力。",
+          "qualifiers": "限定于“工人挨饿、工业停顿这样极端困难的历史转变时期”这一特定历史条件。",
+          "contrast_or_target": "针对那些主张按市场“自由价格”进行粮食交易的反对派（如孟什维克、社会革命党人），他们自称在帮助工人，但列宁认为这实质上是破坏苏维埃政权的经济基础。"
+        },
+        "why": {
+          "relation": "conclusion",
+          "explanation": "本句是前文关于农民必须做出选择的论述的逻辑推论和政治定性。它将抽象的阶级选择具体化为粮食政策这一生死攸关的问题，并将反对派的经济主张直接与白军的政治目标挂钩，完成了从理论分析到政治指控的跃升。"
+        },
+        "implication": "列宁在此将经济政策的选择上升到政治路线斗争的高度，为苏维埃政权实行粮食垄断和余粮收集制提供了理论辩护，并将任何反对该政策的声音都归为敌对阵营。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "劳动民主派（指孟什维克、社会革命党人等反对派）",
+      "their_view": "我们代表广泛的劳动人民，主张纯粹的、普遍的民主，反对无产阶级和资产阶级的“狭隘”代表性，农民可以走一条独立的、多数人的中间道路。",
+      "author_response": "列宁指出，这种关于“多数”和“纯粹民主”的言辞只是掩盖了农民在阶级社会中必然面临非此即彼选择的事实，任何回避这一选择的政策，无论其口号多么动听，客观上都服务于资产阶级和白军的利益。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p89s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p89s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p89s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p89s4",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": [
+          {
+            "surface": "劳动民主派",
+            "type": "slogan",
+            "modern": "列宁用来讽刺孟什维克、社会革命党人等反对派的自称，他们标榜自己代表全体劳动人民，反对布尔什维克的阶级专政理论。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          },
+          {
+            "surface": "纯粹民主",
+            "type": "slogan",
+            "modern": "反对派用来攻击布尔什维克“一党专政”的口号，主张超阶级的、全民的民主，列宁视其为资产阶级民主的虚伪说辞。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p89s5",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p89s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p89s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p89s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 1,
+        "hs_kept": 1,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

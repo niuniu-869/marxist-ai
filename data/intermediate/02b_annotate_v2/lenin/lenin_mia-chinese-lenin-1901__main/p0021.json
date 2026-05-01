@@ -1,0 +1,74 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 21,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "这是列宁对无政府主义政治立场的最终定性，揭露其表面否定政治与实际后果之间的矛盾。",
+    "importance_score": 3,
+    "importance_reason": "这是全文对无政府主义批判的核心结论，点明其理论与实践的根本矛盾。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对无政府主义实践失败的列举，从理论层面总结其失败根源在于其政治立场的虚伪性。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p21s1",
+        "quote": "——在否定政治的幌子下使工人阶级服从资产阶级的政治。",
+        "trigger": "inverted_logic",
+        "reader_block": "读者会困惑：为什么“否定政治”反而会导致“服从资产阶级政治”？这需要理解列宁对“政治”和“政治斗争”的特定定义。",
+        "parse": {
+          "claim": "无政府主义声称超越政治的立场，在实践中却起到了维护资产阶级统治秩序的作用。",
+          "qualifiers": "这种作用是通过其“否定政治”的表面主张来实现的。",
+          "contrast_or_target": "无政府主义认为政治斗争不必要，应直接废除国家，从而超越资产阶级与无产阶级的政治对立。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "本句直接揭露无政府主义政治主张的内在矛盾，是对其理论缺陷的最终定性，构成对无政府主义的核心批判。"
+        },
+        "implication": "无政府主义因其理论缺陷，在客观上成为了资产阶级政治的帮手，而非无产阶级的解放力量。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p21s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 1,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

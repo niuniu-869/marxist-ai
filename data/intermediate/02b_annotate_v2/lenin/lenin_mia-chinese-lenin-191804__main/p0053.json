@@ -1,0 +1,95 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 53,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段论证巩固国内已有垄断行业是为最终实现对外贸易垄断做准备，而后者是保护新生政权经济独立、避免沦为外国资本附庸的必要条件。",
+    "importance_score": 2,
+    "importance_reason": "本段是列宁经济政策论述的关键环节，将国内经济整顿与对外经济战略联系起来，为后续的“国家资本主义”等论述铺垫。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于银行国有化等具体措施的论述，将视角从国内金融领域扩展到更广泛的国家垄断事业及对外贸易，强调经济独立的整体性。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_polysemy",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "term_density",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "“贡赋”的比喻义",
+        "explain": "此处“贡赋”并非指古代臣属向君主的进献，而是列宁的一个比喻。他用这个词来形容在特定历史条件下，为了保护本国经济免受外国资本控制而不得不向其支付的代价或做出的让步。",
+        "why_needed": "term_polysemy",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p53s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "国家垄断",
+            "type": "concept",
+            "modern": "在苏维埃政权初期，指由国家直接控制和经营关键行业（如粮食、皮革）的经济形式，是向全面公有制过渡的步骤。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "state_monopoly_economic"
+          }
+        ]
+      },
+      {
+        "sid": "p53s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "贡赋",
+            "type": "metaphor",
+            "modern": "列宁用此词比喻在特定条件下，为维护经济独立而向外国资本支付的代价或做出的让步。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p53s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_6>5",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 24,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段分析德国哲学与现实的特殊关系，并批判青年黑格尔派实践派对哲学的肤浅否定态度。",
+    "importance_score": 2,
+    "importance_reason": "本段是核心批判的一部分，具体剖析了德国变革的双重任务，并直接反驳了实践派的错误主张。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段关于德国在思想中经历历史的论述，具体阐明德国法哲学作为“唯一站在正统当代现实水平上的德国历史”的特殊性，并由此引出对实践派的批判。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested | inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p24s9",
+        "quote": "一句话，你们不在现实中实现哲学，就不能消灭哲学。",
+        "trigger": "inverted_logic",
+        "reader_block": "双重否定句式（“不在…就不能…”），读者容易直接读成“要消灭哲学就得实现哲学”，但需要理解这里的“实现”和“消灭”在马克思语境下的特定含义。",
+        "parse": {
+          "claim": "哲学的终结（消灭）必须以它在现实中的实践化（实现）为前提。",
+          "qualifiers": "此处的“实现”指将哲学理念付诸现实的社会变革，“消灭”指哲学作为脱离现实的思辨体系的终结。",
+          "contrast_or_target": "直接针对实践派认为可以通过背对哲学、口头否定来消灭哲学的观点。"
+        },
+        "why": {
+          "relation": "conclusion",
+          "explanation": "本句是前文对实践派批判的总结性论断。它将“实现哲学”与“消灭哲学”辩证地联系起来，点明实践派错误的根源：他们试图通过逃避和否定来消灭哲学，而这恰恰无法真正终结哲学，因为哲学与德国现实的内在联系未被切断。"
+        },
+        "implication": "真正的哲学革命必须与现实的社会革命相结合，在改造世界的过程中扬弃旧哲学。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p24s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p24s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p24s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p24s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p24s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p24s6",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p24s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p24s8",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p24s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 1,
+        "hs_kept": 1,
+        "hs_dropped": 1,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "hs:eval_word:implication:深刻",
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

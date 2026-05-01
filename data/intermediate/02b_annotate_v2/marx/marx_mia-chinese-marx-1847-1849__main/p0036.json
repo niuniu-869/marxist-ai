@@ -1,0 +1,148 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 36,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "马克思澄清价格与生产费用的关系，指出庸俗经济学的错误在于将价格波动视为偶然，而实际上这种波动正是资本主义经济秩序的体现。",
+    "importance_score": 2,
+    "importance_reason": "本段深化了前文关于价格围绕生产费用波动的论述，并直接批判庸俗经济学的核心观点，为理解资本主义经济的无政府状态提供关键视角。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于价格围绕生产费用波动的结论，本段进一步辨析这种波动的性质，批判庸俗经济学对波动的错误定性，并揭示其破坏性本质。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "“经济学家们”所指",
+        "explain": "此处特指19世纪上半叶的庸俗政治经济学家，他们将资本主义经济关系表面化，认为工资是劳动的全部报酬，价格波动是偶然现象。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p36s4",
+        "quote": "他们把价格的上涨被价格的下降所抵销，而下降则被上涨所抵销这种无政府状态的变动看作偶然现象。",
+        "trigger": "inverted_logic",
+        "reader_block": "双重否定结构（“被…所抵销”）和“无政府状态”这个术语，容易让读者混淆马克思是在描述现象还是在下判断。",
+        "parse": {
+          "claim": "庸俗经济学家将价格围绕生产费用的上下波动，视为一种可以相互抵消的、偶然的市场失序。",
+          "qualifiers": "特指庸俗经济学家的观点。",
+          "contrast_or_target": "庸俗经济学家认为，价格波动是偶然的、非本质的干扰，其长期平均值才反映规律。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "本句具体阐述了庸俗经济学家对价格波动的错误定性，为下文马克思的反驳树立靶子。"
+        },
+        "implication": "这种观点掩盖了波动本身是资本主义生产无政府状态的必然产物。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      },
+      {
+        "anchor": "p36s8",
+        "quote": "这种无秩序状态的总运动就是它的秩序。",
+        "trigger": "inverted_logic",
+        "reader_block": "“无秩序”与“秩序”直接并列，构成一个哲学悖论，读者难以理解马克思如何将混乱本身定义为一种秩序。",
+        "parse": {
+          "claim": "资本主义经济中看似混乱无序的总体运动过程，其本身就是该社会形态固有的、必然的运行规律。",
+          "qualifiers": "特指资本主义产业的无政府状态。",
+          "contrast_or_target": "庸俗经济学所追求的那种静态、和谐的经济规律。"
+        },
+        "why": {
+          "relation": "conclusion",
+          "explanation": "这是对前文关于价格波动、竞争破坏性描述的哲学总结，揭示了资本主义经济“秩序”的辩证本质。"
+        },
+        "implication": "资本主义的稳定是通过持续的动荡和破坏来实现的。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p36s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p36s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p36s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p36s4",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p36s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p36s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p36s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p36s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p36s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 2,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "polemic:eval_word:author_response:深刻"
+      ]
+    }
+  ]
+}

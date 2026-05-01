@@ -1,0 +1,81 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 100,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段阐述无产阶级在战争问题上的独特能力，强调只有该阶级能真正改变战争性质。",
+    "importance_score": 2,
+    "importance_reason": "本段具体化无产阶级在战争问题上的立场，是列宁《四月提纲》策略论证的一部分。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于无产阶级掌握政权的论述，进一步说明该阶级在战争问题上的实际行动可能性。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "cross_ref_pronoun",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "无产阶级指代",
+        "explain": "本段开头'这个阶级'指代上一段提到的无产者和半无产者阶级，即无产阶级。",
+        "why_needed": "cross_ref_pronoun",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p100s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "资本枷锁",
+            "type": "metaphor",
+            "modern": "用枷锁比喻资本对工人的束缚，强调其压迫性。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          },
+          {
+            "surface": "金融资本",
+            "type": "concept",
+            "modern": "列宁在帝国主义理论中将银行资本与工业资本融合形成的垄断资本称为金融资本。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "finance_capital"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_5gram_with_surface"
+      ]
+    }
+  ]
+}

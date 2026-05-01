@@ -1,0 +1,112 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 8,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段回顾1870年色当会战后德国工人党的声明，并以1877年的事实论证德国无产阶级已能承担领导责任，同时对比其与资产阶级的截然不同表现。",
+    "importance_score": 2,
+    "importance_reason": "本段是作者论证德国无产阶级已具备领导能力的核心例证，通过历史回顾与现实对比，支撑了全文关于工人运动重心转移的论点。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于报刊数量增长的组织发展证据，本段转向政治表现层面，论证德国无产阶级在政治行动和组织纪律上展现出的领导潜质。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_density",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "allusion",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "色当会战",
+        "explain": "1870年9月普法战争中的决定性战役，法军惨败，皇帝拿破仑三世被俘。此役导致法国战败、德国统一进程加速，并深刻影响了欧洲政治格局。",
+        "why_needed": "history_density",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "拜占庭式地逢迎",
+        "explain": "这是一个历史隐喻。拜占庭帝国宫廷以极度谄媚、繁文缛节和无原则的效忠著称。作者用此形容德国资产阶级对君主的卑躬屈膝。",
+        "why_needed": "allusion",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p8s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "色当会战",
+            "type": "event",
+            "modern": "1870年普法战争中的决定性战役，法军惨败，直接导致法兰西第二帝国崩溃和德国统一进程加速。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p8s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p8s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p8s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p8s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "拜占庭式地逢迎",
+            "type": "metaphor",
+            "modern": "源自拜占庭帝国宫廷文化，形容一种极度谄媚、毫无原则的效忠姿态。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

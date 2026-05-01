@@ -1,0 +1,55 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 137,
+  "annotation": {
+    "block_type": "quote_block",
+    "gist": "本段引用特卡乔夫的论点，他声称俄国工人只需对抗政治权力，因为资本权力尚弱，斗争因此更容易。",
+    "importance_score": 2,
+    "importance_reason": "这是恩格斯所要反驳的核心论敌观点之一，构成了后续批判的靶子。",
+    "argument_role": "contrasts",
+    "argument_link": "本段直接呈现了特卡乔夫对恩格斯的反驳，与前一段恩格斯转述的特卡乔夫言论形成连贯的论敌立场展示。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "refute_quotation"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p137s1",
+        "speaker": "quoted_opponent",
+        "stance": "cited",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 132,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "恩格斯分析俾斯麦1871年在东部六省推行的县组织法，指出其旨在巩固容克旧势力，同时使农业工人处于无权状态，客观上为社会主义运动提供了宣传素材。",
+    "importance_score": 2,
+    "importance_reason": "作为具体例证，展示俾斯麦统一政策如何保留旧制度压迫结构，并意外地服务于革命宣传。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对普鲁士县组织法如何将容克特权制度化的分析，进一步揭示该制度在统一后德国的具体表现及其客观政治后果。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "东部六个省",
+        "explain": "指普鲁士王国在1871年德意志帝国成立前的核心领土，主要包括勃兰登堡、波美拉尼亚、西里西亚等地区，是容克地主阶级的传统势力范围。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "帝国国会选举",
+        "explain": "德意志帝国的立法机构选举，但选举权受到财产和性别限制，且容克地主在农村地区拥有巨大影响力，能操控选举结果。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p132s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "东部六个省",
+            "type": "place",
+            "modern": "普鲁士王国在1871年前的核心领土，是容克地主阶级的根据地。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p132s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "德国的奴隶们",
+            "type": "metaphor",
+            "modern": "恩格斯用此强烈比喻，指东部农业工人在法律和经济上遭受的极端压迫，其处境与农奴制时代无异。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p132s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "革命社会主义政党",
+            "type": "org",
+            "modern": "主要指当时德国社会民主党等左翼政党，它们以推翻资本主义制度为目标。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 3,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

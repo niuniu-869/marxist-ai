@@ -1,0 +1,100 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 38,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "报告以里昂缫丝工为例，说明国际工人协会通过跨国会员网络援助工人经济斗争，并吸引工人正式加入。",
+    "importance_score": 2,
+    "importance_reason": "作为具体案例，支撑报告关于国际协会有效组织和支援工人经济斗争的核心论点。",
+    "argument_role": "example",
+    "argument_link": "承接上文关于国际协会参与事件证据不足的论述，转而提供一个协会成功援助工人的正面实例。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p38s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "里卡马里大屠杀",
+            "type": "event",
+            "modern": "1869年发生在法国里昂附近里卡马里地区的工人与军警冲突事件，导致工人死伤。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p38s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p38s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "总委员会",
+            "type": "org",
+            "modern": "国际工人协会的中央领导机构，马克思是其成员。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "metadata"
+          }
+        ]
+      },
+      {
+        "sid": "p38s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "卢昂",
+            "type": "place",
+            "modern": "法国北部城市，此前曾发生过工人罢工事件。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 3,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

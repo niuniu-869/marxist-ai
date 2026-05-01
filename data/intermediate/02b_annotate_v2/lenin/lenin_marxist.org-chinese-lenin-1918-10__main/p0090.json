@@ -1,0 +1,121 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 90,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁讽刺考茨基对资产阶级民主虚伪性的沉默，并揭露其宣扬“保护少数”说教的虚伪性。",
+    "importance_score": 2,
+    "importance_reason": "承接上段对资产阶级民主的揭露，直接点名批判考茨基的回避与粉饰，是核心批判的组成部分。",
+    "argument_role": "continues",
+    "argument_link": "本段承接上段对资产阶级民主虚伪性的揭露，将批判矛头直接指向考茨基，指责其对此关键问题的沉默与转移话题。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "一战后背叛社会主义的领袖",
+        "explain": "列宁点名的列诺得尔、龙格（法国）、谢德曼（德国）、韩德逊、维伯（英国）等人，均为第一次世界大战期间及战后背叛国际社会主义原则、支持本国政府或参与资产阶级联合政府的第二国际社会党领袖。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "考茨基",
+      "their_view": "民主的根本价值在于保护少数派的权利，这是无产阶级应当学习和维护的原则。",
+      "author_response": "列宁指出，在帝国主义战争和资产阶级迫害国际主义者的现实下，考茨基宣扬这种“保护少数”的童话是虚伪和卑鄙的，是对工人阶级的欺骗。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p90s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p90s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p90s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "保护少数",
+            "type": "concept",
+            "modern": "资产阶级民主理论中强调保障少数派权利的原则，常被用来论证民主制度的优越性。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "democracy_bourgeois"
+          }
+        ]
+      },
+      {
+        "sid": "p90s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p90s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p90s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p90s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "甜蜜蜜的嗓子",
+            "type": "metaphor",
+            "modern": "讽刺考茨基用温和、讨好的言辞来宣扬其机会主义观点。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 3,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

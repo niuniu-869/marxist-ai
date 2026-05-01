@@ -1,0 +1,90 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 66,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "作者用反问句引出对论敌责难的分析，并提出历史是阶级对立运动的基本观点。",
+    "importance_score": 2,
+    "importance_reason": "这是作者回应论敌、阐述历史唯物主义基本观点的起点。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对论敌责难的转述，开始分析这种责难的实质，并提出历史是阶级对立运动的基本判断。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p66s1",
+        "quote": "这种责难归结为什么呢？",
+        "trigger": "inverted_logic",
+        "reader_block": "这是一个反问句，读者可能困惑其到底在问什么，需要理解这是在引导读者思考论敌所有指责的共同本质。",
+        "parse": {
+          "claim": "论敌对共产主义的所有指责，其核心论点最终都指向同一个根本性的误解。",
+          "qualifiers": "无",
+          "contrast_or_target": "论敌认为共产主义要消灭个人财产、家庭、祖国等永恒真理。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "此句作为过渡，将前文列举的具体指责收束为一个待分析的靶子，为下句提出作者自己的历史观做铺垫。"
+        },
+        "implication": "作者即将揭示，这些指责都建立在对历史的非辩证理解之上。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p66s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p66s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "阶级对立",
+            "type": "concept",
+            "modern": "在马克思主义理论中，指不同阶级之间因经济利益根本冲突而产生的对抗关系，是理解历史发展的核心线索。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "class_struggle"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 0,
+        "hs_kept": 1,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

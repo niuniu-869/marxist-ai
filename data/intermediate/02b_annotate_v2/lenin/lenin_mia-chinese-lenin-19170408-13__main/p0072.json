@@ -1,0 +1,78 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 72,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段论证建立公社国家不能立刻实现，需要苏维埃代表认识到特定政治力量的错误，强调耐心说明的必要性。",
+    "importance_score": 2,
+    "importance_reason": "本段通过反驳立刻转变的主张，支撑列宁关于革命渐进性的核心论点。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于立刻转变的讨论，进一步说明即使建立公社国家也需要耐心，反驳激进主张。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_density",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "社会革命党人与孟什维克领袖",
+        "explain": "社会革命党人是主张土地社会化的政党；齐赫泽、策列铁里、斯切克洛夫是当时苏维埃中占主导的孟什维克或社会革命党领导人，列宁认为他们的政策错误。",
+        "why_needed": "history_density",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p72s3",
+        "quote": "而我十分明确地声明过，我在这方面只“指望”“耐心的”说明（如果要实现“立刻”就能实行的转变，还用得着耐心吗？）！",
+        "trigger": "inverted_logic",
+        "reader_block": "反问句'还用得着耐心吗？'实际意思是'不需要耐心'，但列宁用此强调需要耐心说明，读者可能混淆逻辑方向。",
+        "parse": {
+          "claim": "列宁声明他只指望通过耐心说明来实现转变，而不是立刻行动。",
+          "qualifiers": "",
+          "contrast_or_target": "针对那些主张立刻转变的观点，认为转变可以迅速实现。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "本句通过反问强调转变需要耐心说明，反驳了主张立刻转变的论敌观点，支撑列宁的渐进革命论。"
+        },
+        "implication": "列宁认为革命转变是一个需要思想准备的渐进过程，不能急于求成。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "社会革命党人、齐赫泽、策列铁里、斯切克洛夫",
+      "their_view": "他们主张与资产阶级临时政府合作，认为土地革命等任务尚未完成，因此应先巩固民主革命。",
+      "author_response": "列宁认为他们的策略和政策有全部错误和全部危害，需要苏维埃代表清楚认识到这一点。",
+      "polemic_kind": "strategic_critique",
+      "confidence": "medium"
+    },
+    "sentences": [
+      {
+        "sid": "p72s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p72s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p72s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  }
+}

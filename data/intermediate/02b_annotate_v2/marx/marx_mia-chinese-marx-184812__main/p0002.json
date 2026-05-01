@@ -1,0 +1,100 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 2,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "马克思阐明《新莱茵报》的革命立场，与资产阶级的法制幻想划清界限，并指出政府行为的实质。",
+    "importance_score": 2,
+    "importance_reason": "确立了报纸的革命立场，是后续批判资产阶级妥协行为的逻辑起点。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对资产阶级和反革命的总体判断，具体阐明《新莱茵报》自身的政治基础。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p2s5",
+        "quote": "它站到了革命的基础上，因为现在反革命的基础也是革命的基础。",
+        "trigger": "inverted_logic",
+        "reader_block": "读者会困惑：反革命的基础为何也是革命的基础？这看似矛盾的表述需要结合具体历史语境理解。",
+        "parse": {
+          "claim": "政府现在公开站在革命的立场上行动，因为反革命势力本身也依赖于革命创造的条件。",
+          "qualifiers": "",
+          "contrast_or_target": "针对那些认为政府仍受法制约束、其行为具有合法性的观点。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "这句话通过揭示反革命与革命在历史条件上的依存关系，反驳了将政府行为视为单纯复辟或倒退的简单看法，点明其行动的实质。"
+        },
+        "implication": null,
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p2s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p2s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p2s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p2s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p2s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 3,
+        "hs_kept": 1,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix",
+        "note:n1_overflow_concept_6>5"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 21,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁界定“民族自决权”的实质，即解决分离问题必须遵循民主程序，并以此反驳谢姆科夫斯基的错误主张。",
+    "importance_score": 3,
+    "importance_reason": "核心段落，直接定义了纲领关键条款“民族自决权”的内涵，并划清了与机会主义立场的界限。",
+    "argument_role": "definition",
+    "argument_link": "承接上段对谢姆科夫斯基错误的批判，本段正面阐述“民族自决权”的正确含义，为批判提供理论基础。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_polysemy",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "民主的特定含义",
+        "explain": "列宁在此处使用的“民主”特指无产阶级民主或社会主义民主，其核心是反对任何民族压迫。这与当时资产阶级民主或抽象民主的口号有本质区别，后者可能掩盖民族压迫的现实。",
+        "why_needed": "term_polysemy",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "谢姆科夫斯基",
+      "their_view": "为了不破坏民族自决权，就应当投票赞成分离。",
+      "author_response": "列宁指出，正确的做法不是预先投票赞成或反对分离，而是承认并保障分离区域拥有自行决定其归属的民主权利。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p21s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p21s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p21s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p21s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

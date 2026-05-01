@@ -1,0 +1,77 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 96,
+  "annotation": {
+    "block_type": "program_clause",
+    "gist": "宣布成立一个在立宪会议召开前管理国家的临时政府，并规定其名称、组成原则与行政权归属。",
+    "importance_score": 3,
+    "importance_reason": "本段是核心决议，宣布了革命后新政权的组织形式与名称，是后续一切国家行动的起点。",
+    "argument_role": "continues",
+    "argument_link": "本段承接上段关于成立政府的决定，具体规定了政府的名称、组成原则和行政权归属。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p96s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "人民委员会",
+            "type": "org",
+            "modern": "革命后建立的最高行政机关，由各人民委员部主席组成。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p96s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p96s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 2,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

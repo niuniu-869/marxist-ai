@@ -1,0 +1,71 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 22,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁声明不再详评其他中央委员，但以十月革命期间的表现为例，指出某些错误有更深层原因，不宜简单归咎于个人。",
+    "importance_score": 1,
+    "importance_reason": "作为对前文个人特质分析的收尾与补充，将具体事件置于更宽泛的分析框架下，属于过渡性段落。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对斯大林、托洛茨基个人特质的分析，将讨论范围扩展至季诺维也夫和加米涅夫，并引入一种更复杂的归因视角。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p22s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p22s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "加米涅夫",
+            "type": "person",
+            "modern": "列夫·加米涅夫，当时俄共（布）中央政治局委员，人民委员会副主席。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 2,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_5gram_with_surface",
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

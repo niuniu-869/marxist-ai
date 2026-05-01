@@ -1,0 +1,70 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 19,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段通过列举咒骂革命的对象并强调革命提出的口号，来彰显十月革命的世界历史意义。",
+    "importance_score": 2,
+    "importance_reason": "支撑核心论点，通过对比咒骂与口号来凸显革命意义。",
+    "argument_role": "continues",
+    "argument_link": "本段承接上一段对革命口号的讨论，通过列举咒骂者来反衬口号的革命性。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "第二国际和第二半国际",
+      "their_view": "他们咒骂十月革命，认为其口号是危险的煽动。",
+      "author_response": "列宁指出，无论他们如何诽谤，都无法抹杀革命提出的口号具有世界历史意义。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p19s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "第二国际和第二半国际",
+            "type": "org",
+            "modern": "第一次世界大战后分裂的国际社会主义组织，前者指战前的国际，后者指战后试图调和的中派集团。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p19s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_slogan_26>12"
+      ]
+    }
+  ]
+}

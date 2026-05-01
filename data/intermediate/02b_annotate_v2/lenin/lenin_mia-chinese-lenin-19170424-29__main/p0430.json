@@ -1,0 +1,100 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 430,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁阐述布尔什维克党对民族自决权的立场，强调应根据居民意志和平解决边界问题，反对武力干涉，并区分了当前任务与最终目标。",
+    "importance_score": 2,
+    "importance_reason": "本段具体阐释了列宁关于民族自决权的策略性主张，是其民族问题纲领在具体案例（库尔兰）上的应用，支撑了反对帝国主义战争和民族压迫的论点。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段关于芬兰自治的讨论，将民族自决原则具体应用于库尔兰问题，并进一步阐明无产阶级政党在民族分离问题上的方法论。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "库尔兰问题",
+        "explain": "库尔兰是当时俄国西部的一个省份（今拉脱维亚西部），居民以拉脱维亚人为主。一战期间被德军占领，其归属成为俄国与德国之间的争端，涉及民族自决原则。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "“取消国界”口号",
+        "explain": "这是共产主义运动的最终目标之一，指在全世界实现社会主义后，民族国家界限将失去意义。列宁在此强调，这一口号在当前民族解放阶段不适用，不能作为行动纲领。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "革命护国主义者",
+      "their_view": "在二月革命后，保卫俄国革命成果的战争具有正义性，因此应继续支持战争，包括用军事手段解决像库尔兰这样的边界争端。",
+      "author_response": "列宁主张根据当地居民的意志和平解决边界问题，反对任何一方为争夺领土而动用武力，认为这违背了无产阶级国际主义和民族自决原则。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p430s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p430s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p430s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p430s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p430s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p430s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

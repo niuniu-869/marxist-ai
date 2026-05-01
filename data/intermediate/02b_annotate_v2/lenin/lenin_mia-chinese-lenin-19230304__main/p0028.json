@@ -1,0 +1,86 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 28,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁提出从现有机构中精选少数，严格检验其工作质量与科学水平，以此作为未来几年内建成可信、高效国家机关的务实路径。",
+    "importance_score": 2,
+    "importance_reason": "本段是列宁改革构想的具体方法论，承接上段对耐心的强调，提出“精选-检验-达标”的操作原则，为后续论述奠定基础。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段关于“耐心”和“花几年工夫”的论述，本段具体化了如何利用这几年时间：不是盲目扩张，而是精选现有机构进行严格检验和提升。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p28s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "高级劳动研究所",
+            "type": "org",
+            "modern": "苏俄早期探索科学管理与劳动组织的机构之一，列宁在此指代已建立的、旨在提升工作效率的各类试点单位。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p28s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p28s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "工人阶级",
+            "type": "concept",
+            "modern": "在列宁的国家建设语境中，指作为苏维埃政权基础、需要被国家机关服务并对其工作进行监督的社会主体。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "class_marxist"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

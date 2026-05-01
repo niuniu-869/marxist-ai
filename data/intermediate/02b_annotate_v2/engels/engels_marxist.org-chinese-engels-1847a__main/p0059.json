@@ -1,0 +1,84 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 59,
+  "annotation": {
+    "block_type": "program_clause",
+    "gist": "描述无产阶级革命后逐步将生产资料集中到国家手中的过程，直至私有制自行消亡。",
+    "importance_score": 2,
+    "importance_reason": "本段是纲领草案中关于过渡时期政策的具体阐述，说明了集中化措施的渐进性与最终目标。",
+    "argument_role": "continues",
+    "argument_link": "本段承接上一条关于运输业国有化的具体措施，将其扩展为一个普遍的、逐步推进的集中化过程，并阐明了这一过程的最终历史结果。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p59s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p59s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p59s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "生产力",
+            "type": "concept",
+            "modern": "社会生产物质资料的能力，是推动社会发展的根本动力",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "productivity_marxist"
+          }
+        ]
+      },
+      {
+        "sid": "p59s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 2,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "note:n1_overflow_metaphor_9>8"
+      ]
+    }
+  ]
+}

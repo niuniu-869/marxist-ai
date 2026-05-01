@@ -1,0 +1,126 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 9,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "通过引用考茨基和马克思恩格斯的论述，论证民族独立要求必须基于具体历史条件和阶级分析，而非抽象的无条件承认。",
+    "importance_score": 2,
+    "importance_reason": "用马克思恩格斯的具体立场，为上段考茨基的论点提供权威例证，是核心论证的关键支撑。",
+    "argument_role": "example",
+    "argument_link": "承接上段考茨基反对无条件民族独立的论点，本段以马克思恩格斯对波兰问题的具体处理方式为例，展示如何在历史和阶级基础上提出民族问题。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "卢格与法兰克福议会",
+        "explain": "卢格是青年黑格尔派哲学家，1848年德意志革命期间法兰克福议会的左翼议员。该议会试图统一德国并制定宪法，但最终失败。马克思在《新莱茵报》上常与议会中的自由派论战。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "卢格",
+      "their_view": "仅用‘可耻的非正义行为’这类抽象的道德谴责来主张波兰自由，而不对波兰问题的具体历史条件和社会状况进行分析。",
+      "author_response": "马克思用辛辣讽刺嘲笑这种空谈，并通过法国南北压迫的例子说明，必须具体分析社会条件，才能判断何种独立要求在民主派和无产阶级看来是合理的。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p9s1",
+        "speaker": "quoted_opponent",
+        "stance": "endorsed",
+        "notes": []
+      },
+      {
+        "sid": "p9s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p9s3",
+        "speaker": "quoted_marx",
+        "stance": "endorsed",
+        "notes": [
+          {
+            "surface": "新莱茵报",
+            "type": "work",
+            "modern": "马克思和恩格斯于1848-1849年在科隆创办并主编的德文日报，是当时无产阶级革命派的喉舌。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p9s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "卢格",
+            "type": "person",
+            "modern": "阿诺德·卢格，青年黑格尔派哲学家，1848年法兰克福国民议会左翼议员，主张抽象的民族自由。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "法兰克福议会",
+            "type": "event",
+            "modern": "1848年德意志革命期间在法兰克福召开的国民议会，旨在制定统一宪法，但因内部矛盾和外部镇压而失败。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p9s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p9s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p9s7",
+        "speaker": "quoted_marx",
+        "stance": "endorsed",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 3,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_8>5",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

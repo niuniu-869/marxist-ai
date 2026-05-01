@@ -1,0 +1,75 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 78,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁总结性地批判考茨基对无产阶级专政概念的歪曲，将其等同于自由主义，并比较了考茨基与伯恩施坦。",
+    "importance_score": 3,
+    "importance_reason": "这是对考茨基核心错误的总结性定性，将批判从具体论点上升到对整个思想路线的否定。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对考茨基将专政视为管理形式的批判，进一步定性这种歪曲的实质是自由主义，并给出最终评价。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_polysemy",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "“纯粹民主”概念",
+        "explain": "考茨基用“纯粹民主”一词来指称一种没有阶级性的、全民的民主，以此掩盖资产阶级民主的阶级统治本质。列宁认为这是自由主义的典型说辞。",
+        "why_needed": "term_polysemy",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "考茨基",
+      "their_view": "考茨基主张存在一种“纯粹民主”，这种民主超越阶级，可以粉饰和掩盖资产阶级民主的阶级内容。",
+      "author_response": "列宁指出，这种说法是庸俗的自由主义论调，其目的是害怕和否定被压迫阶级的革命暴力。",
+      "polemic_kind": "reveals_class_basis",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p78s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p78s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p78s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

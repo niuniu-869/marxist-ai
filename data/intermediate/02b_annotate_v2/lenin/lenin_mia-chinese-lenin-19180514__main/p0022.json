@@ -1,0 +1,110 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 22,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁直接反驳主张等待国际革命再夺取政权的论调，指出其脱离革命并转向资产阶级，同时阐明苏维埃政权在最终胜利前需采取灵活退却策略。",
+    "importance_score": 2,
+    "importance_reason": "本段是核心论点的关键支撑，直接反驳了党内和国际社会主义运动中一种重要的错误倾向，为苏维埃政权的现实策略提供理论辩护。",
+    "argument_role": "contrasts",
+    "argument_link": "承接上段对苏维埃历史中妥协教训的回顾，转而直接批判一种在当时流行的、要求等待国际革命的教条主义观点，形成鲜明对比。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p22s2",
+        "quote": "他们没有料到他们这样说就是脱离革命而转到资产阶级方面去了。",
+        "trigger": "inverted_logic",
+        "reader_block": "双重否定结构（“没有料到……就是……”），读者可能误读为正面陈述，不易抓住其批判的实质。",
+        "parse": {
+          "claim": "这种主张的实际后果是，持有者自己并未意识到，他们已经脱离了革命阵营，并站到了资产阶级的立场上。",
+          "qualifiers": "",
+          "contrast_or_target": "论敌自认为其主张是坚持革命原则，但作者揭示其客观效果是背离革命。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "本句紧接上句，揭示前述主张的客观阶级后果，将其定性为对革命的背叛，深化了批判的力度。"
+        },
+        "implication": "在革命形势下，任何延误行动的教条主义主张，无论其主观意图如何，客观上都服务于资产阶级的利益。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "自以为明智的社会主义者",
+      "their_view": "在所有国家爆发革命以前，不应在任何一国夺取政权。必须等待劳动者阶级完成国际范围的革命。",
+      "author_response": "这种主张脱离了现实的革命进程，客观上站到了资产阶级一边。等待会导致停滞，革命必须在一国开始，但最终胜利需要国际工人的共同努力。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p22s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p22s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p22s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p22s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p22s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p22s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p22s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 1,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

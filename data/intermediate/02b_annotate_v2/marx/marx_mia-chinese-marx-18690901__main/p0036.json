@@ -1,0 +1,90 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 36,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段描述了政府在面临公众愤怒时，策略性地将国际工人协会塑造为事件的幕后主使，以转移矛盾。",
+    "importance_score": 2,
+    "importance_reason": "本段是报告中的一个具体例证，展示了协会面临的污蔑，属于支撑性内容。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段关于政府失策的描述，具体说明政府为应对自身行为引发的公愤而采取的策略。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "allusion",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "替罪羔羊典故",
+        "explain": "源自基督教传统，指在赎罪祭中被宰杀、象征性地承担众人罪过的无辜羔羊。此处用作比喻，指被挑选出来为公众愤怒承担责任的无辜对象。",
+        "why_needed": "allusion",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "资产阶级政府及其司法系统",
+      "their_view": "国际工人协会是罢工等社会动荡的幕后操纵者，应为此负责。",
+      "author_response": "政府为转移自身责任而捏造指控，将协会作为替罪羊。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p36s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "替罪的羔羊",
+            "type": "metaphor",
+            "modern": "在本段语境下，指被政府挑选出来，用以承担公众对政府不满情绪的无辜对象。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p36s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p36s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p36s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

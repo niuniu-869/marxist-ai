@@ -1,0 +1,140 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 22,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁用选举数据论证，无产阶级革命运动（布尔什维克）与资产阶级反革命运动（立宪民主党）在群众基础上存在根本差异。",
+    "importance_score": 2,
+    "importance_reason": "为前文关于群众觉悟性差异的论断提供具体事实支撑，是论证链条中的关键例证。",
+    "argument_role": "example",
+    "argument_link": "承接上段关于无产阶级与资产阶级国内战争在群众觉悟性上存在差别的论断，本段用选举数据作为客观材料来证实这一差别。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "term_density",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "1917年俄国选举",
+        "explain": "二月革命后，彼得格勒等地举行了地方杜马选举。这些选举是当时政治力量对比的晴雨表，布尔什维克与立宪民主党是主要竞争对手。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "群众觉悟性",
+        "explain": "指群众对革命任务、阶级利益和政治道路的认识水平。列宁认为，选举结果能客观反映不同阶级群众的政治倾向。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p22s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "党派倾向",
+            "type": "concept",
+            "modern": "在1917年俄国语境下，指各政治派别（如布尔什维克、孟什维克、立宪民主党等）所持的阶级立场和政治路线。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "political_alignment_1917"
+          }
+        ]
+      },
+      {
+        "sid": "p22s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p22s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "布尔什维克党",
+            "type": "org",
+            "modern": "1903年俄国社会民主工党分裂后形成的多数派，主张通过无产阶级革命和专政建立社会主义，1917年领导十月革命。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "立宪民主党",
+            "type": "org",
+            "modern": "俄国资产阶级主要政党，主张君主立宪，维护私有制，反对社会主义革命，在临时政府中与孟什维克、社会革命党合作。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p22s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p22s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "区杜马",
+            "type": "org",
+            "modern": "俄国地方自治机构，二月革命后由选举产生，是当时地方政治力量角逐的舞台。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p22s6",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 4,
+        "notes_dropped": 2,
+        "hs_kept": 0,
+        "hs_dropped": 2,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "note:n1_overflow_concept_6>5",
+        "hs:claim_5gram_with_quote",
+        "hs:claim_5gram_with_quote",
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

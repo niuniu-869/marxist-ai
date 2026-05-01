@@ -1,0 +1,80 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 5,
+  "annotation": {
+    "block_type": "narrative",
+    "gist": "本段记录1906年两位作者在《民报》上对《共产党宣言》的介绍与运用，展示了早期传播中《宣言》被赋予的不同角色。",
+    "importance_score": 1,
+    "importance_reason": "作为传播年表中的一个具体事例，展示了《宣言》在清末被不同思想者从不同角度解读和利用的状况。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段1905年朱执信的介绍，继续按时间顺序梳理《宣言》在1906年通过《民报》的进一步传播与应用。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p5s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "平民的武器",
+            "type": "metaphor",
+            "modern": "宋教仁用此比喻强调《宣言》的实践性与阶级立场，将其视为被压迫者进行斗争的工具。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p5s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "无政府主义",
+            "type": "concept",
+            "modern": "叶夏声在此文中将其与革命党的社会主义对立，以澄清理论边界。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "anarchism_general"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

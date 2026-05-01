@@ -1,0 +1,63 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 72,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁指出，苏维埃政权的敌人正企图利用饥荒制造混乱，以达到颠覆政权的目的。",
+    "importance_score": 2,
+    "importance_reason": "本段将饥荒定性为政治斗争场域，为后续阐述苏维埃政权的应对措施提供论辩基础。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对饥荒灾难的警告，转而分析饥荒背后的政治图谋与阶级敌人的行动。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "乌克兰的反苏维埃叛乱",
+        "explain": "1918年春，乌克兰地区爆发了反布尔什维克的叛乱，部分由德国干涉军支持。列宁此处以“在乌克兰那样”为喻，指敌人可能效仿此模式，利用饥荒组织武装暴动。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p72s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

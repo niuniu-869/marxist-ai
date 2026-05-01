@@ -1,0 +1,107 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 355,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "描述苏维埃初期小资产阶级政党掌权的阶段，分析其阶级摇摆性，并批判考茨基用形式民主概念掩盖阶级专政实质。",
+    "importance_score": 3,
+    "importance_reason": "本段通过历史分析揭示小资产阶级政党的阶级根源，并直接批判考茨基的民主观，是核心批判段落。",
+    "argument_role": "continues",
+    "argument_link": "本段承接上段对考茨基承认事实的描述，转而分析小资产阶级掌权的历史阶段及其阶级摇摆性，为批判考茨基的民主观提供历史依据。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_density",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "term_density",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "孟什维克与社会革命党",
+        "explain": "俄国1905年革命后出现的两个主要非布尔什维克政党。孟什维克主张与资产阶级合作，社会革命党代表农民利益但策略摇摆。二者在1917年二月革命后曾主导临时政府。",
+        "why_needed": "history_density",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "克伦斯基等人物",
+        "explain": "克伦斯基是1917年俄国临时政府总理，科尔尼洛夫是发动叛乱的将军，萨文柯夫是社会革命党右翼。他们代表了列宁所指的资产阶级专政的不同形式。",
+        "why_needed": "history_density",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p355s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p355s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p355s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p355s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p355s5",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p355s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p355s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote",
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

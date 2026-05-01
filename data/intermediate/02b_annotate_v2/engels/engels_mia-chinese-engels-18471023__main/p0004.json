@@ -1,0 +1,98 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 4,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段引述宪章派领袖奥康瑙尔的激进言论，并叙述宪章派即将展开的请愿和办报活动。",
+    "importance_score": 2,
+    "importance_reason": "展示宪章运动在经济危机下的激进化倾向和具体行动计划，是理解1848年前英国工人运动的重要例证。",
+    "argument_role": "continues",
+    "argument_link": "本段通过引述领袖言论和描述组织行动，具体化了上段提到的工人集会活动，展示了运动的主张与策略。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "宪章派与人民宪章",
+        "explain": "宪章派是19世纪30-50年代英国工人阶级争取普选权的政治运动。其核心纲领《人民宪章》要求实现成年男子普选权等六项政治改革。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "菲格斯·奥康瑙尔",
+        "explain": "宪章运动的主要领袖之一，以激进的宣传和组织能力著称，主张通过大规模群众请愿向议会施压。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "全民请愿书",
+        "explain": "宪章派多次组织全国性签名活动，将汇集了数百万签名的请愿书递交议会，要求采纳《人民宪章》。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p4s1",
+        "quote": "可能会有人对我说，这是革命的言论。是不是革命的言论，那是无关紧要的；既然人民不能通过合法的手段得到他所需要的东西，那末他们就只好试用非法的手段。",
+        "trigger": "inverted_logic",
+        "reader_block": "读者可能不理解为何将“非法手段”视为一种必然的、甚至正当的选择，这与通常的法律和秩序观念相悖。",
+        "parse": {
+          "claim": "当合法途径无法满足人民的根本需求时，采取非法手段就成为一种必然的、合理的选择。",
+          "qualifiers": "前提是“人民不能通过合法的手段得到他所需要的东西”。",
+          "contrast_or_target": "与当时主流的通过议会合法改良的主张形成对比。"
+        },
+        "why": {
+          "relation": "none",
+          "explanation": ""
+        },
+        "implication": "此逻辑为宪章运动中更激进的路线提供了辩护，预示了运动可能超越和平请愿的范畴。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p4s1",
+        "speaker": "quoted_opponent",
+        "stance": "neutral_citation",
+        "notes": []
+      },
+      {
+        "sid": "p4s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p4s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p4s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  }
+}

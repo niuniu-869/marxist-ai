@@ -1,0 +1,88 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 29,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁反驳论敌用投票数字论证和约问题的做法，指出应从更广泛的政治表决中观察各阶级的真实态度。",
+    "importance_score": 2,
+    "importance_reason": "本段通过具体数字论辩，揭示论敌论证方法的片面性，并引出对阶级立场的判断，是核心批判的例证。",
+    "argument_role": "contrasts",
+    "argument_link": "本段承接上段对论敌观点的转述，转而用更全面的表决数据进行反驳，形成直接对比。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "反对和约的论敌（如“左派共产主义者”或左派社会革命党人）",
+      "their_view": "他们引用投票数字（12票反对，28票赞成）来证明和约是疲惫群众的心理表现，并暗示北方因疲惫和工业削弱而赞成和约。",
+      "author_response": "列宁指出这些数字片面且过时，应参考更近期的全乌克兰苏维埃代表大会及全俄苏维埃代表大会党团的表决，这些表决显示被剥削劳动群众并未拒绝和约。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p29s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p29s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p29s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p29s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p29s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "被剥削劳动群众",
+            "type": "social_group",
+            "modern": "列宁在此特指构成苏维埃政权阶级基础的工人、士兵和农民，强调其与小资产阶级政党的区别。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

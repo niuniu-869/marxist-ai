@@ -1,0 +1,93 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 213,
+  "annotation": {
+    "block_type": "quote_block",
+    "gist": "巴枯宁摘录指责德国社会民主党与资产阶级激进派结盟，并批评马克思学派在此问题上的矛盾态度。",
+    "importance_score": 2,
+    "importance_reason": "本段是马克思摘录巴枯宁攻击的核心部分，具体呈现了巴枯宁对德国社会民主党路线的指控，为马克思后续的反驳提供靶子。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段关于德国社会民主党成立的叙述，具体展开巴枯宁对该党与资产阶级联合的指控，并引入马克思对此的批注。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_density",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "纽伦堡与斯图加特代表大会",
+        "explain": "1868年德国社会民主党在纽伦堡成立，随后在斯图加特与资产阶级激进派（人民党）代表会面，商讨联合行动。",
+        "why_needed": "history_density",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "和平和自由同盟",
+        "explain": "一个由资产阶级知识分子和部分社会主义者组成的国际组织，主张通过和平改良实现社会进步，与第一国际存在竞争关系。",
+        "why_needed": "history_density",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "社会主义民主同盟",
+        "explain": "巴枯宁在第一国际内部建立的秘密组织，主张立即进行社会革命，反对一切国家形式，后被第一国际开除。",
+        "why_needed": "history_density",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "巴枯宁",
+      "their_view": "德国社会民主党与资产阶级激进派的联合是背叛无产阶级的；马克思学派对此态度暧昧，实质上是在掩盖其机会主义路线，将资产阶级分子纳入自己的阵营。",
+      "author_response": "马克思通过摘录巴枯宁的指控，并插入“胡说八道！”等批注，表明其对巴枯宁论点的否定和批判态度。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p213s1",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": [
+          {
+            "surface": "攻守同盟",
+            "type": "slogan",
+            "modern": "巴枯宁用此词形容德国社会民主党与资产阶级激进派达成的正式合作协议。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p213s2",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 2,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

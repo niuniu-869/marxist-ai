@@ -1,0 +1,63 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 20,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "引用门格尔的原话，展示他如何以古罗马和中世纪为例，论证社会主义并非历史必然结果。",
+    "importance_score": 2,
+    "importance_reason": "呈现门格尔的核心论据，为作者后续反驳树立具体靶子，是论战的关键环节。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对门格尔法学立场的批判，通过引用其原文，具体展示他如何用历史类比来否定社会主义的必然性。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_density",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "古罗马与中世纪历史",
+        "explain": "门格尔引用古罗马非洲行省土地集中、奴隶制及教父批评，来类比社会主义。读者需了解这些历史背景以理解其论证意图。",
+        "why_needed": "history_density",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "门格尔",
+      "their_view": "门格尔认为，古罗马时期生产资料集中和奴隶制苦难深重，且有类似社会主义的批评，但历史结果不是社会主义，而是中世纪法律秩序。",
+      "author_response": "作者将批判这种法学观点，指出其蔑视经济史，并用历史唯物主义反驳其前提。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p20s1",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

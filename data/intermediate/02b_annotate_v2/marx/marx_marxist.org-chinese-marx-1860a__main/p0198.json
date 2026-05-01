@@ -1,0 +1,107 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 198,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段说明'科学社会主义'术语的使用语境，将其与空想社会主义对立，并提及马克思批判蒲鲁东的著作。",
+    "importance_score": 1,
+    "importance_reason": "本段为术语使用提供背景说明，属于论证中的概念澄清环节。",
+    "argument_role": "continues",
+    "argument_link": "本段延续上一段对社会主义相关名词的讨论，具体界定'科学社会主义'的术语边界。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "cross_ref",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "蒲鲁东",
+        "explain": "19世纪法国社会主义思想家，主张互助制，马克思在《哲学的贫困》中批判其小资产阶级观点。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "空想社会主义",
+        "explain": "圣西门、傅立叶、欧文等人的学说，马克思认为其脱离现实社会运动，属于幻想。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p198s2",
+        "quote": "参看我反对蒲鲁东的那本书——",
+        "trigger": "cross_ref",
+        "reader_block": "读者会疑惑'我反对蒲鲁东的那本书'具体指哪部著作，需要知道马克思批判蒲鲁东的代表作。",
+        "parse": {
+          "claim": "马克思提示读者参考他批判蒲鲁东的著作。",
+          "qualifiers": "",
+          "contrast_or_target": ""
+        },
+        "why": {
+          "relation": "none",
+          "explanation": ""
+        },
+        "implication": "读者若想深入了解马克思对蒲鲁东的批判，可查阅《哲学的贫困》。",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p198s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "科学社会主义",
+            "type": "concept",
+            "modern": "马克思用来指代基于历史唯物主义的社会主义理论，与空想社会主义对立。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "scientific_socialism"
+          },
+          {
+            "surface": "空想社会主义",
+            "type": "concept",
+            "modern": "19世纪初圣西门、傅立叶、欧文等人提出的社会主义学说，马克思批判其脱离现实。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "utopian_socialism"
+          }
+        ]
+      },
+      {
+        "sid": "p198s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "蒲鲁东",
+            "type": "person",
+            "modern": "法国社会主义思想家，马克思在《哲学的贫困》中批判其小资产阶级观点。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  }
+}

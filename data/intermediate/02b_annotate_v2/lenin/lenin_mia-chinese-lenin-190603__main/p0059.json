@@ -1,0 +1,82 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 59,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段论证社会主义者对待农民土地国有化要求的辩证态度：既要清除其歪曲，又不能完全抛弃，而应向农民说明其资产阶级民主性质。",
+    "importance_score": 2,
+    "importance_reason": "本段是核心论证，阐述了对待农民土地要求的辩证态度，为修改纲领提供理论依据。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对农民土地思想革命民主主义性质的判断，进一步论证社会民主党人应如何对待这种思想。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_polysemy",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "rhetorical",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "土地国有化理论含义",
+        "explain": "在马克思主义理论中，土地国有化特指在资产阶级革命中可能采取的、促进资本主义发展的土地政策，而非社会主义措施。列宁在此区分其资产阶级民主性质与社会主义目标。",
+        "why_needed": "term_polysemy",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "主张完全抛弃土地国有要求的党内派别",
+      "their_view": "土地国有化是纯粹的资产阶级措施，社会主义者应当拒绝这一要求。",
+      "author_response": "列宁认为，拒绝这种要求是政治近视和理论歪曲，会脱离农民群众。",
+      "polemic_kind": "strategic_critique",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p59s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p59s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p59s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p59s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

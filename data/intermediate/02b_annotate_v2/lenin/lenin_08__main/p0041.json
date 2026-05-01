@@ -1,0 +1,74 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 41,
+  "annotation": {
+    "block_type": "quote_block",
+    "gist": "恩格斯通过巴伐利亚党团的具体行为，批评德国社会民主党内的机会主义倾向，指出其在议会投票和农民鼓动策略上背离了无产阶级政党的原则。",
+    "importance_score": 2,
+    "importance_reason": "作为支撑性例证，具体展示了机会主义在议会实践和农民问题上的表现，为前段的原则性批评提供事实依据。",
+    "argument_role": "example",
+    "argument_link": "承接上一段对机会主义在农民问题上错误策略的批评，本段以巴伐利亚党团的具体行为为例，说明这种机会主义如何在实践中体现为向资产阶级妥协和模糊阶级界限。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "巴伐利亚社会民主党内的机会主义倾向",
+      "their_view": "在议会中投票赞成整个预算，并在农民鼓动中以吸引占有大量土地、需要雇佣工人的大农为目标，是可行的策略。",
+      "author_response": "恩格斯指出，这种做法使党几乎成了一个普通的人民政党，背离了其作为无产阶级政党的阶级性质和革命原则。",
+      "polemic_kind": "strategic_critique",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p41s1",
+        "speaker": "quoted_engels",
+        "stance": "endorsed",
+        "notes": [
+          {
+            "surface": "机会主义",
+            "type": "concept",
+            "modern": "在党内指为眼前利益放弃长远革命目标、向资产阶级妥协的倾向",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "opportunism_party"
+          },
+          {
+            "surface": "人民政党",
+            "type": "concept",
+            "modern": "恩格斯用此词批评巴伐利亚党团模糊了无产阶级政党的阶级界限，使其看起来像一个代表广泛但无明确阶级立场的普通政党",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "people's_party"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

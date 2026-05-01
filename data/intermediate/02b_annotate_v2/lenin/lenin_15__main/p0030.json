@@ -1,0 +1,80 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 30,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "通过列举两个帝国主义和约，揭露那些鼓吹在帝国主义体系内实现和平改良的言论的虚伪性。",
+    "importance_score": 2,
+    "importance_reason": "用具体历史事件例证，支撑前文关于帝国主义本质与战争根源的论断，并直接批判改良主义思潮。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段对帝国主义本质的定义，以第一次世界大战期间及战后的两个具体和约为实例，证明帝国主义列强的压迫性，并以此揭穿改良主义幻想。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "布雷斯特-里托夫斯克和约",
+        "explain": "1918年3月，第一次世界大战期间，德国等同盟国强迫新生的苏维埃俄国签订的苛刻和约，使苏俄丧失大片领土与资源。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "凡尔赛和约",
+        "explain": "1919年6月，第一次世界大战后，美、法、英等战胜国强加给战败国德国的和约，规定了领土割让、巨额赔款与军事限制。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "帝国主义雇用的文丐（自称和平主义者和社会主义者，歌颂威尔逊主义的人）",
+      "their_view": "在帝国主义条件下，通过改良和国际协调（如威尔逊主义倡导的国际联盟）可能实现持久和平与社会进步。",
+      "author_response": "第一次世界大战期间及战后的两个帝国主义和约，以其残暴和卑鄙的现实，彻底揭穿了这种改良主义幻想的虚伪性。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p30s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "文丐",
+            "type": "metaphor",
+            "modern": "比喻被帝国主义收买、为其侵略政策辩护的御用文人或知识分子。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 163,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段以法国为例，说明小资产阶级社会主义的产生背景及其代表人物。",
+    "importance_score": 1,
+    "importance_reason": "作为对前文小资产阶级分化论述的具体例证，引出并界定小资产阶级社会主义这一论战对象。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于小资产阶级在资本主义竞争中分化的描述，具体展示这种社会结构如何催生一种特定的社会主义思潮。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "all_known",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "小资产阶级社会主义",
+      "their_view": "站在小资产者和小农的立场上批判资本主义，希望恢复旧的生产资料所有制和旧的交换方式。",
+      "author_response": "指出这种社会主义的阶级基础是中间等级，并点明其代表人物。",
+      "polemic_kind": "reveals_class_basis",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p163s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "资本阶级",
+            "type": "concept",
+            "modern": "早期中文译法，即资产阶级。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "bourgeoisie_early_translation"
+          }
+        ]
+      },
+      {
+        "sid": "p163s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p163s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "西斯蒙地",
+            "type": "person",
+            "modern": "让·夏尔·列昂纳尔·西蒙·德·西斯蒙第，瑞士经济学家，小资产阶级社会主义的代表。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_8>5"
+      ]
+    }
+  ]
+}

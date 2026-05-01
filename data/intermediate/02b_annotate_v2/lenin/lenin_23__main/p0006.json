@@ -1,0 +1,72 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 6,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段提出一项策略性主张：在哲学战线上，应联合非党唯物主义者共同对抗资产阶级哲学偏见，并引用狄慈根的话批判资产阶级哲学教授的阶级服务性质。",
+    "importance_score": 2,
+    "importance_reason": "提出了一个具体的、具有策略性的统一战线主张，是前文关于杂志任务论述的延伸和具体化。",
+    "argument_role": "continues",
+    "argument_link": "承接上文对杂志捍卫唯物主义任务的界定，进一步提出实现该任务的具体策略——联合非党唯物主义者，并以狄慈根的论断强化对批判对象的认识。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "allusion",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "老狄慈根",
+        "explain": "指约瑟夫·狄慈根（1828-1888），德国工人哲学家，独立地接近辩证唯物主义，著有《人脑活动的本质》等。列宁特意将其与他儿子欧根·狄慈根（列宁评价其著作“自命不凡而实际上毫无成就”）区分开，以强调老狄慈根观点的可靠性。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p6s2",
+        "quote": "老狄慈根(不要把他同他那自命不凡而实际上毫无成就的著作家儿子混为一谈)曾正确地、中肯地、清楚地表述了马克思主义对盛行于资产阶级国家并受到它们的学者和政论家重视的那些哲学流派的基本看法，他说：当今社会中的哲学教授多半实际上无非是“僧侣主义的有学位的奴仆”。",
+        "trigger": "allusion",
+        "reader_block": "“僧侣主义的有学位的奴仆”是一个尖锐的比喻，读者可能不理解其具体所指和批判力度，需要知道“僧侣主义”在此语境下指代什么。",
+        "parse": {
+          "claim": "狄慈根认为，资产阶级社会中大多数哲学教授本质上是为宗教蒙昧主义（僧侣主义）服务的、拥有学术头衔的附庸。",
+          "qualifiers": "限定于“当今社会”（即狄慈根所处的19世纪后期资本主义社会）中的“哲学教授”这一群体。",
+          "contrast_or_target": "针对那些受到资产阶级国家及其学者、政论家推崇的哲学流派及其代表人物（哲学教授）。"
+        },
+        "why": {
+          "relation": "example",
+          "explanation": "引用狄慈根的论断，作为前文“反对哲学上的反动，反对所谓‘有教养社会’的种种哲学偏见”这一责任的具体例证和理论依据，揭示了批判对象的实质。"
+        },
+        "implication": "此论断将资产阶级学术权威与宗教蒙昧主义联系起来，揭露了其维护旧意识形态的社会功能，为战斗唯物主义的批判提供了靶子。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "资产阶级哲学教授及其代表的哲学流派",
+      "their_view": "他们自视为独立、客观的学者，其哲学研究代表了“有教养社会”的智识成就，与宗教或唯心主义有别。",
+      "author_response": "列宁借狄慈根之口指出，这些教授的学术活动实质上服务于“僧侣主义”，即维护宗教和唯心主义世界观，是资产阶级意识形态的附庸。",
+      "polemic_kind": "reveals_class_basis",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p6s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p6s2",
+        "speaker": "quoted_marx",
+        "stance": "endorsed",
+        "notes": []
+      }
+    ]
+  }
+}

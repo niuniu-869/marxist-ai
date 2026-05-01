@@ -1,0 +1,73 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 74,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "恩格斯开始对社会主义流派进行分类，首先描述并批判了主张恢复封建宗法社会的“反动的社会主义者”。",
+    "importance_score": 2,
+    "importance_reason": "本段是恩格斯对各类社会主义进行系统批判的开端，为后续区分科学社会主义与其他流派奠定基础。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段对社会主义者进行分类的引子，具体展开第一类社会主义者的特征与共产主义者的斗争立场。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "封建和宗法社会的拥护者",
+      "their_view": "当今社会的种种弊病证明，应该回到没有这些弊病的封建和宗法社会去。",
+      "author_response": "这种主张是反动的，因为封建社会已被大工业和世界贸易所创造的资产阶级社会所取代，且这一进程仍在继续。共产主义者必须与之斗争。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p74s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p74s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p74s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p74s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

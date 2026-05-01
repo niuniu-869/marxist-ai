@@ -1,0 +1,83 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 64,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁批判那些向工农许诺平等的人，指出这种主张在从资本主义到社会主义的过渡时期不切实际，客观上服务于白卫军势力。",
+    "importance_score": 2,
+    "importance_reason": "本段是列宁对“工农平等”口号进行理论批判的核心段落，揭示了其在特定历史阶段的阶级后果。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对白卫军政权经济基础的分析，进一步从理论层面批判那些在政治上可能为白卫军提供思想支持的口号。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "社会革命党人及舍尔等自诩的马克思主义者",
+      "their_view": "在当前的苏俄，可以向工农群众许诺并实现他们之间的平等。",
+      "author_response": "列宁指出，在从资本主义向社会主义过渡的特定历史阶段，工农之间不可能实现平等；许诺这种平等，客观上是在为高尔察克的白卫军纲领张目。",
+      "polemic_kind": "reveals_class_basis",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p64s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p64s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "工农平等",
+            "type": "concept",
+            "modern": "列宁在此特指在苏俄内战与经济破坏的过渡时期，无产阶级与农民在政治经济地位上完全对等的主张。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "equality_worker_peasant"
+          }
+        ]
+      },
+      {
+        "sid": "p64s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p64s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

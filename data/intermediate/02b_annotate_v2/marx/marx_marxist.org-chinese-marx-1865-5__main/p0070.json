@@ -1,0 +1,104 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 70,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "马克思用英国不同行业工资与产品价格的反差，来反驳商品价格由工资决定的教条。",
+    "importance_score": 2,
+    "importance_reason": "用经验反例直接驳斥韦斯顿的核心论点，为后续理论分析做铺垫。",
+    "argument_role": "contrasts",
+    "argument_link": "承接上段对韦斯顿教条的概括，转而用具体经济事实与之形成对照，以经验事实否定其理论前提。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p70s5",
+        "quote": "当然，这种现象不能证明一种场合下的高价劳动和另一种场合下的低价劳动都是造成那些正好相反结果的各自原因，但总能证明商品的价格不是由劳动的价格决定的。",
+        "trigger": "inverted_logic",
+        "reader_block": "双重否定（不能证明……但总能证明）加让步结构，读者容易混淆“不能证明因果”与“能证明否定命题”之间的逻辑关系。",
+        "parse": {
+          "claim": "工资水平与产品价格高低之间不存在必然的因果联系，但足以否定价格由工资决定的命题。",
+          "qualifiers": "“平均说来”表明这是基于大量案例的统计性观察，而非绝对规律。",
+          "contrast_or_target": "韦斯顿认为工资水平直接决定商品价格，因此高工资必然导致产品高价。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "此句是马克思对韦斯顿观点的直接逻辑反驳。他承认经验证据不能完全确立因果关系，但足以证伪韦斯顿的因果论断，从而为引入更根本的价值理论扫清道路。"
+        },
+        "implication": "马克思将从经验反驳转向更根本的理论分析，即价值规律。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p70s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p70s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p70s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p70s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p70s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p70s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 1,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

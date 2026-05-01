@@ -1,0 +1,128 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 99,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "恩格斯逐条反驳特卡乔夫关于其蔑视俄国革命者的指控，核心是澄清自己从未赋予特卡乔夫代表俄国革命者的资格。",
+    "importance_score": 2,
+    "importance_reason": "本段是恩格斯对特卡乔夫公开信中核心指控（代表权问题）的直接驳斥，是论战的关键环节。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段对特卡乔夫公开信中具体指责的转述，本段开始逐条进行反驳，重点澄清代表权问题。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "allusion",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p99s9",
+        "quote": "但是，就算他真的代表他们，这仍然只不过是关于伦敦土利街三个裁缝的老故事的翻版，这三个裁缝曾发表一个宣言：“我们，英国人民，声明”等等［注：我敢打赌，特卡乔夫先生一定会说，我开这个玩笑就完全背叛了无产阶级，因为我把裁缝“形容得滑稽可笑”。］。",
+        "trigger": "allusion",
+        "reader_block": "读者若不了解“土利街三个裁缝”这个英国讽刺性民间典故，就无法理解恩格斯用它来讽刺特卡乔夫自封代表的荒谬性。",
+        "parse": {
+          "claim": "即便特卡乔夫能代表那少数巴枯宁主义者，这种代表权也是虚张声势、缺乏实质的，如同三个裁缝妄称代表全体英国人民。",
+          "qualifiers": "这是一个让步性假设（就算他真的代表他们），用以加强讽刺效果。",
+          "contrast_or_target": "特卡乔夫自认为有权代表俄国革命者乃至全体俄国青年发言。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "通过引用一个广为人知的讽刺故事，将特卡乔夫的代表权主张类比为一种可笑的僭越，从而消解其指控的严肃性。"
+        },
+        "implication": "恩格斯借此暗示，特卡乔夫的公开信本质上是个人行为，却试图披上集体代表的外衣，这本身就暴露了其立场的虚妄。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p99s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p99s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p99s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p99s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p99s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p99s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p99s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p99s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p99s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p99s10",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 1,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

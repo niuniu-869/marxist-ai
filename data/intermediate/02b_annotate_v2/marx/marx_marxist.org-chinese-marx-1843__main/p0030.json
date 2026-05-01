@@ -1,0 +1,138 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 30,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段论证理论与实践的辩证关系，指出理论必须彻底才能掌握群众并转化为物质力量，而彻底性在于抓住人的根本。",
+    "importance_score": 3,
+    "importance_reason": "本段提出理论与实践关系的核心命题，为后文论证德国革命的可能性奠定基础。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对德国革命可能性的提问，本段开始论证理论如何转化为实践力量。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "批判的武器与武器的批判",
+        "explain": "这是马克思使用的两组隐喻。前者指理论批判（如哲学、宗教批判），后者指实际的、物质的革命行动。理解这对概念是把握本段论证逻辑的前提。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      },
+      {
+        "topic": "德国理论",
+        "explain": "指当时在德国兴起的、以费尔巴哈宗教批判为起点的激进哲学思潮。马克思将其视为德国特有的、具有彻底性的理论形态。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p30s5",
+        "quote": "所谓彻底，就是抓住事物的根本。但人的根本就是人本身。",
+        "trigger": "inverted_logic",
+        "reader_block": "读者可能困惑于“彻底”在此处的特殊含义，以及为何“人的根本”就是“人本身”这一看似同义反复的论断。",
+        "parse": {
+          "claim": "理论的彻底性在于触及问题的根源，而人类社会问题的根源最终要归结到人自身的存在状态与关系。",
+          "qualifiers": "此处的“彻底”特指理论批判的深度，而非一般意义上的完全。",
+          "contrast_or_target": ""
+        },
+        "why": {
+          "relation": "definition",
+          "explanation": "本句为前文提出的“理论彻底”这一标准下定义，并将抽象标准具体化为对“人”的关注，为下文引出对人的奴役关系的批判做铺垫。"
+        },
+        "implication": "这为从宗教批判转向对现实社会关系的批判提供了逻辑桥梁。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "青年黑格尔派",
+      "their_view": "认为理论批判（如对宗教的批判）本身就能实现社会变革，无需与物质力量结合。",
+      "author_response": "强调理论必须掌握群众才能转化为物质力量，而掌握群众的前提是理论本身的彻底性。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "medium"
+    },
+    "sentences": [
+      {
+        "sid": "p30s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p30s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p30s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p30s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p30s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p30s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p30s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p30s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p30s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 2,
+        "hs_kept": 1,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 39,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁在此段重新定义“护国派”概念，强调苏维埃政权保卫的是社会主义祖国，其利益高于民族与国家利益。",
+    "importance_score": 3,
+    "importance_reason": "这是报告的核心立场阐述，为苏维埃政权的对外政策提供理论基础，直接回应国内外对“护国主义”的质疑。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段关于俄国无产阶级队伍走在前面的论述，具体阐明这支队伍所捍卫的“祖国”的性质与利益归属。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p39s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "护国派",
+            "type": "concept",
+            "modern": "在1918年语境下，此词通常指支持继续帝国主义战争的社会沙文主义者。列宁在此赋予其全新内涵。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "patriotism_proletarian"
+          }
+        ]
+      },
+      {
+        "sid": "p39s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p39s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p39s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p39s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 4,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "note:n1_overflow_concept_7>5",
+        "note:n1_overflow_concept_9>5",
+        "note:n1_overflow_concept_6>5"
+      ]
+    }
+  ]
+}

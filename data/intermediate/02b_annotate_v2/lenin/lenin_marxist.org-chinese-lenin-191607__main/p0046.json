@@ -1,0 +1,92 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 46,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁引用波兰同志为帝国主义压迫辩护的言论，将其定性为司徒卢威主义，并指出这种手法在俄国和德国社会帝国主义者中也有体现。",
+    "importance_score": 2,
+    "importance_reason": "本段是核心批判的一部分，具体反驳波兰反对派观点，并将其与更广泛的修正主义思潮联系起来。",
+    "argument_role": "contrasts",
+    "argument_link": "承接上段预告，开始具体分析波兰同志提纲中的错误，将其定性为对马克思主义的歪曲。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "司徒卢威主义",
+        "explain": "指19世纪末俄国“合法马克思主义者”司徒卢威等人的思潮，主张通过资本主义发展为社会主义准备条件，反对无产阶级革命，常被列宁用作修正主义的代名词。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "社会帝国主义者",
+        "explain": "指口头上承认社会主义，实际上支持本国资产阶级政府进行帝国主义战争的人，是第二国际中机会主义者的别称。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "波兰社会民主党人（反对派）",
+      "their_view": "资本主义国家的政治经济集中是通过帝国主义压迫的残酷形式进行的，这为社会主义准备了条件。",
+      "author_response": "列宁指出，替兼并作辩护是司徒卢威主义，是对马克思主义的歪曲。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p46s1",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p46s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "司徒卢威、库诺夫、列金",
+            "type": "person",
+            "modern": "19世纪末至20世纪初欧洲主张通过资本主义发展实现社会主义的理论家，常被列宁视为修正主义代表。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p46s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 2,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_6>5",
+        "note:n1_overflow_concept_7>5"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 56,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁用反讽手法，批判考茨基将帝国主义列强在殖民地的暴力争夺曲解为“误会”的论调。",
+    "importance_score": 2,
+    "importance_reason": "直接批判考茨基的核心论点，揭露其理论为帝国主义和平扩张辩护的实质，是全文对考茨基主义批判的关键环节。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段对考茨基经济解读的批判，进一步用反讽揭露其理论在历史解释上的荒谬性。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p56s3",
+        "quote": "所有这些都是误会，只不过是一场误会，只是因为英国人还没有领悟到：不对埃及采用暴力，而转向（为了按考茨基的办法扩大资本的输出！）“和平的民主”才是“最好的”方法……",
+        "trigger": "inverted_logic",
+        "reader_block": "表面是陈述“误会”，实际是反讽，读者可能误以为列宁在同意考茨基的观点，需要识别其讽刺语气。",
+        "parse": {
+          "claim": "考茨基认为，列强在埃及等地的争夺本可通过和平方式避免，暴力是不必要的误会。",
+          "qualifiers": "这是列宁转述并讽刺的考茨基观点，用以暴露其脱离历史现实。",
+          "contrast_or_target": "考茨基认为帝国主义列强之间的冲突可以通过和平扩张解决，暴力是偶然的、可避免的。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "本句通过反讽，直接驳斥考茨基将帝国主义战争的根源归结为“误会”或“未领悟”的论调，揭示其理论的幻想性质。"
+        },
+        "implication": "这种论调掩盖了帝国主义战争的必然性，为社会民主党在战争中支持本国政府提供了理论借口。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "考茨基",
+      "their_view": "列强在埃及等地的争夺本可通过和平方式解决，暴力是不必要的误会，转向“和平的民主”才是最好的方法。",
+      "author_response": "列宁指出这是用幻想掩盖帝国主义战争的必然性，为社会沙文主义背叛国际主义辩护。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p56s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p56s2",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p56s3",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      }
+    ]
+  }
+}

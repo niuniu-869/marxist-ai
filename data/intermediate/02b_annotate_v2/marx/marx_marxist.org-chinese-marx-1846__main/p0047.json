@@ -1,0 +1,104 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 47,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段批判费尔巴哈的唯物主义局限，指出其将人视为静止的感性对象，而非从事社会实践活动的主体，因而无法理解现实的社会关系与变革的必要性。",
+    "importance_score": 3,
+    "importance_reason": "这是对费尔巴哈哲学进行清算的核心段落之一，直接阐明了历史唯物主义与旧唯物主义在理解“人”与“实践”上的根本分歧。",
+    "argument_role": "contrasts",
+    "argument_link": "承接上段关于从物质实践理解哲学问题的论点，本段具体对比费尔巴哈的唯物主义与共产主义的唯物主义在观察人与社会时的不同路径。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p47s6",
+        "quote": "可见，他从来没有把感性世界理解为构成这一世界的个人的全部活生生的感性活动，因而比方说，当他看到的是大批患瘰疬病的、积劳成疾的和患肺痨的穷苦人而不是健康人的时候，他便不得不求助于“最高的直观”和观念上的“类的平等化”，这就是说，正是在共产主义的唯物主义者看到改造工业和社会结构的必要性和条件的地方，他却重新陷入唯心主义。",
+        "trigger": "long_nested",
+        "reader_block": "句子长且嵌套，包含费尔巴哈的特定术语“最高的直观”和“类的平等化”，读者可能不理解这些术语在批判中的具体指向，以及它如何与“改造工业和社会结构”形成对比。",
+        "parse": {
+          "claim": "费尔巴哈面对社会中的苦难现象时，其理论工具是诉诸一种抽象的哲学直观和关于人类本质的平等观念，而非指向现实的社会改造。",
+          "qualifiers": "当费尔巴哈观察到的具体对象是穷苦人而非健康人时，这一理论局限便暴露出来。",
+          "contrast_or_target": "共产主义的唯物主义者在同样的地方看到的是改造工业和社会结构的必要性与条件。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "本句通过一个具体例子（观察穷苦人），揭示费尔巴哈唯物主义在历史社会领域的失效：它无法提供改造现实的方案，反而退回到唯心主义的抽象观念中，以此与共产主义的唯物主义形成直接对立。"
+        },
+        "implication": "这表明，一种不能指导实践改造的唯物主义，在历史领域是无效的，最终会与其声称的唯物主义立场相矛盾。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p47s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p47s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p47s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p47s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p47s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p47s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 1,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

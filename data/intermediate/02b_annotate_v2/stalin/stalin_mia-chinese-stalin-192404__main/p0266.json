@@ -1,0 +1,103 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 266,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "批判第二国际机会主义将民族问题孤立化的错误，阐明列宁主义关于民族问题与无产阶级革命相联系的观点。",
+    "importance_score": 3,
+    "importance_reason": "提出列宁主义关于民族问题的核心论点，是全文理论阐释的关键部分。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段对第二国际民族观的批判，从理论高度总结民族问题在无产阶级革命总问题中的地位。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "改良主义",
+        "explain": "第二国际机会主义的理论表现，主张通过议会斗争、社会改良等和平方式渐进地实现社会主义，反对暴力革命和无产阶级专政。列宁主义将其视为对马克思主义的背叛。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p266s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "改良主义",
+            "type": "concept",
+            "modern": "第二国际机会主义的理论路线，主张通过和平改良而非革命手段实现社会变革。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "opportunism_reformist"
+          }
+        ]
+      },
+      {
+        "sid": "p266s2",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p266s3",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p266s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p266s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p266s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

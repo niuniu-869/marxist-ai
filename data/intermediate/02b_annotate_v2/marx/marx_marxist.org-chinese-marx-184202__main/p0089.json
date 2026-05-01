@@ -1,0 +1,66 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 89,
+  "annotation": {
+    "block_type": "quote_block",
+    "gist": "本段引用拉丁文古典引语，表达对思想和言论自由的赞美，以此讽刺普鲁士书报检查令的限制。",
+    "importance_score": 1,
+    "importance_reason": "本段通过引用古典理想，为批判普鲁士检查令提供对比，增强讽刺效果。",
+    "argument_role": "contrasts",
+    "argument_link": "本段引用古典引语中言论自由的理想状态，与上段讨论的普鲁士检查令现实形成鲜明对比。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "allusion",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "allusion",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "拉丁文引语来源",
+        "explain": "这个拉丁文句子常被归于古罗马历史学家塔西佗，表达对思想和言论自由时代的向往。马克思引用它来讽刺普鲁士书报检查令的虚伪。",
+        "why_needed": "allusion",
+        "confidence": "medium",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p89s1",
+        "quote": "Rara temporum felicitas, ubi quae velis sentire et quae sentias dicere licet［当你能够想你愿意想的东西，并且能够把你所想的东西说出来的时候，这是非常幸福的时候］[7]。",
+        "trigger": "allusion",
+        "reader_block": "读者可能不熟悉拉丁文，或不知道引语的出处和含义，导致无法理解马克思引用此语的讽刺意图。",
+        "parse": {
+          "claim": "引语描述了一种幸福状态：个人能够自由地思考和表达自己的想法。",
+          "qualifiers": "",
+          "contrast_or_target": "普鲁士书报检查令限制思想和言论自由的现实。"
+        },
+        "why": {
+          "relation": "contrasts",
+          "explanation": "马克思引用古典引语，以对比普鲁士书报检查令对言论自由的压制，突出其虚伪性。"
+        },
+        "implication": null,
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p89s1",
+        "speaker": "unknown",
+        "stance": "neutral_citation",
+        "notes": []
+      }
+    ]
+  }
+}

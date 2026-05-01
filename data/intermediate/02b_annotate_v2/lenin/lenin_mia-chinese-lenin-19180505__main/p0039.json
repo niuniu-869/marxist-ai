@@ -1,0 +1,76 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 39,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁预判并模拟“左派共产主义者”对他关于国家资本主义进步性论断的激烈反应，以反问句式呈现其立场。",
+    "importance_score": 1,
+    "importance_reason": "通过模拟论敌反应，为后续反驳做铺垫，属于论证中的过渡环节。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对国家资本主义进步性的论断，转而模拟该论断在党内引发的激烈反对。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "“左派共产主义者”小集团",
+      "their_view": "在苏维埃社会主义共和国内，向国家资本主义过渡是背叛社会主义的倒退。",
+      "author_response": "列宁通过模拟其反应，揭示这种观点将任何与资本主义的联系都视为不可接受的教条。",
+      "polemic_kind": "strategic_critique",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p39s1",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": [
+          {
+            "surface": "右派布尔什维克的倾向",
+            "type": "slogan",
+            "modern": "“左派共产主义者”用来攻击列宁等人的政治标签，指责其政策路线偏向右倾。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p39s2",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p39s3",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

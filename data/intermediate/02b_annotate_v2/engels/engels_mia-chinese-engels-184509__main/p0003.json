@@ -1,0 +1,290 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 3,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "描述莱比锡大屠杀事件经过，分析萨克森政治状况，并转向讨论德国工人运动的兴起。",
+    "importance_score": 2,
+    "importance_reason": "本段是全文从事件报道转向工人运动分析的关键过渡，为后续论述提供具体案例和阶级基础。",
+    "argument_role": "transition",
+    "argument_link": "承接上文对德国工人运动的引入，通过莱比锡事件具体说明德国军事专制制度的残暴，并引出萨克森工业无产阶级的状况。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested, inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "彼得卢事件",
+        "explain": "1819年英国曼彻斯特圣彼得广场上，骑兵向要求议会改革的和平集会群众发起冲锋，造成伤亡。恩格斯以此类比莱比锡事件的残暴性。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "隆格与反教权口号",
+        "explain": "“隆格”指约瑟夫·隆格，一位主张德国统一的天主教神父。“打倒罗马教！”是当时德国自由主义者和新教徒反对天主教会影响力的口号。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "萨克森亲王约翰",
+        "explain": "萨克森王室成员，以翻译但丁《神曲》闻名。恩格斯讽刺他试图从文学转向军事，以镇压群众来获取荣誉。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p3s23",
+        "quote": "他们一定会知道，尽管他们有宪法、自由主义的法律、自由主义的警报检查制度和国王的自由主义言论，但是在他们这个小国家中实际存在的不过是军法而已。",
+        "trigger": "inverted_logic",
+        "reader_block": "句子用“尽管……但是……”的让步转折结构，先列举萨克森拥有的自由主义表象，再用“不过是军法而已”进行全盘否定，形成强烈反差，读者需理解其反讽逻辑。",
+        "parse": {
+          "claim": "萨克森国家机器的本质是军事专制，其宪法和自由主义法律只是虚伪的装饰。",
+          "qualifiers": "这是莱比锡事件后萨克森人必然会认清的事实。",
+          "contrast_or_target": "萨克森自由派所吹嘘的立宪政府、议会和自由主义法律。"
+        },
+        "why": {
+          "relation": "conclusion",
+          "explanation": "本句是前文对萨克森政治状况（听命于普鲁士、空谈自由主义）分析的结论，指出大屠杀事件将撕碎其自由主义的伪装。"
+        },
+        "implication": "任何资产阶级自由主义的制度安排，在军事专制国家机器面前都不堪一击，其实质是军法统治。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "资产阶级自由主义",
+      "their_view": "萨克森拥有宪法、自由主义法律和开明的议会，是德国北部温和自由主义的代表，其政治制度优于普鲁士。",
+      "author_response": "恩格斯指出，萨克森的自由主义只是空谈和吹嘘，其政府完全听命于普鲁士，莱比锡事件证明其实际存在的只有军法，自由主义表象是虚伪的。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p3s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p3s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p3s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "彼得卢事件",
+            "type": "event",
+            "modern": "1819年英国镇压要求议会改革的和平集会的骑兵冲锋事件，常被用作政府暴力镇压民众的象征。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p3s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p3s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "隆格万岁",
+            "type": "slogan",
+            "modern": "支持约瑟夫·隆格神父的口号，他主张德国统一并反对天主教会的控制。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p3s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p3s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p3s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p3s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p3s10",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p3s11",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p3s12",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p3s13",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p3s14",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p3s15",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p3s16",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p3s17",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p3s18",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p3s19",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p3s20",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p3s21",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p3s22",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p3s23",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p3s24",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p3s25",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p3s26",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p3s27",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p3s28",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p3s29",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p3s30",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 2,
+        "hs_kept": 1,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_7>5",
+        "note:n1_overflow_concept_6>5",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

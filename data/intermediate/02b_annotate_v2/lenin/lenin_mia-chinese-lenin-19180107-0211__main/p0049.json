@@ -1,0 +1,55 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 49,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "批评党内部分成员固守旧策略，拒绝承认客观形势已发生根本变化。",
+    "importance_score": 2,
+    "importance_reason": "通过批评党内固守旧策略的倾向，为论证改变策略的必要性提供直接靶子。",
+    "argument_role": "contrasts",
+    "argument_link": "直接回应上一段中发言者对列宁立场的指责，指出其问题在于无视客观条件的变化。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "莫斯科派",
+      "their_view": "坚持过去的策略立场是正确的，无需根据新的客观形势进行调整。",
+      "author_response": "这种固守是错误的，因为客观条件已经改变，必须形成新的策略。",
+      "polemic_kind": "strategic_critique",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p49s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

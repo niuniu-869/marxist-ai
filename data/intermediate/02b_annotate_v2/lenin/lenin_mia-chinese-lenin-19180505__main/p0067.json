@@ -1,0 +1,87 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 67,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁提出，若德国革命延迟，苏维埃俄国应主动学习德国的国家资本主义模式，甚至采用强制手段加速这一进程，并驳斥了反对这种学习的论调。",
+    "importance_score": 2,
+    "importance_reason": "本段提出了在力量对比不利时，向对手学习具体组织形式的策略，是列宁对“左派”空谈进行战略批判的核心论据之一。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段关于德国革命可能性的讨论，本段转向假设该革命未发生时的具体行动方针，即主动学习敌人的长处。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "allusion",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "allusion",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "彼得大帝改革",
+        "explain": "18世纪初俄国沙皇彼得一世通过强制手段推行西化改革，包括建立近代工业、军队和行政体系，以改变俄国落后状态。列宁用此比喻说明学习先进经验有时需要强力推动。",
+        "why_needed": "allusion",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "纳尔苏修斯典故",
+        "explain": "希腊神话中因自恋而死的美少年，此处用来讽刺那些自视清高、拒绝向敌人学习的革命者，认为他们脱离实际。",
+        "why_needed": "allusion",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "无政府主义者和左派社会革命党人",
+      "their_view": "向德帝国主义“学习”不是我们革命家干的事，这种行为有损革命纯洁性。",
+      "author_response": "列宁认为，这种清高态度脱离现实斗争需要，如果革命者听从这类意见，革命事业早已因脱离实际而失败。",
+      "polemic_kind": "strategic_critique",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p67s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "独裁的方法",
+            "type": "concept",
+            "modern": "此处并非指政治独裁，而是指在经济管理上采取高度集中、强制推行的组织方式，以克服落后状态。",
+            "highlight": "term",
+            "confidence": "medium",
+            "source_basis": "inferred",
+            "sense_id": "dictatorial_methods_economic"
+          }
+        ]
+      },
+      {
+        "sid": "p67s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_6>5",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

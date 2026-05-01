@@ -1,0 +1,73 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 245,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "通过引用恩格斯对西方农民的论述，对比俄国共产党人在三次革命中于农村建立的深厚基础，论证工农经济合作的现实可能性。",
+    "importance_score": 2,
+    "importance_reason": "作为上一段关于苏联农民特殊性的论证延伸，具体说明俄国共产党人在农村工作的成果，为工农联盟提供实践依据。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于苏联农民与西方农民区别的论断，具体阐述俄国共产党人通过革命实践在农村建立的影响，以证明这种区别带来的优势。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "第二国际机会主义",
+      "their_view": "认为无产阶级政党难以在农民中获得可靠支持，工农联盟缺乏坚实基础，或者认为必须等待农民自身达到某种文化水平。",
+      "author_response": "俄国共产党人通过领导农民进行革命斗争的实践，已经证明了能够在农村建立强大的影响力和依靠力量，从而为工农经济合作创造了前提。",
+      "polemic_kind": "counter_quotation",
+      "confidence": "medium"
+    },
+    "sentences": [
+      {
+        "sid": "p245s1",
+        "speaker": "quoted_engels",
+        "stance": "neutral_citation",
+        "notes": []
+      },
+      {
+        "sid": "p245s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p245s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p245s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

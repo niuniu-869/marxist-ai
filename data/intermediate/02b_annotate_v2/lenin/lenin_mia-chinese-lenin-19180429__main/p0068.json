@@ -1,0 +1,107 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 68,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁直接回应“左派共产主义者”的批评，要求他们提出具体法令草案，并论证铁路法令与独裁制的正确性，强调纪律是社会主义的前提。",
+    "importance_score": 2,
+    "importance_reason": "通过具体案例（铁路法令）论证纪律与组织的必要性，反驳党内反对派。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于计算和监督的论述，以铁路法令为例，具体说明纪律和组织对于社会主义建设的必要性。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "左派共产主义者",
+      "their_view": "反对铁路法令和其中的独裁制，认为这不符合民主原则，主张更民主的管理方式。",
+      "author_response": "要求批评者提出具体法令草案，并指出他们拿不出来；论证法令得到群众和觉悟工人支持，反对者只是少数腐败主管和动摇分子。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p68s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p68s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p68s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p68s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "独裁制",
+            "type": "concept",
+            "modern": "在苏维埃语境下，指为应对紧急状况而授予的集中管理权力，由铁路部门率先实施。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "dictatorship_proletarian"
+          }
+        ]
+      },
+      {
+        "sid": "p68s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p68s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p68s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p68s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_9>5"
+      ]
+    }
+  ]
+}

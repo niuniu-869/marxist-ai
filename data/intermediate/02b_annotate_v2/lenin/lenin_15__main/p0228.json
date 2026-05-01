@@ -1,0 +1,120 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 228,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁批判德国资产阶级学者为金融寡头统治辩护，揭露其掩盖真相、玩弄理论游戏的实质。",
+    "importance_score": 2,
+    "importance_reason": "本段通过批判资产阶级学者，为后续分析金融寡头统治的实质做铺垫。",
+    "argument_role": "continues",
+    "argument_link": "本段承接上段对金融资本的定义，转向批判为这一统治形式辩护的资产阶级学术界。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p228s5",
+        "quote": "这样说来，商业在不知交换为何物的原始人那里就已经有了，而且在社会主义社会也将存在下去！",
+        "trigger": "inverted_logic",
+        "reader_block": "读者可能不理解这是反讽，会误以为列宁在肯定商业的永恒性，而实际上他是在批判利夫曼定义的荒谬。",
+        "parse": {
+          "claim": "列宁通过反讽指出，利夫曼对商业的定义过于宽泛，以至于抹杀了资本主义商业的特殊性。",
+          "qualifiers": "",
+          "contrast_or_target": "利夫曼将商业定义为一种普遍的经营活动，抹杀了其历史特殊性。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "本句通过反讽，揭露利夫曼定义的荒谬性，从而批判资产阶级学者用抽象概念掩盖资本主义实质的做法。"
+        },
+        "implication": "这种抽象定义回避了对资本主义生产关系的具体分析。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "德国资产阶级学术界代表人物（里塞尔、舒尔采-格弗尼茨、利夫曼等）",
+      "their_view": "金融寡头的统治是正当的，其收入和手段无需深究，只需强调银行经理的责任心和官员的尽职精神，通过无关紧要的监督法案即可。",
+      "author_response": "列宁指出他们是在掩盖寡头形成的内幕和实质，用空洞说辞回避关键问题，是帝国主义和金融资本的辩护士。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p228s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "金融寡头",
+            "type": "concept",
+            "modern": "在列宁的帝国主义理论中，指由银行资本与工业资本融合形成的、控制国家经济命脉的少数大资本家集团。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "finance_oligarchy"
+          }
+        ]
+      },
+      {
+        "sid": "p228s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "帝国主义",
+            "type": "concept",
+            "modern": "列宁将其定义为资本主义发展的最高阶段，其特征是生产集中和垄断、金融资本统治、资本输出、瓜分世界领土。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "imperialism_lenin"
+          },
+          {
+            "surface": "金融资本",
+            "type": "concept",
+            "modern": "由银行资本和工业资本在垄断基础上融合生长而成的资本形态，是帝国主义经济基础的核心。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "finance_capital"
+          }
+        ]
+      },
+      {
+        "sid": "p228s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p228s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p228s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "利夫曼",
+            "type": "person",
+            "modern": "德国资产阶级经济学家，其著作《卡特尔与托拉斯》被列宁视为为金融资本辩护的代表。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  }
+}

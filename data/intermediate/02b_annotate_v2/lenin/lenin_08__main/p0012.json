@@ -1,0 +1,143 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 12,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁通过还原恩格斯相关论述的历史语境，揭露俄国党内机会主义者片面引用其言论以模糊阶级界限的自相矛盾。",
+    "importance_score": 3,
+    "importance_reason": "核心段落，直接针对论敌的策略主张展开批驳，揭示其对经典文本的曲解。",
+    "argument_role": "contrasts",
+    "argument_link": "承接上段对理论与实践关系的论述，转而具体剖析论敌如何错误地运用恩格斯的实践观点来为自身机会主义路线辩护。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p12s3",
+        "quote": "我们要问问这些急于“引用”恩格斯的话的人，你们为什么不用这一段话为“左派联盟”辩护呢？",
+        "trigger": "inverted_logic",
+        "reader_block": "反问句式，读者可能只看到质问，而忽略其揭露对方选择性引用、自相矛盾的论战意图。",
+        "parse": {
+          "claim": "论敌在援引恩格斯关于群众性工人政党价值的论述时，存在明显的双重标准。",
+          "qualifiers": "针对那些急于引用恩格斯特定言论来为自身主张辩护的俄国社会民主党人。",
+          "contrast_or_target": "论敌只引用恩格斯支持其“广泛的工人党”主张的话，却回避用同一逻辑支持“左派联盟”。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "此句是论战的关键转折，通过反问直接揭露论敌引用经典时的实用主义和自相矛盾，为下文还原恩格斯原意做铺垫。"
+        },
+        "implication": "论敌对经典文本的引用是服务于特定策略目的的，而非忠实于其完整思想。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "俄国社会民主党内的机会主义倾向",
+      "their_view": "援引恩格斯关于大规模工人拥护比完美纲领更有价值的论述，来证明召开“工人代表大会”或建立模糊阶级界限的“广泛的工人党”是合理的。",
+      "author_response": "列宁指出，恩格斯的论述有其特定历史背景（美国工人选举亨利·乔治时期），其核心是反对妨碍工人政党形成，而非支持放弃纲领的纯洁性。论敌的引用是片面的、脱离语境的。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p12s1",
+        "speaker": "quoted_engels",
+        "stance": "endorsed",
+        "notes": []
+      },
+      {
+        "sid": "p12s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "工人代表大会",
+            "type": "slogan",
+            "modern": "1905-1907年间俄国党内部分人主张召开的、旨在联合各派工人的非党派会议，意在模糊党的阶级界限。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "广泛的工人党",
+            "type": "slogan",
+            "modern": "拉林等人提出的、试图包容非无产阶级成分的建党主张，与列宁的先锋队政党思想对立。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p12s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p12s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "亨利·乔治",
+            "type": "person",
+            "modern": "19世纪美国经济学家、政治家，其“单一税”方案在1886年纽约市长选举中获得工人政党支持。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p12s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p12s6",
+        "speaker": "quoted_engels",
+        "stance": "endorsed",
+        "notes": []
+      },
+      {
+        "sid": "p12s7",
+        "speaker": "quoted_engels",
+        "stance": "endorsed",
+        "notes": []
+      },
+      {
+        "sid": "p12s8",
+        "speaker": "quoted_engels",
+        "stance": "endorsed",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 3,
+        "notes_dropped": 2,
+        "hs_kept": 1,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

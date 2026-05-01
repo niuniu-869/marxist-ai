@@ -1,0 +1,79 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 8,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "恩格斯声明自己对恩斯特所提的北方妇女运动缺乏专门知识，并对易卜生是否应为此负责表示怀疑。",
+    "importance_score": 1,
+    "importance_reason": "作者声明对讨论主题缺乏专门知识，为拒绝介入争论提供依据。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段拒绝公开介入的立场，进一步说明自己缺乏介入该具体争论的知识基础。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p8s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "北方妇女运动",
+            "type": "event",
+            "modern": "19世纪末北欧地区兴起的妇女权利运动，与易卜生戏剧中的女性形象有关联。",
+            "highlight": null,
+            "confidence": "medium",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p8s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "易卜生",
+            "type": "person",
+            "modern": "挪威剧作家，其作品如《玩偶之家》塑造了觉醒的女性形象，常被视为妇女运动的象征。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

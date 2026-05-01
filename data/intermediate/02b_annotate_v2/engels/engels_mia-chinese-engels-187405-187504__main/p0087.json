@@ -1,0 +1,98 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 87,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "恩格斯揭露彼得在对待骗子和报告作者时的双重标准，并通过反问强调尖锐论战的必要性。",
+    "importance_score": 2,
+    "importance_reason": "通过具体论战实例，展示作者对机会主义倾向的批判立场。",
+    "argument_role": "contrasts",
+    "argument_link": "承接上段“两害相权取其轻”的介入理由，具体展示论战的靶子和必要性。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p87s2",
+        "quote": "但是，既然朋友彼得在《前进》杂志上大大发扬真正基督徒的容忍精神，并要求我们容忍被我们揭穿了的骗子——正如我们所看见的，他和我们一样清楚地知道这些骗子——，那末为什么他对报告的作者们就一点也不容忍呢！",
+        "trigger": "inverted_logic",
+        "reader_block": "反问句式，表面要求宽容，实则揭露对方对不同对象的双重标准。",
+        "parse": {
+          "claim": "彼得对骗子和报告作者采取了不同的容忍态度。",
+          "qualifiers": "在彼得于《前进》杂志上公开表态的语境下。",
+          "contrast_or_target": "彼得要求容忍骗子，但对报告作者不容忍。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "通过反问揭露彼得在容忍问题上的自相矛盾，为后续论证尖锐论战的必要性做铺垫。"
+        },
+        "implication": null,
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "朋友彼得",
+      "their_view": "要求我们容忍骗子，但对报告的作者们一点也不容忍。",
+      "author_response": "揭露这种双重标准，并强调必须进行尖锐论战以防止工人运动被引入歧途。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p87s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p87s2",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p87s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p87s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p87s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 1,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

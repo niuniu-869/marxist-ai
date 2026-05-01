@@ -1,0 +1,66 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 65,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "马克思分析斯拉夫爱国者的思想局限，指出他们虽反德，但其解放手段完全被德国式的国家模式所同化。",
+    "importance_score": 2,
+    "importance_reason": "本段通过具体案例，揭示巴枯宁派思想的内在矛盾，支撑马克思对无政府主义的批判。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段关于斯拉夫人期待俄国解放的疑问，进一步剖析这些斯拉夫爱国者思想的根源与矛盾。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "鞑靼人的因素",
+        "explain": "指13至15世纪蒙古-鞑靼人对罗斯地区的统治，其行政与军事制度对后来俄罗斯国家形态的形成产生了影响。马克思在此用以对比。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p65s1",
+        "quote": "因为他们受到的是德国的教育，他们只知道用成立几个斯拉夫国家或者成立一个统一的强大的斯拉夫国家的方法，而不懂得用其他的方法来获得解放。因此，他们给自己提出的目的也完全是德国式的，因为类似新德意志帝国或“全俄罗斯”帝国的那种集中制的、官僚的、警察－士兵的“最新式国家”乃是纯粹德国的“产物”：在俄国，它以前夹杂有鞑靼人的因素，“但是说实在的，就是在德国现在事情也不会因为鞑靼人的盛情而延搁下来”》（第57页）。",
+        "trigger": "long_nested",
+        "reader_block": "句子结构复杂，包含因果链、举例、对比和直接引语，读者容易迷失在“因为…因此…因为…”的嵌套逻辑中。",
+        "parse": {
+          "claim": "斯拉夫爱国者因接受德国式教育，其构想的解放路径（建立民族国家）与目标（集中制官僚帝国）本质上是德国模式的翻版。",
+          "qualifiers": "此判断基于他们“受到的是德国的教育”这一前提。",
+          "contrast_or_target": "巴枯宁派认为斯拉夫运动是反德的、民族主义的，但马克思指出其思想内核已被德国文明同化。"
+        },
+        "why": {
+          "relation": "example",
+          "explanation": "本句作为具体例证，支撑前文关于德国文明侵蚀斯拉夫爱国者灵魂的论断，揭示其反德目标与亲德手段之间的矛盾。"
+        },
+        "implication": "马克思借此暗示，巴枯宁所推崇的“破坏一切国家”的无政府主义路径，在现实中可能被其反对的国家主义模式所收编。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "巴枯宁",
+      "their_view": "斯拉夫爱国者追求的是反对德国的民族解放，他们的斗争是反国家主义的。",
+      "author_response": "马克思指出，这些爱国者的思想和手段已被德国文明同化，他们追求的解放目标恰恰是德国式国家机器的复制品，这暴露了巴枯宁派思想的内在矛盾。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p65s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 118,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "恩格斯提出工人党在农村的工作任务与方法，强调要研究农村工人的实际状况，并以沃尔弗的著作为参照。",
+    "importance_score": 1,
+    "importance_reason": "本段是恩格斯为纪念文集所作序言中的实践性建议，从描述农村状况转向提出具体工作方向，属于过渡与方法论指引。",
+    "argument_role": "transition",
+    "argument_link": "承接上段对农村半封建统治形式的分析，转而提出工人党在农村开展工作的具体任务和研究方法。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p118s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "工人党",
+            "type": "concept",
+            "modern": "19世纪后期德国社会民主党及其前身的常用自称，代表无产阶级利益。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "party_german_social_democracy"
+          }
+        ]
+      },
+      {
+        "sid": "p118s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "亲自去研究",
+            "type": "concept",
+            "modern": "强调实践调查是制定正确策略的前提，反对脱离实际的空谈。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "praxis_marxist"
+          }
+        ]
+      },
+      {
+        "sid": "p118s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p118s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p118s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p118s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p118s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 4,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix",
+        "note:n1_overflow_concept_6>5"
+      ]
+    }
+  ]
+}

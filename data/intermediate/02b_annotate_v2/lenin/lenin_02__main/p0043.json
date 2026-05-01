@@ -1,0 +1,122 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 43,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段阐述农业经济改造方案，主张按农民阶层分化建立代表苏维埃，并推行公有制大型农场。",
+    "importance_score": 2,
+    "importance_reason": "本段提出农业领域向公有制过渡的具体组织形式，是土地纲领的实践延伸。",
+    "argument_role": "continues",
+    "argument_link": "本段承接上段对雇农代表苏维埃的强调，进一步区分农民阶层并提出相应的经济组织方案。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p43s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "公有制",
+            "type": "concept",
+            "modern": "在马克思主义语境中，指生产资料归集体所有的经济制度。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "public_ownership"
+          }
+        ]
+      },
+      {
+        "sid": "p43s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "雇农",
+            "type": "social_group",
+            "modern": "农村中没有土地、受雇于地主或富农的农业工人。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p43s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p43s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "模范农场",
+            "type": "org",
+            "modern": "列宁提出的以公有制为基础的示范性大型农场。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p43s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "雇农代表苏维埃",
+            "type": "org",
+            "modern": "由雇农选举产生的权力机构，负责控制公有制农场。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p43s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 4,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_5gram_with_surface"
+      ]
+    }
+  ]
+}

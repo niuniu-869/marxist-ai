@@ -1,0 +1,86 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 215,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "直接反驳立宪民主党人关于革命导致问题的言论，指出真正破产的是他们及其联合统治的政党联盟。",
+    "importance_score": 3,
+    "importance_reason": "这是对前段立宪民主党人言论的直接驳斥，明确责任归属，是核心批判的一部分。",
+    "argument_role": "contrasts",
+    "argument_link": "上段转述立宪民主党人将问题归咎于革命，本段则指出问题根源在于他们自己的统治。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "立宪民主党人、社会革命党人和孟什维克",
+      "their_view": "立宪民主党人声称，革命未能解决战争和经济破坏问题。",
+      "author_response": "列宁指出，真正破产的是这些政党，因为他们统治期间使危机恶化。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p215s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p215s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "立宪民主党人",
+            "type": "org",
+            "modern": "1905年成立的俄国自由主义政党，主张君主立宪，在临时政府中具有影响力。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "社会革命党人",
+            "type": "org",
+            "modern": "代表农民利益的俄国政党，主张土地社会化，在临时政府中与孟什维克联合执政。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "孟什维克",
+            "type": "org",
+            "modern": "俄国社会民主工党中的改良派分支，主张先发展资本主义再进行社会主义革命。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 3,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

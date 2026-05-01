@@ -1,0 +1,136 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 481,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁在此对帝国主义进行本质定义，指出它是资本主义发展到垄断阶段的产物，垄断与自由竞争并存并产生新矛盾。",
+    "importance_score": 3,
+    "importance_reason": "core_thesis",
+    "argument_role": "definition",
+    "argument_link": "本段承接上段标题，开始对帝国主义进行系统性的本质界定，将前文描述的现象归纳为理论定义。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p481s3",
+        "quote": "但是，只有在资本主义发展到一定的、很高的阶段，资本主义的某些基本特性开始转化成自己的对立面，从资本主义到更高级的社会经济结构的过渡时代的特点已经全角成和暴露出来的时候，资本主义才变成了资本帝国主义。",
+        "trigger": "long_nested",
+        "reader_block": "句子结构嵌套，条件从句（“只有在……的时候”）与主句距离远，且“转化成自己的对立面”这一抽象表述需要结合后文才能理解具体指什么。",
+        "parse": {
+          "claim": "资本主义在特定发展阶段才转变为帝国主义形态。",
+          "qualifiers": "当资本主义基本特性开始向对立面转化，且向更高级社会过渡的特点显现时。",
+          "contrast_or_target": ""
+        },
+        "why": {
+          "relation": "definition",
+          "explanation": "这是对帝国主义何时出现的条件性定义，承接前文对帝国主义现象的描述，转入对其本质和历史阶段的界定。"
+        },
+        "implication": "这意味着帝国主义不是独立的经济形态，而是资本主义内在矛盾发展的必然结果。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p481s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p481s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p481s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p481s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p481s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "自由竞争",
+            "type": "concept",
+            "modern": "资本主义早期阶段市场参与者不受限制的竞争状态。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "competition_free_market"
+          }
+        ]
+      },
+      {
+        "sid": "p481s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "垄断",
+            "type": "concept",
+            "modern": "少数大资本通过联合控制市场和价格的状态。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "monopoly_capitalism"
+          }
+        ]
+      },
+      {
+        "sid": "p481s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p481s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 1,
+        "hs_kept": 1,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_6>5"
+      ]
+    }
+  ]
+}

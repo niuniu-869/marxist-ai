@@ -1,0 +1,99 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 138,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段区分了商品价值中补偿资本的部分与构成收入的部分，并反驳了后者由工资、利润、地租等独立价值构成的错误观点。",
+    "importance_score": 2,
+    "importance_reason": "本段是马克思对价值构成理论的正面阐述，为后续分析工资与剩余价值的关系奠定基础，属于核心论证的支撑环节。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段关于价值构成的结论，具体分析商品价值中不同部分的性质，特别是收入部分的来源问题。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p138s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "资本",
+            "type": "concept",
+            "modern": "在政治经济学中，指用于生产的、能够带来价值增殖的价值，其物质形态包括生产资料。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "capital_economic"
+          }
+        ]
+      },
+      {
+        "sid": "p138s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p138s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p138s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "剩余价值",
+            "type": "concept",
+            "modern": "工人在生产过程中创造的、超出其劳动力价值的那部分价值，被资本家无偿占有，是利润、利息、地租的共同来源。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "surplus_value"
+          }
+        ]
+      },
+      {
+        "sid": "p138s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

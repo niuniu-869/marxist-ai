@@ -1,0 +1,166 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 17,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "叙述拿破仑入侵西班牙的过程，并强调反抗运动首先由普通民众发起，而上层阶级却屈服于外国统治。",
+    "importance_score": 2,
+    "importance_reason": "通过具体历史事例，支撑了前文关于西班牙社会充满反抗力量的论点，并揭示了革命的阶级动力。",
+    "argument_role": "example",
+    "argument_link": "承接上段关于西班牙社会充满反抗力量的论断，用拿破仑入侵后人民自发起义的具体事例加以证明。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_density",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "洪达",
+        "explain": "西班牙语“Junta”的音译，指1808年拿破仑入侵后，西班牙各地为抵抗而自发成立的地方自治或抗敌委员会，是当时反抗运动的组织形式。",
+        "why_needed": "history_density",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "枫丹白露条约与贝云",
+        "explain": "1808年拿破仑与西班牙王室签订的条约，以及拿破仑诱骗西班牙王室成员前往谈判的地点（今法国巴约讷），是其篡夺西班牙王位的关键步骤。",
+        "why_needed": "history_density",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "阿斯土里亚",
+        "explain": "西班牙北部的一个地区，1808年马德里起义被镇压后，这里的起义成为全国性反抗运动的起点。",
+        "why_needed": "history_density",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p17s11",
+        "quote": "我们要指出，这个第一次自发的运动是从人民中间产生的，而“上等”阶级却温顺地屈从于外国的压迫。",
+        "trigger": "inverted_logic",
+        "reader_block": "句子通过对比人民自发反抗与上层阶级屈服，隐含了对上层阶级的批判，读者可能只看到表面对比而忽略其阶级分析内涵。",
+        "parse": {
+          "claim": "1808年反抗拿破仑的最初运动，其动力源自普通民众，而非社会上层。",
+          "qualifiers": "",
+          "contrast_or_target": "将1808年反法战争简单视为全民族一致对外的解放运动，忽视了内部的阶级分化与上层阶级的妥协性。"
+        },
+        "why": {
+          "relation": "example",
+          "explanation": "这句话总结了前文叙述的起义过程，点明其阶级属性，为理解西班牙革命的阶级动力提供了线索。"
+        },
+        "implication": "这为后文分析西班牙革命中不同阶级的角色埋下伏笔。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "资产阶级自由派",
+      "their_view": "将1808年西班牙反抗拿破仑的战争，简单地视为一场全民族团结一致的、纯粹的民族解放运动。",
+      "author_response": "马克思通过叙述指出，这场运动的最初动力来自人民，而上层阶级却屈服于外国统治，揭示了其反动和保守的一面。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p17s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p17s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p17s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p17s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p17s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p17s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "洪达",
+            "type": "org",
+            "modern": "西班牙特有的地方自治或抗敌委员会，此处指拿破仑为使其占领合法化而召集的机构。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p17s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p17s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p17s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p17s10",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p17s11",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 2,
+        "hs_kept": 1,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_metaphor_10>8",
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

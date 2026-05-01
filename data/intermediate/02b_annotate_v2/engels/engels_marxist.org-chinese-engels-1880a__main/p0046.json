@@ -1,0 +1,99 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 46,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "恩格斯通过对比19世纪中叶英国社会不同阶层在宗教问题上的态度，说明唯物主义思想在工人阶级中的传播。",
+    "importance_score": 1,
+    "importance_reason": "用具体社会现象例证前文关于唯物主义在英国发展的论述，属于辅助性例证。",
+    "argument_role": "example",
+    "argument_link": "承接上一段关于英国是现代唯物主义发源地的论断，用当时英国社会的具体表现来说明唯物主义思想在不同阶层中的分布状况。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p46s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p46s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p46s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "唯物主义者",
+            "type": "concept",
+            "modern": "在19世纪激进知识分子语境下，指拒绝宗教神学、主张从物质世界本身解释现象的思想立场。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "materialism_general"
+          },
+          {
+            "surface": "巴克兰",
+            "type": "person",
+            "modern": "威廉·巴克兰，19世纪英国地质学家、古生物学家，以研究化石和洞穴沉积物闻名。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "曼特尔",
+            "type": "person",
+            "modern": "吉迪恩·曼特尔，19世纪英国医生、地质学家和古生物学家，以发现恐龙化石著称。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p46s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 3,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_5gram_with_surface"
+      ]
+    }
+  ]
+}

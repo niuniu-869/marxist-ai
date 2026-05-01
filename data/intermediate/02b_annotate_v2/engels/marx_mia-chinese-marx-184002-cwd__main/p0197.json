@@ -1,0 +1,89 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 197,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段分析空想社会主义学说创立者的历史局限性，指出他们虽观察到阶级对抗，但对无产阶级的认识受限于其早期发展阶段。",
+    "importance_score": 2,
+    "importance_reason": "本段是批判空想社会主义论证链的一环，具体说明其理论产生的阶级基础与历史条件限制。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于空想社会主义产生于阶级斗争未充分发展阶段的论断，具体分析该阶段无产阶级的幼稚状态如何限制了学说创立者的视野。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "离析分子",
+        "explain": "指19世纪初欧洲社会中脱离传统生产资料（如土地）的流动人口，如破产手工业者、流浪汉等，他们尚未形成稳定的无产阶级。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "空想社会主义者",
+      "their_view": "我们看到了社会中的阶级对抗和那些脱离生产资料的流动人口的活动，但当时的劳动阶级本身还很不成熟，在我们看来，它只是一个没有历史根基、也未曾开展独立政治运动的阶级。",
+      "author_response": "作者指出，这种对无产阶级的片面认识，根源于无产阶级自身在当时尚未发展成熟，其历史作用和政治潜力还未充分展现。",
+      "polemic_kind": "reveals_class_basis",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p197s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "阶级对抗",
+            "type": "concept",
+            "modern": "在19世纪初的语境下，指资产阶级与无产阶级之间日益显现的结构性矛盾与冲突。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "class_struggle"
+          }
+        ]
+      },
+      {
+        "sid": "p197s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "劳动阶级",
+            "type": "concept",
+            "modern": "此处特指19世纪上半叶工业革命早期的工人阶级，其组织程度和阶级意识尚处于萌芽阶段。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "working_class_historical"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 70,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "直接反驳古契柯夫分子对革命的诬蔑，论证共和国优于君主制，并指出战争灾难的根源在于新政府，最终提出无产阶级共和国的方案。",
+    "importance_score": 2,
+    "importance_reason": "核心论点段落，直接回应论敌并提出作者关于革命前景的纲领性主张。",
+    "argument_role": "contrasts",
+    "argument_link": "承接上段对古契柯夫分子诬蔑的引述，本段逐条进行反驳并提出对立主张。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "罗曼诺夫王朝与拉斯普廷",
+        "explain": "罗曼诺夫是统治俄国的沙皇家族。拉斯普廷是末代沙皇时期一位影响极大的神秘主义者，其干政被视为王朝腐败的象征。列宁用此比喻新政府可能重蹈覆辙。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p70s3",
+        "quote": "什么东西能保证人民不让第二个罗曼诺夫弄出第二个拉斯普廷来呢？",
+        "trigger": "inverted_logic",
+        "reader_block": "反问句式，读者可能只看到质疑，未理解其隐含的肯定判断：君主制本身无法防止腐败。",
+        "parse": {
+          "claim": "君主制政体本身无法提供任何机制来防止统治者再次任用腐败的亲信。",
+          "qualifiers": "",
+          "contrast_or_target": "古契柯夫分子认为新政府能带来秩序，作者则质疑君主制框架下的任何政府都无法保证秩序。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "通过反问揭露君主制的内在缺陷，反驳论敌对新政府（可能保留君主制）能带来秩序的幻想。"
+        },
+        "implication": "要真正防止腐败和专制，必须彻底改变国家政体形式。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "古契柯夫分子",
+      "their_view": "革命导致了内部的无政府状态和外来的灾难，新成立的政府没有能力维持任何秩序。",
+      "author_response": "共和国比君主国更有秩序；当前的灾难恰恰是新政府继续进行战争造成的；只有得到广泛支持的无产阶级共和国才能带来和平、面包、秩序和自由。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p70s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p70s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p70s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p70s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p70s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  }
+}

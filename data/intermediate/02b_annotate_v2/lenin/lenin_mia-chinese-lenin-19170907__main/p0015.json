@@ -1,0 +1,84 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 15,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁以科尔尼洛夫叛乱被平定为例，驳斥“没有新机构可替代旧国家机器”的论调，并号召信任群众的革命组织。",
+    "importance_score": 2,
+    "importance_reason": "通过具体历史实例，直接回应并驳斥了论敌关于国家机构的核心论点，为论证苏维埃的革命潜力提供事实支撑。",
+    "argument_role": "example",
+    "argument_link": "承接上段对苏维埃作为新型国家机构的定性，本段用科尔尼洛夫叛乱这一实例，具体展示苏维埃组织群众的力量，以反驳“没有替代机构”的论调。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "科尔尼洛夫叛乱",
+        "explain": "1917年8月，俄军总司令科尔尼洛夫发动的军事政变，意图镇压革命。临时政府无力应对，布尔什维克和左派社会革命党人组织工人和士兵将其平定。此事件是列宁论证苏维埃能取代旧国家机器的关键实例。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p15s2",
+        "quote": "让那些说“我们没有机构来代替这个必然倾向于维护资产阶级的旧机构”的人感到羞耻吧！",
+        "trigger": "inverted_logic",
+        "reader_block": "反问句式加上“必然倾向于维护资产阶级的旧机构”这个复杂表述，读者可能不理解其反驳的具体对象和逻辑。",
+        "parse": {
+          "claim": "存在可以替代旧官僚机构的新组织形式，因此声称“没有替代机构”的观点是站不住脚的。",
+          "qualifiers": "针对那些持此论调的人。",
+          "contrast_or_target": "论敌认为，旧的国家官僚机器是不可或缺的，没有新的组织形式可以取代它。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "此句直接针对论敌的核心论点（即没有新机构可替代旧国家机器）进行反驳，为下句给出答案（苏维埃）做铺垫。"
+        },
+        "implication": "列宁意在表明，对旧机构的依赖是缺乏革命信心的表现。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "那些说“我们没有机构来代替旧机构”的人",
+      "their_view": "旧的国家官僚机构是不可或缺的，没有新的组织形式可以取代它。",
+      "author_response": "列宁指出，苏维埃就是这样的新机构，群众在平定科尔尼洛夫叛乱中展现了其力量和不可战胜的精神。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p15s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p15s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p15s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p15s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 78,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "马克思转述巴枯宁关于斯拉夫民族国家的二元对立描述，用于批判其无政府主义思想。",
+    "importance_score": 2,
+    "importance_reason": "作为马克思批判巴枯宁泛斯拉夫主义观点的具体例证，支撑对无政府主义的论战。",
+    "argument_role": "contrasts",
+    "argument_link": "上段指出巴枯宁忽视英国资产阶级社会，本段则展示巴枯宁对斯拉夫国家的极端看法，凸显其理论的片面性。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "allusion",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "allusion",
+      "needs_polemic": true,
+      "polemic_reason": "refute_quotation"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "泛斯拉夫主义",
+        "explain": "19世纪主张所有斯拉夫民族统一或独立的政治运动，常与俄国扩张主义关联。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "鞭子的、圣彼得堡的",
+        "explain": "隐喻沙皇俄国的专制统治，'鞭子'象征暴力压迫，'圣彼得堡'指俄国首都。",
+        "why_needed": "allusion",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "巴枯宁",
+      "their_view": "巴枯宁认为斯拉夫民族要么彻底废除国家，要么只能接受一个庞大的、专制的泛斯拉夫主义国家。",
+      "author_response": "马克思通过转述这一观点，讽刺巴枯宁对国家形式的简单化理解，忽视历史复杂性。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p78s1",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

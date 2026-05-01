@@ -1,0 +1,101 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 118,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "马克思批判纲领草案中“民主的”一词的使用，指出其表述在逻辑上自相矛盾。",
+    "importance_score": 2,
+    "importance_reason": "对纲领草案具体表述的批判，揭示其概念混乱，属于核心批判的组成部分。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段对“劳动人民”概念的批判，进一步剖析纲领草案中“民主的”一词的使用不当。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "refute_quotation"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "德文“民主的”词义",
+        "explain": "在德语中，“demokratisch”（民主的）一词的词源和字面含义直接指向“人民的权力”或“人民当权”。马克思在此强调这一词源学事实，以揭示纲领草案表述的内在矛盾。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      },
+      {
+        "topic": "纲领草案的原话",
+        "explain": "“劳动人民的人民当权的监督”是哥达纲领草案中的一个具体条款。马克思在此直接引用并批判该条款的表述。",
+        "why_needed": "refute_quotation",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p118s3",
+        "quote": "何况所说的是这样的劳动人民，他们通过向国家提出的这些要求表明他们充分意识到自己既没有当权，也没有成熟到当权的程度！",
+        "trigger": "inverted_logic",
+        "reader_block": "双重否定（“既没有……也没有……”）与反讽语气结合，读者可能只读到字面的否定，而忽略其揭露纲领草案内在矛盾的讽刺意图。",
+        "parse": {
+          "claim": "纲领草案的条款本身，恰恰证明了起草者承认劳动人民当前并未掌握权力，也未具备掌握权力的条件。",
+          "qualifiers": "针对的是纲领草案中向国家提出要求的那些“劳动人民”。",
+          "contrast_or_target": "纲领草案试图用“人民当权的监督”来包装其要求，但其内容本身却暴露了“人民”并未当权的事实。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "本句通过反讽，揭露纲领草案在“民主”口号下的自相矛盾：它要求国家给予监督权，这本身就默认了人民当前无权。"
+        },
+        "implication": "纲领草案的“民主”诉求是空洞的，因为它回避了人民如何才能真正当权这一根本问题。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p118s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p118s2",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p118s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 1,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

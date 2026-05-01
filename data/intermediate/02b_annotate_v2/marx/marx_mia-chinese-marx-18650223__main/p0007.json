@@ -1,0 +1,168 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 7,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段将拉萨尔的政治策略类比为民族联盟中资产阶级的“现实政治”，并批判其背叛了无产阶级的革命本性。",
+    "importance_score": 2,
+    "importance_reason": "本段通过类比和反讽，具体剖析了拉萨尔策略的阶级本质，是前文批判的深化。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对拉萨尔政治策略的谴责，本段通过将其与米凯尔及民族联盟的路线进行类比，具体揭示其“现实政治”的实质。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "allusion",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "“现实政治”",
+        "explain": "指19世纪中叶德国政治中一种务实、妥协的路线，主张放弃激进原则，与现存的普鲁士君主政府合作以换取具体利益。在工人运动内部，这被视为机会主义。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "席勒戏剧《唐·卡洛斯》",
+        "explain": "剧中波扎侯爵是理想主义的廷臣，试图说服专制君主菲力浦二世推行仁政。马克思用此比喻拉萨尔想在普鲁士君主面前扮演为工人阶级请命的角色。",
+        "why_needed": "allusion",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p7s8",
+        "quote": "那些先生们这样做要比拉萨尔更有根据，因为资产者习惯于把眼前的利益看做“现实”，而且这个阶级实际上甚至到处都和封建主义妥协，可是工人阶级按本性来说应当是真正“革命的”。",
+        "trigger": "inverted_logic",
+        "reader_block": "马克思说资产阶级搞“现实政治”比拉萨尔“更有根据”，这听起来像是在肯定资产阶级，读者会困惑其真实意图。",
+        "parse": {
+          "claim": "资产阶级因其阶级本性而采取妥协策略是符合其逻辑的，但无产阶级的阶级本性决定了其应当是革命的，因此拉萨尔模仿资产阶级的策略是根本性的错误。",
+          "qualifiers": "此处的“更有根据”是从阶级本性出发的逻辑判断，而非道德或策略上的赞同。",
+          "contrast_or_target": "拉萨尔认为，为了无产阶级的利益，可以像资产阶级那样与反动政府合作。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "本句通过对比资产阶级与无产阶级的阶级本性，揭露拉萨尔策略的内在矛盾：他让一个本应革命的阶级去模仿一个惯于妥协的阶级的行为，这从根本上就是荒谬的。"
+        },
+        "implication": "无产阶级的解放不能依靠与旧势力的妥协，而必须坚持其革命的阶级立场。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p7s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p7s2",
+        "speaker": "editor",
+        "stance": "neutral_citation",
+        "notes": [
+          {
+            "surface": "民族联盟",
+            "type": "org",
+            "modern": "1859年成立的德意志资产阶级政治组织，主张在普鲁士领导下实现德国统一，其策略是与普鲁士政府合作。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p7s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "波扎侯爵",
+            "type": "person",
+            "modern": "席勒戏剧《唐·卡洛斯》中的人物，一位试图劝谏专制君主的廷臣。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          },
+          {
+            "surface": "菲力浦二世",
+            "type": "person",
+            "modern": "席勒戏剧《唐·卡洛斯》中的西班牙专制君主，此处暗指普鲁士王权。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p7s4",
+        "speaker": "editor",
+        "stance": "neutral_citation",
+        "notes": []
+      },
+      {
+        "sid": "p7s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p7s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p7s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p7s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "革命的",
+            "type": "concept",
+            "modern": "此处特指无产阶级因其被剥削的地位而具有的、旨在推翻现存剥削制度的根本属性。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "revolution_proletarian"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 4,
+        "notes_dropped": 1,
+        "hs_kept": 1,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

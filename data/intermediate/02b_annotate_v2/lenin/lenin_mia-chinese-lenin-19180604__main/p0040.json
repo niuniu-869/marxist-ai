@@ -1,0 +1,82 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 40,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁回应格罗曼对征粮队的批评，承认问题存在，但将其归因于旧社会残余的影响。",
+    "importance_score": 2,
+    "importance_reason": "本段是列宁对具体批评的回应，通过承认问题并解释其根源，为苏维埃政策辩护，属于核心论证的支撑环节。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对反对派的直接驳斥，本段转向回应一个具体的、来自内部的批评（格罗曼的报告），承认问题但重新定义其性质。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "metaphor",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p40s4",
+        "quote": "旧社会灭亡的时候，它的尸体是不能装进棺材、埋入坟墓的。",
+        "trigger": "metaphor",
+        "reader_block": "用“尸体”比喻旧社会，但“不能装进棺材、埋入坟墓”这一否定性描述，读者可能困惑于其具体所指和论证目的。",
+        "parse": {
+          "claim": "旧社会的残余不会像尸体一样被简单清除。",
+          "qualifiers": "在革命爆发、旧社会灭亡的特定历史时刻。",
+          "contrast_or_target": ""
+        },
+        "why": {
+          "relation": "example",
+          "explanation": "此句是前一句“工人阶级和资产阶级旧社会之间没有万里长城”的具体化比喻，用以说明旧社会影响的持续性，为承认征粮队问题但不否定革命本身提供理论依据。"
+        },
+        "implication": "因此，新社会建设者必须正视并处理这些持续存在的旧社会毒素，而非假装其不存在。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "格罗曼",
+      "their_view": "征粮队存在酗酒、掠夺等严重问题，这证明苏维埃的粮食政策是失败的。",
+      "author_response": "列宁承认问题存在，但指出这是新旧社会交替时期的必然现象，旧社会的腐烂影响会持续毒害新社会，不能因此否定革命本身。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p40s1",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p40s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p40s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p40s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p40s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  }
+}

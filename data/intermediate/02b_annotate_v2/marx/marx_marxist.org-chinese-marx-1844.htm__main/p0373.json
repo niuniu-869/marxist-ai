@@ -1,0 +1,117 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 373,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段给出了马克思对共产主义的正面定义，将其界定为对私有财产和异化的积极扬弃，以及人与自然、人与人矛盾的真正解决。",
+    "importance_score": 3,
+    "importance_reason": "这是马克思在《手稿》中对共产主义概念最完整、最集中的哲学定义，构成了其早期思想的核心论断。",
+    "argument_role": "definition",
+    "argument_link": "承接上段对两种不成熟共产主义形式的批判，本段正面阐述了马克思所理解的、作为积极扬弃的共产主义是什么。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "term_density",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "扬弃与积极扬弃",
+        "explain": "“扬弃”是黑格尔辩证法的核心术语，意为既克服又保留。马克思在此强调共产主义不是简单抛弃私有财产，而是通过实践克服其异化本质，保留其创造的文明成果。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "自然主义与人道主义",
+        "explain": "这两个词源自费尔巴哈哲学。自然主义强调人是自然的一部分；人道主义强调人的类本质。马克思在此将二者等同，意指共产主义实现了人与自然、个体与类的统一。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p373s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "积极的扬弃",
+            "type": "concept",
+            "modern": "在马克思思想中，指对异化状态的辩证克服，既克服其消极面，又保留其积极成果。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "sublation_positive"
+          }
+        ]
+      },
+      {
+        "sid": "p373s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p373s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "自然主义",
+            "type": "concept",
+            "modern": "源自费尔巴哈，强调人是自然界长期发展的产物，具有感性物质性。马克思在此用以指代共产主义实现了人与自然的统一。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "naturalism_feuerbachian"
+          },
+          {
+            "surface": "人道主义",
+            "type": "concept",
+            "modern": "源自费尔巴哈，强调人具有超越动物的“类本质”（理性、爱等）。马克思在此用以指代共产主义实现了人的社会性本质。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "humanism_feuerbachian"
+          }
+        ]
+      },
+      {
+        "sid": "p373s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 3,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

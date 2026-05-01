@@ -1,0 +1,81 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 134,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段区分了无产阶级需要的国家与资产阶级国家，并指出历次资产阶级革命仅限于国家机器的内部更替。",
+    "importance_score": 3,
+    "importance_reason": "核心论点，阐述了列宁主义国家学说的关键区分，为后文提出打碎旧国家机器的论断奠定基础。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段关于无产阶级需要国家的论断，具体界定所需国家的性质，并与无政府主义划清界限。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p134s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "国家",
+            "type": "concept",
+            "modern": "在马克思主义理论中，特指阶级统治的工具，其核心是常备军、警察、监狱等暴力机关。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "state_marxist_theory"
+          }
+        ]
+      },
+      {
+        "sid": "p134s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "资产阶级革命",
+            "type": "concept",
+            "modern": "由资产阶级领导的、旨在推翻封建制度或旧政权、建立资本主义制度的革命。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "bourgeois_revolution"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 37,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "作者以反问句式，引用第一国际的旧日论断，来揭露俾斯麦政策的实质。",
+    "importance_score": 2,
+    "importance_reason": "作为核心论点的直接支撑，通过引用历史预言来强化对俾斯麦政策的批判。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对德意志帝国政府与金融资本关联的揭示，进一步用历史类比来定性其政策本质。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "refute_quotation"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "1870年普法战争与第一国际",
+        "explain": "1870年普法战争以法国战败、拿破仑三世被俘告终。国际工人协会（第一国际）总委员会在战争期间曾发表宣言，分析战争性质并谴责双方政府。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "俾斯麦政府",
+      "their_view": "俾斯麦政府推行保护关税、铁路国有化等政策，是为消除社会混乱、保证工作秩序的“积极”社会主义措施。",
+      "author_response": "恩格斯引用第一国际的论断指出，俾斯麦推翻法国波拿巴制度，只是为了在德国本土恢复同类的专制制度，其政策具有相同的阶级专政实质。",
+      "polemic_kind": "counter_quotation",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p37s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p37s2",
+        "speaker": "quoted_engels",
+        "stance": "endorsed",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

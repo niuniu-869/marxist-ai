@@ -1,0 +1,100 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 13,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段分析举手表决选举形式的政治功能，指出其被统治阶级利用以维护自身利益，并强调1852年选举中对立的尖锐性。",
+    "importance_score": 2,
+    "importance_reason": "本段通过分析选举形式，揭示了英国政治制度的虚伪性及其阶级本质，是作者对当时政治现实批判的组成部分。",
+    "argument_role": "continues",
+    "argument_link": "本段承接上一段对选举仪式的描述，进一步剖析这种形式为何能延续，并指出其在1852年选举中引发的尖锐对立。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "refute_quotation"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "举手表决与投票表决",
+        "explain": "英国当时选举分两步：先由所有在场者（包括非选民）举手表决产生初步结果，再由正式选民投票表决确认。前者象征性地体现“人民主权”，后者才是决定性的。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      },
+      {
+        "topic": "1852年英国大选",
+        "explain": "1852年大选是宪章运动低潮期的一次重要政治较量，工业资产阶级与土地贵族等旧势力竞争激烈，选举结果对各派力量对比有直接影响。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "贝雷斯福德少校",
+      "their_view": "举手表决这种选举形式，其目的仅仅是嘲弄普选权，是贵族对平民开的一个天真玩笑。",
+      "author_response": "马克思指出这种看法是错误的。举手表决习俗得以延续，是因为它能以极低成本为阶级议会披上人民性的外衣，从而让民众自愿维护统治阶级的利益。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p13s1",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p13s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p13s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p13s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p13s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p13s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 12,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "通过逻辑推导，揭露“俄国解放联盟”在政治观点上与自由派“解放社”有根本分歧，但在经济纲领上却与之趋同，从而论证其“非党”立场实质上是放弃了社会主义，站到了资产阶级民主派一边。",
+    "importance_score": 2,
+    "importance_reason": "本段是作者对“非党”立场进行阶级定性的核心论证环节，通过揭示其内在矛盾来支撑全文的批判。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对“俄国解放联盟”宣言的引用与分析，本段进一步从其与“解放社”的关系入手，推导出其阶级立场的实质。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "cross_ref",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p12s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "俄国解放联盟",
+            "type": "org",
+            "modern": "1905年革命中出现的、主张超越党派界限进行武装斗争的组织。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "解放社",
+            "type": "org",
+            "modern": "由司徒卢威等人领导的自由派资产阶级政治组织，主张君主立宪。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "社会主义",
+            "type": "concept",
+            "modern": "此处指以消灭私有制和阶级剥削为目标的无产阶级革命理论与实践。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "socialism_revolutionary"
+          }
+        ]
+      },
+      {
+        "sid": "p12s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "非党",
+            "type": "polemic",
+            "modern": "列宁在此特指那种试图超越阶级政党界限、进行广泛联合的策略立场。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 4,
+        "notes_dropped": 2,
+        "hs_kept": 0,
+        "hs_dropped": 2,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_5gram_with_surface",
+        "note:n1_overflow_concept_7>5",
+        "hs:claim_5gram_with_quote",
+        "hs:claim_5gram_with_quote",
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

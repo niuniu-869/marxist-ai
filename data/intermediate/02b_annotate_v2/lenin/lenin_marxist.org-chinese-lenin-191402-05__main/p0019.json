@@ -1,0 +1,106 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 19,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁总结前文实例，论证民族国家是资本主义发展的常态，进而界定马克思主义纲领中“民族自决”的政治含义。",
+    "importance_score": 3,
+    "importance_reason": "本段是列宁对民族自决权核心内涵的总结性定义，直接回应论敌，是全文论证的关键结论。",
+    "argument_role": "conclusion",
+    "argument_link": "承接上段对巴尔干实例的分析，将具体例证上升为一般性理论结论，并明确界定“民族自决”的纲领性含义。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "者茨基（考茨基）",
+        "explain": "卡尔·考茨基，第二国际理论家。列宁在此引用其关于民族国家与资本主义关系的观点，作为支持自己论点的论据。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "罗莎·卢森堡",
+      "their_view": "民族自决权是抽象、形而上学的概念，在帝国主义时代不切实际；主张用“民族文化自治”或经济分析取代政治自决权。",
+      "author_response": "列宁通过列举全球实例，证明民族国家是资本主义发展的常态和最佳条件，从而论证政治自决是经济规律的体现，而非空想。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p19s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "者茨基",
+            "type": "person",
+            "modern": "卡尔·考茨基，第二国际重要理论家，列宁在此引用其观点。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p19s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p19s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p19s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p19s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "民族自决",
+            "type": "concept",
+            "modern": "马克思主义民族纲领的核心原则，列宁在此明确其内涵仅限于政治独立。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "self_determination_political"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 131,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁批评崩得分子麦迭姆坚持的官僚主义行政划分，主张民族自治规模应适应经济流通需要。",
+    "importance_score": 2,
+    "importance_reason": "支撑核心论点，具体反驳论敌在民族自治形式上的教条主义。",
+    "argument_role": "contrasts",
+    "argument_link": "本段直接反驳上段引用的麦迭姆观点，指出其划分方式的落后性。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p131s4",
+        "quote": "如果很方便，如果经济流通需要，为什么不能成立有50万居民，甚至只有5万居民的民族自治州，为什么这类的州不能采取各种不同的方式同邻近的大大小小的州联合成统一的自治“边区”，——这一切对崩得分子麦迭姆始终是一个秘密。",
+        "trigger": "inverted_logic",
+        "reader_block": "连续反问句式，表面是提问，实则强烈讽刺麦迭姆等人思维僵化，无法理解经济逻辑。",
+        "parse": {
+          "claim": "民族自治单位的规模和联合形式，完全可以根据经济便利和流通的实际需要灵活决定。",
+          "qualifiers": "前提是“很方便”和“经济流通需要”，即以经济合理性为标准。",
+          "contrast_or_target": "麦迭姆等人坚持按照固定的、官僚主义的公式（如按区域大小死板划分）来处理自治问题。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "本句通过反问提出作者主张的灵活性原则，以此揭露论敌观点的荒谬和脱离实际。"
+        },
+        "implication": "解决民族问题的正确途径是遵循经济发展的客观规律，而非固守任何先验的行政公式。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "崩得分子麦迭姆",
+      "their_view": "应当保存并研究旧的行政划分，按照固定的官僚主义公式（如按区域大小）来推行地方或区域自治。",
+      "author_response": "这些旧划分是中世纪和农奴制的残余，损害现代资本主义发展；自治形式应完全根据经济流通的需要灵活决定，不必拘泥于任何死公式。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p131s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p131s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p131s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p131s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 1,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

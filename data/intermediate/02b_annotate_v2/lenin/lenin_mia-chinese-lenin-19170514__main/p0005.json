@@ -1,0 +1,146 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 5,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁阐述马克思主义评价战争的基本方法：分析战争的阶级性质和原因，区分反动战争与革命战争，并指出当前有人利用革命战争的例子来欺骗群众。",
+    "importance_score": 3,
+    "importance_reason": "本段确立了分析战争性质的阶级方法，是理解列宁战争观和后续批判社会沙文主义的理论基础。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段关于战争阶级性的提问，本段从马克思主义观点出发，系统阐述分析战争的基本原则。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "1792年法国革命战争",
+        "explain": "指法国大革命后，革命的法国为抵御欧洲君主国干涉而进行的战争。列宁将其视为历史上“革命战争”的一个例子，即由革命阶级进行、具有反封建性质的战争。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "社会沙文主义者和资产阶级爱国主义宣传者",
+      "their_view": "当前这场战争与法国大革命战争类似，是保卫民族自由或反抗暴政的战争，因此工人阶级应当支持。",
+      "author_response": "必须具体分析这场战争的历史条件和阶级性质，不能笼统地援引历史上的革命战争例子来混淆视听。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p5s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "科学社会主义",
+            "type": "concept",
+            "modern": "马克思主义理论体系的正式名称，强调其建立在对社会发展规律的科学分析之上，区别于空想社会主义。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "scientific_socialism"
+          }
+        ]
+      },
+      {
+        "sid": "p5s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p5s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p5s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "革命战争",
+            "type": "concept",
+            "modern": "由被压迫阶级为推翻旧制度、实现社会变革而进行的战争，与维护统治阶级利益的反动战争相对。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "revolutionary_war"
+          }
+        ]
+      },
+      {
+        "sid": "p5s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p5s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "欺骗群众的手法",
+            "type": "metaphor",
+            "modern": "列宁用此比喻指社会沙文主义者和资产阶级宣传家混淆不同性质战争的宣传策略。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p5s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p5s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p5s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p5s10",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 3,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

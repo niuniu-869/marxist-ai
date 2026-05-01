@@ -1,0 +1,103 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 487,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁批判王德威尔得用'社会主义反对国家'口号恭维无产阶级，揭露其反革命本质。",
+    "importance_score": 2,
+    "importance_reason": "本段具体批判王德威尔得的观点，支撑对机会主义的论战。",
+    "argument_role": "continues",
+    "argument_link": "延续上段对王德威尔得的批判，针对其'社会主义反对国家'的口号展开分析。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "王德威尔得",
+        "explain": "王德威尔得是比利时社会主义者，第二国际领导人之一，主张通过议会道路实现社会主义。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "王德威尔得",
+      "their_view": "王德威尔得提出'社会主义反对国家'的口号，用以恭维无产阶级。",
+      "author_response": "列宁指出这种恭维掩盖了反革命的反无产阶级内容。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p487s1",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": [
+          {
+            "surface": "社会主义反对国家",
+            "type": "slogan",
+            "modern": "王德威尔得提出的口号，主张社会主义与国家对立。",
+            "highlight": "slogan",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p487s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "王德威尔得",
+            "type": "person",
+            "modern": "比利时社会主义者，第二国际领导人。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p487s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "民主主义",
+            "type": "concept",
+            "modern": "在列宁的批判中，'民主主义'特指资产阶级民主政治家。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "democracy_bourgeois"
+          }
+        ]
+      },
+      {
+        "sid": "p487s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "反革命",
+            "type": "concept",
+            "modern": "在马克思主义理论中，'反革命'指反对无产阶级革命的行为或思想。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "counterrevolution_marxist"
+          }
+        ]
+      }
+    ]
+  }
+}

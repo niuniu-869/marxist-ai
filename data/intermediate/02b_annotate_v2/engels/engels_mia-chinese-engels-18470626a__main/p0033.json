@@ -1,0 +1,108 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 33,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "描述政府军指挥官杜维维耶如何运用殖民战争中的残酷战术，通过重炮轰击将起义者控制的城区夷为平地，最终完成镇压。",
+    "importance_score": 1,
+    "importance_reason": "作为军事行动叙述的一部分，具体展示了镇压起义的手段与后果，为后文的评论提供事实基础。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对政府军会师的叙述，具体展开杜维维耶纵队在圣路易岛方向的军事行动及其方式。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "法国殖民阿尔及利亚",
+        "explain": "法国自1830年起对阿尔及利亚进行殖民征服与统治，期间法军以手段残酷著称。恩格斯此处将巴黎的镇压与殖民暴行直接类比。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p33s2",
+        "quote": "他大刀阔斧地使用了在阿尔及利亚使用过的野蛮手段，才达到了这个目的。",
+        "trigger": "inverted_logic",
+        "reader_block": "读者可能不熟悉“阿尔及利亚”在此的具体历史指涉，无法理解“野蛮手段”的类比所指向的殖民暴行性质。",
+        "parse": {
+          "claim": "杜维维耶采用了其在北非殖民战争中惯用的残酷战术来清除起义者。",
+          "qualifiers": "“大刀阔斧地”修饰其使用手段的程度。",
+          "contrast_or_target": ""
+        },
+        "why": {
+          "relation": "example",
+          "explanation": "此句是前句“占领达米埃特桥使杜维维耶能够……”的具体化，用以说明他达成军事目标所依赖的具体方法，即殖民战争的镇压经验。"
+        },
+        "implication": "暗示法国政府将本国工人视为如同殖民地被征服者一样，可以毫无顾忌地施以暴力。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      },
+      {
+        "anchor": "p33s4",
+        "quote": "但是谁管这个呢？",
+        "trigger": "inverted_logic",
+        "reader_block": "这是一个反问句，其字面形式（疑问）与实际表达的肯定判断（无人关心）相反，读者需识别其反讽语气。",
+        "parse": {
+          "claim": "政府军及其支持者对城市被毁的后果毫不在意。",
+          "qualifiers": "",
+          "contrast_or_target": ""
+        },
+        "why": {
+          "relation": "continues",
+          "explanation": "承接上句对城市被毁的描述，以反问形式强调镇压者对破坏的漠视，为下句“庆贺胜利”的场景做情绪铺垫。"
+        },
+        "implication": "突显了“秩序”维护者为达目的不择手段、无视平民代价的立场。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p33s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p33s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p33s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p33s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p33s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  }
+}

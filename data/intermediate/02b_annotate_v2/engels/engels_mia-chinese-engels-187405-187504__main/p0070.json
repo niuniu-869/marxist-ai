@@ -1,0 +1,119 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 70,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "恩格斯反驳巴枯宁主义者制造的虚假对立，并批判那种认为革命者不应相互揭露以免让资产阶级高兴的观点。",
+    "importance_score": 2,
+    "importance_reason": "本段通过反驳两种错误观点，为后文论证革命斗争的必要性做铺垫。",
+    "argument_role": "contrasts",
+    "argument_link": "承接上段对资产阶级利用工人运动内部分裂的描述，转而批判制造分裂的错误观点和害怕分裂的论调。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "巴枯宁主义者与第一国际",
+        "explain": "巴枯宁是无政府主义者，其追随者在第一国际内部与马克思、恩格斯领导的派别（常被对手称为“集中主义者”）激烈斗争，主张自下而上的联邦制而非集中制。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "维也纳《新自由报》",
+        "explain": "这是一份奥地利的资产阶级自由派报纸，立场亲政府，常发表攻击工人运动的文章。恩格斯在此用它来指代敌视革命的舆论环境。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p70s5",
+        "quote": "任何斗争都包含有不能不使敌人在某种程度上称快的因素，不然就会以别的方式使自己本身遭到肯定的损害。",
+        "trigger": "inverted_logic",
+        "reader_block": "双重否定“不能不使敌人称快”容易读成“不让敌人称快”，实际意思是“必然会让敌人称快”。读者可能困惑于为何斗争要让敌人高兴。",
+        "parse": {
+          "claim": "一切斗争都必然包含让对手感到高兴的成分，如果试图完全避免这一点，斗争本身就会受到损害。",
+          "qualifiers": "在“任何斗争”这一普遍前提下。",
+          "contrast_or_target": "针对那种认为革命者相互揭露会让资产阶级高兴，因此应该避免揭露的观点。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "直接反驳《新自由报》所代表的论调，即害怕内部批评会让敌人高兴。恩格斯指出，斗争的内在逻辑决定了某些让敌人高兴的因素无法避免，否则斗争本身无法有效进行。"
+        },
+        "implication": "革命者不应因害怕敌人高兴而放弃必要的内部批评和斗争。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p70s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p70s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p70s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p70s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p70s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p70s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 1,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

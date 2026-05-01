@@ -1,0 +1,55 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 91,
+  "annotation": {
+    "block_type": "quote_block",
+    "gist": "本段是马克思摘录的巴枯宁核心论断，巴枯宁攻击德国社会民主党是受少数人独裁领导的资产阶级政党，因此斯拉夫无产阶级不应与之结盟。",
+    "importance_score": 2,
+    "importance_reason": "这是巴枯宁对德国社会民主党定性的核心攻击，是马克思后续批判的靶子，属于论战中的关键引文。",
+    "argument_role": "continues",
+    "argument_link": "上一段提及奥地利工人未采取必要步骤，本段借巴枯宁之口解释原因：巴枯宁认为德国社会民主党是压迫斯拉夫人的工具，因此反对斯拉夫无产阶级加入。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "all_known",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "refute_quotation"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p91s1",
+        "speaker": "quoted_opponent",
+        "stance": "critically_cited",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

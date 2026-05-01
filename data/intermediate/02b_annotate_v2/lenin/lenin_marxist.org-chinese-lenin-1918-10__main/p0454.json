@@ -1,0 +1,113 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 454,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段通过比较考茨基与王德威尔得的著作，指出两人均体现第二国际的破产，并以不同手法掩盖其转向资产阶级的事实。",
+    "importance_score": 2,
+    "importance_reason": "本段作为例证，展示第二国际两位代表人物如何以不同风格掩盖机会主义本质，支撑对第二国际整体破产的批判。",
+    "argument_role": "continues",
+    "argument_link": "本段承接附录二标题，引入对王德威尔得著作的讨论，并与考茨基著作进行比较。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "考茨基与王德威尔得",
+      "their_view": "考茨基与王德威尔得均声称坚持马克思主义，但实际以不同手法掩盖第二国际的破产及其向资产阶级的转变。",
+      "author_response": "列宁指出，两人均用圆滑手腕掩盖事实，前者笨拙粗暴，后者精巧圆滑，但本质相同，都转到资产阶级方面。",
+      "polemic_kind": "reveals_class_basis",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p454s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p454s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "第二国际",
+            "type": "org",
+            "modern": "1889-1914年间的国际社会主义组织，列宁认为其已破产。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p454s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "社会党国际局",
+            "type": "org",
+            "modern": "第二国际的常设执行机构，负责协调各国社会党。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p454s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p454s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "机会主义",
+            "type": "concept",
+            "modern": "列宁用此词批判那些背叛无产阶级利益、向资产阶级妥协的思潮。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "opportunism_marxist"
+          }
+        ]
+      },
+      {
+        "sid": "p454s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 3,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

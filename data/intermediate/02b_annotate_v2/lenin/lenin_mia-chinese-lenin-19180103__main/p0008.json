@@ -1,0 +1,65 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 8,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段提出批准工人监督和最高国民经济委员会的法令，作为实现生产资料公有化的初步措施。",
+    "importance_score": 2,
+    "importance_reason": "本段具体化了废除私有制的步骤，通过法令确保劳动人民对剥削者的统治，并为生产资料国有化铺路。",
+    "argument_role": "continues",
+    "argument_link": "上段宣布废除土地私有制，本段进一步提出通过工人监督和最高国民经济委员会的法令，逐步实现工厂、矿山等生产资料的公有化，延续了消灭私有制的逻辑。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "最高国民经济委员会",
+        "explain": "苏维埃政府于1917年12月设立的中央经济管理机构，旨在协调全国工业生产和分配，逐步实现生产资料国有化。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p8s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "最高国民经济委员会",
+            "type": "org",
+            "modern": "苏维埃政府设立的中央经济管理机构，负责协调工业生产和分配。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "生产资料",
+            "type": "concept",
+            "modern": "马克思主义政治经济学中用于生产的物质资料范畴，包括工厂、机器、原料等。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "means_of_production"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 72,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本句声明共产党与无产阶级整体利益完全一致，不存在任何独立于该阶级的特殊诉求。",
+    "importance_score": 2,
+    "importance_reason": "本段是《宣言》阐明共产党阶级性质的核心论断之一，直接定义其代表的阶级利益。",
+    "argument_role": "continues",
+    "argument_link": "本句承接上段关于共产党不反对其他劳动阶级的论述，进一步从利益归属角度界定其阶级立场。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p72s1",
+        "quote": "共产党，并不是离开了无产者全体的利害，还有别的利害的。",
+        "trigger": "inverted_logic",
+        "reader_block": "双重否定结构（“并不是……还有别的”）容易让读者误读为共产党有其他利益，实际是强调其利益与无产者完全重合。",
+        "parse": {
+          "claim": "共产党所追求的利益完全等同于无产阶级全体的利益，除此之外再无其他任何独立的利益目标。",
+          "qualifiers": "",
+          "contrast_or_target": ""
+        },
+        "why": {
+          "relation": "continues",
+          "explanation": "本句在论证链中延续上段对共产党性质的界定，从“不反对其他阶级”推进到“利益完全同一”，巩固其作为无产阶级先锋队的定位。"
+        },
+        "implication": null,
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p72s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 52,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁用牧师布道的类比，批判考茨基在战争期间向资本家和小资产阶级宣扬裁军的和平主义说教，指出其脱离阶级斗争现实。",
+    "importance_score": 2,
+    "importance_reason": "本段通过类比直接批判考茨基的和平主义说教及其“超帝国主义”理论，是核心批判的组成部分。",
+    "argument_role": "continues",
+    "argument_link": "本段承接上段对金融资本争夺特权的分析，转而批判考茨基在此事实面前的和平主义说教。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "allusion",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "超帝国主义理论",
+        "explain": "考茨基提出的概念，认为帝国主义列强可能联合起来共同剥削世界，从而进入一个没有战争的“超帝国主义”阶段。列宁批判这是脱离现实的幻想。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "考茨基",
+      "their_view": "考茨基认为战争是可怕的事情，裁军才是好事，并规劝资本家和小资产阶级接受这一观点。",
+      "author_response": "列宁将这种规劝比作基督教牧师的布道，指出其脱离阶级斗争现实，毫无实际效果。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p52s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "小资产阶级",
+            "type": "concept",
+            "modern": "在马克思主义阶级分析中，指介于资产阶级和无产阶级之间的社会阶层，常具有动摇性。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "class_petty_bourgeoisie"
+          }
+        ]
+      },
+      {
+        "sid": "p52s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "超帝国主义",
+            "type": "concept",
+            "modern": "考茨基提出的理论，认为帝国主义列强可能联合剥削世界，从而避免战争。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "ultra_imperialism_theory"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 27,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁反驳帕尔乌斯关于临时革命政府构成的论点，论证无产阶级必须联合小资产阶级才能形成革命专政的社会基础，并批评托洛茨基对群众政治觉悟的忽视。",
+    "importance_score": 3,
+    "importance_reason": "核心段落，系统阐述了列宁关于俄国民主革命中无产阶级领导权与工农联盟的策略思想，直接反驳了党内机会主义观点。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对帕尔乌斯脱离尾巴主义的肯定，转而具体批判其关于临时政府构成的错误设想，深化了对革命阵营内部不同派别性质的区分。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "帕尔乌斯",
+        "explain": "德国社会民主党理论家，1905年革命期间与托洛茨基合作，主张无产阶级在民主革命中应保持独立性，反对与资产阶级民主派结盟。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "加邦神父",
+        "explain": "俄国东正教神父，1905年组织彼得堡工人向沙皇请愿，是革命初期群众动员的象征性人物。列宁在此用他指代能唤起广泛群众参与的革命事件或人物。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "托洛茨基",
+        "explain": "当时俄国社会民主工党内部重要人物，与帕尔乌斯共同提出“不断革命论”，认为俄国资产阶级民主革命将直接转变为无产阶级社会主义革命。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "帕尔乌斯、托洛茨基",
+      "their_view": "临时革命政府可以是纯粹由社会民主党人主导的“社会民主主义的政府”；像加邦神父那样能唤起群众广泛参与的事件或人物是偶然且不可重复的。",
+      "author_response": "这种设想脱离俄国无产阶级占人口少数的现实；革命要成功就必须持续唤起最广大的群众，而群众的阶级状况决定了他们当前的任务是民主主义变革而非社会主义变革。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p27s1",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p27s2",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p27s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p27s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p27s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p27s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p27s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p27s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p27s9",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p27s10",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p27s11",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p27s12",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p27s13",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 2,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote",
+        "hs:eval_word:implication:伟大"
+      ]
+    }
+  ]
+}

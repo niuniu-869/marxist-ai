@@ -1,0 +1,83 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 66,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "恩格斯通过黑格尔的观点，阐明恶在历史进步和阶级社会中的动力作用，并指出费尔巴哈忽视了这一历史维度。",
+    "importance_score": 2,
+    "importance_reason": "本段通过对比黑格尔与费尔巴哈在善恶问题上的不同深度，支撑了对费尔巴哈历史观缺陷的批判。",
+    "argument_role": "continues",
+    "argument_link": "本段承接上段对费尔巴哈伦理学浅薄的批评，具体展开黑格尔关于恶的历史作用的观点，以凸显费尔巴哈的缺失。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "费尔巴哈",
+      "their_view": "人性本善，道德上的恶是应当避免的，历史是令人不愉快的领域，无需研究恶的作用。",
+      "author_response": "恩格斯指出费尔巴哈没有认识到恶在历史发展中的杠杆作用，其历史观是片面的。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p66s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "恶",
+            "type": "concept",
+            "modern": "在黑格尔哲学中，恶被视为历史进步的必要形式，而非单纯的道德否定。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "evil_historical_role"
+          }
+        ]
+      },
+      {
+        "sid": "p66s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p66s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p66s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

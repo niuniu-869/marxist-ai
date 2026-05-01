@@ -1,0 +1,71 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 104,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁阐述更改党名的首要理由，即与背叛革命的欧洲旧社会党划清界限。",
+    "importance_score": 2,
+    "importance_reason": "支撑了更改党名这一核心政治决策的论证，是理解列宁建党思想的关键环节。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于建立共产主义社会的目标，具体说明为实现该目标在组织上应采取的决断性步骤。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "欧洲各国旧的社会党（第二国际各国党）",
+      "their_view": "在第一次世界大战中，我们应支持本国政府进行战争，保卫祖国，这是爱国主义的体现。",
+      "author_response": "列宁指出，这些政党在战争中抛弃了国际主义原则，其行为是社会沙文主义，实质上背叛了工人阶级的革命事业，已成为无产阶级革命运动的障碍。",
+      "polemic_kind": "reveals_class_basis",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p104s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "社会沙文主义",
+            "type": "concept",
+            "modern": "第一次世界大战期间，第二国际各国社会党多数领袖支持本国资产阶级政府参战的立场，列宁视其为机会主义的极端表现。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "social_chauvinism"
+          }
+        ]
+      },
+      {
+        "sid": "p104s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_9>5"
+      ]
+    }
+  ]
+}

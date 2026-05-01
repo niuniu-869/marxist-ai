@@ -1,0 +1,75 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 6,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "指出一种将宗教自由原则歪曲为党内立场的机会主义倾向，并援引恩格斯的论述加以澄清。",
+    "importance_score": 2,
+    "importance_reason": "本段通过揭示机会主义对纲领原则的歪曲，为论证工人政党在宗教问题上的正确立场提供关键论据。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对恩格斯策略的阐述，进一步揭示该策略在后来被机会主义歪曲的具体表现。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "爱尔福特纲领",
+        "explain": "1891年德国社会民主党在爱尔福特代表大会上通过的党纲。其中包含“宗教是私人的事情”这一著名论断，成为后来论战的焦点。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "机会主义",
+      "their_view": "他们声称社会民主党认为宗教对于该党自身也是私人的事情，因此党不应干预党员的宗教信仰。",
+      "author_response": "列宁指出这是对马克思主义的歪曲，宗教对于工人政党本身绝非私事，党必须在思想上与宗教划清界限。",
+      "polemic_kind": "strategic_critique",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p6s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "机会主义",
+            "type": "concept",
+            "modern": "在工人运动中，放弃革命原则、向资产阶级妥协的思潮与策略。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "opportunism"
+          }
+        ]
+      },
+      {
+        "sid": "p6s2",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p6s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p6s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  }
+}

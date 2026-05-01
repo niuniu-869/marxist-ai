@@ -1,0 +1,67 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 76,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "通过假设性对比，揭露沙皇工厂视察员在执行法律时对厂主和工人采取的双重标准。",
+    "importance_score": 3,
+    "importance_reason": "这是对法律执行中阶级偏向的直接揭露，是本段核心批判。",
+    "argument_role": "contrasts",
+    "argument_link": "本段通过假设性对比，将上段描述的视察员对厂主的妥协态度，与对工人可能采取的严厉态度并置，凸显法律执行的阶级偏向。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "罚款必要论与政府德政论",
+      "their_view": "罚款是维持工厂纪律所必需的，减轻罚款是沙皇政府的恩德。",
+      "author_response": "列宁通过对比揭示，法律对厂主和工人的执行标准截然不同，所谓“恩德”只对厂主有效，对工人则是更严厉的压迫。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p76s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p76s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p76s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

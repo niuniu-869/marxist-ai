@@ -1,0 +1,133 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 148,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁分析伯格比尔建议的政治性质，指出其为德国社会沙文主义者掩盖帝国主义阴谋的伪装，并号召揭穿。",
+    "importance_score": 2,
+    "importance_reason": "具体分析了社会沙文主义者的策略伪装，为揭露其阶级本质提供实例。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对前一发言人意见的否定，具体分析一个被视为社会沙文主义阴谋的实例。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "metaphorical",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "伯格比尔",
+        "explain": "德国社会民主党右翼领袖之一，第一次世界大战期间持社会沙文主义立场，支持德国政府的战争政策。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "普列汉诺夫之流",
+        "explain": "指以普列汉诺夫为代表的俄国孟什维克派别，他们在二月革命后支持临时政府和继续战争，与布尔什维克路线对立。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "社会沙文主义者",
+        "explain": "指在第一次世界大战中背叛国际主义、以“保卫祖国”为名支持本国资产阶级政府进行帝国主义战争的社会党人。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p148s4",
+        "quote": "伯格比尔的建议是一出滑稽剧。",
+        "trigger": "metaphorical",
+        "reader_block": "“滑稽剧”是比喻，读者可能不理解列宁为何用此词形容一个政治建议，需要解释其讽刺意味。",
+        "parse": {
+          "claim": "伯格比尔提出的建议本质上是虚伪、可笑且具有欺骗性的政治表演。",
+          "qualifiers": "特指伯格比尔代表德国社会沙文主义者提出的媾和条件。",
+          "contrast_or_target": "针对伯格比尔试图以社会党人身份提出媾和条件的行为。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "用比喻定性伯格比尔建议的虚伪性，为下文揭露其社会沙文主义阴谋做铺垫。"
+        },
+        "implication": "读者应认识到，某些看似和平的提议背后可能隐藏着服务于本国资产阶级利益的算计。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "社会沙文主义者",
+      "their_view": "通过一个社会党人（伯格比尔）提出媾和条件，试图将帝国主义的战争分赃计划伪装成和平倡议，以掩盖其背叛国际主义、为本国资产阶级服务的实质。",
+      "author_response": "必须揭穿这种伪装，打消他们利用社会党名义进行欺骗的任何企图，开展政治运动揭露其社会沙文主义本质。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p148s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p148s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p148s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p148s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p148s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p148s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p148s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 2,
+        "hs_kept": 1,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_7>5",
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 102,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁反驳将支持资产阶级民主派的一般原则抽象化，强调必须具体分析是否支持立宪民主党。",
+    "importance_score": 2,
+    "importance_reason": "这是对抽象原则论的直接反驳，为后续具体分析立宪民主党奠定方法论基础。",
+    "argument_role": "contrasts",
+    "argument_link": "承接上段对抽象反驳的回应，转而强调具体分析的重要性，将论战焦点从一般原则拉回具体对象。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "普列汉诺夫",
+      "their_view": "社会民主党应支持资产阶级民主派，孤立反动派需要与之联合，这一原则具有普遍适用性。",
+      "author_response": "不能抽象套用原则，必须具体分析1906年俄国的实际情况，普列汉诺夫的策略实质是与立宪民主党达成选举协议。",
+      "polemic_kind": "strategic_critique",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p102s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p102s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p102s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p102s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p102s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "普列汉诺夫",
+            "type": "person",
+            "modern": "俄国马克思主义理论家，孟什维克领袖，当时主张社会民主党参加杜马选举。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p102s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "反动派",
+            "type": "concept",
+            "modern": "在列宁的论战中，特指沙皇专制政府及其支持者，是当时革命的主要打击对象。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "reactionary_forces"
+          }
+        ]
+      },
+      {
+        "sid": "p102s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p102s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_7>5"
+      ]
+    }
+  ]
+}

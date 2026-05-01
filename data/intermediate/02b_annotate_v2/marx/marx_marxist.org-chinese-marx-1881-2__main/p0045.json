@@ -1,0 +1,81 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 45,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "马克思区分了原始公社的不同类型，并论证其衰落原因与俄国公社所处的历史环境存在本质差异。",
+    "importance_score": 2,
+    "importance_reason": "通过区分公社类型和衰落原因，为论证俄国公社的特殊性提供关键前提。",
+    "argument_role": "continues",
+    "argument_link": "上段讨论公社内部不平等的起源，本段转向更宏观的比较，区分不同公社类型并分析其衰落的普遍原因。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "闪族社会等古代文明",
+        "explain": "马克思在此列举闪族、希腊、罗马等古代社会形态，作为与原始公社对比的参照系，用以说明后者具有更强的存续能力。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "资本主义发展必然论",
+      "their_view": "俄国农村公社的解体是不可避免的，其命运与历史上其他原始公社的衰落遵循相同规律。",
+      "author_response": "马克思指出，历史上公社衰落的具体经济条件与历史环境，同19世纪俄国公社所处的环境毫无共同之处。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p45s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p45s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p45s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p45s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

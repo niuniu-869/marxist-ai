@@ -1,0 +1,88 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 39,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁以俄国民族构成和政治状况为例，论证社会民主党必须承认被压迫民族的分离权，并声明与反对该权利的言行划清界限。",
+    "importance_score": 3,
+    "importance_reason": "本段用俄国具体国情为民族自决权主张提供实证支撑，并明确党的政治立场。",
+    "argument_role": "continues",
+    "argument_link": "本段从上段的历史分歧转向俄国具体国情，为承认民族自决权提供现实依据。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "机会主义社会党人（鲁巴诺维奇、普列汉诺夫和《我们的事业》杂志等等）",
+      "their_view": "他们反对民族自决权，实际上支持大俄罗斯沙文主义和沙皇政府。",
+      "author_response": "列宁声明党对这种反对自决权的言行决不负责。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p39s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p39s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p39s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p39s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p39s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p39s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 4,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "note:n1_overflow_concept_8>5",
+        "note:n2_circular_prefix",
+        "note:n1_overflow_concept_8>5"
+      ]
+    }
+  ]
+}

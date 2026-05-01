@@ -1,0 +1,121 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 12,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段分析国民议会的政策如何背叛二月革命的承诺，并指出最终的阶级冲突只能通过暴力解决。",
+    "importance_score": 3,
+    "importance_reason": "本段是马克思对六月起义前阶级矛盾激化过程的总结，揭示了资产阶级共和国的阶级本质。",
+    "argument_role": "continues",
+    "argument_link": "上一段说临时政府用花言巧语欺骗工人，本段具体说明国民议会如何用实际政策背叛工人。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p12s9",
+        "quote": "坏蛋，你进行二月革命究竟是为谁，为自己还是为我们？",
+        "trigger": "inverted_logic",
+        "reader_block": "这是一个反问句，但主语“你”和“我们”指代不明，读者会困惑这个质问到底在问谁、为什么这么问。",
+        "parse": {
+          "claim": "资产阶级在质问工人阶级发动二月革命的目的，认为革命是为工人自己而非为整个社会。",
+          "qualifiers": "此质问发生在资产阶级已掌握政权并开始镇压工人之后。",
+          "contrast_or_target": "资产阶级认为二月革命是工人为自身利益发动的，而非为普遍的共和国理想。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "此句以资产阶级的口吻提出质问，直接暴露其将工人革命视为自私行为的阶级立场，为下文的暴力回应做铺垫。"
+        },
+        "implication": "资产阶级将工人的革命行动视为对其统治的威胁，而非对共同利益的追求。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "资产阶级",
+      "their_view": "工人发动二月革命是为他们自己的私利，而不是为了共和国或社会整体。",
+      "author_response": "资产阶级既然这样提出问题，就必须用六月革命——霰弹和街垒来回答。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p12s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p12s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p12s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p12s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p12s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p12s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p12s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p12s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p12s9",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": [
+          {
+            "surface": "坏蛋",
+            "type": "archaic",
+            "modern": "19世纪政治论战中对敌人的蔑称，此处模拟资产阶级对工人的指控。",
+            "highlight": "archaic",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p12s10",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  }
+}

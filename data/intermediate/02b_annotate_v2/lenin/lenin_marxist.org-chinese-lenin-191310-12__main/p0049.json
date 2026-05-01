@@ -1,0 +1,75 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 49,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁引用考茨基和鲍威尔关于犹太人同化状况的论述，以反驳“民族文化”口号的虚伪性。",
+    "importance_score": 2,
+    "importance_reason": "本段通过引用论敌权威来揭露“民族文化”口号的矛盾，是核心论据。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对崩得分子“同化”论调的反驳，转而引用考茨基和鲍威尔的权威论述，进一步证明“民族文化”口号脱离现实。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "考茨基与鲍威尔",
+        "explain": "卡尔·考茨基是第二国际理论权威，奥托·鲍威尔是奥地利马克思主义者。二人在民族问题上主张“民族文化自治”，认为民族是文化共同体，工人应首先关心本民族文化。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "卡·考茨基和奥·鲍威尔",
+      "their_view": "在文明国家，犹太人已被充分同化，不再构成一个民族；而在落后地区，犹太人还保持着封闭的帮会状态。",
+      "author_response": "列宁引用他们的话，是为了证明“民族文化”口号的虚伪性——连考茨基和鲍威尔都承认犹太人在文明地区被同化，那么坚持“民族文化”就是脱离现实。",
+      "polemic_kind": "counter_quotation",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p49s1",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p49s2",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p49s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

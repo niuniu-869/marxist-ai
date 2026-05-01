@@ -1,0 +1,103 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 127,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "描述杜林将法律关系从历史中剥离、置于虚构场景、归结为暴力、再反推回历史的方法，并指出其忽略物质基础的缺陷。",
+    "importance_score": 2,
+    "importance_reason": "具体展示杜林从历史中抽象概念、置于虚构场景、再反推回历史的方法论错误。",
+    "argument_role": "continues",
+    "argument_link": "承接上文对杜林观点的介绍，开始具体剖析其方法论步骤。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "allusion",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "鲁滨逊与星期五典故",
+        "explain": "出自笛福小说《鲁滨逊漂流记》。杜林用这两个孤立人物来演示从零开始的社会关系构建，恩格斯借此批判其脱离真实历史条件的抽象方法。",
+        "why_needed": "allusion",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p127s1",
+        "quote": "总之，先是从现实的历史中抽象出各种不同的法律关系，把这些关系同它们所由产生的并且只有以其为依据才有意义的历史基础分开，再把它们转移到两个人——鲁滨逊和星期五——身上，当然，在那里它们完全是任意地出现的。",
+        "trigger": "long_nested",
+        "reader_block": "句子描述了杜林方法的四个连续步骤，读者需要理清“抽象-分开-转移-任意出现”的逻辑链条及其批判指向。",
+        "parse": {
+          "claim": "杜林将法律关系从其产生的历史条件中剥离，移植到虚构的两人社会中，使其出现变得任意。",
+          "qualifiers": "",
+          "contrast_or_target": "杜林认为法律关系可以脱离历史基础，在虚构场景中任意存在。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "具体展示杜林方法论的第一个错误步骤：将概念从其产生的具体历史条件中抽象出来，使其失去意义。"
+        },
+        "implication": null,
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "杜林",
+      "their_view": "法律关系可以脱离其历史基础，在虚构的两人社会中任意出现，并最终归结为纯粹的暴力。",
+      "author_response": "这种方法忽略了暴力必须作用于物质基质，而这个基质的产生过程才是需要阐明的。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p127s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "鲁滨逊和星期五",
+            "type": "person",
+            "modern": "杜林用笛福小说中的人物来演示从零开始的社会关系构建，但恩格斯指出这种方法脱离了真实历史条件。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p127s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p127s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 1,
+        "hs_kept": 1,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

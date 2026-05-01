@@ -1,0 +1,131 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 309,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段论证异化劳动的社会维度，指出任何自我异化都必须通过人与人之间的现实关系来表现，并具体说明异化劳动如何生产出人与人之间的异化关系。",
+    "importance_score": 2,
+    "importance_reason": "本段将异化从人与物的关系扩展到人与人的关系，是马克思异化理论从个体心理层面转向社会关系层面的关键环节。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于人同自身关系必须通过同他人的关系才成为现实关系的论点，进一步阐明异化劳动如何具体地生产出这种人与人之间的异化关系。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p309s6",
+        "quote": "正像他把他自己的生产变成自己的非现实化，变成对自己的惩罚一样，正像他丧失掉自己的产品并使它变成不属于他的产品一样，它也生产出不生产的人对生产和产品的支配。",
+        "trigger": "inverted_logic",
+        "reader_block": "句中“它”指代前文的“异化劳动”，但被两个“正像”从句隔开，读者易迷失主语；“不生产的人”这一表述与直觉相悖，需要理解其指代不参与劳动却占有成果的阶级。",
+        "parse": {
+          "claim": "异化劳动在使劳动者丧失自身活动与产品的同时，也制造出一种社会结构，即不从事生产的人能够支配生产过程及其成果。",
+          "qualifiers": "此过程发生在“异化劳动”的条件下，是资本主义生产关系的必然结果。",
+          "contrast_or_target": ""
+        },
+        "why": {
+          "relation": "continues",
+          "explanation": "本句用“正像……一样”的平行结构，将劳动者自身的异化（生产变成惩罚、丧失产品）与社会关系的异化（不生产者支配生产）并列，揭示二者是同一过程的两个方面，深化了对异化劳动社会后果的分析。"
+        },
+        "implication": "这为后续分析资本主义社会中资产阶级与无产阶级的对立关系奠定了理论基础。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p309s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "自我异化",
+            "type": "concept",
+            "modern": "在马克思早期思想中，指人的本质（类特性）在资本主义条件下与自身相分离、对立的状态。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "alienation_early_marx"
+          }
+        ]
+      },
+      {
+        "sid": "p309s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p309s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p309s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p309s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "异化劳动",
+            "type": "concept",
+            "modern": "马克思用来描述资本主义条件下劳动活动本身成为与劳动者对立、异己力量的核心概念。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "alienation_early_marx"
+          }
+        ]
+      },
+      {
+        "sid": "p309s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p309s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 1,
+        "hs_kept": 1,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

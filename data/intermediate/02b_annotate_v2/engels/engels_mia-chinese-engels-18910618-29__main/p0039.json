@@ -1,0 +1,138 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 39,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "恩格斯批判党内机会主义关于在德国现行法律下可和平实现一切要求的幻想，并论证其在德国特定政治条件下的危险性。",
+    "importance_score": 3,
+    "importance_reason": "核心批判段落，直接针对党内机会主义关于“和平长入社会主义”的主要论战目标，是全文论证的关键环节。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段对纲领草案政治要求缺陷的批判，具体展开对党内机会主义和平过渡幻想的分析与反驳。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "反社会党人法",
+        "explain": "1878年至1890年间德国实施的特别法律，旨在镇压社会民主党及其刊物，导致该党转入地下。其废除使党重新合法化，但党内部分人仍心存余悸。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p39s5",
+        "quote": "他们力图使自己和党相信，“现代的社会正在长入社会主义”，而不问一下自己，是否这样一来，这个社会就会不像虾要挣破自己的旧壳那样必然要从它的旧社会制度中长出来，就会无须用暴力来炸毁这个旧壳，是否除此之外，这个社会在德国就会无须再炸毁那还是半专制制度的、而且是混乱得不可言状的政治制度的桎梏。",
+        "trigger": "long_nested",
+        "reader_block": "句子极长，包含两个连续的反问句和一个比喻，逻辑嵌套深，读者容易迷失在否定的追问中，抓不住核心论点。",
+        "parse": {
+          "claim": "机会主义者声称现代社会可以和平地演变为社会主义，但他们没有追问：这种演变是否必然像生物蜕壳一样需要暴力打破旧制度，以及在德国是否还需要额外打破其专制政治的束缚。",
+          "qualifiers": "此追问针对的是“现代社会正在长入社会主义”这一论断。",
+          "contrast_or_target": "机会主义者认为社会可以和平、自然地过渡到社会主义，无需暴力革命。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "通过连续反问和生物蜕壳的比喻，揭示机会主义论断的两个根本盲点：一是忽视了社会形态更替的暴力性质，二是忽视了德国政治制度的特殊专制障碍。"
+        },
+        "implication": "恩格斯在此确立了暴力革命的必然性，并将德国的具体政治条件作为论证的关键前提。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      },
+      {
+        "anchor": "p39s7",
+        "quote": "但是在德国，政府几乎有无上的权力，帝国国会及其他一切代议机关毫无实权，因此，在德国宣布某种类似的做法，而且在没有任何必要的情况下宣布这种做法，就是揭去专制制度的遮羞布，自己去遮盖那赤裸裸的东西。",
+        "trigger": "long_nested",
+        "reader_block": "句子后半部分的比喻“揭去遮羞布，自己去遮盖赤裸裸的东西”含义隐晦，读者不易理解其讽刺的逻辑：宣称和平过渡反而会暴露专制本质。",
+        "parse": {
+          "claim": "在德国政府专权、议会无权的现实下，宣扬和平过渡的主张，非但不能掩盖矛盾，反而会撕破专制制度表面的合法外衣，使其赤裸裸的压迫本质暴露无遗。",
+          "qualifiers": "此判断基于德国政府权力至上、代议机关无实权这一具体政治现实。",
+          "contrast_or_target": "机会主义者希望在现行法律框架内和平行动以避免冲突。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "将德国与前述民主国家对比，指出在德国特定条件下，机会主义路线的策略是自相矛盾的：它试图避免对抗，结果却会更彻底地暴露专制统治的实质，从而可能激化矛盾。"
+        },
+        "implication": "恩格斯认为，在德国，机会主义的和平幻想不仅错误，而且在策略上是愚蠢的，会起到反效果。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p39s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p39s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p39s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p39s4",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p39s5",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p39s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p39s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 2,
+        "hs_kept": 2,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_metaphor_9>8",
+        "note:n1_overflow_metaphor_10>8",
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 132,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段阐明对资产阶级政府的改良要求存在界限，指出其与帝国主义资本的联系是根本性的，幻想其主动切断是空想。",
+    "importance_score": 2,
+    "importance_reason": "核心论点段，界定了对临时政府策略的边界，是理解布尔什维克与孟什维克策略分歧的关键。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于通过革命摆脱战争的论断，具体说明为何不能指望资产阶级政府自身实现和平，因其与战争根源（帝国主义资本）存在结构性联系。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "allusion",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "马尼洛夫精神",
+        "explain": "出自果戈里小说《死魂灵》中的人物马尼洛夫，此人耽于幻想、脱离实际。列宁用此典故批评那些对资产阶级抱有不切实际的、天真幻想的改良主义者。",
+        "why_needed": "allusion",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p132s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "马尼洛夫精神",
+            "type": "metaphor",
+            "modern": "源自俄国文学，列宁借指对资产阶级抱有脱离实际的、天真的幻想。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "改良主义",
+            "type": "concept",
+            "modern": "一种政治主张，认为无需根本变革社会制度，可通过渐进改良实现社会进步。在列宁的语境中，特指对资产阶级政府抱有幻想的策略。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "reformism_critique"
+          }
+        ]
+      },
+      {
+        "sid": "p132s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote",
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 96,
+  "annotation": {
+    "block_type": "quote_block",
+    "gist": "马克思引用梯也尔1848年谴责政府轰击巴勒莫的演讲，为后续揭露其虚伪做铺垫。",
+    "importance_score": 2,
+    "importance_reason": "作为论战材料，通过引用论敌自身言论，为后文揭露其言行不一提供直接证据。",
+    "argument_role": "example",
+    "argument_link": "承接上段对梯也尔历史的介绍，直接展示其在1848年革命期间的公开言论，为后续批判建立事实基础。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "refute_quotation"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "巴勒莫轰击事件",
+        "explain": "1848年1月，西西里首府巴勒莫爆发反对两西西里王国的起义，国王斐迪南二世下令炮轰该城。此事成为当时欧洲关注的焦点。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "梯也尔其人",
+        "explain": "阿道夫·梯也尔，法国资产阶级政治家、历史学家。1848年革命时是君主立宪派领袖，后成为镇压巴黎公社的凡尔赛政府首脑。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "梯也尔",
+      "their_view": "任何政府炮轰要求自身权利的城市，都是应受全欧洲舆论谴责的暴行。",
+      "author_response": "马克思引用梯也尔此言，意在后续揭露他本人在1871年对巴黎采取了完全相同的镇压手段。",
+      "polemic_kind": "counter_quotation",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p96s1",
+        "speaker": "quoted_opponent",
+        "stance": "neutral_citation",
+        "notes": []
+      }
+    ]
+  }
+}

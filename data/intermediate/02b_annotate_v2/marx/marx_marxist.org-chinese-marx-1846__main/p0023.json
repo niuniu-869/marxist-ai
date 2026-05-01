@@ -1,0 +1,78 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 23,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段提出人与动物区别的根本标志是生产活动，并指出生产行为本身构成了人的物质生活。",
+    "importance_score": 3,
+    "importance_reason": "核心论点段，确立了历史唯物主义的出发点：物质生产实践是理解人类历史和社会的基础。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于“有生命的个人的存在”是历史前提的论述，具体阐明人与动物区别的真正标志在于生产活动，而非意识或观念。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "rhetorical | term_density",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "青年黑格尔派",
+      "their_view": "人与动物的区别在于人拥有意识、宗教或精神观念，历史的发展是观念或意识自我运动的结果。",
+      "author_response": "人与动物区别的真正标志是生产物质生活资料的实践活动，这一活动本身由人的肉体组织所决定，是历史的现实起点。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p23s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p23s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "生活资料",
+            "type": "concept",
+            "modern": "在马克思的语境中，指人类为维持生存和再生产所必需的物质产品，是生产活动的直接对象。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "means_of_subsistence"
+          }
+        ]
+      },
+      {
+        "sid": "p23s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 2,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

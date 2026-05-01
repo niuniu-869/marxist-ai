@@ -1,0 +1,72 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 386,
+  "annotation": {
+    "block_type": "quote_block",
+    "gist": "列宁阐述党作为阶级先锋队与整个阶级之间的关系，强调先进部队的责任与群众自发觉悟的局限。",
+    "importance_score": 2,
+    "importance_reason": "本段是列宁主义建党学说的核心观点之一，阐明了党与阶级的辩证关系，是理解先锋队理论的关键。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于党是阶级不可分离部分的论断，具体阐释这种“不可分离”关系的内涵与限度。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "allusion",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "马尼洛夫精神",
+        "explain": "出自果戈理小说《死魂灵》中的地主马尼洛夫，指脱离现实、耽于幻想、自欺欺人的空想态度。列宁用此词批评党内某些人对群众觉悟程度的过高估计。",
+        "why_needed": "allusion",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p386s1",
+        "speaker": "quoted_lenin",
+        "stance": "endorsed",
+        "notes": [
+          {
+            "surface": "马尼洛夫精神",
+            "type": "metaphor",
+            "modern": "源自俄国文学，列宁用以形容党内某些人对群众觉悟水平抱有的脱离实际的空想。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

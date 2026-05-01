@@ -1,0 +1,78 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 702,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段叙述俾斯麦利用新宪法和改革法案，获得资产阶级支持，完成普鲁士对德意志的统一。",
+    "importance_score": 1,
+    "importance_reason": "本段提供俾斯麦统一德意志的政治背景，为马克思活动的历史环境。",
+    "argument_role": "continues",
+    "argument_link": "本段承接上段俾斯麦的军事胜利，说明他通过政治手段巩固统治。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "term_polysemy",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "俾斯麦宪法改革",
+        "explain": "俾斯麦在1871年后推行宪法和改革法案，旨在巩固普鲁士领导并争取资产阶级支持。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p702s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p702s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "自上而下革命",
+            "type": "slogan",
+            "modern": "俾斯麦用来形容其通过自上而下方式实现德意志统一的策略",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

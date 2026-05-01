@@ -1,0 +1,74 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 28,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁总结革命无产阶级在即将到来的变革中的行动纲领与目标，强调其积极参与、清除错误倾向并为社会主义斗争创造条件。",
+    "importance_score": 2,
+    "importance_reason": "本段是列宁对革命无产阶级角色与目标的总结性陈述，承接前文对革命政府构成的论证，并指向未来斗争。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段关于革命政府必须包含小资产阶级的论证，本段进一步阐明无产阶级在其中的积极角色与最终目标。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p28s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "共和国",
+            "type": "concept",
+            "modern": "此处指推翻沙皇专制后建立的资产阶级民主共和国，是当时革命的直接政治目标。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "republic_bourgeois"
+          },
+          {
+            "surface": "社会主义",
+            "type": "concept",
+            "modern": "马克思主义理论中取代资本主义的社会形态，其最终实现是无产阶级革命的终极目标。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "socialism_goal"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_7>5"
+      ]
+    }
+  ]
+}

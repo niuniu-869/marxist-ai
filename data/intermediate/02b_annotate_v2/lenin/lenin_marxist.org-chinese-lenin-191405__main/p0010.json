@@ -1,0 +1,102 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 10,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段总结性地提出马克思主义者在民族问题上的原则，以反对小资产阶级集团的民族主义计划。",
+    "importance_score": 3,
+    "importance_reason": "本段是全文核心论点的明确表述，直接提出了与论敌对立的马克思主义原则。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对资产阶级与无产阶级民族平等诉求的对比，本段在此基础上，正式提出马克思主义者为反对小资产阶级民族主义计划而确立的具体原则。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "崩得分子、取消派分子、民粹派分子",
+      "their_view": "我们主张通过“民族文化自治”纲领，将教育等事务从国家管理中分离出来，交给按民族划分的联盟管理，以此实现民族平等。",
+      "author_response": "列宁指出，这种计划实质上是用民族隔阂来腐蚀和分化工人阶级，马克思主义者必须坚持各民族在国家机关、教育政策及工人斗争中的统一。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p10s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "腐蚀和分化",
+            "type": "metaphor",
+            "modern": "在列宁的论述中，此比喻指民族主义纲领对工人阶级团结的破坏作用，使其内部产生隔阂与对立。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p10s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "否认国语的必要",
+            "type": "program_clause",
+            "modern": "这是列宁提出的民族平等原则之一，主张废除任何一种官方语言的强制性地位，保障各民族语言的完全自由。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p10s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "非宗教的教育",
+            "type": "program_clause",
+            "modern": "列宁强调教育应脱离宗教控制，这是无产阶级在民族问题上坚持世俗化与统一性的具体体现。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          },
+          {
+            "surface": "民族文化",
+            "type": "slogan",
+            "modern": "列宁在此特指崩得等派别用以包装其民族主义纲领的口号，他认为这口号掩盖了其分裂工人运动的实质。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 4,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_5gram_with_surface"
+      ]
+    }
+  ]
+}

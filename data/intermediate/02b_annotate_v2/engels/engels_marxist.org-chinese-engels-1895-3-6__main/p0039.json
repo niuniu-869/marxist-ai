@@ -1,0 +1,115 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 39,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "恩格斯以反讽口吻指出历史出现的悖论：自称“革命者”的社会民主党通过合法斗争壮大，而“秩序党”却因自身确立的合法性陷入困境。",
+    "importance_score": 3,
+    "importance_reason": "本段是恩格斯对议会斗争策略有效性的核心论证，通过对比社会民主党与秩序党的处境，揭示了合法斗争的战略价值与对手的内在矛盾。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于保存力量的论述，具体展示合法斗争如何使无产阶级政党力量增长，同时使资产阶级秩序党陷入自我设置的困境。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "奥迪隆·巴罗",
+        "explain": "法国资产阶级政治家，1848年革命后曾任法国总理，属于议会中的“秩序党”。他抱怨合法性（即议会斗争规则）束缚了他们的手脚。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "秩序党",
+        "explain": "1848年革命后法国议会中的保守派联盟，主要由正统派（代表大地主）和奥尔良派（代表金融贵族）组成，主张恢复秩序、限制普选权。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p39s4",
+        "quote": "它们跟奥迪隆巴罗一起绝望地高叫：la légalité nous tue——合法性害死我们，可是我们在这种合法性下却长得肌肉结实，两颊红润，好像是长生不老似地繁荣滋长。",
+        "trigger": "inverted_logic",
+        "reader_block": "法语引语和反讽修辞结合，读者可能不理解“合法性害死我们”是论敌的抱怨，而“我们”指社会民主党，两者处境形成尖锐对比。",
+        "parse": {
+          "claim": "秩序党因自身确立的议会规则（合法性）而感到窒息，但社会民主党却在这种规则下日益壮大。",
+          "qualifiers": "此处的“我们”指社会民主党，“它们”指秩序党。",
+          "contrast_or_target": "秩序党认为合法性束缚了他们，无法有效镇压革命运动。"
+        },
+        "why": {
+          "relation": "contrasts",
+          "explanation": "通过直接引用秩序党代表人物的哀叹，并与社会民主党的蓬勃发展并置，形成强烈反差，以具体实例支撑上句关于合法手段成就更大的论断。"
+        },
+        "implication": "资产阶级为维护统治而设立的合法框架，反而为无产阶级政党的组织和宣传提供了空间。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      },
+      {
+        "anchor": "p39s5",
+        "quote": "只要我们不糊涂到任凭这些党派把我们骗入巷战，那末它们最后只有一条出路：自己去破坏这个致命的合法性。",
+        "trigger": "inverted_logic",
+        "reader_block": "句子包含一个策略性警告和一个反讽结论。读者需要理解“骗入巷战”是论敌的企图，而“破坏合法性”是作者对秩序党最终命运的推断，逻辑是反直觉的。",
+        "parse": {
+          "claim": "如果无产阶级政党避免被诱入武装起义，那么秩序党最终将被迫亲手摧毁他们赖以维持统治的合法程序。",
+          "qualifiers": "前提是无产阶级政党保持策略清醒，不主动放弃合法斗争阵地。",
+          "contrast_or_target": "秩序党试图通过挑衅将社会民主党引入非法斗争，从而为镇压制造借口。"
+        },
+        "why": {
+          "relation": "conclusion",
+          "explanation": "基于前文对合法性下力量对比变化的分析，推导出一个战略结论：坚持合法斗争将迫使对手在绝望中自毁其统治的法律外衣，从而暴露其反民主本质。"
+        },
+        "implication": "无产阶级的策略耐心可以转化为政治主动权，促使统治阶级内部矛盾激化。",
+        "confidence": "high",
+        "source_basis": "inferred"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "秩序党",
+      "their_view": "我们（秩序党）所确立的合法性（议会规则）正在扼杀我们，使我们无法有效行动。",
+      "author_response": "社会民主党恰恰在这种合法性下茁壮成长，而秩序党若不诱使我们放弃合法性，最终只能自己去摧毁它。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p39s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p39s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p39s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p39s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p39s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 7,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "马克思指出，自由贸易派为工人争取廉价面包的主张并未得到工人认同，反而遭到他们的反对和憎恶。",
+    "importance_score": 2,
+    "importance_reason": "本段是马克思对自由贸易派核心论点（改善工人处境）的直接反驳，通过工人实际反应来揭露其虚伪性。",
+    "argument_role": "contrasts",
+    "argument_link": "承接上段对自由贸易派目标的陈述，本段立即用工人实际反应形成强烈对比，否定其宣称的效果。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p7s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p7s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "廉价政府",
+            "type": "metaphor",
+            "modern": "马克思用此词讽刺法国政府，类比英国的廉价面包政策，意指两者都徒有其名、失去民众信任。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p7s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "包令",
+            "type": "person",
+            "modern": "约翰·包令，英国政治家，自由贸易派代表人物，曾以统计数据和宗教说教论证自由贸易对工人有利。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "metadata"
+          },
+          {
+            "surface": "布莱特",
+            "type": "person",
+            "modern": "约翰·布莱特，英国政治家、演说家，曼彻斯特学派代表人物，积极倡导自由贸易。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "metadata"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 3,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

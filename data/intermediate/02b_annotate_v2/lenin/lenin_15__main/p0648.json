@@ -1,0 +1,67 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 648,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁以反讽口吻指出，某种观点以反驳马克思为名，实则退回到圣西门式的空想猜测。",
+    "importance_score": 1,
+    "importance_reason": "本段通过对比马克思的科学方法与圣西门的空想，强化对非科学理论的批判，属于论证中的辅助性评论。",
+    "argument_role": "contrasts",
+    "argument_link": "本段承接上段对舒尔采-格弗尼茨观点的引用，通过对比马克思的精确科学分析与圣西门的猜测，揭示该观点的倒退性质。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p648s1",
+        "quote": "这真是对马克思的一个绝妙的“反驳”，这样就从马克思的精确科学分析倒退到圣西门的猜测上去了，那虽然是天才的猜测，但终究只是猜测而已。",
+        "trigger": "inverted_logic",
+        "reader_block": "反讽表达“绝妙的‘反驳’”实际是讽刺，读者可能误以为正面评价，需结合上下文理解为批评。",
+        "parse": {
+          "claim": "某种观点以反驳马克思为名，实际上退回到了圣西门式的空想，而空想即使天才也非科学。",
+          "qualifiers": "",
+          "contrast_or_target": "对比马克思的科学分析与圣西门的猜测，反驳前文引用的舒尔采-格弗尼茨观点。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "本句通过反讽，将论敌观点与马克思的科学方法对比，揭示其非科学性，从而反驳论敌的前提。"
+        },
+        "implication": null,
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "舒尔采-格弗尼茨",
+      "their_view": "银行资本集中是社会经济的调节机构，这种观点可以科学地反驳马克思的理论。",
+      "author_response": "列宁认为这种观点是倒退到圣西门的空想，非科学的猜测，无法与马克思的精确分析相比。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p648s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "圣西门",
+            "type": "person",
+            "modern": "19世纪初法国空想社会主义思想家，其理论被视为非科学的猜测。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 12,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "通过普鲁士国家形成的具体历史过程，论证历史发展是多种因素共同作用的结果，经济因素归根结底是决定性的，但政治、传统等因素也起作用。",
+    "importance_score": 3,
+    "importance_reason": "核心论点的具体例证，用历史事实阐明经济基础与上层建筑的辩证关系，反驳机械决定论。",
+    "argument_role": "continues",
+    "argument_link": "本段用普鲁士国家形成的具体历史过程，来例证上段提出的经济因素归根结底决定性但其他因素也起作用的论点。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "普鲁士国家形成史",
+        "explain": "恩格斯以普鲁士国家为例，说明其形成是经济、语言、宗教、国际政治（如卷入波兰事件）等多种因素共同作用的结果，而非单一经济必然性所致。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "经济决定论倾向",
+      "their_view": "历史发展，例如普鲁士国家的形成和勃兰登堡的崛起，仅仅是由经济的必然性所决定的。",
+      "author_response": "恩格斯指出，这种观点是书呆子的断言，忽视了政治、传统、国际关系等其他因素在历史进程中的实际作用。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p12s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p12s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p12s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p12s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p12s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p12s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

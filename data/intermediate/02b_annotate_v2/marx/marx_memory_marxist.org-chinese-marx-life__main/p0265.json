@@ -1,0 +1,63 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 265,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "燕妮向马克思提及西里西亚纺织工人起义，描述当地工人遭受的剥削和饥荒状况。",
+    "importance_score": 1,
+    "importance_reason": "本段通过具体历史事件例证前文所述的工人阶级贫困境况。",
+    "argument_role": "example",
+    "argument_link": "本段以西里西亚起义为例，具体说明前文马克思所指出的工人遭受剥削和压迫的现实。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "西里西亚纺织工人起义",
+        "explain": "1844年发生在普鲁士西里西亚地区的纺织工人起义，是早期工人反抗剥削的重要事件，马克思和恩格斯曾关注。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p265s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p265s2",
+        "speaker": "unknown",
+        "stance": "neutral_citation",
+        "notes": [
+          {
+            "surface": "剥削",
+            "type": "concept",
+            "modern": "马克思政治经济学中，资本家对工人剩余劳动的无偿占有。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "exploitation_marxist"
+          }
+        ]
+      }
+    ]
+  }
+}

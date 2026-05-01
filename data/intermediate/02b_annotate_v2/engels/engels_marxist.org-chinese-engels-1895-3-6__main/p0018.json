@@ -1,0 +1,114 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 18,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "描述1851年路易·波拿巴政变前法国各阶级力量的对峙局面，并指出此后革命形态发生了根本转变。",
+    "importance_score": 2,
+    "importance_reason": "本段通过具体历史事件，为前文关于革命条件不成熟的论述提供例证，并引出“自上而下革命”的新阶段判断，是论证链条的关键环节。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段关于1848年后无产阶级革命条件尚未成熟的分析，具体展示当时法国社会内部的紧张对峙如何为波拿巴政变提供了土壤。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p18s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "资产阶级",
+            "type": "concept",
+            "modern": "在法国第二共和国时期，指在政治上分裂为正统派与奥尔良派两大保皇集团，但经济利益上共同追求稳定秩序的资本家阶级。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "class_bourgeois"
+          }
+        ]
+      },
+      {
+        "sid": "p18s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p18s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "路易波拿巴",
+            "type": "person",
+            "modern": "拿破仑一世的侄子，1848年当选法兰西第二共和国总统，1851年发动政变，次年称帝为拿破仑三世。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p18s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "1851年12月2日",
+            "type": "event",
+            "modern": "路易·波拿巴发动军事政变，解散国民议会，逮捕反对派议员，标志着法国第二共和国的终结。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p18s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p18s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 3,
+        "notes_dropped": 2,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,170 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 27,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段描述第一次世界大战期间第二国际的背叛，以及列宁坚持国际主义原则的孤立斗争。",
+    "importance_score": 2,
+    "importance_reason": "支撑列宁在关键时刻坚持原则的论据，是塑造其形象的重要环节。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于列宁在党性争论中胜利的论述，进一步展示他在国际问题上的原则性。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "第二国际与一战背叛",
+        "explain": "第二国际是1889年成立的各国社会民主党联合组织。1914年一战爆发后，其多数成员党违背反战决议，转而支持本国政府参战，导致国际分裂。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "社会沙文主义",
+        "explain": "指以社会主义口号为掩护，实际支持本国资产阶级进行帝国主义战争的立场，是机会主义在一战中的表现。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "第二国际的社会民主党人和社会党人，特别是普列汉诺夫、考茨基、盖得等人",
+      "their_view": "在帝国主义战争中，应以爱国主义为名，支持本国政府进行战争，保卫祖国。",
+      "author_response": "列宁揭露这是背叛国际主义原则，为本国资产阶级效劳的社会沙文主义行为。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p27s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p27s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "帝国主义",
+            "type": "concept",
+            "modern": "资本主义发展的垄断阶段，其特征是列强争夺殖民地和势力范围。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "imperialism_marxist"
+          }
+        ]
+      },
+      {
+        "sid": "p27s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "第二国际",
+            "type": "org",
+            "modern": "1889年成立的各国社会民主党国际联合组织，一战爆发后因多数成员党支持本国战争而名存实亡。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "普列汉诺夫",
+            "type": "person",
+            "modern": "俄国马克思主义先驱，孟什维克领袖，一战中持护国主义立场。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "考茨基",
+            "type": "person",
+            "modern": "德国社会民主党理论家，第二国际领袖，一战中持中派立场，后被列宁批判为叛徒。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "盖得",
+            "type": "person",
+            "modern": "法国工人党创始人之一，一战中支持法国参战。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "沙文主义",
+            "type": "concept",
+            "modern": "极端的、侵略性的民族主义，在一战语境下特指各国工人阶级政党支持本国资产阶级对外战争的立场。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "chauvinism"
+          }
+        ]
+      },
+      {
+        "sid": "p27s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "列宁",
+            "type": "person",
+            "modern": "布尔什维克党和苏维埃政权的主要缔造者，一战中坚持国际主义反战立场。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "社会沙文主义",
+            "type": "concept",
+            "modern": "披着社会主义外衣的沙文主义，即第二国际各党在战争中支持本国政府的行为。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "social_chauvinism"
+          }
+        ]
+      },
+      {
+        "sid": "p27s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p27s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 8,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_6>5"
+      ]
+    }
+  ]
+}

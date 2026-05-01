@@ -1,0 +1,107 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 90,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段讽刺克利盖将政治斗争神秘化、宗教化的做法，将其描绘为对抽象精神的探求和宗教体验。",
+    "importance_score": 2,
+    "importance_reason": "作为对克利盖改良主义批判的具体例证，揭示其将政治斗争神秘化、宗教化的实质。",
+    "argument_role": "continues",
+    "argument_link": "上一段批判克利盖将个人视为抽象“人类”的唯心主义，本段用“乡下牧师”和宗教意象具体展示这种唯心主义如何将政治斗争转化为精神探求。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic, allusion",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p90s1",
+        "quote": "（6）这位乡下牧师把争取共产主义社会的斗争变成“对那种共性的伟大精神的探求”。",
+        "trigger": "inverted_logic",
+        "reader_block": "“把斗争变成探求”是反讽，读者可能误以为这是正面描述，实际是批判这种转化。",
+        "parse": {
+          "claim": "克利盖将现实的政治斗争转化为对抽象精神的追求。",
+          "qualifiers": "",
+          "contrast_or_target": "克利盖认为共产主义斗争的核心是发现和弘扬一种普遍的“共性精神”。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "这是对克利盖将政治斗争精神化、脱离现实阶级基础的战略路线的批判。"
+        },
+        "implication": "这种转化使斗争脱离了具体的物质条件和阶级对抗。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      },
+      {
+        "anchor": "p90s2",
+        "quote": "他使这种“伟大精神”“在圣餐杯中发出色彩奇异的光辉”并象“圣灵”一样“在教友眼中发光”。",
+        "trigger": "allusion",
+        "reader_block": "“圣餐杯”“圣灵”是基督教术语，读者需了解其宗教含义才能理解讽刺的尖锐性。",
+        "parse": {
+          "claim": "克利盖用宗教仪式和圣灵降临的意象来描绘其所谓的共产主义精神。",
+          "qualifiers": "",
+          "contrast_or_target": ""
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "通过援引基督教意象，进一步揭露克利盖的“共产主义”实质上是一种宗教神秘主义。"
+        },
+        "implication": "这表明克利盖的理论与科学共产主义毫无共同之处，更接近宗教布道。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "克利盖",
+      "their_view": "共产主义斗争是对共性精神的探求，这种精神在宗教仪式中显现，并在信徒心中发光。",
+      "author_response": "这是将政治斗争神秘化、宗教化，脱离现实的阶级斗争和消灭私有制的目标。",
+      "polemic_kind": "strategic_critique",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p90s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "乡下牧师",
+            "type": "metaphor",
+            "modern": "恩格斯对克利盖的讽刺性称呼，暗示其说教方式。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p90s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 1,
+        "hs_kept": 2,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_metaphor_13>8"
+      ]
+    }
+  ]
+}

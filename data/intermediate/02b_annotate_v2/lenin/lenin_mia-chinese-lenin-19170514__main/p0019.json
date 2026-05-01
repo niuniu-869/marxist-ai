@@ -1,0 +1,345 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 19,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁分析工人和士兵决议中“为自由而战”的表述，指出其错误在于未认清战争由资产阶级政府主导，进而论证战争根源在于资本主义制度本身，而非个人或君主。",
+    "importance_score": 3,
+    "importance_reason": "核心段落，系统阐述战争的资本主义根源，并驳斥小资产阶级对战争性质的误解，为提出“工人革命”的出路奠定基础。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对战争是帝国主义政治继续的论断，本段具体分析为何普通士兵和工人的朴素爱国情感是错误的，并将战争根源从具体国家行为深化到资本主义制度发展。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_density",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "refute_quotation"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "《土地和自由报》",
+        "explain": "俄国社会革命党的机关报，该党代表小资产阶级农民利益，主张土地社会化。其刊登的决议反映了该党对战争的典型看法。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "库尔兰与波兰",
+        "explain": "库尔兰是拉脱维亚的历史地区，与波兰在18世纪末被沙俄、普鲁士、奥地利三次瓜分。列宁用此例说明帝国主义列强瓜分世界的既成事实。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "法兰西第三共和国",
+        "explain": "1870年至1940年的法国共和政体。列宁指出其议会史充斥着用革命辞藻掩盖殖民掠夺的实例，是资产阶级虚伪宣传的典型。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p19s7",
+        "quote": "我永远不会忘记一位决议起草人在一次群众大会后向我提出的问题：“干吗你们老是谈论反对资本家？难道我是资本家吗？我们是工人，我们在捍卫自己的自由。”这话不对，你们作战是因为听从了资本家政府的旨意，进行战争的不是各国人民，而是各国政府。",
+        "trigger": "inverted_logic",
+        "reader_block": "引用的工人反问“难道我是资本家吗？”看似有理，但列宁的反驳“这话不对”直接否定了其前提，读者需理解列宁的逻辑：个人身份（工人）与行为性质（为资本家政府打仗）可以分离。",
+        "parse": {
+          "claim": "工人和农民参与战争的行为，其性质是由他们所服从的政府决定的，而非由他们自身的阶级身份或主观意愿决定。",
+          "qualifiers": "当工人或农民不了解外交和金融内幕，天真地认为自己的战斗与资本家无关时。",
+          "contrast_or_target": "工人认为自己作为劳动者，其战斗与资本家无关，是在捍卫自身自由。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "直接反驳决议起草人及持类似观点的工农，揭示其个人感受与战争实际政治性质之间的矛盾，为后续论证战争由政府（即资产阶级工具）主导做铺垫。"
+        },
+        "implication": "要改变战争性质，必须改变进行战争的政府，即推翻资产阶级统治。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      },
+      {
+        "anchor": "p19s21",
+        "quote": "这种资本主义的发展使得柏林的三四家银行和伦敦的五六家银行统治着全世界，汇集着一切资金，用全部武装力量维护着自己的金融政策，最后由于世界上再没有地盘可供自由夺取，它们就在空前残酷的搏斗中冲突起来了。",
+        "trigger": "term_density",
+        "reader_block": "句子密集使用“银行资本主义”“金融政策”“武装力量”“地盘”“搏斗”等术语，将抽象的经济集中与具体的军事冲突直接挂钩，读者可能难以理解银行如何“统治全世界”并引发战争。",
+        "parse": {
+          "claim": "少数金融资本中心（银行）通过资本集中控制了全球经济命脉，并动用国家军事力量来保障其金融扩张，当世界殖民地瓜分完毕后，它们之间的冲突只能通过战争解决。",
+          "qualifiers": "这是大资本主义尤其是银行资本主义发展到一定阶段的必然结果。",
+          "contrast_or_target": "将战争根源归咎于某个君主或资本家个人的错误政策或不良居心。"
+        },
+        "why": {
+          "relation": "definition",
+          "explanation": "具体定义了前文提到的“大资本主义尤其是银行资本主义”如何运作并必然导致战争，将帝国主义战争的经济根源形象化、具体化。"
+        },
+        "implication": "战争不是偶然的，而是资本主义发展到帝国主义阶段的必然产物。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p19s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p19s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p19s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p19s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p19s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p19s6",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p19s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p19s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p19s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p19s10",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p19s11",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p19s12",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p19s13",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p19s14",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p19s15",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p19s16",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p19s17",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p19s18",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p19s19",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p19s20",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p19s21",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p19s22",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p19s23",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p19s24",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p19s25",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p19s26",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p19s27",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p19s28",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p19s29",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p19s30",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p19s31",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p19s32",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p19s33",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p19s34",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p19s35",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p19s36",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p19s37",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p19s38",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p19s39",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 3,
+        "hs_kept": 2,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "note:n1_overflow_concept_6>5",
+        "note:n2_circular_prefix",
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

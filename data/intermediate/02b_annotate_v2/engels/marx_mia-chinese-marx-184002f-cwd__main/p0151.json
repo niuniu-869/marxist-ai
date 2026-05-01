@@ -1,0 +1,70 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 151,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段总结封建社会主义的矛盾性质：它既包含对资本主义的批判，又因其怀旧与威胁并存、缺乏历史进步性而显得滑稽。",
+    "importance_score": 1,
+    "importance_reason": "对封建社会主义的定性总结，是过渡到对其他社会主义流派批判的衔接段。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段对贵族伪装成无产阶级代言人的描述，进一步分析这种“封建的社会主义”思潮本身的内在矛盾与历史局限。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "封建的社会主义",
+      "their_view": "我们代表无产阶级的利益，我们对资产阶级社会的批判是尖锐而正确的，我们旨在揭露其弊病。",
+      "author_response": "这种批判是半心半意的，它一半出于对旧制度的哀悼，一半出于对未来的恐吓，本质上无法理解资本主义发展的历史必然性。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p151s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p151s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p151s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 4,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_7>5",
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 95,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "作者揭露门格尔理论中的矛盾：他一方面主张法学家应指明社会发展途径，另一方面又将社会变革归因于自动的历史发展，从而回避了法学家的职责。",
+    "importance_score": 2,
+    "importance_reason": "本段是核心批判的一部分，通过揭露论敌的自相矛盾来削弱其理论主张。",
+    "argument_role": "contrasts",
+    "argument_link": "本段与上段引用的门格尔关于历史发展的论述形成直接对比，指出其理论内部的逻辑断裂。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "refute_quotation"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p95s1",
+        "quote": "说得很好，但是，如果社会的“历史发展”将引起必然的变革，那么还要法哲学干什么呢？",
+        "trigger": "inverted_logic",
+        "reader_block": "反问句式，读者可能只注意到语气，而忽略其逻辑指向：即如果历史发展能自动完成变革，那么法学家的理论工作就变得多余。",
+        "parse": {
+          "claim": "如果社会变革完全由所谓的历史发展自动引起，那么法哲学这门学科就失去了存在的必要性。",
+          "qualifiers": "条件是“历史发展”能自动引起“必然的变革”。",
+          "contrast_or_target": "门格尔认为历史发展会自动引起社会变革，法学家无需主动指明途径。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "本句通过反问，直接攻击门格尔理论的前提：他既赋予法学家指明途径的任务，又将变革归于自动过程，这使法学家的任务变得多余。"
+        },
+        "implication": "门格尔的理论在逻辑上无法自洽，其法学家角色的设定与历史观相冲突。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "门格尔",
+      "their_view": "法学家应当指明社会发展的途径，但社会的变革最终是由一种自动的历史发展所引起的。",
+      "author_response": "作者指出，如果变革是自动的，那么法学家指明途径的主张就落空了，这暴露了门格尔理论的内在矛盾。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p95s1",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p95s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "法哲学",
+            "type": "concept",
+            "modern": "在门格尔的语境中，指用法学观点来研究和概括社会主义的理论体系。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "jurisprudence_as_ideology"
+          }
+        ]
+      },
+      {
+        "sid": "p95s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "历史发展",
+            "type": "concept",
+            "modern": "门格尔用来解释社会变革的抽象动力，作者讽刺其被用作回避具体职责的借口。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "historical_development_as_alibi"
+          }
+        ]
+      }
+    ]
+  }
+}

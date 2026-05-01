@@ -1,0 +1,231 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 10,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段梳理二月革命后法国各阶级轮流执政的历程，并解释小农阶级如何成为路易·拿破仑政变的关键支持力量。",
+    "importance_score": 3,
+    "importance_reason": "这是全文的核心论证部分，详细分析了政变成功的阶级基础，特别是小农阶级的作用。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于路易·拿破仑统治表象与实质的分析，具体展开各阶级的状况，解释其统治得以建立的阶级条件。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "赖德律-洛兰与卡芬雅克",
+        "explain": "1848年法国二月革命后，赖德律-洛兰领导的小资产阶级共和派和卡芬雅克领导的资产阶级共和派曾先后短暂主导临时政府和行政权力。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "正统派与奥尔良派",
+        "explain": "法国复辟时期的两大保皇派系：正统派代表旧土地贵族利益，奥尔良派代表金融资产阶级利益。二者在1848年后曾短暂联合。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "十二月十日会",
+        "explain": "路易·拿破仑为巩固个人权力而组织的私人政治团体，成员多为流氓无产者，通过领取津贴在集会和选举中为其造势。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p10s16",
+        "quote": "就这样，依靠农民（在选举的时候），依靠一群被利用来专门摇旗呐喊的败类，依靠一支随时准备推翻由议会清谈家组成的政府的军队，同时装出一副工人阶级意志的表达者的姿态，——通过这一切，他就能够安详地等待时机，趁资产阶级议会内讧的机会行动起来，对那些经过四年的流血斗争之后全都没有足够的力量建立自己的巩固统治权的阶级实行比较绝对的统治。",
+        "trigger": "long_nested",
+        "reader_block": "句子包含多个并列的“依靠”结构，且最后有一个长破折号插入语，容易让读者迷失主干，不清楚路易·拿破仑的统治基础到底是什么。",
+        "parse": {
+          "claim": "路易·拿破仑通过联合农民、城市流氓无产者和军队，并伪装代表工人阶级，从而在资产阶级各派内讧时夺取了绝对统治权。",
+          "qualifiers": "在选举时依靠农民；在行动时依靠军队；其统治是针对1848年后所有未能巩固政权的阶级。",
+          "contrast_or_target": ""
+        },
+        "why": {
+          "relation": "example",
+          "explanation": "这是对前文“政权看来又要不可避免地从他们手中滑落”的具体例证，详细说明了路易·拿破仑如何利用各阶级的弱点和矛盾，最终实现个人独裁。"
+        },
+        "implication": "",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p10s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "二月革命",
+            "type": "event",
+            "modern": "1848年2月法国爆发的推翻七月王朝的革命，建立了第二共和国。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p10s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p10s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p10s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "正统保皇派",
+            "type": "social_group",
+            "modern": "法国波旁王朝复辟时期（1814-1830）的统治集团，代表旧贵族和大地主利益。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "奥尔良保皇派",
+            "type": "social_group",
+            "modern": "法国七月王朝（1830-1848）的统治集团，代表金融资产阶级利益。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p10s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p10s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p10s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p10s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p10s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p10s10",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p10s11",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p10s12",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p10s13",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p10s14",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p10s15",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "十二月十日会",
+            "type": "org",
+            "modern": "路易·拿破仑为巩固个人权力而组织的私人政治团体，成员多为流氓无产者。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p10s16",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p10s17",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 4,
+        "notes_dropped": 5,
+        "hs_kept": 1,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

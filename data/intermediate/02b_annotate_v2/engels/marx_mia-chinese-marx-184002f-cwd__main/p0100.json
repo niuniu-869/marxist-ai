@@ -1,0 +1,84 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 100,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "作者反驳资产阶级以自由、教育、法律等概念攻击共产主义的企图，指出这些概念本身是资产阶级生产状况和财产状况的产物。",
+    "importance_score": 2,
+    "importance_reason": "本段是核心批判的一部分，揭示资产阶级思想的阶级根源，为论证废除私有制的合理性提供理论基础。",
+    "argument_role": "contrasts",
+    "argument_link": "承接上段对资产阶级教育观的批判，进一步将批判范围扩大到资产阶级的整个思想体系（自由、法律等），并揭示其物质根源。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "资产阶级",
+      "their_view": "资产阶级以他们关于自由、教育、法律等概念的标准，来攻击共产主义主张废除私有制。",
+      "author_response": "作者指出，这些概念本身是资产阶级生产状况和财产状况的产物，法律也只是将资产阶级的意志定为普遍法律。",
+      "polemic_kind": "reveals_class_basis",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p100s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p100s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p100s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "法理",
+            "type": "concept",
+            "modern": "此处指法律原则或法律体系，作者强调其阶级性，即法律是统治阶级意志的体现。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "law_as_class_will"
+          }
+        ]
+      },
+      {
+        "sid": "p100s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 2,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_6>5",
+        "note:n1_overflow_concept_8>5"
+      ]
+    }
+  ]
+}

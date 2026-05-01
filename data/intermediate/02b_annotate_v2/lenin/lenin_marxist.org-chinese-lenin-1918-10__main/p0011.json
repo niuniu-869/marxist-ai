@@ -1,0 +1,64 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 11,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁指出自己在1917年革命前夜就已著书批判考茨基对马克思学说的歪曲。",
+    "importance_score": 2,
+    "importance_reason": "提供列宁批判考茨基的早期文本证据，支撑对考茨基机会主义的指控。",
+    "argument_role": "continues",
+    "argument_link": "承接上文对考茨基观点的批判，转而提供作者自身早期批判考茨基的文本依据。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "考茨基",
+      "their_view": "考茨基在著作中对马克思国家学说的阐释存在根本性错误。",
+      "author_response": "列宁在《国家与革命》中系统论证了考茨基如何将马克思主义庸俗化为机会主义。",
+      "polemic_kind": "strategic_critique",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p11s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "《国家与革命》",
+            "type": "work",
+            "modern": "列宁于1917年撰写，系统阐述马克思主义国家学说与无产阶级革命任务的著作。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p11s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "机会主义",
+            "type": "concept",
+            "modern": "在马克思主义语境中，指为眼前利益而放弃无产阶级根本革命目标的思潮与策略。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "opportunism_marxist"
+          }
+        ]
+      }
+    ]
+  }
+}

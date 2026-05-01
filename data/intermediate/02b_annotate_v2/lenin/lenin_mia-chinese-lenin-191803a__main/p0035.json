@@ -1,0 +1,215 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 35,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁承认苏维埃政权的弱点和国际无产阶级援助的必要性，但强调其作为巴黎公社继承者的历史地位，并论证通过策略性退却等待世界革命时机。",
+    "importance_score": 2,
+    "importance_reason": "本段是列宁为接受苛刻和约进行辩护的核心论证之一，将俄国革命置于世界历史进程中，为“退却”策略提供理论依据。",
+    "argument_role": "continues",
+    "argument_link": "本段延续上一段关于俄国与德国历史处境的比较，进一步论证苏维埃政权虽弱但拥有德国人民所不具备的、作为无产阶级革命先锋的历史主动性和国际同盟。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "allusion",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "蒂尔西特和约",
+        "explain": "1807年普法战争后，普鲁士与法国签订的屈辱性和约，割地赔款。列宁用此比喻当时俄国面临的苛刻条件，但强调德国人民并未因此一蹶不振。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "巴黎公社",
+        "explain": "1871年法国巴黎工人起义建立的短暂无产阶级政权，被视为历史上第一个无产阶级专政的尝试。列宁将苏维埃政权视为其直接延续和更高形式。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p35s10",
+        "quote": "当时对于受农奴制压迫的德国人民来说剩下的唯一出路，就是等待掠夺者之间的力量对比发生变化，利用冲突，满足拿破仑、亚历山大一世以及英国君主国这些掠夺者们的要求，然而，即使这样，德国人民也并没有因蒂尔西特和约而一蹶不振。",
+        "trigger": "allusion",
+        "reader_block": "句中“蒂尔西特和约”是具体历史事件，且“掠夺者”指代拿破仑等外国君主，读者若无相关背景，难以理解列宁的历史类比。",
+        "parse": {
+          "claim": "历史上德国人民在遭受更屈辱的和约后并未垮掉，这证明民族在逆境中具有恢复力。",
+          "qualifiers": "这是在德国人民处于农奴制压迫、缺乏革命领导力量的历史条件下发生的。",
+          "contrast_or_target": "对比当下：俄国人民拥有苏维埃政权这一更高的组织形式，处境优于当年的德国。"
+        },
+        "why": {
+          "relation": "example",
+          "explanation": "通过引用德国历史先例，为俄国接受苛刻和约提供历史合理性，削弱“和约将导致毁灭”的论调。"
+        },
+        "implication": "俄国人民拥有比当年德国人民更好的条件（苏维埃政权与国际无产阶级），因此更能经受住考验。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "革命空谈",
+      "their_view": "接受苛刻和约是可耻的退缩，会葬送革命，俄国工人阶级应该不顾力量悬殊继续进行革命战争。",
+      "author_response": "列宁承认政权的弱点，但强调其作为巴黎公社继承者的历史高度和国际无产阶级的潜在支持，论证策略性退却是为了保存这个最高类型的政权，等待世界革命时机。",
+      "polemic_kind": "strategic_critique",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p35s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p35s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p35s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p35s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p35s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p35s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p35s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p35s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "巴黎公社",
+            "type": "event",
+            "modern": "1871年法国巴黎工人建立的无产阶级政权，被视为无产阶级专政的首次实践。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p35s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p35s10",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "蒂尔西特和约",
+            "type": "event",
+            "modern": "1807年普鲁士战败后与法国签订的屈辱性和约，割让大片领土。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p35s11",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p35s12",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p35s13",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p35s14",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p35s15",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p35s16",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p35s17",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p35s18",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p35s19",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 0,
+        "hs_kept": 1,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

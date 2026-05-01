@@ -1,0 +1,99 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 575,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁通过反问，质疑考茨基关于没有帝国主义和金融资本则贸易会增长更快的论断。",
+    "importance_score": 2,
+    "importance_reason": "通过反问句式，直接挑战考茨基主义对金融资本时代的理想化想象，是核心批判的组成部分。",
+    "argument_role": "contrasts",
+    "argument_link": "承接上段对考茨基观点的批判，本段以具体贸易案例的反问，进一步揭露其论点的荒谬性。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "考茨基主义",
+      "their_view": "如果没有帝国主义和金融资本的垄断与压迫，资本主义国家的贸易会发展得更快。",
+      "author_response": "列宁通过反问指出，这种观点实际上是在为自由竞争资本主义辩护，忽视了垄断已成为现实。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p575s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "帝国主义",
+            "type": "concept",
+            "modern": "列宁定义的资本主义最高阶段，特征是垄断、金融资本输出和瓜分世界。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "imperialism_lenin"
+          },
+          {
+            "surface": "金融资本",
+            "type": "concept",
+            "modern": "银行资本与工业资本融合形成的垄断资本，是帝国主义的经济基础。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "finance_capital_hilferding"
+          }
+        ]
+      },
+      {
+        "sid": "p575s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "自由竞争",
+            "type": "concept",
+            "modern": "资本主义早期阶段，企业间不受限制的竞争状态，与垄断相对。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "free_competition"
+          },
+          {
+            "surface": "垄断",
+            "type": "concept",
+            "modern": "资本主义发展的高级阶段，少数大企业控制生产和市场，是帝国主义的经济特征。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "monopoly_capitalism"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 4,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

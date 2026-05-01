@@ -1,0 +1,104 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 22,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁用三个反问句，质问那些自称革命民主派的人为何不采取国家垄断报纸广告的措施，从而切断反苏维埃报纸的财源。",
+    "importance_score": 2,
+    "importance_reason": "提出具体政策主张，将前段的经济分析转化为政治行动方案。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于报纸靠广告收入维持的分析，直接提出由国家垄断广告业务的解决方案，并质问当权者为何不执行。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "科尔尼洛夫",
+        "explain": "沙皇将军，1917年8月底发动叛乱，试图武力镇压革命，被布尔什维克和苏维埃联合粉碎。他是当时反革命势力的代表。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p22s1",
+        "quote": "试问，为什么自称革命的民主派不能实行这项措施，不能宣布报纸的私人广告业务由国家垄断呢？",
+        "trigger": "inverted_logic",
+        "reader_block": "反问句式，读者需要先理解“这项措施”指代前文的广告收入分析，再将反问还原为肯定主张。",
+        "parse": {
+          "claim": "革命民主派应当实行报纸广告业务的国家垄断。",
+          "qualifiers": "针对那些“自称”革命民主派的当权者。",
+          "contrast_or_target": "论敌（自称革命民主派者）认为无需或不能实行此类措施，容忍私人广告业务存在。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "以反问形式，直接挑战当权者（社会革命党和孟什维克）在出版自由问题上的不作为，揭露其“革命”口号与实际行动的矛盾。"
+        },
+        "implication": "若不实行国家垄断，就等于纵容反革命势力利用广告收入扩大宣传。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p22s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p22s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p22s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "科尔尼洛夫",
+            "type": "person",
+            "modern": "1917年8月发动反革命叛乱的沙皇将军，是当时反布尔什维克和苏维埃的主要军事人物。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 0,
+        "hs_kept": 1,
+        "hs_dropped": 1,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote",
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

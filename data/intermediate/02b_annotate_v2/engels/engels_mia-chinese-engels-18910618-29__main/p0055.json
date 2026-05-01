@@ -1,0 +1,78 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 55,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "恩格斯指出草案中要求对多种职业及工人保险实行国家化的条款，并质疑其可行性与理论一致性。",
+    "importance_score": 2,
+    "importance_reason": "通过具体条款的批判，揭示草案在国家职能问题上的内在矛盾，是论证国家社会主义问题的关键例证。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对学校世俗性条款的讨论，转向草案中更具体的国家化要求，继续剖析其理论问题。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "卡普里维",
+        "explain": "利奥·冯·卡普里维，1890年至1894年任德意志帝国首相。他代表保守的君主立宪政府，其内阁推行的政策与社会民主党的革命目标相悖。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p55s2",
+        "quote": "是否能把这一切都付托给卡普里维先生呢？",
+        "trigger": "inverted_logic",
+        "reader_block": "反问句式，读者可能只看到字面疑问，而忽略其背后对草案可行性的根本否定。",
+        "parse": {
+          "claim": "将律师、医师等职业及工人保险事业的管理权交给以卡普里维为代表的现行政府是不可行的。",
+          "qualifiers": "针对草案中提出的国家化要求，限定于德国当时的政治现实。",
+          "contrast_or_target": "草案认为这些领域可以由国家（即现行政府）来接管和管理。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "通过反问，直接挑战草案将国家化要求付诸实践的现实可能性，为下一句的理论批判做铺垫。"
+        },
+        "implication": "草案的国家化纲领在政治上是幼稚的，因为它忽视了国家的阶级性质。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "草案中残留的国家社会主义倾向",
+      "their_view": "应当通过国家立法和行政手段，将律师、医师等职业以及工人的保险事业收归国有，由国家统一管理。",
+      "author_response": "这种广泛的国家化要求，与草案自身宣称的拒绝一切国家社会主义的立场是自相矛盾的。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p55s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p55s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p55s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  }
+}

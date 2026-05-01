@@ -1,0 +1,87 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 125,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "恩格斯对德意志帝国宪法作出总体评价，指出其虽非倒退，但也仅此而已，资产阶级的经济利益得到满足，政治诉求则继续受阻。",
+    "importance_score": 1,
+    "importance_reason": "对前文描述的宪法集权特征进行定性总结，属于论证中的过渡性评价。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对宪法权力结构的描述，转而对宪法的整体历史作用作出判断。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p125s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "宪法",
+            "type": "concept",
+            "modern": "此处特指1871年德意志帝国宪法，它确立了联邦制与中央集权相结合的政体。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "state_geographic"
+          }
+        ]
+      },
+      {
+        "sid": "p125s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p125s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "资产阶级",
+            "type": "concept",
+            "modern": "在资本主义社会中占有生产资料、依靠剥削雇佣劳动为生的阶级。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "class_marxist"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

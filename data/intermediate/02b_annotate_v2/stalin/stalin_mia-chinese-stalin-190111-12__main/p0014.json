@@ -1,0 +1,106 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 14,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段论证俄国工人运动因现实条件而自然发展出政治性质，反驳了将斗争局限于经济领域的主张。",
+    "importance_score": 2,
+    "importance_reason": "本段是核心论点的关键支撑，通过描述工人运动的实际发展轨迹，论证政治斗争的必然性。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于经济斗争口号局限性的分析，进一步论证现实条件如何推动运动超越经济层面。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic, term_density",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p14s1",
+        "quote": "而且，要不是我国实际生活条件日益有力地推动俄国工人去进行直接的政治斗争，上述情况对运动造成的危害是会更大的。",
+        "trigger": "inverted_logic",
+        "reader_block": "双重否定结构“要不是……是会更大的”，读者需要先理解其逻辑：实际条件在抵消危害，否则危害会更严重。",
+        "parse": {
+          "claim": "俄国工人运动的实际状况之所以没有完全陷入经济斗争的局限，是因为现实生活本身在迫使工人走向政治斗争。",
+          "qualifiers": "限定于“我国实际生活条件”这一特定历史环境。",
+          "contrast_or_target": "针对“经济派”认为可以将运动局限于经济斗争的观点，指出现实条件不允许这种设想成立。"
+        },
+        "why": {
+          "relation": "continues",
+          "explanation": "本句承接上段对经济斗争口号局限性的分析，转而指出一个抵消因素：现实条件本身在推动运动向政治方向发展，从而部分抵消了口号错误的危害。"
+        },
+        "implication": "这暗示了“经济派”的理论与俄国工人运动的客观进程存在根本矛盾。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "经济派",
+      "their_view": "工人运动应主要或仅仅围绕改善经济状况的斗争，政治斗争并非当前必要或紧迫的任务。",
+      "author_response": "俄国工人运动的实际进程，包括罢工和游行，已自发地、不可阻挡地展现出政治性质，证明了经济派理论的错误。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p14s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p14s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p14s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p14s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p14s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p14s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 2,
+        "hs_kept": 1,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_5gram_with_surface",
+        "note:n1_overflow_concept_6>5",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 29,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "马克思通过逻辑推导和反讽，揭露普鲁士书报检查令中“严肃”和“谦逊”要求的内在矛盾。",
+    "importance_score": 2,
+    "importance_reason": "本段是核心批判的组成部分，通过具体概念分析，揭示检查令规定的虚伪性。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对精神多样性的辩护，本段具体分析检查令中“严肃”与“谦逊”这两个核心要求，论证其逻辑上的不成立。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p29s4",
+        "quote": "对不谦逊仍然采取谦逊的态度，这也就是精神的最大的不谦逊。",
+        "trigger": "inverted_logic",
+        "reader_block": "双重否定加反讽，读者容易按字面理解为“应该谦逊”，实际是批判这种要求本身。",
+        "parse": {
+          "claim": "在精神领域，对错误或荒谬的事物保持谦逊，本身就是一种不谦逊的表现。",
+          "qualifiers": "特指精神领域，针对检查令所要求的“谦逊”态度。",
+          "contrast_or_target": "普鲁士书报检查令要求作者在探讨真理时必须保持“谦逊”。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "本句是反讽的结论，直接针对检查令的“谦逊”要求，指出其在逻辑上会导致精神的自我否定。"
+        },
+        "implication": "检查令所倡导的“谦逊”并非真正的美德，而是压制批判精神的工具。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "普鲁士书报检查令的制定者",
+      "their_view": "写作和探讨真理必须遵循“严肃”和“谦逊”的态度。",
+      "author_response": "马克思通过逻辑分析指出，若“严肃”指注重实际，则规定无意义；而要求对不谦逊保持谦逊，是精神上最大的不谦逊。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p29s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "特利斯屈兰•善第",
+            "type": "person",
+            "modern": "英国作家劳伦斯·斯特恩在其小说《项狄传》中塑造的人物，以幽默和反讽著称。",
+            "highlight": "person",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p29s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p29s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "可笑的事物",
+            "type": "concept",
+            "modern": "在本段语境下，指代检查令本身或其荒谬的要求。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "inferred",
+            "sense_id": "absurdity_in_context"
+          }
+        ]
+      },
+      {
+        "sid": "p29s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 1,
+        "hs_kept": 1,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

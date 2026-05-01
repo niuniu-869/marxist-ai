@@ -1,0 +1,82 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 275,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁通过考茨基对孟什维克外交政策的支持，论证其机会主义本质和阶级立场的转变。",
+    "importance_score": 3,
+    "importance_reason": "本段是列宁对考茨基批判的核心部分，直接指控其叛变无产阶级立场。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对孟什维克和考茨基美化战争的批判，进一步揭露考茨基本人在对外政策问题上的机会主义转向。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "齐美尔瓦尔德会议",
+        "explain": "第一次世界大战期间，欧洲反战社会主义者于1915年在瑞士齐美尔瓦尔德召开的会议。会议内部存在主张和平的“多数派”（中派）和主张变帝国主义战争为国内革命战争的“左派”。列宁属于后者。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p275s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "孟什维克",
+            "type": "org",
+            "modern": "俄国社会民主工党中的一个派别，主张资产阶级民主革命阶段应由资产阶级领导，反对无产阶级夺取政权。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "机会主义",
+            "type": "concept",
+            "modern": "在马克思主义语境中，指为了眼前利益而牺牲无产阶级根本利益和长远目标的思潮与策略。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "opportunism_general"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

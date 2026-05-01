@@ -1,0 +1,81 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 68,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁从无产阶级国际主义立场出发，反驳将民族自决权视为“不实际”的观点，并直接批评罗莎·卢森堡的“实际主义”论调。",
+    "importance_score": 2,
+    "importance_reason": "这是支撑核心论点的关键论辩，通过揭示对手观点的阶级根源来捍卫民族自决权原则。",
+    "argument_role": "contrasts",
+    "argument_link": "上段强调民族自决权是实现民族平等与和平的唯一可靠保证，本段则从对立视角（民族主义资产阶级）展开反驳，揭示其“不实际”指控的实质。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "罗莎·卢森堡",
+      "their_view": "无产者在民族问题上提出的全部任务都是“不实际的”，因为无产者仇视任何民族主义，而要求“抽象的”平等，要求根本取消任何特权。",
+      "author_response": "罗莎·卢森堡不懂得这一点，她糊里糊涂地赞美实际主义，这恰巧为机会主义者，特别是为向大俄罗斯民族主义作机会主义让步大开方便之门。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p68s1",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": [
+          {
+            "surface": "抽象的平等",
+            "type": "concept",
+            "modern": "列宁用此词指代脱离具体阶级斗争与历史条件的、形式上的平等要求，常被机会主义者用来攻击无产阶级的彻底革命纲领。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "equality_abstract"
+          }
+        ]
+      },
+      {
+        "sid": "p68s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "实际主义",
+            "type": "concept",
+            "modern": "罗莎·卢森堡等人用来反对民族自决权的论点，强调其在帝国主义时代“不切实际”，列宁视其为机会主义的一种表现。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "pragmatism_opportunism"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_8>5"
+      ]
+    }
+  ]
+}

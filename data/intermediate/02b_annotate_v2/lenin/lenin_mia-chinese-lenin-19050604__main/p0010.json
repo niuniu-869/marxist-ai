@@ -1,0 +1,179 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 10,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁定义“全民立宪会议”必须具备的两个条件，并批判自由派资产阶级不愿保证这些条件，反而维护君主制，从而揭露其虚伪性。",
+    "importance_score": 3,
+    "importance_reason": "本段是列宁对自由派资产阶级“全民立宪”口号的核心批判，揭露其阶级实质。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段对自由派资产阶级民主主义立场落后的批判，具体展开对“全民立宪会议”口号的分析，指出其空洞性和欺骗性。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p10s8",
+        "quote": "实际权力和实力仍然掌握在血腥的尼古拉手中：这意味着由人民最凶恶的敌人召开会议，由他来“保证”全民的自由的选举。这多么民主啊！不是吗？",
+        "trigger": "inverted_logic",
+        "reader_block": "反问句“这多么民主啊！不是吗？”与前文“人民最凶恶的敌人”形成强烈反讽，读者可能误读为正面陈述。",
+        "parse": {
+          "claim": "沙皇尼古拉二世掌握实际权力，由他来组织和保证所谓的全民选举，这本质上是反民主的。",
+          "qualifiers": "",
+          "contrast_or_target": "自由派资产阶级声称的“全民”民主选举。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "通过反讽揭露自由派主张的内在矛盾：他们要求的“全民立宪会议”恰恰由其宣称的敌人来主导和保证，从而证明其口号的虚伪。"
+        },
+        "implication": null,
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "自由派资产阶级（立宪君主派）",
+      "their_view": "他们主张召开由沙皇召集和保证的“全民立宪会议”，认为这样就能实现民主。",
+      "author_response": "列宁指出，实际权力仍在沙皇手中，由他来保证选举，这恰恰保证了会议不可能真正代表人民意志，而是沙皇意志的延伸。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p10s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p10s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p10s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p10s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "人民专制",
+            "type": "concept",
+            "modern": "列宁用此词强调革命民主政权应体现人民意志并拥有实权，与自由派空洞的“立宪”相对。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "democracy_proletarian"
+          }
+        ]
+      },
+      {
+        "sid": "p10s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p10s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "立宪君主派",
+            "type": "social_group",
+            "modern": "与“自由派资产者”同义，强调其政治主张是保留君主制的立宪。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p10s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p10s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p10s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p10s10",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p10s11",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "尼古拉二世",
+            "type": "person",
+            "modern": "俄国末代沙皇，1905年革命时在位。",
+            "highlight": "person",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p10s12",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p10s13",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 3,
+        "notes_dropped": 6,
+        "hs_kept": 1,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

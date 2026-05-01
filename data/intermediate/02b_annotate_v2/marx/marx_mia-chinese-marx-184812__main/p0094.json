@@ -1,0 +1,80 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 94,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段批判行动内阁以维护秩序为名，将矛头指向工人阶级和不满的市民，揭露其政策的反动实质。",
+    "importance_score": 2,
+    "importance_reason": "具体指控行动内阁的政策目标，是论证其背叛革命、转向反动的关键证据。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对行动内阁纲领的讨论，转而分析其实际采取的行动，指出其核心是镇压革命力量。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "“无政府状态”的政治含义",
+        "explain": "在1848年革命语境中，资产阶级常将工人阶级和激进市民的革命行动污蔑为“无政府状态”，以此为由要求加强国家镇压力量。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p94s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "无政府状态",
+            "type": "concept",
+            "modern": "资产阶级对工人阶级及市民革命行动的污蔑性标签，用以合理化镇压。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "anarchism_bourgeois_smear"
+          }
+        ]
+      },
+      {
+        "sid": "p94s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote",
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

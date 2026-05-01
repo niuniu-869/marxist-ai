@@ -1,0 +1,69 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 51,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "对前文描述的荒谬观点进行定性，将其归为无政府主义，并指出其在党内的持续存在。",
+    "importance_score": 1,
+    "importance_reason": "承接上文“穴居野人”例子，对错误观点进行理论定性，是论证中的一个环节。",
+    "argument_role": "continues",
+    "argument_link": "将上段“穴居野人”对铁路的荒谬态度，概括为一种特定的理论倾向。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "cross_ref_pronoun",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "“这种观点”所指",
+        "explain": "上段“穴居野人”主张挖掉旧铁路、建“无产阶级铁路”，本段“这种观点”即指这种拒绝利用旧有事物的极端态度。",
+        "why_needed": "cross_ref_pronoun",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "无政府主义观点",
+      "their_view": "无产阶级应当彻底抛弃旧社会遗留的一切事物，包括语言、工具等，建立全新的无产阶级形式。",
+      "author_response": "斯大林认为这种态度与马克思主义毫无共同之处，是鄙陋的。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p51s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p51s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_7>5"
+      ]
+    }
+  ]
+}

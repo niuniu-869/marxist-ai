@@ -1,0 +1,65 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 772,
+  "annotation": {
+    "block_type": "quote_block",
+    "gist": "马克思评价法兰西第三共和国的反动性质，强调其作为国防措施而非社会成就，并指出临时政府继承了对工人阶级的压迫。",
+    "importance_score": 2,
+    "importance_reason": "本段提供马克思对法兰西共和国的具体批判，支撑其关于国家机器和阶级斗争的论述。",
+    "argument_role": "continues",
+    "argument_link": "本段承接上段对法兰西发展思想的论述，具体分析共和国的反动本质和对工人阶级的恐怖。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_density",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "法兰西第三共和国",
+        "explain": "1870年普法战争后成立的共和国，国防政府是巴黎被围困时的临时政府，第二帝国指拿破仑三世的帝国。",
+        "why_needed": "history_density",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p772s1",
+        "speaker": "quoted_marx",
+        "stance": "endorsed",
+        "notes": [
+          {
+            "surface": "工人阶级",
+            "type": "concept",
+            "modern": "资本主义社会中被剥削的无产阶级群体，是马克思理论中的核心阶级范畴",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "class_marxist"
+          },
+          {
+            "surface": "第二帝国",
+            "type": "event",
+            "modern": "1852年至1870年间拿破仑三世统治的法兰西帝国，在普法战争中崩溃",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  }
+}

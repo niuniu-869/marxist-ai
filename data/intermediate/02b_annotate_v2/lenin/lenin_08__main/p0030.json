@@ -1,0 +1,84 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 30,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁引用恩格斯对航运补助金案的评论，揭示德国社民党内部小资产阶级倾向及其危险性。",
+    "importance_score": 2,
+    "importance_reason": "通过恩格斯对具体事件的评论，为前文关于机会主义的论断提供历史佐证。",
+    "argument_role": "example",
+    "argument_link": "上段叙述恩格斯批评德国社民党议员支持航运补助金，本段继续引用恩格斯对该事件的进一步评论，具体展示党内分歧的严重性和小资产阶级倾向的存在。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p30s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p30s2",
+        "speaker": "quoted_engels",
+        "stance": "endorsed",
+        "notes": [
+          {
+            "surface": "航运补助金案",
+            "type": "event",
+            "modern": "1885年德国政府提出的航运补贴法案，旨在扶持本国航运业。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "小市民欲望",
+            "type": "metaphor",
+            "modern": "恩格斯用来形容党内议员追求短期经济利益、缺乏阶级斗争远见的心态。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p30s3",
+        "speaker": "quoted_engels",
+        "stance": "endorsed",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_12>5"
+      ]
+    }
+  ]
+}

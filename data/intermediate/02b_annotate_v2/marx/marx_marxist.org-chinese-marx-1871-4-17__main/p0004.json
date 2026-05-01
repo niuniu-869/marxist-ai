@@ -1,0 +1,82 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 4,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "马克思在回信中简短致意后，立即驳斥了将1849年小资产阶级示威与当前巴黎公社斗争等同的观点。",
+    "importance_score": 2,
+    "importance_reason": "本段直接点明了马克思对巴黎公社性质的核心判断，即它与以往小资产阶级运动有本质区别，是全文论证的起点。",
+    "argument_role": "contrasts",
+    "argument_link": "本段承接上文的简短问候，迅速转入核心论点，通过否定一个错误类比来确立巴黎公社的独特性质。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "1849年6月13日事件",
+        "explain": "指法国六月起义失败后，小资产阶级和共和派在巴黎举行的和平示威，旨在抗议路易·拿破仑的政变企图。示威被军队驱散，未发展为武装斗争。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "库格曼的类比观点",
+      "their_view": "1849年6月13日小资产阶级的示威游行与当前巴黎的斗争是同一类事件，可以相提并论。",
+      "author_response": "马克思认为这种类比完全错误，两者性质截然不同，对此感到无法理解。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p4s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p4s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p4s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p4s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_5gram_with_surface",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

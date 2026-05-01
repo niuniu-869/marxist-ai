@@ -1,0 +1,56 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 40,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段转述某个群体对凡尔赛保皇党多数派瓦解的看法，为后续批判做铺垫。",
+    "importance_score": 1,
+    "importance_reason": "本段引出论敌观点，是论证链条中的过渡环节。",
+    "argument_role": "transition",
+    "argument_link": "承接上段对布朗基主义者主张的提及，具体转述他们对凡尔赛事件的判断。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "凡尔赛保皇党多数派",
+        "explain": "指1871年巴黎公社失败后，在凡尔赛组成的法国临时政府中占议会多数的保皇党派别，他们主导了对公社的镇压。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "布朗基主义者",
+      "their_view": "凡尔赛保皇党多数派的瓦解宣告了革命形势已经成熟，无产阶级应立即发动起义。",
+      "author_response": "恩格斯认为这种判断脱离实际，忽视了巴黎无产阶级在经历创伤后需要恢复的现实。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "medium"
+    },
+    "sentences": [
+      {
+        "sid": "p40s1",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": [
+          {
+            "surface": "凡尔赛保皇党多数派",
+            "type": "org",
+            "modern": "1871年巴黎公社后，凡尔赛政府中支持君主制的议会多数派",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  }
+}

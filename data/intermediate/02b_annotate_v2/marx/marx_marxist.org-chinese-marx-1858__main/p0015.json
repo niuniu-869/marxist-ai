@@ -1,0 +1,96 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 15,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "从数据切入，描述鸦片贸易扩大与东印度公司的角色，进而对冲突双方进行定性评价。",
+    "importance_score": 3,
+    "importance_reason": "本段包含马克思对鸦片战争本质的著名论断，将贸易争端上升为文明与道义的冲突。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对18世纪鸦片贸易的描述，进入19世纪东印度公司角色转变和冲突性质变化的新阶段。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "半野蛮人",
+        "explain": "马克思在此处使用的反讽术语，指代清帝国。与“文明人”（指英国）形成对比，意在讽刺英国自诩文明却行径野蛮。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p15s6",
+        "quote": "这样一个帝国注定最后要在一场殊死的决斗中被打垮：在这场决斗中，陈腐世界的代表是激于道义，而最现代的社会的代表却是为了获得贱买贵卖的特权－－这真是任何诗人想也不敢想的一种奇异的对联式悲歌。",
+        "trigger": "inverted_logic",
+        "reader_block": "反讽结构（“陈腐世界”vs“最现代的社会”）与“对联式悲歌”的隐喻结合，读者可能困惑于“奇异”的评价指向。",
+        "parse": {
+          "claim": "这场冲突中，代表旧秩序的一方出于道义抗争，而代表新兴工业文明的一方则追求贸易特权。",
+          "qualifiers": "",
+          "contrast_or_target": "英国政府及其支持者宣称的文明使命与自由贸易原则。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "通过对比双方动机，揭露英国以文明为名的侵略实质，构成对英国官方叙事的直接反驳。"
+        },
+        "implication": "",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "英国政府及其支持者",
+      "their_view": "英国政府及其支持者宣称，对华战争是为了传播文明、维护自由贸易原则。",
+      "author_response": "马克思揭露，英国的真实动机是获取鸦片贸易的暴利特权，其行为与道义相悖。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p15s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p15s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p15s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p15s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p15s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p15s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 96,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁以荷兰社会民主党人果特为例，对比考茨基等人，论证在民族自决问题上言行一致的立场比口头承认更接近国际主义。",
+    "importance_score": 2,
+    "importance_reason": "通过具体人物对比，为前文关于荷兰社会民主党特殊立场的论点提供例证，并强化对机会主义的批判。",
+    "argument_role": "example",
+    "argument_link": "承接上段对荷兰和波兰社会民主党特殊立场的分析，本段用果特的具体案例，说明其立场虽特殊但比某些人更接近国际主义原则。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "考茨基、托洛茨基、马尔托夫",
+      "their_view": "在民族自决权问题上，仅在口头上表示承认，但在实际行动和具体问题上采取回避、调和或不彻底的态度。",
+      "author_response": "列宁认为，果特虽然反对本国自决，但支持殖民地自决的立场，比这些口头承认者更忠诚于国际主义原则，也更接近革命派。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p96s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p96s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p96s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p96s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

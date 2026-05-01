@@ -1,0 +1,148 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 130,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "以俄国工人运动史为例，论证革命派与机会主义派的分裂是历史准备的必然结果，并将历史上的“经济主义”与当前的考茨基等人进行类比。",
+    "importance_score": 2,
+    "importance_reason": "通过具体历史案例，为前文关于分裂的普遍论断提供实证，并建立历史与当前论战的直接联系。",
+    "argument_role": "example",
+    "argument_link": "承接上段关于战争催生革命形势与分裂的论断，以俄国为例具体说明这种分裂的历史根源与表现。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "俄国“经济主义”",
+        "explain": "19世纪末俄国工人运动中的一种思潮，主张工人阶级应只进行经济斗争（如争取改善待遇），反对政治斗争和建立独立的无产阶级政党，被视为机会主义的一种早期形式。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "《工人思想报》与《工人事业》",
+        "explain": "19世纪末俄国“经济派”的主要宣传刊物，前者集中阐述其经济主义观点，后者是其组织“工人事业社”的机关报，二者是列宁早期批判的主要对象。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "司徒卢威",
+        "explain": "俄国经济学家和政论家，早期曾参与马克思主义团体，后转向自由主义，主张“合法马克思主义”，即用资产阶级观点“修正”马克思主义。列宁用“司徒卢威式地”指代对马克思主义的歪曲。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p130s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p130s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p130s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p130s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p130s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p130s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "经济主义",
+            "type": "concept",
+            "modern": "19世纪末俄国工人运动中的一种机会主义思潮，强调经济斗争而轻视政治斗争与政党建设。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "opportunism_economism"
+          }
+        ]
+      },
+      {
+        "sid": "p130s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p130s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "《工人思想报》",
+            "type": "work",
+            "modern": "1897-1902年间在彼得堡出版的俄国“经济派”报纸，是其宣传经济主义观点的主要阵地。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "《工人事业》杂志",
+            "type": "work",
+            "modern": "1899-1902年间由“工人事业社”在日内瓦出版的杂志，是“经济派”的另一主要喉舌。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 3,
+        "notes_dropped": 2,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "note:n1_overflow_concept_10>5",
+        "polemic:eval_word:their_view:极为"
+      ]
+    }
+  ]
+}

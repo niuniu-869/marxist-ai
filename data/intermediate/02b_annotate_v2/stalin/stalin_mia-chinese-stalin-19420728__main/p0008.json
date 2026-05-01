@@ -1,0 +1,137 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 8,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段通过描述德军重整军纪的严厉措施及其效果，对比了敌我双方在纪律与目标上的差异，为后续提出向敌人学习纪律做铺垫。",
+    "importance_score": 2,
+    "importance_reason": "本段通过敌我对比，具体化了上一段提出的纪律问题，为全文核心论点——必须以铁腕手段整顿军纪——提供了来自敌方的反面例证和逻辑支撑。",
+    "argument_role": "continues",
+    "argument_link": "本段延续上一段关于必须严惩违纪、整顿军纪的论述，转而从敌方视角提供一个纪律整顿的实例，通过对比来强化己方必须采取类似措施的必要性。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "惊惶失措分子",
+      "their_view": "凭借苏联国土辽阔、资源丰富，可以无休止地向东撤退，纪律并非决定性因素。",
+      "author_response": "通过描述敌方依靠严厉纪律扭转战局，揭示了纪律对于任何军队（无论其目标是否正义）的决定性作用，从而反驳了己方可以依赖客观条件而忽视纪律的观点。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p8s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p8s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p8s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "惩戒连",
+            "type": "org",
+            "modern": "德军内部为惩罚违纪士兵而设立的特殊单位，成员被派往最危险的前线执行任务。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p8s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "惩戒营",
+            "type": "org",
+            "modern": "德军内部为惩罚违纪军官而设立的特殊单位，成员被剥夺荣誉并派往高危前线。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p8s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "督战队",
+            "type": "org",
+            "modern": "德军中负责在后方监督前线部队、处决逃兵或投降者的执法单位。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p8s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p8s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p8s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p8s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p8s10",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 3,
+        "notes_dropped": 2,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

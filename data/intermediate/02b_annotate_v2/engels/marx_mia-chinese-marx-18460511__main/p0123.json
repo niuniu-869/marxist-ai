@@ -1,0 +1,98 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 123,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段批判克利盖自诩为某个秘密同盟的代言人，指出其言论歪曲了共产主义运动的真实历史进程。",
+    "importance_score": 2,
+    "importance_reason": "本段是论证的关键环节，具体指控克利盖如何通过虚构一个秘密组织来解释共产主义的起源，从而歪曲历史。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对克利盖言论性质的定性，本段开始具体剖析其歪曲历史的手段和内容。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "埃萨伊同盟与正义同盟",
+        "explain": "“埃萨伊同盟”是“正义同盟”的前身或别称，是19世纪30-40年代德国工人的一个秘密组织。克利盖声称自己代表该同盟发言，恩格斯则认为他完全误解并滥用了这个组织的名义。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "克利盖",
+      "their_view": "共产主义运动的产生和发展，是由一个名为“正义同盟”的秘密组织所策划和推动的阴谋。",
+      "author_response": "克利盖完全不了解共产主义在欧洲的真实历史发展，他将运动的兴起归结为一个虚构的、具有神秘色彩的组织阴谋，这是对历史的严重歪曲。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p123s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "埃萨伊秘密同盟",
+            "type": "org",
+            "modern": "正义同盟的前身或别称，一个19世纪德国工人秘密组织。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p123s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "正义同盟",
+            "type": "org",
+            "modern": "克利盖声称自己代表的德国工人秘密组织。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p123s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p123s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p123s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "答哈罗·哈林一文",
+            "type": "work",
+            "modern": "克利盖在《人民论坛报》上发表的一篇文章。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      }
+    ]
+  }
+}

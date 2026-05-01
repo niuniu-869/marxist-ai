@@ -1,0 +1,153 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 65,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "分析唯物主义在英国的兴起如何从外部强化了资产阶级对宗教的依赖。",
+    "importance_score": 2,
+    "importance_reason": "作为前段关于宗教论述的补充，从思想史角度揭示资产阶级宗教倾向的另一成因。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于资产阶级利用宗教巩固统治的论述，转而分析唯物主义的兴起这一外部因素如何反过来强化了资产阶级的宗教立场。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "中间阶级",
+        "explain": "19世纪英国语境中，常指正在崛起的工业资产阶级，以区别于旧贵族和无产阶级。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "新教教派与英国革命",
+        "explain": "17世纪英国资产阶级革命中，许多新教教派（如清教徒）是反对斯图亚特王朝专制统治的主力，其教义为革命提供了意识形态资源。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "贵族的唯物主义和自然神论",
+      "their_view": "唯物主义是先进的、理性的哲学，代表了有教养者的进步思想，优于宗教。",
+      "author_response": "恩格斯指出，这种哲学因其贵族渊源和反资产阶级的政治联系，恰恰促使资产阶级更加拥抱宗教以对抗它。",
+      "polemic_kind": "reveals_class_basis",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p65s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p65s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p65s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "中间阶级",
+            "type": "social_group",
+            "modern": "19世纪英国语境中，主要指工业资产阶级，以区别于旧贵族。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p65s4",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": [
+          {
+            "surface": "霍布斯",
+            "type": "person",
+            "modern": "17世纪英国哲学家，其著作《利维坦》为绝对君主制辩护。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p65s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "博林布罗克",
+            "type": "person",
+            "modern": "18世纪英国政治家、哲学家，自然神论者。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "舍夫茨别利",
+            "type": "person",
+            "modern": "18世纪英国哲学家、政治家，自然神论者。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p65s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "新教教派",
+            "type": "social_group",
+            "modern": "17世纪英国革命中反对国教、主张改革的基督教派别，是资产阶级革命的重要力量。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "伟大的自由党",
+            "type": "org",
+            "modern": "19世纪英国主要政党之一，代表工业资产阶级利益，其前身与反对专制王权的新教传统有关。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 6,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 2,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

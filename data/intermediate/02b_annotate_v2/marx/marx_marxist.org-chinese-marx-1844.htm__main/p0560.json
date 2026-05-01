@@ -1,0 +1,104 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 560,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "马克思评价黑格尔《现象学》的辩证法，肯定其将人的自我产生视为过程、抓住劳动本质，但指出人的类力量实现必须通过异化形式。",
+    "importance_score": 3,
+    "importance_reason": "本段是马克思对黑格尔辩证法的批判性吸收，提出“否定性的辩证法”和“异化”作为人的实现途径，是手稿核心论点之一。",
+    "argument_role": "continues",
+    "argument_link": "本段承接上段对黑格尔抽象占有观的批判，转而评价黑格尔辩证法的积极面，即把人的产生视为过程并抓住劳动本质，同时指出其局限。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "否定性的辩证法",
+        "explain": "黑格尔辩证法的核心，以“否定”为动力，将事物发展视为自我否定与扬弃的过程。马克思在此肯定其方法论价值，但批判其唯心主义基础。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p560s3",
+        "quote": "人同作为类存在物的自身发生现实的、能动的关系，或者说，人作为现实的类存在物即作为人的存在物的实现，只有通过下述途径才有可能：人实际上把自己的类的力量统统发挥出来（这又是只有通过人类的全部活动、只有作为历史的结果才有可能），并且把这些力量当作对象来对待，而这首先又是只有通过异化的形式才有可能。",
+        "trigger": "long_nested",
+        "reader_block": "句子包含多重条件限定（“只有通过……才有可能”）和嵌套解释（括号内补充），且“类的力量”“异化”等概念需要特定理解，读者容易迷失主干。",
+        "parse": {
+          "claim": "人的类本质的实现，必须通过将自身力量对象化并经历异化阶段才能完成。",
+          "qualifiers": "这种实现必须通过人类全部活动的历史结果，且首先以异化形式发生。",
+          "contrast_or_target": ""
+        },
+        "why": {
+          "relation": "conclusion",
+          "explanation": "本句在评价黑格尔辩证法贡献的基础上，得出人的实现必须通过异化形式的结论，为后续批判异化劳动铺垫。"
+        },
+        "implication": "这为马克思后续批判资本主义异化劳动提供了理论起点。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p560s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p560s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p560s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "类存在物",
+            "type": "concept",
+            "modern": "费尔巴哈术语，指人作为类的存在，具有普遍性；马克思在此指人通过实践实现类本质。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "species_being_feuerbach"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 1,
+        "hs_kept": 1,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

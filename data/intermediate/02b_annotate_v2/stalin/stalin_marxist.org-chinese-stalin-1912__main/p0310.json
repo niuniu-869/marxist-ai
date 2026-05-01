@@ -1,0 +1,58 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 310,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "斯大林以反问形式质疑代表会议所谓“确认”行为的实质内容，揭示其矛盾。",
+    "importance_score": 1,
+    "importance_reason": "本段作为过渡，通过反问引出对代表会议决议的批判，为后续论证民族问题做铺垫。",
+    "argument_role": "contrasts",
+    "argument_link": "本段直接承接上段对代表会议行为的描述，通过反问揭示其“确认”行为的空洞，与上段所述“对实质不表示意见”形成对比。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p310s1",
+        "quote": "究竟这个新奇的代表会议“确认”了什么呢？",
+        "trigger": "inverted_logic",
+        "reader_block": "反问句式，读者需理解斯大林在质疑‘确认’的实质，而非寻求字面答案。",
+        "parse": {
+          "claim": "代表会议所谓‘确认’的内容是空洞或矛盾的。",
+          "qualifiers": "",
+          "contrast_or_target": "代表会议声称‘确认’民族文化自治要求，但未表明实质立场。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "本句通过反问揭露代表会议行为的自相矛盾，为批判其民族主义倾向做铺垫。"
+        },
+        "implication": "暗示代表会议的‘确认’缺乏实质内容，可能掩盖真实立场。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "代表会议",
+      "their_view": "代表会议声称‘确认’了民族文化自治的要求，但未对问题的实质表示意见。",
+      "author_response": "斯大林质疑这种‘确认’的实质，指出其行为矛盾。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "medium"
+    },
+    "sentences": [
+      {
+        "sid": "p310s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  }
+}

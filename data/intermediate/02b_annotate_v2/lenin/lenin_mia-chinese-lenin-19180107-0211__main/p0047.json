@@ -1,0 +1,133 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 47,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁通过类比1907年抵制杜马的历史，论证当前形势要求策略转变，保存新生的苏维埃共和国是首要任务，战争口号会落入敌人圈套。",
+    "importance_score": 3,
+    "importance_reason": "核心论点段，系统阐述了列宁主张立即缔约的根本理由：保卫苏维埃政权高于一切。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对党内三种意见的描述，列宁在此通过历史类比和形势分析，系统论证其主张立即缔约的立场。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "1907年抵制第三届杜马",
+        "explain": "1905年革命失败后，沙俄召开第三届杜马（议会）。当时布尔什维克内部就是否参加选举产生激烈争论，多数人主张抵制，列宁等人则主张参加以利用合法斗争平台。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "唐恩",
+        "explain": "费奥多尔·唐恩，当时是孟什维克领导人之一。列宁在此提及他，是为了说明在1907年杜马问题上，自己曾与孟什维克持相同立场（主张参加），并因此受到党内同志攻击。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "主张立即进行革命战争的党内同志",
+      "their_view": "签订和约是向帝国主义妥协，应当立即进行革命战争，以此推动德国乃至欧洲的革命。",
+      "author_response": "保存已开始社会主义革命的苏维埃共和国是最高任务；在当前力量对比下，战争口号要么是空谈，要么会客观上帮助帝国主义摧毁这个共和国。",
+      "polemic_kind": "strategic_critique",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p47s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "第三届杜马",
+            "type": "event",
+            "modern": "1907年至1912年间运作的沙俄立法机构，其选举法极度不民主，是反革命势力的工具。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "唐恩",
+            "type": "person",
+            "modern": "费奥多尔·唐恩，孟什维克领导人，在1907年杜马问题上与列宁同属主张参加的少数派。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p47s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p47s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p47s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p47s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p47s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p47s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "机会主义",
+            "type": "concept",
+            "modern": "列宁用此词批评那些脱离具体条件、拘泥于抽象革命口号而忽视保存革命政权这一首要任务的倾向。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "opportunism_lenin"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 3,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

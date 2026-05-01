@@ -1,0 +1,99 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 81,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "恩格斯运用反讽和归谬法，批判“苏黎世三人团”为资产阶级辩护的论调，指出其逻辑将导致放弃一切斗争。",
+    "importance_score": 2,
+    "importance_reason": "本段是核心批判的组成部分，通过归谬法具体展示论敌观点的荒谬性。",
+    "argument_role": "continues",
+    "argument_link": "本段延续上段对“苏黎世三人团”虚伪态度的批判，具体针对其为资产阶级辩护的论点展开反驳。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p81s5",
+        "quote": "我们不应当加上利息偿还他们的脚踢，反而应当怜悯那些可怜虫。",
+        "trigger": "inverted_logic",
+        "reader_block": "表面是劝诫，实则是反讽，读者若不结合上下文，可能误解为作者主张宽容。",
+        "parse": {
+          "claim": "按照论敌的逻辑，我们非但不应反击敌人的攻击，反而应该同情他们。",
+          "qualifiers": "此句是上句归谬推理的延续，进一步描绘按论敌逻辑行事的荒谬图景。",
+          "contrast_or_target": "针对“苏黎世三人团”主张对资产阶级采取温和、不攻击的态度。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "本句以反讽的口吻，将论敌逻辑的后果推向极端（怜悯敌人），从而强化对其放弃斗争主张的批判。"
+        },
+        "implication": "强调无产阶级政党必须对敌人的压迫进行坚决反击，而非怜悯。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p81s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p81s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p81s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p81s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p81s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 1,
+        "hs_dropped": 1,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote",
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

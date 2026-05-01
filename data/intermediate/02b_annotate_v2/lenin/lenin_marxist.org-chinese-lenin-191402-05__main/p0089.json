@@ -1,0 +1,93 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 89,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "提出检验民族自决权论据的方法论标准，即考察各阶级的实际态度，并以此批评罗莎·卢森堡的论证方式。",
+    "importance_score": 2,
+    "importance_reason": "提出一个关键的方法论原则，用以反驳前文所批驳的论据，是论证链条中的重要环节。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对卢森堡论据的批驳，转而提出一个更根本的检验标准，即从阶级立场出发进行分析。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "罗莎·卢森堡",
+      "their_view": "对民族自决权的反对基于抽象的理论论据，而非具体的社会阶级分析。",
+      "author_response": "指出卢森堡恰恰犯了她指责别人的那种脱离实际的、形而上学的错误，因为她没有考察各阶级对这一问题的真实态度。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p89s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "阶级",
+            "type": "concept",
+            "modern": "马克思主义分析社会结构的核心范畴，指在生产关系中处于不同地位的集团。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "class_marxist"
+          }
+        ]
+      },
+      {
+        "sid": "p89s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p89s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p89s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "形而上学",
+            "type": "concept",
+            "modern": "在马克思主义语境中，常指与辩证法相对立的、孤立静止片面的思维方式。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "metaphysics_pejorative"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 578,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁反驳考茨基主义者斯佩克塔托尔对殖民地贸易数据的辩护，指出这本质上是不同帝国主义力量间的竞争，而非自由贸易的证明。",
+    "importance_score": 2,
+    "importance_reason": "本段是核心论战的一部分，通过具体经济机制（卡特尔、倾销）反驳考茨基主义对帝国主义的错误定性。",
+    "argument_role": "contrasts",
+    "argument_link": "承接上段对考茨基论断的定性，本段通过具体经济事实和机制，进一步论证为何考茨基的辩护（及其变体）在理论上站不住脚。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p578s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p578s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p578s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "卡特尔",
+            "type": "concept",
+            "modern": "资本主义垄断组织的一种形式，生产同类商品的企业为瓜分市场、规定产量和价格而结成的联盟。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "cartel_monopoly"
+          }
+        ]
+      },
+      {
+        "sid": "p578s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "倾销价格",
+            "type": "concept",
+            "modern": "垄断组织在国内维持高价以获取超额利润，同时以远低于成本的价格在国外市场销售商品，以排挤竞争对手、占领市场的定价策略。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "dumping_price"
+          }
+        ]
+      },
+      {
+        "sid": "p578s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p578s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p578s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote",
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

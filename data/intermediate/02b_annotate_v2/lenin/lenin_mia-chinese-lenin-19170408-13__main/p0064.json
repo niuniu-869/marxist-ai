@@ -1,0 +1,106 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 64,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁回答如何迫使小资产阶级掌权，提出无产阶级必须独立斗争并摆脱其影响。",
+    "importance_score": 2,
+    "importance_reason": "本段具体阐述了迫使小资产阶级掌权的条件，是列宁回应党内分歧、论证其策略的关键环节。",
+    "argument_role": "continues",
+    "argument_link": "本段直接回答上一段提出的“如何推动小资产阶级掌权”的问题，提出无产阶级独立斗争是必要条件。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p64s3",
+        "quote": "甚至古契柯夫和米留可夫（也是在一定的情况下）也会赞成齐赫泽、策列铁里、社会革命党人和斯切克洛夫掌握无限权力，建立单一政权，因为这些人毕竟都是“护国派”！",
+        "trigger": "inverted_logic",
+        "reader_block": "反讽句式，读者可能困惑为何资产阶级代表会支持小资产阶级掌权，需理解“护国派”这一共同立场。",
+        "parse": {
+          "claim": "在特定条件下，连资产阶级临时政府的领导人也会支持小资产阶级单独掌权。",
+          "qualifiers": "“在一定的情况下”，限定这种支持是有条件的。",
+          "contrast_or_target": "针对党内认为小资产阶级不愿掌权就无法推动的观点。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "本句通过反讽揭示，即使资产阶级临时政府也会因“护国”立场而支持小资产阶级掌权，从而论证无产阶级独立斗争能迫使小资产阶级行动。"
+        },
+        "implication": "这表明小资产阶级掌权并非不可能，关键在于无产阶级能否形成独立力量。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p64s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p64s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "无产者",
+            "type": "concept",
+            "modern": "现代工业社会中不占有生产资料、靠出卖劳动力为生的阶级成员",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "proletarian_modern"
+          },
+          {
+            "surface": "小资产阶级",
+            "type": "concept",
+            "modern": "介于资产阶级与无产阶级之间、拥有少量生产资料或从事小规模经营的社会阶层",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "petty_bourgeoisie"
+          }
+        ]
+      },
+      {
+        "sid": "p64s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 1,
+        "hs_kept": 1,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_9>5",
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 72,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段以反问句式，质疑国家机关改革若不注重质量，可能陷入小农经济的狭隘视野。",
+    "importance_score": 2,
+    "importance_reason": "本段将国家机关改革与农民局限性问题联系起来，为后续强调质量优先的论述做铺垫。",
+    "argument_role": "transition",
+    "argument_link": "承接上文对国家机关浪费的批评，转而警示改革可能带来的新风险，即农民局限性主导。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "cross_ref_pronoun",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "代词'这'的指代",
+        "explain": "句子开头的'这'指代前文关于国家机关厉行节约、铲除浪费的改革措施，读者需联系上段内容理解。",
+        "why_needed": "cross_ref_pronoun",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p72s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "农民局限性",
+            "type": "concept",
+            "modern": "在列宁的论述中，此词描述小农经济固有的保守、分散和狭隘特性，可能阻碍国家机关的现代化改革。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "peasant_limitation_marxist"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

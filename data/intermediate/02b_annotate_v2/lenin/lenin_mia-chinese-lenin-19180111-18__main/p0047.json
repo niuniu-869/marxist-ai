@@ -1,0 +1,69 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 47,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "对比苏维埃政权的实际行动与妥协派可能主张的程序，强调前者没有等待立宪会议。",
+    "importance_score": 2,
+    "importance_reason": "通过对比，阐明苏维埃政权行动的果断性，反驳程序主义路线。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于银行国有化的讨论，进一步说明苏维埃政权在采取措施时没有遵循妥协派可能主张的程序。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "立宪会议",
+        "explain": "1917年二月革命后成立的俄国制宪机构，原定通过选举产生以制定宪法。十月革命后，苏维埃政权以该机构不代表多数人民意志为由，于1918年1月将其解散。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "妥协派",
+      "their_view": "主张通过立宪会议等合法程序制定法律，认为这是国家政权应遵循的正当方式，可以与资产阶级进行合作与协商。",
+      "author_response": "列宁指出，这种程序会向资产阶级泄露苏维埃政权的意图，使其有机会逃避革命措施，因此苏维埃政权没有采取这种做法。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p47s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p47s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

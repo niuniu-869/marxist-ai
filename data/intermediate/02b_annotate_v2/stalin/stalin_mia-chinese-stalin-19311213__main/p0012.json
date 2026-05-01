@@ -1,0 +1,75 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 12,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "斯大林使用比喻手法，将列宁与彼得大帝进行对比，突出列宁的历史作用远大于彼得大帝。",
+    "importance_score": 1,
+    "importance_reason": "本段通过历史人物类比，辅助论证列宁的领导地位，属于谈话中的例证部分。",
+    "argument_role": "contrasts",
+    "argument_link": "本段承接上一段对路德维希类比的否定，通过对比列宁和彼得大帝，提供更恰当的参照。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_density",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "allusion",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "列宁与彼得大帝",
+        "explain": "列宁是领导十月革命、建立苏维埃政权的布尔什维克领袖；彼得大帝是18世纪推行俄罗斯现代化的沙皇。斯大林在此比较两人的历史影响。",
+        "why_needed": "history_density",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p12s1",
+        "quote": "至于列宁和彼得大帝，那么彼得大帝是沧海一粟，而列宁是整个大海。",
+        "trigger": "allusion",
+        "reader_block": "成语“沧海一粟”源自古典文学，比喻事物在宏大背景中极其微小；读者可能不熟悉其出处，或不理解为何用海洋比喻历史人物的相对重要性。",
+        "parse": {
+          "claim": "斯大林断言，彼得大帝的历史贡献与列宁相比显得微不足道，而列宁的影响则如同大海般广阔无边。",
+          "qualifiers": "",
+          "contrast_or_target": ""
+        },
+        "why": {
+          "relation": "contrasts",
+          "explanation": "本句通过比喻对比，旨在反驳路德维希将列宁与彼得大帝等同看待的观点，强调列宁的独特历史地位。"
+        },
+        "implication": null,
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p12s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "沧海一粟",
+            "type": "metaphor",
+            "modern": "出自苏轼《赤壁赋》，比喻事物在宏大背景中极其渺小；斯大林用此形容彼得大帝相对于列宁的历史影响微不足道。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 60,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段分析小资产阶级的斗争性质，指出其目标是维持自身地位而非革命，其行动具有保守乃至复古的倾向。",
+    "importance_score": 2,
+    "importance_reason": "作为对前文“唯一革命阶级”论断的补充，通过对比分析小资产阶级，界定其非革命性，从而巩固无产阶级革命性的论证。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于无产阶级是唯一真正革命阶级的论断，转而分析小资产阶级，通过揭示其斗争的保守性，从反面论证无产阶级革命的必然性。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "小资产阶级",
+      "their_view": "我们与资产阶级斗争是为了保住自己的小产业和小地位，甚至希望回到过去更安稳的旧秩序。",
+      "author_response": "这种斗争是保守的，甚至是复古的，其革命性仅在于害怕自身跌入无产阶级队伍，而非推动社会前进。",
+      "polemic_kind": "reveals_class_basis",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p60s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p60s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "保守的",
+            "type": "concept",
+            "modern": "在此语境下指维护现有生产关系和社会秩序，而非推动变革。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "conservative_social"
+          }
+        ]
+      },
+      {
+        "sid": "p60s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "历史的机轮",
+            "type": "metaphor",
+            "modern": "比喻社会历史发展的进程与方向。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p60s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p60s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 3,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix",
+        "note:n1_overflow_concept_8>5"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 171,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁反驳论敌对“工农联盟”概念的歪曲，强调必须区分资产阶级民主派中的革命派和妥协派。",
+    "importance_score": 3,
+    "importance_reason": "核心论点段落，直接阐述布尔什维克在革命策略上的关键区分，即与资产阶级民主派中哪一部分合作。",
+    "argument_role": "contrasts",
+    "argument_link": "承接上段对布兰克歪曲马克思的批判，具体展开这种歪曲在“工农联盟”问题上的表现，并提出正确的区分标准。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p171s10",
+        "quote": "还是那些接受把农民起义进行到彻底胜利的纲领（不是农民同地主妥协），接受使民主派得到彻底胜利的纲领（不是民主的众议院同参议院以及君主制妥协）的分子呢？",
+        "trigger": "long_nested",
+        "reader_block": "作为上句的对比项，同样结构复杂，且包含对两种“妥协”纲领的否定性描述，需要厘清其具体所指。",
+        "parse": {
+          "claim": "与上句的妥协派相对，列宁指出另一部分资产阶级民主派分子，他们主张将农民起义和民主事业进行到底，拒绝任何中途妥协。",
+          "qualifiers": "无额外限定，直接承接上句的“进行到一半的时候”这一语境。",
+          "contrast_or_target": "与上句描述的“接受君主主义自由派纲领”的妥协派分子形成直接对比。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "本句与上句构成一个完整的选择问句，通过清晰对比两种纲领，具体化了“革命的资产阶级民主派”与“妥协的资产阶级民主派”的区别，从而驳斥论敌的笼统概念。"
+        },
+        "implication": "布尔什维克主张与后者（革命派）联合，共同推进革命到底。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p171s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p171s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p171s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p171s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p171s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p171s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p171s7",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p171s8",
+        "speaker": "editor",
+        "stance": "neutral_citation",
+        "notes": []
+      },
+      {
+        "sid": "p171s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p171s10",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p171s11",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p171s12",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 4,
+        "hs_kept": 1,
+        "hs_dropped": 1,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_9>5",
+        "note:n1_overflow_concept_10>5",
+        "note:n1_overflow_concept_7>5",
+        "note:n1_overflow_metaphor_11>8",
+        "hs:claim_5gram_with_quote",
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,142 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 58,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁在注释中直接反驳普列汉诺夫，论证农民的土地国有思想虽含反动成分，但整体上具有革命民主主义性质，不能因历史类比而否定。",
+    "importance_score": 2,
+    "importance_reason": "本段是列宁反驳党内主要论敌普列汉诺夫关于土地国有思想性质判断的关键段落，为后续论证修改纲领的合理性扫清理论障碍。",
+    "argument_role": "contrasts",
+    "argument_link": "承接上段对农民运动革命热情的描述，转而直接回应党内对农民土地国有思想性质的质疑，通过反驳普列汉诺夫来巩固前文论断。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "allusion | inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "王安石变法",
+        "explain": "中国北宋（11世纪）的政治家王安石曾推行包括土地国有化在内的改革，但最终失败。普列汉诺夫引用此例，意在警告俄国农民的土地国有主张可能重蹈覆辙。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p58s5",
+        "quote": "真所谓qui prouve trop，ne prouve rien（谁过多地证明，谁就什么也没有证明）。",
+        "trigger": "allusion",
+        "reader_block": "引用拉丁语谚语，读者可能不熟悉其含义和用法，需要解释其在论辩中的作用。",
+        "parse": {
+          "claim": "普列汉诺夫试图用过多的论据来证明其观点，反而使其论证失去了说服力。",
+          "qualifiers": "",
+          "contrast_or_target": "普列汉诺夫用王安石的历史类比来论证农民土地国有思想的反动根源，列宁认为这种论证方式本身就有问题。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "列宁用这句谚语直接评价普列汉诺夫的论证方法，指出其论据堆砌反而削弱了论点，为下文具体批驳其历史类比做铺垫。"
+        },
+        "implication": "有效的论证应抓住核心，而非依赖牵强的类比或过多的旁证。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p58s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p58s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p58s3",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": [
+          {
+            "surface": "王安石",
+            "type": "person",
+            "modern": "中国北宋政治家，其变法包含土地国有化措施，但最终失败。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p58s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p58s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p58s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p58s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p58s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p58s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 2,
+        "hs_kept": 1,
+        "hs_dropped": 1,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_6>5",
+        "note:n2_circular_prefix",
+        "hs:claim_5gram_with_quote",
+        "polemic:polemic_their_view_qualifier:反动的"
+      ]
+    }
+  ]
+}

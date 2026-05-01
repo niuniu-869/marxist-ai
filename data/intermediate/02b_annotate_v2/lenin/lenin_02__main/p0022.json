@@ -1,0 +1,171 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 22,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁批评党内脱离实际的理论倾向，强调从战争的阶级领导角度区分战争性质，并直接批评孟什维克在苏维埃中的立场。",
+    "importance_score": 3,
+    "importance_reason": "本段是列宁阐述战争性质和阶级领导问题的关键段落，直接针对孟什维克，属于核心批判。",
+    "argument_role": "continues",
+    "argument_link": "本段承接上一段关于战争性质的讨论，将焦点从理论辨析转向实际工作方法，并引入战争领导权这一核心问题。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "孟什维克",
+      "their_view": "孟什维克在苏维埃中领导时，忽视了工人阶级能够进行非帝国主义性质战争的可能性。",
+      "author_response": "列宁批评他们起草的苏维埃决议，质问这些自命社会主义者的人如何能写出这样的决议。",
+      "polemic_kind": "strategic_critique",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p22s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p22s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p22s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "革命战争",
+            "type": "concept",
+            "modern": "在马克思主义语境下，指由无产阶级领导、旨在推翻旧制度或保卫革命成果的战争，与帝国主义战争相对。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "revolutionary_war"
+          },
+          {
+            "surface": "无产阶级",
+            "type": "concept",
+            "modern": "马克思主义理论中的核心阶级范畴，指现代工业社会中不占有生产资料、主要靠出卖劳动力为生的阶级。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "proletariat_marxist"
+          }
+        ]
+      },
+      {
+        "sid": "p22s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p22s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p22s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "阶级",
+            "type": "concept",
+            "modern": "马克思主义分析社会的基本范畴，指在生产关系中处于不同地位、拥有不同利益的社会集团。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "class_marxist"
+          }
+        ]
+      },
+      {
+        "sid": "p22s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "资产阶级",
+            "type": "concept",
+            "modern": "马克思主义理论中的核心阶级范畴，指占有生产资料、依靠剥削雇佣劳动为生的阶级。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "bourgeoisie_marxist"
+          }
+        ]
+      },
+      {
+        "sid": "p22s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "工人阶级",
+            "type": "concept",
+            "modern": "与无产阶级同义，指现代工业社会中不占有生产资料、主要靠出卖劳动力为生的阶级。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "working_class_marxist"
+          }
+        ]
+      },
+      {
+        "sid": "p22s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "孟什维克",
+            "type": "polemic_ref",
+            "modern": "俄国社会民主工党中的一个派别，在1917年革命中主张先发展资本主义，与资产阶级合作，反对立即进行社会主义革命。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p22s10",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 6,
+        "notes_dropped": 5,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix",
+        "note:n1_overflow_concept_6>5",
+        "note:n1_overflow_concept_10>5",
+        "note:n2_5gram_with_surface"
+      ]
+    }
+  ]
+}

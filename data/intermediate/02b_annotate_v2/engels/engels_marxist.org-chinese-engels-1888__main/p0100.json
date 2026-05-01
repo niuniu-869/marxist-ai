@@ -1,0 +1,149 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 100,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "描述1848年革命后德国社会经济转型与思想界理论兴趣衰退的状况。",
+    "importance_score": 1,
+    "importance_reason": "作为过渡段，具体描绘德国社会经济基础变化如何导致上层建筑（理论兴趣）的相应转变，为后文批判折衷主义铺垫。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于社会变迁影响思想的论述，具体以1848年后德国为例，展示经济基础变化如何导致理论兴趣的转移与衰落。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "1848年革命",
+        "explain": "1848年爆发于欧洲多国的资产阶级革命浪潮，在德国表现为要求统一和立宪的运动，虽最终失败，但加速了德国政治统一进程。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "小德意志帝国",
+        "explain": "指1871年在普鲁士领导下统一的德意志帝国，排除了奥地利，建立了君主立宪制，是德国资本主义发展的政治框架。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "思辨的转向",
+        "explain": "此处“思辨”指哲学思辨活动。恩格斯用隐喻描述哲学思考从书斋转向经济领域（证券交易所），意指理论兴趣被追逐利润的实践所取代。",
+        "why_needed": "term_polysemy",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p100s5",
+        "quote": "但是随着思辨(离开哲学家的书房而在证券交易所里筑起自己的殿台堂，有教养的德国也就失去了德国的最深沉的政治屈辱时代曾经是德国的光荣的伟大理论兴趣，失去了那种不管所得成果在实践上是否能实现，不管它是否违警都同样地热衷于纯粹科学研究的兴趣。",
+        "trigger": "long_nested",
+        "reader_block": "句子长且包含一个核心隐喻（“思辨在证券交易所筑起殿堂”），读者可能困惑于“思辨”如何“筑殿堂”，以及后半句两个“失去了”的并列关系。",
+        "parse": {
+          "claim": "德国知识分子的理论探索热情，被对经济活动的追逐所取代。",
+          "qualifiers": "在1848年革命后德国社会经济转型的背景下。",
+          "contrast_or_target": ""
+        },
+        "why": {
+          "relation": "contrasts",
+          "explanation": "本句通过隐喻，将经济实践的兴起与理论兴趣的衰落进行对比，揭示了社会转型对思想界的直接影响，与前文描述的经济进步形成反差。"
+        },
+        "implication": "经济基础的变动直接塑造了上层建筑中理论活动的形态与价值取向。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p100s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p100s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p100s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p100s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p100s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "思辨",
+            "type": "concept",
+            "modern": "此处指哲学理论思辨活动，恩格斯用其转向“证券交易所”来比喻理论兴趣被经济利益驱动。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "speculation_philosophical"
+          }
+        ]
+      },
+      {
+        "sid": "p100s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p100s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p100s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 2,
+        "hs_kept": 1,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_5gram_with_surface",
+        "note:n2_5gram_with_surface"
+      ]
+    }
+  ]
+}

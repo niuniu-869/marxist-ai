@@ -1,0 +1,87 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 77,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "马克思引用自由贸易信徒尤尔博士的话，来补充并揭露包令先生关于自由贸易带来“暂时苦难”论调的实质，即工人阶级的苦难是资产阶级福祉的必要条件。",
+    "importance_score": 2,
+    "importance_reason": "本段通过引用论敌内部人士的证言，强化了对自由贸易派核心论点的批判，揭示了其阶级立场。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对达卡细棉布被英国机器摧毁的叙述，本段从具体案例转向对自由贸易派理论逻辑的普遍性批判。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "尤尔博士",
+        "explain": "安德鲁·尤尔是19世纪英国的工厂主和经济学家，著有《制造业哲学》，是自由贸易和机器大工业的积极辩护者。马克思在此引用他，是用论敌阵营内部人士的言论来反驳另一位论敌包令。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "包令",
+      "their_view": "自由贸易带来的工人苦难只是过渡时期的暂时阵痛，是工业进步和民族福祉所必需的代价。",
+      "author_response": "马克思指出，这种将工人苦难与“民族福祉”必然联系的论调，无异于公开承认无产阶级的受苦是资产阶级繁荣的必要前提。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p77s1",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p77s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p77s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p77s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p77s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

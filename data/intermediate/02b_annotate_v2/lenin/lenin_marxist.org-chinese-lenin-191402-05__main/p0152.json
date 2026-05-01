@@ -1,0 +1,92 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 152,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁引用1896年伦敦国际代表大会的决议原文，以证明“民族自决权”是第二国际的正式原则，并指出机会主义者对此无知，而罗莎·卢森堡虽知却仍质疑。",
+    "importance_score": 2,
+    "importance_reason": "通过引用第二国际的权威决议，为列宁捍卫民族自决权的立场提供直接的历史依据，并揭露论敌的无知或矛盾。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段引出的1896年伦敦代表大会决议，本段完整呈现其内容，并以此为据展开对机会主义者和罗莎·卢森堡的直接批评。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "1896年伦敦国际代表大会",
+        "explain": "第二国际于1896年在伦敦召开的代表大会。其决议是国际社会主义运动在民族问题上的早期纲领性文件，列宁在此引用以证明民族自决权原则的正统性。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p152s1",
+        "speaker": "editor",
+        "stance": "neutral_citation",
+        "notes": [
+          {
+            "surface": "自决权",
+            "type": "concept",
+            "modern": "在第二国际语境下，指各民族有权自主决定其政治命运，包括建立独立国家的权利，是马克思主义民族纲领的核心原则之一。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "self_determination_national"
+          }
+        ]
+      },
+      {
+        "sid": "p152s2",
+        "speaker": "editor",
+        "stance": "neutral_citation",
+        "notes": []
+      },
+      {
+        "sid": "p152s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p152s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_person_16>12",
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

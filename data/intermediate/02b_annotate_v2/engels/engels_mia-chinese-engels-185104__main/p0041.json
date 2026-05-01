@@ -1,0 +1,126 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 41,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "分析生产力发展如何改变战争形态，并论证西欧相对俄国的优势在增强。",
+    "importance_score": 2,
+    "importance_reason": "本段将军事变革与生产力发展直接挂钩，为后文判断战争可能性提供物质基础分析。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于军事科学根植于社会关系的论点，具体阐述生产力（铁路、电报、人口）如何构成新的作战方法与战略优势的前提。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p41s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p41s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p41s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "铁路和电报",
+            "type": "concept",
+            "modern": "19世纪中期出现的关键技术，极大提升了军队的机动、后勤与指挥能力，改变了战争时空尺度。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "technology_military"
+          }
+        ]
+      },
+      {
+        "sid": "p41s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p41s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p41s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "文明国家",
+            "type": "concept",
+            "modern": "恩格斯在此特指已完成或正在进行工业革命的西欧国家，其生产力与社会组织形式被认为更先进。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "civilization_engels"
+          },
+          {
+            "surface": "野蛮国家",
+            "type": "concept",
+            "modern": "恩格斯在此特指仍以农业经济为主、工业化程度低的国家，此处主要指沙皇俄国。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "barbarism_engels"
+          }
+        ]
+      },
+      {
+        "sid": "p41s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p41s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 3,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

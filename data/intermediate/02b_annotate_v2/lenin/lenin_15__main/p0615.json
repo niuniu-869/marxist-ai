@@ -1,0 +1,58 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 615,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁指出，兰斯堡引用的贸易数据实际显示，对经济附属国的出口增速超过对独立国家的出口，这与其预期结论相反。",
+    "importance_score": 1,
+    "importance_reason": "通过具体数据反驳论敌的统计分析，属于支撑核心论点的辅助性例证。",
+    "argument_role": "contrasts",
+    "argument_link": "承接上段展示的数据，本段转而分析这些数据的实际含义，指出其与兰斯堡的解读相悖。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p615s1",
+        "quote": "兰斯堡没有作总结，所以他令人奇怪地没有察觉：如果这些数字能够证明什么的话，那只能证明他自己不对，因为对在金融上不独立的国家的输出，毕竟要比对在金融上独立的国家的输出增加得快些，虽然快得并不多(我们把“如果”两字加上着重标记，是因为兰斯堡的统计还是很不完全的）。",
+        "trigger": "inverted_logic",
+        "reader_block": "条件句“如果……的话”加上反讽语气，读者可能误以为列宁在承认数据可能无意义，实际是用数据直接反驳兰斯堡。",
+        "parse": {
+          "claim": "兰斯堡引用的贸易数据实际显示，对经济附属国的出口增速超过对独立国家的出口，这与其预期结论相反。",
+          "qualifiers": "即使数据本身不完整，其呈现的趋势也足以构成反驳。",
+          "contrast_or_target": "兰斯堡可能认为数据显示对独立国家的出口增长更快，或至少能支持其关于帝国主义贸易结构的观点。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "本句通过揭示数据实际指向与论敌预期相反的方向，来驳斥其统计分析的有效性。"
+        },
+        "implication": "即使数据不完整，其趋势也足以质疑兰斯堡分析的前提。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "兰斯堡",
+      "their_view": "兰斯堡可能认为其统计数据能证明对金融独立国家的出口增长更快，或至少支持其关于帝国主义贸易结构的观点。",
+      "author_response": "列宁指出数据实际显示相反趋势，且统计本身不完整，因此无法支持兰斯堡的结论。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p615s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  }
+}

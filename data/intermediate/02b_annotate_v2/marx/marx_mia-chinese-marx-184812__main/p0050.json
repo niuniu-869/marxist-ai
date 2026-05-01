@@ -1,0 +1,82 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 50,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "马克思分析普鲁士资产阶级在革命后的唯一任务是巩固自身统治，包括镇压反对者、恢复秩序与征税，并揭露其从利用人民权利到摧毁这些权利的转变。",
+    "importance_score": 2,
+    "importance_reason": "本段是马克思对普鲁士资产阶级革命后行为模式的核心批判，具体阐述其如何从革命的受益者转变为革命成果的扼杀者。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对资产阶级血腥镇压无产阶级的描述，进一步系统化地归纳其在夺权后的全部行动纲领与内在逻辑。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "普鲁士资产阶级及其协商论",
+      "their_view": "资产阶级通过与王权协商，可以建立稳定的宪政秩序，并与人民共享革命成果，实现国家的“安宁和秩序”。",
+      "author_response": "马克思指出，资产阶级的真实任务仅限于巩固自身统治、恢复旧秩序和征税，一旦人民试图使用政治权利反对他们，资产阶级就会毫不犹豫地摧毁这些权利。",
+      "polemic_kind": "reveals_class_basis",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p50s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p50s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p50s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p50s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "无政府主义者",
+            "type": "social_group",
+            "modern": "在1848年革命语境下，常被资产阶级用来泛指一切反对其秩序的激进派别，包括部分社会主义者和工人。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 81,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁阐述布尔什维克党在力量对比不利时的策略原则，强调必须基于现实力量评估，而非主观愿望。",
+    "importance_score": 2,
+    "importance_reason": "本段集中阐述了列宁关于无产阶级政党策略方法论的核心观点，是理解其革命路线谨慎性一面的关键。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于从第一次内战转入第二次战争的论述，具体说明在这一过渡期应采取何种策略态度。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p81s1",
+        "quote": "对政府有利的是我们率先采取不慎重的行动步骤，这对他们是有利的。",
+        "trigger": "inverted_logic",
+        "reader_block": "双重否定与隐含让步结构，读者易混淆“不慎重的行动”与“对政府有利”之间的因果关系。",
+        "parse": {
+          "claim": "临时政府希望布尔什维克党首先采取鲁莽的行动，因为这会给政府提供镇压的借口和机会。",
+          "qualifiers": "特指在当前力量对比（党尚未获得多数拥护）的条件下。",
+          "contrast_or_target": "针对党内或革命阵营中那些主张立即采取激进行动、不考虑现实条件的冒进倾向。"
+        },
+        "why": {
+          "relation": "contrasts",
+          "explanation": "本句与主张立即行动的观点形成对比，指出冒进行动恰恰符合敌人的利益，从而论证谨慎策略的必要性。"
+        },
+        "implication": "无产阶级政党的行动时机和方式必须服从于阶级力量的实际对比，而非革命热情。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      },
+      {
+        "anchor": "p81s6",
+        "quote": "在这种情况下需要的是不信任、不信任、再一个不信任。",
+        "trigger": "rhetorical_omission",
+        "reader_block": "重复强调“不信任”，但未明确指出不信任的对象和具体内容，读者需结合上下文推断。",
+        "parse": {
+          "claim": "在党尚未掌握多数的情况下，对临时政府、对妥协派、对任何可能阻碍革命的力量，都必须保持高度的警惕和怀疑。",
+          "qualifiers": "限定于“不能说我们已经获得多数的拥护”这一具体情境。",
+          "contrast_or_target": "针对那些主张与临时政府合作、进行“监督”或抱有和平过渡幻想的观点。"
+        },
+        "why": {
+          "relation": "conclusion",
+          "explanation": "这是对前文“策略不能建筑在主观愿望上”这一论点的总结性强调，将谨慎原则具体化为一种政治态度。"
+        },
+        "implication": "在力量薄弱时，政治上的不信任是保存和发展革命力量的前提。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p81s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p81s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p81s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p81s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p81s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p81s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p81s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 2,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

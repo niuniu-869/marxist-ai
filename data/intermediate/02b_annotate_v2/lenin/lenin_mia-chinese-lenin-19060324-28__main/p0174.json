@@ -1,0 +1,80 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 174,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁反驳引证马克思为参加杜马选举辩护的人，要求他们证明杜马是资产阶级统治机关而非专制遮羞布，并预判了对方的辩解。",
+    "importance_score": 2,
+    "importance_reason": "这是列宁反驳孟什维克和普列汉诺夫主张参加杜马选举的关键论辩，通过质疑杜马性质来揭露对方论据的薄弱。",
+    "argument_role": "contrasts",
+    "argument_link": "上段提到马克思和恩格斯在特定历史条件下支持资产阶级民主派，本段则反驳将此类比于当前杜马选举，指出杜马性质根本不同。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p174s1",
+        "quote": "先生们，既然你们要引证马克思的话，那你们就不妨证明一下我们的杜马已经是自由俄国的资产阶级的统治机关，而不是专制制度的遮羞布。",
+        "trigger": "inverted_logic",
+        "reader_block": "反问句式要求对方证明一个否定命题，读者可能不理解列宁实际在质疑对方论据的前提。",
+        "parse": {
+          "claim": "对方无法证明杜马已具备资产阶级统治机关的功能，它实质仍是专制政权的装饰。",
+          "qualifiers": "在对方引证马克思先例的语境下。",
+          "contrast_or_target": "针对那些认为参加杜马选举具有革命意义的观点。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "通过反问直接挑战对方论据的核心前提，即杜马的性质。"
+        },
+        "implication": "如果杜马不是统治机关，那么引证马克思支持资产阶级民主派的先例就不适用。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "引证马克思为参加杜马选举辩护的人（主要指孟什维克和普列汉诺夫）",
+      "their_view": "引证马克思在特定历史条件下支持资产阶级民主派的先例，来论证当前参加杜马选举的正确性。",
+      "author_response": "列宁要求对方先证明杜马已具备资产阶级统治机关的实质，而非仅是专制政权的装饰。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p174s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p174s2",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 1,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

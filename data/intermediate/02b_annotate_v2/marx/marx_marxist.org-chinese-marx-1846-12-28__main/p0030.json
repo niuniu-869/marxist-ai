@@ -1,0 +1,91 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 30,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "马克思将批判从抽象公式转向现实经济运动，指出竞争与垄断的相互作用加剧而非解决矛盾，唯有变革生产方式才能消除二者。",
+    "importance_score": 2,
+    "importance_reason": "承接上段对蒲鲁东抽象公式的批判，具体阐述现实经济运动如何加剧矛盾，为提出革命性解决方案铺垫。",
+    "argument_role": "continues",
+    "argument_link": "紧接上段对蒲鲁东将竞争与垄断视为抽象公式的批判，本段转向现实经济过程，展示二者如何在实际中相互作用并加剧矛盾。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p30s4",
+        "quote": "但是，这个方程式远不像资产阶级经济学家所想象的那样能消除现代状况的困难，反而会造成更困难、更混乱的状况。",
+        "trigger": "inverted_logic",
+        "reader_block": "双重否定结构“远不像...那样能...反而会...”加上“方程式”这个隐喻，读者可能难以快速把握其否定的是“消除困难”的可能性，并理解实际是“加剧困难”。",
+        "parse": {
+          "claim": "竞争与垄断的相互作用非但不能解决资本主义经济的内在问题，反而使问题更加严重。",
+          "qualifiers": "",
+          "contrast_or_target": "资产阶级经济学家认为竞争与垄断的相互作用能自动平衡经济。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "此句直接反驳资产阶级经济学的流行观点，即认为市场机制（竞争与垄断的互动）能自我调节并解决经济困难。马克思指出这种互动实际上制造更多混乱。"
+        },
+        "implication": "这为后文提出必须通过革命改变整个生产方式来彻底解决问题提供了论据。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "资产阶级经济学家",
+      "their_view": "竞争与垄断的相互作用能够自动调节经济，消除现代经济状况的困难。",
+      "author_response": "马克思指出这种相互作用实际上加剧了困难和混乱，只有改变生产方式才能消除二者。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p30s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p30s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p30s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p30s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "方程式",
+            "type": "metaphor",
+            "modern": "蒲鲁东及资产阶级经济学家将竞争与垄断的关系简化为可调和的抽象公式。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p30s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  }
+}

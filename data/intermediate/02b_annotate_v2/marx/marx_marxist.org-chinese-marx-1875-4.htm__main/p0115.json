@@ -1,0 +1,99 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 115,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "马克思讽刺拉萨尔派将社会主义实现寄托于国家贷款和合作社的幻想，指出这脱离了社会革命转变。",
+    "importance_score": 2,
+    "importance_reason": "批判纲领中关于生产合作社的拉萨尔主义条款，揭示其空想性质。",
+    "argument_role": "continues",
+    "argument_link": "本段紧接上段引用的纲领条款，开始逐句批判其拉萨尔主义实质。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "allusion",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "拉萨尔被称为“先知”",
+        "explain": "这是马克思对拉萨尔的讽刺性称呼。拉萨尔在当时的德国工人运动中被其追随者神化，马克思以此嘲讽其理论的空想和救世主色彩。",
+        "why_needed": "allusion",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p115s1",
+        "quote": "在拉萨尔的“铁的工资规律”之后，就是这个先知提出的救世良方。",
+        "trigger": "inverted_logic",
+        "reader_block": "“先知”和“救世良方”是反讽，读者若按字面理解会以为作者在赞扬，实际是嘲讽。",
+        "parse": {
+          "claim": "在拉萨尔错误的工资理论之后，纲领又提出了他另一个空想方案。",
+          "qualifiers": "无。",
+          "contrast_or_target": "拉萨尔及其追随者将建立生产合作社视为解决社会问题的万能药方。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "本句以反讽开启对纲领中合作社条款的批判，将其定性为继“铁的工资规律”之后的又一个空想。"
+        },
+        "implication": "暗示纲领草案在理论上一脉相承地错误。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "拉萨尔",
+      "their_view": "通过国家贷款帮助工人建立生产合作社，就能像建设新铁路一样建设一个新社会，从而解决社会问题。",
+      "author_response": "马克思指出，这完全是幻想。社会主义的实现必须基于社会的革命转变，而非依赖现存国家机器的贷款和帮助。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p115s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "先知",
+            "type": "metaphor",
+            "modern": "马克思对拉萨尔的讽刺性称呼，暗指其理论具有空想和救世主色彩。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p115s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p115s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p115s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p115s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  }
+}

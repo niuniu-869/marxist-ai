@@ -1,0 +1,80 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 16,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "恩格斯引用《科伦日报》关于“垄断”的论述，并指出其对垄断的理解仅限于自由贸易论者所批判的狭隘形式，从而批判其淡化阶级矛盾的立场。",
+    "importance_score": 2,
+    "importance_reason": "本段通过揭示论敌概念的狭隘性，支撑了上一段对《科伦日报》观点的质疑，是核心批判的组成部分。",
+    "argument_role": "continues",
+    "argument_link": "本段延续上一段对《科伦日报》“资产者无特权”论断的质疑，具体剖析其对“垄断”一词的片面理解，以揭示其论证的缺陷。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "refute_quotation"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p16s1",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": [
+          {
+            "surface": "垄断",
+            "type": "concept",
+            "modern": "在本文语境下，恩格斯用此词指代资本主义经济中对生产、市场或资源的控制形式，与《科伦日报》仅将其等同于关税保护的狭隘理解相对。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "monopoly_political_economy"
+          }
+        ]
+      },
+      {
+        "sid": "p16s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "自由贸易论者",
+            "type": "social_group",
+            "modern": "19世纪英国主张废除贸易保护、推行自由贸易的资产阶级经济学家与政治家群体，如科布顿。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "polemic:eval_word:author_response:极为"
+      ]
+    }
+  ]
+}

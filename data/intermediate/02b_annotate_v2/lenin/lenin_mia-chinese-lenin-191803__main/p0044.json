@@ -1,0 +1,150 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 44,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁以历史类比和现实处境为签订和约辩护，反驳党内认为此举可耻的观点，并警告只寄望国际革命的危险。",
+    "importance_score": 3,
+    "importance_reason": "核心论证段，集中阐述列宁签订《布列斯特和约》的战略逻辑与历史依据，直接回应党内主要反对意见。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对“感情用事”的批评，本段正面阐述签订和约的必要性与历史合理性，将论证从情绪层面转向现实与历史层面。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "蒂尔西特和约",
+        "explain": "1807年拿破仑强迫普鲁士签订的屈辱性和约，割地赔款并限制军备。但普鲁士利用此和约争取的喘息期进行改革，最终摆脱了拿破仑的统治。列宁用此比喻暂时的屈辱可换取未来的解放。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "霍夫曼将军",
+        "explain": "指一战期间德军东线参谋长马克斯·霍夫曼，是当时德国军事行动的实际策划者之一。列宁用他代指德国军事威胁。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "左派共产主义者",
+      "their_view": "签订和约是民族耻辱，应当拒绝妥协，继续进行革命战争，并相信国际革命会迅速爆发来拯救俄国。",
+      "author_response": "列宁指出，在军队溃逃、政权危急的现实下，接受和约是为了防止局势彻底崩溃；媾和是积聚力量的手段，历史上有通过暂时屈辱换取最终解放的先例；只寄望国际革命而不做现实准备，会使苏维埃俄国沦为被奴役的对象。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p44s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p44s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p44s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p44s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "蒂尔西特和约",
+            "type": "event",
+            "modern": "1807年拿破仑与普鲁士签订的屈辱性和约，但普鲁士借此争取到改革与复兴的时间。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p44s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p44s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "军事奴隶",
+            "type": "metaphor",
+            "modern": "比喻因军事失败或战略失误而丧失独立、被迫服从于强权的状态。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p44s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p44s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p44s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p44s10",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p44s11",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 2,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_7>5",
+        "note:n1_overflow_concept_6>5",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

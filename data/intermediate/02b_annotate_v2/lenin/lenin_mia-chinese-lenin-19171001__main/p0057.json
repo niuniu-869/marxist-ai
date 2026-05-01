@@ -1,0 +1,82 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 57,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁引用最近的表决数据，旨在证明俄国无产阶级在革命中与小资产阶级的联系异常紧密，以此反驳论敌关于布尔什维克孤立的说法。",
+    "importance_score": 2,
+    "importance_reason": "本段通过具体数据为上一段的论点提供实证支撑，是论证布尔什维克能保持政权的关键环节。",
+    "argument_role": "example",
+    "argument_link": "承接上段对《新生活报》论点的驳斥，本段开始提供具体的、来自会议表决的客观材料，以证明无产阶级并未脱离小资产阶级。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "布里根杜马与民主会议",
+        "explain": "“布里根杜马”是1905年沙皇政府为拖延革命而设立的咨议机构，列宁用它来讽刺1917年9月召开的“民主会议”。该会议由孟什维克领袖策列铁里主持，试图在资产阶级临时政府和苏维埃之间寻找妥协方案，被列宁视为反革命工具。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "苏维埃选民团",
+        "explain": "指在民主会议中，由各地苏维埃代表组成的投票团体。其表决结果被列宁用来分析不同阶级力量在会议中的立场。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "策列铁里及民主会议",
+      "their_view": "通过召开民主会议，协调各政治派别，寻求在资产阶级和无产阶级之间的妥协方案，以阻止激进的革命行动。",
+      "author_response": "列宁将民主会议贬斥为“声名狼藉的”会议，并计划用其内部的表决数据来证明，会议本身恰恰反映了无产阶级与小资产阶级的紧密联合，从而反驳了妥协派关于布尔什维克孤立的论调。",
+      "polemic_kind": "counter_quotation",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p57s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p57s2",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p57s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

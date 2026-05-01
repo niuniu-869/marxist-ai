@@ -1,0 +1,100 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 17,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "恩格斯回应资产阶级关于放弃革命手段的要求，指出当前合法性对社会主义运动有利，但警告资产阶级可能率先破坏合法性。",
+    "importance_score": 2,
+    "importance_reason": "本段延续前文对德国社会主义力量的分析，转向讨论革命策略与合法性的辩证关系。",
+    "argument_role": "continues",
+    "argument_link": "上段论证德国社会主义力量的核心在于军队内部的社会主义化趋势，本段则转向讨论在这一力量增长背景下，社会主义运动应如何处理与合法性的关系。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic | allusion",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p17s4",
+        "quote": "问题毋宁说是这样，不正是资产阶级和它的政府会破坏合法性，以便用暴力来粉碎我们哪？我们等着瞧吧。",
+        "trigger": "inverted_logic",
+        "reader_block": "反问句式将责任归于资产阶级，读者可能误读为作者在陈述事实，而非揭示一种可能性与警告。",
+        "parse": {
+          "claim": "资产阶级及其政府才是可能率先破坏法律框架、诉诸暴力的一方。",
+          "qualifiers": "这是一个反问，表达一种强烈的预判和警告，而非已发生的事实。",
+          "contrast_or_target": "资产阶级要求社会主义者单方面遵守法律框架。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "通过反问揭示资产阶级要求的虚伪性，将破坏合法性的责任归于资产阶级自身，为下文的挑衅口号做铺垫。"
+        },
+        "implication": "社会主义者保持合法性是策略选择，而非原则妥协，主动权可能因资产阶级的行动而转移。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      },
+      {
+        "anchor": "p17s5",
+        "quote": "而现在：“资产者老爷们，你们先开枪吧！”",
+        "trigger": "allusion",
+        "reader_block": "引用的口号带有挑衅和反讽意味，读者可能不理解其历史语境和作为策略宣言的含义。",
+        "parse": {
+          "claim": "社会主义者已做好准备，等待资产阶级率先采取暴力行动。",
+          "qualifiers": "这是一个引用的口号，用以总结和强化前文的论点。",
+          "contrast_or_target": "资产阶级要求社会主义者放弃革命手段。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "以挑衅口号总结前文，强化社会主义者在合法性斗争中的主动地位，并将潜在冲突的责任明确指向资产阶级。"
+        },
+        "implication": "将法律框架内的斗争转化为对谁先破坏规则的公开挑战，具有动员和威慑作用。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "资产阶级",
+      "their_view": "社会主义者应当放弃革命手段，完全遵守现有法律框架。",
+      "author_response": "恩格斯指出当前合法性对社会主义运动有利，但警告资产阶级可能率先破坏合法性，诉诸暴力。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p17s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p17s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p17s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p17s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p17s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  }
+}

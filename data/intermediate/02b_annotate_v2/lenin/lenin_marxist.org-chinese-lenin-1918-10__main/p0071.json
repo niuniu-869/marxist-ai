@@ -1,0 +1,116 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 71,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁引用恩格斯对巴黎公社的评价，论证革命暴力的权威性，并讽刺空谈“纯粹民主”的论调。",
+    "importance_score": 2,
+    "importance_reason": "通过引用恩格斯，为批判考茨基的“纯粹民主”论提供直接的理论依据和历史例证。",
+    "argument_role": "continues",
+    "argument_link": "承接上段预告，直接引用恩格斯原文，以巴黎公社为例展开对“纯粹民主”的批判。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "反权威主义者",
+        "explain": "19世纪70年代欧洲无政府主义者的自称，他们反对一切形式的权威，主张立即废除国家。恩格斯在《论权威》一文中专门驳斥了这种观点。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p71s1",
+        "quote": "“难道我们没有理由责备公社把这个权威用得太少了吗？”",
+        "trigger": "inverted_logic",
+        "reader_block": "双重反问句式，读者可能误以为恩格斯在批评公社不够权威，实际是强调公社失败的原因之一恰恰是权威使用不足。",
+        "parse": {
+          "claim": "巴黎公社的失败，部分原因在于它没有充分运用革命暴力这一必要权威来镇压反动派。",
+          "qualifiers": "针对巴黎公社的具体历史情境。",
+          "contrast_or_target": "针对那些认为革命应避免使用暴力权威的观点。"
+        },
+        "why": {
+          "relation": "example",
+          "explanation": "用巴黎公社的历史教训作为具体例证，支撑前文关于革命权威必要性的论断。"
+        },
+        "implication": "无产阶级革命必须坚决使用暴力权威，否则将无法巩固政权。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      },
+      {
+        "anchor": "p71s1",
+        "quote": "“请看，这就是‘纯粹民主’！”",
+        "trigger": "inverted_logic",
+        "reader_block": "反讽句式，读者需理解列宁并非赞同“纯粹民主”，而是用恩格斯对革命权威的论述来讽刺其虚幻性。",
+        "parse": {
+          "claim": "恩格斯对革命权威的论述，恰恰揭示了所谓“纯粹民主”在阶级社会中的不可能性。",
+          "qualifiers": "在划分为阶级的社会中。",
+          "contrast_or_target": "针对考茨基等人主张的、超越阶级的“纯粹民主”概念。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "将恩格斯的论述直接转化为对论敌核心概念的讽刺和驳斥。"
+        },
+        "implication": "在阶级社会中，任何民主都带有阶级性，不存在超阶级的“纯粹民主”。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "社会民主党人",
+      "their_view": "在划分为阶级的社会中，可以一般地、抽象地谈论超越阶级对立的“纯粹民主”。",
+      "author_response": "列宁借恩格斯之口指出，这种想法是异想天开的，会被真正理解革命的人所嘲笑。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p71s1",
+        "speaker": "quoted_engels",
+        "stance": "endorsed",
+        "notes": [
+          {
+            "surface": "反权威主义者",
+            "type": "social_group",
+            "modern": "19世纪70年代反对一切权威的无政府主义流派",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "巴黎公社",
+            "type": "event",
+            "modern": "1871年法国无产阶级建立的革命政权",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p71s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "社会民主党人",
+            "type": "social_group",
+            "modern": "此处特指19世纪40年代法国及一战期间欧洲那些背叛革命原则、空谈民主的政党成员",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      }
+    ]
+  }
+}

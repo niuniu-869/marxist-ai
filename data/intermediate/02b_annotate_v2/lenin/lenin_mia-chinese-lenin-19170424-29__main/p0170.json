@@ -1,0 +1,79 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 170,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁以英法社会党人拒绝参加伯格比尔会议为例，揭露英法资产阶级意图延续帝国主义战争。",
+    "importance_score": 2,
+    "importance_reason": "本段用具体事例支撑列宁对帝国主义战争和社会沙文主义的批判，是论证链中的支撑环节。",
+    "argument_role": "continues",
+    "argument_link": "本段承接上段对波兰独立问题的讨论，转而分析英法社会党人在战争问题上的立场，进一步批判帝国主义战争政策。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "伯格比尔",
+        "explain": "第二国际社会党国际局主席，1917年筹备中立国社会党人代表会议，试图推动和平谈判。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "英法社会党人和英法帝国主义资产阶级",
+      "their_view": "英法社会党人拒绝参加和平会议，英法资产阶级意图继续战争，不愿讨论德国让步。",
+      "author_response": "列宁指出这表明他们已成为资产阶级代理人，背叛国际主义，拖延帝国主义战争。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p170s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "伯格比尔",
+            "type": "person",
+            "modern": "第二国际社会党国际局主席，1917年筹备中立国社会党人代表会议",
+            "highlight": "person",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p170s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 2,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_6>5",
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

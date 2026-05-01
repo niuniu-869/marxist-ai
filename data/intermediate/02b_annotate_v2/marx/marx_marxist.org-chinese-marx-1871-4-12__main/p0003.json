@@ -1,0 +1,213 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 3,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "马克思将巴黎公社的实践与自己此前的理论主张相联系，赞扬其革命精神，同时指出其在军事和政治策略上的具体失误。",
+    "importance_score": 3,
+    "importance_reason": "核心段落，集中体现了马克思对巴黎公社革命性质、策略得失及历史地位的完整判断。",
+    "argument_role": "continues",
+    "argument_link": "承接上文对公社的总体评价，具体展开其理论依据（打碎国家机器）并分析其实践中的成败。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "《雾月十八日》",
+        "explain": "马克思于1852年写成的著作，分析路易·波拿巴政变，其中提出未来革命应打碎旧的国家机器，而非简单接管。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "维努亚与梯也尔",
+        "explain": "维努亚是当时巴黎国民自卫军中的反动军官；梯也尔是法国资产阶级政府首脑，领导了对公社的镇压。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "巴黎六月起义",
+        "explain": "指1848年6月巴黎无产阶级起义，被资产阶级残酷镇压，是此前无产阶级革命的重大失败。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p3s1",
+        "quote": "……如果你读一下我的《雾月十八日》的最后一章，你就会看到，我认为法国革命的下一次尝试再不应该象以前那样把官僚军事机器从一些人的手里转到另一些人的手里，而应该把它打碎，这正是大陆上任何一次真正的人民革命的先决条件。",
+        "trigger": "inverted_logic",
+        "reader_block": "双重否定结构（“不应该……而应该”）和“先决条件”的理论断言，读者可能难以把握其核心主张与历史背景的关联。",
+        "parse": {
+          "claim": "未来革命的关键在于彻底摧毁旧有的官僚军事国家机器，而非仅仅改变其控制者。",
+          "qualifiers": "特指“法国革命的下一次尝试”和“大陆上任何一次真正的人民革命”。",
+          "contrast_or_target": "对比以往革命（如1848年革命）仅仅实现权力在不同资产阶级派别间转移的做法。"
+        },
+        "why": {
+          "relation": "definition",
+          "explanation": "本句为马克思评价巴黎公社提供了核心理论框架，即公社的实践符合他此前提出的“打碎国家机器”的革命原则。"
+        },
+        "implication": "这为后文赞扬公社的尝试（p3s2）和批评其策略失误（未彻底贯彻此原则）奠定了理论基础。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      },
+      {
+        "anchor": "p3s9",
+        "quote": "他们不愿意开始内战，好象那邪恶的侏儒梯也尔在企图解除巴黎武装时还没有开始内战似的！",
+        "trigger": "inverted_logic",
+        "reader_block": "反问句式（“好象……还没有……似的！”）和讽刺性称谓（“邪恶的侏儒”），读者需识别其真实意图是谴责公社的犹豫。",
+        "parse": {
+          "claim": "公社领导层因道德顾虑而拒绝主动出击，但事实上梯也尔政府的行动已构成内战。",
+          "qualifiers": "针对公社中央委员会在维努亚部队出逃后的决策。",
+          "contrast_or_target": "对比公社领导层“不愿意开始内战”的主观意愿与梯也尔政府已实际发动内战的客观事实。"
+        },
+        "why": {
+          "relation": "example",
+          "explanation": "此句是马克思具体批评公社“仁慈”错误的第一个例证，说明其策略失误在于未能认清斗争已进入你死我活的阶段。"
+        },
+        "implication": "揭示了无产阶级革命中对敌人抱有幻想的危险性。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p3s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p3s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p3s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p3s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p3s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p3s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p3s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "维努亚",
+            "type": "person",
+            "modern": "巴黎国民自卫军中的反动军官，其部队的出逃是公社面临的直接军事威胁之一。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p3s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p3s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "梯也尔",
+            "type": "person",
+            "modern": "当时法国资产阶级政府首脑，领导了对巴黎公社的血腥镇压。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p3s10",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p3s11",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p3s12",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "巴黎六月起义",
+            "type": "event",
+            "modern": "1848年6月巴黎无产阶级起义，被资产阶级政府镇压，是此前无产阶级革命的重大挫折。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p3s13",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 3,
+        "notes_dropped": 1,
+        "hs_kept": 2,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_5gram_with_surface"
+      ]
+    }
+  ]
+}

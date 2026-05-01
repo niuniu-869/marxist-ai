@@ -1,0 +1,119 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 52,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁引用恩格斯1886年书信，通过对比法德工人运动，批评德国党内的庸俗化倾向，并强调应学习马克思恩格斯批评的革命精神。",
+    "importance_score": 2,
+    "importance_reason": "通过恩格斯书信实例，具体阐释如何正确运用马克思恩格斯的国际经验来批判党内机会主义，是前文抽象论点的例证。",
+    "argument_role": "example",
+    "argument_link": "承接上文对资产阶级谎言的批判，此处以恩格斯对法德运动的比较为例，具体展示如何运用马克思恩格斯的观点来反驳机会主义的庸俗化论调。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "菲勒克分子",
+        "explain": "指德国社会民主党国会党团中的机会主义派别，以菲勒克为代表。他们倾向于与资产阶级政党妥协，模糊党的革命目标。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      },
+      {
+        "topic": "反社会党人法",
+        "explain": "1878年至1890年间德国俾斯麦政府颁布的法令，旨在镇压社会民主党及工人运动。该法令的存废是当时德国政治斗争的焦点。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "德卡泽维尔罢工",
+        "explain": "1886年法国德卡泽维尔地区矿工举行的大罢工，具有强烈的政治色彩，迫使法国激进派政党与无产阶级划清界限。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p52s1",
+        "quote": "德国在平静时期一切都变得庸俗了。",
+        "trigger": "inverted_logic",
+        "reader_block": "表面说“平静”，实际是反讽。读者可能误以为恩格斯在描述一种良好状态，实则是在批评运动停滞、缺乏斗争锋芒。",
+        "parse": {
+          "claim": "当德国工人运动缺乏外部刺激和内部斗争时，其整体氛围会趋于保守和妥协。",
+          "qualifiers": "特指19世纪80年代德国反社会党人法废除后，社会民主党进入议会斗争为主的“平静”阶段。",
+          "contrast_or_target": "与法国充满革命行动和政治对抗的工人运动状态形成对比。"
+        },
+        "why": {
+          "relation": "example",
+          "explanation": "此句是恩格斯对德国社会民主党在特定历史阶段状态的判断，用以说明为何需要法国革命行动的“刺激”，从而支撑其关于国际无产阶级相互激励的论点。"
+        },
+        "implication": "无产阶级政党的革命性需要在斗争中保持，和平议会环境容易滋生庸俗习气。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p52s1",
+        "speaker": "quoted_engels",
+        "stance": "endorsed",
+        "notes": [
+          {
+            "surface": "菲勒克分子",
+            "type": "social_group",
+            "modern": "19世纪80年代德国社会民主党国会党团内主张与资产阶级妥协的机会主义派别",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          },
+          {
+            "surface": "反社会党人法",
+            "type": "event",
+            "modern": "1878-1890年德国政府镇压社会民主党及工人运动的特别法令",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p52s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 0,
+        "hs_kept": 1,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

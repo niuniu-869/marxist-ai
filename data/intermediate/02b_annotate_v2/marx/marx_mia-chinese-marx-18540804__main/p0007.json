@@ -1,0 +1,162 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 7,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段通过分析埃斯帕特罗在南美殖民战争和西班牙本土卡洛斯战争中的具体战绩，论证其军事声望主要建立在失败或偶然事件之上，而非真正的胜利。",
+    "importance_score": 2,
+    "importance_reason": "本段是核心批判的例证部分，通过解构埃斯帕特罗的军事神话，为前文对其成功性质的质疑提供具体支撑。",
+    "argument_role": "example",
+    "argument_link": "承接上段对埃斯帕特罗成功性质的质疑，本段转向其军事生涯，用具体史实论证其功绩的虚幻性。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "艾阿库裘会战",
+        "explain": "1824年发生在秘鲁的一场决定性战役，西班牙殖民军在此战中惨败，标志着西班牙对南美大部分地区殖民统治的终结。埃斯帕特罗参与了此战。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "卡洛斯战争",
+        "explain": "19世纪西班牙支持卡洛斯派王位继承人的内战。埃斯帕特罗与纳尔瓦艾斯是这场战争中对立的自由派将领。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p7s4",
+        "quote": "总之，他是一个与众不同的英雄，他的这个历史性的绰号不是由于胜利，而是由于失败得来的。",
+        "trigger": "inverted_logic",
+        "reader_block": "“英雄”与“失败”并置构成反讽，读者需理解作者并非在赞扬，而是在揭露其声名的反常来源。",
+        "parse": {
+          "claim": "埃斯帕特罗获得“艾阿库裘将军”这一标志性称号，根源在于一场导致西班牙丧失南美殖民地的惨败，而非任何军事胜利。",
+          "qualifiers": "特指其在南美殖民战争期间获得的绰号。",
+          "contrast_or_target": "与通常因胜利而获得英雄称号的常规认知形成对比。"
+        },
+        "why": {
+          "relation": "conclusion",
+          "explanation": "这是对前文关于南美战役描述的总结，用反讽点明其军事声望的荒谬基础。"
+        },
+        "implication": "埃斯帕特罗的“英雄”身份从根源上就是可疑的。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p7s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p7s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p7s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "艾阿库裘将军",
+            "type": "event",
+            "modern": "埃斯帕特罗因参与1824年艾阿库裘会战而获得的绰号，该战役西班牙惨败，导致其丧失秘鲁和南美殖民地。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p7s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p7s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "卡洛斯派",
+            "type": "org",
+            "modern": "19世纪西班牙支持卡洛斯家族王位继承权的政治军事集团，与代表自由派的埃斯帕特罗等人作战。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p7s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p7s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p7s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p7s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p7s10",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 1,
+        "hs_kept": 1,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

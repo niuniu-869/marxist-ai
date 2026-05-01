@@ -1,0 +1,224 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 26,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁揭露反对批准和约者的阶级本质，并以历史教训论证接受苛刻和约的必要性。",
+    "importance_score": 3,
+    "importance_reason": "核心论证段落，直接反驳主要论敌，并以历史类比为接受和约提供战略依据。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对反对者阶级基础的揭露，进一步具体化其行为模式，并引入历史教训来巩固论点。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "allusion",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "蒂尔西特和约",
+        "explain": "1807年拿破仑在蒂尔西特与普鲁士签订的条约，迫使普鲁士割让大片领土并支付巨额赔款，被视为国耻。列宁以此类比布列斯特和约的苛刻性。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "1907年斯托雷平第三届杜马",
+        "explain": "1905年革命失败后，沙皇大臣斯托雷平于1907年解散第二届杜马，颁布新选举法，组成第三届杜马，作为镇压革命、推行反动改革的工具。列宁以此类比当前接受苛刻和约的形势。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p26s14",
+        "quote": "我在自己的声明和讲话中曾不止一次地称它为蒂尔西特和约，即征服者拿破仑在普鲁士和德意志人民多次遭到严重失败后强加于他们的那种和约。",
+        "trigger": "allusion",
+        "reader_block": "读者可能不了解“蒂尔西特和约”的历史背景，无法理解列宁为何用这个特定历史事件来类比当前的布列斯特和约。",
+        "parse": {
+          "claim": "列宁将布列斯特和约定性为历史上征服者在对手战败后强加的、带有侮辱性质的苛刻条约。",
+          "qualifiers": "列宁在之前的声明和讲话中已多次使用此比喻。",
+          "contrast_or_target": "针对那些认为和约不可接受、主张继续战争的人，列宁用此历史类比说明和约的屈辱性质是客观事实，但接受它有其战略必要性。"
+        },
+        "why": {
+          "relation": "example",
+          "explanation": "通过引用一个著名的历史屈辱条约作为类比，列宁既承认了和约的苛刻与耻辱，又为接下来论证“为何必须接受”这一看似矛盾的立场奠定了历史参照。"
+        },
+        "implication": "列宁承认和约的屈辱性，但暗示如同历史上普鲁士接受蒂尔西特和约后得以休养生息，苏维埃政权也需要通过暂时的退却来积聚力量。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "左派社会革命党人",
+      "their_view": "接受苛刻和约是可耻的，主张不顾力量悬殊继续进行革命战争，认为这是革命者的正义感。",
+      "author_response": "列宁指出这种立场脱离了对阶级力量对比的清醒估计，是感情用事，会重蹈历史上社会革命党在类似困境中犯下的错误，最终危害革命。",
+      "polemic_kind": "reveals_class_basis",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p26s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p26s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p26s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p26s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p26s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p26s6",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": [
+          {
+            "surface": "温尼琴科",
+            "type": "person",
+            "modern": "乌克兰政治人物，曾领导乌克兰中央拉达，后与德国签订条约。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p26s7",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": [
+          {
+            "surface": "克伦斯基",
+            "type": "person",
+            "modern": "俄国二月革命后临时政府首脑，列宁常将其作为妥协派的代表。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "切尔诺夫",
+            "type": "person",
+            "modern": "社会革命党领袖，曾任临时政府农业部长。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "策列铁里",
+            "type": "person",
+            "modern": "孟什维克领袖，曾任临时政府邮电部长。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p26s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p26s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p26s10",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p26s11",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p26s12",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p26s13",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p26s14",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p26s15",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p26s16",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p26s17",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "斯托雷平第三届杜马",
+            "type": "event",
+            "modern": "1907年沙皇政府通过政变和新选举法组建的反动立法机构，用于镇压革命。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p26s18",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p26s19",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  }
+}

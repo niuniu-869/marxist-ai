@@ -1,0 +1,84 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 69,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "描述俾斯麦在北德意志联邦时期对资产阶级的怀柔策略，并质疑其是否真正理解历史中军队与外交之外的力量。",
+    "importance_score": 1,
+    "importance_reason": "分析俾斯麦政策特点，为后文讨论其局限性做铺垫。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对德国资产阶级夸大自身成就的批判，转而分析俾斯麦在统一过程中对资产阶级的策略。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p69s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "北德意志联邦",
+            "type": "org",
+            "modern": "1867-1871年德意志统一前由普鲁士主导的邦联",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "俾斯麦",
+            "type": "person",
+            "modern": "普鲁士王国首相，德意志统一的主要推动者",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p69s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p69s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

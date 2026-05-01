@@ -1,0 +1,91 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 60,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "定义人类社会发展的高级阶段，以铁器冶炼和文字应用为标志，指出其地理局限性并列举典型群体。",
+    "importance_score": 3,
+    "importance_reason": "本段是恩格斯社会发展阶段论的核心定义，为后续分析国家起源提供历史坐标。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对早期人类饮食的讨论，转向对社会发展高级阶段的界定。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_polysemy | text_anomaly",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "text_anomaly",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "文明时代",
+        "explain": "在摩尔根和恩格斯的分期体系中，特指以金属工具、文字和国家为标志的社会阶段，与“蒙昧时代”“野蛮时代”相对，是私有制和阶级社会确立的时期。",
+        "why_needed": "term_polysemy",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "文本异常",
+        "explain": "原文“海盗10时代”中的“10”疑似为排版残留或OCR识别错误，应为“海盗时代”或“维京时代”，指公元8至11世纪北欧诺曼人的扩张时期。",
+        "why_needed": "text_anomaly",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p60s4",
+        "quote": "英雄时代的希腊人、罗马建立前不久的各意大利部落、塔西佗时代的德意志人、海盗10时代的诺曼人[15]，都属于这个阶段。",
+        "trigger": "text_anomaly",
+        "reader_block": "“海盗10时代”中的“10”是明显的文本异常，读者会困惑于这个数字的含义，影响对诺曼人所处时代的理解。",
+        "parse": {
+          "claim": "恩格斯列举了四个属于社会发展高级阶段的典型历史群体。",
+          "qualifiers": "所列群体均处于各自文明的特定历史时期，且都经历了从野蛮到文明的过渡。",
+          "contrast_or_target": ""
+        },
+        "why": {
+          "relation": "example",
+          "explanation": "本句通过列举具体的历史群体，为前文提出的“高级阶段”定义提供实例支撑，使抽象概念具象化。"
+        },
+        "implication": "这些群体虽处不同时空，但都因掌握了铁器和文字而跨入文明门槛，印证了该阶段的普遍性（在东半球）。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p60s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p60s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p60s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p60s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 117,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "",
+    "importance_score": 2,
+    "importance_reason": "本段是恩格斯对特卡乔夫论点进行反驳的修辞起点，通过夸张的赞美为后续的批判做铺垫。",
+    "argument_role": "contrasts",
+    "argument_link": "本段承接上段对特卡乔夫观点的引用，转而以反讽方式对其表述进行评价，并引出对实际情况的追问。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "“黄口孺子”比喻",
+        "explain": "这是恩格斯在反讽中对自己的戏称，意指一个缺乏耐心、经验不足的年轻人，用以模拟特卡乔夫可能对其持有的看法。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "特卡乔夫",
+      "their_view": "特卡乔夫认为，俄国革命条件成熟，当前主要任务是进行文字宣传，为未来的实践（起义）做准备，宣传与实践是先后关系。",
+      "author_response": "恩格斯通过反讽指出，特卡乔夫将复杂的理论争论简化为宣传与起义时机的简单对立，并错误地描绘了恩格斯本人的立场。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p117s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p117s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p117s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p117s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 1
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

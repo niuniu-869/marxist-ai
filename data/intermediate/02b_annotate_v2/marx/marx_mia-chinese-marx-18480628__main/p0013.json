@@ -1,0 +1,105 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 13,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "描述国民议会在起义失败后的集体恐慌与无力，以及他们与人民之间不可逾越的阶级鸿沟。",
+    "importance_score": 2,
+    "importance_reason": "核心批判的支撑，具体描绘了资产阶级议会面对无产阶级起义时的阶级局限性与政治瘫痪。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对国民议会工作的批判，具体描绘其在起义失败后的反应，以实例论证其与人民的对立。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "allusion",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p13s4",
+        "quote": "俄国的金钱，英国的金钱，波拿巴的鹰，国王的百合花，各种各样的护身符，——他们就在这些东西中间寻找他们无法理解的这一事件的解释。",
+        "trigger": "allusion",
+        "reader_block": "“波拿巴的鹰”和“国王的百合花”是象征性表达，读者若不了解其指代的具体政治势力，会难以理解议员们在寻找何种解释。",
+        "parse": {
+          "claim": "议员们试图将巴黎工人的武装起义归咎于俄国、英国等外部势力的金钱操纵，以及拿破仑派和保王派等国内旧势力的阴谋。",
+          "qualifiers": "这是议员们在起义失败后，面对无法理解的阶级斗争时所作的解释尝试。",
+          "contrast_or_target": "议员们将起义视为外部阴谋或旧势力复辟的产物，而非无产阶级与资产阶级之间阶级矛盾激化的必然结果。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "通过列举议员们荒谬的解释，讽刺并揭露他们完全无法从阶级斗争的视角理解人民起义的本质，从而反驳其将阶级斗争庸俗化为外部阴谋的论调。"
+        },
+        "implication": "这暴露了资产阶级议会成员的阶级局限性，他们只能从旧政治势力的博弈角度理解世界，无法认识新的历史力量。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "国民议会中的议员",
+      "their_view": "巴黎工人的起义是俄国、英国等外国势力用金钱操纵，或是波拿巴派、保王派等国内旧势力阴谋策划的结果，与工人自身的阶级利益无关。",
+      "author_response": "马克思指出，议员们这种解释恰恰证明了他们与人民之间存在不可逾越的鸿沟，他们无法理解这是无产阶级为捍卫自身利益而进行的独立斗争。",
+      "polemic_kind": "reveals_class_basis",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p13s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p13s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p13s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p13s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p13s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p13s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 2,
+        "hs_kept": 1,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 32,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段通过历史类比，批判普列汉诺夫和考茨基将进步的资产阶级革命战争与帝国主义战争混为一谈，揭露其理论诡辩。",
+    "importance_score": 2,
+    "importance_reason": "本段具体展开对社会沙文主义理论基础的批判，用历史对比强化对战争性质区分的论证。",
+    "argument_role": "continues",
+    "argument_link": "本段延续上段对战争性质区分的论述，进一步用历史人物类比，具体揭露论敌混淆不同时代战争的错误手法。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_density",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "历史人物对比",
+        "explain": "罗伯斯比尔、加里波第、热里雅鲍夫是18-19世纪领导反封建斗争的资产阶级革命家；米勒兰、萨兰德拉、古契柯夫是20世纪初代表垄断资本利益的帝国主义时代政客。",
+        "why_needed": "history_density",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "普列汉诺夫和考茨基",
+      "their_view": "当前战争与历史上的民族战争性质相同，因此“保卫祖国”是正当的，类似于资产阶级革命时期的斗争。",
+      "author_response": "列宁指出他们明明看到帝国主义掠夺行为却高谈保卫祖国，这是将不同时代战争混为一谈的诡辩。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p32s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p32s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p32s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p32s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

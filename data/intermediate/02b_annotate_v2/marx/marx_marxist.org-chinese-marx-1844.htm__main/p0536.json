@@ -1,0 +1,65 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 536,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段对比费尔巴哈的肯定性哲学与黑格尔的否定辩证法。",
+    "importance_score": 2,
+    "importance_reason": "本段在论证中作为过渡，突出费尔巴哈对黑格尔唯心主义的批判。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对费尔巴哈唯物主义的肯定，进一步对比其与黑格尔辩证法的差异。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "cross_ref",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "黑格尔",
+      "their_view": "黑格尔认为否定的否定是绝对肯定，是辩证法的最高阶段。",
+      "author_response": "马克思通过费尔巴哈的立场，批判这种否定辩证法脱离现实，是唯心主义的。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p536s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "否定的否定",
+            "type": "concept",
+            "modern": "黑格尔辩证法中通过否定达到更高肯定的逻辑过程。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "negation_of_negation_hegelian"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

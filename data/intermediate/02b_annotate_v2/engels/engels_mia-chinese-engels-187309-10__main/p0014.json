@@ -1,0 +1,151 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 14,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "叙述西班牙政治危机中，一位倾向工人的部长提出可行措施，但巴枯宁派因教条拒绝支持，最终被迫发动总罢工。",
+    "importance_score": 2,
+    "importance_reason": "通过西班牙具体事例，展示巴枯宁主义教条如何导致其在实际革命形势中做出荒谬选择，是核心批判的例证。",
+    "argument_role": "example",
+    "argument_link": "承接上段对巴枯宁派总罢工策略的叙述，本段转入西班牙具体政治进程，用实例揭示该策略的荒谬性与被动性。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_density",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "皮-伊-马尔加耳",
+        "explain": "皮埃伊·马尔加耳是当时西班牙共和国政府中一位倾向社会主义的部长，主张通过立法改善工人处境。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "不妥协派",
+        "explain": "西班牙共和运动中的激进派别，主张与君主制彻底决裂，但其领导层多为资产阶级，对工人社会改革要求持敌视态度。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "巴枯宁派拒绝国家措施",
+        "explain": "巴枯宁主义核心教条之一，认为任何由国家机器实施的改良，无论多革命，都是对无产阶级的欺骗，必须抵制。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "巴枯宁派",
+      "their_view": "任何由国家机器实施的措施，无论内容多么革命，都是对无产阶级的欺骗，必须无条件拒绝；在政治行动中，宁可支持更激进的资产阶级派别，也不与任何国家权力合作。",
+      "author_response": "恩格斯指出，这种教条使他们在实际革命形势中做出荒谬选择，拒绝真正有利于工人的可行措施，反而支持更反动的势力，暴露了其策略的破产。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p14s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p14s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "卡斯特拉尔",
+            "type": "person",
+            "modern": "19世纪西班牙政治家，联邦共和主义者代表人物，主张渐进改革。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p14s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p14s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p14s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p14s6",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p14s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p14s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "自治州起义",
+            "type": "event",
+            "modern": "1873年西班牙安达鲁西亚地区爆发的联邦主义起义，要求地方自治。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p14s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p14s10",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 2,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "hs:claim_5gram_with_quote",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

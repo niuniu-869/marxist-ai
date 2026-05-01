@@ -1,0 +1,119 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 24,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁描述德国社会民主党在“非常法”初期的混乱状态，并引用马克思对党内机会主义者赫希博格的批判。",
+    "importance_score": 2,
+    "importance_reason": "通过历史案例，具体展示马克思恩格斯对党内机会主义倾向的批判立场，为论战提供历史依据。",
+    "argument_role": "example",
+    "argument_link": "承接上段对马克思批判立场的概括，本段具体展开德国党内的历史实例，展示马克思批判的具体对象与内容。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "rhetorical",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "德国“非常法”时期",
+        "explain": "1878年俾斯麦政府颁布《反社会党人法》，宣布社会民主党为非法，迫使其转入地下。该法于1890年被废除。本段所述“混乱的一年”指该法颁布后党内思想路线尚未统一的阶段。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "莫斯特与赫希博格",
+        "explain": "莫斯特是当时党内无政府主义倾向的代表，主张个人恐怖行动。赫希博格是“苏黎世三人团”成员，主张党应放弃革命目标，与资产阶级合作，进行改良。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "赫希博格等机会主义者",
+      "their_view": "社会主义理论可以像大学课程一样被系统化地“炮制”出来；党的主要任务是通过“启蒙”使工人变得“温和”，从而提升党在小市民中的声望。",
+      "author_response": "列宁引用马克思的话指出，这种路线在理论上无知、在实践上无能，其本质是反革命的空谈，因为它背离了无产阶级的革命立场，去迎合小资产阶级的趣味。",
+      "polemic_kind": "reveals_class_basis",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p24s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "默林",
+            "type": "person",
+            "modern": "弗里德里希·默林，德国社会民主党历史学家，著有《德国社会民主党史》。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p24s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "非常法",
+            "type": "event",
+            "modern": "1878-1890年德国俾斯麦政府颁布的《反社会党人法》，旨在镇压社会主义运动。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "无政府主义",
+            "type": "concept",
+            "modern": "一种主张废除一切国家权威和强制力，建立完全自由联合的政治思潮。在当时德国党内，以莫斯特为代表，主张通过个人恐怖行动推翻国家。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "anarchism_political"
+          },
+          {
+            "surface": "机会主义",
+            "type": "concept",
+            "modern": "工人运动中一种放弃阶级斗争根本原则，主张与资产阶级妥协、追求眼前改良利益的思潮。此处特指赫希博格等人向资产阶级靠拢的路线。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "opportunism_worker_movement"
+          }
+        ]
+      },
+      {
+        "sid": "p24s3",
+        "speaker": "quoted_marx",
+        "stance": "endorsed",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 4,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_metaphor_14>8",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

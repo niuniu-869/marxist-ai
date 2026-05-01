@@ -1,0 +1,100 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 92,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁从资本家的经济动机、政府声明的自相矛盾、以及声明未对外公布三个方面，论证临时政府关于放弃兼并的承诺不可信。",
+    "importance_score": 2,
+    "importance_reason": "通过具体事例揭露临时政府的虚伪性，支撑其关于临时政府是资产阶级政府、继续帝国主义战争的论断。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于无产阶级政党不能支持战争和政府的结论，具体论证临时政府的承诺为何不可信，为拒绝支持政府提供事实依据。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "临时政府",
+      "their_view": "临时政府承诺放弃兼并，不再侵占别国或强迫任何民族留在俄国疆界以内。",
+      "author_response": "列宁从资本家的经济利益、政府声明的自相矛盾、以及声明未对外公布三个方面，论证这一承诺完全不可信。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p92s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p92s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "米留可夫",
+            "type": "person",
+            "modern": "时任临时政府外交部长，代表资产阶级利益",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p92s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "克伦斯基",
+            "type": "person",
+            "modern": "时任临时政府司法部长，后任总理",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p92s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "《人民事业报》",
+            "type": "work",
+            "modern": "当时彼得格勒的一份报纸，与社会革命党有关联",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 3,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

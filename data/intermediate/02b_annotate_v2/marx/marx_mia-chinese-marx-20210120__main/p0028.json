@@ -1,0 +1,128 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 28,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "叙述2018年一次学术研讨会上，因学者发言提及《新莱茵报》翻译缺失，促成暨南大学决定启动该报编译项目，并由作者承担起步工作的具体经过。",
+    "importance_score": 1,
+    "importance_reason": "交代编译项目启动的具体情境与决策过程，属于背景叙述与过渡段落。",
+    "argument_role": "transition",
+    "argument_link": "承接上段关于“偶然情境”的概括，具体展开该情境发生的时间、地点、人物与决策细节。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p28s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p28s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "李彬",
+            "type": "person",
+            "modern": "清华大学新闻传播学院教授，马克思主义新闻观研究领域的学者。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p28s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "人民大学",
+            "type": "org",
+            "modern": "中国人民大学，作者长期任教的机构，其图书馆藏有《新莱茵报》的影印合订本。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p28s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "支庭荣",
+            "type": "person",
+            "modern": "时任暨南大学新闻与传播学院执行院长，在研讨会上做出组织翻译的决策。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p28s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "讲座教授",
+            "type": "person",
+            "modern": "作者当时在暨南大学担任的职务，表明其与该校的关联。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p28s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p28s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 4,
+        "notes_dropped": 2,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_5gram_with_surface",
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,205 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 144,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段阐述无产阶级革命后国家消亡的历史必然性，并批判了“自由的人民国家”口号和无政府主义者的立即废除国家要求。",
+    "importance_score": 3,
+    "importance_reason": "核心段落，系统论证了无产阶级专政与国家消亡的辩证关系，是科学社会主义国家理论的关键表述。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于人类认识生产力本性后可实现有计划生产的论述，本段具体指出这一变革的社会力量（无产阶级）及其政治形式（无产阶级专政）和最终结果（国家消亡）。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_polysemy",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "马克思主义国家观",
+        "explain": "在马克思主义理论中，国家并非超阶级的调和者，而是经济上占统治地位的阶级用以镇压被统治阶级的工具。其存在与阶级对立直接相关，当阶级差别消失，国家作为镇压机关也就失去了存在的理由。",
+        "why_needed": "term_polysemy",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      },
+      {
+        "topic": "“自由的人民国家”口号",
+        "explain": "这是19世纪德国社会民主党人常用的一个鼓动口号，意在争取民主共和国。恩格斯认为它在宣传上有用，但在理论上不科学，因为它掩盖了国家的阶级本质，暗示国家可以代表全体人民。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p144s4",
+        "quote": "但是这样一来，它就消灭了作为无产阶级的自身，消灭了一切阶级差别和阶级对立，也消灭了作为国家的国家。",
+        "trigger": "inverted_logic",
+        "reader_block": "“消灭了作为无产阶级的自身”这一表述看似矛盾：革命的主体为何会消灭自己？读者可能困惑于无产阶级胜利后自身的命运。",
+        "parse": {
+          "claim": "无产阶级通过掌握生产资料来完成其历史使命，这一行动的完成，意味着它作为一个与资产阶级对立的阶级范畴本身也不复存在。",
+          "qualifiers": "这一过程的前提是无产阶级首先取得国家政权并实现生产资料国有化。",
+          "contrast_or_target": ""
+        },
+        "why": {
+          "relation": "conclusion",
+          "explanation": "本句是前文“无产阶级取得国家政权”这一行动的逻辑终点，揭示了无产阶级革命的最终目的不是建立一个新的阶级统治，而是消灭阶级本身，从而也消灭作为阶级统治工具的国家。"
+        },
+        "implication": "这阐明了无产阶级革命的彻底性：它旨在终结阶级社会，而非在阶级社会框架内进行权力更替。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      },
+      {
+        "anchor": "p144s12",
+        "quote": "国家不是“被废除”的，它是自行消亡的。",
+        "trigger": "inverted_logic",
+        "reader_block": "“自行消亡”与通常理解的“推翻”或“打碎”国家机器形成对比，读者可能不理解国家如何能“自行”消失。",
+        "parse": {
+          "claim": "国家的消亡是一个随着阶级统治基础消失而自然发生的过程，而非一个主动的、一次性的政治行动。",
+          "qualifiers": "这一过程发生在阶级差别、阶级统治以及源于生产无政府状态的个体生存斗争被消除之后。",
+          "contrast_or_target": "无政府主义者要求在一天之内废除国家。"
+        },
+        "why": {
+          "relation": "definition",
+          "explanation": "本句为“国家消亡”这一核心概念下定义，将其与暴力“废除”明确区分开来，强调其历史过程的客观性和渐进性。"
+        },
+        "implication": "这为批判无政府主义的立即废除国家主张提供了理论依据，指出其违背了国家产生和消亡的历史规律。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p144s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "无产者",
+            "type": "concept",
+            "modern": "在资本主义生产方式下，因丧失生产资料而只能出卖劳动力为生的现代工业工人阶级。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "proletarian_modern"
+          }
+        ]
+      },
+      {
+        "sid": "p144s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p144s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p144s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p144s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "国家",
+            "type": "concept",
+            "modern": "在马克思主义理论中，国家是阶级统治的工具，其存在与阶级对立直接相关。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "state_marxist_theory"
+          }
+        ]
+      },
+      {
+        "sid": "p144s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p144s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p144s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p144s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p144s10",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p144s11",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p144s12",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p144s13",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p144s14",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 0,
+        "hs_kept": 2,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

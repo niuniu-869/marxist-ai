@@ -1,0 +1,55 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 130,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段以反问形式提出疑问，探讨列宁为何反对“不断革命”理论。",
+    "importance_score": 1,
+    "importance_reason": "本段作为过渡，引出对列宁与“不断革命”关系的讨论。",
+    "argument_role": "transition",
+    "argument_link": "上段以“看来已经够了”结束，本段提出新问题，引导读者思考列宁与“不断革命”的关系。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "托洛茨基",
+      "their_view": "托洛茨基主张“不断革命”，认为民主革命应直接转变为社会主义革命，无需等待条件成熟。",
+      "author_response": "列宁反对这种理论，强调革命阶段的区分和农民的作用。",
+      "polemic_kind": "strategic_critique",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p130s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

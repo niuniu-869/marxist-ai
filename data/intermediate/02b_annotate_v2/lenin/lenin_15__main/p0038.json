@@ -1,0 +1,222 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 38,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段承接上文，指出工人运动分裂为两大阵营并发生武装冲突，要求从经济基础上解释这一现象，并点名批判希法亭在相关问题上的理论倒退。",
+    "importance_score": 2,
+    "importance_reason": "本段是论证链条中的过渡环节，将理论批判（希法亭）与现实政治分裂（第二、三国际）联系起来，并为下文深入分析经济基础做铺垫。",
+    "argument_role": "continues",
+    "argument_link": "上一段论证必须揭露和斗争掩饰帝国主义矛盾的思潮，本段则具体点名批判希法亭，并展示工人运动分裂的现实，从而引出对分裂经济根源的追问。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_density",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [
+      "考茨基主义",
+      "社会沙文主义"
+    ],
+    "prereading_inline": [
+      {
+        "topic": "希法亭与霍布森的比较",
+        "explain": "希法亭是奥地利马克思主义者，著有《金融资本》。霍布森是英国自由派改良主义者，其《帝国主义》一书较早分析了帝国主义的寄生性。列宁认为，希法亭作为自诩的马克思主义者，在此问题上反而不如一个公开的改良主义者。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "第二国际与第三国际",
+        "explain": "第二国际（1889-1916）是战前各国社会党的联合组织，在一战中因多数党支持本国政府而瓦解。第三国际（共产国际，1919年成立）由列宁等人创建，主张无产阶级革命和世界革命，与第二国际决裂。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p38s7",
+        "quote": "这个有世界历史意义的现象的经济基础是什么呢？",
+        "trigger": "inverted_logic",
+        "reader_block": "这是一个反问句，读者可能只看到提问形式，而忽略其作为论证枢纽的意图——它要求从经济根源上解释前文描述的政治分裂。",
+        "parse": {
+          "claim": "工人运动分裂为两大阵营并发生武装冲突这一重大历史现象，其根本原因必须从资本主义经济结构中去寻找。",
+          "qualifiers": "限定于“有世界历史意义的现象”，即前文所述的国际性分裂和国内战争。",
+          "contrast_or_target": ""
+        },
+        "why": {
+          "relation": "conclusion",
+          "explanation": "本句是前文描述（希法亭的理论后退、工人运动的现实分裂）的逻辑归结，将政治和理论层面的斗争引向对资本主义经济基础的分析，为后续章节的展开设定问题方向。"
+        },
+        "implication": "列宁即将论证，工人运动的分裂并非偶然，而是帝国主义经济特征（如寄生性、腐朽性）在政治和意识形态上的必然反映。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "希法亭",
+      "their_view": "希法亭作为考茨基的战友和德国独立社会民主党的代表，在资本主义寄生性和腐朽性问题上的分析，甚至不如公开的和平主义者与改良主义者霍布森。",
+      "author_response": "列宁指出，希法亭的这种理论后退，是其资产阶级改良主义政策在理论上的体现，与考茨基主义一脉相承。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p38s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p38s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "希法亭",
+            "type": "person",
+            "modern": "鲁道夫·希法亭，奥地利马克思主义理论家，第二国际重要人物，著有《金融资本》。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "霍布森",
+            "type": "person",
+            "modern": "约翰·阿特金森·霍布森，英国自由派经济学家、改良主义者，其《帝国主义》一书对帝国主义经济特征有重要分析。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p38s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "第二国际",
+            "type": "org",
+            "modern": "社会主义国际（1889-1916），一战爆发后因多数成员党支持本国政府参战而名存实亡。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "第三国际",
+            "type": "org",
+            "modern": "共产国际（1919年成立），由列宁领导创建，主张通过无产阶级革命推翻资产阶级统治。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p38s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "孟什维克",
+            "type": "social_group",
+            "modern": "俄国社会民主工党中的少数派，在一战和俄国革命中持温和立场，后与布尔什维克彻底决裂。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "社会革命党人",
+            "type": "social_group",
+            "modern": "俄国主要的民粹派政党，主张土地社会化，在二月革命后一度与孟什维克共同执政。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "高尔察克",
+            "type": "person",
+            "modern": "亚历山大·高尔察克，白军主要领导人之一，1918-1920年在西伯利亚自封为“俄国最高执政”。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "邓尼金",
+            "type": "person",
+            "modern": "安东·邓尼金，白军主要领导人之一，1919年曾率军威胁莫斯科。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p38s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "诺斯克",
+            "type": "person",
+            "modern": "古斯塔夫·诺斯克，德国社会民主党右翼领导人，被称为“血腥的诺斯克”，主导了对斯巴达克派的镇压。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "斯巴达克派",
+            "type": "social_group",
+            "modern": "德国左翼革命团体，后发展为德国共产党，1919年1月发动柏林起义，遭到镇压。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p38s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p38s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "经济基础",
+            "type": "concept",
+            "modern": "马克思主义理论中指社会在一定发展阶段上的物质资料生产方式，是上层建筑和意识形态的基础。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "economic_base_marxist"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 11,
+        "notes_dropped": 1,
+        "hs_kept": 1,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

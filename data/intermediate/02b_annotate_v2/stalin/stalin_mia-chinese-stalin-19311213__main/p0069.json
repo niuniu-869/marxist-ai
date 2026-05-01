@@ -1,0 +1,85 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 69,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "斯大林通过三个反问句，对比德国过去与现在对法律的态度，揭露国社党人破坏法律、实施暴力的现实。",
+    "importance_score": 2,
+    "importance_reason": "作为具体例证，支撑作者关于德国法治崩溃、与苏联形成对比的论点。",
+    "argument_role": "example",
+    "argument_link": "承接上段对1907年柏林社会民主党人尊重法律的回忆，转而描述当前德国法律被国社党人系统性破坏的现实。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "认为德国仍存在法治或苏联是恐怖统治的论敌",
+      "their_view": "德国仍然有人尊重法律，法治秩序尚存；或者苏联的稳固建立在恐惧之上。",
+      "author_response": "国社党人正在系统性地破坏法律，实施暴力，这证明德国已无法无天，与苏联的状况截然不同。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "medium"
+    },
+    "sentences": [
+      {
+        "sid": "p69s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p69s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p69s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "国社党人",
+            "type": "org",
+            "modern": "1920年成立的德国国家社会主义工人党成员，1931年已成为德国主要法西斯政治力量。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "metadata"
+          },
+          {
+            "surface": "工人俱乐部",
+            "type": "place",
+            "modern": "当时德国工人阶级的组织活动场所，常遭右翼暴力袭击。",
+            "highlight": "polemic",
+            "confidence": "medium",
+            "source_basis": "inferred"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_6>5",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

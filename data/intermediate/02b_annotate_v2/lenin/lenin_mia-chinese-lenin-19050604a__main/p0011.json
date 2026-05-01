@@ -1,0 +1,83 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 11,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "引用并批判“俄国解放联盟”宣言，揭示其非党立场在实践中导致与自由派妥协的后果。",
+    "importance_score": 2,
+    "importance_reason": "通过具体引文展示非党立场的逻辑终点，为后续论证提供靶子。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对“主动性”口号的批判，本段用“俄国解放联盟”的具体宣言为例，展示非党立场如何导向与自由派的无原则联合。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "refute_quotation"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "俄国解放联盟、解放社",
+      "their_view": "我们与社会革命党联合是因为武装斗争和召开立宪会议的共同目标，与“解放社”联合也无妨，只要他们认识到武装起义的必要性。",
+      "author_response": "列宁指出这种只讲手段和当前目标的联合，恰恰回避了与社会民主党原则的关系，最终会导向与自由派的无原则妥协。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p11s1",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p11s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p11s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p11s4",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": [
+          {
+            "surface": "解放社",
+            "type": "org",
+            "modern": "俄国自由派资产阶级的政治组织，主张君主立宪，与工人阶级的革命目标存在根本分歧。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 2,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_7>5",
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 18,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段运用历史唯物主义方法，分析罗马帝国扩张如何摧毁了各民族宗教赖以存在的社会政治基础，导致其崩溃。",
+    "importance_score": 2,
+    "importance_reason": "本段是恩格斯用历史唯物主义分析宗教兴衰规律的核心例证，为批判鲍威尔的唯心主义宗教观提供具体历史依据。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对罗马帝国思想家依附性的描述，进一步从宏观历史层面分析帝国扩张对各民族独特精神产物（宗教）的系统性摧毁。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "伏尔泰主义",
+        "explain": "指18世纪启蒙思想家伏尔泰对宗教的批判立场。恩格斯在此用它来类比罗马帝国对地方宗教的压制，但强调其手段是政治奴役而非思想启蒙。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p18s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p18s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "部落宗教",
+            "type": "concept",
+            "modern": "在原始社会血缘和地域共同体中自发形成的信仰体系，与特定部落的社会结构紧密绑定。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "religion_tribal"
+          },
+          {
+            "surface": "民族宗教",
+            "type": "concept",
+            "modern": "伴随古代民族国家形成而产生的、服务于该民族共同体认同的信仰体系。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "religion_national"
+          }
+        ]
+      },
+      {
+        "sid": "p18s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p18s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p18s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p18s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p18s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p18s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_9>5",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

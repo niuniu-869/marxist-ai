@@ -1,0 +1,152 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 164,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁通过回顾历史，反驳布兰克将杜马选举胜利视为“思想和理智时代”到来的观点，指出反动时期同样能催生革命思想和理论成果。",
+    "importance_score": 2,
+    "importance_reason": "通过历史类比，为抵制杜马选举的策略提供理论支撑，反驳对手对当前政治形势的乐观判断。",
+    "argument_role": "contrasts",
+    "argument_link": "承接上段对布兰克议会道路论的批判，本段通过历史事实进一步揭露其论点的片面性，将论战从策略层面引向对历史规律的认识。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "亚历山大三世统治时期",
+        "explain": "1881年至1894年在位的沙皇，其统治以残酷镇压革命运动、强化专制和反动政策著称，是1905年革命前俄国反动时期的高峰。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "杜巴索夫",
+        "explain": "指彼得·杜巴索夫，1905年革命期间任莫斯科总督，以强力镇压十二月起义闻名，是沙皇反动势力的代表人物。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p164s8",
+        "quote": "总而言之，“思想和理智的时代”在人类历史上的来临，有时就象一位政治活动家被投入监狱能促进他的科学研究工作一样。",
+        "trigger": "inverted_logic",
+        "reader_block": "用监狱促进研究作类比，表面是肯定，实则反讽“思想时代”常伴随政治压迫，读者易忽略其批判性。",
+        "parse": {
+          "claim": "历史上某些理论成果的涌现，其环境往往并非政治开明，而是高压或反动的时期。",
+          "qualifiers": "“有时”表明这是一种历史现象，而非普遍规律。",
+          "contrast_or_target": "布兰克认为政治胜利（杜马选举）是思想进步的前提和标志。",
+          "why": {
+            "relation": "polemic",
+            "explanation": "用一个看似矛盾的类比，总结前文对反动时期思想作用的论述，直接讽刺布兰克将政治胜利与思想进步简单等同的观点。"
+          },
+          "implication": "政治上的反动与思想上的进步在特定历史条件下可以并存，不能以政治形势的表面好坏来判断思想发展的阶段。",
+          "confidence": "high",
+          "source_basis": "text_evidence"
+        }
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "布兰克（代表立宪民主党人观点）",
+      "their_view": "杜巴索夫镇压起义后的时期，是“思想和理智的时代又来临了”，意味着政治上的反动结束，理性与进步重新成为主导。",
+      "author_response": "列宁指出，历史上许多重要的思想成果恰恰产生于政治高压的反动时期，用历史事实驳斥了将政治胜利等同于思想进步的肤浅论调。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p164s1",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": [
+          {
+            "surface": "杜巴索夫",
+            "type": "person",
+            "modern": "1905年革命期间镇压莫斯科起义的沙皇政府官员",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p164s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "亚历山大三世",
+            "type": "person",
+            "modern": "1881-1894年在位的沙皇，其统治以反动和镇压革命著称",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p164s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p164s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "社会民主主义",
+            "type": "concept",
+            "modern": "马克思主义指导下的工人阶级政党及其理论体系",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "social_democracy_marxist"
+          }
+        ]
+      },
+      {
+        "sid": "p164s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p164s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p164s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "《资本论》",
+            "type": "work",
+            "modern": "马克思系统阐述政治经济学原理的著作",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p164s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  }
+}

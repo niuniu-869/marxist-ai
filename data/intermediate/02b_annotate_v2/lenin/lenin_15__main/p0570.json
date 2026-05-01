@@ -1,0 +1,67 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 570,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "批评考茨基在和平问题上采取改良主义立场，认为其观点背离了马克思主义对帝国主义矛盾的分析。",
+    "importance_score": 2,
+    "importance_reason": "这是对考茨基主义和平幻想的具体批判，属于核心批判的组成部分。",
+    "argument_role": "contrasts",
+    "argument_link": "从批评小资产阶级批评家转向批判党内机会主义者考茨基，指出其观点与资产阶级改良主义同源。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "考茨基",
+      "their_view": "在和平问题上，帝国主义者、社会党人和社会和平主义者意见都是一致的。",
+      "author_response": "列宁指出这是资产阶级改良主义观点，回避了帝国主义的根本矛盾，已无马克思主义气味。",
+      "polemic_kind": "strategic_critique",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p570s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p570s2",
+        "speaker": "quoted_opponent",
+        "stance": "critical",
+        "notes": []
+      },
+      {
+        "sid": "p570s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

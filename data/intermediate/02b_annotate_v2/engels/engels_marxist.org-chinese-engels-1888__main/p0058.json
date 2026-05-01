@@ -1,0 +1,184 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 58,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "批判费尔巴哈将人际关系宗教化的唯心主义倾向，并讽刺其方法论的荒谬。",
+    "importance_score": 2,
+    "importance_reason": "具体批判费尔巴哈将人际关系宗教化的唯心主义倾向，是清算其哲学的重要环节。",
+    "argument_role": "contrasts",
+    "argument_link": "承接上段对感情关系自然性的论证，转而批判费尔巴哈试图将这些关系宗教化的唯心主义倾向。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested | inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [
+      "feuerbach"
+    ],
+    "prereading_inline": [
+      {
+        "topic": "路易·勃朗派",
+        "explain": "19世纪40年代巴黎的社会主义改良派，主张通过和平手段和国家合作实现社会改革，反对暴力革命。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p58s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "唯心主义",
+            "type": "concept",
+            "modern": "在本段特指费尔巴哈用宗教范畴框定人际关系的哲学倾向。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "idealism_philosophical"
+          }
+        ]
+      },
+      {
+        "sid": "p58s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p58s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p58s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p58s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p58s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "最后一着",
+            "type": "metaphor",
+            "modern": "比喻语源学论证是唯心主义哲学在论证上的穷途末路。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p58s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p58s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p58s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "路易·勃朗派",
+            "type": "person",
+            "modern": "19世纪40年代巴黎的社会主义改良派，主张通过和平手段实现社会改革。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p58s10",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "炼金术",
+            "type": "metaphor",
+            "modern": "比喻费尔巴哈用唯物主义自然观建立宗教的做法，如同用现代化学复兴炼金术一样荒谬。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p58s11",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p58s12",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p58s13",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p58s14",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 4,
+        "notes_dropped": 2,
+        "hs_kept": 0,
+        "hs_dropped": 2,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_archaic_8>4",
+        "note:n1_overflow_event_16>12",
+        "hs:claim_5gram_with_quote",
+        "hs:claim_5gram_with_quote",
+        "polemic:polemic_their_view_qualifier:被视为"
+      ]
+    }
+  ]
+}

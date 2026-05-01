@@ -1,0 +1,55 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 92,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁列举社会民主党和社会革命党对农民问题的主张，作为其批判对象的一部分。",
+    "importance_score": 1,
+    "importance_reason": "作为论证链条中的一环，列举特定政党的具体主张，为后续批判提供靶子。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段对立宪民主党主张的列举，转向分析另外两个主要政党——社会民主党和社会革命党——的立场。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "社会民主党和社会革命党",
+      "their_view": "主张农民应当等待计划召开的立宪会议来解决土地等问题，而非立即行动。",
+      "author_response": "列宁通过转述此主张，将其置于批判序列中，暗示这种等待态度是维护资产阶级秩序、拖延革命进程的表现。",
+      "polemic_kind": "reveals_class_basis",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p92s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p92s2",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": [
+          {
+            "surface": "立宪会议",
+            "type": "concept",
+            "modern": "二月革命后计划召开的制宪机构，旨在确立俄国新政治制度，各政党对其态度反映了其政治路线。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "constituent_assembly_1917"
+          }
+        ]
+      }
+    ]
+  }
+}

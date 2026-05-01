@@ -1,0 +1,70 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 104,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁指出，当时俄国政治舞台上各色人物都空谈国际主义，因此无产阶级政党必须明确区分真正的国际主义与口头上的国际主义。",
+    "importance_score": 2,
+    "importance_reason": "本段在论证链中承上启下，引出对“国际主义”概念的澄清，为后续批判各种机会主义立场做铺垫。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段关于俄国工人阶级国际义务的论述，指出履行该义务的前提是划清真假国际主义的界限。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "rhetorical",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "沙文主义护国派、普列汉诺夫、波特列索夫、克伦斯基",
+      "their_view": "他们认为自己代表国际主义，主张保卫祖国或支持资产阶级临时政府。",
+      "author_response": "列宁指出他们只是口头上的国际主义者，实质是沙文主义或机会主义，与无产阶级的真正国际主义背道而驰。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p104s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "沙文主义护国派",
+            "type": "social_group",
+            "modern": "二月革命后，主张继续战争以保卫革命成果的派别，其国际主义口号与实际立场矛盾。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p104s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

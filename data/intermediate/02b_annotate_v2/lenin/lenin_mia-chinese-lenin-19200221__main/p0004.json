@@ -1,0 +1,90 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 4,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁否认苏俄有进攻意图，并指出法国政府唆使波兰对苏俄发动进攻。",
+    "importance_score": 2,
+    "importance_reason": "直接回应记者提问，澄清苏俄的和平立场，并将战争责任归咎于帝国主义国家。",
+    "argument_role": "continues",
+    "argument_link": "本段直接承接上一段关于苏俄是否准备进攻的问题，给出明确的否定回答，并将矛头指向外部势力。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "法国资本家政府",
+      "their_view": "法国政府认为苏俄是威胁，需要通过波兰等邻国来遏制和打击苏维埃政权。",
+      "author_response": "列宁指出，法国政府才是侵略的唆使者，其行动与苏俄公开申明的和平愿望相悖。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p4s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p4s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "人民委员会",
+            "type": "org",
+            "modern": "苏俄当时的最高行政机关，负责执行法律和管理国家事务。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "全俄中央执行委员会",
+            "type": "org",
+            "modern": "苏俄当时的最高立法机关，在苏维埃大会闭会期间行使权力。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p4s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p4s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_7>5"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 75,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "恩格斯为俄国革命运动辩护，指出其能经受巴枯宁派的负面揭露，并肯定俄国年轻一代革命者的才能。",
+    "importance_score": 2,
+    "importance_reason": "本段通过对比俄国革命传统与巴枯宁派的破坏性，支撑了作者对俄国运动生命力的判断。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对巴枯宁派暴露俄国运动的批评，转而论证俄国运动本身具有抵御此类破坏的内在力量。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "杜勃罗留波夫与车尔尼雪夫斯基",
+        "explain": "两人是19世纪中叶俄国革命民主主义思想家与文学批评家，其著作批判农奴制，宣传社会主义思想，是俄国解放运动的重要先驱。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "巴枯宁与巴枯宁主义",
+        "explain": "巴枯宁是无政府主义理论家，主张通过少数人的密谋暴动立即摧毁一切国家机器。其追随者在第一国际内部进行分裂活动。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "《前进》杂志",
+        "explain": "指俄国流亡者团体在日内瓦出版的杂志《前进！》，是巴枯宁派在国际工人运动中的宣传阵地。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "巴枯宁主义者",
+      "their_view": "巴枯宁派的活动暴露了俄国运动的弱点，使其在国际上声誉受损，甚至可能因此走向灭亡。",
+      "author_response": "俄国运动拥有深厚的革命思想传统，足以抵御巴枯宁这类骗子及其追随者的破坏，他们的活动不会导致运动的消亡。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p75s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p75s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "杜勃罗留波夫",
+            "type": "person",
+            "modern": "19世纪俄国革命民主主义批评家，其文章猛烈抨击沙皇专制与农奴制。",
+            "highlight": "person",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "车尔尼雪夫斯基",
+            "type": "person",
+            "modern": "俄国革命家、思想家，其小说《怎么办？》宣传社会主义与新人理想，影响了后来的革命者。",
+            "highlight": "person",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "社会主义的莱辛",
+            "type": "metaphor",
+            "modern": "将杜、车二人比作德国启蒙思想家莱辛，意指他们是俄国思想界的先驱与旗手。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p75s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p75s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "巴枯宁主义者",
+            "type": "social_group",
+            "modern": "追随巴枯宁无政府主义思想的团体，主张通过密谋暴动实现社会变革。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p75s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "《前进》",
+            "type": "work",
+            "modern": "巴枯宁派在瑞士日内瓦创办的俄文杂志，是其宣传无政府主义思想的喉舌。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  }
+}

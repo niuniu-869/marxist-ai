@@ -1,0 +1,61 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 120,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "马克思以协商派议会推迟废除徭役并损害农民既得利益为例，质问农民是否还有理由继续支持该议会。",
+    "importance_score": 2,
+    "importance_reason": "通过具体事例，揭示普鲁士资产阶级议会背叛革命承诺，为论证其反革命本质提供论据。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对协商派议会具体行动的描述，进一步用其对农民利益的损害来论证其背叛性。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "协商派议会",
+      "their_view": "议会自身是值得农民为之战斗的代表，其决策（如推迟废除徭役）是合理的。",
+      "author_response": "议会要求农民放弃既得利益的行为，恰恰证明了它已不值得农民支持。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p120s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p120s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

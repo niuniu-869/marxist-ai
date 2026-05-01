@@ -1,0 +1,104 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 5,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁交代党内争论的公开化背景，回应社会革命党人的外部质疑，并提及党内对妥协倾向的担忧。",
+    "importance_score": 2,
+    "importance_reason": "本段通过回应外部质疑和提及内部担忧，为后续集中抨击党内妥协倾向做铺垫。",
+    "argument_role": "continues",
+    "argument_link": "本段承接上段提出的党内危机问题，具体化争论的公开表现和外部质疑，为后续的直接抨击提供语境。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "国际主义派联合",
+        "explain": "指当时俄国政治中反对帝国主义战争、支持国际工人团结的左翼政治力量联盟，布尔什维克是其重要组成部分。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "《人民事业报》",
+        "explain": "社会革命党的机关报，在当时对布尔什维克持批评态度，是列宁在此直接回应的论敌声音来源。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "加米涅夫和季诺维也夫",
+      "their_view": "加米涅夫和季诺维也夫认为，布尔什维克单独不能保住政权，应与孟什维克、社会革命党人等达成政治协议。",
+      "author_response": "列宁抨击这种妥协倾向，强调必须坚决捍卫新生的苏维埃政权，反对任何政治妥协。",
+      "polemic_kind": "strategic_critique",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p5s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p5s2",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": [
+          {
+            "surface": "《人民事业报》",
+            "type": "work",
+            "modern": "社会革命党机关报，当时对布尔什维克持批评态度。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p5s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p5s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p5s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 2,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_5gram_with_surface",
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

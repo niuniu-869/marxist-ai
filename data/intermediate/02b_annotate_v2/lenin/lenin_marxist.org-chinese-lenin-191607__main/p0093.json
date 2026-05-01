@@ -1,0 +1,78 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 93,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段引入对荷兰和波兰国际主义者立场的比较，指出他们虽是优秀革命者，但其反对民族自决的理论错误根源在于“帝国主义的经济主义”。",
+    "importance_score": 2,
+    "importance_reason": "作为新一节的开篇，为后续具体比较不同国家国际主义者的立场异同定下基调，并点明其理论错误的共同根源。",
+    "argument_role": "transition",
+    "argument_link": "承接上一段作为新节标题的提示，本段开始具体展开对荷兰和波兰国际主义者立场的分析，并指出其理论缺陷。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "荷兰和波兰的国际主义者",
+      "their_view": "民族自决权在帝国主义时代不适用或无法实现，因此反对将其作为社会主义运动的原则。",
+      "author_response": "承认这些同志在革命实践中的品质，但指出其理论错误在于未能形成一个正确的总体判断，其思想实质是“帝国主义的经济主义”。",
+      "polemic_kind": "strategic_critique",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p93s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "反对自决",
+            "type": "concept",
+            "modern": "在民族自决权问题上持否定或怀疑立场，是本文论战中特定派别的核心主张。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "self_determination_opposition"
+          }
+        ]
+      },
+      {
+        "sid": "p93s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p93s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 2,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "note:n1_overflow_concept_9>5"
+      ]
+    }
+  ]
+}

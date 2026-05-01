@@ -1,0 +1,78 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 103,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁以反讽方式回答需要何种社会党国际，指出只有服务于本国资产阶级的社会党人才会组建对资本家有利的国际。",
+    "importance_score": 2,
+    "importance_reason": "通过反讽揭示社会沙文主义者的阶级立场，是论证其背叛社会主义国际主义原则的组成部分。",
+    "argument_role": "continues",
+    "argument_link": "直接回答上一段提出的“各国人民需要什么样的社会党国际”的问题，给出一个讽刺性的答案。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "谢德曼与普列汉诺夫的类比",
+        "explain": "谢德曼是德国社会民主党右翼领袖，普列汉诺夫是俄国孟什维克领袖。列宁将他们互称为对方的“德国的普列汉诺夫”和“俄国的谢德曼”，意在讽刺他们都背叛了社会主义，转而支持本国资产阶级政府。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "立宪民主党；社会沙文主义者（以谢德曼、普列汉诺夫为代表）",
+      "their_view": "需要建立一个社会党国际，各国社会党可以在其中协调立场，但前提是支持本国政府（如进行帝国主义战争）。",
+      "author_response": "这种国际对资产阶级有利，因为它帮助压制本国无产阶级的反抗，维护资产阶级统治；真正的社会主义国际主义应当反对本国政府。",
+      "polemic_kind": "reveals_class_basis",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p103s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "立宪民主党",
+            "type": "org",
+            "modern": "1905年成立的俄国自由主义政党，代表资产阶级和地主利益，主张君主立宪。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p103s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

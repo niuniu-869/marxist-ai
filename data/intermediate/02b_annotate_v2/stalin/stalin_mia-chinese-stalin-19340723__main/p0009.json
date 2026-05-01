@@ -1,0 +1,113 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 9,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "斯大林论证资本主义制度下无法实现真正的计划经济，因为资本家不会为了公共利益牺牲自身利润。",
+    "importance_score": 3,
+    "importance_reason": "对威尔斯改良主义观点的核心批判，论证资本主义与社会主义在经济组织上的根本区别。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于美苏目的不同的讨论，具体论证为什么在资本主义下无法实现计划经济。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "威尔斯",
+      "their_view": "可以通过国家逐步干预经济、依靠技术知识分子来和平过渡到社会主义，不必强调阶级斗争和暴力革命。",
+      "author_response": "在资本主义制度下，由于资本家不会同意消灭失业现象和牺牲利润率来满足公共需求，因此无法建立真正的计划经济。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p9s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p9s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p9s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p9s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "失业后备军",
+            "type": "concept",
+            "modern": "马克思主义政治经济学中指资本主义制度下因生产过剩而形成的、可供资本家随时雇佣的失业人口群体，其存在对在业工人形成竞争压力。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "reserve_army_of_labor_marxist"
+          }
+        ]
+      },
+      {
+        "sid": "p9s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p9s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p9s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p9s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p9s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_7>5"
+      ]
+    }
+  ]
+}

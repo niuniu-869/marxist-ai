@@ -1,0 +1,94 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 43,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁澄清其先前关于“国家资本主义”论述的历史语境，并驳斥当前仍以资本主义性质指责苏维埃政权的论调，同时指出小资产阶级是革命的主要危险。",
+    "importance_score": 2,
+    "importance_reason": "本段是列宁回应党内党外批评、阐明苏维埃政权性质的关键论证环节，通过对比历史语境与当前现实，揭示批评者错误的阶级根源。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段关于苏维埃俄国实行国家资本主义的讨论，通过区分不同历史阶段的政权性质，反驳当前对苏维埃政权的资本主义指责。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "革命民主国家与克伦斯基政府",
+        "explain": "指1917年二月革命后至十月革命前，由克伦斯基等人领导的俄国临时政府。该政府名义上是民主共和国，但列宁认为其本质仍是资产阶级政权，未能脱离资产阶级基础。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "克伦斯基等人",
+        "explain": "克伦斯基是临时政府总理，切尔诺夫、策列铁里、基什金是当时社会革命党或孟什维克的代表人物，均在临时政府中任职。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "用资本主义性质指责苏维埃政权的论敌（可能包括左派社会革命党人、“左派共产主义者”等）",
+      "their_view": "苏维埃政权采取的某些措施（如国家资本主义）本质上仍是资本主义的，因此是在倒退或背叛革命。",
+      "author_response": "这种指责完全无视了政权已从资产阶级手中转移到无产阶级手中这一根本事实，因而是愚蠢和荒谬的；其根源在于未能认清小资产阶级的动摇性及其对革命的真正威胁。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p43s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p43s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p43s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p43s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p43s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

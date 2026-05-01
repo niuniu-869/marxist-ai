@@ -1,0 +1,84 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 41,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "恩格斯反驳德国报纸将六月起义定性为决战的观点，指出战斗未解决问题且工人未来必将胜利。",
+    "importance_score": 2,
+    "importance_reason": "本段通过反驳错误定性并论证工人潜力，支撑工人阶级革命的核心观点。",
+    "argument_role": "contrasts",
+    "argument_link": "上段以军事视角描述工人作战表现，本段转向政治分析，反驳外界定性并展望工人胜利。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "红色共和国与三色共和国",
+        "explain": "在1848年法国革命语境中，红色共和国代表激进社会主义派别，三色共和国代表温和资产阶级共和派。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p41s4",
+        "quote": "如果说4万巴黎工人在同4倍于自己的敌人的斗争中能够取得这样大的结果，那末全巴黎的工人群众齐心协力地一致行动起来，将会有多大的成就呵！",
+        "trigger": "inverted_logic",
+        "reader_block": "反问句式，读者可能误以为在质疑工人的能力，实际是强调工人团结后的潜力。",
+        "parse": {
+          "claim": "少数工人已能取得显著战果，若全体工人统一行动，成果将更为巨大。",
+          "qualifiers": "基于4万工人对抗4倍敌人的具体战例。",
+          "contrast_or_target": ""
+        },
+        "why": {
+          "relation": "example",
+          "explanation": "通过具体数字对比，论证工人阶级团结的力量，为前文“工人一定会取得胜利”提供实证。"
+        },
+        "implication": "工人阶级的组织化和团结是取得最终胜利的关键。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "德国各家报纸",
+      "their_view": "六月起义是红色共和国与三色共和国、工人与资产者之间的决战。",
+      "author_response": "这场战斗并未解决问题，只会导致胜利者内部分裂；从军事角度看，工人未来必将胜利。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p41s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p41s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p41s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p41s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  }
+}

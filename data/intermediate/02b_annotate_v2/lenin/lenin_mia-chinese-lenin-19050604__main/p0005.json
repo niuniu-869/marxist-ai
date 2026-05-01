@@ -1,0 +1,96 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 5,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "回顾社会民主党与自由派及党内“经济派”的斗争历史，以司徒卢威的口号为例，阐明党在民主主义任务上的坚定立场。",
+    "importance_score": 2,
+    "importance_reason": "通过具体历史事例，支撑上一段关于无产阶级在民主革命中应保持独立性的论点，并引出下文对民主纲领的阐述。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段关于无产阶级先锋队作用的论述，本段通过回顾与自由派及党内错误倾向的斗争，具体说明无产阶级政党如何捍卫其民主主义纲领的彻底性。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "希波夫派",
+        "explain": "19世纪末俄国地方自治运动中的一个政治派别，以地方自治局活动家希波夫为代表。他们主张在沙皇体制内进行温和的、自上而下的改革，反对激进变革，是自由主义阵营中的保守翼。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p5s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p5s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p5s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "希波夫派",
+            "type": "social_group",
+            "modern": "19世纪末俄国地方自治运动中的温和改良派，主张在沙皇体制内进行有限改革，反对激进政治变革。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p5s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p5s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

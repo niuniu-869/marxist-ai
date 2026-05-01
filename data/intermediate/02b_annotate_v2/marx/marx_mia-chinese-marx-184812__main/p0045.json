@@ -1,0 +1,90 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 45,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段以讽刺笔法，描绘了普鲁士资产阶级政客在革命后的自满与虚伪，以及他们与王权之间微妙的相互利用关系。",
+    "importance_score": 2,
+    "importance_reason": "作为核心批判的具体例证，生动刻画了协商论执行者的阶级面貌与心理状态，支撑了文章对资产阶级妥协性的揭露。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对“协商论秘密”的揭示，本段具体描绘了协商论的实践者——普鲁士资产阶级内阁成员——的言行与心态，是其“秘密”的人格化展现。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "康普豪森等普鲁士资产阶级内阁成员",
+      "their_view": "我们通过与王权协商，以自身的宽大精神和牺牲，拯救了面临深渊的王权，从而扮演了宪制国王产婆的角色。",
+      "author_response": "马克思讽刺他们自以为是地扮演救世主，实则其“平民服”掩盖的是赤裸的王权，他们的“宽大精神”不过是自欺欺人，而王权只是在强颜欢笑地等待反扑时机。",
+      "polemic_kind": "reveals_class_basis",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p45s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p45s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p45s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "宪制国王的产婆",
+            "type": "metaphor",
+            "modern": "借用“产婆”比喻，讽刺康普豪森自诩为君主立宪制的催生者，实则夸大了自身作用。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p45s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p45s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 3,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "note:n1_overflow_metaphor_9>8",
+        "note:n1_overflow_archaic_22>4"
+      ]
+    }
+  ]
+}

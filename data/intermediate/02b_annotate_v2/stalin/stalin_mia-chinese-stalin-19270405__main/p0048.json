@@ -1,0 +1,140 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 48,
+  "annotation": {
+    "block_type": "narrative",
+    "gist": "编者介绍该讲话的首次发表，并说明其内容与在党内斗争中的作用。",
+    "importance_score": 1,
+    "importance_reason": "作为编者注，为读者理解讲话的背景和后续影响提供必要信息，属于辅助性过渡段落。",
+    "argument_role": "none",
+    "argument_link": "",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p48s1",
+        "speaker": "editor",
+        "stance": "neutral_citation",
+        "notes": [
+          {
+            "surface": "联共（布）",
+            "type": "org",
+            "modern": "苏联共产党（布尔什维克）的简称，1925年至1952年间的正式名称。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p48s2",
+        "speaker": "editor",
+        "stance": "neutral_citation",
+        "notes": []
+      },
+      {
+        "sid": "p48s3",
+        "speaker": "editor",
+        "stance": "neutral_citation",
+        "notes": [
+          {
+            "surface": "共产国际",
+            "type": "org",
+            "modern": "第三国际，1919年成立的国际共产主义组织，旨在推动世界革命。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "国民党",
+            "type": "org",
+            "modern": "中国国民党，当时与中国共产党合作进行国民革命的政党。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "中国共产党",
+            "type": "org",
+            "modern": "1921年成立的无产阶级政党，当时以个人身份加入国民党。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p48s4",
+        "speaker": "editor",
+        "stance": "neutral_citation",
+        "notes": [
+          {
+            "surface": "托洛茨基",
+            "type": "person",
+            "modern": "列夫·托洛茨基，联共（布）党内反对派领袖，主张共产党员退出国民党。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p48s5",
+        "speaker": "editor",
+        "stance": "neutral_citation",
+        "notes": [
+          {
+            "surface": "斯大林",
+            "type": "person",
+            "modern": "约瑟夫·斯大林，时任联共（布）中央总书记，共产国际的实际领导者。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "布哈林",
+            "type": "person",
+            "modern": "尼古拉·布哈林，联共（布）重要理论家，当时与斯大林结成多数派。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 7,
+        "notes_dropped": 2,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "note:n2_5gram_with_surface"
+      ]
+    }
+  ]
+}

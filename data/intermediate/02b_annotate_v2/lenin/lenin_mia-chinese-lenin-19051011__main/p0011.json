@@ -1,0 +1,76 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 11,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁批评党内一种策略，即利用大学作为革命集会场所，认为这会导致政府关闭大学，反而妨碍自由派运动，对无产阶级不利。",
+    "importance_score": 2,
+    "importance_reason": "本段通过具体事例批判党内机会主义策略，为论证无产阶级独立斗争路线提供反面例证。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对自由派言论的揭露，转而批判党内一种看似激进实则有害的策略。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p11s1",
+        "quote": "这是十分明显的，因此初看起来使人无法理解社会民主党领袖怎么会提出这种口号。",
+        "trigger": "inverted_logic",
+        "reader_block": "反问句式“怎么会提出”暗示行为荒谬，读者需理解列宁在讽刺党内策略的自相矛盾。",
+        "parse": {
+          "claim": "党内领袖明知口号会导致政府关闭大学，却仍然提出，其真实意图是阻碍自由派运动。",
+          "qualifiers": "",
+          "contrast_or_target": ""
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "此句是列宁对党内策略提出质疑的起点，为后续揭露其“近视”本质做铺垫。"
+        },
+        "implication": null,
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      },
+      {
+        "anchor": "p11s1",
+        "quote": "他们十分清楚这会造成什么后果，他们正是竭力要政府关闭大学。",
+        "trigger": "inverted_logic",
+        "reader_block": "反讽表述“竭力要政府关闭大学”，表面是激进行动，实则列宁认为这是故意制造障碍。",
+        "parse": {
+          "claim": "党内领袖的策略是主动促使政府采取压制措施，以此阻止自由派获得政治空间。",
+          "qualifiers": "",
+          "contrast_or_target": ""
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "此句直接点明列宁所批判策略的实质，即以牺牲文化教育为代价进行党派斗争。"
+        },
+        "implication": null,
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "社会民主党领袖（指党内提出该口号的派别）",
+      "their_view": "大学应成为革命集会场所，以此向居民灌输革命思想，即便导致政府关闭大学也在所不惜。",
+      "author_response": "列宁认为这是近视策略，会损害文化事业，且无助于无产阶级独立斗争。",
+      "polemic_kind": "strategic_critique",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p11s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  }
+}

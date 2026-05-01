@@ -1,0 +1,97 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 3,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段分析无产阶级在民族危机中被爱国主义幻想蒙蔽，未能认清资产阶级政府的背叛本质，并以布朗基为例说明这种思想的影响。",
+    "importance_score": 2,
+    "importance_reason": "本段通过具体历史情境，例证了前段提出的无产阶级在民族解放与阶级解放双重任务中面临的困境。",
+    "argument_role": "example",
+    "argument_link": "本段承接上段关于无产阶级双重任务的论述，通过具体历史情境展示这种任务在实践中如何因爱国主义幻想而受阻。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "布朗基",
+      "their_view": "布朗基认为无产阶级应当响应资产阶级“祖国在危险中”的号召，在其领导下争取民族独立。",
+      "author_response": "列宁指出，这种爱国主义幻想使无产阶级未能认清资产阶级政府背叛人民的本质。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high",
+      "source_basis": "text_evidence"
+    },
+    "sentences": [
+      {
+        "sid": "p3s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p3s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p3s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p3s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p3s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "布朗基",
+            "type": "person",
+            "modern": "法国19世纪革命家，主张通过密谋夺取政权",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "祖国在危险中！",
+            "type": "slogan",
+            "modern": "法国大革命时期民族危机口号，被资产阶级用于号召团结",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 6,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段以反讽手法，揭露普鲁士国王霍亨索伦一年前对结社和集会权利的保证与现实的矛盾。",
+    "importance_score": 2,
+    "importance_reason": "本段通过反讽，直接批判国王承诺的虚伪，支撑前文对法律限制的揭露。",
+    "argument_role": "continues",
+    "argument_link": "本段承接上段对俱乐部活动和集会限制的描述，以反讽方式点明国王承诺与现实的背离。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "霍亨索伦",
+      "their_view": "国王保证建立结社和集会的权利，以显示其开明和守信。",
+      "author_response": "马克思讽刺国王的保证是空话，实际法律限制使权利无法行使。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p6s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

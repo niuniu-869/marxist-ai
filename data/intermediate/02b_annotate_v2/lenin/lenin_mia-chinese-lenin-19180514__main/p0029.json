@@ -1,0 +1,161 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 29,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段分析乌克兰和格鲁吉亚的复杂局势，指出苏维埃政权面临的挑战和局部停战的局限性，并预判高加索孟什维克政权的失败。",
+    "importance_score": 2,
+    "importance_reason": "本段通过乌克兰和格鲁吉亚的具体例证，支撑了列宁关于国际形势复杂性和苏维埃政权韧性的核心论点。",
+    "argument_role": "continues",
+    "argument_link": "本段承接上一段对德国在乌克兰行动的分析，进一步阐述该行动造成的复杂后果，并将分析扩展到格鲁吉亚，以说明苏维埃政权面临的普遍挑战。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_density",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "乌克兰拉达与盖特曼政权",
+        "explain": "拉达是乌克兰的民族主义议会，曾与德国合作。德国扶植的盖特曼政权代表地主利益，取代了拉达。理解这一更迭是理解乌克兰局势的关键。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "高加索孟什维克政府",
+        "explain": "指格鲁吉亚的孟什维克政权，由格格奇柯利、饶尔丹尼亚等人领导。他们反对布尔什维克，寻求与德国或土耳其结盟，是苏维埃政权在高加索的主要对手。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "策列铁里与土耳其军队",
+        "explain": "策列铁里是孟什维克领袖之一。此处指他领导的格鲁吉亚孟什维克政府借助土耳其军队对抗布尔什维克，是其寻求外部势力干预的例证。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p29s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p29s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p29s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p29s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p29s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "拉达",
+            "type": "org",
+            "modern": "1917年在乌克兰成立的民族主义议会，曾与德国合作，后被德国扶植的政权取代。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p29s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p29s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p29s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p29s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p29s10",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p29s11",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p29s12",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p29s13",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 2,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "hs:claim_5gram_with_quote",
+        "hs:claim_5gram_with_quote",
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

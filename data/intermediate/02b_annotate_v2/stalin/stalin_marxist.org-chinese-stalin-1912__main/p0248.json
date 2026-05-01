@@ -1,0 +1,101 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 248,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "斯大林通过对比崩得对犹太语言权的特殊强调与对共同权利的忽视，揭露其民族主义立场的实质。",
+    "importance_score": 2,
+    "importance_reason": "本段是核心批判的一部分，具体展示崩得纲领如何将民族特殊利益置于无产阶级共同利益之上。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对崩得选举策略的批评，进一步从纲领层面揭示其民族主义立场的理论表现。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "崩得",
+      "their_view": "犹太工人应首先为本民族的特殊权利（如犹太语言权）而斗争，各民族共同的普遍权利斗争是次要的。",
+      "author_response": "斯大林指出，这种立场实质上是将民族特殊利益凌驾于无产阶级共同的阶级利益之上，破坏了各民族工人的团结。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p248s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "犹太语权",
+            "type": "slogan",
+            "modern": "崩得纲领中强调的、优先于其他民族共同权利的犹太民族语言权利。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p248s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "为本族语言而斗争",
+            "type": "program_clause",
+            "modern": "崩得主张的行动纲领，要求各民族工人优先为本民族语言权利奋斗。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p248s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p248s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "被压迫民族",
+            "type": "concept",
+            "modern": "在沙皇俄国等多民族国家中，受主体民族压迫的少数民族。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "class_marxist"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 3,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

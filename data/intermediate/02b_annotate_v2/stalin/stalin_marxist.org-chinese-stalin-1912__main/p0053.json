@@ -1,0 +1,73 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 53,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段引用鲍威尔关于犹太人民族的论断，并以地理和语言分散的犹太人群体为例，通过反问质疑其民族联系，以此反驳唯心主义民族定义。",
+    "importance_score": 3,
+    "importance_reason": "本段是斯大林反驳鲍威尔民族理论的核心例证，直接挑战论敌前提。",
+    "argument_role": "continues",
+    "argument_link": "上段提出民族共同体需共同地域和语言，本段以犹太人具体例子延续这一质疑，针对鲍威尔观点展开反驳。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "鲍威尔",
+      "their_view": "犹太人是个民族，尽管他们没有共同的语言。",
+      "author_response": "通过举例分散的犹太人群体，质疑他们如何能有共同命运和民族联系。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p53s1",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": [
+          {
+            "surface": "鲍威尔",
+            "type": "person",
+            "modern": "奥·鲍威尔，奥地利社会民主党理论家，唯心主义民族理论代表",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "民族",
+            "type": "concept",
+            "modern": "马克思主义语境下指基于共同地域、语言等物质条件形成的人们共同体",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "nation_marxist_theory"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

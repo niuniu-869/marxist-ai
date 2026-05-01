@@ -1,0 +1,101 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 389,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段通过对比列宁的建党原则与孟什维克的建党方案，论证党必须是组织严密的整体，而非松散的同情者联盟。",
+    "importance_score": 2,
+    "importance_reason": "支撑了前一段关于党是工人阶级有组织部队的论点，具体阐释了列宁主义建党原则的组织形态，并批判了对立方案。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段关于党是工人阶级有组织部队的论断，具体阐述这一原则在党章中的体现，并通过批判孟什维克方案来巩固该原则。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "孟什维克与1903年",
+        "explain": "孟什维克是1903年俄国社会民主工党第二次代表大会上形成的少数派，主张通过议会斗争和民主革命逐步过渡到社会主义，与主张先锋队和武装起义的布尔什维克对立。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "孟什维克",
+      "their_view": "党员资格应扩大到所有给予援助的同情者，无需加入党的任何具体组织，以此建立一个广泛的、界限模糊的政党。",
+      "author_response": "这种方案会使党丧失严密的组织性，沦为沉没在同情者大海中的松散机构，无法承担起将无组织群众提升到先进部队水平的任务。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p389s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "党章第一条",
+            "type": "program_clause",
+            "modern": "俄国社会民主工党（布）党章中规定党员必须隶属于某个基层组织的条款。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p389s2",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": [
+          {
+            "surface": "孟什维克",
+            "type": "org",
+            "modern": "1903年俄国社会民主工党分裂后形成的派别，主张温和的议会斗争路线。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "自行列名入党",
+            "type": "slogan",
+            "modern": "孟什维克主张的建党方式，允许个人自行宣布入党，无需经过组织程序。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p389s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "机会主义",
+            "type": "concept",
+            "modern": "在马克思主义语境中，指背离革命原则、主张妥协与改良的思潮。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "opportunism_general"
+          }
+        ]
+      },
+      {
+        "sid": "p389s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  }
+}

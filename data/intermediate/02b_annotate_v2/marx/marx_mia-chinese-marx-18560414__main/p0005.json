@@ -1,0 +1,100 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 5,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "指出社会革命的根源在于生产力发展而非政治事件，但人们往往意识不到这种压力。",
+    "importance_score": 2,
+    "importance_reason": "用技术革命类比，说明社会变革的深层动力常被忽视。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对1848年革命的评价，转而指出更深层的革命动力。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "rhetorical",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "巴尔贝斯、拉斯拜尔、布朗基",
+        "explain": "他们是1848年法国二月革命中的激进派领袖，代表了当时以政治行动推动变革的典型人物。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p5s2",
+        "quote": "蒸汽、电力和自动纺机甚至是比巴尔贝斯、拉斯拜尔和布朗基诸位公民更危险万分的革命家。",
+        "trigger": "rhetorical",
+        "reader_block": "将技术称为“革命家”是隐喻，读者可能不理解这种比较的含义，以及为何技术比政治人物更“危险”。",
+        "parse": {
+          "claim": "生产力领域的技术变革，比那些以政治行动著称的个人，更能从根本上动摇旧社会。",
+          "qualifiers": "在“危险”程度上进行比较，强调技术变革的颠覆性。",
+          "contrast_or_target": ""
+        },
+        "why": {
+          "relation": "example",
+          "explanation": "用蒸汽、电力等技术作为例子，具体说明上一句提出的“社会革命并非新东西”的论点，即革命动力源于生产力发展。"
+        },
+        "implication": "社会变革的根本动力在于生产方式的革新，而非少数政治活动家的行动。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p5s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p5s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p5s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p5s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 1,
+        "hs_kept": 1,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_person_13>12"
+      ]
+    }
+  ]
+}

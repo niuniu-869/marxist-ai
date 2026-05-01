@@ -1,0 +1,66 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 81,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "马克思指出，技术进步本应增加闲暇时间，但工人劳动时长反而增加，揭示了生产力提高与工人处境改善之间的矛盾。",
+    "importance_score": 2,
+    "importance_reason": "本段用具体数据和反差，支撑了对国民经济学关于生产力进步必然惠及工人的批判。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对国民经济学将工人视为牲畜的批判，本段用生产力提高与工人劳动时间增加的矛盾事实，具体展示这种“牲畜”处境。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "allusion",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "allusion",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "老克伦纳士典故",
+        "explain": "克洛诺斯（老克伦纳士）是希腊神话中的泰坦神，推翻了其父乌拉诺斯，后被其子宙斯推翻。马克思用此比喻生产力发展的原始、野蛮阶段。",
+        "why_needed": "allusion",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p81s1",
+        "quote": "但是，在我们甚至从老克伦纳士自己领域中夺得的虏获物的分配方面，仍然取决于像掷骰子游戏那样的盲目的、不公正的偶然性。",
+        "trigger": "allusion",
+        "reader_block": "“老克伦纳士”是希腊神话人物，读者不知其指代什么，导致无法理解“从其领域夺得的虏获物”这一比喻。",
+        "parse": {
+          "claim": "即便在生产力已高度发展的领域，其成果的分配方式依然毫无规律、极不公平。",
+          "qualifiers": "限定于“老克伦纳士自己领域”，即生产力已取得巨大进步的生产部门。",
+          "contrast_or_target": "国民经济学可能认为生产力进步会自然带来普遍福祉。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "用神话典故比喻生产力发展的原始阶段，以此反驳国民经济学关于生产力进步必然改善工人处境的隐含前提，指出分配环节的非理性。"
+        },
+        "implication": "生产力发展本身并不能解决分配不公的问题，后者由社会关系决定。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "国民经济学",
+      "their_view": "生产力的提高和机器的改进，会自然地减少满足社会物质需求所需的时间，从而为所有人的精神发展创造余暇。",
+      "author_response": "马克思用工厂中工人劳动时间反而增加的事实，揭露了这种理论预期与资本主义现实之间的尖锐矛盾。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p81s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  }
+}

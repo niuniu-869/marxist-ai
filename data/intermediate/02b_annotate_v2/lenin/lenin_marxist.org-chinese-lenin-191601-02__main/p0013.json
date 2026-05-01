@@ -1,0 +1,113 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 13,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁界定民族自决权的政治内涵，澄清其与分离、联邦制的关系，以反驳相关误解。",
+    "importance_score": 3,
+    "importance_reason": "本段是对核心概念“民族自决权”的明确界定，是全文论证的基石，直接针对论敌的曲解。",
+    "argument_role": "definition",
+    "argument_link": "上段引入自决权与联邦制的关联，本段则具体界定自决权的政治含义，并厘清其与分离、联邦制的逻辑关系。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "马克思论爱尔兰与英国联邦",
+        "explain": "马克思在19世纪支持爱尔兰脱离英国独立，但认为独立后与英国结成联邦，比在英国暴力统治下更好。列宁引用此例，说明支持自决权与主张联邦制可以并存。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p13s4",
+        "quote": "一个国家的民主制度同分离的完全自由愈接近，在实际上要求分离的愿望也就愈少愈弱，因为无论从经济发展或群众利益来看，大国家的好处是不容置疑的，而且这些好处会随着资本主义的发展而日益增多，承认自决并不等于承认联邦制这个原则。",
+        "trigger": "inverted_logic",
+        "reader_block": "读者可能认为给予分离自由会鼓励分离，但列宁论证了相反的逻辑：自由越充分，分离动机反而越弱，因为大国有经济优势。",
+        "parse": {
+          "claim": "赋予各民族自由分离的权利，实际上会削弱而非增强其分离意愿，因为大经济体量带来的利益是客观存在的。",
+          "qualifiers": "此效应的前提是国家的民主制度足够完善，且资本主义发展能持续带来大国家的经济优势。",
+          "contrast_or_target": "针对那些认为承认自决权必然导致国家分裂或必须接受联邦制的观点。"
+        },
+        "why": {
+          "relation": "continues",
+          "explanation": "承接上句对自决权的定义，进一步阐释该权利在实践中的辩证效果，即权利保障本身会消解其被滥用的基础。"
+        },
+        "implication": "社会主义政党要求自决权，不是为了制造分裂，而是为了在平等基础上巩固自愿的联合。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p13s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p13s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p13s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p13s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p13s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p13s6",
+        "speaker": "quoted_marx",
+        "stance": "endorsed",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 1,
+        "hs_dropped": 1,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote",
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

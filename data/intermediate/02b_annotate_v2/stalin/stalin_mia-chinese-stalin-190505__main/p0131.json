@@ -1,0 +1,55 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 131,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "作者以反问形式直接质问经济派成员是否理解马克思主义的实质。",
+    "importance_score": 1,
+    "importance_reason": "作为对前文论敌指责的回应，开启对经济派理论错误的批判。",
+    "argument_role": "transition",
+    "argument_link": "从批判伯恩施坦的追随者转向直接挑战经济派，为后续论证其理论脱离马克思主义做铺垫。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "经济派",
+      "their_view": "经济派认为工人运动可以自发地达到社会主义目标，无需社会民主党灌输社会主义意识。",
+      "author_response": "作者通过反问指出经济派对马克思主义的理解存在根本缺陷，其理论脱离了科学社会主义。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p131s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 25,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "论证法国工人阶级在保皇派威胁下支持共和派的合理性，并反驳相关批评。",
+    "importance_score": 2,
+    "importance_reason": "为上一段关于保存共和政府必要性的结论提供具体例证和策略辩护。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于法国政治反动的分析，具体说明工人阶级在此形势下的行动选择及其逻辑。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "1877年5月16日事件",
+        "explain": "指1877年5月16日法国保皇派（正统派、奥尔良派、波拿巴派）联合发动政治阴谋，试图推翻共和制、恢复君主制。这一事件是理解本段工人阶级反应的关键背景。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p25s4",
+        "quote": "为了争取自己的政治独立，工人阶级如果不去支持那有义务保证全体人民因而也保证工人得到建立独立组织的自由的唯一政党，它又能做什么呢？",
+        "trigger": "inverted_logic",
+        "reader_block": "嵌套的条件反问句，逻辑链条较长：支持某政党→该政党保障自由→自由是工人独立的前提。读者易迷失于“有义务保证”这一抽象表述。",
+        "parse": {
+          "claim": "支持那个唯一有责任维护全体人民（包括工人）结社与组织自由的政党，是工人阶级为自身争取政治独立所必须采取的步骤。",
+          "qualifiers": "前提是该政党（指共和派）负有保障全体人民自由的义务。",
+          "contrast_or_target": "反驳认为工人阶级应完全独立行动、不应与任何资产阶级政党合作的观点。"
+        },
+        "why": {
+          "relation": "example",
+          "explanation": "进一步从争取长期政治独立的角度，论证当前支持共和派的策略合理性，将短期合作与长期目标联系起来。"
+        },
+        "implication": "工人阶级的政治独立需要以普遍的民主自由为前提，而这一前提需要通过与特定政党合作来维护。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "批评工人阶级在选举中未提出自己候选人的论者",
+      "their_view": "工人阶级在选举中应当提出属于本阶级的独立候选人，而不是支持资产阶级政党。",
+      "author_response": "在当时法国，工人阶级因公社失败后遭受严厉镇压，缺乏在本阶级内有足够知名度和影响力的候选人，因此独立参选不具现实可行性。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p25s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p25s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p25s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p25s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p25s5",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p25s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p25s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "公社",
+            "type": "event",
+            "modern": "1871年巴黎公社革命",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p25s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 1,
+        "hs_kept": 1,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_5gram_with_surface",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 82,
+  "annotation": {
+    "block_type": "quote_block",
+    "gist": "本段直接引用门格尔的激烈指控，声称马克思和恩格斯长期隐瞒并错误引用其理论的真正来源。",
+    "importance_score": 1,
+    "importance_reason": "展示论敌门格尔对马克思和恩格斯的具体指控内容，为后续的反驳提供靶子。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段对门格尔指控的引用，进一步具体化其指控的细节和情绪化表达。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "allusion",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "allusion",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "埃吉丽亚典故",
+        "explain": "埃吉丽亚是古罗马神话中的泉水仙女与智慧女神，传说曾为努马王提供立法建议。门格尔用此比喻马克思理论的真正来源（他声称的英国社会主义者），指责马克思将其视为秘密并错误引用。",
+        "why_needed": "allusion",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p82s1",
+        "quote": "马克思不但40年来对他的这个秘密的埃吉丽亚守口如瓶，他还要错误地引用它！",
+        "trigger": "allusion",
+        "reader_block": "读者可能不熟悉“埃吉丽亚”这个古典典故，不知道它在此比喻马克思理论的真正来源，导致无法理解“守口如瓶”和“错误引用”的具体指控对象。",
+        "parse": {
+          "claim": "门格尔指控马克思不仅长期隐瞒其理论的真正来源，还持续地对相关文献进行错误引用。",
+          "qualifiers": "指控的时间跨度为四十年。",
+          "contrast_or_target": "门格尔认为马克思的剩余价值理论并非独创，而是来源于英国社会主义者（如汤普森），马克思却对此来源讳莫如深并加以歪曲。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "这是门格尔对马克思学术诚信和理论原创性的核心攻击，用文学典故强化其指控的严重性。"
+        },
+        "implication": "门格尔试图通过此指控，削弱马克思理论的权威性和独创性，为其“法学社会主义”主张扫清障碍。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "门格尔",
+      "their_view": "马克思不仅长期隐瞒其理论的真正来源（即英国社会主义者），还四十年来持续地对这些来源文献进行错误引用，恩格斯也参与其中，这构成了一桩卑鄙的学术预谋。",
+      "author_response": "这是门格尔对马克思和恩格斯的诬陷，旨在否定剩余价值理论的独创性，并为其用法学观点改造社会主义的主张服务。",
+      "polemic_kind": "counter_quotation",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p82s1",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": [
+          {
+            "surface": "埃吉丽亚",
+            "type": "metaphor",
+            "modern": "古罗马神话中的智慧仙女，门格尔用此比喻马克思理论的真正来源（他所指的英国社会主义者）。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p82s2",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p82s3",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p82s4",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      }
+    ]
+  }
+}

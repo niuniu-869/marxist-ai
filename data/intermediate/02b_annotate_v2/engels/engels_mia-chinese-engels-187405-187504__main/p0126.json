@@ -1,0 +1,98 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 126,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "恩格斯以反问和讽刺回应特卡乔夫关于立即起义的言论，并引出其宣言中对革命后制度的描绘，为后续批判做铺垫。",
+    "importance_score": 2,
+    "importance_reason": "本段承接上文对特卡乔夫言论的引用，通过反讽强化批判，并引出其纲领性文件，是核心批判的过渡与例证。",
+    "argument_role": "continues",
+    "argument_link": "本段直接承接上一段对特卡乔夫反对文字宣传、主张立即革命言论的引用，通过反问和讽刺对其言论定性，并引出其更具体的纲领描绘。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "特卡乔夫",
+      "their_view": "主张立即举行起义，认为文字宣传是多余的，并对革命成功后的社会制度提出了具体的设想。",
+      "author_response": "将这种主张斥为幼稚的大话，认为其在空想方面已登峰造极，并准备揭露其纲领中的具体内容。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p126s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p126s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "登峰造极",
+            "type": "metaphor",
+            "modern": "形容特卡乔夫在空想革命方面达到了顶点。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p126s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p126s4",
+        "speaker": "editor",
+        "stance": "neutral_citation",
+        "notes": []
+      },
+      {
+        "sid": "p126s5",
+        "speaker": "editor",
+        "stance": "neutral_citation",
+        "notes": [
+          {
+            "surface": "社会革命",
+            "type": "concept",
+            "modern": "在本文语境下，特卡乔夫所指的是一种由少数密谋者发动的、旨在推翻现存制度的暴力变革。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "revolution_brownigist"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

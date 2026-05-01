@@ -1,0 +1,66 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 178,
+  "annotation": {
+    "block_type": "quote_block",
+    "gist": "马克思引用西斯蒙第的话，通过反讽揭露国民经济学将人口视为无关紧要的生产要素的荒谬逻辑。",
+    "importance_score": 2,
+    "importance_reason": "通过引用和反讽，具体化对国民经济学将人工具化的批判，是核心论证的例证环节。",
+    "argument_role": "example",
+    "argument_link": "承接上段李嘉图的观点，用西斯蒙第的讽刺进一步揭露国民经济学的非人化逻辑。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "rhetorical",
+      "needs_polemic": true,
+      "polemic_reason": "refute_quotation"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "西斯蒙第",
+        "explain": "19世纪初瑞士经济学家，小资产阶级社会主义者，批判资本主义生产过剩，主张回到小生产。马克思在此引用他的话来讽刺国民经济学。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p178s1",
+        "quote": "“真的，就只能盼望国王孤伶伶地住在自己的岛上，不断地转动把手，通过自动机来完成英国的全部工作了。”",
+        "trigger": "rhetorical",
+        "reader_block": "反讽句，读者可能误以为这是西斯蒙第的正面主张，实际是讽刺国民经济学逻辑的极端推论。",
+        "parse": {
+          "claim": "国民经济学的逻辑推到极致，就是用机器完全取代人口，国家只需一个统治者操作机器。",
+          "qualifiers": "",
+          "contrast_or_target": "国民经济学认为，只要资本收益不变，雇佣工人数量或国家人口多少都无关紧要。"
+        },
+        "why": {
+          "relation": "example",
+          "explanation": "用夸张的讽刺场景，揭露将人视为生产要素的逻辑终点是人的完全多余。"
+        },
+        "implication": "这种逻辑否定了人的社会性和主体性。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "国民经济学",
+      "their_view": "国民经济学认为，只要资本收益不变，雇佣工人数量或国家人口多少都无关紧要。",
+      "author_response": "马克思通过西斯蒙第的讽刺，揭露这种观点将人彻底工具化，导向一个无需人口的荒谬社会图景。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p178s1",
+        "speaker": "quoted_opponent",
+        "stance": "endorsed",
+        "notes": []
+      }
+    ]
+  }
+}

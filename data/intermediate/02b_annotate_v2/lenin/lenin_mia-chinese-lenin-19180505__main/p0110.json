@@ -1,0 +1,62 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 110,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "作者对“左派共产主义者”关于铁路法令的批评进行定性，将其归为空谈。",
+    "importance_score": 2,
+    "importance_reason": "对论敌批评的定性，支撑了作者关于“左派”幼稚性的核心论点。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对“左派”批评铁路法令却提不出修正方案的揭露，直接给这种批评贴上标签。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "allusion",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "“左派共产主义者”",
+      "their_view": "铁路法令本身存在问题，需要进行修正。",
+      "author_response": "这种批评是脱离实际的空谈，觉悟的工人不会认可。",
+      "polemic_kind": "strategic_critique",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p110s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p110s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_archaic_5>4",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

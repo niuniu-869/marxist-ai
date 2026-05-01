@@ -1,0 +1,70 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 113,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "描述上西里西亚农村劳动者所受的残酷待遇，以鞭子作为其压迫的象征。",
+    "importance_score": 1,
+    "importance_reason": "对前文描述的农村剥削状况进行具体化补充，属于例证性内容。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对业主与短工贫困状况的描述，进一步揭示农村劳动者所受的具体人身压迫。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p113s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p113s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "鞭子",
+            "type": "metaphor",
+            "modern": "此处用作暴力强制与人身奴役的象征，指代整个封建压迫体系。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

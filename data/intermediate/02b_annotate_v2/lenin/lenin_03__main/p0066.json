@@ -1,0 +1,157 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 66,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁以德国工人斗争为例，说明无产阶级在内战时期应优先解决生存问题，并反驳考茨基对此的抽象批评。",
+    "importance_score": 2,
+    "importance_reason": "通过具体案例（德国）反驳考茨基的抽象理论，支撑前文对教条主义的批判。",
+    "argument_role": "example",
+    "argument_link": "承接上段对考茨基教条主义的批判，以德国工人斗争的实际状况作为例证，具体展示考茨基理论脱离现实。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_density",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "谢德曼与诺斯克",
+        "explain": "德国社会民主党右翼领袖。1918年德国革命后，谢德曼任临时政府总理，诺斯克任国防部长。他们镇压了斯巴达克同盟起义，并下令杀害了李卜克内西和卢森堡。",
+        "why_needed": "history_density",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "李卜克内西与卢森堡",
+        "explain": "德国共产党（斯巴达克同盟）创始人。1919年1月柏林起义失败后，二人被谢德曼-诺斯克政府逮捕并杀害。",
+        "why_needed": "history_density",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "考茨基的批评",
+        "explain": "考茨基批评德国工人在内战中优先要求“有饭吃”是“士兵的或消费者的共产主义”，主张应首先“发展生产”。列宁在此引用并反驳这一观点。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "考茨基",
+      "their_view": "德国工人在内战中优先要求解决吃饭问题是“士兵的或消费者的共产主义”，是短视的；正确的做法应该是首先致力于发展生产。",
+      "author_response": "列宁通过描述德国工人面临的生死斗争（谢德曼和诺斯克的镇压、同志被杀），指出在内战时期，生存问题是首要的、压倒一切的现实任务，考茨基的“发展生产”论调脱离了这一阶级斗争的现实。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p66s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p66s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "谢德曼和诺斯克",
+            "type": "person",
+            "modern": "德国社会民主党右翼领袖，1918-1919年镇压德国革命的主要责任人。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p66s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "李卜克内西",
+            "type": "person",
+            "modern": "德国共产党创始人之一，1919年1月被谢德曼-诺斯克政府杀害。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "罗莎·卢森堡",
+            "type": "person",
+            "modern": "德国共产党创始人之一，与李卜克内西同时遇害。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p66s4",
+        "speaker": "quoted_opponent",
+        "stance": "cited",
+        "notes": []
+      },
+      {
+        "sid": "p66s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p66s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p66s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p66s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p66s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p66s10",
+        "speaker": "quoted_opponent",
+        "stance": "cited",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 3,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

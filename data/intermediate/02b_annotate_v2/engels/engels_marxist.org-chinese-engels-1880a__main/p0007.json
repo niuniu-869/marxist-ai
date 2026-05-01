@@ -1,0 +1,73 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 7,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段叙述马克思与恩格斯参与创建一个国际性政治组织，该组织吸引了不同阶级背景的成员。",
+    "importance_score": 1,
+    "importance_reason": "本段提供马克思与恩格斯早期政治活动的具体细节，为理解他们的实践参与补充背景信息。",
+    "argument_role": "continues",
+    "argument_link": "本段承接上文关于布鲁塞尔合作的叙述，具体说明他们建立的组织及其成员构成。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "布鲁塞尔民主协会",
+        "explain": "该协会是1847年在布鲁塞尔成立的国际性政治组织，旨在推动民主改革，成员包括不同阶级的代表，是当时欧洲民主运动的一部分。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p7s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "布鲁塞尔民主协会",
+            "type": "org",
+            "modern": "1847年成立于布鲁塞尔的国际性政治组织，旨在促进民主运动，成员跨越阶级界限。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 2,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

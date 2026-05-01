@@ -1,0 +1,165 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 408,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段从社会主义视角出发，论证了人与自然界的实在性如何消解了对超自然存在的信仰，并界定了无神论、社会主义与共产主义三者的理论关系。",
+    "importance_score": 3,
+    "importance_reason": "核心论断段落，集中阐述了马克思对社会主义、无神论与共产主义关系的早期理论构想，是理解其从哲学批判转向政治经济学批判的关键环节。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段关于自然界形成过程的讨论，将论证从自然观推进到历史观与社会形态的界定，提出社会主义作为新世界观的理论基础。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "社会主义的早期含义",
+        "explain": "在1844年，社会主义主要指圣西门、傅立叶等人的空想社会主义学说，强调社会改造与合作，但尚未形成科学的阶级分析与革命理论。马克思在此处赋予其新的哲学基础。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "无神论与费尔巴哈",
+        "explain": "费尔巴哈的《基督教的本质》（1841）将宗教归结为人的本质的异化，其无神论是通过否定神来肯定人。马克思在此基础上，试图超越这种需要“中介”的否定。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "否定的否定",
+        "explain": "黑格尔辩证法的核心概念，指事物发展经过肯定、否定、否定之否定三个环节，达到更高统一。马克思借用此术语描述共产主义对私有制的扬弃过程。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p408s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p408s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p408s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "无神论",
+            "type": "concept",
+            "modern": "在费尔巴哈哲学中，指通过否定神来肯定人的哲学立场。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "atheism_feuerbachian"
+          }
+        ]
+      },
+      {
+        "sid": "p408s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p408s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p408s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "社会主义",
+            "type": "concept",
+            "modern": "此处指马克思赋予新哲学基础的、超越空想社会主义的理论形态。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "socialism_early_marx"
+          },
+          {
+            "surface": "共产主义",
+            "type": "concept",
+            "modern": "此处指作为对私有财产扬弃的现实运动与社会形态。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "communism_early_marx"
+          }
+        ]
+      },
+      {
+        "sid": "p408s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "否定的否定",
+            "type": "concept",
+            "modern": "黑格尔辩证法术语，指事物经过两次否定后达到更高阶段的肯定。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "negation_of_negation_hegelian"
+          }
+        ]
+      },
+      {
+        "sid": "p408s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p408s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 4,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 2,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

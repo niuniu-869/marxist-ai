@@ -1,0 +1,85 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 13,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "通过引用并反驳马尔丁诺夫的话，指出其混淆了无产阶级参与民主革命政权与社会主义革命政权的根本区别。",
+    "importance_score": 3,
+    "importance_reason": "核心批判段落，直接针对论敌的理论前提，揭示其混淆不同性质革命的错误。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对马尔丁诺夫和新火星派倒退立场的批评，本段具体剖析其理论错误的核心：混淆民主革命与社会主义革命的界限。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "allusion",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "米勒兰入阁事件",
+        "explain": "1899年，法国社会主义者米勒兰加入资产阶级共和派瓦尔德克-卢梭内阁，引发国际社会主义运动大论战，被视为机会主义的典型。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "巴黎公社与瓦尔兰",
+        "explain": "1871年巴黎公社是无产阶级建立政权的首次尝试。瓦尔兰是公社的主要领导人之一，后被凡尔赛政府军杀害。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p13s3",
+        "quote": "这正如把米勒兰参加刽子手加利费内阁同瓦尔兰参加始终保卫共和国的公社混为一谈一样。",
+        "trigger": "allusion",
+        "reader_block": "读者不熟悉米勒兰事件和巴黎公社的具体历史，无法理解这个类比所要论证的“混淆不同性质政权”的严重性。",
+        "parse": {
+          "claim": "将无产阶级参与民主革命政权与参与社会主义革命政权等同，其荒谬性，等同于将机会主义者加入镇压无产阶级的资产阶级政府，与革命者建立无产阶级政权混为一谈。",
+          "qualifiers": "此比较旨在说明两种“参与”在阶级性质和革命目标上存在根本对立。",
+          "contrast_or_target": "马尔丁诺夫认为无产阶级在社会主义革命前不能掌握任何政权，列宁则认为可以参与民主革命政权。"
+        },
+        "why": {
+          "relation": "example",
+          "explanation": "用一个具体的历史类比，形象地说明马尔丁诺夫观点的错误所在，即把性质完全相反的两件事等同起来。"
+        },
+        "implication": "这个类比强化了列宁的核心论点：必须区分资产阶级民主革命和无产阶级社会主义革命，无产阶级在前者中可以且应该争取领导权。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "马尔丁诺夫",
+      "their_view": "在无产阶级没有实行社会主义革命以前，国家政权，整个的也好，部分的也好，它都不能得到。",
+      "author_response": "列宁指出，这种观点根本不懂得问题的实质，因为它把无产阶级参加反抗社会主义变革的政权与参加民主主义革命混为一谈。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p13s1",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p13s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p13s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 77,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁反驳新生活派对政治力量的误判，定义何为真正“活跃的”革命力量，并指出左翼小资产阶级民主派的壮大是无产阶级未脱离群众的标志。",
+    "importance_score": 2,
+    "importance_reason": "核心段落，通过定义“活跃的力量”来反驳新生活派的悲观论调，并为论证布尔什维克能保持政权提供阶级分析依据。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对“僵死的力量”的判断，具体阐述何为“活跃的”力量，并以此反驳新生活派的错误认知。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "新生活派",
+        "explain": "1917年俄国孟什维克中的一个派别，以《新生活报》为阵地，主张与资产阶级合作，对革命持悲观态度。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "七月反革命事变",
+        "explain": "指1917年7月，俄国临时政府镇压彼得格勒工人和士兵的武装示威，并通缉列宁等布尔什维克领袖的事件。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "联合",
+        "explain": "指二月革命后，孟什维克和社会革命党与资产阶级政党（如立宪民主党）组成联合政府，列宁视之为对革命的背叛。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "新生活派",
+      "their_view": "社会革命党人和孟什维克的右翼（如《人民意志报》和《统一报》）是“活跃的”力量。",
+      "author_response": "列宁认为，真正的活跃力量是那些与群众而非富农有联系，并从联合政府的教训中吸取经验、抛弃联合路线的力量。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p77s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "新生活派",
+            "type": "org",
+            "modern": "1917年俄国孟什维克中的一个派别，以《新生活报》为阵地，主张与资产阶级合作。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "活跃的力量",
+            "type": "concept",
+            "modern": "列宁在此特指具有革命主动性和群众基础的政治力量，与“僵死的力量”相对。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "revolutionary_force"
+          }
+        ]
+      },
+      {
+        "sid": "p77s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p77s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p77s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "七月反革命事变",
+            "type": "event",
+            "modern": "1917年7月，俄国临时政府镇压彼得格勒工人和士兵示威，并通缉布尔什维克领袖的事件。",
+            "highlight": "event",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 3,
+        "notes_dropped": 2,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "note:n1_overflow_concept_8>5",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

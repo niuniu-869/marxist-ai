@@ -1,0 +1,190 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 154,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段将巴黎公社与凡尔赛政府进行对比，将后者描绘为由旧制度残余组成的、依靠暴力维持的反动议会。",
+    "importance_score": 3,
+    "importance_reason": "本段是作者对凡尔赛政府的直接批判，揭示了其阶级本质和反动性，是全文论证的重要组成部分。",
+    "argument_role": "contrasts",
+    "argument_link": "本段与上段形成鲜明对比，上段描绘巴黎的革命精神，本段则揭露凡尔赛的反动本质，强化了新旧世界的对立。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_density",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "allusion",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "正统派与奥尔良派",
+        "explain": "法国历史上的两大保王派系。正统派支持波旁王朝长支复辟，奥尔良派支持路易·菲利普的七月王朝。两者在1848年革命后都反对共和制。",
+        "why_needed": "history_density",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "共和派",
+        "explain": "指1848年革命后主张建立共和国的政治派别，但内部成分复杂。此处特指那些在普法战争后支持国防政府、反对巴黎公社的温和共和派。",
+        "why_needed": "history_density",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "Jeu de Paume",
+        "explain": "巴黎凡尔赛宫内的网球场。1789年法国大革命初期，第三等级代表在此宣誓，是革命起源的象征性地点。马克思用此典故讽刺凡尔赛议会。",
+        "why_needed": "history_density",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p154s2",
+        "quote": "看看这个旧世界吧——这是个由来自所有死亡了的旧体制的食尸鬼组成的议会。",
+        "trigger": "allusion",
+        "reader_block": "“食尸鬼”是强烈隐喻，读者可能不理解其具体指代对象（哪些政客）以及“死亡了的旧体制”具体指法国哪些历史时期。",
+        "parse": {
+          "claim": "凡尔赛议会的成员是那些从法国历史上各种已被推翻的旧政权中幸存下来的政治势力代表。",
+          "qualifiers": "",
+          "contrast_or_target": ""
+        },
+        "why": {
+          "relation": "contrasts",
+          "explanation": "此句与上句“巴黎这个新世界”形成直接对比，用“食尸鬼”这一意象将凡尔赛议会定性为腐朽、反动的旧势力集合体。"
+        },
+        "implication": "凡尔赛政府缺乏历史进步性，其统治基础是过去时代的残渣。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      },
+      {
+        "anchor": "p154s7",
+        "quote": "他们十分可笑地学着1789年的样子，在Jeu de Paume 举行他们的令人毛骨悚然的会议。",
+        "trigger": "allusion",
+        "reader_block": "读者可能不知道“Jeu de Paume”是1789年法国大革命中网球场宣誓的地点，马克思用此典故进行讽刺，其“可笑”与“毛骨悚然”的对比需要解释。",
+        "parse": {
+          "claim": "凡尔赛议会模仿法国大革命初期第三等级在网球场宣誓的形式，但其会议内容和性质却与革命精神背道而驰。",
+          "qualifiers": "",
+          "contrast_or_target": "1789年第三等级代表在网球场宣誓，要求制定宪法，推动革命。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "通过引用大革命典故，讽刺凡尔赛议会徒具革命形式，实则背叛了革命所追求的人民主权原则，揭露其虚伪性。"
+        },
+        "implication": "凡尔赛政府盗用革命符号，却从事反革命活动。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "梯也尔",
+      "their_view": "梯也尔及其政府代表法国旧制度的残余，依靠军事力量维持统治，反对巴黎公社的革命行动。",
+      "author_response": "马克思将凡尔赛政府斥为谎言的化身，认为其统治缺乏合法性，仅靠暴力维持，与代表真理的巴黎公社形成对立。",
+      "polemic_kind": "reveals_class_basis",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p154s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p154s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "食尸鬼",
+            "type": "metaphor",
+            "modern": "马克思用此词形容凡尔赛议会成员，意指他们如同靠吞噬尸体为生的怪物，依附于法国历史上各种已被推翻的旧政权。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p154s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "正统派和奥尔良派",
+            "type": "social_group",
+            "modern": "法国19世纪两大保王派系，分别支持波旁王朝长支和七月王朝，在第二共和国时期联合反对共和制。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p154s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "共和派",
+            "type": "social_group",
+            "modern": "此处特指在普法战争后支持国防政府、反对巴黎公社的温和共和派政治势力。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p154s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p154s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p154s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p154s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p154s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 3,
+        "notes_dropped": 2,
+        "hs_kept": 2,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

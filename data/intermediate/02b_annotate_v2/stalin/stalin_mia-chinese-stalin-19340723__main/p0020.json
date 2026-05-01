@@ -1,0 +1,123 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 20,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "斯大林反驳威尔斯，强调改造世界必须掌握政权，并需要一个能取代资本家阶级的巨大阶级来完成这一事业。",
+    "importance_score": 3,
+    "importance_reason": "本段是斯大林对威尔斯改良主义路线的核心反驳，集中阐述了政权与阶级在历史变革中的决定性作用，是谈话中论证社会主义革命必要性的关键段落。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段对资本家组织能力的讨论，将话题从资本家的能力转向改造世界所必需的政权与阶级力量，指出仅有美好愿望或技术能力不足以完成变革。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p20s1",
+        "quote": "此外，要改造世界，就应该有政权，这一点难道可以忽视吗?威尔斯先生，我觉得你非常低估政权问题，你根本没有想到它。",
+        "trigger": "inverted_logic",
+        "reader_block": "反问句式（“难道可以忽视吗?”）加强了肯定语气，但读者可能不熟悉这种修辞，或误以为是在提问而非强调。",
+        "parse": {
+          "claim": "改造世界必须掌握政权，这是一个不可忽视的根本前提。",
+          "qualifiers": "无。",
+          "contrast_or_target": "威尔斯认为可以通过国家干预和技术知识分子和平过渡，无需强调夺取政权。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "直接针对威尔斯忽视政权问题的倾向，提出改造世界的政治前提，为后续论证阶级力量做铺垫。"
+        },
+        "implication": "任何社会变革若不触及政权更迭，其深度和广度都将受到根本限制。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p20s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p20s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p20s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p20s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p20s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p20s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p20s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p20s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p20s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 1,
+        "hs_dropped": 1,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote",
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

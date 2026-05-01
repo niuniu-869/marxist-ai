@@ -1,0 +1,142 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 8,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "分析可用于建设国家机关的两类人员及其局限性，强调文化修养是必要条件，而非热情或突击。",
+    "importance_score": 2,
+    "importance_reason": "具体阐述了前段提出的“需要时间”的原因，即可用人才的客观局限，是论证改革长期性的核心支撑。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于建立优秀机关需要漫长时间的论断，本段具体分析可用人才的构成与短板，解释为何时间不可或缺。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p8s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p8s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "社会主义",
+            "type": "concept",
+            "modern": "列宁在此指苏维埃政权所要建设的社会形态，是工人奋斗的目标。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "socialism_lenin_context"
+          }
+        ]
+      },
+      {
+        "sid": "p8s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p8s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p8s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p8s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "文化修养",
+            "type": "concept",
+            "modern": "列宁特指管理现代国家机器所需的知识、技能与习惯，是当时俄国工人阶级普遍缺乏的。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "cultural_preparation_for_state"
+          }
+        ]
+      },
+      {
+        "sid": "p8s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "文化",
+            "type": "concept",
+            "modern": "此处与上句“文化修养”同义，强调其作为解决国家机关问题的根本性。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "cultural_preparation_for_state"
+          }
+        ]
+      },
+      {
+        "sid": "p8s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "蛮干或突击",
+            "type": "polemic_ref",
+            "modern": "针对当时党内存在的急躁冒进、试图靠热情和运动快速改变机关面貌的倾向。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p8s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 4,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_social_group_14>12"
+      ]
+    }
+  ]
+}

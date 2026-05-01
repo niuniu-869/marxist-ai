@@ -1,0 +1,159 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 84,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段分析普法战争中法国迅速战败的原因，指出其根源在于路易-拿破仑建立的帝国统治基础腐朽，并描述了该帝国崩溃的戏剧性过程。",
+    "importance_score": 2,
+    "importance_reason": "作为对普法战争进程的具体分析，为后文论证暴力在特定历史阶段的作用提供关键例证。",
+    "argument_role": "example",
+    "argument_link": "承接上段关于外交努力未能阻止战争的叙述，转而从军事进程和国内政治基础角度，具体解释战争为何迅速呈现一边倒的态势。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "施皮歇恩、维尔特、色当战役",
+        "explain": "普法战争初期的三次关键战役。施皮歇恩和维尔特是1870年8月初的边境交战，法军失利；色当战役（9月1-2日）是决定性会战，法军主力被围歼，路易-拿破仑本人被俘。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "路易-拿破仑",
+        "explain": "即拿破仑三世，法兰西第二帝国皇帝（1852-1870）。他是拿破仑一世的侄子，通过政变上台，其统治后期日益依赖官僚和金融集团。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "9月4日革命",
+        "explain": "1870年9月4日，巴黎民众在色当战败消息传来后起义，宣布推翻第二帝国，恢复共和，成立“国防政府”。恩格斯认为这只是清除了帝国崩溃后的残局。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "小德意志帝国",
+        "explain": "指通过普法战争后，由普鲁士主导、排除了奥地利而统一的德意志帝国（1871年成立）。俾斯麦是其主要缔造者。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p84s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "施皮歇恩",
+            "type": "event",
+            "modern": "1870年8月6日普法边境战役，法军首战失利。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "维尔特",
+            "type": "event",
+            "modern": "1870年8月6日普法边境战役，与施皮歇恩同日发生，法军再次败北。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "色当",
+            "type": "event",
+            "modern": "1870年9月1-2日普法战争决定性会战，法军主力被围歼，皇帝被俘。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p84s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "路易-拿破仑",
+            "type": "person",
+            "modern": "法兰西第二帝国皇帝拿破仑三世（1808-1873），在色当战役中被俘。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p84s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p84s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p84s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p84s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "9月4日的革命",
+            "type": "event",
+            "modern": "1870年9月4日巴黎民众起义，推翻第二帝国，宣布成立共和国。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 5,
+        "notes_dropped": 2,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "note:n1_overflow_concept_6>5",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

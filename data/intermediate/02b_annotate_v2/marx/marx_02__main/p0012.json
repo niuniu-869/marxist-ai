@@ -1,0 +1,58 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 12,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "工人以工业发展与工资下降的矛盾，向厂主提出质问，反驳自由贸易能改善工人处境的论调。",
+    "importance_score": 2,
+    "importance_reason": "作为核心论点的支撑环节，通过工人的具体质问，将抽象的经济政策辩论引向对资本主义生产关系的具体揭露。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于谷物税导致工人贫困的结论，转而从工业发展的实际数据出发，向厂主（资产阶级）提出更根本的质问，为下文分析资本主义剥削本质做铺垫。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p12s1",
+        "quote": "工人反过来问厂主们：在最近30年中，我们的工业获得巨大发展，而我们的工资的下降率却大大超过了粮价的上涨率，这又是什么原因呢？",
+        "trigger": "inverted_logic",
+        "reader_block": "这是一个反问句，读者可能只看到表面提问，而忽略其作为反驳论据的尖锐性，即用事实矛盾直接挑战自由贸易派的乐观预言。",
+        "parse": {
+          "claim": "工人指出，在工业大发展的三十年间，工资下降的幅度远大于粮价上涨的幅度，并以此质问厂主造成这种矛盾现象的根源。",
+          "qualifiers": "时间限定为“最近30年中”，即工业革命深入发展的时期。",
+          "contrast_or_target": "自由贸易派认为，废除谷物法、实行自由贸易能带来廉价面包和高工资，从而改善工人处境。"
+        },
+        "why": {
+          "relation": "continues",
+          "explanation": "本句将上段关于“谷物税是工资税”的抽象论断，转化为工人基于自身经历的、针对厂主（资产阶级）的具体质问，使论证从经济政策批判转向对资本主义生产关系本身的质疑。"
+        },
+        "implication": "这一质问预示了下文将揭露资本主义制度下，生产力发展与工人阶级贫困化并存的内在矛盾，而非简单的政策失误。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p12s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  }
+}

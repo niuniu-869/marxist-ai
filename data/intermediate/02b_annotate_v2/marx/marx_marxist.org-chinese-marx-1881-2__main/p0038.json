@@ -1,0 +1,132 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 38,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "马克思以连续反问句式，质疑那些声称农村公社自然衰老的人，揭露其行为与宣称的利益相悖。",
+    "importance_score": 2,
+    "importance_reason": "支撑核心批判，通过反问揭露论敌言行矛盾，强化对“公社自然衰老论”的驳斥。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于公社符合历史方向的论断，转而质问为何公社的受益者反而要摧毁它，从而揭露其虚伪性。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p38s1",
+        "quote": "既然“农村公社”的现状有利于这么多不同的利害关系者，并且特别有利于在亚历山大二世仁慈的统治下成长起来的“社会新栋梁”，那么，为什么他们还合谋要使公社灭亡呢？",
+        "trigger": "inverted_logic",
+        "reader_block": "反问句式，读者需自行推导出“他们实际上在毁灭公社”的结论，且“社会新栋梁”是特定历史称谓。",
+        "parse": {
+          "claim": "那些从农村公社现状中获益的群体，包括在沙皇统治下崛起的新阶层，实际上正在共同行动以摧毁公社。",
+          "qualifiers": "在亚历山大二世统治时期，公社现状对特定群体有利。",
+          "contrast_or_target": "论敌认为公社是自然衰老，马克思则指出其灭亡是受益者主动合谋的结果。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "本句通过反问，直接挑战论敌关于公社“自然衰老”的论断，指出其灭亡是人为的、有目的的行动，揭露论敌掩盖阶级利益的虚伪性。"
+        },
+        "implication": "公社的解体并非自然过程，而是特定阶级利益驱动下的政治行为。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      },
+      {
+        "anchor": "p38s2",
+        "quote": "为什么他们的代言人还把公社所受的创伤说成是公社自然衰老的确凿证据呢？",
+        "trigger": "inverted_logic",
+        "reader_block": "反问句式，且“创伤”与“自然衰老”构成隐喻对立，读者需理解论敌在偷换概念。",
+        "parse": {
+          "claim": "论敌的代言人故意将人为造成的破坏（创伤），歪曲为公社自身生命周期的自然结果（衰老）。",
+          "qualifiers": "论敌代言人对公社现状的解释。",
+          "contrast_or_target": "论敌观点：公社的衰败是其内在自然规律的体现。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "本句进一步揭露论敌的论证手法，即通过重新定义破坏的性质（从人为创伤到自然衰老），来为其消灭公社的主张提供合法性外衣。"
+        },
+        "implication": "论敌的理论服务于其政治目的，即为消灭公社寻找“客观”依据。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "主张农村公社自然衰老、必然解体的论敌代言人",
+      "their_view": "农村公社已经过时，其衰败是自然过程，是历史发展的必然结果，因此应当任其消亡或主动促成其解体。",
+      "author_response": "马克思指出，公社的“创伤”是人为造成的，其“衰老”是论敌的歪曲；那些从公社获益的群体正在合谋毁灭它，这暴露了论敌理论的虚伪性和阶级利益驱动。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p38s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "社会新栋梁",
+            "type": "social_group",
+            "modern": "在沙皇亚历山大二世统治时期，伴随改革而崛起并巩固地位的新兴资产阶级或官僚阶层。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p38s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "自然衰老",
+            "type": "metaphor",
+            "modern": "论敌用以形容公社衰败的术语，意指其符合事物发展的内在规律，非外力所致。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p38s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "下金蛋的母鸡",
+            "type": "metaphor",
+            "modern": "源自伊索寓言，此处比喻农村公社具有持续产出价值（如社会稳定、集体保障）的潜力。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 3,
+        "notes_dropped": 1,
+        "hs_kept": 2,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

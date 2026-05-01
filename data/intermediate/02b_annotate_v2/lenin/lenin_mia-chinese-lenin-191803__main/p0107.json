@@ -1,0 +1,135 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 107,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁论证其党纲草案的理论正确性，强调必须从资本主义发展的总进程出发理解过渡阶段，而非仅关注俄国特殊性。",
+    "importance_score": 3,
+    "importance_reason": "核心论点段落，阐明列宁党纲草案的理论基础，并直接反驳党内其他派别的纲领主张。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对不同党纲草案的提及，本段具体阐述列宁认为唯一正确的纲领结构及其理论依据。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "商品生产与资本主义",
+        "explain": "在列宁的论述中，商品生产是资本主义经济的基础形式，指以交换为目的的生产。列宁强调，理解从资本主义向社会主义的过渡，必须从分析商品生产的发展及其向资本主义的演变开始，这是历史唯物主义分析的起点。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      },
+      {
+        "topic": "帝国主义理论",
+        "explain": "列宁将帝国主义定义为资本主义发展的最高阶段。在本段中，他将“资本主义转变为帝国主义”视为分析社会革命时代到来的总基础之一，这与他后来在《帝国主义论》中的系统阐述一脉相承。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p107s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p107s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "商品生产",
+            "type": "concept",
+            "modern": "以交换为目的的社会生产形式，是资本主义经济关系的基础。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "commodity_production"
+          },
+          {
+            "surface": "资本主义",
+            "type": "concept",
+            "modern": "以生产资料私有制和雇佣劳动为基础的社会经济形态。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "capitalism"
+          }
+        ]
+      },
+      {
+        "sid": "p107s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p107s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p107s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "帝国主义",
+            "type": "concept",
+            "modern": "资本主义发展的垄断阶段，其特征是金融资本统治和世界领土瓜分完毕。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "imperialism"
+          }
+        ]
+      },
+      {
+        "sid": "p107s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p107s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 3,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "polemic:eval_word:author_response:历史性"
+      ]
+    }
+  ]
+}

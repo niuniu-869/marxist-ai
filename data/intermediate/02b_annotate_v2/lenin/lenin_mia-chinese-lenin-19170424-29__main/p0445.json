@@ -1,0 +1,69 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 445,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁批判“民族文化自治”纲领，指出其按民族划分工人的做法违背了无产阶级国际主义原则。",
+    "importance_score": 3,
+    "importance_reason": "核心论点，明确反对党内机会主义的民族纲领，阐述无产阶级政党在民族问题上的根本立场。",
+    "argument_role": "contrasts",
+    "argument_link": "承接上段关于支持广泛区域自治的论述，转而批判一种特定的、机会主义的民族自治方案，形成鲜明对比。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "民族文化自治",
+        "explain": "由奥地利马克思主义者鲍威尔、伦纳等人提出的民族纲领，主张在国家内部按民族划分，设立管理文化、教育等事务的民族议会。列宁视其为机会主义方案。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "民族文化自治（及其倡导者，如奥地利马克思主义者）",
+      "their_view": "应当把学校教育等事务从国家管理中分离出来，交给按民族划分的专门议会来管理，以此保障各民族的文化发展。",
+      "author_response": "这种做法人为地割裂了在同一地区和企业共同劳动的工人，强化了他们与本民族资产阶级文化的纽带，从而损害了无产阶级的国际团结。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p445s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p445s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_6>5"
+      ]
+    }
+  ]
+}

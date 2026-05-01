@@ -1,0 +1,90 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 123,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "恩格斯以连续反问形式，质问小卡尔·米斯尼克是否真正采取行动对抗俄罗斯国家和解放俄国人民。",
+    "importance_score": 2,
+    "importance_reason": "本段具体反驳小卡尔·米斯尼克，支撑前文对论敌空谈的批判。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段的反讽，将论敌的主张具体化到小卡尔·米斯尼克身上，质问其实际行动。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "小卡尔·米斯尼克",
+        "explain": "19世纪70年代欧洲工人运动中的流亡者活动家，恩格斯在此质问其实际行动。",
+        "why_needed": "history_missing",
+        "confidence": "medium",
+        "source_basis": "inferred"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p123s4",
+        "quote": "解放了俄国人民，“这个不幸的、正在流血的、戴着蒙难的荆冠被钉在奴隶制十字架上的人民”吗？",
+        "trigger": "inverted_logic",
+        "reader_block": "连续反问和讽刺性引用，读者可能误以为是正面陈述，实际是质问其无行动。",
+        "parse": {
+          "claim": "小卡尔·米斯尼克并未真正对抗俄罗斯政权或解救受压迫的俄国群众。",
+          "qualifiers": "",
+          "contrast_or_target": "小卡尔·米斯尼克声称要立即行动摧毁俄罗斯国家。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "本句通过反问揭露小卡尔·米斯尼克的空谈，与前文对论敌起义主张的批判相呼应。"
+        },
+        "implication": "恩格斯暗示论敌缺乏实际行动，只是纸上谈兵。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "小卡尔·米斯尼克",
+      "their_view": "小卡尔·米斯尼克主张革命者应立即选择时机起义，摧毁俄罗斯国家并解放俄国人民。",
+      "author_response": "恩格斯反问其是否真正投入战斗，指出其未采取任何实际行动。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p123s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p123s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p123s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p123s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p123s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  }
+}

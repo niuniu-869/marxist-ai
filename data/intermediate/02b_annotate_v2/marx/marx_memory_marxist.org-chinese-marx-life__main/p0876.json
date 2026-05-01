@@ -1,0 +1,72 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 876,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "马克思在信中描述神经受刺激时咽喉被卡住的症状，并用红色沃尔弗的比喻来形容。",
+    "importance_score": 1,
+    "importance_reason": "本段通过引用马克思的信，具体说明其健康恶化的症状，属于传记中的例证。",
+    "argument_role": "continues",
+    "argument_link": "本段承接上段关于马克思健康恶化的叙述，通过引用其亲笔信，提供了更具体的症状描述。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "allusion",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "allusion",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "红色沃尔弗典故",
+        "explain": "红色沃尔弗指德国社会主义者威廉·沃尔弗，马克思的友人。典故出自他与兄弟的冲突，兄弟是粮食投机商，沃尔弗曾卡住他的脖子。马克思用此比喻咽喉被卡住的感觉。",
+        "why_needed": "allusion",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p876s1",
+        "speaker": "quoted_marx",
+        "stance": "neutral_citation",
+        "notes": [
+          {
+            "surface": "红色沃尔弗",
+            "type": "person",
+            "modern": "德国社会主义者威廉·沃尔弗，马克思的友人，其兄弟从事粮食投机。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

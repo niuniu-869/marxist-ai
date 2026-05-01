@@ -1,0 +1,63 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 234,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "布尔什维克党代表会议明确表态，绝不向革命护国主义思潮妥协，并决定与群众中的此类情绪进行斗争。",
+    "importance_score": 2,
+    "importance_reason": "这是布尔什维克党在二月革命后，针对党内和社会上流行的一种错误思潮所作出的正式决议，明确了党的国际主义立场。",
+    "argument_role": "continues",
+    "argument_link": "上一段分析了哪些社会阶层容易滋生护国主义情绪，本段则直接给出党的应对策略和政治结论。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "革命护国主义",
+        "explain": "二月革命后在俄国流行的一种思潮，认为推翻沙皇后，保卫俄国革命成果的战争已具有正义性，因此应继续支持战争。这与布尔什维克主张的将帝国主义战争转变为国内革命战争的国际主义路线相悖。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "革命护国主义",
+      "their_view": "保卫俄国革命成果的战争是正义的，因此应当支持这场战争。",
+      "author_response": "任何对这种观点的妥协，都等同于放弃国际主义和社会主义原则。党必须与群众中的这种情绪作斗争。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p234s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_6>5"
+      ]
+    }
+  ]
+}

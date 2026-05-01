@@ -1,0 +1,100 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 83,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段正面阐述马克思关于无产阶级专政的理论，并论证苏维埃政权是其实现形式。",
+    "importance_score": 3,
+    "importance_reason": "本段是全文的核心论点之一，正式提出并论证了“无产阶级专政”这一根本原则及其在俄国的实践形式。",
+    "argument_role": "definition",
+    "argument_link": "承接上段关于革命群众热忱的论述，将历史经验提炼为马克思的理论公式，并指出俄国革命正是这一公式的实践。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "无产阶级专政",
+        "explain": "马克思主义国家学说的核心概念，指无产阶级通过革命打碎旧的国家机器后，建立的、对资产阶级实行阶级统治的政治形式。它不是少数人的独裁，而是占人口绝大多数的被剥削劳动者对少数剥削者的统治，是新型民主与新型专政的统一。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p83s1",
+        "speaker": "quoted_marx",
+        "stance": "endorsed",
+        "notes": [
+          {
+            "surface": "无产阶级专政",
+            "type": "concept",
+            "modern": "马克思从历次革命（尤其是巴黎公社）中总结出的核心政治结论，作为指导无产阶级革命的理论公式。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "class_marxist_theory"
+          }
+        ]
+      },
+      {
+        "sid": "p83s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p83s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "苏维埃政权",
+            "type": "org",
+            "modern": "1917年俄国革命中出现的工兵代表会议形式，列宁视其为无产阶级专政的具体国家机构。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p83s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

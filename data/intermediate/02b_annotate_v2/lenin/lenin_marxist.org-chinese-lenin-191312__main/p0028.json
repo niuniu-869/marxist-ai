@@ -1,0 +1,100 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 28,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "论证社会民主党人坚持民族自决权的必要性，并批判大俄罗斯民族主义的统治和民族自由派的立场。",
+    "importance_score": 2,
+    "importance_reason": "通过对比资产阶级民主主义者与社会民主党人的立场，强化民族自决权作为国际主义原则的必要性。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对普列汉诺夫论据的引用，进一步阐明该论据对社会民主党人的特殊重要性，并批判忽视该论据的立场。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p28s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "全世界无产者联合起来！",
+            "type": "slogan",
+            "modern": "国际共产主义运动的著名口号，强调无产阶级的国际团结。",
+            "highlight": "slogan",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p28s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p28s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p28s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "司徒卢威之流",
+            "type": "social_group",
+            "modern": "以司徒卢威为代表的、主张与沙皇政府合作的俄国自由派知识分子。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "彼舍霍诺夫先生",
+            "type": "person",
+            "modern": "1906年时任农业部长，曾呼吁谨慎对待农民的民族偏见。",
+            "highlight": "person",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 3,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_5gram_with_surface",
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

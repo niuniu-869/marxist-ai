@@ -1,0 +1,81 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 60,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "描述农民与地主间土地斗争的尖锐化，并批判《北极星》杂志（立宪民主党刊物）试图用数据和协商论调来淡化矛盾。",
+    "importance_score": 2,
+    "importance_reason": "通过具体事例（土地斗争）和对手言论（《北极星》杂志），支撑作者对立宪民主党策略的批判。",
+    "argument_role": "example",
+    "argument_link": "承接上段对立宪民主党策略的抽象描绘，本段以当时最尖锐的土地问题为例，具体展示其策略如何脱离现实斗争。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "考夫曼先生之流",
+        "explain": "指以考夫曼为代表的立宪民主党理论家或代言人。他们受《北极星》杂志派遣，试图用数据论证地主土地不多，从而为立宪民主党的调和立场辩护。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "《北极星》杂志 / 考夫曼先生之流（立宪民主党）",
+      "their_view": "地主实际占有的土地并不多，当前土地问题的核心并非所有权，双方完全可以通过友好协商来解决争端。",
+      "author_response": "列宁将这种论调斥为“又酸又甜的遁词”，认为它在农民与地主斗争达到顶点时，试图用数据和协商的假象来掩盖不可调和的阶级矛盾。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p60s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p60s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p60s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p60s4",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

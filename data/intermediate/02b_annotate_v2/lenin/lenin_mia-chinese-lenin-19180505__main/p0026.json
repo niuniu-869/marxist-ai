@@ -1,0 +1,81 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 26,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁直接批评“左派共产主义者”对革命口号机械背诵、缺乏独立思考，尤其针对他们对保卫祖国口号的错误态度。",
+    "importance_score": 2,
+    "importance_reason": "本段是列宁对“左派”思想方法的直接批判，揭示其教条主义根源。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对“左派”空谈的批评，本段具体剖析其思想根源——对口号的机械记忆取代了辩证思考。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "护国主义的双重含义",
+        "explain": "在第一次世界大战语境下，“护国主义”通常指第二国际社会党支持本国资产阶级进行帝国主义战争的沙文主义立场。但列宁认为，在无产阶级革命夺取政权后，保卫社会主义祖国是正当且必要的。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "“左派共产主义者”小集团",
+      "their_view": "他们认为在帝国主义时代，任何保卫祖国的行为都是不可容忍的，因此用引号讥讽“保卫社会主义祖国”的口号。",
+      "author_response": "列宁指出这种看法混淆了不同性质的战争，只有在资产阶级的帝国主义战争中保卫祖国才是可鄙的。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p26s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p26s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p26s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p26s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

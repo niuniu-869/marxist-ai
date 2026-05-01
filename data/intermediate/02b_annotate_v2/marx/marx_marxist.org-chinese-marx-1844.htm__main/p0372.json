@@ -1,0 +1,125 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 372,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段分析共产主义的两种早期形式，指出它们虽扬弃了异化，但未理解私有财产的积极本质与人的本性，因而仍受其束缚。",
+    "importance_score": 3,
+    "importance_reason": "这是马克思对共产主义发展阶段进行界定的核心论述，为后文提出“完成了的共产主义”奠定批判基础。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对“粗陋的共产主义”的批判，进一步分析其他形式的共产主义，指出它们共同的理论局限。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "term_density",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p372s4",
+        "quote": "但是它还没有弄清楚私有财产的积极的本质，也还不理解所具有的人的本性，所以它还受私有财产的束缚和感染。",
+        "trigger": "term_density",
+        "reader_block": "“积极的本质”与“人的本性”是马克思理论中的特定范畴，读者可能不理解为何私有财产有“积极”一面，以及“人的本性”具体指什么。",
+        "parse": {
+          "claim": "早期共产主义未能把握私有财产在历史发展中所具有的肯定性意义，也未理解真正的人类本质，因此其自身仍未摆脱私有财产逻辑的制约。",
+          "qualifiers": "“积极的本质”指私有财产在特定历史阶段对发展生产力、塑造社会关系的客观作用；“人的本性”指在社会关系中生成的、区别于动物的类特性。",
+          "contrast_or_target": ""
+        },
+        "why": {
+          "relation": "contrasts",
+          "explanation": "此句与上句形成转折，揭示早期共产主义自我理解的局限性：它们只看到私有财产的否定面（异化），未看到其历史必然性与积极面，也未真正把握人的社会性本质。"
+        },
+        "implication": "这预示了马克思将从政治经济学批判入手，揭示私有财产的本质，并在此基础上构想真正的共产主义。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p372s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "共产主义",
+            "type": "concept",
+            "modern": "马克思在此指代当时已存在的、以消灭私有财产为目标的各种理论与实践流派。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "communism_early_forms"
+          }
+        ]
+      },
+      {
+        "sid": "p372s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p372s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "还原或复归",
+            "type": "concept",
+            "modern": "哲学用语，指回到某种本源或理想状态。此处指共产主义试图使人回归其未被异化的本质。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "restoration_philosophical"
+          }
+        ]
+      },
+      {
+        "sid": "p372s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p372s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 7,
+        "hs_kept": 1,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "note:n1_overflow_concept_9>5",
+        "note:n1_overflow_concept_7>5",
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

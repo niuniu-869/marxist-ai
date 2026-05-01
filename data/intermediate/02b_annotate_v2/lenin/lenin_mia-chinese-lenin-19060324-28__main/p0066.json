@@ -1,0 +1,150 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 66,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁用蛆虫的比喻讽刺立宪民主党人，认为他们虽在革命低潮期活动，但革命的土壤已备好，未来必将复活。",
+    "importance_score": 3,
+    "importance_reason": "核心段落，用生动比喻阐明列宁对当时政治力量对比和革命前景的判断。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于革命沉寂的描述，进一步分析革命力量与反动力量的消长关系，并展望未来。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p66s5",
+        "quote": "我们决不想否定蛆虫在革命被葬送的时期所做的有益的工作。",
+        "trigger": "inverted_logic",
+        "reader_block": "表面肯定“蛆虫”的工作，读者会困惑作者是否真的认可立宪民主党人，需结合上下文理解其反讽意图。",
+        "parse": {
+          "claim": "列宁承认立宪民主党人在革命低潮期的活动客观上为革命准备了条件。",
+          "qualifiers": "限定在“革命被葬送的时期”，即革命暂时失败后的阶段。",
+          "contrast_or_target": "立宪民主党人自认为是革命的领导者和建设者，正在推动宪政事业。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "此句以退为进，表面承认对手的“有益工作”，实则为下句的反讽做铺垫，旨在揭露其活动的客观历史作用与主观阶级立场的矛盾。"
+        },
+        "implication": "立宪民主党人的活动虽在主观上服务于资产阶级，但在客观上激化了矛盾，为无产阶级革命积累了条件。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      },
+      {
+        "anchor": "p66s6",
+        "quote": "因为这些肥壮的蛆虫给这块土壤很好地施了肥……",
+        "trigger": "inverted_logic",
+        "reader_block": "“蛆虫”与“施肥”构成反常搭配，读者需理解“施肥”在此是反讽，指其活动加剧了社会矛盾。",
+        "parse": {
+          "claim": "列宁用反讽指出，立宪民主党人的活动虽然有害，但客观上加剧了社会矛盾，为革命积累了能量。",
+          "qualifiers": "此解释基于“革命的土壤”这一比喻，指革命爆发的社会条件。",
+          "contrast_or_target": "立宪民主党人认为自己的活动是建设性的，是在培育健康的宪政土壤。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "此句完成对上句的反讽，将对手的活动定性为“施肥”，即为革命准备条件，从而在战略上藐视对手，揭示其历史作用的悖论。"
+        },
+        "implication": "革命力量与反革命力量在特定条件下可以相互转化，反动力量的猖獗可能加速革命条件的成熟。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "立宪民主党",
+      "their_view": "我们立宪民主党人是革命的领导者和建设者，正在通过杜马选举等合法途径，推动俄国走向宪政国家。",
+      "author_response": "列宁讽刺他们是革命坟墓中的蛆虫，其活动只是在客观上为革命准备了土壤，主观上却是革命的敌人。",
+      "polemic_kind": "reveals_class_basis",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p66s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "蛆虫",
+            "type": "metaphor",
+            "modern": "列宁政治修辞中对机会主义或资产阶级政客的蔑称，喻其寄生于革命尸体之上。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p66s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "蛀蚀",
+            "type": "metaphor",
+            "modern": "形容立宪民主党人的活动对革命成果的缓慢侵蚀和破坏。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p66s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "土壤",
+            "type": "metaphor",
+            "modern": "比喻革命爆发所需的社会阶级矛盾和群众基础。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p66s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p66s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p66s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 3,
+        "notes_dropped": 2,
+        "hs_kept": 2,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

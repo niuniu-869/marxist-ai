@@ -1,0 +1,187 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 143,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁以具体人物为例，定义革命是人民通过集体暴力行动推翻反动压迫者、夺取政权的过程，并指出这是俄国大革命的实际内容。",
+    "importance_score": 3,
+    "importance_reason": "核心段落，正面阐述列宁对“革命”概念的定义，是理解其革命理论和对孟什维克、立宪民主党人批判的关键。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段对“革命人民专政”概念的举例说明，本段将该概念具体化为人民通过暴力行动推翻反动统治的完整过程。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "阿夫拉莫夫之流",
+        "explain": "指沙皇俄国的反动官僚、警察和军事头目，是压迫人民的象征。阿夫拉莫夫本人是莫斯科的警察局长，以镇压革命闻名。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "斯皮里多诺娃",
+        "explain": "玛丽亚·斯皮里多诺娃，社会革命党人，1905年因刺杀一名沙皇地方官员而被捕，成为革命者的象征。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "基泽韦捷尔教授",
+        "explain": "亚历山大·基泽韦捷尔，立宪民主党历史学家和政治家，主张温和改良，反对暴力革命。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p143s1",
+        "quote": "就革命这个词的狭隘的原意说，革命正是人民生活中的这样一个时期，千百年来积累起来的对阿夫拉莫夫之流的业绩的仇恨，不是通过语言而是通过行动迸发出来了，而且不是通过个别人物的行动而是通过千百万人民群众的行动迸发出来了。",
+        "trigger": "inverted_logic",
+        "reader_block": "“业绩”一词通常指成就，但此处用于形容反动派的暴行，构成反讽。读者若按字面理解，会完全误解句意。",
+        "parse": {
+          "claim": "革命是人民长期积累的仇恨通过大规模集体行动爆发出来的时期。",
+          "qualifiers": "此处“革命”取其狭义，特指人民暴力反抗的时期。",
+          "contrast_or_target": "与那些将革命视为渐进改良或议会斗争的观点相对立。"
+        },
+        "why": {
+          "relation": "definition",
+          "explanation": "本句为全文核心概念“革命”下定义，强调其集体性、暴力性和对反动统治的直接反抗性质，为后续论述奠定基础。"
+        },
+        "implication": "革命不是少数人的密谋或议会辩论，而是被压迫群众的普遍起义。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "立宪民主党人及温和派",
+      "their_view": "革命可以是温和的、渐进的，可以通过杜马等合法议会途径实现政治变革，无需大规模暴力。",
+      "author_response": "列宁强调，真正的革命是人民通过暴力行动直接推翻反动统治、夺取政权的过程，这与议会改良道路根本对立。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p143s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "阿夫拉莫夫之流",
+            "type": "social_group",
+            "modern": "沙皇专制政权中执行镇压职能的官僚、警察和军事头目群体。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "业绩",
+            "type": "metaphor",
+            "modern": "此处为反讽用法，指反动派的暴行和压迫行径。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p143s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p143s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p143s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "基泽韦捷尔教授",
+            "type": "person",
+            "modern": "立宪民主党历史学家，主张温和改良，反对暴力革命。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "革命旋风",
+            "type": "metaphor",
+            "modern": "列宁用以形容革命时期迅猛、激烈、席卷一切的社会变革状态。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p143s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p143s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p143s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p143s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p143s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "杜尔诺沃、杜巴索夫、米恩",
+            "type": "person",
+            "modern": "均为沙皇政府高官，杜尔诺沃任内务大臣，杜巴索夫任莫斯科总督，米恩是宪兵司令，均以镇压革命著称。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 5,
+        "notes_dropped": 1,
+        "hs_kept": 1,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_5gram_with_surface"
+      ]
+    }
+  ]
+}

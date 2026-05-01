@@ -1,0 +1,64 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 24,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "作者直接反击上一段引述的污蔑，指出散布此类言论者自身才是企图将专制制度引入瑞士的金融寡头，且已沦为国际金融欺诈组织的附庸。",
+    "importance_score": 2,
+    "importance_reason": "本段是核心批判的一部分，直接支撑了报告反驳污蔑的主线，揭露了污蔑者的阶级立场与虚伪性。",
+    "argument_role": "contrasts",
+    "argument_link": "本段与上一段引述的污蔑形成直接对照，将攻击矛头反转，指向污蔑者自身。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "瑞士的金融巨头与政治势力",
+      "their_view": "国际工人协会是欧洲大陆罢工的幕后黑手，其领袖是拿破仑皇帝的密探，利用罢工为外国政治目的服务。",
+      "author_response": "真正热衷于将拿破仑三世的专制制度移植到瑞士的，正是这些掌握城市大权的金融巨头，他们早已背叛瑞士公民身份，成为国际金融欺诈组织的仆从。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p24s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "《Crdit Mobilier》",
+            "type": "org",
+            "modern": "法国第二帝国时期一家著名的投资银行与金融控股公司，以投机和欺诈性金融操作闻名，与拿破仑三世政权关系密切。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

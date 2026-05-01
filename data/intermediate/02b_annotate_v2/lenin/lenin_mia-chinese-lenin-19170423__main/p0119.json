@@ -1,0 +1,78 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 119,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段以问答形式，用颜色旗帜比喻政党性质，将比立宪民主党更右的势力归类为黑色，代表黑帮。",
+    "importance_score": 1,
+    "importance_reason": "本段是系列问答中具体分类政党的起始部分，为后续更复杂的政党分析提供基础。",
+    "argument_role": "continues",
+    "argument_link": "本段直接承接上一段关于颜色旗帜与政党实质的问题，开始逐个回答并分类。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "黑帮",
+        "explain": "在1917年俄国语境中，黑帮指极右翼反动组织，支持沙皇专制，使用暴力手段反对革命和自由派。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "立宪民主党",
+      "their_view": "主张建立资产阶级议会制共和国，维护资本家和地主的利益，支持帝国主义战争和兼并政策。",
+      "author_response": "列宁将立宪民主党作为参照点，指出还有比其更右的势力，暗示立宪民主党本身已是反动派。",
+      "polemic_kind": "reveals_class_basis",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p119s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "立宪民主党",
+            "type": "org",
+            "modern": "1917年俄国资产阶级政党，主张议会制和维护资本家利益",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p119s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

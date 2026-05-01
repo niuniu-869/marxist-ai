@@ -1,0 +1,147 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 153,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "恩格斯总结劳动组合是自发产生的不发达合作社形式，非俄罗斯特有，并反驳特卡乔夫认为俄国可借此直接过渡到社会主义的观点。",
+    "importance_score": 1,
+    "importance_reason": "本段承接上文对劳动组合的分析，通过举例和反驳，为后续批判特卡乔夫的具体主张做铺垫。",
+    "argument_role": "continues",
+    "argument_link": "本段延续上段对劳动组合的分析，从其普遍性出发，反驳特卡乔夫的特定主张。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "特卡乔夫",
+      "their_view": "俄国劳动组合的优势证明俄国人能直接过渡到社会主义。",
+      "author_response": "这种过渡需要劳动组合先发展到西欧合作社水平，而特卡乔夫的观点是傲慢且不切实际的。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p153s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "劳动组合",
+            "type": "concept",
+            "modern": "一种自发产生的、不发达的合作社形式，非特定民族独有",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "cooperative_form_spontaneous"
+          }
+        ]
+      },
+      {
+        "sid": "p153s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "合作社",
+            "type": "concept",
+            "modern": "劳动者自愿联合的经济组织形式",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "cooperative_general"
+          }
+        ]
+      },
+      {
+        "sid": "p153s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "四十年代建造德国铁路",
+            "type": "event",
+            "modern": "19世纪40年代德国铁路建设时期",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p153s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "特卡乔夫先生",
+            "type": "person",
+            "modern": "俄国革命民粹派思想家，主张农民社会主义",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p153s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p153s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "特卡乔夫先生",
+            "type": "person",
+            "modern": "俄国革命民粹派思想家，主张农民社会主义",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p153s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "特卡乔夫先生",
+            "type": "person",
+            "modern": "俄国革命民粹派思想家，主张农民社会主义",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 6,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_9>5"
+      ]
+    }
+  ]
+}

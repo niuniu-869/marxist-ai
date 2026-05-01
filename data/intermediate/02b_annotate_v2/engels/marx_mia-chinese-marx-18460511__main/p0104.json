@@ -1,0 +1,81 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 104,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "恩格斯引用克利盖将共产主义描述为“最隐蔽的宗教”的言论，并以反讽方式指出，现实条件本应允许克利盖充分实践其理论。",
+    "importance_score": 2,
+    "importance_reason": "本段是核心批判的一部分，通过引用并反讽对手的原话，直接揭露其理论的空想性质。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段对克利盖“无限的爱”的批判，进一步引用其更核心的“宗教”表述，并展开反讽。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p104s2",
+        "quote": "但是，现在的“外部世界”显然是使克利盖完全有可能把他的“最隐蔽的宗教”、他的“神圣的渴望”、他的“舍己为人的决心”、他的“热情的流露”，在“整个人类生活中”最充分地“表现出来”的。",
+        "trigger": "inverted_logic",
+        "reader_block": "反讽句式，表面说“完全有可能”，实际是说克利盖的理论在现实中根本无法实现，读者可能误读为正面肯定。",
+        "parse": {
+          "claim": "克利盖所处的现实社会条件，本应为他实践其基于爱的共产主义理想提供最充分的舞台。",
+          "qualifiers": "限定于“现在的‘外部世界’”，即19世纪中叶的美国社会。",
+          "contrast_or_target": "克利盖认为其理论因缺乏合适的外部世界而未能充分表现。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "恩格斯用反讽手法回应克利盖的自我辩解。克利盖可能暗示其理论未被充分实践是因为条件不成熟，恩格斯则指出，恰恰是当时的条件（如美国土地运动）本应使其理论得以展现，从而暗示其理论本身有问题。"
+        },
+        "implication": "克利盖的理论并非因外部条件限制而未实现，而是其内容本身脱离了现实的阶级斗争。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "克利盖",
+      "their_view": "共产主义是基于爱、舍己为人和对共同体渴望的“最隐蔽的宗教”，只是缺乏合适的外部世界来表现。",
+      "author_response": "恩格斯反讽道，克利盖所处的现实世界（如美国）恰恰提供了表现其理论的条件，从而暗示其理论的失败源于自身而非环境。",
+      "polemic_kind": "counter_quotation",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p104s1",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p104s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 2,
+        "hs_kept": 1,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_11>5",
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

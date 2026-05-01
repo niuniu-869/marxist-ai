@@ -1,0 +1,89 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 16,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁指出布尔什维克在苏维埃中暂时处于少数，并点明了对手的构成。",
+    "importance_score": 2,
+    "importance_reason": "提供了对革命力量对比的清醒判断，是制定策略的现实基础。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对临时政府的批判，转而分析布尔什维克在苏维埃中的实际力量对比。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "1917年俄国主要小资产阶级政党",
+        "explain": "人民社会党、社会革命党是当时俄国主要的小资产阶级政党。组织委员会是孟什维克的领导机构，齐赫泽、策列铁里、斯切克洛夫是其代表人物。他们在苏维埃中与孟什维克结盟，支持临时政府。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p16s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "人民社会党人、社会革命党人",
+            "type": "org",
+            "modern": "1917年俄国两个主要小资产阶级政党，在苏维埃中与孟什维克结盟。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "组织委员会（齐赫泽、策列铁里等）",
+            "type": "org",
+            "modern": "孟什维克领导机构，齐赫泽和策列铁里是其主要代表人物。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "斯切克洛夫",
+            "type": "person",
+            "modern": "孟什维克领导人之一，曾任彼得格勒苏维埃书记。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 3,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_14>5",
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

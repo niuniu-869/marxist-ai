@@ -1,0 +1,73 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 48,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁指出临时政府仅在外部压力下才部分兑现其纲领承诺。",
+    "importance_score": 2,
+    "importance_reason": "本段通过描述临时政府的被动行为，支撑了前段关于其与帝国主义联系的论点。",
+    "argument_role": "continues",
+    "argument_link": "本段延续上段对临时政府的批判，具体说明其政策执行依赖于无产阶级和小资产阶级的压力。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p48s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "小资产阶级",
+            "type": "concept",
+            "modern": "列宁在此指1917年俄国社会中经济地位介于资产阶级与无产阶级之间的阶层，如小商人、农民等，他们对临时政府施加了压力。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "class_petty_bourgeoisie"
+          },
+          {
+            "surface": "临时政府",
+            "type": "org",
+            "modern": "1917年二月革命后成立的资产阶级政府，由孟什维克和社会革命党人支持，与工兵代表苏维埃并存。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

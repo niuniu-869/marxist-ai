@@ -1,0 +1,88 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 273,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段论证在帝国主义战争中，任何“保卫祖国”的口号都意味着支持资产阶级并背叛社会主义，并以俄国为例具体说明。",
+    "importance_score": 3,
+    "importance_reason": "这是列宁批判考茨基“保卫祖国”论的核心段落，直接阐述了无产阶级国际主义立场与机会主义的界限。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对考茨基与社会沙文主义者界限不清的批判，本段具体剖析“保卫祖国”口号的实质，将其定性为对社会主义的背叛。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "rhetorical_omission",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "克伦斯基时期",
+        "explain": "指1917年俄国二月革命后至十月革命前，由克伦斯基领导的资产阶级临时政府执政时期。列宁用此例说明，即使政权形式变为共和国，只要战争性质未变，无产阶级立场就不变。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "沙皇秘密条约",
+        "explain": "指第一次世界大战前及期间，沙皇俄国与英、法等协约国签订的、旨在战后瓜分领土和势力范围的秘密协定。这些条约是证明战争帝国主义性质的关键证据。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "考茨基",
+      "their_view": "在民族战争或祖国遭受侵略时，无产阶级应当保卫祖国，这是合理的。",
+      "author_response": "列宁指出，当前战争是帝国主义性质的，承认保卫祖国就是为帝国主义资产阶级服务，彻底背叛了社会主义事业。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p273s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p273s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p273s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p273s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

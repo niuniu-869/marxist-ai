@@ -1,0 +1,64 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 74,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁引用罗莎·卢森堡的话，谴责德国社会民主党在1914年8月4日投票支持战争预算，背叛了国际主义原则。",
+    "importance_score": 2,
+    "importance_reason": "通过引用左翼社会主义者的谴责，佐证德国社会民主党的背叛，支撑对机会主义的批判。",
+    "argument_role": "continues",
+    "argument_link": "承接上文对机会主义的批判，以具体历史事件为例，说明德国社会民主党已背离革命立场。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "1914年8月4日事件",
+        "explain": "1914年8月4日，德国社会民主党议会党团投票赞成战争预算，支持帝国主义战争，这违背了第二国际的反战决议，标志着该党背叛了国际主义原则。罗莎·卢森堡的这句话正是针对这一事件的谴责。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p74s1",
+        "speaker": "quoted_opponent",
+        "stance": "endorsed",
+        "notes": [
+          {
+            "surface": "罗莎·卢森堡",
+            "type": "person",
+            "modern": "波兰裔德国马克思主义理论家，德国共产党创始人之一，与列宁同属左翼社会主义者。",
+            "highlight": "person",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "1914年8月4日",
+            "type": "event",
+            "modern": "德国社会民主党议会党团投票赞成战争预算的日子，标志着该党背叛国际主义。",
+            "highlight": "event",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 64,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "定义市民社会为受生产力制约又制约生产力的交往形式，指出它是历史的真正发源地，并批判只关注历史事件而忽视现实关系的观点。",
+    "importance_score": 2,
+    "importance_reason": "提出市民社会概念，为历史唯物主义奠基，是理解马克思社会理论的关键环节。",
+    "argument_role": "continues",
+    "argument_link": "承接前文对物质生产的讨论，将市民社会界定为历史活动的现实基础，为后续分析国家与意识奠定基础。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "市民社会概念",
+        "explain": "马克思在此处使用的“市民社会”并非特指现代资产阶级社会，而是指一切历史阶段中，人们在物质生产过程中结成的交往关系的总和，是政治和观念上层建筑的基础。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "青年黑格尔派",
+      "their_view": "历史发展是由观念、概念等意识形式驱动的，现实的物质关系是次要的，可以通过思想批判来改变世界。",
+      "author_response": "指出市民社会才是历史的真正基础，批判那种只关注历史事件而忽视现实物质关系的观点是荒谬的。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p64s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "市民社会",
+            "type": "concept",
+            "modern": "在马克思的理论框架中，指一切历史阶段中人们在物质生产中结成的交往关系总和，是政治国家和意识形态的基础。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "society_civil_marxist"
+          }
+        ]
+      },
+      {
+        "sid": "p64s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p64s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p64s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 2,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

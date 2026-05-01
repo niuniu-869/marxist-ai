@@ -1,0 +1,149 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 77,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段阐述统治阶级思想与物质力量的同一性，指出占统治地位的思想是占统治地位的物质关系在观念上的反映，并以分权学说为例说明。",
+    "importance_score": 3,
+    "importance_reason": "核心论断，系统阐述了历史唯物主义关于意识形态与阶级统治关系的基本原理。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段关于统治阶级与思想生产的讨论，具体阐明统治阶级思想如何成为时代主导思想的机制。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p77s4",
+        "quote": "占统治地位的思想不过是占统治地位的物质关系在观念上的表现，不过是以思想的形式表现出来的占统治地位的物质关系；",
+        "trigger": "long_nested",
+        "reader_block": "句子通过重复和同位结构强调核心论点，但“物质关系”与“观念表现”的对应关系需要结合上下文理解，否则易混淆因果。",
+        "parse": {
+          "claim": "一个时代中占据主导地位的观念体系，其本质是该时代中占据主导地位的生产关系在意识领域的投射。",
+          "qualifiers": "限定于“占统治地位的”思想与物质关系，即与阶级统治直接相关的部分。",
+          "contrast_or_target": ""
+        },
+        "why": {
+          "relation": "definition",
+          "explanation": "此句为“统治阶级的思想”这一核心概念提供哲学定义，将其根源锚定在物质生产关系上，是前文论点的理论深化。"
+        },
+        "implication": "因此，要改变占统治地位的思想，根本途径在于改变其赖以存在的物质生产关系。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      },
+      {
+        "anchor": "p77s7",
+        "quote": "既然他们作为一个阶级进行统治，并且决定着某一历史时代的整个面貌，那么不言而喻，他们在这个历史时代的一切领域中也会这样做，就是说，他们还作为思维着的人，作为思想的生产者进行统治，他们调节着自己时代的思想的生产和分配；",
+        "trigger": "long_nested",
+        "reader_block": "句子从政治统治推论到思想统治，逻辑链条长。“思想的生产和分配”是比喻性说法，需要理解其具体所指。",
+        "parse": {
+          "claim": "统治阶级在掌握物质统治权的同时，必然也掌握思想领域的统治权，具体表现为控制社会主流思想的创造与传播。",
+          "qualifiers": "前提是该阶级“作为一个阶级进行统治”并“决定着某一历史时代的整个面貌”。",
+          "contrast_or_target": ""
+        },
+        "why": {
+          "relation": "continues",
+          "explanation": "此句从统治阶级的构成（个人具有意识）推导出其统治的必然延伸，即对思想生产与分配的控制，是前一句逻辑的展开。"
+        },
+        "implication": "思想领域的斗争与物质领域的斗争紧密相连，被统治阶级要获得解放，必须同时挑战统治阶级的思想霸权。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p77s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p77s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p77s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p77s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p77s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p77s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p77s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "思想的生产和分配",
+            "type": "metaphor",
+            "modern": "比喻统治阶级通过控制教育、媒体等机构来决定哪些思想能够传播",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p77s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p77s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 1,
+        "hs_kept": 2,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_6>5"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 134,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "追溯“不断革命”思想的马克思原意，并指出托洛茨基等人对这一思想的篡改与列宁的纠正。",
+    "importance_score": 2,
+    "importance_reason": "通过追溯思想源头并批判错误理解，为列宁主义的理论正统性提供依据。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于列宁与“不断”革命论者斗争的论述，具体阐明斗争的焦点在于对马克思原意的正确理解与运用。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "托洛茨基的“不断革命论”",
+      "their_view": "民主革命与社会主义革命之间存在一道人为的万里长城，否定农民的作用，主张跳过民主革命阶段。",
+      "author_response": "列宁通过恢复马克思关于不断革命的真正思想，即无产阶级领导权和工农联盟，纠正了这种跳过阶段、脱离现实的错误。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p134s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p134s2",
+        "speaker": "quoted_marx",
+        "stance": "endorsed",
+        "notes": [
+          {
+            "surface": "《告共产主义者同盟书》",
+            "type": "work",
+            "modern": "马克思1850年写给同盟成员的内部信件，阐述了无产阶级在德国革命中的策略，其中包含关于革命不断性的论述。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p134s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p134s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p134s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "不断革命",
+            "type": "concept",
+            "modern": "马克思提出的理论，指无产阶级领导的民主革命应不停顿地转变为社会主义革命，列宁将其发展为包含工农联盟和无产阶级领导权的完整学说。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "revolution_permanent"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

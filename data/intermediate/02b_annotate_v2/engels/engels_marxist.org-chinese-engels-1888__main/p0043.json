@@ -1,0 +1,123 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 43,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "批评19世纪50年代德国庸俗唯物主义者的理论贫乏，并为费尔巴哈辩护，认为他不应为这种庸俗化负责。",
+    "importance_score": 2,
+    "importance_reason": "作为对旧唯物主义缺陷的具体例证，为后文讨论费尔巴哈的唯物主义及其局限性做铺垫。",
+    "argument_role": "continues",
+    "argument_link": "上一段讨论旧唯物主义在历史观上的非历史局限性，这段则具体批评19世纪50年代德国庸俗唯物主义者的理论贫乏，作为对旧唯物主义缺陷的例证。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "五十年代在德国把唯物主义庸俗化的小贩们",
+      "their_view": "他们认为自然科学的最新发现足以驳倒神创论，唯物主义的任务就是收集这些证据。",
+      "author_response": "他们除了收集反神论据外，在理论发展上毫无建树，使唯物主义陷入低谷。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p43s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "庸俗化",
+            "type": "concept",
+            "modern": "将唯物主义简化为机械的自然科学解释，抛弃辩证法",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "vulgar_materialism"
+          }
+        ]
+      },
+      {
+        "sid": "p43s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p43s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p43s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "唯心主义",
+            "type": "concept",
+            "modern": "黑格尔体系及其后继者在1848年革命后陷入困境",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "idealism_post_hegel"
+          }
+        ]
+      },
+      {
+        "sid": "p43s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "费尔巴哈",
+            "type": "person",
+            "modern": "德国哲学家，突破黑格尔唯心主义体系，但历史观仍是唯心主义",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p43s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "巡回传教士",
+            "type": "metaphor",
+            "modern": "比喻庸俗唯物主义者像传教士一样四处兜售简化版唯物主义",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 4,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_6>5"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 407,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁批评考茨基未能识破孟什维克理论家马斯洛夫的说辞，指出其关于“小资产阶级平等”的论断实质上是为孟什维克与地主妥协的政策辩护。",
+    "importance_score": 2,
+    "importance_reason": "通过具体事例揭露考茨基对孟什维克政策的误判，支撑全文对考茨基机会主义的批判。",
+    "argument_role": "continues",
+    "argument_link": "本段延续上一段的论证，以孟什维克理论家马斯洛夫的具体说法为例，进一步说明考茨基在分析政党政策时如何忽视了实际的阶级斗争和革命暴力问题。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "term_polysemy",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "彼·马斯洛夫",
+        "explain": "孟什维克理论家，其观点常被列宁用作批判机会主义路线的例证。读者需了解他是孟什维克阵营的代表人物之一。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "小资产阶级的平等",
+        "explain": "在马克思主义语境中，小资产阶级的“平等”诉求常被批判为一种脱离阶级斗争现实、试图调和阶级矛盾的空想。此处特指孟什维克用以反对农民革命的理论借口。",
+        "why_needed": "term_polysemy",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "考茨基",
+      "their_view": "考茨基没有看见马斯洛夫说法的实质，即其掩盖了孟什维克的妥协政策。",
+      "author_response": "列宁指出马斯洛夫的说法实际上是在为孟什维克与地主妥协、反对农民革命的政策辩护。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p407s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

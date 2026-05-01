@@ -1,0 +1,141 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 4,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁直接点名批判孟什维克和右派社会革命党人，揭露其策略与白卫军叛乱者相同，并指责其在革命暴力问题上虚伪。",
+    "importance_score": 2,
+    "importance_reason": "本段是列宁对主要政治反对派的直接论战，阐明了苏维埃政权与这些派别在阶级立场上的根本对立。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对饥荒和斗争形势的描述，将斗争矛头具体指向国内的政治反对派。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "allusion",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "杜托夫与科尔尼洛夫",
+        "explain": "杜托夫是哥萨克白卫军首领，科尔尼洛夫是白卫军将领，两人均在1917年发动过反对革命的叛乱。列宁将孟什维克等人的策略与这些已失败的军事叛乱相提并论。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "莫斯科士官生暴乱",
+        "explain": "指1917年11月（俄历十月）莫斯科士官生为反对布尔什维克夺取政权而发动的武装叛乱，被革命武装镇压。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "秘密条约与克伦斯基",
+        "explain": "秘密条约指沙俄及克伦斯基临时政府与协约国签订的、承诺继续参战的秘密协定。克伦斯基是二月革命后临时政府的总理，列宁指责其将工人送上前线。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p4s5",
+        "quote": "当我们施用死刑的时候，他们装成托尔斯泰主义者流下鳄鱼的眼泪，叫嚷我们太残忍了。",
+        "trigger": "allusion",
+        "reader_block": "“托尔斯泰主义者”和“鳄鱼的眼泪”是两个需要背景知识的隐喻，前者指特定思想流派，后者是讽刺性成语，读者可能不理解其讽刺指向。",
+        "parse": {
+          "claim": "孟什维克等人在苏维埃政权使用死刑时，虚伪地表现出非暴力姿态并指责政权残忍。",
+          "qualifiers": "当苏维埃政权对敌人施用死刑时。",
+          "contrast_or_target": "孟什维克等人指责苏维埃政权“太残忍”。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "本句是列宁对孟什维克指责的直接反驳，通过揭露其虚伪性来削弱其道德批判的效力。"
+        },
+        "implication": "列宁暗示，孟什维克的非暴力主张是脱离阶级斗争现实的空谈，其历史行为（如支持战争）证明了其虚伪。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "孟什维克与右派社会革命党人",
+      "their_view": "苏维埃政权对敌人使用死刑是过于残忍的行为，他们对此表示谴责。",
+      "author_response": "列宁揭露他们这种姿态是虚伪的，其自身历史行为（如支持战争、与白卫军策略一致）证明了他们才是真正的背叛者。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p4s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p4s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p4s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p4s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p4s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "鳄鱼的眼泪",
+            "type": "metaphor",
+            "modern": "源自西方谚语，比喻假装同情、实则虚伪的怜悯。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p4s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p4s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 1,
+        "hs_kept": 1,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_7>5"
+      ]
+    }
+  ]
+}

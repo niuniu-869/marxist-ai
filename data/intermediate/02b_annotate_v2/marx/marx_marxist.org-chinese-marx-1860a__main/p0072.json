@@ -1,0 +1,87 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 72,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "马克思摘录巴枯宁对俄罗斯国家形成因素的概括性描述，列举了三种历史影响。",
+    "importance_score": 1,
+    "importance_reason": "辅助性内容，概括巴枯宁对俄罗斯国家形成因素的描述。",
+    "argument_role": "none",
+    "argument_link": null,
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "鞑靼之轭",
+        "explain": "指13至15世纪蒙古-鞑靼人对俄罗斯诸公国的统治，其征税和军事控制模式对俄罗斯政治传统产生了深远影响。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "拜占庭影响",
+        "explain": "指拜占庭帝国的东正教传统和专制政治模式，通过宗教和联姻等方式深刻影响了莫斯科公国及后来的俄罗斯帝国。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "普鲁士-德国模式",
+        "explain": "指普鲁士及统一后的德国所建立的官僚体系、军事传统和警察国家模式，被视为现代国家机器的典范。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p72s1",
+        "speaker": "quoted_opponent",
+        "stance": "neutral_citation",
+        "notes": [
+          {
+            "surface": "鞑靼人的鞭子",
+            "type": "metaphor",
+            "modern": "在巴枯宁的论述中，用以指代蒙古-鞑靼人对俄罗斯的长期统治及其政治遗产。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 2,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "note:n1_overflow_social_group_14>12"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,153 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 12,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "恩格斯剖析巴枯宁主义总罢工理论的历史渊源与内在矛盾，指出其在实践中面临的组织与政治双重困境。",
+    "importance_score": 3,
+    "importance_reason": "核心段落，系统驳斥巴枯宁主义总罢工理论，揭示其历史先例与逻辑死结，是全文论证的关键环节。",
+    "argument_role": "continues",
+    "argument_link": "承接上段巴枯宁主义者被迫诉诸总罢工的被动局面，本段深入剖析该理论本身的历史与逻辑缺陷。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "“神圣月”与宪章运动",
+        "explain": "“神圣月”是19世纪30-40年代英国宪章运动中部分工人提出的口号，主张全国工人同时停工一个月，以迫使政府让步。这是总罢工思想的早期实践尝试。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "日内瓦代表大会",
+        "explain": "指1873年9月在日内瓦召开的巴枯宁派“社会主义民主同盟”代表大会。会上讨论了总罢工策略，承认其需要完善的工人组织和充足基金作为前提。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p12s10",
+        "quote": "而且，如果无产阶级有了这些，也就无须绕着总罢工的弯路去达到它的目的了。",
+        "trigger": "inverted_logic",
+        "reader_block": "读者可能困惑：为何有了组织和储金反而不需要总罢工？这句反讽揭示了巴枯宁理论的自相矛盾。",
+        "parse": {
+          "claim": "当无产阶级具备了进行总罢工所声称需要的完善组织和充裕储金时，它就已经拥有了直接实现自身目的的力量，无需再通过总罢工这一间接且曲折的途径。",
+          "qualifiers": "条件是无产阶级真正建立了理想的组织并筹集了巨额后备基金。",
+          "contrast_or_target": "巴枯宁主义者认为总罢工是实现社会革命的必要杠杆，且需要以完善的组织和充裕的储金为前提。"
+        },
+        "why": {
+          "relation": "conclusion",
+          "explanation": "本句是恩格斯对巴枯宁总罢工理论内在矛盾的最终揭露：该理论所设定的前提条件一旦满足，其主张的手段（总罢工）本身便失去了存在的必要性，从而证明该理论在逻辑上是自我否定的。"
+        },
+        "implication": "这从逻辑上瓦解了总罢工作为革命“杠杆”的理论基础，表明其并非无产阶级解放的必经之路。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "巴枯宁主义",
+      "their_view": "总罢工是实现社会革命的杠杆。只要全体工人停止工作一个月，就能迫使资产阶级屈服或进攻，从而让工人获得自卫权利并推翻旧社会。",
+      "author_response": "恩格斯指出，这种方案并非新创，且其成功所必需的工人组织和储金，在现实中要么被政府阻止积累，要么在积累完成前政治事件已促使工人解放，因此总罢工是一条不必要的弯路。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p12s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p12s2",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p12s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p12s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p12s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "神圣月",
+            "type": "slogan",
+            "modern": "19世纪英国宪章运动期间，部分工人提出的全国同时停工一个月的斗争口号。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p12s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p12s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p12s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p12s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p12s10",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 2,
+        "hs_kept": 1,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

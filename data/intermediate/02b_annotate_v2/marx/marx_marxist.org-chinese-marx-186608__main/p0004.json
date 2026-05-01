@@ -1,0 +1,97 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 4,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "分析资本与工人之间力量对比的结构性不平等，指出工人数量优势被其内部竞争导致的分散状态所抵消。",
+    "importance_score": 3,
+    "importance_reason": "提出劳资关系的根本矛盾，是理解工会斗争局限性与必要性的理论基础。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对工会历史的叙述，转而分析当前劳资关系的结构性矛盾，为论述工会的现在与未来提供理论前提。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_polysemy",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "“物质生活数据和劳动数据”",
+        "explain": "这是早期中文译法，对应现代通行的“生活资料和劳动资料”。前者指维持生存的消费品，后者指生产工具、原料等。理解此术语是读懂本句限定条件的关键。",
+        "why_needed": "term_polysemy",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "复杂限定句的结构",
+        "explain": "p4s2 句子通过“即使在……看来的公平条件下也不可能”这一嵌套结构，强调即便在资产阶级社会认可的“公平”标准下，劳资协议也无法达成。读者需先拆解此结构，才能把握其否定性论断。",
+        "why_needed": "term_polysemy",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p4s2",
+        "quote": "因此，劳资之间永远不可能在公平的条件下缔结协议，即使在物质生活数据和劳动数据的所有权同活的生产力相对抗的社会看来的公平条件下也不可能。",
+        "trigger": "long_nested",
+        "reader_block": "句子包含“即使在……看来的公平条件下也不可能”的双重否定与长限定，且“物质生活数据和劳动数据”为早期术语，读者易迷失于修饰成分而忽略核心论断。",
+        "parse": {
+          "claim": "在资本主义生产关系下，劳资双方达成的任何协议本质上都不可能是公平的。",
+          "qualifiers": "此论断适用于“物质生活数据和劳动数据的所有权同活的生产力相对抗的社会”，即生产资料私有制社会。即便在这种社会所定义的“公平”标准下，协议也无法达成。",
+          "contrast_or_target": ""
+        },
+        "why": {
+          "relation": "definition",
+          "explanation": "此句为“公平协议”的可能性下定义，通过设定一个即便在资产阶级法权框架内也无法满足的条件，来彻底否定其存在基础。"
+        },
+        "implication": "工会争取经济条件改善的斗争，其目标并非与资本达成“公平”交易，而是改变导致不平等的根本结构。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p4s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p4s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p4s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p4s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p4s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  }
+}

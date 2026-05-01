@@ -1,0 +1,244 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 10,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁回应资产阶级对解散立宪会议的指责，论证苏维埃是高于立宪会议的劳动者民主形式。",
+    "importance_score": 3,
+    "importance_reason": "核心论点，直接回应解散立宪会议引发的合法性危机，系统阐述苏维埃民主的阶级性质。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于反革命暴动失败的叙述，转向回应国内外对苏维埃政权破坏民主的指责。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing, term_polysemy",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested, term_density",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "预备议会",
+        "explain": "指1917年十月革命后，克伦斯基政府为应对革命压力而设立的咨询性机构，由各政党代表组成，但无实权。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "切尔诺夫与策列铁里",
+        "explain": "切尔诺夫是社会革命党领袖，策列铁里是孟什维克领袖。二人在克伦斯基政府中担任部长，代表小资产阶级妥协立场。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "里亚布申斯基",
+        "explain": "俄国著名大资本家、银行家，是资产阶级的典型代表。列宁用他来指代与工人阶级对立的剥削者。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "民主的阶级性",
+        "explain": "列宁在此区分两种民主：资产阶级民主（形式平等，联合所有阶级）与无产阶级民主（实质平等，仅属于劳动者）。读者需理解此区分才能把握论证核心。",
+        "why_needed": "term_polysemy",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p10s1",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": [
+          {
+            "surface": "民主",
+            "type": "concept",
+            "modern": "此处特指资产阶级民主，其核心是形式上的公民平等和代议制机构。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "democracy_bourgeois"
+          }
+        ]
+      },
+      {
+        "sid": "p10s2",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p10s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "预备议会",
+            "type": "org",
+            "modern": "克伦斯基政府设立的咨询机构，无实权，是资产阶级民主的另一种形式。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p10s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "苏维埃",
+            "type": "concept",
+            "modern": "工人士兵代表会议，是无产阶级民主的组织形式，主张政权由劳动者直接掌握。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "soviet_democracy"
+          }
+        ]
+      },
+      {
+        "sid": "p10s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "阶级",
+            "type": "concept",
+            "modern": "马克思主义基本范畴，指在生产关系中处于不同地位的社会集团。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "class_marxist"
+          }
+        ]
+      },
+      {
+        "sid": "p10s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p10s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p10s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p10s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p10s10",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "1905年的革命",
+            "type": "event",
+            "modern": "俄国第一次资产阶级民主革命，期间首次出现苏维埃组织。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p10s11",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p10s12",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "立宪民主党人",
+            "type": "org",
+            "modern": "俄国主要资产阶级政党，主张君主立宪，反对革命。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p10s13",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p10s14",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p10s15",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "里亚布申斯基",
+            "type": "person",
+            "modern": "俄国大资本家、银行家，是资产阶级的典型代表。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p10s16",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 7,
+        "notes_dropped": 2,
+        "hs_kept": 0,
+        "hs_dropped": 2,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "note:n1_overflow_concept_6>5",
+        "hs:claim_5gram_with_quote",
+        "hs:claim_5gram_with_quote",
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

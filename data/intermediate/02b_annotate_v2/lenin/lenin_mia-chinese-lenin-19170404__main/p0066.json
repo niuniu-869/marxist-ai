@@ -1,0 +1,131 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 66,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁指出在齐美尔瓦尔德和昆塔尔会议上中派占据主导，并宣布布尔什维克左派已与中派决裂。",
+    "importance_score": 2,
+    "importance_reason": "本段是列宁阐述其国际主义立场的关键一步，明确与第二国际中派划清界限，为建立新的国际奠定基础。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于建立新政党的呼吁，本段具体说明在国际范围内与旧有中派势力的决裂，是建立新国际的实际行动。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_density",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "齐美尔瓦尔德与昆塔尔会议",
+        "explain": "第一次世界大战期间，欧洲反战社会主义者召开的两次国际会议。齐美尔瓦尔德会议（1915）和昆塔尔会议（1916）旨在协调反战立场，但内部存在严重分歧。",
+        "why_needed": "history_density",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "第二国际中的中派",
+        "explain": "以考茨基为代表的派别，在战争问题上采取模棱两可的立场，口头上反对战争但实际不与本国政府决裂，主张等待战争结束。他们主导了上述两次反战会议。",
+        "why_needed": "history_density",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "《工人报》与左派",
+        "explain": "《工人报》是中派在瑞士的机关报。列宁所说的“左派”指以布尔什维克为核心的革命国际主义者，他们主张将反战立场发展为变帝国主义战争为国内革命战争。",
+        "why_needed": "history_density",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "中派",
+      "their_view": "在齐美尔瓦尔德和昆塔尔会议上，中派主张在帝国主义战争中保持形式上的中立，谴责战争但不号召推翻本国政府，试图调和国际主义与护国主义。",
+      "author_response": "列宁宣布布尔什维克左派已与中派断绝关系，认为他们的路线是机会主义的，必须建立彻底的革命国际主义立场。",
+      "polemic_kind": "strategic_critique",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p66s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "昆塔尔",
+            "type": "event",
+            "modern": "1916年在瑞士昆塔尔召开的第二次国际社会主义者反战会议",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "中派",
+            "type": "org",
+            "modern": "第二国际中以考茨基为代表的派别，在战争问题上采取调和与妥协立场",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "《工人报》",
+            "type": "work",
+            "modern": "瑞士中派社会民主党人的机关报",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p66s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "左派",
+            "type": "org",
+            "modern": "以布尔什维克为核心的革命国际主义者团体，主张彻底的反帝革命路线",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "中派",
+            "type": "org",
+            "modern": "第二国际中以考茨基为代表的派别，在战争问题上采取调和与妥协立场",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p66s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 5,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_5gram_with_surface"
+      ]
+    }
+  ]
+}

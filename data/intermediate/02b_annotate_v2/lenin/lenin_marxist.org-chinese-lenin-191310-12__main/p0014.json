@@ -1,0 +1,87 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 14,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段将批判范围从大俄罗斯民族主义扩展到所有民族的自由资产阶级民族主义，指出其共同的阶级本质和危害。",
+    "importance_score": 2,
+    "importance_reason": "本段是列宁批判“民族文化”口号的核心论点之一，将特定民族的民族主义问题上升为普遍的阶级分析，为后续论证奠定基础。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对自由派在语言问题上两面性的批判，将批判对象从大俄罗斯民族主义扩展到所有民族的资产阶级民族主义，揭示其共同的阶级根源。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "metaphor",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "普利什凯维奇先生们",
+        "explain": "指沙俄时期以普利什凯维奇为代表的极右翼贵族地主分子，他们是沙皇专制和民族压迫政策的狂热支持者。列宁用“血统关系”比喻大俄罗斯民族主义与这些反动势力的内在联系。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "自由资产阶级的民族主义 / “民族文化”口号",
+      "their_view": "每个民族的工人应首先关心和发展本民族文化，以此作为工人运动的口号。",
+      "author_response": "列宁指出，这种口号在实践中被资产阶级用作分裂工人阶级、削弱民主力量并与反动势力（农奴主）妥协的工具。",
+      "polemic_kind": "reveals_class_basis",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p14s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "普利什凯维奇先生们",
+            "type": "person",
+            "modern": "沙俄时期代表贵族地主利益的极右翼政治人物，是民族压迫和专制制度的拥护者。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p14s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "“民族文化”",
+            "type": "slogan",
+            "modern": "列宁在本文中集中批判的口号，主张每个民族的工人应优先发展本民族文化。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 109,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段论证德国社会党领导层为了维持组织合法性而放弃革命立场，并用圣经典故强化批判。",
+    "importance_score": 3,
+    "importance_reason": "本段是核心批判的一部分，具体揭示了第二国际破产在组织层面的表现和根源。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对将个人态度置于阶级斗争之上的批判，本段将批判具体化到组织路线问题，指出保存合法组织与进行革命行动之间的根本矛盾。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "allusion",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "红豆汤典故",
+        "explain": "出自圣经创世记，以扫为一碗红豆汤将长子权卖给雅各。列宁用此比喻社会民主党为眼前利益（保存组织）出卖根本权利（革命权利）。",
+        "why_needed": "allusion",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "德国社会民主党领导层（列金、考茨基等）",
+      "their_view": "保存党在战前拥有的合法群众组织是首要任务，为此可以避免采取可能招致警察解散的革命行动。",
+      "author_response": "列宁指出，这种选择实质上是用无产阶级的革命权利去交换一碗“红豆汤”，是彻底的机会主义背叛。",
+      "polemic_kind": "reveals_class_basis",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p109s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p109s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p109s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p109s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p109s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "红豆汤",
+            "type": "metaphor",
+            "modern": "在圣经故事中，以扫为一碗红豆汤出卖长子权，此处比喻为眼前小利放弃根本利益。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

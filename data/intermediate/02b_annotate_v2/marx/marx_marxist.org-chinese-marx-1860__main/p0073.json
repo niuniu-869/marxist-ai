@@ -1,0 +1,132 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 73,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段论证资产阶级社会的对抗性，导致早期社会关系在其中以扭曲形式存在，并指出只有通过资产阶级社会的自我批判，才能客观理解过去的社会形态。",
+    "importance_score": 2,
+    "importance_reason": "本段是马克思方法论的核心环节，阐述了如何通过资产阶级社会的自我批判来理解前资本主义社会，是连接历史唯物主义与政治经济学批判的关键。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于资产阶级社会是理解过去钥匙的论点，进一步说明这种理解必须建立在对资产阶级社会对抗性的认识及其自我批判的基础上。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "公社所有制",
+        "explain": "指原始社会或早期社会中，生产资料归公社集体所有的经济形式。马克思以此为例，说明早期社会关系在资产阶级社会中可能以残余或扭曲形态存在。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "基督教的自我批判",
+        "explain": "指基督教内部（如宗教改革）对其早期神话和教义进行的反思与批判。马克思用此作为类比，说明一个社会形态只有开始批判自身，才能客观理解其前身。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p73s5",
+        "quote": "所谓的历史发展总是建立在这样的基础上的：最后的形式总是把过去的形式看成是向着自己发展的各个阶段，并且因为它很少而且只是在特定条件下才能够进行自我批判，－这里当然不是指做为崩溃时期出现的那样的历史时期，－所以总是对过去的形式做片面的理解。",
+        "trigger": "long_nested",
+        "reader_block": "句子结构复杂，包含多重从句和插入语，核心论点（历史发展的片面性）被层层修饰包裹，读者容易迷失在“因为…所以…”的因果链和括号说明中。",
+        "parse": {
+          "claim": "后继的社会形态倾向于将先前的形态视为自身发展的预备阶段，这种视角通常是片面的。",
+          "qualifiers": "这种片面性源于该社会形态缺乏自我批判的能力，且这种能力仅在特定条件下才可能出现；括号内说明此处的“自我批判”不包括社会崩溃时期。",
+          "contrast_or_target": ""
+        },
+        "why": {
+          "relation": "continues",
+          "explanation": "本句在上文指出早期关系在资产阶级社会中以萎缩形式出现的基础上，进一步从方法论上解释为何我们对过去社会的理解容易带有片面性，即受限于当前社会形态的视角和缺乏自我批判。"
+        },
+        "implication": "要获得对过去社会的客观理解，必须超越当前社会形态的局限视角，并具备对该社会形态进行自我批判的条件。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p73s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p73s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p73s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p73s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p73s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p73s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p73s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p73s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 1,
+        "hs_kept": 1,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

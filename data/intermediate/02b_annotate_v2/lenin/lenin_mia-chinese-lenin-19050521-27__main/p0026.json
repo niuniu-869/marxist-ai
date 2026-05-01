@@ -1,0 +1,144 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 26,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁通过分析恩格斯对屠拉梯的告诫，指出普列汉诺夫所引案例实为批判混淆革命阶段的米勒兰主义，与当前关于无产阶级参加民主革命政府的争论无关。",
+    "importance_score": 2,
+    "importance_reason": "本段通过具体历史案例（恩格斯与屠拉梯）来反驳普列汉诺夫的论据，是论证链条中的关键例证环节。",
+    "argument_role": "example",
+    "argument_link": "承接上段对普列汉诺夫歪曲马克思文本的批评，本段进一步分析普列汉诺夫所引恩格斯信件的实际内容，以证明其论据不适用于当前争论。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "屠拉梯与米勒兰主义",
+        "explain": "屠拉梯是意大利社会党改良派领袖。米勒兰主义指社会党人参加资产阶级内阁的机会主义行为，列宁视其为背叛无产阶级。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "《前进报》",
+        "explain": "指布尔什维克在1905年革命期间创办的报纸，是列宁阐述革命策略的重要阵地。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p26s10",
+        "quote": "难道那些登上了第一级台阶的人把第二级台阶和第三级台阶混为一谈的这种危险，能够成为在攀登第一级台阶之前用一下子可能登两级台阶的前景来吓唬我们的理由吗？？",
+        "trigger": "inverted_logic",
+        "reader_block": "双重反问与“台阶”比喻，读者需还原其逻辑：不能因为未来可能混淆不同革命阶段，就在当前阶段用“可能一步登天”的幻想来恐吓无产阶级。",
+        "parse": {
+          "claim": "未来革命进程中可能出现的、将不同阶段任务相混淆的危险，不能成为在当前民主革命阶段，用“可能同时完成两个阶段任务”的空想前景来恐吓无产阶级、限制其斗争的理由。",
+          "qualifiers": "特指在“攀登第一级台阶”（完成民主革命）之前。",
+          "contrast_or_target": "马尔丁诺夫等人的观点，即认为参加民主革命政府会导致无产阶级被小资产阶级同化或背叛。"
+        },
+        "why": {
+          "relation": "conclusion",
+          "explanation": "本句是列宁对前述恩格斯案例分析的总结性推论，将历史教训转化为对当前策略争论的直接驳斥，点明论敌的逻辑错误。"
+        },
+        "implication": "无产阶级政党应当积极领导当前的民主革命，而不应因对未来可能出现的偏差的担忧而放弃当下的斗争。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p26s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p26s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p26s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p26s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p26s5",
+        "speaker": "quoted_engels",
+        "stance": "endorsed",
+        "notes": []
+      },
+      {
+        "sid": "p26s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p26s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p26s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p26s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p26s10",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 1,
+        "hs_dropped": 1,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote",
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

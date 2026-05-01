@@ -1,0 +1,82 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 9,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "通过对比《科伦日报》在六月起义前后的态度变化，揭露其立场的矛盾和恐慌。",
+    "importance_score": 2,
+    "importance_reason": "通过具体例子，支撑了对《科伦日报》在阶级斗争问题上机会主义立场的批判。",
+    "argument_role": "contrasts",
+    "argument_link": "上段总结英国工人运动的自觉性，本段转向批判《科伦日报》在六月起义前后对英国阶级斗争的矛盾态度。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "1848年巴黎六月起义",
+        "explain": "1848年6月巴黎工人起义，持续数日，被军队镇压，造成大量伤亡，是1848年欧洲革命的高潮之一。恩格斯此处用“六月的日子”指代此事件。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "科伦日报",
+      "their_view": "英国是阶级斗争典型，法国更和谐，英国的“不自然”状况应引以为戒；德国应提防类似英国的保护关税制度。",
+      "author_response": "六月起义暴露了这种论调的虚伪，英国宪章运动规模远超巴黎起义，证明阶级斗争是普遍现象。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p9s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p9s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p9s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p9s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 2,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 50,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁转述孟什维克领导人关于俄国革命性质和工人策略的主张。",
+    "importance_score": 2,
+    "importance_reason": "本段引出孟什维克观点，为列宁的批判提供靶子。",
+    "argument_role": "contrasts",
+    "argument_link": "上一段揭露资产阶级政客的虚伪诺言，本段则指出孟什维克领导人同样主张无产阶级支持资产阶级，两者在策略上一致。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "孟什维克领导人",
+        "explain": "波特列索夫、格沃兹杰夫、齐赫泽是孟什维克的主要代表，他们主张在俄国革命中与资产阶级合作，反对无产阶级独立领导革命。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p50s1",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": [
+          {
+            "surface": "波特列索夫",
+            "type": "person",
+            "modern": "孟什维克领导人，主张俄国革命是资产阶级性质。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "格沃兹杰夫",
+            "type": "person",
+            "modern": "孟什维克代表人物，支持与资产阶级合作。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "齐赫泽",
+            "type": "person",
+            "modern": "孟什维克领导人，主张无产阶级支持资产阶级。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 3,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

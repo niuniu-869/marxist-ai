@@ -1,0 +1,61 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 121,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁论证在革命内战时期，依赖抽象口号是无意义的，斗争结局取决于无产阶级与资产阶级的力量对比，中间阶级必然动摇。",
+    "importance_score": 2,
+    "importance_reason": "本段承接上文对资产阶级民主口号的批判，将论点具体化到革命内战语境，并引入对中间阶级的分析，是核心论证的支撑环节。",
+    "argument_role": "continues",
+    "argument_link": "本段承接上一段关于资产阶级民主口号虚伪性的揭露，将批判具体应用到无产阶级革命时代的政治斗争中，指出空谈这些口号在内战背景下的无效性。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "用“自由”“平等”口号反对布尔什维克的反对派（如孟什维克、社会革命党人）",
+      "their_view": "布尔什维克背弃了民主与和平的承诺，用暴力和专政取代了自由平等，我们应当坚持这些普遍原则来实现统一。",
+      "author_response": "在无产阶级革命和内战的现实下，空谈这些抽象口号是愚蠢和背叛的行为，斗争的结局完全取决于无产阶级与资产阶级的力量对比。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p121s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p121s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

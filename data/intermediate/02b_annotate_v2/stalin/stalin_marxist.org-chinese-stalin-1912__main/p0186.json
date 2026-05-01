@@ -1,0 +1,104 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 186,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段通过假设一个民族可能退出多民族国家的情境，来论证奥地利社会民主党所主张的民族自治理论在逻辑上存在根本矛盾。",
+    "importance_score": 2,
+    "importance_reason": "本段是核心批判论证的一个具体展开，通过思想实验揭示民族自治纲领的内在缺陷，支撑上段对民族自决与自治关系的论断。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对鲍威尔用民族自治替换民族自决的批判，本段进一步假设一个具体情境（民族退出国家），来检验民族自治理论的适用性，从而暴露其逻辑矛盾。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p186s3",
+        "quote": "用削足适履的办法把各民族机械地塞进国家完整性的框子里去，这算是什么“解决”问题的方法呢？",
+        "trigger": "inverted_logic",
+        "reader_block": "反问句式加上“削足适履”这个成语的隐喻，可能让读者误以为是字面意思，而忽略其对民族自治理论机械性的批判。",
+        "parse": {
+          "claim": "作者认为，民族自治理论在面对民族分离诉求时，会强行维持国家统一，这是一种不合理的解决方案。",
+          "qualifiers": "此判断针对的是“各族无产阶级必然要采取的”民族自治方案。",
+          "contrast_or_target": "针对奥地利社会民主党认为民族自治能解决多民族国家内所有民族问题的观点。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "本句用比喻和反问，直接批判民族自治理论在处理民族自决诉求时的僵化与矛盾，是本段论证的结论句。"
+        },
+        "implication": "民族自治理论无法真正解决民族问题，因为它预设了国家完整性的不可动摇，这与民族自决权相冲突。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "奥地利社会民主党",
+      "their_view": "民族自治是各族无产阶级必然要采取的，能够解决多民族国家内的民族问题。",
+      "author_response": "这种理论在民族分离诉求面前会陷入自相矛盾，因为它无法处理一个民族决定退出国家的情况，只能用机械的方式强行维持统一。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p186s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "布隆代表大会",
+            "type": "event",
+            "modern": "1906年在捷克布尔诺（德语名布隆）召开的奥地利社会民主党代表大会，会上讨论了民族纲领。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p186s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p186s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "削足适履",
+            "type": "metaphor",
+            "modern": "比喻不合理地迁就现成条件，或不顾具体条件生搬硬套。此处指民族自治理论不顾民族分离的现实诉求，强行维护国家统一。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 1,
+        "hs_kept": 1,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 143,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段通过反问，讽刺哥达纲领草案中包含了与工人阶级解放事业无关的空洞口号。",
+    "importance_score": 1,
+    "importance_reason": "这是对纲领草案具体条目的批判，属于核心批判过程中的一个例证。",
+    "argument_role": "contrasts",
+    "argument_link": "上一段对纲领进行了总体定性，本段开始具体批判其内容，通过一个实例揭示其空洞和妥协性质。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p143s2",
+        "quote": "为什么把它写在这里呢？",
+        "trigger": "inverted_logic",
+        "reader_block": "读者可能困惑马克思为何突然提及普鲁士宪法，不理解这个反问的实质是批判纲领草案的空洞和妥协。",
+        "parse": {
+          "claim": "将一个源自普鲁士国家宪法的条目写入无产阶级政党的纲领，是毫无意义且不恰当的。",
+          "qualifiers": "针对哥达纲领草案中出现的“科学自由”这一具体条款。",
+          "contrast_or_target": "纲领草案的起草者认为，将这类普遍性的民主口号写入纲领是合适的。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "此反问句直接针对纲领草案的内容，通过指出其条目来源的不当，来揭露草案的妥协性和非社会主义性质。"
+        },
+        "implication": "一个无产阶级政党的纲领应当只包含与自身阶级使命直接相关的原则和要求。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "哥达纲领草案的起草者（爱森纳赫派与拉萨尔派的妥协产物）",
+      "their_view": "为了促成合并，可以将一些看似进步但与工人阶级根本目标无关的普遍性口号（如“科学自由”）写入共同纲领。",
+      "author_response": "马克思认为，这种做法暴露了纲领的空洞和妥协，将无关的资产阶级民主口号与无产阶级的革命要求混为一谈。",
+      "polemic_kind": "strategic_critique",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p143s1",
+        "speaker": "quoted_opponent",
+        "stance": "neutral_citation",
+        "notes": [
+          {
+            "surface": "科学自由",
+            "type": "program_clause",
+            "modern": "1871年《德意志帝国宪法》（即俾斯麦宪法）第130条规定了学术自由，此处指该宪法条款。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p143s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  }
+}

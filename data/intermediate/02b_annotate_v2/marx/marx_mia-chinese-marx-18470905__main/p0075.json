@@ -1,0 +1,70 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 75,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "承接上文，转向批评主张以暴力镇压维护普鲁士君主制的论调。",
+    "importance_score": 1,
+    "importance_reason": "过渡段，引出下文对具体措施的批判，属于论证链条中的衔接环节。",
+    "argument_role": "continues",
+    "argument_link": "上一段否定了联合资产阶级推翻贵族的幻想，本段则将批判矛头指向另一种幻想：即依靠对人民的暴力来挽救旧制度。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "莱茵观察家 / 普鲁士官方",
+      "their_view": "对人民采取一些残酷的措施，就可以挽救处境极其令人担忧的普鲁士君主制度。",
+      "author_response": "马克思讽刺地表示，要对这些先生提一些“善意的意见”来教训他们。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p75s1",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p75s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "善意的意见",
+            "type": "metaphor",
+            "modern": "反讽说法，实际指对上述论调的批判性分析。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

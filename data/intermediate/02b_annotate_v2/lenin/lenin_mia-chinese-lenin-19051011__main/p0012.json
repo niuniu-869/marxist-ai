@@ -1,0 +1,153 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 12,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁剖析自由派运动的后退本质，批判其“不要妨碍”的口号，并论证无产阶级政党必须与之划清界限。",
+    "importance_score": 3,
+    "importance_reason": "核心批判段落，直接剖析自由派运动的阶级本质与策略危害。",
+    "argument_role": "contrasts",
+    "argument_link": "承接上段对自由派批评的转述，转而直接剖析自由派运动的实质，并论证无产阶级应采取的策略。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p12s7",
+        "quote": "自由派既然在特列波夫们和罗曼诺夫的其他仆从的队伍中引起了动摇，他们当然给我们带来了某些益处，但是，只有我们坚决同立宪民主党人划清界限，并且无情地痛斥他们的一切不坚定的步骤，这种益处才不会因为他们在我们队伍中引起动摇而被害处所压倒。",
+        "trigger": "long_nested",
+        "reader_block": "句子包含“既然…当然…但是…只有…才…”的复杂逻辑链，且“这种益处”指代前文，读者容易迷失论证方向。",
+        "parse": {
+          "claim": "自由派对沙皇阵营的动摇客观上有利于革命，但无产阶级政党必须通过坚决批判来防止这种动摇波及自身队伍。",
+          "qualifiers": "益处成立的前提是无产阶级政党采取坚决划清界限和无情批判的策略。",
+          "contrast_or_target": "自由派（立宪民主党人）希望与革命者保持模糊界限，利用政府让步进行活动。"
+        },
+        "why": {
+          "relation": "continues",
+          "explanation": "承接上句对自由派运动“后退”性质的定性，进一步辩证分析其客观作用与主观危害，并提出无产阶级的应对策略。"
+        },
+        "implication": "无产阶级政党不能因自由派的客观作用而放松对其路线的批判，否则会丧失自身独立性。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "自由派资产阶级（立宪民主党人）",
+      "their_view": "革命者不应妨碍自由派的运动，应利用政府给予的大学自治、集会自由和国家杜马等让步，进行温和的、合法的活动。",
+      "author_response": "列宁指出这种“运动”本质是后退，是诱使人们离开坚决斗争、转向与沙皇官僚合作。自由派力图成为革命的主人，将任何超出有限改良的革命深化都视为阻碍。",
+      "polemic_kind": "strategic_critique",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p12s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p12s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p12s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p12s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p12s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "特列波夫",
+            "type": "person",
+            "modern": "1905年革命期间的莫斯科总督，以镇压罢工和示威闻名，代表沙皇政府的强硬派。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p12s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p12s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p12s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "缝缝补补",
+            "type": "metaphor",
+            "modern": "比喻对旧制度进行表面的、有限的修补，而非根本性变革。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p12s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p12s10",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p12s11",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 1,
+        "hs_kept": 1,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

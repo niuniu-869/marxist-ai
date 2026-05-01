@@ -1,0 +1,79 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 15,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "对比两种唯物主义的理论出发点，明确新旧唯物主义的根本区别。",
+    "importance_score": 3,
+    "importance_reason": "核心论点，明确划清了新旧唯物主义的界限，是理解历史唯物主义立场的关键。",
+    "argument_role": "contrasts",
+    "argument_link": "承接上段对旧唯物主义直观性的批判，本段将批判提升到世界观层面，直接对比两种唯物主义的理论根基，为新唯物主义确立了全新的出发点。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_polysemy",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "市民社会概念",
+        "explain": "在马克思的用法中，“市民社会”特指资产阶级社会，即资本主义生产关系占主导的社会形态，与黑格尔和费尔巴哈的哲学用法不同。",
+        "why_needed": "term_polysemy",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "旧唯物主义",
+      "their_view": "旧唯物主义以孤立的、抽象的个体为出发点，将社会视为这些个体的简单集合。",
+      "author_response": "新唯物主义则从现实的、处于社会关系中的人出发，将社会理解为人的实践活动的产物。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p15s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "市民社会",
+            "type": "concept",
+            "modern": "马克思用此指资产阶级社会，即资本主义生产关系占主导的社会形态",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "civil_society_bourgeois"
+          }
+        ]
+      },
+      {
+        "sid": "p15s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 360,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "分析重农学派的内在矛盾：他们承认劳动是财富本质，却将劳动局限于农业，从而保留了封建制度的残余。",
+    "importance_score": 2,
+    "importance_reason": "本段是马克思对政治经济学说史批判的一部分，通过剖析重农学派的局限性，为后续批判国民经济学（如亚当·斯密）奠定基础。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对重农学派历史地位的定位，进一步深入剖析其理论内部的矛盾与不彻底性。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "重农学派基本主张",
+        "explain": "18世纪法国经济学派，认为只有农业能创造新财富，工业和商业只是财富的转移。主张经济自由放任，但其理论基础是土地所有权。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p360s1",
+        "quote": "重农学派既然把劳动宣布为财富的本质，也就否定了特殊的、外在的、仅仅是对象性的财富。",
+        "trigger": "inverted_logic",
+        "reader_block": "“既然……也就……”的逻辑结构，读者可能只看到“否定对象性财富”的结论，而忽略这是从“劳动是财富本质”这一前提出发的批判性推论。",
+        "parse": {
+          "claim": "重农学派将劳动确立为财富的根本来源，这一举动在逻辑上排除了那些脱离劳动、仅作为外部对象而存在的财富形式。",
+          "qualifiers": "此推论基于重农学派自身的理论前提。",
+          "contrast_or_target": "针对重商主义等将财富等同于货币或商品积累的观点。"
+        },
+        "why": {
+          "relation": "continues",
+          "explanation": "本句从上段对重农学派的定性（封建所有制的解体与恢复）转入对其核心经济观点的逻辑分析，指出其理论起点（劳动本体论）已蕴含对旧财富观的否定。"
+        },
+        "implication": "这为下文揭示重农学派的矛盾埋下伏笔：他们虽在原则上肯定劳动，却在实践中将劳动窄化。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      },
+      {
+        "anchor": "p360s4",
+        "quote": "他们既然把生产（农业）宣布为地产的本质，也就消除了地产的封建性质；",
+        "trigger": "inverted_logic",
+        "reader_block": "“消除封建性质”听起来是进步，但紧接着的“但是”表明马克思认为这并未完成，读者需理解这里的“消除”是理论上的，实践上却保留了封建外壳。",
+        "parse": {
+          "claim": "重农学派将农业生产活动定义为土地所有权的内在规定，这一理论操作在概念上剥离了土地所有权原有的封建等级色彩。",
+          "qualifiers": "此判断仅限于重农学派的理论表述层面。",
+          "contrast_or_target": "针对封建制度下土地所有权与人身依附、等级特权直接绑定的状态。"
+        },
+        "why": {
+          "relation": "contrasts",
+          "explanation": "本句与上句（s3）形成对比，指出重农学派在理论上（通过将地产本质归于生产）具有反封建的倾向，但下句（s5）立即转折，揭示其实践立场的保守性。"
+        },
+        "implication": "揭示了重农学派理论的革命性表述与保守性实质之间的断裂。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "重农学派",
+      "their_view": "劳动是财富的唯一源泉，但这种劳动首先且主要指农业劳动；只有土地所有权（地产）才能使人成为外化的、社会性的人；农业是唯一的生产性活动。",
+      "author_response": "马克思指出，重农学派虽在原则上将劳动提升为财富本质，从而否定了旧的财富形式，但他们将劳动狭隘地限定于农业，这使得他们对工业持否定态度，并在事实上保留了封建制度的外壳。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p360s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p360s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p360s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p360s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p360s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  }
+}

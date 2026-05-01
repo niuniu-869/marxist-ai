@@ -1,0 +1,64 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 95,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段叙述1848年1月梯也尔在众议院发表演说的历史背景，提及炮弹国王在巴勒莫的行动。",
+    "importance_score": 1,
+    "importance_reason": "本段作为历史事例引入，为后续批判梯也尔的立场提供具体背景。",
+    "argument_role": "example",
+    "argument_link": "本段以梯也尔在1848年的演说为例，具体说明资产阶级政府代表的言行，承接上段对政府行为的描述。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "炮弹国王与巴勒莫起义",
+        "explain": "炮弹国王指两西西里国王斐迪南二世，因镇压起义时使用炮轰而得名。巴勒莫城位于西西里岛，1848年1月当地爆发反波旁王朝起义。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p95s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "炮弹国王",
+            "type": "person",
+            "modern": "对两西西里国王斐迪南二世的蔑称，因其军事镇压方式。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "巴勒莫城",
+            "type": "place",
+            "modern": "西西里岛首府，1848年起义发生地。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  }
+}

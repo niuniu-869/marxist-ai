@@ -1,0 +1,71 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 14,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "马克思分析蒲鲁东反对工人同盟的真正动机，并非出于对匮乏的担忧，而是源于其价值理论与博尔顿工头们的分歧。",
+    "importance_score": 3,
+    "importance_reason": "核心批判段落，揭示蒲鲁东理论内部矛盾及其反对工人斗争的深层原因。",
+    "argument_role": "contrasts",
+    "argument_link": "承接上段对博尔顿工头观点的引述，转而剖析蒲鲁东反对同盟的理论根源，指出其与工头们在价值论上的对立。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "蒲鲁东",
+      "their_view": "工人组织同盟要求提高工资，会导致生活必需品价格普遍上涨和匮乏，因此这种斗争是无效且有害的。",
+      "author_response": "马克思指出，蒲鲁东恼怒的真正原因并非担心匮乏，而是博尔顿工头们用供求关系解释价值，这与蒲鲁东自己的“构成价值”理论相冲突。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p14s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p14s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "构成价值",
+            "type": "concept",
+            "modern": "蒲鲁东在《贫困的哲学》中提出的核心经济学范畴，指商品在交换中通过竞争和供求关系形成的一种“公平”价格，旨在调和劳动与资本。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "constituted_value_proudhon"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

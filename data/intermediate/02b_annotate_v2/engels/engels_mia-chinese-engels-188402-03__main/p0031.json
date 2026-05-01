@@ -1,0 +1,96 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 31,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "恩格斯将《新莱茵报》的斗争与法国大革命时期的马拉进行类比，强调揭露革命叛徒和坚持不断革命的立场。",
+    "importance_score": 2,
+    "importance_reason": "通过历史类比，具体阐释了作者在革命中的斗争策略和立场。",
+    "argument_role": "contrasts",
+    "argument_link": "本段从对议会斗争的叙述，转向对作者自身革命立场的阐述，通过历史类比强调了揭露内部叛徒和坚持不断革命的必要性。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "马拉",
+        "explain": "让-保罗·马拉，法国大革命时期雅各宾派领袖之一，以激烈抨击温和派和保王派著称，后被刺杀。其形象在革命后长期被反动势力歪曲。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "拉斐德、巴伊",
+        "explain": "拉斐德是法国大革命初期的自由派贵族，巴伊是巴黎市长，两人均属君主立宪派。他们在革命初期被视为偶像，但后来因立场保守、反对激进革命而被马拉等人揭露为叛徒。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "不断的革命",
+        "explain": "马克思和恩格斯在《共产党宣言》中提出的策略，主张无产阶级不应将资产阶级革命的胜利视为终点，而应持续推动革命直至实现无产阶级专政。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p31s2",
+        "quote": "一切的怒叫，以及使人们在几乎一百年中只知道马拉的完全被歪曲了的形象的那种全部历史捏造，只不过是由于，马拉无情地扯下了当时那些偶像——拉斐德、巴伊等人的假面具，揭露了他们已经成了十足的革命叛徒的面目，还由于，他也像我们一样不认为革命已经结束，而想使革命被宣布为不断的革命。",
+        "trigger": "long_nested",
+        "reader_block": "句子结构复杂，包含多个并列原因（“由于...还由于...”）和嵌套的历史评价，读者容易迷失在“怒叫”“捏造”与具体原因之间的逻辑关系中。",
+        "parse": {
+          "claim": "对马拉的长期污名化，根源在于他揭露了革命初期的偶像人物已沦为叛徒，并主张革命不应终止。",
+          "qualifiers": "时间限定为“几乎一百年中”，范围限定为对马拉形象的“历史捏造”。",
+          "contrast_or_target": ""
+        },
+        "why": {
+          "relation": "example",
+          "explanation": "本句作为前文“模仿了马拉榜样”的具体展开，通过分析马拉被污名化的原因，来类比说明《新莱茵报》所面临的攻击和自身立场的正当性。"
+        },
+        "implication": "作者暗示，他们当年遭受的攻击与马拉一样，源于揭露了革命阵营内部的叛徒并坚持革命的持续性。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p31s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p31s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "不断的革命",
+            "type": "concept",
+            "modern": "马克思和恩格斯在1848年革命中提出的策略，主张无产阶级在完成资产阶级民主革命后不应停步，而应继续推进革命直至无产阶级专政。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "revolution_permanent"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 166,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "恩格斯以西班牙起义失败为例，讽刺并反驳那种认为革命可以按预定计划制造的幼稚观点。",
+    "importance_score": 2,
+    "importance_reason": "通过具体历史事例，有力支撑了对巴枯宁主义革命策略的批判。",
+    "argument_role": "example",
+    "argument_link": "承接上段对俄国农民革命性的反驳，进一步用西班牙起义的失败来论证革命不能按计划制造。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "all_known",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p166s1",
+        "quote": "除此之外，就假定俄国农民大众本能上是最革命不过的，就假定革命是可以像定做一块印花布或一把茶炊那样来定做的，那末请问：一个早已满了12岁的人关于革命的进程是否应该持有像我们在这里看到的这种绝顶幼稚的见解呢？",
+        "trigger": "inverted_logic",
+        "reader_block": "反问句式加讽刺口吻，读者可能只看到字面疑问，而忽略其核心是强烈否定特卡乔夫观点的幼稚性。",
+        "parse": {
+          "claim": "即使接受农民最具革命性且革命可按计划制造这两个极端假设，特卡乔夫等人对革命进程的看法依然是极其幼稚的。",
+          "qualifiers": "此判断基于对特卡乔夫纲领中革命策略的分析。",
+          "contrast_or_target": "特卡乔夫等人认为革命可以像定做物品一样，通过少数人的预定计划和突然行动来实现。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "此句以归谬法，先假设论敌前提成立，再指出其结论的荒谬，从而反驳其革命策略的可行性。"
+        },
+        "implication": "真正的革命进程远比密谋和起义复杂，不能简化为技术性的预定计划。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "巴枯宁主义",
+      "their_view": "革命可以像定做物品一样，通过少数人的预定计划和突然行动来制造和实现；农民大众是本能的革命者，起义后各公社会因自卫本能自然联合。",
+      "author_response": "西班牙起义的失败证明，这种按计划制造的革命是幼稚的；各公社未能联合，被少量政府军各个击破，所谓无政府主义壮举不堪一击。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p166s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p166s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p166s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p166s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p166s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "无政府主义",
+            "type": "concept",
+            "modern": "此处特指巴枯宁派主张的、通过少数人密谋和自发起义来摧毁国家的革命理论。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "anarchism_theory"
+          }
+        ]
+      },
+      {
+        "sid": "p166s6",
+        "speaker": "editor",
+        "stance": "neutral_citation",
+        "notes": []
+      }
+    ]
+  }
+}

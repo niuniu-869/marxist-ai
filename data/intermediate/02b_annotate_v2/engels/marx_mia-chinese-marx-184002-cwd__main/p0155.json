@@ -1,0 +1,89 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 155,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段继续批判封建社会主义，指出其掠夺方式的过时性，并揭示其否认近代资产阶级是自身社会组织产物的矛盾。",
+    "importance_score": 1,
+    "importance_reason": "作为对封建社会主义批判的延续，具体剖析其论点中的历史错误与逻辑矛盾。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对封建社会主义团体的实例列举，进一步深入剖析其理论主张的内在矛盾与历史局限性。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "封建社会主义",
+      "their_view": "封建党声称其剥削方式与资本家不同，且其统治时期不存在近代意义上的无产者。",
+      "author_response": "作者指出封建贵族的剥削方式已过时，并揭示近代资产阶级正是封建社会组织的必然产物。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p155s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "他们忘记了",
+            "type": "polemic",
+            "modern": "作者用此短语揭露封建社会主义者论点中的自相矛盾。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p155s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "无产贫民",
+            "type": "concept",
+            "modern": "早期对近代工业无产阶级的表述。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "proletariat_modern"
+          },
+          {
+            "surface": "他们忘记了",
+            "type": "polemic",
+            "modern": "作者再次用此短语强调封建社会主义者忽视了历史发展的内在联系。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 3,
+        "notes_dropped": 2,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

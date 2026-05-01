@@ -1,0 +1,104 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 606,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段批判黑格尔辩证法中的“扬弃”仅停留在思想层面，未能在现实中真正克服对象，反而将对象消解为思维的抽象环节。",
+    "importance_score": 2,
+    "importance_reason": "这是马克思批判黑格尔唯心主义辩证法的核心段落之一，揭示了其“革命的方面”被“保守的方面”所窒息的关键机制。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段对黑格尔辩证法序列（从质到绝对观念）的描述，本段转而批判这种辩证法在处理现实对象（如私有财产）时的根本缺陷。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "黑格尔的“扬弃”",
+        "explain": "在黑格尔哲学中，“扬弃”指事物通过否定自身而发展到更高阶段，是既克服又保留的辩证过程。马克思在此批判其仅被理解为思想活动。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p606s2",
+        "quote": "而且因为思维自以为直接就是和自身不同的另一个东西，即感性的现实，从而认为自己的活动也是感性的现实的活动，所以这种思想上的扬弃，在现实中没有触动自己的对象，却以为实际上克服了自己的对象；",
+        "trigger": "long_nested",
+        "reader_block": "句子结构嵌套，包含“因为…从而…所以…”的因果链，且核心论断“没有触动…却以为克服”是双重否定式的反讽，读者易混淆其批判立场。",
+        "parse": {
+          "claim": "思维错误地将自身等同于感性现实，因此误以为其思想活动能直接改变现实对象，而实际上这种思想操作对现实对象毫无影响。",
+          "qualifiers": "限定于黑格尔式的唯心主义思维模式，即思维自认为能直接把握并作用于外部世界。",
+          "contrast_or_target": "黑格尔认为，思维通过概念运动（扬弃）能够把握并最终在理念中克服现实矛盾。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "本句具体剖析黑格尔“扬弃”观的唯心主义前提：思维与现实的虚假同一性。这是对黑格尔辩证法“保守方面”的核心指控。"
+        },
+        "implication": "若思维活动不能真正触动现实对象，那么基于此的哲学体系便无法指导对现实世界（如私有财产）的革命性改造。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "黑格尔",
+      "their_view": "思维通过概念的自我运动（扬弃）能够把握并最终在理念中克服现实世界的矛盾与对象，思想活动本身就是一种现实的、具有变革力量的活动。",
+      "author_response": "马克思指出，这种“扬弃”仅是思想内部的自我确证，它非但没有在现实中触动对象，反而将对象虚化为思维自身的环节，从而掩盖了现实矛盾。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p606s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "扬弃",
+            "type": "concept",
+            "modern": "黑格尔辩证法的核心范畴，指事物通过否定实现发展，此处特指其在思想领域内的运作。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "hegelian_aufhebung"
+          }
+        ]
+      },
+      {
+        "sid": "p606s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p606s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 1,
+        "hs_kept": 1,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_8>5"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 4,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "恩格斯回应自由贸易论者的论断，通过历史对比揭示剥削制度的演变，并指出其坦率反而有助于阶级意识的觉醒。",
+    "importance_score": 2,
+    "importance_reason": "本段通过历史对比和直接引语，揭露自由贸易论者剥削逻辑的坦率性，从而论证公开敌人优于虚伪朋友，是核心批判的一部分。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段关于工人战士需掌握政治经济学论据的论述，本段直接运用历史唯物主义视角，对自由贸易论者的核心论点进行剖析和反驳。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "自由贸易论者",
+      "their_view": "现代社会的存在取决于他们能否继续靠工人的血汗积累财富；工人是奴隶并将永远是奴隶，因为只有这样他们才能增加财富和幸福，国家的统治阶级才能维持统治。",
+      "author_response": "这种赤裸裸的坦白反而让压迫的秘密大白于天下，使人民能清楚地了解自己的地位，从而将问题简化为不可调和的阶级对立。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p4s1",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p4s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "一小撮特权者",
+            "type": "social_group",
+            "modern": "历史上各个时期占据统治地位、剥削大多数人民的少数剥削阶级。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p4s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p4s4",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p4s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p4s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p4s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "教友派信徒布莱特",
+            "type": "person",
+            "modern": "约翰·布莱特，19世纪英国激进派政治家，曼彻斯特学派代表人物，主张自由贸易和议会改革。",
+            "highlight": "person",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 2,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 15,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁强调土地改革必须由革命农民委员会自主实行，并揭露自由派提出的“国家-公共调停委员会”是官吏与地主的联盟，旨在延续1861年改革的骗局。",
+    "importance_score": 3,
+    "importance_reason": "核心论点段落，明确提出社会民主党人的土地纲领要求，并对自由派方案进行定性批判。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对自由派纲领政治危险性的批判，进一步提出己方纲领的根本要求，并具体剖析自由派方案的阶级实质。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "国家-公共调停委员会",
+        "explain": "这是自由派地主纲领中提出的改革机构，旨在通过国家与地方自治机关的联合，以赎买方式从地主手中购买土地分配给农民。列宁认为其本质是维护地主利益的工具。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      },
+      {
+        "topic": "1861年改革",
+        "explain": "指沙皇亚历山大二世签署废除农奴制的法令。该改革名义上解放农奴，但农民需高价赎买份地，且土地所有权仍多归地主，实质是自上而下的、保留大量封建残余的改革。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "自由派地主",
+      "their_view": "主张通过设立“国家-公共调停委员会”，以国家干预和赎买方式推行土地改革，认为这能公正地解决土地问题。",
+      "author_response": "列宁指出，这种委员会实质是官吏与地主的联盟，其推行的改革只会是新的骗局，如同1861年那次保留地主利益的“改革”一样。",
+      "polemic_kind": "reveals_class_basis",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p15s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "革命农民委员会",
+            "type": "program_clause",
+            "modern": "列宁在土地纲领中提出的、由农民选举产生的自治机构，作为实行土地改革的执行主体。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p15s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p15s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "国家－公共〈？〉调停委员会",
+            "type": "program_clause",
+            "modern": "自由派土地纲领中设计的改革执行机构，列宁认为其是官僚与地主利益的结合体。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p15s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p15s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 12,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "恩格斯批评纲领草案将“国家帮助”作为唯一社会要求，指出这与党内此前的批判和斗争成果相悖，是理论上的倒退。",
+    "importance_score": 2,
+    "importance_reason": "核心批判段落，具体指出纲领草案在社会要求上向拉萨尔主义倒退的关键错误。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对“铁的工资规律”的批判，转向纲领草案中另一个核心的拉萨尔主义错误——“国家帮助”要求。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "allusion",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "毕舍与阿曼特·戈克",
+        "explain": "毕舍是19世纪法国资产阶级共和主义者，曾提出由国家贷款援助工人建立合作社的方案，旨在对抗社会主义运动。阿曼特·戈克是当时法国一位政治立场模糊的社会主义者，其主张常被视为缺乏原则。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "“国家帮助”要求",
+        "explain": "指纲领草案中将国家贷款援助工人建立生产合作社作为核心社会要求。恩格斯认为这是拉萨尔派从毕舍那里抄来的、已被党内证明无效的错误主张。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p12s4",
+        "quote": "国际主义竟降低到阿曼特·戈克的水平，社会主义竟降低到资产阶级共和主义者毕舍的水平，而毕舍提出这个要求来对付社会主义者，是为了夺取他们的阵地！",
+        "trigger": "allusion",
+        "reader_block": "句中提及的“阿曼特·戈克”和“毕舍”是具体历史人物，读者若不知其背景，无法理解“降低到……水平”的讽刺含义。",
+        "parse": {
+          "claim": "纲领草案接受“国家帮助”要求，使得党的理论立场在国际主义和社会主义两个维度上都出现了严重倒退。",
+          "qualifiers": "这是在党内已经普遍反对该要求之后发生的。",
+          "contrast_or_target": "将党的立场与阿曼特·戈克的模糊主张和毕舍的资产阶级改良方案进行对比，以凸显其倒退程度。"
+        },
+        "why": {
+          "relation": "conclusion",
+          "explanation": "本句是恩格斯对接受“国家帮助”要求这一行为的定性结论，通过与两个具体历史人物的主张对比，强调其理论上的降格。"
+        },
+        "implication": "接受此要求意味着党放弃了自身的理论纯洁性和斗争立场，转而采纳了本应用于对抗社会主义的资产阶级方案。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "纲领草案（及其背后的拉萨尔派影响）",
+      "their_view": "将国家贷款援助工人建立生产合作社作为党唯一或主要的社会要求。",
+      "author_response": "恩格斯指出，这要求已被党内同志揭露为毫无用处，且是资产阶级共和主义者毕舍为对抗社会主义而提出的方案，接受它等于理论上的自我贬低。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p12s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "国家帮助",
+            "type": "program_clause",
+            "modern": "纲领草案中要求国家提供贷款，援助工人建立生产合作社的条款。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p12s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "白拉克",
+            "type": "person",
+            "modern": "威廉·白拉克，德国社会民主党早期领导人之一，曾撰文批判拉萨尔主义。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p12s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p12s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "阿曼特·戈克",
+            "type": "person",
+            "modern": "法国社会主义者，其主张在当时被认为缺乏明确的阶级立场和革命性。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "毕舍",
+            "type": "person",
+            "modern": "法国资产阶级共和主义者，其提出的国家援助合作社方案旨在消解社会主义运动。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  }
+}

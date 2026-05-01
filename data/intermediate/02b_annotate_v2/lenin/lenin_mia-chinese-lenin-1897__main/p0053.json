@@ -1,0 +1,104 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 53,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "分析新工厂法加班条款的表面规定与实际执行意图之间的矛盾。",
+    "importance_score": 3,
+    "importance_reason": "核心批判段落，揭露法律条文与执行指令的虚伪性，是全文论证的关键环节。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段对分班条款的分析，进一步揭露法律如何系统性地允许延长工作日，并讽刺大臣们虚伪的“关心”。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "cross_ref",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "财政部官僚",
+      "their_view": "财政部官僚声称其训令是为工人好，是出于生产技术条件的合理限制。",
+      "author_response": "列宁指出这些训令不过是照搬《财政通报》上对付工人的老一套说辞，本质是维护厂主利益的诡辩。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p53s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p53s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p53s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p53s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p53s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "《财政通报》",
+            "type": "work",
+            "modern": "财政部的官方刊物，常刊登为政府经济政策辩护的文章。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p53s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "训令",
+            "type": "org",
+            "modern": "财政大臣向工厂视察员发布的、解释如何执行法律的官方指令。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

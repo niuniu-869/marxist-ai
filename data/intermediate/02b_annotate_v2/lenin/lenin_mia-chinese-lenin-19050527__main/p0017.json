@@ -1,0 +1,86 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 17,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "通过对比解放派与希波夫派，揭露自由派在政权归属问题上的妥协本质。",
+    "importance_score": 2,
+    "importance_reason": "承接上段对自由派策略的剖析，通过具体对比揭露其阶级立场。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对自由派“现实政治”算盘的剖析，通过具体对比揭露其阶级立场。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p17s2",
+        "quote": "可是解放派本身在本质上不是也站在希波夫派的立场上吗？",
+        "trigger": "inverted_logic",
+        "reader_block": "双重否定加反问句式，读者可能误读为解放派与希波夫派无关，实际是强调其立场相同。",
+        "parse": {
+          "claim": "解放派在本质上与希波夫派立场相同。",
+          "qualifiers": "",
+          "contrast_or_target": "希波夫派主张的政权分配方案。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "揭露解放派与希波夫派在政权问题上的共同妥协立场，反驳解放派自以为是的优越感。"
+        },
+        "implication": null,
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "解放派（自由派资产阶级）",
+      "their_view": "解放派主张在沙皇政权与人民舆论之间寻求平衡，不愿将全部政权交给人民。",
+      "author_response": "列宁指出解放派在本质上与希波夫派立场相同，都站在妥协立场上。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p17s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p17s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p17s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 1,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

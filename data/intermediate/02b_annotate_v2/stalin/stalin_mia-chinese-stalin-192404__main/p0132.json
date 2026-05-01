@@ -1,0 +1,61 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 132,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段对比列宁与“不断革命”论者在革命路径上的分歧，指出后者忽视农民与历史遗留问题，会阻碍革命联盟的建立。",
+    "importance_score": 2,
+    "importance_reason": "核心论点段，通过对比阐明列宁主义与“不断革命”论在革命动力与阶段问题上的根本区别。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对“不断革命”论忽视农民作用的批判，进一步具体化其错误政策的后果。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "“不断革命”论者（托洛茨基）",
+      "their_view": "民主革命与社会主义革命之间没有不可逾越的阶段，无产阶级政党可以立即着手建立自己的政权，无需首先完成反封建任务并争取农民。",
+      "author_response": "列宁的策略是先利用农民的革命力量完成民主革命，再过渡到无产阶级革命；“不断革命”论者的做法忽视了俄国的现实条件，会破坏争取农民的事业。",
+      "polemic_kind": "strategic_critique",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p132s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p132s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

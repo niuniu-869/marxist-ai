@@ -1,0 +1,67 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 41,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段通过分析容克贵族提出的土地税方案，揭露其以“牺牲”为名行剥削之实的虚伪本质。",
+    "importance_score": 2,
+    "importance_reason": "本段具体展示容克贵族如何通过税制改革将负担转嫁给农民，支撑了对封建特权阶级的批判。",
+    "argument_role": "continues",
+    "argument_link": "本段承接上段对容克贵族提案的叙述，深入剖析其条款背后的剥削逻辑，为后续沃尔弗的批判提供事实基础。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p41s1",
+        "quote": "“容克们想‘作出牺牲，以便消除目前普遍的不满’。他们是这样说的。谁会料到他们竟是如此地慷慨呢！但是，这是些什么样的牺牲呢？他们建议用大致的估计硬性确定每块土地的收入，然后在全国规定同这种收入成正比的土地税。这种高尚行为并不怎么高尚，因为他们现在打算做的不过是38年来他们依照法律应该做的事。不过，我们还是往下谈吧。他们要求过去一直在违法逃税的容克和贵族领地占有者……也许是补缴税款吧？——根本不是！由于他们从此开恩纳税，他们就应当得到‘一笔相当的款子作为补偿’，即要求得到相当于今后应纳税款25倍的数额，作为补偿。‘而那些过去一直被不公正地索取了过高的土地税的人所应该做的……不是收回多缴的款子，而相反地是，为了赎取免缴更多税款的权利’，必须一次付清18倍到20倍（根据不同情况）的税款。‘现在，东部各省的农民，而且除此之外，特别是莱茵省的农民，就要缴纳更重的税了。这样一来，旧普鲁士农民和莱茵省居民现在还要为此付出一大笔钱。而东部各省贵族领地占有者至今却什么也没有缴纳，或者只缴纳了为数很少的土地税……因而，莱茵省居民和农民必须缴纳的钱，就该他们得到了。’”",
+        "trigger": "inverted_logic",
+        "reader_block": "反问句“谁会料到他们竟是如此地慷慨呢！”和反讽“这种高尚行为并不怎么高尚”，读者可能误以为作者在赞扬，实际是讽刺。",
+        "parse": {
+          "claim": "容克贵族声称通过纳税来消除不满，但实际方案是让过去逃税的贵族获得补偿，而让农民承担更重税负。",
+          "qualifiers": "方案基于土地收入估计，按比例征税，但补偿和负担分配不公。",
+          "contrast_or_target": "容克贵族宣称的“牺牲”与实际剥削农民的对比。"
+        },
+        "why": {
+          "relation": "example",
+          "explanation": "本句通过具体税制条款，举例说明容克贵族如何将“牺牲”转化为对农民的进一步剥削。"
+        },
+        "implication": "揭示封建特权阶级在改革中维护自身利益的本质。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "容克贵族",
+      "their_view": "容克贵族表示愿意作出牺牲，通过纳税来缓解社会普遍的不满情绪。",
+      "author_response": "恩格斯揭露这不过是将38年来应尽的法定义务包装成恩赐，并通过补偿机制让农民承担更多税负。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p41s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "容克",
+            "type": "social_group",
+            "modern": "普鲁士东部地区的贵族地主，享有封建土地特权和免税待遇。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  }
+}

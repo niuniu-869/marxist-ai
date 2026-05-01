@@ -1,0 +1,145 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 155,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "分析1820-1823年革命失败的阶级基础，指出其作为城市革命未能动员农村居民，且后者常站在反革命一方。",
+    "importance_score": 2,
+    "importance_reason": "具体分析1820-23年革命失败的阶级基础，支撑全文关于西班牙革命特殊性的论点。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对斐迪南七世王朝的预见，具体分析该王朝时期革命失败的阶级基础。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "1820-23年西班牙革命",
+        "explain": "1820年西班牙自由派军官发动起义，迫使国王恢复1812年宪法，建立君主立宪制。1823年法国干涉，革命被镇压，君主专制复辟。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p155s5",
+        "quote": "在西班牙，在这个“古旧风俗的仓库，在这个保存着别处早已成为破烂古董的一切东西的储藏所”里，在这个在独立战争时期还有农民带着从阿尔汉布拉宫的军火库中取来的马刺、使用远在十五世纪战争时使用过的精美的古式的钺和矛的国家里，这种事实是完全可以理解的。",
+        "trigger": "long_nested",
+        "reader_block": "长句嵌套多个比喻和从句，读者可能迷失在“仓库”“储藏所”等意象中，难以抓住核心论点。",
+        "parse": {
+          "claim": "西班牙社会保留了大量中世纪遗存，这种历史惯性使得农村居民在革命中表现保守。",
+          "qualifiers": "在独立战争时期",
+          "contrast_or_target": ""
+        },
+        "why": {
+          "relation": "example",
+          "explanation": "用具体的历史细节和比喻，例证西班牙农村的落后状态，解释为何农民在革命中不支持自由派。"
+        },
+        "implication": "这种历史惯性是理解西班牙革命特殊性的重要因素。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p155s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p155s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "资产阶级革命",
+            "type": "concept",
+            "modern": "以城市资产阶级为主导，旨在建立资本主义政治经济制度的革命。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "revolution_bourgeois"
+          }
+        ]
+      },
+      {
+        "sid": "p155s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p155s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p155s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p155s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "贵族徽记",
+            "type": "archaic",
+            "modern": "西班牙农村中象征贵族身份的石刻纹章。",
+            "highlight": "archaic",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p155s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "莫里耳奥和圣米格尔",
+            "type": "person",
+            "modern": "1820-23年革命的参与者，后来承认革命派未能动员农民。",
+            "highlight": "person",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p155s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "昂古列姆公爵",
+            "type": "person",
+            "modern": "法国波旁王朝王室成员，1823年率军干涉西班牙革命。",
+            "highlight": "person",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  }
+}

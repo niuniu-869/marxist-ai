@@ -1,0 +1,91 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 2,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "报道维也纳陷落后反革命势力的具体暴行，以讽刺口吻描述其‘胜利’的庆祝方式。",
+    "importance_score": 1,
+    "importance_reason": "为后续分析维也纳失败原因提供具体事实描述。",
+    "argument_role": "continues",
+    "argument_link": "承接标题，具体描述反革命‘胜利’的血腥现实。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p2s1",
+        "speaker": "editor",
+        "stance": "neutral_citation",
+        "notes": []
+      },
+      {
+        "sid": "p2s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "克罗地亚的自由和秩序",
+            "type": "slogan",
+            "modern": "反革命势力（克罗地亚军队）在镇压维也纳起义时所标榜的口号，作者用引号表示讽刺。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p2s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p2s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "拉图尔",
+            "type": "person",
+            "modern": "奥地利陆军大臣，因被指控为‘卖国贼’而在维也纳起义中被愤怒的民众杀死。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_person_17>12"
+      ]
+    }
+  ]
+}

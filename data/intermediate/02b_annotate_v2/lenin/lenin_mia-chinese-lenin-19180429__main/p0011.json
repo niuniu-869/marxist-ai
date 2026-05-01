@@ -1,0 +1,72 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 11,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁通过引用资产阶级报刊，反驳“统一的民主战线”是幻想的说法，指出反对派实际上已形成联合阵线。",
+    "importance_score": 2,
+    "importance_reason": "通过具体例证反驳论敌的幻想，巩固对反对派本质的判断。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于无产阶级专政遭遇反对的论述，具体展示反对派如何形成联合战线。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "《我们时代报》与《人民事业报》",
+        "explain": "《我们时代报》和《人民事业报》是当时彼得格勒的资产阶级或孟什维克倾向报刊，常发表反对苏维埃政权的言论。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p11s2",
+        "quote": "人们有时还要向我们推销关于统一的民主战线的幻想，可是，至少当我偶尔拿起资产阶级的报纸，偶尔有幸阅读《我们时代报》、《人民事业报》等这样一些报纸——哪怕就是翻一翻——的时候，我总是这样想：在“民主战线的统一”方面你们还需要什么呢？",
+        "trigger": "inverted_logic",
+        "reader_block": "反问句式+讽刺语气，读者可能误以为列宁在询问对方需求，实际是用对方报纸证明其联合。",
+        "parse": {
+          "claim": "资产阶级报刊的内容已经充分证明了反对派各派别在反对苏维埃政权上形成了事实上的联合。",
+          "qualifiers": "列宁以自己偶尔翻阅这些报纸的个人经验为例。",
+          "contrast_or_target": "针对“统一的民主战线是幻想”的说法。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "列宁用反问句式，以论敌自己的报刊为证据，直接反驳其关于反对派未联合的说法，揭露其言论与事实的矛盾。"
+        },
+        "implication": "反对派声称的“民主”联合，其内部报刊已自行暴露了这种联合的实质。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "资产阶级反对派阵营",
+      "their_view": "他们声称“统一的民主战线”只是幻想，各派别并未真正联合。",
+      "author_response": "列宁通过引用他们自己的报刊，证明这种联合已经存在。",
+      "polemic_kind": "counter_quotation",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p11s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p11s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  }
+}

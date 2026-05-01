@@ -1,0 +1,138 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 149,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "通过对比公社与凡尔赛政府在宗教、军事纪律、人事处理和政务公开方面的具体做法，展现两者在原则和作风上的根本对立。",
+    "importance_score": 2,
+    "importance_reason": "通过具体事例对比，支撑公社作为无产阶级政权与旧资产阶级政府的本质区别。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对凡尔赛政府压制自由的描述，转而通过具体对比展现公社在原则和作风上与旧政府的对立。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "毕克普斯女修道院与圣洛朗教堂",
+        "explain": "巴黎公社在1871年4月查封并搜查了这两处宗教场所，揭露了其中隐藏的武器和一些不为人知的内部事务，此举旨在打击教会势力并获取资源。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "威廉堡",
+        "explain": "普法战争中，法国元帅巴赞在梅斯被围后，于1870年10月在威廉堡（德国境内）签署投降书，将整个法军军团拱手让给普鲁士。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "茹尔·法夫尔",
+        "explain": "时任法国国防政府外交部长，梯也尔政府成员。他以伪造文件和在外交谈判中向普鲁士（俾斯麦）出卖法国利益而臭名昭著。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p149s3",
+        "quote": "公社把一个只是因为破产而在里昂被监禁过六天，后来用假名混进公社的委员予以撤职和逮捕，这对于那位伪造文件犯茹尔·法夫尔——他当时还在做法国的外交部长，还在向俾斯麦出卖法国，还在向比利时的那个模范政府发号施令——难道不像是有意打在他脸上的一记耳光吗？",
+        "trigger": "long_nested",
+        "reader_block": "句子包含多个并列的从句和插入语，读者可能难以理清法夫尔的多重身份和行为之间的逻辑关系，以及公社行为与法夫尔行为的对比点。",
+        "parse": {
+          "claim": "公社处理一名用假名混入的委员，这一行为与法夫尔的伪证行为形成对比。",
+          "qualifiers": "该委员仅因短期监禁而用假名。",
+          "contrast_or_target": "法夫尔作为外交部长却伪造文件、出卖国家利益，并对比利时政府发号施令。"
+        },
+        "why": {
+          "relation": "contrasts",
+          "explanation": "本句通过具体人事处理案例，与法夫尔的伪证和卖国行为形成鲜明对比，凸显公社的纪律性和对内部纯洁性的重视，同时讽刺了梯也尔政府官员的腐败。"
+        },
+        "implication": "这暗示了公社对内部成员的严格要求，与旧政府官员的肆意妄为形成反差。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "梯也尔政府及其官员",
+      "their_view": "梯也尔政府认为，通过授予勋章可以表彰将军们的功绩，外交部长可以伪造文件、出卖国家利益。",
+      "author_response": "公社通过严明纪律和公开透明，揭露并讽刺了这种虚伪和腐败，证明了其政权的无产阶级性质。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p149s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p149s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "大十字勋章",
+            "type": "event",
+            "modern": "法国荣誉军团勋章的最高等级，常被用来笼络军政要员。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p149s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "茹尔·法夫尔",
+            "type": "person",
+            "modern": "时任法国国防政府外交部长，梯也尔政府成员，以伪造文件和卖国行为著称。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p149s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p149s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 1,
+        "hs_kept": 1,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 39,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段揭露普鲁士容克贵族以保护财产为名，联合起来从莱茵省掠夺资金以清偿自身债务。",
+    "importance_score": 1,
+    "importance_reason": "通过具体事例说明容克贵族的经济掠夺行为，支撑前文对贵族补偿金问题的批判。",
+    "argument_role": "example",
+    "argument_link": "本段以德国容克贵族为例，延续前文对贵族经济剥削的揭露。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_density",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "容克贵族",
+        "explain": "容克是普鲁士等地的贵族地主阶层，拥有封建特权和土地，在19世纪德国仍保持经济和政治影响力。",
+        "why_needed": "history_density",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p39s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "容克",
+            "type": "social_group",
+            "modern": "普鲁士等地的贵族地主阶层，享有封建特权和土地所有权。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

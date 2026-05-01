@@ -1,0 +1,168 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 9,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "批评自然科学家忽视哲学史，将哲学史上早已提出并废弃的命题当作全新智慧。",
+    "importance_score": 2,
+    "importance_reason": "",
+    "argument_role": "continues",
+    "argument_link": "",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p9s5",
+        "quote": "但是，如果物理学家先生们记得笛卡儿早就提出了这一原理，那末它还能作为某种绝对新的东西出现吗？",
+        "trigger": "inverted_logic",
+        "reader_block": "反问句式加时代术语，读者可能不理解其反驳意图，误以为在讨论笛卡儿本人。",
+        "parse": {
+          "claim": "物理学家若了解哲学史，就不会将能量守恒原理视为绝对全新的发现。",
+          "qualifiers": "针对当时物理学界将热之唯动说的贡献视为全新成果的现象。",
+          "contrast_or_target": "当时物理学家将热之唯动说的贡献视为绝对新的科学发现。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "用反问句直接反驳自然科学家将特定科学成果视为绝对新发现的观点，强调其哲学史渊源。"
+        },
+        "implication": "理论自然科学的进步需要建立在对思想史了解的基础上，否则会陷入重复发现的误区。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "自然科学家",
+      "their_view": "热之唯动说和原子论哲学的成果是全新的科学发现，与哲学史无关。",
+      "author_response": "这些原理在哲学史上早已提出，自然科学家因不熟悉哲学史而误判其原创性。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p9s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p9s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p9s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p9s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "热之唯动说",
+            "type": "event",
+            "modern": "19世纪中期确立的热力学理论，认为热是分子运动的表现。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p9s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "笛卡儿",
+            "type": "person",
+            "modern": "17世纪法国哲学家、科学家，其著作中包含能量守恒思想的早期表述。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p9s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "原子论哲学",
+            "type": "concept",
+            "modern": "古希腊哲学中关于世界由不可分割微粒构成的学说。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "atomic_theory_philosophy"
+          }
+        ]
+      },
+      {
+        "sid": "p9s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p9s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "凯库勒",
+            "type": "person",
+            "modern": "19世纪德国化学家，以苯环结构理论闻名。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p9s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "第欧根尼·拉尔修",
+            "type": "person",
+            "modern": "古希腊哲学史料编纂者，其著作《名哲言行录》保存了大量早期哲学家思想。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 5,
+        "notes_dropped": 1,
+        "hs_kept": 1,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 2
+      },
+      "reasons": [
+        "note:n1_overflow_concept_6>5"
+      ]
+    }
+  ]
+}

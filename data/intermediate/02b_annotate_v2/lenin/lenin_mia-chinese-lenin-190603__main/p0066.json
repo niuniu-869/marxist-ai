@@ -1,0 +1,124 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 66,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁通过分析地租归属和税收调节，驳斥马斯洛夫等人关于土地国有化会损害小农利益的论断。",
+    "importance_score": 2,
+    "importance_reason": "具体论证国有化对小农的实际影响，是反驳论敌核心论据的关键段落。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对“国有”概念的澄清，进一步从经济后果（地租、税收）角度论证国有化不会侵犯小农。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "累进所得税",
+        "explain": "一种税率随纳税人收入增加而提高的税制。在列宁的论述中，这是民主国家调节社会财富、减轻小生产者负担的工具。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "小业主",
+        "explain": "指拥有小块土地或小规模生产资料、主要依靠自身及家庭劳动进行经营的农民或手工业者，是小资产阶级的组成部分。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "马斯洛夫",
+      "their_view": "土地国有化会剥夺农民土地、加强官僚政治，因此主张实行“地方公有”或“省有”。",
+      "author_response": "国有化只涉及地租所有权转移，小农本身不收地租故无需交纳；在民主国家框架下，还会通过累进税和减税来保护小业主，国有化反而能促进土地合理利用。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p66s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p66s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p66s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p66s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p66s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p66s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "累进所得税",
+            "type": "concept",
+            "modern": "一种税率随收入增加而提高的税制，旨在调节社会财富分配。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "tax_progressive"
+          },
+          {
+            "surface": "小业主",
+            "type": "social_group",
+            "modern": "拥有小块土地或小规模生产资料、主要依靠自身劳动经营的农民或手工业者。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p66s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

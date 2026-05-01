@@ -1,0 +1,134 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 56,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "恩格斯批判抽象的平等理论，指出其荒谬性，并论证平等是历史的产物而非永恒真理，同时反驳杜林在此问题上的矛盾立场。",
+    "importance_score": 2,
+    "importance_reason": "",
+    "argument_role": "continues",
+    "argument_link": "承接上一段对平等概念的限定，本段具体展开批判抽象平等理论，并揭示杜林自身观点的内在矛盾。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p56s5",
+        "quote": "现在之所以要求平等，那是由于预见到在当前的历史条件下随着平等要求自然而然来到的智力上和道德上的平等化。",
+        "trigger": "inverted_logic",
+        "reader_block": "句子将“要求平等”的原因归结为对一种未来“平等化”趋势的“预见”，这种因果关系和“自然而然来到”的表述，容易让读者困惑其具体所指和逻辑。",
+        "parse": {
+          "claim": "当前对平等的诉求，其根源在于人们预见到，在特定历史阶段，伴随平等运动的发展，社会成员在智力与道德层面会趋于接近。",
+          "qualifiers": "限定于“当前的历史条件下”，且这种“平等化”是“随着平等要求”而来的结果。",
+          "contrast_or_target": ""
+        },
+        "why": {
+          "relation": "continues",
+          "explanation": "此句承接前文对抽象平等的否定，转而解释现实平等诉求的合理基础，即它指向一种可预见的、由历史条件催生的社会成员能力趋同过程，而非抽象原则。"
+        },
+        "implication": "这暗示了无产阶级争取平等的斗争，其目标并非实现某种先验的、绝对的平等状态，而是推动历史进程，创造使人的能力得以全面发展的社会条件。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      },
+      {
+        "anchor": "p56s6",
+        "quote": "但是，永恒的道德必须在任何时候和任何地方都是可能的。",
+        "trigger": "inverted_logic",
+        "reader_block": "这是一个以“但是”开头的转折句，且“永恒的道德”与“必须……可能”构成一种看似矛盾的表述，读者不易理解其在论证链中的作用。",
+        "parse": {
+          "claim": "如果存在一种永恒不变的道德准则，那么它必须在所有时间、所有地点都具备实现的可能性。",
+          "qualifiers": "这是一个条件性陈述，用以检验“永恒道德”这一概念本身。",
+          "contrast_or_target": "针对主张存在永恒、超历史道德标准的观点。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "此句通过一个逻辑推论，为下文反驳杜林（或类似观点）关于平等可以是永恒真理的主张设置前提。它暗示，如果平等被视为永恒道德的一部分，那么它就必须在任何历史条件下都适用，而这与事实不符。"
+        },
+        "implication": "此推论旨在证明，任何声称具有永恒性的道德观念（包括抽象平等），都因其无法在所有历史条件下实现而归于荒谬。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "杜林",
+      "their_view": "主张存在抽象的、永恒的平等理论，并可能将其视为一种超历史的道德真理。",
+      "author_response": "指出这种理论在现实中荒谬，平等是特定历史状况的产物；并揭露杜林自身也容许“暂时性的压制”，这实际上承认了平等并非永恒，从而与其理论前提相矛盾。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p56s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p56s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p56s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p56s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p56s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p56s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p56s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p56s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 1,
+        "hs_kept": 2,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 1
+      },
+      "reasons": [
+        "note:n1_overflow_concept_7>5"
+      ]
+    }
+  ]
+}

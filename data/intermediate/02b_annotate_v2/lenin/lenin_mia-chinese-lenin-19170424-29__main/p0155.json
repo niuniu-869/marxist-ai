@@ -1,0 +1,108 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 155,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁分析德国社会爱国主义者伯格比尔的外交角色，揭露其代表本国统治集团与敌方进行帝国主义交易的本质。",
+    "importance_score": 1,
+    "importance_reason": "作为具体例证，支撑了列宁对社会沙文主义者背叛国际主义、充当本国资产阶级外交工具的批判。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于社会沙文主义者作为本国政府非官方代表的论断，以德国为例具体说明其行为。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "伯格比尔与社会爱国主义",
+        "explain": "伯格比尔是德国社会民主党内的右翼领袖，属于“社会爱国主义”派别。该派别在第一次世界大战中支持本国政府的战争政策，背叛了国际主义原则。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "斯陶宁格的政党",
+        "explain": "指丹麦社会民主党。斯陶宁格作为该党领袖加入资产阶级内阁后，党内以特里尔为首的左翼马克思主义者因反对这一合作而退党。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "社会爱国主义多数派",
+      "their_view": "我们代表本国工人阶级，参与国际会议是为了保卫祖国的革命成果，并寻求与交战国达成和平协议。",
+      "author_response": "列宁指出，他们所谓的国际活动不过是为本国统治集团的帝国主义外交服务，是与“另一方强盗”进行分赃的掩护。",
+      "polemic_kind": "reveals_class_basis",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p155s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "伯格比尔",
+            "type": "person",
+            "modern": "德国社会民主党右翼领袖，一战期间持社会沙文主义立场，支持本国政府战争政策。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p155s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "斯陶宁格",
+            "type": "person",
+            "modern": "丹麦社会民主党领袖，1916年加入资产阶级联合政府，导致党内左翼分裂。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "特里尔同志",
+            "type": "person",
+            "modern": "丹麦社会民主党左翼马克思主义派领袖，因反对斯陶宁格的合作路线而率众退党。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p155s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 3,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_6>5"
+      ]
+    }
+  ]
+}

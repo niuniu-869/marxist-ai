@@ -1,0 +1,139 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 23,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "通过反问和归谬法，论证语言作为全民交际工具，其基本结构不会随社会制度变革而彻底改变。",
+    "importance_score": 2,
+    "importance_reason": "核心论证段，用归谬法直接反驳“语言是上层建筑”的错误观点，阐明语言的全民性和历史稳定性。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于俄语在革命后基本结构得以保存的论述，进一步从逻辑上论证这种保存的必然性与合理性。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic | allusion",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "唐·吉诃德典故",
+        "explain": "西班牙小说人物，脱离现实、耽于幻想、行动荒诞的骑士。作者用此形象讽刺那些提出不切实际语言变革任务的人。",
+        "why_needed": "allusion",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p23s2",
+        "quote": "如果在每次革命之后，把现在的语言结构及其语法构造和基本词汇都象对待上层建筑一样消灭掉，并以新的来代替，的确又有什么必要呢？",
+        "trigger": "inverted_logic",
+        "reader_block": "反问句式，读者可能只读到疑问，而忽略其归谬意图——作者并非在提问，而是在否定这种假设的必要性。",
+        "parse": {
+          "claim": "在每次社会革命后，彻底摧毁并替换现有语言体系是没有必要的。",
+          "qualifiers": "限定于“每次革命之后”这一假设情境。",
+          "contrast_or_target": "针对认为语言是上层建筑、应随基础变革而变革的观点。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "以反问形式提出一个极端假设（彻底消灭语言），旨在揭示将语言等同于上层建筑的荒谬性，为后续论证铺垫。"
+        },
+        "implication": "语言变革的逻辑与上层建筑变革的逻辑根本不同，不能类比。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "语言阶级性论与语言上层建筑论",
+      "their_view": "语言是基础的上层建筑，会随着基础的消灭而消灭；因此，在社会革命后，应当也能够彻底消灭旧语言并创立新语言。",
+      "author_response": "语言是全民的交际工具，其基本结构和词汇具有历史稳定性，不会随社会制度变革而彻底改变。人为快速消灭和创立语言，会在社会生活中造成混乱，是脱离实际的空想。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p23s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p23s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p23s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p23s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p23s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p23s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p23s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p23s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p23s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "唐·吉诃德",
+            "type": "person",
+            "modern": "西班牙小说《堂吉诃德》的主人公，一个脱离现实、耽于幻想的骑士形象。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 0,
+        "hs_kept": 1,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

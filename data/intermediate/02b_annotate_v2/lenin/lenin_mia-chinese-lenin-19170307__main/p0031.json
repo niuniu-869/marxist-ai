@@ -1,0 +1,67 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 31,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "作者警告不要对革命抱有幻想，批评孟什维克等人准备与立宪民主党妥协的错误倾向，并揭露其掩盖帝国主义阴谋的实质。",
+    "importance_score": 2,
+    "importance_reason": "本段是作者对革命初期错误思潮的直接批判，为后续阐述布尔什维克策略奠定论战基础。",
+    "argument_role": "contrasts",
+    "argument_link": "承接上段对帝国主义集团外交谎言的揭露，转而批判国内政治力量中类似的、更危险的幻想与妥协倾向。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "孟什维克",
+      "their_view": "革命后，工人政党应当与立宪民主党这样的资产阶级政党达成妥协，并给予支持，以巩固革命成果。",
+      "author_response": "列宁认为这是陷入幻想和错误，实质是掩盖帝国主义与俄国资产阶级的阴谋，无产阶级必须认清其阶级本质。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p31s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p31s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p31s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

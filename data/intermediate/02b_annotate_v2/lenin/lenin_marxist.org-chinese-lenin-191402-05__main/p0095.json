@@ -1,0 +1,79 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 95,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁分析自由派英吉梁斯基的言论，指出其与罗莎·卢森堡观点一致，并追问其对政治自决权的真实立场。",
+    "importance_score": 2,
+    "importance_reason": "本段是论战中的一个具体回合，通过剖析自由派言论，揭示其与机会主义者的理论关联，并强化对核心问题的追问。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于莫吉梁斯基回应的叙述，进一步分析其言论的实质，并将其与更广泛的论战对手联系起来。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "英吉梁斯基（自由派）",
+      "their_view": "民族自决权并非不容批评的偶像，揭露民族自决运动中的不良倾向，并不等于否认民族自决权本身。",
+      "author_response": "列宁指出，这种论调与罗莎·卢森堡的观点完全一致，其目的是回避直接回答是否承认政治自决权（即分离权）这一根本问题。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p95s1",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": [
+          {
+            "surface": "偶像",
+            "type": "metaphor",
+            "modern": "在本文论战语境下，指被某些人视为绝对正确、不容任何质疑和批评的教条化原则。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p95s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p95s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 2,
+        "hs_kept": 0,
+        "hs_dropped": 2,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "note:n1_overflow_concept_10>5",
+        "hs:claim_5gram_with_quote",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

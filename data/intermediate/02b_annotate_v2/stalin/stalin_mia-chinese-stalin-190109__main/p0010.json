@@ -1,0 +1,101 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 10,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段旨在驳斥工人对合法报纸的幻想，通过描述沙皇政府的书报检查制度，论证此类报纸无法成为工人阶级的喉舌。",
+    "importance_score": 3,
+    "importance_reason": "核心批判段落，直接针对当时部分工人对合法斗争形式的幻想，为后文论证创办秘密革命报刊的必要性奠定基础。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于创办定期刊物必要性的论述，转而具体分析为何不能依赖当时存在的合法报纸，从而强化创办革命报刊的紧迫性。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "对合法报纸抱有幻想的工人或运动参与者",
+      "their_view": "合法报纸，无论其出版条件或方针如何，能够代表工人的利益；工人可以从中获取有用信息并以此为基础开展宣传工作。",
+      "author_response": "这种看法是严重的错误。在沙皇政府的严密书报检查下，合法报纸无法传递关于工人问题的真实报道和正确评价，依赖其零星内容是徒劳且不明智的。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p10s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p10s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p10s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p10s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p10s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p10s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p10s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "不通事理",
+            "type": "metaphor",
+            "modern": "作者用此反讽表达，指那些对沙皇专制下的出版环境缺乏基本认识，幻想利用合法渠道进行有效革命宣传的人。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_archaic_5>4",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

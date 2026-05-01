@@ -1,0 +1,71 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 421,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁指出考茨基早年著作显示其应熟知马克思关于土地国有化的论断，以此暗示其当前立场的背离。",
+    "importance_score": 2,
+    "importance_reason": "通过考茨基的学术背景来加强对其背叛的指控，是论证的重要支撑。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段对考茨基土地方案不彻底性的批判，进一步从考茨基自身知识背景揭露其矛盾。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "考茨基",
+      "their_view": "考茨基作为土地问题专家，其早年著作显示他应熟悉马克思的相关论述。",
+      "author_response": "列宁指出考茨基当前在无产阶级专政问题上的立场与其学术积累相矛盾。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p421s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "土地国有",
+            "type": "concept",
+            "modern": "在资产阶级民主革命语境下，将土地所有权收归国家所有，被视为资产阶级最彻底的经济纲领。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "land_nationalization_bourgeois"
+          }
+        ]
+      },
+      {
+        "sid": "p421s2",
+        "speaker": "quoted_marx",
+        "stance": "endorsed",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_8>5"
+      ]
+    }
+  ]
+}

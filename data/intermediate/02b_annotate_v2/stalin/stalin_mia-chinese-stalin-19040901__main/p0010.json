@@ -1,0 +1,85 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 10,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "描述格鲁吉亚资产阶级民族主义者为吸引工人，试图为自己的刊物披上社会主义外衣，但被工人识破并嘲笑。",
+    "importance_score": 1,
+    "importance_reason": "作为对前一段论证的展开，具体描述资产阶级民族主义者的策略及其失败，属于支撑性例证。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段关于资产阶级民族主义者需要吸引无产阶级的论断，具体描述他们为此采取的策略（改变色彩）及其结果。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "格鲁吉亚资产阶级民族主义者及其刊物《格鲁吉亚报》",
+      "their_view": "为了恢复声名，我们至少得改变一下外表，即使不懂社会主义，也得披上一件社会主义的外衣来吸引工人。",
+      "author_response": "斯大林指出，这只是改变了表面色彩，其资产阶级民族主义的本质并未改变，这种伪装已被工人识破并遭到嘲笑。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p10s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p10s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p10s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p10s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p10s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p10s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

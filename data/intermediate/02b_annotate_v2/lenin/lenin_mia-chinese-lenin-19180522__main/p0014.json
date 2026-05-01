@@ -1,0 +1,66 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 14,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "描绘苏维埃政权被推翻后的可能情景，作为前一段所述无产阶级专政胜利前景的对立面。",
+    "importance_score": 2,
+    "importance_reason": "通过描绘反面后果，强化前一段关于无产阶级专政必要性的论点。",
+    "argument_role": "contrasts",
+    "argument_link": "本段与上一段构成非此即彼的对比，描绘了如果无产阶级不掌握政权将导致的灾难性后果。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "科尔尼洛夫叛乱",
+        "explain": "1917年俄国二月革命后，科尔尼洛夫将军发动军事叛乱，企图建立军事独裁，被布尔什维克和工人赤卫队挫败。列宁用此指代可能的反革命军事独裁者。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p14s1",
+        "quote": "或者是资产阶级在富农的帮助下，在无气节的和昏头昏脑的人（无政府主义者和左派社会革命党人）的间接支持下，把苏维埃政权推翻，拥立一个亲德的或亲日的科尔尼洛夫，这个科尔尼洛夫就会强迫人民每日做工16小时，每星期只给八分之一磅的面包，枪杀工人群众，在审讯室里实行拷打，象在芬兰和乌克兰那样。",
+        "trigger": "long_nested",
+        "reader_block": "长句包含多个并列成分和具体数字描述，读者容易在细节中迷失对整体逻辑的把握。",
+        "parse": {
+          "claim": "如果无产阶级不能建立专政，资产阶级将借助富农和动摇分子的力量复辟，建立亲外国势力的军事独裁政权。",
+          "qualifiers": "",
+          "contrast_or_target": "与前一段无产阶级专政胜利的前景形成对比。"
+        },
+        "why": {
+          "relation": "contrasts",
+          "explanation": "通过描绘反面后果，与前一段的正面前景形成对比，强化选择的紧迫性。"
+        },
+        "implication": "列宁以此警告彼得格勒工人，粮食危机背后是政权存亡问题，必须采取坚决行动。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "无政府主义者和左派社会革命党人",
+      "their_view": "他们反对国家政权对于从资本主义过渡到共产主义的必要性，主张立即废除国家机器，允许私人粮食买卖。",
+      "author_response": "列宁指出他们的行动间接支持了资产阶级复辟，是缺乏政治坚定性的表现。",
+      "polemic_kind": "reveals_class_basis",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p14s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  }
+}

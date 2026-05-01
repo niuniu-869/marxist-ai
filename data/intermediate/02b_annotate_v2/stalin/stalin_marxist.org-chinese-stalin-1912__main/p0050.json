@@ -1,0 +1,64 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 50,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "引用并讽刺鲍威尔对民族的定义，指出其定义最终归结为生产条件。",
+    "importance_score": 2,
+    "importance_reason": "通过引用论敌原文并加以讽刺，直接暴露其理论的唯心主义内核，为后文批判做铺垫。",
+    "argument_role": "contrasts",
+    "argument_link": "承接上段对鲍威尔理论的引述，本段直接展示其定义的最终形态，并以反讽语气点出其理论的实质。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "refute_quotation"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p50s2",
+        "quote": "于是，我们就得出如鲍威尔所说的民族的最“完备的”定义了。",
+        "trigger": "inverted_logic",
+        "reader_block": "读者可能将“完备的”理解为正面评价，而实际是反讽，意在嘲讽该定义看似完整实则空洞。",
+        "parse": {
+          "claim": "鲍威尔自认为给出了一个关于民族的完整定义。",
+          "qualifiers": "此定义是鲍威尔本人所声称的。",
+          "contrast_or_target": "鲍威尔认为其定义是“完备的”，能涵盖民族的所有方面。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "本句以反讽语气总结上句引用的鲍威尔定义，旨在揭露其理论的自相矛盾与空洞，为后续批判其唯心主义民族观做铺垫。"
+        },
+        "implication": "斯大林暗示，鲍威尔的定义看似包罗万象，实则回避了民族形成的物质基础，是一种唯心主义的空谈。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "奥·鲍威尔",
+      "their_view": "民族是命运的共同体，而命运共同体由人们生产与分配生活资料的条件决定，因此民族性格也由这些条件决定。",
+      "author_response": "斯大林通过引用并总结鲍威尔的定义，以“完备的”一词进行反讽，意在揭露其理论最终不得不承认物质生产条件的作用，从而与其唯心主义的民族性格论自相矛盾。",
+      "polemic_kind": "counter_quotation",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p50s1",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p50s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  }
+}

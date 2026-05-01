@@ -1,0 +1,151 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 196,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁将立宪民主党的杜马定性为“立宪幻想”的集中体现，是资产阶级进攻无产阶级的工具，并揭露其与沙皇政府在遏制革命上的一致性。",
+    "importance_score": 3,
+    "importance_reason": "本段是列宁对立宪民主党本质的核心批判，揭示其作为资产阶级工具的阶级属性。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对资产阶级谎话的批判，进一步将立宪民主党的杜马定性为“立宪幻想”的化身，并揭露其与沙皇政府的共谋。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "立宪幻想",
+        "explain": "指认为通过沙皇政府主导的杜马（议会）就能实现政治改良、避免革命的幻想。列宁视其为麻痹革命斗志的工具。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      },
+      {
+        "topic": "《北极星》杂志",
+        "explain": "立宪民主党（人民自由党）的机关刊物，用于宣传其政治主张。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "布兰克之流",
+        "explain": "指以布兰克为代表的立宪民主党人，他们主张用有计划的改革取代革命。",
+        "why_needed": "history_missing",
+        "confidence": "medium",
+        "source_basis": "inferred"
+      },
+      {
+        "topic": "杜尔诺沃和杜巴索夫",
+        "explain": "沙皇政府的高级官员（杜尔诺沃为内务大臣，杜巴索夫为莫斯科总督），代表镇压革命的官方势力。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p196s9",
+        "quote": "真是：智者所见略同（Les beaux esprits se rencontrent）。",
+        "trigger": "allusion",
+        "reader_block": "这是一句法语谚语的引用，读者若不熟悉其反讽用法，可能无法理解列宁在此表达的讽刺效果——即立宪民主党人和沙皇官员在反对革命这一点上“英雄所见略同”。",
+        "parse": {
+          "claim": "立宪民主党人（布兰克之流）和沙皇政府官员（杜尔诺沃之流）虽然言辞不同，但在用杜马遏制革命这一根本目标上完全一致。",
+          "qualifiers": "此结论基于前文对双方言论的对比。",
+          "contrast_or_target": "揭露立宪民主党与沙皇政府在阶级利益上的一致性，反驳立宪民主党作为“反对派”的伪装。"
+        },
+        "why": {
+          "relation": "conclusion",
+          "explanation": "用一句反讽的谚语，对前文列举的立宪民主党人和沙皇官员的言论进行总结，得出他们实为同谋的结论。"
+        },
+        "implication": "这证明了立宪民主党的资产阶级本质，其与封建专制政府在维护旧秩序上并无根本冲突。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "立宪民主党（人民自由党）",
+      "their_view": "杜马是有效的议会斗争场所，其胜利是真正的政治成就；主张用有计划的、系统的改革取代破坏性的革命旋风。",
+      "author_response": "列宁揭露，立宪民主党的杜马是“立宪幻想”的化身，其目的是把工人阶级变成立宪民主党的附庸，并与沙皇政府在防治革命上达成一致。",
+      "polemic_kind": "reveals_class_basis",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p196s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p196s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p196s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p196s4",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p196s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p196s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p196s7",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p196s8",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p196s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 1,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 36,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "马克思用汤盆与汤匙的比喻，反驳韦斯顿关于工资总额固定的论点，并借古罗马典故讽刺其逻辑的荒谬。",
+    "importance_score": 2,
+    "importance_reason": "通过生动比喻，将韦斯顿抽象的错误前提具象化，为后续的理论反驳奠定直观基础。",
+    "argument_role": "contrasts",
+    "argument_link": "承接上段对韦斯顿推论的转述，本段开始正面批驳其理论前提，指出其比喻的错误所在。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "allusion",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "梅涅尼·阿格利巴的比喻",
+        "explain": "古罗马贵族阿格利巴在平民起义时，用“胃养活四肢”的比喻来论证贵族统治的必要性，将社会关系比作身体器官的供养关系。马克思引用此典故，意在讽刺韦斯顿的比喻同样荒谬且具有阶级辩护色彩。",
+        "why_needed": "allusion",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p36s6",
+        "quote": "公民韦斯顿想必忘记了，在工人们喝汤的那个汤盆里盛着国民劳动的全部产品，他们不能舀出更多的汤，既不是因为汤盆的容量小，也不是因为汤盆里盛的东西少，只因为他们的汤匙太小了。",
+        "trigger": "inverted_logic",
+        "reader_block": "句子用“不是因为…也不是因为…只因为…”的否定结构，将韦斯顿的两个可能原因（总量固定）全部排除，最后给出一个看似简单却需经济学理解的真正原因（分配工具）。",
+        "parse": {
+          "claim": "工人无法获得更多产品份额的根本原因，并非社会总产品不足或生产停滞，而是他们缺乏有效的经济斗争手段来改变分配格局。",
+          "qualifiers": "限定于工人阶级在资本主义分配关系中的处境。",
+          "contrast_or_target": "韦斯顿认为，工人不能多得是因为社会总产品量（汤）是固定的常数。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "本句是马克思对韦斯顿核心错误前提的正面驳斥，通过否定韦斯顿的两个预设（盆小、汤少），将问题焦点从生产领域转移到分配领域的斗争工具上。"
+        },
+        "implication": "工人的经济斗争（如罢工）正是为了打造和使用更大的“汤匙”，即争取更有利的工资和劳动条件，从而改变分配结果。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "韦斯顿",
+      "their_view": "社会总产品量和实际工资总额都是固定不变的常数，因此工人争取提高工资的斗争是徒劳的，就像汤匙再大也舀不出更多的汤。",
+      "author_response": "马克思指出，问题不在于“汤盆”（总产品）的容量或存量，而在于工人的“汤匙”（斗争手段）太小，因此斗争是必要且可能改变分配结果的。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p36s1",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p36s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p36s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p36s4",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": [
+          {
+            "surface": "梅涅尼·阿格利巴",
+            "type": "person",
+            "modern": "古罗马贵族，曾在平民起义时发表演说，其“胃与四肢”的比喻被马克思引用来类比韦斯顿的错误逻辑。",
+            "highlight": "archaic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p36s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p36s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "汤匙太小了",
+            "type": "metaphor",
+            "modern": "比喻工人阶级缺乏有效的经济斗争手段和组织力量，无法在分配中争取到更大份额。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 177,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁在此界定苏维埃政权需团结的阶级基础，明确联合对象限于受压迫的劳动者，排除剥削者和富裕小资产者。",
+    "importance_score": 2,
+    "importance_reason": "本段具体化苏维埃政权的阶级基础，为任务列表提供定义性支撑。",
+    "argument_role": "continues",
+    "argument_link": "本段承接上文对苏维埃政权任务的引出，详细说明第一项任务的内涵和适用范围。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p177s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "工人",
+            "type": "concept",
+            "modern": "马克思主义理论中现代工业无产阶级的称谓，是资本主义社会中被剥削的主要阶级。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "proletarian_modern"
+          },
+          {
+            "surface": "剥削阶级",
+            "type": "concept",
+            "modern": "占有生产资料并剥削他人劳动的阶级，资本主义社会中以资产阶级为代表。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "class_exploiter"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_7>5"
+      ]
+    }
+  ]
+}

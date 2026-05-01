@@ -1,0 +1,107 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 373,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段批判第二国际各党在和平时期沦为议会选举机关，无法承担领导无产阶级革命的使命。",
+    "importance_score": 2,
+    "importance_reason": "核心批判段落，通过剖析第二国际政党的性质，论证列宁主义政党学说的必要性。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段关于“党”的论述，转而具体批判第二国际的政党模式，为列宁主义政党观提供反面例证。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "第二国际",
+        "explain": "1889年成立的国际社会主义者联合组织，旨在协调各国工人政党行动。一战爆发后，多数成员党支持本国政府参战，导致其实际破产。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "议会党团",
+        "explain": "指政党在议会中的代表团体。在第二国际时期，议会斗争被视为主要形式，党团成为党的活动中心。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "考茨基 / 第二国际",
+      "their_view": "第二国际各党是和平的工具，不是战争的工具，因此在战争和革命时期无力采取重大措施，这是其固有属性。",
+      "author_response": "作者接受这一描述，但指出这恰恰证明第二国际政党不适用于无产阶级的革命斗争，它们只是议会选举的附属品，而非领导革命的战斗组织。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p373s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p373s2",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p373s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p373s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p373s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p373s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p373s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 2,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

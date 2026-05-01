@@ -1,0 +1,159 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 35,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段通过回顾1848年欧洲革命中的具体事件，论证工人阶级的失败导致了整个革命运动的失败，并重申阶级斗争是历史进程的核心。",
+    "importance_score": 2,
+    "importance_reason": "本段是马克思用1848年革命的具体史实，来支撑其关于阶级斗争决定革命成败的核心论点，属于关键例证。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段对“责难”的回应，本段开始用具体的历史材料来证明其关于阶级斗争的论断。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_density",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "1848年欧洲革命事件",
+        "explain": "段中提及的二月革命、三月革命、巴黎六月斗争、维也纳陷落等，是1848年席卷欧洲的资产阶级民主革命与无产阶级起义的关键节点，其失败标志着革命低潮。",
+        "why_needed": "history_density",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "“正直的共和国”反讽",
+        "explain": "此处指1848年法国二月革命后建立的资产阶级共和国，其自称“正直”，马克思用此称谓进行讽刺，暗示其镇压工人阶级的虚伪性。",
+        "why_needed": "term_polysemy",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p35s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "二月革命",
+            "type": "event",
+            "modern": "1848年2月法国推翻七月王朝的革命，建立了资产阶级共和国。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "三月革命",
+            "type": "event",
+            "modern": "1848年3月在德意志、奥地利等地爆发的一系列反对封建专制的革命。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "资产阶级共和派",
+            "type": "social_group",
+            "modern": "1848年法国革命后主张建立共和国的资产阶级政治派别。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p35s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "正直的共和国",
+            "type": "slogan",
+            "modern": "对1848年法国资产阶级共和国的讽刺性称呼，揭露其标榜正义却镇压工人的实质。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p35s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p35s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "巴黎的六月斗争",
+            "type": "event",
+            "modern": "1848年6月巴黎无产阶级起义，被资产阶级共和派政府残酷镇压。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "维也纳的陷落",
+            "type": "event",
+            "modern": "1848年10月，奥地利反革命军队攻占维也纳，镇压了当地的革命力量。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p35s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p35s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p35s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 6,
+        "notes_dropped": 2,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "note:n1_overflow_metaphor_13>8",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

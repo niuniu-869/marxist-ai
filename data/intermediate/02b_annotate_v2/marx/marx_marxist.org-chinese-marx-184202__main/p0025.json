@@ -1,0 +1,94 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 25,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "马克思运用比喻和反问，质疑并驳斥了普鲁士书报检查令中要求对真理的探讨必须“谦逊”这一规定的合理性。",
+    "importance_score": 2,
+    "importance_reason": "这是对检查令核心要求“严肃和谦逊”的直接哲学反驳，是揭露其虚伪性的关键论证环节。",
+    "argument_role": "contrasts",
+    "argument_link": "承接上段对检查令“严肃和谦逊”要求的引述，本段转而从真理的本性出发，对这一要求本身进行逻辑和哲学上的驳斥。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "refute_quotation"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p25s1",
+        "quote": "真理像光一样，它很难谦逊；",
+        "trigger": "inverted_logic",
+        "reader_block": "比喻“真理像光”与反常搭配“很难谦逊”结合，读者会困惑：真理为何需要谦逊？光与谦逊有何关系？",
+        "parse": {
+          "claim": "真理的本质是明晰和直接的，如同光一样照亮事物，因此它无法被要求表现得谦逊。",
+          "qualifiers": "",
+          "contrast_or_target": "针对检查令要求对真理的探讨必须“谦逊”这一前提。"
+        },
+        "why": {
+          "relation": "contrasts",
+          "explanation": "本句通过比喻，将真理的本性（如光般直接、明晰）与检查令所要求的“谦逊”态度进行对比，从而质疑后者作为一项普遍要求的合理性。"
+        },
+        "implication": "如果真理的本性就是直接和明晰，那么要求它谦逊就是一种违背其本质的、不合理的约束。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      },
+      {
+        "anchor": "p25s3",
+        "quote": "Verum index sui et falsi［真理是检验它自身和谬误的试金石］[3]。",
+        "trigger": "allusion",
+        "reader_block": "拉丁文格言及其哲学内涵，对不熟悉古典哲学的读者构成理解障碍。",
+        "parse": {
+          "claim": "真理是判断自身真伪以及识别谬误的内在标准，它具有自我确证和鉴别他者的能力。",
+          "qualifiers": "",
+          "contrast_or_target": ""
+        },
+        "why": {
+          "relation": "continues",
+          "explanation": "引用古典哲学格言，为上一句关于真理本性的论断提供哲学依据，强化真理作为内在标准、无需外在“谦逊”姿态的论点。"
+        },
+        "implication": "既然真理是自我确证的标准，那么要求它以“谦逊”的姿态出现，就是否定其作为标准的自主性和权威性。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "普鲁士书报检查令",
+      "their_view": "对真理的探讨必须保持“严肃和谦逊”的态度。",
+      "author_response": "真理如同光，其本性直接而明晰，无法谦逊；且真理是判断自身与谬误的内在标准，无需外在规定其姿态。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p25s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p25s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p25s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p25s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  }
+}

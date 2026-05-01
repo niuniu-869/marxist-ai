@@ -1,0 +1,91 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 158,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁讽刺立宪民主党人关于革命风暴已平息的论断，指出正是这场风暴才使他们得以幸存。",
+    "importance_score": 2,
+    "importance_reason": "通过具体反驳立宪民主党人的论断，支撑作者关于革命形势并未结束的核心论点。",
+    "argument_role": "contrasts",
+    "argument_link": "承接上段对布兰克等人歪曲历史时期的批判，转而具体剖析立宪民主党人对当前形势的错误判断。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "rhetorical",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "杜巴索夫",
+        "explain": "指米哈伊尔·杜巴索夫，时任莫斯科总督，以残酷镇压1905年十二月起义闻名，是沙皇专制暴力的象征。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "旋风比喻",
+        "explain": "此处“旋风”是列宁对1905年革命风暴的比喻，指席卷俄国的群众性革命运动。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "立宪民主党",
+      "their_view": "1905年的革命风暴（“旋风”）已经过去，俄国政治形势回到了风暴前的状态。",
+      "author_response": "列宁指出，正是这场革命风暴的存在，才使得沙皇专制机器（以杜巴索夫为代表）没有将自由派资产阶级彻底消灭。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p158s1",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": [
+          {
+            "surface": "旋风",
+            "type": "metaphor",
+            "modern": "列宁用以比喻1905年席卷俄国的群众性革命运动。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p158s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p158s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

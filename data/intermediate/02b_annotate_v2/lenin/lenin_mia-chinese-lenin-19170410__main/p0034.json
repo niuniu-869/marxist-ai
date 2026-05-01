@@ -1,0 +1,77 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 34,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "分析二月革命后出现的两个政权并存局面，指出这是资产阶级专政与工农专政两种政权形式的交织。",
+    "importance_score": 2,
+    "importance_reason": "提出“两种专政交织”这一核心观察，为后续分析革命策略和国家形式奠定基础。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对苏维埃自愿让权的描述，进一步分析这种让权所造成的具体政治格局，即两种政权并存。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing, term_first_use",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "李沃夫与临时政府",
+        "explain": "格奥尔基·李沃夫是二月革命后成立的资产阶级临时政府首脑。列宁用“李沃夫之流”代指这个政府，强调其资产阶级属性。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "列宁的“专政”定义",
+        "explain": "列宁在此处对“专政”给出了一个操作性定义：一种不依赖法律或民意，而是通过暴力夺取并由特定阶级掌握的政权形式。这与通常理解的“独裁统治”有理论区别。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p34s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p34s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 2,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "note:n1_overflow_concept_10>5"
+      ]
+    }
+  ]
+}

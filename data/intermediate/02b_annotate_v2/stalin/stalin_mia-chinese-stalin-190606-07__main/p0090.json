@@ -1,0 +1,119 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 90,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段用果戈里戏剧中的讽刺台词，比喻无政府主义者在论战中自相矛盾的行为。",
+    "importance_score": 1,
+    "importance_reason": "本段通过文学典故讽刺论敌的自相矛盾，增强论战的生动性，但非核心理论阐述。",
+    "argument_role": "continues",
+    "argument_link": "本段延续上段对无政府主义者自相矛盾的揭露，用具体比喻强化讽刺效果。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "allusion",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "allusion",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "果戈里《钦差大臣》典故",
+        "explain": "果戈里是俄国作家，《钦差大臣》是一部讽刺喜剧，剧中市长对赫列斯塔科夫说“下士的老婆自己揍自己”，形容自相矛盾的荒唐行为。",
+        "why_needed": "allusion",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p90s2",
+        "quote": "这真是下士的老婆自己揍自己！",
+        "trigger": "allusion",
+        "reader_block": "读者可能不熟悉果戈里戏剧，无法理解这个比喻的讽刺含义，需要知道典故来源。",
+        "parse": {
+          "claim": "作者用这个比喻形容无政府主义者行为的荒谬和自相矛盾。",
+          "qualifiers": "",
+          "contrast_or_target": "针对无政府主义者在论战中前后不一的言论。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "本句通过文学典故讽刺论敌，揭露其自相矛盾，增强论战的生动性。"
+        },
+        "implication": null,
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "沙·哥·（无政府主义者）",
+      "their_view": "沙·哥·在《号召报》上前后言论不一，自相矛盾。",
+      "author_response": "斯大林讽刺这种自相矛盾，用戏剧典故比喻其荒谬。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p90s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p90s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p90s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "果戈里的剧本“钦差大臣”",
+            "type": "work",
+            "modern": "俄国作家果戈里的讽刺喜剧作品。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "沙·哥·",
+            "type": "person",
+            "modern": "无政府主义者，在《号召报》上发表文章。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          },
+          {
+            "surface": "号召报",
+            "type": "work",
+            "modern": "无政府主义者的报刊。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 3,
+        "notes_dropped": 1,
+        "hs_kept": 1,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_metaphor_10>8"
+      ]
+    }
+  ]
+}

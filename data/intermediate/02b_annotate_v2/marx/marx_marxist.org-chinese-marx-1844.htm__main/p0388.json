@@ -1,0 +1,125 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 388,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "承接上文对私有制的批判，指出私有制导致人的感觉异化为单一的“拥有感”，并引用赫斯的论述。",
+    "importance_score": 3,
+    "importance_reason": "核心批判段落，将私有制的后果从财产关系推进到人的感觉与存在层面，是异化劳动理论的关键环节。",
+    "argument_role": "continues",
+    "argument_link": "上段指出私有制使人变得愚蠢和片面，本段进一步揭示这种片面性在感觉层面的具体表现，即所有丰富感觉被简化为“拥有”这一种。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "term_density | inverted_logic",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "赫斯与《二十一印张》",
+        "explain": "莫泽斯·赫斯是早期德国社会主义者，青年黑格尔派成员。《二十一印张》是1845年在瑞士出版的文集，收录了赫斯等人的文章，其中包含对“拥有”范畴的哲学探讨。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p388s1",
+        "quote": "因此，一切肉体的和精神的感觉都被这一切感觉的单纯异化即拥有的感觉所代替。",
+        "trigger": "term_density",
+        "reader_block": "“异化”与“拥有的感觉”两个核心术语叠加，且“单纯异化即拥有的感觉”这一表述高度凝练，读者难以直接理解其具体所指。",
+        "parse": {
+          "claim": "在私有制条件下，人原本多样的感官体验（如视觉、听觉、触觉等）和精神体验（如爱、思维等），全部被一种单一的感觉——即“占有”或“拥有”某物的感觉——所取代和支配。",
+          "qualifiers": "此判断特指私有制社会中的普遍状况。",
+          "contrast_or_target": ""
+        },
+        "why": {
+          "relation": "continues",
+          "explanation": "本句是上段“私有制使人变得愚蠢和片面”论断在感觉层面的具体展开，将“片面性”明确为感觉的单一化（异化）。",
+          "implication": "人的本质力量（丰富的感觉）被私有财产关系所扭曲和限制。"
+        },
+        "implication": null,
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      },
+      {
+        "anchor": "p388s2",
+        "quote": "人这个存在物必须被归结为这种绝对的贫困，这样他才能从自身产生出他的内在丰富性。",
+        "trigger": "inverted_logic",
+        "reader_block": "“绝对的贫困”与“内在丰富性”构成看似矛盾的辩证关系，读者容易误解为字面上的贫穷或物质匮乏。",
+        "parse": {
+          "claim": "人必须经历一种彻底的、一无所有的状态（即丧失一切外在的、异化的拥有），才能摆脱这种异化，从而在自身内部重新发展出真正属于人的、全面的丰富性。",
+          "qualifiers": "“绝对的贫困”在此特指对私有财产的彻底扬弃，而非经济意义上的赤贫。",
+          "contrast_or_target": ""
+        },
+        "why": {
+          "relation": "conclusion",
+          "explanation": "本句基于前文对异化感觉的分析，推导出一个辩证的结论：扬弃私有制（即经历“绝对的贫困”）是恢复人的本质丰富性的前提。",
+          "implication": "共产主义（消灭私有制）不是简单的财富再分配，而是人的感觉和本质的全面解放。"
+        },
+        "implication": null,
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p388s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "异化",
+            "type": "concept",
+            "modern": "在马克思早期思想中，指人的创造物（如劳动产品、社会关系）反过来成为支配、奴役人的异己力量。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "alienation_early_marx"
+          }
+        ]
+      },
+      {
+        "sid": "p388s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p388s3",
+        "speaker": "editor",
+        "stance": "neutral_citation",
+        "notes": [
+          {
+            "surface": "赫斯",
+            "type": "person",
+            "modern": "莫泽斯·赫斯，德国早期社会主义思想家，青年黑格尔派成员。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "《二十一印张》",
+            "type": "work",
+            "modern": "1845年在瑞士苏黎世出版的文集，收录了赫斯等人的哲学与政论文章。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  }
+}

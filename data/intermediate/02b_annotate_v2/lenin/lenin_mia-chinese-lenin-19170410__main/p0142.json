@@ -1,0 +1,129 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 142,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁主张布尔什维克党应立即与齐美尔瓦尔德国际断绝组织联系，仅保留观察资格。",
+    "importance_score": 2,
+    "importance_reason": "这是列宁为布尔什维克党在革命新阶段制定的国际策略，明确了与第二国际中派决裂的立场。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于俄国无产阶级责任的论述，本段提出在国际战线上应采取的决裂行动。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_density",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "齐美尔瓦尔德国际",
+        "explain": "第一次世界大战期间，欧洲社会党人反对战争的国际会议及后续形成的松散组织。内部存在主张彻底反战的左派与主张和平主义但不彻底的中派（考茨基派）的斗争。",
+        "why_needed": "history_density",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "考茨基派",
+        "explain": "指齐美尔瓦尔德国际内部以卡尔·考茨基为代表的中派集团。他们反对战争，但不主张与本国资产阶级政府决裂，也不号召革命。",
+        "why_needed": "history_density",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "普列汉诺夫与谢德曼",
+        "explain": "普列汉诺夫是俄国孟什维克理论家，二月革命后支持临时政府并主张继续战争。谢德曼是德国社会民主党右翼领袖，支持本国政府进行帝国主义战争。二人均属社会沙文主义者。",
+        "why_needed": "history_density",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "齐美尔瓦尔德的“考茨基派”及普列汉诺夫、谢德曼之流的沙文主义国际",
+      "their_view": "主张在齐美尔瓦尔德框架内保持国际联合，即便存在分歧，也应维持与支持战争的“沙文主义国际”的联系。",
+      "author_response": "必须立即与这个国际断绝组织关系，彻底划清界限，仅保留观察员身份以了解情况。",
+      "polemic_kind": "strategic_critique",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p142s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "齐美尔瓦尔德",
+            "type": "org",
+            "modern": "第一次世界大战期间欧洲社会党人反对战争的国际会议及后续形成的松散组织。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p142s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "考茨基派",
+            "type": "org",
+            "modern": "齐美尔瓦尔德国际内部的中派集团，以考茨基为代表，主张和平主义但不彻底。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "普列汉诺夫",
+            "type": "person",
+            "modern": "俄国孟什维克理论家，二月革命后支持临时政府并主张继续战争。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "谢德曼",
+            "type": "person",
+            "modern": "德国社会民主党右翼领袖，支持本国政府进行帝国主义战争。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p142s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p142s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 4,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

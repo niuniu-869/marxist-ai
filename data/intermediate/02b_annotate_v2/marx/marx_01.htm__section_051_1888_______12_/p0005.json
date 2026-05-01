@@ -1,0 +1,157 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 5,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "解释《共产党宣言》为何不以“社会主义”命名，而是选择“共产主义”，并追溯了1847年这两个术语在当时欧洲工人运动中的特定含义与阶级归属。",
+    "importance_score": 3,
+    "importance_reason": "核心论点段，阐明了《宣言》的理论立场和命名原则，划清了与当时其他社会思潮的界限。",
+    "argument_role": "definition",
+    "argument_link": "承接上段对《宣言》传播史的梳理，转而解释《宣言》自身的核心概念选择，为后续阐述其内容奠定术语基础。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_polysemy | history_density",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested | term_density",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "1847年的“社会主义”与“共产主义”",
+        "explain": "在1847年的欧洲语境中，“社会主义”常指由知识分子或上流社会倡导的改良方案，而“共产主义”则特指工人阶级内部主张彻底变革社会制度的激进思潮。二者在阶级基础和目标上存在明确区分。",
+        "why_needed": "term_polysemy",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      },
+      {
+        "topic": "空想社会主义流派",
+        "explain": "指19世纪初以欧文（英国）和傅立叶（法国）为代表的社会主义学说。他们设计了理想社会蓝图，但脱离工人阶级的现实斗争，寄希望于统治阶级的同情与支持。",
+        "why_needed": "history_density",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "早期空想共产主义",
+        "explain": "指19世纪30-40年代在工人中兴起的、主张财产公有的运动。法国的卡贝和德国的魏特林是其代表人物，他们的理论虽不成熟，但代表了工人阶级自身的革命倾向。",
+        "why_needed": "history_density",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "空想社会主义者（欧文派、傅立叶派）与社会庸医",
+      "their_view": "社会主义是可以通过有教养阶级的支持、用各种补缀办法来实现的，其目标是在不触动资本和利润的前提下消除社会弊病。",
+      "author_response": "这些思潮的倡导者脱离工人阶级运动，其方案无法触动资本主义制度的根本。真正的、与工人阶级相结合的运动是共产主义，它要求对社会进行根本改造。",
+      "polemic_kind": "reveals_class_basis",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p5s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p5s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "欧文派",
+            "type": "person",
+            "modern": "以英国空想社会主义者罗伯特·欧文思想为核心的追随者群体。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "傅立叶派",
+            "type": "person",
+            "modern": "以法国空想社会主义者夏尔·傅立叶思想为核心的追随者群体。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p5s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p5s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p5s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p5s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p5s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p5s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p5s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p5s10",
+        "speaker": "quoted_marx",
+        "stance": "endorsed",
+        "notes": []
+      },
+      {
+        "sid": "p5s11",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 2,
+        "hs_kept": 0,
+        "hs_dropped": 2,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix",
+        "hs:claim_5gram_with_quote",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

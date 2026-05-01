@@ -1,0 +1,67 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 15,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "马克思用厂主们自己承认的供求规律来衡量工人争取提高工资的运动，并通过反问讽刺这种规律的所谓永恒性。",
+    "importance_score": 2,
+    "importance_reason": "本段是论证中的一个环节，用反问来质疑论敌的前提，为后续分析提供论辩基础。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段关于“恭敬”与供求规律关联的质疑，本段直接用供求规律来衡量工人运动，并讽刺其永恒性。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "工厂主及其喉舌",
+      "their_view": "供求规律是永恒的自然法则，工人的工资完全由它决定，工人要求提高工资是违背这一规律的。",
+      "author_response": "马克思用反问讽刺，这种所谓的永恒规律，其可信度并不比国际间那些随时可能被撕毁的“永恒”和约更高。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p15s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p15s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p15s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 16,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "马克思以反讽口吻回应资产阶级的指责，指出他们所捍卫的“劳动财产”实为已被工业发展淘汰的小生产者财产。",
+    "importance_score": 2,
+    "importance_reason": "本段是核心批判的一部分，通过揭露资产阶级论点的历史局限性，瓦解其对共产党人的攻击。",
+    "argument_role": "contrasts",
+    "argument_link": "承接上段对资产阶级指责的转述，本段直接反驳其前提，指出其捍卫的对象已非现实主体。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "refute_quotation"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "资产阶级",
+      "their_view": "共产党人意图消灭的是个人通过辛勤劳动挣得的、构成其自由与独立基础的正当财产。",
+      "author_response": "马克思指出，资产阶级所捍卫的这种小生产者财产，早已被资本主义工业发展本身所摧毁，共产党人无需也无力去消灭它。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p16s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p16s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "小资产阶级",
+            "type": "concept",
+            "modern": "介于资产阶级与无产阶级之间，拥有少量生产资料、主要依靠自身劳动的社会阶层。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "petty_bourgeoisie"
+          }
+        ]
+      },
+      {
+        "sid": "p16s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:eval_word:implication:历史性"
+      ]
+    }
+  ]
+}

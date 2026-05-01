@@ -1,0 +1,106 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 31,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁论证签订苛刻和约是革命职责，反驳主张继续战争的观点，强调必须面对现实争取喘息时机。",
+    "importance_score": 3,
+    "importance_reason": "本段是列宁论证签订和约的核心部分，直接回应反对意见并阐述其革命理由。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对指责出卖领土的回应，本段进一步论证为何必须接受这些损失，将讨论从具体指责提升到革命策略层面。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p31s2",
+        "quote": "3月3日我们签订了和约，难道我们吃亏了吗？",
+        "trigger": "inverted_logic",
+        "reader_block": "反问句式，读者可能期待“吃亏了”的答案，但实际要论证没吃亏，需理解其反驳的预设。",
+        "parse": {
+          "claim": "签订和约后苏维埃政权并未处于更不利的境地。",
+          "qualifiers": "",
+          "contrast_or_target": "针对那些认为接受苛刻和约是吃亏、是可耻行为的观点。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "以反问形式直接反驳论敌关于和约使苏维埃吃亏的论调，为下文论证和约的必要性做铺垫。"
+        },
+        "implication": null,
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      },
+      {
+        "anchor": "p31s3",
+        "quote": "凡是愿意从群众的观点，而不是从小贵族决斗者的观点看事物的人都会懂得，没有军队或者只有一些患病的残余部队，要进行战争，而且美其名曰革命战争，那是自我欺骗，也是对人民的最大欺骗，",
+        "trigger": "allusion",
+        "reader_block": "“小贵族决斗者”是历史比喻，指脱离实际、为个人荣誉而战的旧式贵族，读者可能不熟悉此比喻所针对的主战派心态。",
+        "parse": {
+          "claim": "从实际力量对比出发，继续进行战争是脱离现实的自我欺骗行为。",
+          "qualifiers": "前提是“没有军队或者只有一些患病的残余部队”。",
+          "contrast_or_target": "针对那些不顾军队实际状况，主张继续进行“革命战争”的人。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "通过“群众观点”与“小贵族决斗者观点”的对比，批判主战派脱离群众和现实的冒险主义立场。"
+        },
+        "implication": null,
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "主张继续战争的革命空谈者",
+      "their_view": "他们认为接受苛刻和约是可耻的，主张不顾力量悬殊继续进行革命战争，甚至寄希望于德国革命即将爆发。",
+      "author_response": "列宁指出这是脱离实际的自我欺骗，必须面对没有军队的现实，签订和约以换取喘息时机，这才是对人民负责。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p31s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p31s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p31s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p31s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p31s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p31s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  }
+}

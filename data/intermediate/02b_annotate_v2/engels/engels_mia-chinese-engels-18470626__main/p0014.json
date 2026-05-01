@@ -1,0 +1,55 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 14,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "恩格斯质问法国当局为何不对涉及买卖贵族封号和歌剧院特权丑闻的人进行司法追究，尽管有控告和证据。",
+    "importance_score": 2,
+    "importance_reason": "本段通过具体质问揭露法国司法体系的不作为，支撑对资产阶级统治集团腐败的批判。",
+    "argument_role": "continues",
+    "argument_link": "本段承接上段对巴罗拒绝处理诽谤事件的引用，扩展质问到其他腐败行为。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "法国七月王朝政府",
+      "their_view": "政府官员声称自己未参与买卖贵族封号和歌剧院特权等腐败行为。",
+      "author_response": "恩格斯质问他们为何不将涉事者交付审判，揭露其司法不作为和虚伪。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "medium"
+    },
+    "sentences": [
+      {
+        "sid": "p14s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

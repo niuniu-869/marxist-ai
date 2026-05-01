@@ -1,0 +1,92 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 78,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "恩格斯论证，社会主义政党若做出保全小农土地所有制的承诺，将对党和小农自身造成双重损害，并阐明党的正确任务是向农民解释资本主义下小生产的必然灭亡。",
+    "importance_score": 2,
+    "importance_reason": "本段是恩格斯对法国社会党南特纲领核心错误的直接批判，阐明了社会主义政党在农民问题上必须坚持的原则立场，是全文论证的关键环节。",
+    "argument_role": "continues",
+    "argument_link": "承接上段提出的策略原则，本段从反面论证为何不能做出保全小农土地所有制的承诺，并正面阐述党的宣传任务。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "allusion",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p78s2",
+        "quote": "这就简直是把农民解放的道路封闭起来并把党降低到招摇过市的反犹太主义的水平。",
+        "trigger": "allusion",
+        "reader_block": "“反犹太主义”在19世纪末欧洲是何种政治现象？恩格斯用此比喻什么？读者若不了解其历史语境，难以理解此批判的尖锐性。",
+        "parse": {
+          "claim": "做出保全小农土地所有制的承诺，会阻碍农民走向真正的解放，并使党的政治水准堕落至煽动排外情绪的层次。",
+          "qualifiers": "此判断针对的是“如果我们所给的诺言使农民哪怕有一点借口设想我们是要想长期保全小块土地所有制”这一特定情况。",
+          "contrast_or_target": "法国社会党南特纲领主张保护小农土地所有制，以联合农村一切成分。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "本句是恩格斯对南特纲领错误主张的直接定性批判，将其后果与当时流行的、利用民众不满进行排外煽动的“反犹太主义”政治运动相提并论，以强调其危害性。"
+        },
+        "implication": "恩格斯认为，社会主义政党的纲领必须基于科学的经济分析，而非迎合小生产者的短期幻想，否则将丧失其先进性。",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "法国社会党南特代表大会土地纲领",
+      "their_view": "社会主义政党有责任保护小农的小块土地所有制，甚至保护有时剥削短工的佃农，以此联合农村一切成分对抗封建土地所有制。",
+      "author_response": "这种承诺是给农民帮倒忙，封闭了他们的解放道路，并将党降低到煽动排外情绪的水平。党的任务是向农民解释，在资本主义统治下其小生产必然被大生产压碎。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p78s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p78s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p78s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p78s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 1,
+        "hs_kept": 1,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_archaic_5>4"
+      ]
+    }
+  ]
+}

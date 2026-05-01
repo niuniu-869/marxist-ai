@@ -1,0 +1,106 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 67,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁指出国际社会主义运动已因战争问题而分裂，护国派已脱离社会主义，而李卜克内西代表了正确的国际主义方向。",
+    "importance_score": 2,
+    "importance_reason": "本段为布尔什维克的国际主义立场提供全球背景，将俄国的路线斗争置于世界社会主义运动分裂的大框架下。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对齐美尔瓦尔德会议及中派的批判，将视野从会议内部扩展到全球社会主义运动的实际分裂状态，并点明正确的国际主义代表。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "齐美尔瓦尔德左派",
+        "explain": "第一次世界大战期间，于1915年在瑞士齐美尔瓦尔德召开的反战社会党人会议上形成的少数派。他们主张将帝国主义战争转变为国内革命战争，与占多数的中派（考茨基等人）路线对立。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "李卜克内西",
+        "explain": "德国社会民主党左派领袖，因在帝国议会投票反对战争拨款而被捕入狱，是当时国际范围内坚持反战立场的标志性人物。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "护国派",
+      "their_view": "在战争期间，保卫祖国是正当且必要的，社会主义者应支持本国的防御战争。",
+      "author_response": "列宁断言，这种立场已经从根本上放弃了社会主义的国际主义原则，是彻底的背叛。",
+      "polemic_kind": "reveals_class_basis",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p67s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "齐美尔瓦尔德左派",
+            "type": "org",
+            "modern": "一战期间形成的国际反战左翼团体，主张变帝国主义战争为国内革命战争。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p67s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p67s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p67s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "李卜克内西",
+            "type": "person",
+            "modern": "德国社会民主党左派领袖，因反战立场入狱，是国际主义的象征。",
+            "highlight": "person",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

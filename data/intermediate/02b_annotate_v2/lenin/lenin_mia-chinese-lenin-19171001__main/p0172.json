@@ -1,0 +1,94 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 172,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁描述临时政府政策引发农民起义，并引用社会革命党报纸的承认来揭露其矛盾。",
+    "importance_score": 2,
+    "importance_reason": "通过具体事例（农民起义）和对手报纸的承认，支撑布尔什维克夺取政权的必要性。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对临时政府伪造杜马、利用反动势力的批判，进一步展示其政策导致的社会后果。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p172s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p172s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "《人民事业报》",
+            "type": "org",
+            "modern": "社会革命党中央机关报，由该党领袖切尔诺夫主持",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "社会革命党",
+            "type": "org",
+            "modern": "1902年成立的俄国政党，代表小资产阶级利益，主张土地社会化",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "切尔诺夫",
+            "type": "person",
+            "modern": "维克多·切尔诺夫，社会革命党领袖，曾任临时政府农业部长",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "工人和农民",
+            "type": "social_group",
+            "modern": "当时俄国社会的两大主要劳动群体，是革命的主要力量",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 4,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

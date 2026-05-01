@@ -1,0 +1,107 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 199,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "分析一种用社会主义辞藻包装的民族主义对无产阶级的特殊危害性。",
+    "importance_score": 2,
+    "importance_reason": "本段具体阐述伪装民族主义的危害机制，是核心批判的展开部分。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对鲍威尔“社会主义的民族原则”的批判，具体分析这种伪装民族主义的运作方式和危害。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "伪装的民族主义（指鲍威尔等人用社会主义辞藻包装的民族主义）",
+      "their_view": "民族主义可以与社会主义辞藻结合，成为工人运动中的指导原则。",
+      "author_response": "这种伪装的民族主义对无产阶级更有害，因为它更难识破，会毒化各民族工人间的关系。",
+      "polemic_kind": "strategic_critique",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p199s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "社会主义的辞藻",
+            "type": "metaphor",
+            "modern": "用社会主义话语包装的民族主义主张",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p199s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p199s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p199s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "社会主义的铁甲",
+            "type": "metaphor",
+            "modern": "社会主义话语提供的保护层",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p199s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "散播各民族工人互相猜忌、彼此隔离的有害思想",
+            "type": "polemic_ref",
+            "modern": "这种民族主义在工人运动中的实际作用",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 3,
+        "notes_dropped": 2,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_5gram_with_surface",
+        "note:n2_5gram_with_surface"
+      ]
+    }
+  ]
+}

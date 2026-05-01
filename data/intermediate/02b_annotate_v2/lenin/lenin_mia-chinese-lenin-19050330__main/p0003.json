@@ -1,0 +1,106 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 3,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁指出，关于社会民主党是否参加临时革命政府的争论，主要源于党内部分人的理论推断而非现实事变，并强调为统一宣传鼓动，必须对此问题作出明确回答。",
+    "importance_score": 2,
+    "importance_reason": "本段是全文论证的起点，明确了争论的来源和澄清问题的必要性，为后续具体论证铺垫。",
+    "argument_role": "transition",
+    "argument_link": "承接前文的日期标注，正式引入文章的核心议题，并说明再次讨论此问题的直接原因。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "all_known",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "马尔丁诺夫及《火星报》编辑部",
+      "their_view": "社会民主党参加临时革命政府在理论上是不可允许的，这等同于“夺取政权”和“庸俗饶勒斯主义”，会玷污无产阶级政党。",
+      "author_response": "列宁认为，无论对事变进程的估计如何，党都必须弄清楚当前的策略目标，否则无法进行坚定明确的宣传鼓动。",
+      "polemic_kind": "strategic_critique",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p3s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "社会民主党",
+            "type": "org",
+            "modern": "20世纪初俄国及国际工人运动中的主要政党类型，此处特指俄国社会民主工党。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p3s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "马尔丁诺夫",
+            "type": "person",
+            "modern": "俄国社会民主工党内“经济派”代表人物之一，反对党参加临时革命政府。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "《火星报》",
+            "type": "work",
+            "modern": "列宁参与创办的全俄马克思主义秘密报纸，后成为俄国社会民主工党中央机关报，此处指其编辑部。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p3s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p3s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p3s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 3,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_6>5",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

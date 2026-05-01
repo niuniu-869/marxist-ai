@@ -1,0 +1,151 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 56,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁回应“左派共产主义者”的批评，解释利用资产阶级专家知识和经验的必要性，承认这是暂时的策略性后退，但强调这是训练工人掌握管理技能、走向社会主义的唯一实际道路。",
+    "importance_score": 3,
+    "importance_reason": "核心段落，阐述了在落后国家建设社会主义的辩证方法论，即利用旧社会遗留的组织与知识成果，同时通过计算与监督逐步过渡。",
+    "argument_role": "contrasts",
+    "argument_link": "承接上段关于组织规模的讨论，本段转向组织生产的具体内容，通过对比“左派共产主义者”的理想化主张与现实任务，阐明当前策略的合理性。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "“左派共产主义者”集团",
+      "their_view": "列宁采取的策略，如利用资产阶级专家、实行国家资本主义，不是在走向共产主义，而是在后退，是背叛革命原则。",
+      "author_response": "列宁承认这是策略上的后退，但强调这是必要的。因为粉碎资产阶级反抗后，必须利用其知识和经验来掌握管理技能，这是走向社会主义的唯一实际道路，而非空喊口号。",
+      "polemic_kind": "strategic_critique",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p56s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p56s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p56s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p56s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p56s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p56s6",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p56s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p56s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p56s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p56s10",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p56s11",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "计算和监督",
+            "type": "concept",
+            "modern": "对社会生产和消费进行精确统计与民主监管，是克服无政府状态、实现计划经济的关键步骤。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "accounting_control_proletarian"
+          }
+        ]
+      },
+      {
+        "sid": "p56s12",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p56s13",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p56s14",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p56s15",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 2,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "note:n1_overflow_concept_6>5",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

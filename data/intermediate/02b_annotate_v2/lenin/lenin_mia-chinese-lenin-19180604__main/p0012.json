@@ -1,0 +1,78 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 12,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁将解决饥荒定义为苏维埃政权的首要任务，并指出这一任务必须在内战和剥削者反抗的极端条件下完成，同时批判了那些动摇的政党。",
+    "importance_score": 2,
+    "importance_reason": "本段承接上文对饥荒危机的描述，明确了苏维埃政权面临的双重挑战（饥荒与内战），并将政治对手的动摇与复辟企图联系起来，为后续的政策辩护和反击奠定基础。",
+    "argument_role": "continues",
+    "argument_link": "本段紧接上段对饥荒迫近的描述，将战胜饥荒提升为“最基本的任务”，并引入内战和剥削者反抗这一新的、更严峻的条件，从而深化了对危机复杂性的阐述。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "孟什维克与右派社会革命党人",
+      "their_view": "在饥荒和内战危机中，他们无法与旧制度彻底分离，也不信任苏维埃政权代表的新方向，因而利用战争局势来谋求旧剥削阶级的回归。",
+      "author_response": "列宁将这类政党定性为在战争状态下为剥削者复辟服务的势力，揭示了其政治立场与阶级利益。",
+      "polemic_kind": "reveals_class_basis",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p12s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p12s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "剥削者",
+            "type": "concept",
+            "modern": "在马克思主义语境中，指占有生产资料并依靠剥削他人劳动为生的阶级，此处特指被推翻的地主、资产阶级及其政治代表。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "exploiter_class"
+          }
+        ]
+      },
+      {
+        "sid": "p12s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 2,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

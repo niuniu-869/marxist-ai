@@ -1,0 +1,142 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 629,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "马克思批判黑格尔将自然界视为观念异在形式的唯心主义观点，揭露其内在矛盾。",
+    "importance_score": 3,
+    "importance_reason": "核心批判段落，集中展示马克思对黑格尔唯心主义自然观的剖析与反驳。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段对黑格尔将自然界视为观念外化的论述，进一步剖析这种观点的内在逻辑及其对自然界的贬低。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "黑格尔的“外在性”与“扬弃”",
+        "explain": "在黑格尔哲学中，“外在性”指绝对观念外化为自然界，是观念的“异在”形式。“扬弃”是其辩证法核心，指事物通过否定自身而达到更高阶段。马克思在此批判黑格尔将自然界视为观念的有缺陷的外化。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p629s11",
+        "quote": "因此，对抽象思维者说来，自然界必须扬弃自身，因为他已经把自然界设定为潜在地被扬弃的本质。",
+        "trigger": "inverted_logic",
+        "reader_block": "双重否定与黑格尔特定术语“扬弃”结合，读者易混淆“必须扬弃自身”是黑格尔的结论还是马克思的批判。",
+        "parse": {
+          "claim": "在黑格尔的逻辑中，既然自然界被预设为观念的不完善体现，那么它最终必然要被观念所克服和超越。",
+          "qualifiers": "限定于“对抽象思维者说来”，即黑格尔哲学体系内部的逻辑推论。",
+          "contrast_or_target": "黑格尔认为，作为观念异在的自然界，其本质是“潜在地被扬弃的”，因此其存在只是过渡性的。"
+        },
+        "why": {
+          "relation": "conclusion",
+          "explanation": "本句是前文对黑格尔观点剖析的逻辑结论：黑格尔从“观念是本质”这一前提出发，必然推导出自然界需要被“扬弃”的结论。"
+        },
+        "implication": "马克思借此揭示黑格尔哲学贬低自然界、将其视为观念附属物的唯心主义实质。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "黑格尔",
+      "their_view": "观念是真实本质，自然界只是观念的异在形式，因此自然界同思维的对立是自然界的缺陷，自然界是一个有缺陷的存在物。",
+      "author_response": "马克思揭露黑格尔的这种观点实质上是将自然界视为观念的偏差和不完善，从而在逻辑上预设了自然界必须被观念所“扬弃”的命运。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p629s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p629s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p629s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p629s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p629s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p629s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p629s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p629s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p629s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p629s10",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p629s11",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 1,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

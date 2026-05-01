@@ -1,0 +1,101 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 8,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁以盖得分子迪马的小册子为例，对比普列汉诺夫和考茨基等人对巴塞尔宣言的回避或篡改，揭露其社会沙文主义立场。",
+    "importance_score": 2,
+    "importance_reason": "本段通过具体人物和文本实例，为前文对双重标准的批判提供了直接证据，是核心批判的展开。",
+    "argument_role": "continues",
+    "argument_link": "本段承接上一段对《我们的言论报》作家双重标准的批评，具体化到对巴塞尔宣言这一关键反战文件的态度上，以盖得、普列汉诺夫、考茨基为例，展示他们如何背离战前承诺。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "巴塞尔宣言",
+        "explain": "1912年第二国际在巴塞尔代表大会上通过的反战决议，号召各国工人用革命手段反对帝国主义战争。一战爆发后，多数社会党违背此决议，转而支持本国政府。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p8s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p8s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p8s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p8s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "巴塞尔宣言",
+            "type": "work",
+            "modern": "1912年第二国际通过的反战决议，号召工人以革命手段反对帝国主义战争。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          },
+          {
+            "surface": "书报检查机关",
+            "type": "org",
+            "modern": "战时负责审查出版物、禁止反战和革命言论的官方机构。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 2,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "note:n1_overflow_concept_7>5",
+        "hs:claim_5gram_with_quote",
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 10,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段通过奥古斯都时期罗马帝国将神化统治者和贞洁受孕等宗教形式制度化的实例，为后文分析基督教起源提供历史参照。",
+    "importance_score": 2,
+    "importance_reason": "作为支撑核心论点的重要例证，用具体历史事例说明宗教形式如何被权力利用来神化统治者。",
+    "argument_role": "example",
+    "argument_link": "承接上段关于基督教是哲学融合产物的结论，本段用罗马帝国的实例来类比说明宗教形式如何服务于统治需要。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "allusion",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "奥古斯都的神化政策",
+        "explain": "罗马帝国首位皇帝奥古斯都（公元前27年-公元14年在位）推行将统治者神化的政策，要求民众敬奉其为神，并宣扬其母受神感孕的传说，以巩固统治合法性。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "阿波罗神的神话背景",
+        "explain": "阿波罗是希腊罗马神话中的光明、音乐与预言之神，常与贞洁、艺术相关联。奥古斯都宣称自己是阿波罗之子，是借用神话来提升自身神圣性。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "海涅的讽刺诗",
+        "explain": "德国诗人海涅在作品中曾讽刺性地描写阿波罗神，将其世俗化。恩格斯此处引用，意在暗示奥古斯都所宣称的神圣血统可能同样经不起推敲。",
+        "why_needed": "allusion",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p10s3",
+        "quote": "但愿这位阿波罗神不是海涅所歌咏的那位阿波罗神的本家吧[6]！",
+        "trigger": "allusion",
+        "reader_block": "读者可能不了解海涅诗歌中对阿波罗神的讽刺性描写，无法理解恩格斯此处的反讽意味。",
+        "parse": {
+          "claim": "恩格斯暗示奥古斯都所宣称的神圣父亲（阿波罗）可能并非真正神圣，而是像海涅诗中那样被世俗化或讽刺的对象。",
+          "qualifiers": "这是一个带有讽刺语气的反问，用以质疑奥古斯都神话的真实性。",
+          "contrast_or_target": ""
+        },
+        "why": {
+          "relation": "example",
+          "explanation": "此句通过引用海涅的讽刺，强化了对奥古斯都神话宣传的质疑，作为前文历史例证的补充，说明统治者利用宗教形式的虚伪性。"
+        },
+        "implication": "统治者所宣扬的神圣起源往往是人为建构的，其真实性值得怀疑。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p10s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p10s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p10s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  }
+}

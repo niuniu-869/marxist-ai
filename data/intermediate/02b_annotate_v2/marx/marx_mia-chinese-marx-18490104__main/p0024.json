@@ -1,0 +1,67 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 24,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "作者以反问句式，将普鲁士资产阶级颁布的压迫性文件与俄国沙皇的专制敕令进行对比，以讽刺其专制本质。",
+    "importance_score": 2,
+    "importance_reason": "用生动的比喻强化了对普鲁士资产阶级反动本质的批判，是论证链条中的修辞强化环节。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段对文件具体压迫条款的描述，将批判从具体事实提升到对统治阶级专制本质的定性。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p24s1",
+        "quote": "全俄专制君主对他的臣民所下的俄国式圣旨，能比这更富于亚洲精神吗？",
+        "trigger": "inverted_logic",
+        "reader_block": "反问句式，读者需理解其实际断言方向；“亚洲精神”是19世纪欧洲语境中对专制、停滞的刻板印象，需结合时代背景理解其讽刺意味。",
+        "parse": {
+          "claim": "普鲁士资产阶级的这份文件，其专制与压迫程度，甚至超过了俄国沙皇的敕令。",
+          "qualifiers": "无。",
+          "contrast_or_target": "普鲁士资产阶级自诩的温和、守法形象。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "通过与公认的专制典范（俄国沙皇）进行对比，揭露普鲁士资产阶级统治的实质，反驳其温和守法的自我标榜。"
+        },
+        "implication": "普鲁士资产阶级在压迫工人方面，比封建专制君主有过之而无不及。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "普鲁士资产阶级",
+      "their_view": "我们是温和、守法、文明的统治者，与东方专制不同。",
+      "author_response": "你们颁布的压迫工人的文件，其专制精神比俄国沙皇的敕令更甚。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p24s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "亚洲精神",
+            "type": "metaphor",
+            "modern": "在19世纪欧洲主流话语中，常被用来指代专制、野蛮、缺乏自由与进步的东方统治模式，此处用作讽刺性对比。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  }
+}

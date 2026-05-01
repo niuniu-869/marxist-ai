@@ -1,0 +1,134 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 33,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段通过对比新教改革与哲学的作用，论证哲学能完成宗教改革未竟的解放事业，并预言德国现状将被哲学所颠覆。",
+    "importance_score": 2,
+    "importance_reason": "本段是马克思从宗教批判转向政治哲学批判的关键过渡，阐明了哲学作为革命武器的实践意义。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对路德宗教改革局限性的分析，进一步指出新教虽提出问题但未解决，而哲学能完成对人的彻底解放。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "德国农民战争",
+        "explain": "指1524-1525年间德国爆发的大规模农民起义，要求废除农奴制和教会特权，是德国历史上一次重要的反封建斗争。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p33s3",
+        "quote": "如果说新教把德国俗人变成僧侣，便解放了世俗教皇及其整个集团即特权者和庸人，那末哲学把僧侣精神影响极深的德国人变成人，这就是解放全体人民。",
+        "trigger": "inverted_logic",
+        "reader_block": "句式为“如果说A……那末B……”的对比结构，且“把……变成……”的表述在前后分句中含义相反，读者容易混淆新教与哲学各自“解放”的对象和实质。",
+        "parse": {
+          "claim": "新教的解放作用是片面的，它只解放了特权阶层；而哲学的解放作用是全面的，它旨在将深受宗教精神束缚的全体德国民众提升为真正的人。",
+          "qualifiers": "此判断基于新教与哲学在德国历史中产生的不同社会效果。",
+          "contrast_or_target": "新教的解放作用：它通过将俗人变成僧侣，实质上只解放了世俗的特权者和庸人集团。"
+        },
+        "why": {
+          "relation": "contrasts",
+          "explanation": "本句通过对比新教与哲学在“解放”这一行动上的不同对象和结果，凸显哲学革命的彻底性，为下文论证哲学将颠覆现状做铺垫。"
+        },
+        "implication": "哲学的使命超越了宗教改革，它要实现的是对全体人民的普遍解放，而非特定阶级的特权。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "青年黑格尔派",
+      "their_view": "哲学的批判仅限于观念领域，与现实世界无关；或者认为抛弃哲学本身就能实现变革。",
+      "author_response": "哲学并非脱离现实的纯粹思辨，它本身就是现实世界的观念补充，并且能够通过改变人的精神来推动现实世界的变革。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "medium"
+    },
+    "sentences": [
+      {
+        "sid": "p33s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p33s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p33s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p33s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p33s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "农民战争",
+            "type": "event",
+            "modern": "1524-1525年德国农民反封建大起义，因宗教纷争和组织涣散而失败。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p33s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p33s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p33s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "普鲁士",
+            "type": "place",
+            "modern": "18-19世纪德意志邦国中军事和官僚制度最发达的王国，是德国保守势力的代表。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "容克",
+            "type": "social_group",
+            "modern": "普鲁士等地的贵族地主阶级，是保守政治秩序和农奴制的维护者。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  }
+}

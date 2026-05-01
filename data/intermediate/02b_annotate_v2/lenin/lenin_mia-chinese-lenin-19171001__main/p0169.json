@@ -1,0 +1,75 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 169,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁直接引用《新生活报》和《人民事业报》的言论，驳斥其恐吓策略，指出工人不会被吓倒，并揭露克伦斯基政府可能再次发动叛乱。",
+    "importance_score": 2,
+    "importance_reason": "本段通过具体反驳论敌的警告，为布尔什维克夺取政权的可行性提供论据，属于论辩支撑部分。",
+    "argument_role": "continues",
+    "argument_link": "本段延续上段对恐吓的回应，具体引用论敌刊物言论并加以驳斥，强化了工人阶级的坚定立场。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "科尔尼洛夫叛乱",
+        "explain": "1917年8月，俄军将领科尔尼洛夫发动军事政变，企图镇压革命，但被布尔什维克和工人赤卫队挫败。这一事件暴露了临时政府的无能，并增强了革命力量的信心。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p169s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p169s2",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p169s3",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

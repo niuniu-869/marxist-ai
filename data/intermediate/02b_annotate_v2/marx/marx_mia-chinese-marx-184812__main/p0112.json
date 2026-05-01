@@ -1,0 +1,127 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 112,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "以汉泽曼内阁的甜菜糖税和烧酒税为例，论证其政策虽表面反对封建主，但实质仅为充实国库，结果同时激怒了封建势力、资产阶级内部及工人阶级。",
+    "importance_score": 2,
+    "importance_reason": "通过一个具体政策案例，支撑上段关于行动内阁经济政策失败的论断，揭示其阶级本质。",
+    "argument_role": "example",
+    "argument_link": "承接上段对行动内阁经济政策的批评，用一个已成法律的具体法案作为例证，说明其政策如何同时得罪各方。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_polysemy",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "警察的财政含义",
+        "explain": "在19世纪德国语境中，“警察”一词常指国家行政与财政机器，而非现代意义的治安力量。马克思用此讽刺汉泽曼的政策本质是财政搜刮。",
+        "why_needed": "term_polysemy",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p112s1",
+        "quote": "“先生们！在金钱问题上，是没有温情可言的！”因此，甚至他的反对封建主的肯定的资产阶级意向，也像他的为“活跃商业活动”所采取的否定的措施一样，带有警察的色彩。",
+        "trigger": "inverted_logic",
+        "reader_block": "读者可能以为这是汉泽曼的真心话，但马克思用它来讽刺其政策的非人情本质，且“警察”一词在此有特殊含义。",
+        "parse": {
+          "claim": "汉泽曼的政策以财政需求为唯一准则，其任何措施，无论正反，都服务于国家财政机器。",
+          "qualifiers": "在金钱问题上，即在涉及国家财政的事务中。",
+          "contrast_or_target": "反驳协商论所主张的与王权温情合作、建立法制基础的路径，揭示其实际运作的冷酷计算。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "这句引语被马克思用来揭露，汉泽曼所代表的资产阶级在反对封建主时，其动机和手段完全受财政利益驱动，而非任何进步理想。"
+        },
+        "implication": "资产阶级的革命性在其财政需求面前荡然无存。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "汉泽曼",
+      "their_view": "与王权协商、通过财政手段强化国家权力是拯救法制基础、活跃商业的唯一途径。",
+      "author_response": "这种政策实质是资产阶级专政的财政工具，它非但不能团结力量，反而同时激化了与封建主、其他资产阶级派别及工人阶级的矛盾。",
+      "polemic_kind": "reveals_class_basis",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p112s1",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": [
+          {
+            "surface": "警察",
+            "type": "metaphor",
+            "modern": "在19世纪德国政治语境中，常指代国家行政与财政机器，而非治安力量。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p112s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p112s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p112s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p112s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p112s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p112s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 1,
+        "hs_kept": 1,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

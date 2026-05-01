@@ -1,0 +1,91 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 46,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁澄清其主张并非跳过革命，而是强调苏维埃是唯一合法政权形式，并分析其阶级构成。",
+    "importance_score": 2,
+    "importance_reason": "核心论点段落，直接回应党内对其《四月提纲》的误解，阐明政权转移的具体路径与阶级基础。",
+    "argument_role": "continues",
+    "argument_link": "承接上段提出的“跳过”危险，通过澄清自身主张来否定该危险，并具体化政权转移的主体与形式。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "term_density",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "小资产阶级",
+        "explain": "在马克思主义阶级分析中，指拥有少量生产资料、主要依靠自身劳动为生的群体，如小农、小业主、手工业者。他们处于资产阶级与无产阶级之间，政治态度常摇摆不定。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "加米涅夫及党内部分同志",
+      "their_view": "列宁的总公式意味着承认资产阶级民主革命已经完成，并指望立刻转变为社会主义革命，这是危险的“跳过”。",
+      "author_response": "列宁的主张并非建立纯粹的“工人政府”，而是将政权转移到包含占多数的小资产阶级（农民、士兵）的苏维埃手中，这恰恰是完成民主革命任务的现实路径。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p46s1",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p46s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p46s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p46s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "小资产阶级",
+            "type": "concept",
+            "modern": "在马克思主义阶级理论中，指小农、小业主等介于资产阶级与无产阶级之间的社会阶层。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "petty_bourgeoisie_marxist"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

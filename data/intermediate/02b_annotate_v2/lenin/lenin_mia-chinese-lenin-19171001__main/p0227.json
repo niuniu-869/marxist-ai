@@ -1,0 +1,72 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 227,
+  "annotation": {
+    "block_type": "quote_block",
+    "gist": "列宁引用马克思关于起义艺术的论述，强调起义必须遵循特定规则并采取进攻姿态。",
+    "importance_score": 2,
+    "importance_reason": "为布尔什维克武装起义提供直接的理论依据和行动准则。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段关于马克思历史教训的引述，具体展开马克思对起义策略的论述。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p227s1",
+        "speaker": "quoted_marx",
+        "stance": "endorsed",
+        "notes": [
+          {
+            "surface": "丹东的‘勇敢，勇敢，再勇敢！’",
+            "type": "quote",
+            "modern": "法国大革命时期革命家丹东的名言，被马克思用作起义者应采取进攻姿态的口号。",
+            "highlight": "quote",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "《德国的革命和反革命》",
+            "type": "work",
+            "modern": "马克思和恩格斯合著的著作，分析了1848年德国革命，其中包含关于起义艺术的论述。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "metadata"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

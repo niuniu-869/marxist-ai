@@ -1,0 +1,143 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 24,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁讽刺新火星派与马尔丁诺夫因害怕承担革命领导责任，而拒绝通过革命专政实现民主纲领的怯懦心态。",
+    "importance_score": 2,
+    "importance_reason": "具体刻画论敌在革命策略上的机会主义心理，是核心批判的展开部分。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对革命乐观主义的阐述，转而具体描绘与之对立的、论敌的悲观与畏缩心态。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "最低纲领",
+        "explain": "社会民主党在民主革命阶段的行动纲领，包含政治、经济等基本民主要求，列宁主张应通过革命手段彻底实现它。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "革命民主专政",
+        "explain": "列宁提出的概念，指无产阶级领导的、联合农民等民主力量，通过暴力革命夺取政权，以彻底完成民主革命任务的国家形式。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "民粹派社会主义",
+        "explain": "19世纪俄国的一种小资产阶级社会主义思潮，主张通过农民村社直接过渡到社会主义，列宁视其为非科学的空想。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p24s7",
+        "quote": "你们最好“慢慢地走，小心翼翼地曲折前进”！……",
+        "trigger": "inverted_logic",
+        "reader_block": "这是列宁引用的论敌口号，用引号标出，但语气是反讽。读者若不结合上下文，可能误以为这是列宁的正面主张。",
+        "parse": {
+          "claim": "论敌主张在革命中采取极其保守、缓慢和迂回的策略，回避直接的斗争和领导责任。",
+          "qualifiers": "这是列宁总结的论敌在面对“革命民主专政”这一“灾难”时的本能反应。",
+          "contrast_or_target": "与列宁主张的“向往最好的革命前景”、积极领导革命形成鲜明对比。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "用论敌自己的话（或总结其心态的话）进行讽刺，将其畏缩、保守的策略路线暴露无遗，作为本段批判的收尾。"
+        },
+        "implication": "这种策略实质上是将革命领导权拱手让给资产阶级民主派。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "新火星派、马尔丁诺夫",
+      "their_view": "无产阶级不应领导临时革命政府，因为害怕在革命专政中无法正确区分科学策略与民粹派、无政府主义的冒险行动，主张采取缓慢、保守的策略。",
+      "author_response": "列宁讽刺这种心态是庸俗灵魂的胆怯，是教条主义导致的实践无能，其本质是逃避革命领导责任。",
+      "polemic_kind": "strategic_critique",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p24s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p24s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p24s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "无政府主义",
+            "type": "concept",
+            "modern": "主张立即废除一切国家权力和权威，建立绝对自由的个体联合的思潮。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "anarchism_general"
+          }
+        ]
+      },
+      {
+        "sid": "p24s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p24s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p24s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p24s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 1,
+        "hs_kept": 1,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_7>5",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

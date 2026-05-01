@@ -1,0 +1,72 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 38,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段定义了“同化”问题，并指出崩得分子等对同化的恐惧，恰恰暴露了其民族主义动摇思想的后果。",
+    "importance_score": 2,
+    "importance_reason": "本段是列宁反驳“民族文化”口号的关键一步，通过界定论敌所恐惧的“同化”概念，揭示其思想根源。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对“同化”概念的引入，具体阐释该概念的内涵，并将其与论敌的思想立场直接挂钩。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "崩得分子及其同伙",
+      "their_view": "他们将“同化”视为一种威胁，认为这会导致本民族特性的丧失，因此反对任何形式的文化或民族融合，主张维护民族的独特性。",
+      "author_response": "列宁指出，这种对“同化”的恐惧和抵制，正是崩得分子等人在民族问题上偏离国际主义、陷入民族主义动摇的必然表现。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p38s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "同化",
+            "type": "concept",
+            "modern": "在本文的民族问题论战中，特指不同民族在交往中文化、语言等特征趋于一致的过程，是论敌所恐惧和反对的对象。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "assimilation_national_question"
+          }
+        ]
+      },
+      {
+        "sid": "p38s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 2,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "note:n1_overflow_concept_8>5"
+      ]
+    }
+  ]
+}

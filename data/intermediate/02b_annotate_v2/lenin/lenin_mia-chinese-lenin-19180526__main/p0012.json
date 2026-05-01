@@ -1,0 +1,161 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 12,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "提出劳动纪律这一艰巨任务，强调工会的先锋作用，并从社会经济形态更替的历史视角论证其意义。",
+    "importance_score": 2,
+    "importance_reason": "本段具体化了社会主义建设中的一个核心管理任务，并将其置于历史唯物主义框架中进行论证。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对任务困难性的承认，本段具体指出劳动纪律是最高国民经济委员会需要解决的最困难任务之一。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "1861年农奴制改革前的俄国",
+        "explain": "1861年改革前，俄国是农奴制社会，全国经济联系和劳动纪律主要由少数地主在自己庄园内建立和维持，而非由全国性的经济组织来实施。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p12s6",
+        "quote": "只有持这种观点才能够看清楚：我们担负起多么巨大的任务，现在社会最先进的代表——被剥削劳动群众把1861年以前农奴制俄国的少数地主解决的一个任务（他们认为那是自己的事情）自己主动担当起来具有多么伟大的意义。",
+        "trigger": "long_nested",
+        "reader_block": "句子包含多重限定（“只有持这种观点才能够看清楚”）和对比（“我们担负起”与“少数地主解决的”），读者容易迷失在修饰成分中，抓不住核心对比。",
+        "parse": {
+          "claim": "被剥削的劳动群众主动承担起建立全国性经济联系与劳动纪律的任务，而这一任务此前仅由少数地主完成。",
+          "qualifiers": "只有从社会经济形态更替的高度观察，才能充分认识这一任务的意义。",
+          "contrast_or_target": "少数地主在农奴制下将建立全国联系视为己任，而今被剥削劳动群众主动担当。"
+        },
+        "why": {
+          "relation": "continues",
+          "explanation": "本句通过历史对比，将当前劳动纪律任务置于社会经济形态更替的框架中，凸显其历史转折意义。"
+        },
+        "implication": "任务的承担主体从剥削阶级转变为被剥削阶级，标志着社会关系的根本变革。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p12s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p12s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p12s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "劳动纪律",
+            "type": "concept",
+            "modern": "社会主义建设中，劳动者自觉遵守的生产与工作规范，是组织社会化大生产的关键。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "labor_discipline_socialist"
+          },
+          {
+            "surface": "五金工会中央委员会",
+            "type": "org",
+            "modern": "当时俄国最重要的产业工会之一，代表重工业工人。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "全俄工会理事会",
+            "type": "org",
+            "modern": "全国性工会联合组织，协调各行业工会行动。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p12s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p12s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p12s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "被剥削劳动群众",
+            "type": "social_group",
+            "modern": "在资本主义生产关系中，不占有生产资料、依靠出卖劳动力为生的阶级群体。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          },
+          {
+            "surface": "农奴制俄国",
+            "type": "event",
+            "modern": "1861年改革前，以地主占有土地和农奴人身依附为特征的俄国社会形态。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p12s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 5,
+        "notes_dropped": 1,
+        "hs_kept": 1,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_6>5"
+      ]
+    }
+  ]
+}

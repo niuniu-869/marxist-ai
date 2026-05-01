@@ -1,0 +1,92 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 17,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁具体阐述如何保障各民族共和国的语言权利，防止以统一为名的压迫，并提出了一个可能的未来方案。",
+    "importance_score": 2,
+    "importance_reason": "对核心论点的具体制度性支撑，提出预防大俄罗斯民族主义违法乱纪的措施和未来可能的结构调整。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对奥尔忠尼启泽等人的批评，从具体处分转向制度性预防，提出保障民族语言和防止压迫的具体办法。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "term_polysemy",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p17s2",
+        "quote": "毫无疑问，在我们现有机构的情况下、将有人借口统一铁路事业、统一国库等等而造成大量的真正俄罗斯式的违法乱纪现象。",
+        "trigger": "term_polysemy",
+        "reader_block": "读者可能不理解为何违法乱纪要冠以“俄罗斯式”，这需要联系大俄罗斯民族主义以统一为名行压迫的背景。",
+        "parse": {
+          "claim": "在现有机构条件下，有人会利用统一管理的名义，实施带有大俄罗斯民族主义色彩的压迫行为。",
+          "qualifiers": "限定于“在我们现有机构的情况下”，即苏联成立初期的行政体系。",
+          "contrast_or_target": "那些以统一铁路、国库等为名，忽视各民族共和国特殊性和权利的人。"
+        },
+        "why": {
+          "relation": "continues",
+          "explanation": "承接上段对大俄罗斯民族主义的批评，具体指出其在行政管理中可能的表现形式，即利用统一借口制造压迫。"
+        },
+        "implication": "这种现象需要特别警惕和斗争，不能因追求形式统一而牺牲民族平等。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "隐含的那些以统一为名行压迫之实的人",
+      "their_view": "为了统一铁路、国库等事业，可以忽视各民族共和国的特殊性和权利，采取强制手段。",
+      "author_response": "列宁认为这会造成带有大俄罗斯民族主义色彩的压迫，必须与之斗争，并需要制定专门法规。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "medium"
+    },
+    "sentences": [
+      {
+        "sid": "p17s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p17s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "俄罗斯式",
+            "type": "concept",
+            "modern": "在大俄罗斯民族主义语境下，指以统一为名行压迫之实的行为模式。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "russian_chauvinism"
+          }
+        ]
+      },
+      {
+        "sid": "p17s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p17s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p17s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  }
+}

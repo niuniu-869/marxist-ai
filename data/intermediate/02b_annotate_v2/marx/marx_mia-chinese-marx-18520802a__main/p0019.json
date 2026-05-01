@@ -1,0 +1,91 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 19,
+  "annotation": {
+    "block_type": "quote_block",
+    "gist": "琼斯在演讲中批判了当时占主导地位的经济制度，揭示了它对工人阶级和小资产阶级的剥削，并试图说服听众支持另一种制度。",
+    "importance_score": 2,
+    "importance_reason": "本段是琼斯演讲的核心批判部分，展示了他对资本主义经济运作的分析，为后文提出替代方案做铺垫。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段琼斯受到欢迎的介绍，开始展开他对当时政治经济制度的具体批判。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "1852年英国大选与宪章派",
+        "explain": "1852年英国举行大选，宪章派作为工人阶级政治运动，虽处低潮但仍活跃。他们主张普选权等政治改革，试图通过选举影响政策。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "议会任期“七年”",
+        "explain": "当时英国议会每七年选举一次。琼斯强调七年任期之长，意在说明选民的决定将产生长期影响。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p19s1",
+        "quote": "富有的企业主说：要贱买贵卖。托利党人说：要买得贵，卖得更贵。对于工人说来他们是一模一样。",
+        "trigger": "inverted_logic",
+        "reader_block": "表面看两种说法不同，但琼斯断言它们对工人效果相同。读者需要理解其背后的经济逻辑：无论哪种表述，核心都是压低劳动报酬、抬高产品售价。",
+        "parse": {
+          "claim": "无论是主张低价购入高价售出的资本家，还是主张高价购入更高价售出的保守党人，他们维护的经济关系在剥削工人这一点上没有本质区别。",
+          "qualifiers": "限定于对工人阶级的影响。",
+          "contrast_or_target": "曼彻斯特学派（自由贸易派）与托利党（保守党）在经济主张上的表面差异。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "琼斯在此反驳了当时政治光谱中不同派别（工业资产阶级与土地贵族）在经济政策上的表面分歧，揭示它们在维护对工人剥削的制度上具有共同的阶级基础。"
+        },
+        "implication": "工人阶级不应被不同政治派别的口号所迷惑，而应看清其共同的阶级利益。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      },
+      {
+        "anchor": "p19s1",
+        "quote": "喂，你这个自由主义的曼彻斯特派，政治上的伪君子啊！在听我们讲话的这些人面前，你现在怎样回答我？",
+        "trigger": "rhetorical_omission",
+        "reader_block": "这是一个直接的、充满情绪的质问。读者需要知道，琼斯在此前已详细论证了曼彻斯特学派（自由贸易派）的政策如何导致工人失业和工资下降，此处是论证后的直接抨击。",
+        "parse": {
+          "claim": "琼斯直接指责曼彻斯特学派的代表虚伪，要求其在听众面前为自己的政策辩护。",
+          "qualifiers": "无。",
+          "contrast_or_target": "曼彻斯特学派（自由贸易派）及其代表人物。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "这是对曼彻斯特学派（自由贸易派）的直接人身攻击和政治挑战，将前文的经济分析转化为对具体政治对手的公开质问，旨在煽动听众情绪并孤立论敌。"
+        },
+        "implication": "琼斯试图将经济批判转化为政治对决，迫使对手公开回应。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "曼彻斯特学派（自由贸易派）",
+      "their_view": "主张通过自由贸易和自由竞争发展经济，认为这将带来普遍繁荣。他们推行机器替代人工等提高效率的措施。",
+      "author_response": "琼斯揭露这种制度的本质是“贱买贵卖”，即系统性地压低工人工资、抬高产品售价，并通过制造“过剩劳动”来压低所有劳动者的待遇，最终导致工人阶级和小资产阶级的普遍破产。",
+      "polemic_kind": "reveals_class_basis",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p19s1",
+        "speaker": "quoted_opponent",
+        "stance": "endorsed",
+        "notes": []
+      }
+    ]
+  }
+}

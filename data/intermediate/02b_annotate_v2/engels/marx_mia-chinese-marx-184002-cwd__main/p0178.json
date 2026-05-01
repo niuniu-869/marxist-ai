@@ -1,0 +1,131 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 178,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段揭示“德国的或‘真正的’社会主义”同时服务于专制政府和德国旧式中等阶级的双重利益，并分析其兴起的阶级根源。",
+    "importance_score": 3,
+    "importance_reason": "这是对“德国的或‘真正的’社会主义”进行阶级剖析和政治定性的核心段落，揭示了其作为反动工具的本质。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于专制政府利用该学说的论述，进一步阐明该学说本身所代表的阶级利益及其兴起的深层原因。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "allusion",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "德国中等阶级",
+        "explain": "指19世纪德国尚未被工业革命彻底改造的旧式小资产阶级和小农，他们经济上分散、政治上保守，是当时德国社会结构的主体，但面临被新兴资产阶级和无产阶级两面夹击的威胁。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p178s5",
+        "quote": "这“真”社会主义便要一箭射杀双雕了。",
+        "trigger": "allusion",
+        "reader_block": "“一箭双雕”是成语典故，读者可能知道字面意思，但不确定“双雕”在本文具体指代哪两个目标。",
+        "parse": {
+          "claim": "“德国的或‘真正的’社会主义”试图通过一种行动同时打击两个目标。",
+          "qualifiers": "无",
+          "contrast_or_target": "无"
+        },
+        "why": {
+          "relation": "conclusion",
+          "explanation": "本句是对前文分析的总结：该学说既为政府对抗资产阶级服务，又代表旧中等阶级的利益，因此其目标是同时削弱资产阶级和革命的无产阶级这两个威胁旧秩序的力量。"
+        },
+        "implication": "这揭示了该学说的反动本质：它并非真正为无产阶级服务，而是企图维护一种前资本主义的旧秩序。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p178s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p178s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "小资本阶级",
+            "type": "concept",
+            "modern": "在19世纪德国语境下，指尚未被工业资本主义彻底改造的旧式小资产者与小农群体，是当时社会结构的主体但趋于衰落。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "class_petty_bourgeoisie_german"
+          }
+        ]
+      },
+      {
+        "sid": "p178s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p178s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p178s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "一箭射杀双雕",
+            "type": "metaphor",
+            "modern": "用一个行动同时打击两个目标，此处指同时削弱资产阶级和革命的无产阶级。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p178s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 0,
+        "hs_kept": 1,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

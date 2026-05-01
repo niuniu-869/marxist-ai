@@ -1,0 +1,122 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 14,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段总结工联经济斗争的成果与局限，指出其陷入周期性破坏的恶性循环，并提出工人阶级是否应寻求根本出路的问题。",
+    "importance_score": 3,
+    "importance_reason": "核心论点段，从工联经济斗争的局限性分析，引向废除雇佣劳动制度的政治革命目标。",
+    "argument_role": "continues",
+    "argument_link": "承接上段资本家接受工联的叙述，进一步分析这种接受下工联活动的实际结果与内在困境。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p14s7",
+        "quote": "难道这一切努力、自我牺牲和苦难的最后结局应该是这样的吗？",
+        "trigger": "inverted_logic",
+        "reader_block": "反问句式，读者需理解其否定含义，即作者认为结局不应如此，而非询问答案。",
+        "parse": {
+          "claim": "工人阶级当前斗争所付出的巨大代价，其最终结果不应是维持现状。",
+          "qualifiers": "",
+          "contrast_or_target": "针对工联主义将争取劳动力价值和合理工时视为斗争终点的观点。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "以反问形式质疑工联主义斗争目标的终极性，为提出更根本的革命目标做铺垫。"
+        },
+        "implication": null,
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p14s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p14s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p14s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p14s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p14s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p14s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p14s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p14s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p14s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 1,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

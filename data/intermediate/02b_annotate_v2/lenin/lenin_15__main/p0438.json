@@ -1,0 +1,98 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 438,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段通过引用英国资产阶级政治家张伯伦和罗得斯的言论，展示他们如何将经济竞争与殖民扩张直接联系起来，特别是将帝国主义视为解决国内社会问题的手段。",
+    "importance_score": 2,
+    "importance_reason": "提供资产阶级政治家承认帝国主义经济根源的直接证据，支撑列宁关于帝国主义本质的论点。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对英国资产阶级政治家态度转变的概述，具体引用张伯伦和罗得斯的言论，展示他们如何将经济竞争与殖民扩张直接联系。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p438s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p438s2",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": [
+          {
+            "surface": "张伯伦",
+            "type": "person",
+            "modern": "约瑟夫·张伯伦，英国殖民大臣，帝国主义政策的积极鼓吹者。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p438s3",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p438s4",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p438s5",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": [
+          {
+            "surface": "帝国就是吃饭问题",
+            "type": "slogan",
+            "modern": "罗得斯将帝国主义扩张直接等同于解决国内民众生计问题的口号。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 2,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_11>5",
+        "note:n2_5gram_with_surface"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 67,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁以苏俄战后资源枯竭的现实为例，反驳对手空谈“发展生产”和“社会主义就是提高生产率”的教条。",
+    "importance_score": 2,
+    "importance_reason": "通过具体行政困境，论证在战争破坏的现实条件下，某些理论口号的空洞与脱离实际。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段关于内战时期生存问题优先的论点，用分配残存物资的实例，具体说明为何“发展生产”在当时是空谈。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p67s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p67s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p67s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "人民委员会",
+            "type": "org",
+            "modern": "苏俄最高行政机关，负责国家日常管理。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "国防委员会",
+            "type": "org",
+            "modern": "战时最高经济和军事指挥机构。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "普特",
+            "type": "archaic",
+            "modern": "俄国旧重量单位，1普特约16.38公斤。",
+            "highlight": "archaic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p67s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "顿涅茨煤田",
+            "type": "place",
+            "modern": "位于今乌克兰东部，当时是俄国重要煤炭产区。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p67s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p67s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p67s7",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 4,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote",
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

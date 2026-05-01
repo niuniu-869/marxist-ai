@@ -1,0 +1,146 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 28,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁以恩格尔哈特为例，剖析民粹派思想家如何从对现实的揭露滑向对俄国独特发展道路的浪漫幻想，并指出这种幻想与极端民族主义、理想化剥削制度仅一步之遥。",
+    "importance_score": 2,
+    "importance_reason": "通过具体人物案例，深入剖析民粹派思想的内在矛盾与危险倾向，是论证民粹派歪曲进步遗产的关键环节。",
+    "argument_role": "example",
+    "argument_link": "承接上段对恩格尔哈特揭露农民个人主义的肯定，本段转向批判其思想中与民粹派核心幻想相联系的另一面，具体展示民粹派如何歪曲现实。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "恩格尔哈特与《农村来信》",
+        "explain": "恩格尔哈特是19世纪俄国民粹派思想家，其著作《农村来信》记录了农村生活，但带有将农民村社理想化的倾向，是民粹派常引用的权威。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "劳动组合经济",
+        "explain": "民粹派设想的一种基于村社集体劳动的经济形式，被认为是俄国区别于西欧资本主义的独特发展道路。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "工役制",
+        "explain": "俄国农奴制改革后残存的一种剥削形式，农民以劳动抵偿债务或租金，人身依附性强，是地主经济的一种落后形态。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p28s3",
+        "quote": "从这样的信心到恩格尔哈特身上所具有的（虽然是极个别的）极端民粹主义的特点，到与沙文主义近似的狭隘民族主义（恩格尔哈特在战争问题上对一个地主证明说：“连欧洲我们也能打垮”，“而且欧洲的农夫将会拥护我们”（第387页）），甚至到把工役制理想化，其间只有一步之差！",
+        "trigger": "inverted_logic",
+        "reader_block": "“一步之差”是隐含的滑坡论证，读者需要理解列宁如何将看似无害的“信心”与一系列极端立场（民族主义、理想化剥削）建立逻辑关联。",
+        "parse": {
+          "claim": "对俄国独特发展道路的盲目信心，很容易滑向极端的民族主义情绪，甚至为落后的剥削制度辩护。",
+          "qualifiers": "这种滑坡在恩格尔哈特身上虽表现为个别特点，但逻辑上紧密相连。",
+          "contrast_or_target": "民粹派将“独特性”视为积极信念的观点"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "本句直接论证民粹派核心信念（独特性）的危险后果，将其与沙文主义、理想化工役制等明确对立面联系起来，强化对民粹派思想路线的批判。"
+        },
+        "implication": "民粹派对“独特性”的执着，可能使其丧失对落后制度的批判力，甚至成为其拥护者。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p28s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p28s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p28s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "沙文主义",
+            "type": "concept",
+            "modern": "一种极端、排他的民族主义情绪，主张本民族利益高于一切，甚至鼓吹对外征服。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "chauvinism"
+          },
+          {
+            "surface": "工役制",
+            "type": "concept",
+            "modern": "农奴制改革后，农民以劳动抵偿地主债务或租金的一种剥削形式，人身依附性强。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "labor_service_system"
+          }
+        ]
+      },
+      {
+        "sid": "p28s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p28s5",
+        "speaker": "editor",
+        "stance": "neutral_citation",
+        "notes": []
+      },
+      {
+        "sid": "p28s6",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 0,
+        "hs_kept": 1,
+        "hs_dropped": 1,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote",
+        "polemic:eval_word:their_view:伟大"
+      ]
+    }
+  ]
+}

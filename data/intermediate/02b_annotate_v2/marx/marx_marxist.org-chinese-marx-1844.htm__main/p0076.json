@@ -1,0 +1,63 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 76,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段以反问形式，批判那些主张通过工资改革来改善工人状况或将工资平等作为革命目标的人，指出他们的错误。",
+    "importance_score": 2,
+    "importance_reason": "本段批判改良主义路线，为后续论证革命必要性做铺垫。",
+    "argument_role": "continues",
+    "argument_link": "本段延续上段对劳动问题的探讨，转向批判对工资问题的改良主义解决方案。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "蒲鲁东及其观点",
+        "explain": "蒲鲁东是19世纪法国社会主义者，主张通过互助和工资平等实现社会改革，反对暴力革命。马克思批判其改良主义立场。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "蒲鲁东",
+      "their_view": "蒲鲁东认为，通过实现工资平等或提高工资，可以改善工人阶级状况，并以此作为社会革命的目标。",
+      "author_response": "马克思指出，这种主张忽视了资本主义剥削的根源，即私有制，因此无法真正解放工人。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p76s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

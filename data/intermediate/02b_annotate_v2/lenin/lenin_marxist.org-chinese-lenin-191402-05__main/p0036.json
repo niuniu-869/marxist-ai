@@ -1,0 +1,64 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 36,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁引用并反驳罗莎·卢森堡对民族自决权原则的攻击，指出她错误地将这一原则视为普遍适用的老生常谈。",
+    "importance_score": 2,
+    "importance_reason": "本段是列宁对主要论敌罗莎·卢森堡观点的直接引述与反驳，是核心论辩的起点。",
+    "argument_role": "contrasts",
+    "argument_link": "承接上段对俄国民族问题特殊性的引入，本段开始具体剖析并反驳以卢森堡为代表的、对民族自决权原则的普遍化与抽象化攻击。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p36s2",
+        "quote": "她把纲领中这一条文误认为“纯粹是老生常谈”的见解强加在我们头上，而她自己恰巧是犯了这种错误，因为她竟可笑地大胆地宣称这个条文“显然同样适用于”俄德等等国家。",
+        "trigger": "inverted_logic",
+        "reader_block": "双重否定与反讽结构：列宁指出卢森堡犯了她自己所批评的错误，读者需理清“她强加”与“她自己犯错”之间的逻辑反转。",
+        "parse": {
+          "claim": "卢森堡将一种她自己所持有的、认为民族自决权原则是普遍适用的老生常谈的错误观点，错误地归咎于我们。",
+          "qualifiers": "无。",
+          "contrast_or_target": "罗莎·卢森堡认为民族自决权原则是抽象、普遍适用的，因此在任何现代政党纲领中都找不到它。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "本句是列宁对卢森堡论点的核心反驳，揭露其论证中的自相矛盾：她指责别人持有某种观点，但这种观点恰恰是她自己所主张的。"
+        },
+        "implication": "卢森堡对民族自决权原则的批判建立在错误的前提上，即她错误地假设了该原则在所有国家都具有同等适用性。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "罗莎·卢森堡",
+      "their_view": "民族自决权原则是抽象、普遍适用的，因此在任何现代社会党的纲领中都找不到它。",
+      "author_response": "卢森堡将一种错误的、普遍化的理解强加给我们，而她自己恰恰犯了这种将原则抽象化、普遍化的错误。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p36s1",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p36s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  }
+}

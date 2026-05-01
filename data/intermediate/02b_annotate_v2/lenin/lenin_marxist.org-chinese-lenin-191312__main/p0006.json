@@ -1,0 +1,101 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 6,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段回顾旧《火星报》在建党时期与两种民族主义倾向的斗争，以确立党纲中民族自决权原则的历史正当性。",
+    "importance_score": 2,
+    "importance_reason": "通过追溯建党初期的斗争史，为当前捍卫民族自决权原则提供历史依据，巩固论战立场。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于党内机会主义思潮历史联系的论述，具体到民族问题领域，展示布尔什维克党在建党之初就与之斗争。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "旧《火星报》",
+        "explain": "指1900-1903年间由列宁等人创办的全俄马克思主义秘密报纸，是俄国社会民主工党建党的思想和组织核心。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "崩得",
+        "explain": "“立陶宛、波兰和俄罗斯犹太工人总联盟”的简称，是俄国社会民主工党内的一个民族组织，主张按民族划分工人运动。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "1903年第二次代表大会",
+        "explain": "俄国社会民主工党第二次代表大会（1903年7-8月），通过了第一个党纲，会上布尔什维克与孟什维克发生分裂。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "崩得；波兰社会民主党人",
+      "their_view": "崩得主张按民族划分工人运动，表现出对民族主义的迷恋或动摇；波兰社会民主党人则试图使人怀疑民族自决权，认为承认该权利有害。",
+      "author_response": "列宁指出，旧《火星报》对这两种倾向都进行了顽强斗争，因为它们本质上都是从不同方面倒向机会主义和民族主义，必须坚决反对。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p6s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p6s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p6s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p6s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p6s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

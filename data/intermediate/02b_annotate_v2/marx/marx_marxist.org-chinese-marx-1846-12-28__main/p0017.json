@@ -1,0 +1,94 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 17,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "马克思批评蒲鲁东对分工的理解流于表面，忽略了其历史演变，并指出其论述缺乏原创性。",
+    "importance_score": 2,
+    "importance_reason": "作为对蒲鲁东分工观的具体批判，支撑了马克思关于分工是历史范畴、非永恒规律的核心论点。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于分工与社会结构关系的论述，具体以蒲鲁东为例，展示其如何错误地将分工的特定历史产物视为永恒。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p17s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p17s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "永恒的规律",
+            "type": "concept",
+            "modern": "蒲鲁东将特定历史阶段的分工形态视为超越时间、普遍适用的法则。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "division_of_labor_proudhon"
+          }
+        ]
+      },
+      {
+        "sid": "p17s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p17s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "亚当·斯密",
+            "type": "person",
+            "modern": "英国古典政治经济学代表人物，其分工理论是马克思批判性继承的对象。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 2,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_event_20>12",
+        "note:n1_overflow_concept_9>5",
+        "polemic:eval_word:author_response:历史性"
+      ]
+    }
+  ]
+}

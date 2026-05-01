@@ -1,0 +1,162 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 5,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "驳斥沙皇政府的战争借口，分析中国人憎恶欧洲人的阶级根源，并定义殖民政策及其后果。",
+    "importance_score": 3,
+    "importance_reason": "核心批判段落，直接揭露战争的殖民掠夺本质，并从阶级角度解释反抗原因。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段对战争性质的追问，具体分析沙皇政府的辩护说辞，并揭示其背后的殖民政策逻辑。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "refute_quotation"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "1856年英法对华战争",
+        "explain": "指第二次鸦片战争。英法联军为扩大在华利益发动的侵略战争，迫使清政府签订不平等条约，其中包含鸦片贸易合法化条款。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "印度土著抗英起义",
+        "explain": "指1857-1859年的印度民族大起义。是印度人民反抗英国东印度公司殖民统治的大规模武装起义，遭英军残酷镇压。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "英国对布尔人的战争",
+        "explain": "指1899-1902年发生的第二次布尔战争。英国与南非布尔人共和国为争夺殖民地控制权而爆发的战争，是帝国主义争夺殖民地的典型冲突。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p5s7",
+        "quote": "那些到中国来只是为了大发横财的人，那些利用自己的所谓文明来进行欺骗，掠夺和镇压的人，那些为了取得贩卖毒害人民的鸦片的权利而同中国作战（1856年英法对华的战争）的人，那些用传教的鬼话来掩盖掠夺政策的人，中国人难道能不痛恨他们吗？",
+        "trigger": "inverted_logic",
+        "reader_block": "反问句式加四个排比“那些……的人”，读者可能被修辞吸引，而忽略其核心是将憎恶对象具体化为特定行为者，而非整个民族。",
+        "parse": {
+          "claim": "中国人必然痛恨那些来华从事掠夺、欺骗、镇压和鸦片贸易的欧洲人。",
+          "qualifiers": "特指那些从事特定侵略和掠夺行为的欧洲人，而非所有欧洲人。",
+          "contrast_or_target": "主战派认为中国人憎恶欧洲文化和文明本身的观点。",
+          "why": {
+            "relation": "polemic",
+            "explanation": "通过具体列举侵略行径，将抽象的“憎恶欧洲人”具体化为对特定剥削者和压迫者的憎恨，从而反驳种族主义解释，为阶级分析铺路。"
+          }
+        },
+        "implication": "将民族矛盾还原为阶级矛盾，为后文定义殖民政策提供具体例证。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p5s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p5s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p5s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p5s4",
+        "speaker": "quoted_opponent",
+        "stance": "cited",
+        "notes": []
+      },
+      {
+        "sid": "p5s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p5s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p5s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p5s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p5s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p5s10",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p5s11",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p5s12",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 1,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

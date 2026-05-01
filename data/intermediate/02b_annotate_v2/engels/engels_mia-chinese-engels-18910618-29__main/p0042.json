@@ -1,0 +1,100 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 42,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段论证无产阶级取得统治的政治形式，并以德国连公开要求共和国都不被允许的事实，反驳和平过渡的幻想。",
+    "importance_score": 2,
+    "importance_reason": "本段是恩格斯对草案政治要求部分的核心批判，直接针对党内机会主义思潮，论证了革命斗争的必要性。",
+    "argument_role": "continues",
+    "argument_link": "承接上文对草案抽象政治问题的批评，本段具体阐述无产阶级取得统治所必需的政治形式，并以此揭露德国现实与和平幻想之间的矛盾。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "米凯尔",
+        "explain": "约翰·米凯尔是德国社会民主党内的机会主义代表人物，曾主张与政府合作并出任普鲁士财政大臣，被恩格斯视为背离革命原则的典型。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "路易-菲力浦",
+        "explain": "指法国七月王朝（1830-1848）的国王，其统治代表金融资产阶级利益，是君主立宪制的象征。恩格斯用以对比德国连君主立宪制下的公开要求都做不到。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "机会主义",
+      "their_view": "在德国现行法律和政治秩序下，社会民主党可以通过议会斗争等和平、合法的方式，逐步实现党的全部要求，最终建立社会主义社会。",
+      "author_response": "恩格斯指出，德国连公开要求共和国的党纲都不被允许，这恰恰证明了那种认为可以和平、宁静地建立共和国乃至共产主义社会的想法是脱离现实的幻想。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p42s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p42s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p42s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p42s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p42s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p42s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

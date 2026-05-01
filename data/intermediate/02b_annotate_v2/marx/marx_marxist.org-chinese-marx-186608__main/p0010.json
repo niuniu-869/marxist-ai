@@ -1,0 +1,99 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 10,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段论述工会组织必须超越其最初的经济目标，承担起作为工人阶级政治组织中心、为实现阶级彻底解放而斗争的使命。",
+    "importance_score": 3,
+    "importance_reason": "本段是马克思为工会运动设定的核心政治纲领，明确其从经济斗争向政治斗争和阶级解放的转型方向。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段对工会未来的展望，具体阐述工会应如何作为工人阶级的组织中心来行动，将“未来”的构想转化为明确的任务和义务。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p10s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p10s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p10s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p10s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "农业工人",
+            "type": "social_group",
+            "modern": "19世纪欧洲从事农业雇佣劳动的工人，因分散和传统生产方式，组织程度远低于工厂工人。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p10s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "被压迫者",
+            "type": "concept",
+            "modern": "在马克思语境中，主要指受资产阶级剥削和压迫的无产阶级及一切被剥削阶级。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "class_marxist"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 2,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_9>5",
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

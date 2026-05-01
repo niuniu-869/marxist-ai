@@ -1,0 +1,103 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 41,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "以“幽灵”比喻开篇，描绘共产主义思想在欧洲引发的震动，并列举了联合起来反对它的旧势力。",
+    "importance_score": 3,
+    "importance_reason": "这是《共产党宣言》的开篇名句，奠定了全文的论辩基调与核心意象。",
+    "argument_role": "none",
+    "argument_link": null,
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "allusion",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "“幽灵”比喻",
+        "explain": "此处“幽灵”并非指鬼魂，而是一种修辞手法，形容共产主义思想在当时欧洲统治阶级眼中，如同一个挥之不去、令人恐惧的威胁，其影响力正在四处扩散。",
+        "why_needed": "allusion",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      },
+      {
+        "topic": "旧欧洲势力",
+        "explain": "文中列举的教皇、沙皇、梅特涅、基佐等，代表了19世纪中叶欧洲各种保守、反动的政治与宗教力量，他们共同构成了反对社会变革的旧秩序。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p41s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "幽灵",
+            "type": "metaphor",
+            "modern": "作者用此词形容共产主义思想在当时欧洲统治阶级眼中，如同一个令人不安、四处蔓延的威胁。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p41s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "梅特涅",
+            "type": "person",
+            "modern": "奥地利帝国首相，19世纪欧洲保守主义与反革命政策的主要策划者。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "基佐",
+            "type": "person",
+            "modern": "法国七月王朝时期的政治家与历史学家，代表金融资产阶级的保守统治。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 3,
+        "notes_dropped": 2,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

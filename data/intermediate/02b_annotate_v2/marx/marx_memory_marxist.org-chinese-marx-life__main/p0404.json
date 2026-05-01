@@ -1,0 +1,116 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 404,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段叙述《新莱茵报》停刊后，恩格斯暂居瑞士，马克思则参与同盟和民主协会的活动。",
+    "importance_score": 1,
+    "importance_reason": "过渡性叙述，连接马克思在1848年革命后的活动。",
+    "argument_role": "none",
+    "argument_link": null,
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_density",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "《新莱茵报》",
+        "explain": "1848年革命期间马克思和恩格斯在科隆创办的日报，宣传革命主张，后因政府压力被迫停刊。",
+        "why_needed": "history_density",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "共产主义者同盟",
+        "explain": "马克思和恩格斯参与的国际工人组织，前身为正义者同盟，1847年改组，是早期共产主义运动的核心团体。",
+        "why_needed": "history_density",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "民主协会",
+        "explain": "1848年德国革命中的民主派组织，马克思曾参与其活动，推动政治改革。",
+        "why_needed": "history_density",
+        "confidence": "medium",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p404s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "《新莱茵报》",
+            "type": "org",
+            "modern": "1848年马克思恩格斯在科隆创办的革命报纸，宣传无产阶级主张。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p404s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "恩格斯",
+            "type": "person",
+            "modern": "马克思的挚友和合作者，共产主义者同盟重要成员。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p404s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "民主协会",
+            "type": "org",
+            "modern": "1848年德国革命中的民主派团体，马克思曾参与其活动。",
+            "highlight": "term",
+            "confidence": "medium",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 3,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

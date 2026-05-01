@@ -1,0 +1,87 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 165,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "批判资产阶级将革命视为非理性、将改良视为理性的观点，指出其回避了关于革命形势的根本问题。",
+    "importance_score": 2,
+    "importance_reason": "本段是作者对资产阶级政治思维模式的核心批判，揭示了其阶级立场如何导致对革命形势的误判。",
+    "argument_role": "contrasts",
+    "argument_link": "承接上段对布兰克先生言论的讽刺，进一步剖析这种言论背后的资产阶级理性观，并与之形成鲜明对比。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "杜巴索夫主义",
+        "explain": "指1905年革命后，沙皇政府任命的莫斯科总督杜巴索夫将军所代表的残酷镇压革命、恢复旧秩序的反动统治时期。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "资产阶级庸夫俗子 / 资产阶级的理性",
+      "their_view": "革命是破坏秩序的非理性“旋风”，只有在旧秩序恢复后的改良时期，才是“思想和理智的时代”来临。",
+      "author_response": "这种观点本身带有“牢狱的”或“杜巴索夫的”反动性质，因为它完全回避了革命是否被镇压、群众力量是否消失等决定历史走向的根本问题。",
+      "polemic_kind": "reveals_class_basis",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p165s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p165s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p165s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p165s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p165s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

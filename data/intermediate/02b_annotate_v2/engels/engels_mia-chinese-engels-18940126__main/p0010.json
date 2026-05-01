@@ -1,0 +1,116 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 10,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "引用《共产党宣言》策略，阐述社会党人应如何平衡当前斗争与最终目标，并批评那些只看眼前利益的政党。",
+    "importance_score": 3,
+    "importance_reason": "本段是恩格斯阐述社会党策略的核心段落，引用经典文献确立行动纲领。",
+    "argument_role": "continues",
+    "argument_link": "本段承接上文对意大利政治可能性的分析，转向探讨社会党在这些可能性下的行动策略。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "纯粹的共和主义者或感伤的社会主义者",
+      "their_view": "他们认为前进中的某个普通阶段就是最终目的，因此容易失望。",
+      "author_response": "恩格斯指出这种缺少远大目光的政党无法避免失望情绪，因为他们把阶段性成果误认为终点。",
+      "polemic_kind": "strategic_critique",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p10s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p10s2",
+        "speaker": "quoted_marx",
+        "stance": "endorsed",
+        "notes": [
+          {
+            "surface": "《共产党宣言》",
+            "type": "work",
+            "modern": "马克思、恩格斯1848年合著的纲领性文献，提出阶级斗争理论和无产阶级革命目标。",
+            "highlight": "quote",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p10s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p10s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p10s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "分期偿付的债款",
+            "type": "metaphor",
+            "modern": "恩格斯将工人阶级的直接成就比作债务的部分偿还，强调这些成就只是通向最终目标的过渡步骤。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p10s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p10s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p10s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 2,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

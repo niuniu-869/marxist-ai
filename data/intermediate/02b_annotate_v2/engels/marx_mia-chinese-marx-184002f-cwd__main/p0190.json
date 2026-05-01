@@ -1,0 +1,58 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 190,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段讽刺资本阶级声称其存在是为了劳动阶级的利益。",
+    "importance_score": 1,
+    "importance_reason": "作为对资产阶级社会主义主张的讽刺性总结，揭露其虚伪性。",
+    "argument_role": "continues",
+    "argument_link": "本段延续前一段对资本家社会主义主张的讽刺，指出其声称的动机。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p190s1",
+        "quote": "資本階級，是爲了勞動階級底利益纔做資本階級。",
+        "trigger": "inverted_logic",
+        "reader_block": "句子表面声称资本阶级为劳动阶级利益而存在，但实际是反讽，读者可能误解为正面陈述。",
+        "parse": {
+          "claim": "资本阶级实际上并非为了劳动阶级的利益而存在，但声称如此。",
+          "qualifiers": "",
+          "contrast_or_target": "资产阶级社会主义认为资本阶级的存在是为了促进劳动阶级的利益。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "本句讽刺资产阶级社会主义的虚伪主张，揭露其声称的动机与实际不符。"
+        },
+        "implication": null,
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "资产阶级社会主义",
+      "their_view": "资本阶级的存在是为了促进劳动阶级的利益。",
+      "author_response": "作者讽刺这种说法，揭露其虚伪性。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p190s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  }
+}

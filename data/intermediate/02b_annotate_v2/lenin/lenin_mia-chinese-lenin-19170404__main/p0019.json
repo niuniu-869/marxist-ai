@@ -1,0 +1,127 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 19,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁分析从资产阶级民主革命向社会主义革命过渡阶段的特点，即合法性与群众轻信并存，并严厉批评党内对临时政府的幻想，强调必须与护国派划清界限。",
+    "importance_score": 3,
+    "importance_reason": "核心段落，阐述了《四月提纲》中革命阶段论的关键特征，并直接批判了党内和苏维埃中的机会主义倾向。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对无产阶级觉悟不足的承认，本段进一步分析当前革命阶段的矛盾特点（合法性与轻信），并指出党内也存在这种轻信，从而引出与护国派决裂的必要性。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "allusion",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "革命阶段论",
+        "explain": "列宁在《四月提纲》中提出，二月革命后俄国处于从资产阶级民主革命（第一阶段）向无产阶级社会主义革命（第二阶段）过渡的时期。理解这两个阶段的划分是读懂本段分析的前提。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "斯切克洛夫、齐赫泽等孟什维克护国派",
+      "their_view": "在临时政府领导下保卫祖国是正当的，战争已变为防御性的；苏维埃应支持或监督临时政府，而非夺取全部政权。",
+      "author_response": "列宁斥责这种立场是背叛国际社会主义，认为与护国派的任何瓜葛都会断送社会主义事业，布尔什维克必须与他们彻底决裂。",
+      "polemic_kind": "strategic_critique",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p19s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p19s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p19s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p19s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p19s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p19s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p19s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p19s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "李卜克内西",
+            "type": "person",
+            "modern": "德国社会民主党左派领袖，因在帝国议会投票反对战争拨款而被捕入狱，是国际主义反战立场的象征。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p19s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p19s10",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

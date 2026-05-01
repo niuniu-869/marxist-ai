@@ -1,0 +1,119 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 69,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "运用反讽和比喻，揭露普鲁士书报检查令的虚伪，讽刺政府以控制取代自由的实质。",
+    "importance_score": 2,
+    "importance_reason": "以文学化修辞强化对检查制度的批判，是核心论点的修辞展开。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对检查官制度的批判，转而用比喻和反讽直接攻击检查令本身及其背后的政府意志。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "allusion",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "allusion",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "庞培与帕拉斯雅典娜典故",
+        "explain": "庞培是古罗马统帅，传说他跺脚能使大地震动。帕拉斯雅典娜是希腊神话中的智慧与战争女神，此处比喻政府强大的宣传或镇压机器。",
+        "why_needed": "allusion",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "中国报刊的讽刺性引用",
+        "explain": "马克思此处并非赞扬中国，而是反讽。他暗示普鲁士若真想控制舆论，可以效仿当时欧洲人眼中专制、停滞的中国模式，以此揭露其反动本质。",
+        "why_needed": "allusion",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p69s1",
+        "quote": "只要你们像庞培那样跺一下脚，从政府的每一幢大厦中就会跳出一个全副武装的帕拉斯雅典娜来。",
+        "trigger": "allusion",
+        "reader_block": "读者不熟悉庞培和帕拉斯雅典娜的典故，无法理解这个比喻指向政府强大的宣传与镇压能力。",
+        "parse": {
+          "claim": "政府只需稍加示意，其庞大的宣传与控制体系就会立刻全面启动。",
+          "qualifiers": "以古罗马统帅庞培跺脚引发震动的传说为喻。",
+          "contrast_or_target": ""
+        },
+        "why": {
+          "relation": "example",
+          "explanation": "用一个生动的古典比喻，形象化地说明政府拥有随时可被动员起来的、强大的官方宣传机器，为下文对比民间报刊的孱弱做铺垫。"
+        },
+        "implication": "政府对舆论的控制是系统性的、随时待命的，而非偶然的。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "普鲁士书报检查制度",
+      "their_view": "新检查令旨在放宽限制、改进报刊质量，使真理的探讨“严肃和谦逊”。",
+      "author_response": "马克思以反讽揭露，该制度本质是政府动用强大宣传机器压制民间声音，其所谓“改进”不过是虚伪托词，与专制国家控制舆论无异。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p69s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p69s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p69s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p69s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p69s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p69s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 1,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

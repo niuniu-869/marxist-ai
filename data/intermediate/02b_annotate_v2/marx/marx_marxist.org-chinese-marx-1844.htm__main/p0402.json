@@ -1,0 +1,89 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 402,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "作者提出一种基于人的总体需要和社会联系的“富有”概念，以此取代国民经济学中纯粹物质占有的“富有”与“贫困”范畴。",
+    "importance_score": 3,
+    "importance_reason": "本段是马克思对国民经济学核心范畴的正面批判与替代性构想，是其早期异化劳动理论向共产主义人本主义过渡的关键论述。",
+    "argument_role": "contrasts",
+    "argument_link": "承接上段关于人与自然、人与人感性关系的论述，将这种关系具体化为一种新的社会财富观，直接与国民经济学的财富观对立。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [
+      "national_economics_polemic"
+    ],
+    "prereading_inline": [
+      {
+        "topic": "社会主义前提",
+        "explain": "此处指马克思当时正在形成中的共产主义或社会主义思想框架。在此框架下，人的社会性被置于首位，与国民经济学的个人主义前提形成对比。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "国民经济学",
+      "their_view": "富有就是物质财富的积累，贫困就是物质财富的匮乏。人的价值由其占有的财产数量决定。",
+      "author_response": "马克思提出，真正的富有是人的总体生命表现，是人的需要的丰富性；贫困在社会主义前提下也能成为促使人与人结合的社会纽带。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p402s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p402s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p402s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p402s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p402s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

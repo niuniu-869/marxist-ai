@@ -1,0 +1,85 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 188,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段以欧洲历史为例，说明小资产阶级妥协思潮曾一度影响社会民主党，但最终革命派的正确性得以证明。",
+    "importance_score": 2,
+    "importance_reason": "通过历史类比，为论证当前俄国社会民主党应坚持革命立场提供先例支撑。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于小市民拉拢无产者的描述，转而用欧洲历史上的具体事例（伯恩施坦主义时期）来类比和说明这种拉拢的后果与最终结局。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "term_density",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "伯恩施坦主义",
+        "explain": "19世纪末德国社会民主党人爱德华·伯恩施坦提出的理论，主张通过渐进改良而非革命实现社会主义，被列宁等革命派视为对马克思主义的修正。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p188s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "社会自由主义者",
+            "type": "social_group",
+            "modern": "19世纪末欧洲政治光谱中，介于传统自由主义与社会主义之间，主张通过改良实现社会进步的群体。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p188s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p188s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_6>5",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

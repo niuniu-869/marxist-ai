@@ -1,0 +1,139 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 8,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段描述了早期社会民主党人中出现的两种错误倾向：一种空想社会主义者只关注最终目的而忽视现实运动，另一种则相反，只关注自发的工人运动和日常经济需求而忘记了社会主义理想。",
+    "importance_score": 2,
+    "importance_reason": "本段通过对比两种错误倾向，为批判“经济派”提供了历史背景和理论铺垫，是核心批判的支撑部分。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于小组活动结束、工人运动高涨的描述，转而分析运动高涨初期党内出现的思想偏差，为下文的批判做铺垫。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "经济派（或醉心于经济斗争的社会民主党人）",
+      "their_view": "工人运动的全部意义就在于争取提高工资、缩短工时等局部改善，社会主义理想和政治斗争是次要的，甚至可以忘掉。",
+      "author_response": "这种倾向恰恰忘记了社会民主党人的根本职责，即把社会主义思想灌输到工人运动中去，引导运动走向最终目标。",
+      "polemic_kind": "strategic_critique",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p8s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p8s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "空想社会主义者",
+            "type": "social_group",
+            "modern": "19世纪初以圣西门、傅立叶等为代表的社会主义思想家，他们设计了理想社会蓝图但未找到实现路径。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p8s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p8s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p8s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p8s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p8s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p8s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "消灭私有制",
+            "type": "concept",
+            "modern": "马克思主义的核心目标之一，指废除生产资料私有制，建立公有制。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "abolish_private_ownership"
+          }
+        ]
+      },
+      {
+        "sid": "p8s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p8s10",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "灌输",
+            "type": "concept",
+            "modern": "列宁主义建党理论的关键概念，指革命政党应主动向工人阶级传播社会主义意识，而非等待其自发产生。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "imparting_socialist_consciousness"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 3,
+        "notes_dropped": 2,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 41,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁反驳卡姆柯夫关于布尔什维克是德帝国主义走狗的指控，通过对比左派社会革命党人与右派社会革命党人的历史关系，以及布尔什维克的实际行动，来论证指控的荒谬性。",
+    "importance_score": 2,
+    "importance_reason": "本段直接回应并驳斥了对布尔什维克的核心指控，是列宁为批准和约进行辩护的关键论战环节。",
+    "argument_role": "contrasts",
+    "argument_link": "承接上段关于布尔什维克护国主义“光荣”的论断，本段通过反驳“走狗”指控，进一步论证布尔什维克立场的正当性与对手的虚伪。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p41s1",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": [
+          {
+            "surface": "卡姆柯夫",
+            "type": "person",
+            "modern": "左派社会革命党领导人之一，当时在大会上发言反对批准和约。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p41s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p41s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p41s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p41s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p41s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p41s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "布列斯特谈判",
+            "type": "event",
+            "modern": "苏维埃俄国与同盟国（以德国为主）在布列斯特-里托夫斯克进行的和平谈判，过程艰难，最终签订苛刻和约。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 3,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix",
+        "note:n2_5gram_with_surface",
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

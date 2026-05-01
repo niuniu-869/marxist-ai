@@ -1,0 +1,208 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 92,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "通过对比法国与普鲁士的历史行为，揭露德意志帝国在领土兼并问题上的双重标准，并以普鲁士对纽伦堡的未遂兼并为例进行具体说明。",
+    "importance_score": 2,
+    "importance_reason": "作为核心论证的例证，通过具体历史对比支撑前文关于暴力与领土原则的论点。",
+    "argument_role": "example",
+    "argument_link": "承接上段关于按语言划分领土原则的讨论，以黎塞留和普鲁士的历史实践为例，具体展示不同国家在领土扩张中如何援引或违背此类原则。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_density",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "黎塞留与归并议会",
+        "explain": "黎塞留是17世纪法国首相，推行以国家利益为核心的现实政治。归并议会是路易十四时期设立的机构，负责通过法律程序将新领土并入法国。",
+        "why_needed": "history_density",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "帝国宪法与北德意志联邦",
+        "explain": "帝国宪法指神圣罗马帝国的宪法框架。1795年普鲁士与法国单独媾和，破坏了帝国共同对外的原则，并组建了第一个北德意志联邦。",
+        "why_needed": "history_density",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "法兰克尼亚与纽伦堡",
+        "explain": "法兰克尼亚是德国历史地区。纽伦堡是该地区重要的帝国自由市，享有自治权，其归属在18世纪末成为列强争夺的对象。",
+        "why_needed": "history_density",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "为普鲁士（或德意志帝国）领土政策辩护的观点",
+      "their_view": "普鲁士（或德意志帝国）的领土扩张是正当的，或者至少不应像指责法国那样受到指责。",
+      "author_response": "恩格斯通过列举普鲁士自身破坏帝国宪法、胁迫自由市、提出领土要求等历史事实，揭露其行为的虚伪性和双重标准，指出它没有道德立场去指责法国。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p92s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "黎塞留",
+            "type": "person",
+            "modern": "17世纪法国首相，推行以法国国家利益为中心的现实主义外交政策。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "自然疆界",
+            "type": "concept",
+            "modern": "一种以地理特征（如山脉、河流）作为国家边界的政治理论。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "territory_natural_boundary"
+          }
+        ]
+      },
+      {
+        "sid": "p92s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "德意志帝国",
+            "type": "org",
+            "modern": "1871年统一后的德国，由普鲁士主导。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p92s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "路易十四",
+            "type": "person",
+            "modern": "17-18世纪法国国王，在位期间法国大规模扩张。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "斯特拉斯堡",
+            "type": "place",
+            "modern": "位于莱茵河畔，历史上法德争夺的边境城市。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p92s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p92s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p92s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "北德意志联邦",
+            "type": "org",
+            "modern": "1795年普鲁士与法国单独媾和后，联合北德意志诸邦组成的联盟。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p92s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "归并议会",
+            "type": "concept",
+            "modern": "路易十四时期设立的机构，负责通过法律程序将新领土并入法国。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "chambre_de_reunion"
+          }
+        ]
+      },
+      {
+        "sid": "p92s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "纽伦堡",
+            "type": "place",
+            "modern": "法兰克尼亚地区的重要城市，当时是帝国自由市。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p92s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "卡尔大公",
+            "type": "person",
+            "modern": "奥地利大公，1796年在意大利和莱茵河前线指挥反法作战。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 9,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 2,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "hs:claim_5gram_with_quote",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

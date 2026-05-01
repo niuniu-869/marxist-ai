@@ -1,0 +1,62 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 199,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁谴责那些自称革命者却畏惧资产阶级反抗的立场，揭露其机会主义根源。",
+    "importance_score": 2,
+    "importance_reason": "对论敌立场的直接批判，揭露其内在矛盾与机会主义本质，支撑核心论点。",
+    "argument_role": "contrasts",
+    "argument_link": "承接前文对论敌观点的引述，转而直接批判这些观点背后的怯懦与虚伪。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "机会主义败坏了的世界社会主义运动",
+      "their_view": "某些人害怕资本家的反抗，却又想以革命者和社会主义者自居。",
+      "author_response": "列宁谴责这种立场是可耻的，指出这是机会主义败坏的结果。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p199s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p199s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 2,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

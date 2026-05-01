@@ -1,0 +1,112 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 6,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段基于波将金号起义事件，论证革命已进入不可逆转阶段，并提出党在革命军队建设中的具体任务。",
+    "importance_score": 3,
+    "importance_reason": "核心论断段，将具体事件上升为革命进程的转折点，并明确党的行动纲领。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对波将金号起义的叙述，将其定性为革命进程中的决定性一步，并据此提出后续的组织任务。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "allusion",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic, allusion",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "卢比孔河典故",
+        "explain": "公元前49年，罗马将军凯撒率军渡过卢比孔河，此举违反罗马法律，意味着与元老院彻底决裂，没有回头路。列宁用此比喻革命力量的行动已越过临界点，无法逆转。",
+        "why_needed": "allusion",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p6s1",
+        "quote": "任何迫害、对革命的任何局部胜利，都抹杀不了这一事变的意义。",
+        "trigger": "inverted_logic",
+        "reader_block": "双重否定结构（任何...都抹杀不了）容易让读者绕晕，需要先理解其肯定含义。",
+        "parse": {
+          "claim": "沙皇政府的镇压或革命在其他地方取得的零星成功，都无法抵消或掩盖波将金号起义这一事件的根本重要性。",
+          "qualifiers": "针对的是“这一事变”（即波将金号起义）的意义。",
+          "contrast_or_target": ""
+        },
+        "why": {
+          "relation": "continues",
+          "explanation": "承接上段对起义的叙述，强调其意义超越任何局部挫折或胜利，为下文将其定性为“第一步”做铺垫。"
+        },
+        "implication": "革命者应聚焦于事件的质变意义，而非纠缠于一时的得失。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p6s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p6s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p6s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p6s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p6s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p6s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 1,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:eval_word:explanation:深刻"
+      ]
+    }
+  ]
+}

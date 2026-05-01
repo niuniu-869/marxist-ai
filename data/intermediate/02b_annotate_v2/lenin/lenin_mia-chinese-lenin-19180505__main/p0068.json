@@ -1,0 +1,98 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 68,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁分析俄国经济现状，指出小资产阶级资本主义占主导，通往社会主义必须经过“全民的计算和监督”这一中间阶段，并批评了将资本主义与社会主义抽象对立的理论错误。",
+    "importance_score": 3,
+    "importance_reason": "本段是列宁阐述其过渡时期经济政策理论基础的核心段落，直接针对“左派”和部分左翼报刊的错误认识。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于学习德国国家资本主义的论述，具体分析俄国当前的经济基础，论证为何必须经过特定的中间阶段。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "《新生活报》与《前进报》",
+        "explain": "《新生活报》是孟什维克的机关报，《前进报》是“左派共产主义者”的机关报。列宁在此批评这两个刊物阵营中的人物犯了相同的理论错误。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "《新生活报》和《前进报》营垒中的优秀人物",
+      "their_view": "他们将资本主义与社会主义视为截然对立、可以一步跨越的两个阶段，不理解在俄国具体条件下，需要经过一个对生产和分配进行全民计算和监督的过渡时期。",
+      "author_response": "列宁指出，这种错误源于不了解俄国小资产阶级经济占优势的具体事实，也源于对马克思主义关于过渡时期理论的忽视，把社会主义当成了脱离实践的抽象物。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p68s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "对产品的生产和分配实行全民的计算和监督",
+            "type": "program_clause",
+            "modern": "列宁提出的关键过渡措施，指由国家政权对全社会的经济活动进行统计、监察和调节，是克服小生产自发性和建立计划经济的前提。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p68s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p68s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p68s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p68s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 2,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_9>5",
+        "note:n1_overflow_concept_7>5",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

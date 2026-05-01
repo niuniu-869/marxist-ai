@@ -1,0 +1,120 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 23,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁引用马克思的两封信，展示马克思对德国党内机会主义者及其理论基础的批判立场。",
+    "importance_score": 2,
+    "importance_reason": "通过马克思的具体批评为前文论点提供直接的历史例证，支撑对机会主义的批判。",
+    "argument_role": "example",
+    "argument_link": "承接上段对默林淡化马克思评论的批评，本段直接引用马克思原信，具体展示马克思对机会主义者的态度和斗争方式。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_density",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "《未来》杂志",
+        "explain": "1870年代德国的一份社会主义刊物，由赫希博格等人主办，其纲领被马克思恩格斯视为机会主义的代表。",
+        "why_needed": "history_density",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      },
+      {
+        "topic": "赫希博格、施拉姆、伯恩施坦",
+        "explain": "《未来》杂志的三位主办者，代表了党内用抽象道德观念取代科学社会主义的倾向。",
+        "why_needed": "history_density",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      },
+      {
+        "topic": "希尔施、倍倍尔、李卜克内西",
+        "explain": "希尔施是马克思指定的主笔人选；倍倍尔和李卜克内西是当时德国社会民主党的主要领袖。",
+        "why_needed": "history_density",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p23s1",
+        "quote": "马克思抱怨德国社会民主党人国拉萨尔派和杜林妥协(1877年10月19日的信)，同时也指责“同一帮不成熟的大学生和过分聪明的博士〈德语“博士”是相当于我国“副博士”和“大学优等毕业生”的一种学位〉妥协，这些人想使社会主义有一个‘更高的、理想的’转变，就是说，想用关于正义、自由、平等和博爱的女神的现代神话来代替它的唯物主义的基础(这种基础要求一个人在运用它以前认真地客观地研究它)。《未来》杂志的出版人赫希博格博士先生是这种倾向的一个代表者，他已经‘捐资’入党，──就算他怀有‘最高贵的’意图，但是，我不理会任何‘意图’。世界上很难找到一种比他的《未来》杂志的纲领更可悲、更‘谦逊地自负’的东西了”(第70封信)。",
+        "trigger": "long_nested",
+        "reader_block": "长句包含马克思的直接引语，引语内又有插入语和多重修饰，读者容易迷失在嵌套结构中，不清楚哪些是马克思的原话，哪些是列宁的注释。",
+        "parse": {
+          "claim": "马克思批评德国党内存在用抽象道德观念取代唯物主义基础的倾向，并点名赫希博格是其代表。",
+          "qualifiers": "针对1877年德国社会民主党内的特定思潮。",
+          "contrast_or_target": "那些试图用正义、自由、平等、博爱的抽象理念来重新定义社会主义的人。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "本句是马克思对机会主义者理论基础的直接批判，列宁引用此信旨在向读者展示马克思本人对党内错误倾向的鲜明态度。"
+        },
+        "implication": "马克思将社会主义的科学性建立在对客观现实的研究上，而非主观的道德说教。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "赫希博格、施拉姆、伯恩施坦及其代表的机会主义倾向",
+      "their_view": "社会主义可以通过抽象的正义、自由、平等、博爱理念来提升和理想化，从而获得更崇高的道德基础。",
+      "author_response": "马克思认为这种做法抛弃了社会主义的唯物主义基础，是空洞的神话，是对党的理论的糟蹋。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p23s1",
+        "speaker": "quoted_marx",
+        "stance": "endorsed",
+        "notes": []
+      },
+      {
+        "sid": "p23s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p23s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p23s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p23s5",
+        "speaker": "quoted_marx",
+        "stance": "endorsed",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 1,
+        "hs_kept": 1,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_7>5"
+      ]
+    }
+  ]
+}

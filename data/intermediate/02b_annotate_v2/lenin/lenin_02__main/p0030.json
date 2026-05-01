@@ -1,0 +1,104 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 30,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "提出对临时政府的绝对不支持纲领，揭露其欺骗性，并批评党内部分人向临时政府提要求的做法。",
+    "importance_score": 3,
+    "importance_reason": "这是《四月提纲》中关于对待临时政府态度的核心论点，直接关系到布尔什维克党的新革命路线。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于无产阶级和贫农夺取政权的任务，具体阐述在政权问题上应采取的策略：不支持、揭露临时政府，而非向其提要求。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p30s3",
+        "quote": "我们要作的是揭露，而不是“要求”这个临时政府，这个为资本家服务的临时政府不再为资本家服务，不再进行帝国主义战争。",
+        "trigger": "inverted_logic",
+        "reader_block": "句子结构包含双重否定和反讽，读者可能困惑“要求……不再为资本家服务”到底是什么意思，以及为何“要求”是错误的。",
+        "parse": {
+          "claim": "布尔什维克的任务是揭露临时政府的阶级本质和欺骗性，而不是向它提出诸如停止战争或放弃利益之类的诉求。",
+          "qualifiers": "特指二月革命后成立的、为资本家服务的临时政府。",
+          "contrast_or_target": "党内部分人（如《真理报》编辑部）主张向临时政府提出具体要求，希望它改变政策。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "此句直接反驳了党内要求向临时政府施压的策略，指出这种策略基于对临时政府阶级性质的错误认识，会毒害群众。"
+        },
+        "implication": "任何向资产阶级临时政府提出的要求，都等于承认其合法性并帮助其欺骗群众，从而阻碍无产阶级革命意识的觉醒。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p30s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p30s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p30s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p30s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p30s5",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p30s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 1,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

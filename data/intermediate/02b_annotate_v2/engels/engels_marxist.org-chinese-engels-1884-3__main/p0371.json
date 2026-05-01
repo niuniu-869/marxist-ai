@@ -1,0 +1,92 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 371,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段反驳将欧洲复兴归因于德意志人种族特性的沙文主义史观，指出其真正作用在于氏族制度。",
+    "importance_score": 2,
+    "importance_reason": "本段是恩格斯运用唯物史观分析历史动力的关键例证，通过反驳唯心史观（种族论）来阐明氏族制度的历史作用。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于罗马帝国衰亡后社会转型的论述，具体分析德意志人在此转型中的作用，将讨论从宏观社会形态转向具体民族的历史影响。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "氏族制度",
+        "explain": "指原始社会基于血缘关系形成的基本社会组织形式，其特征是生产资料公有、共同劳动、平均分配，与私有制和阶级社会的国家机器相对立。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p371s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p371s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p371s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p371s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "氏族制度",
+            "type": "concept",
+            "modern": "原始社会基于血缘的公有制社会组织形式，是恩格斯分析国家起源的关键环节。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "gens_system"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote",
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

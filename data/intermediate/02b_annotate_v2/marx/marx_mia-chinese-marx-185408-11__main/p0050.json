@@ -1,0 +1,73 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 50,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段描述西班牙中央洪达这一政权机构的内在矛盾：它本应领导革命，但自身却陈腐无力，其宣言与行动严重脱节。",
+    "importance_score": 2,
+    "importance_reason": "通过具体描述洪达的组织与行动状况，为前文对其批判提供实例支撑。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对洪达内部改良派力量薄弱的描述，进一步刻画整个机构的腐朽与无能。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p50s2",
+        "quote": "如果说它的宣言的语言气势磅礴，同时它的行动又十分无力，那末原因在于西班牙的诗人唐·曼努埃尔·金塔纳，在于中央洪达表现了文学鉴赏力，委托他这位秘书来起草了洪达的宣言。",
+        "trigger": "inverted_logic",
+        "reader_block": "反讽句式。读者可能困惑为何将行动无力归因于“文学鉴赏力”和诗人，这实际是讽刺洪达重文轻武、不务正业。",
+        "parse": {
+          "claim": "洪达宣言的华丽文风与其实际效能低下之间的反差，根源在于其决策层将文学才华置于革命实践之上。",
+          "qualifiers": "这是一个假设性表述（“如果说……那末”），用以引出对原因的分析。",
+          "contrast_or_target": ""
+        },
+        "why": {
+          "relation": "example",
+          "explanation": "用洪达委托诗人起草宣言这一具体事例，来例证和解释前文所描述的“行动十分无力”的状况，揭示其领导层的错位。"
+        },
+        "implication": "",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p50s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p50s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "唐·曼努埃尔·金塔纳",
+            "type": "person",
+            "modern": "19世纪初西班牙诗人，被中央洪达委任为秘书并负责起草重要宣言。",
+            "highlight": "person",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 13,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "通过反问和反讽，论证面对人民游击战时正规军的困境，并揭露英国侵略者“文明贩子”的虚伪性。",
+    "importance_score": 3,
+    "importance_reason": "核心批判段落，直接反驳英国侵略者的道德说教，论证人民战争的合理性。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对中国民众普遍反抗的描述，进一步从军事和道德层面论证这种反抗方式的有效性与正当性。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p13s3",
+        "quote": "这些向毫无防御的城市开火、杀人之外又强奸妇女的文明贩子们，自然会把中国人的这种抵抗方法叫做怯懦的、野蛮的、残酷的方法；",
+        "trigger": "inverted_logic",
+        "reader_block": "“文明贩子们”是反讽，读者若按字面理解会误判作者立场；后半句的“自然会”是反讽，暗示这种指责的虚伪性。",
+        "parse": {
+          "claim": "英国侵略者及其辩护者会用“怯懦、野蛮、残酷”等标签来污名化中国人采取的有效抵抗方式。",
+          "qualifiers": "针对的是“这种抵抗方法”，即上文描述的游击战、夜袭等非正规战术。",
+          "contrast_or_target": "英国侵略者自诩文明，却对无差别攻击平民的侵略行为视而不见，反而指责受害者的自卫手段。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "本句通过反讽揭露论敌（英国侵略者）的双重标准，为下文的反驳做铺垫。"
+        },
+        "implication": "作者暗示，侵略者对“文明”与“野蛮”的定义完全服务于其侵略利益。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      },
+      {
+        "anchor": "p13s5",
+        "quote": "既然英国人把中国人当做野蛮人看待，那末英国人就不能反对中国人利用他们的野蛮所具有的全部长处。",
+        "trigger": "inverted_logic",
+        "reader_block": "双重否定结构（“不能反对”）和反讽逻辑（“利用野蛮的长处”），读者容易忽略其反驳的锋芒。",
+        "parse": {
+          "claim": "英国人既然在意识形态上将中国人定性为“野蛮人”，那么在逻辑上就无权指责中国人采用他们所谓的“野蛮”手段进行抵抗。",
+          "qualifiers": "前提是“英国人把中国人当做野蛮人看待”，这是一个被作者抓住的论敌前提。",
+          "contrast_or_target": "英国侵略者既想用“野蛮”标签贬低中国人，又想剥夺中国人使用一切可用手段反抗的权利。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "本句利用论敌自身的逻辑前提（中国人是野蛮人）进行归谬，揭露其主张的自相矛盾。"
+        },
+        "implication": "作者指出，侵略者的“文明”话语本身包含着无法自圆其说的矛盾。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "英国侵略者及其辩护者",
+      "their_view": "中国人的抵抗方法是怯懦的、野蛮的、残酷的，不配称为文明的战争方式。",
+      "author_response": "英国人既然自诩文明并蔑视中国为野蛮，就无权指责中国人利用他们所谓的“野蛮”手段进行有效自卫。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p13s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p13s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p13s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "文明贩子们",
+            "type": "metaphor",
+            "modern": "作者对英国侵略者及其辩护者的讽刺性称呼，揭露其以“文明”为名行侵略之实的虚伪。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p13s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p13s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p13s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  }
+}

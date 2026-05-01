@@ -1,0 +1,80 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 11,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段是马克思转述自由贸易派对工人的说辞，将谷物税等同于工资税，并把贫困归因于生活资料价格高。",
+    "importance_score": 2,
+    "importance_reason": "这是马克思引述论敌观点，为后续批判其逻辑前提做铺垫。",
+    "argument_role": "continues",
+    "argument_link": "本段是上一段“他们向工人这样说：”的具体展开，呈现了自由贸易派对工人的核心说辞。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "refute_quotation"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "自由贸易派",
+      "their_view": "谷物税就是一种工资税，工人向大地主交了这笔税，所以工人贫困是因为面包等生活资料价格太高。",
+      "author_response": "马克思转述此观点，意在后续揭示其将工人贫困原因简单归结于价格，掩盖了资本主义生产关系下的剥削本质。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p11s1",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": [
+          {
+            "surface": "谷物税",
+            "type": "event",
+            "modern": "19世纪英国对进口谷物征收的关税，是当时自由贸易论战的核心议题。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "工资税",
+            "type": "concept",
+            "modern": "自由贸易派的特定说法，认为谷物税通过抬高粮价间接减少了工人的实际工资。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "tax_wage_theory"
+          },
+          {
+            "surface": "大地主",
+            "type": "social_group",
+            "modern": "当时英国主张维持谷物税以保护其土地利益的贵族阶层。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p11s2",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": [
+          {
+            "surface": "中世纪的贵族",
+            "type": "social_group",
+            "modern": "马克思用此称呼强调大地主阶层的保守与历史落后性。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      }
+    ]
+  }
+}

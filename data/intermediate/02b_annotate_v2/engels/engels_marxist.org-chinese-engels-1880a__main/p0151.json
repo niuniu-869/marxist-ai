@@ -1,0 +1,96 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 151,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段具体阐述资本主义生产方式形成过程中的一个核心特征，即劳动者与生产资料的分离，以及由此产生的社会结构。",
+    "importance_score": 2,
+    "importance_reason": "本段是支撑前文关于资本主义基本矛盾论述的关键环节，具体化了矛盾的一个方面。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于生产社会化与私人占有矛盾的论述，本段具体指出这一矛盾在社会关系层面的直接表现。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p151s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p151s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "雇佣劳动",
+            "type": "concept",
+            "modern": "劳动者为获取工资而出卖自身劳动力的劳动形式，是资本主义生产的基础。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "wage_labor"
+          }
+        ]
+      },
+      {
+        "sid": "p151s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "无产阶级",
+            "type": "concept",
+            "modern": "现代工业社会中不占有生产资料、依靠出卖劳动力为生的阶级。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "proletarian"
+          },
+          {
+            "surface": "资产阶级",
+            "type": "concept",
+            "modern": "占有生产资料并雇佣劳动力进行生产的阶级。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "bourgeoisie"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 3,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_11>5"
+      ]
+    }
+  ]
+}

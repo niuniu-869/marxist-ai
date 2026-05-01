@@ -1,0 +1,97 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 84,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁总结性地提出修改土地纲领的核心方案，并回应马斯洛夫对设立农民委员会的质疑。",
+    "importance_score": 3,
+    "importance_reason": "本段是列宁对修改土地纲领方案的总结性陈述，提出了核心要求。",
+    "argument_role": "conclusion",
+    "argument_link": "本段承接上段对马斯洛夫纲领的批判，正面提出替代方案。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p84s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "农民委员会",
+            "type": "program_clause",
+            "modern": "列宁主张设立的、由农民选举产生的土地改革执行机构，是其纲领的核心条款。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p84s2",
+        "speaker": "editor",
+        "stance": "neutral_citation",
+        "notes": []
+      },
+      {
+        "sid": "p84s3",
+        "speaker": "editor",
+        "stance": "neutral_citation",
+        "notes": []
+      },
+      {
+        "sid": "p84s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p84s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "警察国家",
+            "type": "metaphor",
+            "modern": "列宁用来形容沙皇专制政权的术语，指其依靠警察和官僚机构进行统治。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

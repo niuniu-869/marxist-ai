@@ -1,0 +1,70 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 154,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁在代表会议上回应国际邀请，并批判某些社会党人充当统治阶级的代言人。",
+    "importance_score": 1,
+    "importance_reason": "本段是会议记录中列宁发言的一部分，用于阐述布尔什维克党对国际事件的态度和对社会沙文主义的批判。",
+    "argument_role": "continues",
+    "argument_link": "本段承接上段对会议的报道，具体展示列宁的发言内容。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "社会沙文主义者",
+        "explain": "第一次世界大战期间，支持本国资产阶级政府进行帝国主义战争的社会党人，他们以保卫祖国为名背叛国际主义。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p154s1",
+        "speaker": "quoted_lenin",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p154s2",
+        "speaker": "quoted_lenin",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_7>5",
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,152 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 80,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "论证从资本主义向社会主义过渡必须通过无产阶级专政，驳斥了认为可以不要强制和专政的幻想，并指出在当时的俄国，除了无产阶级专政或资产阶级专政，没有中间道路。",
+    "importance_score": 3,
+    "importance_reason": "核心论点段，明确提出了无产阶级专政的必要性，并将其与小资产阶级民主派的幻想对立起来，是全文论证的关键环节。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段关于“协调的组织”和专政的讨论，具体阐明为何实现这种组织必须依靠专政形式的强制，并反驳了反对意见。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "科尔尼洛夫与卡芬雅克",
+        "explain": "科尔尼洛夫是1917年夏试图发动军事政变推翻临时政府的俄军将领。卡芬雅克是1848年法国六月起义后血腥镇压巴黎工人的将军。列宁将科尔尼洛夫比作俄国的卡芬雅克，意指其代表资产阶级的暴力专政。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "小资产阶级民主派",
+        "explain": "指当时俄国的孟什维克和社会革命党人，他们主张建立包括资产阶级在内的民主联合政府，反对由无产阶级单独掌握政权。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p80s6",
+        "quote": "或者是科尔尼洛夫专政（如果把科尔尼洛夫看作俄国式资产阶级的卡芬雅克的话），或者是无产阶级专政，——对于这个经过了几次非常急剧的转变而非常迅速地发展的国家，在灾难性的战争造成惨重经济破坏的情况下，根本不可能有其他出路。",
+        "trigger": "long_nested",
+        "reader_block": "句子结构复杂，包含插入语、破折号和长限定条件，读者容易迷失主干，不清楚“其他出路”具体指什么。",
+        "parse": {
+          "claim": "在当时的俄国，国家政权只能由资产阶级或无产阶级中的一方实行专政，不存在第三种政权形式。",
+          "qualifiers": "限定于经历了急剧转变、发展迅速且经济因战争而严重破坏的俄国。",
+          "contrast_or_target": "反驳那些认为可以建立某种“民主联合”或中间政权的观点。"
+        },
+        "why": {
+          "relation": "conclusion",
+          "explanation": "基于前文对强制必要性的论述，得出在俄国具体历史条件下，政权归属只有两种可能的结论，为下文批判中间道路做铺垫。"
+        },
+        "implication": "任何试图调和阶级矛盾、建立联合政权的尝试，在列宁看来都是虚幻的，最终只会倒向资产阶级专政。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "小资产阶级民主派（切尔诺夫、策列铁里、马尔托夫）",
+      "their_view": "可以通过建立民主联合战线、实现民主派的统一或民主派专政等方式，在资产阶级和无产阶级之间找到一条中间道路来治理国家。",
+      "author_response": "列宁认为这些想法是愚蠢的空想，在当时的阶级斗争形势下，除了资产阶级专政或无产阶级专政，根本不存在这种中间出路，宣扬这些只会欺骗人民或暴露自身的幻想。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p80s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p80s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p80s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p80s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p80s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p80s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "卡芬雅克",
+            "type": "person",
+            "modern": "1848年法国六月起义后，下令血腥镇压巴黎无产阶级的陆军部长，代表资产阶级的暴力镇压。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "无产阶级专政",
+            "type": "concept",
+            "modern": "马克思主义理论核心概念，指无产阶级通过革命夺取国家政权后，对资产阶级实行的政治统治。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "dictatorship_proletariat"
+          }
+        ]
+      },
+      {
+        "sid": "p80s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p80s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 3,
+        "hs_kept": 1,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

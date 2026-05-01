@@ -1,0 +1,113 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 11,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁论证布尔什维克以往策略过于温和，面对资产阶级必然的破坏活动，必须采取包括拘禁企业负责人在内的果断措施。",
+    "importance_score": 2,
+    "importance_reason": "本段是列宁为新生政权采取强硬经济措施（如拘禁企业主）提供直接论证，是其反妥协、反破坏路线的具体化。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于资产阶级士官生施暴的描述，进一步论证面对资产阶级的暴力与破坏，布尔什维克必须放弃温和态度，采取更强硬的镇压手段。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "1848年与1871年革命",
+        "explain": "指1848年欧洲资产阶级革命和1871年巴黎公社。在这两次事件中，资产阶级在掌权或面临威胁时，都对无产阶级进行了残酷镇压。列宁以此类比，说明资产阶级的暴力本性。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "“经理们”的所指",
+        "explain": "此处指企业（工厂、银行等）的负责人或所有者代表。在革命后，他们可能利用管理权进行怠工、破坏生产，以对抗苏维埃政权。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p11s5",
+        "quote": "所以我们应该把经理们抓起来，将他们暂时抓起来的做法取得过很好的效果。",
+        "trigger": "long_nested",
+        "reader_block": "句子后半部分“将他们暂时抓起来的做法取得过很好的效果”结构嵌套，读者不易分清“做法”指代什么，以及“取得过很好效果”的主语是谁。",
+        "parse": {
+          "claim": "拘禁企业负责人的措施在以往实践中已被证明是有效的。",
+          "qualifiers": "这种拘禁是暂时性的。",
+          "contrast_or_target": ""
+        },
+        "why": {
+          "relation": "conclusion",
+          "explanation": "基于前文对资产阶级必然破坏的判断，以及对布尔什维克过去温和态度的批评，列宁得出必须采取具体强硬措施（拘禁经理）的结论，并援引过往经验作为依据。"
+        },
+        "implication": "列宁主张将此前可能零星使用的临时拘禁措施，系统化地应用于所有可能进行破坏的企业负责人，以巩固政权。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p11s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p11s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p11s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p11s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p11s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 1,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,236 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 24,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "通过分析《启示录》文本，揭示早期基督教尚未形成后来制度化宗教的教义与等级观念。",
+    "importance_score": 2,
+    "importance_reason": "本段通过具体文本分析，为论证早期基督教与后来国教的区别提供核心证据。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对《启示录》作者身份的判断，转而分析该书内容，以证实其反映了早期基督教的原始面貌。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing, term_first_use",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "term_density",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "尼西亚宗教会议",
+        "explain": "公元325年罗马皇帝君士坦丁召集的基督教会议，确立了正统教义，包括三位一体教义，标志着基督教从受迫害教派转变为帝国官方宗教。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "三位一体教义",
+        "explain": "基督教核心教义，认为圣父、圣子、圣灵是同一神的三个位格，本质相同。恩格斯用此作为参照，说明《启示录》时代尚未形成此教义。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "斐洛学派",
+        "explain": "公元1世纪亚历山大港的犹太哲学流派，以寓意解经法调和希腊哲学与犹太教义，对早期基督教思想有重要影响。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p24s8",
+        "quote": "相反，他是“在神创造万物之上为元首的”，因而也就同上述七灵一样，是永远存在的，但却是居于属位的、神的流出体。",
+        "trigger": "term_density",
+        "reader_block": "句中“属位”、“流出体”是特定神学概念，读者可能不理解其描述的基督从属地位，以及恩格斯如何用此概念分析早期教义。",
+        "parse": {
+          "claim": "基督在《启示录》中被描述为从属于神、具有神性但并非与神等同的存在。",
+          "qualifiers": "这是基于《启示录》文本的描述，特指该书所反映的早期基督教观念。",
+          "contrast_or_target": "与后来三位一体教义中圣子与圣父本质相同、地位平等的观念形成对比。"
+        },
+        "why": {
+          "relation": "continues",
+          "explanation": "本句具体描述基督在早期文献中的从属地位，为后文对比早期基督教与君士坦丁时代国教的区别提供文本依据。"
+        },
+        "implication": "这种描述反映了早期基督教尚未形成后来的等级化神学体系。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p24s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p24s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p24s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p24s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "尼西亚宗教会议",
+            "type": "event",
+            "modern": "公元325年确立基督教正统教义的关键会议，标志着基督教与罗马帝国权力的结合。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p24s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "三位一体",
+            "type": "concept",
+            "modern": "基督教核心教义，主张圣父、圣子、圣灵为同一神的三个位格。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "theology_trinity"
+          }
+        ]
+      },
+      {
+        "sid": "p24s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "神的七灵",
+            "type": "concept",
+            "modern": "《启示录》中对圣灵的一种描述，源自犹太教传统，与后来单一圣灵的观念不同。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "theology_seven_spirits"
+          }
+        ]
+      },
+      {
+        "sid": "p24s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p24s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "流出体",
+            "type": "concept",
+            "modern": "新柏拉图主义等哲学中的概念，指从最高本源派生出的存在，此处用于描述基督从属于神的关系。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "theology_emanation"
+          }
+        ]
+      },
+      {
+        "sid": "p24s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p24s10",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p24s11",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p24s12",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p24s13",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p24s14",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p24s15",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "斐洛学派",
+            "type": "org",
+            "modern": "公元1世纪亚历山大港的犹太哲学流派，其寓意解经法对早期基督教思想有重要影响。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p24s16",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p24s17",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p24s18",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p24s19",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  }
+}

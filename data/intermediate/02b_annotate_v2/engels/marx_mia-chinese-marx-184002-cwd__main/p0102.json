@@ -1,0 +1,97 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 102,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "直接反驳资产阶级，指出其将资本主义生产关系永恒化的谬想，并用历史类比揭露其自相矛盾。",
+    "importance_score": 2,
+    "importance_reason": "本段是《宣言》对资产阶级意识形态批判的组成部分，通过历史类比揭露其将特定历史阶段的生产关系普遍化的谬误。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对资产阶级观念的批判，进一步揭露其将资本主义生产关系说成永恒自然法则的谬想。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "资产阶级",
+      "their_view": "我们资产阶级的生产方法和财产制度所造成的社会组织，是自然和真理永远不变的法则。",
+      "author_response": "这是你们利己的谬想。历史上其他统治阶级，如封建贵族，也曾将自己的财产制度视为永恒。",
+      "polemic_kind": "reveals_class_basis",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p102s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "生产方法",
+            "type": "concept",
+            "modern": "资本主义社会中组织生产和分配产品的具体方式。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "production_method_bourgeois"
+          },
+          {
+            "surface": "财产制度",
+            "type": "concept",
+            "modern": "资本主义社会中生产资料所有制的具体形式。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "property_system_bourgeois"
+          }
+        ]
+      },
+      {
+        "sid": "p102s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p102s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "封建财产制",
+            "type": "concept",
+            "modern": "中世纪欧洲以土地分封和人身依附为基础的财产关系。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "property_system_feudal"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 3,
+        "notes_dropped": 2,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_6>5",
+        "note:n1_overflow_concept_8>5"
+      ]
+    }
+  ]
+}

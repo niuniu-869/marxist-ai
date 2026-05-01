@@ -1,0 +1,81 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 249,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁通过反讽，归谬考茨基关于先保护反革命者再依法惩处的逻辑。",
+    "importance_score": 2,
+    "importance_reason": "以具体历史人物为例，归谬考茨基的“纯粹民主”程序论，支撑对机会主义的批判。",
+    "argument_role": "example",
+    "argument_link": "承接上段对“纯粹民主”规则的讽刺，本段用具体人物和事件，将这种逻辑推演至荒谬境地。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "萨文柯夫等人物",
+        "explain": "萨文柯夫、李伯尔·唐恩、波特列索夫是当时俄国的孟什维克和社会革命党人，属于列宁批判的“积极派”，在政治上反对布尔什维克。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "“纯粹民主”概念",
+        "explain": "这是考茨基在论战中使用的概念，指超越阶级的、普适的民主程序。列宁认为这是掩盖资产阶级专政的空话。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "考茨基",
+      "their_view": "无产阶级专政必须遵循“纯粹民主”的程序，即先制定普遍适用的刑法，然后依法惩处犯罪者，不能事先剥夺任何人的权利。",
+      "author_response": "列宁通过反讽指出，这种程序在内战中意味着先要保护正在从事反革命活动的敌人，这完全脱离了阶级斗争的现实。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p249s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "纯粹民主",
+            "type": "concept",
+            "modern": "考茨基用来指代超越阶级的、普适的民主程序，列宁视其为掩盖资产阶级专政的空话。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "democracy_bourgeois"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 65,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段详细剖析了资本与雇佣劳动交换的具体过程，指出工人出卖的是其创造价值的能力，而非劳动本身。",
+    "importance_score": 3,
+    "importance_reason": "核心段落，具体阐述了雇佣劳动与资本交换的实质，为后续揭示剥削关系奠定基础。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段提出的问题，具体展开分析资本与雇佣劳动交换的双方各自得到了什么。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "劳动与劳动力的区分",
+        "explain": "马克思在1891年版中将“劳动”改为“劳动力”，这是一个关键的理论修正。劳动力是工人的工作能力，劳动是这种能力的使用过程。工人出卖的是劳动力，其价值由维持自身再生产所需的生活资料决定。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "metadata"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "庸俗政治经济学",
+      "their_view": "认为工人出卖的是“劳动”，资本家支付的工资是工人全部劳动的报酬，双方交换是公平的。",
+      "author_response": "马克思指出，工人实际出卖的是其创造价值的“力量”（劳动力），资本家由此获得了使原有资本增殖的能力，这揭示了交换背后的不平等。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p65s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p65s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p65s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p65s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p65s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p65s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p65s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p65s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

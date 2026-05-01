@@ -1,0 +1,57 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 149,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "杜林提出价值大小由自然障碍决定，恩格斯准备对此进行批判。",
+    "importance_score": 2,
+    "importance_reason": "引入杜林的价值理论，为恩格斯的系统批判提供具体靶子。",
+    "argument_role": "transition",
+    "argument_link": "上段恩格斯讽刺杜林的文字游戏，本段转向杜林的价值理论，开启新的批判话题。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "价值概念",
+        "explain": "在马克思主义政治经济学中，价值指凝结在商品中的无差别的人类劳动，是商品交换的基础。杜林对此有不同定义。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "杜林",
+      "their_view": "价值的大小取决于自然障碍的大小，这种障碍阻挠需求的满足，并迫使消耗经济力量。",
+      "author_response": "恩格斯将批判杜林的价值定义，指出其错误。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p149s1",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": [
+          {
+            "surface": "价值",
+            "type": "concept",
+            "modern": "在政治经济学中，价值是商品交换的尺度，基于劳动时间。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "value_political_economy"
+          }
+        ]
+      }
+    ]
+  }
+}

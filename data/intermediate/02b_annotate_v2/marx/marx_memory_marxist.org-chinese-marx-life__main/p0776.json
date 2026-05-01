@@ -1,0 +1,63 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 776,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "在普法战争背景下，马克思阐述法国无产阶级的双重任务：既要参与民族防御，又要借此机会组织自身力量争取阶级解放。",
+    "importance_score": 2,
+    "importance_reason": "提出了无产阶级在民族战争中的具体行动纲领，是马克思阶级斗争与民族问题结合的一个实例。",
+    "argument_role": "continues",
+    "argument_link": "承接上段马克思的沉思，具体阐述其对法国工人在普法战争中任务的思考。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "普法战争与巴黎公社前夕",
+        "explain": "1870年普鲁士入侵法国，第二帝国崩溃，法国面临战败与革命的双重危机。马克思此论述针对这一具体历史时刻，为法国工人阶级指明方向。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p776s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,164 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 38,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁反驳党内将希望寄托于国际革命立即爆发的论调，指出这种想法如同童话般脱离现实，强调决策必须基于当前实际形势。",
+    "importance_score": 2,
+    "importance_reason": "本段是列宁论证签订和约必要性的核心环节，通过批判不切实际的革命幻想，为战略退却提供现实依据。",
+    "argument_role": "contrasts",
+    "argument_link": "承接上段关于“退却”的论述，本段转而批判反对退却者的理论前提，即对国际革命时机的错误判断。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic | rhetorical",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p38s7",
+        "quote": "你们这样做，就只能是在自己的想象中，在自己的愿望里克服历史所造成的困难。",
+        "trigger": "rhetorical",
+        "reader_block": "“在想象中克服困难”是反讽，读者需理解其意为“根本无法克服”，而非字面上的“在想象中完成”。",
+        "parse": {
+          "claim": "依靠幻想来应对历史造成的严峻现实是无效的。",
+          "qualifiers": "特指那些担保国际革命将代替与帝国主义冲突的论调。",
+          "contrast_or_target": "“左派共产主义者”认为国际革命能替代与德国直接冲突的观点。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "揭示论敌主张的实质是主观唯心主义，将解决现实危机的希望寄托于无法掌控的外部偶然事件。"
+        },
+        "implication": "历史困难只能通过现实的阶级斗争和力量对比来解决，不能靠愿望。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "“左派共产主义者”集团",
+      "their_view": "德国无产阶级革命即将爆发，国际范围的世界革命将迅速到来，这可以替代与帝国主义的直接军事冲突，成为苏维埃政权的救星。",
+      "author_response": "列宁指出，国际革命是必然趋势，但其具体时机无法预测，目前尚未成熟。将当前战略决策建立在对这一不确定事件的赌博上，是冒险主义，会脱离群众并导致失败。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p38s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p38s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p38s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p38s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p38s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p38s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p38s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p38s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p38s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p38s10",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p38s11",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p38s12",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p38s13",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p38s14",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p38s15",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p38s16",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 1,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

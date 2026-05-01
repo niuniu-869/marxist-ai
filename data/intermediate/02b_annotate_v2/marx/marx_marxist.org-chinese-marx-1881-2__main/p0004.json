@@ -1,0 +1,76 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 4,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "马克思在此限定其关于资本主义起源的论述仅适用于西欧，并指引读者参阅《资本论》相关章节。",
+    "importance_score": 2,
+    "importance_reason": "这是对前文论述的范围限定，为后续论证俄国公社问题奠定基础。",
+    "argument_role": "continues",
+    "argument_link": "上一段描述了西欧资本主义生产起源的实质，本段则明确将这一描述的适用范围限定在西欧，为讨论俄国公社的特殊性做铺垫。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "cross_ref_pronoun",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "“这一运动”的指代",
+        "explain": "指前文所述的“生产者和生产资料彻底分离”以及“对农民的剥夺”这一过程，即资本主义生产方式的起源。",
+        "why_needed": "cross_ref_pronoun",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      },
+      {
+        "topic": "《资本论》第32章",
+        "explain": "《资本论》第一卷第32章标题为“资本主义积累的历史趋势”，论述了资本主义私有制被否定的历史必然性。",
+        "why_needed": "cross_ref_pronoun",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p4s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p4s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

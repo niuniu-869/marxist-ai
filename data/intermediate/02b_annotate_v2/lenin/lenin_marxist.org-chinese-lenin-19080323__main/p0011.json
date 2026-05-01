@@ -1,0 +1,124 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 11,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段论述社会民主党帮助无产阶级摆脱民族主义幻想，转向武装起义，并强调从巴黎公社和俄国革命中汲取的斗争策略。",
+    "importance_score": 2,
+    "importance_reason": "本段是连接历史教训与当前斗争策略的关键论述，阐明了从和平准备到武装斗争的转变逻辑。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于革命条件不成熟的论述，具体说明在条件成熟时，无产阶级应如何行动并吸取历史教训。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "爱国主义幻想",
+      "their_view": "无产阶级应与全体民族团结一致，将爱国主义置于阶级斗争之上。",
+      "author_response": "列宁指出，这种幻想蒙蔽了无产阶级，使其无法认清阶级利益，社会民主党的任务是打破它，引导无产阶级集中自身力量。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p11s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "全民族的",
+            "type": "concept",
+            "modern": "在革命语境下，指一种掩盖阶级矛盾、号召全体国民团结的意识形态。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "patriotism_fantasy"
+          },
+          {
+            "surface": "爱国主义的",
+            "type": "concept",
+            "modern": "在革命语境下，指一种要求无产阶级优先效忠于民族国家而非本阶级的意识形态。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "patriotism_fantasy"
+          }
+        ]
+      },
+      {
+        "sid": "p11s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "工兵代表苏维埃",
+            "type": "org",
+            "modern": "1905年和1917年俄国革命中出现的工人和士兵代表会议，是无产阶级的群众性组织形式。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p11s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "国内战争",
+            "type": "concept",
+            "modern": "马克思主义理论中，指一个国家内部不同阶级之间为夺取政权而进行的武装斗争。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "civil_war_marxist"
+          }
+        ]
+      },
+      {
+        "sid": "p11s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p11s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p11s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 4,
+        "notes_dropped": 2,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_7>5",
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

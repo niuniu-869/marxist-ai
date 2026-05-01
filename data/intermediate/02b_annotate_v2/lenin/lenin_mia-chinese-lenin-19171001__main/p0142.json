@@ -1,0 +1,92 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 142,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁批评新生活派对布尔什维克的攻击，指出其理论上的不彻底性。",
+    "importance_score": 2,
+    "importance_reason": "直接反驳新生活派，揭示其理论矛盾，为论证布尔什维克能保持政权提供论据。",
+    "argument_role": "contrasts",
+    "argument_link": "承接上段对苏维埃权力不足的描述，转而批判新生活派在理论上的不彻底，为论证布尔什维克的集中制优势做铺垫。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "新生活派",
+      "their_view": "布尔什维克的集中制是不必要的，他们应该追求一种“全国性的”联合，而不是强调阶级斗争。",
+      "author_response": "列宁指出，新生活派只是口头承认阶级斗争，实际上持一种否认阶级根本对立的“超阶级观点”，这实质上是为资产阶级服务。",
+      "polemic_kind": "reveals_class_basis",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p142s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p142s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "《新生活报》",
+            "type": "work",
+            "modern": "1917年孟什维克左派与布尔什维克合作者创办的报纸，是新生活派的主要喉舌。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p142s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p142s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "超阶级观点",
+            "type": "concept",
+            "modern": "否认社会存在根本阶级对立、主张全民利益一致的理论立场。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "class_struggle_marxist"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_7>5"
+      ]
+    }
+  ]
+}

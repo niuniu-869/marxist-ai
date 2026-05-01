@@ -1,0 +1,84 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 42,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "分析法国大革命时期农民阶级的革命动机与行为矛盾，指出其最终从革命中获益最多。",
+    "importance_score": 2,
+    "importance_reason": "通过具体历史案例，阐释农民阶级在革命中的局限性与最终受益的辩证关系，为理解其阶级特性提供论据。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对中世纪至18世纪农民运动特点的概述，以法国大革命为例，具体说明农民革命的条件性与矛盾性。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "1789年法国大革命",
+        "explain": "本段讨论的“法国第一次革命”指1789年爆发的法国大革命。读者需了解其基本进程：革命推翻了封建君主制，但随后陷入内部斗争，包括雅各宾派专政（即“恐怖统治”）和对外战争。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p42s1",
+        "quote": "在法国第一次革命时期，农民们只是当他们的显然可以感觉得到的迫切的个人利益要求他们进行革命的时候，他们才起来革命：只是当他们过去在封建关系下耕种的那一小块土地的所有权没有保证的时候，当这种封建关系还没有永远被消灭、外国军队还没有撤离他们的国土的时候，他们才起来革命。",
+        "trigger": "long_nested",
+        "reader_block": "句子过长，包含多个并列条件从句，读者容易在“只是当……的时候”的重复结构中迷失，难以快速抓住农民参与革命的全部前提条件。",
+        "parse": {
+          "claim": "法国农民参与革命的唯一驱动力是维护其小块土地所有权和驱逐外国军队等切身利益。",
+          "qualifiers": "限定于“法国第一次革命时期”；限定于农民阶级；限定于其“显然可以感觉得到的迫切的个人利益”。",
+          "contrast_or_target": ""
+        },
+        "why": {
+          "relation": "example",
+          "explanation": "用法国大革命的具体史实，例证上段提出的“农民运动伴随市民运动但提出反动要求”的论点，具体化其革命动机的狭隘性。"
+        },
+        "implication": "农民的革命性是工具性的、暂时的，一旦其直接利益得到满足，革命动力即消失。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p42s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p42s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p42s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p42s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 47,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段阐明马克思理论研究的核心方法论是历史合理性分析，而非法学权利考察，并以此反驳门格尔的法学框架。",
+    "importance_score": 3,
+    "importance_reason": "核心段落，正面阐述了马克思历史唯物主义方法论与门格尔法学唯心主义方法的根本对立。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对门格尔剽窃指控的反驳，进一步从方法论层面揭示门格尔理论框架的根本缺陷。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "allusion",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "门格尔",
+      "their_view": "可以用法学权利概念（如“十足劳动收入权”）来研究和概括社会主义，将马克思的理论纳入法学框架进行评判。",
+      "author_response": "马克思的研究重心在于历史合理性而非法律权利，门格尔的法学框架是狭隘的，无法容纳马克思的历史研究，其尝试是徒劳的。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p47s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p47s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "历史合理性",
+            "type": "concept",
+            "modern": "在历史唯物主义框架下，指特定社会经济形态及其制度在特定历史阶段存在的客观必然性与进步作用。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "historical_materialism"
+          }
+        ]
+      },
+      {
+        "sid": "p47s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p47s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p47s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p47s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p47s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

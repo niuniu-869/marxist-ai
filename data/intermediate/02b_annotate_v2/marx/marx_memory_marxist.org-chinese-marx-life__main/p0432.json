@@ -1,0 +1,55 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 432,
+  "annotation": {
+    "block_type": "quote_block",
+    "gist": "马克思在法庭上指责法律体系的虚伪，并质疑检察机关的控告依据。",
+    "importance_score": 1,
+    "importance_reason": "展示马克思在早期法律案件中的论辩立场，作为其思想发展的例证。",
+    "argument_role": "example",
+    "argument_link": "本段引用马克思的原话，具体展示前文所述的论辩内容。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "检察机关",
+      "their_view": "检察机关认为根据现行法律可以对马克思等人提出控告。",
+      "author_response": "马克思指出这种控告是伪善的，因为法律已被王权破坏，失去了公正性。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "medium"
+    },
+    "sentences": [
+      {
+        "sid": "p432s1",
+        "speaker": "quoted_marx",
+        "stance": "endorsed",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

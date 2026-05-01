@@ -1,0 +1,94 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 10,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段先阐述马克思对自由与必然关系的理解，随后系统批评了旧唯物主义的三个主要缺陷。",
+    "importance_score": 2,
+    "importance_reason": "本段提出了马克思哲学的核心观点之一（自由与必然），并系统批判了旧唯物主义，是理解马克思哲学革命的重要支撑。",
+    "argument_role": "continues",
+    "argument_link": "本段延续了上一段关于哲学基本问题的讨论，具体阐述了马克思在唯物主义阵营内的革新，即如何克服旧唯物主义的局限性。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p10s1",
+        "speaker": "quoted_marx",
+        "stance": "endorsed",
+        "notes": []
+      },
+      {
+        "sid": "p10s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p10s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "形而上学",
+            "type": "concept",
+            "modern": "此处特指与辩证法相对立的、孤立静止看问题的思维方式。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "metaphysics_dialectics"
+          }
+        ]
+      },
+      {
+        "sid": "p10s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "人的本质",
+            "type": "concept",
+            "modern": "马克思认为人的本质不是单个人固有的抽象物，而是其社会关系的总和。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "human_essence_historical"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 2,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_9>5",
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

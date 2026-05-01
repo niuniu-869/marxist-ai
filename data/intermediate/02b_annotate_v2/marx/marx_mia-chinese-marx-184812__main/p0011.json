@@ -1,0 +1,88 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 11,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "马克思将波兹南战争定性为欧洲革命的重大挫折，并讽刺康普豪森的庇护。",
+    "importance_score": 2,
+    "importance_reason": "通过将波兹南战争与欧洲其他革命失败并列，强化对康普豪森资产阶级妥协路线的批判。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对波兹南战争的提及，将其意义扩展到整个欧洲革命格局，并归咎于康普豪森的领导。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_density",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "波兹南战争与欧洲革命失败",
+        "explain": "指1846年起普鲁士镇压波兰民族起义的战争。马克思将其与1848年维也纳起义被镇压、意大利反奥斗争失败、巴黎六月工人起义失败并列，视为欧洲反革命势力的胜利。",
+        "why_needed": "history_density",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "康普豪森的讽刺称号",
+        "explain": "“有思考力的历史之友”“大辩论的骑士”“协商主义的英雄”是马克思对普鲁士资产阶级领袖康普豪森的反讽，讽刺其空谈协商、实际纵容反革命。",
+        "why_needed": "history_density",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "康普豪森",
+      "their_view": "我们通过与王权协商，能够拯救法制基础，建立君主立宪，从而领导革命走向成功。",
+      "author_response": "马克思指出，正是康普豪森的这种协商和庇护，导致了包括波兹南战争在内的欧洲革命的全面失败。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p11s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p11s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p11s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p11s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

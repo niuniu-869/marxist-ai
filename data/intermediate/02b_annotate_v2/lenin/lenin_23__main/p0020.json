@@ -1,0 +1,110 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 20,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段以季米里亚捷夫在《在马克思主义旗帜下》杂志发表爱因斯坦相对论文章为例，论证战斗唯物主义必须与自然科学界建立联盟，以应对科学变革中产生的反动哲学思潮。",
+    "importance_score": 2,
+    "importance_reason": "通过具体事例支撑上一段提出的与自然科学家联盟的论点。",
+    "argument_role": "continues",
+    "argument_link": "本段用《在马克思主义旗帜下》杂志刊发季米里亚捷夫讨论爱因斯坦理论的文章这一事实，具体化上一段提出的与倾向唯物主义的自然科学家联合的主张，并进一步强调这一联盟对于应对科学领域反动思潮的必要性。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "季米里亚捷夫与《在马克思主义旗帜下》杂志",
+        "explain": "阿·季米里亚捷夫是俄国著名生物学家，以捍卫达尔文主义和唯物主义闻名。《在马克思主义旗帜下》是1922年创刊的苏俄哲学理论刊物，列宁为其撰文指导方向。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p20s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "阿·季米里亚捷夫",
+            "type": "person",
+            "modern": "俄国生物学家，以捍卫达尔文主义和唯物主义闻名",
+            "highlight": "person",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "《在马克思主义旗帜下》杂志",
+            "type": "work",
+            "modern": "1922年创刊的苏俄哲学理论刊物，列宁为其撰文指导方向",
+            "highlight": "work",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p20s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p20s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p20s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p20s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p20s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

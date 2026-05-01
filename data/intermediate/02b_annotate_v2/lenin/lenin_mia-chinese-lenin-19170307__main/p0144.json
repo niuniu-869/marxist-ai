@@ -1,0 +1,120 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 144,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁提出三个具体行动口号，反对恢复旧警察和交出地方政权，并主张建立由无产阶级领导的全民武装。",
+    "importance_score": 2,
+    "importance_reason": "这是列宁针对二月革命后具体局势提出的核心策略主张，直接指导无产阶级的武装组织方向。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对资产阶级政府试图恢复警察和控制地方政权的描述，本段直接提出针锋相对的行动口号。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p144s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "警察",
+            "type": "concept",
+            "modern": "在沙皇俄国语境下，指代秘密警察与常规警察体系，是旧国家机器镇压人民的核心工具。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "police_tsarist"
+          }
+        ]
+      },
+      {
+        "sid": "p144s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p144s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "民兵",
+            "type": "concept",
+            "modern": "区别于旧警察和资产阶级武装，指由全体人民普遍参加、但由无产阶级领导的武装组织形式。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "militia_proletarian"
+          }
+        ]
+      },
+      {
+        "sid": "p144s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "阶级斗争",
+            "type": "concept",
+            "modern": "马克思主义核心范畴，指不同阶级之间基于经济利益的根本对立和冲突。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "class_struggle_marxist"
+          },
+          {
+            "surface": "乡警",
+            "type": "archaic",
+            "modern": "沙皇时期乡村地区的警察，是地主阶级维持统治的基层暴力工具。",
+            "highlight": "archaic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "巡官",
+            "type": "archaic",
+            "modern": "沙皇时期警察体系中的官员，负责地方治安与镇压。",
+            "highlight": "archaic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 5,
+        "notes_dropped": 2,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "note:n1_overflow_concept_6>5"
+      ]
+    }
+  ]
+}

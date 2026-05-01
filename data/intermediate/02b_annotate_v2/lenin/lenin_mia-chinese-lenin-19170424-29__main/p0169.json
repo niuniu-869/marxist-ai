@@ -1,0 +1,82 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 169,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁批判德奥资本家与俄国临时政府在波兰独立问题上的虚伪承诺，指出只有撤军并征询全体被兼并地区人民的意志，才能实现真正的民族自决。",
+    "importance_score": 2,
+    "importance_reason": "本段是列宁对战争与民族问题具体案例的分析，用以支撑其反对帝国主义战争和支持民族自决权的论点。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对德国资本家兼并土地的分析，将批判对象从德国扩展到俄国临时政府，揭露双方在波兰问题上的共同欺骗性。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "rhetorical",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "波兰独立与被瓜分",
+        "explain": "18世纪末至一战结束前，波兰被俄、普、奥三国多次瓜分，不复作为独立国家存在。一战期间，波兰领土是交战国（尤其是俄国与德奥）争夺的战场。所谓“恢复独立”在当时是各方政治博弈的口号。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "临时政府的“自由”同盟",
+        "explain": "二月革命后成立的俄国资产阶级临时政府，为争取协约国支持并安抚国内民族主义情绪，高调宣称与波兰流亡者建立基于“自由”原则的军事同盟，但其真实意图是维持俄国对波兰的战略影响力。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "德奥资本家与俄国临时政府",
+      "their_view": "德奥方面可能宣称支持波兰独立以削弱俄国；俄国临时政府则高调宣扬与波兰建立“自由”军事同盟，以此作为其战争政策和外交姿态的一部分。",
+      "author_response": "列宁指出，双方的表态都是虚伪的“把戏”。真正的独立必须以所有被兼并地区（包括德奥占领区）的军队撤退和自由民意征询为前提，否则诺言无法兑现。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p169s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p169s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p169s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

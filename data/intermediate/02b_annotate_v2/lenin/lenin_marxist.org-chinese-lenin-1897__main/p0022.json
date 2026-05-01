@@ -1,0 +1,134 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 22,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "反驳拉甫罗夫将理论分歧视为细节的观点，并澄清社会民主主义者同时进行政治斗争。",
+    "importance_score": 2,
+    "importance_reason": "核心批判段落，直接反驳论敌对社会民主主义者纲领与实践的错误定性。",
+    "argument_role": "contrasts",
+    "argument_link": "承接上段对拉甫罗夫观点的引用，本段直接展开批判，指出其错误并澄清事实。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p22s10",
+        "quote": "也许彼·拉·拉甫罗夫认为谁不组织政治阴谋，谁就是不进行政治斗争吧？",
+        "trigger": "inverted_logic",
+        "reader_block": "反问句式，读者可能误以为列宁在提问，实际是讽刺拉甫罗夫将政治斗争等同于阴谋活动的狭隘观念。",
+        "parse": {
+          "claim": "拉甫罗夫可能将政治斗争的范围限定为组织针对专制制度的密谋活动。",
+          "qualifiers": "此判断针对拉甫罗夫对政治斗争的理解方式。",
+          "contrast_or_target": "拉甫罗夫认为，社会民主主义者没有组织反专制阴谋，因此没有进行政治斗争。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "通过反问揭示拉甫罗夫观点的荒谬性，即把广泛的政治斗争狭隘化为少数人的密谋，从而为社会民主主义者辩护。"
+        },
+        "implication": "这暗示了拉甫罗夫对政治斗争的理解停留在旧式革命团体的行动模式上，未能认识现代群众性政治斗争的内涵。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p22s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p22s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p22s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p22s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p22s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p22s6",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p22s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p22s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p22s9",
+        "speaker": "editor",
+        "stance": "neutral_citation",
+        "notes": []
+      },
+      {
+        "sid": "p22s10",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p22s11",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 1,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

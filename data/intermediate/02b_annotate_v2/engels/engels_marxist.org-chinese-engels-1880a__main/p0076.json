@@ -1,0 +1,118 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 76,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段分析英国资产阶级在宪章运动后被迫做出政治让步，转而将宗教作为控制工人思想的核心手段。",
+    "importance_score": 2,
+    "importance_reason": "本段揭示了资产阶级在阶级斗争压力下调整统治策略的具体方式，是理解其专政手段多样性的例证。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于英国工人政治力量增长的叙述，转而分析资产阶级为应对这种增长而采取的策略调整。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "宪章运动与人民宪章",
+        "explain": "19世纪30-50年代英国工人阶级争取普选权的群众运动，其纲领性文件《人民宪章》要求实现成年男子普选权等政治改革。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "崇礼派与救世军",
+        "explain": "19世纪英国基督教内部的复兴运动派别。崇礼派强调仪式与纪律，救世军则以军事化组织形式进行社会救济与传教。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "英国资产阶级",
+      "their_view": "在被迫做出政治让步后，必须找到新的方式来维持对民众的控制，而宗教是影响群众思想最有效的工具。",
+      "author_response": "恩格斯揭露，资产阶级利用宗教和教会势力渗透教育等公共领域，并资助各类教派，其目的是为了在政治妥协后继续从精神上奴役工人阶级。",
+      "polemic_kind": "reveals_class_basis",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p76s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "中间阶级",
+            "type": "concept",
+            "modern": "此处指在经济上占统治地位的资产阶级。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "class_marxist"
+          }
+        ]
+      },
+      {
+        "sid": "p76s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p76s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p76s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p76s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p76s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p76s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 3,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_metaphor_11>8",
+        "note:n2_circular_prefix",
+        "note:n4_concept_no_sense_id"
+      ]
+    }
+  ]
+}

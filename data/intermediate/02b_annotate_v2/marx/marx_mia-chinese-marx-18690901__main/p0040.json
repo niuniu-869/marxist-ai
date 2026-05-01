@@ -1,0 +1,85 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 40,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段叙述法国政府对国际协会的压制措施，并指出工人运动正转向自主行动。",
+    "importance_score": 1,
+    "importance_reason": "本段是过渡性内容，连接上文的里昂罢工和下文的工人觉醒。",
+    "argument_role": "continues",
+    "argument_link": "本段继续描述法国政府对国际协会的迫害行为，承接上文对里昂工人加入协会的叙述。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "term_polysemy",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "巴塞尔代表大会",
+        "explain": "国际工人协会原定于1869年9月在瑞士巴塞尔召开的第四次年度代表大会。法国政府禁止选举代表参会，是其压制协会活动的具体表现。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "天赋权利",
+        "explain": "在19世纪社会主义语境下，此词常指工人阶级通过自身斗争争取的经济与政治权利，而非资产阶级启蒙思想中的抽象人权。",
+        "why_needed": "term_polysemy",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p40s3",
+        "quote": "但是欧洲以及其他地方的工人终于开始懂得，夺取自己的天赋权利的最可靠的办法是：不待他人的许可，每人奋不顾身地自动来行使这种权利。",
+        "trigger": "term_polysemy",
+        "reader_block": "读者可能按字面理解为抽象人权，但马克思指的是工人通过斗争争取的具体经济与政治权利。",
+        "parse": {
+          "claim": "工人阶级最有效的争取权利方式是主动、自发地行使这些权利，无需等待外部许可。",
+          "qualifiers": "",
+          "contrast_or_target": "针对法国政府禁止工人集会选举代表的压制行为。"
+        },
+        "why": {
+          "relation": "continues",
+          "explanation": "本句承接上文对政府迫害的描述，转向工人的反应，指出压迫反而促使工人觉醒并采取自主行动。"
+        },
+        "implication": "这预示了工人运动将从被动受迫害转向主动抗争。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p40s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p40s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p40s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  }
+}

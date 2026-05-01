@@ -1,0 +1,113 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 9,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列举“国防政府”的背叛行为，点出特罗胥保卫巴黎计划的虚伪性，并提及巴黎工人的抵抗与最终的投降。",
+    "importance_score": 2,
+    "importance_reason": "提供巴黎公社前夕的关键历史事实，具体化了上一段对梯也尔政府背叛性的指控。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段对梯也尔双重身份的指认，本段具体列举其领导的“国防政府”在普法战争中的背叛行径。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "国防政府",
+        "explain": "1870年普法战争中法国战败后，由资产阶级共和派与保皇派联合组成的临时政府，自称负责国防，实则准备向普鲁士投降并镇压国内革命。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "特罗胥",
+        "explain": "巴黎总督，国防政府军事首脑。他宣称有“计划”保卫巴黎，但实际执行的是拖延与投降政策。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "1871年1月28日投降",
+        "explain": "国防政府与普鲁士签订停战协定，巴黎向普军投降，标志着其彻底背叛民族利益。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p9s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "国防政府",
+            "type": "org",
+            "modern": "1870年普法战争后成立的法国临时政府，由资产阶级各派联合组成。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p9s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "特罗胥",
+            "type": "person",
+            "modern": "巴黎总督，国防政府军事负责人，其保卫巴黎的承诺被列宁视为一场闹剧。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p9s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p9s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_event_13>12"
+      ]
+    }
+  ]
+}

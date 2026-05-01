@@ -1,0 +1,146 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 63,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁批判社会民主党多数领导人背叛国际主义，转向本国资产阶级政府，并驳斥了试图挽回他们的幻想。",
+    "importance_score": 2,
+    "importance_reason": "本段通过批判旧党领导人的背叛，为列宁主张的更名和革命路线提供直接论据。",
+    "argument_role": "continues",
+    "argument_link": "本段承接上段关于更改党名的提议，具体说明旧党领导人已丧失革命立场，从而论证更名的必要性。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_density",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "社会民主党领导人",
+        "explain": "施德曼（德国）、普列汉诺夫（俄国）、盖得（法国）是第二国际时期的社会民主党领袖，在第一次世界大战中支持本国资产阶级政府，放弃国际主义立场。",
+        "why_needed": "history_density",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p63s5",
+        "quote": "怎么办，才能让施德曼回心转意呢？给他发电报？",
+        "trigger": "inverted_logic",
+        "reader_block": "连续反问，读者可能困惑于如何回应，实际是讽刺挽回想法的荒谬。",
+        "parse": {
+          "claim": "试图通过通信等方式让施德曼等人改变立场是徒劳的。",
+          "qualifiers": "针对施德曼等具体人物",
+          "contrast_or_target": "针对那些想挽回社会民主党领导人的想法。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "本句用反问驳斥了与旧党领导人和解的幻想，强调必须彻底决裂。"
+        },
+        "implication": "这进一步论证了建立新党的紧迫性。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "社会民主党领导人（施德曼、普列汉诺夫、盖得）",
+      "their_view": "他们转向本国资产阶级政府，支持战争，放弃国际斗争。",
+      "author_response": "列宁斥责他们为叛徒，并指出任何挽回他们的企图都是骗局。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p63s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "社会民主党",
+            "type": "org",
+            "modern": "第二国际时期的工人政党，在一战中多数领导人支持本国政府。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p63s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p63s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p63s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "施德曼",
+            "type": "person",
+            "modern": "德国社会民主党右翼领袖，一战中支持战争。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "普列汉诺夫",
+            "type": "person",
+            "modern": "俄国孟什维克理论家，早期传播马克思主义，一战中支持协约国。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "盖得",
+            "type": "person",
+            "modern": "法国工人党创始人，一战中支持本国政府。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p63s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p63s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 4,
+        "notes_dropped": 0,
+        "hs_kept": 1,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 367,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段梳理了从蒲鲁东到圣西门等人对私有财产根源的不同理解，并指出共产主义最初表现为对私有财产的普遍化。",
+    "importance_score": 2,
+    "importance_reason": "本段是马克思批判性考察各种社会主义流派对异化与私有财产理解的过渡段，为引出共产主义的初步形态做铺垫。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段关于劳动与资本对立的讨论，进一步从思想史角度梳理对私有财产根源的不同诊断，并引出共产主义作为扬弃私有财产的初步尝试。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "蒲鲁东、傅立叶、圣西门",
+        "explain": "蒲鲁东是法国社会主义者，提出“财产就是盗窃”；傅立叶是空想社会主义者，批判资本主义商业文明；圣西门是空想社会主义者，主张由工业家和科学家管理社会。马克思在此批判性地引用他们的观点。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "重农学派",
+        "explain": "18世纪法国经济学派，认为只有农业劳动才创造财富，工业和商业只是财富的转化。傅立叶在此被类比为重农学派，因为他也推崇某种特定劳动。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "蒲鲁东、傅立叶、圣西门",
+      "their_view": "蒲鲁东认为资本这种存在方式本身应被消灭；傅立叶认为划一、分散、不自由的劳动是私有财产有害性和异化的根源；圣西门认为工业劳动本身是本质，因此主张工业家统治。",
+      "author_response": "马克思指出，这些观点都只是从特定方面（资本、劳动方式、工业劳动）理解私有财产，而共产主义最初也只是作为普遍的私有财产出现，尚未达到对私有财产的真正扬弃。",
+      "polemic_kind": "strategic_critique",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p367s1",
+        "speaker": "editor",
+        "stance": "neutral_citation",
+        "notes": []
+      },
+      {
+        "sid": "p367s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "自我异化",
+            "type": "concept",
+            "modern": "早期马克思用以描述人与其类本质、劳动产品及劳动过程相分离的核心概念。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "alienation_early_marx"
+          }
+        ]
+      },
+      {
+        "sid": "p367s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "私有财产",
+            "type": "concept",
+            "modern": "政治经济学批判的核心对象，指生产资料和劳动产品的私人占有形式。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "private_property_political_economy"
+          }
+        ]
+      },
+      {
+        "sid": "p367s4",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": [
+          {
+            "surface": "共产主义",
+            "type": "concept",
+            "modern": "马克思在此指其发展的初级阶段，即对私有财产的普遍化占有，尚未达到对私有财产的真正扬弃。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "communism_scientific_socialism"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 3,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

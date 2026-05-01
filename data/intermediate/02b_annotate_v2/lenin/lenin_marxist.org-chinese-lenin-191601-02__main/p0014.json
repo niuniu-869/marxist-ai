@@ -1,0 +1,73 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 14,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "阐明社会主义的最终目标是民族融合，但实现该目标必须以被压迫民族获得分离自由为前提，并批判了“民族文化自治”主张。",
+    "importance_score": 2,
+    "importance_reason": "本段提出了社会主义处理民族问题的辩证方法论，即通过分离自由实现最终融合，是核心论点的关键支撑。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对民族自决权政治内涵的界定，进一步论证其与社会主义最终目标（民族融合）的辩证关系，并明确当前任务。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "伦纳和奥·鲍威尔",
+      "their_view": "主张在不改变国家疆界的前提下，通过“民族文化自治”来解决民族问题，认为这比政治分离更进步、更可行。",
+      "author_response": "列宁指出这种主张是反动的，因为它回避了被压迫民族的根本政治解放问题，实质上维护了压迫民族的统治地位。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p14s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p14s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p14s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p14s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

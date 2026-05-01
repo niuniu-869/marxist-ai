@@ -1,0 +1,237 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 32,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁以《蒂尔西特和约》的历史类比，论证签订苛刻和约是民族复兴的转折点，而非沦亡，以此反驳革命空谈。",
+    "importance_score": 3,
+    "importance_reason": "核心论证段落，通过历史类比为签订《布列斯特和约》提供决定性辩护，直接回应党内主要反对意见。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于签订和约是革命职责的论断，本段通过具体历史案例（蒂尔西特和约）来证明这一论断的合理性，并反驳认为签约即沦亡的论调。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "蒂尔西特和约",
+        "explain": "1807年，普鲁士在拿破仑战争中惨败后被迫签订的和约。割让近半领土，支付巨额赔款，并被迫为法国提供辅助军队。这是理解列宁历史类比的关键。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "拿破仑战争与帝国主义战争",
+        "explain": "列宁将拿破仑的侵略战争（代表旧式征服战争）与第一次世界大战（帝国主义战争）进行对比，指出战争性质会随历史条件变化，当前的帝国主义战争终将被阶级战争取代。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      },
+      {
+        "topic": "小贵族决斗者",
+        "explain": "列宁用来比喻那些脱离群众实际、只顾个人或小集团荣誉感，主张不顾一切进行战争的人。其观点被作者视为脱离现实的空谈。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p32s6",
+        "quote": "然而，当形势使德意志民族只好忍受征服者的压迫时，法国的革命战争时代为帝国主义侵略战争时代所代替时，那些热中于空谈、把签订和约说或是沦亡的人所不愿意理解的事情开始清楚地显露出来。",
+        "trigger": "long_nested",
+        "reader_block": "句子包含两个并列的历史条件从句（“当……时”），并嵌套了一个对论敌观点的间接转述，结构复杂，读者不易抓住主干。",
+        "parse": {
+          "claim": "在特定历史条件下（被迫忍受压迫、战争性质转变），反对签约的空谈者所忽视的真相会显现。",
+          "qualifiers": "条件一：德意志民族被迫忍受征服者压迫；条件二：战争性质从法国的革命战争转变为帝国主义侵略战争。",
+          "contrast_or_target": "针对那些将签订和约等同于民族沦亡的论调，认为他们无法理解历史转折的复杂性。"
+        },
+        "why": {
+          "relation": "contrasts",
+          "explanation": "本句将历史条件（德国被迫签约）与论敌的错误认知（签约即沦亡）进行对比，指出历史会揭示论敌不愿理解的真相，为下文的具体历史例证做铺垫。"
+        },
+        "implication": "签约并非终点，而是特定历史条件下的必要步骤，其后果需放在更长的历史进程中评估。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "革命空谈者",
+      "their_view": "签订苛刻和约就是民族的沦亡，是可耻的，应该不顾一切继续战争。",
+      "author_response": "列宁以德国签订《蒂尔西特和约》后迎来复兴的历史事实反驳，指出签约是特定条件下的必要策略，是为未来转折赢得时间，而非沦亡。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p32s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p32s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p32s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p32s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "蒂尔西特和约",
+            "type": "event",
+            "modern": "1807年普鲁士战败后与法国签订的屈辱性和约，割地赔款并提供辅助军队。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p32s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p32s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p32s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "小贵族决斗者",
+            "type": "metaphor",
+            "modern": "喻指脱离群众实际、只顾个人或小集团荣誉感，主张不顾一切进行战争的人。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p32s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p32s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p32s10",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p32s11",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p32s12",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p32s13",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p32s14",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p32s15",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p32s16",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p32s17",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p32s18",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "霍亨索伦、兴登堡",
+            "type": "person",
+            "modern": "霍亨索伦是德意志帝国皇室姓氏，兴登堡是当时德军统帅，列宁用以指代当前的德国侵略者。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p32s19",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p32s20",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 3,
+        "notes_dropped": 0,
+        "hs_kept": 1,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

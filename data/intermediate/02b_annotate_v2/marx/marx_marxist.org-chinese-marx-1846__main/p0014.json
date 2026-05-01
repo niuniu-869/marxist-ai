@@ -1,0 +1,129 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 14,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段描述从施特劳斯到施蒂纳的德国哲学批判如何将一切社会关系都归结为宗教关系，并最终由圣麦克斯将整个世界宣布为圣物。",
+    "importance_score": 2,
+    "importance_reason": "本段是核心批判的一部分，具体展示了青年黑格尔派如何将唯心主义历史观推向极端，为后文提出唯物史观做铺垫。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段关于德国批判未脱离黑格尔哲学基地的论断，具体说明这种批判如何局限于宗教观念领域，并将一切关系神学化。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p14s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "施特劳斯",
+            "type": "person",
+            "modern": "大卫·施特劳斯，青年黑格尔派成员，以《耶稣传》闻名，主张神话是早期基督教社群无意识创造的产物。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "施蒂纳",
+            "type": "person",
+            "modern": "麦克斯·施蒂纳，青年黑格尔派成员，其著作《唯一者及其所有物》主张彻底的个人主义，反对一切普遍性观念。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p14s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p14s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p14s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p14s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p14s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p14s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p14s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p14s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "圣麦克斯",
+            "type": "person",
+            "modern": "马克思和恩格斯对麦克斯·施蒂纳的讽刺性称呼，源自其著作《唯一者及其所有物》中将自我神圣化的倾向。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 3,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

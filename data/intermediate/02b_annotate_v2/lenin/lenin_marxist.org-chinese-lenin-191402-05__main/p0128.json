@@ -1,0 +1,69 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 128,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁引用罗莎·卢森堡关于挪威-瑞典分离的完整论述，随后直接指出其论证的脆弱性。",
+    "importance_score": 2,
+    "importance_reason": "通过具体案例展示论敌的论证逻辑，为后续的系统性反驳提供靶子。",
+    "argument_role": "example",
+    "argument_link": "承接上段对挪威分离事件的叙述，本段完整呈现罗莎·卢森堡如何利用该事件来论证其观点，并立即开启对这一论证的批判。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "refute_quotation"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "波兰社会爱国派",
+        "explain": "罗莎·卢森堡用此称呼指代那些主张波兰独立、但被她视为民族主义者的波兰社会主义者。她引用其报刊观点作为被批判的靶子。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "罗莎·卢森堡",
+      "their_view": "挪威与瑞典分离的事件证明，联邦主义以及由此产生的国家分离，决不是进步或民主的表现。这次所谓的‘革命’只是小资产阶级分立主义的体现，与真正的革命毫不相干，而联邦制本身也只是君主政体和反动统治的一种形式。",
+      "author_response": "列宁在引用后立即指出，罗莎·卢森堡用这个例子来支撑其论点的做法，恰恰暴露了她自身立场的脆弱性。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p128s1",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p128s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

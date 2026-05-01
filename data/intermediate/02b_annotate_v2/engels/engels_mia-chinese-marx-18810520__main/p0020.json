@@ -1,0 +1,121 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 20,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "恩格斯指出，英国工联的传统活动局限于经济领域，但其力量已迫使统治阶级做出超出预期的政治让步，特别是选举权的扩大。",
+    "importance_score": 2,
+    "importance_reason": "本段通过具体历史事例（选举法）论证工联力量已超出其自我认知，为后文论述工人阶级应利用政治能力进行更广泛斗争提供事实支撑。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对工联组织规模与影响力的描述，本段具体说明这种力量如何在实际政治进程中（选举法）得到体现和验证。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "迪斯累里的户主选举法",
+        "explain": "1867年由保守党首相迪斯累里推动通过的改革法案。它将选举权扩大到城市中的“户主”（通常指缴纳济贫税的房客），使大量熟练工人首次获得投票资格，是英国选举权史上的重要节点。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p20s5",
+        "quote": "如果他没有预料到这些新选民将表示他们自己的意志，而不再听命于资产阶级自由主义政客，那他会提出这样的法案吗？",
+        "trigger": "inverted_logic",
+        "reader_block": "反问句式，读者可能只看到疑问，而忽略其肯定含义。需要将反问还原为陈述，才能理解恩格斯对迪斯累里政治动机的判断。",
+        "parse": {
+          "claim": "迪斯累里提出该法案，正是因为他预料到新获得选举权的工人将不再追随自由派政客，而会独立表达自己的政治意志。",
+          "qualifiers": "此判断针对迪斯累里作为保守党首相的动机。",
+          "contrast_or_target": "隐含反驳认为选举权扩大纯粹是自由派恩赐或与工人独立意志无关的观点。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "通过反问揭示迪斯累里（统治阶级代表）的深层政治算计，反驳了将选举权扩大视为单纯让步或与工人阶级能力无关的简单看法。"
+        },
+        "implication": "统治阶级的政治行动往往基于对工人阶级力量和独立倾向的现实评估，而非单纯的慈善。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "工联主义",
+      "their_view": "工联的活动应仅限于调节工资、工时等经济领域，不应或无需涉足更广泛的政治斗争。",
+      "author_response": "恩格斯通过指出统治阶级因工联力量而做出政治让步（选举法），并强调工联管理本身已证明工人的政治能力，来反驳这种将工联活动局限于经济领域的观点。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p20s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p20s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p20s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p20s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "迪斯累里的户主选举法",
+            "type": "event",
+            "modern": "1867年英国保守党政府通过的选举改革法案，将选举权扩大到城市缴纳济贫税的户主，使大量工人首次获得投票权。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p20s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p20s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 0,
+        "hs_kept": 1,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 16,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段通过比较俄国公社与其他原始公社的历史演变，论证公社自身缺乏向更高公有制发展的动力，其可能的改造取决于西欧无产阶级革命的外部条件。",
+    "importance_score": 3,
+    "importance_reason": "核心论点，直接回答前一段提出的俄国公社能否跳过资本主义阶段的问题，并给出结论性判断。",
+    "argument_role": "continues",
+    "argument_link": "本段直接回应上段提出的俄国公社能否跳过资本主义的问题，通过历史比较和西欧矛盾分析，给出否定性答案并指出外部条件。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_density",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "日耳曼马尔克、克尔特克兰、印度公社",
+        "explain": "这些都是前资本主义的村社组织形式，与俄国公社类似。恩格斯用它们作为历史类比，说明原始公社在商品经济影响下普遍解体的规律。",
+        "why_needed": "history_density",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p16s5",
+        "quote": "因此，如果说可以提出俄国的公社是否将有别的更好的命运这样一个问题，那末原因不在于公社本身，而只在于这样一个情况：公社在一个欧洲国家里保持相当的生命力到了这样一个时刻，这时，在西欧不仅一般的商品生产，甚至连它的最高和最后的形式——资本主义生产都同它本身所创造的生产力发生了矛盾，它不能再继续支配这种生产力，它正在由于这些内部矛盾及其所造成的阶级冲突而走向灭亡。",
+        "trigger": "long_nested",
+        "reader_block": "句子结构复杂，包含多个条件从句和因果关系，读者容易迷失在“原因不在于……而只在于……”的转折中，难以快速抓住核心论断。",
+        "parse": {
+          "claim": "俄国公社能否有更好命运，其决定因素不在公社内部，而在于西欧资本主义已陷入无法解决的矛盾。",
+          "qualifiers": "这个判断适用于公社在欧洲国家保持生命力到特定历史时刻的情况。",
+          "contrast_or_target": "民粹派认为公社自身具有发展动力，能够自发演进到更高的公有制形式。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "本句通过否定公社的内在动力，将问题的解决引向外部条件（西欧矛盾），直接反驳了民粹派将希望寄托于公社自身的观点。"
+        },
+        "implication": "恩格斯由此得出结论，改造公社的首创因素只能来自西方无产阶级。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "俄国民粹派",
+      "their_view": "俄国农民公社自身具有内在发展动力，能够自发演进到更高的公有制形式。",
+      "author_response": "恩格斯指出，历史事实表明公社内部从未产生过这种促进因素，其解体是普遍规律，其命运取决于外部的西欧无产阶级革命。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p16s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p16s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p16s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p16s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p16s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p16s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p16s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  }
+}

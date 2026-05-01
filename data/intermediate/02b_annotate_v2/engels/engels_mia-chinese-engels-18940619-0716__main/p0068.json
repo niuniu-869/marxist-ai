@@ -1,0 +1,147 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 68,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "恩格斯论证早期基督教文献的历史价值，强调《启示录》作为最古文献，能展示基督教在吸收希腊罗马因素前的原始形态。",
+    "importance_score": 3,
+    "importance_reason": "",
+    "argument_role": "continues",
+    "argument_link": "承接上段对早期基督教文献语言特征的例证，本段转向对文献历史真伪的总体判断，并着重指出《启示录》作为关键证据的独特价值。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_density",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [
+      "bauer_bruno",
+      "tubingen_school"
+    ],
+    "prereading_inline": [
+      {
+        "topic": "《启示录》的写作时间",
+        "explain": "恩格斯在文中将《启示录》的写作时间精确到几个月内（约公元68-69年），这是他论证其为基督教最古文献的关键依据。读者需知此时间点早于其他新约书卷。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      },
+      {
+        "topic": "《埃达》与日耳曼神话",
+        "explain": "《埃达》是13世纪冰岛诗集，记录了受基督教影响后成型的日耳曼神话体系。恩格斯用它类比，说明《启示录》中的原始基督教神话，与后来体系化的国教神话，是同一事物的不同发展阶段。",
+        "why_needed": "allusion",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p68s9",
+        "quote": "只是通过一神论的犹太宗教的媒介作用，后来的希腊庸俗哲学的文明的一神论才能够取得那种唯一使它能吸引群众的宗教形式。",
+        "trigger": "long_nested",
+        "reader_block": "句子结构为“只有通过A，B才能取得C”，但A（犹太宗教的媒介作用）和B（希腊庸俗哲学的一神论）都是需要特定理解的概念，且“吸引群众的宗教形式”这一表述需要结合上下文理解其具体所指。",
+        "parse": {
+          "claim": "希腊罗马世界中流行的、经过简化的一神论哲学观念，本身缺乏吸引广大民众的宗教外壳；它必须借助犹太教现成的一神论教义和组织形式，才能转化为一种能被大众接受的宗教。",
+          "qualifiers": "此处的“希腊庸俗哲学”特指斯多葛主义、新柏拉图主义等流行于罗马帝国时期的哲学流派，它们为基督教提供了神学思辨的素材。",
+          "contrast_or_target": "恩格斯在此反驳了将基督教简单视为希腊哲学直接产物的观点（如布鲁诺·鲍威尔的“剽窃”说），强调犹太教作为必要中介环节的关键作用。"
+        },
+        "why": {
+          "relation": "continues",
+          "explanation": "本句承接上句关于犹太教贡献的论述，进一步阐明犹太教作为“媒介”的具体功能：它为希腊哲学的一神论提供了能被大众接受的宗教形式。"
+        },
+        "implication": "这揭示了世界宗教形成的一个普遍机制：高级的哲学观念需要与既有的、有群众基础的宗教形式相结合，才能完成其社会化过程。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p68s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p68s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p68s3",
+        "speaker": "editor",
+        "stance": "neutral_citation",
+        "notes": []
+      },
+      {
+        "sid": "p68s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p68s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p68s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p68s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p68s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p68s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p68s10",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 1,
+        "hs_dropped": 1,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 1
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote",
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

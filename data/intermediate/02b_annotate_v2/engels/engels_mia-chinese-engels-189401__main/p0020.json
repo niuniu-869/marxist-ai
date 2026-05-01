@@ -1,0 +1,96 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 20,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "恩格斯提出，俄国等保留公社残余的国家若想缩短向社会主义的发展过程，必须以西欧无产阶级的胜利为前提和榜样。",
+    "importance_score": 3,
+    "importance_reason": "本段是恩格斯关于俄国社会发展道路论述的核心条件，直接针对民粹派的独立发展论，设定了严格的外部前提。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于低级社会形态无法解决高级社会形态问题的论证，本段转而提出一个例外情况，即在特定外部条件下，公社残余可以作为缩短发展过程的手段。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "cross_ref_pronoun",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "西欧无产阶级胜利的前提",
+        "explain": "恩格斯在此设定了一个关键外部条件：只有西欧资本主义国家的无产阶级革命成功并建立公有制，才能为落后国家提供榜样和支持。这是理解本段所有论述的起点，否则会误以为恩格斯完全肯定公社的独立作用。",
+        "why_needed": "cross_ref_pronoun",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p20s1",
+        "quote": "然而，不仅可能而且无庸置疑的是，当西欧人民的无产阶级取得胜利和生产资料转归公有之后，那些刚刚踏上资本主义生产道路而仍然保全了氏族制度或氏族制度残余的国家，可以利用这些公社所有制的残余和与之相适应的人民风尚作为强大的手段，来大大缩短自己向社会主义社会发展的过程，并可以避免我们在西欧开辟道路时所不得不经历的大部分苦难和斗争。",
+        "trigger": "long_nested",
+        "reader_block": "句子包含多个条件从句（“当……之后”）和目的状语（“来……”“并可以……”），且“氏族制度”“公社所有制的残余”等术语密集，读者容易迷失主干逻辑。",
+        "parse": {
+          "claim": "在西欧无产阶级革命成功并实现生产资料公有制的前提下，那些保留着原始公社制度痕迹的后发国家，能够将这些旧有制度残余转化为加速社会变革的有利工具。",
+          "qualifiers": "前提条件是西欧无产阶级取得胜利；适用对象是刚进入资本主义阶段且保留氏族/公社残余的国家。",
+          "contrast_or_target": "反驳民粹派认为俄国公社可独立、自发地引导社会走向社会主义的观点。"
+        },
+        "why": {
+          "relation": "continues",
+          "explanation": "本句是恩格斯提出其“缩短发展过程”论点的核心陈述，它建立在上一段关于社会发展阶段不可逾越的论证之上，但引入了“外部胜利”这一关键变量。"
+        },
+        "implication": "恩格斯在此划清了与民粹派的界限：他承认公社残余的潜在价值，但坚决否定其独立发挥作用的可能性，将其价值严格限定在西欧革命胜利之后。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "俄国民粹派",
+      "their_view": "俄国农民公社是社会主义的天然基础，俄国可以凭借自身独特的公社制度，绕过资本主义的漫长发展和苦难，直接走向社会主义。",
+      "author_response": "恩格斯指出，公社残余只有在西欧无产阶级革命胜利并提供榜样的条件下，才能作为缩短发展过程的手段，其作用是辅助性的而非决定性的。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p20s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p20s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p20s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p20s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p20s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p20s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  }
+}

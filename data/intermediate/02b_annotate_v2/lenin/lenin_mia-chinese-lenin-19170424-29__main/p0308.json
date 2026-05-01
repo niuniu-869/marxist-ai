@@ -1,0 +1,92 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 308,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "分析临时政府照会引发的政治危机，指出立宪民主党正在组织反革命暴力，主张无产阶级必须武装并与军队结盟，彻底放弃对临时政府的信任。",
+    "importance_score": 2,
+    "importance_reason": "针对具体事件提出布尔什维克的策略主张，是“四月提纲”路线在具体危机中的应用，体现了与临时政府决裂的立场。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段关于巩固革命成果的论述，具体分析了当时的政治危机，并提出了无产阶级政党应采取的紧急行动方针。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "两个政权并存",
+        "explain": "指二月革命后，资产阶级临时政府与工兵代表苏维埃这两个性质不同的政权同时存在的特殊局面。苏维埃掌握实际武装但自愿将权力让给临时政府，造成政局不稳。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "1848年6月巴黎",
+        "explain": "指1848年法国六月起义失败后，资产阶级政府对巴黎工人进行的血腥镇压，数千人被杀或流放。列宁以此类比，警告临时政府可能对无产阶级采取同样手段。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "立宪民主党",
+      "their_view": "在军队和街道上组织反革命分子，准备对工人进行武装镇压。",
+      "author_response": "无产阶级政党必须向人民说明，必须组织和武装无产阶级并与革命军队结成联盟，完全抛弃信任临时政府的政策，以防止反革命屠杀。",
+      "polemic_kind": "strategic_critique",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p308s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "立宪民主党",
+            "type": "org",
+            "modern": "俄国主要资产阶级政党，在临时政府中占据主导地位，主张维护资本主义秩序，反对革命深入发展。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p308s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p308s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 2,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_6>5",
+        "note:n2_5gram_with_surface"
+      ]
+    }
+  ]
+}

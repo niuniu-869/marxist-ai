@@ -1,0 +1,80 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 67,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "通过设问与回答，指出工人的劳动不仅生产商品，更生产资本本身。",
+    "importance_score": 2,
+    "importance_reason": "将前文农场主例子的结论推广到工厂场景，明确指出雇佣劳动生产资本。",
+    "argument_role": "continues",
+    "argument_link": "承接上段农场主例子的结论，将‘工人生产资本’的论断从农业场景推广到工业场景。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p67s3",
+        "quote": "他生产重新供人利用去支配他的劳动并借他的劳动创造新价值的价值。",
+        "trigger": "long_nested",
+        "reader_block": "句子结构嵌套，‘重新供人利用去支配他的劳动并借他的劳动创造新价值的价值’这个多重修饰的表述，读者可能不清楚‘价值’如何被‘重新利用’来‘支配劳动’。",
+        "parse": {
+          "claim": "工人生产出的不是普通商品，而是一种能够反过来控制其劳动过程并增殖的价值实体。",
+          "qualifiers": "",
+          "contrast_or_target": ""
+        },
+        "why": {
+          "relation": "continues",
+          "explanation": "本句具体阐释了资本作为价值实体的特性，即它能被资本家用来购买劳动力，并通过工人的劳动实现价值增殖。"
+        },
+        "implication": "这揭示了雇佣劳动关系中，工人的劳动成果反过来成为支配工人的力量。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p67s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p67s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p67s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "资本",
+            "type": "concept",
+            "modern": "在马克思政治经济学中，指能够带来剩余价值的价值，其本质是雇佣劳动关系。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "capital_marxist_theory"
+          }
+        ]
+      }
+    ]
+  }
+}

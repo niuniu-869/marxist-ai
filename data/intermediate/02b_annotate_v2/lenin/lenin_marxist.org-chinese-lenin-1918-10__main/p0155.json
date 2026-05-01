@@ -1,0 +1,141 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 155,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁指责考茨基抄袭孟什维克言论，并指出其歪曲事实的具体表现。",
+    "importance_score": 2,
+    "importance_reason": "本段是列宁对考茨基抄袭行为的具体指控，支撑其“叛徒”定性。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对考茨基指控的引用，转而揭露其言论来源并反驳其事实依据。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "孟什维克领袖",
+        "explain": "马尔托夫、阿克雪里罗得、施泰因是俄国孟什维克的主要理论家和活动家，考茨基被指责抄袭他们的观点。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "1917年4月提纲",
+        "explain": "列宁在1917年4月发表《四月提纲》，提出从资产阶级民主革命向社会主义革命过渡的纲领，其中包含关于苏维埃国家作用的论述。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "解散立宪会议",
+        "explain": "1918年1月5日，全俄苏维埃第三次代表大会解散了选举产生的立宪会议，这是布尔什维克巩固苏维埃政权的关键事件。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p155s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "马尔托夫",
+            "type": "person",
+            "modern": "俄国孟什维克领袖之一，与列宁在建党问题上产生分歧。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "阿克雪里罗得",
+            "type": "person",
+            "modern": "孟什维克理论家，曾参与创建俄国社会民主工党。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "施泰因",
+            "type": "person",
+            "modern": "德国社会民主党人，考茨基在柏林的联系人。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p155s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p155s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "布尔什维克改名为共产党人",
+            "type": "event",
+            "modern": "1918年3月，俄国社会民主工党（布）更名为俄国共产党（布）。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p155s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "十月革命",
+            "type": "event",
+            "modern": "1917年11月7日（俄历10月25日），布尔什维克领导的武装起义。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 5,
+        "notes_dropped": 3,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix",
+        "note:n1_overflow_event_15>12",
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

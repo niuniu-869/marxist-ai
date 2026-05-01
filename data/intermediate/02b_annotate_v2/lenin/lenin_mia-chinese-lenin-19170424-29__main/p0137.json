@@ -1,0 +1,87 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 137,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁揭露德国政府假手丹麦社会沙文主义者推行其和平建议的阴谋，并号召无产阶级政党发表决议进行反击。",
+    "importance_score": 2,
+    "importance_reason": "本段是核心批判的一部分，具体指认社会沙文主义者作为帝国主义代理人的角色，并提出行动纲领。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对德国政府和平建议的分析，进一步揭露其推行手段和背后的社会沙文主义帮凶。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "丹麦的普列汉诺夫之流",
+        "explain": "普列汉诺夫是俄国孟什维克领袖，以“保卫祖国”为由支持一战。列宁此处用他指代丹麦的社会沙文主义者，意指他们像普列汉诺夫一样，为本国资产阶级政府效劳。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "社会沙文主义者",
+      "their_view": "我们应当为本国资产阶级政府效劳，帮助它推行有利于自身的和平建议，以“保卫祖国”为名掩盖帝国主义战争的实质。",
+      "author_response": "列宁指出，这些人的存在就是为了给帝国主义政府充当代理人，无产阶级政党的任务是向全世界揭露他们所隐瞒的内幕。",
+      "polemic_kind": "reveals_class_basis",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p137s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p137s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p137s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p137s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p137s5",
+        "speaker": "editor",
+        "stance": "neutral_citation",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_5gram_with_surface"
+      ]
+    }
+  ]
+}

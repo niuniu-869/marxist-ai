@@ -1,0 +1,55 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 36,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁引用波兰反对派的论点，并用反问句质疑其逻辑一致性。",
+    "importance_score": 2,
+    "importance_reason": "这是列宁揭露论敌内部矛盾的关键环节，为后续批判其提纲提供具体靶子。",
+    "argument_role": "contrasts",
+    "argument_link": "承接上段对波兰同志矛盾的指出，直接引用其提纲原文进行具体剖析。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "refute_quotation"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "波兰社会民主党人（反对派）",
+      "their_view": "他们主张，反对兼并的出发点是反对保卫祖国，因为在帝国主义时代保卫祖国就是保卫本国资产阶级压迫和掠夺异族的权利。",
+      "author_response": "列宁用反问句“这是什么话呢？这怎样理解呢？”直接质疑这种论证的逻辑一致性。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p36s1",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

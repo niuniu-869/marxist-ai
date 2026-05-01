@@ -1,0 +1,142 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 12,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段通过描述德国统治者与被统治者的关系，以及引用拿破仑的典故，来揭示专制制度的本质是蔑视人。",
+    "importance_score": 2,
+    "importance_reason": "本段是马克思对德国专制制度进行具体批判的核心段落，通过生动的比喻和历史典故，将抽象的批判具象化。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对“庸人世界”的描述，本段具体刻画了德国统治者（“主人”）与被统治者（“动物”）的对立关系，并点明这种关系的实质。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "allusion",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "别列津纳河典故",
+        "explain": "指1812年拿破仑从俄国撤退时，在别列津纳河遭遇惨败。据传，拿破仑看到士兵溺水，称他们为“癞蛤蟆”。马克思用此典故说明统治者视民众为卑贱生物的普遍心态。",
+        "why_needed": "allusion",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p12s6",
+        "quote": "他们在接受朝拜时，对这些在下面蠕动着的、没有头脑的动物扫一眼，这时他们除了想到拿破仑在别列津纳河所讲的话之外，还会想到什么呢？",
+        "trigger": "inverted_logic",
+        "reader_block": "反问句式，且“蠕动着的、没有头脑的动物”是比喻，读者可能不理解其具体指代对象，从而卡住。",
+        "parse": {
+          "claim": "德国统治者在面对民众时，其内心想法与拿破仑蔑视溺水士兵的想法如出一辙。",
+          "qualifiers": "特指德国统治者在“接受朝拜”这一特定场景下的心理活动。",
+          "contrast_or_target": ""
+        },
+        "why": {
+          "relation": "example",
+          "explanation": "用拿破仑的典故作为具体例证，来支撑前文关于统治者“没有任何思维和人的尊严”的论断，使抽象批判变得形象可感。"
+        },
+        "implication": "统治者对民众的蔑视并非个别现象，而是一种具有历史延续性的普遍心态。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p12s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p12s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p12s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p12s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p12s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p12s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p12s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p12s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p12s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p12s10",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p12s11",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 1,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

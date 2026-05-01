@@ -1,0 +1,151 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 156,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁批判布兰克将革命时期视为非理性、将改良时期视为理性的资产阶级观点。",
+    "importance_score": 3,
+    "importance_reason": "本段是列宁对资产阶级历史观的集中批判，揭示其阶级立场。",
+    "argument_role": "continues",
+    "argument_link": "本段承接上文对布兰克歪曲历史的批判，具体展开其将革命与改良对立评价的资产阶级逻辑。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "all_known",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p156s7",
+        "quote": "当群众的直接运动因遭到枪杀、拷打、鞭笞、失业、饥饿而被压制下去的时候，当杜巴索夫出钱养活的教育界的臭虫从壁缝中爬出来，开始用群众的名义替人民行事，也就是把群众的利益出卖给少数特权者的时候，——在小市民骑士们看来，是平安宁静的进步时代来到了，“思想和理智又复苏了”。",
+        "trigger": "inverted_logic",
+        "reader_block": "长句中“平安宁静的进步时代”与“思想和理智又复苏了”是反讽，读者可能忽略其讽刺意味，误以为是正面描述。",
+        "parse": {
+          "claim": "当群众运动被暴力镇压、特权者篡夺名义时，小市民却称之为理性复苏。",
+          "qualifiers": "当群众直接运动被压制、特权者出卖利益时。",
+          "contrast_or_target": "小市民骑士们认为这是进步时代。"
+        },
+        "why": {
+          "relation": "contrasts",
+          "explanation": "本句与上文群众运动时期形成对比，揭露资产阶级“理性”观的虚伪性：它只在群众被压制、特权者得利时才出现。"
+        },
+        "implication": "揭露资产阶级“理性”观的阶级实质：它服务于特权秩序，而非历史进步。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "布兰克先生",
+      "their_view": "革命时期是丧失理智、原则和思想消失的时期；镇压革命和小市民式“进步”的时期才是理性、自觉、有计划的活动时代。",
+      "author_response": "列宁指出这是资产阶级庸人的典型偏见，颠倒了群众理性与特权者篡夺的关系，其“理性”观只服务于压制群众运动。",
+      "polemic_kind": "reveals_class_basis",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p156s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p156s2",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p156s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p156s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "旋风",
+            "type": "metaphor",
+            "modern": "列宁用此比喻1905年革命的迅猛与冲击力。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p156s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p156s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "小市民英雄们",
+            "type": "social_group",
+            "modern": "列宁对满足于改良、畏惧革命的庸俗市民的讽刺称呼。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p156s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "教育界的臭虫",
+            "type": "metaphor",
+            "modern": "列宁讽刺那些受沙皇官员资助、篡夺群众名义的知识分子。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p156s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p156s9",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 3,
+        "notes_dropped": 2,
+        "hs_kept": 1,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "note:n1_overflow_archaic_11>4",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

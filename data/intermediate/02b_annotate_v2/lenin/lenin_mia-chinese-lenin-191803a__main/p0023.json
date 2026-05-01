@@ -1,0 +1,110 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 23,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁反驳论敌将接受和约的主张归因于农民和士兵疲惫的观点，重申工农联盟是苏维埃政权存在的基础。",
+    "importance_score": 2,
+    "importance_reason": "本段是列宁为接受和约进行辩护的核心论证之一，从阶级关系角度反驳了党内反对派的指责。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于退却和等待国际条件变化的论述，本段具体反驳了反对派对退却理由的歪曲，强调退却的阶级基础。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "refute_quotation"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "半无产阶级",
+        "explain": "列宁在《国家与革命》等著作中使用的特定概念，指介于无产阶级和小资产阶级之间的群体，主要是贫苦农民。他们受剥削，但拥有少量生产资料，是无产阶级最可靠的同盟军。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "党内反对批准和约的同志",
+      "their_view": "签订和约的主张只是反映了疲惫的农民群众和没有固定阶级特性的士兵的利益，是一种消极的、非无产阶级的立场。",
+      "author_response": "列宁指出，这种看法忘记了苏维埃政权建立所依赖的根本阶级关系，即无产阶级与半无产阶级（贫苦农民）的联盟。现在轻视这种联盟的疲惫状态，就是脱离政权存在的现实基础。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p23s1",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p23s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p23s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p23s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "半无产阶级",
+            "type": "concept",
+            "modern": "在列宁的阶级分析框架中，指经济地位介于无产阶级与小资产阶级之间的群体，主要指俄国农村中受剥削最深、最贫困的农民。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "class_fraction_semi_proletariat"
+          }
+        ]
+      },
+      {
+        "sid": "p23s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p23s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p23s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

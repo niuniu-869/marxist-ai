@@ -1,0 +1,55 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 73,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁总结性地批判马斯洛夫的土地纲领草案，指出其在理论和实践上存在根本缺陷。",
+    "importance_score": 2,
+    "importance_reason": "这是对马斯洛夫方案批判的结论句，概括了其核心问题，为后续提出替代方案做铺垫。",
+    "argument_role": "conclusion",
+    "argument_link": "承接上一段对马斯洛夫论据的分析，此处给出最终判定，指出其方案在理论逻辑上无法成立。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "马斯洛夫",
+      "their_view": "马斯洛夫主张通过地方或省级公有化来解决土地问题，认为这比国有化更民主、更可行，能避免加强官僚国家。",
+      "author_response": "列宁指出，这种方案在理论上是自相矛盾的，因为它割裂了民主革命与无产阶级社会主义革命的联系，最终只能服务于资产阶级。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p73s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

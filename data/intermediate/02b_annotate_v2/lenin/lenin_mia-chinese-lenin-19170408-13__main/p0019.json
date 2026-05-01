@@ -1,0 +1,104 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 19,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁预判并引述党内“老布尔什维克”反对者可能提出的三个反问，以承认其质疑的表面合理性，为后续论证做铺垫。",
+    "importance_score": 2,
+    "importance_reason": "此段是列宁论证中的关键转折点，通过主动呈现并承认反对者的核心质疑，为下文重新解释“革命完成”的含义搭建论辩舞台。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于资产阶级民主革命已完成的论断，立即转入对该论断可能引发的党内质疑的预判与回应。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p19s1",
+        "quote": "这里，我们会听到喜欢把自己称作“老布尔什维克”的那些反对者的喧嚷声：难道我们不是向来都说只有“无产阶级和农民的革命民主专政”才能完成资产阶级民主革命吗？",
+        "trigger": "inverted_logic",
+        "reader_block": "双重否定加反问句式，读者可能误以为这是列宁在陈述自己的观点，而未意识到这是他在转述并承认反对者的质疑。",
+        "parse": {
+          "claim": "反对者认为，列宁及其追随者过去的理论主张（即只有通过工农专政才能完成民主革命）与当前“革命已完成”的论断存在矛盾。",
+          "qualifiers": "此质疑基于“向来都说”的历史主张。",
+          "contrast_or_target": "反对者（“老布尔什维克”）认为，列宁当前的立场与其过去一贯的理论主张相悖。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "此句是列宁主动构建的论辩场景，通过引述反对者的核心论据，将潜在的党内分歧公开化，为后续的反驳确立靶子。"
+        },
+        "implication": "列宁承认这一质疑在形式逻辑上是成立的，暗示他将从新的历史条件出发，而非固守旧公式来回应。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      },
+      {
+        "anchor": "p19s3",
+        "quote": "难道事实不正相反，土地革命不是还没有开始吗？",
+        "trigger": "inverted_logic",
+        "reader_block": "双重否定加反问，语气强烈。读者可能被其修辞力量吸引，而未注意这是列宁在强化反对者的论据，使其质疑显得更有力。",
+        "parse": {
+          "claim": "反对者进一步强调，不仅土地革命未完成，甚至其进程都尚未启动，以此强化其对“革命完成论”的否定。",
+          "qualifiers": "此判断基于对当时农村实际状况的观察。",
+          "contrast_or_target": "反对者断言，土地革命的实际进程与“革命已完成”的论断完全相反。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "此句将反对者的质疑推向顶点，用“事实相反”的断言，使列宁面临的理论挑战达到最大，从而为下文的转折蓄势。"
+        },
+        "implication": "列宁必须直面这一最尖锐的事实性质疑，其后续论证必须能解释这一表面矛盾。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "“老布尔什维克”（党内反对者）",
+      "their_view": "他们认为，列宁关于资产阶级民主革命已经完成的论断，与布尔什维克党过去一贯主张的“无产阶级和农民的革命民主专政”公式相矛盾。他们以土地革命这一核心任务尚未开始作为事实依据，来证明民主革命远未完成。",
+      "author_response": "列宁在此段并未直接反驳，而是主动、清晰地呈现了反对者的全部论据和质疑逻辑，承认其在旧有理论框架下的合理性，从而将论辩引向对历史条件变化和理论公式适用性的重新审视。",
+      "polemic_kind": "counter_quotation",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p19s1",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p19s2",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p19s3",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 2,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

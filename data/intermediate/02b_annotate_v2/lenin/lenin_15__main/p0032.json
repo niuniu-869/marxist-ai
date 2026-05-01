@@ -1,0 +1,70 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 32,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "通过对比巴塞尔宣言的预见与第二国际的实际行为，揭露其在帝国主义战争面前的背叛。",
+    "importance_score": 2,
+    "importance_reason": "作为核心批判的论据，用第二国际自身文件证明其领导层的言行不一。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于战争后果的论述，将批判矛头具体指向未能履行反战承诺的第二国际领导层。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "巴塞尔宣言",
+        "explain": "1912年第二国际在巴塞尔召开的非常代表大会上通过的反战宣言，明确警告帝国主义战争的危险并号召各国工人以革命手段反对。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "第二国际",
+        "explain": "1889年成立的国际社会主义者联合组织，旨在协调各国工人政党行动。1914年一战爆发后，其多数成员党转而支持本国政府参战，导致国际主义原则破产。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p32s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

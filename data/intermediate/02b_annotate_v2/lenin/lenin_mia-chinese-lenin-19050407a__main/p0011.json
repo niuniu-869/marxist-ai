@@ -1,0 +1,90 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 11,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁指出马克思批判克利盖的风格，并将克利盖的观点与俄国社会革命党人的观点相联系，强调马克思对商品经济作用的洞察对分析俄国农民运动的意义。",
+    "importance_score": 2,
+    "importance_reason": "本段将马克思对克利盖的批判与俄国社会革命党人的错误直接关联，为后续分析提供理论依据。",
+    "argument_role": "continues",
+    "argument_link": "本段承接上一段对克利盖观点的批判，进一步指出其与俄国社会革命党人观点的相似性，并引入马克思对商品经济作用的分析。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "社会革命党人",
+      "their_view": "社会革命党人空话连篇，将小资产阶级的空想说成最高的革命理想，不懂现代经济制度及其发展的真正基础。",
+      "author_response": "列宁指出马克思早已批判过类似观点，并强调商品经济的作用是理解农民运动的关键。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p11s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p11s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "小资产阶级",
+            "type": "concept",
+            "modern": "在马克思主义语境中指介于资产阶级与无产阶级之间的阶级，其社会主义主张常带有空想性。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "petty_bourgeoisie_marxist"
+          }
+        ]
+      },
+      {
+        "sid": "p11s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p11s4",
+        "speaker": "quoted_marx",
+        "stance": "endorsed",
+        "notes": []
+      },
+      {
+        "sid": "p11s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 2,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_7>5",
+        "note:n1_overflow_social_group_15>12"
+      ]
+    }
+  ]
+}

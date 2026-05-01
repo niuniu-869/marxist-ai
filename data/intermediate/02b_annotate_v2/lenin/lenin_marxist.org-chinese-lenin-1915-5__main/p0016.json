@@ -1,0 +1,124 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 16,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁点名批判库诺和考茨基等人，揭露他们用“革命是幻想”的论点为背叛国际主义、转向资产阶级阵营的行为辩护。",
+    "importance_score": 2,
+    "importance_reason": "具体展示了社会沙文主义者（库诺、考茨基）为自身背叛行为辩护的核心论据，并予以驳斥，是论证链条中的关键例证。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对“革命不可能”论点的质疑，本段具体指出库诺、考茨基等人正是这种论点的提出者和使用者，并揭露其辩护策略。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "司徒卢威主义者",
+        "explain": "指俄国合法马克思主义者司徒卢威的追随者，他们主张资本主义发展，反对无产阶级革命。列宁用此标签批判库诺，意指其理论立场已滑向资产阶级。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "巴塞尔宣言",
+        "explain": "1912年第二国际巴塞尔代表大会通过的反战宣言，号召各国社会党在战争爆发时利用危机促成革命。此宣言是战前国际社会主义运动的共同承诺。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p16s4",
+        "quote": "可是这个司徒卢威主义者却一个字也没有提到所有在巴塞尔宣言上签过字的人抱有“幻想”，而是装作一个非常高尚的人，竭力把事情都推到潘涅库克和拉狄克这类极左派身上！",
+        "trigger": "inverted_logic",
+        "reader_block": "反讽与对比：库诺指责别人抱有“幻想”，却回避了所有签署巴塞尔宣言的人（包括他自己）都曾持有相同“幻想”的事实，转而将责任推给更激进的派别。",
+        "parse": {
+          "claim": "库诺在指责革命希望是幻想时，刻意回避了包括他自己在内的、所有签署过巴塞尔反战宣言的社会主义者都曾共同持有这一“幻想”的事实。",
+          "qualifiers": "库诺的回避行为发生在他为转向资产阶级阵营辩护的语境中。",
+          "contrast_or_target": "库诺将革命希望的“幻想”标签单独贴给潘涅库克、拉狄克等极左派，试图将自己与他们区分开来。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "本句直接反驳库诺的论点，通过揭露其选择性指责（只批评极左派）和自我开脱（不提包括自己在内的签署者），暴露其辩护的虚伪性。"
+        },
+        "implication": "库诺的辩护策略是转移视线，将背叛国际承诺的责任推给更激进的同道，以掩盖自身立场的转变。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "库诺、考茨基",
+      "their_view": "革命的希望已经不切实际，马克思主义者不应固守这种不切实际的幻想，而应面对现实。",
+      "author_response": "列宁指出，库诺等人用此论点为自身转向资产阶级阵营辩护，且其指责对象具有选择性，回避了包括他们自己在内的、战前国际共同承诺的革命立场。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p16s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p16s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p16s3",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p16s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "巴塞尔宣言",
+            "type": "event",
+            "modern": "1912年第二国际巴塞尔代表大会通过的反战决议，号召各国社会党利用战争危机推动社会主义革命。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "潘涅库克和拉狄克",
+            "type": "person",
+            "modern": "当时国际社会主义运动中的极左派代表人物，主张更激进的革命立场。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 1,
+        "hs_kept": 1,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 18,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "恩格斯批评论敌缺乏辩证思维，将历史发展简化为单向因果链条，忽视了各因素间复杂的相互作用。",
+    "importance_score": 3,
+    "importance_reason": "核心段落，系统阐述了历史唯物主义的辩证方法论，直接回应了巴尔特等人对理论的庸俗化理解。",
+    "argument_role": "continues",
+    "argument_link": "承接上文对巴尔特等人错误的提及，本段深入剖析其方法论根源，即缺乏辩证法。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "辩证法与形而上学",
+        "explain": "在马克思主义语境中，辩证法指用联系、发展、矛盾的观点看世界；形而上学则指用孤立、静止、片面的观点看世界。恩格斯在此批评后者。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "黑格尔与辩证法",
+        "explain": "黑格尔是德国古典哲学家，系统阐述了唯心辩证法。马克思和恩格斯批判地继承了其辩证法内核，创立了唯物辩证法。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p18s4",
+        "quote": "对他们说来，黑格尔是不存在的。",
+        "trigger": "inverted_logic",
+        "reader_block": "表面陈述一个事实（黑格尔对他们不存在），实则是反讽，意在批评他们完全抛弃了黑格尔所代表的辩证法思维传统。",
+        "parse": {
+          "claim": "这些论敌在思想方法上完全背离了辩证法，无视其创始人黑格尔的遗产。",
+          "qualifiers": "这是对前文所有批评的总结性判断。",
+          "contrast_or_target": "那些自诩为马克思主义者却采用形而上学方法的人。"
+        },
+        "why": {
+          "relation": "conclusion",
+          "explanation": "以一句反讽的结论，概括了论敌在方法论上的根本缺陷，即与辩证法传统的彻底割裂。"
+        },
+        "implication": "缺乏辩证法是导致其理论错误的直接思想根源。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "保尔·巴尔特及“青年派”",
+      "their_view": "历史发展是由孤立的、单向的因果关系构成的，经济基础与上层建筑之间是机械的决定与被决定关系，不存在复杂的相互作用。",
+      "author_response": "现实是各种因素相互作用的辩证过程，经济运动虽具最终决定性，但政治、法律等上层建筑也反作用于经济基础，二者关系并非简单的线性因果。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p18s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p18s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p18s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "辩证法",
+            "type": "concept",
+            "modern": "唯物辩证法，主张用联系、发展和矛盾的观点分析社会历史进程。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "dialectics_materialist"
+          }
+        ]
+      },
+      {
+        "sid": "p18s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "黑格尔",
+            "type": "person",
+            "modern": "德国古典哲学家，其辩证法思想是马克思主义哲学的重要理论来源。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 0,
+        "hs_kept": 1,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

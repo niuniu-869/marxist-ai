@@ -1,0 +1,100 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 25,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "斯大林以沙皇政府的历史为例，反驳路德维希关于苏维埃政权依靠恐惧维持的观点。",
+    "importance_score": 2,
+    "importance_reason": "核心论点的直接支撑，通过历史类比反驳“恐惧统治论”，论证苏维埃政权的群众基础。",
+    "argument_role": "contrasts",
+    "argument_link": "直接回应上一段路德维希提出的“恐惧统治论”，用沙皇政府的失败案例进行反驳。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p25s3",
+        "quote": "难道你以为用恫吓、恐吓的手段能够保持政权十四年之久并能得到千百万群众的支持吗？",
+        "trigger": "inverted_logic",
+        "reader_block": "反问句式需要读者转换逻辑，将“难道……吗？”理解为“不可能……”，否则会误读为肯定陈述。",
+        "parse": {
+          "claim": "依靠恐吓手段无法长期维持政权并获得广大民众的拥护。",
+          "qualifiers": "限定于“十四年之久”和“千百万群众”这两个具体条件。",
+          "contrast_or_target": "路德维希认为苏维埃政权的稳固建立在引起居民恐惧的基础上。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "以反问形式提出核心论点，直接否定路德维希关于恐惧是政权基础的前提假设，为下文的历史例证做铺垫。"
+        },
+        "implication": "政权的长期稳固必须建立在其他基础上，而非恐惧。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "路德维希的“恐惧统治论”",
+      "their_view": "苏维埃政权的稳固在一定程度上是建筑在引起居民恐惧的心理基础上的。",
+      "author_response": "沙皇政府最擅长恫吓且经验丰富，但恐吓政策最终使其覆灭，证明这种手段无法长久。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p25s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p25s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p25s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p25s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p25s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p25s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p25s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p25s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  }
+}

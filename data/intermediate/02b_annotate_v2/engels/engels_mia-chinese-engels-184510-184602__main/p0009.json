@@ -1,0 +1,151 @@
+{
+  "_prompt_version": "marxist-v0.2-2026-04-30-scaffolding",
+  "n": 9,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "描述法国大革命消息传入德国后，德国知识界和资产阶级从最初的热情支持转向憎恨，揭示了这种支持的理论性和脱离实践的本质。",
+    "importance_score": 2,
+    "importance_reason": "通过具体历史例证，支撑了前文关于德国政治可耻、理论与实践脱节的论点。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对德国政治可耻状况的批评，以法国大革命在德国的反响为例，具体展示德国资产阶级和知识分子的理论性与软弱性。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p9s7",
+        "quote": "但是，一俟无可辩驳的事实把理论排挤到次要的地位，一俟法国宫廷和法国人民在实践上不可能再协调下去（虽然他们在理论上的联合已为1791年理论上的宪法所确定），一俟人民通过“八月十日”事件实际上确立了自己的主权[149]，尤其是当1793年5月31日吉伦特派的复亡弄得理论完全哑口无言的时候，这种德国式的热情就一变而为对革命的疯狂的憎恨了。",
+        "trigger": "long_nested",
+        "parse": {
+          "claim": "当法国革命的实践发展超越了德国人所接受的理论框架时，德国知识界对革命的态度发生了根本逆转。",
+          "qualifiers": "这种逆转发生在几个关键实践节点之后：革命事实压倒理论、宫廷与人民实践分裂、人民主权通过暴力事件确立、以及温和派（吉伦特派）在革命中失败。",
+          "contrast_or_target": "对比对象是德国人此前对革命理论的热情。他们只接受符合其理论想象的革命，一旦革命实践走向更激进、更现实的道路，他们便无法接受。"
+        },
+        "why": {
+          "relation": "contrasts",
+          "explanation": "本句通过列举一系列具体历史事件，与前文描述的“德国式热情”形成强烈对比，揭示了这种热情的脆弱性和脱离现实的本质，是本段论证的核心转折点。"
+        },
+        "implication": "这表明德国资产阶级和知识分子的革命观是抽象的、书本上的，一旦面临真正的阶级斗争和暴力实践，他们就会背弃革命。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null
+    },
+    "sentences": [
+      {
+        "sid": "p9s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p9s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p9s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p9s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p9s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p9s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "形而上学",
+            "type": "concept",
+            "modern": "此处指脱离物质实践、停留在抽象概念和逻辑推演层面的思维方式",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "metaphysics_abstract"
+          }
+        ]
+      },
+      {
+        "sid": "p9s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p9s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p9s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p9s10",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p9s11",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "神圣罗马粪堆",
+            "type": "metaphor",
+            "modern": "对已名存实亡的神圣罗马帝国及其所代表的封建秩序的蔑称",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 2,
+        "hs_kept": 1,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

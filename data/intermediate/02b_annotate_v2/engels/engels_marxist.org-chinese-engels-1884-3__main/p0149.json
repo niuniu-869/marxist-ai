@@ -1,0 +1,85 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 149,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "论证德意志人家庭形态对专偶制进步的影响，并反驳将此进步归因于其道德天性的观点。",
+    "importance_score": 2,
+    "importance_reason": "支撑性论证，通过德意志人的具体案例，说明家庭形态演进的物质基础，反驳唯心史观解释。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段关于德意志人家庭形态的讨论，具体分析其对专偶制进步的贡献，并反驳可能的唯心主义解释。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "对偶制与专偶制家庭",
+        "explain": "对偶制家庭是群婚制向专偶制过渡的形态，通常指一个男子在众多妻子中有一个主妻，而他对于她来说也是众多丈夫中的主夫。专偶制即一夫一妻制，是现代家庭形式的基础。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      },
+      {
+        "topic": "德意志人迁徙时期",
+        "explain": "指公元4至6世纪，日耳曼各部落大规模迁徙并最终进入罗马帝国境内，导致西罗马帝国灭亡的历史时期。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p149s2",
+        "quote": "这一进步决不是由于德意志人的什么传奇性的、道德上纯洁得神奇的天性所引起的，这种天性只不过是：对偶制实际上并不像专偶制那样在明显的道德对立中前进的。",
+        "trigger": "inverted_logic",
+        "reader_block": "双重否定（“决不是由于……天性”）加反讽（“纯洁得神奇的天性”），读者容易误读为对德意志人天性的正面描述，实际是彻底否定。",
+        "parse": {
+          "claim": "德意志人对专偶制的贡献，其根源并非他们拥有某种超凡脱俗的纯洁道德品质。",
+          "qualifiers": "针对将历史进步归因于民族天性的唯心史观解释。",
+          "contrast_or_target": "将德意志人的贡献归因于其固有的、传奇性的道德纯洁天性。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "本句直接反驳一种可能的唯心史观解释，即认为德意志人的进步源于其民族天性。作者通过否定这种解释，为下文从物质生活条件（家庭形态）寻找原因做铺垫。"
+        },
+        "implication": "历史进步的动因应从社会物质条件中寻找，而非归结为民族精神或道德特质。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "将历史进步归因于民族道德天性的唯心史观",
+      "their_view": "德意志人之所以能促进专偶制的进步，是因为他们天生具有纯洁、高尚的道德品质。",
+      "author_response": "这种解释是虚构的；德意志人的贡献源于他们当时仍处于对偶制家庭阶段这一物质事实，而非任何神奇的道德天性。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p149s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p149s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p149s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  }
+}

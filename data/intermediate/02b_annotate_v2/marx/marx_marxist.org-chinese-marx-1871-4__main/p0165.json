@@ -1,0 +1,113 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 165,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "揭露梯也尔政府在镇压巴黎公社时的两面手法：一边发动战争、推行恐怖，一边表演和解以欺骗各方。",
+    "importance_score": 2,
+    "importance_reason": "具体刻画了梯也尔政府的虚伪性，是作者批判资产阶级国家机器及其代表人物的关键例证。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于梯也尔与外省关系紧张的描述，进一步揭露其在军事镇压与政治欺骗上的双重操作。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "梯也尔与国民议会",
+        "explain": "梯也尔是当时法国资产阶级政府首脑，领导凡尔赛军队镇压巴黎公社。国民议会是其控制的立法机构，其中许多议员虽自称共和派，实则支持镇压。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p165s1",
+        "quote": "梯也尔一开始就竭力想在进行他的这场在他自己的公报中备受赞美的反对巴黎的强盗战争的同时，在他的部长们企图在全法国建立恐怖统治的同时，表演一出和解小戏。",
+        "trigger": "long_nested",
+        "reader_block": "句子包含两个“在……同时”的并列状语，将战争、恐怖统治与“和解小戏”并置，结构复杂，读者易迷失其核心讽刺意图。",
+        "parse": {
+          "claim": "梯也尔在发动镇压巴黎的战争并推行全国性恐怖政策的同时，却试图上演一场和解的假戏。",
+          "qualifiers": "时间限定为“一开始”，即公社起义初期；行为限定为“表演”，意指其虚假性。",
+          "contrast_or_target": ""
+        },
+        "why": {
+          "relation": "continues",
+          "explanation": "本句具体展开上段所述梯也尔与外省关系紧张的背景，揭示其应对策略的内在矛盾：军事镇压与政治欺骗并行。"
+        },
+        "implication": "这种两面手法旨在分化公社的支持者，为镇压争取时间和舆论空间。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "梯也尔",
+      "their_view": "梯也尔政府声称愿意与巴黎和解，试图扮演和平调停者的角色。",
+      "author_response": "马克思揭露这是虚伪的表演，其真实目的是在进行战争和恐怖统治的同时，欺骗民众并掩护其议会同伙的背叛行为。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p165s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "强盗战争",
+            "type": "metaphor",
+            "modern": "马克思用此讽刺性称谓，指梯也尔政府对巴黎公社发动的非正义镇压战争。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p165s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p165s3",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": [
+          {
+            "surface": "国民议会",
+            "type": "org",
+            "modern": "1871年2月在波尔多选出的法国议会，后迁至凡尔赛，是梯也尔政府的立法机构，授权其镇压巴黎公社。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 1,
+        "hs_kept": 1,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_6>5",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

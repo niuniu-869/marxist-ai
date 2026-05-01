@@ -1,0 +1,142 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 128,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段论证第二国际的破产是机会主义长期发展的历史产物，并指出清除机会主义已成为工人政党不可避免的任务。",
+    "importance_score": 3,
+    "importance_reason": "这是全文的核心批判段落，系统论证了机会主义的历史根源、表现及其与帝国主义时代的关系，并得出组织上清除机会主义的结论。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段的过渡提示，本段开始对第二国际破产的原因、性质和后果进行系统总结与论证。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "考茨基",
+      "their_view": "机会主义是统一的工人政党内部一个不走极端的合法派别，其存在是正常的，不应被清除。",
+      "author_response": "列宁指出，这种将机会主义视为党内合法派别的理论，是对工人的欺骗和运动的障碍，考茨基本人已沦为伪君子和马克思主义的糟蹋者。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p128s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "斯图加特和巴塞尔大会",
+            "type": "event",
+            "modern": "1907年和1912年第二国际通过反战决议的两次代表大会，是战前国际社会主义运动共识的体现。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p128s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p128s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p128s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p128s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p128s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p128s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p128s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p128s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p128s10",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p128s11",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "考茨基",
+            "type": "person",
+            "modern": "卡尔·考茨基，第二国际理论权威，中派代表，其理论被列宁视为机会主义的精致伪装。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p128s12",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 4,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_11>5",
+        "note:n1_overflow_concept_8>5",
+        "note:n2_circular_prefix",
+        "note:n2_5gram_with_surface"
+      ]
+    }
+  ]
+}

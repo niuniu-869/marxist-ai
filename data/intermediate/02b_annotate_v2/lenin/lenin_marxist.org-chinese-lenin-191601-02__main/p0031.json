@@ -1,0 +1,87 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 31,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段批判考茨基分子在民族自决权问题上的虚伪立场，指出他们口头拥护但实际反对政治分离自由，并为压迫民族的机会主义辩护。",
+    "importance_score": 2,
+    "importance_reason": "本段是列宁对考茨基主义在民族问题上机会主义路线的核心批判之一，具体揭露其理论与实践的矛盾。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对露骨兼并主义者的批判，转而批判更隐蔽、更具欺骗性的考茨基分子，揭示二者在实践上的一致性。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "cross_ref_pronoun",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "“前一类人”指谁",
+        "explain": "本段开头的“前一类人”指上一段列举的那些借口帝国主义进步性而赞成兼并、否认自决权的露骨兼并主义者（如库诺夫、帕尔乌斯等）。",
+        "why_needed": "cross_ref_pronoun",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "考茨基分子",
+      "their_view": "民族自决权可以口头拥护，但要求政治分离的自由就太过分了。压迫民族的社会党人不必为此采取特别的革命策略。",
+      "author_response": "列宁指出，这种立场是虚伪的，它抹杀了压迫民族社会党人的革命义务，为机会主义辩护，并实质上与露骨的兼并主义者站在一起。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p31s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "王德威尔得",
+            "type": "person",
+            "modern": "比利时工人党领袖，第二国际社会党国际局主席，一战中持社会沙文主义立场。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "列诺得尔",
+            "type": "person",
+            "modern": "法国社会党领导人之一，一战中支持“保卫祖国”，属于社会沙文主义者。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p31s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

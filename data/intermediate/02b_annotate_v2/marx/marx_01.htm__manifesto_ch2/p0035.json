@@ -1,0 +1,80 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 35,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段以反讽手法，指出资产阶级社会本身才符合其对共产主义的懒惰指控，并将资产阶级的担忧归结为一个同义反复。",
+    "importance_score": 2,
+    "importance_reason": "直接回应并驳斥了资产阶级对共产主义的核心指责之一，是论证中关键的反击环节。",
+    "argument_role": "contrasts",
+    "argument_link": "承接上一段转述的资产阶级反驳（废除私有制导致懒惰），本段通过反讽和逻辑归谬，直接反驳该指责的前提。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p35s2",
+        "quote": "所有这些顾虑，都可以归结为这样一个同义反复：一旦没有资本，也就不再有雇佣劳动了。",
+        "trigger": "inverted_logic",
+        "reader_block": "‘同义反复’一词可能让读者困惑，需理解作者意在指出资产阶级的担忧在逻辑上是空洞的。",
+        "parse": {
+          "claim": "资产阶级关于废除私有制后果的所有担忧，本质上只是在重复一个事实：消灭资本就等于消灭雇佣劳动。",
+          "qualifiers": "此归结针对的是资产阶级提出的所有相关顾虑。",
+          "contrast_or_target": "资产阶级将废除私有制描绘为一系列灾难性后果。"
+        },
+        "why": {
+          "relation": "conclusion",
+          "explanation": "本句将上一句的反讽论证收束，指出资产阶级所有恐惧的实质，即共产主义革命的目标（消灭资本与雇佣劳动）本身，从而消解其论证的复杂性。"
+        },
+        "implication": "资产阶级的恐惧源于其生产关系的终结，而非社会生产力的倒退。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "资产阶级",
+      "their_view": "废除私有制会消灭人的工作动力，导致懒惰盛行，最终使社会因缺乏活力而崩溃。",
+      "author_response": "马克思指出，若按此逻辑，资产阶级社会因其剥削结构（劳者不获，获者不劳）才更应早已灭亡；资产阶级的所有担忧，无非是害怕资本与雇佣劳动关系的终结。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p35s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p35s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 1,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

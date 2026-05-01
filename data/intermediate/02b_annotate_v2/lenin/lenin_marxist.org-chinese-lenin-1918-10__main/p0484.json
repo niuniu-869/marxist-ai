@@ -1,0 +1,122 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 484,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁批判王德威尔得和考茨基将无产阶级专政等同于“劳动的人民国家”的观点，指出这是折中主义和小资产阶级民主派的词句，忽视了阶级概念。",
+    "importance_score": 3,
+    "importance_reason": "本段是列宁批判考茨基机会主义的核心论证之一，直接反驳其将无产阶级专政等同于“人民国家”的折中主义观点。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对考茨基国家职能划分的批判，进一步揭露其理论的小资产阶级民主派实质。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "自由的人民国家",
+        "explain": "这是19世纪70年代德国社会民主党人提出的口号，被恩格斯在《哥达纲领批判》中斥责为无稽之谈，因为它用非阶级的“人民”概念掩盖了国家的阶级本质。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "考茨基和王德威尔得",
+      "their_view": "他们主张“劳动的人民国家”，将无产阶级取得政权等同于“人民”国家，宣扬“纯粹民主”。",
+      "author_response": "列宁指出这是折中主义的糊涂观念，是同马克思主义的完全决裂，是以非阶级概念代替阶级概念，忽视了无产阶级专政的任务。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p484s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p484s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "折中主义",
+            "type": "concept",
+            "modern": "在列宁的论战中，指调和无产阶级革命与机会主义的理论立场。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "opportunism_eclecticism"
+          }
+        ]
+      },
+      {
+        "sid": "p484s3",
+        "speaker": "quoted_engels",
+        "stance": "endorsed",
+        "notes": [
+          {
+            "surface": "自由的人民国家",
+            "type": "slogan",
+            "modern": "19世纪70年代德国社会民主党人提出的口号，被恩格斯批判。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p484s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p484s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p484s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "纯粹民主",
+            "type": "concept",
+            "modern": "考茨基用来指代超阶级的、全民的民主，列宁批判其为资产阶级民主的伪装。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "democracy_bourgeois"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 3,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_8>5"
+      ]
+    }
+  ]
+}

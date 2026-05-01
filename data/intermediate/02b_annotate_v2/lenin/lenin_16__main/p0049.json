@@ -1,0 +1,99 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 49,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "分析临时政府发动的前线进攻的阶级性质与必然后果，指出其服务于资本家利益并将导致军事独裁与对群众的镇压。",
+    "importance_score": 2,
+    "importance_reason": "对具体历史事件（六月攻势）进行定性分析，揭示其阶级本质，是支撑全文核心论点的关键例证。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对六月示威和克伦斯基宣布进攻的叙述，转而深入剖析这次进攻的实质与后果。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "波拿巴主义者",
+        "explain": "源自拿破仑三世（波拿巴）的历史概念，指可能通过军事政变建立个人独裁的军人集团。在俄国语境下，指临时政府中主张以强力维持秩序、可能走向军事独裁的将领。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p49s2",
+        "quote": "因此，进攻一方面必然使沙文主义大大加强，使军权（因而也使政权）转到波拿巴主义者这一帮军人手中，另一方面必然对群众采取暴力，迫害国际主义者，取消鼓动自由，逮捕和枪杀反对战争的人。",
+        "trigger": "long_nested",
+        "reader_block": "长句包含“一方面……另一方面……”的并列结构，且堆叠了“沙文主义”“波拿巴主义者”“国际主义者”等术语，读者可能难以把握其整体逻辑和因果链条。",
+        "parse": {
+          "claim": "这次进攻会带来两个并行的后果：一是强化民族主义情绪并导致军政大权落入军人集团；二是对反战的社会主义者和普通民众实施镇压。",
+          "qualifiers": "“必然”一词表明作者认为这些后果是进攻政策内在逻辑的确定产物。",
+          "contrast_or_target": "反驳临时政府及其支持者认为进攻是保卫革命所必需的观点，揭示其实际后果与宣称目的相悖。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "本句具体阐述了上句定性（为资本家利益服务）的进攻所带来的双重政治后果，旨在揭露临时政府政策的反动实质，反驳其继续战争的合理性。"
+        },
+        "implication": "作者意在说明，临时政府的战争政策不仅在道义上违背人民意愿，在政治上也必然导向军事独裁和民主倒退，从而论证将全部政权转归苏维埃的紧迫性。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "临时政府及其支持者（孟什维克、社会革命党等妥协派）",
+      "their_view": "认为继续进行战争是保卫革命成果所必需，进攻具有正当性。",
+      "author_response": "列宁指出，这次进攻的实质是为资本家利益服务，违背人民意志，其后果必然是加强沙文主义、导致军事独裁并镇压国内反对派。",
+      "polemic_kind": "reveals_class_basis",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p49s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p49s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "沙文主义",
+            "type": "concept",
+            "modern": "在战争语境下，指极端的、侵略性的民族主义情绪，用以煽动民众支持战争。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "chauvinism"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 2,
+        "hs_kept": 1,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

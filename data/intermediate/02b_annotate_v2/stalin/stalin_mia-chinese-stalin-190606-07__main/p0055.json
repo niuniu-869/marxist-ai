@@ -1,0 +1,81 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 55,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段指出克鲁泡特金派成员在《号召报》上一致支持克鲁泡特金的观点，展示无政府主义阵营的内部一致性。",
+    "importance_score": 1,
+    "importance_reason": "本段作为例子，承接上段对克鲁泡特金的介绍，强化无政府主义者立场的一致性。",
+    "argument_role": "continues",
+    "argument_link": "本段承接上段关于克鲁泡特金理论的陈述，进一步说明其追随者公开附和，为后续批判无政府主义提供事实依据。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "沙·哥·身份",
+        "explain": "沙·哥·是克鲁泡特金派的一位成员，具体全名和背景在现有材料中不详，但他是无政府主义阵营中附和克鲁泡特金观点的人物。",
+        "why_needed": "history_missing",
+        "confidence": "medium",
+        "source_basis": "inferred"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p55s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "车尔凯兹施维里",
+            "type": "person",
+            "modern": "格鲁吉亚无政府主义者，曾攻击辩证法",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "号召报",
+            "type": "work",
+            "modern": "无政府主义者发表观点的报刊",
+            "highlight": "polemic",
+            "confidence": "medium",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_5gram_with_surface",
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 105,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "恩格斯通过引用并剖析克利盖的原话，讽刺其将共产主义运动建立在虚幻的宗教情感和道德说教之上，而非现实的阶级斗争。",
+    "importance_score": 2,
+    "importance_reason": "本段是恩格斯对克利盖核心错误——用宗教情感取代阶级分析——的具体剖析，是论证其“共产主义”非科学性的关键例证。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对克利盖“宗教”式共产主义的讽刺，本段具体分析克利盖如何将这种“宗教心”作为其行动的出发点，从而揭示其脱离现实阶级基础的本质。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "refute_quotation"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p105s1",
+        "quote": "（9）“难道我们就不能严肃地对待长期受抑制的宗教心的激动，不能为彻底实现穷人、不幸者、被压迫者的兄弟友爱的乐园而斗争吗？”",
+        "trigger": "inverted_logic",
+        "reader_block": "反问句式加上“宗教心”“兄弟友爱的乐园”等宗教化表述，读者容易误以为这是作者的正面主张，而忽略这是引用论敌的话。",
+        "parse": {
+          "claim": "克利盖主张，应该严肃对待被压抑的宗教情感，并为建立穷人间的博爱社会而奋斗。",
+          "qualifiers": "克利盖将这种情感描述为“长期受抑制的”，将目标描述为“彻底实现”的“乐园”。",
+          "contrast_or_target": "克利盖将共产主义运动建立在宗教情感和道德说教之上，而非现实的阶级矛盾和革命实践。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "此句是恩格斯直接引用克利盖的原话，作为其批判的靶子。恩格斯通过展示克利盖如何用宗教和道德语言包装其主张，来揭露其理论的非科学性和小资产阶级空想色彩。"
+        },
+        "implication": "恩格斯意在表明，克利盖的“共产主义”诉求本质上是一种道德呼吁，而非基于对资本主义生产方式和阶级斗争的科学分析。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p105s1",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": [
+          {
+            "surface": "宗教心",
+            "type": "concept",
+            "modern": "克利盖用来指代一种基于道德情感和宗教冲动的内在驱动力，恩格斯用此词讽刺其理论的唯心主义基础。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "religion_sentiment"
+          }
+        ]
+      },
+      {
+        "sid": "p105s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p105s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p105s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p105s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 0,
+        "hs_kept": 1,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

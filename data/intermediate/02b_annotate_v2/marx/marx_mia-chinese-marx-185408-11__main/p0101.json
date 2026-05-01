@@ -1,0 +1,106 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 101,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段通过梳理西班牙议会史，反驳英国托利党人将西班牙单一议院制等同于法国大革命产物的观点。",
+    "importance_score": 2,
+    "importance_reason": "本段为理解西班牙议会制度的独特性提供历史依据，支撑作者对当代观察家的反驳。",
+    "argument_role": "continues",
+    "argument_link": "本段承接上文对选举权的讨论，转向议会结构本身，用历史事实反驳将西班牙制度简单归因于法国影响的观点。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p101s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p101s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "查理一世（德皇查理五世）",
+            "type": "person",
+            "modern": "西班牙国王查理一世即神圣罗马帝国皇帝查理五世，16世纪初在位。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p101s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p101s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "纳瓦腊",
+            "type": "place",
+            "modern": "西班牙北部地区，保留了按等级开会的传统。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "巴斯克各省",
+            "type": "place",
+            "modern": "西班牙北部地区，议会具有民主特征，排斥僧侣代表。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p101s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 3,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_archaic_10>4",
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

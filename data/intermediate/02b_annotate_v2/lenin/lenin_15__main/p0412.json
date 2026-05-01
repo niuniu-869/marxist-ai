@@ -1,0 +1,66 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 412,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段呈现一个百分比数字，但内容不完整或存在排版错误，无法构成有效论述。",
+    "importance_score": 0,
+    "importance_reason": "本段疑似文本残留或错误，无实质论证内容，在全文中可跳过。",
+    "argument_role": "none",
+    "argument_link": "",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "text_anomaly",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "text_anomaly",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "文本异常",
+        "explain": "原文显示为两个百分比数字，疑似排版残留或OCR识别错误，影响对段落本意的理解。",
+        "why_needed": "text_anomaly",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p412s1",
+        "quote": "100.0% 100.0%",
+        "trigger": "text_anomaly",
+        "reader_block": "数字乱码，读者无法判断其指代内容，疑似排版错误导致信息缺失。",
+        "parse": {
+          "claim": "本段可能意在展示某个百分比数据，但具体含义不明。",
+          "qualifiers": "",
+          "contrast_or_target": ""
+        },
+        "why": {
+          "relation": "none",
+          "explanation": ""
+        },
+        "implication": null,
+        "confidence": "low",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p412s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  }
+}

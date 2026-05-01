@@ -1,0 +1,72 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 35,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "说话者以反问句式批评对方只阅读拉辛和伏尔泰的著作，暗示其脱离现实。",
+    "importance_score": 1,
+    "importance_reason": "本段为传记对话片段，展现人物态度，服务于叙事细节。",
+    "argument_role": "continues",
+    "argument_link": "本段承接上段动作，具体化说话者的批评内容。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "持消极态度的知识分子",
+      "their_view": "他们认为阅读经典文学作品是高尚的消遣，无需关心社会变革。",
+      "author_response": "传记作者通过弗里德里希斯之口，批评这种脱离现实的学术态度。",
+      "polemic_kind": "strategic_critique",
+      "confidence": "medium"
+    },
+    "sentences": [
+      {
+        "sid": "p35s1",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": [
+          {
+            "surface": "拉辛",
+            "type": "person",
+            "modern": "17世纪法国剧作家，作品常被用作文学典范。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "伏尔泰",
+            "type": "person",
+            "modern": "18世纪法国启蒙运动代表人物，倡导理性与批判精神。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

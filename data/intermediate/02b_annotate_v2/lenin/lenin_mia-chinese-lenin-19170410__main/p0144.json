@@ -1,0 +1,69 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 144,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "作者指代前文提及的国际组织，并断言其成员是革命国际主义群众的唯一真正代表，与腐蚀群众者对立。",
+    "importance_score": 1,
+    "importance_reason": "本段承接建立新国际的论述，具体界定该国际的成员性质。",
+    "argument_role": "continues",
+    "argument_link": "本段紧接上文关于建立革命无产阶级新国际的呼吁，明确该国际由真正的国际主义者组成，代表革命国际主义群众。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "cross_ref_pronoun",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "真正的国际主义者",
+        "explain": "指列宁在前文提到的那些坚持国际主义立场、反对机会主义和护国主义的社会主义者，具体人物未在本段列出。",
+        "why_needed": "cross_ref_pronoun",
+        "confidence": "medium",
+        "source_basis": "inferred"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p144s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p144s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

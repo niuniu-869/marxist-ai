@@ -1,0 +1,86 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 36,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁论证，即便德国革命可能很快爆发，也不能以此为赌注，拿俄国社会主义革命的命运去冒险。",
+    "importance_score": 2,
+    "importance_reason": "这是对党内“革命战争”派核心论据的直接批判，是支撑列宁“立即缔约”主张的关键论证环节。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段关于继续战争将导致更不利和约的推论，进一步指出，即使存在德国革命爆发的可能，也不能以此作为冒险的依据。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "主张立即进行革命战争的党内同志",
+      "their_view": "德国革命可能在几周内爆发，因此应该抓住时机，通过继续战争来推动和迎接这场革命。",
+      "author_response": "列宁认为，将俄国已开始的社会主义革命的命运押在这种不确定的时间表上，是一种不可容许的冒险行为。",
+      "polemic_kind": "strategic_critique",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p36s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p36s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "冒险",
+            "type": "metaphor",
+            "modern": "列宁将这种策略比作一场赌博，强调其结果的高度不确定性和潜在的巨大风险。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p36s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "权利",
+            "type": "concept",
+            "modern": "此处指革命政党对历史进程和本国无产阶级所负有的责任，而非法律意义上的权利。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "inferred",
+            "sense_id": "rights_revolutionary"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

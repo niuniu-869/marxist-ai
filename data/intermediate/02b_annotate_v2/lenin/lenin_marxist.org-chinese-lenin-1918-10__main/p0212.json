@@ -1,0 +1,84 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 212,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁利用考茨基对苏维埃的承认，论证其避免阶级斗争的立场与革命现实相矛盾。",
+    "importance_score": 2,
+    "importance_reason": "通过揭露对手承认关键事实与其理论立场的矛盾，强化对机会主义的批判。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对考茨基隐瞒事实的揭露，进一步利用考茨基自己的承认来论证其立场的内在矛盾。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "苏维埃的性质",
+        "explain": "苏维埃是俄国革命中出现的工人、士兵和农民代表会议，是群众直接参与政治和斗争的组织形式，与议会制相对。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p212s2",
+        "quote": "既然这样，考茨基的整个立场也就象纸牌搭成的房子一样倒塌了，象小资产者那种企图避免无产阶级同资产阶级的尖锐斗争的幻想一样破灭了。",
+        "trigger": "inverted_logic",
+        "reader_block": "比喻（纸牌房子）与论断（立场倒塌）结合，读者可能不理解这个比喻如何具体证明考茨基立场的崩溃。",
+        "parse": {
+          "claim": "考茨基承认苏维埃是好组织，但这与其试图避免阶级斗争的整体立场直接冲突，导致其理论体系崩溃。",
+          "qualifiers": "",
+          "contrast_or_target": "考茨基认为可以通过民主方法避免无产阶级与资产阶级的暴力冲突。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "本句是核心反驳，指出考茨基承认一个革命事实（苏维埃），却坚持一个与之矛盾的非革命立场（避免斗争），从而揭露其理论的自相矛盾。"
+        },
+        "implication": "任何承认革命组织必要性却反对革命斗争的理论，都存在根本性的逻辑缺陷。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "考茨基",
+      "their_view": "苏维埃是无产阶级的极好的战斗组织，但无产阶级可以通过民主方法而非暴力专政来实现目标。",
+      "author_response": "列宁指出，承认苏维埃的战斗性质，就等于承认革命是殊死斗争，这与考茨基避免阶级斗争的幻想直接矛盾。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p212s1",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p212s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p212s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p212s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  }
+}

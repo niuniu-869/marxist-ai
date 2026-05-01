@@ -1,0 +1,88 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 5,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "马克思直接判定蒲鲁东的著作是坏书，并指出其经济学谬误的根源在于对现代社会有机联系的无知，而非其哲学本身。",
+    "importance_score": 3,
+    "importance_reason": "核心论断段，明确表达了对蒲鲁东著作的总体否定，并揭示了其错误的根本原因，为后续具体批判定调。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对蒲鲁东著作的初步印象，此处给出明确的总体评价，并开始剖析其错误的根源。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "现代社会制度联结",
+        "explain": "这是蒲鲁东从空想社会主义者傅立叶那里借用的术语，指社会各部分（如工业、农业、家庭等）像机器零件一样相互依存、构成有机整体的关系。马克思用此词批评蒲鲁东不理解现代社会的真实结构。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "蒲鲁东",
+      "their_view": "蒲鲁东认为，他运用的那套哲学范畴（如普遍理性、永恒观念）能够为政治经济学提供正确的批判基础，其经济学论述与哲学是分离的。",
+      "author_response": "马克思指出，蒲鲁东经济学批判的谬误与其哲学的可笑是同一根源，即对现代社会各部分有机联系的无知。哲学并非独立的污染源，而是这种无知的表现。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p5s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p5s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p5s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p5s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p5s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_8>5",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 108,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "批评立宪民主党人不敢承认，当前民主运动将改变旧有国界。",
+    "importance_score": 1,
+    "importance_reason": "通过批评立宪民主党人，间接支持民族自决权原则。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对迎合农奴主利益立场的批评，具体指出立宪民主党人在此问题上的矛盾。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_density",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "立宪民主党人",
+        "explain": "俄国1905年革命后出现的自由主义政党，主张君主立宪，代表资产阶级利益，在1914年时是俄国杜马中的主要反对派。",
+        "why_needed": "history_density",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "普利什凯维奇之流",
+        "explain": "指以普利什凯维奇为代表的俄国反动贵族和地主，象征沙皇专制和封建残余势力。",
+        "why_needed": "history_density",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "立宪民主党人",
+      "their_view": "我们是民主主义者，但民主运动应当保存由封建时代决定的现有国界。",
+      "author_response": "列宁指出他们不敢公开肯定这一点，暴露了其民主主张与维护旧秩序之间的矛盾。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p108s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

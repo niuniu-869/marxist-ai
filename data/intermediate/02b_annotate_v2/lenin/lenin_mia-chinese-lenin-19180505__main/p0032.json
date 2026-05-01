@@ -1,0 +1,61 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 32,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁以讽刺口吻质疑“左派共产主义者”提出的“最坚决的社会化”口号，为后续批判其空洞性做铺垫。",
+    "importance_score": 2,
+    "importance_reason": "本段是列宁对“左派共产主义者”核心口号发起直接质疑的起点，为后续批判其理论空洞性和实践危害性做铺垫。",
+    "argument_role": "contrasts",
+    "argument_link": "本段直接针对上段引述的“左派共产主义者”关于“最坚决的社会化”的主张，通过讽刺和反问开启对其口号空洞性的批判。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "“左派共产主义者”",
+      "their_view": "我们主张实行最坚决的社会化，彻底粉碎怠工，完全打倒资产阶级。",
+      "author_response": "列宁指出其行动口号缺乏对现实条件的思考，并追问该口号的具体内容。",
+      "polemic_kind": "strategic_critique",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p32s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p32s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

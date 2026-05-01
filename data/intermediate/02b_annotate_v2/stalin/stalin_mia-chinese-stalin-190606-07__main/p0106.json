@@ -1,0 +1,55 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 106,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "作者以反讽口吻描述无政府主义者与自身虚构的幻想斗争，却误以为在对抗真实敌人。",
+    "importance_score": 1,
+    "importance_reason": "本段通过讽刺性评论，强化对无政府主义者理论脱离实际的批判，属于论战中的辅助性内容。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于无政府主义者虚构辩证法的论述，进一步嘲讽其斗争对象的虚幻性。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "无政府主义者",
+      "their_view": "无政府主义者认为自己在打击敌人，但实际是与自己的幻想作斗争。",
+      "author_response": "作者指出这种行为是可笑的，因为他们斗争的对象是虚构的。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p106s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

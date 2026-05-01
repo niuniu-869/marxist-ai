@@ -1,0 +1,86 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 6,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "莫斯科郊区组织开始农村工作，因缺乏经验、条件特殊、决议指示不明确及参考材料匮乏，向中央和同志们请求原则性与实践性的详细指导。",
+    "importance_score": 1,
+    "importance_reason": "交代工作背景与请求原因，为后续策略讨论铺垫。",
+    "argument_role": "continues",
+    "argument_link": "作为公开信的开篇，承接标题，直接陈述工作现状与请求。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p6s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p6s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "莫斯科委员会的郊区组织",
+            "type": "org",
+            "modern": "1905年革命期间，俄国社会民主工党在莫斯科地区负责农村工作的下属机构。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p6s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "原则性和实践性的详细指示",
+            "type": "slogan",
+            "modern": "列宁强调的、既包含理论指导又包含具体操作方法的党内指示。",
+            "highlight": null,
+            "confidence": "medium",
+            "source_basis": "inferred"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 2,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_5gram_with_surface",
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

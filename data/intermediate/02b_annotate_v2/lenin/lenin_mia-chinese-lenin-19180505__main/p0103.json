@@ -1,0 +1,75 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 103,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段区分了对待资产阶级知识分子的两种态度：政治上剥夺与服从，技术上学习与利用。",
+    "importance_score": 2,
+    "importance_reason": "支撑了列宁关于利用资产阶级专家进行社会主义建设的核心论点，是其策略思想的具体展开。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段关于向资产阶级专家学习的论述，进一步阐明学习的前提（政治剥夺）与必要性（缺乏管理经验）。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "资产阶级知识分子",
+        "explain": "在马克思主义语境中，指拥有专业知识（如技术、管理、科学）但阶级出身或立场属于资产阶级或小资产阶级的群体。列宁强调在政治上要剥夺其权力，但在经济建设中要利用其技能。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "“左派共产主义者”",
+      "their_view": "应该“教导”资产阶级知识分子学习社会主义，或者认为可以与他们进行平等的思想交流。",
+      "author_response": "这种想法是幼稚的。正确的做法是政治上剥夺他们、粉碎其怠工，迫使他们服从政权；同时，共产主义者应放下身段，向他们学习管理大企业的实际技能。",
+      "polemic_kind": "strategic_critique",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p103s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p103s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p103s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

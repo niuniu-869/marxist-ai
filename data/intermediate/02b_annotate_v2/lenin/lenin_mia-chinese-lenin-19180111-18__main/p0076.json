@@ -1,0 +1,76 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 76,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁指认反革命怠工者是被资产阶级收买的官吏，并反思苏维埃政权此前对资产阶级代表过于宽容。",
+    "importance_score": 1,
+    "importance_reason": "作为报告的一部分，具体描述了新生政权面临的内部破坏形式，并为后续更严厉的措施提供理由。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于结束战争的论述，转向国内战线，具体说明苏维埃政权面临的内部破坏力量及其阶级根源。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "反革命怠工者（官吏）",
+      "their_view": "工农群众对资产阶级的革命行动，如同世界末日般可怕，是对既有秩序的彻底毁灭。",
+      "author_response": "这些怠工者是被资产阶级收买、为反动势力服务的队伍；苏维埃政权此前的错误在于对他们过于人道。",
+      "polemic_kind": "reveals_class_basis",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p76s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p76s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "工农的巨斧",
+            "type": "metaphor",
+            "modern": "比喻无产阶级和农民阶级联合起来的、摧毁旧制度的革命力量。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p76s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 240,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁引用选举数据，论证社会革命党人和孟什维克在群众中失去支持，而布尔什维克获得支持。",
+    "importance_score": 2,
+    "importance_reason": "用选举数据实证支撑布尔什维克获得群众支持、论敌失去支持的论点。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对《新生活报》忽视教训的批评，用选举数据实证说明论敌垮台和布尔什维克获胜。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p240s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "策列铁里先生之流",
+            "type": "person",
+            "modern": "以策列铁里为代表的孟什维克和社会革命党领导人，他们在七月事变中支持镇压布尔什维克。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p240s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p240s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "《人民事业报》",
+            "type": "work",
+            "modern": "社会革命党的官方报纸。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_5gram_with_surface",
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

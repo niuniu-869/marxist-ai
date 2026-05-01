@@ -1,0 +1,146 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 105,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段论述苏维埃政权需发展群众性管理组织以防止官僚化，并批判了将社会主义与资本主义抽象对立、幻想瞬间“飞跃”的错误认识。",
+    "importance_score": 2,
+    "importance_reason": "本段是列宁关于社会主义建设具体路径的核心论述之一，提出了吸收劳动者参与管理的实践目标，并批判了脱离实际的教条主义理解。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于小资产阶级自发势力影响的分析，具体提出发展苏维埃组织、吸收群众参与管理的实践方案，以对抗这种自发趋势。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "allusion",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "“从必然王国进入自由王国的飞跃”",
+        "explain": "此语出自恩格斯《反杜林论》，指人类摆脱盲目必然性支配、实现自由联合的历史性转变。列宁在此引用，旨在批判那些将此“飞跃”理解为瞬间完成的抽象观点。",
+        "why_needed": "allusion",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "某些自诩的社会主义者与“知识界”",
+      "their_view": "社会主义与资本主义是抽象对立的，两者间的转变是一个可以用“飞跃”一词概括的、突然的、抽象的转折点。他们脱离实际管理任务，为旧秩序的丧失而哀叹。",
+      "author_response": "列宁指出，社会主义导师所说的“飞跃”是持续多年的宏大历史转变过程。当前的任务是投身于具体的、长期的管理实践，而非抽象哀叹或幻想瞬间转变。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p105s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p105s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p105s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p105s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p105s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p105s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p105s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p105s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p105s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "飞跃",
+            "type": "concept",
+            "modern": "此处特指从资本主义社会形态向社会主义社会形态的根本性、革命性转变。列宁强调其历史延续性，反对将其理解为瞬间完成的抽象事件。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "leap_historical_transition"
+          }
+        ]
+      },
+      {
+        "sid": "p105s10",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p105s11",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "哭丧妇",
+            "type": "metaphor",
+            "modern": "比喻那些在社会大变革时期，为旧制度、旧秩序的消亡而哀叹、抱怨的知识分子。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 3,
+        "hs_kept": 0,
+        "hs_dropped": 2,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_7>5",
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix",
+        "hs:claim_5gram_with_quote",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

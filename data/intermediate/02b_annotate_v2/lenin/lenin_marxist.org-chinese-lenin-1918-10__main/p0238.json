@@ -1,0 +1,86 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 238,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁以反讽手法，描述无产阶级在革命实践中建立苏维埃、制定法律，却遭到资产阶级及其代言人考茨基的攻击。",
+    "importance_score": 2,
+    "importance_reason": "本段是核心批判的一部分，通过反讽揭示考茨基等人对无产阶级革命实践的蔑视。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对资产阶级法律体系的批判，进一步揭露考茨基等人对无产阶级自身政治创造的敌视态度。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p238s3",
+        "quote": "这些普通的劳动者，得不到有学识的律师们的忠告，得不到资产阶级著作家的忠告，得不到考茨基之流和明哲练达的官吏的忠告，怎么会有正义感呢？",
+        "trigger": "inverted_logic",
+        "reader_block": "反问句式加上“得不到忠告”“怎么会有正义感”，读者可能误以为列宁在质疑工人的能力，实际是反讽。",
+        "parse": {
+          "claim": "普通劳动者不需要资产阶级知识分子的指导也能形成正义感。",
+          "qualifiers": "在无产阶级专政的实践中。",
+          "contrast_or_target": "考茨基等人认为正义感必须来自有学识的律师、著作家和官吏的教导。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "本句延续反讽，进一步驳斥考茨基将正义感与资产阶级知识精英绑定的观点，强调无产阶级的主体性。"
+        },
+        "implication": "无产阶级的正义感产生于其被剥削的共同处境和革命斗争，而非外部灌输。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "考茨基",
+      "their_view": "工人农民是无知的“小百姓”，他们无法理解法律，也缺乏正义感，必须依靠有学识的律师、著作家和官吏的指导。",
+      "author_response": "这是对无产阶级革命创造力和政治能力的蔑视，是机会主义的体现。无产阶级在斗争中自己创造法律和正义。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p238s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p238s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p238s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 1,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

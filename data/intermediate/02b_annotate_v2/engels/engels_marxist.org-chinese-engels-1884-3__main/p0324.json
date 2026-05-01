@@ -1,0 +1,110 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 324,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "以罗马为例，说明国家制度取代氏族制度后，阶级分化导致土地集中和农民破产，最终引发帝国统治和外族入侵。",
+    "importance_score": 2,
+    "importance_reason": "作为核心论点的具体历史例证，展示国家制度下阶级斗争与土地集中的后果。",
+    "argument_role": "example",
+    "argument_link": "承接上段关于罗马国家制度建立的论述，具体展示该制度下阶级斗争和土地集中的历史过程。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p324s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "勒克斯",
+            "type": "person",
+            "modern": "古罗马王政时期最高统治者的称号，通常为终身制。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "易洛魁人",
+            "type": "person",
+            "modern": "北美印第安部落，其氏族制度被摩尔根作为原始社会范例研究。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "执政官",
+            "type": "person",
+            "modern": "罗马共和国取代王政后设立的两名最高行政长官，任期一年。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p324s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "贵族与平民",
+            "type": "social_group",
+            "modern": "罗马共和国早期两大对立社会集团，围绕政治权利和土地分配长期冲突。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p324s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "帝政",
+            "type": "event",
+            "modern": "罗马从共和国向帝国过渡的政体，始于公元前27年屋大维获奥古斯都称号。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 5,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

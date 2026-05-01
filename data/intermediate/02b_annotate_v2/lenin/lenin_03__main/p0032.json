@@ -1,0 +1,102 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 32,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁提出判断政治政策的标准：应依据其服务的阶级实质，而非其宣称的崇高目的。",
+    "importance_score": 2,
+    "importance_reason": "本段提出核心的阶级分析方法，是反驳论敌辩护逻辑的理论武器。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对反对派“崇高目的”的模仿，转而提出评判这些目的的真正标准。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p32s2",
+        "quote": "但是，一切搞政治的人难道没有听说过，判断政策不是根据声明，而是根据实在的阶级内容？",
+        "trigger": "inverted_logic",
+        "reader_block": "反问句式，读者可能只注意到修辞，而忽略其提出的“声明”与“阶级内容”的核心对立。",
+        "parse": {
+          "claim": "判断任何政治政策的性质，其依据必须是它实际服务的阶级利益，而非它公开宣称的口号或意图。",
+          "qualifiers": "限定于“一切搞政治的人”，即所有参与政治活动者都应知晓此标准。",
+          "contrast_or_target": "针对那些以“崇高目的”或“和平声明”来为自身行为辩护的反对派，他们认为声明本身足以证明其正当性。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "本句直接针对论敌用“声明”（如崇高目的）来辩护的逻辑，提出马克思主义的阶级分析标准作为反驳前提。"
+        },
+        "implication": "由此推论，任何与帝国主义结盟的行为，无论其声明如何，都因其阶级内容而应被定性。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p32s1",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p32s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "阶级内容",
+            "type": "concept",
+            "modern": "在马克思主义语境下，指一项政策或行为实际维护和代表的特定阶级的根本利益与立场。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "class_marxist"
+          }
+        ]
+      },
+      {
+        "sid": "p32s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p32s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 0,
+        "hs_kept": 1,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 52,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁阐述对“革命民主”这一术语的审慎态度，强调在阶级混杂的当下使用该词具有欺骗性，并指出苏维埃的阶级属性比其形式更重要。",
+    "importance_score": 2,
+    "importance_reason": "本段提出了重要的术语使用原则和阶级分析方法，对理解布尔什维克在革命过渡时期的策略有支撑作用。",
+    "argument_role": "continues",
+    "argument_link": "延续上一段对临时政府的阶级分析，进一步讨论在描述当前政治形势时应如何准确使用术语，以避免混淆阶级界限。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "“革命民主”术语",
+        "explain": "在1917年二月革命后，孟什维克和社会革命党人常用“革命民主”来描述俄国的政权性质，认为它代表了工农等革命阶级的利益。列宁在此质疑这一标签的准确性。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p52s2",
+        "quote": "在谈到政府的进攻时，可以用这个词，但是现在，这样说就掩盖着很大的欺骗，因为卷入这个漩涡的各个阶级实在是清浊难辨。",
+        "trigger": "inverted_logic",
+        "reader_block": "句子包含一个转折（“但是现在”），读者可能困惑于为何有时可用有时不可用，需要理解其背后的阶级分析逻辑。",
+        "parse": {
+          "claim": "在特定语境（如政府采取进攻性行动时）使用“革命民主”一词或许有其指代对象，但在当前时刻，该词掩盖了各阶级混杂不清的实质。",
+          "qualifiers": "限定条件是“现在”这个特定时刻，以及“政府的进攻”这一特定语境。",
+          "contrast_or_target": "针对那些不加区分地、持续地将当前政权称为“革命民主”的观点，认为这掩盖了资产阶级与无产阶级等不同阶级利益的混杂状态。"
+        },
+        "why": {
+          "relation": "contrasts",
+          "explanation": "本句与上一句（避免使用该词）形成对比，通过设定一个有限的使用场景（政府进攻时），来凸显在当前更普遍的情况下使用该词的欺骗性，从而强化了避免滥用的论点。"
+        },
+        "implication": "布尔什维克党在宣传和策略上必须精确使用政治术语，以揭露而非掩盖政权的阶级实质。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p52s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p52s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "革命民主",
+            "type": "concept",
+            "modern": "在1917年俄国语境下，常被用来描述二月革命后具有广泛阶级联盟基础的政权性质，列宁在此特指其模糊性。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "democracy_bourgeois"
+          }
+        ]
+      },
+      {
+        "sid": "p52s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p52s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "苏维埃",
+            "type": "org",
+            "modern": "工兵代表苏维埃，是二月革命后出现的群众性政治组织，与资产阶级临时政府并存。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "阶级",
+            "type": "concept",
+            "modern": "马克思主义理论中，指在生产关系中处于不同地位的社会集团，其根本利益相互对立。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "class_marxist"
+          }
+        ]
+      },
+      {
+        "sid": "p52s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "无产阶级",
+            "type": "concept",
+            "modern": "现代工业社会中不占有生产资料、依靠出卖劳动力为生的阶级，是社会主义革命的领导力量。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "proletarian_modern"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 4,
+        "notes_dropped": 1,
+        "hs_kept": 1,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

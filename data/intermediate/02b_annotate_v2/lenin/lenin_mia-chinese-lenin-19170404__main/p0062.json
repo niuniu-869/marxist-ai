@@ -1,0 +1,72 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 62,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁向群众澄清当前革命阶段的核心任务，并指出资本主义已进入战时新形态。",
+    "importance_score": 2,
+    "importance_reason": "界定从资产阶级民主革命向社会主义革命过渡的具体任务，是《四月提纲》路线的核心阐述。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于苏维埃应掌握管理权的论述，进一步明确当前阶段的具体目标与资本主义的新特征。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "军事资本主义",
+        "explain": "列宁用此词指第一次世界大战期间，国家机器与垄断资本深度融合、经济全面军事化的资本主义新阶段，与战前自由竞争或一般垄断资本主义不同。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p62s1",
+        "quote": "必须对群众说明，现在不是要“实现社会主义”，而是要促其实现（？）。",
+        "trigger": "inverted_logic",
+        "reader_block": "句末的问号（？）制造了反讽或强调效果，读者可能困惑：列宁到底是在否定“实现社会主义”，还是在强调另一层意思？",
+        "parse": {
+          "claim": "当前阶段的直接目标并非立即建成社会主义制度，而是为它的到来创造条件。",
+          "qualifiers": "限定于1917年4月俄国革命的具体阶段。",
+          "contrast_or_target": "针对那些认为二月革命后可立即宣布或着手建立社会主义制度的急躁观点。"
+        },
+        "why": {
+          "relation": "definition",
+          "explanation": "为布尔什维克在过渡时期的任务下定义，区分“最终目标”与“当前步骤”。"
+        },
+        "implication": "这为《四月提纲》中“不给临时政府任何支持”、“全部政权归苏维埃”等策略提供了理论依据，即先巩固苏维埃政权，再谈社会主义。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p62s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p62s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  }
+}

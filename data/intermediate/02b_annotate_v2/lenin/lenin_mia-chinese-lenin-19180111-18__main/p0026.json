@@ -1,0 +1,156 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 26,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁通过一系列反问，揭示“打倒国内战争”这一口号的实质是反对苏维埃政权对剥削者及其附庸的武装斗争。",
+    "importance_score": 2,
+    "importance_reason": "直接反驳当时流行的和平主义口号，为苏维埃政权进行国内战争的必要性进行辩护，是核心论点的具体展开。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段关于过渡时期困难的论述，具体化指出当前主要矛盾是国内战争，并反驳要求停止这一斗争的论调。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "科尔尼洛夫、克伦斯基、里亚布申斯基",
+        "explain": "科尔尼洛夫是1917年发动军事叛乱的将军；克伦斯基是二月革命后资产阶级临时政府首脑；里亚布申斯基是代表大资产阶级利益的政治家。他们都是十月革命后苏维埃政权的主要敌人。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "“怠工者”",
+        "explain": "指十月革命后，旧国家机器和经济管理部门中，拒绝为苏维埃政权服务、消极抵抗的官吏和技术人员。他们常被反革命势力收买或利用。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p26s10",
+        "quote": "但是，这难道能改变情况吗？",
+        "trigger": "inverted_logic",
+        "reader_block": "双重否定加反问，语气强烈。读者需理解“这”指代上文提到的“不自觉的怠工者”，而“改变情况”指改变他们作为国内战争一方的客观事实。",
+        "parse": {
+          "claim": "即便部分怠工者是不自觉地被收买，他们客观上仍然站在苏维埃政权的对立面，参与了国内战争。",
+          "qualifiers": "针对那些“思想不开展”、不自觉接受收买的怠工者。",
+          "contrast_or_target": "论敌可能以部分参与者“不自觉”为由，试图为整个“打倒国内战争”的口号辩护，或淡化斗争的必要性。"
+        },
+        "why": {
+          "relation": "conclusion",
+          "explanation": "对前文关于怠工者分析的总结，强调客观阶级立场和行为决定其在战争中的位置，不以主观自觉与否为转移。"
+        },
+        "implication": "判断一个人在阶级斗争中的位置，应依据其客观行为和所服务的阶级利益，而非其主观意图。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p26s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "国内战争",
+            "type": "concept",
+            "modern": "特指十月革命后，苏维埃政权与国内反革命武装力量之间进行的武装斗争。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "civil_war_russian_revolution"
+          }
+        ]
+      },
+      {
+        "sid": "p26s2",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p26s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p26s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p26s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p26s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p26s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p26s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p26s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p26s10",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 2,
+        "hs_kept": 1,
+        "hs_dropped": 1,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_person_17>12",
+        "note:n2_circular_prefix",
+        "hs:claim_5gram_with_quote",
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

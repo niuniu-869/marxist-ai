@@ -1,0 +1,117 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 194,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁将“立宪幻想”定义为起义失败后革命时期的特征，并批判立宪民主党报纸向工人灌输机会主义宣传。",
+    "importance_score": 2,
+    "importance_reason": "本段具体定义了“立宪幻想”并展示其宣传实例，是批判立宪民主党策略的关键环节。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对孟什维克忽视反立宪幻想任务的批评，本段具体定义何为立宪幻想，并展示其传播载体。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "立宪幻想",
+        "explain": "列宁用此词指1905年革命失败后，部分人对沙皇召开的杜马抱有不切实际的期望，认为它能带来真正变革，而忽视继续革命斗争的必要性。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "立宪民主党",
+      "their_view": "立宪民主党及其报纸宣称，该党在纲领中保证捍卫农民和工人利益，若在杜马获多数，现政府将下台，新人将倾听人民呼声。",
+      "author_response": "列宁以反讽语气揭露这些承诺的空洞，指出其本质是向人民灌输政治机会主义毒素。",
+      "polemic_kind": "counter_quotation",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p194s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "立宪幻想",
+            "type": "concept",
+            "modern": "列宁特指1905年革命失败后，对沙皇杜马抱有不切实际期望的政治思潮。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "constitutional_illusion_lenin"
+          }
+        ]
+      },
+      {
+        "sid": "p194s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "毒素",
+            "type": "metaphor",
+            "modern": "列宁将立宪民主党的宣传比作毒害人民思想的有害物质。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p194s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "《同志报》",
+            "type": "work",
+            "modern": "立宪民主党面向工人阶级的机关报，试图影响无产阶级。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p194s4",
+        "speaker": "quoted_opponent",
+        "stance": "critical",
+        "notes": []
+      },
+      {
+        "sid": "p194s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 3,
+        "notes_dropped": 2,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_5gram_with_surface",
+        "note:n1_overflow_slogan_14>12",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

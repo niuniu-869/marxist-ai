@@ -1,0 +1,83 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 99,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "论证资本积累带来的物质改善无法消除劳资根本对立，并指出利润与工资的反比关系。",
+    "importance_score": 3,
+    "importance_reason": "core_thesis，提出全文核心论点之一，即阶级利益对立的不可调和性。",
+    "argument_role": "conclusion",
+    "argument_link": "承接前文对工资和资本关系的分析，得出即使条件改善也无法消除对立的结论。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p99s1",
+        "quote": "即使最有利于工人阶级的情势，即使资本的尽快增加如何改善了工人的物质生活状况，也不能消灭工人的利益和资产者即资本家的利益之间的对立状态。",
+        "trigger": "inverted_logic",
+        "reader_block": "双重否定（即使……也不能）加让步条件，读者可能误以为在讨论“改善”的程度，而忽略其旨在论证“对立”的绝对性。",
+        "parse": {
+          "claim": "资本积累带来的物质改善无法消除劳资双方的根本对立。",
+          "qualifiers": "在资本快速增加、工人生活改善的情况下。",
+          "contrast_or_target": ""
+        },
+        "why": {
+          "relation": "conclusion",
+          "explanation": "本句是前文关于工资与资本关系分析的总结性论断，强调对立的结构性而非暂时性。"
+        },
+        "implication": "因此，指望通过经济增长来调和阶级矛盾是徒劳的。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p99s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "利润",
+            "type": "concept",
+            "modern": "资本家从工人劳动中获取的剩余价值的货币表现。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "profit_political_economy"
+          },
+          {
+            "surface": "工资",
+            "type": "concept",
+            "modern": "劳动力价值的货币表现，工人维持生存所需的生活资料的价值。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "wage_political_economy"
+          }
+        ]
+      },
+      {
+        "sid": "p99s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 335,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段阐述列宁主义关于先锋队必须坚定执行既定方针的第三个条件，并以布尔什维克参加预备议会的错误为例，说明偏离革命道路的危险。",
+    "importance_score": 2,
+    "importance_reason": "通过具体历史事例，阐释列宁主义关于革命政党战略坚定性的原则，是理解布尔什维克革命策略的关键段落。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段关于防止“失其速度”的论述，本段从另一个方向——防止“失其方向”——来论证保持革命先锋队战略定力的必要性。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "民主会议与预备议会",
+        "explain": "1917年9月，俄国资产阶级临时政府召开民主会议，旨在组建一个咨议性机构（预备议会），以图将政权从苏维埃转向议会制。布尔什维克内部曾就是否参加该机构产生分歧。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p335s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "先锋队",
+            "type": "concept",
+            "modern": "列宁主义语境下特指作为无产阶级先锋队的共产党，强调其领导作用与战略定力。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "vanguard_party"
+          }
+        ]
+      },
+      {
+        "sid": "p335s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "失其方向",
+            "type": "metaphor",
+            "modern": "作者借用航海术语，比喻革命政党在复杂斗争中偏离了既定的革命目标和道路。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p335s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "民主会议",
+            "type": "event",
+            "modern": "1917年9月由临时政府召开的会议，旨在组建咨议机构，是资产阶级试图转移政权形式的尝试。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "预备议会",
+            "type": "event",
+            "modern": "民主会议的常设机构，被布尔什维克视为资产阶级议会制度的象征。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p335s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "预备议会",
+            "type": "event",
+            "modern": "此处重申其作为资产阶级政治工具的性质，是理解本句批判逻辑的关键。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          },
+          {
+            "surface": "资产阶级",
+            "type": "concept",
+            "modern": "在本句中特指试图通过议会形式延续其统治、阻止革命深入的阶级力量。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "class_bourgeoisie"
+          }
+        ]
+      },
+      {
+        "sid": "p335s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 6,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "hs:claim_5gram_with_quote",
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 8,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "作者通过一连串反问，论证德国吞并阿尔萨斯-洛林的后果：迫使法国倒向俄国，使德国沦为俄国附庸，并引发一场后果难料的欧洲大战。",
+    "importance_score": 3,
+    "importance_reason": "本段是作者对普法战争后果的核心政治判断，揭示了欧洲列强间矛盾的激化，为后文批判资产阶级政府的沙文主义政策提供地缘政治背景。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对德国吞并行为的预言，本段用一系列反问句具体论证该预言如何“不差分毫地”得到证实，将抽象预言转化为具体的历史后果分析。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "refute_quotation"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p8s2",
+        "quote": "这一预言难道不是不差分毫地得到了证实？",
+        "trigger": "inverted_logic",
+        "reader_block": "双重否定的反问句式，读者需要先理解“不差分毫”意为“完全”，再将反问还原为肯定陈述，才能把握作者的论断。",
+        "parse": {
+          "claim": "关于吞并后果的预言已经被完全证实。",
+          "qualifiers": "无。",
+          "contrast_or_target": "针对认为吞并阿尔萨斯-洛林不会导致严重后果的乐观论调。"
+        },
+        "why": {
+          "relation": "conclusion",
+          "explanation": "本句是对前一句（p8s1）所引预言的总结性判断，用反问语气强调其准确性，为后续具体论证（p8s3-p8s9）定下基调。"
+        },
+        "implication": "作者认为，历史进程精确地验证了其地缘政治分析，增强了后续批判的说服力。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      },
+      {
+        "anchor": "p8s5",
+        "quote": "难道一场战争的达摩克利斯剑不是天天悬在我们的头上？",
+        "trigger": "allusion",
+        "reader_block": "“达摩克利斯剑”是古希腊典故，指随时可能降临的灾难。不熟悉此典故的读者会困惑于“剑”与“战争”的关联。",
+        "parse": {
+          "claim": "一场大规模战争的威胁始终存在，如同悬在头顶的利剑。",
+          "qualifiers": "无。",
+          "contrast_or_target": "针对认为欧洲局势已趋稳定、战争风险不高的看法。"
+        },
+        "why": {
+          "relation": "example",
+          "explanation": "本句用一个经典隐喻，形象地概括了前文（p8s3-p8s4）所描述的法德矛盾与德俄依附关系所共同造成的持续性战争风险。"
+        },
+        "implication": "欧洲和平是脆弱的，建立在列强间危险的均势与相互畏惧之上。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "主张吞并无害的德国民族主义者或战略家",
+      "their_view": "吞并阿尔萨斯-洛林是安全且有利的，不会导致法国倒向俄国，也不会引发新的大规模战争。",
+      "author_response": "马克思通过历史事实论证，吞并行为直接导致法国寻求俄国支持，使德国在外交上受制于俄国，并使整个欧洲笼罩在一场后果难料的种族战争阴影之下。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p8s1",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": [
+          {
+            "surface": "种族战争",
+            "type": "concept",
+            "modern": "19世纪欧洲民族主义语境下，指不同民族集团间的大规模冲突，常带有社会达尔文主义色彩。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "race_war_19th_century"
+          }
+        ]
+      },
+      {
+        "sid": "p8s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p8s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p8s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p8s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p8s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p8s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p8s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p8s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 1,
+        "hs_kept": 2,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_5gram_with_surface"
+      ]
+    }
+  ]
+}

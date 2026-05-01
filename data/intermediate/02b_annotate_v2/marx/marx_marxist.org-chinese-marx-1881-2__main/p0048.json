@@ -1,0 +1,107 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 48,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "马克思论证剥夺农民不必通过驱逐或命令消灭公有制，过度剥削产品会迫使农民离开土地，并以罗马帝国为例说明财产可能沦为压迫工具。",
+    "importance_score": 2,
+    "importance_reason": "本段通过历史例证和条件分析，支撑马克思关于俄国公社可能避免资本主义原始积累的论点。",
+    "argument_role": "continues",
+    "argument_link": "本段承接上段对公社外部压迫的描述，进一步分析剥夺农民的具体机制和历史后果。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_density",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "allusion",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "罗马帝国十人长",
+        "explain": "罗马帝国末期，地方上的大土地所有者被称为十人长，他们拥有土地但面临官府压榨，可能放弃财产以求解脱。",
+        "why_needed": "history_density",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "公有制",
+        "explain": "马克思主义术语，指生产资料归集体所有，与私有制相对。在俄国农村公社语境中，指土地公有。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "metadata"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p48s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p48s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "公有制",
+            "type": "concept",
+            "modern": "生产资料归集体所有的经济制度",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "public_ownership_marxist"
+          }
+        ]
+      },
+      {
+        "sid": "p48s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p48s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "十人长",
+            "type": "social_group",
+            "modern": "罗马帝国地方上的大土地所有者",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

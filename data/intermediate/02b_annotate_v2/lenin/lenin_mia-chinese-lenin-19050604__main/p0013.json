@@ -1,0 +1,107 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 13,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段总结了列宁关于“全民立宪会议”口号的论断，指出其在当前语境下被资产阶级利用，并强调必须通过革命手段建立临时革命政府。",
+    "importance_score": 3,
+    "importance_reason": "本段是全文核心论点的集中阐述，明确了无产阶级在革命中的策略口号。",
+    "argument_role": "continues",
+    "argument_link": "本段承接上一段关于沙皇政权主导下选举无效的结论，进一步阐明正确的革命口号。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "全民立宪会议",
+        "explain": "指通过普选产生的、拥有最高立法权的制宪机构。在1905年革命语境下，自由派资产阶级主张以此与沙皇妥协，而列宁认为必须由革命政府来召集。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "临时革命政府",
+        "explain": "指通过武装起义推翻沙皇政权后，由革命阶级（主要是无产阶级和农民）建立的过渡性政权，其任务包括召集全民立宪会议。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "“有人”指谁",
+        "explain": "此处“有人”指代前文批判的自由派资产阶级及其政治代表，他们试图利用革命口号来达成与沙皇的妥协。",
+        "why_needed": "cross_ref_pronoun",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "自由派资产阶级",
+      "their_view": "“全民立宪会议”是当前可行的政治目标，可以通过与沙皇政府协商或在其主导的框架内实现。",
+      "author_response": "列宁指出，脱离革命手段和革命政府，这个口号就沦为资产阶级与沙皇进行权力交易的工具，无产阶级必须警惕这种欺骗。",
+      "polemic_kind": "reveals_class_basis",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p13s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p13s2",
+        "speaker": "editor",
+        "stance": "neutral_citation",
+        "notes": []
+      },
+      {
+        "sid": "p13s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p13s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p13s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p13s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

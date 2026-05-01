@@ -1,0 +1,108 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 13,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁将波兰问题的论点推广到所有民族问题，批判崩得的联邦制主张，强调无产阶级政党必须实行集中制以对抗专制制度。",
+    "importance_score": 2,
+    "importance_reason": "本段将具体民族问题上升到一般原则，批判党内联邦制倾向，为集中制原则辩护。",
+    "argument_role": "continues",
+    "argument_link": "本段将上一段针对波兰问题的论点，推广为处理所有民族问题的一般原则，并直接批判崩得的联邦制主张。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "崩得（Bund）",
+        "explain": "全称“立陶宛、波兰和俄罗斯犹太工人总联盟”，是俄国社会民主工党内的犹太工人组织。它主张民族文化自治和党组织联邦制，要求在党内保持独立性，与列宁主张的集中制原则对立。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p13s7",
+        "quote": "既然认识不到隔阂的危害，既然不愿意绝对地、彻底地消灭无产阶级政党阵营内的这种隔阂，那就用不着“联邦制”这块遮羞布了，也用不着解决什么问题，因为有“一方”实质上并不想解决问题，既然如此，最好还是让生活经验和实际运动的教训去说服人们；",
+        "trigger": "inverted_logic",
+        "reader_block": "双重否定“用不着……也用不着”加上反讽“遮羞布”，读者可能误以为作者在讨论解决方案，实则在否定对方解决问题的诚意。",
+        "parse": {
+          "claim": "如果一方不愿消除隔阂，那么关于联邦制的讨论就失去了意义，因为问题本身未被认真对待。",
+          "qualifiers": "前提是论敌（崩得）既认识不到隔阂的危害，又不愿彻底消灭它。",
+          "contrast_or_target": "崩得等主张联邦制者声称要解决民族隔阂问题。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "本句通过反讽揭露论敌的虚伪，指出其联邦制主张是掩盖分裂倾向的托词，为后文强调集中制做铺垫。"
+        },
+        "implication": "列宁暗示联邦制主张是掩盖分裂倾向的托词。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "崩得",
+      "their_view": "各民族党组织应保持独立，通过联邦制原则联合，以尊重民族特性。",
+      "author_response": "这种主张实质是使隔阂合法化，阻碍对专制制度的集中攻击，是虚假的解决方案。",
+      "polemic_kind": "strategic_critique",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p13s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p13s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p13s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p13s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p13s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p13s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p13s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p13s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  }
+}

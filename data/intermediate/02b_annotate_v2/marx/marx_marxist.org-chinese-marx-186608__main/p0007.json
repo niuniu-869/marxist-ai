@@ -1,0 +1,100 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 7,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段描述了工会从只进行地方经济斗争到开始参与社会政治运动的转变，并列举了具体例证。",
+    "importance_score": 2,
+    "importance_reason": "本段是马克思对工会“现在”状况的评估，指出了其局限性并肯定了其新动向，为下文论述工会的“未来”使命做铺垫。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段对工会“现在”状况的描述，进一步分析其斗争范围的局限性及其近期出现的积极变化。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "term_density",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "雇佣奴隶制度",
+        "explain": "马克思用此术语比喻资本主义下的雇佣劳动关系。工人虽有人身自由，但因不占有生产资料，只能出卖劳动力为生，其处境在实质上受资本支配与剥削，如同奴隶。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p7s1",
+        "quote": "工会过多地与资本只是进行地方的直接的斗争，它们还没有充分意识到它们是反对雇佣奴隶制度本身的一种多么大的力量。",
+        "trigger": "term_density",
+        "reader_block": "“雇佣奴隶制度”是马克思特有的隐喻性术语，读者可能不理解其特定含义，从而无法把握这句话批判的深度。",
+        "parse": {
+          "claim": "工会的斗争主要局限于与个别资本家在具体地点和事务上的直接对抗，尚未认识到自身作为一个整体，是能够撼动整个资本主义雇佣劳动体系的潜在巨大力量。",
+          "qualifiers": "“过多地”“只是”表明这是对工会当前斗争方式的概括性批评，而非全盘否定。",
+          "contrast_or_target": ""
+        },
+        "why": {
+          "relation": "continues",
+          "explanation": "此句具体阐释了上一段提到的工会“现在”的局限性，即斗争范围狭隘，缺乏对自身历史角色的整体认知。"
+        },
+        "implication": "工会若要真正解放工人阶级，就必须超越局部经济斗争，将斗争目标指向整个雇佣劳动制度。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p7s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p7s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p7s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p7s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 1,
+        "hs_kept": 1,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_6>5"
+      ]
+    }
+  ]
+}

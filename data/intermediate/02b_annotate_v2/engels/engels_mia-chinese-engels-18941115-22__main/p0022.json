@@ -1,0 +1,79 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 22,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段描述法国社会党为争取农民选票而调整其土地纲领，指出其面临理论矛盾，并预告将对南特纲领进行详细考察。",
+    "importance_score": 2,
+    "importance_reason": "本段是恩格斯对南特纲领进行具体批判的过渡段，描述了论敌的政治策略和理论困境，为后文的详细分析做铺垫。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对南特纲领温和性的评价，本段进一步描述该纲领在法国农民中取得的政治成功，以及由此引发的、试图调和社会主义原则与保护私有制的理论矛盾。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "法国社会党南特代表大会",
+      "their_view": "社会主义原则中包含保护小农财产免于在资本主义下灭亡的内容，因此可以在纲领中提出保护小农私有制的要求。",
+      "author_response": "恩格斯指出，这种保护是作者们自己也明白不可能实现的幻想，其理论绪论是为了预防对其违背社会主义基本原则的异议。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p22s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p22s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p22s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p22s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p22s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

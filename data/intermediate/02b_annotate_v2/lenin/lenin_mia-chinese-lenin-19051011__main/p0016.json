@@ -1,0 +1,152 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 16,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁总结莫斯科事变中不同阶级的表现，划分革命力量与妥协力量，并号召无产阶级团结起来准备武装起义。",
+    "importance_score": 3,
+    "importance_reason": "核心论点段，明确提出了革命策略和阶级路线，号召武装起义。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对自由派妥协行为的批判，具体划分了革命与妥协的社会力量，并提出无产阶级的行动纲领。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "all_known",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "rhetorical_omission",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "自由主义君主派资产阶级（立宪民主党人）",
+      "their_view": "主张与沙皇政府进行谈判，利用政府的微小让步来缓和矛盾，反对扩大和激化革命斗争。",
+      "author_response": "列宁指出，他们的谈判行为是妥协，无产阶级只能与革命民主派在共同对敌的战场上订立协议，并最终要将他们抛进垃圾堆。",
+      "polemic_kind": "strategic_critique",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p16s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p16s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "自由主义君主派资产阶级",
+            "type": "social_group",
+            "modern": "1905年革命中主张君主立宪、反对彻底革命的俄国资产阶级政治派别，以立宪民主党人为代表。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p16s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p16s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p16s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p16s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "特列波夫们和罗曼诺夫",
+            "type": "person",
+            "modern": "特列波夫是时任莫斯科总督，代表沙皇政府的暴力机器；罗曼诺夫是沙皇王朝姓氏，代指沙皇专制政权。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p16s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "大学生",
+            "type": "social_group",
+            "modern": "在1905年革命中，俄国大学生群体是反对沙皇专制、追求政治变革的先锋力量之一。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p16s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p16s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "自由派鸡窝",
+            "type": "metaphor",
+            "modern": "列宁用此贬义比喻指代自由派资产阶级的组织、集会或政治机构，形容其软弱、涣散。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p16s10",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p16s11",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 4,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

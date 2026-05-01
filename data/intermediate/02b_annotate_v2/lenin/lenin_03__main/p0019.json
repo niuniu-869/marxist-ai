@@ -1,0 +1,106 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 19,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁回应农民对布尔什维克的指责，解释革命战争的必然性，并指出农民因缺乏阶级斗争知识而无法理解战争性质。",
+    "importance_score": 2,
+    "importance_reason": "支撑核心论点，解释革命战争的必要性，并阐明理解战争性质所需的知识前提。",
+    "argument_role": "continues",
+    "argument_link": "本段承接上段关于革命战争必要性的论述，具体解释为何农民会指责布尔什维克，并阐明理解战争性质所需的知识前提。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p19s7",
+        "quote": "事实上，怎能要求一个十分愚昧无知的农民懂得存在着不同的战争，懂得有正义的战争和非正义的战争，有进步的战争和反动的战争，有先进阶级进行的战争和落后阶级进行的战争，有巩固阶级压迫的战争和推翻阶级压迫的战争呢？",
+        "trigger": "inverted_logic",
+        "reader_block": "反问句式加上多个并列的战争分类，读者可能难以快速抓住核心论点，即农民缺乏何种具体知识。",
+        "parse": {
+          "claim": "农民因缺乏相关知识，无法理解战争具有不同的阶级性质。",
+          "qualifiers": "对于愚昧无知的农民而言。",
+          "contrast_or_target": "那些指责布尔什维克不履行诺言的农民。"
+        },
+        "why": {
+          "relation": "example",
+          "explanation": "通过列举战争的不同分类，具体说明农民缺乏何种知识，从而解释他们指责的根源。"
+        },
+        "implication": "这暗示了向农民进行政治教育的必要性。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "那些指责布尔什维克的农民（隐含的论敌）",
+      "their_view": "布尔什维克许诺和平却带来了战争，没有履行诺言。",
+      "author_response": "列宁指出，革命战争是摆脱帝国主义战争的唯一途径，农民因缺乏阶级斗争知识而无法理解。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p19s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p19s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p19s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p19s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p19s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p19s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p19s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p19s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p19s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  }
+}

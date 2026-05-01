@@ -1,0 +1,76 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 111,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "分析《言论报》对立宪民主党会议的报道，指出其掩盖了会议实际讨论民族政治自决问题的事实。",
+    "importance_score": 1,
+    "importance_reason": "作为具体例证，揭示俄国自由资产阶级政党对民族自决权问题的矛盾态度与回避策略。",
+    "argument_role": "example",
+    "argument_link": "承接上段对科科什金言论的讽刺，通过分析媒体报道进一步证实立宪民主党对民族自决问题的恐惧与掩饰。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p111s4",
+        "quote": "不然，科科计金先生就用不着号召“小心对待”这一“公式”了。",
+        "trigger": "inverted_logic",
+        "reader_block": "反讽句式，表面说科科什金无需号召，实际是说正因讨论了民族自决，他才需要号召小心对待，读者易误解为字面意思。",
+        "parse": {
+          "claim": "科科什金之所以需要号召小心对待民族自决这个提法，恰恰证明了会议确实触及了这个问题。",
+          "qualifiers": "此推论基于前文关于会议讨论内容的判断。",
+          "contrast_or_target": "立宪民主党试图对外表现出对民族自决问题的谨慎或回避态度。"
+        },
+        "why": {
+          "relation": "conclusion",
+          "explanation": "本句是前文分析的逻辑结论：如果会议根本没讨论民族自决，科科什金就无需特意警告要小心对待这个提法。他的警告行为本身，反证了问题的存在。"
+        },
+        "implication": "资产阶级政党在公开场合对民族自决权的回避或谨慎姿态，恰恰暴露了他们私下不得不面对这一问题的窘境。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "立宪民主党",
+      "their_view": "在公开报道中，用外交辞令掩饰会议内情，试图表现出对民族政治自决问题的谨慎或回避态度。",
+      "author_response": "列宁通过分析报道细节，指出会议实际上讨论了民族自决问题，揭露了立宪民主党言行不一的虚伪性。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p111s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p111s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p111s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p111s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  }
+}

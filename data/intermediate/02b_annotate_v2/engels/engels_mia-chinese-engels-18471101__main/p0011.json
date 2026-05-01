@@ -1,0 +1,98 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 11,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "奥康瑙尔通过连续反问，驳斥埃普斯关于工人可与资产阶级合作的观点，强调资本与劳动的根本对立。",
+    "importance_score": 2,
+    "importance_reason": "这是宪章派内部路线斗争的关键段落，直接反驳了与资产阶级激进派合作的改良主义倾向。",
+    "argument_role": "contrasts",
+    "argument_link": "承接上段琼斯对资产阶级背叛的揭露，本段奥康瑙尔将矛头转向党内主张与资产阶级合作的埃普斯，用更直接的论战形式强化阶级对立的论点。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "埃普斯先生",
+      "their_view": "工人阶级可以与资产阶级激进派建立一致的感情和利益，共同推进政治目标。",
+      "author_response": "奥康瑙尔指出，资本与劳动的利益根本对立，合作如同猛虎与羔羊媾和般不可能。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p11s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p11s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p11s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p11s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "资本",
+            "type": "concept",
+            "modern": "此处指资本家阶级对生产资料的占有关系，是剥削雇佣劳动的制度基础。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "capital_relation"
+          }
+        ]
+      },
+      {
+        "sid": "p11s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "猛虎和羔羊",
+            "type": "metaphor",
+            "modern": "用掠食者与猎物的天然敌对关系，比喻资产阶级与无产阶级之间不可调和的阶级对立。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

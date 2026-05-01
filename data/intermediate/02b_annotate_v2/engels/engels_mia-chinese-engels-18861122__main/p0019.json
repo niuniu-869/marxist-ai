@@ -1,0 +1,86 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 19,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "指出门格尔在无意中承认了马克思主义理论的力量，但当他坚持法学立场时又蔑视经济史。",
+    "importance_score": 2,
+    "importance_reason": "通过揭示门格尔立场的内在矛盾，支撑了对法学社会主义的批判。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对门格尔法学观点的质疑，具体展示其立场在实践中的矛盾表现。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p19s1",
+        "quote": "然而，这不过是一种疏忽，是这位严格的法学家言不由衷地道出的对新理论的力量的不自觉的承认，因此，我们仅仅把它记录下来。",
+        "trigger": "inverted_logic",
+        "reader_block": "反讽与双重否定：'疏忽'和'言不由衷'被描述为一种'承认'，读者可能困惑于这种矛盾表述。",
+        "parse": {
+          "claim": "门格尔在论述中的一个无心之失，反而暴露了他对马克思主义理论实际影响力的默认。",
+          "qualifiers": "",
+          "contrast_or_target": "门格尔试图用法学观点贬低马克思理论的独创性。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "用反讽手法揭露论敌的自相矛盾：其本意是攻击，却无意中证实了对手理论的力量。"
+        },
+        "implication": "这表明马克思主义理论的影响力是客观存在的，连其反对者也无法完全回避。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p19s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p19s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p19s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 1,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

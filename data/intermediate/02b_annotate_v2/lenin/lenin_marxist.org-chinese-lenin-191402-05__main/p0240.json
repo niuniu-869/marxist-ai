@@ -1,0 +1,58 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 240,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁用反问句直接回应崩得分子李普曼对党纲的质疑，反驳其批评的合理性。",
+    "importance_score": 1,
+    "importance_reason": "作为对论敌具体质疑的简短反驳，属于论证链条中的过渡性回应。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对李普曼言论的讽刺，进一步以反问形式否定其批评的正当性。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p240s1",
+        "quote": "他为什么要侮辱党纲呢？",
+        "trigger": "inverted_logic",
+        "reader_block": "反问句式，读者可能误以为在询问原因，实际是表达否定和反驳。",
+        "parse": {
+          "claim": "李普曼对党纲的批评并非合理质疑，而是构成贬低。",
+          "qualifiers": "",
+          "contrast_or_target": "李普曼认为党纲中民族自决权条文模糊不清，需要澄清或修改。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "通过反问句式，强调李普曼批评的荒谬性，从而捍卫党纲的权威性。"
+        },
+        "implication": null,
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "李普曼",
+      "their_view": "党纲关于民族自决权的表述含糊不清，应当加以明确或修正。",
+      "author_response": "列宁指出，这种质疑实质上是对党纲的贬低，毫无根据。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "medium"
+    },
+    "sentences": [
+      {
+        "sid": "p240s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 104,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "马克思引用俾斯麦政府报纸的评论，反讽地指出该报纸关于德国工人党放弃国际主义的说法是正确的。",
+    "importance_score": 1,
+    "importance_reason": "本段通过敌方报纸的视角，具体点出新纲领在国际主义立场上的问题，为后续批判提供例证。",
+    "argument_role": "continues",
+    "argument_link": "本段承接上段对国际工人协会独立性的阐述，以敌方报纸的攻击为例，说明新纲领在国际主义原则上的退却。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p104s1",
+        "quote": "俾斯麦的“北德报”为了取悦于自己的主人，宣称德国工人党在新纲领中放弃了国际主义，它的这种说法是完全正确的[18]。",
+        "trigger": "inverted_logic",
+        "reader_block": "反讽句式，马克思表面同意敌方报纸的说法，实际是讽刺新纲领的错误，读者可能误以为马克思真的认为放弃了国际主义。",
+        "parse": {
+          "claim": "马克思借俾斯麦报纸之口，确认新纲领在国际主义上的缺失。",
+          "qualifiers": "",
+          "contrast_or_target": "俾斯麦报纸宣称德国工人党放弃国际主义，以此取悦政府。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "本句通过反讽手法，揭露俾斯麦报纸对工人党国际主义立场的攻击，同时暗示新纲领确实存在问题。"
+        },
+        "implication": "这暗示新纲领在国际主义原则上的妥协，为马克思后续批判提供依据。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "俾斯麦的“北德报”",
+      "their_view": "德国工人党在新纲领中放弃了国际主义，这是对国家的背叛。",
+      "author_response": "马克思讽刺地同意这一说法，实则批评新纲领在国际主义上的倒退。",
+      "polemic_kind": "counter_quotation",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p104s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "俾斯麦",
+            "type": "person",
+            "modern": "19世纪普鲁士政治家，德意志帝国首任宰相，以铁血政策统一德国并镇压工人运动。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "北德报",
+            "type": "work",
+            "modern": "俾斯麦政府控制的官方报纸，用于宣传政策并攻击反对派。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  }
+}

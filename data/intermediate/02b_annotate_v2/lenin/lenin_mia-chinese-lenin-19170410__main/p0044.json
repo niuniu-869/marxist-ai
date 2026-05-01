@@ -1,0 +1,77 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 44,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁将民粹主义党派、社会革命党人及组织委员会等归类为小资产阶级性质，并指出非党革命者也未能抵抗这种倾向。",
+    "importance_score": 2,
+    "importance_reason": "为后续策略提供阶级分析基础，明确革命中各派别的阶级属性。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于无产阶级自身状况的讨论，转而分析与之并存的其他政治力量的阶级本质。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_density",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "民粹主义与社会革命党",
+        "explain": "民粹主义是19世纪俄国知识分子思潮，主张农民社会主义。社会革命党是其政治继承者，主张土地社会化，代表小农利益。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "组织委员会",
+        "explain": "二月革命后成立的机构，由孟什维克和社会革命党人主导，负责召集立宪会议，实际支持临时政府。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "齐赫泽与策列铁里",
+        "explain": "孟什维克领袖，分别担任苏维埃主席和临时政府部长，是组织委员会的代表人物。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "民粹主义党派与组织委员会",
+      "their_view": "我们代表农民和革命的利益，是真正的革命力量。",
+      "author_response": "列宁指出，这些派别在阶级属性上都属于小资产阶级，其政治立场摇摆不定。",
+      "polemic_kind": "reveals_class_basis",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p44s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "小资产阶级",
+            "type": "concept",
+            "modern": "在马克思主义阶级分析中，指介于资产阶级与无产阶级之间、经济地位不稳定的阶级，如小业主、小商贩、小农等。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "class_petty_bourgeois"
+          }
+        ]
+      },
+      {
+        "sid": "p44s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  }
+}

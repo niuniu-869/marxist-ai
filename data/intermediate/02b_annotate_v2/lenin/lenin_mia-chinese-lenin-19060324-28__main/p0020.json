@@ -1,0 +1,86 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 20,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁直接批评普列汉诺夫，指出其思想混乱源于对1905年十二月起义的错误判断，导致其回避现实。",
+    "importance_score": 2,
+    "importance_reason": "这是对论敌核心观点的直接批判，支撑了全文的论战主线。",
+    "argument_role": "contrasts",
+    "argument_link": "承接上段对普列汉诺夫回避问题的质问，本段直接给出诊断，指出其混乱的根源。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [
+      "1905_moscow_uprising"
+    ],
+    "prereading_inline": [
+      {
+        "topic": "1905年十二月起义",
+        "explain": "指1905年12月莫斯科工人武装起义，是革命高潮的顶点，随后遭到沙皇军队镇压。列宁认为起义的失败标志着革命转入低潮，而普列汉诺夫等人对此的判断影响了他们对当前政治形势的分析。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p20s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p20s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "十二月起义",
+            "type": "event",
+            "modern": "1905年12月莫斯科工人武装起义，是革命高潮的顶点，随后遭到镇压。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p20s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

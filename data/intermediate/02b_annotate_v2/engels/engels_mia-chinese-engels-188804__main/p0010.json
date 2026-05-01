@@ -1,0 +1,180 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 10,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "恩格斯提出其现实主义定义，并以此批评小说对工人阶级的描绘不符合时代特征。",
+    "importance_score": 3,
+    "importance_reason": "提出恩格斯现实主义理论的核心定义，是理解其文学批评标准的关键。",
+    "argument_role": "definition",
+    "argument_link": "从对具体人物的评价，转向提出衡量文学作品的普遍理论标准。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "圣西门与欧文",
+        "explain": "19世纪初空想社会主义的代表人物，其理论产生于工人阶级尚未形成独立政治力量的时期。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p10s7",
+        "quote": "如果这是对1800年或1810年，即圣西门和罗伯特·欧文的时代的正确描写，那末，在1887年，在一个有幸参加了战斗无产阶级的大部分斗争差不多五十年之久的人看来，这就不可能是正确的了。",
+        "trigger": "long_nested",
+        "reader_block": "句子包含时间跨度对比和条件逻辑，读者容易混淆恩格斯是在肯定还是否定这种描写。",
+        "parse": {
+          "claim": "恩格斯认为，将工人阶级描绘为完全被动、只能等待外部拯救的形象，只符合工业革命早期的历史状况，而不符合19世纪末工人阶级已经展现出自主斗争能力的现实。",
+          "qualifiers": "限定于1887年的历史现实，以及恩格斯本人近五十年的斗争经验。",
+          "contrast_or_target": "小说《城市姑娘》中工人阶级完全消极被动、只能等待外部拯救的形象。"
+        },
+        "why": {
+          "relation": "contrasts",
+          "explanation": "通过时间对比，揭示小说环境描写与历史现实的脱节，从而支撑其现实主义定义中“典型环境”的要求。"
+        },
+        "implication": "文学作品必须反映其所处时代阶级斗争的实际状况，而非过时的历史图景。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      },
+      {
+        "anchor": "p10s8",
+        "quote": "工人阶级对他们四周的压迫环境所进行的叛逆的反抗，他们为恢复自己做人的地位所作的剧烈的努力——半自觉的或自觉的，都属于历史，因而也应当在现实主义领域内占有自己的地位。",
+        "trigger": "long_nested",
+        "reader_block": "破折号插入语打断了主句结构，读者需要理清“半自觉的或自觉的”修饰的是“努力”而非“反抗”。",
+        "parse": {
+          "claim": "工人阶级为改善自身处境而进行的反抗斗争，无论其自觉程度如何，都已成为客观历史事实，因此现实主义文学必须予以表现。",
+          "qualifiers": "无。",
+          "contrast_or_target": "小说中工人阶级完全消极、缺乏任何自主努力的形象。"
+        },
+        "why": {
+          "relation": "conclusion",
+          "explanation": "作为本段论证的结论，将历史事实与文学表现要求直接联系，强化了“典型环境”必须包含工人阶级能动性的论点。"
+        },
+        "implication": "恩格斯将工人阶级的历史主动性视为现实主义文学不可或缺的题材。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p10s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p10s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "现实主义",
+            "type": "concept",
+            "modern": "恩格斯在此对文学创作方法提出的具体要求，强调作品需反映社会本质。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "realism_engels_definition"
+          }
+        ]
+      },
+      {
+        "sid": "p10s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p10s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p10s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "工人阶级",
+            "type": "concept",
+            "modern": "恩格斯在此特指19世纪末已具备阶级意识和斗争能力的产业工人群体。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "working_class_marxist"
+          }
+        ]
+      },
+      {
+        "sid": "p10s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p10s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "圣西门",
+            "type": "person",
+            "modern": "19世纪初空想社会主义的代表人物，其理论产生于工人阶级尚未形成独立政治力量的时期。",
+            "highlight": "person",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "罗伯特·欧文",
+            "type": "person",
+            "modern": "19世纪初空想社会主义的代表人物，其理论产生于工人阶级尚未形成独立政治力量的时期。",
+            "highlight": "person",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p10s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 4,
+        "notes_dropped": 2,
+        "hs_kept": 2,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

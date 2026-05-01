@@ -1,0 +1,132 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 3,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段是《提纲》的核心论点，批判旧唯物主义忽视实践，指出能动的方面被唯心主义抽象发展，并具体剖析费尔巴哈的缺陷。",
+    "importance_score": 3,
+    "importance_reason": "这是马克思确立实践唯物主义、批判旧哲学的核心段落，为后续全部论述奠定基础。",
+    "argument_role": "definition",
+    "argument_link": "承接上段对批判对象的标识，本段直接展开对旧唯物主义（以费尔巴哈为代表）核心缺陷的定义与批判。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "感性的人的活动",
+        "explain": "马克思用此指代人改造世界的物质性、社会性活动，即“实践”。这是理解其哲学革命的关键，区别于旧唯物主义的被动反映和唯心主义的抽象精神活动。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      },
+      {
+        "topic": "对象性的活动",
+        "explain": "指人的活动具有指向外部世界、并能在对象中实现自身的特点。费尔巴哈未认识到这一点，故其“感性客体”仍是静观的对象。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      },
+      {
+        "topic": "费尔巴哈的感性客体",
+        "explain": "费尔巴哈试图研究与黑格尔“思想客体”不同的、可感知的物质世界。但他只将其视为直观对象，未看到人通过实践对它的能动改造。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p3s1",
+        "quote": "从前的一切唯物主义（包括费尔巴哈的唯物主义）的主要缺点是：对对象、现实、感性，只是从客体的或者直观的形式去理解，而不是把它们当作感性的人的活动，当作实践去理解，不是从主体方面去理解。",
+        "trigger": "inverted_logic",
+        "reader_block": "句子用“不是……而是……”的否定结构提出核心论点，但“从主体方面去理解”与“当作实践去理解”并列，读者易混淆二者关系，不清楚“主体方面”的具体所指。",
+        "parse": {
+          "claim": "旧唯物主义的根本缺陷在于，它将认识对象视为独立于人的、仅凭感官被动接收的客体，而未能将其视为人通过有目的的物质活动所塑造和改变的产物。",
+          "qualifiers": "此批判适用于“从前的一切唯物主义”，包括费尔巴哈的唯物主义。",
+          "contrast_or_target": "旧唯物主义（包括费尔巴哈）的观点：对象、现实、感性是纯粹的客体，等待人去直观和反映。"
+        },
+        "why": {
+          "relation": "definition",
+          "explanation": "本句为全文核心批判定调，定义了旧唯物主义的根本缺陷，并提出了“实践”作为理解现实的新视角。"
+        },
+        "implication": "要真正理解世界，必须从人的改造活动出发，而非仅仅从客体出发。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      },
+      {
+        "anchor": "p3s2",
+        "quote": "因此，和唯物主义相反，能动的方面却被唯心主义抽象地发展了，当然，唯心主义是不知道现实的、感性的活动本身的。",
+        "trigger": "inverted_logic",
+        "reader_block": "“能动的方面”指什么？为何说唯心主义“抽象地发展”了它？“不知道现实的、感性的活动”又是什么意思？这些表述需要结合哲学史背景才能理解。",
+        "parse": {
+          "claim": "唯心主义哲学虽然强调了人的能动性（如精神、意志的作用），但这种能动性是脱离物质基础的、纯粹精神层面的；它同样不理解真正改变世界的现实物质活动。",
+          "qualifiers": "此处的“唯心主义”主要指以黑格尔为代表的德国古典唯心主义哲学。",
+          "contrast_or_target": "唯心主义的观点：人的能动性体现在精神、概念或自我意识的运动中。"
+        },
+        "why": {
+          "relation": "contrasts",
+          "explanation": "本句在批判旧唯物主义的同时，也指出了唯心主义的贡献与局限，从而将马克思的“实践”观点置于两者之上，作为对二者的综合与超越。"
+        },
+        "implication": "马克思的实践观既克服了旧唯物主义的被动性，也克服了唯心主义的抽象性。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "费尔巴哈",
+      "their_view": "人的活动应区分为理论活动和实践活动；理论活动是真正人的、高尚的活动，而实践活动则与犹太人的逐利等卑污形式相关，是低级的。",
+      "author_response": "费尔巴哈将实践狭隘地等同于犹太人的谋利行为，从而贬低了实践，无法理解“革命的”、“实践批判的”活动——即人通过物质活动能动地改造世界并在此过程中改造自身的根本意义。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p3s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "实践",
+            "type": "concept",
+            "modern": "马克思哲学的核心范畴，指人能动地改造客观世界的物质性、社会性活动。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "praxis_marxist"
+          }
+        ]
+      },
+      {
+        "sid": "p3s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p3s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p3s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p3s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  }
+}

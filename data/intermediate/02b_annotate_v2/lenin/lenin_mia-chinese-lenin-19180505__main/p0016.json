@@ -1,0 +1,74 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 16,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁批判“左派”知识分子脱离群众实际，将人民渴望和平的心理贬低为萎靡不振，同时指出他们不懂无产阶级纪律。",
+    "importance_score": 2,
+    "importance_reason": "核心批判段落，直接反驳“左派”对和平心理的污名化，并揭示其小资产阶级阶级基础。",
+    "argument_role": "contrasts",
+    "argument_link": "承接上段对“左派”“萎靡不振”论调的引述，本段直接反驳这种论调，指出其脱离群众实际且不懂无产阶级纪律。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "“左派”知识分子",
+      "their_view": "人民在战后渴望和平的心理是“萎靡不振”的表现，而空喊革命口号、挥舞纸剑才是“奋发有为”。",
+      "author_response": "列宁指出，这种观点脱离被剥削群众的实际生活条件和心理，是典型的小资产阶级知识分子空谈，不懂得无产阶级的铁的纪律。",
+      "polemic_kind": "reveals_class_basis",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p16s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p16s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p16s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p16s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_9>5",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

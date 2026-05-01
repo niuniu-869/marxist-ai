@@ -1,0 +1,61 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 34,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "马克思摘录巴枯宁对国家形式的批判，指出巴枯宁认为任何国家，包括马克思的“人民国家”，本质上都是少数特权者对多数人的自上而下管理。",
+    "importance_score": 2,
+    "importance_reason": "本段呈现了巴枯宁对马克思国家理论的核心批判，是理解双方论战焦点的关键段落。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于国家爱国主义过时的论断，具体展开巴枯宁对国家形式本身的否定性分析。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "巴枯宁",
+      "their_view": "任何国家，包括最民主的共和国或马克思的“人民国家”，本质上都是少数特权知识分子自上而下管理群众的工具，与人民自下而上的自由联合不相容。",
+      "author_response": "马克思通过摘录并呈现巴枯宁的这一论断，旨在剖析其无政府主义国家观的逻辑，为后续批判其理论错误做铺垫。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p34s1",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p34s2",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

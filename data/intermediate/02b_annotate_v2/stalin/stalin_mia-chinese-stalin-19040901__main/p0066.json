@@ -1,0 +1,99 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 66,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "斯大林论证，由于相关条件和影响均不确定，要求对民族独立问题给出确定答案是缺乏根据的。",
+    "importance_score": 2,
+    "importance_reason": "支撑核心论点的论证环节，通过揭示前提的不确定性来反驳论敌的简单化要求。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段提出的“民族独立对无产阶级有益还是有害”的问题，本段分析为何无法给出确定答案。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p66s3",
+        "quote": "试问，有什么根据（《格鲁吉亚报派》先生们总是把自己的要求建筑在沙滩上，根本就想不到有人能够为自己的要求找到更坚固的基础！）来“断然地”回答这个问题呢？",
+        "trigger": "inverted_logic",
+        "reader_block": "强烈的反问语气，加上括号内对论敌的讽刺性插入语，读者可能难以快速抓住其核心论点。",
+        "parse": {
+          "claim": "没有可靠依据来对民族独立问题给出确定答案。",
+          "qualifiers": "针对《格鲁吉亚报派》所要求的“断然地”回答。",
+          "contrast_or_target": "《格鲁吉亚报派》要求对民族独立问题给出确定答案。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "通过反问直接挑战论敌要求确定答案的立场，指出其要求缺乏事实基础。"
+        },
+        "implication": "论敌的立场建立在假设之上，而非现实分析。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p66s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p66s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p66s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p66s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p66s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 1,
+        "hs_dropped": 1,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote",
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,195 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 114,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁阐述苏维埃政权的土地政策，强调其基于小农自愿支持社会主义的实践，并反驳“暴力实施社会主义”的指责。",
+    "importance_score": 2,
+    "importance_reason": "具体阐述了无产阶级专政下处理工农联盟和土地问题的实践原则，是党纲修改的组成部分。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于苏维埃政权是新型国家形式的论述，具体展开其在土地问题上的政策与实践依据。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "土地社会化基本法",
+        "explain": "1917年底苏维埃政权颁布的法令，核心是废除土地私有制，将土地收归国有并按劳动原则分配给农民使用，是当时土地政策的法律基础。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "公社与劳动组合",
+        "explain": "指当时俄国农村的集体化组织形式。公社是传统的村社，劳动组合是农民自愿组成的协作生产单位。列宁主张优先支持这类集体经营方式。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p114s1",
+        "quote": "土地问题应该这样进行修改：这里要反映出愿意站在无产阶级方面、愿意帮助它进行社会主义革命的小农是怎样在抱有各种偏见、各种旧观点的情况下开始给自己提出过渡到社会主义的实际任务的。",
+        "trigger": "long_nested",
+        "reader_block": "句子结构嵌套，核心是“反映出……小农是怎样……开始给自己提出……任务的”，中间插入了对小农立场和状态的描述，读者容易迷失主干。",
+        "parse": {
+          "claim": "修改后的土地政策纲领，应当体现小农在旧有观念影响下，主动开始规划自身向社会主义过渡的具体行动。",
+          "qualifiers": "针对的是“愿意站在无产阶级方面”的小农，且他们仍“抱有各种偏见、各种旧观点”。",
+          "contrast_or_target": ""
+        },
+        "why": {
+          "relation": "definition",
+          "explanation": "为即将修改的党纲中土地条款定下基调，强调政策应反映现实的、带有矛盾性的农民实践，而非强加理想模型。"
+        },
+        "implication": "这为苏维埃政权的土地政策提供了现实依据，即政策必须适应并引导小农的自发倾向。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      },
+      {
+        "anchor": "p114s4",
+        "quote": "有人责备我们想用暴力实施社会主义，这是毫无根据的。",
+        "trigger": "inverted_logic",
+        "reader_block": "这是一个直接的反驳句，但读者需要知道“有人”具体指谁，以及“暴力实施社会主义”这一指责的具体所指，才能理解反驳的针对性。",
+        "parse": {
+          "claim": "苏维埃政权被指责试图通过强制手段推行社会主义制度，列宁认为这种指责完全不成立。",
+          "qualifiers": "",
+          "contrast_or_target": "论敌认为苏维埃政权的社会主义建设依赖于国家强制力。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "直接回应并否定党内或党外对苏维埃政权性质的错误定性，为接下来阐述基于农民自愿支持的政策做铺垫。"
+        },
+        "implication": "列宁将论证社会主义的实现依靠的是阶级联盟和经济实践，而非单纯的暴力机器。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "指责苏维埃政权“用暴力实施社会主义”的论敌",
+      "their_view": "苏维埃政权正在依靠国家强制力，自上而下地推行社会主义改造。",
+      "author_response": "这种指责毫无根据。社会主义的实现是基于小农自愿支持无产阶级、并主动参与经济实践的事实。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p114s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p114s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p114s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p114s4",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p114s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p114s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p114s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p114s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p114s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "土地社会化基本法",
+            "type": "work",
+            "modern": "苏维埃政权于1917年底颁布的关于土地问题的根本法令，规定土地国有化并按劳动原则分配。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p114s10",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p114s11",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p114s12",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p114s13",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p114s14",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 2,
+        "hs_kept": 2,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

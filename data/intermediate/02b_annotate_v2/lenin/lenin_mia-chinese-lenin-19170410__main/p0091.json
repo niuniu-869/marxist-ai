@@ -1,0 +1,88 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 91,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段对比了社会革命党人等势力与无产阶级政党在土地问题上的不同主张，前者主张等待立宪会议，后者号召立即行动。",
+    "importance_score": 2,
+    "importance_reason": "本段提出了无产阶级政党在土地问题上的具体行动纲领，是核心论点的直接支撑。",
+    "argument_role": "contrasts",
+    "argument_link": "上一段讨论了农民代表苏维埃的组织问题，本段则具体阐述了在土地问题上，无产阶级政党应如何与当时流行的等待论调划清界限。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p91s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "社会革命党人",
+            "type": "org",
+            "modern": "1917年俄国主要代表农民利益的政党，其部分成员在土地问题上持等待合法程序的立场。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "工兵代表苏维埃",
+            "type": "org",
+            "modern": "二月革命后出现的工人士兵代表会议，当时与资产阶级临时政府并存，部分领导层持妥协立场。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "资产阶级自由派",
+            "type": "social_group",
+            "modern": "主张君主立宪或议会制、维护私有财产秩序的俄国政治派别。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "立宪会议",
+            "type": "event",
+            "modern": "原定于1917年秋召开的全国制宪会议，被各派视为合法权力来源。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 4,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,214 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 77,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁批评布哈林、马尔托夫等人空谈历史典故，回避提出具体政策，尤其忽视铁路运输对社会主义建设的极端重要性。",
+    "importance_score": 2,
+    "importance_reason": "本段是列宁对党内反对派和孟什维克空谈作风的集中批判，强调解决实际问题的紧迫性。",
+    "argument_role": "contrasts",
+    "argument_link": "承接上段对空谈的批评，本段具体指出反对派在铁路法令问题上的不作为，将论战焦点从抽象原则转向实际建设。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "4月4日的事情",
+        "explain": "指1918年4月4日，列宁在全俄中央执行委员会会议上就铁路运输问题提出一项法令草案。该法令旨在加强国家对铁路的集中管理，以应对战后经济崩溃和粮食危机。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "布哈林与马尔托夫",
+        "explain": "布哈林是当时党内“左派共产主义者”集团的代表人物，反对《布列斯特和约》。马尔托夫是孟什维克领袖，与布尔什维克在苏维埃政权性质等问题上存在根本分歧。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "新生活派",
+        "explain": "指“新生活”派，是孟什维克中的一个派别，以《新生活报》为喉舌，主张与资产阶级合作，反对无产阶级专政。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p77s1",
+        "quote": "布哈林向我们说：“我要同那些吻我的人划清界限”，但是这样的人很多，以致布哈林同志无法摆脱。",
+        "trigger": "inverted_logic",
+        "reader_block": "“吻我的人”是反讽，指那些表面上附和布哈林、实则可能并不理解或支持其真正立场的人。读者可能误以为布哈林有很多亲密支持者。",
+        "parse": {
+          "claim": "布哈林声称要与某些附和者划清界限，但这类附和者数量众多，使他实际上无法与之切割。",
+          "qualifiers": "",
+          "contrast_or_target": "布哈林试图与之划清界限的“吻我的人”（即附和者）"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "本句以反讽方式开启对布哈林的批评，指出其立场在实际中难以贯彻，为后文批评其空谈做铺垫。"
+        },
+        "implication": "暗示布哈林的立场存在矛盾或脱离实际，其支持者构成复杂。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      },
+      {
+        "anchor": "p77s10",
+        "quote": "这涉及到工人和铁路的问题，没有铁路不仅不会有社会主义，而且大家都会象狗一样地饿死，而粮食就堆放在附近。",
+        "trigger": "inverted_logic",
+        "reader_block": "用“象狗一样饿死”的极端比喻和“粮食堆放在附近”的对比，强烈反衬出铁路运输中断的致命后果。读者需理解这是在强调实际问题的紧迫性，而非字面描述。",
+        "parse": {
+          "claim": "铁路运输是社会主义建设和人民生存的命脉，其瘫痪将导致社会崩溃和饥荒，即使粮食就在眼前也无法运达。",
+          "qualifiers": "",
+          "contrast_or_target": "反对派空谈理论、忽视铁路运输实际问题的态度"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "本句将铁路问题提升到生死存亡的高度，直接反驳反对派将此问题政治化、抽象化的做法，强调其物质基础意义。"
+        },
+        "implication": "任何关于社会主义建设的讨论，若脱离对铁路等基础设施的实际管理，都是空谈。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "布哈林、马尔托夫",
+      "their_view": "抓住铁路法令问题，大谈拿破仑第三的独裁、尤利乌斯·凯撒等历史典故，将具体管理问题上升为对苏维埃政权性质的抽象指控，而不提出任何替代性的具体方案。",
+      "author_response": "列宁指出，这种空谈回避了铁路运输对社会主义建设和人民生存的极端重要性，是蒙骗工人、逃避实际责任的表现。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p77s1",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p77s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p77s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p77s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p77s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "铁路法令",
+            "type": "event",
+            "modern": "1918年4月列宁提出、旨在加强国家对铁路集中管理的法令草案。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p77s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p77s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p77s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p77s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p77s10",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p77s11",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p77s12",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p77s13",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p77s14",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "新生活派",
+            "type": "org",
+            "modern": "孟什维克中的一个派别，以《新生活报》为喉舌，主张与资产阶级合作。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "孟什维克",
+            "type": "org",
+            "modern": "俄国社会民主工党中的一个派别，主张资产阶级民主革命应由资产阶级领导，反对无产阶级专政。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p77s15",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p77s16",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 105,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁引用机会主义者自己的话，揭露他们需要维持一个表面左转、实际右转的政党，特别是考茨基的调和作用。",
+    "importance_score": 2,
+    "importance_reason": "核心批判段落，通过引用论敌言论揭露机会主义者的策略与阶级本质。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对德国社会民主党状态的描述，进一步分析其内部机制与机会主义者的策略需求。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "莫尼托尔",
+        "explain": "德国保守派政论家笔名，其文章被列宁用作揭露机会主义者真实意图的证据。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "休特古姆主义",
+        "explain": "源自德国社会民主党右翼领袖休特古姆在战争中的表现，指在危机时刻背叛革命立场、投靠资产阶级的行为。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "考茨基与机会主义者",
+      "their_view": "需要一个能将党内左右派联合起来、并用马克思主义辞令调和矛盾的政党代表，以维持对工人的影响力。",
+      "author_response": "列宁指出，这种调和主义政党在口头上保持革命外观以欺骗群众，但在任何实际危机中都会暴露其投靠资产阶级的实质。",
+      "polemic_kind": "reveals_class_basis",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p105s1",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": [
+          {
+            "surface": "莫尼托尔",
+            "type": "person",
+            "modern": "德国保守派政论家笔名，其言论被列宁用作反面教材。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p105s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p105s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p105s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p105s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p105s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_6>5",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

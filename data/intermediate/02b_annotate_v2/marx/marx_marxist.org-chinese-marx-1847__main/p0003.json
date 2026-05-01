@@ -1,0 +1,73 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 3,
+  "annotation": {
+    "block_type": "quote_block",
+    "gist": "本段完整引用蒲鲁东的论证，阐述其认为提高工资必然导致物价普遍上涨和生活必需品匮乏的观点。",
+    "importance_score": 2,
+    "importance_reason": "呈现马克思在本文中所要批判的核心论敌观点，为后续反驳提供靶子。",
+    "argument_role": "contrasts",
+    "argument_link": "本段引出蒲鲁东关于工资与价格关系的完整论述，与马克思在下一段即将展开的批判形成直接对立。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "refute_quotation"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "蒲鲁东",
+      "their_view": "提高工资的罢工运动，除了导致粮食、酒等生活必需品价格上涨和匮乏外，不可能有其他结果。因为工资构成了所有物品的成本和价格，提高工资等于给生产者一份超过其产品的份额，这在逻辑上是矛盾的。",
+      "author_response": "马克思在下一段将指出，蒲鲁东的论证建立在错误的工资定义和形而上学的价格理论上，忽视了工资与利润的对抗关系。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p3s1",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": [
+          {
+            "surface": "工资",
+            "type": "concept",
+            "modern": "在蒲鲁东此处的论述中，工资被定义为构成一切商品成本与价格的基础要素，是社会再生产循环中的一个比例。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "labor_economic"
+          },
+          {
+            "surface": "二加二等于四",
+            "type": "metaphor",
+            "modern": "蒲鲁东用数学公理的确定性来类比其论点的必然性，意在强调其结论的不可辩驳性。",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_metaphor_26>8"
+      ]
+    }
+  ]
+}

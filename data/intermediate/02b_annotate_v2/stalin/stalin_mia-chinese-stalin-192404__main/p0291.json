@@ -1,0 +1,64 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 291,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "呼吁克服被压迫国家社会主义政党的民族主义倾向，强调国际无产阶级运动的联系。",
+    "importance_score": 2,
+    "importance_reason": "本段承接建立多民族联盟的论述，指出实现国际主义需要反对民族狭隘性。",
+    "argument_role": "continues",
+    "argument_link": "前段强调巩固苏维埃政权和建立联盟，本段指出为此必须克服民族闭关自守，加强国际联系。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p291s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "被压迫国家社会党人",
+            "type": "social_group",
+            "modern": "第二国际框架下，殖民地或附属国的社会主义政党，常持民族主义立场。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 175,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段论证帝国主义战争与社会主义革命的关系，并指出国家垄断资本主义是通向社会主义的直接物质基础。",
+    "importance_score": 3,
+    "importance_reason": "提出列宁帝国主义理论的核心论断，将战争、资本主义新阶段与革命前景直接关联，是全文论证的理论基石。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于战争加速资本主义形态演变的论述，进一步将这种演变定性为通向社会主义的直接准备阶段。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "国家垄断资本主义",
+        "explain": "列宁在《帝国主义是资本主义的最高阶段》中提出的核心概念，指资本主义发展到垄断阶段后，国家政权与垄断资本深度融合，对经济进行全面干预和调节的形态。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "社会主义的前阶",
+        "explain": "列宁使用的一个比喻，将人类社会形态的演进比作阶梯，强调国家垄断资本主义与社会主义之间是直接的、没有其他社会形态作为过渡的阶段。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p175s2",
+        "quote": "这不仅因为战争带来的灾难促成了无产阶级的起义（如果社会主义在经济上尚未成熟，任何起义也创造不出社会主义来），而且因为国家垄断资本主义是社会主义的最充分的物质准备，是社会主义的前阶，是历史阶梯上的一级，在这一级和叫作社会主义的那一级之间，没有任何中间级。",
+        "trigger": "long_nested",
+        "reader_block": "句子包含“不仅因为…而且因为…”的并列结构，中间插入括号补充说明，后半部分连续使用三个“是…”的排比定义，整体结构复杂，读者容易迷失论证主线。",
+        "parse": {
+          "claim": "战争加速社会主义革命到来的原因有二：一是灾难激化了矛盾，二是资本主义自身已发展到国家垄断阶段，这为社会主义准备了物质条件。",
+          "qualifiers": "第一个原因（灾难促成起义）有一个重要前提：社会主义的经济成熟度是起义成功的必要条件，否则起义本身无法创造社会主义。",
+          "contrast_or_target": ""
+        },
+        "why": {
+          "relation": "continues",
+          "explanation": "本句详细阐述上句“前夜”论断的两个具体原因，将战争的破坏性作用与资本主义的结构性演变并列，共同支撑革命临近的结论。"
+        },
+        "implication": "列宁强调，革命的客观条件（经济成熟度）与主观条件（无产阶级起义）需结合，而国家垄断资本主义的出现意味着客观条件已基本具备。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p175s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p175s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 1,
+        "hs_kept": 1,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_8>5"
+      ]
+    }
+  ]
+}

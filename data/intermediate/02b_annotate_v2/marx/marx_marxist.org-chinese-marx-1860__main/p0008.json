@@ -1,0 +1,155 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 8,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "马克思论证“生产一般”这一抽象概念的合理性，同时批判经济学家利用它来掩盖资本主义生产关系的特殊性。",
+    "importance_score": 3,
+    "importance_reason": "核心方法论段落，阐明了马克思如何处理历史共性与时代特殊性的辩证关系，是理解其政治经济学批判方法的关键。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于个人在历史中从属于更大整体的论述，转向对生产本身进行方法论分析，指出研究生产必须兼顾一般性与特殊性。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "生产一般",
+        "explain": "指所有时代生产活动中都存在的、最普遍的共同要素（如人与自然的互动）。马克思承认这是一个合理的抽象，但强调不能因此忘记不同时代生产关系的本质差别。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p8s6",
+        "quote": "如果说最发达语言的有些规律和规定也是最不发达语言所有的，但是构成语言发展的恰恰是有别于这一般和共同点的差别，那末，对生产一般适用的种种规定所以要抽出来，也正是为了不致因见到统一（主体是人，客体是自然，这总是一样的，这里已经出现了统一）就忘记了本质的差别。",
+        "trigger": "inverted_logic",
+        "reader_block": "双重否定（“不致因见到统一……就忘记了”）和语言类比，容易让读者混淆抽象的目的，误以为马克思在否定抽象本身。",
+        "parse": {
+          "claim": "抽象出生产的一般规定，其目的恰恰是为了防止人们因为看到人与自然这一永恒统一，就忽略了不同社会形态下生产关系的根本不同。",
+          "qualifiers": "此目的仅针对“生产一般”这一特定抽象。",
+          "contrast_or_target": "针对那些只看到生产中人与自然关系的永恒性，而忽视生产关系历史性的观点。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "用语言发展的类比来阐明方法论：抽象共性是为了更好地把握特性。这直接反驳了将抽象共性等同于现实永恒性的做法。"
+        },
+        "implication": "正确的方法论是：从具体到抽象，再从抽象上升到具体，始终把握历史特殊性。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p8s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p8s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p8s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p8s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p8s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p8s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p8s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p8s8",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p8s9",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p8s10",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p8s11",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p8s12",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p8s13",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 1,
+        "hs_dropped": 1,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote",
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

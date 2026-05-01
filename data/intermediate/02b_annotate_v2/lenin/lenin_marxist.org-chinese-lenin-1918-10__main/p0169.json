@@ -1,0 +1,72 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 169,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁通过二难推理，将考茨基的立场归结为两种可能，并断言无论哪种都意味着背叛马克思主义。",
+    "importance_score": 3,
+    "importance_reason": "这是对考茨基政治立场的最终定性，指控其背叛马克思主义，属于核心批判。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对考茨基的定性，具体展开其两种可能立场，并断言两者都导致背叛。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "考茨基",
+      "their_view": "工人阶级可以接管旧的资产阶级国家机器，但不应摧毁它，而应利用它。",
+      "author_response": "这种立场实质上是维护资产阶级统治，背叛了马克思主义关于打碎旧国家机器的原理。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p169s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "国家机器",
+            "type": "concept",
+            "modern": "在马克思主义语境中，指维护阶级统治的暴力机构，无产阶级革命必须打碎它。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "state_marxist_theory"
+          }
+        ]
+      },
+      {
+        "sid": "p169s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix",
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

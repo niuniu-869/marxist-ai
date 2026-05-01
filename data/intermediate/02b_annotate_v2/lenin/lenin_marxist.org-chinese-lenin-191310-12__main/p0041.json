@@ -1,0 +1,69 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 41,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁指出崩得分子对李普曼说法的反应，并批判这种反应实质上是反对马克思主义的民族观。",
+    "importance_score": 1,
+    "importance_reason": "承接上文对李普曼的引用，具体指向论敌（崩得分子）的反应，并定性其本质。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对李普曼言论的引用，具体描述崩得分子对此的反应，并将这种反应定性为对马克思主义口号的反对。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "崩得分子",
+        "explain": "“崩得”是立陶宛、波兰和俄罗斯犹太工人总联盟的简称，是俄国社会民主工党内的一个联邦组织。在民族问题上，崩得主张犹太工人应首先关注本民族的文化和政治自治，与列宁主张的国际主义和阶级团结路线相左。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "崩得分子",
+      "their_view": "李普曼那种反对“同化”、强调工人应以社会民主党人身份回应民族问题的说法，是“尖锐”且值得肯定的。",
+      "author_response": "列宁认为，崩得分子的这种反应，恰恰暴露了他们所持的“俏皮话”和“叫嚣”实质上是反对彻底的民主主义和马克思主义的口号。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p41s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p41s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 15,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁暂时搁置对“经济主义”的批判，转而引用一位非直接论战者奥托·鲍威尔的部分正确观点，以支持自己的论证。",
+    "importance_score": 1,
+    "importance_reason": "这是一个过渡段，通过策略性地引用论敌阵营中某人的部分正确观点，为后续论证提供支撑。",
+    "argument_role": "transition",
+    "argument_link": "上段批判了“经济主义”对国家疆界问题的错误看法，本段则通过引入一个外部参照（鲍威尔）来转换论证节奏，并为下文引用其具体论述做铺垫。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "民族文化自治",
+        "explain": "奥地利马克思主义者奥托·鲍威尔提出的解决民族问题的方案，主张在统一的国家框架内，各民族按文化共同体原则实行自治。列宁认为这回避了政治自决和阶级斗争的根本问题。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p15s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p15s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "奥托·鲍威尔",
+            "type": "person",
+            "modern": "奥地利马克思主义理论家，第二国际重要成员，以“民族文化自治”理论闻名。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p15s3",
+        "speaker": "quoted_opponent",
+        "stance": "neutral_citation",
+        "notes": []
+      },
+      {
+        "sid": "p15s4",
+        "speaker": "quoted_opponent",
+        "stance": "neutral_citation",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

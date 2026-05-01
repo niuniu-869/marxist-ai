@@ -1,0 +1,253 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 5,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段阐述工业法庭的第二个优势：由劳资双方选出的审判员熟悉工厂实情，能克服官僚法庭的文牍主义与阶级偏见，更有效地调解纠纷。",
+    "importance_score": 2,
+    "importance_reason": "本段是论证工业法庭具体益处的核心段落之一，通过对比官僚法庭与工业法庭的运作方式，揭示了国家机器在处理劳资纠纷时的阶级局限性。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段关于程序便利性的论述，本段深入到审判员构成与认知层面，论证工业法庭在实质公正性上的优势。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "cross_ref_pronoun",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "“我们已经说过”的指代",
+        "explain": "p5s17句中的“我们已经说过”指代列宁在本文更早部分（可能在前几段）对法官阶级属性的论述，即法官大多出身于资产阶级和有产者阶级。",
+        "why_needed": "cross_ref_pronoun",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      },
+      {
+        "topic": "“黑压压的森林”隐喻",
+        "explain": "p5s22句用“黑压压的森林”比喻新工人初入工厂时面对复杂规章、陌生环境和权力关系时的迷茫与无助感。",
+        "why_needed": "allusion",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p5s12",
+        "quote": "即使法官想了解案情的实质，想全神贯注地分析案情，往往也不能抓住要害，因为他们不了解惯例，不了解计算工资的方法，不了解工头往往不必违反规章和克扣工资也能想出方法欺压工人（例如，他们可以把工人调去做别的工作，发给较差的材料，如此等等）。",
+        "trigger": "long_nested",
+        "reader_block": "长句嵌套多层“不了解”，且括号内举例说明工头如何“合法”欺压，读者可能难以快速抓住核心论点：法官因脱离生产实践而无法识别隐蔽的剥削手段。",
+        "parse": {
+          "claim": "官僚法庭的法官由于缺乏对工厂内部惯例、工资计算及工头日常操作方式的切身了解，即便主观上想公正审理，也无法识别那些在形式上合规、实质上压迫工人的行为。",
+          "qualifiers": "即使法官主观上愿意深入了解案情。",
+          "contrast_or_target": "与从业主和工人中选出的、熟悉工厂生活的审判员形成对比。"
+        },
+        "why": {
+          "relation": "continues",
+          "explanation": "本句具体展开上一句（p5s11）“规章与实际大有出入”的论点，通过列举法官的三重“不了解”，解释为何官僚法庭无法触及工厂纠纷的实质。"
+        },
+        "implication": "这揭示了法律形式主义与工人实际处境之间的鸿沟，为论证由工人参与的审判员的必要性提供了直接依据。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      },
+      {
+        "anchor": "p5s22",
+        "quote": "他们非常了解，一个新工人或青年工人来到工厂或办事房里常常感到自己好象走进了黑压压的森林，连想也想不到他是在签订“自由合同”，合同可以“规定”对他有利的条件。",
+        "trigger": "allusion",
+        "reader_block": "“黑压压的森林”是隐喻，读者需理解其意指新工人面对陌生、复杂且充满潜在风险的工厂环境时的恐惧与迷失感，而非字面意思。",
+        "parse": {
+          "claim": "工人选出的审判员深知，新工人在进入工厂时，面对复杂的环境和权力结构，往往处于一种茫然无措的状态，根本意识不到自己有权在雇佣合同中争取有利条款。",
+          "qualifiers": "针对新工人或青年工人初入工厂的特定情境。",
+          "contrast_or_target": "与法官假设小工应像经理一样清楚自身权利的“资产阶级的愚蠢”形成对比。"
+        },
+        "why": {
+          "relation": "example",
+          "explanation": "本句用一个生动的比喻，举例说明工人审判员如何理解工人的实际处境，从而支撑了前文（p5s13）关于他们能“了解工人的真正要求”的论点。"
+        },
+        "implication": "这强调了阶级经验对于司法公正的重要性，暗示只有来自工人阶级的审判员才能真正体察其弱势地位。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "沙皇政府的官僚法庭与资产阶级法官",
+      "their_view": "法官只需依据成文规章和雇佣合同办案，工人应像专业人员一样清楚自身权利并自行在合同中约定，工厂内部的惯例和具体操作细节不在其关心范围内。",
+      "author_response": "列宁指出，这种脱离生产实践的文牍主义和形式主义，导致法官无法识别隐蔽的压迫，其判决必然偏向资产阶级，而工人选出的审判员则能基于共同经验进行实质调解。",
+      "polemic_kind": "reveals_class_basis",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p5s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p5s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p5s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p5s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p5s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p5s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p5s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p5s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p5s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p5s10",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p5s11",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p5s12",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p5s13",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p5s14",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p5s15",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p5s16",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p5s17",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p5s18",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p5s19",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p5s20",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p5s21",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p5s22",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p5s23",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p5s24",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p5s25",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p5s26",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p5s27",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p5s28",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  }
+}

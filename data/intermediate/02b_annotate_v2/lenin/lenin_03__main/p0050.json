@@ -1,0 +1,130 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 50,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁论证推翻资产阶级后阶级斗争会更尖锐，批评认为革命已完成的观点，并指出国际资产阶级正武装起来反对苏维埃。",
+    "importance_score": 3,
+    "importance_reason": "核心论点，直接反驳对手并阐述阶级斗争理论。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对资产阶级民主虚伪性的批判，进一步论证推翻资产阶级后阶级斗争的尖锐性。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "米留可夫、切尔诺夫、新生活派",
+        "explain": "米留可夫是立宪民主党领袖，切尔诺夫是社会革命党领袖，新生活派是半孟什维克派别。他们在十月革命前嘲笑布尔什维克无法执政。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p50s3",
+        "quote": "事情只是开始，而不是完结，因为资产阶级直到今天还不相信它已被推翻，而且在十月革命前夜，它和蔼可亲地嘲笑过我们；",
+        "trigger": "inverted_logic",
+        "reader_block": "转折逻辑，读者可能误以为推翻政权即告成功，需理解列宁强调斗争持续性。",
+        "parse": {
+          "claim": "推翻资产阶级政权仅是斗争的起点，而非终点。",
+          "qualifiers": "在资产阶级尚未承认失败、且正准备反扑的条件下。",
+          "contrast_or_target": "针对认为革命后万事大吉的民主派和社会党人观点。"
+        },
+        "why": {
+          "relation": "contrasts",
+          "explanation": "与上文提到的“万事大吉”论调形成直接对比，强调斗争的持续性。"
+        },
+        "implication": "革命后的政权需要持续斗争来巩固，不能松懈。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "民主派和社会党人",
+      "their_view": "他们认为推翻资产阶级后革命就成功了，可以享受民主自由了。",
+      "author_response": "列宁指出这种想法是自欺欺人，因为资产阶级会反扑，斗争才刚开始，且当前的自由民主本质上是资产阶级的。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p50s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p50s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p50s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p50s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p50s5",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p50s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p50s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p50s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p50s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 1,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

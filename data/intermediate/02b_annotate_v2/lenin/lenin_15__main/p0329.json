@@ -1,0 +1,66 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 329,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段呈现一个数字引用，可能指向某个历史数据或事件，但格式不完整且带有疑问。",
+    "importance_score": 1,
+    "importance_reason": "本段提供一个具体数字引用，可能用于例证前文论点，但信息不完整，属于辅助性内容。",
+    "argument_role": "example",
+    "argument_link": "本段引用一个数字，可能用于例证前文关于资本主义发展或帝国主义阶段的论述。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "text_anomaly",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "text_anomaly",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "数字引用格式异常",
+        "explain": "原文数字排列不连贯，年份括号使用不一致，可能为排版残留或OCR错误，读者需注意其不完整性。",
+        "why_needed": "text_anomaly",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p329s1",
+        "quote": "1893 42 20(1890年) ？",
+        "trigger": "text_anomaly",
+        "reader_block": "数字排列混乱，年份括号不一致，读者无法直接理解其指代的具体数据或事件。",
+        "parse": {
+          "claim": "这个数字引用可能表示某个统计数据或事件，但格式错误导致含义模糊。",
+          "qualifiers": "无明确限定条件。",
+          "contrast_or_target": "无。"
+        },
+        "why": {
+          "relation": "none",
+          "explanation": ""
+        },
+        "implication": "读者需结合上下文或历史资料推断其具体所指。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p329s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  }
+}

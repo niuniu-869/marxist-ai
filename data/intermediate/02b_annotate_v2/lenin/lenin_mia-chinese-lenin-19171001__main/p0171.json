@@ -1,0 +1,79 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 171,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段直接抨击对手通过伪造民主程序、勾结反动势力来对抗人民意志的行为。",
+    "importance_score": 2,
+    "importance_reason": "这是对论敌政治手段的具体揭露，构成核心批判的一部分。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段对论敌意图的揭露，具体描述其伪造民主机构、勾结反动阶级的行动。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "新布里根杜马",
+        "explain": "指1917年临时政府筹备的立宪会议选举，被布尔什维克视为对真正民意代表制的伪造和拖延。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "科尔尼洛夫匪徒",
+        "explain": "指1917年8月发动军事叛乱、企图建立军事独裁的科尔尼洛夫将军及其追随者，被临时政府和布尔什维克共同镇压。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "立宪民主党人、社会革命党人等",
+      "their_view": "布尔什维克无法通过合法途径获得政权，因此我们通过选举来确保稳定。",
+      "author_response": "列宁指出这是对民主程序的践踏，是反动势力的阴谋，旨在用伪造的代表机构和暴力来压制工农。",
+      "polemic_kind": "reveals_class_basis",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p171s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "新布里根杜马",
+            "type": "event",
+            "modern": "临时政府为拖延立宪会议而筹备的选举，被批评为不具代表性的伪民主程序。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

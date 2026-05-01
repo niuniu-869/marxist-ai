@@ -1,0 +1,127 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 68,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段通过民族集团投票数据，论证克伦斯基政府的压迫政策导致被压迫民族中的小资产阶级群众转向信任无产阶级。",
+    "importance_score": 2,
+    "importance_reason": "本段用具体投票结果和阶级分析，支撑布尔什维克能获得被压迫民族支持的论点。",
+    "argument_role": "continues",
+    "argument_link": "上段讨论农民资产阶级在某些省份的优势，本段转向民族集团，继续展示不同阶级群体对联合的态度，强化阶级斗争视角。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "波拿巴主义者",
+        "explain": "列宁用此标签指克伦斯基，模仿拿破仑三世的独裁统治方式，批评其临时政府采取专制手段。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "克伦斯基",
+      "their_view": "克伦斯基政府推行对非俄罗斯民族的兼并和暴力政策。",
+      "author_response": "列宁指出这种政策已经自食其果，导致被压迫民族转向支持无产阶级。",
+      "polemic_kind": "reveals_class_basis",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p68s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "民族集团",
+            "type": "org",
+            "modern": "俄国议会中代表非俄罗斯民族的派别",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p68s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "克伦斯基",
+            "type": "person",
+            "modern": "俄国临时政府首脑，社会革命党人",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p68s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "被压迫民族",
+            "type": "social_group",
+            "modern": "俄国境内受沙皇和临时政府压迫的非俄罗斯民族群体",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          },
+          {
+            "surface": "无产阶级",
+            "type": "concept",
+            "modern": "现代工业工人阶级，在马克思主义中是革命领导力量",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "proletariat_modern"
+          }
+        ]
+      },
+      {
+        "sid": "p68s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "资产阶级",
+            "type": "concept",
+            "modern": "拥有生产资料的阶级，在资本主义社会中占统治地位",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history",
+            "sense_id": "bourgeoisie"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 5,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_6>5"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 10,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "马克思说明《法兰西内战》的写作时机与特点，强调其在公社失败后迅速完成，且内容真实有力。",
+    "importance_score": 1,
+    "importance_reason": "本段是过渡段，将前文对宣言的评价引向对《法兰西内战》本身的介绍，并点明其写作背景与价值。",
+    "argument_role": "transition",
+    "argument_link": "承接上段关于宣言证明国际政策远见性的论述，指出同样的评价适用于《法兰西内战》，并具体说明其写作时间与特点。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "cross_ref_pronoun",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "两篇宣言",
+        "explain": "指马克思在前文（第9段）提到的、由国际工人协会总委员会在普法战争期间就法德冲突发表的两篇宣言。",
+        "why_needed": "cross_ref_pronoun",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      },
+      {
+        "topic": "贝尔维尔",
+        "explain": "巴黎东北部的一个高地与工人聚居区，是公社最后抵抗的地点之一。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "总委员会",
+        "explain": "指国际工人协会（第一国际）的中央执行机构，马克思是其成员。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p10s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p10s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "贝尔维尔",
+            "type": "place",
+            "modern": "巴黎东北部的高地与工人聚居区，公社最后抵抗的地点之一。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p10s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "总委员会",
+            "type": "org",
+            "modern": "国际工人协会（第一国际）的中央执行机构。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p10s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

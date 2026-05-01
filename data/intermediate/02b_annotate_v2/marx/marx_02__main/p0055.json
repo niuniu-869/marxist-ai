@@ -1,0 +1,86 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 55,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "马克思通过反问与陈述，指出在自由贸易条件下，工人的相对经济地位和社会地位均在恶化，且实际损失更为严重。",
+    "importance_score": 2,
+    "importance_reason": "支撑核心论点，揭示自由贸易下工人阶级处境的恶化。",
+    "argument_role": "continues",
+    "argument_link": "本段延续上一段关于工资降低的讨论，进一步从相对比例和社会地位角度深化论证。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [
+      {
+        "anchor": "p55s1",
+        "quote": "工人的工资和利润比较起来难道不是越来越低吗？",
+        "trigger": "inverted_logic",
+        "reader_block": "反问句式可能让读者误以为在质疑，实际是强调一个肯定事实，需要理解其肯定含义。",
+        "parse": {
+          "claim": "工人工资相对于利润的比例持续下降。",
+          "qualifiers": "在自由贸易政策推行的背景下。",
+          "contrast_or_target": "反驳自由贸易派认为工资会随物价下降而提高的观点。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "以反问形式直接挑战自由贸易派关于工人能从廉价商品中获益的核心前提，揭示相对剥夺的事实。"
+        },
+        "implication": "工人的绝对工资可能不变或微增，但其在社会财富分配中的份额被资本利润挤压。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "自由贸易派",
+      "their_view": "自由贸易能带来廉价面包和高工资，从而改善工人阶级的处境。",
+      "author_response": "马克思指出，这掩盖了工人相对工资下降和社会地位恶化的事实，工人实际损失更大。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p55s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p55s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p55s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 1,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

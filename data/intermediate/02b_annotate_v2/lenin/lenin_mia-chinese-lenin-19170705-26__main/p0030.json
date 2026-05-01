@@ -1,0 +1,91 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 30,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁揭露，对布尔什维克的镇压并非源于七月事件的偶然情况，而是立宪民主党长期的阶级要求，并批判社会革命党人和孟什维克对此的歪曲。",
+    "importance_score": 2,
+    "importance_reason": "本段是核心批判的一部分，直接驳斥论敌为镇压行为寻找偶然借口的说辞，揭示其阶级根源。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对立宪民主党镇压要求的描述，进一步论证这种要求的长期性与阶级性，并批判其支持者的伪善。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "社会革命党人和孟什维克",
+      "their_view": "镇压布尔什维克是因为7月4日发生了某种偶然的或个别的事件，而非出于长期的政治要求。",
+      "author_response": "列宁指出，这种说法是肆无忌惮的伪造或政治上的极端愚钝，因为它无视了立宪民主党长期以来的镇压要求及其背后的阶级根源。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p30s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "立宪民主党",
+            "type": "org",
+            "modern": "1905年成立的俄国资产阶级政党，主张君主立宪，在临时政府中代表大资产阶级和地主利益。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p30s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p30s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "社会革命党人和孟什维克",
+            "type": "org",
+            "modern": "当时在苏维埃中占多数的两个政党，代表小资产阶级利益，主张与资产阶级临时政府合作。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p30s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

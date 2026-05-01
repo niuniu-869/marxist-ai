@@ -1,0 +1,144 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 63,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "通过对比黑格尔的法哲学体系，批判费尔巴哈伦理学视野的狭隘及其“人”概念的抽象性。",
+    "importance_score": 2,
+    "importance_reason": "本段是恩格斯对费尔巴哈哲学批判的核心环节，具体揭示其在社会历史领域的唯心主义根源。",
+    "argument_role": "contrasts",
+    "argument_link": "承接上段对费尔巴哈宗教批判抽象性的分析，本段将批判延伸至其伦理学领域，通过与黑格尔体系的对比，具体展示费尔巴哈思想的贫乏。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "黑格尔法哲学体系",
+        "explain": "黑格尔将伦理生活视为一个从抽象法权到道德，再到具体伦理实体（家庭、市民社会、国家）的辩证发展过程。其核心是认为现实的法律、经济和政治关系是绝对精神自我实现的环节。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      },
+      {
+        "topic": "费尔巴哈的“人”",
+        "explain": "费尔巴哈批判宗教，主张从“人”出发。但恩格斯指出，这个“人”并非生活在具体历史社会中的现实个体，而是从宗教神学概念中剥离出来的、脱离一切社会关系的抽象哲学范畴。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "费尔巴哈",
+      "their_view": "我的哲学从现实的、感性的人出发，把人与人之间的关系归结为道德和爱，这比黑格尔的唯心主义体系更真实。",
+      "author_response": "费尔巴哈的出发点看似现实，但他完全忽略了人所生活的具体历史和社会世界，导致他谈论的“人”和“人与人的关系”仍是脱离现实的抽象物，其伦理学视野远不及黑格尔。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p63s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p63s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p63s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "法哲学",
+            "type": "concept",
+            "modern": "黑格尔哲学体系中关于伦理生活与客观精神的学说，涵盖法律、道德、家庭、市民社会与国家。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "hegelian_philosophy_of_right"
+          }
+        ]
+      },
+      {
+        "sid": "p63s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p63s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p63s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p63s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p63s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "抽象的人",
+            "type": "concept",
+            "modern": "费尔巴哈哲学中脱离具体社会历史条件、仅作为哲学范畴存在的“人”，与现实的、从事实践活动的个人相对。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "feuerbachian_abstract_man"
+          }
+        ]
+      },
+      {
+        "sid": "p63s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p63s10",
+        "speaker": "quoted_opponent",
+        "stance": "neutral_citation",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 1,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote"
+      ]
+    }
+  ]
+}

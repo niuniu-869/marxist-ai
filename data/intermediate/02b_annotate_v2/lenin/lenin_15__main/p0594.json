@@ -1,0 +1,66 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 594,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "呈现了一组数据（29.9、64.0及+114%），可能作为前文论点的量化例证，但脱离了原始表格或图表上下文。",
+    "importance_score": 0,
+    "importance_reason": "数据片段，缺乏完整论证语境，对理解核心论点作用有限。",
+    "argument_role": "none",
+    "argument_link": "",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "text_anomaly",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "text_anomaly",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "数据片段异常",
+        "explain": "原文疑似排版残留或表格数据摘录，数字与百分比脱离了原始图表或上下文，读者无法直接理解其指代对象与论证目的。",
+        "why_needed": "text_anomaly",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p594s1",
+        "quote": "29.9 64.0 ＋114%",
+        "trigger": "text_anomaly",
+        "reader_block": "读者会困惑：这些数字代表什么？是国家数据、行业数据还是其他？它们与帝国主义分析有何关联？",
+        "parse": {
+          "claim": "此处仅呈现了三个孤立的数据点，其具体含义（如所指国家、行业、时间段）和论证作用在当前文本中缺失。",
+          "qualifiers": "",
+          "contrast_or_target": ""
+        },
+        "why": {
+          "relation": "none",
+          "explanation": ""
+        },
+        "implication": "这些数据可能用于支撑前文关于资本集中、增长或不平衡发展的论点，但脱离上下文后无法确认。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p594s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  }
+}

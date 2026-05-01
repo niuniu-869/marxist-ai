@@ -1,0 +1,112 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 9,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段正面阐述历史唯物主义关于社会形态演进的基本原理，并以此批判蒲鲁东对社会与国家关系的错误理解。",
+    "importance_score": 3,
+    "importance_reason": "核心论点段，系统阐述了生产力决定生产关系、经济基础决定上层建筑的历史唯物主义基本原理，并直接用于批判蒲鲁东。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对蒲鲁东不理解历史发展的批评，本段正面阐述马克思本人对社会历史发展的理解，为批判蒲鲁东提供理论基础。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "市民社会",
+        "explain": "马克思在此特指资产阶级社会的经济关系总和，即生产、交换、消费等物质生活关系的总和，是政治国家的现实基础。这与蒲鲁东将其视为某种抽象或永恒的范畴不同。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p9s7",
+        "quote": "这就是蒲鲁东先生永远不会了解的东西，因为，当他从诉诸国家转而诉诸社会，即从诉诸社会的正式表现转而诉诸正式社会的时候，他竟认为他是在完成一桩伟业。",
+        "trigger": "inverted_logic",
+        "reader_block": "反讽句式。读者可能困惑于“诉诸国家”与“诉诸社会”的区别，以及为何蒲鲁东自认的“伟业”在马克思看来恰恰是其不理解的表现。",
+        "parse": {
+          "claim": "蒲鲁东自以为通过将关注点从国家转向社会取得了理论进步，但这恰恰证明了他根本不理解社会与国家的真实关系。",
+          "qualifiers": "无。",
+          "contrast_or_target": "蒲鲁东认为，从讨论国家转向讨论社会，是一种理论上的推进或发现。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "本句直接点名蒲鲁东，揭露其理论行动（从国家转向社会）与其宣称的目标（理解社会）之间的矛盾，指出其行动恰恰暴露了其理论的根本缺陷。"
+        },
+        "implication": "蒲鲁东的理论路径是颠倒的，他未能把握市民社会（经济基础）才是政治国家的根源。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "蒲鲁东",
+      "their_view": "从讨论国家转向讨论社会，是一种理论上的进步或发现，能够更好地解释社会现象。",
+      "author_response": "蒲鲁东的这种转向恰恰暴露了他不理解社会与国家的真实关系，即市民社会是政治国家的基础，他所谓的“社会”仍是抽象的，而非现实的经济关系总和。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p9s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p9s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p9s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p9s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p9s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p9s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p9s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "市民社会",
+            "type": "concept",
+            "modern": "马克思用此指资产阶级社会的物质生活关系总和，是政治国家的现实基础。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "text_evidence",
+            "sense_id": "civil_society_marxist"
+          }
+        ]
+      }
+    ]
+  }
+}

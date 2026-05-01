@@ -1,0 +1,143 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 4,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段回顾维也纳会议后欧洲民族意识被强权践踏的历史，指出君主外交无视民族自决，导致德、意、波、匈等民族被分割或奴役。",
+    "importance_score": 2,
+    "importance_reason": "为后续分析德国统一道路提供历史背景，说明民族意识与强权政治的矛盾是暴力冲突的根源之一。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对德国统一进程的预告，具体描述统一前欧洲民族问题的历史状况，为分析俾斯麦政策做铺垫。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "维也纳会议",
+        "explain": "1814-1815年拿破仑战败后，欧洲列强在维也纳召开的分赃会议。它重新划分欧洲版图，旨在恢复旧王朝统治，压制法国大革命和拿破仑战争激发的民族主义浪潮。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "波兰第四次被瓜分",
+        "explain": "指1795年第三次瓜分后，波兰作为独立国家已不存在。此处“第四次”是恩格斯对1815年后波兰土地被俄、普、奥进一步瓜分和控制的概括性说法。",
+        "why_needed": "history_missing",
+        "confidence": "medium",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p4s6",
+        "quote": "甚至不能说，这样对待这些民族是不公道的，谁叫它们容许这样做，谁叫它们把俄国沙皇［注：亚历山大一世。——编者注］当做自己的解放者来欢迎呢？",
+        "trigger": "inverted_logic",
+        "reader_block": "反问句式加双重否定（“不能说……不公道”），读者易误读为作者认为这种对待是公道的，实则是强烈的讽刺。",
+        "parse": {
+          "claim": "这些民族遭受分割和奴役的结局，根源在于它们自身的政治错误：容忍强权宰割，并误将俄国沙皇视为解放者。",
+          "qualifiers": "此判断针对的是维也纳会议后欧洲各民族（特别是德、意、波、匈）的普遍政治表现。",
+          "contrast_or_target": "反驳那种将民族苦难完全归咎于外部强权的简单看法，强调民族自身政治选择的责任。"
+        },
+        "why": {
+          "relation": "none",
+          "explanation": ""
+        },
+        "implication": "暗示民族解放斗争需要正确的政治判断，不能依赖外部强权，否则会陷入更深的奴役。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p4s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "维也纳会议",
+            "type": "event",
+            "modern": "1815年拿破仑战败后，欧洲列强为重建秩序、恢复旧王朝而召开的国际会议。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p4s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "拿破仑",
+            "type": "person",
+            "modern": "法兰西第一帝国皇帝，其战争客观上冲击了欧洲封建秩序，激发了被征服地区的民族意识。",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p4s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p4s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p4s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p4s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p4s7",
+        "speaker": "editor",
+        "stance": "neutral_citation",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 1,
+        "hs_kept": 1,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n2_circular_prefix"
+      ]
+    }
+  ]
+}

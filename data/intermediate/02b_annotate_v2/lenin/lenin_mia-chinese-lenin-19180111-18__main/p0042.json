@@ -1,0 +1,107 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 42,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁宣布新生政权的性质与纲领，并批判某些人对社会主义的错误理解。",
+    "importance_score": 3,
+    "importance_reason": "核心论点段落，明确宣告政权性质，并划清与改良主义的界限。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于过渡时期艰难性的论述，具体阐述政权已采取的行动和确立的原则。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "term_density",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "切尔诺夫与策列铁里",
+        "explain": "切尔诺夫是社会革命党领袖，策列铁里是孟什维克领袖。二人在1917年临时政府时期曾短暂执政，主张与资产阶级合作，进行温和改良。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "十个月的革命时期",
+        "explain": "指从1917年二月革命推翻沙皇，到列宁讲话时（1918年1月）约十个月的时间。期间经历了临时政府、十月革命等阶段。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p42s4",
+        "quote": "这些被剥削劳动者或者根本不懂得什么叫社会主义，或者，更糟的是，把社会主义理解为切尔诺夫—策列铁里式的资产阶级改良的混合物，而这种混合物，我们在十个月的革命时期内已经尝试过和体验过，并且证实，这是伪造品，而不是社会主义。",
+        "trigger": "term_density",
+        "reader_block": "句中包含特定人名（切尔诺夫、策列铁里）和政治定性（资产阶级改良的混合物），读者若不了解这些人物及其主张，无法理解列宁批判的具体对象和内容。",
+        "parse": {
+          "claim": "部分被剥削群众对社会主义存在两种错误认知：一种是完全不了解；另一种是将其等同于切尔诺夫和策列铁里所代表的那种与资产阶级妥协的改良方案。",
+          "qualifiers": "针对的是“被剥削劳动者”这一群体中的部分人。",
+          "contrast_or_target": "切尔诺夫和策列铁里所主张的，是与资产阶级联合、进行渐进改良的路线，而非彻底的社会主义革命。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "本句直接点名批判切尔诺夫和策列铁里所代表的政治路线，将其定性为对社会主义的歪曲，旨在划清苏维埃政权的革命路线与改良主义路线的界限。"
+        },
+        "implication": "列宁意在教育群众，真正的社会主义必须通过无产阶级革命和专政来实现，而非与资产阶级妥协。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "切尔诺夫—策列铁里",
+      "their_view": "社会主义可以通过与资产阶级合作、进行渐进的社会改良来实现。",
+      "author_response": "列宁指出，这种混合了资产阶级改良的方案在革命实践中已被证伪，是社会主义的伪造品，而非真正的社会主义。",
+      "polemic_kind": "refutes_premise",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p42s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p42s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p42s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p42s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 1,
+        "hs_kept": 1,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_6>5"
+      ]
+    }
+  ]
+}

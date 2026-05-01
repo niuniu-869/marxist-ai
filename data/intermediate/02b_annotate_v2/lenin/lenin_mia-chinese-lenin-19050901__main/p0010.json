@@ -1,0 +1,113 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 10,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁批评党内对“支持”农民没收土地的模糊立场，指出对采用先进经营方式的地主土地，简单分给小私有者会阻碍资本主义发展，因此支持必须附加条件。",
+    "importance_score": 2,
+    "importance_reason": "具体阐述了列宁在土地问题上的策略原则，是其对党内错误倾向进行批判的核心论据之一。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对决议缺乏具体指导的批评，本段具体剖析“坚决支持”这一条款在实践中的模糊性与潜在问题。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "集约方法经营",
+        "explain": "指在单位土地上投入更多资本、技术和劳动力以提高产量的农业经营方式，与粗放经营相对。在19世纪末的俄国，这通常与使用机器、种植经济作物的资本主义大农场相关。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p10s5",
+        "quote": "把这样的土地转交给小资产阶级私有者——不管改善他们的状况是多么重要——就这种经济的资本主义发展来说，会是倒退一步。",
+        "trigger": "inverted_logic",
+        "reader_block": "句子包含一个让步状语（“不管……多么重要”），读者可能忽略其后的核心判断，误以为列宁反对改善农民生活。",
+        "parse": {
+          "claim": "将采用先进经营方式的大农场分割给小私有者，会阻碍该领域资本主义生产方式的进步。",
+          "qualifiers": "此判断仅针对“这种经济”（即采用集约方法、机器和贵重作物的地主土地）的资本主义发展进程。",
+          "contrast_or_target": "党内某些同志可能认为，只要是没收地主土地分给农民，无论何种土地都应无条件支持。"
+        },
+        "why": {
+          "relation": "contrasts",
+          "explanation": "此句通过让步转折，揭示了党内某些支持观点的内在矛盾：在追求短期农民利益时，可能违背了推动生产力发展的长远阶级利益。"
+        },
+        "implication": "社会民主党的支持不能是抽象的、无条件的，必须具体分析土地经营方式的性质及其对生产力发展的影响。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "党内某些同志（如萨拉托夫委员会、莫斯科郊区组织）",
+      "their_view": "应当无条件、坚决地支持农民没收一切地主土地的要求，以争取农民支持。",
+      "author_response": "支持必须附加保留条件，即只有当没收和重新分配能促进该土地上资本主义经济向更高形式发展时，社会民主党才应支持。",
+      "polemic_kind": "strategic_critique",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p10s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p10s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p10s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p10s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p10s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p10s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 2,
+        "hs_kept": 1,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_6>5",
+        "note:n1_overflow_concept_8>5"
+      ]
+    }
+  ]
+}

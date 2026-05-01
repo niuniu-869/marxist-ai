@@ -1,0 +1,126 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 173,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁以马克思、恩格斯在不同历史阶段对议会斗争策略的调整为例，反驳认为其自相矛盾的论调，并论证策略需随革命形势变化。",
+    "importance_score": 2,
+    "importance_reason": "通过历史类比澄清策略灵活性原则，为布尔什维克在杜马选举问题上的立场提供理论依据。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对马克思抨击1848年德国资产阶级民主派的引用，进一步用马克思在1860年代的策略调整来反驳论敌的曲解。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "普鲁士宪法冲突",
+        "explain": "指1860年代普鲁士国王与议会之间围绕军队预算和宪法权限的斗争，是德国统一前夕的重要政治事件。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      },
+      {
+        "topic": "伯恩施坦分子",
+        "explain": "指追随爱德华·伯恩施坦的修正主义者，他们主张放弃暴力革命，通过议会改良实现社会主义。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p173s6",
+        "quote": "你们既然已经进入议会，那就不仅能够而且应当在一定的条件下支持变节分子伊兹哥耶夫去反对希波夫，支持希波夫去反对杜尔诺沃。",
+        "trigger": "term_density",
+        "reader_block": "句中连续出现三个具体人名（伊兹哥耶夫、希波夫、杜尔诺沃），且用“支持A去反对B”的句式，读者若不了解其政治光谱，无法理解此策略的实质。",
+        "parse": {
+          "claim": "在议会斗争中，工人政党应利用统治阶级内部的矛盾，策略性地支持相对更进步的一方去反对更反动的一方。",
+          "qualifiers": "在“一定的条件下”，即当这种支持有助于推进革命目标时。",
+          "contrast_or_target": "针对孟什维克或某些人可能主张的、在议会中保持绝对纯洁或拒绝一切妥协的立场。"
+        },
+        "why": {
+          "relation": "example",
+          "explanation": "此句将马克思的历史经验具体化为当前俄国杜马斗争中的策略建议，说明如何在议会内部进行分化利用。"
+        },
+        "implication": "议会斗争是阶级斗争的场所，策略性利用对手内部分歧是合法且必要的手段。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p173s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p173s2",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p173s3",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": []
+      },
+      {
+        "sid": "p173s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p173s5",
+        "speaker": "quoted_marx",
+        "stance": "endorsed",
+        "notes": []
+      },
+      {
+        "sid": "p173s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p173s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 0,
+        "hs_kept": 1,
+        "hs_dropped": 1,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote",
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

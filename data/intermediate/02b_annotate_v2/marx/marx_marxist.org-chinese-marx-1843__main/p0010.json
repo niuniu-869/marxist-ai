@@ -1,0 +1,136 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 10,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "论证直接从德国现状出发进行批判的局限性，指出这种方式无法达到现代革命的高度。",
+    "importance_score": 1,
+    "importance_reason": "承接上一段关于从德国副本开始的讨论，进一步论证为何这种方式在时代性上存在不足，为后文转向更彻底的批判做铺垫。",
+    "argument_role": "continues",
+    "argument_link": "上一段提出探讨从德国副本开始，本段则论证即使从德国现状本身出发并采取否定方式，其结果在历史坐标上也是落后的，无法与现代革命进程同步。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "法国大革命时间线",
+        "explain": "马克思用“法国的年”作为历史坐标。1789年是法国大革命爆发之年，标志着资产阶级革命的高潮。读者需知此时间点，才能理解作者为何说否定1843年的德国制度，按此坐标也远未达到1789年的革命高度。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p10s3",
+        "quote": "即使我否定了敷粉的发辩，我还是要同没有敷粉的发辩打交道。",
+        "trigger": "allusion",
+        "reader_block": "“敷粉的发辩”是比喻，读者可能不理解其具体所指，以及“敷粉”与“没有敷粉”的对比关系。",
+        "parse": {
+          "claim": "即便批判了经过修饰的、为现状辩护的理论，也仍然要面对那些未经修饰但本质相同的理论。",
+          "qualifiers": "",
+          "contrast_or_target": "针对那些认为只要批判了黑格尔哲学的表面形式（敷粉的发辩）就足够了的观点。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "用比喻反驳一种肤浅的批判观，即认为只需否定理论的外在形式，而无需触及其实质内容。"
+        },
+        "implication": "真正的批判必须深入到理论的内核，而非停留在表面。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      },
+      {
+        "anchor": "p10s4",
+        "quote": "即使我否定了1843年的德国制度，但按法国的年来说，我也不会是处在1789年，更不会是处在现代的焦点了。",
+        "trigger": "inverted_logic",
+        "reader_block": "句子通过“即使…也不会…”的让步转折结构，将德国现状的否定置于法国历史坐标中进行衡量，逻辑上需要读者进行跨时空的对比思考。",
+        "parse": {
+          "claim": "对当下德国制度的否定，其历史意义也无法等同于法国大革命初期的行动，更无法与当下欧洲革命的核心任务相提并论。",
+          "qualifiers": "限定于“按法国的年来说”这一历史比较框架内。",
+          "contrast_or_target": "反驳那种认为在德国进行局部否定就能产生与法国大革命同等历史效力的看法。"
+        },
+        "why": {
+          "relation": "continues",
+          "explanation": "承接上句关于理论批判局限性的比喻，将论证从理论层面推进到历史实践层面，用具体历史坐标说明德国行动的时代滞后性。"
+        },
+        "implication": "德国的批判必须超越对本国现状的简单否定，与欧洲更先进、更彻底的革命任务相结合。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p10s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p10s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p10s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "敷粉的发辩",
+            "type": "metaphor",
+            "modern": "经过修饰的诡辩，指黑格尔法哲学中为普鲁士现状辩护的理论",
+            "highlight": "metaphor",
+            "confidence": "high",
+            "source_basis": "text_evidence"
+          }
+        ]
+      },
+      {
+        "sid": "p10s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "1789年",
+            "type": "event",
+            "modern": "法国大革命爆发之年，标志着资产阶级革命的高潮",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 0,
+        "hs_kept": 2,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "polemic:eval_word:author_response:历史性"
+      ]
+    }
+  ]
+}

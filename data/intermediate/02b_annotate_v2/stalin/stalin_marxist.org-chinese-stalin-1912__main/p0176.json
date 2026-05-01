@@ -1,0 +1,64 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 176,
+  "annotation": {
+    "block_type": "quote_block",
+    "gist": "直接引用奥地利社会民主党人施普林格关于民族委员会职能的具体描述。",
+    "importance_score": 1,
+    "importance_reason": "为后续批判提供论敌观点的具体靶子，属于论战中的引证环节。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对捷克、波兰等民族情况的提及，具体展示奥地利社会民主党理论家施普林格对民族自治机构的设想。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "施普林格",
+      "their_view": "民族委员会应是一个拥有广泛权力的文化管理机构，负责为民族教育、文学、艺术和科学制定原则并批准经费，以及建立各类文化设施。",
+      "author_response": "斯大林引用此段，旨在揭示奥地利社会民主党将民族问题局限于文化领域的理论实质，为后续批判其脱离经济基础和阶级斗争的唯心主义民族观做铺垫。",
+      "polemic_kind": "counter_quotation",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p176s1",
+        "speaker": "quoted_opponent",
+        "stance": "criticized",
+        "notes": [
+          {
+            "surface": "民族委员会",
+            "type": "org",
+            "modern": "奥地利社会民主党“民族文化自治”纲领中设想的、管理本民族内部文化事务的最高机构。",
+            "highlight": "polemic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_6>5"
+      ]
+    }
+  ]
+}

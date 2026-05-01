@@ -1,0 +1,78 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 17,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "本段论证在革命与战争背景下，人民能更快理解革命任务，而实现该任务的关键在于无产阶级政党必须保持思想与组织的独立性，拒绝资产阶级的战争宣传。",
+    "importance_score": 2,
+    "importance_reason": "本段提出了实现革命任务的核心组织条件，即无产阶级政党的独立性，并直接针对当时流行的“保卫祖国”论调进行批判，是行动纲领的关键组成部分。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于组织群众以夺取政权的论述，本段具体指出这一任务在革命时期更易实现，并强调了实现它的组织前提——政党的独立性。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p17s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p17s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p17s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "国际主义",
+            "type": "concept",
+            "modern": "无产阶级在反对帝国主义战争时，应超越本国界限，与全世界被压迫阶级团结一致的立场",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "whitelist",
+            "sense_id": "internationalism_proletarian"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 1,
+        "hs_kept": 0,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_8>5",
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

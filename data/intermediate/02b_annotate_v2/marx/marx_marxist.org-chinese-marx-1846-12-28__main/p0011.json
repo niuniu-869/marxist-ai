@@ -1,0 +1,139 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 11,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "马克思批判蒲鲁东混淆观念与现实，阐述生产力发展必然要求变革与之不相适应的社会形式，并以英国革命为例说明。",
+    "importance_score": 3,
+    "importance_reason": "核心段落，清晰阐述了历史唯物主义关于生产力与生产关系矛盾运动的基本原理，并直接批判蒲鲁东的唯心史观。",
+    "argument_role": "continues",
+    "argument_link": "承接上段关于生产力是既得力量的论述，进一步阐明当生产力发展后，旧的社会形式必然被打破，以保存文明成果。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "term_first_use",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "long_nested",
+      "needs_polemic": true,
+      "polemic_reason": "explicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "commerce 与 Verkehr",
+        "explain": "马克思在此处特意说明，他使用的“commerce”一词含义极广，对应德文“Verkehr”，指人们在生产、消费和交换中形成的全部社会交往关系，而非仅指商业贸易。",
+        "why_needed": "term_first_use",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      },
+      {
+        "topic": "英国革命",
+        "explain": "指1640年爆发的英国资产阶级革命（英国内战）和1688年的“光荣革命”。这两次事件标志着英国从封建制度向资本主义制度的过渡，旧的经济形式与政治国家被打破。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p11s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p11s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p11s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p11s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p11s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "行会制度",
+            "type": "archaic",
+            "modern": "中世纪城市中手工业者的组织形式，规定了生产、价格和成员资格",
+            "highlight": "archaic",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p11s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p11s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p11s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p11s9",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p11s10",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 1,
+        "notes_dropped": 4,
+        "hs_kept": 0,
+        "hs_dropped": 2,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_concept_8>5",
+        "note:n1_overflow_concept_7>5",
+        "note:n1_overflow_event_14>12",
+        "note:n2_circular_prefix",
+        "hs:claim_5gram_with_quote",
+        "hs:eval_word:implication:历史性",
+        "polemic:eval_word:author_response:历史性"
+      ]
+    }
+  ]
+}

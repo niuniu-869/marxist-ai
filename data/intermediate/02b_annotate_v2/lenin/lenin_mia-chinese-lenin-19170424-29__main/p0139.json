@@ -1,0 +1,72 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 139,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁在四月代表会议上评论俄国政府对某问题的态度，强调其不怀疑某方是德国政府的代理人。",
+    "importance_score": 1,
+    "importance_reason": "本段作为会议文献的一部分，提供对当时政治指控的评论，起过渡作用。",
+    "argument_role": "continues",
+    "argument_link": "本段延续前文对社会党报纸沉默的讨论，转而指出俄国政府的明确立场。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "cross_ref_pronoun",
+      "needs_hard_sentence": false,
+      "hard_sentence_reason": "none",
+      "needs_polemic": false,
+      "polemic_reason": "none"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "问题的实质",
+        "explain": "前一段指出社会党报纸集体沉默，因为它们清楚问题的核心所在。本段'这一点'即指该核心问题，可能与战争中的间谍活动或政治指控有关。",
+        "why_needed": "cross_ref_pronoun",
+        "confidence": "medium",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p139s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "俄国政府",
+            "type": "org",
+            "modern": "1917年二月革命后成立的资产阶级临时政府。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "德国政府",
+            "type": "org",
+            "modern": "第一次世界大战中与俄国交战的德意志帝国政府。",
+            "highlight": null,
+            "confidence": "high",
+            "source_basis": "known_history"
+          },
+          {
+            "surface": "代理人",
+            "type": "metaphor",
+            "modern": "列宁用此词暗示某方充当德国政府的工具，服务于外国利益。",
+            "highlight": "metaphor",
+            "confidence": "medium",
+            "source_basis": "inferred"
+          }
+        ]
+      }
+    ]
+  }
+}

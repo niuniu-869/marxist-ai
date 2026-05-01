@@ -1,0 +1,125 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 50,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "列宁论证应从农民运动的总体趋势出发，主张没收全部地主土地，认为这比分割大经济更有利于资本主义发展，并批评了旧纲领的局限性。",
+    "importance_score": 3,
+    "importance_reason": "核心论点段落，系统阐述了修改土地纲领的经济与政治依据，直接回应党内关于土地问题的争论。",
+    "argument_role": "continues",
+    "argument_link": "承接上段对某种错误见解的否定，本段正面阐述列宁认为正确的分析方法和政策主张。",
+    "paragraph_gates": {
+      "needs_prereading": true,
+      "prereading_reason": "history_missing",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "metaphor",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [
+      {
+        "topic": "归还割地条款",
+        "explain": "指俄国社会民主党旧土地纲领中的要求，即地主应将1861年农奴制改革后保留的“割地”土地归还农民。列宁认为此要求已不适应革命后农民运动的规模。",
+        "why_needed": "history_missing",
+        "confidence": "high",
+        "source_basis": "known_history"
+      }
+    ],
+    "hard_sentences": [
+      {
+        "anchor": "p50s7",
+        "quote": "分割土地消灭不了资本主义，也不会把它拉向后退，而会极大地为它的（资本主义的）新的发展扫净、平整、扩大和巩固基地。",
+        "trigger": "metaphor",
+        "reader_block": "“扫净、平整、扩大和巩固基地”是农业隐喻，读者可能不理解其在政治经济学语境中具体指什么，以及为何分割土地反而能“巩固”资本主义的基地。",
+        "parse": {
+          "claim": "将地主土地分割给农民，并不会消灭或阻碍资本主义生产关系，反而会为其进一步发展创造更广阔、更稳固的条件。",
+          "qualifiers": "此判断针对的是“分割资本主义大经济”这一具体行为。",
+          "contrast_or_target": "针对那些认为分割大地产会破坏资本主义经济基础、导致经济倒退的观点。"
+        },
+        "why": {
+          "relation": "polemic",
+          "explanation": "本句直接反驳了党内部分人（如旧纲领维护者）认为没收和分割大地产是“反动措施”的论点，论证了这一行动对资本主义发展的客观促进作用。"
+        },
+        "implication": "因此，社会民主党不应因担心损害资本主义经济效率而限制土地没收的要求。",
+        "confidence": "high",
+        "source_basis": "text_evidence"
+      }
+    ],
+    "polemic_in_paragraph": {
+      "is_polemical": false,
+      "target": null,
+      "their_view": null,
+      "author_response": null,
+      "polemic_kind": null,
+      "confidence": null
+    },
+    "sentences": [
+      {
+        "sid": "p50s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p50s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p50s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p50s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p50s5",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p50s6",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p50s7",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p50s8",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 0,
+        "notes_dropped": 1,
+        "hs_kept": 1,
+        "hs_dropped": 0,
+        "polemic_zeroed": 1,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "note:n1_overflow_metaphor_13>8",
+        "polemic:their_view_eq_response_5gram"
+      ]
+    }
+  ]
+}

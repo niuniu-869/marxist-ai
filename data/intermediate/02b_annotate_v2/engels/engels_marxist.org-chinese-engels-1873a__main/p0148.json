@@ -1,0 +1,92 @@
+{
+  "_prompt_version": "marxist-v0.3-2026-04-30-codex-fixed",
+  "n": 148,
+  "annotation": {
+    "block_type": "author_text",
+    "gist": "恩格斯继续批判杜林关于大土地所有制的观点，揭露其文字游戏和逻辑错误，并提供历史证据反驳。",
+    "importance_score": 2,
+    "importance_reason": "本段是恩格斯对杜林具体论点的逐条批驳，属于支撑核心批判的论证环节。",
+    "argument_role": "continues",
+    "argument_link": "承接上一段对杜林关于大土地所有制和历史发展观点的反讽列举，本段进一步剖析其论证中的概念偷换和逻辑谬误。",
+    "paragraph_gates": {
+      "needs_prereading": false,
+      "prereading_reason": "none",
+      "needs_hard_sentence": true,
+      "hard_sentence_reason": "inverted_logic",
+      "needs_polemic": true,
+      "polemic_reason": "implicit_target"
+    },
+    "prereading_refs": [],
+    "prereading_inline": [],
+    "hard_sentences": [],
+    "polemic_in_paragraph": {
+      "is_polemical": true,
+      "target": "杜林",
+      "their_view": "通过词语替换，将“大片土地的耕作”等同于“大土地所有制”；并认为个人土地超出家庭耕种能力时必须雇佣他人，这是一个需要理论解释的重大发现。",
+      "author_response": "揭露其论证是拙劣的文字游戏和概念偷换，并用历史事实证明这种“发现”毫无新意，是早已存在的普遍现象。",
+      "polemic_kind": "exposes_contradiction",
+      "confidence": "high"
+    },
+    "sentences": [
+      {
+        "sid": "p148s1",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p148s2",
+        "speaker": "author",
+        "stance": "self",
+        "notes": []
+      },
+      {
+        "sid": "p148s3",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "依附农",
+            "type": "social_group",
+            "modern": "中世纪欧洲依附于领主、需服劳役的农民",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      },
+      {
+        "sid": "p148s4",
+        "speaker": "author",
+        "stance": "self",
+        "notes": [
+          {
+            "surface": "自由农",
+            "type": "social_group",
+            "modern": "拥有自由身份、可自主经营土地的农民",
+            "highlight": "term",
+            "confidence": "high",
+            "source_basis": "known_history"
+          }
+        ]
+      }
+    ]
+  },
+  "_validate_passes": [
+    {
+      "version": "v0.3-validate",
+      "stats": {
+        "notes_kept": 2,
+        "notes_dropped": 0,
+        "hs_kept": 0,
+        "hs_dropped": 2,
+        "polemic_zeroed": 0,
+        "para_eval_issues": 0
+      },
+      "reasons": [
+        "hs:claim_5gram_with_quote",
+        "hs:eval_word:implication:深刻"
+      ]
+    }
+  ]
+}
