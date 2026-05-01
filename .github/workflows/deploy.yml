@@ -24,22 +24,23 @@ jobs:
         with:
           python-version: "3.11"
 
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 9
+
       - uses: actions/setup-node@v4
         with:
-          node-version: "22.12.0"
+          node-version: 22
+          cache: pnpm
+          cache-dependency-path: frontend/pnpm-lock.yaml
 
       - name: Install dependencies
         working-directory: frontend
-        env:
-          NPM_CONFIG_FUND: "false"
-          NPM_CONFIG_AUDIT: "false"
-        run: |
-          npm install -g npm@10.9.2
-          npm install --prefer-offline --no-audit --no-fund --no-progress
+        run: pnpm install --frozen-lockfile
 
       - name: Build
         working-directory: frontend
-        run: npm run build
+        run: pnpm run build
 
       - uses: actions/upload-pages-artifact@v3
         with:
