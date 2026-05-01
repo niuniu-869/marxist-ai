@@ -471,16 +471,6 @@ function ScaffoldCard({
         <div className="font-serif text-base leading-relaxed text-[var(--color-ink)] bg-[var(--color-paper-warm)] p-3 rounded">
           「{hs.quote}」
         </div>
-        {hs.reader_block && (
-          <div>
-            <p className="font-sans text-xs uppercase tracking-widest text-[var(--color-ink-muted)] mb-1">
-              卡在哪
-            </p>
-            <p className="text-sm leading-relaxed text-[var(--color-ink-soft)]">
-              {hs.reader_block}
-            </p>
-          </div>
-        )}
         {hs.parse?.claim && (
           <div>
             <p className="font-sans text-xs uppercase tracking-widest text-[var(--color-accent)] mb-1">
