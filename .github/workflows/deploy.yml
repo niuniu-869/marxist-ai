@@ -26,11 +26,16 @@ jobs:
 
       - uses: actions/setup-node@v4
         with:
-          node-version: 22
+          node-version: "22.12.0"
 
       - name: Install dependencies
         working-directory: frontend
-        run: npm install --prefer-offline --no-audit --no-fund
+        env:
+          NPM_CONFIG_FUND: "false"
+          NPM_CONFIG_AUDIT: "false"
+        run: |
+          npm install -g npm@10.9.2
+          npm install --prefer-offline --no-audit --no-fund --no-progress
 
       - name: Build
         working-directory: frontend
