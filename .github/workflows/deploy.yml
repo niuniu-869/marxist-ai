@@ -26,17 +26,13 @@ jobs:
 
       - uses: actions/setup-node@v4
         with:
-          node-version: "20"
+          node-version: 22
 
-      - name: Install frontend deps
+      - name: Install dependencies
         working-directory: frontend
-        env:
-          NODE_OPTIONS: "--max-old-space-size=4096"
-        run: |
-          rm -f package-lock.json
-          npm install --no-audit --no-fund --legacy-peer-deps
+        run: npm install --prefer-offline --no-audit --no-fund
 
-      - name: Build (sync-data + astro build)
+      - name: Build
         working-directory: frontend
         run: npm run build
 
