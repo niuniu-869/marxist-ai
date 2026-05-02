@@ -107,62 +107,62 @@ function shortName(t: string): string {
         在世（彩色实线） · 文献（小点） · 重大节点（★）。点击下面任意时代切片展开。
       </p>
 
-      <div class="overflow-x-auto">
-        <div class="lifeline-grid relative" style="min-width: 720px;">
+      <div class="lifeline-scroll">
+        <div class="lifeline-grid">
 
-          {/* 年份刻度 */}
-          <div class="lifeline-row relative h-6">
+          {/* 行 1：年份刻度（左列留空 + 右列刻度） */}
+          <div class="ll-label" aria-hidden="true"></div>
+          <div class="ll-track ll-track-axis">
             {[1810, 1830, 1850, 1870, 1890, 1910, 1930, 1950].map((y) => (
-              <div class="absolute text-xs font-sans text-[var(--color-ink-muted)] tabular-nums"
-                   style={`left: ${xp(y)}%; transform: translateX(-50%);`}>
-                {y}
-              </div>
+              <div class="ll-tick" style={`left: ${xp(y)}%;`}>{y}</div>
             ))}
           </div>
 
           {/* 4 条作者带 */}
           {Object.entries(lives).map(([aid, info]) => (
-            <div class="lifeline-row relative h-9 my-1.5">
-              <div class="lifeline-label">
-                <span class="font-sans text-sm text-[var(--color-ink)] font-medium">{info.name}</span>
-                <span class="font-sans text-xs text-[var(--color-ink-muted)] ml-2 tabular-nums">{info.born}–{info.died}</span>
+            <>
+              <div class="ll-label">
+                <div class="ll-name" style={`color: ${info.color};`}>{info.name}</div>
+                <div class="ll-years tabular-nums">{info.born}–{info.died}</div>
               </div>
+              <div class="ll-track ll-track-life">
+                {/* baseline 极浅 */}
+                <div class="ll-baseline"></div>
 
-              {/* 在世实线 */}
-              <div class="absolute top-1/2 h-1 rounded-full"
-                   style={`left: ${xp(info.born)}%; width: ${xp(info.died) - xp(info.born)}%; background: ${info.color}; opacity: 0.55; transform: translateY(-50%);`}></div>
+                {/* 在世实线 */}
+                <div class="ll-life"
+                     style={`left: ${xp(info.born)}%; width: ${xp(info.died) - xp(info.born)}%; background: ${info.color};`}></div>
 
-              {/* 生标 */}
-              <div class="absolute top-1/2 w-2.5 h-2.5 rounded-full"
-                   style={`left: ${xp(info.born)}%; background: ${info.color}; transform: translate(-50%, -50%);`}
-                   title={`${info.name} ${info.born} 生`}></div>
+                {/* 生标 */}
+                <div class="ll-birth"
+                     style={`left: ${xp(info.born)}%; background: ${info.color};`}
+                     title={`${info.name} ${info.born} 生`}></div>
 
-              {/* 卒标 */}
-              <div class="absolute top-1/2 font-sans text-base leading-none"
-                   style={`left: ${xp(info.died)}%; color: ${info.color}; transform: translate(-50%, -50%);`}
-                   title={`${info.name} ${info.died} 卒`}>×</div>
+                {/* 卒标 */}
+                <div class="ll-death"
+                     style={`left: ${xp(info.died)}%; color: ${info.color};`}
+                     title={`${info.name} ${info.died} 卒`}>×</div>
 
-              {/* 文献小点 */}
-              {(docsBy[aid] || []).map((d) => (
-                <a href={`#${d.eraId}`}
-                   class="absolute top-1/2 w-2 h-2 rounded-full transition-transform hover:scale-[2] focus-visible:scale-[2] outline-none"
-                   style={`left: ${xp(d.year)}%; background: ${info.color}; transform: translate(-50%, -50%); opacity: 0.85;`}
-                   title={`${d.year}　${d.title}`}>
-                  <span class="sr-only">{d.year}{" "}{d.title}</span>
-                </a>
-              ))}
-            </div>
+                {/* 文献小点 */}
+                {(docsBy[aid] || []).map((d) => (
+                  <a href={`#${d.eraId}`}
+                     class="ll-doc"
+                     style={`left: ${xp(d.year)}%; background: ${info.color};`}
+                     title={`${d.year}　${d.title}`}>
+                    <span class="sr-only">{d.year}{" "}{d.title}</span>
+                  </a>
+                ))}
+              </div>
+            </>
           ))}
 
-          {/* ★ 关键节点行 */}
-          <div class="lifeline-row relative h-7 mt-2 border-t border-[var(--color-line)] pt-2">
-            <div class="lifeline-label">
-              <span class="font-sans text-xs text-[var(--color-ink-muted)]">★ 节点</span>
-            </div>
+          {/* 行 6：★ 关键节点 */}
+          <div class="ll-label ll-label-key">★ 节点</div>
+          <div class="ll-track ll-track-key">
             {keyPoints.map((ev) => (
               <a href={`#${ev.eraId}`}
-                 class="absolute top-2 hover:scale-125 transition-transform"
-                 style={`left: ${xp(ev.year)}%; transform: translateX(-50%); color: ${lives[ev.author]?.color || "var(--color-accent)"}; font-size: 14px; line-height: 1;`}
+                 class="ll-star"
+                 style={`left: ${xp(ev.year)}%; color: ${lives[ev.author]?.color || "var(--color-accent)"};`}
                  title={`${ev.year}　${lives[ev.author]?.name || ""} · ${ev.title}`}>★</a>
             ))}
           </div>
@@ -360,20 +360,135 @@ function shortName(t: string): string {
 </Base>
 
 <style>
-  /* 总览泳道：左侧标签外伸 */
-  .lifeline-grid { padding-left: 7rem; padding-right: 1.5rem; }
-  .lifeline-label {
-    position: absolute;
-    right: 100%;
-    top: 50%;
-    transform: translateY(-50%);
-    padding-right: 0.75rem;
-    white-space: nowrap;
+  /* 总览泳道：左列名字独立成 grid 列，杜绝首字被裁 */
+  .lifeline-scroll {
+    /* 大屏不滚，避免 Chromium 在 overflow-x:auto 时同步暴露伪 y 滚动条 */
+    overflow: visible;
+  }
+  .lifeline-grid {
+    display: grid;
+    grid-template-columns: 8.5rem 1fr;
+    column-gap: 1.25rem;
+    row-gap: 0.25rem;
+    align-items: center;
+    padding-right: 1rem;
   }
 
-  @media (max-width: 640px) {
-    .lifeline-grid { padding-left: 5.5rem; }
-    .lifeline-label { padding-right: 0.5rem; }
+  .ll-label {
+    text-align: right;
+    white-space: nowrap;
+    font-family: var(--font-sans);
+    line-height: 1.25;
+  }
+  .ll-name {
+    font-size: 0.95rem;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+  }
+  .ll-years {
+    font-size: 0.72rem;
+    color: var(--color-ink-muted);
+    margin-top: 0.1rem;
+  }
+  .ll-label-key {
+    font-size: 0.72rem;
+    color: var(--color-ink-muted);
+    padding-top: 0.6rem;
+    border-top: 1px solid var(--color-line);
+  }
+
+  .ll-track { position: relative; }
+  .ll-track-axis { height: 1.4rem; }
+  .ll-track-life { height: 2.2rem; }
+  .ll-track-key { height: 1.7rem; padding-top: 0.6rem; border-top: 1px solid var(--color-line); }
+
+  /* 年份刻度 */
+  .ll-tick {
+    position: absolute;
+    top: 0.2rem;
+    transform: translateX(-50%);
+    font-family: var(--font-sans);
+    font-size: 0.72rem;
+    color: var(--color-ink-muted);
+    font-variant-numeric: tabular-nums;
+  }
+
+  /* baseline */
+  .ll-baseline {
+    position: absolute;
+    left: 0; right: 0;
+    top: 50%;
+    height: 1px;
+    background: var(--color-line);
+    transform: translateY(-50%);
+  }
+
+  /* 在世实线 */
+  .ll-life {
+    position: absolute;
+    top: 50%;
+    height: 4px;
+    border-radius: 9999px;
+    opacity: 0.7;
+    transform: translateY(-50%);
+  }
+
+  /* 生标 */
+  .ll-birth {
+    position: absolute;
+    top: 50%;
+    width: 11px;
+    height: 11px;
+    border-radius: 9999px;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 0 0 2px var(--color-paper-warm);
+  }
+
+  /* 卒标 × */
+  .ll-death {
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-family: var(--font-sans);
+    font-size: 1rem;
+    line-height: 1;
+    font-weight: 700;
+  }
+
+  /* 文献点 */
+  .ll-doc {
+    position: absolute;
+    top: 50%;
+    width: 8px;
+    height: 8px;
+    border-radius: 9999px;
+    transform: translate(-50%, -50%);
+    opacity: 0.9;
+    transition: transform 0.15s;
+    outline: none;
+  }
+  .ll-doc:hover, .ll-doc:focus-visible { transform: translate(-50%, -50%) scale(2); opacity: 1; }
+
+  /* ★ 节点 */
+  .ll-star {
+    position: absolute;
+    top: 0.6rem;
+    transform: translateX(-50%);
+    font-size: 14px;
+    line-height: 1;
+    transition: transform 0.15s;
+  }
+  .ll-star:hover, .ll-star:focus-visible { transform: translateX(-50%) scale(1.3); }
+
+  /* 窄屏：左列收窄 + 启用横向滚动 */
+  @media (max-width: 720px) {
+    .lifeline-scroll { overflow-x: auto; overflow-y: hidden; }
+    .lifeline-grid {
+      grid-template-columns: 6.5rem 1fr;
+      column-gap: 0.75rem;
+      min-width: 640px;
+    }
+    .ll-name { font-size: 0.9rem; }
   }
 
   /* details 折叠 */
