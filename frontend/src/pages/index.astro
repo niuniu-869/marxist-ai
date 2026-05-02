@@ -1,15 +1,89 @@
 ---
 import Base from "../layouts/Base.astro";
 import indexData from "../../public/data/index.json";
+import marxList from "../../public/data/marx/list.json";
+import engelsList from "../../public/data/engels/list.json";
+import leninList from "../../public/data/lenin/list.json";
+import stalinList from "../../public/data/stalin/list.json";
+import lifeline from "../../public/data/lifeline.json";
 
 const base = import.meta.env.BASE_URL;
 const baseSlash = base.endsWith("/") ? base : base + "/";
+
 const authors = indexData.authors;
 const total = authors.reduce((s: number, a: any) => s + (a.doc_count || 0), 0);
+
+// 文件 id → meta（解析 lifeline 中 doc_file 回到文献页 url）
+const docMap: Record<string, any> = {};
+for (const [aid, list] of [
+  ["marx", marxList],
+  ["engels", engelsList],
+  ["lenin", leninList],
+  ["stalin", stalinList],
+] as const) {
+  for (const it of (list as any).items) {
+    docMap[it.file] = { ...it, authorId: aid };
+  }
+}
+
+// 时间轴范围
+const T_START = 1810;
+const T_END = 1960;
+const T_RANGE = T_END - T_START;
+const xp = (y: number) => ((y - T_START) / T_RANGE) * 100;
+
+// 4 人生命周期 + 配色
+const lives: Record<string, { name: string; born: number; died: number; color: string; bgSoft: string }> = {
+  marx:    { name: "马克思", born: 1818, died: 1883, color: "#b8632e", bgSoft: "rgba(184,99,46,0.12)" },
+  engels:  { name: "恩格斯", born: 1820, died: 1895, color: "#4a6b8a", bgSoft: "rgba(74,107,138,0.12)" },
+  lenin:   { name: "列宁",   born: 1870, died: 1924, color: "#a82a23", bgSoft: "rgba(168,42,35,0.12)" },
+  stalin:  { name: "斯大林", born: 1878, died: 1953, color: "#5c5142", bgSoft: "rgba(92,81,66,0.12)" },
+};
+
+// 把每段 era 的文献按作者拆开，挂到泳道上
+type DocPoint = { year: number; title: string; eraId: string; href: string };
+const docsBy: Record<string, DocPoint[]> = { marx: [], engels: [], lenin: [], stalin: [] };
+for (const era of (lifeline as any).eras) {
+  for (const d of era.documents_in_era || []) {
+    const meta = docMap[d.doc_file];
+    if (!meta) continue;
+    const yi = typeof d.year === "number" ? d.year : parseInt(d.year);
+    if (!yi || yi < T_START) continue;
+    docsBy[d.author]?.push({
+      year: yi,
+      title: d.title,
+      eraId: era.id,
+      href: `${baseSlash}doc/${meta.authorId}/${d.doc_file}/`,
+    });
+  }
+}
+
+// 关键节点 ★（生卒、相遇、革命）
+type KeyPoint = { year: number; author: string; title: string; eraId: string };
+const keyPoints: KeyPoint[] = [];
+for (const era of (lifeline as any).eras) {
+  for (const aid of Object.keys(era.people || {})) {
+    for (const ev of era.people[aid] as any[]) {
+      if (ev.event && /★/.test(ev.event) && ev.year) {
+        keyPoints.push({
+          year: ev.year,
+          author: aid,
+          title: ev.event.replace(/\s*★\s*/g, "").trim(),
+          eraId: era.id,
+        });
+      }
+    }
+  }
+}
+
+// 简短切片导航名（标题 · 之前部分）
+function shortName(t: string): string {
+  return t.split(/[·]/)[0].trim();
+}
 ---
 <Base>
   {/* hero */}
-  <section class="container-prose pt-24 pb-16 text-center">
+  <section class="container-prose pt-20 pb-10 text-center">
     <p class="font-sans text-sm tracking-widest text-[var(--color-ink-muted)] uppercase mb-6">
       a reader for marxist classics, made for everyone
     </p>
@@ -20,30 +94,233 @@ const total = authors.reduce((s: number, a: any) => s + (a.doc_count || 0), 0);
       把 19 世纪的哲学论战，<br/>
       讲成 21 世纪能听懂的话。
     </p>
-    <p class="font-sans text-sm text-[var(--color-ink-muted)] mt-8">
-      已经标注 <span class="text-[var(--color-ink)] font-medium">{total}</span> 篇 · 来自马克思 · 恩格斯 · 列宁 · 斯大林
+    <p class="font-sans text-sm text-[var(--color-ink-muted)] mt-6">
+      {total} 篇文献 · 4 位作者 · 1818 → 1953 共 135 年
     </p>
   </section>
 
-  {/* 4 张作者卡 */}
-  <section class="container-wide pb-24">
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+  {/* 总览泳道 */}
+  <section class="border-y border-[var(--color-line)] bg-[var(--color-paper-warm)] py-10">
+    <div class="container-wide">
+      <h2 class="heading-display text-xl mb-1">总览：1818 → 1953</h2>
+      <p class="text-sm text-[var(--color-ink-muted)] font-sans mb-8">
+        在世（彩色实线） · 文献（小点） · 重大节点（★）。点击下面任意时代切片展开。
+      </p>
+
+      <div class="overflow-x-auto">
+        <div class="lifeline-grid relative" style="min-width: 720px;">
+
+          {/* 年份刻度 */}
+          <div class="lifeline-row relative h-6">
+            {[1810, 1830, 1850, 1870, 1890, 1910, 1930, 1950].map((y) => (
+              <div class="absolute text-xs font-sans text-[var(--color-ink-muted)] tabular-nums"
+                   style={`left: ${xp(y)}%; transform: translateX(-50%);`}>
+                {y}
+              </div>
+            ))}
+          </div>
+
+          {/* 4 条作者带 */}
+          {Object.entries(lives).map(([aid, info]) => (
+            <div class="lifeline-row relative h-9 my-1.5">
+              <div class="lifeline-label">
+                <span class="font-sans text-sm text-[var(--color-ink)] font-medium">{info.name}</span>
+                <span class="font-sans text-xs text-[var(--color-ink-muted)] ml-2 tabular-nums">{info.born}–{info.died}</span>
+              </div>
+
+              {/* 在世实线 */}
+              <div class="absolute top-1/2 h-1 rounded-full"
+                   style={`left: ${xp(info.born)}%; width: ${xp(info.died) - xp(info.born)}%; background: ${info.color}; opacity: 0.55; transform: translateY(-50%);`}></div>
+
+              {/* 生标 */}
+              <div class="absolute top-1/2 w-2.5 h-2.5 rounded-full"
+                   style={`left: ${xp(info.born)}%; background: ${info.color}; transform: translate(-50%, -50%);`}
+                   title={`${info.name} ${info.born} 生`}></div>
+
+              {/* 卒标 */}
+              <div class="absolute top-1/2 font-sans text-base leading-none"
+                   style={`left: ${xp(info.died)}%; color: ${info.color}; transform: translate(-50%, -50%);`}
+                   title={`${info.name} ${info.died} 卒`}>×</div>
+
+              {/* 文献小点 */}
+              {(docsBy[aid] || []).map((d) => (
+                <a href={`#${d.eraId}`}
+                   class="absolute top-1/2 w-2 h-2 rounded-full transition-transform hover:scale-[2] focus-visible:scale-[2] outline-none"
+                   style={`left: ${xp(d.year)}%; background: ${info.color}; transform: translate(-50%, -50%); opacity: 0.85;`}
+                   title={`${d.year}　${d.title}`}>
+                  <span class="sr-only">{d.year}{" "}{d.title}</span>
+                </a>
+              ))}
+            </div>
+          ))}
+
+          {/* ★ 关键节点行 */}
+          <div class="lifeline-row relative h-7 mt-2 border-t border-[var(--color-line)] pt-2">
+            <div class="lifeline-label">
+              <span class="font-sans text-xs text-[var(--color-ink-muted)]">★ 节点</span>
+            </div>
+            {keyPoints.map((ev) => (
+              <a href={`#${ev.eraId}`}
+                 class="absolute top-2 hover:scale-125 transition-transform"
+                 style={`left: ${xp(ev.year)}%; transform: translateX(-50%); color: ${lives[ev.author]?.color || "var(--color-accent)"}; font-size: 14px; line-height: 1;`}
+                 title={`${ev.year}　${lives[ev.author]?.name || ""} · ${ev.title}`}>★</a>
+            ))}
+          </div>
+        </div>
+      </div>
+
+      {/* 时代切片导航 */}
+      <div class="mt-8 flex flex-wrap gap-2">
+        {(lifeline as any).eras.map((era: any) => (
+          <a href={`#${era.id}`}
+             class="text-xs font-sans px-3 py-1.5 rounded border border-[var(--color-line)] bg-[var(--color-paper)] hover:border-[var(--color-accent)] hover:text-[var(--color-accent)] transition-colors">
+            <span class="tabular-nums">{era.year_start}–{era.year_end}</span>　{shortName(era.title)}
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  {/* 13 段切片：折叠 */}
+  <section class="container-prose py-16">
+    <h2 class="heading-display text-2xl mb-8 accent-rule">编年三轨：世界 · 思想 · 著作</h2>
+
+    {(lifeline as any).eras.map((era: any) => (
+      <details id={era.id} class="era-details mb-4 border border-[var(--color-line)] rounded-md bg-white scroll-mt-6">
+        <summary class="era-summary cursor-pointer p-6 hover:bg-[var(--color-paper-warm)] transition-colors rounded-md">
+          <div class="flex items-baseline justify-between gap-4 mb-2 flex-wrap">
+            <h3 class="heading-display text-2xl">{era.title}</h3>
+            <span class="font-sans text-sm text-[var(--color-ink-muted)] tabular-nums shrink-0">
+              {era.year_start}–{era.year_end}
+            </span>
+          </div>
+          <p class="text-base text-[var(--color-ink-soft)] leading-relaxed">{era.tldr}</p>
+          <p class="font-sans text-xs text-[var(--color-ink-muted)] mt-3">
+            {(era.world_events || []).length} 件世界大事 · {(era.intellectual_battles || []).length} 场思想战 · {(era.documents_in_era || []).length} 篇当期文献　<span class="era-toggle-hint">展开 ▾</span>
+          </p>
+        </summary>
+
+        <div class="px-6 pb-8 space-y-10 border-t border-[var(--color-line)] pt-6">
+          {/* 世界 */}
+          {(era.world_events || []).length > 0 && (
+            <div>
+              <h4 class="heading-display text-sm mb-5 text-[var(--color-ink-muted)] tracking-[0.18em] uppercase">世界发生了什么</h4>
+              <div class="space-y-5">
+                {era.world_events.map((ev: any) => (
+                  <div class="border-l-2 border-[var(--color-line)] pl-4">
+                    <div class="flex items-baseline gap-3 flex-wrap">
+                      <span class="font-sans text-xs text-[var(--color-ink-muted)] tabular-nums shrink-0">{ev.date}</span>
+                      {ev.place && <span class="font-sans text-xs text-[var(--color-ink-muted)]">{ev.place}</span>}
+                      <span class="font-medium text-[var(--color-ink)]">{ev.title}</span>
+                    </div>
+                    {ev.blurb && <p class="text-[15px] text-[var(--color-ink-soft)] leading-relaxed mt-2">{ev.blurb}</p>}
+                  </div>
+                ))}
+              </div>
+            </div>
+          )}
+
+          {/* 思想战场 */}
+          {(era.intellectual_battles || []).length > 0 && (
+            <div>
+              <h4 class="heading-display text-sm mb-5 text-[var(--color-ink-muted)] tracking-[0.18em] uppercase">思想战场</h4>
+              <div class="space-y-5">
+                {era.intellectual_battles.map((b: any) => (
+                  <div class="border-l-2 border-[var(--color-accent)] pl-4">
+                    <div class="flex items-baseline gap-3 flex-wrap">
+                      <span class="font-sans text-xs text-[var(--color-ink-muted)] tabular-nums">
+                        {b.year}{b.month ? `·${b.month}` : ""}{b.day ? `·${b.day}` : ""}
+                      </span>
+                      {b.actor && <span class="font-sans text-xs text-[var(--color-ink-muted)]">{b.actor}</span>}
+                      {b.place && <span class="font-sans text-xs text-[var(--color-ink-muted)]">{b.place}</span>}
+                      <span class="font-medium text-[var(--color-ink)]">{b.title}</span>
+                    </div>
+                    {b.blurb && <p class="text-[15px] text-[var(--color-ink-soft)] leading-relaxed mt-2">{b.blurb}</p>}
+                  </div>
+                ))}
+              </div>
+            </div>
+          )}
+
+          {/* 4 人位置 */}
+          {era.people && Object.values(era.people).some((v: any) => (v as any[]).length > 0) && (
+            <div>
+              <h4 class="heading-display text-sm mb-5 text-[var(--color-ink-muted)] tracking-[0.18em] uppercase">他们此时在哪</h4>
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                {Object.entries(era.people).filter(([, evts]: any) => (evts as any[]).length > 0).map(([aid, evts]: any) => (
+                  <div class="rounded p-4 border border-[var(--color-line)] border-l-4"
+                       style={`border-left-color: ${lives[aid]?.color}; background: ${lives[aid]?.bgSoft}`}>
+                    <div class="font-sans font-medium text-sm mb-3" style={`color: ${lives[aid]?.color}`}>
+                      {lives[aid]?.name}
+                    </div>
+                    <ul class="space-y-3">
+                      {(evts as any[]).map((ev: any) => (
+                        <li class="text-sm leading-relaxed">
+                          <div class="flex items-baseline gap-2 flex-wrap">
+                            <span class="font-sans text-xs text-[var(--color-ink-muted)] tabular-nums shrink-0">
+                              {ev.year}{ev.month ? `·${ev.month}` : ""}{ev.day ? `·${ev.day}` : ""}
+                            </span>
+                            {ev.place && <span class="font-sans text-xs text-[var(--color-ink-muted)]">{ev.place}</span>}
+                            <span class="text-[var(--color-ink)]">{ev.event}</span>
+                          </div>
+                          {ev.blurb && <p class="text-[var(--color-ink-soft)] mt-1 text-xs leading-relaxed">{ev.blurb}</p>}
+                          {ev.doc_file && docMap[ev.doc_file] && (
+                            <a href={`${baseSlash}doc/${docMap[ev.doc_file].authorId}/${ev.doc_file}/`}
+                               class="inline-block mt-1.5 text-xs font-sans text-[var(--color-accent)] hover:underline">
+                              → {docMap[ev.doc_file].title}
+                            </a>
+                          )}
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                ))}
+              </div>
+            </div>
+          )}
+
+          {/* 文献 */}
+          {(era.documents_in_era || []).length > 0 && (
+            <div>
+              <h4 class="heading-display text-sm mb-5 text-[var(--color-ink-muted)] tracking-[0.18em] uppercase">当期文献</h4>
+              <ul class="space-y-2">
+                {era.documents_in_era.map((d: any) => (
+                  <li>
+                    <a href={`${baseSlash}doc/${d.author}/${d.doc_file}/`}
+                       class="block p-4 -mx-4 hover:bg-[var(--color-paper-warm)] rounded transition-colors group">
+                      <div class="flex items-baseline gap-3 flex-wrap mb-1">
+                        <span class="font-sans text-xs text-[var(--color-ink-muted)] tabular-nums shrink-0">{d.year}</span>
+                        <span class="font-sans text-xs px-1.5 py-0.5 rounded"
+                              style={`color: ${lives[d.author]?.color}; background: ${lives[d.author]?.bgSoft};`}>
+                          {lives[d.author]?.name}
+                        </span>
+                        <span class="font-medium text-[var(--color-ink)] group-hover:text-[var(--color-accent)] transition-colors">{d.title}</span>
+                      </div>
+                      {d.context && <p class="text-sm text-[var(--color-ink-soft)] leading-relaxed">{d.context}</p>}
+                      {d.evidence && <p class="font-sans text-xs text-[var(--color-ink-muted)] mt-1">✓ {d.evidence}</p>}
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )}
+        </div>
+      </details>
+    ))}
+  </section>
+
+  {/* 4 张作者卡（副入口） */}
+  <section class="container-wide py-12 border-t border-[var(--color-line)]">
+    <h2 class="heading-display text-xl mb-6">按人翻阅</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
       {authors.map((a: any) => (
         <a href={`${baseSlash}author/${a.id}/`} class="card block group">
-          <div class="flex items-baseline justify-between mb-3">
-            <h2 class="heading-display text-3xl">{a.name}</h2>
-            <span class="font-sans text-xs text-[var(--color-ink-muted)]">{a.lifespan}</span>
-          </div>
-          <p class="font-sans text-xs text-[var(--color-ink-muted)] mb-4 tracking-wide">{a.name_en}</p>
-          <p class="text-base text-[var(--color-ink-soft)] leading-relaxed mb-5">{a.intro}</p>
-          <div class="flex items-center justify-between pt-4 border-t border-[var(--color-line)]">
-            <span class="font-sans text-sm text-[var(--color-ink-muted)]">
-              代表作：{(a.key_works || []).slice(0,2).join(" · ")}
-            </span>
-            <span class="font-sans text-sm font-medium text-[var(--color-accent)] group-hover:translate-x-1 transition-transform inline-block">
-              {a.doc_count} 篇 →
-            </span>
-          </div>
+          <h3 class="heading-display text-2xl mb-1">{a.name}</h3>
+          <p class="font-sans text-xs text-[var(--color-ink-muted)] mb-3 tracking-wide">{a.lifespan}</p>
+          <p class="text-sm text-[var(--color-ink-soft)] leading-relaxed mb-3 line-clamp-3">{a.intro}</p>
+          <span class="font-sans text-sm font-medium text-[var(--color-accent)] group-hover:translate-x-1 transition-transform inline-block">
+            {a.doc_count} 篇 →
+          </span>
         </a>
       ))}
     </div>
@@ -81,3 +358,49 @@ const total = authors.reduce((s: number, a: any) => s + (a.doc_count || 0), 0);
     </div>
   </section>
 </Base>
+
+<style>
+  /* 总览泳道：左侧标签外伸 */
+  .lifeline-grid { padding-left: 7rem; padding-right: 1.5rem; }
+  .lifeline-label {
+    position: absolute;
+    right: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+    padding-right: 0.75rem;
+    white-space: nowrap;
+  }
+
+  @media (max-width: 640px) {
+    .lifeline-grid { padding-left: 5.5rem; }
+    .lifeline-label { padding-right: 0.5rem; }
+  }
+
+  /* details 折叠 */
+  .era-details > .era-summary { list-style: none; }
+  .era-details > .era-summary::-webkit-details-marker { display: none; }
+  .era-details[open] > .era-summary {
+    background: var(--color-paper-warm);
+    border-bottom: 1px solid var(--color-line);
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+  .era-details[open] > .era-summary .era-toggle-hint::after { content: " ▴"; }
+  .era-details[open] > .era-summary .era-toggle-hint { display: none; }
+  .era-details[open] > .era-summary::after {
+    content: "▴ 收起";
+    display: inline-block;
+    margin-left: 0.5rem;
+    font-size: 0.75rem;
+    color: var(--color-ink-muted);
+    font-family: var(--font-sans);
+  }
+
+  /* line-clamp 3 */
+  .line-clamp-3 {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+</style>
